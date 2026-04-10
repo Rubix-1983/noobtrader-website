@@ -696,11 +696,50 @@
       background-clip: text;
     }
 
-    @media (max-width: 480px) {
-      .hero-stats { gap: 20px; }
-      .stat-value { font-size: 20px; }
+    @media (max-width: 768px) {
+      .hero { padding: 80px 16px 40px; min-height: auto; }
+      .hero-logo { width: min(260px, 70vw); margin-bottom: 20px; }
+      .hero-tagline { font-size: 20px; margin-bottom: 8px; }
+      .hero-sub { font-size: 14px; margin-bottom: 24px; }
+      .hero-buttons { gap: 10px; margin-bottom: 24px; }
+      .btn-primary, .btn-outline { padding: 12px 20px; font-size: 14px; }
+      .hero-stats { gap: 12px; }
+      .stat-value { font-size: 18px; }
+      .stat-label { font-size: 10px; }
+      section { padding: 48px 16px; }
+      .section-title { font-size: 24px; }
+      .section-desc { font-size: 14px; margin-bottom: 28px; }
+      .features-grid { grid-template-columns: 1fr; gap: 12px; }
+      .feature-card { padding: 20px; }
+      .feature-card h3 { font-size: 16px; }
+      .feature-card p { font-size: 13px; }
+      .steps { grid-template-columns: 1fr; gap: 12px; }
+      .step-card { padding: 24px 20px; }
       .phone-frame { width: 180px; height: 376px; }
-      .download-btn { padding: 14px 28px; font-size: 16px; }
+      .phone-scroll { gap: 16px; }
+      .download-box { padding: 32px 20px; }
+      .download-btn { padding: 14px 24px; font-size: 15px; }
+      .footer-links { gap: 16px; }
+    }
+
+    @media (max-width: 480px) {
+      .hero { padding: 72px 12px 32px; }
+      .hero-logo { width: min(220px, 65vw); margin-bottom: 16px; }
+      .hero-tagline { font-size: 18px; }
+      .hero-sub { font-size: 13px; margin-bottom: 20px; }
+      .hero-buttons { flex-direction: column; align-items: center; gap: 8px; }
+      .btn-primary, .btn-outline { width: 100%; max-width: 280px; justify-content: center; padding: 12px 16px; font-size: 14px; }
+      .hero-stats { gap: 8px; }
+      .stat { min-width: 60px; }
+      .stat-value { font-size: 16px; }
+      .stat-label { font-size: 9px; letter-spacing: 0; }
+      .phone-frame { width: 160px; height: 334px; border-radius: 24px; }
+      .phone-frame::before { width: 60px; height: 16px; }
+      .download-btn { padding: 12px 20px; font-size: 14px; width: 100%; max-width: 280px; justify-content: center; }
+      .download-box { padding: 24px 16px; border-radius: 16px; }
+      .navbar { padding: 0 12px; height: 56px; }
+      .nav-brand { font-size: 15px; gap: 8px; }
+      .nav-brand img { width: 30px; height: 30px; }
     }
   </style>
 </head>
@@ -735,8 +774,8 @@
       </a>
       <a href="#features" class="btn-outline">Learn More</a>
     </div>
-    <div style="margin-top: 12px;">
-      <a href="./app/" style="display: inline-flex; align-items: center; gap: 8px; padding: 12px 24px; border-radius: 12px; background: linear-gradient(135deg, #a78bfa, #7c3aed); color: #fff; text-decoration: none; font-weight: 700; font-size: 15px; transition: transform 0.2s;">
+    <div style="margin-top: 12px; width: 100%; max-width: 280px;">
+      <a href="./app/" style="display: flex; align-items: center; justify-content: center; gap: 8px; padding: 12px 20px; border-radius: 12px; background: linear-gradient(135deg, #a78bfa, #7c3aed); color: #fff; text-decoration: none; font-weight: 700; font-size: 14px; transition: transform 0.2s; width: 100%;">
         🌐 Use Web App (iPhone & Desktop)
       </a>
       <p style="font-size: 11px; color: #8892b0; margin-top: 6px;">No download needed — works in any browser</p>
