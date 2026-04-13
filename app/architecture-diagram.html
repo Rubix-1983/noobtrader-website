@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NoobTrader — Architecture Diagram</title>
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: #0d1117;
+      color: #e6edf3;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, monospace;
+      min-height: 100vh;
+    }
+
+    header {
+      background: #161b22;
+      border-bottom: 1px solid #30363d;
+      padding: 18px 32px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    header h1 {
+      font-size: 20px;
+      font-weight: 700;
+      color: #58a6ff;
+      letter-spacing: -0.3px;
+    }
+
+    header span {
+      font-size: 13px;
+      color: #8b949e;
+      background: #21262d;
+      border: 1px solid #30363d;
+      border-radius: 20px;
+      padding: 3px 10px;
+    }
+
+    .legend {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      padding: 16px 32px;
+      background: #161b22;
+      border-bottom: 1px solid #30363d;
+    }
+
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      font-size: 12px;
+      color: #8b949e;
+    }
+
+    .legend-dot {
+      width: 12px;
+      height: 12px;
+      border-radius: 3px;
+      flex-shrink: 0;
+    }
+
+    .diagram-wrapper {
+      padding: 32px;
+      overflow: auto;
+    }
+
+    .section {
+      margin-bottom: 48px;
+    }
+
+    .section-title {
+      font-size: 14px;
+      font-weight: 600;
+      color: #8b949e;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid #21262d;
+    }
+
+    .mermaid {
+      background: #161b22;
+      border: 1px solid #30363d;
+      border-radius: 12px;
+      padding: 24px;
+      overflow: auto;
+    }
+
+    .meta-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 20px;
+    }
+
+    .meta-card {
+      background: #161b22;
+      border: 1px solid #30363d;
+      border-radius: 10px;
+      padding: 18px;
+    }
+
+    .meta-card h3 {
+      font-size: 13px;
+      font-weight: 600;
+      color: #58a6ff;
+      margin-bottom: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .meta-card table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 12px;
+    }
+
+    .meta-card th {
+      text-align: left;
+      color: #8b949e;
+      padding: 4px 8px 4px 0;
+      font-weight: 500;
+      border-bottom: 1px solid #21262d;
+    }
+
+    .meta-card td {
+      padding: 5px 8px 5px 0;
+      color: #e6edf3;
+      vertical-align: top;
+      border-bottom: 1px solid #21262d;
+    }
+
+    .meta-card td:first-child { color: #79c0ff; font-family: monospace; }
+
+    .meta-card ul {
+      list-style: none;
+      font-size: 12px;
+    }
+
+    .meta-card ul li {
+      padding: 4px 0;
+      color: #e6edf3;
+      border-bottom: 1px solid #21262d;
+    }
+
+    .meta-card ul li:last-child { border-bottom: none; }
+
+    .meta-card ul li code {
+      color: #79c0ff;
+      font-family: monospace;
+      font-size: 11px;
+    }
+
+    .badge {
+      display: inline-block;
+      font-size: 10px;
+      padding: 1px 6px;
+      border-radius: 10px;
+      margin-left: 6px;
+      font-weight: 600;
+    }
+
+    .badge-green  { background: #1f4f27; color: #56d364; }
+    .badge-blue   { background: #1c2f57; color: #58a6ff; }
+    .badge-orange { background: #4a2b00; color: #f0883e; }
+    .badge-purple { background: #2e1b4e; color: #bc8cff; }
+    .badge-red    { background: #4d1818; color: #ff7b72; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>NoobTrader — Architecture</h1>
+  <span>React 18 + Vite</span>
+  <span>Supabase</span>
+  <span>Capacitor 8</span>
+  <span>Express on Render</span>
+  <span>v1.0.0</span>
+</header>
+
+<div class="legend">
+  <div class="legend-item"><div class="legend-dot" style="background:#1c2f57;border:1px solid #58a6ff"></div> Screen</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#1f4f27;border:1px solid #56d364"></div> Component</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#2e1b4e;border:1px solid #bc8cff"></div> Service / Hook</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#4a2b00;border:1px solid #f0883e"></div> Constants / Utils</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#4d1818;border:1px solid #ff7b72"></div> Backend / External</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#1f3a3a;border:1px solid #39d353"></div> Database Table</div>
+</div>
+
+<div class="diagram-wrapper">
+
+  <!-- ═══════════════════ SECTION 1: APP NAVIGATION FLOW ═══════════════════ -->
+  <div class="section">
+    <div class="section-title">1 — App Navigation &amp; Screen Map</div>
+    <div class="mermaid">
+graph TD
+    ENTRY["🚀 main.jsx\nReactDOM.createRoot"] --> APP
+
+    subgraph APP["App.jsx — Root State & Router"]
+        direction TB
+        AUTH_CHECK{{"Supabase\nauth.onAuthStateChange"}}
+        AUTH_CHECK -->|"not signed in"| AUTH_SCREEN
+        AUTH_CHECK -->|"signed in"| TABBAR
+
+        subgraph TABBAR["TabBar — 5 Tab Navigation"]
+            direction LR
+            T1["🏠 Home"]
+            T2["📈 Market"]
+            T3["🏆 Compete"]
+            T4["📚 Learn"]
+            T5["👤 Profile"]
+        end
+
+        T1 --> HOME
+        T2 --> MARKET
+        T3 --> COMPETE
+        T4 --> LEARN
+        T5 --> PROFILE
+    end
+
+    AUTH_SCREEN["AuthScreen\nEmail/OTP Login"]
+
+    subgraph MAIN_SCREENS["Main Screens"]
+        HOME["HomeScreen\nPortfolio · Holdings · Wallet · Sparklines"]
+        MARKET["MarketScreen\n5 Tabs: Local · Global · Forex · Crypto · Commodities"]
+        COMPETE["CompeteScreen\nJoin · Standings · Competition Portfolio"]
+        LEARN["LearnScreen\n20+ Lessons · Quizzes · 21 Countries"]
+        PROFILE["ProfileScreen\nAura · Badges · Level/XP · Milestones"]
+    end
+
+    subgraph SECONDARY_SCREENS["Secondary Screens (pushed from main screens)"]
+        STOCK["StockDetailScreen\nChart · Buy/Sell · Pending Orders"]
+        AURA_CV["AuraConvertScreen\nConvert Aura → NT Tokens"]
+        FRIENDS["FriendsScreen\nFriends · Social Leaderboard"]
+        ROYALE["RoyaleScreen\nBattle Royale Mode"]
+        HELP["HelpScreen\nFAQ (Localised) · Support"]
+        SETTINGS["SettingsScreen\nTheme · Language · Country"]
+    end
+
+    subgraph PROFILE_SCREENS["Profile Sub-screens"]
+        NOTIFS["NotificationsScreen\nUser + School Alerts"]
+        PRIVACY["PrivacyScreen\nPrivacy Toggles"]
+        REPORTS["ReportsScreen\nPerformance Analytics"]
+        TXN_HIST["TransactionHistoryScreen\nFull Trade Log"]
+    end
+
+    subgraph SCHOOL_SCREENS["School Module (feature/school-*)"]
+        SCHOOL_DASH["SchoolDashboardScreen\nFixtures · Standings · Trophies"]
+        SCHOOL_COMPETE["SchoolCompeteScreen\nSchool Competition Arena"]
+        STUDENT_JOIN["StudentJoinScreen\nStudent Joins School"]
+        TEACHER_SETUP["TeacherSetupScreen\nTeacher Configures School"]
+    end
+
+    subgraph LEGAL_SCREENS["Legal Screens"]
+        DISCLAIMER["DisclaimerScreen"]
+        PRIVACY_POL["PrivacyPolicyScreen"]
+        TERMS["TermsScreen"]
+    end
+
+    MARKET --> STOCK
+    HOME --> STOCK
+    PROFILE --> AURA_CV
+    PROFILE --> FRIENDS
+    PROFILE --> NOTIFS
+    PROFILE --> PRIVACY
+    PROFILE --> REPORTS
+    PROFILE --> TXN_HIST
+    COMPETE --> ROYALE
+    COMPETE --> SCHOOL_COMPETE
+    HOME --> SETTINGS
+    HOME --> HELP
+    SCHOOL_DASH --> SCHOOL_COMPETE
+    COMPETE --> SCHOOL_DASH
+    COMPETE --> STUDENT_JOIN
+    COMPETE --> TEACHER_SETUP
+
+    style APP fill:#161b22,stroke:#58a6ff,color:#e6edf3
+    style TABBAR fill:#21262d,stroke:#58a6ff,color:#e6edf3
+    style MAIN_SCREENS fill:#1c2f57,stroke:#388bfd,color:#e6edf3
+    style SECONDARY_SCREENS fill:#1c2f57,stroke:#388bfd,color:#c8d1da
+    style PROFILE_SCREENS fill:#1c2f57,stroke:#388bfd,color:#c8d1da
+    style SCHOOL_SCREENS fill:#1c354f,stroke:#f0883e,color:#e6edf3
+    style LEGAL_SCREENS fill:#21262d,stroke:#30363d,color:#8b949e
+    </div>
+  </div>
+
+  <!-- ═══════════════════ SECTION 2: COMPONENT ARCHITECTURE ═══════════════════ -->
+  <div class="section">
+    <div class="section-title">2 — Component &amp; State Architecture</div>
+    <div class="mermaid">
+graph TD
+    subgraph STATE["App.jsx — Global State (React useState)"]
+        direction LR
+        S1["user\nsession"]
+        S2["portfolio\nholdings\ncash"]
+        S3["pendingOrders\norderHistory"]
+        S4["screen\nsubScreen\nprevScreen"]
+        S5["isDark\ncountry\nlanguage"]
+        S6["aura\nlevel\nxp\nbadges"]
+        S7["jseStocks\nglobalStocks\nforex\ncrypto\ncommodities\nexchangeStocksCache"]
+        S8["competitions\ncurrentComp\ncompPortfolio"]
+        S9["schoolData\nschoolNotifs"]
+    end
+
+    subgraph SHARED_COMPONENTS["src/components/ — Shared UI"]
+        direction TB
+        TABBAR_C["TabBar\nProps: screen, onNavigate, t, unreadCount"]
+        SUBHDR["SubScreenHeader\nProps: title, onBack, t"]
+        AURA_RING["AuraRing\nProps: progress, size, strokeWidth, t\nSVG circular ring animation"]
+        THEME_TOG["ThemeToggle\nProps: isDark, onToggle, t\nSun ↔ Moon icon"]
+        TOG_SW["ToggleSwitch\nProps: on, onToggle, t\niOS-style pill toggle"]
+        SPARK["SparkPrice\nProps: symbol, t\nFetches + renders 7-day sparkline"]
+        COUNTRY_PK["CountryPicker\nProps: value, onChange, t\n21 countries"]
+        COMPOUND["CompoundCalc\nProps: t\nCompound interest tool"]
+        AD_COMP["AdComponents\nDisabled (future AdMob/AdSense)"]
+    end
+
+    STATE --> TABBAR_C
+    STATE --> AURA_RING
+    STATE --> THEME_TOG
+    STATE --> SPARK
+    STATE --> COUNTRY_PK
+
+    subgraph HOOKS["src/hooks/"]
+        USE_SCHOOL["useSchoolData\nFetches school, students,\nfixtures, standings from Supabase"]
+        USE_NOTIFS["useSchoolNotifications\nPolls notifications table,\nmarks read, dismiss"]
+    end
+
+    subgraph UTILS["src/utils/"]
+        FMT["formatters.js\nformatCurrency(val, currency)\nformatPercent(val)\nformatNumber(val)"]
+        MKT_HRS["marketHours.js\nisMarketOpen(assetType)\ngetMarketLabel(assetType)\nJSE 9-17 · Global 14:30-21\nForex/Comm 24/5 · Crypto 24/7"]
+    end
+
+    USE_SCHOOL --> S9
+    USE_NOTIFS --> S9
+
+    style STATE fill:#21262d,stroke:#58a6ff,color:#e6edf3
+    style SHARED_COMPONENTS fill:#1f4f27,stroke:#56d364,color:#e6edf3
+    style HOOKS fill:#2e1b4e,stroke:#bc8cff,color:#e6edf3
+    style UTILS fill:#4a2b00,stroke:#f0883e,color:#e6edf3
+    </div>
+  </div>
+
+  <!-- ═══════════════════ SECTION 3: SERVICES & DATA FLOW ═══════════════════ -->
+  <div class="section">
+    <div class="section-title">3 — Services &amp; Data Flow</div>
+    <div class="mermaid">
+graph LR
+    subgraph FRONTEND["Frontend (React — Browser / Android WebView)"]
+        APP_STATE["App.jsx\nGlobal State"]
+
+        subgraph SERVICES["src/services/"]
+            SUPA_SVC["supabase.js\ncreateClient(VITE_SUPABASE_URL,\nVITE_SUPABASE_ANON_KEY)\nexport supabase, _SUPA_READY"]
+            XRATE_SVC["exchangeRateApi.js\nfetchExchangeRate()\n→ {usdZar, ntUsd, ntZar}"]
+            MKT_SVC["marketApi.js\nfetchPrice(symbol)\nfetchSparkline(symbol)\nfetchMarketList(category)"]
+        end
+    end
+
+    subgraph BACKEND["Backend — Express 5 on Render.com\nhttps://noob-trader.onrender.com"]
+        direction TB
+        XRATE_EP["GET /api/exchange-rate\nReturns USD/ZAR + NT rates"]
+        PRICE_EP["GET /api/price/:symbol\nSingle stock quote"]
+        SPARK_EP["GET /api/sparkline/:symbol\n7-day OHLCV data"]
+        MKT_EP["GET /api/market/:category\nBulk prices for category"]
+    end
+
+    subgraph SUPABASE["Supabase (Postgres + Auth + Realtime)"]
+        direction TB
+        SUPA_AUTH["Auth\nEmail OTP\nonAuthStateChange()"]
+        SUPA_DB["Database\nPostgres Tables"]
+        SUPA_RT["Realtime\nNotifications channel"]
+    end
+
+    subgraph YAHOO["External Market Data"]
+        YF["yahoo-finance2\nServer-side only\nNever called from browser"]
+    end
+
+    APP_STATE --> SUPA_SVC
+    APP_STATE --> XRATE_SVC
+    APP_STATE --> MKT_SVC
+
+    XRATE_SVC -->|"HTTP GET"| XRATE_EP
+    MKT_SVC -->|"HTTP GET"| PRICE_EP
+    MKT_SVC -->|"HTTP GET"| SPARK_EP
+    MKT_SVC -->|"HTTP GET"| MKT_EP
+
+    XRATE_EP --> YF
+    PRICE_EP --> YF
+    SPARK_EP --> YF
+    MKT_EP --> YF
+
+    SUPA_SVC --> SUPA_AUTH
+    SUPA_SVC --> SUPA_DB
+    SUPA_SVC --> SUPA_RT
+
+    style FRONTEND fill:#161b22,stroke:#58a6ff,color:#e6edf3
+    style SERVICES fill:#2e1b4e,stroke:#bc8cff,color:#e6edf3
+    style BACKEND fill:#4d1818,stroke:#ff7b72,color:#e6edf3
+    style SUPABASE fill:#1f3a3a,stroke:#39d353,color:#e6edf3
+    style YAHOO fill:#21262d,stroke:#30363d,color:#8b949e
+    </div>
+  </div>
+
+  <!-- ═══════════════════ SECTION 4: CONSTANTS & CONFIG ═══════════════════ -->
+  <div class="section">
+    <div class="section-title">4 — Constants &amp; Configuration</div>
+    <div class="mermaid">
+graph TD
+    subgraph CONSTANTS["src/constants/"]
+        direction TB
+
+        THEMES["themes.js\nlight / dark token objects\n{ bg, surface, text, accent,\n  border, aura, yellow, blue }"]
+
+        STOCKS_C["stocks.js\nJSE stock universe list\n{ symbol, name, sector }"]
+
+        LEVELS["levels.js\nXP thresholds per level\nLevel 1–50 progression table"]
+
+        LESSON_DATA["lessonData.js\n20+ lessons × 21 countries\nLocalized: examples, exchange,\ncurrency, brokers, ETFs,\nsector breakdowns, quizzes"]
+
+        ROYALE_C["royale.js\nBattle Royale config\nElimination rules, round timing,\nprize structure"]
+
+        SCHOOL_C["school.js\nSchool feature config\nFixture engine rules,\ntrophy definitions:\nprovincial_champ · win_streak_5\nperfect_week · giant_killer\nnational_top10 · global_top50"]
+
+        FEES["fees.js\nFEE_RATES = {\n  jse: 0.007,\n  global: 0.005,\n  forex: 0.0005,\n  crypto: 0.006,\n  exchange: 0.005,\n  commodity: 0.004\n}"]
+
+        LANGS["languages.js\ni18n string map\nEnglish + localised strings"]
+
+        COUNTRY_CTX["countryContext.js\nPer-country data:\n{ exchange, currency, brokers,\n  etfs, sectors } × 21 countries"]
+
+        ADS["ads.js\nAD_CONFIG {\n  enabled: false,\n  bannerSlot, interstitialSlot,\n  rewardedSlot,\n  showAfterTrades: 999,\n  rewardAura: 50\n}"]
+    end
+
+    FEES -->|"used by"| FEE_USAGE["StockDetailScreen\nRoyaleScreen\nApp order execution\nCompeteScreen"]
+
+    LESSON_DATA -->|"21 countries\ndynamic content"| LEARN_USAGE["LearnScreen\nQuizzes\nHelpScreen"]
+
+    COUNTRY_CTX -->|"local exchange tab\ndynamic per user"| MARKET_USAGE["MarketScreen\nHomeScreen\nSettingsScreen"]
+
+    SCHOOL_C -->|"fixture engine\ntrophy SQL functions"| SCHOOL_USAGE["SchoolDashboardScreen\nSupabase DB Functions"]
+
+    style CONSTANTS fill:#4a2b00,stroke:#f0883e,color:#e6edf3
+    style FEE_USAGE fill:#21262d,stroke:#30363d,color:#8b949e
+    style LEARN_USAGE fill:#21262d,stroke:#30363d,color:#8b949e
+    style MARKET_USAGE fill:#21262d,stroke:#30363d,color:#8b949e
+    style SCHOOL_USAGE fill:#21262d,stroke:#30363d,color:#8b949e
+    </div>
+  </div>
+
+  <!-- ═══════════════════ SECTION 5: DATABASE SCHEMA ═══════════════════ -->
+  <div class="section">
+    <div class="section-title">5 — Database Schema (Supabase / Postgres)</div>
+    <div class="mermaid">
+erDiagram
+    users {
+        uuid id PK
+        string email
+        string display_name
+        float nt_balance
+        int aura_score
+        string country
+        string language
+        int level
+        int xp
+        timestamp created_at
+    }
+
+    portfolios {
+        uuid id PK
+        uuid user_id FK
+        uuid competition_id FK
+        jsonb holdings
+        float cash_balance
+        timestamp updated_at
+    }
+
+    trades {
+        uuid id PK
+        uuid user_id FK
+        uuid competition_id FK
+        string symbol
+        string asset_type
+        string side
+        float qty
+        float price
+        float fee
+        timestamp executed_at
+    }
+
+    competitions {
+        uuid id PK
+        string name
+        string type
+        float prize_pool
+        timestamp start_date
+        timestamp end_date
+    }
+
+    competition_entries {
+        uuid competition_id FK
+        uuid user_id FK
+        uuid portfolio_id FK
+        int rank
+        float return_pct
+    }
+
+    schools {
+        uuid id PK
+        string name
+        uuid teacher_id FK
+        string country
+        timestamp created_at
+    }
+
+    school_students {
+        uuid school_id FK
+        uuid user_id FK
+        timestamp joined_at
+    }
+
+    fixtures {
+        uuid id PK
+        uuid school_id FK
+        int week
+        uuid home_id FK
+        uuid away_id FK
+        uuid winner_id FK
+        jsonb scores
+    }
+
+    standings {
+        uuid school_id FK
+        uuid user_id FK
+        int wins
+        int losses
+        float return_pct
+        jsonb trophies
+    }
+
+    notifications {
+        uuid id PK
+        uuid user_id FK
+        uuid school_id FK
+        string type
+        string message
+        boolean read
+        timestamp created_at
+    }
+
+    badges {
+        uuid id PK
+        uuid user_id FK
+        string badge_type
+        timestamp awarded_at
+    }
+
+    users ||--o{ portfolios : "owns"
+    users ||--o{ trades : "executes"
+    users ||--o{ competition_entries : "enters"
+    users ||--o{ school_students : "joins"
+    users ||--o{ notifications : "receives"
+    users ||--o{ badges : "earns"
+    competitions ||--o{ competition_entries : "has"
+    competitions ||--o{ trades : "contains"
+    portfolios ||--o{ trades : "records"
+    schools ||--o{ school_students : "enrolls"
+    schools ||--o{ fixtures : "hosts"
+    schools ||--o{ standings : "tracks"
+    </div>
+  </div>
+
+  <!-- ═══════════════════ SECTION 6: COMPETITION SYSTEM ═══════════════════ -->
+  <div class="section">
+    <div class="section-title">6 — Competition System Flow</div>
+    <div class="mermaid">
+flowchart TD
+    subgraph COMP_TYPES["Competition Types"]
+        direction LR
+        REG["Regular Compete\nTime-limited\nRanked by return %"]
+        ROY["Battle Royale\nElimination rounds\nLast trader standing"]
+        SCHOOL["School Competition\nWeekly fixtures\nHead-to-head"]
+    end
+
+    subgraph REG_FLOW["Regular Competition Flow"]
+        R1["User browses\nopen competitions"] --> R2
+        R2["Join with NT entry fee\n(deducted from wallet)"] --> R3
+        R3["Trade JSE · Global · Forex\nCrypto · Commodities\n(virtual portfolio)"] --> R4
+        R4["Competition ends\nPortfolios ranked\nby return %"] --> R5
+        R5["Winners paid\nNT prize pool\nBadges awarded"]
+    end
+
+    subgraph SCHOOL_FLOW["School Competition Flow"]
+        T1["Teacher creates school\n(TeacherSetupScreen)"] --> T2
+        T2["Students join via\nschool code\n(StudentJoinScreen)"] --> T3
+        T3["Weekly fixtures generated\n(generate_weekly_fixtures\nSupabase SQL function)"] --> T4
+        T4["Head-to-head trading\nweek vs opponent"] --> T5
+        T5["finalize_weekly_fixtures\nupdates standings\nawards trophies"] --> T6
+        T6["FixtureDetailScreen\nlive auto-refresh\nscoreboard + rosters"]
+    end
+
+    subgraph TROPHIES["Trophy Types (SQL Badge Functions)"]
+        TR1["provincial_champ\nTop of province"]
+        TR2["win_streak_5\n5 wins in a row"]
+        TR3["perfect_week\n+ve return all 5 days"]
+        TR4["giant_killer\nBeat top-ranked student"]
+        TR5["national_top10\nTop 10 nationally"]
+        TR6["global_top50\nTop 50 globally"]
+    end
+
+    REG --> REG_FLOW
+    SCHOOL --> SCHOOL_FLOW
+    SCHOOL_FLOW --> TROPHIES
+
+    subgraph ASSET_FEES["Asset Classes & Fees"]
+        direction TB
+        AF1["JSE / Local Exchange — 0.70%\n9:00–17:00 local time"]
+        AF2["Global (NYSE/NASDAQ/LSE) — 0.50%\n14:30–21:00 SAST"]
+        AF3["Forex (USD/ZAR, EUR/USD) — 0.05%\n24/5"]
+        AF4["Crypto (BTC, ETH...) — 0.60%\n24/7"]
+        AF5["Commodities (Gold, Oil) — 0.40%\n24/5"]
+    end
+
+    REG_FLOW --> ASSET_FEES
+    SCHOOL_FLOW --> ASSET_FEES
+
+    style COMP_TYPES fill:#21262d,stroke:#f0883e,color:#e6edf3
+    style REG_FLOW fill:#1c2f57,stroke:#388bfd,color:#e6edf3
+    style SCHOOL_FLOW fill:#1c354f,stroke:#f0883e,color:#e6edf3
+    style TROPHIES fill:#2e1b4e,stroke:#bc8cff,color:#e6edf3
+    style ASSET_FEES fill:#1f4f27,stroke:#56d364,color:#e6edf3
+    </div>
+  </div>
+
+  <!-- ═══════════════════ SECTION 7: SCHOOL NOTIFICATIONS & CSV ═══════════════════ -->
+  <div class="section">
+    <div class="section-title">7 — School Notifications &amp; CSV (feature/school-notifications-csv)</div>
+    <div class="mermaid">
+flowchart LR
+    subgraph NOTIF_SYSTEM["Notification System"]
+        direction TB
+        USE_NOTIFS_H["useSchoolNotifications.js\nhook — polls notifications table\nmarks read / dismiss"]
+        NOTIF_SCREEN["NotificationsScreen\nUser + School alerts\nRead · Unread · Dismiss"]
+        TABBAR_BADGE["TabBar\nunreadCount badge"]
+
+        USE_NOTIFS_H -->|"real-time updates"| NOTIF_SCREEN
+        USE_NOTIFS_H -->|"unread count"| TABBAR_BADGE
+    end
+
+    subgraph CSV_FEATURE["CSV Import (in-progress)"]
+        direction TB
+        CSV1["Teacher uploads\nstudent roster CSV\n(TeacherSetupScreen)"]
+        CSV2["Parse CSV\n{name, email, grade}"]
+        CSV3["Batch insert\nschool_students\nSupabase upsert"]
+        CSV4["Auto-send\nenrolment notifications\nto students"]
+        CSV1 --> CSV2 --> CSV3 --> CSV4
+    end
+
+    subgraph NOTIF_TYPES["Notification Types"]
+        NT1["fixture_result\nMatch outcome + score"]
+        NT2["trophy_awarded\nNew badge/trophy"]
+        NT3["competition_end\nFinal rank + return %"]
+        NT4["school_enrolment\nWelcome to school"]
+        NT5["leaderboard_change\nRank moved up/down"]
+    end
+
+    NOTIF_SCREEN --- NOTIF_TYPES
+    CSV4 --> NT4
+
+    style NOTIF_SYSTEM fill:#2e1b4e,stroke:#bc8cff,color:#e6edf3
+    style CSV_FEATURE fill:#1c354f,stroke:#f0883e,color:#e6edf3
+    style NOTIF_TYPES fill:#21262d,stroke:#30363d,color:#8b949e
+    </div>
+  </div>
+
+  <!-- ═══════════════════ SECTION 8: DEPLOYMENT ═══════════════════ -->
+  <div class="section">
+    <div class="section-title">8 — Deployment &amp; Build Pipeline</div>
+    <div class="mermaid">
+flowchart LR
+    subgraph DEV["Development"]
+        DEV1["vite dev\nlocalhost:5173"]
+        DEV2["node server.js\nlocalhost:3000\n(or Render)"]
+        DEV3["capacitor.config.json\nserver.url = 192.168.x.x:5173\nLive-reload on Android"]
+    end
+
+    subgraph BUILD["Build"]
+        B1["vite build\n→ dist/"]
+        B2["npx cap sync android\nsync-android.mjs\n(bypasses Dropbox EBUSY locks)"]
+        B3["Android Studio\nor gradlew assembleDebug\n→ APK"]
+    end
+
+    subgraph DEPLOY_WEB["Web Deployment"]
+        DW1["GitHub Pages\ndist/ published\nvia GitHub Actions"]
+        DW2["Auth redirectTo\nincludes /app/ pathname"]
+    end
+
+    subgraph DEPLOY_BACKEND["Backend Deployment"]
+        DB1["Render.com\nhttps://noob-trader.onrender.com\nProcfile: web: node server.js"]
+    end
+
+    subgraph DEPLOY_MOBILE["Mobile Deployment"]
+        DM1["za.co.noobtrader\nCapacitor + Cordova bridge\nMainActivity.java"]
+        DM2["Android API 26+\nAndroid 8.0 minimum"]
+    end
+
+    DEV1 --> B1
+    B1 --> DW1
+    B1 --> B2
+    B2 --> B3
+    B3 --> DM1
+    DEV2 --> DB1
+
+    style DEV fill:#21262d,stroke:#30363d,color:#8b949e
+    style BUILD fill:#4a2b00,stroke:#f0883e,color:#e6edf3
+    style DEPLOY_WEB fill:#1c2f57,stroke:#388bfd,color:#e6edf3
+    style DEPLOY_BACKEND fill:#4d1818,stroke:#ff7b72,color:#e6edf3
+    style DEPLOY_MOBILE fill:#1f4f27,stroke:#56d364,color:#e6edf3
+    </div>
+  </div>
+
+  <!-- ═══════════════════ REFERENCE CARDS ═══════════════════ -->
+  <div class="section">
+    <div class="section-title">Quick Reference</div>
+    <div class="meta-grid">
+
+      <div class="meta-card">
+        <h3>All 25 Screens</h3>
+        <ul>
+          <li><code>HomeScreen</code> <span class="badge badge-blue">Tab</span> Portfolio &amp; wallet</li>
+          <li><code>MarketScreen</code> <span class="badge badge-blue">Tab</span> 5 asset class tabs</li>
+          <li><code>CompeteScreen</code> <span class="badge badge-blue">Tab</span> Competitions hub</li>
+          <li><code>LearnScreen</code> <span class="badge badge-blue">Tab</span> 20+ localised lessons</li>
+          <li><code>ProfileScreen</code> <span class="badge badge-blue">Tab</span> Aura, badges, XP</li>
+          <li><code>AuthScreen</code> Email OTP login</li>
+          <li><code>StockDetailScreen</code> Buy/sell panel</li>
+          <li><code>AuraConvertScreen</code> Aura → NT tokens</li>
+          <li><code>FriendsScreen</code> Social leaderboard</li>
+          <li><code>RoyaleScreen</code> Battle Royale</li>
+          <li><code>HelpScreen</code> Localised FAQ</li>
+          <li><code>SettingsScreen</code> Theme/lang/country</li>
+          <li><code>NotificationsScreen</code> <span class="badge badge-purple">Profile</span></li>
+          <li><code>PrivacyScreen</code> <span class="badge badge-purple">Profile</span></li>
+          <li><code>ReportsScreen</code> <span class="badge badge-purple">Profile</span></li>
+          <li><code>TransactionHistoryScreen</code> <span class="badge badge-purple">Profile</span></li>
+          <li><code>SchoolDashboardScreen</code> <span class="badge badge-orange">School</span></li>
+          <li><code>SchoolCompeteScreen</code> <span class="badge badge-orange">School</span></li>
+          <li><code>StudentJoinScreen</code> <span class="badge badge-orange">School</span></li>
+          <li><code>TeacherSetupScreen</code> <span class="badge badge-orange">School</span></li>
+          <li><code>DisclaimerScreen</code> <span class="badge badge-red">Legal</span></li>
+          <li><code>PrivacyPolicyScreen</code> <span class="badge badge-red">Legal</span></li>
+          <li><code>TermsScreen</code> <span class="badge badge-red">Legal</span></li>
+        </ul>
+      </div>
+
+      <div class="meta-card">
+        <h3>9 Components</h3>
+        <ul>
+          <li><code>TabBar</code> Bottom 5-tab navigation</li>
+          <li><code>SubScreenHeader</code> Back button + title</li>
+          <li><code>AuraRing</code> SVG circular progress</li>
+          <li><code>ThemeToggle</code> Light/dark switch</li>
+          <li><code>ToggleSwitch</code> iOS-style pill toggle</li>
+          <li><code>SparkPrice</code> 7-day sparkline chart</li>
+          <li><code>CountryPicker</code> 21 countries selector</li>
+          <li><code>CompoundCalc</code> Compound interest tool</li>
+          <li><code>AdComponents</code> Future ad integration</li>
+        </ul>
+      </div>
+
+      <div class="meta-card">
+        <h3>Services, Hooks &amp; Utils</h3>
+        <ul>
+          <li><code>supabase.js</code> Auth + DB client</li>
+          <li><code>exchangeRateApi.js</code> fetchExchangeRate()</li>
+          <li><code>marketApi.js</code> fetchPrice / fetchSparkline</li>
+          <li><code>useSchoolData.js</code> School state hook</li>
+          <li><code>useSchoolNotifications.js</code> Notif polling hook</li>
+          <li><code>formatters.js</code> Currency/number format</li>
+          <li><code>marketHours.js</code> isMarketOpen(type)</li>
+        </ul>
+      </div>
+
+      <div class="meta-card">
+        <h3>Fee Rates</h3>
+        <table>
+          <tr><th>Asset Class</th><th>Fee</th><th>Hours</th></tr>
+          <tr><td>JSE / Local</td><td>0.70%</td><td>9–17 local</td></tr>
+          <tr><td>Global</td><td>0.50%</td><td>14:30–21 SAST</td></tr>
+          <tr><td>Forex</td><td>0.05%</td><td>24/5</td></tr>
+          <tr><td>Crypto</td><td>0.60%</td><td>24/7</td></tr>
+          <tr><td>Commodities</td><td>0.40%</td><td>24/5</td></tr>
+        </table>
+      </div>
+
+      <div class="meta-card">
+        <h3>Backend Endpoints</h3>
+        <table>
+          <tr><th>Route</th><th>Returns</th></tr>
+          <tr><td>GET /api/exchange-rate</td><td>{usdZar, ntUsd, ntZar}</td></tr>
+          <tr><td>GET /api/price/:symbol</td><td>Current quote</td></tr>
+          <tr><td>GET /api/sparkline/:symbol</td><td>7-day OHLCV</td></tr>
+          <tr><td>GET /api/market/:category</td><td>Bulk price list</td></tr>
+        </table>
+      </div>
+
+      <div class="meta-card">
+        <h3>Database Tables (11)</h3>
+        <ul>
+          <li><code>users</code> Auth + profile + wallet</li>
+          <li><code>portfolios</code> Holdings JSONB + cash</li>
+          <li><code>trades</code> Full trade log</li>
+          <li><code>competitions</code> Competition config</li>
+          <li><code>competition_entries</code> User → competition</li>
+          <li><code>schools</code> School + teacher</li>
+          <li><code>school_students</code> Enrolment</li>
+          <li><code>fixtures</code> Weekly match schedule</li>
+          <li><code>standings</code> Wins/losses/trophies</li>
+          <li><code>notifications</code> All alert types</li>
+          <li><code>badges</code> Awarded achievements</li>
+        </ul>
+      </div>
+
+      <div class="meta-card">
+        <h3>Tech Stack</h3>
+        <table>
+          <tr><th>Layer</th><th>Technology</th></tr>
+          <tr><td>Frontend</td><td>React 18 + Vite 6</td></tr>
+          <tr><td>Icons</td><td>lucide-react 0.468</td></tr>
+          <tr><td>Mobile</td><td>Capacitor 8 (Android)</td></tr>
+          <tr><td>Backend</td><td>Express 5 / Node.js</td></tr>
+          <tr><td>Database</td><td>Supabase (Postgres)</td></tr>
+          <tr><td>Market Data</td><td>yahoo-finance2 3.14</td></tr>
+          <tr><td>Hosting</td><td>Render.com + GitHub Pages</td></tr>
+          <tr><td>App ID</td><td>za.co.noobtrader</td></tr>
+        </table>
+      </div>
+
+      <div class="meta-card">
+        <h3>6 Trophy Types</h3>
+        <ul>
+          <li><code>provincial_champ</code> Top of province</li>
+          <li><code>win_streak_5</code> 5 consecutive wins</li>
+          <li><code>perfect_week</code> Positive return all 5 days</li>
+          <li><code>giant_killer</code> Beat top-ranked student</li>
+          <li><code>national_top10</code> Top 10 nationally</li>
+          <li><code>global_top50</code> Top 50 globally</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+<script>
+  mermaid.initialize({
+    startOnLoad: true,
+    theme: "dark",
+    themeVariables: {
+      primaryColor: "#1c2f57",
+      primaryTextColor: "#e6edf3",
+      primaryBorderColor: "#388bfd",
+      lineColor: "#58a6ff",
+      secondaryColor: "#21262d",
+      tertiaryColor: "#161b22",
+      background: "#0d1117",
+      mainBkg: "#161b22",
+      nodeBorder: "#30363d",
+      clusterBkg: "#161b22",
+      titleColor: "#e6edf3",
+      edgeLabelBackground: "#21262d",
+      fontSize: "13px",
+    },
+    flowchart: { curve: "basis", padding: 20, useMaxWidth: false },
+    er: { useMaxWidth: false },
+  });
+</script>
+</body>
+</html>
