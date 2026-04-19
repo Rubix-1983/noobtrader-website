@@ -1,8 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
-  <rect x="1" y="1" width="34" height="34" rx="9" fill="#0A0A0A"/>
-  <rect x="8"  y="22" width="4" height="6"  rx="1" fill="#FFFFFF" opacity="0.35"/>
-  <rect x="14" y="17" width="4" height="11" rx="1" fill="#FFFFFF" opacity="0.6"/>
-  <rect x="20" y="12" width="4" height="16" rx="1" fill="#FFFFFF"/>
-  <rect x="26" y="7"  width="4" height="21" rx="1" fill="#00C566"/>
-  <path d="M25 11 L28 8 L31 11" stroke="#00C566" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" shape-rendering="crispEdges">
+  <!-- Bear candle (blue #0047FF) -->
+  <rect x="4" y="0" width="2" height="3" fill="#0047FF"/>
+  <rect x="2" y="3" width="6" height="6" fill="#0047FF"/>
+  <rect x="4" y="9" width="2" height="2" fill="#0047FF"/>
+  <!-- Bull candle (green #00FF88) -->
+  <rect x="10" y="5" width="2" height="2" fill="#00FF88"/>
+  <rect x="9"  y="7" width="4" height="5" fill="#00FF88"/>
+  <rect x="10" y="12" width="2" height="1" fill="#00FF88"/>
 </svg>
