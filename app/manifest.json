@@ -2,7 +2,9 @@
   "name": "NoobTrader",
   "short_name": "NoobTrader",
   "description": "Learn to trade shares, currencies and crypto with virtual currency. No real money. Real market data.",
-  "start_url": "/",
+  "id": "./",
+  "start_url": ".",
+  "scope": ".",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#0a0f1a",
@@ -10,16 +12,28 @@
   "categories": ["education", "finance"],
   "icons": [
     {
-      "src": "/logo.png",
-      "sizes": "192x192",
+      "src": "./favicon-32.png",
+      "sizes": "32x32",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
     },
     {
-      "src": "/logo.png",
+      "src": "./apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./nt-icon.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
+    },
+    {
+      "src": "./nt-icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ]
 }
