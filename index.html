@@ -25,6 +25,29 @@
   <meta name="twitter:image" content="https://noob-trader.com/logo.png">
 
   <link rel="icon" type="image/png" href="./logo.png">
+
+  <!-- ═══ INSTALLABILITY ═══
+       The landing page needs its OWN manifest and service worker. Chrome only
+       fires `beforeinstallprompt` on a page that is itself installable, so
+       without these the install button here could never do anything, even
+       though /app/ has been installable all along. start_url points at /app/,
+       so installing from this page lands the user in the app, not the advert. -->
+  <link rel="manifest" href="/manifest.json">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="NoobTrader">
+  <link rel="apple-touch-icon" href="/logo.png">
+  <script>
+    // Captured at parse time, before anything else runs: Chrome fires this
+    // once and early, and a listener registered later simply never sees it.
+    window.__ntInstallEvent = null;
+    window.addEventListener('beforeinstallprompt', function (e) {
+      e.preventDefault();
+      window.__ntInstallEvent = e;
+      window.dispatchEvent(new Event('nt-install-ready'));
+    });
+  </script>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
@@ -256,8 +279,196 @@
       text-transform: uppercase;
       color: var(--text-sec);
     }
+    /* ── Hero chart ────────────────────────────────────────────────────
+       Inline SVG rather than a canvas or a chart library: it stays crisp
+       at any width, needs no JS to paint, and adds nothing to the page
+       weight. The shape is fixed sample data, labelled "Demo" in the
+       header — this audience is 13-18, so it must never read as a live
+       quote or an actual portfolio.                                     */
+    .hero-chart {
+      width: 100%;
+      max-width: 720px;
+      margin: 0 auto 44px;
+      background: linear-gradient(180deg, rgba(19,24,41,0.9) 0%, rgba(10,14,26,0.9) 100%);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 18px 18px 12px;
+      box-shadow: 0 24px 60px -20px rgba(0,0,0,0.6), 0 0 0 1px rgba(0,212,170,0.06) inset;
+      opacity: 0;
+      animation: heroChartIn 0.8s cubic-bezier(0.22,1,0.36,1) 0.25s forwards;
+    }
+    @keyframes heroChartIn {
+      from { opacity: 0; transform: translateY(24px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    .hero-chart-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 6px;
+    }
+    .hero-chart-title {
+      display: flex;
+      align-items: baseline;
+      gap: 10px;
+      font-weight: 700;
+      font-size: 15px;
+      color: var(--text);
+    }
+    .hero-chart-title small {
+      font-family: 'JetBrains Mono', ui-monospace, monospace;
+      font-size: 10px;
+      font-weight: 500;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--text-dim);
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 3px 8px;
+    }
+    .hero-chart-value {
+      font-family: 'JetBrains Mono', ui-monospace, monospace;
+      font-size: 15px;
+      font-weight: 500;
+      color: var(--accent);
+      text-align: right;
+      line-height: 1.35;
+    }
+    .hero-chart-value span {
+      display: block;
+      font-size: 11px;
+      color: var(--text-sec);
+    }
+    .hero-chart svg { display: block; width: 100%; height: auto; }
+    .hero-chart-x {
+      display: flex;
+      justify-content: space-between;
+      font-family: 'JetBrains Mono', ui-monospace, monospace;
+      font-size: 10px;
+      letter-spacing: 0.08em;
+      color: var(--text-dim);
+      padding: 6px 2px 0;
+    }
+    /* pathLength="1" normalises the line to a unit length, so the draw-in
+       is exact without measuring it in JS. */
+    .nt-line {
+      stroke-dasharray: 1;
+      stroke-dashoffset: 1;
+      animation: ntDraw 2.2s cubic-bezier(0.4,0,0.2,1) 0.5s forwards;
+    }
+    @keyframes ntDraw { to { stroke-dashoffset: 0; } }
+    .nt-fill { opacity: 0; animation: ntFade 1.2s ease-out 2.1s forwards; }
+    @keyframes ntFade { to { opacity: 1; } }
+    .nt-node {
+      opacity: 0;
+      transform-box: fill-box;
+      transform-origin: center;
+      animation: ntPop 0.45s cubic-bezier(0.34,1.56,0.64,1) forwards;
+    }
+    @keyframes ntPop {
+      from { opacity: 0; transform: scale(0.2); }
+      to   { opacity: 1; transform: scale(1); }
+    }
+    .nt-grid { opacity: 0; animation: ntFade 0.9s ease-out 0.35s forwards; }
+    /* The comet head, same idea as the price charts inside the app. */
+    .nt-comet { filter: url(#ntGlow); }
+
+    @media (max-width: 560px) {
+      .hero-chart { padding: 14px 12px 8px; border-radius: 16px; }
+      .hero-chart-title { font-size: 13px; }
+      .hero-chart-value { font-size: 13px; }
+      /* Four labels crowd at 360px; the middle two carry no meaning here. */
+      .hero-chart-x span:nth-child(2), .hero-chart-x span:nth-child(4) { display: none; }
+    }
+
+    /* ── iOS install sheet ─────────────────────────────────────────────
+       Safari exposes no install API of any kind, so on iPhone and iPad
+       "Add to Home Screen" through the Share menu is the only route that
+       exists. This sheet is the least-instructions version of an
+       unavoidable instruction: two steps, shown only to iOS users, only
+       when they ask, with the Share glyph drawn so they are looking for a
+       picture rather than reading a sentence. */
+    .ios-sheet {
+      position: fixed;
+      inset: 0;
+      z-index: 200;
+      display: none;
+      align-items: flex-end;
+      justify-content: center;
+      background: rgba(0,0,0,0.6);
+      backdrop-filter: blur(4px);
+    }
+    .ios-sheet.open { display: flex; }
+    .ios-sheet-card {
+      width: 100%;
+      max-width: 460px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-bottom: none;
+      border-radius: 22px 22px 0 0;
+      padding: 26px 24px calc(30px + env(safe-area-inset-bottom));
+      text-align: left;
+      animation: iosUp 0.32s cubic-bezier(0.22,1,0.36,1);
+    }
+    @keyframes iosUp { from { transform: translateY(100%); } to { transform: translateY(0); } }
+    .ios-sheet h3 { font-size: 19px; font-weight: 800; margin-bottom: 4px; }
+    .ios-sheet p { font-size: 14px; color: var(--text-sec); margin-bottom: 18px; }
+    .ios-step {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      padding: 13px 0;
+      border-top: 1px solid var(--border);
+      font-size: 15px;
+      font-weight: 500;
+    }
+    .ios-step-num {
+      flex: none;
+      width: 26px; height: 26px;
+      border-radius: 50%;
+      background: var(--accent-dim);
+      color: var(--accent);
+      font-size: 13px; font-weight: 800;
+      display: grid; place-items: center;
+    }
+    .ios-step svg { flex: none; color: var(--accent); }
+    .ios-sheet-close {
+      width: 100%;
+      margin-top: 20px;
+      padding: 14px;
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      background: transparent;
+      color: var(--text);
+      font-size: 15px; font-weight: 600;
+      cursor: pointer;
+    }
+    /* Bounces attention down to the Share button, which on iPhone Safari sits
+       in the bottom toolbar. */
+    .ios-arrow {
+      display: block;
+      margin: 16px auto 0;
+      color: var(--accent);
+      animation: iosBounce 1.5s ease-in-out infinite;
+    }
+    @keyframes iosBounce {
+      0%, 100% { transform: translateY(0); opacity: 0.55; }
+      50%      { transform: translateY(8px); opacity: 1; }
+    }
+
     @media (prefers-reduced-motion: reduce) {
       .hero-mark, .hero-word { animation: none; }
+      .ios-sheet-card, .ios-arrow { animation: none; }
+      /* Land the chart in its finished state rather than not at all —
+         removing it entirely would leave a blank box. */
+      .hero-chart, .nt-fill, .nt-node, .nt-grid {
+        opacity: 1;
+        animation: none;
+        transform: none;
+      }
+      .nt-line { animation: none; stroke-dashoffset: 0; }
+      .nt-comet { display: none; }
     }
     .hero-tagline {
       font-size: clamp(20px, 4vw, 28px);
@@ -789,10 +1000,96 @@
         <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"/></svg>
         Play in browser
       </a>
+      <!-- Hidden until we know installing can actually work on this device.
+           A button that opens a wall of instructions is worse than no button:
+           it promises one tap and delivers homework. Revealed by the script at
+           the foot of the page. -->
+      <button id="ntInstall" class="btn-outline" hidden>
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        <span id="ntInstallText">Install app</span>
+      </button>
     </div>
-    <p style="margin-top:-32px;margin-bottom:48px;font-size:14px;opacity:0.6">
+    <p style="margin-top:-32px;margin-bottom:40px;font-size:14px;opacity:0.6">
       Free to play. Works on any phone or laptop — no download needed.
     </p>
+
+    <!-- ═══ HERO CHART ═══
+         Sample data, not a live feed. Badged "Demo" and captioned so it can
+         never be mistaken for a real quote or a real portfolio. -->
+    <div class="hero-chart" role="img"
+         aria-label="Illustration of a portfolio value line rising over a trading day.">
+      <div class="hero-chart-head">
+        <div class="hero-chart-title">Portfolio <small>Demo</small></div>
+        <div class="hero-chart-value">10,000 NTs<span>Virtual cash to start</span></div>
+      </div>
+
+      <svg viewBox="0 0 720 262" aria-hidden="true" focusable="false">
+        <defs>
+          <linearGradient id="ntArea" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#00d4aa" stop-opacity="0.34"/>
+            <stop offset="60%" stop-color="#00d4aa" stop-opacity="0.06"/>
+            <stop offset="100%" stop-color="#00d4aa" stop-opacity="0"/>
+          </linearGradient>
+          <linearGradient id="ntStroke" x1="0" y1="0" x2="1" y2="0">
+            <stop offset="0%" stop-color="#00b894"/>
+            <stop offset="55%" stop-color="#00d4aa"/>
+            <stop offset="100%" stop-color="#4f9cff"/>
+          </linearGradient>
+          <filter id="ntGlow" x="-120%" y="-120%" width="340%" height="340%">
+            <feGaussianBlur stdDeviation="5" result="b"/>
+            <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+          </filter>
+          <filter id="ntLineGlow" x="-20%" y="-60%" width="140%" height="220%">
+            <feGaussianBlur stdDeviation="4" result="b"/>
+            <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+          </filter>
+        </defs>
+
+        <g class="nt-grid" stroke="#1e2a45" stroke-width="1">
+          <line x1="0" y1="52"  x2="720" y2="52"/>
+          <line x1="0" y1="104" x2="720" y2="104"/>
+          <line x1="0" y1="156" x2="720" y2="156"/>
+          <line x1="0" y1="208" x2="720" y2="208"/>
+          <line x1="105" y1="0" x2="105" y2="240"/>
+          <line x1="275" y1="0" x2="275" y2="240"/>
+          <line x1="445" y1="0" x2="445" y2="240"/>
+          <line x1="615" y1="0" x2="615" y2="240"/>
+        </g>
+
+        <path class="nt-fill" fill="url(#ntArea)"
+              d="M20 196 L105 158 L190 205 L275 131 L360 168 L445 96 L530 124 L615 58 L700 32 L700 240 L20 240 Z"/>
+
+        <path id="ntLinePath" class="nt-line" fill="none" stroke="url(#ntStroke)"
+              stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"
+              filter="url(#ntLineGlow)" pathLength="1"
+              d="M20 196 L105 158 L190 205 L275 131 L360 168 L445 96 L530 124 L615 58 L700 32"/>
+
+        <!-- Node markers, popping in as the line reaches each one. -->
+        <g fill="#0a0e1a" stroke="#00d4aa" stroke-width="3">
+          <circle class="nt-node" cx="20"  cy="196" r="5.5" style="animation-delay:0.50s"/>
+          <circle class="nt-node" cx="105" cy="158" r="5.5" style="animation-delay:0.77s"/>
+          <circle class="nt-node" cx="190" cy="205" r="5.5" style="animation-delay:1.04s"/>
+          <circle class="nt-node" cx="275" cy="131" r="5.5" style="animation-delay:1.32s"/>
+          <circle class="nt-node" cx="360" cy="168" r="5.5" style="animation-delay:1.59s"/>
+          <circle class="nt-node" cx="445" cy="96"  r="5.5" style="animation-delay:1.86s"/>
+          <circle class="nt-node" cx="530" cy="124" r="5.5" style="animation-delay:2.13s"/>
+          <circle class="nt-node" cx="615" cy="58"  r="5.5" style="animation-delay:2.40s"/>
+          <circle class="nt-node" cx="700" cy="32"  r="6.5" style="animation-delay:2.67s" stroke="#4f9cff"/>
+        </g>
+
+        <!-- The comet head. Rides the line as it draws, then keeps looping.
+             SMIL ignores prefers-reduced-motion, so the script below stops
+             it explicitly for anyone who has asked for less movement. -->
+        <circle class="nt-comet" r="6" fill="#ffffff">
+          <animateMotion id="ntComet" dur="2.2s" begin="0.5s" repeatCount="indefinite"
+                         path="M20 196 L105 158 L190 205 L275 131 L360 168 L445 96 L530 124 L615 58 L700 32"/>
+        </circle>
+      </svg>
+
+      <div class="hero-chart-x">
+        <span>09:00</span><span>11:00</span><span>13:00</span><span>15:00</span><span>17:00</span>
+      </div>
+    </div>
     <div class="hero-stats">
       <div class="stat">
         <div class="stat-value">10,000</div>
@@ -1022,7 +1319,104 @@
     </div>
   </footer>
 
+  <!-- ═══ iOS INSTALL SHEET ═══ -->
+  <div class="ios-sheet" id="iosSheet" role="dialog" aria-modal="true" aria-labelledby="iosSheetTitle">
+    <div class="ios-sheet-card">
+      <h3 id="iosSheetTitle">Add NoobTrader to your Home Screen</h3>
+      <p>Apple doesn't let websites install themselves — it takes two taps.</p>
+      <div class="ios-step">
+        <span class="ios-step-num">1</span>
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><polyline points="16 6 12 2 8 6"/><line x1="12" y1="2" x2="12" y2="15"/></svg>
+        Tap the Share button
+      </div>
+      <div class="ios-step">
+        <span class="ios-step-num">2</span>
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="4"/><line x1="12" y1="8" x2="12" y2="16"/><line x1="8" y1="12" x2="16" y2="12"/></svg>
+        Choose “Add to Home Screen”
+      </div>
+      <svg class="ios-arrow" viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><polyline points="19 12 12 19 5 12"/></svg>
+      <button class="ios-sheet-close" id="iosSheetClose">Got it</button>
+    </div>
+  </div>
+
   <script>
+    // ── Install ────────────────────────────────────────────────────────
+    // One tap wherever the platform allows one. Chrome, Edge and Samsung
+    // Internet on Android, plus Chrome/Edge on desktop, hand us a real
+    // prompt() and the app lands on the home screen with no instructions at
+    // all. iOS has no equivalent API — Safari has never shipped one — so
+    // there the button opens the sheet above instead. Firefox on Android has
+    // no prompt either, and its menu item is not reliably named, so we simply
+    // do not show the button there rather than send anyone hunting.
+    (function () {
+      const btn = document.getElementById('ntInstall');
+      const btnText = document.getElementById('ntInstallText');
+      const sheet = document.getElementById('iosSheet');
+      const sheetClose = document.getElementById('iosSheetClose');
+      if (!btn) return;
+
+      const ua = navigator.userAgent;
+      const isIOS = /iPad|iPhone|iPod/.test(ua) ||
+        // iPadOS 13+ reports itself as a Mac; the touch points give it away.
+        (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+      const isSafari = /^((?!chrome|android|crios|fxios|edgios).)*safari/i.test(ua);
+      const installed = window.matchMedia('(display-mode: standalone)').matches ||
+        window.navigator.standalone === true;
+
+      const show = (label) => { if (label) btnText.textContent = label; btn.hidden = false; };
+
+      if (installed) {
+        // Already on the home screen — offering to install it again is noise.
+      } else if (window.__ntInstallEvent) {
+        show();
+      } else if (isIOS && isSafari) {
+        show('Add to Home Screen');
+      }
+      // Chrome can fire the event after first paint, so listen for it too.
+      window.addEventListener('nt-install-ready', () => { if (!installed) show(); });
+
+      btn.addEventListener('click', async () => {
+        const evt = window.__ntInstallEvent;
+        if (evt) {
+          btn.disabled = true;
+          evt.prompt();
+          const { outcome } = await evt.userChoice;
+          // The event is single-use. Dropping it stops a second tap silently
+          // doing nothing, which reads as a broken button.
+          window.__ntInstallEvent = null;
+          if (outcome === 'accepted') { btn.hidden = true; }
+          else { btn.disabled = false; btn.hidden = true; }
+          return;
+        }
+        if (isIOS) { sheet.classList.add('open'); return; }
+        // No prompt and not iOS: the app itself still works in the browser.
+        window.location.href = './app/';
+      });
+
+      sheetClose?.addEventListener('click', () => sheet.classList.remove('open'));
+      sheet?.addEventListener('click', (e) => {
+        if (e.target === sheet) sheet.classList.remove('open');
+      });
+
+      window.addEventListener('appinstalled', () => {
+        btn.hidden = true;
+        window.__ntInstallEvent = null;
+      });
+
+      // Registering the worker is what makes the prompt possible at all.
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js', { scope: '/' }).catch(() => {});
+        });
+      }
+    })();
+
+    // SMIL animation ignores prefers-reduced-motion, so stop the chart's
+    // comet by hand for anyone who has asked for less movement.
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      document.querySelectorAll('.hero-chart svg').forEach((s) => s.pauseAnimations?.());
+    }
+
     // ── Mobile menu ──
     const hamburger = document.getElementById('hamburger');
     const navLinks = document.getElementById('navLinks');
