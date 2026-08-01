@@ -36,7 +36,10 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-title" content="NoobTrader">
-  <link rel="apple-touch-icon" href="/logo.png">
+  <!-- Must be OPAQUE and 180x180. iOS does not honour transparency in a home
+       screen icon — it composites onto black, so the old transparent 512px
+       logo.png produced a black tile with a small mark in it. -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <script>
     // Captured at parse time, before anything else runs: Chrome fires this
     // once and early, and a listener registered later simply never sees it.
@@ -462,6 +465,12 @@
     @keyframes iosBounce {
       0%, 100% { transform: translateY(0); opacity: 0.55; }
       50%      { transform: translateY(8px); opacity: 1; }
+    }
+    /* Chrome and Edge on iOS put Share in the top address bar, so the arrow
+       is flipped and has to travel the other way. */
+    @keyframes iosBounceUp {
+      0%, 100% { transform: rotate(180deg) translateY(0); opacity: 0.55; }
+      50%      { transform: rotate(180deg) translateY(8px); opacity: 1; }
     }
 
     @media (prefers-reduced-motion: reduce) {
@@ -1347,18 +1356,18 @@
   <div class="ios-sheet" id="iosSheet" role="dialog" aria-modal="true" aria-labelledby="iosSheetTitle">
     <div class="ios-sheet-card">
       <h3 id="iosSheetTitle">Add NoobTrader to your Home Screen</h3>
-      <p>Apple doesn't let websites install themselves — it takes two taps.</p>
+      <p id="iosSheetIntro">Apple doesn't let websites install themselves — it takes two taps.</p>
       <div class="ios-step">
         <span class="ios-step-num">1</span>
         <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><polyline points="16 6 12 2 8 6"/><line x1="12" y1="2" x2="12" y2="15"/></svg>
-        Tap the Share button
+        <span id="iosStep1">Tap the Share button below</span>
       </div>
       <div class="ios-step">
         <span class="ios-step-num">2</span>
         <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="4"/><line x1="12" y1="8" x2="12" y2="16"/><line x1="8" y1="12" x2="16" y2="12"/></svg>
-        Choose “Add to Home Screen”
+        <span id="iosStep2">Choose “Add to Home Screen”</span>
       </div>
-      <svg class="ios-arrow" viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><polyline points="19 12 12 19 5 12"/></svg>
+      <svg class="ios-arrow" id="iosArrow" viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><polyline points="19 12 12 19 5 12"/></svg>
       <button class="ios-sheet-close" id="iosSheetClose">Got it</button>
     </div>
   </div>
@@ -1391,7 +1400,24 @@
       const isIOS = /iPad|iPhone|iPod/.test(ua) ||
         // iPadOS 13+ reports itself as a Mac; the touch points give it away.
         (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
-      const isSafari = /^((?!chrome|android|crios|fxios|edgios).)*safari/i.test(ua);
+      // Every browser on iOS is Safari underneath, and Chrome, Edge and
+      // Firefox for iOS all expose "Add to Home Screen" in their own share
+      // menu. Gating on Safari alone left an iPhone user on Chrome with no
+      // button and no route in at all.
+      const isSafari = /^((?!crios|fxios|edgios|opt\/).)*safari/i.test(ua);
+      // Social in-app browsers (Instagram, Facebook, TikTok, LinkedIn…) run a
+      // WKWebView with NO Share → Add to Home Screen at all. They also omit
+      // the "Safari/" token that every real iOS browser carries. Handing them
+      // the Share instructions sends people looking for a button that is not
+      // there — they have to open the page in a real browser first.
+      const isInAppBrowser = /FBAN|FBAV|Instagram|LinkedInApp|Twitter|TikTok|MicroMessenger|Snapchat|Pinterest/i.test(ua) ||
+        (isIOS && !/Safari\//i.test(ua));
+      const iosBrowser = !isIOS ? null
+        : isInAppBrowser ? 'inapp'
+        : /crios/i.test(ua) ? 'chrome'
+        : /edgios/i.test(ua) ? 'edge'
+        : /fxios/i.test(ua) ? 'firefox'
+        : isSafari ? 'safari' : 'other';
       const installed = window.matchMedia('(display-mode: standalone)').matches ||
         window.navigator.standalone === true;
 
@@ -1415,7 +1441,7 @@
         if (hint) hint.textContent = 'Already installed — open it from your home screen any time.';
       } else if (window.__ntInstallEvent) {
         show();
-      } else if (isIOS && isSafari) {
+      } else if (isIOS) {
         show('Add to Home Screen');
       }
       // Chrome can fire the event after first paint, so listen for it too.
@@ -1434,7 +1460,38 @@
           if (outcome !== 'accepted' && steps) steps.hidden = false;
           return;
         }
-        if (isIOS) { sheet.classList.add('open'); return; }
+        if (isIOS) {
+          const step1 = document.getElementById('iosStep1');
+          const step2 = document.getElementById('iosStep2');
+          const intro = document.getElementById('iosSheetIntro');
+          const arrow = document.getElementById('iosArrow');
+
+          if (iosBrowser === 'inapp') {
+            // No Share → Add to Home Screen exists in here at all.
+            if (intro) intro.textContent = "This in-app browser can't add to your Home Screen. Open the page in Safari first — it takes one tap.";
+            if (step1) step1.textContent = 'Tap the ••• menu, then "Open in Safari"';
+            if (step2) step2.textContent = 'Then tap Share → "Add to Home Screen"';
+            if (arrow) arrow.style.display = 'none';
+            sheet.classList.add('open');
+            return;
+          }
+
+          // Point at the right place: Safari puts Share in the BOTTOM toolbar,
+          // Chrome and Edge for iOS put it in the address bar at the TOP.
+          const topBar = iosBrowser === 'chrome' || iosBrowser === 'edge' || iosBrowser === 'firefox';
+          if (step1) {
+            step1.textContent = topBar
+              ? 'Tap the Share button in the address bar at the top'
+              : 'Tap the Share button at the bottom of the screen';
+          }
+          if (arrow && topBar) {
+            // Flip the bouncing arrow to point up instead of down.
+            arrow.style.transform = 'rotate(180deg)';
+            arrow.style.animationName = 'iosBounceUp';
+          }
+          sheet.classList.add('open');
+          return;
+        }
         // No prompt and not iOS: the app itself still works in the browser.
         window.location.href = './app/';
       };
