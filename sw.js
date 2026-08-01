@@ -11,7 +11,7 @@
 // this file's own asset list falls straight through to the network with no
 // respondWith(), so the app keeps whatever caching its own build gives it.
 
-const CACHE = 'nt-site-v1';
+const CACHE = 'nt-site-v2';
 const SHELL = ['/', '/index.html', '/logo.png', '/manifest.json'];
 
 self.addEventListener('install', (event) => {
@@ -43,15 +43,25 @@ self.addEventListener('fetch', (event) => {
   const isShell = SHELL.includes(url.pathname) || req.mode === 'navigate';
   if (!isShell) return;
 
-  // Network first: the marketing copy changes far more often than it is read
-  // offline, so a stale landing page is the worse failure of the two.
+  // Cache under the path alone. Keying on the full URL meant every
+  // ?cb=<random> variant became its own permanent entry, so the cache grew
+  // without bound and a busted URL could never hit the copy it had already
+  // stored for the same page.
+  const key = new Request(url.origin + url.pathname);
+
+  // Network first, and genuinely so: a plain fetch() consults the browser's
+  // HTTP cache, and GitHub Pages serves this HTML with a ten-minute max-age.
+  // That made "network first" return a stale page for ten minutes after every
+  // deploy — and then store that stale copy. no-store forces the real request.
   event.respondWith(
-    fetch(req)
+    fetch(url.href, { cache: 'no-store' })
       .then((res) => {
-        const copy = res.clone();
-        caches.open(CACHE).then((c) => c.put(req, copy)).catch(() => {});
+        if (res.ok) {
+          const copy = res.clone();
+          caches.open(CACHE).then((c) => c.put(key, copy)).catch(() => {});
+        }
         return res;
       })
-      .catch(() => caches.match(req).then((hit) => hit || caches.match('/index.html'))),
+      .catch(() => caches.match(key).then((hit) => hit || caches.match('/index.html'))),
   );
 });
