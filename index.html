@@ -279,6 +279,13 @@
       text-transform: uppercase;
       color: var(--text-sec);
     }
+    /* The UA rule for [hidden] is only `display: none`, so ANY explicit
+       display in a class beats it — .btn-outline is `inline-flex`, which
+       left the install button on screen for every visitor including the
+       ones whose browser cannot install anything. Needs !important to
+       outrank the class. */
+    [hidden] { display: none !important; }
+
     /* ── Hero chart ────────────────────────────────────────────────────
        Inline SVG rather than a canvas or a chart library: it stays crisp
        at any width, needs no JS to paint, and adds nothing to the page
@@ -1010,7 +1017,7 @@
       </button>
     </div>
     <p style="margin-top:-32px;margin-bottom:40px;font-size:14px;opacity:0.6">
-      Free to play. Works on any phone or laptop — no download needed.
+      Free to play. Works on any phone or laptop — no app store needed.
     </p>
 
     <!-- ═══ HERO CHART ═══
@@ -1096,11 +1103,11 @@
         <div class="stat-label">NTs starting cash</div>
       </div>
       <div class="stat">
-        <div class="stat-value">15+</div>
+        <div class="stat-value">31</div>
         <div class="stat-label">Lessons</div>
       </div>
       <div class="stat">
-        <div class="stat-value">11</div>
+        <div class="stat-value">59</div>
         <div class="stat-label">Languages</div>
       </div>
       <div class="stat">
@@ -1130,7 +1137,13 @@
           <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="var(--blue)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
         </div>
         <h3>Real Market Data</h3>
-        <p>Live prices from Yahoo Finance. Real candlestick charts, real spreads, real market conditions.</p>
+        <!-- This used to claim "real candlestick charts, real spreads, real
+             market conditions". None of it was true: the app draws line
+             charts (candlesticks appear only in a lesson explaining them),
+             and no bid/ask spread is modelled anywhere in the trade engine.
+             Keep this to what the code actually does — the audience is 13-18
+             and the legal pages promise an educational simulation. -->
+        <p>Live prices from Yahoo Finance across 20 exchanges, with real price history and broker-style fees on every trade.</p>
       </div>
 
       <div class="feature-card anim anim-delay-3">
@@ -1145,7 +1158,7 @@
         <div class="feature-icon" style="background: rgba(167,139,250,0.12);">
           <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="var(--purple)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
         </div>
-        <h3>15+ Interactive Lessons</h3>
+        <h3>31 Interactive Lessons</h3>
         <p>Bite-sized lessons on shares, charts, strategy & more. Each with a boss quiz to test your knowledge.</p>
       </div>
 
@@ -1263,17 +1276,28 @@
       <h2 class="section-title" style="margin-bottom: 8px;">Start playing <span class="gradient-text">NoobTrader</span></h2>
       <p style="color: var(--text-sec); margin-bottom: 24px;">Free. No real money required. Just vibes and virtual gains.</p>
 
-      <a href="./app/" class="download-btn">
+      <!-- The real install goes FIRST here: this section is titled
+           "Ready to start?", and on Android and desktop Chrome one tap now
+           puts the app on the home screen. -->
+      <button id="ntInstall2" class="download-btn" hidden>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        <span id="ntInstall2Text">Install app</span>
+      </button>
+
+      <a href="./app/" class="download-btn" id="ntPlayBtn">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"/></svg>
         Play in browser
       </a>
-      <p class="download-size">Any device &middot; nothing to install</p>
+      <p class="download-size">Free &middot; works on any phone, tablet or laptop</p>
 
-      <p style="color: var(--text-sec); margin: 22px 0 10px; font-size: 14px;">
+      <p style="color: var(--text-sec); margin: 22px 0 10px; font-size: 14px;"
+         id="ntInstallHint">
         Want it on your home screen? Add it in two taps &mdash; no app store, no download.
       </p>
 
-      <div class="accordion">
+      <!-- Hidden by the script wherever the install button can do this in one
+           tap. Step-by-step menu-hunting is a last resort, not the offer. -->
+      <div class="accordion" id="ntInstallSteps">
         <button class="accordion-toggle" id="installToggle">
           How to install NoobTrader on your phone
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
@@ -1349,11 +1373,19 @@
     // no prompt either, and its menu item is not reliably named, so we simply
     // do not show the button there rather than send anyone hunting.
     (function () {
-      const btn = document.getElementById('ntInstall');
-      const btnText = document.getElementById('ntInstallText');
+      // Two buttons, one in the hero and one in the "Ready to start?"
+      // section, behaving identically — whichever the visitor reaches first
+      // has to be the real thing.
+      const buttons = [
+        { btn: document.getElementById('ntInstall'),  label: document.getElementById('ntInstallText') },
+        { btn: document.getElementById('ntInstall2'), label: document.getElementById('ntInstall2Text') },
+      ].filter((b) => b.btn);
       const sheet = document.getElementById('iosSheet');
       const sheetClose = document.getElementById('iosSheetClose');
-      if (!btn) return;
+      const steps = document.getElementById('ntInstallSteps');
+      const hint = document.getElementById('ntInstallHint');
+      const navDownload = document.querySelector('.nav-links a[href="#download"]');
+      if (!buttons.length) return;
 
       const ua = navigator.userAgent;
       const isIOS = /iPad|iPhone|iPod/.test(ua) ||
@@ -1363,10 +1395,24 @@
       const installed = window.matchMedia('(display-mode: standalone)').matches ||
         window.navigator.standalone === true;
 
-      const show = (label) => { if (label) btnText.textContent = label; btn.hidden = false; };
+      const show = (label) => {
+        buttons.forEach(({ btn, label: el }) => {
+          if (label && el) el.textContent = label;
+          btn.hidden = false;
+        });
+        // A one-tap install makes the menu-hunting steps redundant; leaving
+        // them up is what made this feel like homework.
+        if (!label && steps) {
+          steps.hidden = true;
+          if (hint) hint.textContent = 'One tap and it lands on your home screen, with its own icon.';
+        }
+      };
+      const hideAll = () => buttons.forEach(({ btn }) => { btn.hidden = true; });
 
       if (installed) {
         // Already on the home screen — offering to install it again is noise.
+        if (steps) steps.hidden = true;
+        if (hint) hint.textContent = 'Already installed — open it from your home screen any time.';
       } else if (window.__ntInstallEvent) {
         show();
       } else if (isIOS && isSafari) {
@@ -1375,22 +1421,30 @@
       // Chrome can fire the event after first paint, so listen for it too.
       window.addEventListener('nt-install-ready', () => { if (!installed) show(); });
 
-      btn.addEventListener('click', async () => {
+      const onClick = async (btn) => {
         const evt = window.__ntInstallEvent;
         if (evt) {
-          btn.disabled = true;
+          buttons.forEach(({ btn: b }) => { b.disabled = true; });
           evt.prompt();
           const { outcome } = await evt.userChoice;
           // The event is single-use. Dropping it stops a second tap silently
           // doing nothing, which reads as a broken button.
           window.__ntInstallEvent = null;
-          if (outcome === 'accepted') { btn.hidden = true; }
-          else { btn.disabled = false; btn.hidden = true; }
+          hideAll();
+          if (outcome !== 'accepted' && steps) steps.hidden = false;
           return;
         }
         if (isIOS) { sheet.classList.add('open'); return; }
         // No prompt and not iOS: the app itself still works in the browser.
         window.location.href = './app/';
+      };
+      buttons.forEach(({ btn }) => btn.addEventListener('click', () => onClick(btn)));
+
+      // "Download" in the nav should land on the install offer, not scroll
+      // past it — the section is what the word means on this site.
+      navDownload?.addEventListener('click', () => {
+        const target = buttons.find(({ btn }) => !btn.hidden);
+        if (target) setTimeout(() => target.btn.focus({ preventScroll: true }), 600);
       });
 
       sheetClose?.addEventListener('click', () => sheet.classList.remove('open'));
@@ -1399,8 +1453,10 @@
       });
 
       window.addEventListener('appinstalled', () => {
-        btn.hidden = true;
+        hideAll();
         window.__ntInstallEvent = null;
+        if (steps) steps.hidden = true;
+        if (hint) hint.textContent = 'Installed. Open NoobTrader from your home screen any time.';
       });
 
       // Registering the worker is what makes the prompt possible at all.
