@@ -3,6 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google tag (gtag.js) — Google Ads conversion tracking, AW-17817232433.
+       Sits directly below charset/viewport: Google wants it as high in <head>
+       as possible, and charset must stay inside the first 1024 bytes.
+       NOTE: this is an ADS tag, not Analytics — it sets advertising cookies.
+       This site is aimed at 13-18s, so see website/CLAUDE.md before adding
+       personalisation or a remarketing audience to it. -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17817232433"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'AW-17817232433');
+  </script>
+
   <title>NoobTrader - Learn to Trade with Virtual Cash | Global Trading Simulator</title>
   <meta name="description" content="Trade 1,000+ stocks across 20 global exchanges, 50 cryptos, 15 commodities, forex & more with virtual cash. NoobTrader is a free trading simulator available in 59 languages. Earn XP, compete globally, and learn to invest.">
   <meta name="keywords" content="trading simulator, virtual trading app, learn to trade stocks, crypto trading simulator, forex simulator, NoobTrader, stock market game, investment education, global stock exchanges, commodities trading, paper trading">
