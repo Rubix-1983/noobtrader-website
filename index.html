@@ -103,6 +103,7 @@
       --yellow: #ffc312;
       --blue: #4f9cff;
       --purple: #a78bfa;
+      --purple-dim: rgba(167,139,250,0.12);
       --pink: #f472b6;
       --text: #ffffff;
       --text-sec: #8892b0;
@@ -111,6 +112,12 @@
       --gradient: linear-gradient(135deg, #00d4aa 0%, #00b894 100%);
       --aura-gradient: linear-gradient(135deg, #a78bfa 0%, #7c3aed 100%);
       --glow: rgba(0,212,170,0.3);
+      --brand: #20C4FB;
+      --brand-blue: #1464FD;
+      --brand-violet: #8B4EF9;
+      --brand-gradient: linear-gradient(135deg, #8B4EF9 0%, #1464FD 50%, #20C4FB 100%);
+      --brand-dim: rgba(32,196,251,0.12);
+      --brand-glow: rgba(20,100,253,0.35);
     }
 
     html { scroll-behavior: smooth; }
@@ -180,8 +187,8 @@
     }
     .nav-links a:hover { color: var(--text); }
     .nav-cta {
-      background: var(--gradient);
-      color: #000 !important;
+      background: var(--brand-blue);
+      color: #fff !important;
       padding: 8px 20px;
       border-radius: 8px;
       font-weight: 700;
@@ -190,7 +197,7 @@
     }
     .nav-cta:hover {
       transform: translateY(-1px);
-      box-shadow: 0 4px 20px var(--glow);
+      box-shadow: 0 4px 20px var(--brand-glow);
       text-decoration: none;
     }
     .hamburger {
@@ -262,14 +269,14 @@
       font-weight: 800;
       letter-spacing: -0.045em;
       line-height: 1;
-      background-image: linear-gradient(100deg, #34F5C5 0%, #4DA8FF 20%, #8B5CF6 40%, #FF4ECD 60%, #4DA8FF 80%, #34F5C5 100%);
+      background-image: linear-gradient(100deg, #20C4FB 0%, #1464FD 30%, #8B4EF9 50%, #1464FD 70%, #20C4FB 100%);
       background-size: 200% 100%;
       -webkit-background-clip: text; background-clip: text;
       -webkit-text-fill-color: transparent; color: transparent;
       white-space: nowrap;
     }
     @supports not ((-webkit-background-clip: text) or (background-clip: text)) {
-      .nt-word { background: none; color: #8B5CF6; -webkit-text-fill-color: #8B5CF6; }
+      .nt-word { background: none; color: #8B4EF9; -webkit-text-fill-color: #8B4EF9; }
     }
     @keyframes ntFlow { 0% { background-position: 0% 50%; } 100% { background-position: 200% 50%; } }
 
@@ -514,11 +521,10 @@
       color: var(--text-sec);
       margin-bottom: 36px;
     }
+    /* Flat brand cyan, not gradient text: at 15px/700 the blue end of the
+       gradient sat below AA contrast on the dark hero. */
     .hero-sub span {
-      background: linear-gradient(135deg, var(--accent), var(--blue));
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
+      color: var(--brand);
       font-weight: 700;
     }
     .hero-buttons {
@@ -532,8 +538,8 @@
       display: inline-flex;
       align-items: center;
       gap: 8px;
-      background: var(--gradient);
-      color: #000;
+      background: var(--brand-gradient);
+      color: #fff;
       padding: 14px 32px;
       border-radius: 12px;
       font-weight: 700;
@@ -545,7 +551,7 @@
     }
     .btn-primary:hover {
       transform: translateY(-2px);
-      box-shadow: 0 8px 30px var(--glow);
+      box-shadow: 0 8px 30px var(--brand-glow);
       text-decoration: none;
     }
     .btn-outline {
@@ -580,7 +586,7 @@
     .stat-value {
       font-size: 24px;
       font-weight: 800;
-      background: linear-gradient(135deg, var(--accent), var(--blue));
+      background: var(--brand-gradient);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
@@ -609,7 +615,7 @@
       font-size: 12px;
       font-weight: 700;
       letter-spacing: 2px;
-      color: var(--accent);
+      color: var(--brand);
       margin-bottom: 12px;
     }
     .section-title {
@@ -763,8 +769,8 @@
       width: 48px;
       height: 48px;
       border-radius: 50%;
-      background: var(--gradient);
-      color: #000;
+      background: var(--brand-gradient);
+      color: #fff;
       font-weight: 800;
       font-size: 20px;
       display: flex;
@@ -807,14 +813,14 @@
       left: 0;
       right: 0;
       height: 3px;
-      background: var(--gradient);
+      background: var(--brand-gradient);
     }
     .download-btn {
       display: inline-flex;
       align-items: center;
       gap: 10px;
-      background: var(--gradient);
-      color: #000;
+      background: var(--brand-gradient);
+      color: #fff;
       padding: 18px 40px;
       border-radius: 14px;
       font-weight: 800;
@@ -828,7 +834,7 @@
     }
     .download-btn:hover {
       transform: translateY(-3px);
-      box-shadow: 0 12px 40px var(--glow);
+      box-shadow: 0 12px 40px var(--brand-glow);
       text-decoration: none;
     }
     .download-btn svg { width: 22px; height: 22px; }
@@ -851,8 +857,8 @@
     }
 
     @keyframes pulse-glow {
-      0%, 100% { box-shadow: 0 4px 20px rgba(0,212,170,0.2); }
-      50% { box-shadow: 0 4px 30px rgba(0,212,170,0.4); }
+      0%, 100% { box-shadow: 0 4px 20px rgba(20,100,253,0.2); }
+      50% { box-shadow: 0 4px 30px rgba(20,100,253,0.4); }
     }
 
     /* Accordion */
@@ -980,7 +986,7 @@
 
     /* ── UTILITIES ─────────────────────────────────────── */
     .gradient-text {
-      background: linear-gradient(135deg, var(--accent), var(--blue));
+      background: var(--brand-gradient);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
@@ -991,6 +997,48 @@
       .stat-value { font-size: 20px; }
       .phone-frame { width: 180px; height: 376px; }
       .download-btn { padding: 14px 28px; font-size: 16px; }
+    }
+    /* ═══ NOOB coin ticker ═══ */
+    .noob-ticker {
+      display: grid;
+      /* 190px minimum: "1,000,000,000" must never wrap mid-number, and at
+         tabular-nums 22px it needs ~180px. */
+      grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+      gap: 12px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .noob-stat {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 20px 16px;
+      text-align: center;
+    }
+    .noob-stat-value {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: clamp(18px, 2.6vw, 26px);
+      font-weight: 700;
+      color: var(--brand);
+      font-variant-numeric: tabular-nums;
+      line-height: 1.2;
+      white-space: nowrap;
+    }
+    .noob-stat-label {
+      font-size: 12px;
+      color: var(--text-sec);
+      margin-top: 6px;
+      line-height: 1.45;
+    }
+    /* The disclaimer is persistent by rule: never collapsed, never behind a
+       tap, never below 11px. */
+    .noob-disclaimer {
+      max-width: 760px;
+      margin: 28px auto 0;
+      font-size: 12px;
+      line-height: 1.6;
+      color: var(--text-sec);
+      text-align: center;
     }
   </style>
 </head>
@@ -1221,6 +1269,75 @@
     </div>
   </section>
 
+  <!-- ═══ NOOB COIN ═══
+       Copy rules for this section are constraints, not preferences (see the
+       approved NOOB copy spec): no forward-looking statement about NOOB ever
+       becoming tradable (that lives in the in-app FAQ and Terms ONLY, never
+       in advertising), no price/value/projection, no named exchange or chain,
+       and the disclaimer is persistent — never collapsed, hidden behind a
+       tap, or reduced below 11px. British English, no em dashes.
+       The ticker binds to noob_public_stats() (aggregates only, anon-callable)
+       and falls back to the fixed supply figures with counters hidden if the
+       endpoint is unreachable — a broken stat must vanish, not show zero. -->
+  <section id="noob">
+    <p class="section-label anim">The NOOB Coin</p>
+    <h2 class="section-title anim anim-delay-1">Earn <span class="gradient-text">NOOB</span> as you get good</h2>
+    <p class="section-desc anim anim-delay-2">NOOB is NoobTrader's own reward coin. You can't buy it. You earn it, by trading well and showing up. There will only ever be 1,000,000,000, and early players earn at the fastest rate there will ever be.</p>
+
+    <div class="noob-ticker anim anim-delay-2" id="noobTicker" aria-live="polite">
+      <div class="noob-stat">
+        <div class="noob-stat-value" data-fixed="1000000000">1,000,000,000</div>
+        <div class="noob-stat-label">Max supply, fixed forever</div>
+      </div>
+      <div class="noob-stat">
+        <div class="noob-stat-value" data-fixed="600000000">600,000,000</div>
+        <div class="noob-stat-label">Reserved for player rewards</div>
+      </div>
+      <div class="noob-stat" data-live="noob_earned_total" hidden>
+        <div class="noob-stat-value" data-count>0</div>
+        <div class="noob-stat-label">NOOB earned by players so far</div>
+      </div>
+      <div class="noob-stat" data-live="noob_earned_24h" hidden>
+        <div class="noob-stat-value" data-count>0</div>
+        <div class="noob-stat-label">Earned in the last 24 hours</div>
+      </div>
+      <div class="noob-stat" data-live="earning_now" hidden>
+        <div class="noob-stat-value" data-count>0</div>
+        <div class="noob-stat-label">Players earning right now</div>
+      </div>
+      <div class="noob-stat" data-live="at_full_rate" hidden>
+        <div class="noob-stat-value" id="noobRateBadge">Full rate</div>
+        <div class="noob-stat-label">Season one. The rate only ever goes down</div>
+      </div>
+    </div>
+
+    <div class="features-grid" style="margin-top: 28px;">
+      <div class="feature-card anim anim-delay-1">
+        <div class="feature-icon" style="background: var(--brand-dim);">
+          <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="var(--brand)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        </div>
+        <h3>Daily Earn</h3>
+        <p>Tap once to start a 24-hour session and your NOOB grows while you're away. Come back, collect it, go again. Your balance compounds every day you show up.</p>
+      </div>
+      <div class="feature-card anim anim-delay-2">
+        <div class="feature-icon" style="background: var(--purple-dim);">
+          <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="var(--purple)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        </div>
+        <h3>NOOB Power</h3>
+        <p>Invite friends with your link. While they're earning, your rate climbs, up to 3 times faster at the top rung. Real friends, really playing. That's the whole trick.</p>
+      </div>
+      <div class="feature-card anim anim-delay-3">
+        <div class="feature-icon" style="background: var(--brand-dim);">
+          <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="var(--brand)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+        </div>
+        <h3>Halving, like Bitcoin</h3>
+        <p>Each time half the player pool is handed out, the earn rate halves. Early players earn fastest, and the pool can never run dry. Being early genuinely counts.</p>
+      </div>
+    </div>
+
+    <p class="noob-disclaimer anim anim-delay-3">NoobTrader is a simulator for learning. NOOB has no cash value. It can't be bought, sold, sent to anyone or withdrawn, and nothing here is financial advice or a promise of future value. Rates shown are settings and can change; NOOB you've already earned is never taken back.</p>
+  </section>
+
   <!-- ═══ SCREENSHOTS ═══ -->
   <section id="screenshots" class="screenshots-section">
     <p class="section-label anim">See It In Action</p>
@@ -1245,6 +1362,18 @@
           <img src="./screenshots/home-light.png" alt="NoobTrader light mode home screen" loading="lazy">
         </div>
         <p class="phone-caption">Home (Light)</p>
+      </div>
+      <div class="phone-wrap anim anim-delay-3">
+        <div class="phone-frame">
+          <img src="./screenshots/wallet-dark.png" alt="NOOB Wallet in dark mode with a live earning session" loading="lazy">
+        </div>
+        <p class="phone-caption">NOOB Wallet (Dark)</p>
+      </div>
+      <div class="phone-wrap anim anim-delay-4">
+        <div class="phone-frame">
+          <img src="./screenshots/wallet-light.png" alt="NOOB Wallet in light mode showing where the balance came from" loading="lazy">
+        </div>
+        <p class="phone-caption">NOOB Wallet (Light)</p>
       </div>
       <div class="phone-wrap anim anim-delay-4">
         <div class="phone-frame">
@@ -1590,5 +1719,64 @@
       content.classList.toggle('open');
     });
   </script>
+
+  <!-- ═══ NOOB TICKER ═══
+       Live aggregates from noob_public_stats() (anon-callable, no user data).
+       The stat tiles ship hidden and are only revealed once real numbers
+       arrive: a ticker that cannot load must disappear, not display zeros
+       that read as "nobody plays this game". The two fixed-supply tiles are
+       static truths and never depend on the network. The key below is the
+       public anonymous key that ships in every app bundle; it grants nothing
+       RLS does not allow. -->
+  <script>
+    (function () {
+      var SUPA_URL = "https://auth.noob-trader.com";
+      var SUPA_ANON = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InpmaWltanNkd2F2bHpsam9zdW5lIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzU1ODQ3MjksImV4cCI6MjA5MTE2MDcyOX0.cAtHfhLvl7og9D0QGaYXtCGJzjumqHZenO4gm_1Sonk";
+
+      function countUp(el, target) {
+        var dur = 1400, t0 = null;
+        function frame(ts) {
+          if (!t0) t0 = ts;
+          var p = Math.min((ts - t0) / dur, 1);
+          // ease-out cubic: fast start, gentle landing
+          var eased = 1 - Math.pow(1 - p, 3);
+          el.textContent = Math.round(target * eased).toLocaleString("en-GB");
+          if (p < 1) requestAnimationFrame(frame);
+        }
+        requestAnimationFrame(frame);
+      }
+
+      fetch(SUPA_URL + "/rest/v1/rpc/noob_public_stats", {
+        method: "POST",
+        headers: { "apikey": SUPA_ANON, "Content-Type": "application/json" },
+        body: "{}"
+      }).then(function (r) { return r.ok ? r.json() : null; })
+        .then(function (s) {
+          if (!s || typeof s !== "object") return;   // stay hidden
+          document.querySelectorAll("#noobTicker [data-live]").forEach(function (tile) {
+            var k = tile.getAttribute("data-live");
+            if (k === "at_full_rate") {
+              if (s.at_full_rate === true) tile.hidden = false;
+              else if (typeof s.emission_epoch === "number" && s.emission_epoch > 0) {
+                document.getElementById("noobRateBadge").textContent =
+                  "Halved " + (s.emission_epoch === 1 ? "once" : s.emission_epoch + " times");
+                tile.hidden = false;
+              }
+              return;
+            }
+            var v = Number(s[k]);
+            if (!isFinite(v) || v < 0) return;       // broken stat stays hidden
+            // "Earned so far" at 0 is a launch-day truth worth showing only
+            // alongside activity; a lone zero reads as failure. Show zeros
+            // only for earning_now, which genuinely fluctuates to zero.
+            if (v === 0 && k !== "earning_now") return;
+            tile.hidden = false;
+            countUp(tile.querySelector("[data-count]"), v);
+          });
+        })
+        .catch(function () { /* endpoint absent or offline: tiles stay hidden */ });
+    })();
+  </script>
+
 </body>
 </html>
