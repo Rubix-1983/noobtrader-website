@@ -4,19 +4,35 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Google tag (gtag.js) — Google Ads conversion tracking, AW-17817232433.
+  <!-- Google tag (gtag.js) — Google Ads conversion tracking.
        Sits directly below charset/viewport: Google wants it as high in <head>
        as possible, and charset must stay inside the first 1024 bytes.
+
+       TWO Ads accounts are configured on purpose. AW-18390800018 is the
+       account currently running ads (added 2026-08-15, with its page-view
+       conversion event below). AW-17817232433 was already here; it is KEPT so
+       that account's conversion history keeps recording — each Ads account
+       only sees its own ID, which is why Google reported "no tag found"
+       before this. If the old account is retired, delete its config line.
+
        NOTE: this is an ADS tag, not Analytics — it sets advertising cookies.
        This site is aimed at 13-18s, so see website/CLAUDE.md before adding
-       personalisation or a remarketing audience to it. -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17817232433"></script>
+       personalisation or a remarketing audience to it. The tag stays on THIS
+       marketing page only — never inside /app/, which is the signed-in
+       surface for minors. -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18390800018"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
+    gtag('config', 'AW-18390800018');
     gtag('config', 'AW-17817232433');
+  </script>
+  <!-- Event snippet for Page view conversion page (AW-18390800018): counts a
+       landing-page view as the ad's conversion, per the account's goal setup. -->
+  <script>
+    gtag('event', 'conversion', {'send_to': 'AW-18390800018/72HTCKy2gOIcEJKttcFE'});
   </script>
 
   <title>NoobTrader - Learn to Trade with Virtual Cash | Global Trading Simulator</title>
