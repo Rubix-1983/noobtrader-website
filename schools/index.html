@@ -33,13 +33,22 @@
          anyway; written relative here so the intent survives a base change.) -->
     <link rel="manifest" href="./manifest.json" />
 
-    <!-- Brand: Space Grotesk (800 for the RGB-fade noobtrader wordmark), JetBrains Mono for the tagline. Press Start 2P kept for legacy pixel UI accents. -->
+    <!-- Brand: Space Grotesk (800 for the RGB-fade noobtrader wordmark),
+         JetBrains Mono for the tagline, Inter for app body text — Inter moved
+         here from a runtime @import inside App.jsx's <style>, where the
+         browser could not even discover it until React had booted. Press
+         Start 2P dropped: nothing in src/ references it (2026-08-15 grep).
+         Non-blocking: media="print" keeps the CSS from gating first paint,
+         onload flips it live; the preload keeps discovery immediate and
+         display=swap keeps text visible on the fallback face meanwhile. -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Space+Grotesk:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" media="print" onload="this.media='all'" />
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" /></noscript>
 
     <title>NoobTrader</title>
-    <script type="module" crossorigin src="./assets/index-BcD6Jz1s.js"></script>
+    <script type="module" crossorigin src="./assets/index-QyMlHxEV.js"></script>
     <link rel="modulepreload" crossorigin href="./assets/react-CRB3T2We.js">
     <link rel="modulepreload" crossorigin href="./assets/supabase-BiHzSKx7.js">
     <link rel="stylesheet" crossorigin href="./assets/index-OTriKTl0.css">

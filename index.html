@@ -1300,7 +1300,9 @@
     <h2 class="section-title anim anim-delay-1">Earn <span class="gradient-text">NOOB</span> as you get good</h2>
     <p class="section-desc anim anim-delay-2">NOOB is NoobTrader's own reward coin. You can't buy it. You earn it, by trading well and showing up. There will only ever be 1,000,000,000, and early players earn at the fastest rate there will ever be.</p>
 
-    <div class="noob-ticker anim anim-delay-2" id="noobTicker" aria-live="polite">
+    <!-- No aria-live: the earned-total now ticks continuously, and a live
+         region would have screen readers announce every update forever. -->
+    <div class="noob-ticker anim anim-delay-2" id="noobTicker">
       <div class="noob-stat">
         <div class="noob-stat-value" data-fixed="1000000000">1,000,000,000</div>
         <div class="noob-stat-label">Max supply, fixed forever</div>
@@ -1743,54 +1745,121 @@
        that read as "nobody plays this game". The two fixed-supply tiles are
        static truths and never depend on the network. The key below is the
        public anonymous key that ships in every app bundle; it grants nothing
-       RLS does not allow. -->
+       RLS does not allow.
+
+       THE TICK (2026-08-15): "NOOB earned by players so far" climbs live at
+       the pace the last 24 hours actually averaged (earned_24h / 86400 per
+       second) and snaps to the server's real figure on every refresh (75s;
+       the RPC is cached 60s server-side, so refreshing is nearly free).
+       This is a reading of measured earning, reconciled to truth — never a
+       projection, so it stays inside the NOOB copy rules. Decimal places are
+       chosen so the last digit visibly moves at the current pace. Everything
+       pauses while the tab is hidden. -->
   <script>
     (function () {
       var SUPA_URL = "https://auth.noob-trader.com";
       var SUPA_ANON = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InpmaWltanNkd2F2bHpsam9zdW5lIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzU1ODQ3MjksImV4cCI6MjA5MTE2MDcyOX0.cAtHfhLvl7og9D0QGaYXtCGJzjumqHZenO4gm_1Sonk";
+      var reduced = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-      function countUp(el, target) {
+      function fmt(v, d) {
+        return v.toLocaleString("en-GB", { minimumFractionDigits: d, maximumFractionDigits: d });
+      }
+
+      function countUp(el, target, d) {
+        if (reduced) { el.textContent = fmt(target, d); return; }
         var dur = 1400, t0 = null;
         function frame(ts) {
           if (!t0) t0 = ts;
           var p = Math.min((ts - t0) / dur, 1);
           // ease-out cubic: fast start, gentle landing
           var eased = 1 - Math.pow(1 - p, 3);
-          el.textContent = Math.round(target * eased).toLocaleString("en-GB");
+          el.textContent = fmt(target * eased, d);
           if (p < 1) requestAnimationFrame(frame);
         }
         requestAnimationFrame(frame);
       }
 
-      fetch(SUPA_URL + "/rest/v1/rpc/noob_public_stats", {
-        method: "POST",
-        headers: { "apikey": SUPA_ANON, "Content-Type": "application/json" },
-        body: "{}"
-      }).then(function (r) { return r.ok ? r.json() : null; })
-        .then(function (s) {
-          if (!s || typeof s !== "object") return;   // stay hidden
-          document.querySelectorAll("#noobTicker [data-live]").forEach(function (tile) {
-            var k = tile.getAttribute("data-live");
-            if (k === "at_full_rate") {
-              if (s.at_full_rate === true) tile.hidden = false;
-              else if (typeof s.emission_epoch === "number" && s.emission_epoch > 0) {
-                document.getElementById("noobRateBadge").textContent =
-                  "Halved " + (s.emission_epoch === 1 ? "once" : s.emission_epoch + " times");
-                tile.hidden = false;
-              }
-              return;
+      // The climbing total. base/t0 reset on every server reconcile, so the
+      // extrapolation can never drift further than one refresh interval.
+      var live = { el: null, base: 0, rate: 0, t0: 0, d: 0, timer: null };
+
+      // Enough decimals that the display visibly moves at the current pace;
+      // whole numbers once the economy earns fast enough to move them.
+      function decimalsFor(rate) { return rate >= 1 ? 0 : rate >= 0.01 ? 2 : 4; }
+
+      function tickFrame() {
+        if (!live.el || live.rate <= 0) return;
+        live.el.textContent = fmt(live.base + live.rate * ((Date.now() - live.t0) / 1000), live.d);
+      }
+      function stopClimb() { if (live.timer) { clearInterval(live.timer); live.timer = null; } }
+      function startClimb() {
+        stopClimb();
+        if (!live.el || live.rate <= 0 || document.hidden) return;
+        // Reduced motion still gets a truthful number — it just steps rarely
+        // instead of visibly running.
+        live.timer = setInterval(tickFrame, reduced ? 5000 : 500);
+      }
+      document.addEventListener("visibilitychange", function () {
+        if (document.hidden) stopClimb(); else startClimb();
+      });
+
+      var firstLoad = true;
+      function apply(s) {
+        if (!s || typeof s !== "object") return;   // stay hidden
+        document.querySelectorAll("#noobTicker [data-live]").forEach(function (tile) {
+          var k = tile.getAttribute("data-live");
+          if (k === "at_full_rate") {
+            if (s.at_full_rate === true) tile.hidden = false;
+            else if (typeof s.emission_epoch === "number" && s.emission_epoch > 0) {
+              document.getElementById("noobRateBadge").textContent =
+                "Halved " + (s.emission_epoch === 1 ? "once" : s.emission_epoch + " times");
+              tile.hidden = false;
             }
-            var v = Number(s[k]);
-            if (!isFinite(v) || v < 0) return;       // broken stat stays hidden
-            // "Earned so far" at 0 is a launch-day truth worth showing only
-            // alongside activity; a lone zero reads as failure. Show zeros
-            // only for earning_now, which genuinely fluctuates to zero.
-            if (v === 0 && k !== "earning_now") return;
-            tile.hidden = false;
-            countUp(tile.querySelector("[data-count]"), v);
-          });
-        })
-        .catch(function () { /* endpoint absent or offline: tiles stay hidden */ });
+            return;
+          }
+          var v = Number(s[k]);
+          if (!isFinite(v) || v < 0) return;       // broken stat stays hidden
+          // "Earned so far" at 0 is a launch-day truth worth showing only
+          // alongside activity; a lone zero reads as failure. Show zeros
+          // only for earning_now, which genuinely fluctuates to zero.
+          if (v === 0 && k !== "earning_now") return;
+          tile.hidden = false;
+          var el = tile.querySelector("[data-count]");
+          if (k === "noob_earned_total") {
+            var rate = Number(s.noob_earned_24h) > 0 ? Number(s.noob_earned_24h) / 86400 : 0;
+            live.el = el; live.rate = rate; live.d = decimalsFor(rate);
+            live.base = v; live.t0 = Date.now();
+            if (firstLoad) {
+              countUp(el, v, live.d);
+              // Let the intro count-up land before the climb takes over the
+              // same element.
+              setTimeout(startClimb, 1500);
+            } else {
+              tickFrame();
+              startClimb();
+            }
+          } else {
+            // 24h earned keeps decimals while the economy is young — 41.49
+            // NOOB rendered as "41" was the page misquoting its own backend.
+            var d = (k === "noob_earned_24h" && v < 1000) ? 2 : 0;
+            if (firstLoad) countUp(el, v, d);
+            else el.textContent = fmt(v, d);
+          }
+        });
+        firstLoad = false;
+      }
+
+      function refresh() {
+        fetch(SUPA_URL + "/rest/v1/rpc/noob_public_stats", {
+          method: "POST",
+          headers: { "apikey": SUPA_ANON, "Content-Type": "application/json" },
+          body: "{}"
+        }).then(function (r) { return r.ok ? r.json() : null; })
+          .then(apply)
+          .catch(function () { /* endpoint absent or offline: tiles stay hidden */ });
+      }
+      refresh();
+      setInterval(function () { if (!document.hidden) refresh(); }, 75000);
     })();
   </script>
 
