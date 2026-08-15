@@ -14,12 +14,12 @@
  * hashed JS/CSS and brand images — is cached.
  */
 
-// 20260814150831 is replaced with the build timestamp by the swVersion() plugin in
+// 20260815090156 is replaced with the build timestamp by the swVersion() plugin in
 // vite.config.js. It MUST change every deploy: the activate handler deletes any
 // cache whose key does not start with VERSION, so a constant version means an
 // old shell can never be evicted. That is how a user ends up pinned to a build
 // from before a fix and reports the bug as still present.
-const VERSION = "nt-20260814150831";
+const VERSION = "nt-20260815090156";
 const SHELL = `${VERSION}-shell`;
 
 // Anything the app cannot function without. Scope-relative so this works under
