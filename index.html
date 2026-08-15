@@ -1062,6 +1062,43 @@
     @media (prefers-reduced-motion: reduce) {
       .noob-stat-value .od-ch.od-roll { animation: none; }
     }
+    /* The navbar's live NOOB counter: the same odometer, compact, and a
+       plain anchor to #noob. Hidden until real numbers arrive — a chip
+       showing 0 (or stuck while the endpoint is down) would be the navbar
+       advertising a dead economy. */
+    .nav-noob {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 7px 12px;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      background: var(--card);
+      text-decoration: none;
+      color: var(--brand);
+      font-family: 'Space Grotesk', sans-serif;
+      font-weight: 700;
+      font-size: 13px;
+      font-variant-numeric: tabular-nums;
+      white-space: nowrap;
+      line-height: 1;
+      transition: border-color 0.2s ease;
+    }
+    .nav-noob:hover { border-color: var(--brand); }
+    .nav-noob .od-ch { display: inline-block; }
+    .nav-noob .od-ch.od-roll { animation: odRoll 0.22s ease-out; }
+    .nav-noob .od-frac { font-size: 0.72em; opacity: 0.85; }
+    .nav-noob-label {
+      color: var(--text-sec);
+      font-family: 'Inter', sans-serif;
+      font-weight: 600;
+      font-size: 11px;
+    }
+    @media (max-width: 640px) { .nav-noob-label { display: none; } }
+    @media (prefers-reduced-motion: reduce) { .nav-noob .od-ch.od-roll { animation: none; } }
+    /* The navbar is fixed and 64px tall; without this an anchor jump (the
+       nav chip, the section links) buries the section heading under it. */
+    section[id] { scroll-margin-top: 76px; }
     /* The disclaimer is persistent by rule: never collapsed, never behind a
        tap, never below 11px. */
     .noob-disclaimer {
@@ -1082,6 +1119,18 @@
       <img src="./logo.png" width="36" height="36" alt="NoobTrader"
            style="display:block;object-fit:contain" decoding="async">
       <span class="nt-word" style="font-size: 21px;">noobtrader</span>
+    </a>
+    <!-- Live total of NOOB earned by players, ticking at the measured pace;
+         the whole chip is a link to the section that explains it. Labelled
+         "earned", never "staking"/"staked" — NOOB cannot be bought, sold,
+         staked or withdrawn, and this page must not borrow real-crypto
+         finance language (approved NOOB copy spec). Ships hidden: it only
+         appears once real numbers arrive, same rule as the ticker tiles. -->
+    <a href="#noob" class="nav-noob" id="navNoob" hidden
+       aria-label="Total NOOB earned by players so far">
+      <span aria-hidden="true">🪙</span>
+      <span class="nav-noob-value" data-count>0</span>
+      <span class="nav-noob-label">NOOB earned</span>
     </a>
     <ul class="nav-links" id="navLinks">
       <li><a href="#features">Features</a></li>
@@ -1222,6 +1271,77 @@
     </div>
   </section>
 
+  <!-- ═══ NOOB COIN ═══
+       Copy rules for this section are constraints, not preferences (see the
+       approved NOOB copy spec): no forward-looking statement about NOOB ever
+       becoming tradable (that lives in the in-app FAQ and Terms ONLY, never
+       in advertising), no price/value/projection, no named exchange or chain,
+       and the disclaimer is persistent — never collapsed, hidden behind a
+       tap, or reduced below 11px. British English, no em dashes.
+       The ticker binds to noob_public_stats() (aggregates only, anon-callable)
+       and falls back to the fixed supply figures with counters hidden if the
+       endpoint is unreachable — a broken stat must vanish, not show zero. -->
+  <section id="noob">
+    <p class="section-label anim">The NOOB Coin</p>
+    <h2 class="section-title anim anim-delay-1">Earn <span class="gradient-text">NOOB</span> as you get good</h2>
+    <p class="section-desc anim anim-delay-2">NOOB is NoobTrader's own reward coin. You can't buy it. You earn it, by trading well and showing up. There will only ever be 1,000,000,000, and early players earn at the fastest rate there will ever be.</p>
+
+    <!-- No aria-live: the earned-total now ticks continuously, and a live
+         region would have screen readers announce every update forever. -->
+    <div class="noob-ticker anim anim-delay-2" id="noobTicker">
+      <div class="noob-stat">
+        <div class="noob-stat-value" data-fixed="1000000000">1,000,000,000</div>
+        <div class="noob-stat-label">Max supply, fixed forever</div>
+      </div>
+      <div class="noob-stat">
+        <div class="noob-stat-value" data-fixed="600000000">600,000,000</div>
+        <div class="noob-stat-label">Reserved for player rewards</div>
+      </div>
+      <div class="noob-stat" data-live="noob_earned_total" hidden>
+        <div class="noob-stat-value" data-count>0</div>
+        <div class="noob-stat-label">NOOB earned by players so far</div>
+      </div>
+      <div class="noob-stat" data-live="noob_earned_24h" hidden>
+        <div class="noob-stat-value" data-count>0</div>
+        <div class="noob-stat-label">Earned in the last 24 hours</div>
+      </div>
+      <div class="noob-stat" data-live="earning_now" hidden>
+        <div class="noob-stat-value" data-count>0</div>
+        <div class="noob-stat-label">Players earning right now</div>
+      </div>
+      <div class="noob-stat" data-live="at_full_rate" hidden>
+        <div class="noob-stat-value" id="noobRateBadge">Full rate</div>
+        <div class="noob-stat-label">Season one. The rate only ever goes down</div>
+      </div>
+    </div>
+
+    <div class="features-grid" style="margin-top: 28px;">
+      <div class="feature-card anim anim-delay-1">
+        <div class="feature-icon" style="background: var(--brand-dim);">
+          <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="var(--brand)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        </div>
+        <h3>Daily Earn</h3>
+        <p>Tap once to start a 24-hour session and your NOOB grows while you're away. Come back, collect it, go again. Your balance compounds every day you show up.</p>
+      </div>
+      <div class="feature-card anim anim-delay-2">
+        <div class="feature-icon" style="background: var(--purple-dim);">
+          <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="var(--purple)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        </div>
+        <h3>NOOB Power</h3>
+        <p>Invite friends with your link. While they're earning, your rate climbs, up to 3 times faster at the top rung. Real friends, really playing. That's the whole trick.</p>
+      </div>
+      <div class="feature-card anim anim-delay-3">
+        <div class="feature-icon" style="background: var(--brand-dim);">
+          <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="var(--brand)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+        </div>
+        <h3>Halving, like Bitcoin</h3>
+        <p>Each time half the player pool is handed out, the earn rate halves. Early players earn fastest, and the pool can never run dry. Being early genuinely counts.</p>
+      </div>
+    </div>
+
+    <p class="noob-disclaimer anim anim-delay-3">NoobTrader is a simulator for learning. NOOB has no cash value. It can't be bought, sold, sent to anyone or withdrawn, and nothing here is financial advice or a promise of future value. Rates shown are settings and can change; NOOB you've already earned is never taken back.</p>
+  </section>
+
   <!-- ═══ FEATURES ═══ -->
   <section id="features">
     <p class="section-label anim">Why NoobTrader?</p>
@@ -1299,77 +1419,6 @@
         <p>Choose your vibe. Both modes are fully themed with smooth transitions.</p>
       </div>
     </div>
-  </section>
-
-  <!-- ═══ NOOB COIN ═══
-       Copy rules for this section are constraints, not preferences (see the
-       approved NOOB copy spec): no forward-looking statement about NOOB ever
-       becoming tradable (that lives in the in-app FAQ and Terms ONLY, never
-       in advertising), no price/value/projection, no named exchange or chain,
-       and the disclaimer is persistent — never collapsed, hidden behind a
-       tap, or reduced below 11px. British English, no em dashes.
-       The ticker binds to noob_public_stats() (aggregates only, anon-callable)
-       and falls back to the fixed supply figures with counters hidden if the
-       endpoint is unreachable — a broken stat must vanish, not show zero. -->
-  <section id="noob">
-    <p class="section-label anim">The NOOB Coin</p>
-    <h2 class="section-title anim anim-delay-1">Earn <span class="gradient-text">NOOB</span> as you get good</h2>
-    <p class="section-desc anim anim-delay-2">NOOB is NoobTrader's own reward coin. You can't buy it. You earn it, by trading well and showing up. There will only ever be 1,000,000,000, and early players earn at the fastest rate there will ever be.</p>
-
-    <!-- No aria-live: the earned-total now ticks continuously, and a live
-         region would have screen readers announce every update forever. -->
-    <div class="noob-ticker anim anim-delay-2" id="noobTicker">
-      <div class="noob-stat">
-        <div class="noob-stat-value" data-fixed="1000000000">1,000,000,000</div>
-        <div class="noob-stat-label">Max supply, fixed forever</div>
-      </div>
-      <div class="noob-stat">
-        <div class="noob-stat-value" data-fixed="600000000">600,000,000</div>
-        <div class="noob-stat-label">Reserved for player rewards</div>
-      </div>
-      <div class="noob-stat" data-live="noob_earned_total" hidden>
-        <div class="noob-stat-value" data-count>0</div>
-        <div class="noob-stat-label">NOOB earned by players so far</div>
-      </div>
-      <div class="noob-stat" data-live="noob_earned_24h" hidden>
-        <div class="noob-stat-value" data-count>0</div>
-        <div class="noob-stat-label">Earned in the last 24 hours</div>
-      </div>
-      <div class="noob-stat" data-live="earning_now" hidden>
-        <div class="noob-stat-value" data-count>0</div>
-        <div class="noob-stat-label">Players earning right now</div>
-      </div>
-      <div class="noob-stat" data-live="at_full_rate" hidden>
-        <div class="noob-stat-value" id="noobRateBadge">Full rate</div>
-        <div class="noob-stat-label">Season one. The rate only ever goes down</div>
-      </div>
-    </div>
-
-    <div class="features-grid" style="margin-top: 28px;">
-      <div class="feature-card anim anim-delay-1">
-        <div class="feature-icon" style="background: var(--brand-dim);">
-          <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="var(--brand)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-        </div>
-        <h3>Daily Earn</h3>
-        <p>Tap once to start a 24-hour session and your NOOB grows while you're away. Come back, collect it, go again. Your balance compounds every day you show up.</p>
-      </div>
-      <div class="feature-card anim anim-delay-2">
-        <div class="feature-icon" style="background: var(--purple-dim);">
-          <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="var(--purple)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
-        </div>
-        <h3>NOOB Power</h3>
-        <p>Invite friends with your link. While they're earning, your rate climbs, up to 3 times faster at the top rung. Real friends, really playing. That's the whole trick.</p>
-      </div>
-      <div class="feature-card anim anim-delay-3">
-        <div class="feature-icon" style="background: var(--brand-dim);">
-          <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="var(--brand)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
-        </div>
-        <h3>Halving, like Bitcoin</h3>
-        <p>Each time half the player pool is handed out, the earn rate halves. Early players earn fastest, and the pool can never run dry. Being early genuinely counts.</p>
-      </div>
-    </div>
-
-    <p class="noob-disclaimer anim anim-delay-3">NoobTrader is a simulator for learning. NOOB has no cash value. It can't be bought, sold, sent to anyone or withdrawn, and nothing here is financial advice or a promise of future value. Rates shown are settings and can change; NOOB you've already earned is never taken back.</p>
   </section>
 
   <!-- ═══ SCREENSHOTS ═══ -->
@@ -1833,7 +1882,9 @@
 
       // The climbing total. base/t0 reset on every server reconcile, so the
       // extrapolation can never drift further than one refresh interval.
-      var live = { el: null, base: 0, rate: 0, t0: 0, d: 0, timer: null };
+      // els: every element the climb drives — the section tile AND the
+      // navbar chip render the same string from the same clock.
+      var live = { els: [], base: 0, rate: 0, t0: 0, d: 0, timer: null };
 
       // Enough decimals that the number visibly RUNS at the current pace:
       // the smallest place where the pace lands ≥3 changes/second, plus one
@@ -1850,13 +1901,14 @@
       }
 
       function tickFrame() {
-        if (!live.el || live.rate <= 0) return;
-        renderOdometer(live.el, fmt(live.base + live.rate * ((Date.now() - live.t0) / 1000), live.d));
+        if (!live.els.length || live.rate <= 0) return;
+        var str = fmt(live.base + live.rate * ((Date.now() - live.t0) / 1000), live.d);
+        for (var i = 0; i < live.els.length; i++) renderOdometer(live.els[i], str);
       }
       function stopClimb() { if (live.timer) { clearInterval(live.timer); live.timer = null; } }
       function startClimb() {
         stopClimb();
-        if (!live.el || live.rate <= 0 || document.hidden) return;
+        if (!live.els.length || live.rate <= 0 || document.hidden) return;
         // 10Hz: fast enough that the fast wheel turns on every tick and the
         // roll animation (220ms) always has a fresh change to show, cheap
         // enough to be free. Reduced motion still gets a truthful number —
@@ -1891,14 +1943,23 @@
           var el = tile.querySelector("[data-count]");
           if (k === "noob_earned_total") {
             var rate = Number(s.noob_earned_24h) > 0 ? Number(s.noob_earned_24h) / 86400 : 0;
-            live.el = el; live.rate = rate; live.d = decimalsFor(rate);
+            var nav = document.getElementById("navNoob");
+            var navVal = nav ? nav.querySelector("[data-count]") : null;
+            live.els = navVal ? [el, navVal] : [el];
+            live.rate = rate; live.d = decimalsFor(rate);
             live.base = v; live.t0 = Date.now();
             // A screen reader gets the reconciled figure, re-announced at
             // most once per refresh — never a number spinning ten times a
             // second under the cursor.
             el.setAttribute("aria-label", fmt(v, live.d) + " NOOB");
+            if (nav) {
+              nav.hidden = false;
+              nav.setAttribute("aria-label",
+                "Total NOOB earned by players so far: " + fmt(v, live.d));
+            }
             if (firstLoad) {
               countUp(el, v, live.d);
+              if (navVal) renderOdometer(navVal, fmt(v, live.d));
               // Let the intro count-up land before the climb takes over the
               // same element.
               setTimeout(startClimb, 1500);
