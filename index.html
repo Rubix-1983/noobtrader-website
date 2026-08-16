@@ -1161,10 +1161,12 @@
         <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"/></svg>
         Play in browser
       </a>
-      <!-- Hidden until we know installing can actually work on this device.
-           A button that opens a wall of instructions is worse than no button:
-           it promises one tap and delivers homework. Revealed by the script at
-           the foot of the page. -->
+      <!-- hidden only until the script at the foot of the page runs (and for
+           the rare no-JS visit — a dead install button would be worse than
+           none). The script always reveals it: with a native prompt it
+           installs in one tap, on iOS it opens the Share-menu sheet, and
+           everywhere else it jumps to the step-by-step section below, so the
+           button always does SOMETHING honest. -->
       <button id="ntInstall" class="btn-outline" hidden>
         <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
         <span id="ntInstallText">Install app</span>
@@ -1675,6 +1677,13 @@
         show();
       } else if (isIOS) {
         show('Add to Home Screen');
+      } else {
+        // No native prompt (Firefox, desktop Safari, or Chrome that has not
+        // offered the event) — show the button anyway. Hiding it here meant
+        // most visitors saw install guidance only if they scrolled to the
+        // foot of the page; the click handler routes these visitors to the
+        // step-by-step section, so the button still keeps its promise.
+        show();
       }
       // Chrome can fire the event after first paint, so listen for it too.
       window.addEventListener('nt-install-ready', () => { if (!installed) show(); });
@@ -1724,8 +1733,12 @@
           sheet.classList.add('open');
           return;
         }
-        // No prompt and not iOS: the app itself still works in the browser.
-        window.location.href = './app/';
+        // No prompt and not iOS: the menu-by-menu steps in the download
+        // section are the honest answer — take the visitor there rather than
+        // silently opening the browser app, which is the OTHER button's job.
+        if (steps) steps.hidden = false;
+        const dl = document.getElementById('download');
+        if (dl) dl.scrollIntoView({ behavior: 'smooth' });
       };
       buttons.forEach(({ btn }) => btn.addEventListener('click', () => onClick(btn)));
 
