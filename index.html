@@ -1180,19 +1180,14 @@
     <h1 class="hero-tagline">Learn to trade shares, currencies and crypto with virtual cash</h1>
     <p class="hero-sub"><span>No real money.</span> Real market data. <span>Real fun!</span></p>
     <div class="hero-buttons">
-      <!-- INSTALL LEADS (founder, 2026-08-16). Still hidden until we know
-           installing can actually work on this device — a button that opens a
-           wall of instructions is worse than no button. When the script at the
-           foot of the page reveals it, the CSS below promotes it to the
-           gradient primary and demotes Play in browser to the outline
-           secondary; on devices that cannot install, Play in browser remains
-           the solo primary. -->
+      <!-- INSTALL LEADS (founder, 2026-08-16). Hidden until the device can
+           actually install; the CSS near .btn-primary promotes it to the
+           gradient primary when revealed and demotes Play in browser to the
+           outline secondary. Play in browser is the universal fallback. -->
       <button id="ntInstall" class="btn-outline" hidden>
         <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
         <span id="ntInstallText">Install app</span>
       </button>
-      <!-- Play in browser is the universal entry: it works on every device,
-           which is why it is the fallback primary rather than the headline. -->
       <a href="./app/" class="btn-primary">
         <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"/></svg>
         Play in browser
