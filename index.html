@@ -570,6 +570,32 @@
       box-shadow: 0 8px 30px var(--brand-glow);
       text-decoration: none;
     }
+    /* Install leads (founder, 2026-08-16). #ntInstall sits FIRST in the hero
+       and stays hidden until the page proves this device can install. Once
+       revealed, it takes the gradient primary treatment and the sibling
+       Play-in-browser steps down to the outline secondary. On devices that
+       never reveal it, Play in browser remains the solo gradient primary —
+       no state ever shows a hero without a strong CTA. */
+    #ntInstall:not([hidden]) {
+      background: var(--brand-gradient);
+      color: #fff;
+      font-weight: 700;
+      border: none;
+    }
+    #ntInstall:not([hidden]):hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 30px var(--brand-glow);
+    }
+    #ntInstall:not([hidden]) ~ .btn-primary {
+      background: transparent;
+      color: var(--text);
+      border: 1px solid var(--border, rgba(255,255,255,0.2));
+      font-weight: 600;
+    }
+    #ntInstall:not([hidden]) ~ .btn-primary:hover {
+      box-shadow: none;
+      border-color: var(--brand);
+    }
     .btn-outline {
       display: inline-flex;
       align-items: center;
@@ -1154,23 +1180,23 @@
     <h1 class="hero-tagline">Learn to trade shares, currencies and crypto with virtual cash</h1>
     <p class="hero-sub"><span>No real money.</span> Real market data. <span>Real fun!</span></p>
     <div class="hero-buttons">
-      <!-- Play in browser leads. The page previously offered only an Android
-           APK, so anyone on iPhone or a laptop had no way into the app at
-           all — even though the web build is live and is the same app. -->
-      <a href="./app/" class="btn-primary">
-        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"/></svg>
-        Play in browser
-      </a>
-      <!-- hidden only until the script at the foot of the page runs (and for
-           the rare no-JS visit — a dead install button would be worse than
-           none). The script always reveals it: with a native prompt it
-           installs in one tap, on iOS it opens the Share-menu sheet, and
-           everywhere else it jumps to the step-by-step section below, so the
-           button always does SOMETHING honest. -->
+      <!-- INSTALL LEADS (founder, 2026-08-16). Still hidden until we know
+           installing can actually work on this device — a button that opens a
+           wall of instructions is worse than no button. When the script at the
+           foot of the page reveals it, the CSS below promotes it to the
+           gradient primary and demotes Play in browser to the outline
+           secondary; on devices that cannot install, Play in browser remains
+           the solo primary. -->
       <button id="ntInstall" class="btn-outline" hidden>
         <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
         <span id="ntInstallText">Install app</span>
       </button>
+      <!-- Play in browser is the universal entry: it works on every device,
+           which is why it is the fallback primary rather than the headline. -->
+      <a href="./app/" class="btn-primary">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+        Play in browser
+      </a>
     </div>
     <p style="margin-top:-32px;margin-bottom:40px;font-size:14px;opacity:0.6">
       Free to play. Works on any phone or laptop — no app store needed.
@@ -1267,11 +1293,7 @@
         <div class="stat-label">Languages</div>
       </div>
       <div class="stat">
-        <!-- 21 stock exchanges (JSE + 20 international, server/data/exchanges.js)
-             plus the crypto, forex and commodities markets. The old "4" counted
-             asset classes and undersold the product against its own hero copy,
-             which already says "20 global exchanges" three lines up. -->
-        <div class="stat-value">24</div>
+        <div class="stat-value">4</div>
         <div class="stat-label">Markets</div>
       </div>
     </div>
@@ -1677,13 +1699,6 @@
         show();
       } else if (isIOS) {
         show('Add to Home Screen');
-      } else {
-        // No native prompt (Firefox, desktop Safari, or Chrome that has not
-        // offered the event) — show the button anyway. Hiding it here meant
-        // most visitors saw install guidance only if they scrolled to the
-        // foot of the page; the click handler routes these visitors to the
-        // step-by-step section, so the button still keeps its promise.
-        show();
       }
       // Chrome can fire the event after first paint, so listen for it too.
       window.addEventListener('nt-install-ready', () => { if (!installed) show(); });
@@ -1733,12 +1748,8 @@
           sheet.classList.add('open');
           return;
         }
-        // No prompt and not iOS: the menu-by-menu steps in the download
-        // section are the honest answer — take the visitor there rather than
-        // silently opening the browser app, which is the OTHER button's job.
-        if (steps) steps.hidden = false;
-        const dl = document.getElementById('download');
-        if (dl) dl.scrollIntoView({ behavior: 'smooth' });
+        // No prompt and not iOS: the app itself still works in the browser.
+        window.location.href = './app/';
       };
       buttons.forEach(({ btn }) => btn.addEventListener('click', () => onClick(btn)));
 
