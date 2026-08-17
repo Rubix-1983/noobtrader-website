@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — NoobTrader</title>
+<meta name="description" content="NoobTrader's privacy policy: what we collect, how it is used, and your rights under POPIA.">
+<link rel="icon" href="logo.png">
+<!--
+  This page is the PUBLIC copy of the privacy policy that ships inside the app
+  (src/screens/legal/PrivacyPolicyScreen.jsx). The app screen is the source of
+  truth; this page transcribes it. If the in-app text changes, change this page
+  in the same commit. It exists as a page because Google Play and common sense
+  both require a privacy policy at a URL, not behind a sign-in.
+-->
+<style>
+  :root { --ink:#e8ecf4; --dim:#9aa3b5; --ground:#0a0e1a; --card:#111726; --line:#232c40;
+          --cyan:#20C4FB; --blue:#1464FD; }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { background:var(--ground); color:var(--dim); font:16px/1.7 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  .wrap { max-width:760px; margin:0 auto; padding:32px 20px 64px; }
+  .top { display:flex; align-items:center; gap:10px; margin-bottom:28px; }
+  .top img { width:34px; height:34px; }
+  .top a { color:var(--cyan); text-decoration:none; font-weight:600; }
+  h1 { color:var(--ink); font-size:28px; margin-bottom:4px; }
+  .updated { font-size:13px; margin-bottom:28px; }
+  h2 { color:var(--ink); font-size:18px; margin:26px 0 8px; }
+  p { margin-bottom:12px; }
+  strong { color:var(--ink); }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:22px 20px; }
+  a { color:var(--cyan); }
+  @media print { body { background:#fff; color:#222; } .card { border:none; }
+    h1,h2,strong { color:#000; } .top a { display:none; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <img src="logo.png" alt="NoobTrader logo">
+    <a href="./">← noob-trader.com</a>
+  </div>
+  <h1>NoobTrader Privacy Policy</h1>
+  <div class="updated">Last updated: August 2026</div>
+  <div class="card">
+
+    <h2>1. Information We Collect</h2>
+    <p>When you sign in with Google, we collect your name, email address, and profile photo. We also store your in-app activity including trades, portfolio holdings, lesson progress, badges, competition entries, community feed posts, and a record of which days you used the app. All trading data uses virtual currency (NT) only — no real financial data is collected.</p>
+    <p>If you register as a teacher, we additionally collect verification information: your South African ID number (submitted for checking only — see section 5, it is not stored), the date of birth derived from it, a hash of it (see section 5), your SACE registration number, and a photo or PDF of an identity document.</p>
+    <p>If a teacher invites you to a class, we collect the email address or mobile number the teacher entered for you. Teachers therefore provide us with learners' contact details, and are responsible for having permission to do so.</p>
+
+    <h2>2. How We Use Your Information</h2>
+    <p>Your data is used to: provide and personalise the app experience, track your learning progress and achievements, display leaderboards and community features, and improve our service. We do not sell your personal information to third parties.</p>
+
+    <h2>3. Data Storage &amp; Security</h2>
+    <p>Your data is stored securely on Supabase (hosted on AWS) with row-level security policies. Authentication is handled via Google OAuth 2.0. We use industry-standard encryption for data in transit and at rest.</p>
+
+    <h2>4. Third-Party Services</h2>
+    <p>Google OAuth handles sign-in: when you sign in, Google confirms who you are and passes us your name, email address and profile photo. Supabase stores your account and your in-app data, as described in section 3.</p>
+    <p>Market data — prices, charts, and any analyst ratings shown in the app — comes from third-party financial data providers. Your device does not contact those providers: the app asks our own servers, and our servers fetch the data. Nothing that identifies you is sent to them.</p>
+
+    <h2>5. Teacher Verification (Schools)</h2>
+    <p>This section applies only to teachers. Learners are never asked for any of it.</p>
+    <p><strong>ID number.</strong> Before a school can be registered or claimed, you enter your South African ID number so we can confirm you are 18 or older and that one identity is used by one teacher account only. <strong>We do not store the ID number.</strong> We check it, keep the date of birth derived from it, and keep a hash of it — a scrambled value whose only job is to notice the same identity being registered twice. No other user can see that hash, and we do not use it to work your number out. We will not overstate it, though: an ID number is short, and the date of birth sits next to the hash, so someone who obtained a copy of our database could work back from it with effort. Storing the hash means a leak of our data is not a ready-made list of ID numbers — not that the number could never be recovered.</p>
+    <p><strong>SACE number.</strong> We store the SACE registration number you enter and show it to our reviewer. We do not check it electronically against SACE's register.</p>
+    <p><strong>ID document.</strong> You upload a photo or PDF of an identity document. It is stored privately: no other user can reach it, and you cannot read it back yourself. Only our admin reviewer can open it, through a short-lived link. A person, not software, looks at the document and decides. <strong>The document is deleted after that decision</strong> — approved or rejected — within 48 hours of it, and only the decision is kept. If you send a replacement document, the one it replaced is deleted on the same schedule.</p>
+    <p><strong>Learner invitations.</strong> To invite learners to a class, a teacher enters each learner's email address or mobile number. We use it only to deliver that invitation and to link the learner to the class. It is visible only to verified teachers at that school — not to other schools, and not to other users. School and class setup stays available while your review is pending; you cannot reach any learner until it is approved.</p>
+
+    <h2>6. Your Rights (POPIA)</h2>
+    <p>Under South Africa's Protection of Personal Information Act (POPIA), you have the right to: access your personal data, request correction of inaccurate data, request deletion of your data, object to processing, and withdraw consent. Use the "Download my data" and "Delete account" features in Privacy settings, or contact us directly. If you are a teacher, you may also ask us to delete your verification record; we will remove it, and you would need to verify again before registering or claiming a school.</p>
+
+    <h2>7. Children's Privacy</h2>
+    <p>NoobTrader is intended for users aged 13 and older. We do not knowingly collect data from children under 13. If you believe a child under 13 has provided us with personal information, please contact us.</p>
+
+    <h2>8. Data Retention</h2>
+    <p>We retain your data for as long as your account is active. When you delete your account, all associated data is permanently removed within 30 days.</p>
+    <p>Teachers' identity documents are the exception: they are deleted after the review decision is made, within 48 hours of it, whether you were approved or rejected. A document you replaced with a later upload, and a document you uploaded without ever completing the application, are both deleted within 48 hours too. The date of birth, the hash and the SACE number stay with your verification record until you or we delete it.</p>
+
+    <h2 id="account-deletion">9. Deleting Your Account</h2>
+    <p>Account deletion lives inside the app: open <strong>Profile → Privacy → Delete account</strong>. Deletion is immediate and permanent, and all associated data is removed as described in section 8. If you can no longer access the app, email us at <a href="mailto:rubixbits@gmail.com">rubixbits@gmail.com</a> from the address on the account and we will delete it for you. See <a href="account-deletion.html">the account deletion page</a> for the full steps.</p>
+
+    <h2>10. Website Cookies</h2>
+    <p>The noob-trader.com website uses a Google advertising tag, which sets cookies in your browser. The app itself contains no advertising and no advertising trackers. You can manage or clear cookies in your browser settings.</p>
+
+    <h2>11. Contact Us</h2>
+    <p>For privacy-related queries, contact us at <a href="mailto:rubixbits@gmail.com">rubixbits@gmail.com</a>.</p>
+  </div>
+</div>
+</body>
+</html>
