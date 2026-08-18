@@ -14,12 +14,12 @@
  * hashed JS/CSS and brand images — is cached.
  */
 
-// 20260818095051 is replaced with the build timestamp by the swVersion() plugin in
+// 20260818102903 is replaced with the build timestamp by the swVersion() plugin in
 // vite.config.js. It MUST change every deploy: the activate handler deletes any
 // cache whose key does not start with VERSION, so a constant version means an
 // old shell can never be evicted. That is how a user ends up pinned to a build
 // from before a fix and reports the bug as still present.
-const VERSION = "nt-20260818095051";
+const VERSION = "nt-20260818102903";
 const SHELL = `${VERSION}-shell`;
 
 // Anything the app cannot function without. Scope-relative so this works under
@@ -89,8 +89,13 @@ self.addEventListener("fetch", (event) => {
   );
 });
 
-// Lets the page trigger an immediate update instead of waiting for all tabs to
-// close — used by the "new version available" path in main.jsx.
+// Lets a page ask this worker to take over immediately instead of waiting for
+// every tab to close. The install handler already calls skipWaiting, so this
+// is a belt-and-braces hook rather than the main path: what actually gets a
+// user onto a new build is the controllerchange listener in src/main.jsx,
+// which reloads the running page once the new worker claims it. This comment
+// used to claim main.jsx already did that. It did not, and users stayed on
+// old builds until they happened to reopen the app.
 self.addEventListener("message", (event) => {
   if (event.data === "SKIP_WAITING") self.skipWaiting();
 });
