@@ -36,13 +36,13 @@
   </script>
 
   <title>NoobTrader - Learn to Trade with Virtual Cash | Global Trading Simulator</title>
-  <meta name="description" content="Trade 1,000+ stocks across 20 global exchanges, 50 cryptos, 15 commodities, forex & more with virtual cash. NoobTrader is a free trading simulator available in 59 languages. Earn XP, compete globally, and learn to invest.">
+  <meta name="description" content="Trade 780+ stocks across 21 global exchanges, 49 cryptos, 14 commodities, forex & more with virtual cash. NoobTrader is a free trading simulator available in 59 languages. Earn XP, compete globally, and learn to invest.">
   <meta name="keywords" content="trading simulator, virtual trading app, learn to trade stocks, crypto trading simulator, forex simulator, NoobTrader, stock market game, investment education, global stock exchanges, commodities trading, paper trading">
   <meta name="theme-color" content="#0a0e1a">
 
   <!-- Open Graph -->
   <meta property="og:title" content="NoobTrader - Learn to Trade the Fun Way">
-  <meta property="og:description" content="Trade 1,000+ stocks across 20 exchanges, 50 cryptos, 15 commodities & forex with virtual cash. Earn XP, compete globally, level up. Free in 59 languages.">
+  <meta property="og:description" content="Trade 780+ stocks across 21 exchanges, 49 cryptos, 14 commodities & forex with virtual cash. Earn XP, compete globally, level up. Free in 59 languages.">
   <meta property="og:image" content="https://noob-trader.com/logo.png">
   <meta property="og:url" content="https://noob-trader.com">
   <meta property="og:type" content="website">
@@ -53,7 +53,7 @@
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="NoobTrader - Learn to Trade the Fun Way">
-  <meta name="twitter:description" content="Trade 1,000+ stocks, 50 cryptos, 15 commodities & forex across 20 global exchanges. Zero risk, all skill.">
+  <meta name="twitter:description" content="Trade 780+ stocks, 49 cryptos, 14 commodities & forex across 21 global exchanges. Zero risk, all skill.">
   <meta name="twitter:image" content="https://noob-trader.com/logo.png">
 
   <link rel="icon" type="image/png" href="./logo.png">
@@ -85,7 +85,7 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@500;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
 
   <!-- JSON-LD Structured Data -->
   <script type="application/ld+json">
@@ -96,7 +96,7 @@
     "operatingSystem": "Any",
     "applicationCategory": "FinanceApplication",
     "browserRequirements": "Requires JavaScript. Works in any modern browser.",
-    "description": "Trade 1,000+ stocks across 20 global exchanges, 50 cryptos, 15 commodities & forex with virtual cash. Free trading simulator in 59 languages. Play in any browser, or add it to your home screen.",
+    "description": "Trade 780+ stocks across 21 global exchanges, 49 cryptos, 14 commodities & forex with virtual cash. Free trading simulator in 59 languages. Play in any browser, or add it to your home screen.",
     "offers": {
       "@type": "Offer",
       "price": "0",
@@ -1136,6 +1136,157 @@
       text-align: center;
     }
   </style>
+
+  <!-- ═══ REDESIGN LAYER (Sticker Bands, 18 Aug 2026 handoff) ═══
+       Presentation only. Everything functional lives in the stylesheet above,
+       untouched; these rules restyle and add the new sections. -->
+  <style>
+    /* Display type: uppercase Space Grotesk on every section heading. */
+    .section-title {
+      font-family: 'Space Grotesk', sans-serif;
+      text-transform: uppercase;
+      letter-spacing: -0.02em;
+    }
+    /* Round pills everywhere the handoff asks for them. */
+    .nav-cta, .btn-primary, .btn-outline, .download-btn { border-radius: 999px; }
+    .nav-cta { background: #fff; color: #0a0e1a !important; font-weight: 800; }
+    .nav-cta:hover { background: var(--brand); color: #0a0e1a !important; box-shadow: none; }
+    /* The revealed install button pulses; hidden it costs nothing. */
+    #ntInstall:not([hidden]), #ntInstall2:not([hidden]) {
+      animation: pulseGlow 3s ease-in-out infinite;
+    }
+    @keyframes pulseGlow {
+      0%, 100% { box-shadow: 0 10px 32px rgba(20,100,253,0.3); }
+      50%      { box-shadow: 0 10px 44px rgba(20,100,253,0.55); }
+    }
+
+    /* ── HERO ── */
+    .hero2 { position: relative; overflow: hidden; }
+    .hero2-glow {
+      position: absolute; left: 0; top: 0; width: 520px; height: 520px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(139,78,249,0.16) 0%, rgba(20,100,253,0.08) 40%, transparent 70%);
+      pointer-events: none; transform: translate(20%, -10%); will-change: transform;
+    }
+    .hero2-grid {
+      display: grid; grid-template-columns: 1.05fr 1fr; gap: 40px; align-items: center;
+      max-width: 1120px; margin: 0 auto; padding: 96px 32px 46px; position: relative;
+    }
+    .hero2-title {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: clamp(40px, 5.5vw, 64px); font-weight: 800;
+      letter-spacing: -0.035em; line-height: 1.02; margin: 0 0 20px;
+      text-transform: uppercase;
+    }
+    .hero2-sub { font-size: 18px; color: var(--text-sec); margin: 0 0 26px; max-width: 430px; }
+    .hero2-sub strong { color: #fff; }
+    .hero2-micro { font-size: 13px; color: var(--text-dim); margin: 14px 0 0; }
+    .hero2 .hero-buttons { justify-content: flex-start; margin-bottom: 0; }
+    .hero2-draw { display: block; margin-top: 22px; }
+    .hero2-visual { perspective: 900px; position: relative; }
+    .hero2-card {
+      background: #fff; border-radius: 24px; padding: 8px;
+      transform: rotate(2deg);
+      box-shadow: 0 30px 70px -20px rgba(139,78,249,0.45);
+      position: relative; will-change: transform;
+      transition: transform 0.15s ease-out;
+    }
+    .hero2-card img { display: block; width: 100%; height: auto; border-radius: 18px; }
+    .hero2-badge {
+      position: absolute; top: -16px; right: -14px;
+      background: var(--yellow); color: #0a0e1a;
+      font-family: 'Space Grotesk', sans-serif; font-weight: 800; font-size: 14px;
+      padding: 8px 16px; border-radius: 999px; transform: rotate(6deg);
+    }
+    .hero2-stats { padding: 20px 24px 64px; position: relative; }
+    .hero2-stats .stat-value {
+      font-family: 'Space Grotesk', sans-serif; font-size: 26px;
+      background: linear-gradient(100deg, #20C4FB, #8B4EF9);
+      -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
+    }
+    @media (max-width: 880px) {
+      .hero2-grid { grid-template-columns: 1fr; padding-top: 88px; gap: 32px; }
+      .hero2-sub { max-width: none; }
+      .hero2-badge { right: 2px; }
+    }
+
+    /* ── WHITE BANDS ── */
+    .band-light { background: #fff; color: #111a3a; }
+    .band-light .section-title { color: #111a3a; }
+    .band-light .section-label { color: var(--brand-blue); }
+    .band-light p { color: #525d85; }
+    .band-light h3 { color: #111a3a; }
+
+    /* Features header row with the mascot. */
+    .feat-head {
+      display: flex; align-items: flex-end; justify-content: space-between;
+      gap: 24px; margin-bottom: 36px;
+    }
+    .feat-head .section-desc { margin-bottom: 0; }
+    .mascot { flex: none; display: flex; align-items: center; }
+    .mascot-logo {
+      flex: none; width: 64px; height: 64px; object-fit: contain;
+      animation: logoOpenClose 2.6s ease-in-out infinite; transform-origin: center;
+    }
+    .mascot-svg { flex: none; width: 120px; height: auto; margin-left: -18px; pointer-events: none; }
+    .mascot-arm { transform-origin: 100px 172px; animation: wave 2.6s ease-in-out infinite; }
+    @keyframes wave { 0%, 100% { transform: rotate(0deg); } 50% { transform: rotate(-14deg); } }
+    @keyframes logoOpenClose {
+      0%, 100% { transform: scale(0.55); opacity: 0.55; }
+      50%      { transform: scale(1.12); opacity: 1; }
+    }
+    @media (max-width: 820px) { .mascot { display: none; } }
+
+    /* Sticker cards. --sk carries each card's accent shadow. */
+    .sticker-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 26px; }
+    @media (max-width: 900px) { .sticker-grid { grid-template-columns: 1fr; } }
+    .sticker-card {
+      border: 2px solid #111a3a; border-radius: 20px; overflow: hidden;
+      background: #fff; box-shadow: 6px 6px 0 var(--sk, #20C4FB);
+      will-change: transform; transition: transform 0.15s ease-out,
+        opacity 0.6s ease;
+    }
+    .sticker-img {
+      width: 100%;
+      /* height:auto is LOAD-BEARING: the height="727" attribute on each img maps
+         to a presentational height:727px, and CSS aspect-ratio only applies
+         while height is auto. Without this every card image rendered 727px
+         tall and the crop swallowed the artwork. */
+      height: auto;
+      aspect-ratio: 3 / 2;
+      object-fit: cover;
+      display: block;
+    }
+    .sticker-body { padding: 16px 20px 22px; }
+    .sticker-body h3 { font-size: 17px; margin: 0 0 4px; }
+    .sticker-body p { font-size: 14px; margin: 0; }
+
+    /* How-it-works steps as stickers (reuses .step-card + .step-num). */
+    .band-light .step-card {
+      background: #fff; border: 2px solid #111a3a; border-radius: 20px;
+      box-shadow: 6px 6px 0 var(--sk, #20C4FB);
+      transition: transform 0.15s ease-out, opacity 0.6s ease;
+      will-change: transform;
+    }
+    .band-light .step-card h3 { color: #111a3a; }
+    .band-light .step-card p { color: #525d85; }
+
+    /* NOOB band keeps its verbatim markup; the band itself gets the glow. */
+    #noob {
+      background: radial-gradient(ellipse 700px 400px at 50% 30%, rgba(139,78,249,0.14), transparent 70%);
+      text-align: center;
+    }
+    #noob .section-desc { margin-left: auto; margin-right: auto; }
+    #noob .features-grid { text-align: left; }
+
+    #how-it-works { text-align: center; }
+
+    @media (prefers-reduced-motion: reduce) {
+      .mascot-logo, .mascot-arm { animation: none; }
+      #ntInstall:not([hidden]), #ntInstall2:not([hidden]) { animation: none; }
+      .sticker-card, .band-light .step-card, .hero2-card { transition: none; }
+    }
+  </style>
 </head>
 <body>
 
@@ -1160,7 +1311,7 @@
     </a>
     <ul class="nav-links" id="navLinks">
       <li><a href="#features">Features</a></li>
-      <li><a href="#screenshots">Screenshots</a></li>
+      <li><a href="#noob">NOOB coin</a></li>
       <li><a href="#download">Download</a></li>
       <li><a href="./app/">Sign in</a></li>
       <li><a href="./app/" class="nav-cta">Play now</a></li>
@@ -1170,139 +1321,112 @@
     </button>
   </nav>
 
-  <!-- ═══ HERO ═══ -->
-  <section class="hero">
-    <div class="hero-logo">
-      <img class="hero-mark" src="./logo.png" alt="NoobTrader logo" decoding="async">
-      <div class="hero-word nt-word">noobtrader</div>
-      <div class="hero-word-tagline">Trade smarter from day one</div>
-    </div>
-    <h1 class="hero-tagline">Learn to trade shares, currencies and crypto with virtual cash</h1>
-    <p class="hero-sub"><span>No real money.</span> Real market data. <span>Real fun!</span></p>
-    <div class="hero-buttons">
-      <!-- INSTALL LEADS (founder, 2026-08-16). Hidden until the device can
-           actually install; the CSS near .btn-primary promotes it to the
-           gradient primary when revealed and demotes Play in browser to the
-           outline secondary. Play in browser is the universal fallback. -->
-      <button id="ntInstall" class="btn-outline" hidden>
-        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-        <span id="ntInstallText">Install app</span>
-      </button>
-      <a href="./app/" class="btn-primary">
-        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"/></svg>
-        Play in browser
-      </a>
-    </div>
-    <p style="margin-top:-32px;margin-bottom:40px;font-size:14px;opacity:0.6">
-      Free to play. Works on any phone or laptop — no app store needed.
-    </p>
 
-    <!-- ═══ HERO CHART ═══
-         Sample data, not a live feed. Badged "Demo" and captioned so it can
-         never be mistaken for a real quote or a real portfolio. -->
-    <div class="hero-chart" role="img"
-         aria-label="Illustration of a portfolio value line rising over a trading day.">
-      <div class="hero-chart-head">
-        <div class="hero-chart-title">Portfolio <small>Demo</small></div>
-        <div class="hero-chart-value">10,000 NTs<span>Virtual cash to start</span></div>
+  <!-- ═══ HERO (redesign) ═══ -->
+  <div class="hero2" id="hero">
+    <div class="hero2-glow" id="heroGlow"></div>
+    <div class="hero2-grid">
+      <div>
+        <h1 class="hero2-title">Trade like<br>a legend.<br><span class="gradient-text">Risk nothing.</span></h1>
+        <p class="hero2-sub"><strong>No real money. Ever.</strong> Real market data, 780+ stocks across 21 exchanges, 49 cryptos, forex and commodities, plus 10,000 NTs of virtual cash to learn with.</p>
+        <div class="hero-buttons">
+          <button id="ntInstall" class="btn-outline" hidden>
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            <span id="ntInstallText">Install app</span>
+          </button>
+          <a href="./app/" class="btn-primary">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+            Play in browser
+          </a>
+        </div>
+        <p class="hero2-micro">Free to play, on any phone or laptop. No app store, no download, no card.</p>
+        <svg class="hero2-draw" width="220" height="36" viewBox="0 0 220 36" fill="none" aria-hidden="true">
+          <defs>
+            <linearGradient id="heroDrawGrad" x1="0" y1="0" x2="1" y2="0">
+              <stop offset="0" stop-color="#20C4FB"/><stop offset="1" stop-color="#8B4EF9"/>
+            </linearGradient>
+          </defs>
+          <path class="nt-line" pathLength="1" d="M4 28 C 60 30, 120 8, 196 14 M186 6 L 198 14 L 185 22"
+                stroke="url(#heroDrawGrad)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
       </div>
-
-      <svg viewBox="0 0 720 262" aria-hidden="true" focusable="false">
-        <defs>
-          <linearGradient id="ntArea" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%" stop-color="#00d4aa" stop-opacity="0.34"/>
-            <stop offset="60%" stop-color="#00d4aa" stop-opacity="0.06"/>
-            <stop offset="100%" stop-color="#00d4aa" stop-opacity="0"/>
-          </linearGradient>
-          <linearGradient id="ntStroke" x1="0" y1="0" x2="1" y2="0">
-            <stop offset="0%" stop-color="#00b894"/>
-            <stop offset="55%" stop-color="#00d4aa"/>
-            <stop offset="100%" stop-color="#4f9cff"/>
-          </linearGradient>
-          <filter id="ntGlow" x="-120%" y="-120%" width="340%" height="340%">
-            <feGaussianBlur stdDeviation="5" result="b"/>
-            <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-          </filter>
-          <filter id="ntLineGlow" x="-20%" y="-60%" width="140%" height="220%">
-            <feGaussianBlur stdDeviation="4" result="b"/>
-            <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-          </filter>
-        </defs>
-
-        <g class="nt-grid" stroke="#1e2a45" stroke-width="1">
-          <line x1="0" y1="52"  x2="720" y2="52"/>
-          <line x1="0" y1="104" x2="720" y2="104"/>
-          <line x1="0" y1="156" x2="720" y2="156"/>
-          <line x1="0" y1="208" x2="720" y2="208"/>
-          <line x1="105" y1="0" x2="105" y2="240"/>
-          <line x1="275" y1="0" x2="275" y2="240"/>
-          <line x1="445" y1="0" x2="445" y2="240"/>
-          <line x1="615" y1="0" x2="615" y2="240"/>
-        </g>
-
-        <path class="nt-fill" fill="url(#ntArea)"
-              d="M20 196 L105 158 L190 205 L275 131 L360 168 L445 96 L530 124 L615 58 L700 32 L700 240 L20 240 Z"/>
-
-        <path id="ntLinePath" class="nt-line" fill="none" stroke="url(#ntStroke)"
-              stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"
-              filter="url(#ntLineGlow)" pathLength="1"
-              d="M20 196 L105 158 L190 205 L275 131 L360 168 L445 96 L530 124 L615 58 L700 32"/>
-
-        <!-- Node markers, popping in as the line reaches each one. -->
-        <g fill="#0a0e1a" stroke="#00d4aa" stroke-width="3">
-          <circle class="nt-node" cx="20"  cy="196" r="5.5" style="animation-delay:0.50s"/>
-          <circle class="nt-node" cx="105" cy="158" r="5.5" style="animation-delay:0.77s"/>
-          <circle class="nt-node" cx="190" cy="205" r="5.5" style="animation-delay:1.04s"/>
-          <circle class="nt-node" cx="275" cy="131" r="5.5" style="animation-delay:1.32s"/>
-          <circle class="nt-node" cx="360" cy="168" r="5.5" style="animation-delay:1.59s"/>
-          <circle class="nt-node" cx="445" cy="96"  r="5.5" style="animation-delay:1.86s"/>
-          <circle class="nt-node" cx="530" cy="124" r="5.5" style="animation-delay:2.13s"/>
-          <circle class="nt-node" cx="615" cy="58"  r="5.5" style="animation-delay:2.40s"/>
-          <circle class="nt-node" cx="700" cy="32"  r="6.5" style="animation-delay:2.67s" stroke="#4f9cff"/>
-        </g>
-
-        <!-- The comet head. Rides the line as it draws, then keeps looping.
-             SMIL ignores prefers-reduced-motion, so the script below stops
-             it explicitly for anyone who has asked for less movement. -->
-        <circle class="nt-comet" r="6" fill="#ffffff">
-          <animateMotion id="ntComet" dur="2.2s" begin="0.5s" repeatCount="indefinite"
-                         path="M20 196 L105 158 L190 205 L275 131 L360 168 L445 96 L530 124 L615 58 L700 32"/>
-        </circle>
-      </svg>
-
-      <div class="hero-chart-x">
-        <span>09:00</span><span>11:00</span><span>13:00</span><span>15:00</span><span>17:00</span>
+      <div class="hero2-visual">
+        <div class="hero2-card" id="heroCard">
+          <img src="./illustrations/app-how-to-start.webp" width="1100" height="727"
+               alt="Three phone screens showing how to start: open NoobTrader, sign in, make a first trade"
+               decoding="async" fetchpriority="high">
+          <div class="hero2-badge">START IN 3 TAPS</div>
+        </div>
       </div>
     </div>
-    <div class="hero-stats">
-      <div class="stat">
-        <div class="stat-value">10,000</div>
-        <div class="stat-label">NTs starting cash</div>
+    <div class="hero-stats hero2-stats">
+      <div class="stat"><div class="stat-value">10,000</div><div class="stat-label">NTs starting cash</div></div>
+      <div class="stat"><div class="stat-value">84</div><div class="stat-label">Lessons</div></div>
+      <div class="stat"><div class="stat-value">59</div><div class="stat-label">Languages</div></div>
+      <div class="stat"><div class="stat-value">24</div><div class="stat-label">Markets</div></div>
+    </div>
+  </div>
+
+  <!-- ═══ FEATURES (white band, sticker cards, mascot) ═══ -->
+  <div class="band-light">
+  <section id="features">
+    <div class="feat-head">
+      <div>
+        <p class="section-label anim">Why NoobTrader?</p>
+        <h2 class="section-title anim anim-delay-1" style="margin-bottom:0">The game, <span class="gradient-text">explained by stickman</span></h2>
       </div>
-      <div class="stat">
-        <!-- 84 lessons across 12 chapters, counted from
-             src/constants/lessonData.js (Trends & Candlesticks, Crypto Academy
-             and Futures & CFDs took it from 31 to 84). Check the source before
-             changing this: the page has carried a stale figure before. -->
-        <div class="stat-value">84</div>
-        <div class="stat-label">Lessons</div>
+      <!-- The stickman and the mark he shows off: his eyes follow the cursor,
+           the logo opens and closes in time with his wave. Decoration only,
+           so it is hidden from assistive tech and from small screens. -->
+      <div class="mascot" aria-hidden="true">
+        <img class="mascot-logo" src="./logo.png" alt="" decoding="async">
+        <svg class="mascot-svg" viewBox="0 0 200 330" id="mascotSvg">
+          <g stroke="#111a3a" stroke-width="9" stroke-linecap="round" fill="none">
+            <line x1="100" y1="150" x2="100" y2="248"/>
+            <line x1="100" y1="248" x2="66" y2="318"/>
+            <line x1="100" y1="248" x2="134" y2="318"/>
+            <line x1="100" y1="172" x2="46" y2="216"/>
+          </g>
+          <g class="mascot-arm">
+            <line x1="100" y1="172" x2="158" y2="122" stroke="#111a3a" stroke-width="9" stroke-linecap="round"/>
+          </g>
+          <circle cx="100" cy="92" r="58" fill="#fff" stroke="#111a3a" stroke-width="6"/>
+          <path d="M66 72 Q76 62 88 68" stroke="#111a3a" stroke-width="6" stroke-linecap="round" fill="none"/>
+          <path d="M112 68 Q124 62 134 72" stroke="#111a3a" stroke-width="6" stroke-linecap="round" fill="none"/>
+          <g id="mascotEyeL"><circle cx="80" cy="90" r="8" fill="#111a3a"/></g>
+          <g id="mascotEyeR"><circle cx="122" cy="90" r="8" fill="#111a3a"/></g>
+          <path id="mascotMouth" d="M80 116 Q100 132 122 114" stroke="#111a3a" stroke-width="6" stroke-linecap="round" fill="none"/>
+        </svg>
       </div>
-      <div class="stat">
-        <div class="stat-value">59</div>
-        <div class="stat-label">Languages</div>
+    </div>
+    <div class="sticker-grid">
+      <div class="sticker-card anim" style="--sk:#20C4FB" data-tilt>
+        <img class="sticker-img" src="./illustrations/app-virtual-cash.webp" alt="A stick figure trading with a wallet of virtual cash" loading="lazy" decoding="async" width="1100" height="727">
+        <div class="sticker-body"><h3>Practise with virtual cash</h3><p>Start with 10,000 NTs. Trade 780+ stocks, 49 cryptos, commodities and forex with zero risk.</p></div>
       </div>
-      <div class="stat">
-        <!-- 21 stock exchanges (JSE + 20 international, server/data/exchanges.js)
-             plus the crypto, forex and commodities markets. "4" counted asset
-             classes from an earlier version and undersold the product against
-             this page's own hero copy. NOTE for the laptop website/ mirror:
-             this fix has been reverted once already by a deploy from a stale
-             local copy — keep website/index.html in sync. -->
-        <div class="stat-value">24</div>
-        <div class="stat-label">Markets</div>
+      <div class="sticker-card anim anim-delay-1" style="--sk:#8B4EF9" data-tilt>
+        <img class="sticker-img" src="./illustrations/app-lessons-and-quiz.webp" alt="A stick figure working through a lesson and its quiz" loading="lazy" decoding="async" width="1100" height="727">
+        <div class="sticker-body"><h3>Learn, then prove it</h3><p>84 bite-sized lessons on shares, charts and strategy, each with a boss quiz.</p></div>
+      </div>
+      <div class="sticker-card anim anim-delay-2" style="--sk:#1464FD" data-tilt>
+        <img class="sticker-img" src="./illustrations/app-xp-levels.webp" alt="A stick figure climbing XP levels" loading="lazy" decoding="async" width="1100" height="727">
+        <div class="sticker-body"><h3>Earn XP. Level up.</h3><p>Go from "Noob" to "Wall Street Legend" across 100 levels, and keep your daily streak alive.</p></div>
+      </div>
+      <div class="sticker-card anim" style="--sk:#1464FD" data-tilt>
+        <img class="sticker-img" src="./illustrations/app-leaderboard-explained.webp" alt="A leaderboard ranked by percentage growth" loading="lazy" decoding="async" width="1100" height="727">
+        <div class="sticker-body"><h3>Fair leaderboards</h3><p>Ranked by % growth, not by who started rich. Daily Portfolio Race and Stock Showdown.</p></div>
+      </div>
+      <div class="sticker-card anim anim-delay-1" style="--sk:#ffc312" data-tilt>
+        <img class="sticker-img" src="./illustrations/app-school-league.webp" alt="Two stick figures competing for their school" loading="lazy" decoding="async" width="1100" height="727">
+        <div class="sticker-body"><h3>Compete with your school</h3><p>Join the Schools League and put your school on the podium.</p></div>
+      </div>
+      <div class="sticker-card anim anim-delay-2" style="--sk:#20C4FB" data-tilt>
+        <img class="sticker-img" src="./illustrations/app-safety-no-real-money.webp" alt="A shield over a wallet: no real money anywhere" loading="lazy" decoding="async" width="1100" height="727">
+        <div class="sticker-body"><h3>Safe by design</h3><p>No real money, no cards, no deposits. Practice only, built for ages 13+.</p></div>
       </div>
     </div>
   </section>
+  </div>
 
   <!-- ═══ NOOB COIN ═══
        Copy rules for this section are constraints, not preferences (see the
@@ -1374,177 +1498,36 @@
 
     <p class="noob-disclaimer anim anim-delay-3">NoobTrader is a simulator for learning. NOOB has no cash value. It can't be bought, sold, sent to anyone or withdrawn, and nothing here is financial advice or a promise of future value. Rates shown are settings and can change; NOOB you've already earned is never taken back.</p>
   </section>
-
-  <!-- ═══ FEATURES ═══ -->
-  <section id="features">
-    <p class="section-label anim">Why NoobTrader?</p>
-    <h2 class="section-title anim anim-delay-1">Level up your <span class="gradient-text">trading game</span></h2>
-    <p class="section-desc anim anim-delay-2">Everything you need to go from noob to pro, without risking a single cent.</p>
-
-    <div class="features-grid">
-      <div class="feature-card anim anim-delay-1">
-        <div class="feature-icon" style="background: var(--accent-dim);">
-          <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
-        </div>
-        <h3>Virtual Trading</h3>
-        <p>Trade 1,000+ stocks across 20 global exchanges, 50 cryptos, 15 commodities & forex with zero risk. Start with 10,000 NTs virtual cash.</p>
-      </div>
-
-      <div class="feature-card anim anim-delay-2">
-        <div class="feature-icon" style="background: rgba(79,156,255,0.12);">
-          <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="var(--blue)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
-        </div>
-        <h3>Real Market Data</h3>
-        <!-- Keep this to what the code actually does. The previous wording
-             advertised two things the app has never had: a candle chart type
-             (it draws line charts) and bid/ask spread modelling (the trade
-             engine applies a percentage fee and no spread). The audience is
-             13-18 and the legal pages promise an educational simulation, so
-             the marketing copy cannot outrun the product. -->
-        <p>Live prices from Yahoo Finance across 20 exchanges, with real price history and broker-style fees on every trade.</p>
-      </div>
-
-      <div class="feature-card anim anim-delay-3">
-        <div class="feature-icon" style="background: rgba(255,195,18,0.12);">
-          <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="var(--yellow)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-        </div>
-        <h3>Gamified Learning</h3>
-        <p>Earn XP, level up from "Noob" to "Wall Street Legend", maintain daily streaks for bonus multipliers.</p>
-      </div>
-
-      <div class="feature-card anim anim-delay-4">
-        <div class="feature-icon" style="background: rgba(167,139,250,0.12);">
-          <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="var(--purple)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
-        </div>
-        <h3>84 Interactive Lessons</h3>
-        <p>Bite-sized lessons on shares, charts, strategy & more. Each with a boss quiz to test your knowledge.</p>
-      </div>
-
-      <div class="feature-card anim anim-delay-5">
-        <div class="feature-icon" style="background: rgba(255,71,87,0.12);">
-          <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="var(--red)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5C7 4 9 7 12 7s5-3 7.5-3a2.5 2.5 0 0 1 0 5H18"/><path d="M6 9v10a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V9"/><path d="M12 7v14"/></svg>
-        </div>
-        <h3>Daily Portfolio Race</h3>
-        <p>Auto-entered daily championship — highest portfolio % gain today wins NT prizes. Plus Stock Showdown: pick 3 stocks in 60 seconds.</p>
-      </div>
-
-      <div class="feature-card anim anim-delay-6">
-        <div class="feature-icon" style="background: rgba(244,114,182,0.12);">
-          <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="var(--pink)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/><path d="m9 16 2 2 4-4"/></svg>
-        </div>
-        <h3>Daily Quests</h3>
-        <p>Complete 5 daily goals to earn XP and rewards. Maintain streaks for up to 2x XP multiplier.</p>
-      </div>
-
-      <div class="feature-card anim anim-delay-7">
-        <div class="feature-icon" style="background: rgba(0,212,170,0.12);">
-          <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 8 6 6"/><path d="m4 14 6-6 2-3"/><path d="M2 5h12"/><path d="M7 2h1"/><path d="m22 22-5-10-5 10"/><path d="M14 18h6"/></svg>
-        </div>
-        <h3>59 Languages</h3>
-        <p>Available in 59 languages including English, Hindi, Arabic, Spanish, French, Portuguese, Japanese, Korean, Mandarin and many more.</p>
-      </div>
-
-      <div class="feature-card anim anim-delay-7">
-        <div class="feature-icon" style="background: rgba(79,156,255,0.12);">
-          <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="var(--blue)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
-        </div>
-        <h3>Dark & Light Mode</h3>
-        <p>Choose your vibe. Both modes are fully themed with smooth transitions.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- ═══ SCREENSHOTS ═══ -->
-  <section id="screenshots" class="screenshots-section">
-    <p class="section-label anim">See It In Action</p>
-    <h2 class="section-title anim anim-delay-1">Built for <span class="gradient-text">the culture</span></h2>
-    <p class="section-desc anim anim-delay-2">Clean design, real data, smooth experience. Swipe through to see the app.</p>
-
-    <div class="phone-scroll">
-      <div class="phone-wrap anim anim-delay-1">
-        <div class="phone-frame">
-          <img src="./screenshots/login.png" alt="NoobTrader login screen" loading="lazy">
-        </div>
-        <p class="phone-caption">Sign In</p>
-      </div>
-      <div class="phone-wrap anim anim-delay-2">
-        <div class="phone-frame">
-          <img src="./screenshots/home-dark.png" alt="NoobTrader dark mode home screen" loading="lazy">
-        </div>
-        <p class="phone-caption">Home (Dark)</p>
-      </div>
-      <div class="phone-wrap anim anim-delay-3">
-        <div class="phone-frame">
-          <img src="./screenshots/home-light.png" alt="NoobTrader light mode home screen" loading="lazy">
-        </div>
-        <p class="phone-caption">Home (Light)</p>
-      </div>
-      <div class="phone-wrap anim anim-delay-3">
-        <div class="phone-frame">
-          <img src="./screenshots/wallet-dark.png" alt="NOOB Wallet in dark mode with a live earning session" loading="lazy">
-        </div>
-        <p class="phone-caption">NOOB Wallet (Dark)</p>
-      </div>
-      <div class="phone-wrap anim anim-delay-4">
-        <div class="phone-frame">
-          <img src="./screenshots/wallet-light.png" alt="NOOB Wallet in light mode showing where the balance came from" loading="lazy">
-        </div>
-        <p class="phone-caption">NOOB Wallet (Light)</p>
-      </div>
-      <div class="phone-wrap anim anim-delay-4">
-        <div class="phone-frame">
-          <img src="./screenshots/arena.png" alt="NoobTrader arena competitions" loading="lazy">
-        </div>
-        <p class="phone-caption">Arena</p>
-      </div>
-      <div class="phone-wrap anim anim-delay-5">
-        <div class="phone-frame">
-          <img src="./screenshots/market.png" alt="NoobTrader market screen with live prices" loading="lazy">
-        </div>
-        <p class="phone-caption">Market</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- ═══ HOW IT WORKS ═══ -->
+  <!-- ═══ HOW IT WORKS (white band, sticker steps) ═══ -->
+  <div class="band-light">
   <section id="how-it-works">
-    <p class="section-label anim">Get Started</p>
-    <h2 class="section-title anim anim-delay-1">Start trading in <span class="gradient-text">3 easy steps</span></h2>
-
+    <h2 class="section-title anim">Start in <span class="gradient-text">3 easy steps</span></h2>
     <div class="steps">
-      <div class="step-card anim anim-delay-2">
+      <div class="step-card anim" style="--sk:#20C4FB" data-tilt>
         <div class="step-num">1</div>
-        <div class="step-icon">
-          <svg viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="var(--accent)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"/></svg>
-        </div>
         <h3>Open it in your browser</h3>
-        <p>Nothing to download. Works on any phone, tablet or laptop &mdash; and you can add it to your home screen.</p>
+        <p>Nothing to download. Any phone, tablet or laptop will do.</p>
       </div>
-      <div class="step-card anim anim-delay-3">
+      <div class="step-card anim anim-delay-1" style="--sk:#8B4EF9" data-tilt>
         <div class="step-num">2</div>
-        <div class="step-icon">
-          <svg viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="var(--blue)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
-        </div>
         <h3>Sign in with Google</h3>
-        <p>One-tap Google sign-in. No forms, no hassle.</p>
+        <p>One tap and you're in. No forms, no email chains.</p>
       </div>
-      <div class="step-card anim anim-delay-4">
+      <div class="step-card anim anim-delay-2" style="--sk:#1464FD" data-tilt>
         <div class="step-num">3</div>
-        <div class="step-icon">
-          <svg viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="var(--yellow)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"/><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"/></svg>
-        </div>
-        <h3>Get 10,000 NTs & trade!</h3>
-        <p>Your virtual wallet is loaded with 10,000 NTs. Trade stocks, crypto, commodities, forex across 20 global exchanges instantly.</p>
+        <h3>Get 10,000 NTs &amp; trade</h3>
+        <p>Your wallet arrives loaded. Make your first trade across 21 exchanges in under a minute.</p>
       </div>
     </div>
   </section>
+  </div>
 
   <!-- ═══ DOWNLOAD ═══ -->
   <section id="download" class="download-section">
     <div class="download-box anim">
       <p class="section-label">Ready to start?</p>
       <h2 class="section-title" style="margin-bottom: 8px;">Start playing <span class="gradient-text">NoobTrader</span></h2>
-      <p style="color: var(--text-sec); margin-bottom: 24px;">Free. No real money required. Just vibes and virtual gains.</p>
+      <p style="color: var(--text-sec); margin-bottom: 24px;">Free forever. No card, no deposits, just virtual gains and bragging rights.</p>
 
       <!-- The real install goes FIRST here: this section is titled
            "Ready to start?", and on Android and desktop Chrome one tap now
@@ -1562,7 +1545,7 @@
 
       <p style="color: var(--text-sec); margin: 22px 0 10px; font-size: 14px;"
          id="ntInstallHint">
-        Want it on your home screen? Add it in two taps &mdash; no app store, no download.
+        Want it on your home screen? Add it in two taps. No app store, no download.
       </p>
 
       <!-- Hidden by the script wherever the install button can do this in one
@@ -1605,7 +1588,7 @@
       </div>
       <div class="footer-links">
         <a href="#features">Features</a>
-        <a href="#screenshots">Screenshots</a>
+        <a href="#noob">NOOB coin</a>
         <a href="#download">Download</a>
         <a href="privacy.html">Privacy Policy</a>
         <a href="account-deletion.html">Delete Account</a>
@@ -1619,7 +1602,7 @@
   <div class="ios-sheet" id="iosSheet" role="dialog" aria-modal="true" aria-labelledby="iosSheetTitle">
     <div class="ios-sheet-card">
       <h3 id="iosSheetTitle">Add NoobTrader to your Home Screen</h3>
-      <p id="iosSheetIntro">Apple doesn't let websites install themselves — it takes two taps.</p>
+      <p id="iosSheetIntro">Apple doesn't let websites install themselves. It takes two taps.</p>
       <div class="ios-step">
         <span class="ios-step-num">1</span>
         <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><polyline points="16 6 12 2 8 6"/><line x1="12" y1="2" x2="12" y2="15"/></svg>
@@ -1701,7 +1684,7 @@
       if (installed) {
         // Already on the home screen — offering to install it again is noise.
         if (steps) steps.hidden = true;
-        if (hint) hint.textContent = 'Already installed — open it from your home screen any time.';
+        if (hint) hint.textContent = 'Already installed. Open it from your home screen any time.';
       } else if (window.__ntInstallEvent) {
         show();
       } else if (isIOS) {
@@ -1731,7 +1714,7 @@
 
           if (iosBrowser === 'inapp') {
             // No Share → Add to Home Screen exists in here at all.
-            if (intro) intro.textContent = "This in-app browser can't add to your Home Screen. Open the page in Safari first — it takes one tap.";
+            if (intro) intro.textContent = "This in-app browser can't add to your Home Screen. Open the page in Safari first. It takes one tap.";
             if (step1) step1.textContent = 'Tap the ••• menu, then "Open in Safari"';
             if (step2) step2.textContent = 'Then tap Share → "Add to Home Screen"';
             if (arrow) arrow.style.display = 'none';
@@ -2025,6 +2008,78 @@
       }
       refresh();
       setInterval(function () { if (!document.hidden) refresh(); }, 75000);
+    })();
+  </script>
+
+  <script>
+    // ── Redesign interactions: mascot eyes, 3D tilt, hero glow ─────────
+    // Desktop enhancements only. Touch devices get the static layout, and
+    // prefers-reduced-motion turns the whole layer off, matching how the rest
+    // of this page treats motion.
+    (function () {
+      var fine = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
+      var still = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      if (!fine || still) return;
+
+      var TILT = 5; // founder preference: 4-6 of the handoff's 0-20 range
+
+      // The stickman's eyes follow the cursor; he grins when it comes close.
+      var svg = document.getElementById('mascotSvg');
+      var eyeL = document.getElementById('mascotEyeL');
+      var eyeR = document.getElementById('mascotEyeR');
+      var mouth = document.getElementById('mascotMouth');
+      var onEyes = function (e) {
+        if (!svg || !eyeL || !eyeR) return;
+        var rect = svg.getBoundingClientRect();
+        if (!rect.width) return;
+        var move = function (g, cx, cy) {
+          var px = rect.left + (cx / 200) * rect.width;
+          var py = rect.top + (cy / 330) * rect.height;
+          var dx = e.clientX - px, dy = e.clientY - py;
+          var a = Math.atan2(dy, dx);
+          var dist = Math.min(6, Math.hypot(dx, dy) / 30);
+          g.setAttribute('transform', 'translate(' + (Math.cos(a) * dist) + ',' + (Math.sin(a) * dist) + ')');
+        };
+        move(eyeL, 80, 90);
+        move(eyeR, 122, 90);
+        if (mouth) {
+          var mx = rect.left + rect.width / 2, my = rect.top + rect.height * 0.28;
+          var near = Math.hypot(e.clientX - mx, e.clientY - my) < 260;
+          mouth.setAttribute('d', near ? 'M76 112 Q100 140 126 110' : 'M80 116 Q100 132 122 114');
+        }
+      };
+      window.addEventListener('mousemove', onEyes, { passive: true });
+
+      // Sticker cards and step cards tilt toward the cursor.
+      document.querySelectorAll('[data-tilt]').forEach(function (el) {
+        el.addEventListener('mousemove', function (e) {
+          var r = el.getBoundingClientRect();
+          var dx = (e.clientX - (r.left + r.width / 2)) / r.width;
+          var dy = (e.clientY - (r.top + r.height / 2)) / r.height;
+          el.style.transform = 'perspective(700px) translate(-3px,-3px) rotateY(' + (dx * TILT * 0.7) + 'deg) rotateX(' + (-dy * TILT * 0.7) + 'deg)';
+        });
+        el.addEventListener('mouseleave', function () { el.style.transform = ''; });
+      });
+
+      // The hero card tilts a little more, and keeps its 2-degree sticker tip.
+      var hero = document.getElementById('hero');
+      var card = document.getElementById('heroCard');
+      var glow = document.getElementById('heroGlow');
+      if (hero) {
+        hero.addEventListener('mousemove', function (e) {
+          var wrap = hero.getBoundingClientRect();
+          if (glow) glow.style.transform = 'translate(' + (e.clientX - wrap.left - 260) + 'px,' + (e.clientY - wrap.top - 260) + 'px)';
+          if (card) {
+            var r = card.getBoundingClientRect();
+            var dx = (e.clientX - (r.left + r.width / 2)) / r.width;
+            var dy = (e.clientY - (r.top + r.height / 2)) / r.height;
+            card.style.transform = 'rotate(2deg) rotateY(' + (dx * TILT) + 'deg) rotateX(' + (-dy * TILT) + 'deg)';
+          }
+        });
+        hero.addEventListener('mouseleave', function () {
+          if (card) card.style.transform = 'rotate(2deg)';
+        });
+      }
     })();
   </script>
 
