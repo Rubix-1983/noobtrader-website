@@ -169,39 +169,78 @@
     spark.classList.add("np-fly");
   }
 
-  function addFriend() {
-    if (friends >= MAX_FRIENDS) return;
+  // Adds a batch and reports whether there is any room left. The multiplier is
+  // compared before and after rather than per friend, so a batch that leaps a
+  // rung still fires its coin: the acceleration below never skips the reward.
+  function addFriends(n) {
+    if (friends >= MAX_FRIENDS) return false;
     var before = multiplierFor(friends);
-    friends += 1;
+    friends = Math.min(MAX_FRIENDS, friends + n);
     render(multiplierFor(friends) > before);
+    return friends < MAX_FRIENDS;
   }
 
-  dial.addEventListener("click", addFriend);
-  document.getElementById("npAdd").addEventListener("click", addFriend);
+  function addFriend() { addFriends(1); }
+
+  // A hold ends in a click. Without this the release would add one more friend
+  // on top of everything the hold already added.
+  var heldRan = false;
+  function onTap() {
+    if (heldRan) { heldRan = false; return; }
+    addFriend();
+  }
+
+  dial.addEventListener("click", onTap);
+  document.getElementById("npAdd").addEventListener("click", onTap);
   document.getElementById("npReset").addEventListener("click", function () {
     friends = 0;
     render(false);
   });
 
-  // Holding the button accelerates, because reaching 500 one click at a time
-  // is not a demonstration, it is a chore. It still passes through every rung
-  // so the slowing-down is felt rather than skipped.
+  // Holding accelerates, because reaching 500 one click at a time is not a
+  // demonstration, it is a chore. Founder, 19 August: "add friends must be
+  // faster too slow as interactive."
+  //
+  // TWO THINGS RAMP, not one. Shortening the interval alone tops out at the
+  // timer's own floor and still needs five hundred ticks, which is why the
+  // first version crawled. So the STEP grows as well, and a full sweep to the
+  // top rung now takes under a second instead of most of a minute.
+  //
+  // The honesty survives it. A single tap still adds exactly one friend, the
+  // sentence underneath still names the real distance to the next rung, and
+  // every rung still lights in order. Only the hold is fast, and a hold is a
+  // deliberate act by someone who has already understood the first tap.
   function startHold(e) {
     if (e.type === "pointerdown" && e.button !== 0) return;
-    var speed = 260;
+    stopHold();
+    // Cleared as a gesture BEGINS, not as one ends. Clearing it on release
+    // would let the click that follows a hold add one more friend, and leaving
+    // it set would make the next genuine tap do nothing at all. Both were
+    // observed; this is the only placement where neither happens.
+    heldRan = false;
+    var speed = 70;
+    var size = 1;
+    var ticks = 0;
     function step() {
-      addFriend();
-      speed = Math.max(18, speed * 0.72);
+      heldRan = true;
+      if (!addFriends(size)) { stopHold(); return; }
+      ticks += 1;
+      speed = Math.max(16, speed * 0.82);
+      // The first few stay at one apiece so the early rungs, which are the
+      // ones that arrive quickly in real life, are still felt one at a time.
+      if (ticks > 6) size = Math.min(25, Math.ceil(size * 1.35));
       held = window.setTimeout(step, speed);
     }
-    held = window.setTimeout(step, 420);
+    held = window.setTimeout(step, 160);
   }
   function stopHold() {
     if (held) { window.clearTimeout(held); held = null; }
   }
-  ["pointerdown"].forEach(function (t) { dial.addEventListener(t, startHold); });
-  ["pointerup", "pointerleave", "pointercancel"].forEach(function (t) {
-    dial.addEventListener(t, stopHold);
+  [dial, document.getElementById("npAdd")].forEach(function (el) {
+    el.addEventListener("pointerdown", startHold);
+    ["pointerup", "pointerleave", "pointercancel"].forEach(function (t) {
+      el.addEventListener(t, stopHold);
+    });
   });
 
   render(false);
