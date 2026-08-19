@@ -83,7 +83,11 @@
       '<span class="np-spark" id="npSpark" aria-hidden="true"></span>' +
     '</button>' +
     '<div class="np-body">' +
-      '<h3>NOOB Power</h3>' +
+      // The mark instead of a typed heading: it says NOOB POWER itself, and
+      // repeating the words underneath would be the same thing twice. It is
+      // decorative, so the h3 stays for screen readers and is hidden visually.
+      '<img class="np-mark" src="illustrations/noob-power.webp" alt="" aria-hidden="true">' +
+      '<h3 class="np-sr">NOOB Power</h3>' +
       '<p>Every friend you bring who is actually playing makes your own NOOB arrive faster. ' +
         'Tap the ring to add one and watch the rate climb.</p>' +
       '<div class="np-readout" id="npReadout" role="status">' +

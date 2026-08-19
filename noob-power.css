@@ -180,3 +180,27 @@
   .np-spark, .np-spark.np-fly { animation: none; opacity: 0; }
   .np-btn:active { transform: none; }
 }
+
+/* The mark. Height fixed and width auto, deliberately: the artwork is 900x572
+   and giving it a height attribute is exactly what squashed the sticker cards
+   on this site once already. */
+.np-mark {
+  display: block;
+  height: 46px;
+  width: auto;
+  max-width: 100%;
+  margin: 0 0 10px;
+}
+
+@media (max-width: 720px) { .np-mark { height: 38px; margin-inline: auto; } }
+
+/* The heading survives for screen readers, because the mark is an image and
+   an image cannot be a section heading. */
+.np-sr {
+  position: absolute;
+  width: 1px; height: 1px;
+  margin: -1px; padding: 0; border: 0;
+  clip-path: inset(50%);
+  overflow: hidden; white-space: nowrap;
+}
+
