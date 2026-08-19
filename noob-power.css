@@ -1,0 +1,182 @@
+/* ─── NOOB POWER, the dial you can turn ────────────────────────────────────
+ *
+ * Founder, 19 August: "incorporate Noob Power as a icon on the page that
+ * generates multiplier excitement and hook, interactive with a mouse to show
+ * how Noob Power works when a mouse and click occurs on it."
+ *
+ * ITS OWN FILE, on the founder's instruction ("run a separate code section
+ * then for it"). index.html carries load-bearing machinery that must survive
+ * verbatim (the install flow, the NOOB ticker, both advertising tags), so new
+ * work lands beside it rather than inside it. Nothing here styles anything
+ * outside .np- and #noobPower.
+ *
+ * It reads the site's existing custom properties (--brand, --purple, --text,
+ * --text-sec, --card, --border, --radius) so it inherits the page's theme and
+ * cannot drift from it.
+ */
+
+#noobPower {
+  margin-top: 28px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius, 18px);
+  background: var(--card);
+  padding: 22px 20px;
+  display: grid;
+  grid-template-columns: minmax(190px, 240px) 1fr;
+  gap: 26px;
+  align-items: center;
+}
+
+@media (max-width: 720px) {
+  #noobPower { grid-template-columns: 1fr; gap: 18px; padding: 18px 16px; }
+}
+
+/* ── The dial ─────────────────────────────────────────────────────────── */
+
+.np-dial {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1;
+  max-width: 240px;
+  margin: 0 auto;
+  /* A button, not a div with a click handler: keyboard, focus ring and
+     screen-reader semantics arrive for free and cannot be forgotten. */
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  color: inherit;
+  display: block;
+  border-radius: 50%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.np-dial:focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 4px;
+}
+
+.np-dial svg { display: block; width: 100%; height: 100%; overflow: visible; }
+
+.np-track { stroke: var(--border); }
+
+.np-arc {
+  stroke: url(#npGrad);
+  stroke-linecap: round;
+  /* The sweep is animated by changing stroke-dashoffset, so the arc grows
+     round the ring rather than redrawing. */
+  transition: stroke-dashoffset 0.55s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.np-mult {
+  font-size: 30px;
+  font-weight: 800;
+  fill: var(--text);
+  font-variant-numeric: tabular-nums;
+}
+
+.np-mult-sub { font-size: 11px; font-weight: 600; fill: var(--text-sec); letter-spacing: 0.4px; }
+
+/* The coin that flies off when a rung is reached. Purely decorative, so it is
+   aria-hidden in the markup and never carries meaning of its own. */
+.np-spark {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 15px;
+  height: 15px;
+  margin: -7px 0 0 -7px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 30%, #FFE9A8, #F2B01E 62%, #C98708);
+  pointer-events: none;
+  opacity: 0;
+}
+
+.np-spark.np-fly { animation: npFly 0.75s ease-out forwards; }
+
+@keyframes npFly {
+  0%   { opacity: 1; transform: translate(0, 0) scale(0.55); }
+  70%  { opacity: 1; }
+  100% { opacity: 0; transform: translate(var(--np-dx), var(--np-dy)) scale(1.15); }
+}
+
+/* ── The panel beside it ──────────────────────────────────────────────── */
+
+.np-body h3 { font-size: 20px; margin: 0 0 6px; color: var(--text); }
+.np-body p  { color: var(--text-sec); margin: 0 0 14px; line-height: 1.55; }
+
+.np-readout {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 6px 10px;
+  margin-bottom: 14px;
+  font-variant-numeric: tabular-nums;
+}
+
+.np-friends { font-size: 26px; font-weight: 800; color: var(--brand); }
+.np-friends-label { color: var(--text-sec); font-size: 13px; }
+
+.np-next {
+  color: var(--text-sec);
+  font-size: 13px;
+  /* Reserved so the layout does not jump when the line changes length or
+     disappears at the top rung. */
+  min-height: 1.4em;
+  display: block;
+}
+
+.np-controls { display: flex; flex-wrap: wrap; gap: 8px; }
+
+.np-btn {
+  min-height: 44px;
+  padding: 0 16px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text);
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.14s ease, border-color 0.14s ease;
+}
+
+.np-btn:hover  { border-color: var(--brand); }
+.np-btn:active { transform: scale(0.97); }
+.np-btn-primary { background: var(--brand); border-color: var(--brand); color: #fff; }
+
+.np-rungs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 14px;
+  list-style: none;
+  padding: 0;
+}
+
+.np-rung {
+  font-size: 11px;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  color: var(--text-sec);
+  font-variant-numeric: tabular-nums;
+  transition: background 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.np-rung.np-reached {
+  background: var(--brand-dim);
+  border-color: var(--brand);
+  color: var(--brand);
+}
+
+.np-foot { font-size: 11.5px; color: var(--text-sec); margin: 12px 0 0; line-height: 1.5; }
+
+/* Motion is decoration here: the number, the rungs and the sentence carry
+   every fact, so a reader who has asked for less motion loses nothing. */
+@media (prefers-reduced-motion: reduce) {
+  .np-arc { transition: none; }
+  .np-spark, .np-spark.np-fly { animation: none; opacity: 0; }
+  .np-btn:active { transform: none; }
+}

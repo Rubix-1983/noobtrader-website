@@ -1287,6 +1287,9 @@
       .sticker-card, .band-light .step-card, .hero2-card { transition: none; }
     }
   </style>
+  <!-- NOOB Power, its own code section (founder, 19 Aug). Kept out of this
+       file so the machinery here stays byte-stable. -->
+  <link rel="stylesheet" href="noob-power.css">
 </head>
 <body>
 
@@ -1495,6 +1498,10 @@
         <p>Each time half the player pool is handed out, the earn rate halves. Early players earn fastest, and the pool can never run dry. Being early genuinely counts.</p>
       </div>
     </div>
+
+    <!-- Turn it and the rate climbs. Real ladder, no network, invents nothing
+         about anybody's account: see noob-power.js. -->
+    <div id="noobPower" class="anim anim-delay-3"></div>
 
     <p class="noob-disclaimer anim anim-delay-3">NoobTrader is a simulator for learning. NOOB has no cash value. It can't be bought, sold, sent to anyone or withdrawn, and nothing here is financial advice or a promise of future value. Rates shown are settings and can change; NOOB you've already earned is never taken back.</p>
   </section>
@@ -2083,5 +2090,6 @@
     })();
   </script>
 
+  <script src="noob-power.js" defer></script>
 </body>
 </html>
