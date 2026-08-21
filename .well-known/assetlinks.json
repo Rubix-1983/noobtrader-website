@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "za.co.noobtrader",
+      "sha256_cert_fingerprints": [
+        "85:AA:83:D0:4F:B2:0B:59:EF:D1:D6:A2:89:A3:11:A4:BF:9C:C1:11:2C:D4:5F:F0:81:4D:E1:FD:95:63:B3:EB"
+      ]
+    }
+  }
+]
