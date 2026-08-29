@@ -10,20 +10,30 @@
  * mouse gets the hook and a thumb still gets the whole thing on tap.
  *
  * THE LADDER IS THE LIVE ONE, NOT A NICE-LOOKING CURVE. Copied from
- * noob_power_tiers on 19 August 2026 (version 1), which _noob_power_for reads:
+ * noob_power_tiers, VERSION 2 (29 August 2026), which is what _noob_power_for
+ * reads now that sql-2026-08-noob-invite-boost.sql is applied — that function
+ * takes MAX(version), so the v1 rows are still in the table and still
+ * auditable, but they no longer decide anybody's rate:
  *
- *     0 -> 1.00   1 -> 1.05   3 -> 1.10   5 -> 1.20    10 -> 1.30
- *    25 -> 1.45  50 -> 1.60  100 -> 1.90  200 -> 2.20  350 -> 2.60
- *   500 -> 3.00
+ *     0 -> 1.00   1 -> 1.25   2 -> 1.50   3 -> 1.60    5 -> 1.75
+ *    10 -> 1.90  25 -> 2.10   50 -> 2.30  100 -> 2.55  200 -> 2.75
+ *   350 -> 2.90 500 -> 3.00
+ *
+ * Founder, 29 August: "the NoobPower is not promoting invites enough... the
+ * earnings should be better right?" Version 1 paid +0.05x for the first
+ * friend — the hardest invite a teenager will ever send, worth a twentieth of
+ * a multiplier. Version 2 front-loads it: the first two friends are worth
+ * +0.25x each, and the CEILING DID NOT MOVE, so the promise this page makes
+ * ("up to 3 times faster at the top rung", in index.html) is still true.
  *
  * That shape is the honest part and the reason this is worth building. The
- * jump from nothing to one friend is instant, and then it slows down hard: 3x
- * needs FIVE HUNDRED friends who are all still playing. A widget that let the
- * dial race to 3x in four clicks would be teaching the opposite of what the
- * product does, on a page aimed at 13 to 18 year olds. So the click adds one
- * friend, the sentence underneath always names the real distance to the next
- * rung, and the top rung is reachable only by holding the button down for a
- * while, which is itself the lesson.
+ * jump from nothing to one friend is now big, the second is too, and then it
+ * slows down hard: 3x still needs FIVE HUNDRED friends who are all still
+ * playing. A widget that let the dial race to 3x in four clicks would be
+ * teaching the opposite of what the product does, on a page aimed at 13 to 18
+ * year olds. So the click adds one friend, the sentence underneath always
+ * names the real distance to the next rung, and the top rung is reachable
+ * only by holding the button down for a while, which is itself the lesson.
  *
  * If the tiers ever change in the database, this file is the one place to
  * change them, and the number in index.html's NOOB Power card ("up to 3 times
@@ -41,8 +51,8 @@
 
   // [friends needed, multiplier] exactly as noob_power_tiers holds them.
   var TIERS = [
-    [0, 1.00], [1, 1.05], [3, 1.10], [5, 1.20], [10, 1.30], [25, 1.45],
-    [50, 1.60], [100, 1.90], [200, 2.20], [350, 2.60], [500, 3.00]
+    [0, 1.00], [1, 1.25], [2, 1.50], [3, 1.60], [5, 1.75], [10, 1.90],
+    [25, 2.10], [50, 2.30], [100, 2.55], [200, 2.75], [350, 2.90], [500, 3.00]
   ];
   var MAX_FRIENDS = TIERS[TIERS.length - 1][0];
   var CIRC = 2 * Math.PI * 52;          // r=52 in the SVG below
@@ -94,7 +104,7 @@
         '<span class="np-friends" id="npFriends">0</span>' +
         '<span class="np-friends-label" id="npFriendsLabel">friends earning</span>' +
       '</div>' +
-      '<span class="np-next" id="npNext">Your first friend takes you to 1.05x.</span>' +
+      '<span class="np-next" id="npNext">Your first friend takes you to 1.25x.</span>' +
       '<div class="np-controls">' +
         '<button class="np-btn np-btn-primary" id="npAdd" type="button">Add a friend</button>' +
         '<button class="np-btn" id="npReset" type="button">Start again</button>' +
