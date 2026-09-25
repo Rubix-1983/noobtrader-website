@@ -1,7 +1,7 @@
 {
   "name": "NoobTrader Schools",
   "short_name": "NT Schools",
-  "description": "The South African Schools League. Classes compete on real market data with virtual cash.",
+  "description": "NoobTrader: practice trading with virtual cash, and create or join a competition with a code.",
   "id": "/schools/",
   "start_url": "/schools/",
   "scope": "/schools/",
