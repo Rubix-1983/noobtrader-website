@@ -1,6 +1,6 @@
 {
-  "name": "NoobTrader Schools",
-  "short_name": "NT Schools",
+  "name": "NoobTrader",
+  "short_name": "NoobTrader",
   "description": "NoobTrader: practice trading with virtual cash, and create or join a competition with a code.",
   "id": "/schools/",
   "start_url": "/schools/",
