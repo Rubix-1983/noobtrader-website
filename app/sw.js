@@ -14,12 +14,12 @@
  * hashed JS/CSS and brand images — is cached.
  */
 
-// 20260930142732 is replaced with the build timestamp by the swVersion() plugin in
+// 20261001013038 is replaced with the build timestamp by the swVersion() plugin in
 // vite.config.js. It MUST change every deploy: the activate handler deletes any
 // cache whose key does not start with VERSION, so a constant version means an
 // old shell can never be evicted. That is how a user ends up pinned to a build
 // from before a fix and reports the bug as still present.
-const VERSION = "nt-20260930142732";
+const VERSION = "nt-20261001013038";
 const SHELL = `${VERSION}-shell`;
 
 // Anything the app cannot function without. Scope-relative so this works under
@@ -99,3 +99,141 @@ self.addEventListener("fetch", (event) => {
 self.addEventListener("message", (event) => {
   if (event.data === "SKIP_WAITING") self.skipWaiting();
 });
+
+// ─── WEB PUSH (notifications plan R2, §3.2 item 5, §7.6) ─────────────────
+// The push worker on the server (server/push/) sends Declarative Web Push
+// JSON to every endpoint:
+//   {"web_push":8030,
+//    "notification":{"title","body","navigate","lang","dir","tag"},
+//    "nt":{"o":<route key>,"n":<notice id>,"d":<delivery id>}}
+// Safari 18.4+ can show that with no JavaScript at all; every other browser
+// (and Safari, when this worker is running) hands it to the `push` handler
+// below. The text was rendered on the server from fixed templates in the
+// learner's language, and carries no name, amount or share count.
+//
+// Three rules this code keeps:
+//   1. EVERY push shows a notification, a malformed or empty one included.
+//      Safari revokes the permission of a site whose push shows nothing, and
+//      Chrome shows its own "site updated in the background" line instead.
+//      The fallback is fixed English, baked in here: a broken payload has no
+//      language to speak.
+//   2. A tap never opens a URL taken from the payload. Only the route KEY is
+//      read, checked against the same allow-list as the app
+//      (src/constants/notifications.js NOTIF_ROUTES, pinned by
+//      public/sw.push.test.js), and the app is opened at its own scope with
+//      ?open=<key>&n=<id>&d=<id>. Anything else opens Home. The app then acts
+//      on it past its sign-in gates, and only after the server says the
+//      notice belongs to the learner signed in (notif_open, owner-scoped).
+//   3. No action buttons, no requireInteraction, no vibration pattern, no
+//      re-alert when a notice replaces one with the same tag (plan §2.2).
+const NT_PUSH_ROUTES = [
+  "home", "wallet", "cfd", "bot_lab", "orders", "compete", "cup", "friends",
+  "friends_pending", "inbox", "notify_settings", "report_daily", "report_weekly",
+  "admin_queue",
+];
+const NT_PUSH_FALLBACK = { title: "NoobTrader", body: "You have an update" };
+const NT_TAG_RE = /^[A-Za-z0-9_-]{1,32}$/;
+const NT_LANG_RE = /^[a-z]{2,3}(-[A-Za-z0-9]{2,4})?$/;
+
+const ntPosInt = (v) => {
+  const s = String(v ?? "").trim();
+  if (!/^\d{1,18}$/.test(s)) return null;
+  const n = Number(s);
+  return Number.isSafeInteger(n) && n > 0 ? n : null;
+};
+
+/** { o, n, d } with `o` on the allow-list (else "home"), n and d positive ints or null. */
+const ntTapData = (raw) => {
+  const r = raw && typeof raw === "object" ? raw : {};
+  return {
+    o: NT_PUSH_ROUTES.includes(r.o) ? r.o : "home",
+    n: ntPosInt(r.n),
+    d: ntPosInt(r.d),
+  };
+};
+
+const ntText = (v, max) => (typeof v === "string" && v.trim() ? v.slice(0, max) : null);
+
+/**
+ * What to show for one push event's data (a PushMessageData, or anything with
+ * .json() / .text()). Never throws: a payload that cannot be read is the
+ * fixed English fallback.
+ */
+const ntNotificationFor = (data) => {
+  let msg = null;
+  try { msg = data ? data.json() : null; } catch { msg = null; }
+  const note = msg && typeof msg === "object" && msg.notification && typeof msg.notification === "object"
+    ? msg.notification : null;
+  const title = (note && ntText(note.title, 120)) || NT_PUSH_FALLBACK.title;
+  const body = (note && ntText(note.body, 300)) || (note && ntText(note.title, 120) ? "" : NT_PUSH_FALLBACK.body);
+  const options = {
+    body,
+    icon: "./icon-192.png",
+    badge: "./notif-badge-72.png",
+    data: ntTapData(msg && msg.nt),
+    renotify: false,
+  };
+  if (note && NT_TAG_RE.test(note.tag || "")) options.tag = note.tag;
+  if (note && NT_LANG_RE.test(note.lang || "")) options.lang = note.lang;
+  if (note && (note.dir === "rtl" || note.dir === "ltr")) options.dir = note.dir;
+  return { title, options };
+};
+
+/** The app's own address for a tap: ./?open=<o>&n=<n>&d=<d> at this worker's scope. */
+const ntOpenUrl = (scope, tap) => {
+  const q = new URLSearchParams({ open: tap.o });
+  if (tap.n) q.set("n", String(tap.n));
+  if (tap.d) q.set("d", String(tap.d));
+  return new URL(`./?${q.toString()}`, scope).href;
+};
+
+const ntOnPush = (event) => {
+  const { title, options } = ntNotificationFor(event.data);
+  const shown = self.registration.showNotification(title, options)
+    .catch(() => self.registration.showNotification(NT_PUSH_FALLBACK.title, { body: NT_PUSH_FALLBACK.body }));
+  // An open app refreshes its bell at once instead of waiting for its poll.
+  const told = self.clients.matchAll({ type: "window", includeUncontrolled: true })
+    .then((list) => { for (const c of list) c.postMessage({ type: "nt-push" }); })
+    .catch(() => {});
+  event.waitUntil(Promise.all([shown, told]));
+};
+
+const ntOnNotificationClick = (event) => {
+  event.notification.close();
+  const tap = ntTapData(event.notification.data);
+  const scope = self.registration.scope;
+  event.waitUntil(
+    self.clients.matchAll({ type: "window", includeUncontrolled: true })
+      .then((list) => {
+        // An open window of THIS app (its scope, /app/): focus it and hand it
+        // the tap. It stashes the tap and acts on it past its gates.
+        const open = list.find((c) => typeof c.url === "string" && c.url.startsWith(scope));
+        if (open) {
+          open.postMessage({ type: "nt-open", o: tap.o, n: tap.n, d: tap.d });
+          return typeof open.focus === "function" ? open.focus() : open;
+        }
+        return self.clients.openWindow(ntOpenUrl(scope, tap));
+      })
+      .catch(() => self.clients.openWindow(ntOpenUrl(scope, { o: "home", n: null, d: null })).catch(() => {})),
+  );
+};
+
+// The push service replaced or expired the subscription. Subscribe again
+// with the same application server key where the browser still says which
+// one it was. The server learns the new address when the app next opens
+// (hooks/usePushRegistration.js compares it with the one it registered), and
+// the old address is deleted on its first 404/410. A worker has no session,
+// so nothing is registered from here.
+const ntOnSubscriptionChange = (event) => {
+  const key = event.oldSubscription && event.oldSubscription.options
+    ? event.oldSubscription.options.applicationServerKey : null;
+  if (!key) return;
+  event.waitUntil(
+    self.registration.pushManager.subscribe({ userVisibleOnly: true, applicationServerKey: key })
+      .catch(() => {}),
+  );
+};
+
+self.addEventListener("push", ntOnPush);
+self.addEventListener("notificationclick", ntOnNotificationClick);
+self.addEventListener("pushsubscriptionchange", ntOnSubscriptionChange);
