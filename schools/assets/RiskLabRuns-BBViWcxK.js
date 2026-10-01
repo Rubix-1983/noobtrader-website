@@ -1,0 +1,1 @@
+import{j as i,ei as o}from"./index-BIO2ddRP.js";const x=({i18n:e,k:a,fallback:n,vars:d})=>i.jsx("span",{dir:"auto","data-runs":a,children:o(e,a,n,d).map((s,t)=>s.isolate!==void 0?i.jsx("bdi",{dir:s.dir,children:s.isolate},t):i.jsx("span",{children:s.text},t))});export{x as R};
