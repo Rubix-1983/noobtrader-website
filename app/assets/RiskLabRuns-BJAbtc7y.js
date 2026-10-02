@@ -1,1 +1,0 @@
-import{j as t,et as o}from"./index-DBseuvw_.js";const x=({i18n:e,k:a,fallback:n,vars:d})=>t.jsx("span",{dir:"auto","data-runs":a,children:o(e,a,n,d).map((s,i)=>s.isolate!==void 0?t.jsx("bdi",{dir:s.dir,children:s.isolate},i):t.jsx("span",{children:s.text},i))});export{x as R};

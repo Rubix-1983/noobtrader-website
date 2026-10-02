@@ -14,12 +14,12 @@
  * hashed JS/CSS and brand images — is cached.
  */
 
-// 20261002085903 is replaced with the build timestamp by the swVersion() plugin in
+// 20261002093801 is replaced with the build timestamp by the swVersion() plugin in
 // vite.config.js. It MUST change every deploy: the activate handler deletes any
 // cache whose key does not start with VERSION, so a constant version means an
 // old shell can never be evicted. That is how a user ends up pinned to a build
 // from before a fix and reports the bug as still present.
-const VERSION = "nt-20261002085903";
+const VERSION = "nt-20261002093801";
 const SHELL = `${VERSION}-shell`;
 
 // Anything the app cannot function without. Scope-relative so this works under
@@ -129,7 +129,7 @@ self.addEventListener("message", (event) => {
 const NT_PUSH_ROUTES = [
   "home", "wallet", "cfd", "bot_lab", "orders", "compete", "cup", "friends",
   "friends_pending", "inbox", "notify_settings", "report_daily", "report_weekly",
-  "admin_queue",
+  "admin_queue", "asset",
 ];
 const NT_PUSH_FALLBACK = { title: "NoobTrader", body: "You have an update" };
 const NT_TAG_RE = /^[A-Za-z0-9_-]{1,32}$/;
