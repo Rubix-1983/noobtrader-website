@@ -3,6 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <!-- Content-Security-Policy (security audit 2026-10-22, finding 3). GitHub
+         Pages sends no headers, so it is a meta tag: frame-ancestors and
+         report-only do not work here, hence frame-guard.js below.
+         connect-src IS THE PRICE PATH. Every origin the app fetches from must be
+         listed, or prices, charts and CFDs go blank in the browser:
+           noob-trader.onrender.com   market-data API (VITE_API_URL)
+           auth.noob-trader.com       Supabase REST, auth, storage (https) + realtime (wss)
+           fonts.googleapis/gstatic   admin daily poster inlines its typefaces by fetch()
+         index-security.test.js fails if the API or Supabase origin is missing.
+         No *.supabase.co wildcard on purpose: any Supabase project would be an
+         exfiltration endpoint. style-src needs 'unsafe-inline' for React's
+         inline style={{}}. Stripped in `vite` dev only (vite.config.js), where
+         the React refresh preamble is an inline script. -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com; img-src 'self' data: blob: https:; media-src 'self' blob: https://auth.noob-trader.com; connect-src 'self' https://noob-trader.onrender.com https://auth.noob-trader.com wss://auth.noob-trader.com https://fonts.googleapis.com https://fonts.gstatic.com; worker-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-src 'none'" />
+    <!-- Clickjacking guard (security audit 2026-10-22, finding 4): refuses to
+         show the app inside another site's frame. GitHub Pages sends no
+         X-Frame-Options and a meta CSP cannot carry frame-ancestors. External
+         (not inline) so a script-src 'self' CSP can allow it; first script on
+         the page so nothing renders before it runs. -->
+    <script src="./frame-guard.js"></script>
     <!-- Competition Cup plan B: a ?join= competition code never leaves in a
          Referer header (the app strips ?join= at once as well). The site is
          static, so this is a meta tag rather than a response header. -->
@@ -43,16 +63,18 @@
          browser could not even discover it until React had booted. Press
          Start 2P dropped: nothing in src/ references it (2026-08-15 grep).
          Non-blocking: media="print" keeps the CSS from gating first paint,
-         onload flips it live; the preload keeps discovery immediate and
-         display=swap keeps text visible on the fallback face meanwhile. -->
+         font-swap.js flips it live once loaded (it was an inline onload=,
+         which script-src 'self' blocks); the preload keeps discovery immediate
+         and display=swap keeps text visible on the fallback face meanwhile. -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" media="print" onload="this.media='all'" />
+    <link id="nt-fonts" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" media="print" />
+    <script src="./font-swap.js" defer></script>
     <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" /></noscript>
 
     <title>NoobTrader</title>
-    <script type="module" crossorigin src="./assets/index-Blz5SbTp.js"></script>
+    <script type="module" crossorigin src="./assets/index-nbAcLvGf.js"></script>
     <link rel="modulepreload" crossorigin href="./assets/react-CRB3T2We.js">
     <link rel="modulepreload" crossorigin href="./assets/supabase-BiHzSKx7.js">
     <link rel="stylesheet" crossorigin href="./assets/index-OTriKTl0.css">
