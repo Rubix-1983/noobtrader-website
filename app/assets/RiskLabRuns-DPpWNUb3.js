@@ -1,1 +1,0 @@
-import{j as t,ft as o}from"./index-BAhu3GWS.js";const x=({i18n:n,k:a,fallback:d,vars:e})=>t.jsx("span",{dir:"auto","data-runs":a,children:o(n,a,d,e).map((s,i)=>s.isolate!==void 0?t.jsx("bdi",{dir:s.dir,children:s.isolate},i):t.jsx("span",{children:s.text},i))});export{x as R};
