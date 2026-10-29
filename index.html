@@ -21,6 +21,8 @@
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@NoobTraderCom">
+  <meta name="twitter:creator" content="@NoobTraderCom">
   <meta name="twitter:title" content="NoobTrader - Learn to Trade the Fun Way">
   <meta name="twitter:description" content="Trade 780+ stocks, 48 cryptos, 13 commodities & forex across 21 global exchanges. Zero risk, all skill.">
   <meta name="twitter:image" content="https://noob-trader.com/logo.png">
@@ -70,7 +72,11 @@
       "@type": "Offer",
       "price": "0",
       "priceCurrency": "USD"
-    }
+    },
+    "sameAs": [
+      "https://x.com/NoobTraderCom",
+      "https://www.instagram.com/noobtradercom/"
+    ]
   }
   </script>
 
@@ -966,6 +972,29 @@
       text-decoration: none;
     }
     .footer-links a:hover { color: var(--text); }
+    /* Our X and Instagram (founder, 29 Oct 2026): icon + handle, 44px taps. */
+    .footer-social {
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+    }
+    .footer-social a {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      min-height: 44px;
+      padding: 0 16px;
+      border-radius: 999px;
+      border: 1px solid rgba(255,255,255,0.14);
+      color: var(--text);
+      font-size: 14px;
+      font-weight: 600;
+      text-decoration: none;
+    }
+    .footer-social a:hover { border-color: var(--accent); }
+    .footer-social svg { width: 18px; height: 18px; flex-shrink: 0; }
     .footer-copy {
       font-size: 13px;
       color: var(--text-dim);
@@ -1472,6 +1501,16 @@
       <div class="footer-logo">
         <img src="./logo.png" alt="NoobTrader" decoding="async">
         <span class="nt-word" style="font-size: 22px;">noobtrader</span>
+      </div>
+      <div class="footer-social" aria-label="Follow NoobTrader">
+        <a href="https://x.com/NoobTraderCom" target="_blank" rel="noopener noreferrer" aria-label="NoobTrader on X: @NoobTraderCom">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.75 3h3.07l-6.7 7.66L22 21h-6.17l-4.83-6.32L5.47 21H2.4l7.17-8.2L2 3h6.33l4.37 5.78L17.75 3Zm-1.08 16.18h1.7L7.4 4.73H5.58l11.09 14.45Z"/></svg>
+          @NoobTraderCom
+        </a>
+        <a href="https://www.instagram.com/noobtradercom/" target="_blank" rel="noopener noreferrer" aria-label="NoobTrader on Instagram: @noobtradercom">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><path d="M17.5 6.5h.01"/></svg>
+          @noobtradercom
+        </a>
       </div>
       <div class="footer-links">
         <a href="#features">Features</a>
