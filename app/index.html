@@ -48,13 +48,12 @@
          than honouring transparency, so the old transparent 512px logo.png
          produced a black tile with a small mark floating in it. -->
     <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png" />
-    <!-- Relative on purpose, so each face picks up its OWN manifest:
-         /app/manifest.json and /schools/manifest.json. Without a separate
-         manifest per path, "add to home screen" from /schools/ installs an icon
-         that opens /app/, because that is the root manifest's start_url — and
-         home-screen install is a primary distribution channel in SA schools.
-         (vite.config.js's base:"./" would rewrite an absolute href to this form
-         anyway; written relative here so the intent survives a base change.) -->
+    <!-- Relative on purpose, so the app picks up its OWN manifest,
+         /app/manifest.json, not the landing page's root /manifest.json. (The
+         retired /schools/ copy used to need its own here too; since 31 Oct 2026
+         /app/ is the only app address.) vite.config.js's base:"./" would
+         rewrite an absolute href to this form anyway; written relative here so
+         the intent survives a base change. -->
     <link rel="manifest" href="./manifest.json" />
 
     <!-- Brand: Space Grotesk (800 for the RGB-fade noobtrader wordmark),
