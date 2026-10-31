@@ -24,6 +24,17 @@
   <script>
     gtag('event', 'conversion', {'send_to': 'AW-18390800018/72HTCKy2gOIcEJKttcFE'});
   </script>
+  <!-- Sign-up taps (founder, 31 Oct 2026: the tag for "just the sign up page";
+       Option A): the app's sign-up screen sits inside /app/, where no ad tag goes,
+       so every tap on a link into the app (Sign in, Play now, the hero and install
+       buttons) also sends this conversion. A beacon, so it never holds the tap up. -->
+  <script>
+    document.addEventListener('click', function (e) {
+      var a = e.target && e.target.closest ? e.target.closest('a[href^="./app/"], #ntPlayBtn') : null;
+      if (!a || typeof gtag !== 'function') return;
+      gtag('event', 'conversion', {'send_to': 'AW-18390800018/72HTCKy2gOIcEJKttcFE', 'transport_type': 'beacon'});
+    }, true);
+  </script>
 
   <title>NoobTrader - Learn to Trade with Virtual Cash | Global Trading Simulator</title>
   <meta name="description" content="Trade 780+ stocks across 21 global exchanges, 48 cryptos, 13 commodities, forex & more with virtual cash. NoobTrader is a free trading simulator available in 60 languages. Earn XP, race in the daily competitions or start your own with friends, and learn to invest.">
