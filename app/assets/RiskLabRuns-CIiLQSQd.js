@@ -1,0 +1,1 @@
+import{j as a,gB as o}from"./index-BFraUCls.js";const x=({i18n:n,k:i,fallback:d,vars:e})=>a.jsx("span",{dir:"auto","data-runs":i,children:o(n,i,d,e).map((s,t)=>s.isolate!==void 0?a.jsx("bdi",{dir:s.dir,children:s.isolate},t):a.jsx("span",{children:s.text},t))});export{x as R};
