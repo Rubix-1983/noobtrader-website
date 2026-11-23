@@ -1,0 +1,1846 @@
+{
+  "_meta": {
+    "lang": "ca",
+    "source": "src/constants/lessonData.js",
+    "lessons": 84,
+    "hash": {
+      "1": "d38ab2ed",
+      "2": "bf930bc6",
+      "3": "6e4e4d63",
+      "4": "5b7802cc",
+      "5": "0f9cde1d",
+      "6": "e5999569",
+      "7": "66bc9202",
+      "8": "65677cac",
+      "9": "59a1fc31",
+      "10": "03ccde2e",
+      "11": "fbb06743",
+      "12": "7713dc86",
+      "13": "38054a44",
+      "14": "cbac8395",
+      "15": "4355d5d7",
+      "16": "bee25cb0",
+      "17": "a5cba909",
+      "18": "df93ed01",
+      "19": "ad2f3ae8",
+      "20": "6363dc90",
+      "21": "65a3ab78",
+      "22": "61f1ee9c",
+      "23": "a475dd40",
+      "24": "6874af82",
+      "25": "d92ac77b",
+      "26": "e8f1b315",
+      "27": "c3b42e04",
+      "28": "c3719a16",
+      "29": "b8690fa4",
+      "30": "272435ad",
+      "31": "ebbffa78",
+      "32": "31ae442d",
+      "33": "71dbb7c6",
+      "34": "62d271e6",
+      "35": "da185960",
+      "36": "66e0a88e",
+      "37": "4a91dc0c",
+      "38": "9ec4dee7",
+      "39": "ae809a71",
+      "40": "c3b12ff9",
+      "41": "aa4153d7",
+      "42": "29941a97",
+      "43": "d87240fc",
+      "44": "87c794ce",
+      "45": "a3dd8868",
+      "46": "7873826b",
+      "47": "47503da5",
+      "48": "6d2df7b4",
+      "49": "c1055330",
+      "50": "7d4a6a8a",
+      "51": "27e927d2",
+      "52": "041c444d",
+      "53": "8fb1d4bc",
+      "54": "33ec5d94",
+      "55": "b7571fb2",
+      "56": "f20ea6ce",
+      "57": "5a1f3993",
+      "58": "561a7caf",
+      "59": "67437975",
+      "60": "6db8d44d",
+      "61": "04bbebe6",
+      "62": "b43659be",
+      "63": "a6bfefd0",
+      "64": "a2cc88e0",
+      "65": "2f12b47a",
+      "66": "4a676ede",
+      "67": "17351f96",
+      "68": "e9dda763",
+      "69": "3b1a13c3",
+      "70": "b07744de",
+      "71": "798da84a",
+      "72": "960b5a23",
+      "73": "76df64cb",
+      "74": "90735bdf",
+      "75": "b5be8d19",
+      "76": "b2c7a6ad",
+      "77": "1f3344ae",
+      "78": "e03a370e",
+      "79": "3b881962",
+      "80": "64bddadd",
+      "81": "d30753ea",
+      "82": "71620bf3",
+      "83": "989bc8a6",
+      "84": "cdd0a41d"
+    }
+  },
+  "lessons": {
+    "1": {
+      "title": "Què és una acció?",
+      "desc": "Sigues propietari d'un trosset d'una empresa",
+      "content": "Imagina que tu i 9 amics poseu {c}10 cadascú per comprar junts unes vambes de {c}100. Cadascú de vosaltres és propietari d'1/10 d'aquelles vambes, i això, bàsicament, és una acció! Quan compres una acció de {retail}, ets propietari d'un trosset petitíssim de cada botiga, de cada producte i de cada {cName} que guanyen. Com més creix l'empresa, més val el teu tros! 🔥",
+      "quiz": {
+        "q": "Tu i 4 amics pagueu a parts iguals una cadira gamer de {c}500. De què és propietari cadascú de vosaltres?",
+        "explanation": "Tenir una acció vol dir ser propietari d'una fracció del tot. Cinc persones que paguen el mateix vol dir cinc trossos iguals, i cada tros té els mateixos drets que els altres.",
+        "options": [
+          "D'1/5 (20%) de la cadira cadascú",
+          "De res, només una persona en pot ser propietària",
+          "De la cadira sencera junts, sense cap part individual"
+        ]
+      }
+    },
+    "2": {
+      "title": "Com funciona {ex}",
+      "desc": "La borsa del teu país: {name}",
+      "content": "Pensa en {ex} ({exFull}) com un mercat en línia gegant, però en lloc de comprar vambes o mòbils, la gent compra i ven trossets (accions) d'empreses com {top5}. Obre cada dia feiner excepte els festius, i els preus canvien durant tot el dia segons qui compra i qui ven. {ex} és {exDesc}! 🌍",
+      "quiz": {
+        "q": "A què s'assembla més {ex}?",
+        "explanation": "Una borsa posa en contacte la gent que vol comprar accions amb la gent que les vol vendre. No és la propietària de les accions, no tria el preu i no et pagarà interessos per deixar-hi diners.",
+        "options": [
+          "A un mercat, on els propietaris d'accions es troben amb compradors",
+          "A un compte d'estalvi, on els diners s'estan quiets i generen interessos",
+          "A una botiga que és propietària de les accions i te les ven"
+        ]
+      }
+    },
+    "3": {
+      "title": "Toros contra óssos",
+      "desc": "Les direccions del mercat, desxifrades",
+      "content": "Als mercats, manen els animals 😄\n\n🐂 Toro = els preus PUGEN. Imagina un toro envestint cap amunt amb les banyes. Tothom guanya, la gent compra, bon rotllo.\n\n🐻 Ós = els preus BAIXEN. Imagina un ós donant una urpada cap avall. La gent té por, ven, no és un bon moment.\n\nQuan algú diu 'Soc alcista amb {tech}', creu que el preu pujarà. Quan diu 'baixista', creu que baixarà. Sentiràs aquestes paraules arreu en el món de les finances!",
+      "quiz": {
+        "q": "Un amic teu diu 'Aquesta setmana soc baixista amb {telco}.' Què vol dir?",
+        "explanation": "Baixista vol dir esperar que el preu baixi; alcista, que pugi. L'ós dona urpades cap avall, el toro envesteix cap amunt.",
+        "options": [
+          "Creu que el preu de {telco} pujarà",
+          "Creu que el preu de {telco} baixarà",
+          "Vol comprar tantes accions de {telco} com pugui"
+        ]
+      }
+    },
+    "4": {
+      "title": "Què és un broker?",
+      "desc": "La teva porta d'entrada per comprar accions",
+      "content": "No pots presentar-te a {retail} i dir 'dona'm una mica de la teva empresa, si us plau' 😂 Necessites un broker: una app o un servei que connecta compradors i venedors a la borsa.\n\nPensa en un broker com {shop}. Tu vols una cosa i {shop} te la fa arribar. S'encarreguen de l'operació i cobren una petita comissió. Al teu país ({name}), alguns brokers populars són {broker}, entre d'altres.\n\nEl que un broker NO fa: decidir quines accions pugen. Passa la teva ordre al mercat. El preu es mou pel que compra i ven tothom, no perquè ho digui el teu broker.\n\nAixò sí, els brokers publiquen opinions. Els seus analistes qualifiquen les accions com a 'comprar', 'mantenir' o 'vendre'. Una opinió no és una ordre 🤷 Els analistes discrepen obertament entre ells sobre la mateixa acció, i molts s'acaben equivocant. Llegeix una qualificació com una ressenya, no com una norma.\n\nNoobTrader t'ensenya exactament com funciona tot això, gratis i amb diners virtuals!",
+      "quiz": {
+        "q": "Per què necessites un broker per comprar accions?",
+        "explanation": "Un broker és el teu camí cap a la borsa, no un endeví ni qui fixa el preu. Passa l'ordre endavant, i el preu és el que la resta del mercat estigui disposada a pagar o acceptar. Els seus analistes publiquen qualificacions, però una qualificació és una opinió, no una instrucció.",
+        "options": [
+          "Trien les accions que pujaran",
+          "Fixen el preu que pagues per cada acció",
+          "Fan arribar la teva ordre a la borsa"
+        ]
+      }
+    },
+    "5": {
+      "title": "Conceptes bàsics del preu d'una acció",
+      "desc": "Per què pugen i baixen els preus?",
+      "content": "T'has fixat que les vambes d'edició limitada es disparen de preu quan surten? Amb les accions passa el mateix. Tot és qüestió d'oferta i demanda.\n\n📈 Molta gent VOL comprar → el preu PUJA\n📉 Molta gent VOL vendre → el preu BAIXA\n\nSi {telco} anuncia que tindrà 10 milions de clients nous, tothom en vol un tros i el preu es dispara. Si anuncia grans pèrdues, la gent ven en pànic i el preu cau. Les notícies, els resultats i fins i tot les tendències a les xarxes socials poden moure el preu de les accions a l'instant!",
+      "quiz": {
+        "q": "{retail} anuncia beneficis rècord i plans per obrir 50 botigues noves. Què passarà probablement amb el preu de les seves accions?",
+        "explanation": "Més beneficis esperats normalment vol dir més compradors, i més compradors fan pujar el preu. Gastar diners per créixer no és el mateix que malbaratar-los.",
+        "options": [
+          "Puja, perquè més gent vol comprar",
+          "Es queda exactament igual",
+          "S'enfonsa, perquè gasten diners en botigues"
+        ]
+      }
+    },
+    "6": {
+      "title": "Llegir un gràfic de preus",
+      "desc": "Espelmes, línies i què signifiquen",
+      "content": "Un gràfic de preus és com un vídeo resum de la història d'una acció. El tipus més popular és el gràfic d'espelmes. Cada 'espelma' et mostra 4 coses d'un dia:\n\n🟢 Espelma verda = el preu va PUJAR aquell dia (va obrir més baix i va tancar més alt)\n🔴 Espelma vermella = el preu va BAIXAR (va obrir més alt i va tancar més baix)\n📏 Les línies primes de dalt/baix = el preu més alt i el més baix del dia\n\nSi veus moltes espelmes verdes seguides, és una tendència alcista forta. Moltes de vermelles vol dir una tendència baixista. Aprendre a llegir gràfics és com aprendre a llegir el marcador d'un partit! 🎮",
+      "quiz": {
+        "q": "Veus 5 espelmes vermelles seguides en un gràfic. Què et diu això?",
+        "explanation": "Una espelma vermella tanca per sota d'on va obrir, així que cinc seguides són cinc sessions de baixada. El color et diu la direcció, no la mida del moviment.",
+        "options": [
+          "L'acció ha pujat durant 5 dies",
+          "L'acció ha baixat durant 5 dies",
+          "El preu de l'acció no ha canviat"
+        ]
+      }
+    },
+    "7": {
+      "title": "El volum i què et diu",
+      "desc": "Quantes accions es negocien",
+      "content": "Volum = quantes accions s'han comprat i venut en un dia. Pensa-hi com les visualitzacions d'un vídeo de TikTok.\n\n🔊 Volum ALT = molta gent opera. Si el preu es mou amb volum alt, és un senyal més fort i fiable, com un vídeo que es fa viral de veritat, no per bots.\n\n🔇 Volum BAIX = només hi opera poca gent. Amb volum baix els preus es poden moure de manera estranya, com un vídeo amb només 3 visualitzacions que algú comparteix per error.\n\nMira sempre el volum quan vegis un gran moviment de preu. Et diu si el moviment és real o només soroll!",
+      "quiz": {
+        "q": "L'acció de {telco} puja un 5% avui, però el volum és molt baix. Què n'has de pensar?",
+        "explanation": "El volum indica quanta convicció hi ha darrere d'un moviment. Un gran salt amb molt poca negociació es pot desfer tan fàcilment com ha passat, així que mira el volum abans de creure't una ruptura.",
+        "options": [
+          "És segur una oportunitat enorme, compra ara!",
+          "Un volum baix sempre vol dir que el preu continuarà pujant",
+          "Potser el moviment no és fiable: el volum baix el fa sospitós"
+        ]
+      }
+    },
+    "8": {
+      "title": "Suport i resistència",
+      "desc": "Nivells de preu que importen",
+      "content": "Imagina que el preu d'una acció és una pilota que bota:\n\n🧱 SUPORT = el terra on rebota la pilota. El preu va baixant, però cada cop que toca aquest nivell, torna a pujar. Aquí hi apareixen molts compradors.\n\n🪟 RESISTÈNCIA = el sostre on topa la pilota. Cada cop que el preu puja fins a aquest nivell, el tornen a empènyer cap avall. Aquí molts venedors recullen guanys.\n\nEls traders fan servir aquests nivells com un mapa de joc: comprar a prop del terra, vendre a prop del sostre. Quan el preu per fi trenca la resistència, sovint s'enlaira ràpid. Quan trenca el suport, prepara't per a una caiguda! 💥\n\nUn avís honest: aquests nivells els dibuixa gent que mira gràfics; no són normes que el mercat hagi d'obeir. Una acció pot travessar de cop el 'suport' i continuar baixant. 📉",
+      "quiz": {
+        "q": "Una acció ha rebotat tres vegades als {c}50 sense baixar-ne mai per sota. Com es diu aquest nivell de {c}50?",
+        "explanation": "Un terra que es continua respectant és un suport; un sostre que continua rebutjant el preu és una resistència. Cap dels dos és una promesa, però val la pena conèixer-los abans de comprar.",
+        "options": [
+          "Un nivell de suport",
+          "Un nivell de resistència",
+          "El preu sostre"
+        ]
+      }
+    },
+    "9": {
+      "title": "Diversificació",
+      "desc": "No posis tots els ous al mateix cistell",
+      "content": "Imagina que gastes TOTES les teves dades mòbils en una sola app de streaming. Llavors aquella app cau. Et quedes sense res. 😩\n\nPerò si reparteixes les dades entre WhatsApp, YouTube I la teva app de streaming, que una falli no t'espatlla el dia.\n\nAmb la inversió passa el mateix! Si poses TOTS els teus diners en una sola acció i s'enfonsa, ho perds tot. Però si els reparteixes entre {telco} (telecomunicacions), {retail} (comerç), {tech} (tecnologia) i un ETF, una caiguda en una no destrossa tota la teva cartera. Aquesta estratègia de repartir s'anomena DIVERSIFICACIÓ. 💼",
+      "quiz": {
+        "q": "Tens {c}500 per invertir. Quina d'aquestes opcions reparteix de veritat el teu risc?",
+        "explanation": "Cinc botigues de roba pugen i baixen per la mateixa raó, així que repartir els diners entre elles gairebé no és repartir. Sectors diferents tenen problemes en moments diferents, i això és el que evita que un mal resultat s'ho emporti tot.",
+        "options": [
+          "{c}100 a cadascuna de cinc botigues de roba diferents",
+          "{c}100 a cadascun de cinc sectors diferents",
+          "Tots els {c}500 a l'única empresa que més t'agrada"
+        ]
+      }
+    },
+    "10": {
+      "title": "Risc i recompensa",
+      "desc": "Per què més guany = més risc",
+      "content": "Has comprat mai una caixa sorpresa? Et pot tocar una cosa increïble o una porqueria total. Això és risc alt / recompensa alta.\n\nInvertir funciona igual:\n\n✅ RISC MÉS BAIX, RECOMPENSA MÉS BAIXA: Com {retail}. Una empresa enorme i ben establerta. Els teus diners solen créixer a poc a poc i de manera estable. Fixa't: 'més baix', no 'cap'. Les grans empreses també cauen.\n\n🎲 RISC ALT, RECOMPENSA ALTA: Com una petita empresa minera que acaba de començar. Es pot multiplicar per 10 o desaparèixer. Com la caixa sorpresa.\n\nAbans d'invertir en res, pregunta't sempre: 'Què és el pitjor que pot passar?' Si no et pots permetre perdre-ho, no t'hi arrisquis!",
+      "quiz": {
+        "q": "Una moneda de la qual ningú no ha sentit parlar promet un rendiment del 500%. Què et diu, de veritat, una promesa tan gran?",
+        "explanation": "El risc i la recompensa són els dos extrems del mateix bastó. Ningú regala un 500% per res, així que la mida de la promesa en realitat mesura amb quina facilitat pot desaparèixer tot. Abans de posar diners en res, pregunta't com és el pitjor cas i si el podries aguantar.",
+        "options": [
+          "És una ganga que la resta del mercat d'alguna manera no ha vist",
+          "Com més gran és la promesa, més seriosa és la gent que hi ha darrere",
+          "La probabilitat de perdre-ho tot és tan gran com la promesa"
+        ]
+      }
+    },
+    "11": {
+      "title": "Llarg termini vs curt termini",
+      "desc": "Mentalitat d'inversor vs de trader",
+      "content": "🏃 TRADING A CURT TERMINI: Comprar i vendre en qüestió de dies o setmanes per aprofitar moviments ràpids de preu. Molt estrès, cal passar moltes hores davant la pantalla. Com intentar endevinar qui guanya cada partit d'un torneig.\n\n🧘 INVERSIÓ A LLARG TERMINI: Comprar accions i mantenir-les durant anys. Aguantes les baixades i deixes que els diners creixin. Com apostar per quin equip guanyarà tota la temporada. No t'espantes per un mal partit.\n\nEls estudis de comptes reals de brokers troben una vegada i una altra el mateix patró: com més sovint opera la gent, pitjor li sol anar un cop es compten els costos.\n\nI el temps és l'únic avantatge que després no es pot recuperar. Cada any que els diners es queden invertits és un any més en què l'interès compost treballa. ⏳",
+      "quiz": {
+        "q": "Dues persones compren les mateixes accions amb els mateixos diners. Una entra i surt cada setmana; l'altra no les toca durant deu anys. Què troben una vegada i una altra els estudis de comptes reals?",
+        "explanation": "Cada operació costa alguna cosa, i aquest cost es paga tant si l'operació surt bé com si no. Estudi rere estudi de comptes reals de brokers troba el mateix patró: com més sovint opera la gent, més enrere acaba. Deixar els diners tranquils no és mandra, és el pla més barat.",
+        "options": [
+          "La que opera tant sol acabar per darrere un cop es compten els costos",
+          "La que opera tant sol guanyar, perquè aquí l'esforç té premi",
+          "Acaben empatades, perquè tenien exactament les mateixes accions"
+        ]
+      }
+    },
+    "12": {
+      "title": "{dcaTitle}",
+      "desc": "Inverteix la mateixa quantitat regularment",
+      "content": "Aquí tens una estratègia tan senzilla que gairebé no sembla una estratègia, i elimina la pregunta més difícil d'invertir:\n\nInverteix la MATEIXA quantitat cada mes, tant si els preus pugen com si baixen. Com apartar {c}100 dels diners de l'aniversari o de la paga cada mes, sense excepció.\n\n📉 Quan els preus són BAIXOS → els teus {c}100 compren MÉS accions\n📈 Quan els preus són ALTS → els teus {c}100 compren MENYS accions\n\nAmb el temps, el teu cost mitjà per acció s'estabilitza i 'compres a la baixa' automàticament sense ni intentar-ho! Això s'anomena {dcaTitle} ({dcaAbbrev}). Treu les emocions de la inversió perquè mai no has de decidir 'és ARA el moment?' Simplement t'hi comprometes i endavant! 💪\n\nParlant clar: això no sempre guanyarà a invertir-ho tot de cop. El que fa és donar-te un pla que de veritat pots seguir.",
+      "quiz": {
+        "q": "Poses 200 NT quan l'acció costa 100 NT. Després l'acció s'enfonsa, i els teus 200 NT següents entren a 25 NT. Arrossega fins al teu cost mitjà per acció entre els dos pagaments.",
+        "explanation": "Els teus primers 200 NT van comprar 2 accions a 100 NT. Els segons 200 NT van comprar 8 accions a 25 NT. Això són 400 NT per 10 accions, és a dir, 40 NT cadascuna. Fixa't que no és ni de lluny el punt mitjà entre els dos preus: els mateixos diners compren automàticament més quan les coses són barates, i això és el que fa baixar la teva mitjana."
+      }
+    },
+    "13": {
+      "title": "Money Babies 💸",
+      "desc": "Cobrar només per tenir accions",
+      "content": "Imagina que tens una màquina expenedora. Cada setmana la gent compra snacks a LA TEVA màquina i tu recolleixes els diners, només per ser-ne propietari. No has hagut de fer res més!\n\nAixò són els dividends. Els anomenem Money Babies 🍼 perquè els teus diners literalment tenen nadons: petits pagaments en efectiu que arriben al teu compte només perquè tens accions.\n\nGrans empreses com {divPayers} paguen Money Babies regularment. Com més accions tens, més grans són els teus nadons!\n\n⚠️ NO estan garantits. Una empresa decideix cada vegada si paga, i pot retallar el dividend o suprimir-lo del tot quan el negoci va maldades. Un gran pagament aquest any no és cap promesa per a l'any que ve.\n\nI si reinverteixes aquests nadons per comprar MÉS accions... la teva propera tanda és encara més gran. És un cicle preciós 🔁",
+      "quiz": {
+        "q": "{bank} et paga {c}5 per cada acció que tens, sense que hagis de vendre res. Com s'anomena aquest pagament?",
+        "explanation": "Un dividend és una part dels beneficis de l'empresa que es reparteix entre els seus propietaris. Aquesta app els anomena Money Babies. Et quedes totes les accions que tenies i, tot i així, els diners arriben al teu compte. Però no està promès, i una empresa el pot retallar o suprimir quan el negoci va maldades.",
+        "options": [
+          "Un dividend, una part dels beneficis",
+          "Interessos, com els que paga un compte d'estalvi",
+          "Una bonificació de fidelitat per ser client"
+        ]
+      }
+    },
+    "14": {
+      "title": "Interès compost",
+      "desc": "Com creixen els teus diners tot sols",
+      "content": "Aquí tens el secret financer més potent que aprendràs mai. A punt? 👀\n\nInverteixes {c}1,000 al 10% anual:\n• Any 1: {c}1,000 → {c}1,100 (has guanyat {c}100)\n• Any 2: {c}1,100 → {c}1,210 (has guanyat {c}110, més que l'any 1!)\n• Any 3: {c}1,210 → {c}1,331 (has guanyat {c}121)\n\nAra guanyes interessos sobre els teus INTERESSOS. La bola de neu es fa més gran cada any sense que hi afegeixis res. I després de 30 anys al 10%? Aquells {c}1,000 es converteixen en {c}17,449! 🤯\n\nVeuràs que l'anomenen 'la vuitena meravella del món' i que ho atribueixen a Einstein. No hi ha cap prova real que ho digués mai, però el que importa són les matemàtiques, i les matemàtiques són reals. Comença d'hora i el temps farà la feina pesada per tu.",
+      "quiz": {
+        "q": "Poses 2,000 NT al 10% anual i no els toques mai. Arrossega fins al que valen al cap de tres anys.",
+        "explanation": "El primer any afegeix 200 NT, i en fan 2,200. El segon any calcula el 10% de 2,200, així que n'afegeix 220 i en fan 2,420. El tercer any n'afegeix 242 i arriba a 2,662. Cada any el 10% es calcula sobre una pila més gran, i per això sumar 200 tres vegades i quedar-se en 2,600 es queda curt."
+      }
+    },
+    "15": {
+      "title": "Interès compost i accions",
+      "desc": "Reinvertir els Money Babies per créixer",
+      "content": "Te'n recordes dels Money Babies (dividends)? Ara ve el més interessant 🤯\n\nNormal: Guanyes {c}50 en Money Babies → te'ls gastes en snacks → s'ha acabat.\n\nJugada intel·ligent: Guanyes {c}50 en Money Babies → compres MÉS accions → la propera vegada reps MÉS Money Babies → compres encara més accions → la bola de neu va 🔝\n\nAixò és l'interès compost aplicat a les accions. Fes números: posa la mateixa quantitat cada mes durant 30 anys amb un rendiment mitjà del 10%, i acabaràs amb unes SIS VEGADES el que realment hi has posat. Prop de cinc sisenes parts d'aquesta pila són creixement: diners que mai no vas guanyar, estalviar ni ingressar.\n\nEn períodes llargs, els dividends reinvertits han representat una bona part del rendiment total dels inversors. I precisament per això les empreses 'avorrides' que paguen dividends resulten no ser gens avorrides 💰",
+      "quiz": {
+        "q": "Guanyes {c}80 en dividends i en fas servir fins a l'últim cèntim per comprar més accions en lloc de gastar-los. Què passa en el pagament següent?",
+        "explanation": "Cada acció extra que has comprat paga el seu propi dividend la propera vegada, així que el pagament creix sense que hi afegeixis diners nous. Això torna a ser interès compost, aquest cop funcionant amb els ingressos en lloc del preu.",
+        "options": [
+          "El pagament és igual de gran, només arriba més tard",
+          "Reps menys la propera vegada, perquè has retornat els diners",
+          "Tens més accions, així que el pagament següent és més gran"
+        ]
+      }
+    },
+    "16": {
+      "title": "La regla del 72",
+      "desc": "Una manera ràpida d'estimar quan es dupliquen",
+      "content": "Aquí tens un truc per al teu cervell 🧠\n\nVols saber quant de temps triguen a DUPLICAR-SE els teus diners? Només has de dividir 72 entre el teu rendiment anual:\n\n• 72 ÷ 12% de rendiment = 6 anys per duplicar\n• 72 ÷ 8% de rendiment = 9 anys per duplicar\n• 72 ÷ 6% de rendiment = 12 anys per duplicar\n\nAixí, si guanyes un 12% constant cada any sobre {c}2,000, en 6 anys tens {c}4,000. Espera 6 anys més i tens {c}8,000. 6 més i tens {c}16,000! 🤯\n\nÉs una aproximació, no una llei, i els rendiments reals mai no són un número fix cada any. Però s'hi acosta prou per calcular-ho de cap, i aquesta és la gràcia.\n\nPer això començar als 13 o 14 anys és ENORME. Tens més cicles de duplicació per davant que gairebé ningú!",
+      "quiz": {
+        "q": "Una inversió rendeix un 9% anual. Fes servir la regla del 72 i arrossega fins als anys que triga a duplicar-se.",
+        "explanation": "Divideix 72 entre el percentatge anual. 72 entre 9 dona 8, així que els diners es dupliquen aproximadament en vuit anys, i es tornen a duplicar vuit anys més tard. És una estimació ràpida que pots fer de cap, no una llei exacta, perquè els rendiments reals mai no són el mateix número cada any."
+      }
+    },
+    "17": {
+      "title": "Ordres a mercat vs ordres límit",
+      "desc": "Dues maneres de comprar accions",
+      "content": "Hi ha dues maneres principals de comprar una acció:\n\n⚡ ORDRE A MERCAT: 'Compra ara mateix, al preu que sigui.' Com afegir al carretó i pagar a l'instant a {shop}. La tens a l'acte, però el preu que pagues de veritat és el que et doni el mercat, que pot ser diferent del número que acabes de veure a la pantalla.\n\n🎯 ORDRE LÍMIT: 'Compra només si el preu baixa fins a {c}X.' Com posar un article a la llista de desitjos de {shop} i esperar les rebaixes. Tu controles el preu, però potser l'operació no es fa mai.\n\nLes ordres límit et donen control sobre el preu. Les ordres a mercat et donen la certesa que s'executen. No pots tenir les dues coses! 💸\n\nUna ordre límit funciona igual quan VENS, només que en sentit contrari. Tens l'acció, dius el preu al qual estaries content de vendre-la, i si hi arriba, l'app la ven per tu. Quan compres, poses un preu PER SOTA de l'actual. Quan vens, un preu PER SOBRE. La mateixa idea, al costat oposat. 🔁",
+      "quiz": {
+        "q": "{tech} cotitza a {c}200. T'agradaria tenir-ne, però només a {c}180 o menys. Què fas servir?",
+        "explanation": "Una ordre a mercat s'executa a l'acte al preu que hi hagi en aquell moment. Una ordre límit fixa el teu preu i espera, així que l'app vigila per tu. Quan t'importa més el preu que acceptes que entrar ràpid, aquesta és la que vols.",
+        "options": [
+          "Una compra a mercat, que s'executa ara mateix a {c}200",
+          "Una compra límit a {c}180, que espera",
+          "Vigilar la pantalla i comprar a mà a {c}180"
+        ]
+      }
+    },
+    "18": {
+      "title": "Comissions i costos de les operacions",
+      "desc": "Entendre les comissions de les operacions",
+      "content": "La majoria d'operacions et costen una mica: el broker es queda una petita part. Són les comissions d'operació o de corretatge.\n\n⚠️ Alguns brokers anuncien 'zero comissions'. Igualment han de guanyar diners d'alguna manera, així que els guanyen per altres bandes, normalment amb la petita diferència entre el preu de compra i el de venda, amb el canvi de divises o amb els interessos dels diners que tens parats al compte. El gratis poques vegades és gratis.\n\nA NoobTrader, les comissions simulades són:\n• Accions de la borsa {ex}: {exFee} per operació\n• Accions internacionals: 0.50%\n• ETF: 0.30%\n• Cripto: 0.60%\n• Divises: 0.05%\n• Matèries primeres: 0.40%\n\nExemple: Compres {c}1,000 en accions de {retail} amb un {exFee}. La comissió és de {c}{feeAmt}, així que en realitat gastes {c}{feeTotal}.\n\nLes comissions petites s'acumulen RÀPID si operes sovint. Qui fa 20 operacions al mes paga aquesta comissió 20 vegades, i la torna a pagar en sortir. Aquesta és una de les raons per les quals els inversors a llarg termini operen menys: menys operacions, menys comissions 🧮",
+      "quiz": {
+        "q": "Compres {c}1,000 en accions de la borsa {ex} amb una comissió del {exFee}. Quant és la comissió?",
+        "explanation": "La comissió és un percentatge de l'import negociat, així que creix amb la mida de l'ordre. Calcula-la abans d'operar, perquè te la tornen a cobrar quan vens.",
+        "options": [
+          "{c}{feeAmtX10}",
+          "{c}{feeAmtLow}",
+          "{c}{feeAmt}"
+        ]
+      }
+    },
+    "19": {
+      "title": "Ordres stop-loss",
+      "desc": "Protegeix-te de grans pèrdues",
+      "content": "Un stop-loss és com posar un límit a quant estàs disposat a perdre: una xarxa de seguretat que prepares per endavant.\n\nExemple: Compres accions de {telco} a {c}100 cadascuna. Decideixes que MAI no vols perdre més d'un 15%. Així que poses un stop-loss a {c}85.\n\nSi {telco} baixa fins a {c}85 → s'activa automàticament una ordre de venda. No cal que estiguis mirant, i no has de prendre la decisió enmig del pànic.\n\nAquesta és la part que la gent s'equivoca. El número d'un stop-loss SEMPRE està per sota del preu d'avui. Ha de ser així, perquè el preu ha de baixar per arribar-hi. Si el poses per sobre del preu d'avui, ja es compleix, així que ven en el mateix moment que el poses, al preu d'avui. Això és una venda, no una xarxa de seguretat.\n\nNo el confonguis amb una venda límit. Totes dues venen automàticament a un preu que has triat tu. La diferència és la direcció: un stop-loss s'activa quan el preu BAIXA fins al teu número, una venda límit s'activa quan PUJA fins al teu número. Protegir-te → el teu número va per sota. Fixar el teu preu → el teu número va per sobre. Pregunta't quina de les dues estàs fent abans d'escriure. 🧭\n\n⚠️ Important: un stop-loss activa una VENDA, no garanteix un PREU. Si una mala notícia arriba de nit i l'acció obre a {c}70 sense haver cotitzat mai a {c}85, la teva ordre s'executa al preu que el mercat realment pagui. Pot ser força per sota del nivell que havies fixat.\n\nSense cap stop-loss, potser aguantaries amb l'esperança que es recuperi... i veuries com baixa fins a {c}20. 😬\n\nConsell pro: Decideix sempre la teva pèrdua màxima ABANS de comprar. No deixis que les emocions prenguin aquesta decisió quan el preu ja s'està enfonsant! 🧘",
+      "quiz": {
+        "q": "Compres a 200 NT i decideixes que no estàs disposat a perdre-hi més d'un 15%. Arrossega fins al preu on ha d'anar el teu stop-loss.",
+        "explanation": "El 15% de 200 NT són 30 NT, així que la teva sortida queda 30 per sota d'on vas comprar, a 170 NT. Un stop-loss va per sota del preu d'avui, perquè el preu ha de baixar per arribar-hi. Si el poses per sobre, ja es compleix, així que ven en el moment que el poses, i això és una venda, no una xarxa de seguretat."
+      }
+    },
+    "20": {
+      "title": "Quan comprar i vendre",
+      "desc": "Timing, paciència i disciplina",
+      "content": "L'error més gran dels inversors novells? Comprar quan tothom està eufòric i vendre quan tothom està en pànic. És literalment el contrari del que funciona. 🤦\n\n📱 Quan el teu grup de xat no para d'enviar 'COMPRA AQUESTA ACCIÓ ARA!!!!' → normalment l'eufòria ja està inclosa en el preu. Arribes tard.\n\n😱 Quan tothom ven en pànic → de vegades és una oportunitat de comprar amb descompte. De vegades el preu continua baixant un any més. Ningú no fa sonar una campana quan s'arriba al fons.\n\nEl secret? Tingues un pla ABANS d'invertir:\n• Per què compro això? (recerca, no eufòria)\n• A quin preu vendré si PUJA? (recollir beneficis)\n• A quin preu vendré si BAIXA? (stop-loss)\n\nCompleix el teu pla. No deixis que els sentiments s'apoderin de la teva estratègia! 💪",
+      "quiz": {
+        "q": "Tot el teu grup de xat està exaltant una acció que ja ha pujat un 80% aquest mes. Quina és la jugada intel·ligent?",
+        "explanation": "Quan una acció ja és a tots els grups de xat, la major part del moviment ja ha passat, i els qui arriben tard compren als qui estan recollint beneficis. Analitza l'empresa tu mateix. Que una multitud faci soroll no vol dir que tingui raó.",
+        "options": [
+          "Comprar ara, abans que el preu se t'escapi",
+          "Vendre les altres accions i posar-ho tot aquí",
+          "Analitzar l'empresa tu mateix abans de decidir"
+        ]
+      }
+    },
+    "21": {
+      "title": "Què és la capitalització borsària?",
+      "desc": "Com mesurar la mida d'una empresa",
+      "content": "La capitalització borsària et diu com és de gran una empresa realment, en {cPlural}.\n\n📐 Fórmula: Preu de l'acció × Nombre total d'accions = Capitalització borsària\n\nExemple: Si {retail} té 1.000 milions d'accions i cada acció costa {c}50, la capitalització és de {c}50 MIL MILIONS. Aquest és el 'preu de l'etiqueta' de tota l'empresa.\n\n🔵 Gran capitalització: els noms més grans i establerts, com {tech} i {bank}. Menys risc, normalment creixement més lent.\n🟡 Capitalització mitjana: empreses de mida mitjana. Risc equilibrat.\n🔴 Petita capitalització: empreses petites. Poden créixer ràpid O enfonsar-se de valent.\n\n⚠️ Els límits no són universals. Als EUA, 'gran capitalització' sol voler dir per sobre d'uns 10.000 milions de dòlars, però cada mercat fixa les seves pròpies franges, així que una gran capitalització al teu país ({name}) no té la mateixa mida que una dels EUA. Mira el número real, no només l'etiqueta 🧐",
+      "quiz": {
+        "q": "L'empresa A té 5 milions d'accions a {c}200 cadascuna. Les accions de l'empresa B costen {c}10. Arrossega fins als milions d'accions que necessita B per valer tant com A.",
+        "explanation": "La capitalització borsària és el preu de l'acció multiplicat pel nombre d'accions. L'empresa A val 5 milions per {c}200, que fan {c}1,000 milions. L'empresa B ha d'arribar al mateix total a {c}10 l'acció, així que necessita 100 milions d'accions, vint vegades més. Un preu per acció baix no et diu res de la mida d'una empresa."
+      }
+    },
+    "22": {
+      "title": "La ràtio PER, explicada",
+      "desc": "Una acció és cara o barata?",
+      "content": "La ràtio PER (preu/benefici, P/E en anglès) et diu quant pagues per cada {cName} de benefici d'una empresa.\n\n📐 Fórmula: Preu de l'acció ÷ Benefici per acció = PER\n\nPensa-hi com el preu per tros de pizza 🍕\n\nSi la pizza A costa {c}80 per 8 trossos = {c}10/tros\nSi la pizza B costa {c}100 per 5 trossos = {c}20/tros\n\nLa pizza A és més barata per tros. Amb les accions la idea és semblant:\n• PER baix (menys de 10) = potser una ganga, O el mercat espera que els seus beneficis BAIXIN. Un PER baix és una pregunta, no una resposta.\n• PER alt (més de 25) = el mercat espera un gran creixement futur. Després l'empresa ho ha de complir de veritat.\n\nCompara sempre el PER amb el d'ALTRES empreses del mateix sector. No comparis el PER d'un banc amb el d'una tecnològica!",
+      "quiz": {
+        "q": "L'empresa A té un PER de 8. L'empresa B (del mateix sector) té un PER de 30. Què suggereix això?",
+        "explanation": "Un PER més baix vol dir pagar menys per cada unitat de benefici, cosa que pot ser una ganga o una empresa amb problemes. La ràtio planteja la pregunta; no la respon.",
+        "options": [
+          "L'empresa A és més barata per unitat de benefici, però esbrina PER QUÈ abans de comprar",
+          "L'empresa B és sempre la millor inversió de les dues",
+          "La ràtio PER no ajuda gens a prendre decisions d'inversió"
+        ]
+      }
+    },
+    "23": {
+      "title": "Llegir els resultats d'una empresa",
+      "desc": "Ingressos, beneficis i què importa",
+      "content": "Cada pocs mesos, les empreses publiquen el seu 'butlletí de notes' (cada trimestre en alguns mercats, dues vegades l'any en d'altres) i això mou MOLT el preu de les accions. Això és el que has de mirar:\n\n📊 INGRESSOS: Tots els diners que entren per vendes. Com el que ha fet en total una botiga petita.\n💰 BENEFICI NET: El que queda DESPRÉS de pagar totes les despeses. El guany real al final del dia.\n📈 BPA (benefici per acció, EPS en anglès): El benefici dividit pel nombre d'accions. Quant ha guanyat cada acció.\n\nBons senyals: Ingressos AMUNT + Benefici AMUNT + BPA creixent = 🟢 el preu sovint puja\nMals senyals: Ingressos AVALL + Benefici baixant = 🔴 el preu sovint baixa\n\nUn detall: el que realment mou el preu és el resultat comparat amb el que el mercat ESPERAVA. Uns números fantàstics que queden per sota de les expectatives poden fer baixar igualment una acció.\n\nUna empresa pot tenir molts ingressos i zero beneficis (costos alts). Mira sempre TOTES DUES coses!",
+      "quiz": {
+        "q": "{bank} anuncia que els ingressos han pujat un 15%, però el benefici ha baixat un 20% per culpa de costos més alts. És un bon senyal o un mal senyal?",
+        "explanation": "Els ingressos són el que entra; el benefici, el que es queda. Aquí els costos pugen més de pressa que les vendes, així que l'empresa fa més negoci i se'n queda menys. És un avís real, però no és un enfonsament, i el següent que cal esbrinar és per què han pujat els costos.",
+        "options": [
+          "Preocupant, perquè venen més però se'n queden menys",
+          "Molt bo, perquè el que compta de veritat és que pugin els ingressos",
+          "Terrible, perquè si baixa el benefici l'empresa s'està enfonsant"
+        ]
+      }
+    },
+    "24": {
+      "title": "Sectors i indústries",
+      "desc": "Diferents tipus d'empreses",
+      "content": "La borsa es divideix en sectors, com els diferents departaments d'una escola.\n\n{sectorList}\n\nSectors diferents pugen i baixen en moments diferents, i aquesta és tota la gràcia de diversificar entre ells! Si la banca s'enfonsa, potser la tecnologia va com un coet. La teva cartera es manté equilibrada. 🎯",
+      "quiz": {
+        "q": "Al teu país ({name}), els tipus d'interès pugen de cop. Quin sector en surt normalment més beneficiat?",
+        "explanation": "Els bancs guanyen amb la diferència entre el que cobren a qui demana préstecs i el que paguen als estalviadors, i quan els tipus pugen aquesta diferència sol créixer. Per a la majoria dels altres sectors, uns préstecs més cars són un cost.",
+        "options": [
+          "El comerç: la gent demana préstecs amb més facilitat i gasta el que li sobra a les botigues",
+          "La banca: els bancs solen guanyar més amb la diferència entre el que cobren pels préstecs i el que paguen als estalviadors",
+          "La tecnologia: demanar diners per créixer surt més barat, així que les empreses de programari s'expandeixen més de pressa"
+        ]
+      }
+    },
+    "25": {
+      "title": "Què és un ETF?",
+      "desc": "Compra un cistell sencer d'una sola vegada",
+      "content": "Abans, triar cançons una a una era l'única manera de fer-te una playlist. Llavors va arribar Spotify i et va donar playlists ja fetes, una col·lecció instantània sense esforç. 🎵\n\nEls ETF (fons cotitzats, Exchange-Traded Funds en anglès) són l'Spotify de la inversió. En lloc de triar accions una a una, compres UN sol ETF que conté tot un cistell d'accions.\n\nLa majoria d'ETF segueixen un ÍNDEX: una llista pública d'empreses elaborada segons un reglament. {etfDesc} L'ETF simplement compra el que hi ha a la llista, en les mateixes proporcions, i s'actualitza quan la llista canvia.\n\nAixí, un sol ETF {etf} et dona un trosset de {etfBasket} (noms com {top5}) en una sola compra.\n\n⚠️ Un índex NO és automàticament 'les empreses més grans'. Algunes llistes ordenen per mida, d'altres per quant es negocia una acció, i d'altres les tria un comitè. Dos índexs de la mateixa borsa poden contenir empreses completament diferents. Llegeix sempre què és realment la llista abans de comprar-la.\n\nEls ETF solen ser més barats, més fàcils i més diversificats que triar accions tu mateix. Molts gestors de fons professionals no aconsegueixen superar-los! 🤯",
+      "quiz": {
+        "q": "Compres una participació de l'ETF {etf}, que segueix {etfBasket}. De què ets propietari ara?",
+        "explanation": "Un índex és una llista pública, i un ETF indexat compra tot el que hi ha en les mateixes proporcions. Per tant, una participació conté un bocinet de cada nom de la llista, i per això una sola compra ja està repartida. No és només el nom més gran, i no són diners esperant les teves instruccions.",
+        "options": [
+          "D'una acció de l'empresa més gran d'aquella llista",
+          "D'un trosset de totes i cadascuna de les empreses d'aquella llista",
+          "De diners que el fons guarda fins que li diguis què ha de comprar"
+        ]
+      }
+    },
+    "26": {
+      "title": "ETF de la borsa {ex}",
+      "desc": "ETF populars que has de conèixer",
+      "content": "Hi ha un munt d'ETF i fons indexats que pots comprar des del teu país ({name}). Aquests són alguns dels més populars:\n\n{etfList}\n\nL'enorme avantatge dels ETF: les COMISSIONS. Molts fons de gestió activa cobren al voltant d'un 1–2% l'any, de vegades més. Els ETF indexats amplis sovint cobren menys d'un 0.2%. En una inversió de {c}10,000 mantinguda durant 20 anys, aquesta diferència val MILERS de {cPlural} 💸\n\nMira la comissió abans de comprar. Normalment apareix com a 'TER' o 'ràtio de despeses'. Ningú no et pot dir quin rendiment donarà un ETF, però la comissió és un número que SÍ que pots saber per endavant.",
+      "quiz": {
+        "q": "Inverteixes 20,000 NT. Un fons de gestió activa cobra un 2% l'any. Un ETF indexat que té més o menys les mateixes empreses cobra un 0.2%. Arrossega fins a quant més et treu el car en un sol any.",
+        "explanation": "La diferència entre les dues comissions és d'un 1.8% l'any, i l'1.8% de 20,000 NT són 360 NT. Això es paga tant si el fons puja com si baixa, i es torna a pagar cada any. Ningú no et pot dir quin rendiment donarà un fons, però la comissió està escrita abans de comprar, normalment com a TER o ràtio de despeses."
+      }
+    },
+    "27": {
+      "title": "ETF globals vs locals",
+      "desc": "Invertir al teu país i més enllà",
+      "content": "Hauries d'invertir només en empreses del teu país ({name})? Resposta curta: No! T'expliquem per què:\n\n🏠 ETF LOCALS: Inverteixen en empreses locals ({name}). Coneixes les marques i estan en {cPlural}. Però si l'economia local ({name}) té problemes, tota la teva cartera podria caure.\n\n🌍 ETF GLOBALS: Inverteixen en empreses internacionals (EUA, Europa, Àsia). {currencyHedge}\n\nPerò la divisa talla pels dos costats: si la teva moneda local s'ENFORTEIX, les mateixes inversions estrangeres valen menys a casa. És el preu que acceptes per tenir coses a l'estranger.\n\nTenir-ne de locals i de globals et reparteix entre dos riscos diferents alhora: la teva pròpia economia i la teva pròpia moneda. L'equilibri ho és tot! ⚖️",
+      "quiz": {
+        "q": "{fxQuizSetup}. Les accions estrangeres del teu ETF global no s'han mogut gens. Quant val ara, mesurat en la teva moneda ({cName})?",
+        "explanation": "Un ETF global té coses amb preu en una altra moneda. Quan la teva moneda perd terreny, aquests diners estrangers es converteixen en més unitats de la teva, així que la inversió val més a casa encara que les accions no s'hagin mogut. També funciona al revés: una moneda més forta a casa encongeix discretament la mateixa inversió. El risc de divisa talla pels dos costats.",
+        "options": [
+          "Més, perquè els diners que té a l'estranger ara equivalen a més a casa",
+          "Menys, perquè una mala notícia per a la moneda ha de ser dolenta per als teus diners",
+          "El mateix, perquè les accions que conté no s'han mogut ni un mil·límetre"
+        ]
+      }
+    },
+    "28": {
+      "title": "Estalviar vs invertir",
+      "desc": "Per què els teus diners han de treballar",
+      "content": "Totes dues coses són bones. Però serveixen per a coses diferents:\n\n🏦 ESTALVIAR: Posar diners en un compte bancari. És segur i hi pots accedir quan vulguis. PERÒ els tipus d'interès solen ser d'un {savings}, sovint menys que la inflació. Els teus diners estan 'segurs', però a poc a poc perden poder adquisitiu.\n\n📈 INVERTIR: Posar diners en accions, ETF o immobles. Més risc, i cap garantia en un any concret. Alguns anys simplement perds diners. Però en períodes llargs, històricament les accions han rendit més que els diners en efectiu. El mercat del teu país ({name}) ha fet de mitjana aproximadament un {mktReturn} anual en el passat, i les mitjanes passades són història, no una promesa.\n\nRegla pràctica:\n• De 3 a 6 mesos de despeses estalviats (el teu fons d'emergència) 🚨\n• Els diners que no necessitaràs en anys són els que la gent inverteix 🚀\n\nNo inverteixis diners que potser necessitaràs el mes que ve. Per això serveixen els estalvis!",
+      "quiz": {
+        "q": "Les teves despeses són de 800 NT al mes, i tens 5,000 NT estalviats. Arrossega fins al fons d'emergència més petit que la regla pràctica habitual et faria guardar en efectiu.",
+        "explanation": "La regla pràctica diu que cal guardar en efectiu de tres a sis mesos de despeses. Tres mesos d'una despesa de 800 NT són 2,400 NT, i sis mesos serien 4,800 NT, així que qualsevol xifra dins d'aquesta franja és normal. El motiu de tenir-ho en efectiu és senzill: quan alguna cosa s'espatlla de cop, no vols veure't obligat a vendre les teves inversions el dia que passi."
+      }
+    },
+    "29": {
+      "title": "La inflació i els teus diners",
+      "desc": "Per què l'efectiu perd valor amb el temps",
+      "content": "Pregunta a un adult quant costava {food} quan tenia la teva edat. Costava al voltant de {c}{foodOld}. Ara costa {c}{foodNew} o més. Això és la inflació: els preus van pujant a poc a poc amb el temps, i per tant cada {cName} compra MENYS que abans.\n\nLa inflació al teu país ({name}) normalment ha estat al voltant d'un {inflation} anual.\n\nAixí que si els teus estalvis guanyen un 4% l'any però la inflació és del 6%, en realitat PERDS aproximadament un 2% de poder adquisitiu cada any, encara que el teu saldo hagi pujat!\n\n💡 Les teves inversions han de superar la inflació per fer créixer de veritat el teu patrimoni.\n• Diners sota el matalàs: perden valor cada any 💀\n• Estalvis al banc: sovint amb prou feines la segueixen\n• Accions de la borsa {ex} (mitjana a llarg termini): {mktReturn} l'any, que és una mitjana passada, no una promesa 🔥\n\nInvertir no només va de fer-se ric. Va de no fer-se més pobre! 💸",
+      "quiz": {
+        "q": "El teu compte d'estalvi paga un 4% l'any. Els preus pugen un 6% l'any. Arrossega fins al que li passa realment al teu poder adquisitiu durant aquell any.",
+        "explanation": "El rendiment real és l'interès que guanyes menys la inflació que pagues, així que un 4% contra un 6% dona aproximadament menys un 2%. El número del teu compte puja mentre el que realment pots comprar amb ell baixa, i aquest és el truc silenciós que la inflació fa als estalvis. Per construir riquesa real, els diners han de superar la inflació, no només guanyar alguna cosa."
+      }
+    },
+    "30": {
+      "title": "Les emocions i la inversió",
+      "desc": "No vengis en pànic ni compris per FOMO",
+      "content": "La borsa és bàsicament una prova d'autocontrol emocional. La majoria de gent la suspèn. 🎭\n\n😱 VENDA EN PÀNIC: El mercat cau un 20%, et poses nerviós i ho vens tot. Després es recupera. Has consolidat la pèrdua sense cap motiu.\n\n🤑 COMPRA PER FOMO: Tothom a les xarxes socials està exaltant una moneda. Hi entres corrent. El preu s'enfonsa a l'instant. Et quedes amb el mort.\n\nEls millors inversors tracten una caiguda del mercat com unes rebaixes a {retail}. Continuen comprant, amb calma, en lloc d'entrar en pànic. Warren Buffett ho va dir així: 'Tingues por quan els altres són avariciosos, i sigues avariciós quan els altres tenen por.'\n\nFes el teu pla. Compleix-lo. El teu jo del futur t'agrairà no haver venut amb ràbia en un dia vermell! 🙏",
+      "quiz": {
+        "q": "El mercat cau un 15% en una setmana i el teu grup de xat ho està venent tot. Els teus diners estan invertits per als propers deu anys. Quina és la jugada?",
+        "explanation": "Una caiguda del 15% només es converteix en una pèrdua real el dia que vens enmig de la caiguda. El pla que vas escriure quan no passava res el va escriure la versió de tu amb el cap clar, i mantenir-lo és tota l'habilitat. Esperar que tot sembli tranquil per tornar a comprar vol dir tornar a comprar més car, perquè la calma arriba després de la recuperació, no abans.",
+        "options": [
+          "Vendre ara i tornar a comprar quan tot sembli més tranquil",
+          "Passar els diners al que estigui comprant el grup de xat",
+          "Continuar amb el pla que vas escriure amb calma"
+        ]
+      }
+    },
+    "31": {
+      "title": "El Boss final",
+      "desc": "L'interès compost, la vuitena meravella del món",
+      "content": "'La vuitena meravella del món: qui l'entén, la guanya; qui no l'entén, la paga.' Veuràs aquesta frase atribuïda a Einstein per tot internet. No hi ha cap prova real que la digués.\n\nLes matemàtiques, en canvi, són innegables. Aquí tens el més important que aprendràs sobre els diners:\n\nAlgú que comença als 20 anys i inverteix {c}500/mes al 12% anual acaba als 65 amb MÉS que algú que comença als 35 i inverteix {c}2,000/mes al mateix percentatge. Quatre vegades la quantitat mensual, i tot i així acaba per darrere.\n\nEl. Temps. Ho. És. Tot.\n\nNo és cap truc dels números, és tota la gràcia de l'interès compost: cada any que esperes costa més del que cap any que afegeixis després pot recuperar. El millor moment per començar era abans. El segon millor és ara.\n\nAquest qüestionari és la teva prova final. Supera'l i seràs oficialment un certificat de NoobTrader! 👑",
+      "bossVictory": "Interès compost desbloquejat. Ara ets perillós. 🔥",
+      "quiz": {
+        "q": "{c}1,000 invertits al 12% anual durant 10 anys arriben a ~{c}3,106. Què passa si DUPLIQUES el temps fins a 20 anys?",
+        "explanation": "Duplicar el temps fa molt més que duplicar el resultat, perquè el creixement de cada any es capitalitza sobre tot el que hi havia abans. El creixement s'accelera en lloc de frenar.",
+        "options": [
+          "Es multiplica per més de tres, fins a ~{c}9,646",
+          "Es duplica aproximadament, fins a ~{c}6,200",
+          "El rendiment s'alenteix com més temps esperes"
+        ]
+      }
+    },
+    "32": {
+      "title": "Plataformes i moneders cripto",
+      "desc": "On viu realment la cripto",
+      "content": "Primer, la part honesta: les plataformes de cripto reals exigeixen tenir 18 anys o més a gairebé tots els països. Per això NoobTrader et deixa practicar-ho tot primer amb diners virtuals. 🎮\n\nQuan els adults compren cripto, fan servir dos tipus de llocs:\n\n🏦 EXCHANGES I APPS DE BROKERS (custòdia): et fas un compte i ells et guarden la cripto. És fàcil, però confies en ells. Si els hackegen o fan fallida, la teva cripto pot desaparèixer. Ha passat amb alguns dels noms més grans de la cripto.\n\n🔑 MONEDERS D'AUTOCUSTÒDIA: una app on TU tens les claus secretes. Ningú no la pot congelar, però tampoc ningú no et pot ajudar. Si perds la frase de recuperació (les 12 a 24 paraules secretes), la cripto desapareix per sempre. Cap restabliment de contrasenya. Cap atenció al client. Desapareguda.\n\nEl món cripto diu: 'Si no són les teves claus, no són les teves monedes.' Ara ja saps què vol dir.",
+      "quiz": {
+        "q": "Què vol dir que un exchange et guarda la cripto 'en custòdia'?",
+        "explanation": "Custòdia vol dir que la plataforma guarda les claus, així que les teves monedes només estan tan segures com ho estigui la plataforma. Si la hackegen o fa fallida, se'n poden anar amb ella. Això és el que vol dir la gent amb 'si no són les teves claus, no són les teves monedes'.",
+        "options": [
+          "L'exchange guarda les claus per tu",
+          "Tu tens les claus i ningú més les pot tenir",
+          "Ningú no pot tocar les monedes, ni tan sols tu",
+          "Genera interessos automàticament"
+        ]
+      }
+    },
+    "33": {
+      "title": "Com funciona comprar cripto",
+      "desc": "Spreads, comissions i mercats 24/7",
+      "content": "Comprar cripto sembla com comprar qualsevol cosa en línia, però hi ha tres coses diferents:\n\n1️⃣ L'SPREAD (diferencial): el preu de compra sempre és una mica més alt que el de venda. Compra {c}100 de cripto, ven-la a l'instant, i potser recuperes {c}97. Aquesta diferència és com guanyen diners discretament les plataformes.\n\n2️⃣ COMISSIONS A SOBRE: la majoria de plataformes també cobren una comissió per operació, sovint d'un 1 a un 2% en compres petites. Comissions més spread vol dir que una compra petita comença perdent entre un 3 i un 5% abans que el preu es mogui gens.\n\n3️⃣ SENSE HORA DE TANCAMENT: les borses d'accions tanquen a la nit i els caps de setmana. La cripto cotitza 24/7, tots els dies de l'any. Els preus poden caure en picat mentre dorms. Això explica en part per què la cripto és molt més volàtil que les accions.\n\nA NoobTrader pots operar amb cripto amb diners virtuals, 24/7, sense perdre ni un cèntim. Pagues una comissió en cada operació, però NoobTrader no cobra spread, així que una compra real costa més que la mateixa operació aquí. 📊",
+      "quiz": {
+        "q": "Poses 200 NT en una moneda i la vens cinc segons després, abans que el preu s'hagi mogut gens. La diferència entre el preu de compra i el de venda costa un 3%, i la plataforma cobra una comissió de l'1% en cada operació. Arrossega fins a la quantitat que recuperes.",
+        "explanation": "L'spread et treu un 3%, després hi ha una comissió de l'1% en entrar i una altra en sortir. Això és un 5% dels teus 200 NT, així que 10 NT desapareixen abans que el preu hagi fet res. Recuperes 190 NT, i ara la moneda ha de pujar un 5% només perquè quedis igual."
+      }
+    },
+    "34": {
+      "title": "Les comissions de gas, explicades",
+      "desc": "Per què enviar cripto costa diners",
+      "content": "Enviar cripto no és gratis. Cada transacció paga una comissió de xarxa, que sovint s'anomena GAS, als ordinadors que processen i protegeixen la xarxa.\n\nAquesta és la part que sorprèn a tothom: el gas té un preu segons el trànsit de la xarxa, NO segons quant envies. Quan la xarxa està saturada, les comissions es disparen.\n\n🤯 En algunes xarxes, en moments de molt trànsit, enviar {c}10 de cripto pot costar MÉS de {c}10 en gas. Pagaries més per l'enviament del que val el paquet.\n\nLes xarxes més noves i els sistemes de 'capa 2' (layer 2) existeixen sobretot per abaratir això, amb comissions de pocs cèntims. Qualsevol que treballi amb cripto mira la comissió ABANS de prémer enviar.\n\nUna cosa més: les transferències de cripto no es poden revertir. Adreça equivocada més gas pagat és igual a diners perduts per sempre. No hi ha cap banc a qui trucar. ☎️❌",
+      "quiz": {
+        "q": "Avui les comissions de gas són altes. Vols enviar {c}15 de cripto i el gas costa {c}20. Quina és la lectura intel·ligent?",
+        "explanation": "El gas té un preu segons com de saturada està la xarxa, no segons quant envies, així que una transferència petita pot costar més del que val. Dividir-la tampoc no ajuda, perquè cada transferència paga la seva pròpia comissió. Espera un moment més tranquil o fes servir una xarxa més barata.",
+        "options": [
+          "Pagar-ho, perquè la comissió es retorna quan arriba",
+          "No enviar-ho: la comissió costa més que el paquet",
+          "Dividir-ho en dos, perquè cada meitat pagui mitja comissió",
+          "Ignorar la comissió: el gas només s'aplica a transferències grans"
+        ]
+      }
+    },
+    "35": {
+      "title": "Meme coins i rug pulls",
+      "desc": "Detecta les trampes abans que et detectin a tu",
+      "content": "Les meme coins són criptos basades en bromes i hype en lloc de tenir cap ús real. Unes quantes van fer rics els primers compradors, i precisament per això n'hi ha milers d'imitacions. Gairebé totes acaben valent zero. 📉\n\nLa trampa més bruta és el RUG PULL (estirada de catifa): els creadors fan una moneda, li fan molt de hype, esperen que la gent hi entri en massa i després venen de cop la seva enorme reserva o buiden el fons de negociació. El preu s'enfonsa en minuts. Ells es queden els diners. Tu et quedes les monedes sense valor.\n\n🚩 SENYALS D'ALERTA per memoritzar:\n• Un equip anònim que no pots verificar\n• Rendiments 'garantits' (als mercats no hi ha res garantit)\n• Influencers pagats per promocionar-la\n• Un grup petit té la major part de les monedes\n• Pressió per 'comprar abans que sigui massa tard'\n\nSi el principal argument d'una moneda és que t'enriquiràs TU perquè la compraran ALTRES, això no és invertir. És un joc de cadires musicals, i la música és dels creadors. 🎵",
+      "quiz": {
+        "q": "Una moneda nova té un equip anònim, promet un 100x garantit i hi ha influencers pagats promocionant-la amb força. Què sol passar després?",
+        "explanation": "Un equip anònim, un rendiment garantit i promoció pagada és el muntatge típic d'un rug pull. Els creadors tenen la major part de les monedes, les venen aprofitant el hype i desapareixen, i els compradors es queden amb una moneda que ningú no vol. Als mercats no hi ha res garantit.",
+        "options": [
+          "L'exchange on es va llançar retorna els diners als compradors",
+          "El preu s'estabilitza quan els influencers deixen de publicar",
+          "L'equip ven la seva reserva i el preu s'enfonsa",
+          "Els reguladors obliguen l'equip a revelar qui són"
+        ]
+      }
+    },
+    "36": {
+      "title": "Mineria vs trading vs staking",
+      "desc": "Tres jocs molt diferents",
+      "content": "Tres maneres amb què la gent intenta guanyar diners amb cripto, i NO són el mateix joc:\n\n⛏️ MINERIA: ordinadors potents competeixen per processar transaccions i guanyar monedes noves. Sona divertit, però avui la mineria de Bitcoin és industrial: naus plenes de màquines especialitzades i factures d'electricitat enormes. El teu mòbil o portàtil no pot competir, i les apps de 'mina Bitcoin amb el mòbil!' gairebé sempre són estafes o granges d'anuncis que et paguen gairebé res.\n\n🥩 STAKING: en algunes xarxes bloqueges monedes per ajudar a protegir la xarxa i guanyes recompenses, una mica com uns interessos. És real, però les monedes poden quedar bloquejades una temporada, i el seu PREU es pot enfonsar igualment mentre estan bloquejades.\n\n📊 TRADING: comprar i vendre per treure profit dels moviments de preu. No cal maquinari, però és el joc on la disciplina importa més, i on la majoria de principiants perden per culpa de les seves pròpies emocions.\n\nNoobTrader t'ensenya el joc del trading amb zero risc. Els altres dos necessiten diners reals només per començar.",
+      "quiz": {
+        "q": "Una app diu que el teu mòbil pot minar Bitcoin amb beneficis mentre dorms. Quina és la veritat més probable?",
+        "explanation": "La mineria és una cursa que es decideix amb maquinari especialitzat i electricitat barata, i un mòbil no té ni una cosa ni l'altra. Les apps que prometen el contrari normalment busquen les teves dades, la teva bateria o els teus diners, i a canvi et paguen gairebé res.",
+        "options": [
+          "Els mòbils minen a poc a poc però igualment treuen benefici",
+          "Funciona, però només amb els mòbils més nous",
+          "Les xarxes han prohibit la mineria amb mòbils",
+          "És una granja d'anuncis que paga gairebé res"
+        ]
+      }
+    },
+    "37": {
+      "title": "Seguretat cripto i estafes",
+      "desc": "El que és teu, que continuï sent teu",
+      "content": "El superpoder de la cripto és també el seu perill: les transaccions són irreversibles i no hi ha cap banc que desfaci un error. Als estafadors això els encanta. Aquí tens el teu kit de defensa:\n\n🔐 LA TEVA FRASE DE RECUPERACIÓ ÉS SAGRADA. Ningú legítim te la demanarà MAI. Ni el 'personal de suport', ni un 'bot de verificació', ningú. Qualsevol que et demani la frase de recuperació t'està robant, i punt.\n\n🎣 PHISHING: webs i missatges directes falsos que semblen exactament plataformes reals. Una lletra canviada a l'adreça web. Escriu sempre l'adreça tu mateix.\n\n🎁 ESTAFES DE SORTEJOS: 'Envia 1 moneda i te'n tornem 2!', sovint fent servir el compte hackejat d'un famós. Ningú no et duplica els diners. Mai.\n\n💕 ESTAFES ROMÀNTIQUES I DE 'MENTORS D'INVERSIÓ': un desconegut simpàtic que a poc a poc et convenç d'entrar en una 'plataforma especial'. La plataforma és falsa. Les retirades no funcionen mai.\n\nEl patró de totes les estafes: urgència més secretisme més beneficis garantits. Si veus aquestes tres coses juntes, marxa. 🚶",
+      "quiz": {
+        "q": "Algú que diu ser del 'suport de la plataforma' t'envia un missatge directe i et demana la frase de recuperació de 12 paraules per 'verificar el teu moneder'. Què fas?",
+        "explanation": "La frase de recuperació ÉS el moneder. Qualsevol que la tingui el pot buidar, el suport real no la demana mai, i no se n'ha de compartir mai cap part.",
+        "options": [
+          "No compartir-la mai, perquè el suport real no demana mai una frase de recuperació",
+          "Compartir-la, ja que el personal de suport verificat la necessita per revisar el teu compte",
+          "Compartir només les sis primeres paraules, que ja és prou segur per si sol",
+          "Demanar-los que t'escriguin primer des de l'adreça oficial i després compartir-la"
+        ]
+      }
+    },
+    "38": {
+      "title": "El Boss de la cripto",
+      "desc": "La màquina del temps del Bitcoin",
+      "content": "És l'hora de la història que tothom cita i ningú no explica bé.\n\nA principis del 2017, un Bitcoin costava uns $1,000. El desembre del 2024 va superar els $100,000 per primera vegada. Una compra de $1,000, mantinguda tot el camí, es va convertir en uns $100,000. Això és un 100x. 🤯\n\nAra la part que el hype s'oblida: per cobrar aquest 100x havies d'aguantar dues caigudes brutals, una d'un 84% i una altra d'un 77% aproximadament, i veure com els teus diners s'encongien durant ANYS seguits sense vendre. Gairebé ningú no ho va aconseguir. La majoria de gent va comprar car, va entrar en pànic amb la caiguda i va vendre barat.\n\nI per cada Bitcoin hi ha milers de monedes mortes que van acabar valent zero. Triar el guanyador per endavant només sembla fàcil mirant enrere. Això s'anomena biaix de supervivència, i és la il·lusió més cara de la cripto.\n\nLa lliçó real de la màquina del temps: per a les monedes que han sobreviscut, la paciència ha guanyat al timing. Però només saps quines monedes sobreviuen DESPRÉS, i per això la diversificació guanya a les apostes heroiques, i per això NINGÚ no sap el futur. Ni tan sols el boss. 🐉",
+      "bossVictory": "Mòdul de cripto conquerit. Ara en saps més que la majoria d'adults. 🐉",
+      "quiz": {
+        "q": "Milers de monedes es van llançar al mateix temps que el Bitcoin, i la majoria ara no valen gairebé res. Per què \"només cal triar el proper Bitcoin\" sembla tan fàcil quan mires enrere?",
+        "explanation": "Només es parla dels supervivents, així que triar guanyadors sembla molt més fàcil mirant enrere del que ho era en aquell moment. Els milers que van fracassar no han deixat cap rastre a la història.",
+        "options": [
+          "Perquè els guanyadors són els únics dels quals encara parla algú, i els que van morir han desaparegut de la història",
+          "Perquè les millors monedes són evidents des del principi per a qualsevol que en llegeixi prou",
+          "Perquè la majoria de monedes acaben sortint bé per a qualsevol prou pacient per mantenir-les durant anys",
+          "Perquè els experts ja van encertar amb el Bitcoin el 2010 i des d'aleshores han encertat tots els guanyadors"
+        ]
+      }
+    },
+    "39": {
+      "title": "Què és REALMENT una blockchain?",
+      "desc": "La tecnologia que hi ha sota de tot",
+      "content": "Treu-li el hype i una blockchain és sorprenentment senzilla: un llibre de registres compartit del qual milers d'ordinadors en guarden còpies idèntiques.\n\nQuan algú envia cripto, aquella transacció entra en un 'bloc' amb centenars d'altres. El bloc se segella amb matemàtiques i s'encadena al bloc anterior. D'aquí el nom: bloc. Cadena. ⛓️\n\nPer què n'hauria de fer cas ningú? Pel que fa possible:\n\n✅ Ningú no pot editar la història d'amagat. Canviar un bloc antic voldria dir refer tots els blocs posteriors en milers d'ordinadors alhora.\n✅ Cap empresa ni cap govern no la controla tota sola. La xarxa d'ordinadors la fa funcionar conjuntament.\n✅ Qualsevol pot consultar el registre. Totes les transaccions de Bitcoin que s'han fet mai són visibles públicament.\n\nÉs una tecnologia realment nova. També NO és diners màgics. Un registre perfecte d'una moneda sense valor continua sent una moneda sense valor. Que la tecnologia sigui real no fa valuosa cada moneda construïda a sobre. 🧠",
+      "quiz": {
+        "q": "Per què és tan difícil canviar en secret una transacció antiga d'una blockchain?",
+        "explanation": "Cada bloc està segellat a l'anterior, així que reescriure'n un d'antic vol dir reescriure tots els blocs posteriors, en milers d'ordinadors, més de pressa del que la xarxa n'afegeix de nous. Això és el que fa que el registre sigui pràcticament permanent.",
+        "options": [
+          "Caldria refer també tots els blocs posteriors",
+          "Cada canvi l'ha d'aprovar un govern",
+          "Tots els registres de més d'un mes s'esborren",
+          "El creador de cada moneda té una clau d'edició privada"
+        ]
+      }
+    },
+    "40": {
+      "title": "El Bitcoin vs la resta",
+      "desc": "No totes les monedes juguen al mateix joc",
+      "content": "La 'cripto' no és una sola cosa. Les diferències importen més que les semblances:\n\n₿ BITCOIN: l'original. La seva oferta està limitada a 21 milions de monedes per sempre, escrit al codi, i el ritme de monedes noves es redueix a la meitat aproximadament cada quatre anys. (Et sona? El halving de NOOB agafa exactament aquesta idea.) Tot el seu argument és escassetat més seguretat.\n\n⟠ ETHEREUM: menys 'or digital' i més 'ordinador mundial'. Executa contractes intel·ligents, que són programes que s'executen automàticament. La majoria d'apps cripto estan construïdes sobre Ethereum o sobre els seus competidors.\n\n🪙 TOTA LA RESTA: milers d'altcoins. Unes quantes resolen problemes reals. La majoria són còpies, experiments o maneres de fer diners ràpids. L'estadística brutal: la majoria de monedes que s'han creat mai ja són mortes o no valen res.\n\nLliçó: 'la cripto puja' no et diu gairebé res de cap moneda CONCRETA. Cadascuna és la seva pròpia aposta, amb les seves pròpies probabilitats. 🎲",
+      "quiz": {
+        "q": "Quina és l'oferta màxima de Bitcoin, i com de fàcil és canviar-la?",
+        "explanation": "El límit de 21 milions forma part de les normes que fa servir cada ordinador de la xarxa. Augmentar-lo voldria dir que gairebé tots es posessin d'acord per fer que el que ja tenen valgués menys, i per això el límit es considera fix.",
+        "options": [
+          "100 milions, i els miners ho voten cada any",
+          "21 milions, i augmentar-lo és gairebé impossible",
+          "1.000 milions, i el creador el pot ajustar",
+          "Cap límit, així que s'emeten monedes noves per sempre"
+        ]
+      }
+    },
+    "41": {
+      "title": "Stablecoins (monedes estables)",
+      "desc": "La cripto que intenta quedar-se quieta",
+      "content": "Una stablecoin és una cripto dissenyada per valer sempre una quantitat fixa, normalment exactament 1 dòlar dels EUA. Els traders la fan servir com a aparcament: vens les teves monedes volàtils a canvi d'una stablecoin, i els teus diners es queden quiets mentre decideixes el següent pas.\n\nCom es mantenen a $1? El disseny principal guarda dòlars reals i actius en reserva, de manera que cada moneda està avalada per alguna cosa. Estàs confiant en qui guarda aquestes reserves.\n\nI aquí tens la teva història d'advertència: les stablecoins es poden TRENCAR. Ha passat de veritat. El 2022, una gran stablecoin «algorítmica», que feia servir matemàtiques enginyoses en lloc de reserves reals, es va enfonsar de $1 a gairebé zero en pocs dies i va evaporar desenes de milers de milions de dòlars. «Estable» és un objectiu de disseny, no una garantia.\n\nRegla pràctica: com més enginyós és el mecanisme que manté alguna cosa «segura», més a fons l'has de mirar. 🔍",
+      "quiz": {
+        "q": "Quina és la feina principal d'una stablecoin?",
+        "explanation": "La feina d'una stablecoin és quedar-se quieta. És un aparcament entre operacions, no una cosa que s'espera que creixi.",
+        "options": [
+          "Mantenir un valor fix, normalment $1, perquè els traders tinguin un aparcament estable",
+          "Créixer més ràpid que el Bitcoin seguint tot el mercat cripto",
+          "Pagar interessos automàticament a qualsevol que la tingui en un moneder",
+          "Amagar les transaccions a tothom remenant el registre públic"
+        ]
+      }
+    },
+    "42": {
+      "title": "Cripto, impostos i la llei",
+      "desc": "Sí, les normes també s'apliquen",
+      "content": "Internet és ple de gent que es pensa que la cripto són diners invisibles sense normes. Acostumen a descobrir-ho per les males. 😬\n\nLa realitat a la majoria de països, inclosa Sud-àfrica:\n\n🧾 ELS BENEFICIS NORMALMENT TRIBUTEN. Si vens cripto per més del que vas pagar, l'agència tributària generalment en vol la seva part, igual que amb les accions.\n\n🪪 LES PLATAFORMES SABEN QUI ETS. Les plataformes legítimes exigeixen verificar la identitat (s'anomena KYC, Know Your Customer, «coneix el teu client»). A més, cada transacció queda registrada per sempre a la mateixa blockchain, que és just el CONTRARI d'anònim.\n\n⚖️ ELS REGULADORS HI SÓN. A Sud-àfrica, els criptoactius es consideren oficialment productes financers, cosa que vol dir que les plataformes que els venen han de complir les normes dels serveis financers.\n\nRes d'això és motiu per entrar en pànic. Però SÍ que és motiu per ignorar qualsevol que digui «les normes no s'apliquen a la cripto». Sí que s'hi apliquen, i fer veure el contrari fica adults en problemes molt seriosos.",
+      "quiz": {
+        "q": "El teu cosí diu que els beneficis de la cripto són invisibles per a l'agència tributària perquè la cripto és anònima. Què falla en aquest raonament?",
+        "explanation": "Les plataformes legítimes verifiquen qui ets abans que puguis operar, i cada transacció de la blockchain és pública i permanent, just el contrari d'anònim. Els beneficis generalment tributen, així que comprova les normes d'on vius.",
+        "options": [
+          "Les plataformes verifiquen la identitat i els registres són públics",
+          "Res, la cripto és realment anònima",
+          "La cripto només tributa als Estats Units",
+          "Els impostos comencen quan retires un milió"
+        ]
+      }
+    },
+    "43": {
+      "title": "Volatilitat i regles de supervivència",
+      "desc": "Per què la cripto oscil·la tant",
+      "content": "Un mal dia a la borsa és un 3%. Un mal dia a la cripto és un 20%. Fins i tot el Bitcoin, el «gran» de la cripto, ha perdut més del 80% del seu valor més d'una vegada i després s'ha recuperat. Les monedes més petites perden sovint un 95% i no tornen mai.\n\nPer què és tan salvatge? La cripto opera 24/7 sense interruptors de circuit, bona part es compra amb diners prestats que es venen a la força en les caigudes, i els preus es mouen més per històries i emocions que per resultats empresarials.\n\nAixí que aquestes són les regles de supervivència que repeteix qualsevol trader amb experiència:\n\n1️⃣ No hi posis mai diners que no et puguis permetre perdre del tot.\n2️⃣ Dimensiona les posicions perquè un sol desastre no t'escombri.\n3️⃣ Decideix la sortida ABANS d'entrar, mentre estàs tranquil.\n4️⃣ El FOMO és el sentiment més car de les finances.\n\nPractica les quatre a NoobTrader, on les pèrdues són de mentida. Els hàbits són el premi de veritat. 🏆",
+      "quiz": {
+        "q": "Quina d'aquestes és una regla de supervivència real per a mercats volàtils?",
+        "explanation": "No arriscar mai diners que no et pots permetre perdre és l'única regla que et manté en joc. Doblar l'aposta després d'una pèrdua és com s'acaben els comptes.",
+        "options": [
+          "Dobla la posició després de cada pèrdua per recuperar-la",
+          "No inverteixis mai diners que no et puguis permetre perdre del tot",
+          "La volatilitat només afecta les monedes petites, així que les grans són segures",
+          "Compra sempre quan tothom a les xarxes socials està comprant"
+        ]
+      }
+    },
+    "44": {
+      "title": "Cicles d'eufòria i FOMO",
+      "desc": "El patró darrere de cada mania",
+      "content": "La cripto funciona per cicles d'eufòria (hype), i un cop veus el patró ja no el pots deixar de veure:\n\n📈 Fase 1: passa alguna cosa real. Els primers creients compren en silenci.\n🚀 Fase 2: els preus pugen. Els mitjans se n'adonen. El teu feed s'omple de guanyadors.\n🎪 Fase 3: mania. Els taxistes donen consells de monedes. La gent es demana diners per comprar. «Aquesta vegada és diferent.»\n💥 Fase 4: la caiguda. Els que arriben tard, que van comprar més car, perden més.\n🕳️ Fase 5: silenci. Les publicacions dels guanyadors desapareixen. Ningú parla de les seves pèrdues.\n\nL'eufòria dels NFT del 2021 va seguir exactament aquest guió: col·leccionables digitals venuts per milions al cim, i un parell d'anys després la majoria no valien gairebé res.\n\nEl truc cruel de cada mania: fa que el PITJOR moment per comprar sembli el moment més URGENT per comprar. Quan sembla més segur llançar-s'hi, perquè tothom ja ho ha fet, els guanys fàcils normalment ja s'han acabat. 🎯",
+      "quiz": {
+        "q": "En un cicle d'eufòria clàssic, quan sent la persona mitjana les ganes més fortes de comprar?",
+        "explanation": "Les ganes criden més quan la història crida més, i la història crida més quan el preu ja ha pujat. Que tothom hi sigui és el que fa que sembli segur, i també el que fa que no quedi ningú més per comprar.",
+        "options": [
+          "Al principi, quan gairebé ningú en parla",
+          "A mitja caiguda, quan els preus són baixos",
+          "A prop del cim, quan tothom ja hi és",
+          "No segueix cap patró, les ganes són aleatòries"
+        ]
+      }
+    },
+    "45": {
+      "title": "Llegir una espelma",
+      "desc": "Anatomia de l'espelma: cos i color",
+      "content": "Cada espelma explica una petita història amb només quatre números: on va obrir el preu, el màxim que va assolir, el mínim on va caure i on va tancar. El cos sòlid va de l'obertura al tancament, i el color et diu qui va guanyar: verd vol dir que el tancament va acabar per sobre de l'obertura, vermell vol dir que els venedors el van arrossegar per sota. Aquest és tot el truc. Aprèn a llegir bé una espelma i qualsevol gràfic del món passa de ser un mur de soroll a ser un còmic. 🟢",
+      "quiz": {
+        "q": "Aquesta espelma és verda. Què et diu d'aquell període d'operacions?",
+        "options": [
+          "El preu va tancar més baix que l'obertura",
+          "Va comprar més gent de la que va vendre, garantit",
+          "El preu va tancar més alt que l'obertura",
+          "El preu no va baixar mai durant el període"
+        ]
+      }
+    },
+    "46": {
+      "title": "Les metxes expliquen històries",
+      "desc": "Anatomia de l'espelma: màxims i mínims",
+      "content": "El cos mostra on va obrir i tancar el període, però les metxes mostren tot el recorregut: cada preu que la batalla va arribar a tocar. Una metxa llarga vol dir que hi va haver una gran batalla més enllà de l'obertura i el tancament, i el bàndol que va deixar la metxa enrere va perdre aquella batalla. Metxa llarga a sota? Els venedors van empènyer fort i els van fer recular. Metxa llarga a dalt? Els compradors van arribar amunt i els van rebutjar. El cos és el titular, les metxes són el xafardeig. 📏",
+      "quiz": {
+        "q": "Què mostren realment les línies fines (les metxes) per sobre i per sota del cos?",
+        "options": [
+          "Els preus més alt i més baix negociats durant el període",
+          "L'obertura i el tancament d'ahir",
+          "Els preus exactes on es van fer més operacions",
+          "Una previsió del rang de demà"
+        ]
+      }
+    },
+    "47": {
+      "title": "El doji",
+      "desc": "Espelmes soles: indecisió",
+      "content": "De vegades una espelma obre i tanca gairebé exactament al mateix preu, i deixa un cos minúscul amb metxes a banda i banda. Això és un doji, i vol dir que l'estirada de corda ha acabat en empat: compradors i venedors han estirat fort tota la sessió i cap bàndol ha guanyat. Tot sol és només un arronsament d'espatlles. Després d'una pujada forta pot indicar que la tendència s'està cansant, perquè el bàndol que guanyava de sobte no ha pogut moure el preu. Una pista que val la pena apuntar, mai una garantia. 🤝",
+      "quiz": {
+        "q": "L'espelma que brilla va obrir i tancar gairebé exactament al mateix preu. Com s'anomena i què insinua?",
+        "options": [
+          "Un marubozu, senyal de convicció total en un sentit o l'altre",
+          "Un martell, senyal que els compradors han recuperat el control",
+          "Un gap (buit), senyal que les operacions es van aturar durant la nit",
+          "Un doji, senyal d'indecisió entre compradors i venedors"
+        ]
+      }
+    },
+    "48": {
+      "title": "El martell",
+      "desc": "Espelmes soles: la remuntada",
+      "content": "Imagina una sessió brutal: els venedors enfonsen el preu i després els compradors l'arrosseguen tot el camí de tornada abans del tancament. El que queda al gràfic és un martell: un cos petit a prop de dalt amb una metxa inferior llarga d'almenys el doble de la seva mida. Després d'una baixada, un martell diu que els venedors van llançar el seu millor cop i no va encertar. Això sovint marca un possible gir. Possible, no promès, així que tracta'l com una pista a vigilar, no com una ordre de compra. 🔨",
+      "quiz": {
+        "q": "Després d'una baixada, l'espelma que brilla ha dibuixat una metxa inferior llarga i un cos petit a prop de dalt. Què és?",
+        "options": [
+          "Una estrella fugaç, senyal que els venedors han pres el control",
+          "Un martell, indici que els compradors s'han defensat amb força",
+          "Un doji, un empat perfecte",
+          "La prova que la tendència baixista s'ha acabat"
+        ]
+      }
+    },
+    "49": {
+      "title": "L'estrella fugaç",
+      "desc": "Espelmes soles: rebuig al cim",
+      "content": "La imatge especular del martell. Després d'una pujada forta, els compradors intenten un nou màxim, els rebutgen amb força, i el preu tanca de nou avall, a prop d'on va obrir. El gràfic dibuixa un cos petit a la part baixa de l'espelma amb una metxa superior llarga: una estrella fugaç. Vol dir que els venedors finalment han aparegut al cim amb prou força per guanyar la sessió. Després d'una gran pujada, aquest rebuig sovint importa. Sovint, no sempre. 🌠",
+      "quiz": {
+        "q": "Després d'una pujada forta, l'espelma que brilla s'ha disparat amunt i ha tancat a prop del seu mínim, deixant una metxa superior llarga. Què és?",
+        "options": [
+          "Una estrella fugaç, indici que els venedors han aparegut al cim",
+          "Un martell, indici que els compradors tornen a manar",
+          "Un marubozu verd, pura força compradora",
+          "Una garantia que el preu s'enfonsarà demà"
+        ]
+      }
+    },
+    "50": {
+      "title": "El marubozu",
+      "desc": "Espelmes soles: convicció total",
+      "content": "Un marubozu és un sol cos sòlid sense cap metxa: el preu va obrir i va avançar en una sola direcció tota la sessió sense mirar mai enrere. Cap batalla, cap dubte, convicció total d'un bàndol. Un marubozu verd crida confiança compradora, un de vermell crida el contrari. Són rars, i per això mateix els traders paren atenció quan n'apareix un. 💪",
+      "quiz": {
+        "q": "L'espelma que brilla és un sol cos sòlid sense cap metxa. Què et diu aquesta forma?",
+        "options": [
+          "Ningú va operar durant aquell període, així que es va quedar pla",
+          "El mercat va tancar abans d'hora aquell dia i la va escurçar",
+          "Un bàndol va tenir el control de l'obertura al tancament, convicció total",
+          "Compradors i venedors van estar perfectament equilibrats tota l'estona"
+        ]
+      }
+    },
+    "51": {
+      "title": "Envolvent alcista",
+      "desc": "Patrons de dues espelmes: ataquen els compradors",
+      "content": "Dues espelmes, un missatge. Primer una espelma vermella petita, el de sempre en una tendència baixista. Després un gran cos verd que se l'empassa del tot: en una sola sessió, els compradors esborren tot el que els venedors van aconseguir el dia abans, i encara més. Si apareix després d'una tendència baixista, l'envolvent alcista és una de les pistes de gir més vigilades de qualsevol gràfic, perquè mostra com l'equilibri de poder es capgira en una sola espelma. Pista, no contracte. 🐂",
+      "quiz": {
+        "q": "El gran cos verd s'empassa del tot el cos vermell anterior. Quin és aquest patró de dues espelmes?",
+        "options": [
+          "Una envolvent baixista, els venedors han pres el control",
+          "Una envolvent alcista, els compradors han aclaparat els venedors",
+          "Un doble terra",
+          "Dos dojis seguits"
+        ]
+      }
+    },
+    "52": {
+      "title": "Envolvent baixista",
+      "desc": "Patrons de dues espelmes: ataquen els venedors",
+      "content": "La imatge especular de la versió alcista. Al cim d'una pujada, un gran cos vermell s'empassa tot el cos verd anterior: els venedors esborren les compres del dia anterior en una sola espelma, just quan la pujada ja estava estirada i els últims compradors estaven nerviosos. Això acostuma a posar nerviosos també la resta de compradors. Quan la vegis després d'una pujada llarga, respecta-la. 🐻",
+      "quiz": {
+        "q": "Al cim d'una pujada, el gran cos vermell s'empassa tot el cos verd anterior. Com s'anomena aquesta parella?",
+        "options": [
+          "Una envolvent alcista, la pujada continua",
+          "Un martell seguit d'un doji",
+          "Una ruptura per sobre de la resistència",
+          "Una envolvent baixista, els venedors han aclaparat els compradors"
+        ]
+      }
+    },
+    "53": {
+      "title": "Detectar una tendència alcista",
+      "desc": "Tendències: màxims més alts, mínims més alts",
+      "content": "Una tendència alcista necessita les dues meitats: màxims més alts I mínims més alts. Cada cim supera l'anterior, i cada baixada s'atura més amunt que l'anterior, perquè els compradors entren cada vegada abans. Aquesta forma d'escala és el mercat dient-te que mana la demanda. Un sol màxim més alt no demostra res. El patró és la parella, repetint-se. 📈",
+      "quiz": {
+        "q": "Cada cim supera l'anterior, i cada baixada s'atura més amunt que l'anterior. Què mostra aquest gràfic?",
+        "options": [
+          "Una tendència alcista, màxims més alts i mínims més alts",
+          "Una tendència baixista, màxims més baixos i mínims més baixos",
+          "Un rang, el preu atrapat entre un terra i un sostre",
+          "Un doble sostre en formació"
+        ]
+      }
+    },
+    "54": {
+      "title": "Detectar una tendència baixista",
+      "desc": "Tendències: màxims més baixos, mínims més baixos",
+      "content": "Gira l'escala de cap per avall. Màxims més baixos vol dir que els venedors ataquen abans a cada rebot, mínims més baixos vol dir que els compradors recullen més a cada caiguda. Mentre aquesta estructura aguanta, els venedors porten la batuta, i lluitar-hi en contra és com els traders novells regalen diners als pacients. La tendència no és la teva enemiga, però fer veure que no hi és sí que ho és. 📉",
+      "quiz": {
+        "q": "Cada rebot s'atura més avall que l'anterior, i cada caiguda va més a fons. Què estàs mirant?",
+        "options": [
+          "Una tendència alcista que només agafa aire",
+          "Un rang lateral",
+          "Una tendència baixista, màxims més baixos i mínims més baixos",
+          "Un patró d'envolvent alcista en formació"
+        ]
+      }
+    },
+    "55": {
+      "title": "El mercat lateral",
+      "desc": "Tendències: el joc de l'espera",
+      "content": "De vegades cap bàndol guanya, i el preu simplement rebota com una pilota de ping-pong entre el mateix terra i el mateix sostre durant setmanes. Això és un rang, i els mercats passen moltíssim temps fent exactament això. No està espatllat i no és avorrit, és el mercat agafant aire. Els traders pacients aprenen a estimar l'espera, perquè com més temps aguanta un rang, més significativa acostuma a ser la sortida final. 🏓",
+      "quiz": {
+        "q": "Durant setmanes, el preu ha rebotat entre el mateix terra i el mateix sostre. Com s'anomena això?",
+        "options": [
+          "Una tendència alcista, no para de tocar el sostre",
+          "Un rang, el mercat es mou de costat",
+          "Un patró d'espatlla-cap-espatlla",
+          "Una ruptura en curs"
+        ]
+      }
+    },
+    "56": {
+      "title": "Suport",
+      "desc": "Suport i resistència: el terra",
+      "content": "Quan el preu baixa una vegada i una altra fins al mateix nivell i rebota cada cop, els traders anomenen aquest nivell suport: un terra on els compradors decideixen sempre que el preu és una ganga. Com més vegades aguanta, més gent el vigila, i això és en part per què continua aguantant. Però recorda que el terra el dibuixa la gent, no la llei. El suport es pot trencar i es trenca, i quan passa, la multitud del rebot es converteix en la multitud del pànic. 🧱",
+      "quiz": {
+        "q": "El preu ha baixat fins al nivell ombrejat tres vegades i ha rebotat cada cop. Com anomenen els traders aquest nivell?",
+        "options": [
+          "Resistència, un sostre on s'amunteguen els venedors",
+          "Una línia de tendència, els nivells han de ser diagonals",
+          "Un stop-loss fixat per la borsa",
+          "Suport, un terra on els compradors no paren d'entrar"
+        ]
+      }
+    },
+    "57": {
+      "title": "Resistència",
+      "desc": "Suport i resistència: el sostre",
+      "content": "La resistència és el sostre: un nivell on cada pujada s'encalla perquè als venedors els agrada recollir beneficis allà. Mira un gràfic donant-se cops de cap contra el mateix preu tres vegades i estaràs veient la resistència funcionar en temps real. Aquí tens el gir que val la pena recordar: si algun cop el preu la travessa amb convicció de veritat, aquell antic sostre sovint comença a fer de nou terra. 🪟",
+      "quiz": {
+        "q": "Tres pujades diferents s'han encallat al nivell ombrejat. Com s'anomena aquest nivell?",
+        "options": [
+          "Resistència, un sostre on els venedors no paren de fer recular el preu",
+          "Suport, un terra situat per sota del preu",
+          "El nivell del dividend, que es fixa un cop l'any",
+          "Un pic de volum, que no diu res del preu"
+        ]
+      }
+    },
+    "58": {
+      "title": "Línies de tendència",
+      "desc": "Línies de tendència i canals: la línia que compta",
+      "content": "Uneix els mínims ascendents d'un gràfic i hauràs dibuixat una línia de tendència. Dos punts qualssevol fan una línia, però el tercer toc és on comença a demostrar que importa, perquè mostra que els compradors continuen defensant el mateix nivell ascendent. Cada toc respectat de més és més evidència. Però continua sent evidència, mai una promesa: una línia de tendència és una marca de llapis, no un camp de força. ✏️",
+      "quiz": {
+        "q": "Aquesta línia ascendent s'ha tocat tres vegades diferents. Per què als traders els importa quants tocs té una línia de tendència?",
+        "options": [
+          "No els importa, ja que dos punts qualssevol fan d'una línia de tendència una regla",
+          "Tres tocs volen dir que un quart rebot està garantit",
+          "Més tocs fan la línia més significativa, els compradors la continuen defensant",
+          "Les línies de tendència només compten en gràfics diaris, mai en de més curts"
+        ]
+      }
+    },
+    "59": {
+      "title": "Canals",
+      "desc": "Línies de tendència i canals: el carril",
+      "content": "Un canal és una tendència amb bones maneres. El preu puja mentre rebota entre dues línies paral·leles: un terra de mínims ascendents i un sostre de màxims ascendents, que pugen junts com els costats d'un carril. Els traders vigilen les dues vores per als rebots, i encara vigilen més el dia que el preu surt del carril, perquè una ruptura neta d'un canal sovint és on comença el següent gran moviment. 🛣️",
+      "quiz": {
+        "q": "El preu puja mentre rebota entre dues línies paral·leles. Quin és aquest patró?",
+        "options": [
+          "Un triangle, on les dues línies s'han de trobar",
+          "Un canal ascendent, una tendència alcista amb un carril visible",
+          "Un doble sostre",
+          "Un rang pla que no va enlloc"
+        ]
+      }
+    },
+    "60": {
+      "title": "El doble sostre",
+      "desc": "Patrons gràfics: la forma de M",
+      "content": "El preu xoca contra el mateix sostre dues vegades, falla totes dues, i dibuixa una gran M al gràfic. Si trenca per sota de la baixada del mig (la línia de coll), el doble sostre es completa: una pista clàssica de gir baixista. La seva imatge especular, la W, és el doble terra, i apunta en sentit contrari. Acostuma a marcar un cim, però no és obligatori. Res d'un gràfic ho és. Ⓜ️",
+      "quiz": {
+        "q": "El preu ha xocat contra el mateix sostre dues vegades, ha fallat totes dues, i després ha trencat per sota de la baixada del mig. Quina forma és aquesta?",
+        "options": [
+          "Un doble terra, una pista alcista",
+          "Un canal ascendent",
+          "Un martell",
+          "Un doble sostre, una pista de gir baixista"
+        ]
+      }
+    },
+    "61": {
+      "title": "Quan els patrons fallen",
+      "desc": "Patrons gràfics: probabilitats, no promeses",
+      "content": "Aquesta és la lliçó més valuosa del mòdul. S'ha format un patró de manual, tothom l'ha vist, i llavors el mercat ha fet el contrari. Cada patró que has après falla algunes vegades, i això no és el gràfic mentint-te, és el gràfic donant-te informació: el bàndol pel qual apostaves acaba de perdre. Decideix la sortida abans d'entrar, i quan un patró falli, capta la indirecta i surt. Els patrons són probabilitats, mai promeses. 🚪",
+      "quiz": {
+        "q": "S'ha format un doble terra de manual al terra ombrejat... i després el preu l'ha travessat de cop cap avall. Quina és la lliçó honesta?",
+        "options": [
+          "Els patrons són probabilitats, no promeses, i un patró fallit és el teu senyal per sortir",
+          "Els dobles terres de veritat no fallen mai, així que el que miraves devia ser fals",
+          "Compra'n més al preu més baix, perquè el patró igualment acabarà funcionant",
+          "Els gràfics deixen de funcionar del tot quan un patró t'ha fallat així"
+        ]
+      }
+    },
+    "62": {
+      "title": "Espatlla-cap-espatlla",
+      "desc": "Patrons gràfics: tres cims",
+      "content": "Tres cims: un de més alt al mig (el cap), un de més baix a cada costat (les espatlles), i una línia per sota de les dues baixades anomenada línia de coll. Es forma quan els compradors aconsegueixen una última empenta més alta i després ni tan sols la poden igualar en el següent intent. La forma sola és només un avís. El que els traders esperen de veritat és una ruptura decidida per sota de la línia de coll, perquè és llavors quan el patró deixa de ser un dibuix i passa a ser una decisió. 👤",
+      "quiz": {
+        "q": "Tres cims: un de més alt al mig, un de més baix a cada costat, i un terra que uneix les dues baixades. Quina és aquesta forma clàssica?",
+        "options": [
+          "Un triple terra, tres mínims iguals abans d'una empenta amunt",
+          "Un espatlla-cap-espatlla, un possible final de la tendència alcista",
+          "Un triangle ascendent",
+          "Tres martells seguits, cadascun rebutjant preus més baixos"
+        ]
+      }
+    },
+    "63": {
+      "title": "La compressió del triangle",
+      "desc": "Patrons gràfics: la molla comprimida",
+      "content": "Quan les oscil·lacions es van fent més petites, amb mínims més alts pressionant contra màxims més baixos, el mercat s'està comprimint com una molla. Això és un triangle: tots dos bàndols es queden sense espai i s'imposa una decisió. La compressió sovint acaba amb una explosió, i aquí hi ha el parany: la direcció de l'explosió no se sap per endavant. Espera la ruptura en lloc d'endevinar-la. El mercat t'ho dirà, i no et cobrarà res per la informació. 🌀",
+      "quiz": {
+        "q": "Les oscil·lacions es van fent més petites, comprimint el preu en una molla cada cop més estreta, fins que finalment esclata. Què era la molla?",
+        "options": [
+          "Un canal, dues línies paral·leles que no es troben mai",
+          "Un doble sostre",
+          "Un triangle, una consolidació que sovint acaba en ruptura",
+          "La prova que el preu havia de trencar cap amunt a partir d'aquí"
+        ]
+      }
+    },
+    "64": {
+      "title": "El volum: el detector de mentides",
+      "desc": "Volum: qui s'hi ha presentat de veritat",
+      "content": "El volum és quantes accions han canviat de mans, i és el detector de mentides dels gràfics. Una ruptura amb un volum minúscul és un xiuxiueig que enganya la gent: un grapat d'operacions han empès el preu on no s'hi pot quedar. Una ruptura amb molt de volum és una multitud votant de veritat amb diners. El mateix moviment de preu, un significat totalment diferent. Abans de creure't qualsevol gran moviment, comprova qui s'hi ha presentat. 🔊",
+      "quiz": {
+        "q": "Dos intents d'escapar del mateix sostre: el primer, amb un volum minúscul, ha fallat; el segon ha vingut amb un volum enorme i ha aguantat. Què hi fa el volum aquí?",
+        "options": [
+          "Res de res, el volum no importa mai en un moviment de preu",
+          "Forçar el preu amunt, ja que molt volum empeny els preus més amunt",
+          "Predir el cim exacte del moviment abans que passi",
+          "Fer de confirmació, molt volum mostra convicció real darrere del moviment"
+        ]
+      }
+    },
+    "65": {
+      "title": "El reconeixedor de tendències",
+      "desc": "Deu gràfics, sense etiquetes, sense pietat",
+      "content": "Deu gràfics. Sense etiquetes, sense línies d'ajuda, sense pistes. Digues què mostra cadascun, exactament com un trader de veritat mirant una pantalla de veritat. Treu 8 de 10 i el mòdul és teu. Tens 3 intents al dia, així que ves a poc a poc, llegeix les espelmes i recorda la lliçó més important de totes: de vegades la resposta honesta és que no hi ha cap patró. 🕯️",
+      "bossVictory": "Mòdul de tendències conquerit. Ara llegeixes tu els gràfics, no són ells que et llegeixen a tu. 🕯️",
+      "bossQuestions": {
+        "0": {
+          "q": "Què mostra aquest gràfic?",
+          "explanation": "Desordenat a propòsit. Si treus el soroll, cada màxim continua superant l'anterior, i cada baixada continua tocant fons més amunt. Les tendències reals són així, no com una escala de manual.",
+          "options": [
+            "Una tendència baixista, màxims més baixos i mínims més baixos",
+            "Una tendència alcista, màxims més alts i mínims més alts",
+            "Un rang lateral",
+            "Un doble sostre"
+          ]
+        },
+        "1": {
+          "q": "Què ha passat a la parella d'espelmes que brilla?",
+          "explanation": "El cos vermell s'ha empassat tot el cos verd just després d'una pujada llarga. Això és l'envolvent baixista fent exactament el que fa: aparèixer on els compradors estan més estirats.",
+          "options": [
+            "Una envolvent alcista",
+            "Un doji al cim",
+            "Un martell",
+            "Una envolvent baixista al cim d'una pujada"
+          ]
+        },
+        "2": {
+          "q": "Què mostra aquest gràfic?",
+          "explanation": "El cim del mig sobresurt clarament per sobre dels dos dels costats, i les baixades s'alineen en una línia de coll. Els reals no són mai simètrics, i així és com es veuen de debò en estat salvatge.",
+          "options": [
+            "Un espatlla-cap-espatlla",
+            "Un triple sostre amb tres cims iguals",
+            "Un triangle ascendent",
+            "Un canal ascendent"
+          ]
+        },
+        "3": {
+          "q": "Què mostra aquest gràfic?",
+          "explanation": "Dues incursions al mateix terra, la segona una mica menys profunda, i després una empenta amunt que travessa el rebot del mig. La forma de W, dibuixada per un mercat real i no per un manual.",
+          "options": [
+            "Un espatlla-cap-espatlla",
+            "Un triangle descendent",
+            "Un doble terra",
+            "Una bandera baixista"
+          ]
+        },
+        "4": {
+          "q": "Què és l'espelma que brilla?",
+          "explanation": "Metxa superior llarga, cos minúscul aparcat a la part baixa del rang, just després d'una pujada. Els compradors van intentar un nou màxim i els van tornar a enviar avall d'una bufetada abans del tancament.",
+          "options": [
+            "Un martell",
+            "Un marubozu verd",
+            "Un doji",
+            "Una estrella fugaç després d'una pujada"
+          ]
+        },
+        "5": {
+          "q": "Què mostra aquest gràfic?",
+          "explanation": "El mateix terra i el mateix sostre es continuen respectant, i tot el que hi ha entremig és soroll. Cap bàndol guanya, així que no hi ha cap tendència per aprofitar.",
+          "options": [
+            "Un rang, el preu tancat entre suport i resistència",
+            "Una tendència alcista, màxims més alts i mínims més alts",
+            "Una falca descendent",
+            "Una ruptura en curs"
+          ]
+        },
+        "6": {
+          "q": "El preu ha trencat per sobre de l'antic sostre, i després la baixada marcada amb la fletxa ha tornat a aquell nivell i ha aguantat. Què era la baixada?",
+          "explanation": "La baixada ha tornat exactament al nivell que abans era el sostre, hi ha trobat compradors i la tendència ha continuat. Això és un retrocés (pullback). Un gir hauria travessat el nivell i hauria continuat caient.",
+          "options": [
+            "Un gir complet cap a una tendència baixista",
+            "Un retrocés, una nova prova del nivell trencat",
+            "Un doble sostre",
+            "Un rebot del gat mort"
+          ]
+        },
+        "7": {
+          "q": "Què mostra aquest gràfic?",
+          "explanation": "Terra pla, màxims més baixos pressionant-lo des de dalt, venedors arribant abans a cada rebot. El terra finalment ha cedit, que és el desenllaç cap al qual sovint s'inclina aquesta forma. Sovint, mai sempre.",
+          "options": [
+            "Un triangle ascendent",
+            "Un canal ascendent",
+            "Un triangle descendent recolzat en un suport",
+            "Un doble terra"
+          ]
+        },
+        "8": {
+          "q": "Què mostra aquest gràfic?",
+          "explanation": "La pregunta parany, i la més valuosa del boss. La majoria dels gràfics, la majoria del temps, no mostren res que valgui la pena operar. Veure patrons que no hi són és com perden els principiants. Dir «no operar» és una habilitat. 🎯",
+          "options": [
+            "Un espatlla-cap-espatlla",
+            "Un doble sostre",
+            "Una tendència alcista",
+            "Cap patró net, aquí no hi ha res per operar"
+          ]
+        },
+        "9": {
+          "q": "Què mostra aquest gràfic?",
+          "explanation": "El preu ha tret el cap per sobre del sostre amb un volum feble, els compradors l'han perseguit, i després s'ha desplomat de nou dins del rang. La ruptura que falla és exactament per què la lliçó de volum et deia que comprovessis el volum abans de creure-te'n una.",
+          "options": [
+            "Una trampa alcista, una ruptura fallida que ha atrapat els compradors",
+            "Una ruptura reeixida amb una nova prova neta",
+            "Un doble terra",
+            "Un gir en martell"
+          ]
+        }
+      }
+    },
+    "66": {
+      "title": "Aquí no ets propietari de res",
+      "desc": "Un derivat és una aposta sobre un número",
+      "content": "Tot el que has après fins ara tenia alguna cosa al darrere. Compra una acció de {retail} i ets propietari d'un tros de l'empresa: un tros de les botigues, un tros dels beneficis, un vot a la junta i un dividend quan en paguen.\n\nUn derivat no és això.\n\nUn CFD (contracte per diferència) és un acord entre tu i un proveïdor per intercanviar la diferència de preu entre el moment en què obres i el moment en què tanques. Aquest és tot el producte. Si {retail} puja i tu apostaves que pujaria, et paguen la diferència. Si baixa, els la pagues tu. Ningú compra cap acció. Ningú ven cap acció. No hi ha accions enlloc de la transacció.\n\nUn futur és un contracte per comprar o vendre alguna cosa a un preu fixat en una data fixada. Els de veritat es liquiden en barrils de petroli o tones de blat de moro reals, però gairebé ningú els conserva tant de temps, així que a la pràctica la majoria de futurs també són una aposta sobre un número amb una data límit.\n\nPer què això importa més del que sembla:\n\n• Sense dividends. Sense Money Babies. Allò que va construir en silenci la major part dels rendiments a la lliçó 15 aquí simplement no hi és.\n• Sense vot, sense propietat, res per conservar. No existeix l'opció «conserva-ho deu anys i ja està», perquè no hi ha res per conservar.\n• Sense interès compost. La resta d'aquesta app es passa 65 lliçons ensenyant-te que el temps juga a favor teu. En aquesta sala, el temps et costa diners. Veuràs exactament quant a la lliçó 72.\n\nTot el que ja saps continua important. Només que deixa de ser el que estàs fent. 📄",
+      "quiz": {
+        "q": "Obres un CFD sobre {retail} i el preu puja. De què ets propietari realment?",
+        "explanation": "Un CFD és un acord entre tu i el proveïdor per intercanviar la diferència entre el preu quan vas obrir i el preu quan tanques. Ningú compra cap acció, ningú en ven cap, i no n'hi ha cap enlloc de l'acord. Per això no hi ha dividend, ni vot, ni res per conservar durant deu anys.",
+        "options": [
+          "D'accions que el proveïdor té al seu propi nom",
+          "D'un contracte per intercanviar la diferència de preu al final",
+          "D'una part de l'empresa i dels dividends que en surten",
+          "D'un val que es converteix en accions reals quan tanques"
+        ]
+      }
+    },
+    "67": {
+      "title": "Demanar diners a un amic",
+      "desc": "Què és de veritat l'apalancament, i la part que ningú publica",
+      "content": "L'apalancament sona tècnic. No ho és. És demanar diners prestats.\n\nPosem que vols {c}1,000 en accions però només tens {c}200. Un amic s'ofereix a posar-hi els altres {c}800. Controles {c}1,000 en accions amb {c}200 dels teus propis diners. Això és apalancament. Aquesta és tota la idea.\n\nAra, les tres coses que fa aquest amic. Les necessites totes tres, o t'han venut un conte de fades.\n\n1️⃣ EL GUANY ÉS REALMENT TEU. Les accions pugen un 10%. Els teus {c}1,000 ara són {c}1,100. Això són {c}100 de benefici i te'ls quedes sencers, perquè al teu amic se li deuen {c}800 i ni una sola unitat més de {cName}. Sobre els teus propis {c}200, {c}100 és un guany del 50%. Un moviment del 10% t'ha fet guanyar un 50%. Aquesta és la part que tothom publica.\n\n2️⃣ EL PRÉSTEC NO S'ENCONGEIX QUAN T'EQUIVOQUES. Aquesta és la part que ningú publica, i és tota la lliçó. Les accions baixen un 10%. Els teus {c}1,000 ara són {c}900. Encara li deus al teu amic els {c}800 sencers. No {c}720. Els {c}800 sencers. Així que tota la caiguda de {c}100 surt de la TEVA part, i els teus {c}200 ara són {c}100. Un moviment del 10% t'ha costat un 50%.\n\nTorna a llegir aquests dos punts. El mateix amic, el mateix 10%. Els teus diners es mouen a cinc vegades la velocitat en totes dues direccions, perquè el préstec no assumeix mai cap part del dolor.\n\n3️⃣ L'AMIC COBRA LLOGUER, CADA DIA, SOBRE TOT EL CONJUNT. No sobre els seus {c}800. Sobre els {c}1,000 sencers que controles. Cada nit que ho mantens, tant si el preu ha pujat, com si ha baixat, com si no s'ha mogut gens.\n\nI hi ha una quarta cosa amagada dins de la tercera. Si els teus {c}200 s'acaben, el teu amic no et truca per parlar-ne. Ven. Immediatament, automàticament, al preu que hi hagi, perquè són els seus {c}800 els que estan en risc i no esperarà la teva opinió. Això té un nom, i el coneixeràs d'aquí a tres lliçons: liquidació.\n\nAixí doncs: guanys més grans, pèrdues més grans, lloguer cada nit, i el dit d'algú altre al botó de vendre. L'apalancament no són diners gratis amb una mica de risc. És un préstec amb aquestes quatre coses incloses, i els anuncis només t'ensenyen la primera. 🧠",
+      "quiz": {
+        "q": "Un amic hi posa 800 NT, tu hi poses 200 NT, i junts controleu 1,000 NT en accions. Les accions baixen un 10%. Arrossega fins a quant valen ara els teus 200 NT.",
+        "explanation": "El préstec no s'encongeix quan t'equivoques. Les accions ara valen 900 NT i al teu amic encara se li deuen els 800 NT sencers, així que el que et queda a tu són 100 NT. Una caiguda del 10% de les accions s'ha endut la meitat dels teus diners, perquè el préstec no assumeix cap part del dolor. Cap amunt funciona igual, i aquesta és la meitat que t'ensenyen els anuncis."
+      }
+    },
+    "68": {
+      "title": "El marge és un dipòsit, no una compra",
+      "desc": "Els diners que hi poses no es gasten, estan en joc",
+      "content": "Quan compres una acció per {c}100, aquests {c}100 surten del teu efectiu i tens una acció al compte. Un intercanvi senzill.\n\nEl marge no funciona així. Quan obres una posició apalancada hi poses un dipòsit, i aquest dipòsit no és el pagament de res. És una fiança contra les teves pròpies pèrdues. Es queda allà, bloquejat, i la posició se'l menja a mesura que el preu es mou en contra teu.\n\nPosem que el percentatge de dipòsit és del 25%. Hi poses 250 NT i controles 1,000 NT d'exposició. Mira el teu compte:\n\n• Preu pla: els teus 250 continuen sent 250. Bé, el finançament ja ha començat, així que en silenci són una mica menys.\n• Preu un 5% avall: la posició ha perdut 50 NT. El teu dipòsit és, a efectes pràctics, de 200. El teu efectiu lliure no s'ha mogut. El teu compte és més petit.\n• Preu un 20% avall: la posició ha perdut 200 NT. El teu dipòsit ha baixat a 50. No has fet res. No has venut res. Només miraves.\n\nTres termes que surten a totes les pantalles d'aquesta sala:\n\n🔒 MARGE UTILITZAT: tots els dipòsits que tens posats ara mateix.\n💰 PATRIMONI DEL COMPTE: el teu efectiu lliure, més el marge posat, més o menys els beneficis i pèrdues de cada posició oberta, menys el finançament cobrat fins ara. El que valdria realment el teu compte si tot es tanqués ara mateix.\n📊 NIVELL DE MARGE: patrimoni dividit pel marge utilitzat. Per sobre del 100% tens un coixí. Per sota del 100%, el mercat ja s'ha acabat el coixí i ha començat amb el dipòsit.\n\nI una regla que sorprèn a tothom: el marge es mesura sobre tot el compte, no per posició. Una posició perdedora es menja la garantia que sosté una de guanyadora. Per això «la meva altra operació va bé» no és cap defensa. 🔒",
+      "quiz": {
+        "q": "El percentatge de dipòsit és del 25%, així que 250 NT dels teus diners controlen 1,000 NT d'exposició. El preu baixa un 8% mentre no fas absolutament res. Arrossega fins a quant t'ha costat aquesta caiguda.",
+        "explanation": "Un dipòsit no és el pagament de res, és una garantia, i la pèrdua es calcula sobre els 1,000 NT sencers que controles. El 8% de 1,000 NT són 80 NT. No has venut res i el teu efectiu lliure no s'ha mogut, però s'han menjat 80 NT del teu dipòsit de 250 NT i el teu compte és 80 NT més petit. Si calcules el 8% sobre el dipòsit et surten 20 NT, i aquest és l'error que fa que l'apalancament sembli inofensiu."
+      }
+    },
+    "69": {
+      "title": "La crida de marge",
+      "desc": "Una exigència, no un avís",
+      "content": "Una crida de marge (margin call) és el moment en què el teu nivell de marge baixa del 100%. En paraules planes: el teu coixí de beneficis s'ha acabat i el mercat ha començat a menjar-se el dipòsit mateix.\n\nAixí és com se sent de veritat, perquè la versió dels llibres es deixa la part important.\n\nMai arriba en un bon dia. Arriba quan la posició ja fa mala pinta, quan ja t'has dit dues vegades que es recuperarà, i quan ets menys capaç de prendre una decisió amb calma. No és un avís educat. És una exigència: posa-hi més diners, o tanca posicions, o el proveïdor ho farà per tu.\n\nTens tres jugades i només dues són teves.\n\n1️⃣ TANCAR alguna cosa. Això allibera marge a l'instant i gairebé sempre és la resposta correcta. També vol dir admetre que t'has equivocat, que és el motiu real pel qual la gent no ho fa.\n2️⃣ AFEGIR diners. Això no arregla res. Et compra espai per equivocar-te més temps, en una posició que ja vas triar malament, amb diners que no tenies previst arriscar. Afegir efectiu en una crida de marge és com una mala operació es converteix en un mal mes.\n3️⃣ NO FER RES. Llavors la tercera jugada passa sense tu, i té un nom.\n\nEls reguladors s'ho prenen tan seriosament que van escriure un número a la llei. Les empreses d'Europa, el Regne Unit i Austràlia han de tancar automàticament les posicions d'un client minorista quan el seu marge baixa al 50% del requerit. No «haurien de». Han de. Van escriure aquesta norma perquè, quan la gent podia decidir per si mateixa, triava l'opció 3 i perdia més del que tenia. ⚠️",
+      "quiz": {
+        "q": "El teu nivell de marge ha baixat al 80% i estàs en una crida de marge. Quina resposta redueix realment el risc de liquidació en lloc de només endarrerir-lo?",
+        "explanation": "Tancar et retorna el dipòsit immediatament, així que el nivell de marge puja de cop. Afegir efectiu només compra espai per equivocar-te més temps en una operació que ja vas triar malament. Esperar és com passa la liquidació. I una segona posició en la direcció contrària necessita el seu propi dipòsit, així que fa servir més marge, no menys.",
+        "options": [
+          "Ingressar més efectiu al compte",
+          "Esperar que el nivell de marge torni a pujar",
+          "Tancar una de les posicions que tens obertes",
+          "Obrir una segona posició en la direcció contrària"
+        ]
+      }
+    },
+    "70": {
+      "title": "La liquidació, i el preu que hauries de saber primer",
+      "desc": "El preu exacte on el teu compte arriba a zero",
+      "content": "La liquidació és el proveïdor tancant-te les posicions perquè el teu dipòsit gairebé s'ha esgotat. És automàtica. És instantània. Ningú et demana l'opinió, ningú comprova si estaves a punt de tenir raó, i no hi ha recurs possible.\n\nEl número més útil de tot aquest mòdul és el teu PREU DE LIQUIDACIÓ: el preu real, en {cPlural}, al qual passa això.\n\nNo un percentatge. Un preu. Perquè «podries perdre el teu dipòsit» és una frase a la qual pots assentir i oblidar, mentre que «{tech} a {c}87.40 i el teu compte és buit» és un fet que pots comparar amb el gràfic abans de prémer res.\n\nTotes les pantalles d'aquesta sala te'l mostren abans de confirmar, dibuixat a la mateixa escala de preus que el gràfic perquè vegis com de lluny és realment. Notaràs dues coses de seguida, i totes dues són la lliçó:\n\n📏 Un dipòsit més gran allunya el preu de liquidació. Més diners teus a dins vol dir que el preu ha de caure més abans que s'acabin els teus diners.\n⚡ Un dipòsit més petit l'arrossega just al costat del preu d'avui. Amb un dipòsit del 10%, la liquidació és a més o menys un moviment del 10%, i un moviment del 10% és una setmana normal.\n\nI ara el parany honest. El preu de liquidació és on el motor té intenció de tancar-te, no on tens garantit sortir. Si una mala notícia arriba de nit i el mercat torna a obrir molt per sota d'aquest nivell, et tanquen al preu que el mercat pagui realment. Això és el gap (salt de preu), i de això va la lliçó 78.\n\nConeix el teu preu de liquidació abans d'obrir. Si no el pots dir en veu alta, no entens l'operació que estàs a punt de fer. 💀",
+      "quiz": {
+        "q": "Poses 200 NT de dipòsit per controlar 1,000 NT d'un actiu que val 100 NT. Arrossega el preu cap avall fins on el teu dipòsit desapareix.",
+        "explanation": "Controles 10 unitats, així que cada 1 NT que baixa el preu et costa 10 NT. El teu dipòsit de 200 NT desapareix a 80 NT, que és una caiguda de només el 20%."
+      }
+    },
+    "71": {
+      "title": "El camí de tornada fa més pujada",
+      "desc": "Per què les pèrdues costen més de desfer del que sembla",
+      "content": "Les pèrdues i els guanys semblen oposats. No ho són, i les matemàtiques ni s'hi acosten.\n\nPerds un 10%? Necessites un +11% per recuperar-te. Molest, però bé.\nPerds un 50%? Necessites un +100%. Has de DOBLAR només per quedar-te igual.\nPerds un 75%? Necessites un +300%.\nPerds un 90%? Necessites un +900%.\n\nEl motiu és senzill un cop el veus: el guany es calcula sobre la pila més petita que et queda. 100 baixa a 50, i per tornar de 50 a 100 aquesta pila més petita s'ha de doblar.\n\nAra afegeix-hi apalancament, i fixa't en què fa realment. No només fa que els teus guanys siguin més ràpids. Et fa baixar per aquesta taula en una sola tarda. Una caiguda del 12% d'una acció, que és una setmana dolenta però perfectament normal, és un cop del 48% al teu compte amb un dipòsit del 25%. Ara necessites un +92% per tornar on vas començar, per una setmana que gairebé ni va sortir a les notícies.\n\nPer això els professionals parlen de protegir el capital abans de parlar de qualsevol altra cosa, i per això «ja ho recuperaré» és la frase més cara del trading. Recuperar-ho és aritmèticament més difícil del que va ser perdre-ho, cada vegada. ⛰️",
+      "quiz": {
+        "q": "El teu compte ha baixat un 75%. Arrossega fins al guany que necessites a partir d'aquí només per tornar on vas començar.",
+        "explanation": "100 NT han baixat a 25 NT. Per tornar a 100, aquests 25 s'han de multiplicar per quatre, que és un guany del 300%. La pujada es mesura sobre la pila més petita que et queda, i per això fa molta més pujada que la caiguda."
+      }
+    },
+    "72": {
+      "title": "El lloguer dels diners prestats",
+      "desc": "Encertes la direcció i igualment perds en l'operació",
+      "content": "L'exposició te la van deixar. Així que la pagues. Cada nit.\n\nEl finançament (en alguns llocs en diuen swap, o comissió nocturna) es cobra cada dia, i aquí hi ha la part que enganxa tothom: es cobra sobre la posició SENCERA, no sobre la part que et van deixar. Posa 500 NT per controlar 2,000 NT i pagaràs lloguer sobre 2,000.\n\nCom es calcula: un tipus d'interès de referència, més el marge del proveïdor, dividit entre 365, multiplicat per la teva posició sencera. En aquesta app veus totes dues meitats a la pantalla, perquè una comissió que no pots desglossar és una comissió que no pots jutjar. A més o menys un 7.3% l'any, surt a un 0.02% de la teva posició per nit.\n\nSembla que no sigui res. Ara mira com es menja una operació guanyadora. 🧾\n\nL'OPERACIÓ QUE ENCERTES I IGUALMENT PERDS\n\nObres una posició de 2,000 NT sobre {retail} amb un dipòsit de 500 NT. Ets alcista, i resulta que tens raó: durant els mesos següents {retail} puja a poc a poc un 2%.\n\n• El teu guany: el 2% de 2,000 = 40 NT. Sobre un dipòsit de 500 NT això és un +8%. Genial.\n• El teu lloguer: el 0.02% de 2,000 = 0.40 NT, cada nit.\n\nNit 50: has pagat 20 NT. En total guanyes 20 NT. Encara vas guanyant.\nNit 100: has pagat 40 NT. Els teus 40 NT de benefici ara valen exactament zero. L'has encertat i no has guanyat res.\nNit 180: has pagat 72 NT. El teu guany continua sent de 40 NT. PERDS 32 NT, que és un -6.4% del teu dipòsit, en una operació on vas llegir bé el mercat durant sis mesos.\n\nTorna-ho a llegir. El preu va fer el que deies que faria. I igualment vas perdre.\n\nAquesta és la frase que t'has d'endur d'aquesta lliçó: en una posició apalancada, tenir raó té data de caducitat. En aquest exemple és a 100 nits, i pots calcular la teva abans d'obrir. Divideix el benefici que esperes entre el lloguer per nit. Aquestes són les nits que val la teva opinió.\n\nTambé val la pena fixar-se en el contrari. La resta d'aquesta app t'ensenya l'interès compost, on el temps et fa guanyar diners en silenci mentre dorms. Aquesta és la mateixa màquina, funcionant al revés, apuntant cap a tu. ⏳",
+      "quiz": {
+        "q": "Mantens una posició apalancada de 2,000 NT que et costa 0.40 NT per nit en finançament. El preu puja prou per donar-te un guany de 40 NT i després deixa de moure's. Després de quantes nits s'ha menjat del tot aquest guany?",
+        "options": [
+          "No se'l menja mai, perquè el finançament només es cobra sobre la part prestada",
+          "Unes 100 nits, perquè 40 NT de guany dividit entre 0.40 NT per nit fa 100",
+          "Unes 20 nits, perquè el finançament es cobra sobre el teu dipòsit de 500 NT",
+          "El finançament només es cobra quan una posició es tanca amb pèrdues"
+        ]
+      }
+    },
+    "73": {
+      "title": "Futurs: el rellotge i el rollover",
+      "desc": "El mateix cost, cobrat d'una altra manera",
+      "content": "Els futurs i els CFD són cosins. Tots dos són apalancats, tots dos fan servir marge, tots dos et poden liquidar. Dues coses fan diferents els futurs, i la segona és la interessant.\n\n⏰ 1. TENEN UNA DATA. Tot contracte de futurs venç. Petroli de març, blat de moro de juny, índex de setembre. Quan arriba la data, el contracte es liquida i deixa d'existir. «Aguantar i esperar que es recuperi» simplement no és al menú, perquè el contracte no hi serà. Un CFD no venç mai, cosa que sona millor fins que recordes que cobra lloguer per sempre.\n\n🔄 2. EL COST ESTÀ INCLÒS EN EL PREU, NO ES COBRA CADA NIT. Aquesta és la part que la gent no veu. Un futur normalment no et cobra una comissió de finançament cada nit. En canvi, el cost de mantenir la cosa fins a aquella data ja està inclòs en el preu del contracte. Els contractes de dates més llunyanes sovint costen més que els de dates més properes, i aquesta diferència és el mateix cost de manteniment, amagat dins del número.\n\nLlavors, què passa quan un trader vol mantenir la posició més enllà del venciment? Fa un ROLLOVER: tanca el contracte que venç i obre el següent. I si el següent és més car, paga aquesta diferència. A cada rollover. Això és el lloguer nocturn del CFD, cobrat en terminis més grans i menys freqüents.\n\nEl resum honest:\n\n• CFD: sense data límit, lloguer cada nit, detallat al teu extracte.\n• Futur: data límit estricta, cost amagat dins del preu i pagat a cada rollover, fàcil de no veure.\n\nCap dels dos és gratis. Un simplement presenta la factura de manera més educada, i un cost que no veus és el que més probablement et sorprendrà. ⏳",
+      "quiz": {
+        "q": "Un trader vol mantenir una posició de futurs més enllà de la data de venciment, i el contracte següent cotitza més car que el que venç. Què passa quan fa el rollover?",
+        "explanation": "Fer el rollover vol dir tancar el contracte que està a punt de vèncer i obrir el següent. Si el següent costa més, pagues aquesta diferència, i ho tornes a fer a cada rollover. És el mateix cost de manteniment que un CFD et cobra cada nit, cobrat en blocs més grans i amagat dins del preu en lloc d'imprès al teu extracte.",
+        "options": [
+          "Paga la diferència entre el contracte que venç i el següent",
+          "Cobra la diferència entre els preus dels dos contractes",
+          "No canvien de mans diners, ja que el rollover és una sola operació",
+          "La posició es converteix en un CFD i continua sense data de venciment"
+        ]
+      }
+    },
+    "74": {
+      "title": "Anar curt: la pèrdua sense terra",
+      "desc": "Per què l'aposta a la baixa no té un sostre natural",
+      "content": "Fins ara tot en aquesta app ha estat llarg: compres i vols que el preu pugi. Els derivats et permeten anar curt (short), que vol dir apostar que el preu baixarà. Obres un curt, el preu baixa, guanyes.\n\nAnar curt és realment útil i no és dolent. És com un pagès fixa un preu abans de la collita i com un fons protegeix una cartera. Entendre-ho et fa llegir millor els mercats, perquè per primera vegada pots veure les dues bandes de cada operació.\n\nPerò hi ha una peça d'aritmètica en anar curt que no té equivalent enlloc més, i te l'has de gravar a foc.\n\n📉 QUAN COMPRES, el pitjor cas és que el preu arribi a zero. Perds el 100% del que hi has posat. Terrible, però és un terra. Hi ha un fons.\n📈 QUAN VAS CURT, que el preu vagi en contra teu vol dir que el preu PUJA. I no hi ha cap norma enlloc que digui fins on pot pujar un preu. Una acció que es triplica et costa el 200% de la posició. Una acció que es multiplica per deu et costa el 900%.\n\nLes pèrdues en llarg tenen terra. Les pèrdues en curt no. Aquesta asimetria és tot l'avís.\n\nEls mercats reals fan això. De tant en tant una acció amb moltes posicions curtes es dispara, perquè tothom qui va curt està obligat a comprar per tancar, cosa que empeny el preu més amunt, cosa que obliga més gent a comprar. S'anomena short squeeze i ha enfonsat fons sencers.\n\nDues coses et mantenen viu. Primer, una posició curta és exactament on un stop-loss deixa de ser opcional. Segon, la protecció contra saldo negatiu: en un compte minorista ben regulat, i en aquesta app, el teu compte no pot baixar de zero. Pots perdre tot el que hi has posat. No pots acabar devent diners. Aquesta protecció existeix perquè, abans que hi fos, la gent n'acabava devent. 🕳️",
+      "quiz": {
+        "q": "Per què el pitjor cas d'una posició curta és d'una naturalesa diferent del pitjor cas d'una posició llarga?",
+        "explanation": "Comprar té un terra. El pitjor que pot fer un preu és arribar a zero, així que perds el que hi has posat i res més. Anar curt és al revés, perquè perdre vol dir que el preu puja, i res no diu fins on pot pujar un preu. Una acció que es triplica li costa a qui va curt el doble de la posició. Per això un stop deixa de ser opcional en un curt, i per això aquesta app no et pot deixar per sota de zero.",
+        "options": [
+          "No és diferent, ja que tots dos tenen el límit en el que hi has posat",
+          "Un stop-loss posa el mateix terra sota un curt que sota un llarg",
+          "Les caigudes són més lentes que les pujades, així que un curt perd més a poc a poc",
+          "Un preu només pot baixar fins a zero, però pot pujar sense límit"
+        ]
+      }
+    },
+    "75": {
+      "title": "Volatilitat per apalancament",
+      "desc": "Per què la cripto necessita el dipòsit més gran d'aquí",
+      "content": "El mateix multiplicador en dos actius diferents no és la mateixa aposta. Aquesta és tota la idea d'aquesta lliçó, i és per què el dipòsit que has de posar canvia segons el que operes.\n\nPensa en com és un dia normal:\n• Un gran índex es mou menys d'un 1% la majoria de dies.\n• Una acció individual potser es mou un 2% o un 3%.\n• La cripto es mou sovint un 5% o un 10%, i un dia del 20% no és una crisi, és un dimarts qualsevol. 🎢\n\nAra posa un dipòsit petit darrere de cadascun. Amb un dipòsit del 10%, un moviment del 10% t'escombra. Per a l'índex, això passa una vegada cada molts anys. Per a la cripto, més o menys cada mes. El mateix dipòsit. Probabilitats de sobreviure totalment diferents.\n\nEls reguladors ho van entendre i ho van escriure a les normes. Quan l'ESMA va limitar l'apalancament dels CFD a tot Europa el març del 2018, no va triar un sol número. Els va escalonar: 30:1 en els parells de divises principals, 20:1 en l'or i els índexs principals, 10:1 en altres matèries primeres, 5:1 en accions individuals, i a la part més baixa de tot, 2:1 en cripto. Dos a un vol dir un dipòsit del 50%. Per a la cripto van exigir la MEITAT de la posició en diners reals, el percentatge més estricte de tota la llista.\n\nAquesta app fa el mateix, pel mateix motiu, i ho diu a la pantalla en lloc d'amagar-ho:\n\n💱 Divises: el dipòsit més petit, perquè els parells principals són els que menys es mouen.\n🥇 Or i matèries primeres: més gran.\n📊 Accions, índexs i ETF: encara més gran.\n🪙 Cripto: el dipòsit més gran de tots, perquè la cripto és la que es mou més fort.\n\nLa cripto no està prohibida aquí, i és deliberat. La pots operar. Només que no la pots operar amb un dipòsit prim, perquè amb un dipòsit prim un dia normal de cripto acabaria amb el teu compte abans que acabessis de llegir-ne la notícia. El dipòsit més gran no és l'app posant-se difícil amb la cripto. És l'app assegurant-se que un dia normal no et pot liquidar.\n\nVal la pena saber-ho: el regulador del Regne Unit va anar més enllà d'un escalonament. El 2021 va prohibir del tot els derivats de cripto per als clients minoristes, i va calcular que els consumidors s'estalviarien uns £53m. Pots conèixer l'apalancament en cripto aquí, amb diners de mentida i un dipòsit ben gruixut, o el pots conèixer als divuit anys amb diners reals i sense cap avís. Aquest és l'ordre millor. 🌡️",
+      "quiz": {
+        "q": "La cripto exigeix el dipòsit més gran de tots els actius d'aquesta sala. Quin és el motiu real?",
+        "explanation": "Un gran índex es mou menys d'un 1% la majoria de dies. La cripto es mou sovint un 5% o un 10%, i un dia del 20% no és una crisi, és un dimarts qualsevol. Amb un dipòsit prim, un moviment del 10% t'escombra, cosa que per a l'índex passa una vegada cada molts anys i per a la cripto més o menys cada mes. El regulador europeu va exigir la meitat de la posició en diners reals per a la cripto, el percentatge més estricte de tota la seva llista, exactament per aquest motiu.",
+        "options": [
+          "Els menors de 18 anys tenen prohibida la cripto, així que el dipòsit és una penalització",
+          "A la cripto no es cobra finançament, així que el dipòsit el substitueix",
+          "És la que es mou més fort, així que un dia normal pot buidar un dipòsit prim",
+          "L'app fixa ella mateixa els preus de la cripto en lloc del mercat"
+        ]
+      }
+    },
+    "76": {
+      "title": "Els números que ningú anuncia",
+      "desc": "El que van trobar els reguladors quan van comptar",
+      "content": "Aquests números no els veuràs mai en un anunci. Venen dels reguladors financers, que poden exigir les dades reals dels comptes a les empreses i que després publiquen el que han trobat.\n\n🇪🇺 L'ESMA, el regulador europeu, març del 2018. Als països de la UE, entre el 74% i el 89% dels comptes minoristes de CFD perden diners. Les pèrdues mitjanes per client anaven dels €1,600 als €29,000. L'ESMA va restringir el producte basant-se en això.\n\n🇬🇧 L'FCA al Regne Unit, desembre del 2016. La seva anàlisi d'una mostra representativa de comptes de clients va trobar que el 82% dels clients perdien diners amb aquests productes.\n\n🇦🇺 L'ASIC a Austràlia, publicat el gener del 2026, el més recent dels tres. A l'exercici fiscal 2024, el 68% dels inversors minoristes en CFD van perdre diners, en total més de A$458 milions. D'això, A$73 milions eren comissions.\n\nPensa un moment en aquesta última línia. Setanta-tres milions ni tan sols eren males operacions. Era el preu de jugar: el diferencial (spread) en entrar, i el finançament que vas conèixer a la lliçó 72.\n\nTres reguladors diferents, tres països diferents, dades de tres dècades diferents, i la resposta sempre cau en algun punt entre dos terços i nou desenes.\n\nAra la part que més importa, perquè és el que evita que això sigui una estadística per fer por. Aquesta gent no era estúpida. No eren mandrosos. Eren majoritàriament adults amb feina, i molts d'ells llegeixen un gràfic millor que tu ara mateix. Van perdre per com està construït el producte: comences per darrere pel diferencial, pagues lloguer mentre esperes, i l'apalancament fa que un moviment normal et pugui liquidar abans que la teva opinió hagi tingut temps de ser correcta.\n\nAixò és una estructura, no un defecte de caràcter. I les estructures només les poden vèncer les persones que saben que hi són. 📊",
+      "quiz": {
+        "q": "Els reguladors d'Europa, el Regne Unit i Austràlia van trobar, cadascun, que la majoria dels comptes minoristes de CFD perden diners. Quina és l'explicació honesta?",
+        "explanation": "Eren adults normals amb feina, i molts d'ells llegeixen un gràfic millor que tu avui. Van perdre per com funciona el producte: comences per darrere pel diferencial, pagues lloguer cada nit mentre esperes, i l'apalancament fa que un moviment normal et pugui liquidar abans que la teva visió hagi tingut temps d'encertar. Això és una estructura, no un defecte de caràcter, i les estructures les poden vèncer les persones que saben que hi són.",
+        "options": [
+          "La manera com està construït el producte juga en contra del client",
+          "Els que van perdre eren descuidats, i els traders curosos no tenen problemes",
+          "Empreses rivals van publicar els números com a atac de màrqueting",
+          "Pèrdues d'aquesta escala venen de països sense regulació"
+        ]
+      }
+    },
+    "77": {
+      "title": "Què va canviar quan van canviar les normes",
+      "desc": "La prova que era el disseny, no la gent",
+      "content": "La lliçó 76 et va donar les pèrdues. Aquesta lliçó et dona l'experiment, i és el més important d'aquest mòdul.\n\nSi la majoria de gent perd perquè la majoria de gent és imprudent, canviar les normes no hauria de canviar res. Els imprudents continuarien sent imprudents. Oi?\n\nAustràlia va fer la prova. El març del 2021, l'ASIC va imposar un paquet de proteccions a totes les empreses de CFD amb clients minoristes: límits d'apalancament, una norma estàndard de tancament automàtic, protecció contra saldo negatiu i la prohibició d'incentius com els bons de registre. Els mateixos clients. Les mateixes empreses. Els mateixos mercats. Només van canviar les normes.\n\nAixò és el que va mesurar l'ASIC en els primers sis mesos. 🔬\n\n📉 Les pèrdues netes totals dels comptes minoristes van baixar un 91%, d'una mitjana de A$372 milions per trimestre a A$33 milions.\n📉 Un 51% menys de comptes minoristes amb pèrdues per trimestre.\n📉 Un 87% menys de tancaments per marge.\n📉 Un 88% menys de casos de saldo negatiu.\n\nNingú es va tornar més llest en sis mesos. Va canviar el disseny, i nou desenes dels danys van desaparèixer amb ell.\n\nD'aquí en surten dues coses, i te les has d'endur totes dues.\n\nPrimera: quan perds en una operació apalancada, bona part del que t'ha passat ja estava integrat en el producte abans que hi arribessis. Això no és permís per ser descuidat. És un motiu per respectar-lo.\n\nSegona, i aquesta és la meitat útil: les proteccions que van fer la feina són exactament els hàbits que t'ha anat ensenyant aquest mòdul. Una posició més petita. Una sortida automàtica. Un terra ferm sota els danys. Un regulador va haver d'imposar-los a tota una indústria per aconseguir aquest 91%. Tu simplement els pots triar. 🛡️",
+      "quiz": {
+        "q": "Després que Austràlia imposés límits d'apalancament i tancaments automàtics a les empreses de CFD, les pèrdues minoristes van baixar un 91% en sis mesos. Què demostra això?",
+        "explanation": "Els mateixos clients, les mateixes empreses, els mateixos mercats. Només van canviar les normes, i nou desenes dels danys se'n van anar amb elles. Ningú es va tornar més llest en sis mesos. Les proteccions que van fer la feina són els hàbits que aquest mòdul no para d'ensenyar-te: una posició més petita, una sortida automàtica i un terra ferm sota els danys. Un regulador els va haver d'imposar a tota una indústria. Tu simplement els pots triar.",
+        "options": [
+          "Els traders australians són més disciplinats que els europeus",
+          "L'apalancament es torna segur quan un regulador el vigila",
+          "Les normes van impedir que la gent operés, així que no hi havia res a perdre",
+          "La majoria dels danys venien del disseny del producte"
+        ]
+      }
+    },
+    "78": {
+      "title": "El gap que salta el teu stop",
+      "desc": "Un stop és una instrucció per sortir, no un preu promès",
+      "content": "Ja vas conèixer els stop-loss a la lliçó 19. Això és el que els fa l'apalancament.\n\nUn stop-loss és una instrucció: «si el preu arriba a aquest nivell, treu-me'n». No és un contracte sobre el preu que obtindràs. Diu surt. No diu surt exactament aquí.\n\nLa majoria de vegades aquesta distinció no importa, perquè els preus es mouen a passos petits i la teva ordre s'executa a prop del teu nivell. Però algunes vegades importa moltíssim.\n\n📰 Els mercats tanquen. Una notícia arriba a les 11 de la nit. El mercat torna a obrir un 8% per sota del tancament, i mai no ha cotitzat a cap dels preus intermedis. El teu stop era dins d'aquest buit. Salta a l'obertura i s'executa allà on sigui realment el mercat, que és molt més enllà del nivell que havies triat.\n\nSense apalancament, això és un mal dia. Amb apalancament, pot ser tot el compte, perquè si el teu dipòsit era més prim que el gap, el gap travessa directament també el teu preu de liquidació, i et tanquen per sota del nivell que el motor tenia previst.\n\nTres coses a fer amb això, cap de complicada:\n\n1️⃣ No tractis un stop com una garantia. Tracta'l com un hàbit molt bo amb una debilitat coneguda.\n2️⃣ Sàpigues quan està tancat el teu mercat i què hi ha programat. Els resultats empresarials, les decisions sobre tipus d'interès i les eleccions són gaps amb entrada a l'agenda.\n3️⃣ Dimensiona perquè un gap no et pugui liquidar. Aquesta és la defensa de veritat, i és la lliçó següent. Un stop et protegeix del que és normal. La mida de la posició et protegeix del que és inusual, i l'inusual és el que realment escombra la gent.\n\nI val la pena saber que en aquesta app, com en qualsevol compte minorista ben regulat, la protecció contra saldo negatiu fa que un gap no et pugui deixar per sota de zero. Pots perdre el compte. No pots acabar devent res. 📰",
+      "quiz": {
+        "q": "Poses un stop-loss a {c}90. Durant la nit arriba una mala notícia i el mercat torna a obrir a {c}78, sense haver cotitzat mai entremig. Què passa?",
+        "explanation": "Un stop és una instrucció per sortir, no una promesa sobre el preu que obtindràs. El mercat mai no va cotitzar entre {c}90 i {c}78, així que no quedava cap {c}90 al qual vendre. El teu stop salta a l'obertura i s'executa allà on sigui realment el mercat. Els stops et continuen protegint dels moviments normals. La defensa contra un salt com aquest és la mida de la posició, no l'stop.",
+        "options": [
+          "El teu stop s'executa a {c}90, exactament on el vas posar",
+          "S'executa a prop de {c}78, el primer preu disponible",
+          "L'ordre es cancel·la, perquè el preu se l'ha saltat",
+          "El proveïdor et paga els {c}12 que s'ha saltat el mercat"
+        ]
+      }
+    },
+    "79": {
+      "title": "Primer la mida, després l'operació",
+      "desc": "Decideix què pots perdre abans de decidir què compres",
+      "content": "Aquesta és la cosa que separa la gent que dura de la que no, i és gairebé avorrida.\n\nEls principiants trien l'operació i després calculen quant hi posen. Els professionals ho fan al revés. Primer decideixen què estan disposats a perdre, i deixen que això decideixi com de gran pot ser la posició.\n\nLa norma que fan servir la majoria: arriscar de l'1% al 2% del compte en cada operació. No dipositar un 1%. ARRISCAR un 1%, és a dir, el que perds realment si salta el teu stop.\n\nCom funciona, en tres passos:\n\n1️⃣ Tria la teva pèrdua màxima. Compte de 10,000 NT, arriscant un 1%, per tant 100 NT.\n2️⃣ Tria on t'equivoques. Sortiràs si el preu baixa un 5% des de la teva entrada.\n3️⃣ Divideix. 100 NT de pèrdua acceptable, amb un stop a un 5% de distància, vol dir una posició de 2,000 NT. Aquesta és la teva mida. No una sensació. Un càlcul.\n\nCanvia l'stop i la mida canvia automàticament. Un stop més ajustat del 2% et permet 5,000 NT. Un stop més ampli del 10% t'obliga a baixar a 1,000 NT. Com més arriscada és l'operació, més petita ha de ser, i l'aritmètica ho fa per tu perquè no ho hagi de fer el teu estat d'ànim.\n\nPer què un 1%? Perquè fa que una ratxa de pèrdues sigui supervivible. Deu pèrdues seguides a un 1% et deixen amb el 90% del compte i de mal humor. Deu pèrdues seguides a un 20% et deixen amb un 11% del compte i sense camí de tornada, i ja saps per la lliçó 71 com fa de pujada aquest camí.\n\nNingú sobreviu als mercats triant guanyadors. Tothom qui sobreviu ho fa assegurant-se que cap pèrdua sola el pugui liquidar. 📐",
+      "quiz": {
+        "q": "Un compte de 10,000 NT. En aquesta operació arriscaràs un 1%, i sortiràs si el preu baixa un 5% des de la teva entrada. Arrossega fins a la mida de posició que ho respecta.",
+        "explanation": "L'1% de 10,000 NT són 100 NT, i això és el màxim que has acordat perdre. Un stop del 5% vol dir 100 NT dividit entre el 5%, que és una posició de 2,000 NT. Si arrossegues més amunt, l'indicador et mostra que arrisques més del que havies decidit."
+      }
+    },
+    "80": {
+      "title": "Per què guanyar sembla talent",
+      "desc": "Els jocs mentals que et fa l'apalancament",
+      "content": "L'apalancament no és principalment un problema de matemàtiques. Les matemàtiques són fàcils. És un problema de cap, i aquí tens els tres que enganxen tothom.\n\n🎯 1. BIAIX DE RESULTAT: guanyar sembla talent. Obres una posició exageradament gran, surt bé, guanyes molt en una tarda, i el teu cervell apunta «soc bo en això». No ha registrat el que va passar realment, que és que vas assumir un mal risc i vas obtenir un bon resultat. Són coses diferents, i el mercat et pagarà encantat per una mala decisió unes quantes vegades abans de passar factura. El més perillós que li pot passar a un trader nou és una victòria aviat i fàcil.\n\n😤 2. OPERAR PER VENJANÇA: ho vols recuperar, ja. Tens una pèrdua, et cou, i les ganes són immediates. Així que augmentes la mida. Ara estàs obrint la teva posició més gran just en el moment en què el teu judici està pitjor, en una operació que has triat perquè estaves enfadat i no perquè fos bona. El mercat no sap que vas perdent i no et deu res. Quan sentis això, la mida correcta és zero. Tanca l'app.\n\n🕳️ 3. PERSEGUIR PÈRDUES: «només l'aguantaré fins que es recuperi». Aquest es disfressa de paciència, i per això costa tant de detectar. La paciència és un pla que vas fer amb calma abans. Perseguir és un pla que t'has inventat després que el preu anés en contra teu, i el senyal és senzill: la teva sortida s'ha mogut. Si et trobes explicant per què el nivell que vas fixar ja no és el nivell correcte, això no és una nova anàlisi. És el teu ego negociant.\n\nLa defensa contra tots tres és la mateixa i no té res de glamurosa. Decideix-ho tot mentre estàs tranquil, escriu-ho, i tracta la versió de tu que apareix a mitja operació com un narrador poc fiable. 🧠",
+      "quiz": {
+        "q": "Obres una posició molt més gran del normal i fa un gran benefici en una sola tarda. Quina és la manera més precisa d'interpretar-ho?",
+        "explanation": "El teu cervell apunta que ets bo en això. El que va passar realment és que vas assumir un mal risc i el mercat, per casualitat, et va pagar igualment, i això són dues coses separades. El mercat pagarà una mala decisió unes quantes vegades abans de passar factura. Una victòria aviat i fàcil és el més perillós que li pot passar a un trader nou, perquè li ensenya la lliçó equivocada i li passa factura més endavant.",
+        "options": [
+          "És un enfocament que funciona, i pots tornar a augmentar la mida",
+          "La mida era correcta, perquè el benefici ho demostra",
+          "Vas assumir un mal risc i per casualitat vas obtenir un bon resultat",
+          "Els grans guanys mostren talent, i són les pèrdues les que mostren errors"
+        ]
+      }
+    },
+    "81": {
+      "title": "La pregunta honesta",
+      "desc": "L'hauries de fer servir?",
+      "content": "Has acabat el mòdul. Aquesta és la pregunta que els anuncis no fan mai.\n\nHauries de fer servir l'apalancament?\n\nPer a la majoria de gent, la majoria del temps, la resposta honesta és que no. No perquè no siguin prou llestos. Per tot el que hi ha a les últimes quinze lliçons: comences per darrere, pagues lloguer mentre esperes, un moviment normal et pot liquidar abans que es demostri que tenies raó, i tres reguladors que van comptar comptes reals van trobar una vegada i una altra que entre dos terços i nou desenes de la gent perdia.\n\nHi ha una versió del trading en què no toques res d'això. Compres una acció, ets propietari d'un tros d'una empresa, arriben dividends, el temps treballa A FAVOR teu en lloc d'en contra, i res no pot tancar mai la teva posició sense preguntar-te. Això és la resta d'aquesta app, i no és l'opció avorrida. És l'opció que, segons les matemàtiques de la lliçó 14, normalment guanya. 🌱\n\nAixí que això és el que hauries de saber abans de decidir.\n\nRes d'aquesta app està bloquejat darrere de l'apalancament. Cada competició, cada classificació, cada via d'XP, cada partit escolar i cada recompensa NOOB continuen totalment oberts per a algú que no obri mai cap posició apalancada. No perds res per marxar d'aquesta sala. No hi ha cap penalització ni cap insígnia que et falti.\n\nI res aquí dins et paga per guanyar. Se't recompensa per acabar les lliçons, per aprovar la prova, per posar un stop, per tallar una posició perdedora i per analitzar per escrit la teva pròpia liquidació. Mai se't paga per un benefici, una posició gran o una ratxa de sort, perquè pagar-te per això seria ensenyar-te el que no toca i dir-ne educació.\n\nSi el fas servir: fes-lo servir en petit, amb un stop, coneix el teu preu de liquidació abans de prémer res, i mai amb diners que trobaries a faltar. Si no el fas servir, igualment has après a veure la maquinària, que sempre va ser l'objectiu. La majoria d'adults que operen amb aquestes coses no saben explicar el que acabes d'aprendre. 🤔",
+      "quiz": {
+        "q": "A què renuncia un estudiant si decideix no obrir mai una posició apalancada en aquesta app?",
+        "explanation": "Res d'aquesta app està bloquejat darrere de l'apalancament. Cada competició, cada classificació, cada via d'XP, cada partit escolar i cada recompensa NOOB continuen oberts per a algú que no obri mai cap posició apalancada. No hi ha cap penalització ni cap insígnia que falti. I res en aquesta sala et paga per guanyar: paga per acabar les lliçons, aprovar la prova, posar un stop i tallar una posició perdedora.",
+        "options": [
+          "A res de res, totes les vies continuen obertes",
+          "A totes les competicions i classificacions de l'app",
+          "A l'XP d'aquest mòdul, que es paga per operacions apalancades",
+          "A les recompenses NOOB, que primer necessiten una posició apalancada"
+        ]
+      }
+    },
+    "82": {
+      "title": "L'esclat",
+      "desc": "Cinc dies, un pla agressiu, un compte buit",
+      "content": "Benvingut al Laboratori. Aquí dins tens un compte de pràctiques aïllat de 1,000 LAB NT. No és el teu moneder, no pot tocar el teu moneder, i res del que es guanyi o es perdi aquí dins en surt. L'instrument és NOVA. NOVA és inventat, perquè ningú ens pugui acusar de predir una caiguda real. Percentatge de dipòsit: 25%. Finançament: 0.02% per nit. Tancament al 50% del marge utilitzat. I només per a aquest boss, els límits de posició estan desactivats. A propòsit. Una sola vegada.\n\nAquesta és la setmana que estàs a punt d'explicar.\n\n📅 DIA 1: NOVA a 100. Bons resultats, el xat del grup va ple. Hi poses 800 dels teus 1,000 NT, i controles 3,200 NT de NOVA. Sense stop.\n\n📅 DIA 2: NOVA a 106. Guanyes 192 NT, que és un +19.2% del teu compte en un dia. Hi afegeixes els teus últims 200 NT. Exposició: 4,000 NT. Efectiu lliure: zero. Encara sense stop.\n\n📅 DIA 3: NOVA a 101.76. Nivell de marge: 103%. Encara guanyes en la setmana, així que aguantes.\n\n📅 DIA 4: NOVA a 94.64. CRIDA DE MARGE. Nivell de marge: 75%, patrimoni: 750 NT. No pots afegir-hi res, perquè no et queda res per afegir. Aguantes.\n\n📅 DIA 5: NOVA fa un gap a la baixa del 9% durant la nit i torna a obrir a 86.12, per sota del nivell de tancament. LIQUIDAT a 390 NT.\n\nEn tota la setmana NOVA va baixar un 13.9%. El teu compte va baixar un 61%. L'estudiant que hi va posar 250 NT amb un stop a 95 va acabar la mateixa setmana amb uns 949 NT, un 5% menys. I els mateixos 800 NT sense stop però sense l'afegit del dia 2 haurien acabat a 550 NT: una crida de marge, però viu.\n\nAra l'anàlisi. Deu preguntes sobre el que acaba de passar. Treu 8 de 10 i hauràs vençut el boss, perquè aquí dins aprovar vol dir saber explicar el desastre, no evitar-lo. 💀",
+      "bossVictory": "Has fet esclatar un compte i n'has sortit sabent per què. Aquest és tot el mòdul. 💀",
+      "bossQuestions": {
+        "0": {
+          "q": "En els cinc dies NOVA va baixar un 14% aproximadament. El teu compte va baixar un 61%. Per què la diferència?",
+          "options": [
+            "L'app va cobrar una penalització per perdre",
+            "Tenies una exposició d'unes quatre vegades el que valia el teu dipòsit, així que cada moviment afectava una xifra quatre vegades més gran que el teu compte",
+            "El finançament va ser la major part de la pèrdua",
+            "NOVA és una acció més arriscada del que diuen els números"
+          ]
+        },
+        "1": {
+          "q": "El dia 2 guanyaves 192 NT, que era un 19.2% del teu compte en un sol dia. Què et deia realment això?",
+          "options": [
+            "Que la teva lectura era correcta i havies d'augmentar la mida",
+            "Que la posició tenia una bona mida, ja que donava beneficis",
+            "Que l'apalancament és segur quan tens raó",
+            "Que la posició era prou gran per moure el teu compte un 19% en un dia, és a dir, prou gran per fer el mateix en la direcció contrària"
+          ]
+        },
+        "2": {
+          "q": "El dia 2 vas afegir els teus últims 200 NT a la posició guanyadora. Què et va costar?",
+          "options": [
+            "Totes dues meitats de la teva seguretat: va pujar l'exposició de 3,200 a 4,000, i va gastar l'únic efectiu lliure que podia haver respost a una crida de marge",
+            "Res, perquè afegir a una posició guanyadora és com els professionals fan créixer els guanys",
+            "Només els 200 NT mateixos, que la posició hauria recuperat",
+            "Una mica de finançament, ja que el lloguer nocturn va créixer lleugerament"
+          ]
+        },
+        "3": {
+          "q": "El teu nivell de marge va arribar al 103% el dia 3. Què volia dir aquest número?",
+          "options": [
+            "Estaves finançat al 103%, així que la posició tenia garantia de sobres i era segura",
+            "El teu compte guanyava un 3% en la setmana",
+            "El teu patrimoni amb prou feines cobria els dipòsits posats, així que el coixí ja no hi era i el següent moviment començaria a menjar-se el dipòsit mateix",
+            "Res per si sol, perquè el nivell de marge només importa quan és per sota del 50%"
+          ]
+        },
+        "4": {
+          "q": "A la crida de marge del dia 4, tancar hauria consolidat una pèrdua de 250 NT. Vas aguantar. Per què aguantar és la resposta que tria la majoria de gent?",
+          "options": [
+            "Perquè aguantar sol ser la resposta matemàticament correcta a una crida de marge",
+            "Perquè tancar vol dir admetre que l'operació era dolenta, i aguantar et deixa continuar creient que encara no s'ha acabat",
+            "Perquè les crides de marge normalment es resolen soles en un dia",
+            "Perquè el proveïdor recomana aguantar per no materialitzar les pèrdues"
+          ]
+        },
+        "5": {
+          "q": "Et van liquidar a 390 NT, però el nivell de tancament era de 500 NT de patrimoni. Per què vas acabar per sota?",
+          "options": [
+            "El proveïdor va cobrar una penalització de liquidació de 110 NT",
+            "NOVA va fer un gap a la baixa del 9% durant la nit i va tornar a obrir per sota del nivell, així que el tancament es va executar al primer preu que el mercat va oferir realment",
+            "El finançament es va descomptar de cop en el moment de la liquidació",
+            "El nivell de tancament només és una estimació i normalment es falla per aquesta diferència"
+          ]
+        },
+        "6": {
+          "q": "L'estudiant que hi va posar 250 NT i un stop a 95 va acabar la mateixa setmana amb uns 949 NT. Què va fer bé?",
+          "options": [
+            "Va decidir la seva pèrdua màxima abans d'obrir, i va deixar que això decidís la mida",
+            "Va llegir millor el gràfic de NOVA i va veure venir la caiguda",
+            "Es va estalviar el finançament fent servir un dipòsit més petit",
+            "Va tenir sort, perquè les mateixes decisions normalment perden"
+          ]
+        },
+        "7": {
+          "q": "Vas pagar finançament cada nit sobre els 4,000 NT sencers d'exposició. En aquesta operació, quant va importar?",
+          "options": [
+            "Va ser la major part de la pèrdua, perquè el finançament es capitalitza cada nit",
+            "Res, perquè el finançament només es cobra sobre posicions que sobreviuen un mes",
+            "Només uns quants NT, perquè l'operació va ser curta. El finançament és el que mata la posició que no va enlloc durant mesos, no la que esclata en una setmana",
+            "Uns 192 NT, el mateix que el guany del dia 2"
+          ]
+        },
+        "8": {
+          "q": "Aquí totes les decisions estaven permeses. Al CFD Hub la majoria no ho estaran. Per què?",
+          "options": [
+            "Perquè els límits fan que l'app sigui més barata de mantenir",
+            "Perquè els reguladors exigeixen un mode de pràctica abans de qualsevol operació simulada",
+            "Perquè els menors de 18 anys no poden veure una liquidació dues vegades",
+            "Acabes de veure com un dipòsit del 80% en una sola posició i un efectiu lliure de zero destrossaven un compte en cinc dies, i els límits existeixen per fer impossible exactament aquesta seqüència"
+          ]
+        },
+        "9": {
+          "q": "Quina és la cosa més útil que t'has d'endur d'aquí?",
+          "options": [
+            "Que la mida de la posició, decidida abans d'obrir-la, importa més que encertar la direcció",
+            "Que NOVA era una mala acció per triar, i una millor recerca hauria salvat el compte",
+            "Que ningú hauria de tocar mai l'apalancament sota cap circumstància",
+            "Que les crides de marge són imprevisibles, així que no hi podies fer res"
+          ]
+        }
+      }
+    },
+    "83": {
+      "title": "La llicència",
+      "desc": "Deu preguntes. Vuit encerts per aprovar.",
+      "content": "La Llicència és l'examen cap al qual ha anat construint aquest mòdul. Deu preguntes, i cadascuna és un càlcul o una decisió sobre una posició que sembla real, perquè el CFD Hub tampoc funciona amb definicions.\n\nNota per aprovar: 8 de 10. Tens 3 intents al dia. Et diem la puntuació però no quines preguntes has fallat, així que un intent suspès és un senyal per rellegir el mòdul, no per tornar a endevinar.\n\nAquí res és una trampa. Cada número surt directament de les lliçons que tens al darrere. Si pots fer aquestes deu, entens aquest mòdul millor que la majoria d'adults que operen amb aquests productes de veritat. 🎫",
+      "bossVictory": "Pots mirar la pantalla real, amb números reals, i dir que no. Això és la llicència. 🎫",
+      "bossQuestions": {
+        "0": {
+          "q": "El teu compte és de 1,000 NT i no tens res més obert. Poses els 1,000 NT sencers com a dipòsit amb un percentatge del 25%, i controles 4,000 NT de {tech} a 200 NT per acció. El tancament salta al 50% del teu dipòsit. A quin preu ha de cotitzar {tech} perquè et tanquin?",
+          "options": [
+            "150 NT, una caiguda del 25%, igual que el percentatge de dipòsit",
+            "100 NT, una caiguda del 50%, igual que la norma de tancament",
+            "175 NT, una caiguda del 12.5%, perquè perdre 500 NT sobre 4,000 NT d'exposició requereix un moviment del 12.5%",
+            "195 NT, una caiguda del 2.5%"
+          ]
+        },
+        "1": {
+          "q": "Una posició de 3,000 NT costa un 0.02% per nit en finançament. Esperes un moviment del 3% a favor teu, que val 90 NT. Quantes nits val aquesta visió abans que el finançament se la mengi?",
+          "options": [
+            "Unes 50 nits",
+            "Unes 150 nits, perquè 90 NT dividit entre 0.60 NT per nit fa 150",
+            "Unes 300 nits",
+            "No se la menja mai, perquè el finançament només s'aplica a posicions perdedores"
+          ]
+        },
+        "2": {
+          "q": "El teu compte és de 5,000 NT. Arriscaràs un 2% en una operació, i sortiràs si el preu es mou un 4% en contra teu. Quina és la posició més gran que hauries d'obrir?",
+          "options": [
+            "100 NT, la quantitat que arrisques",
+            "1,000 NT, una cinquena part del compte",
+            "5,000 NT, perquè l'stop protegeix el compte igualment",
+            "2,500 NT, perquè 100 NT de pèrdua acceptable dividit entre un stop a un 4% de distància dona la mida"
+          ]
+        },
+        "3": {
+          "q": "Una posició ha fet baixar el teu compte de 1,000 NT a 400 NT. Quin rendiment necessites a partir d'aquí només per tornar a 1,000 NT?",
+          "options": [
+            "Un 150%, perquè 400 NT han de créixer una vegada i mitja ells mateixos per arribar a 1,000",
+            "Un 60%, el mateix percentatge que vas perdre",
+            "Un 100%, perquè doblar sempre et fa recuperar",
+            "Un 250%, el doble del que vas perdre"
+          ]
+        },
+        "4": {
+          "q": "La targeta en directe diu: nivell de marge 82%, efectiu lliure 0, una posició oberta i un 18% en negatiu. Quina jugada redueix realment el risc de liquidació?",
+          "options": [
+            "Afegir efectiu al compte",
+            "Aguantar i esperar que el nivell es recuperi",
+            "Tancar una posició, cosa que allibera immediatament el marge que feia servir",
+            "Obrir una segona posició en la direcció contrària per compensar-la"
+          ]
+        },
+        "5": {
+          "q": "Vas curt en {tech} a 50 NT amb una posició de 2,000 NT. Una opa li fixa un nou preu durant la nit de 150 NT. Com es compara aquesta pèrdua amb el pitjor cas d'una posició llarga de la mateixa mida?",
+          "options": [
+            "És la mateixa, perquè totes dues tenen el límit en el que hi vas posar",
+            "El curt perd 4,000 NT, el doble del valor de la posició, mentre que un llarg mai no podria perdre més que els 2,000 NT de la posició",
+            "El curt no perd res si hi havia un stop-loss, perquè els stops estan garantits",
+            "La pèrdua del curt és més petita, perquè els preus baixen més ràpid del que pugen"
+          ]
+        },
+        "6": {
+          "q": "El teu stop és a 90 NT. Durant la nit arriba una notícia i el mercat torna a obrir a 78 NT sense haver cotitzat mai entremig. Què passa, i quina és la defensa real contra això?",
+          "options": [
+            "S'executa a 90 NT, perquè això és el que garanteix un stop",
+            "L'ordre es cancel·la, perquè el preu s'ha saltat el teu nivell",
+            "S'executa a prop de 78 NT, i la defensa contra els gaps és la mida de la posició, no l'stop",
+            "El proveïdor et deu la diferència entre 90 i 78"
+          ]
+        },
+        "7": {
+          "q": "Per què la cripto té el requisit de dipòsit més gran del CFD Hub?",
+          "options": [
+            "És la que es mou més fort, així que un dia de cripto totalment normal buidaria un dipòsit prim",
+            "A la cripto no se li cobra finançament, així que el dipòsit el substitueix",
+            "La cripto està prohibida per als menors de 18 anys i el dipòsit és la penalització",
+            "Els preus de la cripto els fixa l'app en lloc del mercat"
+          ]
+        },
+        "8": {
+          "q": "Quina d'aquestes coses guanya XP en aquest mòdul?",
+          "options": [
+            "Un guany del 40% en una posició apalancada",
+            "Fer servir la màxima exposició disponible",
+            "Una ratxa de cinc operacions guanyadores",
+            "Tancar una posició perdedora en lloc d'afegir-hi més"
+          ]
+        },
+        "9": {
+          "q": "La previsualització prèvia a l'operació diu que un moviment en contra del 10% treu 620 NT del teu compte, que és el 62% del teu moneder. El teu preu de liquidació és 88.40 i {tech} cotitza ara mateix a 96.00. L'obres?",
+          "options": [
+            "Sí, perquè el preu de liquidació està prou per sota del preu actual",
+            "Sí, si confies en la direcció",
+            "Només amb el doble d'exposició, perquè el risc valgui la pena",
+            "No: un moviment d'un 8% aproximadament buida la posició, un 8% és un moviment normal, i un 62% d'un moneder en una sola operació trenca totes les normes de mida d'aquest mòdul"
+          ]
+        }
+      }
+    },
+    "84": {
+      "title": "El teu pitjor cas, triat per endavant",
+      "desc": "Stop-loss, take-profit, i la sortida que ningú tria",
+      "content": "Ja coneixes el dipòsit, la crida, el tancament, el lloguer, l'stop i el gap. Aquesta lliçó posa l'última peça al seu lloc: cada posició que obris acabarà exactament d'una de tres maneres, i tot el joc consisteix en qui tria quina.\n\n1️⃣ LA TANQUES TU. Toques el botó i la posició es tanca al preu de mercat actual. Sempre disponible, en cada posició, en qualsevol estat. La majoria de sortides haurien de ser aquesta.\n\n2️⃣ LA TANCA UNA ORDRE QUE HAS POSAT. N'hi ha de dos tipus, i els noms importen, així que aprèn-los bé:\n\n• Una ORDRE STOP-LOSS et tanca automàticament quan el preu es mou EN CONTRA TEU fins a un nivell que has triat: un stop de venda per sota de la teva entrada en un llarg, un stop de compra per sobre de la teva entrada en un curt. És el teu pitjor cas, decidit mentre estaves tranquil, que és, com ja et va ensenyar la lliçó 80, l'únic moment en què decideixes bé res.\n• Una ORDRE TAKE-PROFIT és una ordre limitada per tancar: et tanca automàticament a l'objectiu que has triat, quan el preu es mou A FAVOR TEU fins a arribar-hi. És el teu «ja n'hi ha prou», decidit abans que l'avarícia pogués votar. Una ordre limitada s'executa al teu nivell o millor, mai pitjor.\n\n3️⃣ LA TANCA EL PROVEÏDOR. Això és la liquidació, de la lliçó 70. I això és el que t'has de gravar a foc: la liquidació no és un tipus d'ordre. No pots posar una «operació de liquidació». Ningú pot. No és una eina del teu kit; és el que fa el proveïdor per protegir el seu préstec quan el teu dipòsit gairebé s'ha esgotat, al preu que pagui el mercat, mentre tu ets a l'institut o dormint.\n\nUn stop-loss ets tu decidint el teu pitjor cas per endavant. La liquidació és el que passa quan no ho has fet.\n\nLes teves dues ordres són honestes de la mateixa manera, i ja ho saps per la lliçó 78: salten al teu nivell i s'executen al que el mercat pagui realment. Un gap per sobre del teu stop t'executa a l'altra banda del salt, que és pitjor. Un gap que travessa el teu take-profit també t'executa a l'altra banda, que és millor. El mateix fet, mirant cap a les dues direccions.\n\nUna norma de col·locació, i aquesta app la fa complir amb el motiu a la pantalla: el teu stop ha d'estar entre el preu actual i el teu preu de liquidació. Un stop més enllà del preu de liquidació no podria saltar mai, perquè el proveïdor t'hauria tancat abans, així que l'app el rebutja i et diu per què.\n\nTres portes de sortida a cada operació. Dues porten el teu nom a la maneta. Sortir per una d'aquestes, un dia que has triat, a un nivell que has triat amb calma, és el que tot aquest mòdul t'ha estat ensenyant a fer. 🚪",
+      "quiz": {
+        "q": "La teva posició llarga té un stop-loss que vas posar a 180.00 i un preu de liquidació de 150.00. Quina és la diferència real entre aquests dos números?",
+        "options": [
+          "Cap ni una, són dos noms per al mateix tancament automàtic, i el proveïdor l'executa sempre a un únic preu",
+          "L'stop-loss és decisió del proveïdor i el preu de liquidació és teu, així que el que controles de veritat és el que salta en segon lloc",
+          "L'stop a 180.00 és el teu pitjor cas, triat per tu per endavant amb calma; 150.00 és on el proveïdor et tanca per protegir el seu préstec, perquè ja no hi tens res a dir",
+          "L'stop garanteix una execució a exactament 180.00 faci el que faci el mercat, mentre que la liquidació es pot executar a qualsevol preu, per lluny que hagi anat"
+        ]
+      }
+    }
+  },
+  "context": {
+    "ZA": {
+      "name": "Sud-àfrica",
+      "cName": "rand",
+      "cPlural": "rands",
+      "exDesc": "una de les borses més grans de tot el continent africà",
+      "sectorList": "⛏️ Mineria: Anglo American, Impala Platinum. Lligades als preus mundials de les matèries primeres\n🏦 Banca: Standard Bank, FirstRand, Capitec. Els va bé quan els tipus d'interès són més alts\n📱 Tecnologia: Naspers, Prosus. Lligades a les tendències tecnològiques mundials\n🛍️ Comerç: Shoprite, Pick n Pay. Els va bé quan la gent té diners per gastar\n📡 Telecomunicacions: MTN, Vodacom. Més estables, perquè la gent sempre necessita dades",
+      "etfBasket": "les 40 empreses més grans de la JSE",
+      "etfDesc": "El JSE Top 40, per exemple, és una llista de les 40 empreses més grans que cotitzen a la JSE, ordenades pel valor de les accions que realment es poden negociar.",
+      "etfList": "🇿🇦 Satrix Top 40: Les 40 empreses més grans de la JSE. Un punt de partida genial.\n🌍 Satrix MSCI World: Empreses de 23 països desenvolupats en una sola compra.\n🇺🇸 Sygnia Itrix S&P 500: Les 500 grans empreses dels EUA de la llista S&P 500.\n💡 Satrix Nasdaq 100: Les 100 empreses no financeres més grans del Nasdaq. Molt carregat de tecnologia.",
+      "currencyHedge": "Tenen el preu en dòlars o euros. Així que si el rand es DEVALUA (de R20 per dòlar a R22), les teves inversions globals valen AUTOMÀTICAMENT més en rands!",
+      "fxQuizSetup": "El rand es devalua davant del dòlar, de R18 a R22",
+      "fxQuizLose": "Perd valor perquè a Sud-àfrica les coses van pitjor",
+      "fxQuizGain": "PUJA mesurat en rands, perquè cada dòlar compra més rands",
+      "dcaTitle": "Cost mitjà en rands",
+      "dcaAbbrev": "RCA",
+      "food": "una hamburguesa del Wimpy"
+    },
+    "US": {
+      "name": "els Estats Units",
+      "cName": "dòlar",
+      "cPlural": "dòlars",
+      "exDesc": "el mercat d'accions més gran del món, amb molta diferència",
+      "sectorList": "💻 Tecnologia: Apple, Microsoft, Alphabet. Impulsades per la innovació i la demanda mundial\n🏦 Banca: JPMorgan, Bank of America, Goldman Sachs. Els va bé quan pugen els tipus d'interès\n🛍️ Comerç: Amazon, Walmart, Costco. Els va bé quan la gent gasta\n⚡ Energia: Exxon Mobil, Chevron. Lligades als preus mundials del petroli i el gas\n📡 Telecomunicacions: AT&T, Verizon, T-Mobile. La gent sempre necessita connexió",
+      "etfBasket": "les 500 grans empreses dels EUA de la llista S&P 500",
+      "etfDesc": "L'S&P 500, per exemple, és una llista de 500 grans empreses dels EUA triades per un comitè. Han de ser grans, rendibles i fàcils de negociar. NO són simplement les 500 més grans, i barreja empreses que cotitzen a la NYSE amb empreses que cotitzen al Nasdaq.",
+      "etfList": "🇺🇸 SPY / VOO: Segueixen l'S&P 500, una llista de 500 grans empreses dels EUA. El referent.\n📦 VTI: Tota la borsa dels EUA, milers d'empreses en un sol ETF.\n💡 QQQ: Les 100 empreses no financeres més grans del Nasdaq. Molt carregat de tecnologia.\n🌍 VT / VXUS: Empreses globals o internacionals en un sol fons.",
+      "currencyHedge": "Si el dòlar es devalua davant d'altres monedes, les teves inversions internacionals passen a valer MÉS en dòlars, automàticament!",
+      "fxQuizSetup": "El dòlar es devalua molt davant de l'euro i del ien",
+      "fxQuizLose": "Perd valor perquè l'economia dels EUA va malament",
+      "fxQuizGain": "PUJA mesurat en dòlars, perquè les teves inversions estrangeres han guanyat valor per la divisa",
+      "dcaTitle": "Cost mitjà en dòlars",
+      "dcaAbbrev": "DCA",
+      "food": "un menú Big Mac"
+    },
+    "GB": {
+      "name": "el Regne Unit",
+      "cName": "lliura",
+      "cPlural": "lliures",
+      "exDesc": "una de les borses més antigues i importants del món",
+      "sectorList": "⚡ Energia: Shell, BP. Gegants mundials del petroli i el gas\n🏦 Banca: HSBC, Barclays, Lloyds. Els va bé quan els tipus d'interès són més alts\n🧴 Consum: Unilever, Diageo, Reckitt. Potències de marques per a la llar\n🛍️ Comerç: Tesco, Sainsbury's. Els va bé quan la gent gasta\n📡 Telecomunicacions: Vodafone, BT Group. La gent sempre necessita connexió",
+      "etfBasket": "les 100 empreses més grans de la Borsa de Londres",
+      "etfDesc": "L'FTSE 100, per exemple, és una llista de les 100 empreses més grans del mercat principal de la Borsa de Londres, que es revisa cada tres mesos.",
+      "etfList": "🇬🇧 iShares Core FTSE 100: Les 100 empreses més grans de la Borsa de Londres.\n🌍 Vanguard FTSE All-World: Empreses de desenes de països en una sola compra.\n🇺🇸 iShares Core S&P 500: Les 500 grans empreses dels EUA de la llista S&P 500.\n💡 iShares Nasdaq 100: Les 100 empreses no financeres més grans del Nasdaq. Molt carregat de tecnologia.",
+      "currencyHedge": "Si la lliura es devalua davant d'altres monedes, les teves inversions internacionals passen a valer MÉS en lliures, automàticament!",
+      "fxQuizSetup": "La lliura es devalua molt davant del dòlar i de l'euro",
+      "fxQuizLose": "Perd valor perquè l'economia del Regne Unit va malament",
+      "fxQuizGain": "PUJA mesurat en lliures, perquè les teves inversions estrangeres han guanyat valor per la divisa",
+      "dcaTitle": "Cost mitjà en lliures",
+      "dcaAbbrev": "PCA",
+      "food": "un quart de pollastre del Nando's"
+    },
+    "IN": {
+      "name": "l'Índia",
+      "cName": "rupia",
+      "cPlural": "rupies",
+      "exDesc": "una de les borses més grans del món per nombre d'operacions",
+      "sectorList": "💻 Tecnologia: TCS, Infosys, Wipro. Potències mundials de serveis informàtics\n🏦 Banca: HDFC Bank, SBI, ICICI. Els va bé quan els tipus d'interès són més alts\n🛍️ Consum: ITC, Hindustan Unilever, DMart. Els va bé quan la gent gasta\n⚡ Energia: Reliance, ONGC. Lligades al petroli, el gas i el refinatge\n📡 Telecomunicacions: Airtel, Vodafone Idea. L'enorme mercat mòbil de l'Índia no para de créixer",
+      "etfBasket": "50 de les empreses més grans i més negociades de l'Índia",
+      "etfDesc": "El Nifty 50, per exemple, és una llista de 50 de les empreses més grans i més negociades de l'Índia, triades per la mida I per la facilitat amb què es poden comprar i vendre, no només per la mida.",
+      "etfList": "🇮🇳 Nippon India Nifty 50: El Nifty 50, una llista de 50 de les empreses més grans i més negociades de l'Índia.\n💡 ICICI Prudential Sensex: El Sensex, una llista de 30 de les blue chips més conegudes de l'Índia.\n📦 Kotak Nifty Next 50: Les 50 empreses que queden just per sota del Nifty 50.\n🌍 Motilal Oswal Nasdaq 100: Les 100 empreses no financeres més grans del Nasdaq.",
+      "currencyHedge": "Si la rupia es devalua davant del dòlar, les teves inversions internacionals passen a valer MÉS en rupies, automàticament!",
+      "fxQuizSetup": "La rupia es devalua davant del dòlar, de ₹82 a ₹90",
+      "fxQuizLose": "Perd valor perquè l'economia de l'Índia va malament",
+      "fxQuizGain": "PUJA mesurat en rupies, perquè cada dòlar compra més rupies",
+      "dcaTitle": "Cost mitjà en rupies",
+      "dcaAbbrev": "RCA",
+      "food": "una pizza del Domino's"
+    },
+    "JP": {
+      "name": "el Japó",
+      "cName": "ien",
+      "cPlural": "iens",
+      "exDesc": "una de les borses més grans del món",
+      "sectorList": "🚗 Automoció: Toyota, Honda, Nissan. Els fabricants de cotxes japonesos famosos arreu del món\n💻 Tecnologia: Sony, SoftBank, Nintendo. Videojocs, entreteniment i innovació\n🏦 Banca: MUFG, SMFG, Mizuho. Els megagrups bancaris del Japó\n🛍️ Comerç: Fast Retailing (Uniqlo), Seven & i. Presència comercial mundial\n📡 Telecomunicacions: NTT, KDDI, SoftBank. Una infraestructura mòbil enorme",
+      "etfBasket": "les 225 empreses de la llista Nikkei 225",
+      "etfDesc": "El Nikkei 225, per exemple, és una llista de 225 empreses japoneses conegudes, triades per representar tot el mercat. Està ponderat per preu, cosa que vol dir que una acció amb un preu alt compta més que una empresa que simplement és gran.",
+      "etfList": "🇯🇵 Un ETF del Nikkei 225: Les 225 empreses de la llista Nikkei 225. El referent.\n📦 Un ETF del TOPIX: Una part molt més àmplia del mercat de Tòquio, amb molt més de mil empreses.\n🌍 MAXIS All Country World: Mercats desenvolupats i emergents en un sol fons.\n🇺🇸 iShares S&P 500: Les 500 grans empreses dels EUA de la llista S&P 500.",
+      "currencyHedge": "Si el ien es devalua davant d'altres monedes, les teves inversions internacionals passen a valer MÉS en iens, automàticament!",
+      "fxQuizSetup": "El ien es devalua davant del dòlar, de ¥130 a ¥155",
+      "fxQuizLose": "Perd valor perquè l'economia del Japó va malament",
+      "fxQuizGain": "PUJA mesurat en iens, perquè les teves inversions estrangeres han guanyat valor per la divisa",
+      "dcaTitle": "Cost mitjà en iens",
+      "dcaAbbrev": "YCA",
+      "food": "un bol de ramen"
+    },
+    "DE": {
+      "name": "Alemanya",
+      "cName": "euro",
+      "cPlural": "euros",
+      "exDesc": "una de les borses més grans d'Europa",
+      "sectorList": "💻 Tecnologia: SAP, Infineon. Programari empresarial i semiconductors\n🚗 Automoció: Volkswagen, BMW, Mercedes-Benz. L'orgull de l'enginyeria alemanya\n🏦 Banca: Deutsche Bank, Commerzbank. Els va bé quan pugen els tipus d'interès\n🏭 Indústria: Siemens, BASF. Fabricació i química a escala mundial\n📡 Telecomunicacions: Deutsche Telekom, 1&1. La columna vertebral de la connectivitat alemanya",
+      "etfBasket": "les 40 empreses alemanyes més grans de la borsa de Frankfurt",
+      "etfDesc": "El DAX 40, per exemple, és una llista de les 40 empreses alemanyes més grans de la borsa de Frankfurt, i des del 2021 també han de ser rendibles per poder-hi entrar.",
+      "etfList": "🇩🇪 iShares Core DAX: Les 40 empreses alemanyes més grans de la borsa de Frankfurt.\n🌍 Xtrackers MSCI World: Empreses de 23 països desenvolupats.\n🇺🇸 iShares Core S&P 500: Les 500 grans empreses dels EUA de la llista S&P 500.\n🇪🇺 Un ETF de l'EURO STOXX 50: 50 líders blue chip de tota la zona euro.",
+      "currencyHedge": "Si l'euro es devalua davant d'altres monedes, les teves inversions internacionals passen a valer MÉS en euros, automàticament!",
+      "fxQuizSetup": "L'euro es devalua molt davant del dòlar i del ien",
+      "fxQuizLose": "Perd valor perquè l'economia d'Europa va malament",
+      "fxQuizGain": "PUJA mesurat en euros, perquè les teves inversions estrangeres han guanyat valor per la divisa",
+      "dcaTitle": "Cost mitjà periòdic",
+      "dcaAbbrev": "DCA",
+      "food": "un döner kebab"
+    },
+    "CA": {
+      "name": "el Canadà",
+      "cName": "dòlar canadenc",
+      "cPlural": "dòlars canadencs",
+      "exDesc": "una de les 10 borses més grans del món",
+      "sectorList": "💻 Tecnologia: Shopify, OpenText, Constellation Software. Innovació tecnològica canadenca\n🏦 Banca: RBC, TD, BMO, Scotiabank. Els cinc grans del Canadà són sòlids com una roca\n⚡ Energia: Enbridge, Suncor, TC Energy. Gegants de les sorres bituminoses i els oleoductes\n🛍️ Comerç: Dollarama, Canadian Tire, Loblaw. Marques comercials de casa\n📡 Telecomunicacions: BCE, Rogers, Telus. Els canadencs sempre necessiten connexió",
+      "etfBasket": "60 grans empreses canadenques de tots els sectors principals",
+      "etfDesc": "L'S&P/TSX 60, per exemple, és una llista de 60 grans empreses canadenques triades per un comitè perquè hi estiguin representats tots els sectors principals, cosa que vol dir que no són simplement les 60 més grans.",
+      "etfList": "🇨🇦 iShares S&P/TSX 60 (XIU): 60 grans empreses canadenques de tots els sectors principals.\n📦 Vanguard All-Equity (VEQT): Accions canadenques, dels EUA i internacionals en un sol ETF.\n🇺🇸 BMO S&P 500: Les 500 grans empreses dels EUA de la llista S&P 500.\n💡 Un ETF del Nasdaq 100: Les 100 empreses no financeres més grans del Nasdaq. Molt carregat de tecnologia.",
+      "currencyHedge": "Si el dòlar canadenc es devalua davant d'altres monedes, les teves inversions internacionals passen a valer MÉS en C$, automàticament!",
+      "fxQuizSetup": "El dòlar canadenc es devalua molt davant del dòlar dels EUA",
+      "fxQuizLose": "Perd valor perquè l'economia del Canadà va malament",
+      "fxQuizGain": "PUJA mesurat en dòlars canadencs, perquè les teves inversions estrangeres han guanyat valor per la divisa",
+      "dcaTitle": "Cost mitjà en dòlars",
+      "dcaAbbrev": "DCA",
+      "food": "un menú del Tim Hortons"
+    },
+    "AU": {
+      "name": "Austràlia",
+      "cName": "dòlar australià",
+      "cPlural": "dòlars australians",
+      "exDesc": "la borsa més gran de l'hemisferi sud",
+      "sectorList": "⛏️ Mineria: BHP, Rio Tinto, Fortescue. Gegants mundials de la mineria i els recursos\n🏦 Banca: CBA, Westpac, ANZ, NAB. Els quatre grans bancs d'Austràlia\n🏥 Salut: CSL, Cochlear. Biotecnologia i dispositius mèdics de primer nivell mundial\n🛍️ Comerç: Woolworths, Coles, Wesfarmers. Alimentació i productes de consum bàsic\n💻 Tecnologia: WiseTech Global, Xero. Èxits del programari que cotitzen a Austràlia",
+      "etfBasket": "les 200 empreses més grans de l'ASX",
+      "etfDesc": "L'S&P/ASX 200, per exemple, és una llista de les 200 empreses més grans que cotitzen a l'ASX, mesurades pel valor de les accions disponibles per negociar i filtrades per la facilitat amb què canvien de mans.",
+      "etfList": "🇦🇺 iShares Core S&P/ASX 200 (IOZ): Les 200 empreses més grans de l'ASX.\n📦 Vanguard Australian Shares (VAS): Encara més ampli, unes 300 empreses de l'ASX.\n🌍 Vanguard MSCI International (VGS): Empreses de mercats desenvolupats fora d'Austràlia.\n🇺🇸 BetaShares Nasdaq 100 (NDQ): Les 100 empreses no financeres més grans del Nasdaq.",
+      "currencyHedge": "Si el dòlar australià es devalua davant d'altres monedes, les teves inversions internacionals passen a valer MÉS en A$, automàticament!",
+      "fxQuizSetup": "El dòlar australià es devalua molt davant del dòlar dels EUA",
+      "fxQuizLose": "Perd valor perquè l'economia d'Austràlia va malament",
+      "fxQuizGain": "PUJA mesurat en A$, perquè les teves inversions estrangeres han guanyat valor per la divisa",
+      "dcaTitle": "Cost mitjà en dòlars",
+      "dcaAbbrev": "DCA",
+      "food": "un pastís de carn"
+    },
+    "HK": {
+      "name": "Hong Kong",
+      "cName": "dòlar de Hong Kong",
+      "cPlural": "dòlars de Hong Kong",
+      "exDesc": "la borsa que fa de porta d'entrada entre la Xina i els mercats mundials",
+      "sectorList": "💻 Tecnologia: Tencent, Xiaomi, Meituan. Gegants tecnològics xinesos que cotitzen a HK\n🏦 Banca: HSBC, Hang Seng Bank. Els va bé quan pugen els tipus d'interès\n🏗️ Immobiliari: CK Asset, Sun Hung Kai. A Hong Kong, l'immobiliari és el rei\n⚡ Serveis públics: CLP, Power Assets. Dividends estables any rere any\n🛡️ Assegurances: AIA, Prudential. Líders de les assegurances a l'Àsia-Pacífic",
+      "etfBasket": "les empreses més grans i més negociades de Hong Kong",
+      "etfDesc": "L'índex Hang Seng, per exemple, és una llista seleccionada de les empreses més grans i més negociades de Hong Kong, triades per representar tots els sectors principals. El nombre d'empreses que hi ha canvia a mesura que el comitè de l'índex hi afegeix i en treu noms.",
+      "etfList": "🇭🇰 Tracker Fund (2800): Segueix l'índex Hang Seng. El pioner dels ETF a Hong Kong.\n💡 Hang Seng TECH ETF: Les 30 empreses tecnològiques més grans que cotitzen a Hong Kong.\n🇺🇸 Un ETF de l'S&P 500: Les 500 grans empreses dels EUA de la llista S&P 500.\n🇨🇳 Un ETF d'accions A xineses: Accés a empreses que cotitzen a Xangai i Shenzhen.",
+      "currencyHedge": "El dòlar de Hong Kong està lligat al dòlar dels EUA, així que un fons global amb molt pes dels EUA gairebé no es mou només per la divisa. Però la part no nord-americana (Europa, el Japó, la resta d'Àsia) igualment guanya en HK$ quan aquestes monedes s'enforteixen!",
+      "fxQuizSetup": "L'euro i el ien s'enforteixen davant del dòlar dels EUA, i el dòlar de Hong Kong està lligat al dòlar dels EUA",
+      "fxQuizLose": "Perd valor perquè l'economia de Hong Kong va malament",
+      "fxQuizGain": "La part europea i japonesa PUJA mesurada en HK$, perquè ara aquestes monedes compren més dòlars de Hong Kong",
+      "dcaTitle": "Cost mitjà en dòlars",
+      "dcaAbbrev": "DCA",
+      "food": "un bol de fideus wonton"
+    },
+    "CN": {
+      "name": "la Xina",
+      "cName": "iuan",
+      "cPlural": "iuans",
+      "exDesc": "una de les borses més grans del món per capitalització borsària",
+      "sectorList": "💻 Tecnologia: SMIC, Kingsoft Office. Xips i programari que cotitzen a Xangai\n🏦 Banca: ICBC, CCB, Bank of China. Entre els bancs més grans del món per actius\n🚗 Automoció: SAIC Motor, Great Wall Motor. Els fabricants de cotxes de la Xina\n🛍️ Consum: Kweichow Moutai, Haier, Yili. Marques conegudes a tota la Xina\n📡 Telecomunicacions: China Mobile, China Telecom. Xarxes mòbils enormes",
+      "etfBasket": "300 de les empreses més grans i més negociades de la Xina continental",
+      "etfDesc": "El CSI 300, per exemple, és una llista de 300 de les empreses més grans i més negociades de la Xina continental, i inclou TANT la borsa de Xangai com la de Shenzhen, no només una de les dues.",
+      "etfList": "🇨🇳 Huatai-PB CSI 300 (510300): 300 empreses grans i molt negociades de Xangai i Shenzhen.\n💡 ChinaAMC SSE 50 (510050): Les 50 empreses més grans només de la borsa de Xangai.\n🌍 Un fons ampli d'accions xineses: Una cobertura més àmplia que el CSI 300.\n🇺🇸 Un fons QDII de l'S&P 500: Accés a les 500 grans empreses dels EUA de la llista S&P 500.",
+      "currencyHedge": "Si el iuan es devalua davant d'altres monedes, les teves inversions internacionals passen a valer MÉS en iuans, automàticament!",
+      "fxQuizSetup": "El iuan es devalua molt davant del dòlar i de l'euro",
+      "fxQuizLose": "Perd valor perquè l'economia de la Xina va malament",
+      "fxQuizGain": "PUJA mesurat en iuans, perquè les teves inversions estrangeres han guanyat valor per la divisa",
+      "dcaTitle": "Cost mitjà en iuans",
+      "dcaAbbrev": "YCA",
+      "food": "un bol de fideus"
+    },
+    "FR": {
+      "name": "França",
+      "cName": "euro",
+      "cPlural": "euros",
+      "exDesc": "la llar d'algunes de les marques de luxe i industrials més emblemàtiques del món",
+      "sectorList": "👜 Luxe: LVMH, Hermès, Kering. França domina el luxe mundial\n⚡ Energia: TotalEnergies, Engie. Grans empreses energètiques europees\n🏦 Banca: BNP Paribas, Société Générale. Els va bé quan pugen els tipus d'interès\n✈️ Aeroespacial: Airbus, Safran. Líders mundials en avions i defensa\n📡 Telecomunicacions: Orange, Bouygues. La columna vertebral de la connectivitat francesa",
+      "etfBasket": "les 40 empreses de la llista CAC 40",
+      "etfDesc": "El CAC 40, per exemple, és una llista de 40 empreses triades per un comitè independent entre les 100 més grans de la borsa de París, segons la mida I segons quant es negocien.",
+      "etfList": "🇫🇷 Amundi CAC 40: Les 40 empreses de la llista CAC 40. El referent.\n🌍 Un ETF de l'MSCI World: Empreses de 23 països desenvolupats.\n🇺🇸 BNP Paribas Easy S&P 500: Les 500 grans empreses dels EUA de la llista S&P 500.\n🇪🇺 Un ETF de l'EURO STOXX 50: 50 líders blue chip de tota la zona euro.",
+      "currencyHedge": "Si l'euro es devalua davant d'altres monedes, les teves inversions internacionals passen a valer MÉS en euros, automàticament!",
+      "fxQuizSetup": "L'euro es devalua molt davant del dòlar i del ien",
+      "fxQuizLose": "Perd valor perquè l'economia d'Europa va malament",
+      "fxQuizGain": "PUJA mesurat en euros, perquè les teves inversions estrangeres han guanyat valor per la divisa",
+      "dcaTitle": "Cost mitjà periòdic",
+      "dcaAbbrev": "DCA",
+      "food": "un croque-monsieur"
+    },
+    "IT": {
+      "name": "Itàlia",
+      "cName": "euro",
+      "cPlural": "euros",
+      "exDesc": "una de les borses més antigues d'Europa, llar de marques italianes emblemàtiques",
+      "sectorList": "🏎️ Automoció: Ferrari, Stellantis. L'excel·lència de l'enginyeria italiana\n⚡ Energia: Enel, Eni. Grans empreses europees d'energia i serveis públics\n🏦 Banca: UniCredit, Intesa Sanpaolo. Els va bé quan pugen els tipus d'interès\n🛡️ Assegurances: Generali, Unipol. Els gegants italians de les assegurances\n📡 Telecomunicacions: TIM, Inwit. La infraestructura de connectivitat d'Itàlia",
+      "etfBasket": "les 40 empreses de la llista FTSE MIB",
+      "etfDesc": "L'FTSE MIB, per exemple, és una llista de 40 de les empreses més grans i més negociades de la borsa de Milà, triades per cobrir els principals sectors d'Itàlia.",
+      "etfList": "🇮🇹 Un ETF de l'FTSE MIB: Les 40 empreses de la llista FTSE MIB.\n🌍 iShares Core MSCI World: Empreses de 23 països desenvolupats.\n🇺🇸 Amundi S&P 500: Les 500 grans empreses dels EUA de la llista S&P 500.\n🇪🇺 Xtrackers EURO STOXX 50: 50 líders blue chip de tota la zona euro.",
+      "currencyHedge": "Si l'euro es devalua davant d'altres monedes, les teves inversions internacionals passen a valer MÉS en euros, automàticament!",
+      "fxQuizSetup": "L'euro es devalua molt davant del dòlar i del ien",
+      "fxQuizLose": "Perd valor perquè l'economia d'Europa va malament",
+      "fxQuizGain": "PUJA mesurat en euros, perquè les teves inversions estrangeres han guanyat valor per la divisa",
+      "dcaTitle": "Cost mitjà periòdic",
+      "dcaAbbrev": "DCA",
+      "food": "una pizza margherita"
+    },
+    "ES": {
+      "name": "Espanya",
+      "cName": "euro",
+      "cPlural": "euros",
+      "exDesc": "la principal borsa d'Espanya i porta d'entrada als mercats llatinoamericans",
+      "sectorList": "👗 Moda i bellesa: Inditex (Zara), Puig. L'imperi mundial de l'estil espanyol\n🏦 Banca: Santander, BBVA, CaixaBank. Els bancs espanyols tenen una presència mundial enorme\n⚡ Energia: Iberdrola, Endesa. Líders europeus en energies renovables\n📡 Telecomunicacions: Telefónica, Cellnex. La columna vertebral de la connectivitat a Espanya\n🏗️ Infraestructures: Ferrovial, ACS. Construeixen infraestructures arreu del món",
+      "etfBasket": "les 35 empreses més negociades d'Espanya",
+      "etfDesc": "L'IBEX 35, per exemple, és una llista de les 35 accions espanyoles més negociades, triades per un comitè tècnic segons el volum de negociació. Per tant, és una llista de les més negociades, no de les més grans.",
+      "etfList": "🇪🇸 Un ETF de l'IBEX 35: Les 35 accions espanyoles més negociades.\n🌍 iShares Core MSCI World: Empreses de 23 països desenvolupats.\n🇺🇸 Vanguard S&P 500: Les 500 grans empreses dels EUA de la llista S&P 500.\n🇪🇺 Un ETF de l'EURO STOXX 50: 50 líders blue chip de tota la zona euro.",
+      "currencyHedge": "Si l'euro es devalua davant d'altres monedes, les teves inversions internacionals passen a valer MÉS en euros, automàticament!",
+      "fxQuizSetup": "L'euro es devalua molt davant del dòlar i del ien",
+      "fxQuizLose": "Perd valor perquè l'economia d'Europa va malament",
+      "fxQuizGain": "PUJA mesurat en euros, perquè les teves inversions estrangeres han guanyat valor per la divisa",
+      "dcaTitle": "Cost mitjà periòdic",
+      "dcaAbbrev": "DCA",
+      "food": "un plat de tapes"
+    },
+    "NL": {
+      "name": "els Països Baixos",
+      "cName": "euro",
+      "cPlural": "euros",
+      "exDesc": "la borsa més antiga del món, fundada el 1602",
+      "sectorList": "💻 Tecnologia: ASML, Adyen. ASML fa possibles els xips més avançats del món\n⚡ Energia: Shell, SBM Offshore. Gegants mundials de l'energia amb seu als Països Baixos\n🏦 Banca: ING, ABN AMRO. Els va bé quan pugen els tipus d'interès\n🍺 Consum: Heineken, Ahold Delhaize. Marques mundials d'alimentació i begudes\n📡 Telecomunicacions: KPN, el proveïdor de connectivitat cotitzat més gran del país",
+      "etfBasket": "les 25 empreses més negociades d'Amsterdam",
+      "etfDesc": "L'AEX, per exemple, és una llista de les 25 accions més negociades de la borsa d'Amsterdam. Ordena les empreses per quant es negocien, no per com són de grans.",
+      "etfList": "🇳🇱 iShares AEX: Les 25 accions més negociades d'Amsterdam.\n🌍 Vanguard FTSE All-World: Empreses de desenes de països en una sola compra.\n🇺🇸 iShares Core S&P 500: Les 500 grans empreses dels EUA de la llista S&P 500.\n🇪🇺 Un ETF de l'EURO STOXX 50: 50 líders blue chip de tota la zona euro.",
+      "currencyHedge": "Si l'euro es devalua davant d'altres monedes, les teves inversions internacionals passen a valer MÉS en euros, automàticament!",
+      "fxQuizSetup": "L'euro es devalua molt davant del dòlar i del ien",
+      "fxQuizLose": "Perd valor perquè l'economia d'Europa va malament",
+      "fxQuizGain": "PUJA mesurat en euros, perquè les teves inversions estrangeres han guanyat valor per la divisa",
+      "dcaTitle": "Cost mitjà periòdic",
+      "dcaAbbrev": "DCA",
+      "food": "una croqueta holandesa (kroket)"
+    },
+    "BR": {
+      "name": "el Brasil",
+      "cName": "real",
+      "cPlural": "reals",
+      "exDesc": "la borsa més gran de l'Amèrica Llatina",
+      "sectorList": "⛏️ Mineria: Vale, CSN. Els gegants brasilers del mineral de ferro i l'acer\n⚡ Energia: Petrobras, Eletrobras. Grans empreses de petroli i electricitat\n🏦 Banca: Itaú, Bradesco, Banco do Brasil. Els va bé quan pugen els tipus d'interès\n🍺 Consum: Ambev, JBS. Potències de l'alimentació i les begudes\n📡 Telecomunicacions: Vivo, TIM Brasil. Els proveïdors de mòbil i banda ampla del Brasil",
+      "etfBasket": "les empreses més negociades de la borsa B3",
+      "etfDesc": "L'Ibovespa, per exemple, és una llista de les empreses més negociades de la borsa B3. Una empresa s'hi guanya el lloc per quant es compra i es ven, no per com és de gran. Per això el nombre d'empreses de la llista canvia amb el temps.",
+      "etfList": "🇧🇷 BOVA11: Segueix l'Ibovespa, les empreses més negociades de la B3. El referent.\n🇺🇸 IVVB11: Segueix l'S&P 500. És a dir, 500 grans empreses dels EUA, amb preu en reals.\n🌍 Un ETF global d'accions: Mercats desenvolupats i emergents en una sola compra.\n💡 HASH11: Un fons indexat de cripto amb Bitcoin, Ethereum i més.",
+      "currencyHedge": "Si el real es devalua davant del dòlar, les teves inversions internacionals passen a valer MÉS en R$, automàticament!",
+      "fxQuizSetup": "El real brasiler es devalua davant del dòlar, de R$5 a R$6",
+      "fxQuizLose": "Perd valor perquè l'economia del Brasil va malament",
+      "fxQuizGain": "PUJA mesurat en reals, perquè cada dòlar compra més reals",
+      "dcaTitle": "Cost mitjà en reals",
+      "dcaAbbrev": "RCA",
+      "food": "un menú de pão de queijo"
+    },
+    "SA_ARABIA": {
+      "name": "l'Aràbia Saudita",
+      "cName": "riyal",
+      "cPlural": "riyals",
+      "exDesc": "la borsa més gran de l'Orient Mitjà",
+      "sectorList": "🛢️ Energia: Saudi Aramco, SABIC. Aramco és la petroliera més valuosa del món\n🏦 Banca: Al Rajhi, SNB, Riyad Bank. Els va bé quan pugen els tipus d'interès\n📡 Telecomunicacions: STC, Mobily. Els proveïdors de mòbil i banda ampla de l'Aràbia Saudita\n🛍️ Comerç: Jarir, Extra. Cadenes de botigues populars\n⛏️ Materials: Ma'aden, Yansab. Mineria i petroquímica",
+      "etfBasket": "totes les empreses que cotitzen al mercat principal del Tadawul",
+      "etfDesc": "El TASI (Tadawul All Share Index) no és cap llista de les 30 o les 100 més grans. Inclou totes les empreses que cotitzen al mercat principal del Tadawul, així que el nombre d'empreses canvia cada vegada que una empresa hi entra o en surt.",
+      "etfList": "🇸🇦 Un ETF que segueix el TASI: Exposició àmplia a tot el mercat principal del Tadawul.\n📦 Un ETF de blue chips saudites: Un cistell molt més petit amb els noms saudites més grans.\n🌍 Un ETF de l'MSCI Saudi Arabia: Segueix l'índex saudita d'MSCI, una part filtrada del mercat.\n🇺🇸 Un fons de l'S&P 500: Les 500 grans empreses dels EUA de la llista S&P 500.",
+      "currencyHedge": "Com que el riyal està lligat al dòlar dels EUA, invertir globalment en altres monedes et beneficia quan aquestes monedes s'enforteixen!",
+      "fxQuizSetup": "Monedes mundials com l'euro i el ien s'enforteixen davant del riyal",
+      "fxQuizLose": "Perd valor perquè l'economia de l'Aràbia Saudita va malament",
+      "fxQuizGain": "PUJA mesurat en riyals, perquè les teves inversions estrangeres han guanyat valor per la divisa",
+      "dcaTitle": "Cost mitjà en riyals",
+      "dcaAbbrev": "RCA",
+      "food": "un menú de l'Al Baik"
+    },
+    "KR": {
+      "name": "Corea del Sud",
+      "cName": "won",
+      "cPlural": "wons",
+      "exDesc": "la llar de Samsung, Hyundai i algunes de les empreses més innovadores d'Àsia",
+      "sectorList": "💻 Tecnologia: Samsung, SK Hynix, Kakao. Líders mundials en tecnologia i xips\n🚗 Automoció: Hyundai, Kia. Els fabricants de cotxes coreans famosos arreu del món\n🏦 Banca: KB Financial, Shinhan. Els va bé quan pugen els tipus d'interès\n🎶 Entreteniment: HYBE, CJ ENM. L'onada cultural mundial del K-pop i els K-dramas\n📡 Telecomunicacions: KT, LG Uplus. La connectivitat ultraràpida de Corea del Sud",
+      "etfBasket": "200 de les empreses més grans i més negociades de Corea",
+      "etfDesc": "El KOSPI 200, per exemple, és una llista de 200 de les empreses més grans i més negociades de Corea, triades sector per sector perquè totes les parts del mercat hi estiguin representades.",
+      "etfList": "🇰🇷 KODEX 200: Segueix el KOSPI 200, una llista de 200 de les empreses més grans i més negociades de Corea.\n🌍 Un ETF global d'accions: Empreses de mercats desenvolupats en una sola compra.\n🇺🇸 TIGER Nasdaq 100: Les 100 empreses no financeres més grans del Nasdaq.\n💡 KODEX Samsung Group: Segueix les empreses filials de Samsung que cotitzen en borsa.",
+      "currencyHedge": "Si el won es devalua davant d'altres monedes, les teves inversions internacionals passen a valer MÉS en wons, automàticament!",
+      "fxQuizSetup": "El won es devalua davant del dòlar, de ₩1,300 a ₩1,400",
+      "fxQuizLose": "Perd valor perquè l'economia de Corea del Sud va malament",
+      "fxQuizGain": "PUJA mesurat en wons, perquè cada dòlar compra més wons",
+      "dcaTitle": "Cost mitjà en wons",
+      "dcaAbbrev": "WCA",
+      "food": "un bol de bibimbap"
+    },
+    "TW": {
+      "name": "Taiwan",
+      "cName": "dòlar de Taiwan",
+      "cPlural": "dòlars de Taiwan",
+      "exDesc": "la llar de TSMC, l'empresa que fabrica la majoria dels xips més avançats del món",
+      "sectorList": "💻 Tecnologia: TSMC, MediaTek, ASUS. Taiwan fabrica els xips del món\n🏭 Fabricació: Hon Hai (Foxconn), Delta. Gegants de la fabricació electrònica\n🏦 Banca: Cathay Financial, Fubon. Els va bé quan pugen els tipus d'interès\n🧪 Química: Formosa Plastics, Nan Ya. Líders en materials industrials\n📡 Telecomunicacions: Chunghwa Telecom, Far EasTone. La columna vertebral de la connectivitat de Taiwan",
+      "etfBasket": "les 50 empreses més grans de la Borsa de Taiwan",
+      "etfDesc": "Taiwan té dues llistes molt diferents. El TAIEX inclou totes les empreses que cotitzen a la Borsa de Taiwan, aproximadament un miler. El Taiwan 50, que segueix el popular ETF 0050, són només les 50 més grans.",
+      "etfList": "🇹🇼 0050 (Yuanta Taiwan Top 50): Les 50 empreses més grans de la borsa de Taiwan. El clàssic.\n📦 0056 (Yuanta High Dividend): Accions taiwaneses triades pel seu rendiment per dividend esperat.\n🇺🇸 00646 (Yuanta S&P 500): Les 500 grans empreses dels EUA de la llista S&P 500.\n💡 00662 (Fubon Nasdaq 100): Les 100 empreses no financeres més grans del Nasdaq.",
+      "currencyHedge": "Si el dòlar de Taiwan es devalua davant d'altres monedes, les teves inversions internacionals passen a valer MÉS en NT$, automàticament!",
+      "fxQuizSetup": "El dòlar de Taiwan es devalua davant del dòlar dels EUA, de NT$30 a NT$34",
+      "fxQuizLose": "Perd valor perquè l'economia de Taiwan va malament",
+      "fxQuizGain": "PUJA mesurat en NT$, perquè les teves inversions estrangeres han guanyat valor per la divisa",
+      "dcaTitle": "Cost mitjà en dòlars",
+      "dcaAbbrev": "DCA",
+      "food": "una sopa de fideus amb vedella"
+    },
+    "SG": {
+      "name": "Singapur",
+      "cName": "dòlar de Singapur",
+      "cPlural": "dòlars de Singapur",
+      "exDesc": "el principal centre financer i borsa del sud-est asiàtic",
+      "sectorList": "🏦 Banca: DBS, OCBC, UOB. El trio bancari sòlid com una roca de Singapur\n✈️ Transport: Singapore Airlines, SATS. Aviació de primer nivell mundial\n🏗️ Immobiliari: CapitaLand, City Developments. L'immobiliari és enorme a Singapur\n💻 Tecnologia: Venture Corporation, AEM. La tecnologia que cotitza a l'SGX és sobretot fabricació electrònica; Sea i Grab van preferir cotitzar als EUA\n📡 Telecomunicacions: Singtel, StarHub. Els proveïdors de connectivitat de Singapur",
+      "etfBasket": "les 30 empreses més grans de la Borsa de Singapur",
+      "etfDesc": "L'índex Straits Times, per exemple, és una llista de les 30 empreses més grans de la Borsa de Singapur que també superen les seves proves de capital flotant i de negociació.",
+      "etfList": "🇸🇬 Nikko AM STI ETF: Les 30 empreses més grans de la Borsa de Singapur. El referent.\n📦 ABF Singapore Bond Index Fund: Bons del govern de Singapur en un sol fons.\n🌏 iShares MSCI Asia ex Japan: Accés ampli als mercats asiàtics.\n🇺🇸 Un ETF de l'S&P 500: Les 500 grans empreses dels EUA de la llista S&P 500.",
+      "currencyHedge": "Si el dòlar de Singapur es devalua davant d'altres monedes, les teves inversions internacionals passen a valer MÉS en S$, automàticament!",
+      "fxQuizSetup": "El dòlar de Singapur es devalua molt davant del dòlar dels EUA",
+      "fxQuizLose": "Perd valor perquè l'economia de Singapur va malament",
+      "fxQuizGain": "PUJA mesurat en S$, perquè les teves inversions estrangeres han guanyat valor per la divisa",
+      "dcaTitle": "Cost mitjà en dòlars",
+      "dcaAbbrev": "DCA",
+      "food": "un àpat en un hawker centre"
+    },
+    "CH": {
+      "name": "Suïssa",
+      "cName": "franc",
+      "cPlural": "francs",
+      "exDesc": "la llar de Nestlé, Novartis i Roche, tres de les empreses més valuoses d'Europa",
+      "sectorList": "💊 Farmacèutica: Novartis, Roche. Potències farmacèutiques mundials\n🍫 Consum: Nestlé, Lindt. Les marques d'alimentació més emblemàtiques del món\n🏦 Banca: UBS, Julius Baer. La banca suïssa és llegendària\n🏭 Indústria: ABB, Holcim. Enginyeria i construcció a escala mundial\n📡 Telecomunicacions: Swisscom, Sunrise. Els proveïdors de connectivitat suïssos",
+      "etfBasket": "les 20 empreses suïsses més grans i més negociades",
+      "etfDesc": "El Swiss Market Index, per exemple, és una llista de les 20 empreses suïsses més grans i més negociades.",
+      "etfList": "🇨🇭 iShares Core SPI: Tot el mercat suís, no només els grans noms.\n💡 Un ETF de l'SMI: Les 20 empreses suïsses més grans i més negociades.\n🌍 UBS ETF MSCI World: Empreses de 23 països desenvolupats.\n🇺🇸 iShares Core S&P 500: Les 500 grans empreses dels EUA de la llista S&P 500.",
+      "currencyHedge": "Si el franc es devalua davant d'altres monedes, les teves inversions internacionals passen a valer MÉS en CHF. El franc suís sol ser molt fort!",
+      "fxQuizSetup": "El franc suís es devalua molt davant del dòlar i de l'euro",
+      "fxQuizLose": "Perd valor perquè l'economia de Suïssa va malament",
+      "fxQuizGain": "PUJA mesurat en francs, perquè les teves inversions estrangeres han guanyat valor per la divisa",
+      "dcaTitle": "Cost mitjà en francs",
+      "dcaAbbrev": "FCA",
+      "food": "un kebab"
+    },
+    "SE": {
+      "name": "Suècia",
+      "cName": "corona",
+      "cPlural": "corones",
+      "exDesc": "la llar d'Ericsson, Volvo i un nombre sorprenent de marques mundials",
+      "sectorList": "💻 Tecnologia: Ericsson, Hexagon. Suècia juga molt per sobre de la seva categoria en tecnologia\n🚗 Automoció: Volvo, Volvo Cars. L'excel·lència de l'enginyeria sueca\n🏦 Banca: SEB, Handelsbanken, Nordea. Els va bé quan pugen els tipus d'interès\n👗 Comerç: H&M, Essity. Marques mundials de moda i consum\n📡 Telecomunicacions: Telia, Tele2. Líders nòrdics de la connectivitat",
+      "etfBasket": "les 30 empreses més negociades d'Estocolm",
+      "etfDesc": "L'OMXS30, per exemple, és una llista de les 30 accions més negociades de la borsa d'Estocolm. Ordena per activitat de negociació, no per la mida de l'empresa.",
+      "etfList": "🇸🇪 Xact OMXS30: Les 30 accions més negociades d'Estocolm.\n💰 Avanza Zero: Un fons indexat suec sense comissió de gestió anual. Segueix les mateixes 30 accions d'Estocolm.\n🌍 Un fons indexat global: Empreses de desenes de països en una sola compra.\n🇺🇸 Un fons de l'S&P 500: Les 500 grans empreses dels EUA de la llista S&P 500.",
+      "currencyHedge": "Si la corona es devalua davant d'altres monedes, les teves inversions internacionals passen a valer MÉS en corones, automàticament!",
+      "fxQuizSetup": "La corona sueca es devalua molt davant del dòlar i de l'euro",
+      "fxQuizLose": "Perd valor perquè l'economia de Suècia va malament",
+      "fxQuizGain": "PUJA mesurat en corones, perquè les teves inversions estrangeres han guanyat valor per la divisa",
+      "dcaTitle": "Cost mitjà en corones",
+      "dcaAbbrev": "KCA",
+      "food": "un wrap de falàfel"
+    }
+  }
+}

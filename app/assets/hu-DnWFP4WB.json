@@ -1,0 +1,1846 @@
+{
+  "_meta": {
+    "lang": "hu",
+    "source": "src/constants/lessonData.js",
+    "lessons": 84,
+    "hash": {
+      "1": "d38ab2ed",
+      "2": "bf930bc6",
+      "3": "6e4e4d63",
+      "4": "5b7802cc",
+      "5": "0f9cde1d",
+      "6": "e5999569",
+      "7": "66bc9202",
+      "8": "65677cac",
+      "9": "59a1fc31",
+      "10": "03ccde2e",
+      "11": "fbb06743",
+      "12": "7713dc86",
+      "13": "38054a44",
+      "14": "cbac8395",
+      "15": "4355d5d7",
+      "16": "bee25cb0",
+      "17": "a5cba909",
+      "18": "df93ed01",
+      "19": "ad2f3ae8",
+      "20": "6363dc90",
+      "21": "65a3ab78",
+      "22": "61f1ee9c",
+      "23": "a475dd40",
+      "24": "6874af82",
+      "25": "d92ac77b",
+      "26": "e8f1b315",
+      "27": "c3b42e04",
+      "28": "c3719a16",
+      "29": "b8690fa4",
+      "30": "272435ad",
+      "31": "ebbffa78",
+      "32": "31ae442d",
+      "33": "71dbb7c6",
+      "34": "62d271e6",
+      "35": "da185960",
+      "36": "66e0a88e",
+      "37": "4a91dc0c",
+      "38": "9ec4dee7",
+      "39": "ae809a71",
+      "40": "c3b12ff9",
+      "41": "aa4153d7",
+      "42": "29941a97",
+      "43": "d87240fc",
+      "44": "87c794ce",
+      "45": "a3dd8868",
+      "46": "7873826b",
+      "47": "47503da5",
+      "48": "6d2df7b4",
+      "49": "c1055330",
+      "50": "7d4a6a8a",
+      "51": "27e927d2",
+      "52": "041c444d",
+      "53": "8fb1d4bc",
+      "54": "33ec5d94",
+      "55": "b7571fb2",
+      "56": "f20ea6ce",
+      "57": "5a1f3993",
+      "58": "561a7caf",
+      "59": "67437975",
+      "60": "6db8d44d",
+      "61": "04bbebe6",
+      "62": "b43659be",
+      "63": "a6bfefd0",
+      "64": "a2cc88e0",
+      "65": "2f12b47a",
+      "66": "4a676ede",
+      "67": "17351f96",
+      "68": "e9dda763",
+      "69": "3b1a13c3",
+      "70": "b07744de",
+      "71": "798da84a",
+      "72": "960b5a23",
+      "73": "76df64cb",
+      "74": "90735bdf",
+      "75": "b5be8d19",
+      "76": "b2c7a6ad",
+      "77": "1f3344ae",
+      "78": "e03a370e",
+      "79": "3b881962",
+      "80": "64bddadd",
+      "81": "d30753ea",
+      "82": "71620bf3",
+      "83": "989bc8a6",
+      "84": "cdd0a41d"
+    }
+  },
+  "lessons": {
+    "1": {
+      "title": "Mi az a részvény?",
+      "desc": "Légy egy cég apró darabjának tulajdonosa",
+      "content": "Képzeld el, hogy te és 9 barátod beadtok fejenként {c}10-t, hogy közösen megvegyetek egy {c}100-os sneakert. Mindegyikőtöké a cipő 1/10-e, és nagyjából ez egy részvény! Ha a(z) {retail} részvényét veszed meg, egy apró szelet a tiéd minden boltjából, minden termékéből, sőt minden egyes megkeresett {cName} bevételéből is. Minél nagyobbra nő a cég, annál többet ér a szeleted! 🔥",
+      "quiz": {
+        "q": "Te és 4 barátod egyenlő arányban fizetitek ki egy {c}500-os gamer szék árát. Mi az, ami mindegyikőtöké?",
+        "explanation": "Részvényt birtokolni azt jelenti, hogy az egésznek egy hányada a tiéd. Öt egyenlő befizető öt egyenlő szeletet jelent, és minden szelet ugyanazokkal a jogokkal jár, mint a többi.",
+        "options": [
+          "Fejenként a szék 1/5-e (20%)",
+          "Semmi, csak egy ember lehet a tulajdonosa",
+          "Az egész szék közösen, egyéni rész nélkül"
+        ]
+      }
+    },
+    "2": {
+      "title": "A(z) {ex} egyszerűen",
+      "desc": "{name} tőzsdéje",
+      "content": "Gondolj a(z) {ex} ({exFull}) tőzsdére úgy, mint egy hatalmas online piactérre, csak itt nem sneakert vagy telefont vesznek az emberek, hanem olyan cégek apró darabjait (részvényeit) adják-veszik, mint a(z) {top5}. Minden hétköznap nyitva van, kivéve a munkaszüneti napokat, és az árak egész nap változnak attól függően, ki vesz és ki ad el. A(z) {ex} {exDesc}! 🌍",
+      "quiz": {
+        "q": "Mihez hasonlít leginkább a(z) {ex}?",
+        "explanation": "A tőzsde összehozza azokat, akik részvényt akarnak venni, azokkal, akik el akarják adni. Nem ő a részvények tulajdonosa, nem ő dönti el az árat, és kamatot sem fizet azért, ha ott hagyod a pénzed.",
+        "options": [
+          "Egy piactérhez, ahol a részvények tulajdonosai vevőkkel találkoznak",
+          "Egy megtakarítási számlához, ahol a pénz pihen és kamatozik",
+          "Egy bolthoz, amelyé a részvények, és eladja őket neked"
+        ]
+      }
+    },
+    "3": {
+      "title": "Bikák kontra medvék",
+      "desc": "A piaci irányok megfejtve",
+      "content": "A piacokon az állatok az urak 😄\n\n🐂 Bika = az árak EMELKEDNEK. Képzelj el egy bikát, ahogy a szarvával felfelé öklel. Mindenki nyer, az emberek vásárolnak, jó a hangulat.\n\n🐻 Medve = az árak ESNEK. Képzelj el egy medvét, ahogy a mancsával lefelé csap. Az emberek félnek, eladnak, nem a legjobb időszak.\n\nHa valaki azt mondja, hogy „bikás vagyok a(z) {tech} kapcsán”, akkor szerinte emelkedni fog az ár. Ha azt mondja, „medvés”, akkor szerinte esni fog. Ezeket a szavakat mindenhol hallani fogod a pénzügyekben!",
+      "quiz": {
+        "q": "A barátod azt mondja: „Medvés vagyok a(z) {telco} kapcsán ezen a héten.” Mit jelent ez?",
+        "explanation": "A medvés azt jelenti, hogy esésre számítasz, a bikás pedig azt, hogy emelkedésre. A medve lefelé csap, a bika felfelé dob.",
+        "options": [
+          "Szerinte a(z) {telco} ára emelkedni fog",
+          "Szerinte a(z) {telco} ára esni fog",
+          "A lehető legtöbb {telco} részvényt akarja megvenni"
+        ]
+      }
+    },
+    "4": {
+      "title": "Mi az a bróker?",
+      "desc": "A kapud a részvényvásárláshoz",
+      "content": "Nem sétálhatsz csak úgy be a(z) {retail} céghez azzal, hogy „adjatok egy kicsit a cégetekből, légyszi” 😂 Kell egy bróker: egy app vagy szolgáltatás, amely összeköti a vevőket és az eladókat a tőzsdén.\n\nGondolj a brókerre úgy, mint a(z) {shop} oldalra. Szeretnél valamit, a(z) {shop} összeköt vele. Lebonyolítják az ügyletet, és felszámolnak egy kis díjat. {name} népszerű brókerei közé tartozik a(z) {broker} és mások.\n\nEzt viszont NEM csinálja a bróker: nem dönti el, melyik részvény megy fel. Továbbítja a megbízásodat a piacra. Az ár azért mozog, mert odakint mindenki vesz és elad, nem azért, mert a brókered így akarta.\n\nA brókerek viszont publikálnak véleményeket. Az elemzőik „vételre”, „tartásra” vagy „eladásra” értékelik a részvényeket. A vélemény nem utasítás 🤷 Az elemzők nyíltan vitatkoznak egymással ugyanarról a részvényről, és sokukról kiderül, hogy tévedtek. Úgy olvasd az értékelést, mint egy kritikát, ne úgy, mint egy szabályt.\n\nA NoobTrader pontosan megtanítja, hogyan működik ez, ingyen, virtuális pénzzel!",
+      "quiz": {
+        "q": "Miért van szükséged brókerre a részvényvásárláshoz?",
+        "explanation": "A bróker az utad a tőzsdére, nem jós és nem ármeghatározó. Továbbítja a megbízást, az ár pedig az, amennyiért a piac többi része hajlandó kereskedni. Az elemzőik értékeléseket tesznek közzé, de az értékelés vélemény, nem utasítás.",
+        "options": [
+          "Ők választják ki azokat a részvényeket, amelyek emelkedni fognak",
+          "Ők szabják meg az árat, amit részvényenként fizetsz",
+          "Továbbítják a megbízásodat a tőzsdére"
+        ]
+      }
+    },
+    "5": {
+      "title": "A részvényárfolyam alapjai",
+      "desc": "Miért mennek fel és le az árak?",
+      "content": "Észrevetted már, hogy a limitált kiadású sneakerek ára megugrik, amikor megjelennek? Ugyanez történik a részvényekkel is. Minden a kereslet és a kínálat körül forog.\n\n📈 Sokan AKARNAK venni → az ár EMELKEDIK\n📉 Sokan AKARNAK eladni → az ár CSÖKKEN\n\nHa a(z) {telco} bejelenti, hogy 10 millió új ügyfelet szerez, mindenki kérni fog belőle, így az ár kilő. Ha nagy veszteségről számolnak be, az emberek pánikszerűen eladnak, és az ár esik. A hírek, az eredmények, sőt még a közösségi média trendjei is pillanatok alatt megmozgathatják a részvényárfolyamokat!",
+      "quiz": {
+        "q": "A(z) {retail} rekordnyereséget jelent be, és 50 új bolt megnyitását tervezi. Mi történik valószínűleg a részvényárfolyamával?",
+        "explanation": "A jobb várható nyereség általában több vevőt jelent, a több vevő pedig felfelé tolja az árat. A növekedésre költött pénz nem ugyanaz, mint a kidobott pénz.",
+        "options": [
+          "Emelkedik, mert többen akarnak venni",
+          "Pontosan ugyanannyi marad",
+          "Összeomlik, mert boltokra költik a pénzt"
+        ]
+      }
+    },
+    "6": {
+      "title": "Árfolyamgrafikon olvasása",
+      "desc": "Gyertyák, vonalak és a jelentésük",
+      "content": "Az árfolyamgrafikon olyan, mint egy részvény történetének összefoglaló videója. A legnépszerűbb típus a gyertyadiagram. Minden „gyertya” 4 dolgot mutat egy napról:\n\n🟢 Zöld gyertya = az ár EMELKEDETT aznap (alacsonyabban nyitott, magasabban zárt)\n🔴 Piros gyertya = az ár CSÖKKENT (magasabban nyitott, alacsonyabban zárt)\n📏 A vékony vonalak fölötte/alatta = a nap legmagasabb és legalacsonyabb ára\n\nHa sok zöld gyertyát látsz egymás után, az erős emelkedő trend. Sok piros csökkenő trendet jelent. A grafikonolvasás olyan, mint megtanulni leolvasni egy meccs eredményjelzőjét! 🎮",
+      "quiz": {
+        "q": "5 piros gyertyát látsz egymás után egy grafikonon. Mit árul el ez?",
+        "explanation": "A piros gyertya a nyitóár alatt zár, így öt egymás után öt csökkenő kereskedési napot jelent. A szín az irányt mutatja, nem a mozgás nagyságát.",
+        "options": [
+          "A részvény 5 napja emelkedik",
+          "A részvény 5 napja esik",
+          "A részvény ára nem változott"
+        ]
+      }
+    },
+    "7": {
+      "title": "A volumen és amit elárul",
+      "desc": "Hány részvény cserél gazdát",
+      "content": "Volumen = hány részvényt vettek és adtak el egy nap alatt. Gondolj rá úgy, mint egy TikTok-videó megtekintéseire.\n\n🔊 MAGAS volumen = sokan kereskednek. Ha az ár magas volumen mellett mozdul el, az erősebb, megbízhatóbb jel, mint amikor egy videó tényleg virális lesz, nem botoktól.\n\n🔇 ALACSONY volumen = csak kevesen kereskednek. Alacsony volumennél az árak furcsán mozoghatnak, mint egy videó, aminek csak 3 megtekintése van, és valaki véletlenül megosztotta.\n\nMindig nézd meg a volument, ha nagy ármozgást látsz. Elárulja, hogy a mozgás valódi, vagy csak zaj!",
+      "quiz": {
+        "q": "A(z) {telco} részvénye ma 5%-ot ugrik, de a volumen nagyon alacsony. Mit gondolj erről?",
+        "explanation": "A volumen azt mutatja, mekkora meggyőződés áll egy mozgás mögött. Egy nagy ugrás nagyon kevés kereskedés mellett ugyanolyan könnyen visszafordulhat, ahogy jött, ezért nézd meg a volument, mielőtt elhiszel egy kitörést.",
+        "options": [
+          "Ez biztosan óriási lehetőség, vegyél most!",
+          "Az alacsony volumen mindig azt jelenti, hogy az ár tovább emelkedik",
+          "A mozgás nem biztos, hogy megbízható, az alacsony volumen gyanússá teszi"
+        ]
+      }
+    },
+    "8": {
+      "title": "Támasz és ellenállás",
+      "desc": "Árszintek, amik számítanak",
+      "content": "Képzeld el, hogy egy részvény ára egy pattogó labda:\n\n🧱 TÁMASZ = a padló, amiről a labda visszapattan. Az ár folyamatosan esik, de valahányszor eléri ezt a szintet, visszapattan felfelé. Itt sok vevő jelenik meg.\n\n🪟 ELLENÁLLÁS = a plafon, amibe a labda beleütközik. Valahányszor az ár felmegy erre a szintre, visszanyomják lefelé. Itt sok eladó veszi ki a pénzét.\n\nA kereskedők úgy használják ezeket a szinteket, mint egy játéktérképet: vegyél a padló közelében, adj el a plafon közelében. Amikor az ár végre áttöri az ellenállást, gyakran gyorsan kilő. Ha a támaszt töri át, készülj az esésre! 💥\n\nEgy őszinte figyelmeztetés: ezeket a szinteket grafikonokat nézegető emberek rajzolják be, nem a piacnak kötelező szabályok. Egy részvény simán átszakíthatja a „támaszt”, és tovább eshet. 📉",
+      "quiz": {
+        "q": "Egy részvény háromszor pattant vissza {c}50-ről anélkül, hogy alá ment volna. Hogy hívják a {c}50-es szintet?",
+        "explanation": "Az a padló, amit az ár újra és újra tiszteletben tart, a támasz; az a plafon, ami újra és újra visszaveri az árat, az ellenállás. Egyik sem ígéret, de mindkettőt érdemes ismerni vásárlás előtt.",
+        "options": [
+          "Támaszszint",
+          "Ellenállási szint",
+          "Plafonár"
+        ]
+      }
+    },
+    "9": {
+      "title": "Diverzifikáció",
+      "desc": "Ne tedd egy kosárba az összes tojást",
+      "content": "Képzeld el, hogy az ÖSSZES mobiladatodat egyetlen streamingappra költöd. Aztán az app leáll. Semmid sem marad. 😩\n\nDe ha szétosztod az adatodat a WhatsApp, a YouTube ÉS a streamingapp között, akkor ha az egyik leáll, nem megy tönkre az egész hangulatod.\n\nUgyanez a helyzet a befektetéssel! Ha az ÖSSZES pénzedet egyetlen részvénybe teszed, és az összeomlik, mindent elveszítesz. De ha szétosztod a(z) {telco} (távközlés), a(z) {retail} (kiskereskedelem), a(z) {tech} (technológia) és egy ETF között, akkor az egyik összeomlása nem öli meg az egész portfóliódat. Ezt a szétterítős stratégiát DIVERZIFIKÁCIÓNAK hívják. 💼",
+      "quiz": {
+        "q": "{c}500-od van befektetni. Melyik osztja meg ténylegesen a kockázatot?",
+        "explanation": "Öt ruhabolt ugyanattól emelkedik és esik, így a köztük szétosztott pénz alig van szétosztva. A különböző iparágak különböző időpontokban kerülnek bajba, és ez akadályozza meg, hogy egy rossz eredmény mindent magával rántson.",
+        "options": [
+          "{c}100-at öt különböző ruhaboltba",
+          "{c}100-at öt különböző iparágba",
+          "Mind a {c}500-at abba az egy cégbe, amelyik a legjobban tetszik"
+        ]
+      }
+    },
+    "10": {
+      "title": "Kockázat és hozam",
+      "desc": "Miért jár nagyobb nyereség nagyobb kockázattal",
+      "content": "Vettél már meglepetésdobozt? Kaphatsz valami elképesztőt, vagy teljes szemetet. Ez a magas kockázat / magas hozam.\n\nA befektetés ugyanígy működik:\n\n✅ ALACSONYABB KOCKÁZAT, ALACSONYABB HOZAM: Mint a(z) {retail}. Hatalmas, jól bejáratott cég. A pénzed jellemzően lassan és egyenletesen nő. Figyelj: „alacsonyabb”, nem „nulla”. A nagy cégek is esnek.\n\n🎲 MAGAS KOCKÁZAT, MAGAS HOZAM: Mint egy pici, induló bányacég. Lehet belőle tízszeres, vagy eltűnhet. Mint a meglepetésdoboz.\n\nMielőtt bármibe befektetsz, mindig kérdezd meg: „Mi a legrosszabb, ami történhet?” Ha nem engedheted meg magadnak, hogy elveszítsd, ne vállald a kockázatot!",
+      "quiz": {
+        "q": "Egy coin, amiről senki sem hallott, 500%-os hozamot ígér. Mit árul el valójában egy ekkora ígéret?",
+        "explanation": "A kockázat és a hozam ugyanannak a botnak a két vége. Senki sem oszt 500%-ot ingyen, így az ígéret nagysága valójában azt méri, milyen könnyen tűnhet el a teljes összeg. Mielőtt bármibe pénzt teszel, kérdezd meg, hogy néz ki a legrosszabb eset, és együtt tudnál-e élni vele.",
+        "options": [
+          "Ez egy olyan alkalom, amit a piac többi része valahogy nem vett észre",
+          "Minél nagyobb az ígéret, annál komolyabbak az emberek mögötte",
+          "Annak az esélye, hogy mindent elveszítesz, ugyanolyan nagy, mint az ígéret"
+        ]
+      }
+    },
+    "11": {
+      "title": "Hosszú táv kontra rövid táv",
+      "desc": "Befektetői és kereskedői gondolkodás",
+      "content": "🏃 RÖVID TÁVÚ KERESKEDÉS: Napokon vagy heteken belüli vétel és eladás, hogy elkapd a gyors ármozgásokat. Nagy stressz, sok képernyőidő kell hozzá. Mint amikor egy tornán minden egyes meccs győztesét próbálod megtippelni.\n\n🧘 HOSSZÚ TÁVÚ BEFEKTETÉS: Részvényeket veszel, és évekig tartod őket. Kivárod a visszaeséseket, és hagyod nőni a pénzed. Mint amikor arra fogadsz, melyik csapat nyeri az egész szezont. Nem pánikolsz be egy rossz meccs után.\n\nA valódi brókerszámlák vizsgálatai újra és újra ugyanazt a mintát találják: minél gyakrabban kereskednek az emberek, annál rosszabbul járnak jellemzően, ha a költségeket is beszámítjuk.\n\nAz idő pedig az egyetlen előny, amit később nem lehet visszavásárolni. Minden év, amíg a pénz befektetve marad, újabb év, amikor a kamatos kamat dolgozik. ⏳",
+      "quiz": {
+        "q": "Két ember ugyanazokat a részvényeket veszi ugyanannyi pénzből. Az egyik minden héten ki-be kereskedik, a másik tíz évig békén hagyja. Mit találnak újra és újra a valódi számlák vizsgálatai?",
+        "explanation": "Minden ügylet kerül valamibe, és ez a költség akkor is levonódik, ha az ügylet bejött, és akkor is, ha nem. A valódi brókerszámlák vizsgálatai egymás után ugyanazt a mintát találják: minél gyakrabban kereskednek az emberek, annál jobban lemaradnak. A pénz békén hagyása nem lustaság, hanem az olcsóbb terv.",
+        "options": [
+          "A sokat kereskedő általában lemarad, ha a költségeket is beszámítjuk",
+          "A sokat kereskedő általában nyer, mert itt az erőfeszítés kifizetődik",
+          "Egyformán végeznek, mert pontosan ugyanazokat a részvényeket tartották"
+        ]
+      }
+    },
+    "12": {
+      "title": "{dcaTitle}",
+      "desc": "Fektess be rendszeresen ugyanannyit",
+      "content": "Itt egy stratégia, ami olyan egyszerű, hogy alig tűnik stratégiának, és kitörli a befektetés legnehezebb kérdését:\n\nFektess be MINDEN hónapban UGYANANNYIT, akár fent vannak az árak, akár lent. Mint amikor minden egyes hónapban félreteszel {c}100-at a születésnapi pénzedből vagy a zsebpénzedből.\n\n📉 Amikor az árak ALACSONYAK → a {c}100-ad TÖBB részvényt vesz\n📈 Amikor az árak MAGASAK → a {c}100-ad KEVESEBB részvényt vesz\n\nIdővel kisimul a részvényenkénti átlagos költséged, és automatikusan „megveszed a mélypontot” anélkül, hogy próbálkoznál! Ennek a neve: {dcaTitle} ({dcaAbbrev}). Kiveszi az érzelmeket a befektetésből, mert soha nem kell eldöntened, hogy „MOST van-e itt a jó idő?”. Csak elkötelezed magad, és mész! 💪\n\nŐszintén: ez nem mindig veri meg azt, ha egy összegben teszed be az egészet. Viszont olyan tervet ad, amit tényleg be tudsz tartani.",
+      "quiz": {
+        "q": "200 NT-t teszel be, amikor a részvény 100 NT-be kerül. Aztán a részvény összeomlik, és a következő 200 NT-d 25 NT-n megy be. Húzd a csúszkát a két befizetés utáni részvényenkénti átlagos költségedre.",
+        "explanation": "Az első 200 NT-d 2 részvényt vett 100 NT-n. A második 200 NT-d 8 részvényt vett 25 NT-n. Ez 400 NT 10 részvényért, vagyis darabonként 40 NT. Figyeld meg, hogy ez közel sincs a két ár közötti félútnál: ugyanaz a pénz automatikusan többet vesz, amikor olcsók a dolgok, és ez húzza le az átlagodat."
+      }
+    },
+    "13": {
+      "title": "Pénzbabák 💸",
+      "desc": "Pénzt kapsz csak azért, mert részvényeid vannak",
+      "content": "Képzeld el, hogy van egy italautomatád. Minden héten az emberek nassolnivalót vesznek a TE automatádból, te pedig beszeded a pénzt, csak azért, mert a tiéd. Semmi pluszt nem kellett tenned érte!\n\nEzek az osztalékok. Pénzbabáknak hívjuk őket 🍼, mert a pénzednek szó szerint babái születnek: kis készpénzes kifizetések, amelyek csak azért érkeznek a számládra, mert részvényeid vannak.\n\nOlyan nagy cégek, mint a(z) {divPayers}, rendszeresen fizetnek Pénzbabákat. Minél több részvényed van, annál nagyobbak a babáid!\n\n⚠️ NEM garantáltak. A cég minden alkalommal maga dönti el, fizet-e, és csökkentheti vagy teljesen le is állíthatja az osztalékot, ha nehéz idők járnak. Az idei nagy kifizetés nem ígéret a jövő évire.\n\nÉs ha ezeket a babákat újra befekteted, hogy TÖBB részvényt vegyél... a következő adag még nagyobb lesz. Gyönyörű körforgás 🔁",
+      "quiz": {
+        "q": "A(z) {bank} minden részvényed után {c}5-öt fizet neked, anélkül, hogy bármit eladnál. Hogy hívják ezt a kifizetést?",
+        "explanation": "Az osztalék a cég nyereségének az a része, amit a tulajdonosainak adnak. Ez az app Pénzbabáknak hívja. Minden részvényed megmarad, a pénz mégis megérkezik a számládra. Ám nem ígért összeg, és a cég bármikor csökkentheti vagy leállíthatja, ha nehéz idők járnak.",
+        "options": [
+          "Osztalék, egy szelet a nyereségből",
+          "Kamat, amilyet egy megtakarítási számla fizet",
+          "Hűségbónusz, mert vásárló vagy"
+        ]
+      }
+    },
+    "14": {
+      "title": "Kamatos kamat",
+      "desc": "Hogyan nő magától a pénzed",
+      "content": "Itt a legerősebb pénzügyi titok, amit valaha megtanulsz. Készen állsz? 👀\n\nBefektetsz {c}1,000-t évi 10%-os hozammal:\n• 1. év: {c}1,000 → {c}1,100 (keresett {c}100)\n• 2. év: {c}1,100 → {c}1,210 (keresett {c}110, többet, mint az 1. évben!)\n• 3. év: {c}1,210 → {c}1,331 (keresett {c}121)\n\nMost már a KAMATOD után is kamatot kapsz. A hógolyó minden évben nagyobb lesz, anélkül, hogy bármit hozzáadnál. 30 év után 10%-kal? Az az {c}1,000 {c}17,449 lesz! 🤯\n\nLátni fogod, hogy „a világ nyolcadik csodájának” nevezik, és Einsteinnek tulajdonítják. Nincs valódi bizonyíték arra, hogy valaha mondta volna, de a matek a lényeg, és a matek valódi. Kezdd korán, és az idő elvégzi helyetted a nehezét.",
+      "quiz": {
+        "q": "Beteszel 2,000 NT-t évi 10%-ra, és soha nem nyúlsz hozzá. Húzd a csúszkát arra, mennyit ér három év után.",
+        "explanation": "Az első év 200 NT-t ad hozzá, ez 2,200. A második év a 2,200 10%-át veszi, tehát 220-at ad hozzá, és 2,420 lesz. A harmadik év 242-t ad hozzá, és 2,662-n landol. Minden évben egy nagyobb kupacra számolják a 10%-ot, ezért marad alul, ha háromszor 200-at adsz hozzá, és megállsz 2,600-nál."
+      }
+    },
+    "15": {
+      "title": "Kamatos kamat és részvények",
+      "desc": "Pénzbabák újrabefektetése a növekedésért",
+      "content": "Emlékszel a Pénzbabákra (osztalékokra)? Most jön az izgalmas rész 🤯\n\nÁtlagos: Keresel {c}50-et Pénzbabákban → elköltöd nassolnivalóra → vége.\n\nOkos lépés: Keresel {c}50-et Pénzbabákban → TÖBB részvényt veszel → legközelebb TÖBB Pénzbabát kapsz → még több részvényt veszel → a hógolyó megy 🔝\n\nEz a kamatos kamat a részvényekre alkalmazva. Számold ki: tegyél be minden hónapban ugyanannyit 30 éven át 10%-os átlagos hozammal, és nagyjából HATSZOR annyi lesz a végén, mint amennyit ténylegesen befizettél. Ennek a kupacnak körülbelül öthatoda növekedés: olyan pénz, amit soha nem kerestél meg, nem spóroltál meg és nem fizettél be.\n\nHosszú időtávon az újrabefektetett osztalékok a befektetők teljes hozamának nagy részét adták. Pontosan ezért derül ki, hogy az „unalmas” osztalékfizetők egyáltalán nem unalmasak 💰",
+      "quiz": {
+        "q": "Keresel {c}80-at osztalékban, és minden fillérjét további részvényekre költöd ahelyett, hogy elköltenéd. Mi történik a következő kifizetéskor?",
+        "explanation": "Minden extra részvény, amit vettél, legközelebb saját osztalékot fizet, így a kifizetés nő anélkül, hogy új pénzt tennél be. Ez megint a kamatos kamat, csak ezúttal a jövedelmen fut, nem az árfolyamon.",
+        "options": [
+          "A kifizetés ugyanakkora marad, csak később érkezik",
+          "Legközelebb kevesebbet kapsz, mert visszaadtad a pénzt",
+          "Több részvényed van, így a következő kifizetés nagyobb"
+        ]
+      }
+    },
+    "16": {
+      "title": "A 72-es szabály",
+      "desc": "Gyors módszer a duplázódási idő becslésére",
+      "content": "Itt egy csalókód az agyadnak 🧠\n\nTudni akarod, mennyi idő alatt DUPLÁZÓDIK meg a pénzed? Csak oszd el a 72-t az éves hozamoddal:\n\n• 72 ÷ 12% hozam = 6 év a duplázódásig\n• 72 ÷ 8% hozam = 9 év a duplázódásig\n• 72 ÷ 6% hozam = 12 év a duplázódásig\n\nVagyis ha stabil évi 12%-ot keresel {c}2,000-on, 6 év múlva {c}4,000-od lesz. Várj még 6 évet, és {c}8,000-od lesz. Még 6, és {c}16,000-od! 🤯\n\nEz közelítés, nem törvény, és a valódi hozam soha nem minden évben ugyanaz a szám. De elég pontos ahhoz, hogy fejben kiszámold, és pont ez a lényeg.\n\nEzért HATALMAS dolog 13 vagy 14 évesen kezdeni. Több duplázódási ciklus áll előtted, mint szinte bárki másnak!",
+      "quiz": {
+        "q": "Egy befektetés évi 9%-ot hoz. A 72-es szabállyal húzd a csúszkát arra, hány év alatt duplázódik meg.",
+        "explanation": "Oszd el a 72-t az éves százalékkal. 72 osztva 9-cel 8, tehát a pénz nagyjából nyolc év alatt duplázódik meg, aztán nyolc évvel később újra. Ez egy gyors becslés, amit fejben is elvégezhetsz, nem pontos törvény, mert a valódi hozam soha nem minden évben ugyanaz a szám."
+      }
+    },
+    "17": {
+      "title": "Piaci kontra limitáras megbízás",
+      "desc": "Két módja a részvényvásárlásnak",
+      "content": "Két fő módja van egy részvény megvételének:\n\n⚡ PIACI MEGBÍZÁS: „Vegyél most rögtön, bármennyi is az ár.” Mint amikor kosárba teszel valamit, és azonnal fizetsz a(z) {shop} oldalon. Azonnal megkapod, de a ténylegesen fizetett ár az, amit a piac ad, és ez eltérhet attól a számtól, amit épp a képernyőn láttál.\n\n🎯 LIMITÁRAS MEGBÍZÁS: „Csak akkor vegyél, ha az ár {c}X-re esik.” Mint amikor felteszel valamit a kívánságlistádra a(z) {shop} oldalon, és vársz egy akcióra. Te szabod meg az árat, de lehet, hogy az ügylet egyáltalán nem jön létre.\n\nA limitáras megbízás az ár felett ad irányítást. A piaci megbízás azt a biztonságot adja, hogy teljesül. A kettő egyszerre nem megy! 💸\n\nA limitáras megbízás ugyanígy működik, amikor ELADSZ, csak fordított irányban. Tiéd a részvény, megadod az árat, amin szívesen eladnád, és ha odáig emelkedik, az app elad helyetted. Vételnél a mostani ár ALATTI árat adsz meg. Eladásnál a FELETTIT. Ugyanaz az ötlet, ellenkező oldal. 🔁",
+      "quiz": {
+        "q": "A(z) {tech} {c}200-on forog. Szívesen birtokolnád, de csak {c}180-on vagy olcsóbban. Melyiket használod?",
+        "explanation": "A piaci megbízás azonnal teljesül, bármennyi is éppen az ár. A limitáras megbízás megnevezi az áradat, és vár, így az app figyel helyetted. Ha fontosabb az ár, amit elfogadsz, mint a gyors beszállás, akkor ez kell neked.",
+        "options": [
+          "Piaci vételi megbízás, ami most rögtön teljesül {c}200-on",
+          "{c}180-ra beállított limitáras vétel, ami vár",
+          "Figyeld a képernyőt, és vegyél kézzel {c}180-on"
+        ]
+      }
+    },
+    "18": {
+      "title": "Kereskedési díjak és költségek",
+      "desc": "A kereskedési díjak megértése",
+      "content": "A legtöbb ügylet kerül egy kicsit: a bróker levesz egy kis részt. Ezeket kereskedési díjaknak vagy brókerdíjaknak hívják.\n\n⚠️ Egyes brókerek „nulla jutalékot” hirdetnek. Valahogy nekik is pénzt kell keresniük, így máshol keresik meg, általában a vételi és eladási ár közötti kis különbségen, a pénzváltáson, vagy a számládon pihenő készpénz kamatán. Az ingyenes ritkán ingyenes.\n\nA NoobTrader appban a szimulált díjak:\n• {ex} részvények: {exFee} ügyletenként\n• Globális részvények: 0.50%\n• ETF-ek: 0.30%\n• Kripto: 0.60%\n• Forex: 0.05%\n• Nyersanyagok: 0.40%\n\nPélda: Veszel {c}1,000 értékben a(z) {retail} részvényeiből {exFee} díjjal. A díj {c}{feeAmt}, tehát valójában {c}{feeTotal}-t költesz.\n\nA kis díjak GYORSAN összeadódnak, ha gyakran kereskedsz. Aki havonta 20 ügyletet köt, 20-szor fizeti meg a díjat, és kifelé menet újra. Ez az egyik oka annak, hogy a hosszú távú befektetők kevesebbet kereskednek: kevesebb ügylet, kevesebb díj 🧮",
+      "quiz": {
+        "q": "Veszel {c}1,000 értékben {ex} részvényeket {exFee} díjjal. Mennyi a díj?",
+        "explanation": "A díj a kereskedett összeg százaléka, így a megbízás méretével együtt nő. Számold ki kereskedés előtt, mert eladáskor újra felszámolják.",
+        "options": [
+          "{c}{feeAmtX10}",
+          "{c}{feeAmtLow}",
+          "{c}{feeAmt}"
+        ]
+      }
+    },
+    "19": {
+      "title": "Stop-loss megbízások",
+      "desc": "Védd magad a nagy veszteségektől",
+      "content": "A stop-loss olyan, mintha korlátot szabnál annak, mennyit vagy hajlandó veszíteni: egy előre beállított biztonsági háló.\n\nPélda: Veszel {telco} részvényeket darabonként {c}100-ért. Úgy döntesz, SOHA nem akarsz 15%-nál többet veszíteni. Ezért beállítasz egy stop-losst {c}85-re.\n\nHa a(z) {telco} {c}85-re esik → automatikusan elindul egy eladási megbízás. Nem kell figyelned, és nem kell pánik közepette döntened.\n\nEzt a részt rontják el sokan. A stop-loss szintje MINDIG a mai ár alatt van. Így kell lennie, mert az árnak le kell esnie, hogy elérje. Ha a mai ár fölé teszed, az már teljesül, így abban a pillanatban elad, ahogy beállítod, a mai áron. Ez eladás, nem biztonsági háló.\n\nNe keverd össze a limitáras eladással. Mindkettő automatikusan elad egy általad választott áron. A különbség az irány: a stop-loss akkor lép életbe, amikor az ár a szintedre ESIK, a limitáras eladás akkor, amikor a szintedre EMELKEDIK. Védekezel → a szinted alulra kerül. Megnevezed az áradat → a szinted felülre kerül. Kérdezd meg magadtól, melyiket csinálod, mielőtt beírod. 🧭\n\n⚠️ Fontos: a stop-loss ELADÁST indít el, nem garantál ÁRAT. Ha éjszaka rossz hír jön, és a részvény {c}70-en nyit anélkül, hogy valaha {c}85-ön forgott volna, a megbízásod azon az áron teljesül, amit a piac ténylegesen fizet. Ez jóval a beállított szinted alatt is lehet.\n\nStop-loss nélkül lehet, hogy kitartasz, reménykedve, hogy visszajön... és nézed, ahogy {c}20-ra esik. 😬\n\nProfi tipp: A maximális veszteségedet mindig vásárlás ELŐTT döntsd el. Ne hagyd, hogy az érzelmek döntsenek, amikor az ár már zuhan! 🧘",
+      "quiz": {
+        "q": "200 NT-n veszel, és úgy döntesz, nem vagy hajlandó 15%-nál többet veszíteni rajta. Húzd a csúszkát arra az árra, ahová a stop-loss való.",
+        "explanation": "A 200 NT 15%-a 30 NT, így a kiszállásod 30-cal a vételi ár alatt van, 170 NT-n. A stop-loss a mai ár alá kerül, mert az árnak le kell esnie, hogy elérje. Ha fölé teszed, az már teljesül, így abban a pillanatban elad, ahogy beállítod, és ez eladás, nem biztonsági háló."
+      }
+    },
+    "20": {
+      "title": "Mikor vegyél és adj el",
+      "desc": "Időzítés, türelem és fegyelem",
+      "content": "A legnagyobb hiba, amit a kezdő befektetők elkövetnek? Akkor vesznek, amikor mindenki hypeol, és akkor adnak el, amikor mindenki pánikol. Ez szó szerint az ellentéte annak, ami működik. 🤦\n\n📱 Amikor a csoportchated azzal van tele, hogy „VEDD MEG EZT A RÉSZVÉNYT MOST!!!!” → a hype általában már be van árazva. Elkéstél.\n\n😱 Amikor mindenki pánikban ad el → néha ez tényleg alkalom arra, hogy olcsóbban vegyél. Néha az ár még egy évig esik. Senki nem csenget, amikor elértük az alját.\n\nA titok? Legyen terved, MIELŐTT befektetsz:\n• Miért veszem ezt? (kutatás, nem hype)\n• Milyen áron adok el, ha FELMEGY? (nyereségrealizálás)\n• Milyen áron adok el, ha LEMEGY? (stop-loss)\n\nTartsd magad a tervedhez. Ne hagyd, hogy az érzéseid átvegyék az irányítást a stratégiád felett! 💪",
+      "quiz": {
+        "q": "Az egész csoportchated egy olyan részvényt hypeol, ami ebben a hónapban már 80%-ot ment fel. Mi az okos lépés?",
+        "explanation": "Mire egy részvény minden csoportchatben ott van, a mozgás nagy része már lezajlott, és a későn érkezők azoktól vesznek, akik épp realizálják a nyereségüket. Nézd meg magad a céget. Attól, hogy a tömeg hangos, még nem biztos, hogy igaza is van.",
+        "options": [
+          "Vegyél most, mielőtt elszalad előled az ár",
+          "Add el a többi részvényedet, és tegyél mindent ebbe",
+          "Nézd meg magad a céget, mielőtt döntesz"
+        ]
+      }
+    },
+    "21": {
+      "title": "Mi az a piaci kapitalizáció?",
+      "desc": "Hogyan mérjük egy cég méretét",
+      "content": "A piaci kapitalizáció megmutatja, mekkora egy cég valójában, {cPlural} összegben kifejezve.\n\n📐 Képlet: Részvényárfolyam × Összes részvény száma = Piaci kapitalizáció\n\nPélda: Ha a(z) {retail} cégnek 1 milliárd részvénye van, és mindegyik {c}50-be kerül, a piaci kapitalizáció {c}50 MILLIÁRD. Ez az egész cég „árcédulája”.\n\n🔵 Nagy kapitalizációjú: a legnagyobb, legbejáratottabb nevek, mint a(z) {tech} és a(z) {bank}. Alacsonyabb kockázat, általában lassabb növekedés.\n🟡 Közepes kapitalizációjú: közepes méretű cégek. Kiegyensúlyozott kockázat.\n🔴 Kis kapitalizációjú: pici cégek. Gyorsan nőhetnek VAGY nagyot zuhanhatnak.\n\n⚠️ A határok nem egységesek. Az USA-ban a „nagy kapitalizációjú” általában valahol $10 milliárd fölötti értéket jelent, de minden piac saját sávokat határoz meg, így egy nagy cég {name} piacán nem ugyanakkora, mint egy nagy cég az USA-ban. A tényleges számot nézd, ne csak a címkét 🧐",
+      "quiz": {
+        "q": "Az A cégnek 5 millió részvénye van darabonként {c}200-on. A B cég részvényei {c}10-be kerülnek. Húzd a csúszkát arra, hány millió részvény kell B-nek, hogy annyit érjen, mint A.",
+        "explanation": "A piaci kapitalizáció a részvényárfolyam szorozva a részvények számával. Az A cég 5 millió szor {c}200-at ér, ami {c}1,000 millió. A B cégnek ugyanezt az összeget kell elérnie {c}10-es részvényárral, tehát 100 millió részvény kell neki, hússzor annyi. Az alacsony részvényárfolyam semmit nem árul el egy cég méretéről."
+      }
+    },
+    "22": {
+      "title": "A P/E mutató egyszerűen",
+      "desc": "Drága vagy olcsó egy részvény?",
+      "content": "A P/E mutató (árfolyam/nyereség arány) megmutatja, mennyit fizetsz a cég nyereségének minden egyes {cName} egységéért.\n\n📐 Képlet: Részvényárfolyam ÷ Egy részvényre jutó nyereség = P/E mutató\n\nGondolj rá úgy, mint a pizzaszeletenkénti árra 🍕\n\nHa az A pizza {c}80 8 szeletért = {c}10/szelet\nHa a B pizza {c}100 5 szeletért = {c}20/szelet\n\nAz A pizza szeletenként olcsóbb. Hasonló a helyzet a részvényekkel:\n• Alacsony P/E (10 alatt) = talán jó vétel, VAGY a piac arra számít, hogy a nyeresége CSÖKKENNI fog. Az alacsony P/E kérdés, nem válasz.\n• Magas P/E (25 fölött) = a piac nagy jövőbeli növekedést vár. Ezt a cégnek aztán tényleg teljesítenie kell.\n\nA P/E-t mindig UGYANABBAN az iparágban működő MÁS cégekkel hasonlítsd össze. Ne hasonlítsd egy bank P/E-jét egy techcégéhez!",
+      "quiz": {
+        "q": "Az A cég P/E mutatója 8. A B cégé (ugyanabban az iparágban) 30. Mire utal ez?",
+        "explanation": "Az alacsonyabb P/E azt jelenti, hogy kevesebbet fizetsz minden egység nyereségért, ami jelenthet jó vételt vagy bajban lévő céget is. A mutató felveti a kérdést, de nem válaszol rá.",
+        "options": [
+          "Az A cég olcsóbb egységnyi nyereségre vetítve, de derítsd ki, MIÉRT, mielőtt veszel",
+          "A B cég mindig a jobb befektetés a kettő közül",
+          "A P/E mutató egyáltalán nem segít a befektetési döntésekben"
+        ]
+      }
+    },
+    "23": {
+      "title": "Céges eredmények olvasása",
+      "desc": "Árbevétel, nyereség, és ami számít",
+      "content": "A cégek néhány havonta közzéteszik a „bizonyítványukat” (egyes piacokon negyedévente, máshol félévente), és ez NAGYON megmozgatja a részvényárfolyamokat. Ezekre figyelj:\n\n📊 ÁRBEVÉTEL: Az eladásokból befolyó teljes pénz. Mint az, hogy egy kis bolt összesen mennyit kasszírozott.\n💰 NETTÓ NYERESÉG: Ami MEGMARAD, miután minden kiadást kifizettek. A nap végén ténylegesen megmaradó pénz.\n📈 EPS (egy részvényre jutó nyereség): A nyereség osztva a részvények számával. Mennyit keresett egy-egy részvény.\n\nJó jelek: Árbevétel FEL + Nyereség FEL + növekvő EPS = 🟢 az ár gyakran emelkedik\nRossz jelek: Árbevétel LE + csökkenő nyereség = 🔴 az ár gyakran esik\n\nEgy csavar: ami igazán mozgatja az árat, az az eredmény ahhoz képest, amit a piac VÁRT. A remek számok is lehúzhatják a részvényt, ha elmaradnak a várakozásoktól.\n\nEgy cégnek lehet rengeteg árbevétele, de nulla nyeresége (magas költségek). Mindig MINDKETTŐT nézd meg!",
+      "quiz": {
+        "q": "A(z) {bank} 15%-kal magasabb árbevételt jelent, de a nyeresége 20%-kal csökkent a magasabb költségek miatt. Jó vagy rossz jel ez?",
+        "explanation": "Az árbevétel az, ami bejött, a nyereség az, ami megmaradt. Itt a költségek gyorsabban nőnek, mint az eladások, vagyis a cég több üzletet köt, de kevesebbet tart meg belőle. Ez valódi figyelmeztetés, de nem összeomlás, és a következő kérdés az, miért nőttek a költségek.",
+        "options": [
+          "Aggasztó, mert többet adnak el, de kevesebbet tartanak meg belőle",
+          "Erős, mert a növekvő árbevétel az, ami igazán számít",
+          "Szörnyű, mert a csökkenő nyereség azt jelenti, hogy a cég csődbe megy"
+        ]
+      }
+    },
+    "24": {
+      "title": "Szektorok és iparágak",
+      "desc": "Különböző típusú cégek",
+      "content": "A tőzsde szektorokra oszlik, mint egy iskola különböző munkaközösségei.\n\n{sectorList}\n\nA különböző szektorok különböző időpontokban emelkednek és esnek, és pont ezért érdemes diverzifikálni közöttük! Ha a bankszektor összeomlik, lehet, hogy a tech épp szárnyal. A portfóliód kiegyensúlyozott marad. 🎯",
+      "quiz": {
+        "q": "{name} kamatai meredeken emelkednek. Melyik szektor jár általában a legjobban?",
+        "explanation": "A bankok azon a különbségen keresnek, amit a hitelfelvevőktől kérnek, és amit a megtakarítóknak fizetnek, és az emelkedő kamatok ezt a különbséget általában növelik. A legtöbb más szektornak a drágább hitel költséget jelent.",
+        "options": [
+          "Kiskereskedelem: a vásárlók bátrabban vesznek fel hitelt, és a pluszt a boltokban költik el",
+          "Bankszektor: a bankok általában nagyobb különbséget keresnek a hitelfelvevőktől kért és a megtakarítóknak fizetett kamat között",
+          "Technológia: olcsóbb lesz hitelből építkezni, így a szoftvercégek gyorsabban terjeszkednek"
+        ]
+      }
+    },
+    "25": {
+      "title": "Mi az az ETF?",
+      "desc": "Vegyél meg egy egész kosarat egyszerre",
+      "content": "Régen csak úgy lehetett playlistet összerakni, hogy egyenként választottad ki a számokat. Aztán jött a Spotify, és kész playlisteket adott, egy azonnali válogatást erőfeszítés nélkül. 🎵\n\nAz ETF-ek (tőzsdén kereskedett alapok) a befektetés Spotifyjai. Ahelyett, hogy egyenként választanál részvényeket, EGY ETF-et veszel, amely egy egész kosárnyit tart belőlük.\n\nA legtöbb ETF egy INDEXET követ: cégek nyilvános listáját, amelyet egy szabálykönyv alapján állítanak össze. {etfDesc} Az ETF egyszerűen megveszi, ami a listán van, ugyanolyan arányban, és frissíti magát, amikor a lista változik.\n\nVagyis egyetlen {etf} ETF egyetlen vásárlással egy apró szeletet ad neked ebből: {etfBasket} (olyan nevek, mint a(z) {top5}).\n\n⚠️ Egy index NEM automatikusan „a legnagyobb cégek”. Egyes listák méret szerint rangsorolnak, mások aszerint, mennyire kereskednek egy részvénnyel, megint másokat egy bizottság válogat. Ugyanazon a tőzsdén két index teljesen különböző cégeket tartalmazhat. Mindig olvasd el, mi is valójában a lista, mielőtt megveszed.\n\nAz ETF-ek általában olcsóbbak, egyszerűbbek és diverzifikáltabbak, mint ha magad választanál részvényeket. Rengeteg profi alapkezelő sem tudja megverni őket! 🤯",
+      "quiz": {
+        "q": "Veszel egy egységet a(z) {etf} ETF-ből, amely ezt követi: {etfBasket}. Mi a tiéd most?",
+        "explanation": "Az index egy nyilvános lista, az index-ETF pedig mindent megvesz rajta, ugyanolyan arányban. Egy egység tehát a lista minden nevéből tart egy szeletkét, ezért már egyetlen vásárlás is szét van terítve. Nem csak a legnagyobb név, és nem is készpénz, ami az utasításaidra vár.",
+        "options": [
+          "Egy részvény a lista legnagyobb cégéből",
+          "Egy kis szelet a lista minden egyes cégéből",
+          "Készpénz, amit az alap addig tart, amíg meg nem mondod, mit vegyen"
+        ]
+      }
+    },
+    "26": {
+      "title": "{ex} ETF-ek",
+      "desc": "Népszerű ETF-ek, amiket érdemes ismerni",
+      "content": "Rengeteg ETF-et és indexalapot vehetsz innen: {name}. Íme néhány a legnépszerűbbek közül:\n\n{etfList}\n\nAz ETF-ek óriási előnye: a DÍJAK. Sok aktívan kezelt alap évente nagyjából 1–2%-ot számol fel, néha többet is. A széles index-ETF-ek gyakran 0.2% alatt maradnak. Egy 20 évig tartott {c}10,000-os befektetésnél ez a különbség TÖBB EZER {cPlural} összeget ér 💸\n\nVásárlás előtt nézd meg a díjat. Általában „TER” vagy „költséghányad” néven szerepel. Senki nem tudja megmondani, mennyit fog hozni egy ETF, de a díj egy olyan szám, amit előre TUDHATSZ.",
+      "quiz": {
+        "q": "Befektetsz 20,000 NT-t. Egy aktívan kezelt alap évi 2%-ot számol fel. Egy nagyjából ugyanazokat a cégeket tartó index-ETF 0.2%-ot. Húzd a csúszkát arra, mennyivel visz el többet tőled a drágább egyetlen év alatt.",
+        "explanation": "A két díj közötti különbség évi 1.8%, és 20,000 NT 1.8%-a 360 NT. Ezt akkor is levonják, ha az alap emelkedik, és akkor is, ha esik, és minden egyes évben újra levonják. Senki nem tudja megmondani, mennyit fog hozni egy alap, de a díj már vásárlás előtt le van írva, általában TER vagy költséghányad néven."
+      }
+    },
+    "27": {
+      "title": "Globális kontra hazai ETF-ek",
+      "desc": "Befektetés itthon és azon túl",
+      "content": "Csak olyan cégekbe érdemes befektetned, amelyek innen valók: {name}? Röviden: nem! Íme, miért:\n\n🏠 HAZAI ETF-EK: {name} cégeibe fektetnek. Ismered a márkákat, és {cPlural} pénznemben vannak. De ha {name} gazdasága megbicsaklik, az egész portfóliód eshet.\n\n🌍 GLOBÁLIS ETF-EK: Nemzetközi cégekbe fektetnek (USA, Európa, Ázsia). {currencyHedge}\n\nA devizaárfolyam viszont kétélű: ha a hazai pénznemed ERŐSÖDIK, ugyanazok a külföldi befektetések itthon kevesebbet érnek. Ez az ár, amit a külföldi tulajdonért elfogadsz.\n\nHa hazai és globális ETF-ed is van, egyszerre két különböző kockázat között oszlasz meg: a saját gazdaságod és a saját pénznemed között. Az egyensúly minden! ⚖️",
+      "quiz": {
+        "q": "{fxQuizSetup}. A globális ETF-edben lévő külföldi részvények egyáltalán nem mozdultak. Mennyit ér most {cName} pénznemben számolva?",
+        "explanation": "A globális ETF más pénznemben árazott dolgokat tart. Ha a saját pénznemed gyengül, az a külföldi pénz több hazai pénzre váltható vissza, így a befektetés itthon többet ér, pedig a részvények meg sem mozdultak. Fordítva is működik: az erősebb hazai pénznem csendben összezsugorítja ugyanazt a befektetést. A devizakockázat kétélű.",
+        "options": [
+          "Többet, mert a külföldön tartott pénz most többet ér itthon",
+          "Kevesebbet, mert a rossz devizahír a pénzednek is rossz kell, hogy legyen",
+          "Ugyanannyit, mert a benne lévő részvények egy centit sem mozdultak"
+        ]
+      }
+    },
+    "28": {
+      "title": "Megtakarítás kontra befektetés",
+      "desc": "Miért kell dolgoznia a pénzednek",
+      "content": "Mindkettő jó. De más célt szolgálnak:\n\n🏦 MEGTAKARÍTÁS: Bankszámlára teszed a pénzt. Biztonságos, bármikor hozzáférsz. DE a kamat általában {savings}, gyakran kevesebb az inflációnál. A pénzed „biztonságban” van, de lassan veszít a vásárlóerejéből.\n\n📈 BEFEKTETÉS: Részvényekbe, ETF-ekbe vagy ingatlanba teszed a pénzt. Nagyobb kockázat, és egyetlen évre sincs garancia. Vannak évek, amikor egyszerűen pénzt veszítesz. Hosszú távon viszont a részvények történelmileg többet hoztak, mint a készpénz. {name} piaca a múltban átlagosan nagyjából évi {mktReturn} hozamot ért el, és a múltbeli átlag történelem, nem ígéret.\n\nÖkölszabály:\n• 3–6 havi kiadás megtakarításban (a vésztartalékod) 🚨\n• Azt a pénzt fektetik be az emberek, amire évekig nem lesz szükségük 🚀\n\nNe fektess be olyan pénzt, amire jövő hónapban szükséged lehet. Arra való a megtakarítás!",
+      "quiz": {
+        "q": "A kiadásaid havi 800 NT-t tesznek ki, és 5,000 NT-t spóroltál össze. Húzd a csúszkát a legkisebb vésztartalékra, amit a szokásos ökölszabály készpénzben hagyna.",
+        "explanation": "Az ökölszabály három-hat havi kiadás készpénzben. Egy 800 NT-s havi költség három hónapra 2,400 NT, hat hónapra 4,800 NT, így bármi ebben a sávban normális. Azért érdemes készpénzben tartani, mert ha valami váratlanul elromlik, nem akarod, hogy épp azon a napon kelljen eladnod a befektetéseidet, bármi is legyen akkor az ár."
+      }
+    },
+    "29": {
+      "title": "Az infláció és a pénzed",
+      "desc": "Miért veszít értékéből a készpénz",
+      "content": "Kérdezz meg egy felnőttet, mennyibe került egy {food}, amikor annyi idős volt, mint te. Valahol {c}{foodOld} körül. Most {c}{foodNew}+. Ez az infláció: az árak idővel lassan emelkednek, vagyis minden {cName} KEVESEBBET vesz, mint régen.\n\n{name} inflációja általában évi {inflation} körül alakult.\n\nVagyis ha a megtakarításod évi 4%-ot hoz, de az infláció 6%, akkor valójában évente nagyjából 2% vásárlóerőt VESZÍTESZ, pedig az egyenleged nőtt!\n\n💡 A befektetéseidnek meg kell verniük az inflációt, hogy tényleg gyarapodj.\n• Készpénz a matrac alatt: évről évre veszít az értékéből 💀\n• Banki megtakarítás: gyakran épphogy lépést tart\n• {ex} részvények (hosszú távú átlag): évi {mktReturn}, ami múltbeli átlag, nem ígéret 🔥\n\nA befektetés nem csak arról szól, hogy meggazdagodj. Hanem arról, hogy ne szegényedj el! 💸",
+      "quiz": {
+        "q": "A megtakarítási számlád évi 4%-ot fizet. Az árak évi 6%-kal emelkednek. Húzd a csúszkát arra, mi történik valójában a vásárlóerőddel abban az évben.",
+        "explanation": "A reálhozam a kapott kamat mínusz a fizetett infláció, így 4% a 6%-kal szemben nagyjából mínusz 2%. A számládon lévő szám nő, miközben az, amit ténylegesen venni tudsz vele, csökken, és ez az infláció csendes trükkje a megtakarításokkal. Valódi vagyonépítéshez a pénznek meg kell vernie az inflációt, nem elég valamennyit keresnie."
+      }
+    },
+    "30": {
+      "title": "Érzelmek és befektetés",
+      "desc": "Ne adj el pánikból, ne vegyél FOMO-ból",
+      "content": "A tőzsde alapvetően az érzelmi önuralom próbája. A legtöbben elbuknak rajta. 🎭\n\n😱 PÁNIKELADÁS: A piac 20%-ot esik, bepánikolsz, mindent eladsz. Aztán visszajön. Ok nélkül realizáltad a veszteségedet.\n\n🤑 FOMO-VÉTEL: A közösségi médiában mindenki egy coint hypeol. Beszállsz. Az ár azonnal összeomlik. Ott maradsz a bukott befektetéssel.\n\nA legjobb befektetők úgy kezelik a piaci összeomlást, mint egy akciót a(z) {retail} boltjaiban. Nyugodtan tovább vásárolnak ahelyett, hogy pánikolnának. Warren Buffett így fogalmazott: „Légy félénk, amikor mások kapzsik, és légy kapzsi, amikor mások félnek.”\n\nKészíts tervet. Tartsd magad hozzá. A jövőbeli éned hálás lesz, hogy nem dühből adtál el egy piros napon! 🙏",
+      "quiz": {
+        "q": "A piac egy hét alatt 15%-ot esik, és a csoportchated mindent elad. A pénzed a következő tíz évre van befektetve. Mi a teendő?",
+        "explanation": "Egy 15%-os esés csak azon a napon válik valódi veszteséggé, amikor eladsz bele. Azt a tervet, amit akkor írtál, amikor semmi sem történt, a tiszta fejű éned írta, és a hozzá való ragaszkodás maga a tudás. Ha megvárod, hogy minden nyugodtnak tűnjön, mielőtt visszaveszel, akkor drágábban veszel vissza, mert a nyugalom a fellendülés után jön, nem előtte.",
+        "options": [
+          "Adj el most, és vegyél vissza, amikor minden nyugodtabbnak tűnik",
+          "Tedd át a pénzt abba, amit a chat helyette vesz",
+          "Folytasd azt a tervet, amit nyugodt állapotban leírtál"
+        ]
+      }
+    },
+    "31": {
+      "title": "A főellenség",
+      "desc": "Kamatos kamat, a világ 8. csodája",
+      "content": "„A világ nyolcadik csodája: aki érti, megkeresi; aki nem, megfizeti.” Ezt a mondatot az interneten mindenhol Einsteinnek tulajdonítják. Nincs valódi bizonyíték arra, hogy ő mondta volna.\n\nA matek viszont tagadhatatlan. Íme a legfontosabb dolog, amit a pénzről megtanulsz:\n\nAki 20 évesen kezd, és havi {c}500-at fektet be évi 12%-on, 65 évesen TÖBBEL rendelkezik, mint az, aki 35 évesen kezd, és havi {c}2,000-et fektet be ugyanazon a hozamon. Négyszer akkora havi összeg, és mégis lemarad.\n\nAz. Idő. Minden.\n\nEz nem a számok trükkje, hanem a kamatos kamat lényege: minden év, amit vársz, többe kerül, mint amennyit bármelyik később hozzáadott év vissza tud nyerni. A legjobb pillanat a kezdésre korábban volt. A második legjobb most van.\n\nEz a kvíz a végső próbád. Ha hibátlanul megoldod, hivatalosan is NoobTrader-minősítést kapsz! 👑",
+      "bossVictory": "Kamatos kamat feloldva. Mostantól veszélyes vagy. 🔥",
+      "quiz": {
+        "q": "Évi 12%-on 10 évre befektetett {c}1,000 kb. {c}3,106-ra nő. Mi történik, ha MEGDUPLÁZOD az időt 20 évre?",
+        "explanation": "Az idő megduplázása sokkal többet tesz, mint az eredmény megduplázása, mert minden év növekedése mindenre ráépül, ami előtte volt. A növekedés gyorsul, nem lassul.",
+        "options": [
+          "Több mint háromszorosára nő, kb. {c}9,646-ra",
+          "Nagyjából megduplázódik, kb. {c}6,200-ra",
+          "A hozam lelassul, minél tovább vársz"
+        ]
+      }
+    },
+    "32": {
+      "title": "Kriptoplatformok és -tárcák",
+      "desc": "Hol él valójában a kripto",
+      "content": "Először az őszinte rész: a valódi kriptoplatformok szinte minden országban 18 éves kort írnak elő. Ezért a NoobTrader lehetővé teszi, hogy előbb virtuális pénzzel gyakorold az egészet. 🎮\n\nAmikor a felnőttek kriptót vesznek, kétféle helyet használnak:\n\n🏦 TŐZSDÉK ÉS BRÓKERAPPOK (letétkezelős): regisztrálsz, és ők őrzik helyetted a kriptódat. Egyszerű, de megbízol bennük. Ha feltörik őket vagy csődbe mennek, a kriptód eltűnhet. Ez a kriptovilág legnagyobb neveivel is megtörtént már.\n\n🔑 SAJÁT KEZELÉSŰ TÁRCÁK: egy app, ahol TE őrzöd a titkos kulcsokat. Senki nem fagyaszthatja be, de segíteni sem tud senki. Ha elveszíted a seed phrase-edet (a 12–24 titkos szót), a kriptó örökre elveszett. Nincs jelszó-visszaállítás. Nincs ügyfélszolgálat. Eltűnt.\n\nA kriptósok azt mondják: „Nem a te kulcsaid, nem a te coinjaid.” Most már tudod, mit jelent.",
+      "quiz": {
+        "q": "Mit jelent, ha egy tőzsde „letétkezelőként” őrzi a kriptódat?",
+        "explanation": "A letétkezelés azt jelenti, hogy a platform őrzi a kulcsokat, így a coinjaid mindig csak annyira vannak biztonságban, amennyire a platform. Ha feltörik vagy csődbe megy, velük együtt eltűnhetnek. Erre gondolnak az emberek azzal, hogy nem a te kulcsaid, nem a te coinjaid.",
+        "options": [
+          "A tőzsde őrzi helyetted a kulcsokat",
+          "Te őrzöd a kulcsokat, és senki más nem férhet hozzájuk",
+          "Senki nem nyúlhat a coinokhoz, még te sem",
+          "Automatikusan kamatozik"
+        ]
+      }
+    },
+    "33": {
+      "title": "Hogyan működik a kriptovásárlás",
+      "desc": "Spreadek, díjak és 0–24-es piacok",
+      "content": "A kriptovásárlás úgy néz ki, mint bármilyen online vásárlás, de három dolog más:\n\n1️⃣ A SPREAD: a vételi ár mindig egy kicsit magasabb, mint az eladási ár. Ha veszel {c}100 értékű kriptót, és azonnal eladod, talán {c}97-et kapsz vissza. Ebből a különbségből keresnek csendben a platformok.\n\n2️⃣ DÍJAK FELÜL: a legtöbb platform ügyletenként díjat is felszámol, kis vásárlásoknál gyakran 1–2%-ot. A díjak és a spread együtt azt jelentik, hogy egy kis vásárlás nagyjából 3–5%-os mínuszból indul, mielőtt az ár egyáltalán megmozdulna.\n\n3️⃣ NINCS ZÁRÓCSENGŐ: a tőzsdék éjszaka és hétvégén zárva vannak. A kriptóval 24/7 kereskednek, az év minden napján. Az árak összeomolhatnak, miközben alszol. Részben ezért sokkal volatilisebb a kripto, mint a részvények.\n\nA NoobTrader appban virtuális pénzzel kereskedhetsz kriptóval, 24/7, egyetlen fillér elvesztése nélkül. Minden ügyletnél fizetsz díjat, de a NoobTrader nem számol fel spreadet, így egy valódi vásárlás többe kerül, mint ugyanaz az ügylet itt. 📊",
+      "quiz": {
+        "q": "200 NT-t teszel egy coinba, és öt másodperccel később eladod, mielőtt az ár egyáltalán megmozdult volna. A vételi és eladási ár közötti különbség 3%-ba kerül, és a platform minden ügyletnél 1% díjat számol fel. Húzd a csúszkát arra az összegre, ami visszajön.",
+        "explanation": "A spread elvisz 3%-ot, aztán befelé menet jön egy 1%-os díj, és kifelé menet még egy. Ez a 200 NT-d 5%-a, vagyis 10 NT eltűnik, mielőtt az ár bármit csinált volna. 190 NT-t kapsz vissza, és a coinnak most 5%-ot kell emelkednie csak ahhoz, hogy nullára kijöjj."
+      }
+    },
+    "34": {
+      "title": "A gázdíjak egyszerűen",
+      "desc": "Miért kerül pénzbe a kriptoküldés",
+      "content": "A kriptoküldés nem ingyenes. Minden tranzakció hálózati díjat fizet, amit gyakran GAS-nak (gázdíjnak) hívnak, azoknak a számítógépeknek, amelyek feldolgozzák és biztosítják a hálózatot.\n\nEzen a részen mindenki meglepődik: a gázdíjat a hálózati forgalom határozza meg, NEM az, hogy mennyit küldesz. Amikor a hálózat zsúfolt, a díjak megugranak.\n\n🤯 Egyes hálózatokon csúcsidőben {c}10 értékű kripto elküldése TÖBBE kerülhet gázdíjban, mint {c}10. Többet fizetnél a szállításért, mint amennyit a csomag ér.\n\nAz újabb hálózatok és a „layer 2” rendszerek főleg azért léteznek, hogy ezt olcsóbbá tegyék, néhány centes díjakkal. Aki kriptóval foglalkozik, a küldés gomb megnyomása ELŐTT megnézi a díjat.\n\nMég valami: a kriptoutalások nem vonhatók vissza. Rossz cím plusz kifizetett gázdíj egyenlő elveszett pénz, véglegesen. Nincs bank, amit felhívhatnál. ☎️❌",
+      "quiz": {
+        "q": "Ma magasak a gázdíjak. {c}15 értékű kriptót akarsz küldeni, a gázdíj pedig {c}20. Mi az okos értelmezés?",
+        "explanation": "A gázdíjat az határozza meg, mennyire zsúfolt a hálózat, nem az, hogy mennyit küldesz, így egy kis utalás többe kerülhet, mint amennyit ér. A felosztás sem segít, mert minden utalás a saját díját fizeti. Várj egy csendesebb időszakra, vagy használj olcsóbb hálózatot.",
+        "options": [
+          "Fizesd ki, mert a díjat visszatérítik, amint megérkezik",
+          "Hagyd ki, a díj többe kerül, mint a csomag",
+          "Oszd ketté, így mindkét fele a díj felét fizeti",
+          "Ne törődj a díjjal, a gázdíj csak a nagy utalásokra vonatkozik"
+        ]
+      }
+    },
+    "35": {
+      "title": "Mémcoinok és rug pullok",
+      "desc": "Vedd észre a csapdákat, mielőtt azok észrevesznek téged",
+      "content": "A mémcoinok viccekre és hype-ra épülő kriptók, valódi felhasználás nélkül. Néhány meggazdagította a korai vevőket, és pont ezért létezik belőlük több ezer utánzat. Szinte mind nullára megy. 📉\n\nA legaljasabb csapda a RUG PULL (a szőnyeg kirántása): a készítők létrehoznak egy coint, erősen hypeolják, megvárják, hogy az emberek beözönöljenek, aztán kidobják a hatalmas készletüket, vagy kiürítik a kereskedési poolt. Az ár percek alatt összeomlik. Ők megtartják a pénzt. Neked maradnak az értéktelen coinok.\n\n🚩 VÉSZJELEK, amiket jegyezz meg:\n• Névtelen csapat, amit nem tudsz ellenőrizni\n• „Garantált” hozam (a piacokon semmi sem garantált)\n• Fizetett influenszerek, akik nyomják\n• Egy pici csoportnál van a kínálat nagy része\n• Nyomás, hogy „vegyél, mielőtt túl késő”\n\nHa egy coin fő ígérete az, hogy MÁSOK vásárlása tesz majd TÉGED gazdaggá, az nem befektetés. Az egy székfoglaló játék, és a zene a készítőké. 🎵",
+      "quiz": {
+        "q": "Egy új coinnak névtelen a csapata, garantált 100-szorost ígér, és fizetett influenszerek nyomják erősen. Mi történik általában ezután?",
+        "explanation": "A névtelen csapat, a garantált hozam és a fizetett promóció a tipikus rug pull felállás. A készítőknél van a kínálat nagy része, eladják a hype közepén, és lelépnek, a vevőkre pedig egy coin marad, amit senki sem akar. A piacokon semmi sem garantált.",
+        "options": [
+          "A vevők visszakapják a pénzüket attól a tőzsdétől, ahol elindult",
+          "Az ár stabilizálódik, amint az influenszerek abbahagyják a posztolást",
+          "A csapat kidobja a készletét, és az ár összeomlik",
+          "A felügyeleti szervek kötelezik a csapatot, hogy felfedje magát"
+        ]
+      }
+    },
+    "36": {
+      "title": "Bányászat, kereskedés, staking",
+      "desc": "Három nagyon különböző játék",
+      "content": "Háromféleképpen próbálnak az emberek keresni a kriptóval, és ezek NEM ugyanaz a játék:\n\n⛏️ BÁNYÁSZAT: erős számítógépek versenyeznek a tranzakciók feldolgozásáért, és új coinokat kapnak érte. Jól hangzik, de a Bitcoin-bányászat ma ipari méretű: speciális gépekkel teli raktárcsarnokok és hatalmas villanyszámlák. A telefonod vagy a laptopod nem tud versenyezni, a „bányássz Bitcoint a telefonodon!” appok pedig szinte mindig átverések vagy reklámfarmok, amelyek szinte semmit nem fizetnek.\n\n🥩 STAKING: egyes hálózatokon lekötöd a coinjaidat, hogy segíts biztosítani a hálózatot, és jutalmat kapsz érte, kicsit olyan, mint a kamat. Valódi dolog, de a coinjaid egy ideig le lehetnek kötve, és az ÁRUK közben is összeomolhat.\n\n📊 KERESKEDÉS: vétel és eladás, hogy profitálj az ármozgásokból. Nem kell hozzá hardver, de ez az a játék, ahol a fegyelem a legfontosabb, és ahol a legtöbb kezdő a saját érzelmeivel szemben veszít.\n\nA NoobTrader a kereskedés játékát tanítja, nulla kockázattal. A másik kettőhöz már a kezdéshez is valódi pénz kell.",
+      "quiz": {
+        "q": "Egy app azt állítja, hogy a telefonod nyereségesen bányászhat Bitcoint, miközben alszol. Mi a legvalószínűbb igazság?",
+        "explanation": "A bányászat olyan verseny, amit a speciális hardver és az olcsó áram dönt el, és a telefonnak egyik sincs. Az ennek az ellenkezőjét ígérő appok általában az adataidra, az akkumulátorodra vagy a pénzedre hajtanak, és szinte semmit nem fizetnek érte.",
+        "options": [
+          "A telefonok lassan bányásznak, de így is nyereségesek",
+          "Működik, de csak a legújabb telefonokon",
+          "A telefonos bányászatot betiltották a hálózatok",
+          "Ez egy reklámfarm, ami szinte semmit nem fizet"
+        ]
+      }
+    },
+    "37": {
+      "title": "Kriptobiztonság és átverések",
+      "desc": "Ami a tiéd, maradjon a tiéd",
+      "content": "A kripto szupererője egyben a veszélye is: a tranzakciók visszafordíthatatlanok, és nincs bank, amely visszacsinálna egy hibát. A csalók imádják ezt. Íme a védelmi készleted:\n\n🔐 A SEED PHRASE-ED SZENT. Egyetlen tisztességes szereplő sem fogja SOHA elkérni. Sem a „support munkatársai”, sem egy „ellenőrző bot”, senki. Aki a seed phrase-edet kéri, az lop tőled, pont.\n\n🎣 ADATHALÁSZAT: hamis weboldalak és DM-ek, amelyek pont úgy néznek ki, mint a valódi platformok. Egyetlen betű eltérés a webcímben. Mindig magad írd be a címet.\n\n🎁 NYEREMÉNYJÁTÉKOS ÁTVERÉSEK: „Küldj 1 coint, kapj vissza 2-t!”, gyakran egy híresség feltört fiókjáról. Senki nem duplázza meg a pénzed. Soha.\n\n💕 ROMANTIKUS ÉS „BEFEKTETÉSI MENTOR” ÁTVERÉSEK: egy kedves idegen, aki lassan rábeszél egy „különleges platformra”. A platform hamis. A kifizetések soha nem működnek.\n\nMinden átverés mögötti minta: sürgetés plusz titkolózás plusz garantált nyereség. Ha ezt a hármat együtt látod, sétálj el. 🚶",
+      "quiz": {
+        "q": "Valaki, aki „platform supportnak” adja ki magát, DM-ben elkéri a 12 szavas seed phrase-edet, hogy „ellenőrizze a tárcádat”. Mit teszel?",
+        "explanation": "A seed phrase MAGA a tárca. Aki birtokolja, ki tudja üríteni, a valódi support soha nem kéri el, és egyetlen részét sem szabad soha megosztani.",
+        "options": [
+          "Soha nem osztod meg, mert a valódi support soha nem kér seed phrase-t",
+          "Megosztod, mert az ellenőrzött support munkatársainak szükségük van rá a fiókod ellenőrzéséhez",
+          "Csak az első hat szót osztod meg, az önmagában elég biztonságos",
+          "Megkéred őket, hogy előbb írjanak e-mailt a hivatalos címről, aztán megosztod"
+        ]
+      }
+    },
+    "38": {
+      "title": "A kriptó-főellenség",
+      "desc": "A Bitcoin-időgép",
+      "content": "Itt az idő a történetre, amit mindenki idéz, de senki nem mesél el rendesen.\n\n2017 elején egy Bitcoin nagyjából $1,000-ba került. 2024 decemberében először lépte át a $100,000-t. Egy végig megtartott $1,000-os vásárlásból nagyjából $100,000 lett. Ez százszoros. 🤯\n\nMost jön a rész, amit a hype kihagy: hogy begyűjtsd ezt a százszorost, végig kellett ülnöd két brutális összeomlást, az egyik nagyjából 84%-os, a másik nagyjából 77%-os volt, és ÉVEKIG nézned, ahogy a pénzed zsugorodik, eladás nélkül. Szinte senkinek nem sikerült. A legtöbben drágán vettek, pánikba estek az összeomláskor, és olcsón adtak el.\n\nÉs minden Bitcoinra több ezer halott coin jut, amelyek nullára mentek. A győztest előre kiválasztani csak visszafelé nézve tűnik könnyűnek. Ezt túlélési torzításnak hívják, és ez a kriptovilág legdrágább illúziója.\n\nAz időgép igazi tanulsága: a túlélő coinoknál a türelem legyőzte az időzítést. De csak UTÓLAG derül ki, melyik coin éli túl, ezért veri a diverzifikáció a hősies tippeket, és ezért nem tudja SENKI a jövőt. Még a főellenség sem. 🐉",
+      "bossVictory": "Kriptomodul legyőzve. Most már többet tudsz, mint a legtöbb felnőtt. 🐉",
+      "quiz": {
+        "q": "A Bitcoinnal együtt több ezer coin indult, és a legtöbb ma szinte semmit nem ér. Miért tűnik olyan könnyűnek visszafelé nézve, hogy „csak ki kell választani a következő Bitcoint”?",
+        "explanation": "Csak a túlélőkről beszélnek még, ezért a győztesek kiválasztása visszafelé nézve sokkal könnyebbnek tűnik, mint amilyen akkor volt. A több ezer bukott coin nyomtalanul eltűnt a történetből.",
+        "options": [
+          "Mert csak a győztesekről beszél még bárki, a kihaltak pedig eltűntek a történetből",
+          "Mert a legjobb coinok már a legelejétől nyilvánvalóak bárkinek, aki eleget olvas róluk",
+          "Mert a legtöbb coin végül beválik annak, aki elég türelmes ahhoz, hogy évekig tartsa",
+          "Mert a szakértők már 2010-ben helyesen megjósolták a Bitcoint, és azóta minden győztest eltaláltak"
+        ]
+      }
+    },
+    "39": {
+      "title": "Mi IS valójában a blokklánc?",
+      "desc": "A technológia mindennek a mélyén",
+      "content": "Ha lehántod róla a hype-ot, a blokklánc meglepően egyszerű: egy közös nyilvántartókönyv, amelynek több ezer számítógép őriz azonos másolatát.\n\nAmikor valaki kriptót küld, a tranzakció több száz másikkal együtt bekerül egy „blokkba”. A blokkot matematikával lezárják, és hozzáláncolják az előző blokkhoz. Innen a név: blokk. Lánc. ⛓️\n\nMiért érdekel ez bárkit? Azért, amit lehetővé tesz:\n\n✅ Senki nem írhatja át csendben a történelmet. Egy régi blokk megváltoztatása azt jelentené, hogy az utána következő összes blokkot újra kellene csinálni, több ezer számítógépen egyszerre.\n✅ Nem egyetlen cég vagy kormány működteti. A számítógépek hálózata közösen működteti.\n✅ Bárki ellenőrizheti a nyilvántartást. Minden valaha végrehajtott Bitcoin-tranzakció nyilvánosan látható.\n\nEz valóban új technológia. De NEM varázspénz. Egy értéktelen coin tökéletes nyilvántartása is csak egy értéktelen coin. Attól, hogy a technológia valódi, még nem lesz értékes minden coin, ami rá épül. 🧠",
+      "quiz": {
+        "q": "Miért olyan nehéz titokban megváltoztatni egy régi tranzakciót a blokkláncon?",
+        "explanation": "Minden blokk az előzőhöz van pecsételve, így egy régi átírása azt jelenti, hogy minden utána következő blokkot is át kell írni, több ezer számítógépen, gyorsabban, mint ahogy a hálózat újakat ad hozzá. Ettől lesz a nyilvántartás gyakorlatilag végleges.",
+        "options": [
+          "Minden későbbi blokkot is újra kellene csinálni",
+          "Minden változtatást egy kormánynak kell jóváhagynia",
+          "Minden egy hónapnál régebbi bejegyzést törölnek",
+          "Minden coin készítője titkos szerkesztőkulcsot őriz"
+        ]
+      }
+    },
+    "40": {
+      "title": "A Bitcoin és minden más",
+      "desc": "Nem minden coin ugyanaz a játék",
+      "content": "A „kripto” nem egyetlen dolog. A különbségek többet számítanak, mint a hasonlóságok:\n\n₿ BITCOIN: az eredeti. A kínálata örökre 21 millió coinban van maximalizálva, ez bele van írva a kódba, és az új coinok keletkezési üteme nagyjából négyévente feleződik. (Ismerős? A NOOB felezése pontosan ezt az ötletet kölcsönzi.) Az egész lényege a szűkösség plusz a biztonság.\n\n⟠ ETHEREUM: kevésbé „digitális arany”, inkább „világszámítógép”. Okosszerződéseket futtat, vagyis automatikusan lefutó programokat. A legtöbb kriptoapp erre vagy a versenytársaira épül.\n\n🪙 MINDEN MÁS: több ezer „altcoin”. Néhány valódi problémát old meg. A legtöbb másolat, kísérlet vagy pénzlehúzás. A brutális statisztika: a valaha létrehozott coinok többsége már halott vagy értéktelen.\n\nTanulság: az, hogy „a kripto felfelé megy”, szinte semmit nem árul el egy KONKRÉT coinról. Mindegyik egy külön fogadás, a saját esélyeivel. 🎲",
+      "quiz": {
+        "q": "Mekkora a Bitcoin maximális kínálata, és mennyire könnyű megváltoztatni?",
+        "explanation": "A 21 milliós plafon része azoknak a szabályoknak, amelyeket a hálózat minden számítógépe futtat. Megemelése azt jelentené, hogy szinte mindegyiknek bele kellene egyeznie abba, hogy kevesebbet érjen, ami már az övék, ezért a plafont rögzítettnek tekintik.",
+        "options": [
+          "100 millió, és a bányászok minden évben szavaznak róla",
+          "21 millió, és megemelni szinte lehetetlen",
+          "1 milliárd, és a készítője módosíthatja",
+          "Nincs plafon, így az új coinok örökké keletkeznek"
+        ]
+      }
+    },
+    "41": {
+      "title": "Stablecoinok",
+      "desc": "Kripto, ami próbál egy helyben maradni",
+      "content": "A stablecoin (stabil érme) olyan kripto, amelyet úgy terveztek, hogy mindig fix összeget érjen, általában pontosan 1 amerikai dollárt. A kereskedők parkolóhelyként használják: eladod a hullámzó érméidet stablecoinra, és a pénzed nyugton marad, amíg eldöntöd a következő lépést.\n\nHogyan maradnak 1 $-on? A legelterjedtebb megoldás valódi dollárt és eszközöket tart tartalékban, így minden érme mögött van valami fedezet. Abban bízol, aki ezeket a tartalékokat őrzi.\n\nÉs itt a figyelmeztető történet: a stablecoinok is ELTÖRHETNEK. Ez tényleg megtörtént. 2022-ben egy nagy „algoritmikus” stablecoin, amely valódi tartalékok helyett ügyes matekra épült, néhány nap alatt 1 $-ról majdnem nullára zuhant, és dollármilliárdok tízeit párologtatta el. A „stabil” egy tervezési cél, nem garancia.\n\nÖkölszabály: minél ügyesebb a mechanizmus, ami valamit „biztonságban” tart, annál alaposabban nézd meg. 🔍",
+      "quiz": {
+        "q": "Mi a stablecoin fő feladata?",
+        "explanation": "A stablecoin dolga, hogy egy helyben maradjon. Parkolóhely két ügylet között, nem olyasmi, amitől növekedést várnak.",
+        "options": [
+          "Fix értéket tartani, általában 1 $-t, hogy a kereskedőknek stabil parkolóhelyük legyen",
+          "Gyorsabban nőni a Bitcoinnál azzal, hogy a teljes kriptopiacot követi",
+          "Automatikusan kamatot fizetni mindenkinek, aki a tárcájában tartja",
+          "Mindenki elől elrejteni a tranzakciókat a nyilvános főkönyv összekeverésével"
+        ]
+      }
+    },
+    "42": {
+      "title": "Kripto, adó és a törvény",
+      "desc": "Igen, a szabályok rád is vonatkoznak",
+      "content": "Az internet tele van olyanokkal, akik azt hiszik, a kripto láthatatlan pénz, szabályok nélkül. Általában a nehezebb úton jönnek rá az igazságra. 😬\n\nA valóság a legtöbb országban, Dél-Afrikát is beleértve:\n\n🧾 A NYERESÉG ÁLTALÁBAN ADÓKÖTELES. Ha drágábban adod el a kriptót, mint amennyiért vetted, az adóhatóság általában kéri a részét, ugyanúgy, mint a részvényeknél.\n\n🪪 A TŐZSDÉK TUDJÁK, KI VAGY. A megbízható platformok személyazonosság-ellenőrzést kérnek (ezt KYC-nek hívják, Know Your Customer, vagyis „ismerd meg az ügyfeledet”). Ráadásul minden tranzakció véglegesen rögzítve van magán a blokkláncon, ami pont az ELLENTÉTE az anonimitásnak.\n\n⚖️ A FELÜGYELETI HATÓSÁGOK IS JELEN VANNAK. Dél-Afrikában a kriptoeszközöket hivatalosan pénzügyi termékként kezelik, így az azokat árusító platformoknak be kell tartaniuk a pénzügyi szolgáltatásokra vonatkozó szabályokat.\n\nEzek közül egyik sem ok a pánikra. Viszont ok arra, hogy ne hallgass senkire, aki azt mondja: „a szabályok nem vonatkoznak a kriptóra”. Igenis vonatkoznak, és aki úgy tesz, mintha nem, az felnőttként is komoly bajba kerülhet.",
+      "quiz": {
+        "q": "Az unokatestvéred szerint a kriptónyereség láthatatlan az adóhatóság számára, mert a kripto anonim. Mi a hiba ebben?",
+        "explanation": "A megbízható platformok ellenőrzik, ki vagy, mielőtt kereskedhetnél, és minden blokklánc-tranzakció nyilvános és végleges, ami az anonimitás ellentéte. A nyereség általában adóköteles, ezért nézz utána a szabályoknak ott, ahol élsz.",
+        "options": [
+          "A tőzsdék ellenőrzik a személyazonosságot, és a nyilvántartás nyilvános",
+          "Semmi, a kripto tényleg anonim",
+          "A kriptót csak Amerikában adóztatják, máshol sehol",
+          "Adót csak egymillió kivétele után kell fizetni"
+        ]
+      }
+    },
+    "43": {
+      "title": "Volatilitás és túlélési szabályok",
+      "desc": "Miért leng ki ennyire a kripto",
+      "content": "Egy rossz nap a részvénypiacon 3%. Egy rossz nap a kriptóban 20%. Még a Bitcoin, a kriptók „felnőttje” is többször elvesztette értékének több mint 80%-át, majd később visszakapaszkodott. A kisebb érmék rendszeresen elveszítik az értékük 95%-át, és soha nem térnek vissza.\n\nMiért ilyen vad? A kriptóval a hét minden napján, 24 órában kereskednek, árfolyamfék nélkül, nagy részét kölcsönpénzből veszik, amit összeomláskor kényszerből eladnak, és az árakat inkább a sztorik és az érzelmek mozgatják, mint a gyorsjelentések.\n\nÍgy hát a túlélési szabályok, amelyeket minden tapasztalt kereskedő ismételget:\n\n1️⃣ Soha ne tegyél be olyan pénzt, amelynek teljes elvesztését nem engedheted meg magadnak.\n2️⃣ Úgy méretezd a pozícióidat, hogy egyetlen katasztrófa ne söpörhessen el.\n3️⃣ A kiszállást még a beszállás ELŐTT döntsd el, amíg nyugodt vagy.\n4️⃣ A FOMO a legdrágább érzés a pénzügyekben.\n\nGyakorold mind a négyet a NoobTrader appban, ahol a veszteségek csak játékból vannak. A szokások az igazi nyeremény. 🏆",
+      "quiz": {
+        "q": "Melyik valódi túlélési szabály a volatilis piacokon?",
+        "explanation": "Az az egy szabály tart játékban, hogy soha nem kockáztatsz olyan pénzt, amelynek elvesztését nem engedheted meg magadnak. Ha veszteség után megduplázod a téted, így szoktak a számlák elfogyni.",
+        "options": [
+          "Minden veszteség után duplázd meg a pozíciódat, hogy visszanyerd",
+          "Soha ne fektess be olyan pénzt, amelynek teljes elvesztését nem engedheted meg magadnak",
+          "A volatilitás csak a kis érméket érinti, a nagy érmék biztonságosak",
+          "Mindig akkor vegyél, amikor a közösségi médiában mindenki vesz"
+        ]
+      }
+    },
+    "44": {
+      "title": "Hype-ciklusok és FOMO",
+      "desc": "A minta minden őrület mögött",
+      "content": "A kripto hype-ciklusokban mozog, és ha egyszer meglátod a mintát, soha többé nem tudod nem látni:\n\n📈 1. szakasz: valami valódi történik. A korai hívők csendben vásárolnak.\n🚀 2. szakasz: az árak emelkednek. A média felfigyel. A hírfolyamod megtelik nyertesekkel.\n🎪 3. szakasz: őrület. A taxisofőrök érmetippeket adnak. Az emberek kölcsönből vásárolnak. „Ez most más.”\n💥 4. szakasz: az összeomlás. A későn érkezők, akik a legdrágábban vettek, veszítenek a legtöbbet.\n🕳️ 5. szakasz: csend. A nyertesek posztjai eltűnnek. Senki nem beszél a veszteségeiről.\n\nA 2021-es NFT-láz pontosan ezt a forgatókönyvet követte: a csúcson milliókért keltek el digitális gyűjtői tárgyak, néhány évvel később pedig a legtöbb szinte semmit sem ért.\n\nMinden őrület kegyetlen trükkje: a LEGROSSZABB vételi időpontot a LEGSÜRGETŐBBNEK érezteti. Amikor a legbiztonságosabbnak tűnik beszállni, mert már mindenki más beszállt, a könnyű nyereség általában már elfogyott. 🎯",
+      "quiz": {
+        "q": "Egy klasszikus hype-ciklusban mikor érzi az átlagember a legerősebb késztetést a vásárlásra?",
+        "explanation": "A késztetés akkor a leghangosabb, amikor a sztori a leghangosabb, a sztori pedig akkor a leghangosabb, amikor az ár már elszaladt. Attól tűnik biztonságosnak, hogy már mindenki benne van, és pont emiatt nem marad senki, aki még vehetne.",
+        "options": [
+          "Az elején, amikor még szinte senki sem beszél róla",
+          "Az összeomlás felénél, amikor alacsonyak az árak",
+          "A csúcs közelében, amikor már mindenki más benne van",
+          "Nincs semmilyen minta, a késztetés véletlenszerű"
+        ]
+      }
+    },
+    "45": {
+      "title": "Egy gyertya olvasása",
+      "desc": "A gyertya anatómiája: test és szín",
+      "content": "Minden gyertya egy apró történetet mesél el mindössze négy számmal: hol nyitott az ár, mi volt a legmagasabb pont, amit elért, mi volt a legalacsonyabb, ahová esett, és hol zárt. A tömör test a nyitótól a záróárig tart, a színe pedig megmondja, melyik győzött: a zöld azt jelenti, hogy a záróár a nyitóár fölött végzett, a piros pedig azt, hogy az eladók alá húzták. Ennyi az egész trükk. Tanuld meg rendesen olvasni egyetlen gyertyát, és a világ összes grafikonja zajfalból képregénnyé változik. 🟢",
+      "quiz": {
+        "q": "Ez a gyertya zöld. Mit árul el arról a kereskedési időszakról?",
+        "options": [
+          "Az ár alacsonyabban zárt, mint ahol nyitott",
+          "Többen vettek, mint ahányan eladtak, garantáltan",
+          "Az ár magasabban zárt, mint ahol nyitott",
+          "Az ár az időszak alatt egyszer sem esett"
+        ]
+      }
+    },
+    "46": {
+      "title": "A kanócok mesélnek",
+      "desc": "A gyertya anatómiája: csúcsok és mélypontok",
+      "content": "A test megmutatja, hol nyitott és zárt az időszak, de a kanócok a teljes utat mutatják: minden árat, ameddig a küzdelem ténylegesen eljutott. A hosszú kanóc azt jelenti, hogy nagy csata zajlott a nyitó- és záróáron túl, és az az oldal vesztette el a csatát, amelyik a kanócot maga mögött hagyta. Hosszú kanóc alul? Az eladók keményen nyomták, de visszaverték őket. Hosszú kanóc felül? A vevők magasra nyúltak, de elutasították őket. A test a főcím, a kanócok a pletyka. 📏",
+      "quiz": {
+        "q": "Mit mutatnak valójában a test fölötti és alatti vékony vonalak (a kanócok)?",
+        "options": [
+          "Az időszak alatt kötött legmagasabb és legalacsonyabb árakat",
+          "A tegnapi nyitó- és záróárat",
+          "Azokat a pontos árakat, ahol a legtöbb ügylet történt",
+          "A holnapi ártartomány előrejelzését"
+        ]
+      }
+    },
+    "47": {
+      "title": "A doji",
+      "desc": "Egyes gyertyák: határozatlanság",
+      "content": "Néha egy gyertya szinte pontosan ugyanazon az áron nyit és zár, így egy apró test marad, mindkét oldalán kanóccal. Ez a doji, és azt jelenti, hogy a kötélhúzás döntetlennel ért véget: a vevők és az eladók egész kereskedési időszakban keményen húztak, és egyik oldal sem nyert. Önmagában csak egy vállvonás. Egy erős menetelés után viszont jelezheti, hogy a trend kezd kifáradni, mert a nyerésben lévő oldal hirtelen nem tudta elmozdítani az árat. Érdemes megjegyezni, de soha nem garancia. 🤝",
+      "quiz": {
+        "q": "A világító gyertya szinte pontosan ugyanazon az áron nyitott és zárt. Hogy hívják, és mire utal?",
+        "options": [
+          "Marubozu, a teljes meggyőződés jele valamelyik irányba",
+          "Kalapács, annak jele, hogy a vevők visszavették az irányítást",
+          "Rés, annak jele, hogy a kereskedés éjszakára szünetelt",
+          "Doji, a vevők és az eladók közötti határozatlanság jele"
+        ]
+      }
+    },
+    "48": {
+      "title": "A kalapács",
+      "desc": "Egyes gyertyák: a visszavágás",
+      "content": "Képzelj el egy brutális kereskedési napot: az eladók lezúzzák az árat, aztán a vevők zárás előtt egészen visszarángatják. Ami a grafikonon marad, az a kalapács: kis test a tetején, hosszú alsó kanóccal, amely legalább kétszer akkora. Egy lecsúszás után a kalapács azt üzeni, hogy az eladók bevitték a legjobb ütésüket, de nem talált. Ez gyakran egy lehetséges fordulatot jelez. Lehetségeset, nem megígértet, úgyhogy kezeld figyelendő jelként, ne vételi utasításként. 🔨",
+      "quiz": {
+        "q": "Egy lecsúszás után a világító gyertya hosszú alsó kanócot és a tetején kis testet rajzolt. Mi ez?",
+        "options": [
+          "Hullócsillag, annak jele, hogy az eladók átvették az irányítást",
+          "Kalapács, utalás arra, hogy a vevők keményen visszavágtak",
+          "Doji, tökéletes döntetlen",
+          "Bizonyíték, hogy a csökkenő trendnek vége"
+        ]
+      }
+    },
+    "49": {
+      "title": "A hullócsillag",
+      "desc": "Egyes gyertyák: elutasítás a csúcson",
+      "content": "A kalapács tükörképe. Egy erős emelkedés után a vevők még egy új csúcsért nyúlnak, keményen elutasítják őket, és az ár visszazár oda, ahol nyitott. A grafikon kis testet rajzol a gyertya aljára, hosszú felső kanóccal: ez a hullócsillag. Azt jelenti, hogy az eladók végre megjelentek a csúcson, elég erővel ahhoz, hogy megnyerjék a napot. Egy nagy menetelés után ez az elutasítás gyakran számít. Gyakran, nem mindig. 🌠",
+      "quiz": {
+        "q": "Egy erős emelkedés után a világító gyertya felfelé kilőtt, majd a mélypontja közelében zárt, hosszú felső kanócot hagyva. Mi ez?",
+        "options": [
+          "Hullócsillag, utalás arra, hogy az eladók megjelentek a csúcson",
+          "Kalapács, utalás arra, hogy újra a vevők irányítanak",
+          "Zöld marubozu, tiszta vételi erő",
+          "Garancia, hogy az ár holnap összeomlik"
+        ]
+      }
+    },
+    "50": {
+      "title": "A marubozu",
+      "desc": "Egyes gyertyák: teljes meggyőződés",
+      "content": "A marubozu egyetlen tömör test, kanócok nélkül: az ár nyitott, és egész idő alatt egy irányba menetelt, egyszer sem nézett vissza. Semmi küzdelem, semmi habozás, teljes meggyőződés az egyik oldalról. A zöld marubozu a vevők magabiztosságát kiabálja, a piros pedig az ellenkezőjét. Ritkák, és pont ezért kapják fel a fejüket a kereskedők, amikor feltűnik egy. 💪",
+      "quiz": {
+        "q": "A világító gyertya egyetlen tömör test, kanócok nélkül. Mit árul el ez a forma?",
+        "options": [
+          "Senki nem kereskedett abban az időszakban, ezért egyenes maradt",
+          "A piac aznap korán zárt, és ez kurtította meg",
+          "Az egyik oldal irányított nyitástól zárásig, teljes meggyőződéssel",
+          "A vevők és az eladók végig tökéletes egyensúlyban voltak"
+        ]
+      }
+    },
+    "51": {
+      "title": "Bullish elnyelő",
+      "desc": "Kétgyertyás minták: a vevők lecsapnak",
+      "content": "Két gyertya, egy üzenet. Először egy kis piros gyertya, a szokásos menet egy csökkenő trendben. Aztán egy nagy zöld test, amely teljesen elnyeli: egyetlen nap alatt a vevők eltörölték mindazt, amit az eladók előző nap elértek, sőt még többet is. Egy csökkenő trend után megjelenve a bullish elnyelő (bullish engulfing) az egyik legfigyeltebb fordulójel bármelyik grafikonon, mert megmutatja, ahogy egyetlen gyertyán belül megfordul az erőviszony. Jel, nem szerződés. 🐂",
+      "quiz": {
+        "q": "A nagy zöld test teljesen elnyeli az előtte lévő piros testet. Mi ez a kétgyertyás minta?",
+        "options": [
+          "Bearish elnyelő, az eladók átvették az irányítást",
+          "Bullish elnyelő, a vevők legyűrték az eladókat",
+          "Dupla alj",
+          "Két doji egymás után"
+        ]
+      }
+    },
+    "52": {
+      "title": "Bearish elnyelő",
+      "desc": "Kétgyertyás minták: az eladók lecsapnak",
+      "content": "A bullish változat tükörképe. Egy emelkedés csúcsán egy nagy piros test elnyeli az előtte lévő teljes zöld testet: az eladók egyetlen gyertyával eltörölték az előző napi vásárlást, pont ott, ahol az emelkedés már túlnyúlt, és a legutóbbi vevők idegesek voltak. Ez általában a többi vevőt is idegessé teszi. Ha egy hosszú emelkedő szakasz után látod, vedd komolyan. 🐻",
+      "quiz": {
+        "q": "Egy emelkedés csúcsán a nagy piros test elnyeli az előtte lévő teljes zöld testet. Hogy hívják ezt a párost?",
+        "options": [
+          "Bullish elnyelő, az emelkedés folytatódik",
+          "Egy kalapács, amelyet egy doji követ",
+          "Kitörés az ellenállás fölé",
+          "Bearish elnyelő, az eladók legyűrték a vevőket"
+        ]
+      }
+    },
+    "53": {
+      "title": "Az emelkedő trend felismerése",
+      "desc": "Trendek: magasabb csúcsok, magasabb mélypontok",
+      "content": "Egy emelkedő trendhez mindkét fél kell: magasabb csúcsok ÉS magasabb mélypontok. Minden csúcs túlszárnyalja az előzőt, és minden visszaesés magasabban áll meg, mint az előző, mert a vevők minden alkalommal korábban szállnak be. Ez a lépcsőforma a piac jelzése, hogy a kereslet irányít. Egyetlen magasabb csúcs önmagában semmit sem bizonyít. A minta a páros, ismétlődve. 📈",
+      "quiz": {
+        "q": "Minden csúcs túlszárnyalja az előzőt, és minden visszaesés magasabban áll meg, mint az előző. Mit mutat ez a grafikon?",
+        "options": [
+          "Emelkedő trendet, magasabb csúcsokkal és magasabb mélypontokkal",
+          "Csökkenő trendet, alacsonyabb csúcsokkal és alacsonyabb mélypontokkal",
+          "Oldalazást, az ár egy padló és egy plafon közé szorult",
+          "Kialakulóban lévő dupla csúcsot"
+        ]
+      }
+    },
+    "54": {
+      "title": "A csökkenő trend felismerése",
+      "desc": "Trendek: alacsonyabb csúcsok, alacsonyabb mélypontok",
+      "content": "Fordítsd fejjel lefelé a lépcsőt. Az alacsonyabb csúcsok azt jelentik, hogy az eladók minden visszapattanásnál korábban támadnak, az alacsonyabb mélypontok pedig azt, hogy a vevők minden esésnél messzebbre hátrálnak. Amíg ez a szerkezet kitart, az eladók irányítanak, és aki szembeszáll vele, az kezdő kereskedőként a türelmeseknek adományozza a pénzét. A trend nem az ellenséged, de ha úgy teszel, mintha nem létezne, az biztosan az. 📉",
+      "quiz": {
+        "q": "Minden visszapattanás alacsonyabban ér véget, mint az előző, és minden esés mélyebbre vág. Mit látsz?",
+        "options": [
+          "Egy emelkedő trendet, amely épp kifújja magát",
+          "Oldalazó sávot",
+          "Csökkenő trendet, alacsonyabb csúcsokkal és alacsonyabb mélypontokkal",
+          "Kialakulóban lévő bullish elnyelő mintát"
+        ]
+      }
+    },
+    "55": {
+      "title": "Az oldalazó piac",
+      "desc": "Trendek: a várakozás játéka",
+      "content": "Néha egyik oldal sem nyer, ezért az ár hetekig csak pingpongozik ugyanazon padló és ugyanazon plafon között. Ez egy sáv (oldalazás), és a piacok életük hatalmas részét pontosan ezzel töltik. Nem romlott el, és nem is unalmas, a piac csak kifújja magát. A türelmes kereskedők megtanulják szeretni a várakozást, mert minél tovább tart egy sáv, annál jelentősebb szokott lenni a végső kitörés. 🏓",
+      "quiz": {
+        "q": "Az ár hetek óta ugyanazon padló és ugyanazon plafon között pattog. Hogy hívják ezt?",
+        "options": [
+          "Emelkedő trend, mert folyamatosan eléri a plafont",
+          "Sáv, a piac oldalazik",
+          "Fej-váll formáció",
+          "Folyamatban lévő kitörés"
+        ]
+      }
+    },
+    "56": {
+      "title": "Támasz",
+      "desc": "Támasz és ellenállás: a padló",
+      "content": "Amikor az ár újra és újra ugyanarra a szintre esik vissza, és minden egyes alkalommal visszapattan, a kereskedők ezt a szintet támasznak hívják: egy padlónak, ahol a vevők újra és újra úgy döntenek, hogy az ár olcsó. Minél többször tart ki, annál többen figyelik, és részben ezért tart ki újra. De ne feledd: ezt a padlót emberek rajzolják, nem törvény. A támasz eltörhet, és el is törik, és amikor ez megtörténik, a visszapattanásra várók tömege pánikoló tömeggé válik. 🧱",
+      "quiz": {
+        "q": "Az ár háromszor esett bele a satírozott szintbe, és minden egyes alkalommal visszapattant. Hogy hívják a kereskedők ezt a szintet?",
+        "options": [
+          "Ellenállás, egy plafon, ahol az eladók tömegesen beszállnak",
+          "Trendvonal, a szinteknek átlósnak kell lenniük",
+          "A tőzsde által beállított stop-loss",
+          "Támasz, egy padló, ahol a vevők újra és újra beszállnak"
+        ]
+      }
+    },
+    "57": {
+      "title": "Ellenállás",
+      "desc": "Támasz és ellenállás: a plafon",
+      "content": "Az ellenállás a plafon: egy szint, ahol minden emelkedés elakad, mert az eladók szívesen kiszállnak ott. Ha látod, ahogy egy grafikon háromszor is beveri a fejét ugyanabba az árba, akkor valós időben nézed, ahogy az ellenállás működik. És itt a csavar, amit érdemes megjegyezni: ha az ár valódi meggyőződéssel egyszer áttöri, a régi plafon gyakran új padlóként kezd viselkedni. 🪟",
+      "quiz": {
+        "q": "Három külön emelkedés is elakadt a satírozott szinten. Hogy hívják ezt a szintet?",
+        "options": [
+          "Ellenállás, egy plafon, ahol az eladók újra és újra visszanyomják",
+          "Támasz, egy padló az ár alatt",
+          "Az osztalékszint, amelyet évente egyszer állítanak be",
+          "Forgalmi kiugrás, amely semmit sem mond az árról"
+        ]
+      }
+    },
+    "58": {
+      "title": "Trendvonalak",
+      "desc": "Trendvonalak és csatornák: a vonal, ami számít",
+      "content": "Kösd össze az emelkedő mélypontokat egy grafikonon, és máris trendvonalat rajzoltál. Bármely két pont egy vonalat ad, de a harmadik érintésnél kezdi bizonyítani, hogy számít, mert megmutatja, hogy a vevők újra és újra ugyanazt az emelkedő szintet védik. Minden további tiszteletben tartott érintés újabb bizonyíték. De bizonyíték marad, soha nem ígéret: a trendvonal egy ceruzanyom, nem erőtér. ✏️",
+      "quiz": {
+        "q": "Ezt az emelkedő vonalat három külön alkalommal érintette az ár. Miért érdekli a kereskedőket, hányszor érintették a trendvonalat?",
+        "options": [
+          "Nem érdekli őket, hiszen bármely két pont szabállyá teszi a trendvonalat",
+          "Három érintés azt jelenti, hogy a negyedik visszapattanás garantáltan jön",
+          "Több érintés jelentősebbé teszi a vonalat, a vevők újra és újra védik",
+          "A trendvonalak csak napi grafikonon számítanak, rövidebben soha"
+        ]
+      }
+    },
+    "59": {
+      "title": "Csatornák",
+      "desc": "Trendvonalak és csatornák: a sáv",
+      "content": "A csatorna egy jól nevelt trend. Az ár emelkedik, miközben két párhuzamos vonal között pattog: az emelkedő mélypontok padlója és az emelkedő csúcsok plafonja együtt halad felfelé, mint egy forgalmi sáv két széle. A kereskedők mindkét szélen figyelik a visszapattanásokat, és még jobban figyelik azt a napot, amikor az ár elhagyja a sávot, mert egy csatornából való tiszta kitörés gyakran a következő nagy mozgás kezdete. 🛣️",
+      "quiz": {
+        "q": "Az ár emelkedik, miközben két párhuzamos vonal között pattog. Mi ez a minta?",
+        "options": [
+          "Háromszög, ahol a két vonalnak találkoznia kell",
+          "Emelkedő csatorna, egy emelkedő trend látható sávval",
+          "Dupla csúcs",
+          "Lapos sáv, amely egyáltalán nem halad sehova"
+        ]
+      }
+    },
+    "60": {
+      "title": "A dupla csúcs",
+      "desc": "Grafikonminták: az M forma",
+      "content": "Az ár kétszer is nekicsapódik ugyanannak a plafonnak, mindkétszer elbukik, és egy nagy M betűt rajzol a grafikonra. Ha a középső mélypont (a nyakvonal) alá törik, a dupla csúcs teljes: klasszikus bearish fordulójel. A tükörképe, a W, a dupla alj, amely a másik irányba mutat. Általában csúcsot jelez, de nem kötelező. A grafikonon semminek sem kötelező. Ⓜ️",
+      "quiz": {
+        "q": "Az ár kétszer nekicsapódott ugyanannak a plafonnak, mindkétszer elbukott, majd a középső mélypont alá tört. Mi ez a forma?",
+        "options": [
+          "Dupla alj, bullish jel",
+          "Emelkedő csatorna",
+          "Kalapács",
+          "Dupla csúcs, bearish fordulójel"
+        ]
+      }
+    },
+    "61": {
+      "title": "Amikor a minták elbuknak",
+      "desc": "Grafikonminták: valószínűségek, nem ígéretek",
+      "content": "Ez a modul legértékesebb leckéje. Kialakult egy tankönyvi minta, mindenki látta, aztán a piac az ellenkezőjét tette. Minden minta, amit megtanultál, időnként elbukik, és ez nem azt jelenti, hogy a grafikon hazudik neked, hanem hogy információt ad: az oldal, amelyikre fogadtál, épp vesztett. A kiszállást a beszállás előtt döntsd el, és amikor egy minta elbukik, értsd a célzást, és szállj ki. A minták valószínűségek, soha nem ígéretek. 🚪",
+      "quiz": {
+        "q": "Egy tankönyvi dupla alj alakult ki a satírozott padlón... aztán az ár egyenesen áttörte. Mi az őszinte tanulság?",
+        "options": [
+          "A minták valószínűségek, nem ígéretek, és egy elbukott minta a jel a kiszállásra",
+          "Az igazi dupla aljak soha nem buknak el, tehát amit néztél, az biztosan hamis volt",
+          "Vegyél többet az alacsonyabb áron, mert a minta végül úgyis beteljesedik",
+          "A grafikonok teljesen használhatatlanná válnak, ha egy minta így elbukott"
+        ]
+      }
+    },
+    "62": {
+      "title": "Fej-váll",
+      "desc": "Grafikonminták: három csúcs",
+      "content": "Három csúcs: egy magasabb középen (a fej), egy-egy alacsonyabb mindkét oldalán (a vállak), és a két mélypont alatt egy vonal, amit nyakvonalnak hívnak. Akkor alakul ki, amikor a vevőknek sikerül még egy utolsó, magasabb lökés, de a következő próbálkozásnál már azt sem tudják megismételni. Maga a forma csak figyelmeztetés. Amire a kereskedők valójában várnak, az a nyakvonal határozott letörése, mert ekkor válik a minta rajzból döntéssé. 👤",
+      "quiz": {
+        "q": "Három csúcs: egy magasabb középen, egy-egy alacsonyabb mindkét oldalán, és egy padló, amely összeköti a két mélypontot. Mi ez a klasszikus forma?",
+        "options": [
+          "Tripla alj, három egyforma mélypont egy felfelé lökés előtt",
+          "Fej-váll, az emelkedő trend lehetséges vége",
+          "Emelkedő háromszög",
+          "Három kalapács egymás után, mindegyik elutasítja az alacsonyabb árakat"
+        ]
+      }
+    },
+    "63": {
+      "title": "A háromszög-szorítás",
+      "desc": "Grafikonminták: az összenyomott rugó",
+      "content": "Amikor a kilengések egyre kisebbek, a magasabb mélypontok nekinyomódnak az alacsonyabb csúcsoknak, a piac összenyomódik, mint egy rugó. Ez a háromszög: mindkét oldalnak fogy a helye, a döntés elkerülhetetlen. A szorítás gyakran robbanással ér véget, és itt a csapda: a robbanás irányát nem lehet előre tudni. Várd meg a kitörést, ahelyett hogy találgatnál. A piac megmondja, és az információért semmit sem kér. 🌀",
+      "quiz": {
+        "q": "A kilengések egyre kisebbek, egyre szorosabb rugóba préselik az árat, míg végül kitör. Mi volt a rugó?",
+        "options": [
+          "Csatorna, két párhuzamos vonal, amelyek soha nem találkoznak",
+          "Dupla csúcs",
+          "Háromszög, egy konszolidáció, amely gyakran kitöréssel ér véget",
+          "Bizonyíték, hogy az árnak innen felfelé kellett kitörnie"
+        ]
+      }
+    },
+    "64": {
+      "title": "Forgalom: a hazugságvizsgáló",
+      "desc": "Forgalom: ki jelent meg valójában",
+      "content": "A forgalom azt mutatja, hány részvény cserélt gazdát, és ez a grafikonok hazugságvizsgálója. Egy kis forgalmú kitörés csak suttogás, ami megtéveszti az embereket: egy maroknyi ügylet olyan helyre tolta az árat, ahol nem tud megmaradni. Egy nagy forgalmú kitörés viszont egy tömeg, amely ténylegesen pénzzel szavaz. Ugyanaz az ármozgás, teljesen más jelentés. Mielőtt elhinnél bármilyen nagy mozgást, nézd meg, ki jelent meg hozzá. 🔊",
+      "quiz": {
+        "q": "Két kitörési kísérlet ugyanabból a plafonból: az első kis forgalommal elbukott, a második hatalmas forgalommal jött és kitartott. Mit csinál itt a forgalom?",
+        "options": [
+          "Semmit, a forgalom soha nem számít egy ármozgásnál",
+          "Felfelé kényszeríti az árat, mert a nagy forgalom magasabbra tolja az árakat",
+          "Előre megjósolja a mozgás pontos csúcsát",
+          "Megerősítésként szolgál, a nagy forgalom valódi meggyőződést mutat a mozgás mögött"
+        ]
+      }
+    },
+    "65": {
+      "title": "A trendfelismerő",
+      "desc": "Tíz grafikon, címkék nélkül, kegyelem nélkül",
+      "content": "Tíz grafikon. Nincsenek címkék, segédvonalak, tippek. Mondd meg, mit mutat mindegyik, pont úgy, mint egy igazi kereskedő, aki egy igazi képernyőt bámul. Érj el 8 pontot a 10-ből, és a modul a tiéd. Naponta 3 próbálkozásod van, úgyhogy lassíts, olvasd a gyertyákat, és emlékezz a legfontosabb leckére: néha az őszinte válasz az, hogy egyáltalán nincs minta. 🕯️",
+      "bossVictory": "Trendmodul legyőzve. Most már te olvasod a grafikonokat, nem ők téged. 🕯️",
+      "bossQuestions": {
+        "0": {
+          "q": "Mit mutat ez a grafikon?",
+          "explanation": "Szándékosan zavaros. Ha kiszűröd a zajt, minden kilengési csúcs még mindig túlszárnyalja az előzőt, és minden visszaesés még mindig magasabban ér mélypontot. Az igazi trendek így néznek ki, nem úgy, mint egy tankönyvi lépcső.",
+          "options": [
+            "Csökkenő trend, alacsonyabb csúcsokkal és alacsonyabb mélypontokkal",
+            "Emelkedő trend, magasabb csúcsokkal és magasabb mélypontokkal",
+            "Oldalazó sáv",
+            "Dupla csúcs"
+          ]
+        },
+        "1": {
+          "q": "Mi történt a világító gyertyapárnál?",
+          "explanation": "A piros test egy hosszú emelkedés után közvetlenül elnyelte a teljes zöld testet. Ez a bearish elnyelő pontosan azt csinálja, amit szokott: ott jelenik meg, ahol a vevők a legjobban túlnyújtózkodtak.",
+          "options": [
+            "Bullish elnyelő",
+            "Doji a csúcson",
+            "Kalapács",
+            "Bearish elnyelő egy emelkedés csúcsán"
+          ]
+        },
+        "2": {
+          "q": "Mit mutat ez a grafikon?",
+          "explanation": "A középső csúcs egyértelműen kiemelkedik a két oldalsó közül, és a mélypontok nyakvonallá állnak össze. Az igaziak soha nem szimmetrikusak, és a vadonban valójában így néznek ki.",
+          "options": [
+            "Fej-váll",
+            "Tripla csúcs három egyforma csúccsal",
+            "Emelkedő háromszög",
+            "Emelkedő csatorna"
+          ]
+        },
+        "3": {
+          "q": "Mit mutat ez a grafikon?",
+          "explanation": "Két próbálkozás ugyanazon a padlón, a második kicsit sekélyebb, aztán egy lökés felfelé a középső visszapattanáson át. A W forma, amelyet egy igazi piac rajzolt, nem egy tankönyv.",
+          "options": [
+            "Fej-váll",
+            "Csökkenő háromszög",
+            "Dupla alj",
+            "Bearish zászló"
+          ]
+        },
+        "4": {
+          "q": "Mi a világító gyertya?",
+          "explanation": "Hosszú felső kanóc, apró test a tartomány alján, közvetlenül egy emelkedés után. A vevők egy új csúcsért nyúltak, és zárás előtt visszacsapták őket.",
+          "options": [
+            "Kalapács",
+            "Zöld marubozu",
+            "Doji",
+            "Hullócsillag egy emelkedés után"
+          ]
+        },
+        "5": {
+          "q": "Mit mutat ez a grafikon?",
+          "explanation": "Ugyanazt a padlót és ugyanazt a plafont újra és újra tiszteletben tartja az ár, és minden, ami a kettő között van, csak zaj. Egyik oldal sem nyer, így nincs trend, amit meglovagolhatnál.",
+          "options": [
+            "Sáv, az ár a támasz és az ellenállás közé szorult",
+            "Emelkedő trend, magasabb csúcsokkal és magasabb mélypontokkal",
+            "Eső ék",
+            "Folyamatban lévő kitörés"
+          ]
+        },
+        "6": {
+          "q": "Az ár kitört a régi plafon fölé, aztán a nyíllal jelölt visszaesés visszajött arra a szintre, és kitartott. Mi volt a visszaesés?",
+          "explanation": "A visszaesés pontosan arra a szintre tért vissza, amely korábban a plafon volt, ott vevőkre talált, és a trend folytatódott. Ez egy visszahúzódás. Egy fordulat átvágott volna a szinten, és tovább esett volna.",
+          "options": [
+            "Teljes fordulat csökkenő trendbe",
+            "Visszahúzódás, az áttört szint újratesztelése",
+            "Dupla csúcs",
+            "Döglött macska pattanás"
+          ]
+        },
+        "7": {
+          "q": "Mit mutat ez a grafikon?",
+          "explanation": "Lapos padló, alacsonyabb csúcsok nyomják lefelé, az eladók minden visszapattanásnál korábban érkeznek. A padló végül megadta magát, és ez az a kimenetel, amely felé ez a forma gyakran hajlik. Gyakran, soha nem mindig.",
+          "options": [
+            "Emelkedő háromszög",
+            "Emelkedő csatorna",
+            "Csökkenő háromszög, amely a támaszra nehezedik",
+            "Dupla alj"
+          ]
+        },
+        "8": {
+          "q": "Mit mutat ez a grafikon?",
+          "explanation": "Ez a csapdakérdés, és a boss legértékesebb kérdése. A legtöbb grafikon az idő nagy részében semmi kereskedésre érdemeset nem mutat. Aki olyan mintákat lát, amelyek nincsenek ott, az kezdőként veszít. Nemet mondani egy ügyletre képesség. 🎯",
+          "options": [
+            "Fej-váll",
+            "Dupla csúcs",
+            "Emelkedő trend",
+            "Nincs tiszta minta, itt nincs mivel kereskedni"
+          ]
+        },
+        "9": {
+          "q": "Mit mutat ez a grafikon?",
+          "explanation": "Az ár gyenge forgalommal a plafon fölé bökött, a vevők utánamentek, aztán egyenesen visszaomlott a sávba. Az elbukó kitörés pontosan az oka annak, hogy a forgalomról szóló lecke azt mondta: nézd meg a forgalmat, mielőtt elhiszel egyet.",
+          "options": [
+            "Bikacsapda, egy elbukott kitörés, amely beszippantotta a vevőket",
+            "Sikeres kitörés tiszta újrateszteléssel",
+            "Dupla alj",
+            "Kalapács fordulat"
+          ]
+        }
+      }
+    },
+    "66": {
+      "title": "Itt semmi sem a tiéd",
+      "desc": "A derivatíva fogadás egy számra",
+      "content": "Mindennek, amit eddig tanultál, volt valami a háta mögött. Ha veszel egy {retail}-részvényt, a cég egy szelete a tiéd: egy szelet a boltokból, egy szelet a nyereségből, egy szavazat a közgyűlésen, és osztalék, amikor fizetnek.\n\nA derivatíva nem ilyen.\n\nA CFD (contract for difference, különbözeti ügylet) egy megállapodás közted és egy szolgáltató között, hogy kicserélitek az ár különbségét a nyitás és a zárás pillanata között. Ennyi az egész termék. Ha a {retail} emelkedik, és te emelkedésre fogadtál, ők fizetik ki neked a különbséget. Ha esik, te fizetsz nekik. Senki nem vesz részvényt. Senki nem ad el részvényt. Az ügyletben sehol nem létezik egyetlen részvény sem.\n\nA határidős ügylet (future) egy szerződés arra, hogy valamit egy rögzített áron, egy rögzített napon megveszel vagy eladsz. Az igaziak valódi hordó olajban vagy tonna kukoricában teljesülnek, de szinte senki nem tartja meg őket addig, így a gyakorlatban a legtöbb határidős ügylet is csak fogadás egy számra, határidővel.\n\nMiért fontosabb ez, mint amilyennek hangzik:\n\n• Nincs osztalék. Nincsenek Money Babies. Ami csendben a hozamok nagy részét felépítette a 15. leckében, az itt egyszerűen nincs.\n• Nincs szavazat, nincs tulajdon, nincs mit megtartani. Nincs „csak tartsd meg tíz évig” lehetőség, mert nincs mit megtartani.\n• Nincs kamatos kamat. Az app többi része 65 leckén át tanítja, hogy az idő melletted áll. Ebben a teremben az idő pénzbe kerül. Hogy pontosan mennyibe, azt a 72. leckében látod.\n\nMinden, amit már tudsz, továbbra is számít. Csak már nem az, amit éppen csinálsz. 📄",
+      "quiz": {
+        "q": "Nyitsz egy CFD-t a {retail} részvényre, és az ár emelkedik. Mi az, ami valójában a tiéd?",
+        "explanation": "A CFD egy megállapodás közted és a szolgáltató között, hogy kicserélitek a nyitáskori és a záráskori ár különbségét. Senki nem vesz részvényt, senki nem ad el egyet sem, és az ügyletben sehol nem létezik részvény. Ezért nincs osztalék, nincs szavazat, és nincs mit tíz évig megtartani.",
+        "options": [
+          "Részvények, amelyeket a szolgáltató a saját nevén tart",
+          "Egy szerződés, hogy a végén kicseréljétek az árkülönbséget",
+          "Egy rész a cégből, és az ezzel járó osztalékok",
+          "Egy utalvány, amely záráskor valódi részvénnyé válik"
+        ]
+      }
+    },
+    "67": {
+      "title": "Kölcsön egy baráttól",
+      "desc": "Mi valójában a tőkeáttétel, és az a rész, amit senki nem posztol",
+      "content": "A tőkeáttétel szakszerűen hangzik. Pedig nem az. Ez kölcsönkérés.\n\nTegyük fel, hogy {c}1,000 értékű részvényt szeretnél, de csak {c}200 van nálad. Egy barátod felajánlja, hogy beteszi a maradék {c}800-at. Így {c}200 saját pénzzel {c}1,000 értékű részvényt irányítasz. Ez a tőkeáttétel. Ennyi az egész ötlet.\n\nMost jön a három dolog, amit ez a barát csinál. Mindhármat tudnod kell, különben csak egy tündérmesét adtak el neked.\n\n1️⃣ A NYERESÉG TÉNYLEG A TIÉD. A részvények 10%-ot emelkednek. A {c}1,000 most {c}1,100. Ez {c}100 nyereség, és minden fillére a tiéd, mert a barátodnak {c}800-zal tartozol, és egy {cName} sem több. A saját {c}200-odhoz képest a {c}100 50%-os nyereség. Egy 10%-os mozgás 50%-ot hozott. Erről posztol mindenki.\n\n2️⃣ A KÖLCSÖN NEM ZSUGORODIK, HA TÉVEDSZ. Erről senki nem posztol, és ez az egész lecke lényege. A részvények inkább 10%-ot esnek. A {c}1,000 most {c}900. A barátodnak továbbra is a teljes {c}800-zal tartozol. Nem {c}720-szal. A teljes {c}800-zal. Így a teljes {c}100-os esés a TE részedből jön le, és a {c}200-od most {c}100. Egy 10%-os mozgás 50%-odba került.\n\nOlvasd el újra ezt a kettőt. Ugyanaz a barát, ugyanaz a 10%. A pénzed mindkét irányba ötszörös sebességgel mozog, mert a kölcsön soha nem vállal részt a fájdalomból.\n\n3️⃣ A BARÁT BÉRLETI DÍJAT KÉR, NAPONTA, AZ EGÉSZ UTÁN. Nem az ő {c}800-ja után. A teljes {c}1,000 után, amit irányítasz. Minden éjszaka, amíg tartod, akár emelkedett az ár, akár esett, akár egy helyben állt.\n\nÉs van egy negyedik dolog is, a harmadikban elbújva. Ha a {c}200-od elfogyóban van, a barátod nem hív fel, hogy megbeszéljétek. Elad. Azonnal, automatikusan, azon az áron, ami épp elérhető, mert az ő {c}800-ja forog kockán, és nem fog a véleményedre várni. Ennek neve van, és három lecke múlva találkozol vele: likvidálás.\n\nTehát: nagyobb nyereség, nagyobb veszteség, bérleti díj minden éjjel, és valaki más ujja az eladás gombon. A tőkeáttétel nem ingyenpénz egy kis kockázattal. Ez egy kölcsön, amihez mind a négy dolog hozzátartozik, és a reklámok mindig csak az elsőt mutatják. 🧠",
+      "quiz": {
+        "q": "Egy barátod betesz 800 NT-t, te beteszel 200 NT-t, és együtt 1,000 NT értékű részvényt irányítotok. A részvények 10%-ot esnek. Húzd oda, amennyit a saját 200 NT-d most ér.",
+        "explanation": "A kölcsön nem zsugorodik, ha tévedsz. A részvények most 900 NT-t érnek, és a barátodnak továbbra is a teljes 800 NT jár, így neked 100 NT marad. A részvények 10%-os esése elvitte a pénzed felét, mert a kölcsön semmit nem vállal a fájdalomból. Felfelé ugyanígy működik, és a reklámok ezt a felét mutatják."
+      }
+    },
+    "68": {
+      "title": "A fedezet letét, nem vásárlás",
+      "desc": "A befizetett pénzt nem költötted el, hanem kockán van",
+      "content": "Amikor {c}100-ért veszel egy részvényt, az a {c}100 eltűnik a készpénzedből, és egy részvény ül a fiókodban. Egyszerű csere.\n\nA fedezet (margin) nem így működik. Amikor tőkeáttételes pozíciót nyitsz, letétet teszel be, és ez a letét nem fizetség semmiért. Ez egy biztosíték a saját veszteségeid ellen. Ott ül, zárolva, és a pozíció felemészti, ahogy az ár ellened mozog.\n\nTegyük fel, hogy a letéti kulcs 25%. Beteszel 250 NT-t, és 1,000 NT kitettséget irányítasz. Figyeld a fiókodat:\n\n• Az ár nem mozdul: a 250-ed még mindig 250. Csakhogy a finanszírozás már elindult, így csendben kevesebb.\n• Az ár 5%-ot esik: a pozíció 50 NT-t veszített. A letéted gyakorlatilag 200. A szabad készpénzed nem mozdult. A fiókod kisebb lett.\n• Az ár 20%-ot esik: a pozíció 200 NT-t veszített. A letéted 50-re csökkent. Nem csináltál semmit. Nem adtál el semmit. Csak néztél.\n\nHárom kifejezés, ami ebben a teremben minden képernyőn ott van:\n\n🔒 LEKÖTÖTT FEDEZET: az összes letét, amit jelenleg befizettél.\n💰 SZÁMLA SAJÁT TŐKÉJE: a szabad készpénzed, plusz a befizetett fedezeted, plusz vagy mínusz minden nyitott pozíció eredménye, mínusz az eddig felszámított finanszírozás. Ennyit érne valójában a fiókod, ha most minden lezárulna.\n📊 FEDEZETI SZINT: a saját tőke osztva a lekötött fedezettel. 100% fölött van tartalékod. 100% alatt a piac már elfogyasztotta a tartalékot, és nekiállt a letétnek.\n\nÉs egy szabály, ami mindenkit meglep: a fedezetet a teljes fiókodra számolják, nem pozíciónként. Egy vesztes pozíció megeszi azt a biztosítékot, ami egy nyerőt tart életben. Ezért nem védekezés, hogy „a másik ügyletem rendben van”. 🔒",
+      "quiz": {
+        "q": "A letéti kulcs 25%, így 250 NT saját pénzed 1,000 NT kitettséget irányít. Az ár 8%-ot esik, miközben te semmit sem csinálsz. Húzd oda, mennyibe került neked ez az esés.",
+        "explanation": "A letét nem fizetség semmiért, hanem biztosíték, és a veszteséget a teljes 1,000 NT-re számolják, amit irányítasz. 1,000 NT 8%-a 80 NT. Nem adtál el semmit, és a szabad készpénzed sem mozdult, de a 250 NT-s letétedből 80 NT-t felemésztett, és a fiókod 80 NT-vel kisebb. Ha a 8%-ot a letétre számolod, 20 NT jön ki, és pont ez a hiba, amitől a tőkeáttétel ártalmatlannak tűnik."
+      }
+    },
+    "69": {
+      "title": "A fedezeti felszólítás",
+      "desc": "Követelés, nem figyelmeztetés",
+      "content": "A fedezeti felszólítás (margin call) az a pillanat, amikor a fedezeti szinted 100% alá esik. Egyszerűen mondva: a nyereségből képzett tartalékod elfogyott, és a piac nekiállt magának a letétnek.\n\nÍgy érződik valójában, mert a tankönyvi változat kihagyja a fontos részt.\n\nSoha nem egy jó napon érkezik. Akkor jön, amikor a pozíció már csúnyán áll, amikor már kétszer megmondtad magadnak, hogy vissza fog jönni, és amikor a legkevésbé vagy képes nyugodt döntést hozni. Ez nem udvarias előzetes jelzés. Ez követelés: tegyél be több pénzt, vagy zárj pozíciókat, különben a szolgáltató megteszi helyetted.\n\nHárom lépésed van, és ebből csak kettő a tiéd.\n\n1️⃣ ZÁRJ le valamit. Ez azonnal fedezetet szabadít fel, és szinte mindig ez a helyes válasz. Azt is jelenti viszont, hogy beismered: tévedtél, és ez az igazi oka, hogy az emberek nem teszik meg.\n2️⃣ TEGYÉL be pénzt. Ez semmit nem old meg. Csak időt vesz arra, hogy tovább tévedj egy olyan pozícióval, amit már rosszul választottál, olyan pénzzel, amit nem akartál kockáztatni. Ha fedezeti felszólításkor pénzt teszel be, így lesz egy rossz ügyletből egy rossz hónap.\n3️⃣ NE CSINÁLJ SEMMIT. Akkor a harmadik lépés nélküled történik meg, és annak neve van.\n\nA felügyeleti hatóságok ezt annyira komolyan veszik, hogy egy számot írtak a törvénybe. Európában, az Egyesült Királyságban és Ausztráliában a cégeknek automatikusan le kell zárniuk egy lakossági ügyfél pozícióit, amikor a fedezete a szükséges 50%-ára esik. Nem „érdemes”. Kötelező. Azért írták meg ezt a szabályt, mert amikor az emberekre bízták a döntést, a 3. lehetőséget választották, és többet veszítettek, mint amennyijük volt. ⚠️",
+      "quiz": {
+        "q": "A fedezeti szinted 80%-ra esett, és fedezeti felszólítást kaptál. Melyik lépés csökkenti valóban a likvidálás kockázatát, ahelyett hogy csak elodázná?",
+        "explanation": "A zárás azonnal visszaadja a letétet, így a fedezeti szint rögtön megugrik. A pénz betétele csak időt vesz arra, hogy tovább tévedj egy rosszul választott ügylettel. A várakozás az, ahogy a likvidálás megtörténik. Egy második, ellentétes irányú pozíciónak pedig saját letét kell, így több fedezetet köt le, nem kevesebbet.",
+        "options": [
+          "Több készpénz befizetése a fiókba",
+          "Várni, hogy a fedezeti szint visszakússzon",
+          "Lezárni az egyik nyitott pozíciódat",
+          "Nyitni egy második pozíciót az ellenkező irányba"
+        ]
+      }
+    },
+    "70": {
+      "title": "Likvidálás, és az ár, amit előre ismerned kell",
+      "desc": "A pontos ár, ahol a fiókod nullára ér",
+      "content": "Likvidálás az, amikor a szolgáltató lezárja helyetted a pozícióidat, mert a letéted majdnem elfogyott. Automatikus. Azonnali. Senki nem kérdezi meg a véleményedet, senki nem nézi meg, hogy épp igazad lett volna-e, és nincs fellebbezés.\n\nAz egész modul leghasznosabb száma a LIKVIDÁLÁSI ÁRAD: az a konkrét ár, valódi pénzben ({cPlural}), amelynél ez megtörténik.\n\nNem százalék. Egy ár. Mert arra, hogy „elveszítheted a letétedet”, rá lehet bólintani és elfelejteni, míg az, hogy „{tech} {c}87.40-en, és a fiókod üres”, egy tény, amit összevethetsz a grafikonnal, mielőtt bármit megnyomnál.\n\nEbben a teremben minden képernyő megmutatja, mielőtt megerősítenéd, ugyanazon az árskálán, mint a grafikon, hogy lásd, valójában milyen messze van. Két dolgot azonnal észre fogsz venni, és mindkettő maga a lecke:\n\n📏 A nagyobb letét messzebbre tolja a likvidálási árat. Több saját pénz azt jelenti, hogy az árnak többet kell esnie, mire a pénzed elfogy.\n⚡ A kisebb letét egészen közel húzza a mai árhoz. 10%-os letétnél a likvidálás nagyjából egy 10%-os mozgásnyira van, és egy 10%-os mozgás egy átlagos hét.\n\nAztán az őszinte csavar. A likvidálási ár az, ahol a rendszer le akar zárni, nem az, ahol garantáltan kiszállsz. Ha egyik éjjel rossz hír érkezik, és a piac jóval e szint alatt nyit újra, azon az áron zárnak le, amit a piac ténylegesen fizet. Ez a rés (gap), és erről szól a 78. lecke.\n\nIsmerd a likvidálási áradat, mielőtt nyitsz. Ha nem tudod hangosan kimondani, nem érted az ügyletet, amit épp meg akarsz kötni. 💀",
+      "quiz": {
+        "q": "200 NT-t teszel be letétként, hogy 1,000 NT értékben irányíts egy eszközt, amelynek ára 100 NT. Húzd le az árat oda, ahol a letéted elfogy.",
+        "explanation": "10 egységet irányítasz, így minden 1 NT áresés 10 NT-be kerül. A 200 NT-s letéted 80 NT-nél fogy el, ami mindössze 20%-os esés."
+      }
+    },
+    "71": {
+      "title": "Visszafelé meredekebb az út",
+      "desc": "Miért nehezebb visszacsinálni a veszteséget, mint amilyennek tűnik",
+      "content": "A veszteség és a nyereség egymás ellentétének tűnik. Pedig nem az, és a matek közel sem szimmetrikus.\n\nVesztesz 10%-ot? +11% kell, hogy visszajuss. Bosszantó, de oké.\nVesztesz 50%-ot? +100% kell. MEG KELL DUPLÁZNOD, csak hogy nullán legyél.\nVesztesz 75%-ot? +300% kell.\nVesztesz 90%-ot? +900% kell.\n\nAz ok egyszerű, ha egyszer látod: a nyereséget a megmaradt kisebb kupacra számolják. A 100 leesik 50-re, és hogy 50-ről visszamássz 100-ra, annak a kisebb kupacnak meg kell duplázódnia.\n\nMost add hozzá a tőkeáttételt, és figyeld meg, mit csinál valójában. Nem csak a nyereségedet gyorsítja. Egyetlen délután alatt végigvisz ezen a táblázaton. Egy részvény 12%-os esése, ami egy rossz, de teljesen átlagos hét, 25%-os letétnél 48%-os ütés a fiókodnak. Most +92% kell, hogy visszajuss oda, ahonnan indultál, egy olyan hét után, ami alig került be a hírekbe.\n\nEzért beszélnek a profik a tőke védelméről minden más előtt, és ezért a „majd visszahozom” a legdrágább mondat a kereskedésben. Visszahozni aritmetikailag nehezebb, mint elveszíteni volt, minden egyes alkalommal. ⛰️",
+      "quiz": {
+        "q": "A fiókod 75%-kal van mínuszban. Húzd oda, mekkora nyereség kell innen ahhoz, hogy egyáltalán visszajuss a kiindulópontra.",
+        "explanation": "A 100 NT leesett 25 NT-re. Hogy újra 100 legyen, a 25-nek meg kell négyszereződnie, ami 300%-os nyereség. A visszamászást a megmaradt kisebb kupacra számolják, ezért sokkal meredekebb, mint az esés volt."
+      }
+    },
+    "72": {
+      "title": "A kölcsönpénz bérleti díja",
+      "desc": "Jól tippelted az irányt, mégis mínuszban vagy",
+      "content": "A kitettséget kölcsönkérted. Így fizetsz érte. Minden éjjel.\n\nA finanszírozást (egyes helyeken swapnak vagy éjszakai díjnak hívják) naponta számolják fel, és itt jön a rész, ami mindenkit meglep: a TELJES pozíció után számolják fel, nem csak a kölcsönzött rész után. Ha beteszel 500 NT-t, hogy 2,000 NT-t irányíts, 2,000 után fizetsz bérleti díjat.\n\nÍgy számolják: egy irányadó kamatláb, plusz a szolgáltató felára, osztva 365-tel, szorozva a teljes pozícióddal. Ebben az appban mindkét felét látod a képernyőn, mert egy díjat, amit nem tudsz szétszedni, megítélni sem tudsz. Évi nagyjából 7.3%-nál ez éjszakánként a pozíciód körülbelül 0.02%-a.\n\nSemmiségnek hangzik. Most nézd, ahogy felfal egy nyerő ügyletet. 🧾\n\nAZ ÜGYLET, AMIT ELTALÁLSZ, ÉS MÉGIS VESZTESZ VELE\n\nNyitsz egy 2,000 NT-s pozíciót a {retail} részvényre 500 NT letéttel. Emelkedésre számítasz, és igazad lesz: a következő néhány hónapban a {retail} 2%-ot kúszik FELFELÉ.\n\n• A nyereséged: 2,000 2%-a = 40 NT. Egy 500 NT-s letétre ez +8%. Szép.\n• A bérleti díjad: 2,000 0.02%-a = 0.40 NT, minden éjjel.\n\n50. éjszaka: 20 NT-t fizettél. Összességében 20 NT-vel vagy pluszban. Még nyersz.\n100. éjszaka: 40 NT-t fizettél. A 40 NT nyereséged most pontosan nullát ér. Jól tippeltél, és semmit sem kerestél.\n180. éjszaka: 72 NT-t fizettél. A nyereséged még mindig 40 NT. 32 NT-vel MÍNUSZBAN vagy, ami a letéted mínusz 6.4%-a, egy olyan ügyleten, ahol hat hónapon át helyesen olvastad a piacot.\n\nOlvasd el újra. Az ár azt csinálta, amit mondtál. Mégis veszítettél.\n\nEz az a mondat, amit vigyél magaddal ebből a leckéből: egy tőkeáttételes pozíciónál az igazadnak lejárati ideje van. Ebben a példában 100 éjszakányira van, és a sajátodat ki tudod számolni, mielőtt nyitsz. Oszd el a remélt nyereséget az éjszakai bérleti díjjal. Ennyi éjszakát ér a véleményed.\n\nAz ellenkezőjét is érdemes észrevenni. Az app többi része a kamatos kamatot tanítja, ahol az idő csendben pénzt keres neked, amíg alszol. Ez ugyanaz a gépezet, visszafelé járatva, rád irányítva. ⏳",
+      "quiz": {
+        "q": "Tartasz egy 2,000 NT-s tőkeáttételes pozíciót, amelynek finanszírozása éjszakánként 0.40 NT. Az ár annyit emelkedik, hogy 40 NT nyereséged legyen, aztán megáll. Hány éjszaka után emészti fel teljesen ezt a nyereséget a díj?",
+        "options": [
+          "Soha, mert finanszírozást csak a kölcsönzött rész után számolnak fel",
+          "Körülbelül 100 éjszaka után, mert 40 NT nyereség osztva éjszakánként 0.40 NT-vel 100",
+          "Körülbelül 20 éjszaka után, mert a finanszírozást az 500 NT-s letéted után számolják fel",
+          "Finanszírozást csak akkor számolnak fel, ha egy pozíciót veszteséggel zársz"
+        ]
+      }
+    },
+    "73": {
+      "title": "Határidős ügyletek: az óra és a görgetés",
+      "desc": "Ugyanaz a költség, más módon kiszállítva",
+      "content": "A határidős ügyletek és a CFD-k unokatestvérek. Mindkettő tőkeáttételes, mindkettő fedezetet használ, és mindkettő likvidálhat. Két dolog teszi mássá a határidős ügyleteket, és a második az érdekesebb.\n\n⏰ 1. DÁTUM VAN RAJTA. Minden határidős szerződés lejár. Márciusi olaj, júniusi kukorica, szeptemberi index. Amikor eljön a dátum, a szerződés teljesül, és megszűnik létezni. A „tartsd meg, és várd meg, hogy visszajöjjön” egyszerűen nincs az étlapon, mert a szerződés nem lesz ott. A CFD soha nem jár le, ami jobban hangzik, amíg eszedbe nem jut, hogy örökké bérleti díjat számol fel.\n\n🔄 2. A KÖLTSÉG BENNE VAN AZ ÁRBAN, NEM ÉJSZAKÁNKÉNT SZÁMLÁZZÁK. Ezt a részt szokták elnézni. Egy határidős ügylet általában nem számol fel éjszakai finanszírozási díjat. Ehelyett az eszköz addig a dátumig való tartásának költsége már bele van sütve a szerződés árába. A későbbi lejáratú szerződések gyakran drágábbak, mint a korábbiak, és ez a különbség ugyanaz a tartási költség, a számon belül.\n\nMi történik tehát, ha egy kereskedő a lejáraton túl is meg akarja tartani a pozíciót? GÖRGETI (roll): lezárja a lejáró szerződést, és megnyitja a következőt. És ha a következő drágább, kifizeti a különbséget. Minden görgetésnél. Ez a CFD éjszakai bérleti díja, nagyobb, ritkább részletekben beszedve.\n\nAz őszinte összefoglaló:\n\n• CFD: nincs határidő, bérleti díj minden éjjel, tételesen a kivonatodon.\n• Határidős ügylet: szigorú határidő, a költség az árba rejtve, minden görgetéskor fizetve, könnyű nem észrevenni.\n\nEgyik sem ingyenes. Az egyik csak udvariasabban nyújtja át a számlát, és a költség, amit nem látsz, az fog a legnagyobb valószínűséggel meglepni. ⏳",
+      "quiz": {
+        "q": "Egy kereskedő a lejárat után is meg akarja tartani a határidős pozícióját, és a következő szerződés drágábban forog, mint a lejáró. Mi történik, amikor görget?",
+        "explanation": "A görgetés azt jelenti, hogy lezárod a lejáró szerződést, és megnyitod a következőt. Ha a következő többe kerül, kifizeted a különbséget, és ezt minden görgetésnél újra megteszed. Ez ugyanaz a tartási költség, amit a CFD minden éjjel kiszámláz, csak nagyobb darabokban szedik be, és az árba rejtik ahelyett, hogy a kivonatodon szerepelne.",
+        "options": [
+          "Kifizeti a különbséget a lejáró és a következő szerződés között",
+          "Ő kapja meg a két szerződés ára közötti különbséget",
+          "Nem cserél gazdát pénz, mert a görgetés egyetlen ügylet",
+          "A pozíció CFD-vé alakul, és lejárat nélkül fut tovább"
+        ]
+      }
+    },
+    "74": {
+      "title": "Shortolás: a veszteség, aminek nincs padlója",
+      "desc": "Miért nincs természetes plafonja az esésre szóló fogadásnak",
+      "content": "Ebben az appban eddig minden long (vételi) pozíció volt: veszel, és azt akarod, hogy az ár emelkedjen. A derivatívákkal shortolhatsz is, ami azt jelenti, hogy az ár esésére fogadsz. Nyitsz egy short pozíciót, az ár esik, te nyersz.\n\nA shortolás tényleg hasznos, és nem gonosz dolog. Így rögzíti egy gazda az árat aratás előtt, és így véd meg egy alap egy portfóliót. Ha megérted, jobban olvasod a piacokat, mert most először minden ügylet mindkét oldalát látod.\n\nDe van a shortolásban egy aritmetikai elem, aminek sehol máshol nincs megfelelője, és ezt be kell vésned.\n\n📉 AMIKOR VESZEL, a legrosszabb eset az, hogy az ár nullára megy. Elveszíted a betett pénzed 100%-át. Szörnyű, de ez egy padló. Van alja.\n📈 AMIKOR SHORTOLSZ, az, hogy az ár ellened mozog, azt jelenti, hogy FELFELÉ megy. És sehol nincs szabály arra, hogy egy ár milyen magasra mehet. Egy részvény, amely megháromszorozódik, a pozíció 200%-ába kerül. Egy részvény, amely tízszeresére nő, 900%-ba.\n\nA long veszteségnek van padlója. A short veszteségnek nincs. Ez az aszimmetria az egész figyelmeztetés.\n\nA valódi piacok ezt meg is csinálják. Időnként egy erősen shortolt részvény kilő, mert mindenkinek, aki short, vennie kell, hogy lezárhassa a pozícióját, ami még feljebb nyomja az árat, ami még többüket kényszeríti vételre. Ezt short squeeze-nek hívják, és alapok mentek már bele tönkre.\n\nKét dolog tart életben. Először: a shortnál a stop-loss már nem választható extra, hanem kötelező. Másodszor: a negatív egyenleg elleni védelem. Egy megfelelően szabályozott lakossági fiókon, és ebben az appban is, a fiókod nem mehet nulla alá. Elveszítheted mindazt, amit betettél. De nem maradhatsz adós. Ez a védelem azért létezik, mert előtte az emberek adósok maradtak. 🕳️",
+      "quiz": {
+        "q": "Miért különbözik alapvetően a short pozíció legrosszabb esete a long pozíció legrosszabb esetétől?",
+        "explanation": "A vételnek van padlója. A legrosszabb, amit egy ár tehet, hogy nullára esik, így elveszíted, amit betettél, és semmivel sem többet. A shortolás fordítva működik, mert veszíteni azt jelenti, hogy az ár emelkedik, és semmi nem mondja meg, milyen magasra mehet egy ár. Egy megháromszorozódó részvény a short eladónak a pozíció kétszeresébe kerül. Ezért kötelező a stop egy shortnál, és ezért nem vihet ez az app nulla alá.",
+        "options": [
+          "Nem különbözik, mert mindkettő a betett összegnél van maximálva",
+          "A stop-loss ugyanazt a padlót teszi a short alá, mint a long alá",
+          "Az esések lassabbak, mint az emelkedések, így a short lassabban veszít",
+          "Egy ár csak nulláig eshet, de korlátlanul emelkedhet"
+        ]
+      }
+    },
+    "75": {
+      "title": "Volatilitás szorozva tőkeáttétellel",
+      "desc": "Miért a kriptónak kell itt a legnagyobb letét",
+      "content": "Ugyanaz a szorzó két különböző eszközön nem ugyanaz a fogadás. Ez a lecke egész lényege, és ezért változik a befizetendő letét attól függően, mivel kereskedsz.\n\nGondold végig, hogy néz ki egy átlagos nap:\n• Egy nagy index a legtöbb napon 1%-nál kevesebbet mozdul.\n• Egy egyedi részvény mozoghat 2%-ot vagy 3%-ot.\n• A kripto rendszeresen mozog 5%-ot vagy 10%-ot, és egy 20%-os nap nem válság, hanem egy átlagos kedd. 🎢\n\nMost tegyél mindegyik mögé egy kis letétet. 10%-os letétnél egy 10%-os mozgás eltöröl. Az indexnél ez évente egyszer sem fordul elő. A kriptónál nagyjából havonta. Ugyanaz a letét. Teljesen más túlélési esélyek.\n\nA felügyeleti hatóságok ezt kiszámolták, és beleírták a szabályokba. Amikor az ESMA 2018 márciusában korlátozta a CFD-k tőkeáttételét Európa-szerte, nem egyetlen számot választott. Sávokat állított fel: 30:1 a fő devizapárokra, 20:1 az aranyra és a fő indexekre, 10:1 az egyéb nyersanyagokra, 5:1 az egyedi részvényekre, és legalul 2:1 a kriptóra. A kettő az egyhez 50%-os letétet jelent. A kriptónál a pozíció FELÉT követelték meg valódi pénzben, ez volt a legszigorúbb kulcs az egész listán.\n\nEz az app ugyanezt teszi, ugyanazért, és ezt ki is írja a képernyőre ahelyett, hogy elrejtené:\n\n💱 Devizák: a legkisebb letét, mert a fő devizapárok mozognak a legkevésbé.\n🥇 Arany és nyersanyagok: nagyobb.\n📊 Részvények, indexek és ETF-ek: még nagyobb.\n🪙 Kripto: a legnagyobb letét mind közül, mert a kripto mozog a legvadabbul.\n\nA kripto itt nincs betiltva, és ez szándékos. Kereskedhetsz vele. Csak vékony letéttel nem, mert vékony letéttel egy átlagos kriptonap véget vetne a fiókodnak, mielőtt végigolvasnád, mi történt. A nagyobb letét nem azt jelenti, hogy az app furcsán viszonyul a kriptóhoz. Azt jelenti, hogy az app gondoskodik róla, hogy egy átlagos nap ne tudjon kinyírni.\n\nÉrdemes tudni: a brit felügyelet tovább ment egy sávnál. 2021-ben teljesen betiltotta a kriptoderivatívákat a lakossági ügyfelek számára, becslése szerint a fogyasztók így nagyjából £53m-t spórolnak meg. A kriptós tőkeáttétellel találkozhatsz itt, játékpénzzel és vastag letéttel, vagy találkozhatsz vele tizennyolc évesen, valódi pénzzel és minden figyelmeztetés nélkül. Ez a jobb sorrend. 🌡️",
+      "quiz": {
+        "q": "Ebben a teremben a kriptónak kell a legnagyobb letét az összes eszköz közül. Mi ennek a valódi oka?",
+        "explanation": "Egy nagy index a legtöbb napon 1%-nál kevesebbet mozdul. A kripto rendszeresen mozog 5%-ot vagy 10%-ot, és egy 20%-os nap nem válság, hanem egy átlagos kedd. Vékony letétnél egy 10%-os mozgás eltöröl, ami az indexnél évente egyszer sem fordul elő, a kriptónál nagyjából havonta. Az európai felügyelet pontosan ezért követelte meg a kriptónál a pozíció felét valódi pénzben, ez volt a legszigorúbb kulcs az egész listáján.",
+        "options": [
+          "A 18 év alattiaknak tilos a kripto, így a letét büntetés",
+          "A kriptóra nem számolnak fel finanszírozást, így a letét azt pótolja",
+          "Ez mozog a legvadabbul, így egy átlagos nap kiürítheti a vékony letétet",
+          "A kripto árát maga az app határozza meg, nem a piac"
+        ]
+      }
+    },
+    "76": {
+      "title": "A számok, amiket senki nem reklámoz",
+      "desc": "Mit találtak a felügyeleti hatóságok, amikor megszámolták",
+      "content": "Ezeket a számokat soha nem fogod reklámban látni. Pénzügyi felügyeleti hatóságoktól származnak, akik bekérhetik a cégektől a valódi számlaadatokat, majd közzéteszik, amit találtak.\n\n🇪🇺 ESMA, az európai felügyelet, 2018 március. Az EU-s országokban a lakossági CFD-számlák 74% és 89% közötti része veszít pénzt. Az ügyfelenkénti átlagos veszteség €1,600 és €29,000 között mozgott. Az ESMA erre alapozva korlátozta a terméket.\n\n🇬🇧 Az FCA az Egyesült Királyságban, 2016 december. Az ügyfélszámlák reprezentatív mintájának elemzése szerint az ügyfelek 82%-a veszített pénzt ezeken a termékeken.\n\n🇦🇺 Az ASIC Ausztráliában, 2026 januárjában közzétéve, a három közül a legfrissebb. A 2024-es pénzügyi évben a lakossági CFD-befektetők 68%-a veszített pénzt, összesen több mint A$458 millió értékben. Ebből A$73 millió díj volt.\n\nÜlj egy pillanatig ezzel az utolsó sorral. Ebből hetvenhárom millió még csak nem is rossz ügylet volt. Hanem a játék ára: a spread belépéskor, és a finanszírozás, amivel a 72. leckében találkoztál.\n\nHárom különböző felügyelet, három különböző ország, három különböző évtizedet átfogó adatok, és a válasz újra és újra valahol kétharmad és kilenctized között landol.\n\nMost jön a legfontosabb rész, mert ettől nem csak egy ijesztgető statisztika. Ezek az emberek nem voltak buták. Nem voltak lusták. Többnyire dolgozó felnőttek voltak, és sokan közülük jobban olvasnak grafikont, mint te most. Azért veszítettek, mert így épül fel a termék: a spread miatt hátrányból indulsz, bérleti díjat fizetsz, amíg vársz, és a tőkeáttétel miatt egy átlagos mozgás véget vethet neked, mielőtt a véleményednek ideje lett volna beigazolódni.\n\nEz egy szerkezet, nem jellemhiba. És egy szerkezetet csak azok győzhetnek le, akik tudják, hogy ott van. 📊",
+      "quiz": {
+        "q": "Európában, az Egyesült Királyságban és Ausztráliában is azt találták a felügyeletek, hogy a lakossági CFD-számlák többsége pénzt veszít. Mi az őszinte magyarázat?",
+        "explanation": "Ezek hétköznapi, dolgozó felnőttek voltak, és sokan közülük jobban olvasnak grafikont, mint te ma. Azért veszítettek, mert így működik a termék: a spread miatt hátrányból indulsz, minden éjjel bérleti díjat fizetsz, amíg vársz, és a tőkeáttétel miatt egy átlagos mozgás véget vethet neked, mielőtt a véleményednek ideje lett volna beigazolódni. Ez egy szerkezet, nem jellemhiba, és a szerkezetet azok győzhetik le, akik tudják, hogy ott van.",
+        "options": [
+          "Ahogy a termék fel van építve, az az ügyfél ellen dolgozik",
+          "Akik veszítettek, figyelmetlenek voltak, az óvatos kereskedőkkel nincs baj",
+          "Konkurens cégek tették közzé a számokat marketingtámadásként",
+          "Ekkora veszteségek szabályozatlan országokból jönnek"
+        ]
+      }
+    },
+    "77": {
+      "title": "Mi változott, amikor a szabályok változtak",
+      "desc": "Bizonyíték, hogy a felépítés volt a hibás, nem az emberek",
+      "content": "A 76. lecke megmutatta a veszteségeket. Ez a lecke a kísérletet mutatja meg, és ez a legfontosabb dolog ebben a modulban.\n\nHa a legtöbb ember azért veszít, mert a legtöbb ember meggondolatlan, akkor a szabályok megváltoztatása semmin nem változtatna. A meggondolatlanok meggondolatlanok maradnak. Igaz?\n\nAusztrália elvégezte a tesztet. 2021 márciusában az ASIC védelmi intézkedéseket kényszerített minden CFD-cégre, amely lakossági ügyfeleket szolgál ki: tőkeáttételi korlátokat, egységes automatikus kizárási szabályt, negatív egyenleg elleni védelmet, és a csalogató ajánlatok, például a regisztrációs bónuszok tilalmát. Ugyanazok az ügyfelek. Ugyanazok a cégek. Ugyanazok a piacok. Csak a szabályok változtak.\n\nEzt mérte az ASIC az első hat hónapban. 🔬\n\n📉 A lakossági számlák összesített nettó vesztesége 91%-kal csökkent, negyedévente átlagosan A$372 millióról A$33 millióra.\n📉 51%-kal kevesebb veszteséges lakossági számla negyedévente.\n📉 87%-kal kevesebb fedezethiány miatti kizárás.\n📉 88%-kal kevesebb negatív egyenleg.\n\nSenki nem lett okosabb hat hónap alatt. A felépítés változott meg, és vele együtt eltűnt a kár kilenctizede.\n\nKét dolog következik ebből, és mindkettőt vidd magaddal.\n\nElőször: amikor veszítesz egy tőkeáttételes ügyleten, annak nagy része már bele volt építve a termékbe, mielőtt odaértél. Ez nem engedély a meggondolatlanságra. Ez ok arra, hogy tiszteld ezt a dolgot.\n\nMásodszor, és ez a hasznos fele: a védelmek, amelyek a munkát elvégezték, pontosan azok a szokások, amelyeket ez a modul tanít neked. Kisebb pozíció. Automatikus kiszállás. Szilárd padló a kár alatt. Egy felügyeletnek egy egész iparágra kellett ezeket rákényszerítenie, hogy elérje a 91%-ot. Te egyszerűen választhatod őket. 🛡️",
+      "quiz": {
+        "q": "Miután Ausztrália tőkeáttételi korlátokat és automatikus kizárást kényszerített a CFD-cégekre, a lakossági veszteségek hat hónap alatt 91%-kal csökkentek. Mit mutat ez?",
+        "explanation": "Ugyanazok az ügyfelek, ugyanazok a cégek, ugyanazok a piacok. Csak a szabályok változtak, és velük ment a kár kilenctizede. Senki nem lett okosabb hat hónap alatt. A védelmek, amelyek a munkát elvégezték, azok a szokások, amelyeket ez a modul folyamatosan tanít: kisebb pozíció, automatikus kiszállás, és szilárd padló a kár alatt. Egy felügyeletnek egy egész iparágra kellett ezeket rákényszerítenie. Te egyszerűen választhatod őket.",
+        "options": [
+          "Az ausztrál kereskedők fegyelmezettebbek az európaiaknál",
+          "A tőkeáttétel biztonságossá válik, ha egy felügyelet figyel rá",
+          "A szabályok miatt az emberek abbahagyták a kereskedést, így nem volt mit veszíteni",
+          "A kár nagy része a termék felépítéséből fakadt"
+        ]
+      }
+    },
+    "78": {
+      "title": "A rés, ami átugorja a stopodat",
+      "desc": "A stop utasítás a kiszállásra, nem megígért ár",
+      "content": "A stop-loss megbízásokkal már találkoztál a 19. leckében. Most nézzük, mit csinál velük a tőkeáttétel.\n\nA stop-loss egy utasítás: „ha az ár eléri ezt a szintet, szállíts ki.” Nem szerződés arról, milyen árat kapsz. Azt mondja, szállj ki. Azt nem mondja, hogy pontosan itt.\n\nAz esetek többségében ez a különbség nem számít, mert az árak kis lépésekben mozognak, és a megbízásod a szinted közelében teljesül. Aztán néha óriási jelentősége van.\n\n📰 A piacok bezárnak. Este 11-kor hír érkezik. A piac 8%-kal a záróár alatt nyit újra, és a köztes árak egyikén sem kereskedtek. A stopod ebben a résben volt. Újranyitáskor aktiválódik, és ott teljesül, ahol a piac ténylegesen áll, ami jóval túl van az általad választott szinten.\n\nTőkeáttétel nélkül ez egy rossz nap. Tőkeáttétellel lehet, hogy az egész fiók, mert ha a letéted vékonyabb volt, mint a rés, a rés egyenesen átszalad a likvidálási áradon is, és a rendszer által tervezett szint alatt zárnak le.\n\nHárom dolog, amit ezzel kezdhetsz, egyik sem bonyolult:\n\n1️⃣ Ne kezeld a stopot garanciaként. Kezeld nagyon jó szokásként, aminek van egy ismert gyengesége.\n2️⃣ Tudd, mikor van zárva a piacod, és mi van betervezve. A céges gyorsjelentések, a kamatdöntések és a választások olyan rések, amelyeknek naptári bejegyzésük van.\n3️⃣ Úgy méretezz, hogy egy rés ne tudjon kinyírni. Ez az igazi védekezés, és ez a következő lecke. A stop a hétköznapitól véd. A pozícióméret a szokatlantól, és a szokatlan az, ami valójában tönkreteszi az embereket.\n\nÉs érdemes tudni, hogy ebben az appban, mint minden megfelelően szabályozott lakossági fiókon, a negatív egyenleg elleni védelem miatt egy rés nem vihet nulla alá. Elveszítheted a fiókot. De nem maradhatsz adós. 📰",
+      "quiz": {
+        "q": "Beállítasz egy stop-losst {c}90-re. Éjszaka rossz hír érkezik, és a piac {c}78-on nyit újra, közte egyáltalán nem kereskedtek. Mi történik?",
+        "explanation": "A stop utasítás a kiszállásra, nem ígéret a kapott árról. A piac soha nem kereskedett {c}90 és {c}78 között, így nem maradt {c}90-es ár, amin eladhattál volna. A stopod újranyitáskor aktiválódik, és ott teljesül, ahol a piac ténylegesen áll. A stopok továbbra is védenek a hétköznapi mozgásoktól. Egy ilyen ugrás elleni védekezés a pozíció mérete, nem a stop.",
+        "options": [
+          "A stopod {c}90-en teljesül, pontosan ott, ahová beállítottad",
+          "{c}78 közelében teljesül, az első elérhető áron",
+          "A megbízást törlik, mert az ár átugrotta",
+          "A szolgáltató kifizeti neked a {c}12-t, amit a piac átugrott"
+        ]
+      }
+    },
+    "79": {
+      "title": "Először a méret, aztán az ügylet",
+      "desc": "Döntsd el, mit veszíthetsz, mielőtt eldöntöd, mit veszel",
+      "content": "Ez az, ami elválasztja azokat, akik kitartanak, azoktól, akik nem, és szinte unalmas.\n\nA kezdők kiválasztják az ügyletet, aztán kitalálják, mennyit tegyenek bele. A profik fordítva csinálják. Először eldöntik, mennyit hajlandók elveszíteni, és hagyják, hogy ez döntse el, mekkora lehet a pozíció.\n\nA szabály, amit a legtöbbjük használ: egy ügyleten a fiók 1%-át–2%-át kockáztasd. Nem 1%-ot teszel be letétként. 1%-ot KOCKÁZTATSZ, vagyis ennyit veszítesz ténylegesen, ha a stopod aktiválódik.\n\nÍgy működik, három lépésben:\n\n1️⃣ Válaszd ki a maximális veszteséged. 10,000 NT-s fiók, 1% kockázat, vagyis 100 NT.\n2️⃣ Válaszd ki, hol tévedsz. Kiszállsz, ha az ár 5%-ot esik a belépésedtől.\n3️⃣ Oszd el. 100 NT elfogadható veszteség 5%-os stoptávolsággal 2,000 NT-s pozíciót jelent. Ez a méreted. Nem érzés. Számítás.\n\nVáltoztasd meg a stopot, és a méret automatikusan változik. Egy szorosabb, 2%-os stop 5,000 NT-t enged. Egy tágabb, 10%-os stop 1,000 NT-re kényszerít le. Minél kockázatosabb az ügylet, annál kisebbnek kell lennie, és ezt a számtan elintézi helyetted, így nem a hangulatodnak kell.\n\nMiért 1%? Mert így egy vesztes sorozat túlélhető. Tíz veszteség egymás után 1%-kal a fiókod 90%-át és egy rossz kedvet hagy neked. Tíz veszteség egymás után 20%-kal a fiókod nagyjából 11%-át hagyja, visszaút nélkül, és a 71. leckéből már tudod, milyen meredek az a mászás.\n\nSenki nem éli túl a piacokat azzal, hogy nyerteseket választ. Mindenki, aki túléli, úgy teszi, hogy gondoskodik róla: egyetlen veszteség se tudjon véget vetni neki. 📐",
+      "quiz": {
+        "q": "Egy 10,000 NT-s fiók. Ezen az ügyleten 1%-ot kockáztatsz, és kiszállsz, ha az ár 5%-ot esik a belépésedtől. Húzd oda a pozícióméretet, amely ezt tiszteletben tartja.",
+        "explanation": "10,000 NT 1%-a 100 NT, és ez a legtöbb, amit vállaltál elveszíteni. Egy 5%-os stop azt jelenti, hogy 100 NT osztva 5%-kal, ami 2,000 NT-s pozíció. Ha feljebb húzod, a kijelző megmutatja, hogy többet kockáztatsz, mint amennyiről döntöttél."
+      }
+    },
+    "80": {
+      "title": "Miért érződik a nyerés tudásnak",
+      "desc": "A fejben zajló játszmák, amiket a tőkeáttétel játszik veled",
+      "content": "A tőkeáttétel nem elsősorban matekprobléma. A matek könnyű. Ez fejprobléma, és itt van az a három, ami mindenkit elkap.\n\n🎯 1. EREDMÉNYTORZÍTÁS: a nyerés tudásnak érződik. Felveszel egy vadul túlméretezett pozíciót, bejön, sokat keresel egy délután alatt, és az agyad feljegyzi: „ebben jó vagyok.” Azt nem jegyezte fel, ami valójában történt: rossz kockázatot vállaltál, és jó eredményt kaptál. Ez két különböző dolog, és a piac boldogan fizet egy rossz döntésért többször is, mielőtt behajtja a számlát. A legveszélyesebb dolog, ami egy új kereskedővel történhet, egy korai, könnyű nyerés.\n\n😤 2. BOSSZÚKERESKEDÉS: vissza akarod kapni, most. Elszenvedsz egy veszteséget, fáj, és a késztetés azonnali. Így megnöveled a méretet. Most pont akkor nyitod a legnagyobb pozíciódat, amikor az ítélőképességed a legrosszabb, egy olyan ügyletben, amit azért választottál, mert dühös voltál, nem azért, mert jó volt. A piac nem tudja, hogy mínuszban vagy, és nem tartozik neked semmivel. Amikor ezt érzed, a helyes méret nulla. Zárd be az appot.\n\n🕳️ 3. A VESZTESÉG HAJSZOLÁSA: „csak megtartom, amíg vissza nem jön.” Ez türelemnek van álcázva, ezért olyan nehéz észrevenni. A türelem egy terv, amit előre, nyugodtan készítettél. A hajszolás egy terv, amit akkor találtál ki, miután az ár ellened mozdult, és a jel egyszerű: a kiszállási pontod elmozdult. Ha azon kapod magad, hogy magyarázod, miért nem jó már az a szint, amit beállítottál, az nem új elemzés. Az az egód alkudozik.\n\nMindhárom ellen ugyanaz a védekezés, és nem csillogó. Dönts el mindent, amíg nyugodt vagy, írd le, és kezeld az ügylet közben megjelenő önmagadat megbízhatatlan elbeszélőként. 🧠",
+      "quiz": {
+        "q": "A szokásosnál jóval nagyobb pozíciót veszel fel, és egy délután alatt nagy nyereséget hoz. Mi a legpontosabb módja ennek értelmezésére?",
+        "explanation": "Az agyad feljegyzi, hogy ebben jó vagy. Ami valójában történt: rossz kockázatot vállaltál, és a piac véletlenül mégis fizetett, és ez két külön dolog. A piac egy rossz döntésért többször is fizet, mielőtt behajtja a számlát. Egy korai, könnyű nyerés a legveszélyesebb dolog, ami egy új kereskedővel történhet, mert rossz leckét tanít, és később kiszámlázza.",
+        "options": [
+          "Ez egy működő módszer, és újra fel lehet növelni a méretét",
+          "A méret jó volt, hiszen a nyereség bizonyítja",
+          "Rossz kockázatot vállaltál, és véletlenül jó eredményt kaptál",
+          "A nagy nyereség tudást mutat, a veszteség mutatja a hibákat"
+        ]
+      }
+    },
+    "81": {
+      "title": "Az őszinte kérdés",
+      "desc": "Egyáltalán használnod kellene?",
+      "content": "Befejezted a modult. Íme a kérdés, amit a reklámok soha nem tesznek fel.\n\nEgyáltalán használnod kellene a tőkeáttételt?\n\nA legtöbb embernek, az esetek többségében, az őszinte válasz: nem. Nem azért, mert nem elég okosak. Hanem az elmúlt tizenöt lecke minden tanulsága miatt: hátrányból indulsz, bérleti díjat fizetsz, amíg vársz, egy átlagos mozgás véget vethet neked, mielőtt igazad lenne, és három felügyelet, amely valódi számlákat számolt meg, újra és újra azt találta, hogy az emberek kétharmada–kilenctizede veszített.\n\nA kereskedésnek van egy olyan változata, ahol soha nem nyúlsz ezekhez. Veszel egy részvényt, egy darab cég a tiéd, jön az osztalék, az idő NEKED dolgozik, nem ellened, és senki soha nem zárhatja le a pozíciódat anélkül, hogy megkérdezne. Ez az app többi része, és nem az unalmas lehetőség. Ez az a lehetőség, amelyről a 14. lecke matekja azt mondja, hogy általában nyer. 🌱\n\nÍme, amit tudnod kell, mielőtt döntesz.\n\nEbben az appban semmi nincs a tőkeáttétel mögé zárva. Minden verseny, minden ranglista, minden XP-út, minden iskolai mérkőzés és minden NOOB-jutalom teljesen nyitva marad annak is, aki soha egyetlen tőkeáttételes pozíciót sem nyit. Semmit nem veszítesz, ha kisétálsz ebből a teremből. Nincs büntetés, és nem marad el egyetlen jelvény sem.\n\nÉs itt semmi nem fizet a nyerésért. Azért kapsz jutalmat, ha befejezed a leckéket, ha átmész a teszten, ha beállítasz egy stopot, ha lezársz egy vesztest, és ha megírod a saját likvidálásod elemzését. Soha nem fizetünk nyereségért, nagy pozícióért vagy szerencsés szériáért, mert ha ezekért fizetnénk, rossz dolgot tanítanánk, miközben oktatásnak neveznénk.\n\nHa használod: használd kicsiben, használd stoppal, ismerd a likvidálási áradat, mielőtt bármit megnyomsz, és soha ne olyan pénzzel, ami hiányozna. Ha nem használod, akkor is megtanultad látni a gépezetet, és mindig is ez volt a cél. A legtöbb felnőtt, aki ilyesmivel kereskedik, nem tudná elmagyarázni, amit te most megtanultál. 🤔",
+      "quiz": {
+        "q": "Mit veszít egy tanuló, ha úgy dönt, hogy soha nem nyit tőkeáttételes pozíciót ebben az appban?",
+        "explanation": "Ebben az appban semmi nincs a tőkeáttétel mögé zárva. Minden verseny, minden ranglista, minden XP-út, minden iskolai mérkőzés és minden NOOB-jutalom nyitva marad annak is, aki soha egyetlen tőkeáttételes pozíciót sem nyit. Nincs büntetés, és nem marad el egyetlen jelvény sem. És ebben a teremben semmi nem fizet a nyerésért: a leckék befejezéséért, a teszt teljesítéséért, egy stop beállításáért és egy vesztes lezárásáért jár jutalom.",
+        "options": [
+          "Semmit, minden út nyitva marad előtte",
+          "Az összes versenyt és ranglistát az appban",
+          "A modul XP-jét, amely tőkeáttételes ügyletekért jár",
+          "A NOOB-jutalmakat, amelyekhez előbb egy tőkeáttételes pozíció kell"
+        ]
+      }
+    },
+    "82": {
+      "title": "A nagy bukta",
+      "desc": "Öt nap, egy agresszív terv, egy üres fiók",
+      "content": "Üdv a Laborban. Itt kapsz egy elkülönített, 1,000 LAB NT-s gyakorlófiókot. Ez nem a tárcád, nem érintheti a tárcádat, és semmi, amit benne nyersz vagy veszítesz, nem hagyja el. Az eszköz neve NOVA. A NOVA kitalált, így senki nem vádolhat meg minket azzal, hogy egy valódi összeomlást jósolunk. Letéti kulcs 25%. Finanszírozás 0.02% éjszakánként. Kizárás a lekötött fedezet 50%-ánál. És csak ennél a bossnál a pozíciókorlátok ki vannak kapcsolva. Szándékosan. Egyszer.\n\nÍme a hét, amit meg kell majd magyaráznod.\n\n📅 1. NAP: a NOVA 100-on áll. Jó gyorsjelentés, a csoportchat hangos. Az 1,000 NT-dből 800-at beteszel, és 3,200 NT értékű NOVA-t irányítasz. Stop nincs.\n\n📅 2. NAP: NOVA 106. 192 NT-vel vagy pluszban, ami a fiókod +19.2%-a egyetlen nap alatt. Beteszed az utolsó 200 NT-det is. Kitettség 4,000 NT. Szabad készpénz: nulla. Stop még mindig nincs.\n\n📅 3. NAP: NOVA 101.76. Fedezeti szint 103%. A héten még pluszban vagy, ezért tartod.\n\n📅 4. NAP: NOVA 94.64. FEDEZETI FELSZÓLÍTÁS. Fedezeti szint 75%, saját tőke 750 NT. Nem tudsz pénzt betenni, mert nem maradt mit. Tartod.\n\n📅 5. NAP: a NOVA éjszaka 9%-os réssel esik, és 86.12-n nyit újra, a kizárási szint alatt. LIKVIDÁLVA 390 NT-nél.\n\nA héten a NOVA 13.9%-ot esett. A fiókod 61%-ot. Az a tanuló, aki 250 NT-t tett be, 95-ös stoppal, ugyanazt a hetet nagyjából 949 NT-vel zárta, 5%-os mínusszal. Ugyanaz a 800 NT stop nélkül, de a 2. napi ráadás nélkül 550 NT-vel zárt volna: fedezeti felszólítás, de életben.\n\nMost jön az elemzés. Tíz kérdés arról, ami az imént történt. Érj el 8 pontot a 10-ből, és legyőzted a bosst, mert itt az a teljesítés, ha meg tudod magyarázni a roncsot, nem az, ha elkerülöd. 💀",
+      "bossVictory": "Felrobbantottál egy fiókot, és úgy sétáltál ki, hogy tudod, miért. Ez az egész modul. 💀",
+      "bossQuestions": {
+        "0": {
+          "q": "Az öt nap alatt a NOVA nagyjából 14%-ot esett. A fiókod 61%-ot. Miért a különbség?",
+          "options": [
+            "Az app büntetést számolt fel a veszteségért",
+            "Nagyjából a letéted négyszeresét kitevő kitettséget tartottál, így minden mozgás egy, a fiókodnál négyszer nagyobb számot ért",
+            "A veszteség nagy részét a finanszírozás okozta",
+            "A NOVA kockázatosabb részvény, mint amit a számok mutatnak"
+          ]
+        },
+        "1": {
+          "q": "A 2. napon 192 NT-vel voltál pluszban, ami a fiókod 19.2%-a egyetlen nap alatt. Mit üzent ez valójában?",
+          "options": [
+            "Hogy jól olvastad a piacot, és növelned kellene a méretet",
+            "Hogy a pozíció jól volt méretezve, hiszen nyereséges volt",
+            "Hogy a tőkeáttétel biztonságos, ha igazad van",
+            "Hogy a pozíció elég nagy volt ahhoz, hogy egy nap alatt 19%-kal mozgassa a fiókodat, vagyis elég nagy volt ahhoz is, hogy ugyanezt a másik irányba tegye"
+          ]
+        },
+        "2": {
+          "q": "A 2. napon az utolsó 200 NT-det is a nyerő pozícióba tetted. Mibe került ez neked?",
+          "options": [
+            "A biztonságod mindkét felébe: 3,200-ról 4,000-re növelte a kitettséget, és elköltötte az egyetlen szabad készpénzt, amivel egy fedezeti felszólításra reagálhattál volna",
+            "Semmibe, mert a nyerőhöz való hozzátétel az, ahogy a profik kamatoztatnak",
+            "Csak magába a 200 NT-be, amit a pozíció visszanyert volna",
+            "Egy kis finanszírozásba, mert az éjszakai bérleti díj kicsit nőtt"
+          ]
+        },
+        "3": {
+          "q": "A 3. napon a fedezeti szinted elérte a 103%-ot. Mit jelentett ez a szám?",
+          "options": [
+            "103%-ban fedezett voltál, így a pozíció túlbiztosított és biztonságos volt",
+            "A fiókod 3%-kal volt pluszban a héten",
+            "A saját tőkéd épphogy fedezte a befizetett letéteidet, így a tartalék elfogyott, és a következő mozgás már magát a letétet kezdte volna enni",
+            "Önmagában semmit, mert a fedezeti szint csak 50% alatt számít"
+          ]
+        },
+        "4": {
+          "q": "A 4. napi fedezeti felszólításnál a zárás 250 NT veszteséget rögzített volna. Te tartottad. Miért ez az a válasz, amit a legtöbben választanak?",
+          "options": [
+            "Mert a tartás általában a matematikailag helyes válasz egy fedezeti felszólításra",
+            "Mert a zárás azt jelenti, hogy beismered, rossz volt az ügylet, a tartás pedig hagyja, hogy tovább hidd, még nincs vége",
+            "Mert a fedezeti felszólítások általában egy napon belül maguktól megoldódnak",
+            "Mert a szolgáltató a tartást javasolja, hogy elkerüld a veszteségek realizálását"
+          ]
+        },
+        "5": {
+          "q": "390 NT-nél likvidáltak, pedig a kizárási szint 500 NT saját tőke volt. Miért kerültél alá?",
+          "options": [
+            "A szolgáltató 110 NT likvidálási büntetést számolt fel",
+            "A NOVA éjszaka 9%-os réssel esett, és a szint alatt nyitott újra, így a kizárás az első áron teljesült, amit a piac ténylegesen kínált",
+            "A finanszírozást egy összegben vonták le a likvidálás pillanatában",
+            "A kizárási szint csak becslés, és általában ennyivel elvétik"
+          ]
+        },
+        "6": {
+          "q": "Az a tanuló, aki 250 NT-t tett be és 95-re állított stopot, ugyanazt a hetet nagyjából 949 NT-vel zárta. Mit csinált jól?",
+          "options": [
+            "Nyitás előtt eldöntötte a maximális veszteségét, és hagyta, hogy az döntse el a méretet",
+            "Jobban olvasta a NOVA grafikonját, és látta, hogy jön az esés",
+            "Kisebb letéttel elkerülte a finanszírozást",
+            "Szerencséje volt, mert ugyanezek a döntések általában veszítenek"
+          ]
+        },
+        "7": {
+          "q": "Minden éjjel finanszírozást fizettél a teljes 4,000 NT kitettség után. Ennél az ügyletnél mennyit számított?",
+          "options": [
+            "Ez volt a veszteség nagy része, mert a finanszírozás éjszakánként kamatozik",
+            "Semmit, mert finanszírozást csak az egy hónapot túlélő pozíciókra számolnak fel",
+            "Csak néhány NT-t, mert az ügylet rövid volt. A finanszírozás azt a pozíciót öli meg, ami hónapokig nem megy sehová, nem azt, ami egy hét alatt felrobban",
+            "Nagyjából 192 NT-t, ugyanannyit, mint a 2. napi nyereség"
+          ]
+        },
+        "8": {
+          "q": "Itt minden döntés engedélyezett volt. A CFD Központban a legtöbbjük nem lesz az. Miért?",
+          "options": [
+            "Mert a korlátok olcsóbbá teszik az app működtetését",
+            "Mert a felügyeletek gyakorlómódot írnak elő minden szimulált kereskedés előtt",
+            "Mert a 18 év alattiak nem nézhetnek végig kétszer egy likvidálást",
+            "Most láttad, ahogy egy pozícióra tett 80%-os letét és a nulla szabad készpénz öt nap alatt tönkretesz egy fiókot, és a korlátok pont azért vannak, hogy ez a sorozat lehetetlen legyen"
+          ]
+        },
+        "9": {
+          "q": "Mi a leghasznosabb dolog, amit ebből magaddal vihetsz?",
+          "options": [
+            "Hogy a pozíció mérete, amit nyitás előtt döntesz el, többet számít, mint hogy igazad van-e az irányban",
+            "Hogy a NOVA rossz választás volt, és alaposabb kutatás megmentette volna a fiókot",
+            "Hogy a tőkeáttételhez senkinek semmilyen körülmények között nem szabad hozzányúlnia",
+            "Hogy a fedezeti felszólítások kiszámíthatatlanok, így semmit nem tehettél volna"
+          ]
+        }
+      }
+    },
+    "83": {
+      "title": "A jogosítvány",
+      "desc": "Tíz kérdés. Nyolc helyes kell a sikerhez.",
+      "content": "A Jogosítvány az a vizsga, amire ez a modul épült. Tíz kérdés, és mindegyik egy számítás vagy egy döntés egy élesnek kinéző pozíción, mert a CFD Központ sem definíciókkal foglalkozik.\n\nA sikeres teljesítéshez 8 pont kell a 10-ből. Naponta 3 próbálkozásod van. Megmondjuk a pontszámodat, de azt nem, melyik kérdéseket hibáztad el, így egy sikertelen kör jel arra, hogy olvasd újra a modult, nem arra, hogy újra találgass.\n\nItt semmi sem trükk. Minden szám egyenesen a mögötted lévő leckékből jön. Ha ezt a tízet meg tudod oldani, jobban érted ezt a modult, mint a legtöbb felnőtt, aki valódi pénzzel kereskedik ezekkel a termékekkel. 🎫",
+      "bossVictory": "Rá tudsz nézni a valódi képernyőre, valódi számokkal, és nemet tudsz mondani. Ez a jogosítvány. 🎫",
+      "bossQuestions": {
+        "0": {
+          "q": "A fiókod 1,000 NT, és semmi más nincs nyitva. A teljes 1,000 NT-t letétbe teszed 25%-os kulccsal, így 4,000 NT értékű {tech}-et irányítasz, részvényenként 200 NT-s áron. A kizárás a letéted 50%-ánál lép életbe. Hol kell a {tech} árának állnia ahhoz, hogy kizárjanak?",
+          "options": [
+            "150 NT, 25%-os esés, a letéti kulccsal egyezően",
+            "100 NT, 50%-os esés, ugyanannyi, mint a kizárási szabály",
+            "175 NT, 12.5%-os esés, mert 500 NT elvesztéséhez 4,000 NT kitettségen 12.5%-os mozgás kell",
+            "195 NT, 2.5%-os esés"
+          ]
+        },
+        "1": {
+          "q": "Egy 3,000 NT-s pozíció finanszírozása éjszakánként 0.02%. 3%-os kedvező mozgásra számítasz, ami 90 NT-t ér. Hány éjszakát ér ez a véleményed, mielőtt a finanszírozás felemészti?",
+          "options": [
+            "Körülbelül 50 éjszakát",
+            "Körülbelül 150 éjszakát, mert 90 NT osztva éjszakánként 0.60 NT-vel 150",
+            "Körülbelül 300 éjszakát",
+            "Soha nem emészti fel, mert a finanszírozás csak vesztes pozíciókra vonatkozik"
+          ]
+        },
+        "2": {
+          "q": "A fiókod 5,000 NT. Egy ügyleten 2%-ot kockáztatsz, és kiszállsz, ha az ár 4%-ot mozdul ellened. Mekkora a legnagyobb pozíció, amit nyitnod szabad?",
+          "options": [
+            "100 NT, az összeg, amit kockáztatsz",
+            "1,000 NT, a fiók ötöde",
+            "5,000 NT, mert a stop úgyis megvédi a fiókot",
+            "2,500 NT, mert 100 NT elfogadható veszteség osztva 4%-os stoptávolsággal adja a méretet"
+          ]
+        },
+        "3": {
+          "q": "Egy pozíció 1,000 NT-ről 400 NT-re vitte le a fiókodat. Mekkora hozam kell innen ahhoz, hogy egyáltalán visszajuss 1,000 NT-re?",
+          "options": [
+            "150%, mert a 400 NT-nek önmaga másfélszeresével kell nőnie, hogy elérje az 1,000-et",
+            "60%, ugyanannyi százalék, amennyit veszítettél",
+            "100%, mert a duplázás mindig visszahoz",
+            "250%, a veszteséged kétszerese"
+          ]
+        },
+        "4": {
+          "q": "Az élő kártya ezt mutatja: fedezeti szint 82%, szabad készpénz 0, egy nyitott pozíció 18%-os mínuszban. Melyik lépés csökkenti valóban a likvidálás kockázatát?",
+          "options": [
+            "Pénz befizetése a fiókba",
+            "Tartani, és várni, hogy a szint helyreálljon",
+            "Lezárni egy pozíciót, ami azonnal felszabadítja az általa lekötött fedezetet",
+            "Nyitni egy második pozíciót az ellenkező irányba, hogy kioltsa"
+          ]
+        },
+        "5": {
+          "q": "Shortolod a {tech}-et 50 NT-n egy 2,000 NT-s pozícióval. Egy felvásárlás miatt éjszaka 150 NT-re árazódik át. Hogy viszonyul ez a veszteség egy ugyanakkora long pozíció legrosszabb esetéhez?",
+          "options": [
+            "Ugyanakkora, mert mindkettő a betett összegnél van maximálva",
+            "A short 4,000 NT-t veszít, a pozíció értékének kétszeresét, míg egy long soha nem veszíthet többet, mint maga a 2,000 NT-s pozíció",
+            "A short semmit nem veszít, ha volt beállítva stop-loss, mert a stopok garantáltak",
+            "A short vesztesége kisebb, mert az árak gyorsabban esnek, mint emelkednek"
+          ]
+        },
+        "6": {
+          "q": "A stopod 90 NT-n van. Éjszaka hír érkezik, és a piac 78 NT-n nyit újra anélkül, hogy közte kereskedtek volna. Mi történik, és mi az igazi védekezés ez ellen?",
+          "options": [
+            "90 NT-n teljesül, mert ezt garantálja a stop",
+            "A megbízás törlődik, mert az ár átugrotta a szintedet",
+            "78 NT közelében teljesül, és a rések elleni védekezés a pozícióméret, nem a stop",
+            "A szolgáltató tartozik neked a 90 és 78 közötti különbséggel"
+          ]
+        },
+        "7": {
+          "q": "Miért a kriptónak kell a legnagyobb letét a CFD Központban?",
+          "options": [
+            "Ez mozog a legvadabbul, így egy vékony letétet egy teljesen átlagos kriptonap is kiürítene",
+            "A kriptóra nem számolnak fel finanszírozást, így a letét azt pótolja",
+            "A kripto tilos a 18 év alattiaknak, és a letét a büntetés",
+            "A kripto árát az app határozza meg, nem a piac"
+          ]
+        },
+        "8": {
+          "q": "Melyik ér XP-t ebben a modulban?",
+          "options": [
+            "40%-os nyereség egy tőkeáttételes pozíción",
+            "A legnagyobb elérhető kitettség használata",
+            "Öt nyerő ügylet egymás után",
+            "Egy vesztes pozíció lezárása ahelyett, hogy hozzátennél"
+          ]
+        },
+        "9": {
+          "q": "Az ügylet előtti előnézet szerint egy 10%-os kedvezőtlen mozgás 620 NT-t vesz le a fiókodról, ami a tárcád 62%-a. A likvidálási árad 88.40, a {tech} pedig most 96.00-n forog. Megnyitod?",
+          "options": [
+            "Igen, mert a likvidálási ár biztonságosan a jelenlegi ár alatt van",
+            "Igen, ha biztos vagy az irányban",
+            "Csak dupla kitettséggel, hogy megérje a kockázat",
+            "Nem: nagyjából egy 8%-os mozgás kiüríti a pozíciót, a 8% átlagos mozgás, és egy tárca 62%-a egyetlen ügyletre a modul összes méretezési szabályát megszegi"
+          ]
+        }
+      }
+    },
+    "84": {
+      "title": "A legrosszabb eseted, előre kiválasztva",
+      "desc": "Stop-loss, take-profit, és a kiszállás, amit senki nem választ",
+      "content": "Ismered a letétet, a felszólítást, a kizárást, a bérleti díjat, a stopot és a rést. Ez a lecke a helyére teszi az utolsó darabot: minden pozíció, amit valaha nyitsz, pontosan háromféleképpen érhet véget, és az egész játék arról szól, ki választja ki, melyiket.\n\n1️⃣ TE ZÁROD LE. Megnyomod a gombot, és a pozíció az aktuális piaci áron lezárul. Mindig elérhető, minden pozíción, minden állapotban. A legtöbb kiszállásnak ilyennek kellene lennie.\n\n2️⃣ EGY ÁLTALAD BEÁLLÍTOTT MEGBÍZÁS ZÁRJA LE. Két fajtája van, és a nevük számít, úgyhogy tanuld meg őket rendesen:\n\n• A STOP-LOSS MEGBÍZÁS automatikusan lezár, amikor az ár ELLENED mozdul egy általad választott szintig: long pozíciónál a belépésed alatti eladási stop, shortnál a belépésed feletti vételi stop. Ez a legrosszabb eseted, amit nyugodtan döntöttél el, és a 80. leckéből már tudod, hogy ez az egyetlen időpont, amikor bármit jól eldöntesz.\n• A TAKE-PROFIT MEGBÍZÁS egy záró limitmegbízás: automatikusan lezár az általad választott célnál, amikor az ár a JAVADRA mozdulva eléri azt. Ez a te „elég”-ed, amit még azelőtt döntöttél el, hogy a kapzsiság beleszólhatott volna. Egy limitmegbízás a szinteden vagy annál jobban teljesül, soha nem rosszabbul.\n\n3️⃣ A SZOLGÁLTATÓ ZÁRJA LE. Ez a likvidálás, a 70. leckéből. És ezt vésd be: a likvidálás nem megbízástípus. Nem adhatsz le „likvidálási ügyletet”. Senki sem. Ez nem egy eszköz a készletedben; ez az, amit a szolgáltató tesz, hogy megvédje a kölcsönét, amikor a letéted majdnem elfogyott, azon az áron, amit a piac épp fizet, miközben te iskolában vagy, vagy alszol.\n\nA stop-loss az, amikor előre eldöntöd a legrosszabb esetedet. A likvidálás az, ami akkor történik, ha nem döntötted el.\n\nMindkét megbízásod ugyanúgy őszinte, és ezt már a 78. leckéből tudod: a szintednél aktiválódnak, és azon az áron teljesülnek, amit a piac ténylegesen fizet. Egy rés a stopod fölött az ugrás túloldalán teljesít, ami rosszabb. Egy rés a take-profiton át szintén a túloldalon teljesít, ami jobb. Ugyanaz a tény, mindkét irányba nézve.\n\nEgy elhelyezési szabály, és ez az app a képernyőn kiírt indoklással érvényesíti: a stopodnak a jelenlegi ár és a likvidálási árad között kell lennie. A likvidálási áron túli stop soha nem aktiválódhatna, mert a szolgáltató előbb lezárna, ezért az app elutasítja, és megmondja, miért.\n\nMinden ügyletből három ajtó vezet ki. Kettőnek a kilincsén a te neved áll. Ha ezek egyikén sétálsz ki, egy általad választott napon, egy nyugodtan választott szinten, az az, amire ez az egész modul tanított. 🚪",
+      "quiz": {
+        "q": "A long pozíciódon van egy 180.00-ra beállított stop-loss, és a likvidálási ár 150.00. Mi a valódi különbség a két szám között?",
+        "options": [
+          "Semmi, ez ugyanannak az automatikus kizárásnak két neve, és a szolgáltató minden alkalommal egyetlen áron aktiválja",
+          "A stop-loss a szolgáltató döntése, a likvidálási ár pedig a tiéd, így az, amit valóban te irányítasz, másodikként aktiválódik",
+          "A 180.00-as stop a legrosszabb eseted, amit te választottál előre, nyugodtan; a 150.00 az, ahol a szolgáltató lezár, hogy megvédje a kölcsönét, mert ott már nincs beleszólásod",
+          "A stop pontosan 180.00-as teljesítést garantál, bármit is tesz a piac, míg a likvidálás bármilyen áron teljesülhet, akármilyen messzire is szaladt"
+        ]
+      }
+    }
+  },
+  "context": {
+    "ZA": {
+      "name": "Dél-Afrika",
+      "cName": "rand",
+      "cPlural": "rand",
+      "exDesc": "az egész afrikai kontinens egyik legnagyobb tőzsdéje",
+      "sectorList": "⛏️ Bányászat: Anglo American, Impala Platinum. A globális nyersanyagárakhoz kötődik\n🏦 Bankszektor: Standard Bank, FirstRand, Capitec. Jól teljesítenek, amikor magasabbak a kamatok\n📱 Technológia: Naspers, Prosus. A globális tech trendekhez kötődik\n🛍️ Kiskereskedelem: Shoprite, Pick n Pay. Jól teljesítenek, amikor a vásárlóknak van mit költeniük\n📡 Távközlés: MTN, Vodacom. Stabilabb, mert az embereknek mindig kell mobiladat",
+      "etfBasket": "a JSE 40 legnagyobb cége",
+      "etfDesc": "A JSE Top 40 például a JSE-n jegyzett 40 legnagyobb cég listája, a ténylegesen kereskedhető részvények értéke szerint rangsorolva.",
+      "etfList": "🇿🇦 Satrix Top 40: A JSE 40 legnagyobb cége. Remek kiindulópont.\n🌍 Satrix MSCI World: 23 fejlett ország cégei egyetlen vásárlással.\n🇺🇸 Sygnia Itrix S&P 500: Az S&P 500 listáján szereplő 500 nagy amerikai cég.\n💡 Satrix Nasdaq 100: A Nasdaq 100 legnagyobb nem pénzügyi cége. Nagyon tech-nehéz.",
+      "currencyHedge": "Ezek dollárban vagy euróban vannak árazva. Így ha a rand GYENGÜL (dolláronként R20-ból R22 lesz), a globális befektetéseid AUTOMATIKUSAN többet érnek randban!",
+      "fxQuizSetup": "A rand R18-ról R22-re gyengül a dollárral szemben",
+      "fxQuizLose": "Veszít az értékéből, mert Dél-Afrikának rosszabbul megy",
+      "fxQuizGain": "Randban számolva NŐ, mert minden dollár több randot ér",
+      "dcaTitle": "Rand-költségátlagolás",
+      "dcaAbbrev": "RCA",
+      "food": "Wimpy burger"
+    },
+    "US": {
+      "name": "az Egyesült Államok",
+      "cName": "dollár",
+      "cPlural": "dollár",
+      "exDesc": "messze a világ legnagyobb részvénypiaca",
+      "sectorList": "💻 Technológia: Apple, Microsoft, Alphabet. Az innováció és a globális kereslet hajtja\n🏦 Bankszektor: JPMorgan, Bank of America, Goldman Sachs. Jól teljesítenek, amikor emelkednek a kamatok\n🛍️ Kiskereskedelem: Amazon, Walmart, Costco. Jól teljesítenek, amikor a vásárlók költenek\n⚡ Energia: Exxon Mobil, Chevron. A globális olaj- és gázárakhoz kötődik\n📡 Távközlés: AT&T, Verizon, T-Mobile. Az embereknek mindig kell kapcsolat",
+      "etfBasket": "az S&P 500 listáján szereplő 500 nagy amerikai cég",
+      "etfDesc": "Az S&P 500 például 500 nagy amerikai cég listája, amelyeket egy bizottság választ ki. Nagynak, nyereségesnek és könnyen kereskedhetőnek kell lenniük. NEM egyszerűen az 500 legnagyobb, és a NYSE-n jegyzett cégeket a Nasdaqon jegyzettekkel keveri.",
+      "etfList": "🇺🇸 SPY / VOO: Az S&P 500-at követik, 500 nagy amerikai cég listáját. Az aranystandard.\n📦 VTI: A teljes amerikai részvénypiac, több ezer cég egyetlen ETF-ben.\n💡 QQQ: A Nasdaq 100 legnagyobb nem pénzügyi cége. Nagyon tech-nehéz.\n🌍 VT / VXUS: Globális vagy nemzetközi cégek egyetlen alapban.",
+      "currencyHedge": "Ha a dollár gyengül más devizákkal szemben, a nemzetközi befektetéseid automatikusan TÖBBET érnek dollárban számolva!",
+      "fxQuizSetup": "A dollár jelentősen gyengül az euróval és a jennel szemben",
+      "fxQuizLose": "Veszít az értékéből, mert az amerikai gazdaság nehézségekkel küzd",
+      "fxQuizGain": "Dollárban számolva NŐ, mert a külföldi befektetéseid devizaértéke nőtt",
+      "dcaTitle": "Dollár-költségátlagolás",
+      "dcaAbbrev": "DCA",
+      "food": "Big Mac menü"
+    },
+    "GB": {
+      "name": "az Egyesült Királyság",
+      "cName": "font",
+      "cPlural": "font",
+      "exDesc": "a világ egyik legrégebbi és legfontosabb tőzsdéje",
+      "sectorList": "⚡ Energia: Shell, BP. Globális olaj- és gázóriások\n🏦 Bankszektor: HSBC, Barclays, Lloyds. Jól teljesítenek, amikor magasabbak a kamatok\n🧴 Fogyasztási cikkek: Unilever, Diageo, Reckitt. Háztartási márkák nagyhatalmai\n🛍️ Kiskereskedelem: Tesco, Sainsbury's. Jól teljesítenek, amikor a vásárlók költenek\n📡 Távközlés: Vodafone, BT Group. Az embereknek mindig kell kapcsolat",
+      "etfBasket": "a Londoni Értéktőzsde 100 legnagyobb cége",
+      "etfDesc": "Az FTSE 100 például a Londoni Értéktőzsde fő piacának 100 legnagyobb cégét tartalmazó lista, amelyet háromhavonta felülvizsgálnak.",
+      "etfList": "🇬🇧 iShares Core FTSE 100: A Londoni Értéktőzsde 100 legnagyobb cége.\n🌍 Vanguard FTSE All-World: Több tucat ország cégei egyetlen vásárlással.\n🇺🇸 iShares Core S&P 500: Az S&P 500 listáján szereplő 500 nagy amerikai cég.\n💡 iShares Nasdaq 100: A Nasdaq 100 legnagyobb nem pénzügyi cége. Nagyon tech-nehéz.",
+      "currencyHedge": "Ha a font gyengül más devizákkal szemben, a nemzetközi befektetéseid automatikusan TÖBBET érnek fontban számolva!",
+      "fxQuizSetup": "A font jelentősen gyengül a dollárral és az euróval szemben",
+      "fxQuizLose": "Veszít az értékéből, mert a brit gazdaság nehézségekkel küzd",
+      "fxQuizGain": "Fontban számolva NŐ, mert a külföldi befektetéseid devizaértéke nőtt",
+      "dcaTitle": "Font-költségátlagolás",
+      "dcaAbbrev": "PCA",
+      "food": "Nando's negyed csirke"
+    },
+    "IN": {
+      "name": "India",
+      "cName": "rúpia",
+      "cPlural": "rúpia",
+      "exDesc": "a kötések száma alapján a világ egyik legnagyobb tőzsdéje",
+      "sectorList": "💻 Technológia: TCS, Infosys, Wipro. Globális IT-szolgáltató nagyhatalmak\n🏦 Bankszektor: HDFC Bank, SBI, ICICI. Jól teljesítenek, amikor magasabbak a kamatok\n🛍️ Fogyasztási cikkek: ITC, Hindustan Unilever, DMart. Jól teljesítenek, amikor a vásárlók költenek\n⚡ Energia: Reliance, ONGC. Az olajhoz, a gázhoz és a finomításhoz kötődik\n📡 Távközlés: Airtel, Vodafone Idea. India hatalmas mobilpiaca folyamatosan nő",
+      "etfBasket": "India 50 legnagyobb és legtöbbet kereskedett cége",
+      "etfDesc": "A Nifty 50 például India 50 legnagyobb és legtöbbet kereskedett cégének listája, amelyeket a méretük ÉS aszerint választanak ki, milyen könnyen lehet őket venni és eladni, nem csak a méretük alapján.",
+      "etfList": "🇮🇳 Nippon India Nifty 50: A Nifty 50, India 50 legnagyobb, legtöbbet kereskedett cégének listája.\n💡 ICICI Prudential Sensex: A Sensex, India 30 legismertebb blue chip cégének listája.\n📦 Kotak Nifty Next 50: Az az 50 cég, amely közvetlenül a Nifty 50 mögött következik.\n🌍 Motilal Oswal Nasdaq 100: A Nasdaq 100 legnagyobb nem pénzügyi cége.",
+      "currencyHedge": "Ha a rúpia gyengül a dollárral szemben, a nemzetközi befektetéseid automatikusan TÖBBET érnek rúpiában számolva!",
+      "fxQuizSetup": "A rúpia ₹82-ről ₹90-re gyengül a dollárral szemben",
+      "fxQuizLose": "Veszít az értékéből, mert az indiai gazdaság nehézségekkel küzd",
+      "fxQuizGain": "Rúpiában számolva NŐ, mert minden dollár több rúpiát ér",
+      "dcaTitle": "Rúpia-költségátlagolás",
+      "dcaAbbrev": "RCA",
+      "food": "Domino's pizza"
+    },
+    "JP": {
+      "name": "Japán",
+      "cName": "jen",
+      "cPlural": "jen",
+      "exDesc": "a világ egyik legnagyobb tőzsdéje",
+      "sectorList": "🚗 Autóipar: Toyota, Honda, Nissan. Japán világhírű autógyártói\n💻 Technológia: Sony, SoftBank, Nintendo. Gaming, szórakoztatás és innováció\n🏦 Bankszektor: MUFG, SMFG, Mizuho. Japán megabankcsoportjai\n🛍️ Kiskereskedelem: Fast Retailing (Uniqlo), Seven & i. Globális kiskereskedelmi jelenlét\n📡 Távközlés: NTT, KDDI, SoftBank. Hatalmas mobil-infrastruktúra",
+      "etfBasket": "a Nikkei 225 listáján szereplő 225 cég",
+      "etfDesc": "A Nikkei 225 például 225 jól ismert japán cég listája, amelyeket úgy választanak ki, hogy az egész piacot képviseljék. Árfolyamsúlyozott, ami azt jelenti, hogy egy magas árú részvény többet számít, mint egy cég, amely egyszerűen csak nagy.",
+      "etfList": "🇯🇵 Egy Nikkei 225 ETF: A Nikkei 225 listáján szereplő 225 cég. A viszonyítási alap.\n📦 Egy TOPIX ETF: A tokiói piac sokkal szélesebb szelete, jóval több mint ezer cég.\n🌍 MAXIS All Country World: Fejlett és feltörekvő piacok egyetlen alapban.\n🇺🇸 iShares S&P 500: Az S&P 500 listáján szereplő 500 nagy amerikai cég.",
+      "currencyHedge": "Ha a jen gyengül más devizákkal szemben, a nemzetközi befektetéseid automatikusan TÖBBET érnek jenben számolva!",
+      "fxQuizSetup": "A jen ¥130-ról ¥155-re gyengül a dollárral szemben",
+      "fxQuizLose": "Veszít az értékéből, mert a japán gazdaság nehézségekkel küzd",
+      "fxQuizGain": "Jenben számolva NŐ, mert a külföldi befektetéseid devizaértéke nőtt",
+      "dcaTitle": "Jen-költségátlagolás",
+      "dcaAbbrev": "YCA",
+      "food": "tál rámen"
+    },
+    "DE": {
+      "name": "Németország",
+      "cName": "euró",
+      "cPlural": "euró",
+      "exDesc": "Európa egyik legnagyobb tőzsdéje",
+      "sectorList": "💻 Technológia: SAP, Infineon. Vállalati szoftverek és félvezetők\n🚗 Autóipar: Volkswagen, BMW, Mercedes-Benz. Németország mérnöki büszkesége\n🏦 Bankszektor: Deutsche Bank, Commerzbank. Jól teljesítenek, amikor emelkednek a kamatok\n🏭 Ipar: Siemens, BASF. Globális gyártás és vegyipar\n📡 Távközlés: Deutsche Telekom, 1&1. Németország kommunikációs gerince",
+      "etfBasket": "a frankfurti tőzsde 40 legnagyobb német cége",
+      "etfDesc": "A DAX 40 például a frankfurti tőzsde 40 legnagyobb német cégének listája, és 2021 óta nyereségesnek is kell lenniük ahhoz, hogy bekerüljenek.",
+      "etfList": "🇩🇪 iShares Core DAX: A frankfurti tőzsde 40 legnagyobb német cége.\n🌍 Xtrackers MSCI World: 23 fejlett ország cégei.\n🇺🇸 iShares Core S&P 500: Az S&P 500 listáján szereplő 500 nagy amerikai cég.\n🇪🇺 Egy EURO STOXX 50 ETF: 50 blue chip éllovas az egész eurózónából.",
+      "currencyHedge": "Ha az euró gyengül más devizákkal szemben, a nemzetközi befektetéseid automatikusan TÖBBET érnek euróban számolva!",
+      "fxQuizSetup": "Az euró jelentősen gyengül a dollárral és a jennel szemben",
+      "fxQuizLose": "Veszít az értékéből, mert az európai gazdaság nehézségekkel küzd",
+      "fxQuizGain": "Euróban számolva NŐ, mert a külföldi befektetéseid devizaértéke nőtt",
+      "dcaTitle": "Költségátlagolás",
+      "dcaAbbrev": "DCA",
+      "food": "döner kebab"
+    },
+    "CA": {
+      "name": "Kanada",
+      "cName": "kanadai dollár",
+      "cPlural": "kanadai dollár",
+      "exDesc": "a világ 10 legnagyobb tőzsdéjének egyike",
+      "sectorList": "💻 Technológia: Shopify, OpenText, Constellation Software. Kanadai tech innováció\n🏦 Bankszektor: RBC, TD, BMO, Scotiabank. Kanada nagy ötöse sziklaszilárd\n⚡ Energia: Enbridge, Suncor, TC Energy. Olajhomok- és csővezeték-óriások\n🛍️ Kiskereskedelem: Dollarama, Canadian Tire, Loblaw. Hazai kiskereskedelmi márkák\n📡 Távközlés: BCE, Rogers, Telus. A kanadaiaknak mindig kell kapcsolat",
+      "etfBasket": "60 nagy kanadai cég, minden fontos iparágból",
+      "etfDesc": "Az S&P/TSX 60 például 60 nagy kanadai cég listája, amelyeket egy bizottság úgy választ ki, hogy minden fontos iparág képviselve legyen, vagyis nem egyszerűen a 60 legnagyobb.",
+      "etfList": "🇨🇦 iShares S&P/TSX 60 (XIU): 60 nagy kanadai cég minden fontos iparágból.\n📦 Vanguard All-Equity (VEQT): Kanadai, amerikai és nemzetközi részvények egyetlen ETF-ben.\n🇺🇸 BMO S&P 500: Az S&P 500 listáján szereplő 500 nagy amerikai cég.\n💡 Egy Nasdaq 100 ETF: A Nasdaq 100 legnagyobb nem pénzügyi cége. Nagyon tech-nehéz.",
+      "currencyHedge": "Ha a kanadai dollár gyengül más devizákkal szemben, a nemzetközi befektetéseid automatikusan TÖBBET érnek C$-ban számolva!",
+      "fxQuizSetup": "A kanadai dollár jelentősen gyengül az amerikai dollárral szemben",
+      "fxQuizLose": "Veszít az értékéből, mert a kanadai gazdaság nehézségekkel küzd",
+      "fxQuizGain": "Kanadai dollárban számolva NŐ, mert a külföldi befektetéseid devizaértéke nőtt",
+      "dcaTitle": "Dollár-költségátlagolás",
+      "dcaAbbrev": "DCA",
+      "food": "Tim Hortons menü"
+    },
+    "AU": {
+      "name": "Ausztrália",
+      "cName": "ausztrál dollár",
+      "cPlural": "ausztrál dollár",
+      "exDesc": "a déli félteke legnagyobb tőzsdéje",
+      "sectorList": "⛏️ Bányászat: BHP, Rio Tinto, Fortescue. Globális bányászati és nyersanyag-óriások\n🏦 Bankszektor: CBA, Westpac, ANZ, NAB. Ausztrália négy nagy bankja\n🏥 Egészségügy: CSL, Cochlear. Világszínvonalú biotechnológia és orvostechnikai eszközök\n🛍️ Kiskereskedelem: Woolworths, Coles, Wesfarmers. Élelmiszer és alapvető fogyasztási cikkek\n💻 Technológia: WiseTech Global, Xero. Ausztrál tőzsdén jegyzett szoftveres sikertörténetek",
+      "etfBasket": "az ASX 200 legnagyobb cége",
+      "etfDesc": "Az S&P/ASX 200 például az ASX-en jegyzett 200 legnagyobb cég listája, a kereskedhető részvények értéke alapján mérve, és aszerint is szűrve, milyen könnyen cserélnek gazdát.",
+      "etfList": "🇦🇺 iShares Core S&P/ASX 200 (IOZ): Az ASX 200 legnagyobb cége.\n📦 Vanguard Australian Shares (VAS): Még szélesebb, nagyjából 300 ASX-cég.\n🌍 Vanguard MSCI International (VGS): Fejlett piaci cégek Ausztrálián kívül.\n🇺🇸 BetaShares Nasdaq 100 (NDQ): A Nasdaq 100 legnagyobb nem pénzügyi cége.",
+      "currencyHedge": "Ha az ausztrál dollár gyengül más devizákkal szemben, a nemzetközi befektetéseid automatikusan TÖBBET érnek A$-ban számolva!",
+      "fxQuizSetup": "Az ausztrál dollár jelentősen gyengül az amerikai dollárral szemben",
+      "fxQuizLose": "Veszít az értékéből, mert az ausztrál gazdaság nehézségekkel küzd",
+      "fxQuizGain": "A$-ban számolva NŐ, mert a külföldi befektetéseid devizaértéke nőtt",
+      "dcaTitle": "Dollár-költségátlagolás",
+      "dcaAbbrev": "DCA",
+      "food": "húsos pite"
+    },
+    "HK": {
+      "name": "Hongkong",
+      "cName": "hongkongi dollár",
+      "cPlural": "hongkongi dollár",
+      "exDesc": "a Kína és a globális piacok közötti kapu szerepét betöltő tőzsde",
+      "sectorList": "💻 Technológia: Tencent, Xiaomi, Meituan. Hongkongban jegyzett kínai techóriások\n🏦 Bankszektor: HSBC, Hang Seng Bank. Jól teljesítenek, amikor emelkednek a kamatok\n🏗️ Ingatlan: CK Asset, Sun Hung Kai. Hongkongban az ingatlan a király\n⚡ Közművek: CLP, Power Assets. Stabil osztalék évről évre\n🛡️ Biztosítás: AIA, Prudential. Ázsia-csendes-óceáni biztosítási éllovasok",
+      "etfBasket": "Hongkong legnagyobb és legtöbbet kereskedett cégei",
+      "etfDesc": "A Hang Seng Index például Hongkong legnagyobb és legtöbbet kereskedett cégeinek válogatott listája, úgy összeállítva, hogy minden fontos iparágat képviseljen. A rajta szereplő cégek száma változik, ahogy az indexbizottság neveket ad hozzá és vesz le.",
+      "etfList": "🇭🇰 Tracker Fund (2800): A Hang Seng Indexet követi. Hongkong ETF-úttörője.\n💡 Hang Seng TECH ETF: A Hongkongban jegyzett 30 legnagyobb techcég.\n🇺🇸 Egy S&P 500 ETF: Az S&P 500 listáján szereplő 500 nagy amerikai cég.\n🇨🇳 Egy kínai A-részvény ETF: Hozzáférés a Sanghajban és Sencsenben jegyzett cégekhez.",
+      "currencyHedge": "A hongkongi dollár az amerikai dollárhoz van kötve, így egy főleg amerikai cégekből álló globális alap pusztán a deviza miatt alig mozdul. De a nem amerikai rész (Európa, Japán, Ázsia többi része) HK$-ban számolva még mindig nő, amikor ezek a devizák erősödnek!",
+      "fxQuizSetup": "Az euró és a jen erősödik az amerikai dollárral szemben, a hongkongi dollár pedig az amerikai dollárhoz van kötve",
+      "fxQuizLose": "Veszít az értékéből, mert a hongkongi gazdaság nehézségekkel küzd",
+      "fxQuizGain": "Az európai és a japán rész HK$-ban számolva NŐ, mert ezek a devizák most több hongkongi dollárt érnek",
+      "dcaTitle": "Dollár-költségátlagolás",
+      "dcaAbbrev": "DCA",
+      "food": "tál wontonos tészta"
+    },
+    "CN": {
+      "name": "Kína",
+      "cName": "jüan",
+      "cPlural": "jüan",
+      "exDesc": "a piaci kapitalizáció alapján a világ egyik legnagyobb tőzsdéje",
+      "sectorList": "💻 Technológia: SMIC, Kingsoft Office. Sanghajban jegyzett chipgyártás és szoftver\n🏦 Bankszektor: ICBC, CCB, Bank of China. Eszközállomány alapján a világ legnagyobb bankjai között\n🚗 Autóipar: SAIC Motor, Great Wall Motor. Kína hazai autógyártói\n🛍️ Fogyasztási cikkek: Kweichow Moutai, Haier, Yili. Egész Kínában ismert márkák\n📡 Távközlés: China Mobile, China Telecom. Hatalmas mobilhálózatok",
+      "etfBasket": "300 a legnagyobb, legtöbbet kereskedett szárazföldi kínai cégek közül",
+      "etfDesc": "A CSI 300 például 300 a legnagyobb és legtöbbet kereskedett szárazföldi kínai cégek közül, és MIND a sanghaji, MIND a sencseni tőzsdét lefedi, nem csak az egyiket.",
+      "etfList": "🇨🇳 Huatai-PB CSI 300 (510300): 300 nagy, sokat kereskedett cég Sanghajból és Sencsenből.\n💡 ChinaAMC SSE 50 (510050): Csak a sanghaji tőzsde 50 legnagyobb cége.\n🌍 Egy széles kínai részvényalap: Szélesebb lefedettség, mint a CSI 300.\n🇺🇸 Egy S&P 500 QDII alap: Hozzáférés az S&P 500 listáján szereplő 500 nagy amerikai céghez.",
+      "currencyHedge": "Ha a jüan gyengül más devizákkal szemben, a nemzetközi befektetéseid automatikusan TÖBBET érnek jüanban számolva!",
+      "fxQuizSetup": "A jüan jelentősen gyengül a dollárral és az euróval szemben",
+      "fxQuizLose": "Veszít az értékéből, mert a kínai gazdaság nehézségekkel küzd",
+      "fxQuizGain": "Jüanban számolva NŐ, mert a külföldi befektetéseid devizaértéke nőtt",
+      "dcaTitle": "Jüan-költségátlagolás",
+      "dcaAbbrev": "YCA",
+      "food": "tál tészta"
+    },
+    "FR": {
+      "name": "Franciaország",
+      "cName": "euró",
+      "cPlural": "euró",
+      "exDesc": "a világ legikonikusabb luxus- és ipari márkái közül többnek is otthona",
+      "sectorList": "👜 Luxus: LVMH, Hermès, Kering. Franciaország uralja a globális luxuspiacot\n⚡ Energia: TotalEnergies, Engie. Jelentős európai energiacégek\n🏦 Bankszektor: BNP Paribas, Société Générale. Jól teljesítenek, amikor emelkednek a kamatok\n✈️ Repülőgépipar: Airbus, Safran. Világelső repülőgépgyártás és védelmi ipar\n📡 Távközlés: Orange, Bouygues. Franciaország kommunikációs gerince",
+      "etfBasket": "a CAC 40 listáján szereplő 40 cég",
+      "etfDesc": "A CAC 40 például 40 cég listája, amelyeket egy független bizottság választ ki a párizsi tőzsde 100 legnagyobb cége közül, a méretük ÉS aszerint, mennyire sokat kereskednek velük.",
+      "etfList": "🇫🇷 Amundi CAC 40: A CAC 40 listáján szereplő 40 cég. A viszonyítási alap.\n🌍 Egy MSCI World ETF: 23 fejlett ország cégei.\n🇺🇸 BNP Paribas Easy S&P 500: Az S&P 500 listáján szereplő 500 nagy amerikai cég.\n🇪🇺 Egy EURO STOXX 50 ETF: 50 blue chip éllovas az egész eurózónából.",
+      "currencyHedge": "Ha az euró gyengül más devizákkal szemben, a nemzetközi befektetéseid automatikusan TÖBBET érnek euróban számolva!",
+      "fxQuizSetup": "Az euró jelentősen gyengül a dollárral és a jennel szemben",
+      "fxQuizLose": "Veszít az értékéből, mert az európai gazdaság nehézségekkel küzd",
+      "fxQuizGain": "Euróban számolva NŐ, mert a külföldi befektetéseid devizaértéke nőtt",
+      "dcaTitle": "Költségátlagolás",
+      "dcaAbbrev": "DCA",
+      "food": "croque-monsieur"
+    },
+    "IT": {
+      "name": "Olaszország",
+      "cName": "euró",
+      "cPlural": "euró",
+      "exDesc": "Európa egyik legrégebbi tőzsdéje, ikonikus olasz márkák otthona",
+      "sectorList": "🏎️ Autóipar: Ferrari, Stellantis. Olasz mérnöki kiválóság\n⚡ Energia: Enel, Eni. Jelentős európai energia- és közműcégek\n🏦 Bankszektor: UniCredit, Intesa Sanpaolo. Jól teljesítenek, amikor emelkednek a kamatok\n🛡️ Biztosítás: Generali, Unipol. Olaszország biztosítóóriásai\n📡 Távközlés: TIM, Inwit. Olaszország kommunikációs infrastruktúrája",
+      "etfBasket": "az FTSE MIB listáján szereplő 40 cég",
+      "etfDesc": "Az FTSE MIB például a milánói tőzsde 40 legnagyobb és legtöbbet kereskedett cégének listája, úgy összeállítva, hogy lefedje Olaszország fő iparágait.",
+      "etfList": "🇮🇹 Egy FTSE MIB ETF: Az FTSE MIB listáján szereplő 40 cég.\n🌍 iShares Core MSCI World: 23 fejlett ország cégei.\n🇺🇸 Amundi S&P 500: Az S&P 500 listáján szereplő 500 nagy amerikai cég.\n🇪🇺 Xtrackers EURO STOXX 50: 50 blue chip éllovas az egész eurózónából.",
+      "currencyHedge": "Ha az euró gyengül más devizákkal szemben, a nemzetközi befektetéseid automatikusan TÖBBET érnek euróban számolva!",
+      "fxQuizSetup": "Az euró jelentősen gyengül a dollárral és a jennel szemben",
+      "fxQuizLose": "Veszít az értékéből, mert az európai gazdaság nehézségekkel küzd",
+      "fxQuizGain": "Euróban számolva NŐ, mert a külföldi befektetéseid devizaértéke nőtt",
+      "dcaTitle": "Költségátlagolás",
+      "dcaAbbrev": "DCA",
+      "food": "margherita pizza"
+    },
+    "ES": {
+      "name": "Spanyolország",
+      "cName": "euró",
+      "cPlural": "euró",
+      "exDesc": "Spanyolország fő tőzsdéje és kapu a latin-amerikai piacok felé",
+      "sectorList": "👗 Divat és szépségápolás: Inditex (Zara), Puig. Spanyolország globális stílusbirodalma\n🏦 Bankszektor: Santander, BBVA, CaixaBank. A spanyol bankok hatalmas globális jelenléttel bírnak\n⚡ Energia: Iberdrola, Endesa. A megújuló energia éllovasai Európában\n📡 Távközlés: Telefónica, Cellnex. Spanyolország kommunikációs gerince\n🏗️ Infrastruktúra: Ferrovial, ACS. Infrastruktúra-építés világszerte",
+      "etfBasket": "Spanyolország 35 legtöbbet kereskedett cége",
+      "etfDesc": "Az IBEX 35 például a 35 legtöbbet kereskedett spanyol részvény listája, amelyeket egy szakmai bizottság a kereskedési volumen alapján választ ki. Ez tehát a legtöbbet kereskedettek listája, nem a legnagyobbaké.",
+      "etfList": "🇪🇸 Egy IBEX 35 ETF: A 35 legtöbbet kereskedett spanyol részvény.\n🌍 iShares Core MSCI World: 23 fejlett ország cégei.\n🇺🇸 Vanguard S&P 500: Az S&P 500 listáján szereplő 500 nagy amerikai cég.\n🇪🇺 Egy EURO STOXX 50 ETF: 50 blue chip éllovas az egész eurózónából.",
+      "currencyHedge": "Ha az euró gyengül más devizákkal szemben, a nemzetközi befektetéseid automatikusan TÖBBET érnek euróban számolva!",
+      "fxQuizSetup": "Az euró jelentősen gyengül a dollárral és a jennel szemben",
+      "fxQuizLose": "Veszít az értékéből, mert az európai gazdaság nehézségekkel küzd",
+      "fxQuizGain": "Euróban számolva NŐ, mert a külföldi befektetéseid devizaértéke nőtt",
+      "dcaTitle": "Költségátlagolás",
+      "dcaAbbrev": "DCA",
+      "food": "tapastál"
+    },
+    "NL": {
+      "name": "Hollandia",
+      "cName": "euró",
+      "cPlural": "euró",
+      "exDesc": "a világ legrégebbi tőzsdéje, amelyet 1602-ben alapítottak",
+      "sectorList": "💻 Technológia: ASML, Adyen. Az ASML hajtja a világ legfejlettebb chipjeit\n⚡ Energia: Shell, SBM Offshore. Hollandiai székhelyű globális energiaóriások\n🏦 Bankszektor: ING, ABN AMRO. Jól teljesítenek, amikor emelkednek a kamatok\n🍺 Fogyasztási cikkek: Heineken, Ahold Delhaize. Globális élelmiszer- és italmárkák\n📡 Távközlés: KPN, az ország legnagyobb tőzsdén jegyzett kommunikációs szolgáltatója",
+      "etfBasket": "Amszterdam 25 legaktívabban kereskedett cége",
+      "etfDesc": "Az AEX például az amszterdami tőzsde 25 legaktívabban kereskedett részvényének listája. A cégeket aszerint rangsorolja, mennyit kereskednek velük, nem aszerint, mekkorák.",
+      "etfList": "🇳🇱 iShares AEX: Amszterdam 25 legaktívabban kereskedett részvénye.\n🌍 Vanguard FTSE All-World: Több tucat ország cégei egyetlen vásárlással.\n🇺🇸 iShares Core S&P 500: Az S&P 500 listáján szereplő 500 nagy amerikai cég.\n🇪🇺 Egy EURO STOXX 50 ETF: 50 blue chip éllovas az egész eurózónából.",
+      "currencyHedge": "Ha az euró gyengül más devizákkal szemben, a nemzetközi befektetéseid automatikusan TÖBBET érnek euróban számolva!",
+      "fxQuizSetup": "Az euró jelentősen gyengül a dollárral és a jennel szemben",
+      "fxQuizLose": "Veszít az értékéből, mert az európai gazdaság nehézségekkel küzd",
+      "fxQuizGain": "Euróban számolva NŐ, mert a külföldi befektetéseid devizaértéke nőtt",
+      "dcaTitle": "Költségátlagolás",
+      "dcaAbbrev": "DCA",
+      "food": "krokett"
+    },
+    "BR": {
+      "name": "Brazília",
+      "cName": "reál",
+      "cPlural": "reál",
+      "exDesc": "Latin-Amerika legnagyobb tőzsdéje",
+      "sectorList": "⛏️ Bányászat: Vale, CSN. Brazília vasérc- és acélóriásai\n⚡ Energia: Petrobras, Eletrobras. Jelentős olaj- és áramcégek\n🏦 Bankszektor: Itaú, Bradesco, Banco do Brasil. Jól teljesítenek, amikor emelkednek a kamatok\n🍺 Fogyasztási cikkek: Ambev, JBS. Élelmiszer- és italipari nagyhatalmak\n📡 Távközlés: Vivo, TIM Brasil. Brazília mobil- és szélessávú szolgáltatói",
+      "etfBasket": "a B3 tőzsde legtöbbet kereskedett cégei",
+      "etfDesc": "Az Ibovespa például a B3 tőzsde legtöbbet kereskedett cégeinek listája. Egy cég aszerint kerül fel rá, mennyit veszik és adják, nem aszerint, mekkora. Így a listán szereplő cégek száma idővel változik.",
+      "etfList": "🇧🇷 BOVA11: Az Ibovespát követi, a B3 legtöbbet kereskedett cégeit. A viszonyítási alap.\n🇺🇸 IVVB11: Az S&P 500-at követi. Ez 500 nagy amerikai cég, reálban árazva.\n🌍 Egy globális részvény-ETF: Fejlett és feltörekvő piacok egyetlen vásárlással.\n💡 HASH11: Egy kripto-indexalap, amely Bitcoint, Ethereumot és még többet tart.",
+      "currencyHedge": "Ha a reál gyengül a dollárral szemben, a nemzetközi befektetéseid automatikusan TÖBBET érnek R$-ban számolva!",
+      "fxQuizSetup": "A brazil reál R$5-ről R$6-ra gyengül a dollárral szemben",
+      "fxQuizLose": "Veszít az értékéből, mert a brazil gazdaság nehézségekkel küzd",
+      "fxQuizGain": "Reálban számolva NŐ, mert minden dollár több reált ér",
+      "dcaTitle": "Reál-költségátlagolás",
+      "dcaAbbrev": "RCA",
+      "food": "pão de queijo menü"
+    },
+    "SA_ARABIA": {
+      "name": "Szaúd-Arábia",
+      "cName": "rijál",
+      "cPlural": "rijál",
+      "exDesc": "a Közel-Kelet legnagyobb tőzsdéje",
+      "sectorList": "🛢️ Energia: Saudi Aramco, SABIC. Az Aramco a világ legértékesebb olajcége\n🏦 Bankszektor: Al Rajhi, SNB, Riyad Bank. Jól teljesítenek, amikor emelkednek a kamatok\n📡 Távközlés: STC, Mobily. Szaúd-Arábia mobil- és szélessávú szolgáltatói\n🛍️ Kiskereskedelem: Jarir, Extra. Népszerű kiskereskedelmi láncok\n⛏️ Alapanyagok: Ma'aden, Yansab. Bányászat és petrolkémia",
+      "etfBasket": "a Tadawul fő piacán jegyzett összes cég",
+      "etfDesc": "A TASI (Tadawul All Share Index) egyáltalán nem top 30-as vagy top 100-as lista. A Tadawul fő piacán jegyzett összes céget lefedi, így a benne lévő cégek száma mindig változik, amikor egy cég bevezeti vagy kivezeti a részvényeit.",
+      "etfList": "🇸🇦 Egy TASI-követő ETF: Széles kitettség a Tadawul teljes fő piacára.\n📦 Egy szaúdi blue chip ETF: A legnagyobb szaúdi nevek sokkal kisebb kosara.\n🌍 Egy MSCI Saudi Arabia ETF: Az MSCI szaúdi indexét követi, a piac szűrt részhalmazát.\n🇺🇸 Egy S&P 500 alap: Az S&P 500 listáján szereplő 500 nagy amerikai cég.",
+      "currencyHedge": "Mivel a rijál az amerikai dollárhoz van kötve, a más devizákban történő globális befektetés akkor hoz neked hasznot, amikor ezek a devizák erősödnek!",
+      "fxQuizSetup": "Az olyan globális devizák, mint az euró és a jen, erősödnek a rijállal szemben",
+      "fxQuizLose": "Veszít az értékéből, mert a szaúdi gazdaság nehézségekkel küzd",
+      "fxQuizGain": "Rijálban számolva NŐ, mert a külföldi befektetéseid devizaértéke nőtt",
+      "dcaTitle": "Rijál-költségátlagolás",
+      "dcaAbbrev": "RCA",
+      "food": "Al Baik menü"
+    },
+    "KR": {
+      "name": "Dél-Korea",
+      "cName": "von",
+      "cPlural": "von",
+      "exDesc": "a Samsung, a Hyundai és Ázsia néhány leginnovatívabb cégének otthona",
+      "sectorList": "💻 Technológia: Samsung, SK Hynix, Kakao. Vezető globális tech és chipek\n🚗 Autóipar: Hyundai, Kia. Korea világhírű autógyártói\n🏦 Bankszektor: KB Financial, Shinhan. Jól teljesítenek, amikor emelkednek a kamatok\n🎶 Szórakoztatás: HYBE, CJ ENM. A K-pop és a K-drama globális kulturális hulláma\n📡 Távközlés: KT, LG Uplus. Dél-Korea ultragyors kapcsolata",
+      "etfBasket": "Korea 200 legnagyobb és legtöbbet kereskedett cége",
+      "etfDesc": "A KOSPI 200 például Korea 200 legnagyobb és legtöbbet kereskedett cégének listája, iparágról iparágra kiválasztva, hogy a piac minden része képviselve legyen.",
+      "etfList": "🇰🇷 KODEX 200: A KOSPI 200-at követi, Korea 200 legnagyobb, legtöbbet kereskedett cégének listáját.\n🌍 Egy globális részvény-ETF: Fejlett piaci cégek egyetlen vásárlással.\n🇺🇸 TIGER Nasdaq 100: A Nasdaq 100 legnagyobb nem pénzügyi cége.\n💡 KODEX Samsung Group: A tőzsdén jegyzett Samsung-leányvállalatokat követi.",
+      "currencyHedge": "Ha a von gyengül más devizákkal szemben, a nemzetközi befektetéseid automatikusan TÖBBET érnek vonban számolva!",
+      "fxQuizSetup": "A von ₩1,300-ról ₩1,400-ra gyengül a dollárral szemben",
+      "fxQuizLose": "Veszít az értékéből, mert a dél-koreai gazdaság nehézségekkel küzd",
+      "fxQuizGain": "Vonban számolva NŐ, mert minden dollár több vont ér",
+      "dcaTitle": "Von-költségátlagolás",
+      "dcaAbbrev": "WCA",
+      "food": "bibimbap tál"
+    },
+    "TW": {
+      "name": "Tajvan",
+      "cName": "tajvani dollár",
+      "cPlural": "tajvani dollár",
+      "exDesc": "a TSMC otthona, a cégé, amely a világ legfejlettebb chipjeinek nagy részét gyártja",
+      "sectorList": "💻 Technológia: TSMC, MediaTek, ASUS. Tajvan gyártja a világ chipjeit\n🏭 Gyártás: Hon Hai (Foxconn), Delta. Elektronikai gyártóóriások\n🏦 Bankszektor: Cathay Financial, Fubon. Jól teljesítenek, amikor emelkednek a kamatok\n🧪 Vegyipar: Formosa Plastics, Nan Ya. Ipari alapanyagok éllovasai\n📡 Távközlés: Chunghwa Telecom, Far EasTone. Tajvan kommunikációs gerince",
+      "etfBasket": "a Tajvani Értéktőzsde 50 legnagyobb cége",
+      "etfDesc": "Tajvannak két nagyon különböző listája van. A TAIEX a Tajvani Értéktőzsdén jegyzett összes céget lefedi, nagyjából ezret. A Taiwan 50, amelyet a népszerű 0050 ETF követ, csak az 50 legnagyobbat.",
+      "etfList": "🇹🇼 0050 (Yuanta Taiwan Top 50): A tajvani tőzsde 50 legnagyobb cége. A klasszikus.\n📦 0056 (Yuanta High Dividend): A várható osztalékhozamuk alapján kiválasztott tajvani részvények.\n🇺🇸 00646 (Yuanta S&P 500): Az S&P 500 listáján szereplő 500 nagy amerikai cég.\n💡 00662 (Fubon Nasdaq 100): A Nasdaq 100 legnagyobb nem pénzügyi cége.",
+      "currencyHedge": "Ha a tajvani dollár gyengül más devizákkal szemben, a nemzetközi befektetéseid automatikusan TÖBBET érnek NT$-ban számolva!",
+      "fxQuizSetup": "A tajvani dollár NT$30-ról NT$34-re gyengül az amerikai dollárral szemben",
+      "fxQuizLose": "Veszít az értékéből, mert a tajvani gazdaság nehézségekkel küzd",
+      "fxQuizGain": "NT$-ban számolva NŐ, mert a külföldi befektetéseid devizaértéke nőtt",
+      "dcaTitle": "Dollár-költségátlagolás",
+      "dcaAbbrev": "DCA",
+      "food": "marhahúsos tésztaleves"
+    },
+    "SG": {
+      "name": "Szingapúr",
+      "cName": "szingapúri dollár",
+      "cPlural": "szingapúri dollár",
+      "exDesc": "Délkelet-Ázsia vezető pénzügyi központja és tőzsdéje",
+      "sectorList": "🏦 Bankszektor: DBS, OCBC, UOB. Szingapúr sziklaszilárd banktriója\n✈️ Közlekedés: Singapore Airlines, SATS. Világszínvonalú légi közlekedés\n🏗️ Ingatlan: CapitaLand, City Developments. Szingapúrban az ingatlan óriási üzlet\n💻 Technológia: Venture Corporation, AEM. Az SGX-en jegyzett tech főleg elektronikai gyártás; a Sea és a Grab inkább az USA-ban lépett tőzsdére\n📡 Távközlés: Singtel, StarHub. Szingapúr kommunikációs szolgáltatói",
+      "etfBasket": "a Szingapúri Értéktőzsde 30 legnagyobb cége",
+      "etfDesc": "A Straits Times Index például a Szingapúri Értéktőzsde 30 legnagyobb cégének listája, amelyek a közkézhányad- és kereskedési feltételeknek is megfelelnek.",
+      "etfList": "🇸🇬 Nikko AM STI ETF: A Szingapúri Értéktőzsde 30 legnagyobb cége. A viszonyítási alap.\n📦 ABF Singapore Bond Index Fund: Szingapúri állampapírok egyetlen alapban.\n🌏 iShares MSCI Asia ex Japan: Széles hozzáférés az ázsiai piacokhoz.\n🇺🇸 Egy S&P 500 ETF: Az S&P 500 listáján szereplő 500 nagy amerikai cég.",
+      "currencyHedge": "Ha a szingapúri dollár gyengül más devizákkal szemben, a nemzetközi befektetéseid automatikusan TÖBBET érnek S$-ban számolva!",
+      "fxQuizSetup": "A szingapúri dollár jelentősen gyengül az amerikai dollárral szemben",
+      "fxQuizLose": "Veszít az értékéből, mert a szingapúri gazdaság nehézségekkel küzd",
+      "fxQuizGain": "S$-ban számolva NŐ, mert a külföldi befektetéseid devizaértéke nőtt",
+      "dcaTitle": "Dollár-költségátlagolás",
+      "dcaAbbrev": "DCA",
+      "food": "hawker centre-es ebéd"
+    },
+    "CH": {
+      "name": "Svájc",
+      "cName": "frank",
+      "cPlural": "frank",
+      "exDesc": "a Nestlé, a Novartis és a Roche, Európa három legértékesebb cégének otthona",
+      "sectorList": "💊 Gyógyszeripar: Novartis, Roche. Globális gyógyszeripari nagyhatalmak\n🍫 Fogyasztási cikkek: Nestlé, Lindt. A világ legikonikusabb élelmiszermárkái\n🏦 Bankszektor: UBS, Julius Baer. A svájci bankrendszer legendás\n🏭 Ipar: ABB, Holcim. Globális mérnöki munka és építőipar\n📡 Távközlés: Swisscom, Sunrise. Svájci kommunikációs szolgáltatók",
+      "etfBasket": "a 20 legnagyobb és legtöbbet kereskedett svájci cég",
+      "etfDesc": "A Swiss Market Index például a 20 legnagyobb és legtöbbet kereskedett svájci cég listája.",
+      "etfList": "🇨🇭 iShares Core SPI: A teljes svájci piac, nem csak a nagy nevek.\n💡 Egy SMI ETF: A 20 legnagyobb, legtöbbet kereskedett svájci cég.\n🌍 UBS ETF MSCI World: 23 fejlett ország cégei.\n🇺🇸 iShares Core S&P 500: Az S&P 500 listáján szereplő 500 nagy amerikai cég.",
+      "currencyHedge": "Ha a frank gyengül más devizákkal szemben, a nemzetközi befektetéseid TÖBBET érnek CHF-ben számolva. A svájci frank általában nagyon erős!",
+      "fxQuizSetup": "A svájci frank jelentősen gyengül a dollárral és az euróval szemben",
+      "fxQuizLose": "Veszít az értékéből, mert a svájci gazdaság nehézségekkel küzd",
+      "fxQuizGain": "Frankban számolva NŐ, mert a külföldi befektetéseid devizaértéke nőtt",
+      "dcaTitle": "Frank-költségátlagolás",
+      "dcaAbbrev": "FCA",
+      "food": "kebab"
+    },
+    "SE": {
+      "name": "Svédország",
+      "cName": "korona",
+      "cPlural": "korona",
+      "exDesc": "az Ericsson, a Volvo és meglepően sok globális márka otthona",
+      "sectorList": "💻 Technológia: Ericsson, Hexagon. Svédország a súlyánál jóval nagyobbat üt a techben\n🚗 Autóipar: Volvo, Volvo Cars. Svéd mérnöki kiválóság\n🏦 Bankszektor: SEB, Handelsbanken, Nordea. Jól teljesítenek, amikor emelkednek a kamatok\n👗 Kiskereskedelem: H&M, Essity. Globális divat- és fogyasztási márkák\n📡 Távközlés: Telia, Tele2. Északi kommunikációs éllovasok",
+      "etfBasket": "Stockholm 30 legtöbbet kereskedett cége",
+      "etfDesc": "Az OMXS30 például a stockholmi tőzsde 30 legtöbbet kereskedett részvényének listája. A kereskedési aktivitás alapján rangsorol, nem a cégek mérete szerint.",
+      "etfList": "🇸🇪 Xact OMXS30: Stockholm 30 legtöbbet kereskedett részvénye.\n💰 Avanza Zero: Svéd indexalap éves kezelési díj nélkül. Ugyanazt a 30 stockholmi részvényt követi.\n🌍 Egy globális indexalap: Több tucat ország cégei egyetlen vásárlással.\n🇺🇸 Egy S&P 500 alap: Az S&P 500 listáján szereplő 500 nagy amerikai cég.",
+      "currencyHedge": "Ha a korona gyengül más devizákkal szemben, a nemzetközi befektetéseid automatikusan TÖBBET érnek kr-ban számolva!",
+      "fxQuizSetup": "A svéd korona jelentősen gyengül a dollárral és az euróval szemben",
+      "fxQuizLose": "Veszít az értékéből, mert a svéd gazdaság nehézségekkel küzd",
+      "fxQuizGain": "Koronában számolva NŐ, mert a külföldi befektetéseid devizaértéke nőtt",
+      "dcaTitle": "Korona-költségátlagolás",
+      "dcaAbbrev": "KCA",
+      "food": "falafeles wrap"
+    }
+  }
+}

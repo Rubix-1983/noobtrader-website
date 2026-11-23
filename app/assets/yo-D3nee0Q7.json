@@ -1,0 +1,1846 @@
+{
+  "_meta": {
+    "lang": "yo",
+    "source": "src/constants/lessonData.js",
+    "lessons": 84,
+    "hash": {
+      "1": "d38ab2ed",
+      "2": "bf930bc6",
+      "3": "6e4e4d63",
+      "4": "5b7802cc",
+      "5": "0f9cde1d",
+      "6": "e5999569",
+      "7": "66bc9202",
+      "8": "65677cac",
+      "9": "59a1fc31",
+      "10": "03ccde2e",
+      "11": "fbb06743",
+      "12": "7713dc86",
+      "13": "38054a44",
+      "14": "cbac8395",
+      "15": "4355d5d7",
+      "16": "bee25cb0",
+      "17": "a5cba909",
+      "18": "df93ed01",
+      "19": "ad2f3ae8",
+      "20": "6363dc90",
+      "21": "65a3ab78",
+      "22": "61f1ee9c",
+      "23": "a475dd40",
+      "24": "6874af82",
+      "25": "d92ac77b",
+      "26": "e8f1b315",
+      "27": "c3b42e04",
+      "28": "c3719a16",
+      "29": "b8690fa4",
+      "30": "272435ad",
+      "31": "ebbffa78",
+      "32": "31ae442d",
+      "33": "71dbb7c6",
+      "34": "62d271e6",
+      "35": "da185960",
+      "36": "66e0a88e",
+      "37": "4a91dc0c",
+      "38": "9ec4dee7",
+      "39": "ae809a71",
+      "40": "c3b12ff9",
+      "41": "aa4153d7",
+      "42": "29941a97",
+      "43": "d87240fc",
+      "44": "87c794ce",
+      "45": "a3dd8868",
+      "46": "7873826b",
+      "47": "47503da5",
+      "48": "6d2df7b4",
+      "49": "c1055330",
+      "50": "7d4a6a8a",
+      "51": "27e927d2",
+      "52": "041c444d",
+      "53": "8fb1d4bc",
+      "54": "33ec5d94",
+      "55": "b7571fb2",
+      "56": "f20ea6ce",
+      "57": "5a1f3993",
+      "58": "561a7caf",
+      "59": "67437975",
+      "60": "6db8d44d",
+      "61": "04bbebe6",
+      "62": "b43659be",
+      "63": "a6bfefd0",
+      "64": "a2cc88e0",
+      "65": "2f12b47a",
+      "66": "4a676ede",
+      "67": "17351f96",
+      "68": "e9dda763",
+      "69": "3b1a13c3",
+      "70": "b07744de",
+      "71": "798da84a",
+      "72": "960b5a23",
+      "73": "76df64cb",
+      "74": "90735bdf",
+      "75": "b5be8d19",
+      "76": "b2c7a6ad",
+      "77": "1f3344ae",
+      "78": "e03a370e",
+      "79": "3b881962",
+      "80": "64bddadd",
+      "81": "d30753ea",
+      "82": "71620bf3",
+      "83": "989bc8a6",
+      "84": "cdd0a41d"
+    }
+  },
+  "lessons": {
+    "1": {
+      "title": "Kí ni Ìpín?",
+      "desc": "Ní apá kékeré kan nínú ilé-iṣẹ́ kan",
+      "content": "Rò ó wò pé ìwọ àti ọ̀rẹ́ 9 ẹ dá {c}10 kálukú láti ra bàtà sneakers {c}100 kan papọ̀. Kálukú yín ní 1/10 bàtà náà, ìyẹn sì ni ìpín ní ṣókí! Nígbà tí o bá ra ìpín nínú {retail}, o ní apá kékeré nínú gbogbo ṣọ́ọ̀bù wọn, gbogbo ọjà wọn, àti gbogbo {cName} tí wọ́n ń pa. Bí ilé-iṣẹ́ náà bá ṣe ń dàgbà sí i, bẹ́ẹ̀ ni apá tìrẹ ṣe ń níye lórí sí i! 🔥",
+      "quiz": {
+        "q": "Ìwọ àti ọ̀rẹ́ 4 pín owó àga eré gaming {c}500 kan dọ́gba. Kí ni kálukú yín ní?",
+        "explanation": "Níní ìpín túmọ̀ sí níní apá kan nínú odindi nǹkan náà. Ènìyàn márùn-ún tí wọ́n san owó dọ́gba túmọ̀ sí apá márùn-ún tí ó dọ́gba, gbogbo apá sì ní ẹ̀tọ́ kan náà bí àwọn yòókù.",
+        "options": [
+          "Kálukú ní 1/5 (20%) àga náà",
+          "Kò sí nǹkan kan, ẹnì kan ṣoṣo ló lè ní i",
+          "Gbogbo àga náà papọ̀, láìsí ìpín ẹnikọ̀ọ̀kan"
+        ]
+      }
+    },
+    "2": {
+      "title": "Àlàyé {ex}",
+      "desc": "Ọjà ìpín ti {name}",
+      "content": "Ronú nípa {ex} ({exFull}) bí ọjà orí ayélujára ńlá kan, àmọ́ dípò kí àwọn ènìyàn ra bàtà tàbí fóònù, wọ́n ń rà wọ́n sì ń ta apá kékeré (ìpín) nínú àwọn ilé-iṣẹ́ bíi {top5}. Ó máa ń ṣí ní gbogbo ọjọ́ iṣẹ́ àyàfi ọjọ́ ìsinmi gbogbogbò, iye owó sì ń yí padà ní gbogbo ọjọ́ gẹ́gẹ́ bí ẹni tó ń rà àti ẹni tó ń tà ṣe pọ̀ tó. {ex} ni {exDesc}! 🌍",
+      "quiz": {
+        "q": "Kí ni {ex} jọ jù lọ?",
+        "explanation": "Ọjà ìpín máa ń so àwọn tó fẹ́ ra ìpín pọ̀ mọ́ àwọn tó fẹ́ tà wọ́n. Kì í ṣe òun ló ni àwọn ìpín náà, kì í ṣe òun ló ń yan iye owó, kò sì ní san èlé fún ọ fún owó tí o fi sílẹ̀ níbẹ̀.",
+        "options": [
+          "Ọjà kan, níbi tí àwọn tó ni ìpín ti ń pàdé àwọn olùrà",
+          "Àkáǹtì ìfowópamọ́, níbi tí owó ti ń jókòó tí ó sì ń pa èlé",
+          "Ṣọ́ọ̀bù kan tí ó ni àwọn ìpín tí ó sì ń tà wọ́n fún ọ"
+        ]
+      }
+    },
+    "3": {
+      "title": "Akọ Màlúù àti Béárì",
+      "desc": "Ìtọ́sọ́nà ọjà ní ṣókí",
+      "content": "Nínú ọjà, àwọn ẹranko ló ń darí nǹkan 😄\n\n🐂 Akọ màlúù (Bull) = iye owó ń GÒKÈ. Rò ó wò bí akọ màlúù ṣe ń fi ìwo rẹ̀ kàn sókè. Gbogbo ènìyàn ń jèrè, àwọn ènìyàn ń rà, inú gbogbo ènìyàn dùn.\n\n🐻 Béárì (Bear) = iye owó ń LỌ SÍLẸ̀. Rò ó wò bí béárì ṣe ń fi àtẹ́lẹsẹ̀ rẹ̀ gbá sísàlẹ̀. Ẹ̀rù ń ba àwọn ènìyàn, wọ́n ń tà, kì í ṣe àsìkò tó dára.\n\nNígbà tí ẹnì kan bá sọ pé 'Mo jẹ́ bullish lórí {tech}', wọ́n rò pé iye owó rẹ̀ máa gòkè. Nígbà tí wọ́n bá sọ pé 'bearish', wọ́n rò pé ó ń lọ sílẹ̀. Wàá máa gbọ́ àwọn ọ̀rọ̀ yìí níbi gbogbo nínú ọ̀rọ̀ owó!",
+      "quiz": {
+        "q": "Ọ̀rẹ́ rẹ sọ pé 'Mo jẹ́ bearish lórí {telco} ní ọ̀sẹ̀ yìí.' Kí ni ìyẹn túmọ̀ sí?",
+        "explanation": "Bearish túmọ̀ sí retí pé iye owó máa lọ sílẹ̀, bullish túmọ̀ sí retí pé ó máa gòkè. Béárì ń gbá sísàlẹ̀, akọ màlúù ń ju sókè.",
+        "options": [
+          "Wọ́n rò pé iye owó {telco} máa gòkè",
+          "Wọ́n rò pé iye owó {telco} máa lọ sílẹ̀",
+          "Wọ́n fẹ́ ra {telco} tó pọ̀ jù lọ tí wọ́n bá lè rà"
+        ]
+      }
+    },
+    "4": {
+      "title": "Kí ni Alágbàtà (Broker)?",
+      "desc": "Ẹnu ọ̀nà rẹ láti ra ìpín",
+      "content": "O kò kàn lè rìn lọ bá {retail} kí o sọ pé 'ẹ jọ̀ọ́ ẹ fún mi ní díẹ̀ nínú ilé-iṣẹ́ yín' 😂 O nílò alágbàtà (broker): app tàbí iṣẹ́ kan tí ó ń so àwọn olùrà àti olùtà pọ̀ lórí ọjà ìpín.\n\nRonú nípa alágbàtà bí {shop}. O fẹ́ nǹkan kan, {shop} á so ọ́ pọ̀ mọ́ ọn. Wọ́n ń bójú tó ìṣòwò náà wọ́n sì ń gba owó iṣẹ́ kékeré. Àwọn alágbàtà olókìkí ní {name} ni {broker} àti àwọn mìíràn.\n\nOhun tí alágbàtà KÌ Í ṣe nìyí: yíyan àwọn ìpín tí yóò gòkè. Wọ́n kàn ń gbé àṣẹ rẹ lọ sí ọjà ni. Iye owó ń yí padà nítorí ohun tí gbogbo ènìyàn tó wà níta ń rà tí wọ́n sì ń tà, kì í ṣe nítorí pé alágbàtà rẹ sọ bẹ́ẹ̀.\n\nṢùgbọ́n àwọn alágbàtà máa ń gbé èrò wọn jáde. Àwọn onímọ̀ ìtúpalẹ̀ wọn máa ń pe ìpín ní 'rà', 'dì mú' tàbí 'tà'. Èrò kì í ṣe àṣẹ 🤷 Àwọn onímọ̀ ìtúpalẹ̀ máa ń tako ara wọn ní gbangba lórí ìpín kan náà gan-an, ọ̀pọ̀lọpọ̀ nínú wọn sì máa ń ṣàṣìṣe. Ka ìdíwọ̀n bí àtúnyẹ̀wò, kì í ṣe bí òfin.\n\nNoobTrader ń kọ́ ọ bí èyí ṣe ń ṣiṣẹ́ gan-an, lọ́fẹ̀ẹ́, pẹ̀lú owó fọ́nrán!",
+      "quiz": {
+        "q": "Kí ló dé tí o fi nílò alágbàtà láti ra ìpín?",
+        "explanation": "Alágbàtà ni ọ̀nà rẹ láti wọ ọjà ìpín, kì í ṣe awòràwọ̀, kì í sì í ṣe ẹni tó ń dá iye owó. Wọ́n ń gbé àṣẹ náà lọ, iye owó sì ni ohunkóhun tí ìyókù ọjà bá fẹ́ ṣòwò lé lórí. Àwọn onímọ̀ ìtúpalẹ̀ wọn máa ń gbé ìdíwọ̀n jáde, ṣùgbọ́n ìdíwọ̀n jẹ́ èrò, kì í ṣe ìtọ́ni.",
+        "options": [
+          "Wọ́n ń yan àwọn ìpín tí yóò gòkè",
+          "Wọ́n ń dá iye owó tí o máa san fún ìpín kọ̀ọ̀kan",
+          "Wọ́n ń gbé àṣẹ rẹ lọ sí ọjà ìpín"
+        ]
+      }
+    },
+    "5": {
+      "title": "Ìpìlẹ̀ Iye Owó Ìpín",
+      "desc": "Kí ló dé tí iye owó fi ń gòkè tí ó sì ń lọ sílẹ̀?",
+      "content": "Ṣé o ti kíyèsí bí iye owó bàtà sneakers tí wọ́n ṣe díẹ̀ ṣe máa ń fò sókè nígbà tí wọ́n bá jáde? Ohun kan náà ló ń ṣẹlẹ̀ sí ìpín. Gbogbo rẹ̀ jẹ mọ́ ìpèsè àti ìbéèrè (supply and demand).\n\n📈 Ọ̀pọ̀ ènìyàn FẸ́ rà → iye owó ń GÒKÈ\n📉 Ọ̀pọ̀ ènìyàn FẸ́ tà → iye owó ń LỌ SÍLẸ̀\n\nBí {telco} bá kéde pé àwọn ń rí oníbàárà tuntun mílíọ̀nù 10, gbogbo ènìyàn á fẹ́ apá kan, iye owó á sì ta sókè bí rọ́kẹ́ẹ̀tì. Bí wọ́n bá ròyìn àdánù ńlá, ẹ̀rù á ba àwọn ènìyàn wọ́n á sì tà, iye owó á sì lọ sílẹ̀. Ìròyìn, èsì ilé-iṣẹ́, àti àṣà orí ẹ̀rọ ayélujára pàápàá lè yí iye owó ìpín padà lẹ́sẹ̀kẹsẹ̀!",
+      "quiz": {
+        "q": "{retail} kéde èrè tí kò tíì sí irú rẹ̀ rí, wọ́n sì ń gbèrò láti ṣí ṣọ́ọ̀bù tuntun 50. Kí ló ṣeé ṣe kí ó ṣẹlẹ̀ sí iye owó ìpín wọn?",
+        "explanation": "Èrè tí a retí pé yóò dára sí i sábà máa ń mú olùrà púpọ̀ wá, olùrà púpọ̀ sì ń ti iye owó sókè. Níná owó láti dàgbà kì í ṣe ohun kan náà pẹ̀lú fífi owó ṣòfò.",
+        "options": [
+          "Ó máa gòkè bí àwọn ènìyàn púpọ̀ ṣe ń fẹ́ rà",
+          "Ó máa wà bí ó ṣe wà gẹ́lẹ́",
+          "Ó máa wó lulẹ̀ nítorí pé wọ́n ń ná owó lórí ṣọ́ọ̀bù"
+        ]
+      }
+    },
+    "6": {
+      "title": "Kíka Àtẹ Iye Owó",
+      "desc": "Àbẹ́là, ìlà àti ìtumọ̀ wọn",
+      "content": "Àtẹ iye owó (chart) dà bí fídíò àwọn ìṣẹ̀lẹ̀ pàtàkì nínú ìtàn ìpín kan. Irú èyí tó gbajúmọ̀ jù ni àtẹ àbẹ́là (candlestick). 'Àbẹ́là' kọ̀ọ̀kan ń fi nǹkan 4 hàn ọ́ fún ọjọ́ kan:\n\n🟢 Àbẹ́là aláwọ̀ ewé = iye owó GÒKÈ ní ọjọ́ yẹn (ó ṣí ní ìsàlẹ̀, ó tì ní òkè)\n🔴 Àbẹ́là pupa = iye owó LỌ SÍLẸ̀ (ó ṣí ní òkè, ó tì ní ìsàlẹ̀)\n📏 Àwọn ìlà tínrín lókè/nísàlẹ̀ = iye owó tó ga jù àti èyí tó kéré jù ní ọjọ́ náà\n\nBí o bá rí ọ̀pọ̀ àbẹ́là aláwọ̀ ewé tẹ̀léra, ìyẹn jẹ́ ìgòkè tó lágbára. Ọ̀pọ̀ pupa túmọ̀ sí ìsọ̀kalẹ̀. Kíkọ́ bí a ṣe ń ka àtẹ dà bí kíkọ́ bí a ṣe ń ka pátákó àmì ayò eré! 🎮",
+      "quiz": {
+        "q": "O rí àbẹ́là pupa 5 tẹ̀léra lórí àtẹ kan. Kí ni èyí ń sọ fún ọ?",
+        "explanation": "Àbẹ́là pupa máa ń tì ní ìsàlẹ̀ ibi tí ó ti ṣí, nítorí náà márùn-ún tẹ̀léra jẹ́ àsìkò ìṣòwò márùn-ún tí iye owó ń lọ sílẹ̀. Àwọ̀ ń sọ ìtọ́sọ́nà fún ọ, kì í ṣe bí ìyípadà náà ṣe tóbi tó.",
+        "options": [
+          "Ìpín náà ti ń gòkè fún ọjọ́ 5",
+          "Ìpín náà ti ń lọ sílẹ̀ fún ọjọ́ 5",
+          "Iye owó ìpín náà kò yí padà"
+        ]
+      }
+    },
+    "7": {
+      "title": "Iye Ìṣòwò (Volume) àti Ohun Tó Ń Sọ",
+      "desc": "Iye ìpín tí wọ́n ń ṣòwò",
+      "content": "Volume = iye ìpín tí wọ́n rà tí wọ́n sì tà ní ọjọ́ kan. Ronú nípa rẹ̀ bí iye ìwòran fídíò TikTok kan.\n\n🔊 Volume GÍGA = ọ̀pọ̀ ènìyàn ń ṣòwò. Bí iye owó bá yí padà pẹ̀lú volume gíga, àmì náà lágbára jù ó sì ṣeé gbẹ́kẹ̀lé jù, bí fídíò tó gbòde lóòótọ́, kì í ṣe láti ọwọ́ bots.\n\n🔇 Volume KÉKERÉ = ènìyàn díẹ̀ ló ń ṣòwò. Iye owó lè yí padà lọ́nà àjèjì pẹ̀lú volume kékeré, bí fídíò tí ó ní ìwòran 3 péré tí wọ́n pín láìmọ̀ọ́mọ̀.\n\nMáa ṣàyẹ̀wò volume nígbà gbogbo tí o bá rí ìyípadà iye owó ńlá. Ó máa sọ fún ọ bóyá ìyípadà náà jẹ́ òótọ́ tàbí ariwo lásán!",
+      "quiz": {
+        "q": "Ìpín {telco} fò sókè 5% lónìí, ṣùgbọ́n volume kéré gan-an. Kí ló yẹ kí o rò?",
+        "explanation": "Volume ni bí ìgbàgbọ́ tó wà lẹ́yìn ìyípadà kan ṣe pọ̀ tó. Fífò ńlá lórí ìṣòwò díẹ̀ gan-an lè padà bí ó ṣe ṣẹlẹ̀ ní ìrọ̀rùn, nítorí náà ṣàyẹ̀wò volume kí o tó gbà pé ìjáde (breakout) kan jẹ́ òótọ́.",
+        "options": [
+          "Àǹfààní ńlá ni dájúdájú, ra báyìí!",
+          "Volume kékeré máa ń túmọ̀ sí pé iye owó máa gòkè sí i nígbà gbogbo",
+          "Ìyípadà náà lè má ṣeé gbẹ́kẹ̀lé, volume kékeré mú un fura"
+        ]
+      }
+    },
+    "8": {
+      "title": "Ìtìlẹ́yìn àti Ìdènà",
+      "desc": "Àwọn ìpele iye owó tó ṣe pàtàkì",
+      "content": "Rò ó wò pé iye owó ìpín kan jẹ́ bọ́ọ̀lù tí ń fò padà:\n\n🧱 ÌTÌLẸ́YÌN (Support) = ilẹ̀ tí bọ́ọ̀lù náà ń fò padà kúrò lórí rẹ̀. Iye owó ń lọ sílẹ̀ ṣùgbọ́n ní gbogbo ìgbà tí ó bá dé ìpele yìí, ó ń fò padà sókè. Ọ̀pọ̀ olùrà ń farahàn níbí.\n\n🪟 ÌDÈNÀ (Resistance) = àjà tí bọ́ọ̀lù náà ń kàn. Ní gbogbo ìgbà tí iye owó bá gòkè dé ìpele yìí, wọ́n ń tì í padà sísàlẹ̀. Ọ̀pọ̀ olùtà ń gba owó wọn níbí.\n\nÀwọn oníṣòwò ń lo àwọn ìpele yìí bí máàpù eré: rà nítòsí ilẹ̀, tà nítòsí àjà. Nígbà tí iye owó bá já ìdènà kọjá níkẹyìn, ó sábà máa ń ta sókè kíákíá. Nígbà tí ó bá já ìtìlẹ́yìn, múra fún ìsọ̀kalẹ̀! 💥\n\nÌkìlọ̀ òtítọ́ kan: àwọn ènìyàn tí ń wo àtẹ ló ń ya àwọn ìpele yìí, wọn kì í ṣe òfin tí ọjà gbọ́dọ̀ tẹ̀lé. Ìpín kan lè já 'ìtìlẹ́yìn' kọjá tààrà kí ó sì máa bá a lọ. 📉",
+      "quiz": {
+        "q": "Ìpín kan ti fò padà kúrò ní {c}50 lẹ́ẹ̀mẹ́ta láìlọ sí ìsàlẹ̀ rẹ̀. Kí ni wọ́n ń pe {c}50?",
+        "explanation": "Ilẹ̀ tí wọ́n ń bọ̀wọ̀ fún léraléra ni ìtìlẹ́yìn; àjà tí ń dá iye owó padà léraléra ni ìdènà. Kò sí èyí tó jẹ́ ìlérí, ṣùgbọ́n ó dára láti mọ̀ méjèèjì kí o tó rà.",
+        "options": [
+          "Ìpele ìtìlẹ́yìn (support)",
+          "Ìpele ìdènà (resistance)",
+          "Iye owó àjà"
+        ]
+      }
+    },
+    "9": {
+      "title": "Pínpín Owó Ká (Diversification)",
+      "desc": "Má ṣe kó gbogbo ẹyin sínú apẹ̀rẹ̀ kan",
+      "content": "Rò ó wò pé o ná GBOGBO dátà rẹ sórí app ìwòran kan ṣoṣo. Lẹ́yìn náà app yẹn dẹ́kun iṣẹ́. O di aláìní nǹkan kan. 😩\n\nṢùgbọ́n bí o bá pín dátà rẹ sí WhatsApp, YouTube, ÀTI app ìwòran rẹ, bí ọ̀kan bá dẹ́kun iṣẹ́ kò ní ba gbogbo ìgbádùn rẹ jẹ́.\n\nBẹ́ẹ̀ náà ni ìdókòwò! Bí o bá fi GBOGBO owó rẹ sínú ìpín kan tí ó sì wó lulẹ̀, o pàdánù gbogbo rẹ̀. Ṣùgbọ́n bí o bá pín in sí {telco} (ìbánisọ̀rọ̀), {retail} (ìtajà), {tech} (ìmọ̀-ẹ̀rọ), àti ETF kan, ìwólulẹ̀ ọ̀kan kò ní pa gbogbo portfolio rẹ run. Ọgbọ́n pínpín ká yìí ni wọ́n ń pè ní DIVERSIFICATION. 💼",
+      "quiz": {
+        "q": "O ní {c}500 láti dókòwò. Èwo nínú ìwọ̀nyí ló pín ewu rẹ ká lóòótọ́?",
+        "explanation": "Ṣọ́ọ̀bù aṣọ márùn-ún máa ń gòkè tí wọ́n sì ń lọ sílẹ̀ lórí ohun kan náà, nítorí náà owó tí a pín sí wọn kò fi bẹ́ẹ̀ pín ká rárá. Àwọn iṣẹ́ ajé ọ̀tọ̀ọ̀tọ̀ máa ń kojú ìṣòro ní àkókò ọ̀tọ̀ọ̀tọ̀, ìyẹn ló sì ń dènà kí èsì búburú kan gbé gbogbo rẹ̀ lọ.",
+        "options": [
+          "{c}100 kálukú sínú ṣọ́ọ̀bù aṣọ márùn-ún ọ̀tọ̀ọ̀tọ̀",
+          "{c}100 kálukú sínú iṣẹ́ ajé márùn-ún ọ̀tọ̀ọ̀tọ̀",
+          "Gbogbo {c}500 sínú ilé-iṣẹ́ kan ṣoṣo tí o fẹ́ràn jù"
+        ]
+      }
+    },
+    "10": {
+      "title": "Ewu àti Èrè",
+      "desc": "Kí ló dé tí èrè ńlá = ewu ńlá",
+      "content": "Ṣé o ti ra àpótí àdììtú rí? O lè rí ohun àgbàyanu, tàbí pàǹtí pátápátá. Ìyẹn ni ewu gíga / èrè gíga.\n\nÌdókòwò ń ṣiṣẹ́ lọ́nà kan náà:\n\n✅ EWU TÍ Ó KÉRÉ JÙ, ÈRÈ TÍ Ó KÉRÉ JÙ: Bíi {retail}. Ilé-iṣẹ́ ńlá, tó ti fìdí múlẹ̀ dáadáa. Owó rẹ sábà máa ń dàgbà díẹ̀díẹ̀ àti déédéé. Kíyèsí 'tí ó kéré jù', kì í ṣe 'kò sí'. Àwọn ilé-iṣẹ́ ńlá náà máa ń ṣubú.\n\n🎲 EWU GÍGA, ÈRÈ GÍGA: Bí ilé-iṣẹ́ ìwakùsà tuntun kékeré kan. Ó lè pọ̀ sí i ní ìlọ́po 10, tàbí pòórá. Bí àpótí àdììtú náà.\n\nKí o tó dókòwò sínú ohunkóhun, máa béèrè nígbà gbogbo pé: 'Kí ni ohun tó burú jù tó lè ṣẹlẹ̀?' Bí o kò bá lè fara da pípàdánù rẹ̀, má ṣe gbé ewu náà!",
+      "quiz": {
+        "q": "Coin kan tí ẹnikẹ́ni kò gbọ́ nípa rẹ̀ rí ṣèlérí èrè 500%. Kí ni ìlérí tó tóbi tó bẹ́ẹ̀ ń sọ fún ọ ní tòótọ́?",
+        "explanation": "Ewu àti èrè jẹ́ orí méjì ọ̀pá kan náà. Kò sí ẹni tó ń pín 500% lásán, nítorí náà bí ìlérí náà ṣe tóbi tó jẹ́ ìwọ̀n bí gbogbo owó náà ṣe lè pòórá ní ìrọ̀rùn tó. Kí o tó fi owó sínú ohunkóhun, béèrè bí ohun tó burú jù ṣe rí àti bóyá o lè gbé pẹ̀lú rẹ̀.",
+        "options": [
+          "Ọjà olówó pọ́ọ́kú ni tí ìyókù ọjà kò rí bákan",
+          "Bí ìlérí bá ṣe tóbi tó, bẹ́ẹ̀ ni àwọn tó wà lẹ́yìn rẹ̀ ṣe ṣe pàtàkì tó",
+          "Àǹfààní láti pàdánù gbogbo rẹ̀ tóbi gẹ́gẹ́ bí ìlérí náà"
+        ]
+      }
+    },
+    "11": {
+      "title": "Ìgbà Pípẹ́ àti Ìgbà Kúkúrú",
+      "desc": "Èrò ìdókòwò àti èrò ìṣòwò",
+      "content": "🏃 ÌṢÒWÒ ÌGBÀ KÚKÚRÚ: Rírà àti títà láàárín ọjọ́ díẹ̀ tàbí ọ̀sẹ̀ díẹ̀ láti mú ìyípadà iye owó kíákíá. Ìdààmú púpọ̀, ó nílò wíwo ìbòjú fún ìgbà pípẹ́. Bí gbígbìyànjú láti sọ tẹ́lẹ̀ ẹni tí yóò borí nínú ìdíje kọ̀ọ̀kan nígbà ìdíje ńlá kan.\n\n🧘 ÌDÓKÒWÒ ÌGBÀ PÍPẸ́: Rírà ìpín àti dídì wọ́n mú fún ọ̀pọ̀ ọdún. O ń fara da àwọn ìsọ̀kalẹ̀, o sì ń jẹ́ kí owó rẹ dàgbà. Bí títẹ́tẹ́ lórí ẹgbẹ́ tí yóò borí gbogbo sáà náà. O kò ní bẹ̀rù lẹ́yìn ìdíje búburú kan.\n\nÀwọn ìwádìí lórí àkáǹtì ìṣòwò gidi ń rí àpẹẹrẹ kan náà léraléra: bí àwọn ènìyàn bá ṣe ń ṣòwò léraléra tó, bẹ́ẹ̀ ni wọ́n ṣe máa ń ṣe burú tó lẹ́yìn tí a bá ka owó iṣẹ́.\n\nÀkókò sì ni àǹfààní kan ṣoṣo tí a kò lè rà padà lẹ́yìn náà. Ọdún kọ̀ọ̀kan tí owó bá wà nínú ìdókòwò jẹ́ ọdún mìíràn tí èlé àgbo (compounding) ń ṣiṣẹ́. ⏳",
+      "quiz": {
+        "q": "Ènìyàn méjì ra ìpín kan náà pẹ̀lú owó kan náà. Ọ̀kan ń wọlé tí ó sì ń jáde ní gbogbo ọ̀sẹ̀, èkejì fi í sílẹ̀ fún ọdún mẹ́wàá. Kí ni àwọn ìwádìí lórí àkáǹtì gidi ń rí léraléra?",
+        "explanation": "Gbogbo ìṣòwò ló ní owó tirẹ̀, owó yẹn sì ń jáde bóyá ìṣòwò náà ṣiṣẹ́ tàbí kò ṣiṣẹ́. Ìwádìí lẹ́yìn ìwádìí lórí àkáǹtì ìṣòwò gidi ń rí àpẹẹrẹ kan náà: bí àwọn ènìyàn bá ṣe ń ṣòwò léraléra tó, bẹ́ẹ̀ ni wọ́n ṣe ń parí sẹ́yìn tó. Fífi owó sílẹ̀ kì í ṣe ọ̀lẹ, ètò tí ó dín owó kù ni.",
+        "options": [
+          "Ẹni tó ń ṣòwò léraléra sábà máa ń wà lẹ́yìn lẹ́yìn tí a bá ka owó iṣẹ́",
+          "Ẹni tó ń ṣòwò léraléra sábà máa ń borí, nítorí pé ìsapá ń gba èrè níbí",
+          "Wọ́n parí dọ́gba, nítorí pé wọ́n di ìpín kan náà gẹ́lẹ́ mú"
+        ]
+      }
+    },
+    "12": {
+      "title": "{dcaTitle}",
+      "desc": "Dókòwò iye owó kan náà déédéé",
+      "content": "Ọgbọ́n kan nìyí tí ó rọrùn débi pé kò fi bẹ́ẹ̀ jọ ọgbọ́n, ó sì ń pa ìbéèrè tó le jù nínú ìdókòwò rẹ́:\n\nDókòwò iye owó KAN NÁÀ ní gbogbo oṣù, bóyá iye owó ga tàbí ó lọ sílẹ̀. Bí fífi {c}100 sílẹ̀ láti inú owó ọjọ́ ìbí rẹ tàbí owó àpò rẹ ní gbogbo oṣù láìyẹ̀.\n\n📉 Nígbà tí iye owó bá LỌ SÍLẸ̀ → {c}100 rẹ ń ra ìpín PÚPỌ̀ SÍ I\n📈 Nígbà tí iye owó bá GA → {c}100 rẹ ń ra ìpín DÍẸ̀ SÍ I\n\nBí àkókò ti ń lọ, iye owó àpapọ̀ rẹ fún ìpín kọ̀ọ̀kan ń dọ́gba, o sì ń 'ra nígbà ìsọ̀kalẹ̀' fúnra rẹ láìtilẹ̀ gbìyànjú! Èyí ni wọ́n ń pè ní {dcaTitle} ({dcaAbbrev}). Ó ń mú ìmọ̀lára kúrò nínú ìdókòwò nítorí pé o kò ní láti pinnu láé pé 'ṣé ÌSINSÌNYÍ ni àkókò tó tọ́?' O kàn ń pinnu o sì ń lọ! 💪\n\nỌ̀rọ̀ tààrà: èyí kò ní máa borí fífi gbogbo owó sínú rẹ̀ lẹ́ẹ̀kan náà nígbà gbogbo. Ohun tí ó ń ṣe ni pé ó ń fún ọ ní ètò tí o lè tẹ̀lé lóòótọ́.",
+      "quiz": {
+        "q": "O fi 200 NT sínú rẹ̀ nígbà tí ìpín náà jẹ́ 100 NT. Lẹ́yìn náà ìpín náà wó lulẹ̀, 200 NT rẹ tó tẹ̀lé sì wọlé ní 25 NT. Fà á dé iye owó àpapọ̀ rẹ fún ìpín kọ̀ọ̀kan nínú ìsanwó méjèèjì.",
+        "explanation": "200 NT àkọ́kọ́ rẹ ra ìpín 2 ní 100 NT. 200 NT èkejì rẹ ra ìpín 8 ní 25 NT. Ìyẹn jẹ́ 400 NT fún ìpín 10, nítorí náà 40 NT fún ọ̀kọ̀ọ̀kan. Kíyèsí pé kò sún mọ́ àárín iye owó méjèèjì rárá: owó kan náà ń ra púpọ̀ sí i fúnra rẹ̀ nígbà tí nǹkan bá wọ́, ìyẹn ló sì ń fa àpapọ̀ rẹ sísàlẹ̀."
+      }
+    },
+    "13": {
+      "title": "Ọmọ Owó 💸",
+      "desc": "Gbígba owó kìkì nítorí pé o di ìpín mú",
+      "content": "Rò ó wò pé o ní ẹ̀rọ ìtajà ìpanu kan. Ní gbogbo ọ̀sẹ̀, àwọn ènìyàn ń ra ìpanu láti inú ẸRỌ RẸ, o sì ń kó owó náà, kìkì nítorí pé o ni ín. O kò ní láti ṣe nǹkan mìíràn!\n\nÌyẹn ni ohun tí dividend jẹ́. A ń pè wọ́n ní Ọmọ Owó (Money Babies) 🍼 nítorí pé owó rẹ ń bí ọmọ gan-an: ìsanwó owó kékeré tí ń wọ àkáǹtì rẹ kìkì nítorí pé o ní ìpín.\n\nÀwọn ilé-iṣẹ́ ńlá bíi {divPayers} máa ń san Ọmọ Owó déédéé. Bí o bá ṣe ní ìpín púpọ̀ tó, bẹ́ẹ̀ ni àwọn ọmọ rẹ ṣe máa tóbi tó!\n\n⚠️ Wọn KÌ Í ṣe ìdánilójú. Ilé-iṣẹ́ kan ń pinnu nígbà kọ̀ọ̀kan bóyá yóò san, ó sì lè dín dividend kù tàbí dá a dúró pátápátá nígbà tí ìṣòwò bá le. Ìsanwó ńlá ní ọdún yìí kì í ṣe ìlérí fún ọdún tó ń bọ̀.\n\nBí o bá sì tún fi àwọn ọmọ náà dókòwò láti ra ìpín PÚPỌ̀ SÍ I... ìpele tó kàn á tóbi jù. Àyíká ẹlẹ́wà ni 🔁",
+      "quiz": {
+        "q": "{bank} ń san {c}5 fún ọ fún gbogbo ìpín tí o ní, láìsí pé o ta nǹkan kan. Kí ni wọ́n ń pe ìsanwó yẹn?",
+        "explanation": "Dividend jẹ́ apá kan nínú èrè ilé-iṣẹ́ tí wọ́n fún àwọn tó ni ín. App yìí ń pè wọ́n ní Ọmọ Owó. O ṣì ní gbogbo ìpín tí o ní, owó náà sì ń wọ àkáǹtì rẹ síbẹ̀. Ṣùgbọ́n kì í ṣe ìlérí, ilé-iṣẹ́ kan sì lè dín in kù tàbí dá a dúró nígbàkígbà tí ìṣòwò bá le.",
+        "options": [
+          "Dividend, apá kan nínú èrè",
+          "Èlé, irú èyí tí àkáǹtì ìfowópamọ́ ń san",
+          "Ẹ̀bùn ìdúróṣinṣin fún jíjẹ́ oníbàárà"
+        ]
+      }
+    },
+    "14": {
+      "title": "Èlé Àgbo (Compound Interest)",
+      "desc": "Bí owó rẹ ṣe ń dàgbà fúnra rẹ̀",
+      "content": "Àṣírí owó tó lágbára jù tí wàá kọ́ láé nìyí. Ṣé o ti ṣetán? 👀\n\nO dókòwò {c}1,000 ní 10% lọ́dún:\n• Ọdún 1: {c}1,000 → {c}1,100 (o jèrè {c}100)\n• Ọdún 2: {c}1,100 → {c}1,210 (o jèrè {c}110, ó ju ọdún 1 lọ!)\n• Ọdún 3: {c}1,210 → {c}1,331 (o jèrè {c}121)\n\nÌsinsìnyí o ń jèrè èlé lórí ÈLÉ rẹ. Bọ́ọ̀lù yìnyín náà ń tóbi sí i lọ́dọọdún láìsí pé o fi nǹkan kún un. Lẹ́yìn ọdún 30 ní 10%? {c}1,000 yẹn di {c}17,449! 🤯\n\nWàá rí i tí wọ́n ń pè é ní 'ìyanu kẹjọ ayé' tí wọ́n sì ń sọ pé Einstein ló sọ ọ́. Kò sí ẹ̀rí gidi pé ó sọ ọ́ rí, ṣùgbọ́n ìṣirò ni apá tó ṣe pàtàkì, ìṣirò náà sì jẹ́ òótọ́. Bẹ̀rẹ̀ ní kùtùkùtù, àkókò á sì ṣe iṣẹ́ tó wúwo fún ọ.",
+      "quiz": {
+        "q": "O fi 2,000 NT sínú rẹ̀ ní 10% lọ́dún o kò sì fọwọ́ kàn án láé. Fà á dé iye tí ó máa jẹ́ lẹ́yìn ọdún mẹ́ta.",
+        "explanation": "Ọdún kìíní fi 200 NT kún un, èyí sọ ọ́ di 2,200. Ọdún kejì mú 10% ti 2,200, nítorí náà ó fi 220 kún un ó sì di 2,420. Ọdún kẹta fi 242 kún un ó sì dé 2,662. Lọ́dọọdún, 10% náà ni a ń ṣírò lórí òkìtì tó tóbi sí i, ìdí nìyẹn tí fífi 200 kún un lẹ́ẹ̀mẹ́ta àti dídúró ní 2,600 kò fi tó."
+      }
+    },
+    "15": {
+      "title": "Èlé Àgbo àti Ìpín",
+      "desc": "Títún Ọmọ Owó dókòwò fún ìdàgbàsókè",
+      "content": "Ṣé o rántí Ọmọ Owó (dividends)? Ibí ni ó ti ń dùn 🤯\n\nDéédéé: O jèrè {c}50 ní Ọmọ Owó → o ná a sórí ìpanu → ó parí.\n\nỌgbọ́n: O jèrè {c}50 ní Ọmọ Owó → o ra ìpín PÚPỌ̀ SÍ I → nígbà tó kàn o rí Ọmọ Owó PÚPỌ̀ SÍ I → o ra ìpín púpọ̀ sí i → bọ́ọ̀lù yìnyín ń lọ 🔝\n\nÈyí ni èlé àgbo lórí ìpín. Ṣírò rẹ̀: fi iye owó kan náà sínú rẹ̀ ní gbogbo oṣù fún ọdún 30 ní èrè àpapọ̀ 10%, wàá sì ní nǹkan bí ÌLỌ́PO MẸ́FÀ ohun tí o san sínú rẹ̀ gan-an. Nǹkan bí ìdámárùn-ún nínú ìdámẹ́fà òkìtì yẹn jẹ́ ìdàgbàsókè: owó tí o kò ṣiṣẹ́ fún, tí o kò pamọ́, tí o kò sì fi sínú rẹ̀.\n\nNí àkókò pípẹ́, dividend tí a tún dókòwò ti jẹ́ apá ńlá nínú àpapọ̀ èrè àwọn olùdókòwò. Ìdí nìyẹn gan-an tí àwọn tó ń san dividend tí wọ́n dà bí 'aláìdùn' kò fi jẹ́ aláìdùn rárá 💰",
+      "quiz": {
+        "q": "O jèrè {c}80 ní dividend o sì lo gbogbo kọ́bọ̀ rẹ̀ láti ra ìpín púpọ̀ sí i dípò kí o ná a. Kí ló ń ṣẹlẹ̀ nígbà ìsanwó tó kàn?",
+        "explanation": "Gbogbo ìpín àfikún tí o rà ń san dividend tirẹ̀ nígbà tó kàn, nítorí náà ìsanwó náà ń dàgbà láìsí pé o fi owó tuntun kún un. Èlé àgbo ni èyí lẹ́ẹ̀kan sí i, ní àkókò yìí ó ń ṣiṣẹ́ lórí owó tó ń wọlé dípò lórí iye owó.",
+        "options": [
+          "Ìsanwó náà máa wà bí ó ṣe tóbi tó, ó kàn máa dé lẹ́yìn náà ni",
+          "O máa rí díẹ̀ sí i nígbà tó kàn, nítorí pé o dá owó náà padà",
+          "O ní ìpín púpọ̀ sí i, nítorí náà ìsanwó tó kàn máa tóbi sí i"
+        ]
+      }
+    },
+    "16": {
+      "title": "Òfin 72",
+      "desc": "Ọ̀nà kíákíá láti ṣírò àkókò ìlọ́po méjì",
+      "content": "Kóòdù ìyanjẹ kan fún ọpọlọ rẹ nìyí 🧠\n\nṢé o fẹ́ mọ bí ó ṣe máa pẹ́ tó kí owó rẹ tó di ÌLỌ́PO MÉJÌ? Kàn pín 72 sí èrè ọdọọdún rẹ:\n\n• 72 ÷ èrè 12% = ọdún 6 láti di ìlọ́po méjì\n• 72 ÷ èrè 8% = ọdún 9 láti di ìlọ́po méjì\n• 72 ÷ èrè 6% = ọdún 12 láti di ìlọ́po méjì\n\nNítorí náà bí o bá ń jèrè 12% déédéé lọ́dún lórí {c}2,000, ní ọdún 6 wàá ní {c}4,000. Dúró ọdún 6 mìíràn wàá sì ní {c}8,000. Ọdún 6 mìíràn wàá sì ní {c}16,000! 🤯\n\nÌfojúbù ni, kì í ṣe òfin, èrè gidi kì í sì í jẹ́ nọ́mbà kan náà déédéé lọ́dọọdún. Ṣùgbọ́n ó sún mọ́ tó láti ṣe é ní orí rẹ, ìyẹn sì ni gbogbo kókó rẹ̀.\n\nÌdí nìyí tí bíbẹ̀rẹ̀ ní ọmọ ọdún 13 tàbí 14 fi jẹ́ ohun ŃLÁ. O ní àyíká ìlọ́po méjì púpọ̀ níwájú rẹ ju fẹ́rẹ̀ẹ́ gbogbo ènìyàn mìíràn lọ!",
+      "quiz": {
+        "q": "Ìdókòwò kan ń pa 9% lọ́dún. Lo Òfin 72 láti fà á dé iye ọdún tí yóò gbà kí ó tó di ìlọ́po méjì.",
+        "explanation": "Pín 72 sí ìpín ọgọ́rùn-ún ọdọọdún. 72 tí a pín sí 9 jẹ́ 8, nítorí náà owó náà máa fẹ́rẹ̀ẹ́ di ìlọ́po méjì ní ọdún mẹ́jọ, lẹ́yìn náà á tún di ìlọ́po méjì ní ọdún mẹ́jọ lẹ́yìn ìyẹn. Ìfojúbù kíákíá ni tí o lè ṣe ní orí rẹ, kì í ṣe òfin gangan, nítorí pé èrè gidi kì í jẹ́ nọ́mbà kan náà lọ́dọọdún."
+      }
+    },
+    "17": {
+      "title": "Àṣẹ Ọjà àti Àṣẹ Ìdíwọ̀n",
+      "desc": "Ọ̀nà méjì láti ra ìpín",
+      "content": "Ọ̀nà pàtàkì méjì ló wà láti ra ìpín:\n\n⚡ ÀṢẸ ỌJÀ (MARKET ORDER): 'Rà á báyìí ní iye owó yòówù tí ó jẹ́.' Bí fífi sínú àpò ọjà àti sísanwó lẹ́sẹ̀kẹsẹ̀ lórí {shop}. O rí i lójú ẹsẹ̀, ṣùgbọ́n iye owó tí o san gan-an ni ohunkóhun tí ọjà bá fún ọ, èyí tí ó lè yàtọ̀ sí nọ́mbà tí o ṣẹ̀ṣẹ̀ rí lórí ìbòjú.\n\n🎯 ÀṢẸ ÌDÍWỌ̀N (LIMIT ORDER): 'Rà á kìkì bí iye owó bá lọ sílẹ̀ dé {c}X.' Bí fífi ohun kan sínú àkọsílẹ̀ ìfẹ́ rẹ lórí {shop} àti dídúró de àsìkò ẹ̀dínwó. Ìwọ ló ń darí iye owó, ṣùgbọ́n ìṣòwò náà lè má ṣẹlẹ̀ rárá.\n\nÀṣẹ ìdíwọ̀n ń fún ọ ní àṣẹ lórí iye owó. Àṣẹ ọjà ń fún ọ ní ìdánilójú pé ó máa ṣẹlẹ̀. O kò lè ní méjèèjì! 💸\n\nÀṣẹ ìdíwọ̀n ń ṣiṣẹ́ lọ́nà kan náà nígbà tí o bá ń TÀ, ó kàn dojú kọ ọ̀nà kejì ni. O ni ìpín náà, o dá iye owó tí inú rẹ máa dùn láti tà á, bí ó bá sì gòkè dé ibẹ̀ app náà á tà á fún ọ. Nígbà rírà, o dá iye owó tí ó wà NÍ ÌSÀLẸ̀ ibi tí ó wà báyìí. Nígbà títà, o dá iye owó NÍ ÒKÈ. Èrò kan náà, ẹ̀gbẹ́ òdìkejì. 🔁",
+      "quiz": {
+        "q": "{tech} ń ṣòwò ní {c}200. Inú rẹ máa dùn láti ní i, ṣùgbọ́n kìkì ní {c}180 tàbí kí ó dín. Èwo ni o máa lò?",
+        "explanation": "Àṣẹ ọjà máa ń ṣẹlẹ̀ lẹ́sẹ̀kẹsẹ̀ ní iye owó yòówù tí ó bá jẹ́ nígbà náà. Àṣẹ ìdíwọ̀n máa ń dá iye owó rẹ ó sì ń dúró, nítorí náà app náà ló ń ṣọ́ ọ dípò rẹ. Nígbà tí iye owó tí o máa gbà bá ṣe pàtàkì ju wíwọlé kíákíá lọ, èyí ni o fẹ́.",
+        "options": [
+          "Rírà pẹ̀lú àṣẹ ọjà, tí ó ṣẹlẹ̀ ní {c}200 báyìí",
+          "Rírà pẹ̀lú àṣẹ ìdíwọ̀n ní {c}180, tí ó ń dúró",
+          "Wo ìbòjú kí o sì rà á fúnra rẹ ní {c}180"
+        ]
+      }
+    },
+    "18": {
+      "title": "Owó Iṣẹ́ Ìṣòwò àti Iye Owó Míràn",
+      "desc": "Òye owó iṣẹ́ ìṣòwò",
+      "content": "Ọ̀pọ̀ ìṣòwò máa ń ná ọ ní díẹ̀: alágbàtà ń mú ìpín kékeré kan. Wọ́n ń pe ìwọ̀nyí ní owó iṣẹ́ ìṣòwò tàbí owó alágbàtà.\n\n⚠️ Àwọn alágbàtà kan ń polówó 'kò sí owó kọmíṣọ̀n'. Wọ́n ṣì ní láti rí owó bákan, nítorí náà wọ́n ń rí i níbòmíràn, nígbà púpọ̀ láti inú àlàfo kékeré láàárín iye owó rírà àti iye owó títà, láti inú pípààrọ̀ owó ilẹ̀ òkèèrè, tàbí láti inú èlé lórí owó tí ó jókòó sínú àkáǹtì rẹ. Ọ̀fẹ́ kì í sábà jẹ́ ọ̀fẹ́.\n\nNínú NoobTrader, owó iṣẹ́ àfarawé ni:\n• Ìpín {ex}: {exFee} fún ìṣòwò kọ̀ọ̀kan\n• Ìpín àgbáyé: 0.50%\n• ETFs: 0.30%\n• Crypto: 0.60%\n• Forex: 0.05%\n• Ohun ọjà (commodities): 0.40%\n\nÀpẹẹrẹ: O ra ìpín {retail} tí ó tó {c}1,000 ní {exFee}. Owó iṣẹ́ náà jẹ́ {c}{feeAmt}, nítorí náà ohun tí o ná gan-an ni {c}{feeTotal}.\n\nOwó iṣẹ́ kékeré ń pọ̀ KÍÁKÍÁ bí o bá ń ṣòwò léraléra. Ẹni tí ó ń ṣe ìṣòwò 20 lóṣù ń san owó iṣẹ́ yẹn ní ìgbà 20, ó sì tún ń san án nígbà tí ó bá ń jáde. Ìyẹn jẹ́ ọ̀kan lára ìdí tí àwọn olùdókòwò ìgbà pípẹ́ fi ń ṣòwò díẹ̀: ìṣòwò díẹ̀, owó iṣẹ́ díẹ̀ 🧮",
+      "quiz": {
+        "q": "O ra ìpín {ex} tí ó tó {c}1,000 pẹ̀lú owó iṣẹ́ {exFee}. Èló ni owó iṣẹ́ náà?",
+        "explanation": "Owó iṣẹ́ náà jẹ́ ìpín ọgọ́rùn-ún kan nínú iye tí a ṣòwò, nítorí náà ó ń pọ̀ sí i pẹ̀lú bí àṣẹ náà ṣe tóbi tó. Ṣírò rẹ̀ kí o tó ṣòwò, nítorí pé wọ́n tún máa gbà á nígbà tí o bá tà.",
+        "options": [
+          "{c}{feeAmtX10}",
+          "{c}{feeAmtLow}",
+          "{c}{feeAmt}"
+        ]
+      }
+    },
+    "19": {
+      "title": "Àṣẹ Stop-Loss",
+      "desc": "Dáàbò bo ara rẹ lọ́wọ́ àdánù ńlá",
+      "content": "Stop-loss dà bí fífi ààlà sí iye tí o ṣetán láti pàdánù: àwọ̀n ààbò tí o ṣètò ṣáájú.\n\nÀpẹẹrẹ: O ra ìpín {telco} ní {c}100 ọ̀kọ̀ọ̀kan. O pinnu pé o KÒ fẹ́ pàdánù ju 15% lọ LÁÉ. Nítorí náà o ṣètò stop-loss ní {c}85.\n\nBí {telco} bá lọ sílẹ̀ dé {c}85 → àṣẹ títà á ṣiṣẹ́ fúnra rẹ̀. O kò ní láti máa wò ó, o kò sì ní láti ṣe ìpinnu náà nígbà tí ẹ̀rù ń bà ọ́.\n\nApá tí àwọn ènìyàn máa ń ṣì nìyí. Nọ́mbà stop-loss máa ń wà NÍ ÌSÀLẸ̀ iye owó òní NÍGBÀ GBOGBO. Ó gbọ́dọ̀ rí bẹ́ẹ̀, nítorí pé iye owó gbọ́dọ̀ lọ sílẹ̀ láti dé ọ̀dọ̀ rẹ̀. Fi í sí òkè iye owó òní ó sì ti jẹ́ òtítọ́ tẹ́lẹ̀, nítorí náà ó máa tà ní ìṣẹ́jú tí o ṣètò rẹ̀, ní iye owó òní. Títà nìyẹn, kì í ṣe àwọ̀n ààbò.\n\nMá ṣe dà á pọ̀ mọ́ títà pẹ̀lú àṣẹ ìdíwọ̀n (limit sell). Méjèèjì ń tà fúnra wọn ní iye owó tí o yàn. Ìyàtọ̀ ni ìtọ́sọ́nà: stop-loss ń ṣiṣẹ́ nígbà tí iye owó bá LỌ SÍLẸ̀ dé nọ́mbà rẹ, limit sell ń ṣiṣẹ́ nígbà tí ó bá GÒKÈ dé nọ́mbà rẹ. Dídáàbò bo ara rẹ → nọ́mbà rẹ lọ sí ìsàlẹ̀. Dídá iye owó rẹ → nọ́mbà rẹ lọ sí òkè. Béèrè èwo ni o ń ṣe kí o tó tẹ̀ ẹ́. 🧭\n\n⚠️ Ọ̀kan pàtàkì: stop-loss ń fa TÍTÀ, kò ṣe ìdánilójú IYE OWÓ. Bí ìròyìn búburú bá dé lóru tí ìpín náà sì ṣí ní {c}70 láìtíì ṣòwò ní {c}85 rí, àṣẹ rẹ á ṣẹlẹ̀ ní ohunkóhun tí ọjà bá ṣetán láti san gan-an. Ìyẹn lè wà ní ìsàlẹ̀ ìpele tí o ṣètò gidigidi.\n\nLáìsí stop-loss kankan rárá, o lè máa dì í mú pẹ̀lú ìrètí pé yóò padà bọ̀ sípò... kí o sì wò ó tí ó lọ sílẹ̀ dé {c}20. 😬\n\nÌmọ̀ràn akọ́ṣẹ́mọṣẹ́: Máa pinnu àdánù tó pọ̀ jù tí o lè gbà KÍ O TÓ rà. Má ṣe jẹ́ kí ìmọ̀lára ṣe ìpinnu yẹn nígbà tí iye owó ti ń wó lulẹ̀ tẹ́lẹ̀! 🧘",
+      "quiz": {
+        "q": "O rà ní 200 NT o sì pinnu pé o kò ṣetán láti pàdánù ju 15% lọ lórí rẹ̀. Fà á dé iye owó tí stop-loss rẹ yẹ kí ó wà.",
+        "explanation": "15% ti 200 NT jẹ́ 30 NT, nítorí náà ibi ìjáde rẹ wà ní 30 ní ìsàlẹ̀ ibi tí o ti rà, ní 170 NT. Stop-loss máa ń lọ sí ìsàlẹ̀ iye owó òní, nítorí pé iye owó gbọ́dọ̀ lọ sílẹ̀ láti dé ọ̀dọ̀ rẹ̀. Fi í sí òkè ó sì ti jẹ́ òtítọ́ tẹ́lẹ̀, nítorí náà ó máa tà ní ìṣẹ́jú tí o ṣètò rẹ̀, ìyẹn sì jẹ́ títà dípò àwọ̀n ààbò."
+      }
+    },
+    "20": {
+      "title": "Ìgbà Wo Ni Kí O Rà àti Kí O Tà",
+      "desc": "Àkókò, sùúrù, àti ìkóra-ẹni-níjàánu",
+      "content": "Àṣìṣe tó tóbi jù tí àwọn olùdókòwò tuntun ń ṣe? Rírà nígbà tí inú gbogbo ènìyàn ń ru sókè àti títà nígbà tí ẹ̀rù ń ba gbogbo ènìyàn. Ìyẹn gan-an ni òdìkejì ohun tó ń ṣiṣẹ́. 🤦\n\n📱 Nígbà tí group chat rẹ ń kún fún 'RA ÌPÍN YÌÍ BÁYÌÍ!!!!' → ariwo náà sábà ti wà nínú iye owó tẹ́lẹ̀. O ti pẹ́.\n\n😱 Nígbà tí gbogbo ènìyàn ń tà nínú ẹ̀rù → nígbà mìíràn ìyẹn jẹ́ àǹfààní láti rà ní ẹ̀dínwó. Nígbà mìíràn iye owó á máa lọ sílẹ̀ fún ọdún mìíràn. Kò sí ẹni tí ń lu agogo ní ìsàlẹ̀ pátápátá.\n\nÀṣírí náà? Ní ètò KÍ O TÓ dókòwò:\n• Kí ló dé tí mo fi ń ra èyí? (ìwádìí, kì í ṣe ariwo)\n• Iye owó wo ni màá tà bí ó bá GÒKÈ? (gba èrè)\n• Iye owó wo ni màá tà bí ó bá LỌ SÍLẸ̀? (stop-loss)\n\nDúró ti ètò rẹ. Má ṣe jẹ́ kí ìmọ̀lára rẹ gba ọgbọ́n rẹ lọ́wọ́ rẹ! 💪",
+      "quiz": {
+        "q": "Gbogbo group chat rẹ ń pariwo nípa ìpín kan tí ó ti gòkè 80% ní oṣù yìí. Kí ni ìgbésẹ̀ ọlọ́gbọ́n?",
+        "explanation": "Nígbà tí ìpín kan bá wà nínú gbogbo group chat, ọ̀pọ̀ nínú ìyípadà náà ti ṣẹlẹ̀ tẹ́lẹ̀, àwọn tó ń dé pẹ́ sì ń rà lọ́wọ́ àwọn tó ń gba èrè wọn. Wo ilé-iṣẹ́ náà fúnra rẹ. Kí èrò pọ̀ máa pariwo kì í ṣe ohun kan náà pẹ̀lú kí èrò pọ̀ jẹ́ olóòótọ́.",
+        "options": [
+          "Rà á báyìí, kí iye owó tó sá lọ mọ́ ọ lọ́wọ́",
+          "Ta àwọn ìpín rẹ yòókù kí o sì kó gbogbo rẹ̀ sí ibí",
+          "Ṣàyẹ̀wò ilé-iṣẹ́ náà fúnra rẹ kí o tó pinnu"
+        ]
+      }
+    },
+    "21": {
+      "title": "Kí ni Market Cap?",
+      "desc": "Bí a ṣe ń wọn bí ilé-iṣẹ́ ṣe tóbi tó",
+      "content": "Market cap ń sọ fún ọ bí ilé-iṣẹ́ kan ṣe tóbi tó gan-an, ní {cPlural}.\n\n📐 Fọ́múlà: Iye Owó Ìpín × Àpapọ̀ Iye Ìpín = Market Cap\n\nÀpẹẹrẹ: Bí {retail} bá ní ìpín bílíọ̀nù 1 tí ìpín kọ̀ọ̀kan sì jẹ́ {c}50, market cap jẹ́ {c}50 BÍLÍỌ̀NÙ. Ìyẹn ni 'àmì iye owó' lórí gbogbo ilé-iṣẹ́ náà.\n\n🔵 Large cap: àwọn orúkọ tó tóbi jù tí wọ́n sì ti fìdí múlẹ̀ jù, bíi {tech} àti {bank}. Ewu tí ó kéré, ìdàgbàsókè tí ó lọ́ra jù nígbà púpọ̀.\n🟡 Mid cap: àwọn ilé-iṣẹ́ alábọ́dé. Ewu tí ó dọ́gba.\n🔴 Small cap: àwọn ilé-iṣẹ́ kékeré. Wọ́n lè dàgbà kíákíá TÀBÍ wó lulẹ̀ gidigidi.\n\n⚠️ Àwọn ààlà náà kì í ṣe ti gbogbo ayé. Ní US, 'large cap' sábà máa ń túmọ̀ sí ohun tó ju $10 bílíọ̀nù lọ, ṣùgbọ́n ọjà kọ̀ọ̀kan ń ṣètò ààlà tirẹ̀, nítorí náà large cap ní {name} kò tóbi bákan náà pẹ̀lú large cap ní US. Ka nọ́mbà gidi náà, kì í ṣe àmì orúkọ nìkan 🧐",
+      "quiz": {
+        "q": "Ilé-iṣẹ́ A ní ìpín mílíọ̀nù 5 ní {c}200 ọ̀kọ̀ọ̀kan. Ìpín Ilé-iṣẹ́ B jẹ́ {c}10. Fà á dé iye mílíọ̀nù ìpín tí B nílò láti níye lórí tó A.",
+        "explanation": "Market cap jẹ́ iye owó ìpín tí a fi iye ìpín sọ di púpọ̀. Ilé-iṣẹ́ A níye lórí mílíọ̀nù 5 lọ́nà {c}200, èyí tí ó jẹ́ {c}1,000 mílíọ̀nù. Ilé-iṣẹ́ B ní láti dé àpapọ̀ kan náà ní {c}10 fún ìpín kan, nítorí náà ó nílò ìpín mílíọ̀nù 100, ìlọ́po ogún. Iye owó ìpín tí ó kéré kò sọ nǹkan kan fún ọ nípa bí ilé-iṣẹ́ ṣe tóbi tó."
+      }
+    },
+    "22": {
+      "title": "Àlàyé P/E Ratio",
+      "desc": "Ṣé ìpín kan wọ́n ni tàbí ó wọ́?",
+      "content": "P/E ratio (Iye Owó sí Èrè, Price-to-Earnings) ń sọ fún ọ iye tí o ń san fún {cName} kọ̀ọ̀kan nínú èrè ilé-iṣẹ́ kan.\n\n📐 Fọ́múlà: Iye Owó Ìpín ÷ Èrè fún Ìpín Kọ̀ọ̀kan = P/E Ratio\n\nRonú nípa rẹ̀ bí iye owó fún ègé pizza kọ̀ọ̀kan 🍕\n\nBí pizza A bá jẹ́ {c}80 fún ègé 8 = {c}10/ègé\nBí pizza B bá jẹ́ {c}100 fún ègé 5 = {c}20/ègé\n\nPizza A wọ́ jù fún ègé kọ̀ọ̀kan. Èrò tó jọ ọ́ ni ti ìpín:\n• P/E kékeré (ní ìsàlẹ̀ 10) = ó lè jẹ́ ọjà olówó pọ́ọ́kú, TÀBÍ ọjà ń retí pé èrè rẹ̀ máa LỌ SÍLẸ̀. P/E kékeré jẹ́ ìbéèrè, kì í ṣe ìdáhùn.\n• P/E gíga (ní òkè 25) = ọjà ń retí ìdàgbàsókè ńlá ní ọjọ́ iwájú. Ilé-iṣẹ́ náà sì ní láti mú un ṣẹ gan-an.\n\nMáa fi P/E wé ti àwọn ilé-iṣẹ́ MÌÍRÀN nínú iṣẹ́ ajé kan náà nígbà gbogbo. Má ṣe fi P/E báǹkì wé ti ilé-iṣẹ́ ìmọ̀-ẹ̀rọ!",
+      "quiz": {
+        "q": "Ilé-iṣẹ́ A ní P/E 8. Ilé-iṣẹ́ B (iṣẹ́ ajé kan náà) ní P/E 30. Kí ni èyí ń tọ́ka sí?",
+        "explanation": "P/E tí ó kéré túmọ̀ sí sísan díẹ̀ fún ẹyọ èrè kọ̀ọ̀kan, èyí tí ó lè túmọ̀ sí ọjà olówó pọ́ọ́kú tàbí ilé-iṣẹ́ tí ó wà nínú wàhálà. Ratio náà ń gbé ìbéèrè dìde; kò dáhùn rẹ̀.",
+        "options": [
+          "Ilé-iṣẹ́ A wọ́ jù fún ẹyọ èrè kọ̀ọ̀kan, ṣùgbọ́n wádìí ÌDÍ kí o tó rà",
+          "Ilé-iṣẹ́ B ni ìdókòwò tó dára jù nínú àwọn méjèèjì nígbà gbogbo",
+          "P/E ratio kò ṣèrànwọ́ rárá nínú ìpinnu ìdókòwò"
+        ]
+      }
+    },
+    "23": {
+      "title": "Kíka Èsì Ilé-iṣẹ́",
+      "desc": "Owó tó wọlé, èrè, àti ohun tó ṣe pàtàkì",
+      "content": "Ní oṣù díẹ̀ díẹ̀, àwọn ilé-iṣẹ́ máa ń gbé 'káàdì ìròyìn' wọn jáde (ní gbogbo ìdámẹ́rin ọdún ní àwọn ọjà kan, lẹ́ẹ̀mejì lọ́dún ní àwọn mìíràn), ó sì máa ń yí iye owó ìpín padà GIDIGIDI. Ohun tí o máa wá nìyí:\n\n📊 OWÓ TÓ WỌLÉ (REVENUE): Àpapọ̀ owó tó wọlé láti inú títà. Bí iye tí ṣọ́ọ̀bù kékeré kan rí lápapọ̀.\n💰 ÈRÈ PÍPÉ (NET PROFIT): Ohun tó kù LẸ́YÌN tí a ti san gbogbo ìnáwó. Owó gidi tó kù ní òpin ọjọ́.\n📈 EPS (Earnings Per Share): Èrè tí a pín sí iye ìpín. Iye tí ìpín kọ̀ọ̀kan jèrè.\n\nÀmì rere: Owó tó wọlé GÒKÈ + Èrè GÒKÈ + EPS ń dàgbà = 🟢 iye owó sábà máa ń gòkè\nÀmì búburú: Owó tó wọlé LỌ SÍLẸ̀ + Èrè ń dín kù = 🔴 iye owó sábà máa ń lọ sílẹ̀\n\nỌ̀rọ̀ kan wà níbẹ̀: ohun tó ń yí iye owó padà gan-an ni èsì náà ní ìfiwéra pẹ̀lú ohun tí ọjà RETÍ. Nọ́mbà tó dára gan-an tí kò dé ibi tí wọ́n retí ṣì lè mú ìpín kan lọ sílẹ̀.\n\nIlé-iṣẹ́ kan lè ní owó tó wọlé púpọ̀ ṣùgbọ́n kí ó má ní èrè rárá (ìnáwó gíga). Máa ṣàyẹ̀wò MÉJÈÈJÌ nígbà gbogbo!",
+      "quiz": {
+        "q": "{bank} ròyìn pé owó tó wọlé gòkè 15% ṣùgbọ́n èrè lọ sílẹ̀ 20% nítorí ìnáwó tó ga sí i. Ṣé àmì rere ni tàbí àmì búburú?",
+        "explanation": "Owó tó wọlé ni ohun tó wọlé, èrè ni ohun tó dúró. Ìnáwó ń gòkè yára ju títà lọ níbí, nítorí náà ilé-iṣẹ́ náà ń ṣe ìṣòwò púpọ̀ sí i ó sì ń pa díẹ̀ mọ́ nínú rẹ̀. Ìkìlọ̀ gidi ni, ṣùgbọ́n kì í ṣe ìwólulẹ̀, ohun tó kàn láti wádìí ni ìdí tí ìnáwó fi gòkè.",
+        "options": [
+          "Ó ń dáni lágara, nítorí pé wọ́n ń tà púpọ̀ ṣùgbọ́n wọ́n ń pa díẹ̀ mọ́",
+          "Ó lágbára, nítorí pé owó tó wọlé tó ń gòkè ni ohun tó ṣe pàtàkì gan-an",
+          "Ó burú jáì, nítorí pé èrè tó ń lọ sílẹ̀ túmọ̀ sí pé ilé-iṣẹ́ náà ń kùnà"
+        ]
+      }
+    },
+    "24": {
+      "title": "Ẹ̀ka àti Iṣẹ́ Ajé",
+      "desc": "Oríṣiríṣi ilé-iṣẹ́",
+      "content": "Ọjà ìpín pín sí àwọn ẹ̀ka (sectors), bí ẹ̀ka ọ̀tọ̀ọ̀tọ̀ ní ilé-ìwé.\n\n{sectorList}\n\nÀwọn ẹ̀ka ọ̀tọ̀ọ̀tọ̀ máa ń gòkè tí wọ́n sì ń lọ sílẹ̀ ní àkókò ọ̀tọ̀ọ̀tọ̀, ìyẹn sì ni gbogbo ìdí tí a fi ń pín owó ká sí wọn! Bí báǹkì bá wó lulẹ̀, bóyá ìmọ̀-ẹ̀rọ ń gbèrú. Portfolio rẹ á wà ní ìwọ̀ntúnwọ̀nsì. 🎯",
+      "quiz": {
+        "q": "Èlé owó ní {name} gòkè gidigidi. Ẹ̀ka wo ló sábà máa ń jàǹfààní jù?",
+        "explanation": "Àwọn báǹkì ń jèrè lórí àlàfo láàárín ohun tí wọ́n ń gbà lọ́wọ́ àwọn ayáwó àti ohun tí wọ́n ń san fún àwọn afowópamọ́, èlé tó ń gòkè sì sábà máa ń mú àlàfo yẹn gbòòrò. Fún ọ̀pọ̀ àwọn ẹ̀ka mìíràn, yíyá owó tó wọ́n jù jẹ́ ìnáwó.",
+        "options": [
+          "Ìtajà: àwọn oníbàárà ń yá owó fàlàlà wọ́n sì ń ná àfikún rẹ̀ ní ọjà",
+          "Báǹkì: àwọn báǹkì sábà máa ń jèrè àlàfo tó gbòòrò sí i láàárín ohun tí wọ́n ń gbà lọ́wọ́ ayáwó àti ohun tí wọ́n ń san fún afowópamọ́",
+          "Ìmọ̀-ẹ̀rọ: yíyá owó láti kọ́ nǹkan ń wọ́ sí i, nítorí náà àwọn ilé-iṣẹ́ software ń gbòòrò yára sí i"
+        ]
+      }
+    },
+    "25": {
+      "title": "Kí ni ETF?",
+      "desc": "Ra odindi apẹ̀rẹ̀ kan lẹ́ẹ̀kan náà",
+      "content": "Yíyan orin kọ̀ọ̀kan ni ọ̀nà kan ṣoṣo láti ṣe playlist tẹ́lẹ̀. Lẹ́yìn náà Spotify dé ó sì fún ọ ní playlist tí wọ́n ti ṣe tẹ́lẹ̀, àkójọ lójú ẹsẹ̀ láìsí ìsapá. 🎵\n\nETFs (Exchange-Traded Funds) ni Spotify ìdókòwò. Dípò kí o yan ìpín ní ọ̀kọ̀ọ̀kan, o ra ETF KAN tí ó di odindi apẹ̀rẹ̀ wọn mú.\n\nỌ̀pọ̀ ETF ń tẹ̀lé ATỌ́KÀ (INDEX): àkọsílẹ̀ ilé-iṣẹ́ tí wọ́n gbé jáde, tí wọ́n kó jọ gẹ́gẹ́ bí ìwé òfin kan. {etfDesc} ETF náà kàn ń ra ohun tó wà lórí àkọsílẹ̀ náà, ní ìwọ̀n kan náà, ó sì ń ṣe àtúnṣe ara rẹ̀ nígbà tí àkọsílẹ̀ náà bá yí padà.\n\nNítorí náà ETF {etf} kan ń fún ọ ní apá kékeré nínú {etfBasket} (àwọn orúkọ bíi {top5}) nínú rírà kan ṣoṣo.\n\n⚠️ Atọ́kà KÌ Í ṣe 'àwọn ilé-iṣẹ́ tó tóbi jù' fúnra rẹ̀. Àwọn àkọsílẹ̀ kan ń tò wọ́n gẹ́gẹ́ bí wọ́n ṣe tóbi tó, àwọn kan gẹ́gẹ́ bí wọ́n ṣe ń ṣòwò ìpín kan tó, àwọn kan sì jẹ́ ìgbìmọ̀ ló yàn wọ́n. Atọ́kà méjì lórí ọjà ìpín kan náà lè ní àwọn ilé-iṣẹ́ tó yàtọ̀ pátápátá. Máa ka ohun tí àkọsílẹ̀ náà jẹ́ gan-an kí o tó rà á.\n\nETFs sábà máa ń wọ́ jù, rọrùn jù, wọ́n sì pín ká jù yíyan ìpín fúnra rẹ lọ. Ọ̀pọ̀ àwọn alákòóso owó akọ́ṣẹ́mọṣẹ́ kò lè borí wọn! 🤯",
+      "quiz": {
+        "q": "O ra ẹyọ kan ETF {etf}, tí ó ń tẹ̀lé {etfBasket}. Kí ni o ní báyìí?",
+        "explanation": "Atọ́kà jẹ́ àkọsílẹ̀ tí wọ́n gbé jáde, ETF atọ́kà sì ń ra gbogbo ohun tó wà lórí rẹ̀ ní ìwọ̀n kan náà. Nítorí náà ẹyọ kan ní apá kékeré nínú gbogbo orúkọ tó wà lórí àkọsílẹ̀ náà, ìdí nìyẹn tí rírà kan ṣoṣo fi ti pín ká tẹ́lẹ̀. Kì í ṣe orúkọ tó tóbi jù nìkan, kì í sì í ṣe owó tí ń dúró de ìtọ́ni rẹ.",
+        "options": [
+          "Ìpín kan nínú ilé-iṣẹ́ tó tóbi jù lórí àkọsílẹ̀ yẹn",
+          "Apá kékeré nínú gbogbo ilé-iṣẹ́ kọ̀ọ̀kan lórí àkọsílẹ̀ yẹn",
+          "Owó tí owó-àkójọ náà ń dì mú títí o fi sọ ohun tí yóò rà fún un"
+        ]
+      }
+    },
+    "26": {
+      "title": "Àwọn ETF {ex}",
+      "desc": "Àwọn ETF olókìkí tí ó yẹ kí o mọ̀",
+      "content": "Ọ̀pọ̀lọpọ̀ ETF àti owó-àkójọ atọ́kà (index funds) ló wà tí o lè rà láti {name}. Díẹ̀ lára àwọn tó gbajúmọ̀ jù nìyí:\n\n{etfList}\n\nÀǹfààní ńlá ETFs: OWÓ IṢẸ́. Ọ̀pọ̀ owó-àkójọ tí wọ́n ń ṣàkóso ní tààrà ń gba nǹkan bí 1–2% lọ́dún, nígbà mìíràn jù bẹ́ẹ̀ lọ. Àwọn ETF atọ́kà gbòòrò sábà máa ń gba ohun tí kò tó 0.2%. Lórí ìdókòwò {c}10,000 tí a dì mú fún ọdún 20, àlàfo yẹn níye lórí ẸGBẸẸGBẸ̀RÚN {cPlural} 💸\n\nṢàyẹ̀wò owó iṣẹ́ kí o tó rà. Wọ́n sábà máa ń kọ ọ́ ní 'TER' tàbí 'expense ratio'. Kò sí ẹni tó lè sọ fún ọ ohun tí ETF kan máa mú wá, ṣùgbọ́n owó iṣẹ́ jẹ́ nọ́mbà kan tí o LÈ mọ̀ ṣáájú.",
+      "quiz": {
+        "q": "O dókòwò 20,000 NT. Owó-àkójọ kan tí wọ́n ń ṣàkóso ní tààrà ń gba 2% lọ́dún. ETF atọ́kà kan tí ó di àwọn ilé-iṣẹ́ tó fẹ́rẹ̀ẹ́ jọra mú ń gba 0.2%. Fà á dé iye tí èyí tó wọ́n jù ń gbà lọ́wọ́ rẹ ju èkejì lọ ní ọdún kan ṣoṣo.",
+        "explanation": "Àlàfo láàárín owó iṣẹ́ méjèèjì jẹ́ 1.8% lọ́dún, 1.8% ti 20,000 NT sì jẹ́ 360 NT. Ìyẹn ń jáde bóyá owó-àkójọ náà gòkè tàbí ó lọ sílẹ̀, ó sì ń jáde lẹ́ẹ̀kan sí i lọ́dọọdún. Kò sí ẹni tó lè sọ fún ọ ohun tí owó-àkójọ kan máa mú wá, ṣùgbọ́n wọ́n ti kọ owó iṣẹ́ sílẹ̀ kí o tó rà, wọ́n sábà máa ń pè é ní TER tàbí expense ratio."
+      }
+    },
+    "27": {
+      "title": "ETF Àgbáyé àti ETF Ìbílẹ̀",
+      "desc": "Ìdókòwò nílé àti lẹ́yìn òde",
+      "content": "Ṣé kí o dókòwò nínú àwọn ilé-iṣẹ́ láti {name} nìkan? Ìdáhùn kúkúrú: Rárá! Ìdí nìyí:\n\n🏠 ETF ÌBÍLẸ̀: Dókòwò nínú àwọn ilé-iṣẹ́ {name}. O mọ àwọn orúkọ wọn, wọ́n wà ní {cPlural}. Ṣùgbọ́n bí ọrọ̀ ajé {name} bá ń tiraka, gbogbo portfolio rẹ lè lọ sílẹ̀.\n\n🌍 ETF ÀGBÁYÉ: Dókòwò nínú àwọn ilé-iṣẹ́ àgbáyé (US, Europe, Asia). {currencyHedge}\n\nṢùgbọ́n owó ilẹ̀ òkèèrè ń gé ọ̀nà méjèèjì: bí owó ìbílẹ̀ rẹ bá LÁGBÁRA SÍ I, iye àwọn ohun ìní òkèèrè kan náà á dín kù nílé. Ìyẹn ni ohun tí o gbà fún níní nǹkan lókè òkun.\n\nDídì ìbílẹ̀ àti àgbáyé mú pín ọ ká sí ewu méjì ọ̀tọ̀ọ̀tọ̀ lẹ́ẹ̀kan náà: ọrọ̀ ajé tìrẹ, àti owó tìrẹ. Ìwọ̀ntúnwọ̀nsì ni ohun gbogbo! ⚖️",
+      "quiz": {
+        "q": "{fxQuizSetup}. Àwọn ìpín òkèèrè tó wà nínú ETF àgbáyé rẹ kò yí padà rárá. Èló ni ó níye lórí báyìí tí a bá ṣírò rẹ̀ ní {cName}?",
+        "explanation": "ETF àgbáyé ní àwọn nǹkan tí iye owó wọn wà ní owó mìíràn. Nígbà tí owó tìrẹ bá ń dín kù ní agbára, owó òkèèrè yẹn ń yí padà sí púpọ̀ sí i nínú tìrẹ, nítorí náà ohun ìní náà níye lórí jù nílé bí àwọn ìpín náà kò tilẹ̀ yí padà. Ó tún ń ṣiṣẹ́ ní ọ̀nà kejì: owó tí ó lágbára sí i nílé ń dín ohun ìní kan náà kù ní kẹ́lẹ́. Ewu owó ilẹ̀ òkèèrè ń gé ọ̀nà méjèèjì.",
+        "options": [
+          "Ó gòkè, nítorí pé owó tí ó dì mú lókè òkun ń ra púpọ̀ sí i nílé báyìí",
+          "Ó lọ sílẹ̀, nítorí pé ìròyìn owó búburú gbọ́dọ̀ burú fún owó rẹ náà",
+          "Kò yí padà, nítorí pé àwọn ìpín inú rẹ̀ kò yí padà rárá"
+        ]
+      }
+    },
+    "28": {
+      "title": "Ìfowópamọ́ àti Ìdókòwò",
+      "desc": "Kí ló dé tí owó rẹ fi gbọ́dọ̀ ṣiṣẹ́",
+      "content": "Méjèèjì dára. Ṣùgbọ́n wọ́n ń ṣe iṣẹ́ ọ̀tọ̀ọ̀tọ̀:\n\n🏦 ÌFOWÓPAMỌ́: Fi owó sínú àkáǹtì báǹkì. Ó wà láìléwu, o lè rí i nígbàkígbà. ṢÙGBỌ́N èlé sábà máa ń jẹ́ {savings}, nígbà púpọ̀ kò tó ìlọ́sókè iye owó ọjà (inflation). Owó rẹ 'wà láìléwu' ṣùgbọ́n agbára ìrajà rẹ̀ ń dín kù díẹ̀díẹ̀.\n\n📈 ÌDÓKÒWÒ: Fi owó sínú ìpín, ETFs tàbí ilé àti ilẹ̀. Ewu púpọ̀ sí i, kò sì sí ìdánilójú ní ọdún kankan. Ní àwọn ọdún kan, o kàn máa pàdánù owó ni. Ṣùgbọ́n ní àkókò pípẹ́, ìpín ti mú èrè wá ju owó lọ nínú ìtàn. Ọjà {name} ti mú nǹkan bí {mktReturn} wá lọ́dún ní àpapọ̀ tẹ́lẹ̀, àpapọ̀ àtẹ̀yìnwá sì jẹ́ ìtàn, kì í ṣe ìlérí.\n\nÒfin àtẹ̀yìnwá:\n• Ìnáwó oṣù 3–6 nínú ìfowópamọ́ (owó pàjáwìrì rẹ) 🚨\n• Owó tí o kò ní nílò fún ọ̀pọ̀ ọdún ni àwọn ènìyàn ń dókòwò 🚀\n\nMá ṣe dókòwò owó tí o lè nílò ní oṣù tó ń bọ̀. Ìyẹn ni ohun tí ìfowópamọ́ wà fún!",
+      "quiz": {
+        "q": "Ìnáwó rẹ jẹ́ 800 NT lóṣù, o sì ti pa 5,000 NT mọ́. Fà á dé owó pàjáwìrì tó kéré jù tí òfin àtẹ̀yìnwá máa fi sílẹ̀ ní owó lọ́wọ́.",
+        "explanation": "Òfin àtẹ̀yìnwá ni ìnáwó oṣù mẹ́ta sí mẹ́fà tí a pa mọ́ ní owó lọ́wọ́. Oṣù mẹ́ta ti owó 800 NT jẹ́ 2,400 NT, oṣù mẹ́fà sì máa jẹ́ 4,800 NT, nítorí náà ibikíbi láàárín ààlà yẹn jẹ́ déédéé. Ìdí tí a fi ń pa á mọ́ ní owó lọ́wọ́ rọrùn: nígbà tí nǹkan bá bàjẹ́ láìròtẹ́lẹ̀, o kò fẹ́ kí wọ́n fipá mú ọ láti ta àwọn ìdókòwò rẹ ní ọjọ́ yòówù tí ó bá ṣẹlẹ̀."
+      }
+    },
+    "29": {
+      "title": "Ìlọ́sókè Iye Owó Ọjà àti Owó Rẹ",
+      "desc": "Kí ló dé tí owó fi ń dín kù ní iye bí àkókò ti ń lọ",
+      "content": "Béèrè lọ́wọ́ àgbàlagbà kan iye tí {food} jẹ́ nígbà tí wọ́n wà ní ọjọ́ orí rẹ. Ó jẹ́ nǹkan bí {c}{foodOld}. Báyìí ó ti di {c}{foodNew}+. Ìyẹn ni inflation (ìlọ́sókè iye owó ọjà): iye owó ń gòkè díẹ̀díẹ̀ bí àkókò ti ń lọ, èyí tí ó túmọ̀ sí pé {cName} kọ̀ọ̀kan ń ra DÍẸ̀ ju bí ó ti ń rà tẹ́lẹ̀.\n\nInflation ní {name} ti sábà máa ń jẹ́ nǹkan bí {inflation} lọ́dún.\n\nNítorí náà bí ìfowópamọ́ rẹ bá ń pa 4% lọ́dún ṣùgbọ́n inflation jẹ́ 6%, ò ń PÀDÁNÙ nǹkan bí 2% agbára ìrajà lọ́dọọdún gan-an, bí owó inú àkáǹtì rẹ tilẹ̀ gòkè!\n\n💡 Àwọn ìdókòwò rẹ gbọ́dọ̀ borí inflation láti mú ọrọ̀ rẹ dàgbà lóòótọ́.\n• Owó lábẹ́ ibùsùn: ń dín kù ní iye lọ́dọọdún 💀\n• Ìfowópamọ́ báǹkì: nígbà púpọ̀ kò fi bẹ́ẹ̀ lè bá a dọ́gba\n• Ìpín {ex} (àpapọ̀ ìgbà pípẹ́): {mktReturn} lọ́dún, èyí tí ó jẹ́ àpapọ̀ àtẹ̀yìnwá, kì í ṣe ìlérí 🔥\n\nÌdókòwò kì í ṣe nípa dídi ọlọ́rọ̀ nìkan. Ó jẹ́ nípa kí o má di òtòṣì sí i! 💸",
+      "quiz": {
+        "q": "Àkáǹtì ìfowópamọ́ rẹ ń san 4% lọ́dún. Iye owó ọjà ń gòkè 6% lọ́dún. Fà á dé ohun tó ń ṣẹlẹ̀ gan-an sí agbára ìrajà rẹ ní ọdún yẹn.",
+        "explanation": "Èrè gidi ni èlé tí o jèrè yọ inflation tí o san kúrò, nítorí náà 4% ní ìfiwéra pẹ̀lú 6% jẹ́ nǹkan bí ìyọkúrò 2%. Nọ́mbà inú àkáǹtì rẹ ń gòkè nígbà tí ohun tí ó lè rà gan-an ń lọ sílẹ̀, ìyẹn sì ni ẹ̀tàn ní kẹ́lẹ́ tí inflation ń ṣe sí ìfowópamọ́. Láti kọ́ ọrọ̀ gidi, owó gbọ́dọ̀ borí inflation, kì í ṣe kí ó kàn jèrè nǹkan kan."
+      }
+    },
+    "30": {
+      "title": "Ìmọ̀lára àti Ìdókòwò",
+      "desc": "Má ṣe tà nínú ẹ̀rù tàbí rà nítorí FOMO",
+      "content": "Ọjà ìpín jẹ́ ìdánwò ìkóra-ẹni-níjàánu ìmọ̀lára ní ṣókí. Ọ̀pọ̀ ènìyàn ló ń kùnà rẹ̀. 🎭\n\n😱 TÍTÀ NÍNÚ Ẹ̀RÙ: Ọjà lọ sílẹ̀ 20%, ìdààmú bá ọ, o ta gbogbo nǹkan. Lẹ́yìn náà ó padà bọ̀ sípò. O ti dá àdánù rẹ dúró láìnídìí.\n\n🤑 RÍRÀ NÍTORÍ FOMO: Gbogbo ènìyàn lórí ẹ̀rọ ayélujára ń polówó coin kan. O sáré wọlé. Iye owó náà wó lulẹ̀ lẹ́sẹ̀kẹsẹ̀. Ìwọ ni ẹrù náà wà lọ́wọ́ rẹ.\n\nÀwọn olùdókòwò tó dára jù ń wo ìwólulẹ̀ ọjà bí àsìkò ẹ̀dínwó ní {retail}. Wọ́n ń bá rírà lọ, pẹ̀lú ìfọkànbalẹ̀, dípò kí wọ́n bẹ̀rù. Warren Buffett sọ ọ́ báyìí: 'Bẹ̀rù nígbà tí àwọn mìíràn bá ń wọ̀ra, kí o sì wọ̀ra nígbà tí ẹ̀rù bá ń ba àwọn mìíràn.'\n\nṢe ètò rẹ. Dúró tì í. Ìwọ ọjọ́ iwájú á dúpẹ́ lọ́wọ́ rẹ pé o kò tà nínú ìbínú ní ọjọ́ pupa kan! 🙏",
+      "quiz": {
+        "q": "Ọjà lọ sílẹ̀ 15% ní ọ̀sẹ̀ kan, group chat rẹ sì ń ta gbogbo nǹkan. Owó rẹ wà nínú ìdókòwò fún ọdún mẹ́wàá tó ń bọ̀. Kí ni ìgbésẹ̀ náà?",
+        "explanation": "Ìsọ̀kalẹ̀ 15% máa ń di àdánù gidi kìkì ní ọjọ́ tí o bá tà nínú rẹ̀. Ètò tí o kọ nígbà tí kò sí ohun tó ń ṣẹlẹ̀ ni ìwọ tí orí rẹ pé kọ, dídúró tì í sì ni gbogbo ọgbọ́n náà. Dídúró kí nǹkan fara balẹ̀ kí o tó rà padà túmọ̀ sí rírà padà ní iye owó tó ga jù, nítorí pé ìfọkànbalẹ̀ máa ń dé lẹ́yìn ìpadàbọ̀sípò, kì í ṣe ṣáájú rẹ̀.",
+        "options": [
+          "Tà á báyìí kí o sì rà padà nígbà tí gbogbo rẹ̀ bá fara balẹ̀",
+          "Kó owó náà lọ sí ohunkóhun tí chat náà ń rà dípò",
+          "Máa bá ètò tí o kọ sílẹ̀ nígbà tí ara rẹ balẹ̀ lọ"
+        ]
+      }
+    },
+    "31": {
+      "title": "Ọ̀gá Ìkẹyìn",
+      "desc": "Èlé Àgbo, ìyanu kẹjọ ayé",
+      "content": "'Ìyanu kẹjọ ayé: ẹni tó bá yé, á jèrè rẹ̀; ẹni tí kò yé, á san án.' Wàá rí ọ̀rọ̀ yẹn níbi gbogbo lórí ayélujára tí wọ́n ń sọ pé Einstein ló sọ ọ́. Kò sí ẹ̀rí gidi pé ó sọ ọ́.\n\nṢùgbọ́n ìṣirò náà kò ṣeé sẹ́. Ohun tó ṣe pàtàkì jù tí wàá kọ́ nípa owó nìyí:\n\nẸni tí ó bẹ̀rẹ̀ ní ọmọ ọdún 20 tí ó sì ń dókòwò {c}500/oṣù ní 12% lọ́dún máa ní PÚPỌ̀ JÙ ní ọmọ ọdún 65 ju ẹni tí ó bẹ̀rẹ̀ ní ọmọ ọdún 35 tí ó sì ń dókòwò {c}2,000/oṣù ní ìwọ̀n kan náà. Ìlọ́po mẹ́rin iye oṣooṣù, síbẹ̀ wọ́n ṣì parí sẹ́yìn.\n\nÀkókò. Ni. Ohun gbogbo.\n\nÌyẹn kì í ṣe ẹ̀tàn nọ́mbà, òun ni gbogbo kókó èlé àgbo: gbogbo ọdún tí o bá dúró ná ọ ju ọdún èyíkéyìí tí o bá fi kún un lẹ́yìn náà lè jèrè padà. Àkókò tó dára jù láti bẹ̀rẹ̀ ni tẹ́lẹ̀. Èkejì tó dára jù ni báyìí.\n\nÌdánwò yìí ni ìdánwò ìkẹyìn rẹ. Gbà á dáadáa, NoobTrader á sì fọwọ́ sí ọ ní gbangba! 👑",
+      "bossVictory": "Èlé Àgbo ti ṣí sílẹ̀. O ti di eewu báyìí. 🔥",
+      "quiz": {
+        "q": "{c}1,000 tí a dókòwò ní 12% lọ́dún fún ọdún 10 dàgbà dé ~{c}3,106. Kí ló ń ṣẹlẹ̀ bí o bá SỌ àkókò náà DI ÌLỌ́PO MÉJÌ sí ọdún 20?",
+        "explanation": "Sísọ àkókò di ìlọ́po méjì ń ṣe ju sísọ èsì di ìlọ́po méjì lọ gidigidi, nítorí pé ìdàgbàsókè ọdún kọ̀ọ̀kan ń kó jọ lórí gbogbo ohun tó ṣáájú rẹ̀. Ìdàgbàsókè ń yára sí i dípò kí ó lọ́ra.",
+        "options": [
+          "Ó ju ìlọ́po mẹ́ta lọ, ó di ~{c}9,646",
+          "Ó fẹ́rẹ̀ẹ́ di ìlọ́po méjì, ó di ~{c}6,200",
+          "Èrè náà ń lọ́ra sí i bí o bá ṣe ń dúró pẹ́ tó"
+        ]
+      }
+    },
+    "32": {
+      "title": "Pèpéle àti Àpò Crypto",
+      "desc": "Ibi tí crypto ń gbé gan-an",
+      "content": "Lákọ̀ọ́kọ́, apá òtítọ́: àwọn pèpéle crypto gidi ń béèrè pé kí o jẹ́ ọmọ ọdún 18+ ní fẹ́rẹ̀ẹ́ gbogbo orílẹ̀-èdè. Ìdí nìyẹn tí NoobTrader fi ń jẹ́ kí o kọ́ gbogbo rẹ̀ pẹ̀lú owó fọ́nrán lákọ̀ọ́kọ́. 🎮\n\nNígbà tí àwọn àgbàlagbà bá ń ra crypto, wọ́n ń lo oríṣi ibi méjì:\n\n🏦 ỌJÀ ÌPÀṢÍPÀÀRỌ̀ ÀTI APP ALÁGBÀTÀ (custodial): o ṣí àkáǹtì, wọ́n ń bá ọ di crypto rẹ mú. Ó rọrùn, ṣùgbọ́n o ń gbẹ́kẹ̀lé wọn. Bí wọ́n bá jí wọn wò (hack) tàbí wọ́n bá wó, crypto rẹ lè pòórá. Ó ti ṣẹlẹ̀ sí díẹ̀ lára àwọn orúkọ tó tóbi jù nínú crypto.\n\n🔑 ÀPÒ TÍ O DI MÚ FÚNRA RẸ (self-custody): app kan níbi tí ÌWỌ ti di kọ́kọ́rọ́ àṣírí mú. Kò sí ẹni tó lè dì í, ṣùgbọ́n kò sí ẹni tó lè ràn ọ́ lọ́wọ́ pẹ̀lú. Bí o bá pàdánù seed phrase rẹ (ọ̀rọ̀ àṣírí 12 sí 24) crypto náà ti lọ títí láé. Kò sí àtúntò ọ̀rọ̀ aṣínà. Kò sí ìrànlọ́wọ́ oníbàárà. Ó ti lọ.\n\nÀwọn ènìyàn crypto máa ń sọ pé: 'Kì í ṣe kọ́kọ́rọ́ rẹ, kì í ṣe coin rẹ.' Báyìí o mọ ohun tí ìyẹn túmọ̀ sí.",
+      "quiz": {
+        "q": "Kí ló túmọ̀ sí nígbà tí ọjà ìpàṣípààrọ̀ kan bá di crypto rẹ mú ní ọ̀nà 'custodial'?",
+        "explanation": "Custodial túmọ̀ sí pé pèpéle náà ló ń pa kọ́kọ́rọ́ mọ́, nítorí náà àwọn coin rẹ wà láìléwu tó bí pèpéle náà ṣe wà láìléwu tó nìkan. Bí wọ́n bá jí i wò tàbí ó bá wó, wọ́n lè bá a lọ. Ìyẹn ni ohun tí àwọn ènìyàn ń sọ nígbà tí wọ́n bá sọ pé kì í ṣe kọ́kọ́rọ́ rẹ, kì í ṣe coin rẹ.",
+        "options": [
+          "Ọjà ìpàṣípààrọ̀ náà ló ń bá ọ di kọ́kọ́rọ́ mú",
+          "Ìwọ ló di kọ́kọ́rọ́ mú, kò sì sí ẹlòmíràn tó lè ṣe bẹ́ẹ̀",
+          "Kò sí ẹni tó lè fọwọ́ kan àwọn coin náà, kódà ìwọ",
+          "Ó ń pa èlé fúnra rẹ̀"
+        ]
+      }
+    },
+    "33": {
+      "title": "Bí Rírà Crypto Ṣe Ń Ṣiṣẹ́",
+      "desc": "Spread, owó iṣẹ́ àti ọjà 24/7",
+      "content": "Rírà crypto dà bí rírà ohunkóhun lórí ayélujára, ṣùgbọ́n nǹkan mẹ́ta yàtọ̀:\n\n1️⃣ SPREAD: iye owó rírà máa ń ga díẹ̀ ju iye owó títà lọ nígbà gbogbo. Ra crypto {c}100 kí o sì tà á lẹ́sẹ̀kẹsẹ̀, bóyá wàá rí {c}97 gbà padà. Àlàfo yẹn ni bí àwọn pèpéle ṣe ń jèrè ní kẹ́lẹ́.\n\n2️⃣ OWÓ IṢẸ́ LÓRÍ RẸ̀: ọ̀pọ̀ pèpéle tún ń gba owó iṣẹ́ fún ìṣòwò kọ̀ọ̀kan, nígbà púpọ̀ 1 sí 2% fún rírà kékeré. Owó iṣẹ́ pẹ̀lú spread túmọ̀ sí pé rírà kékeré kan bẹ̀rẹ̀ ní nǹkan bí 3 sí 5% nínú àdánù kí iye owó tó yí padà rárá.\n\n3️⃣ KÒ SÍ AGOGO ÌTÌPA: àwọn ọjà ìpín máa ń tì lóru àti ní ìparí ọ̀sẹ̀. Crypto ń ṣòwò 24/7, ní gbogbo ọjọ́ ọdún. Iye owó lè wó lulẹ̀ nígbà tí o ń sùn. Ìyẹn jẹ́ apá kan ìdí tí crypto fi ń yí padà gidigidi ju ìpín lọ.\n\nNínú NoobTrader o lè ṣòwò crypto pẹ̀lú owó fọ́nrán, 24/7, láìpàdánù kọ́bọ̀ kan. O ń san owó iṣẹ́ lórí gbogbo ìṣòwò, ṣùgbọ́n NoobTrader kì í gba spread, nítorí náà rírà gidi máa ná ọ ju ìṣòwò kan náà níbí lọ. 📊",
+      "quiz": {
+        "q": "O fi 200 NT sínú coin kan o sì tà á ní ìṣẹ́jú-àáyá márùn-ún lẹ́yìn náà, kí iye owó tó yí padà rárá. Àlàfo láàárín iye owó rírà àti títà ná 3%, pèpéle náà sì ń gba owó iṣẹ́ 1% lórí ìṣòwò kọ̀ọ̀kan. Fà á dé iye tí ó padà wá.",
+        "explanation": "Spread mú 3%, lẹ́yìn náà owó iṣẹ́ 1% bọ́ sí i nígbà tí o ń wọlé àti òmíràn nígbà tí o ń jáde. Ìyẹn jẹ́ 5% ti 200 NT rẹ, nítorí náà 10 NT ti lọ kí iye owó tó ṣe nǹkan kan. O rí 190 NT gbà padà, coin náà sì ní láti gòkè 5% báyìí kí o kàn lè dọ́gba."
+      }
+    },
+    "34": {
+      "title": "Àlàyé Owó Gas",
+      "desc": "Kí ló dé tí fífi crypto ránṣẹ́ fi ń náni lówó",
+      "content": "Fífi crypto ránṣẹ́ kì í ṣe ọ̀fẹ́. Gbogbo ìṣòwò ló ń san owó nẹ́tíwọ̀ọ̀kì, tí wọ́n sábà máa ń pè ní GAS, fún àwọn kọ̀ǹpútà tí ń ṣiṣẹ́ lórí rẹ̀ tí wọ́n sì ń dáàbò bo nẹ́tíwọ̀ọ̀kì náà.\n\nApá tí ó ń ya gbogbo ènìyàn lẹ́nu nìyí: iye owó gas dá lórí bí nẹ́tíwọ̀ọ̀kì ṣe kún tó, KÌ Í ṢE lórí iye tí o fi ránṣẹ́. Nígbà tí nẹ́tíwọ̀ọ̀kì bá kún, owó iṣẹ́ ń fò sókè.\n\n🤯 Lórí àwọn nẹ́tíwọ̀ọ̀kì kan, nígbà tí ó bá kún, fífi crypto {c}10 ránṣẹ́ lè ná ọ ju {c}10 lọ ní gas. Wàá san ju iye tí ẹrù náà níye lórí lọ fún fífi í jíṣẹ́.\n\nÀwọn nẹ́tíwọ̀ọ̀kì tuntun àti àwọn ètò 'layer 2' wà ní pàtàkì láti jẹ́ kí èyí wọ́, pẹ̀lú owó iṣẹ́ tí ó jẹ́ kọ́bọ̀ díẹ̀. Ẹnikẹ́ni tí ń ṣòwò crypto máa ń ṣàyẹ̀wò owó iṣẹ́ KÍ Ó TÓ tẹ send.\n\nOhun kan sí i: kò ṣeé ṣe láti dá fífi crypto ránṣẹ́ padà. Àdírẹ́sì tí kò tọ́ pẹ̀lú gas tí a ti san túmọ̀ sí owó tí ó ti lọ, títí láé. Kò sí báǹkì tí o lè pè. ☎️❌",
+      "quiz": {
+        "q": "Owó gas ga lónìí. O fẹ́ fi crypto {c}15 ránṣẹ́, gas sì jẹ́ {c}20. Kí ni èrò ọlọ́gbọ́n?",
+        "explanation": "Iye owó gas dá lórí bí nẹ́tíwọ̀ọ̀kì ṣe kún tó, kì í ṣe lórí iye tí o fi ránṣẹ́, nítorí náà fífi díẹ̀ ránṣẹ́ lè ná ju iye rẹ̀ lọ. Pínpín in kò ṣèrànwọ́ náà, nítorí pé gbogbo fífi ránṣẹ́ ló ń san owó iṣẹ́ tirẹ̀. Dúró de àkókò tí ó dákẹ́ jù tàbí lo nẹ́tíwọ̀ọ̀kì tí ó wọ́ jù.",
+        "options": [
+          "San án, nítorí pé wọ́n máa dá owó iṣẹ́ padà nígbà tí ó bá dé",
+          "Fi í sílẹ̀, owó iṣẹ́ ná ju ẹrù náà lọ",
+          "Pín in sí méjì, kí ìdajì kọ̀ọ̀kan san ìdajì owó iṣẹ́",
+          "Fojú fo owó iṣẹ́ náà, gas wà fún fífi owó ńlá ránṣẹ́ nìkan"
+        ]
+      }
+    },
+    "35": {
+      "title": "Meme Coin àti Rug Pull",
+      "desc": "Rí àwọn pańpẹ́ kí wọ́n tó rí ọ",
+      "content": "Meme coin jẹ́ crypto tí a kọ́ sórí àwàdà àti ariwo dípò ìlò gidi kankan. Díẹ̀ nínú wọn sọ àwọn tó rà ní kùtùkùtù di ọlọ́rọ̀, ìdí nìyẹn gan-an tí ẹgbẹẹgbẹ̀rún àdàkọ fi wà. Fẹ́rẹ̀ẹ́ gbogbo wọn ló ń lọ sí òdo. 📉\n\nPańpẹ́ tó burú jù ni RUG PULL: àwọn olùdásílẹ̀ ṣe coin kan, wọ́n polówó rẹ̀ gidigidi, wọ́n dúró kí àwọn ènìyàn kún inú rẹ̀, lẹ́yìn náà wọ́n ta òkìtì ńlá tiwọn tàbí wọ́n kó owó inú adágún ìṣòwò náà lọ. Iye owó wó lulẹ̀ ní ìṣẹ́jú díẹ̀. Àwọn ni owó náà wà lọ́wọ́ wọn. Ìwọ ni coin tí kò níye lórí wà lọ́wọ́ rẹ.\n\n🚩 ÀMÌ ÌKÌLỌ̀ tí o gbọ́dọ̀ há sórí:\n• Ẹgbẹ́ tí a kò mọ orúkọ wọn tí o kò lè ṣàyẹ̀wò\n• Èrè 'tí ó dájú' (kò sí ohun tí ó dájú nínú ọjà)\n• Àwọn influencer tí wọ́n sanwó fún láti polówó rẹ̀\n• Ẹgbẹ́ kékeré kan ló di èyí tó pọ̀ jù nínú àwọn coin mú\n• Ìfúnpá láti 'rà kí ó tó pẹ́ jù'\n\nBí ohun pàtàkì tí wọ́n ń fi polówó coin kan bá jẹ́ pé rírà tí ÀWỌN MÌÍRÀN ń rà á máa sọ ÌWỌ di ọlọ́rọ̀, ìyẹn kì í ṣe ìdókòwò. Eré àga orin (musical chairs) ni, àwọn olùdásílẹ̀ ló sì ni orin náà. 🎵",
+      "quiz": {
+        "q": "Coin tuntun kan ní ẹgbẹ́ tí a kò mọ orúkọ wọn, ó ṣèlérí 100x tí ó dájú, àwọn influencer tí wọ́n sanwó fún sì ń tì í lẹ́yìn gidigidi. Kí ló sábà máa ń ṣẹlẹ̀ lẹ́yìn náà?",
+        "explanation": "Ẹgbẹ́ tí a kò mọ orúkọ wọn, èrè tí ó dájú àti ìpolówó tí a sanwó fún ni ètò rug pull àtẹ̀yìnwá. Àwọn olùdásílẹ̀ ló di èyí tó pọ̀ jù nínú àwọn coin mú, wọ́n tà á sínú ariwo náà wọ́n sì rìn lọ, wọ́n fi àwọn olùrà sílẹ̀ pẹ̀lú coin tí ẹnikẹ́ni kò fẹ́. Kò sí ohun tí ó dájú nínú ọjà.",
+        "options": [
+          "Ọjà ìpàṣípààrọ̀ tí ó ti bẹ̀rẹ̀ máa dá owó àwọn olùrà padà",
+          "Iye owó máa dúró ṣinṣin nígbà tí àwọn influencer bá dẹ́kun ìpolówó",
+          "Ẹgbẹ́ náà ta òkìtì wọn, iye owó sì wó lulẹ̀",
+          "Àwọn alákòóso ìjọba máa fipá mú ẹgbẹ́ náà láti sọ ẹni tí wọ́n jẹ́"
+        ]
+      }
+    },
+    "36": {
+      "title": "Mining, Ìṣòwò àti Staking",
+      "desc": "Eré mẹ́ta tí ó yàtọ̀ gidigidi",
+      "content": "Ọ̀nà mẹ́ta tí àwọn ènìyàn ń gbìyànjú láti jèrè nínú crypto, wọn KÌ Í ṣe eré kan náà:\n\n⛏️ MINING: àwọn kọ̀ǹpútà alágbára ń sáré láti ṣiṣẹ́ lórí ìṣòwò kí wọ́n sì jèrè coin tuntun. Ó dà bí ohun ìgbádùn, ṣùgbọ́n mining Bitcoin lónìí jẹ́ ti ilé-iṣẹ́ ńlá: ilé ìkẹ́rùsí tí ó kún fún ẹ̀rọ àkànṣe àti owó iná mànàmáná ńláńlá. Fóònù tàbí kọ̀ǹpútà alágbèérìn rẹ kò lè bá wọn díje, àwọn app 'mine Bitcoin lórí fóònù rẹ!' sì fẹ́rẹ̀ẹ́ jẹ́ jìbìtì tàbí oko ìpolówó nígbà gbogbo tí wọ́n ń san fẹ́rẹ̀ẹ́ òfo fún ọ.\n\n🥩 STAKING: lórí àwọn nẹ́tíwọ̀ọ̀kì kan o ń tì àwọn coin pa láti ṣèrànwọ́ dáàbò bo nẹ́tíwọ̀ọ̀kì náà kí o sì jèrè ẹ̀bùn, ó jọ èlé díẹ̀. Òótọ́ ni, ṣùgbọ́n àwọn coin rẹ lè wà ní títìpa fún ìgbà díẹ̀, IYE OWÓ wọn sì ṣì lè wó lulẹ̀ nígbà tí wọ́n wà ní títìpa.\n\n📊 ÌṢÒWÒ: rírà àti títà láti jèrè láti inú ìyípadà iye owó. Kò nílò ẹ̀rọ, ṣùgbọ́n òun ni eré tí ìkóra-ẹni-níjàánu ti ṣe pàtàkì jù, níbi tí ọ̀pọ̀ àwọn olùbẹ̀rẹ̀ ti ń pàdánù sí ìmọ̀lára ara wọn.\n\nNoobTrader ń kọ́ eré ìṣòwò láìsí ewu kankan. Àwọn méjì yòókù nílò owó gidi kí o tó lè bẹ̀rẹ̀ pàápàá.",
+      "quiz": {
+        "q": "App kan sọ pé fóònù rẹ lè ṣe mining Bitcoin pẹ̀lú èrè nígbà tí o ń sùn. Kí ni òtítọ́ tó ṣeé ṣe jù?",
+        "explanation": "Mining jẹ́ ìdíje tí ẹ̀rọ àkànṣe àti iná mànàmáná olówó pọ́ọ́kú ń pinnu, fóònù kò sì ní ọ̀kankan nínú wọn. Àwọn app tí ń ṣèlérí ọ̀nà mìíràn sábà máa ń wá ìwífún rẹ, bátírì rẹ tàbí owó rẹ, wọ́n sì ń san fẹ́rẹ̀ẹ́ òfo fún ọ.",
+        "options": [
+          "Fóònù ń ṣe mining díẹ̀díẹ̀ ṣùgbọ́n wọ́n ṣì ń mú èrè wá",
+          "Ó ń ṣiṣẹ́, ṣùgbọ́n lórí àwọn fóònù tuntun jù nìkan",
+          "Àwọn nẹ́tíwọ̀ọ̀kì ti fòfin de mining lórí fóònù",
+          "Oko ìpolówó ni tí ó ń san fẹ́rẹ̀ẹ́ òfo"
+        ]
+      }
+    },
+    "37": {
+      "title": "Ààbò Crypto àti Jìbìtì",
+      "desc": "Pa ohun tí ó jẹ́ tìrẹ mọ́ fún ara rẹ",
+      "content": "Agbára ńlá crypto tún ni ewu rẹ̀: kò ṣeé ṣe láti dá ìṣòwò padà, kò sì sí báǹkì tí ó lè ṣàtúnṣe àṣìṣe. Àwọn onífàyàwọ́ fẹ́ràn ìyẹn. Àpò ìgbèjà rẹ nìyí:\n\n🔐 SEED PHRASE RẸ JẸ́ MÍMỌ́. Kò sí ẹni tó tọ́ tí yóò béèrè fún un LÁÉ. Kì í ṣe 'òṣìṣẹ́ ìrànlọ́wọ́', kì í ṣe 'bot ìjẹ́rìísí', kò sí ẹnikẹ́ni. Ẹnikẹ́ni tí ó bá béèrè fún seed phrase rẹ ń jí lọ́wọ́ rẹ, ó parí.\n\n🎣 PHISHING: àwọn ojú-ewé ayélujára àti DM èké tí wọ́n jọ àwọn pèpéle gidi gẹ́lẹ́. Lẹ́tà kan yàtọ̀ nínú àdírẹ́sì ayélujára. Máa tẹ àdírẹ́sì náà fúnra rẹ nígbà gbogbo.\n\n🎁 JÌBÌTÌ Ẹ̀BÙN: 'Fi coin 1 ránṣẹ́, gba 2 padà!', nígbà púpọ̀ ní lílo àkáǹtì gbajúgbajà kan tí wọ́n ti jí wò. Kò sí ẹni tí ń sọ owó rẹ di ìlọ́po méjì. Láé.\n\n💕 JÌBÌTÌ ÌFẸ́ ÀTI 'OLÙKỌ́ ÌDÓKÒWÒ': àjèjì ọ̀rẹ́ kan tí ó ń rọ̀ ọ́ díẹ̀díẹ̀ láti wọ 'pèpéle àkànṣe' kan. Pèpéle náà jẹ́ èké. Gbígba owó jáde kì í ṣiṣẹ́ láé.\n\nÀpẹẹrẹ tó wà lábẹ́ gbogbo jìbìtì: kíákíá pẹ̀lú àṣírí pẹ̀lú èrè tí ó dájú. Bí o bá rí àwọn mẹ́ta yẹn papọ̀, rìn lọ. 🚶",
+      "quiz": {
+        "q": "Ẹnì kan tí ó ń sọ pé òun jẹ́ 'ìrànlọ́wọ́ pèpéle' fi DM ránṣẹ́ sí ọ ó sì béèrè fún seed phrase ọ̀rọ̀ 12 rẹ láti 'jẹ́rìísí àpò rẹ'. Kí ni o máa ṣe?",
+        "explanation": "Seed phrase NI àpò náà. Ẹnikẹ́ni tí ó bá dì í mú lè kó gbogbo rẹ̀ lọ, ìrànlọ́wọ́ gidi kì í béèrè fún un, kò sì sí apá kankan nínú rẹ̀ tí ó yẹ kí a pín láé.",
+        "options": [
+          "Má ṣe pín in láé, nítorí pé ìrànlọ́wọ́ gidi kì í béèrè fún seed phrase",
+          "Pín in, nítorí pé òṣìṣẹ́ ìrànlọ́wọ́ tí a ti jẹ́rìísí nílò rẹ̀ láti ṣàyẹ̀wò àkáǹtì rẹ",
+          "Pín ọ̀rọ̀ mẹ́fà àkọ́kọ́ nìkan, èyí tí ó wà láìléwu tó fúnra rẹ̀",
+          "Ní kí wọ́n kọ í-meèlì sí ọ láti àdírẹ́sì ìjọba wọn lákọ̀ọ́kọ́, lẹ́yìn náà pín in"
+        ]
+      }
+    },
+    "38": {
+      "title": "Ọ̀gá Crypto",
+      "desc": "Ẹ̀rọ àkókò Bitcoin",
+      "content": "Ó tó àkókò fún ìtàn tí gbogbo ènìyàn ń tọ́ka sí tí ẹnikẹ́ni kò sọ dáadáa.\n\nNí ìbẹ̀rẹ̀ 2017, Bitcoin kan jẹ́ nǹkan bí $1,000. Ní December 2024 ó kọjá $100,000 fún ìgbà àkọ́kọ́. Rírà $1,000, tí a dì mú ní gbogbo ọ̀nà náà, di nǹkan bí $100,000. Ìyẹn jẹ́ 100x. 🤯\n\nBáyìí apá tí ariwo náà fi sílẹ̀: láti gba 100x yẹn o ní láti jókòó ní àárín ìwólulẹ̀ líle méjì, ọ̀kan tí ó jẹ́ nǹkan bí 84% àti òmíràn tí ó jẹ́ nǹkan bí 77%, kí o sì máa wo owó rẹ tí ó ń dín kù fún ỌDÚN púpọ̀ láìtà. Fẹ́rẹ̀ẹ́ kò sí ẹni tí ó ṣe é. Ọ̀pọ̀ ènìyàn rà ní owó gíga, ẹ̀rù bà wọ́n nígbà ìwólulẹ̀, wọ́n sì tà ní owó kékeré.\n\nFún gbogbo Bitcoin, ẹgbẹẹgbẹ̀rún coin tí ó ti kú ló wà tí wọ́n lọ sí òdo. Yíyan ẹni tí yóò borí ṣáájú máa ń dà bí ohun tí ó rọrùn nígbà tí o bá wo ẹ̀yìn nìkan. Ìyẹn ni wọ́n ń pè ní survivorship bias, òun sì ni ìtànjẹ tí ó wọ́n jù nínú crypto.\n\nẸ̀kọ́ gidi ẹ̀rọ àkókò náà: fún àwọn coin tí ó yè, sùúrù borí yíyan àkókò. Ṣùgbọ́n o máa mọ àwọn coin tí ó yè LẸ́YÌN NÁÀ nìkan, ìdí nìyẹn tí pínpín owó ká fi borí yíyan akíkanjú, àti ìdí tí KÒ SÍ ẸNI tí ó mọ ọjọ́ iwájú. Kódà ọ̀gá náà. 🐉",
+      "bossVictory": "O ti ṣẹ́gun ẹ̀ka crypto. O mọ̀ ju ọ̀pọ̀ àgbàlagbà lọ báyìí. 🐉",
+      "quiz": {
+        "q": "Ẹgbẹẹgbẹ̀rún coin ló bẹ̀rẹ̀ pẹ̀lú Bitcoin, ọ̀pọ̀ nínú wọn sì ti fẹ́rẹ̀ẹ́ má níye lórí rárá báyìí. Kí ló dé tí \"kàn yan Bitcoin tó kàn\" fi dà bí ohun tó rọrùn nígbà tí o bá wo ẹ̀yìn?",
+        "explanation": "Àwọn tí ó yè nìkan ni wọ́n ṣì ń sọ̀rọ̀ nípa wọn, nítorí náà yíyan àwọn tí yóò borí dà bí ohun tí ó rọrùn jù nígbà tí a bá wo ẹ̀yìn ju bí ó ti rí nígbà náà lọ. Ẹgbẹẹgbẹ̀rún tí ó kùnà kò fi àmì kankan sílẹ̀ nínú ìtàn náà.",
+        "options": [
+          "Nítorí pé àwọn tí ó borí nìkan ni ẹnikẹ́ni ṣì ń sọ̀rọ̀ nípa wọn, àwọn tí ó kú sì ti pòórá kúrò nínú ìtàn náà",
+          "Nítorí pé àwọn coin tó dára jù hàn kedere láti ìbẹ̀rẹ̀ pàápàá sí ẹnikẹ́ni tí ó bá ka tó nípa wọn",
+          "Nítorí pé ọ̀pọ̀ coin máa ń dára níkẹyìn fún ẹnikẹ́ni tí ó bá ní sùúrù tó láti dì wọ́n mú fún ọ̀pọ̀ ọdún",
+          "Nítorí pé àwọn amòye sọ tẹ́lẹ̀ nípa Bitcoin lọ́nà tó tọ́ ní 2010 wọ́n sì ti sọ gbogbo ẹni tí ó borí láti ìgbà náà"
+        ]
+      }
+    },
+    "39": {
+      "title": "Kí Ni Blockchain Gan-an?",
+      "desc": "Ìmọ̀-ẹ̀rọ tó wà lábẹ́ gbogbo rẹ̀",
+      "content": "Mú ariwo náà kúrò, blockchain rọrùn lọ́nà ìyanu: ìwé àkọsílẹ̀ àjùmọ̀ní tí ẹgbẹẹgbẹ̀rún kọ̀ǹpútà ń pa ẹ̀dà rẹ̀ tí ó jọra mọ́.\n\nNígbà tí ẹnì kan bá fi crypto ránṣẹ́, ìṣòwò yẹn ń lọ sínú 'block' kan pẹ̀lú ọgọ́rọ̀ọ̀rún mìíràn. Wọ́n ń fi ìṣirò dí block náà, wọ́n sì ń so ó mọ́ block tó ṣáájú rẹ̀. Ìdí nìyí: block. Chain (ẹ̀wọ̀n). ⛓️\n\nKí ló dé tí ó fi ṣe pàtàkì sí ẹnikẹ́ni? Nítorí ohun tí ó ń jẹ́ kí ó ṣeé ṣe:\n\n✅ Kò sí ẹni tó lè yí ìtàn padà ní kẹ́lẹ́. Yíyí block àtijọ́ kan padà máa túmọ̀ sí títún gbogbo block lẹ́yìn rẹ̀ ṣe lórí ẹgbẹẹgbẹ̀rún kọ̀ǹpútà lẹ́ẹ̀kan náà.\n✅ Kò sí ilé-iṣẹ́ kan tàbí ìjọba kan tí ó ń darí rẹ̀. Nẹ́tíwọ̀ọ̀kì àwọn kọ̀ǹpútà ló ń darí rẹ̀ papọ̀.\n✅ Ẹnikẹ́ni lè ṣàyẹ̀wò àkọsílẹ̀ náà. Gbogbo ìṣòwò Bitcoin tí a ti ṣe rí hàn sí gbogbo ènìyàn.\n\nÌmọ̀-ẹ̀rọ tuntun ni lóòótọ́. Ṣùgbọ́n KÌ Í ṢE owó idán. Àkọsílẹ̀ pípé ti coin tí kò níye lórí ṣì jẹ́ coin tí kò níye lórí. Pé ìmọ̀-ẹ̀rọ náà jẹ́ òótọ́ kò sọ gbogbo coin tí a kọ́ sórí rẹ̀ di ohun tí ó níye lórí. 🧠",
+      "quiz": {
+        "q": "Kí ló dé tí ó fi ṣòro tó bẹ́ẹ̀ láti yí ìṣòwò àtijọ́ kan padà ní kọ̀kọ̀ lórí blockchain?",
+        "explanation": "Wọ́n ti dí block kọ̀ọ̀kan mọ́ èyí tó ṣáájú rẹ̀, nítorí náà títún èyí àtijọ́ kọ túmọ̀ sí títún gbogbo block lẹ́yìn rẹ̀ kọ, lórí ẹgbẹẹgbẹ̀rún kọ̀ǹpútà, yára ju bí nẹ́tíwọ̀ọ̀kì ṣe ń fi tuntun kún un. Ìyẹn ló ń jẹ́ kí àkọsílẹ̀ náà fẹ́rẹ̀ẹ́ wà títí láé.",
+        "options": [
+          "Gbogbo block tó tẹ̀lé e ni wọ́n á ní láti tún ṣe pẹ̀lú",
+          "Ìjọba gbọ́dọ̀ fọwọ́ sí ìyípadà kọ̀ọ̀kan",
+          "Gbogbo àkọsílẹ̀ tí ó ti ju oṣù kan lọ ni wọ́n ń pa rẹ́",
+          "Olùdásílẹ̀ coin kọ̀ọ̀kan ní kọ́kọ́rọ́ àṣírí fún àtúnṣe"
+        ]
+      }
+    },
+    "40": {
+      "title": "Bitcoin àti Gbogbo Àwọn Yòókù",
+      "desc": "Kì í ṣe gbogbo coin ni eré kan náà",
+      "content": "'Crypto' kì í ṣe ohun kan ṣoṣo. Àwọn ìyàtọ̀ ṣe pàtàkì ju àwọn ìjọra lọ:\n\n₿ BITCOIN: èyí àkọ́kọ́. Iye rẹ̀ ní ààlà sí coin mílíọ̀nù 21 títí láé, tí a kọ sínú kóòdù náà, ìwọ̀n coin tuntun sì ń dín kù sí ìdajì ní nǹkan bí ọdún mẹ́rin mẹ́rin. (Ṣé ó mọ̀ ọ́ lára? Halving NOOB yá èrò yìí gan-an.) Gbogbo ìpolówó rẹ̀ ni àìtó pẹ̀lú ààbò.\n\n⟠ ETHEREUM: kì í ṣe 'wúrà oní-nọ́mbà' tó bẹ́ẹ̀, ó jẹ́ 'kọ̀ǹpútà àgbáyé' jù. Ó ń ṣiṣẹ́ smart contracts, èyí tí ó jẹ́ àwọn ètò tí ń ṣiṣẹ́ fúnra wọn. Ọ̀pọ̀ àwọn app crypto ni a kọ́ sórí rẹ̀ tàbí àwọn olùdíje rẹ̀.\n\n🪙 GBOGBO ÀWỌN YÒÓKÙ: ẹgbẹẹgbẹ̀rún 'altcoin'. Díẹ̀ nínú wọn ń yanjú ìṣòro gidi. Ọ̀pọ̀ jẹ́ àdàkọ, àdánwò, tàbí ọ̀nà láti kó owó jẹ. Ìṣirò líle náà: èyí tó pọ̀ jù nínú gbogbo coin tí a ti ṣẹ̀dá rí ti kú tàbí kò níye lórí mọ́.\n\nẸ̀kọ́: 'crypto ń gòkè' kò fi bẹ́ẹ̀ sọ nǹkan kan fún ọ nípa coin PÀTÓ kankan. Ọ̀kọ̀ọ̀kan jẹ́ tẹ́tẹ́ tirẹ̀, pẹ̀lú àǹfààní tirẹ̀. 🎲",
+      "quiz": {
+        "q": "Kí ni iye Bitcoin tó pọ̀ jù lọ tí ó lè wà, báwo sì ni ó ṣe rọrùn tó láti yí i padà?",
+        "explanation": "Ààlà mílíọ̀nù 21 jẹ́ apá kan nínú àwọn òfin tí gbogbo kọ̀ǹpútà lórí nẹ́tíwọ̀ọ̀kì ń tẹ̀lé. Gbígbé e sókè máa túmọ̀ sí pé fẹ́rẹ̀ẹ́ gbogbo wọn gbà láti jẹ́ kí iye ohun tí wọ́n ti ní dín kù, ìdí nìyẹn tí wọ́n fi ka ààlà náà sí èyí tí kò yí padà.",
+        "options": [
+          "Mílíọ̀nù 100, àwọn miner sì ń dìbò lé e lórí lọ́dọọdún",
+          "Mílíọ̀nù 21, gbígbé e sókè sì fẹ́rẹ̀ẹ́ má ṣeé ṣe",
+          "Bílíọ̀nù 1, olùdásílẹ̀ sì lè yí i padà",
+          "Kò sí ààlà rárá, nítorí náà coin tuntun á máa jáde títí láé"
+        ]
+      }
+    },
+    "41": {
+      "title": "Àwọn Stablecoin",
+      "desc": "Crypto tó ń gbìyànjú láti dúró jẹ́ẹ́",
+      "content": "Stablecoin jẹ́ crypto tí a ṣe kí iye rẹ̀ máa dúró ní iye kan náà nígbà gbogbo, tó sábà máa ń jẹ́ dọ́là US 1 gan-an. Àwọn oníṣòwò ń lò ó bí ibi ìdúrósí: ta àwọn coin rẹ tí iye wọn ń yí padà sí stablecoin, owó rẹ yóò sì dúró jẹ́ẹ́ nígbà tí o bá ń pinnu ìgbésẹ̀ tó kàn.\n\nBáwo ni wọ́n ṣe ń dúró ní $1? Ọ̀nà pàtàkì ni pé wọ́n ń fi dọ́là gidi àti àwọn dúkìá pamọ́ sí àpamọ́ (reserve), kí ohun kan lè wà lẹ́yìn coin kọ̀ọ̀kan. Ò ń gbẹ́kẹ̀lé ẹnikẹ́ni tó ń tọ́jú àpamọ́ yẹn.\n\nÌtàn ìkìlọ̀ rẹ nìyí: stablecoin lè FỌ́. Ó ti ṣẹlẹ̀ lóòótọ́. Ní 2022, stablecoin 'algorithmic' ńlá kan, tó ń lo ìṣirò ọlọ́gbọ́n dípò àpamọ́ gidi, wó lulẹ̀ láti $1 dé ìsàlẹ̀ odo láàárín ọjọ́ díẹ̀, ó sì pa ẹgbẹẹgbẹ̀rún mílíọ̀nù dọ́là run. 'Stable' (ìdúróṣinṣin) jẹ́ àfojúsùn, kì í ṣe ìdánilójú.\n\nÒfin àtàtà: bí ọ̀nà tí wọ́n fi ń jẹ́ kí nǹkan 'wà láìléwu' bá ṣe ń ṣe ọgbọ́n tó, bẹ́ẹ̀ ni kí o ṣe yẹ̀ ẹ́ wò fínnífínní tó. 🔍",
+      "quiz": {
+        "q": "Kí ni iṣẹ́ pàtàkì stablecoin?",
+        "explanation": "Iṣẹ́ stablecoin ni láti dúró jẹ́ẹ́. Ibi ìdúrósí ni láàárín àwọn ìṣòwò, kì í ṣe nǹkan tí a retí pé kí ó dàgbà.",
+        "options": [
+          "Láti di iye kan mú, tó sábà jẹ́ $1, kí àwọn oníṣòwò lè ní ibi ìdúrósí tó dúró ṣinṣin",
+          "Láti dàgbà yára ju Bitcoin lọ nípa títẹ̀lé gbogbo ọjà crypto",
+          "Láti san èlé fúnra rẹ̀ fún ẹnikẹ́ni tó bá ní in nínú wallet",
+          "Láti fi àwọn ìṣòwò pamọ́ fún gbogbo ènìyàn nípa dídarú ìwé àkọsílẹ̀ gbangba"
+        ]
+      }
+    },
+    "42": {
+      "title": "Crypto, Owó-orí àti Òfin",
+      "desc": "Bẹ́ẹ̀ ni, àwọn òfin kàn án",
+      "content": "Ẹ̀rọ ayélujára kún fún àwọn tó gbàgbọ́ pé crypto jẹ́ owó àìrí tí kò ní òfin kankan. Wọ́n sábà máa ń kọ́ ẹ̀kọ́ náà lọ́nà líle. 😬\n\nÒótọ́ ọ̀rọ̀ ní ọ̀pọ̀ orílẹ̀-èdè, títí kan South Africa:\n\n🧾 ÈRÈ SÁBÀ MÁA Ń NÍ OWÓ-ORÍ. Tí o bá ta crypto ju iye tí o rà á lọ, àjọ owó-orí sábà máa ń fẹ́ ìpín tirẹ̀, bí ó ti rí pẹ̀lú àwọn ìpín ilé-iṣẹ́.\n\n🪪 ÀWỌN EXCHANGE MỌ ẸNI TÍ O JẸ́. Àwọn pẹpẹ tó bófin mu ń béèrè ìfìdímúlẹ̀ ìdánimọ̀ (tí wọ́n ń pè ní KYC, Know Your Customer). Gbogbo ìṣòwò ni a tún ń kọ sílẹ̀ títí láé lórí blockchain fúnra rẹ̀, èyí tó jẹ́ ÌLÒDÌ sí àìdánimọ̀.\n\n⚖️ ÀWỌN ALÁBÒÓJÚTÓ WÀ NÍBẸ̀. Ní South Africa, a ń ka àwọn dúkìá crypto sí ọjà ìnáwó lọ́nà òṣìṣẹ́, èyí túmọ̀ sí pé àwọn pẹpẹ tó ń tà wọ́n gbọ́dọ̀ tẹ̀lé àwọn òfin iṣẹ́ ìnáwó.\n\nKò sí èyíkéyìí nínú èyí tó yẹ kí ó dẹ́rù bà ọ́. Ṣùgbọ́n ó JẸ́ ìdí láti má ṣe fetí sí ẹnikẹ́ni tó bá sọ pé 'àwọn òfin kò kan crypto'. Wọ́n kàn án, àti pé ṣíṣe bí ẹni pé kò rí bẹ́ẹ̀ ń kó àwọn àgbàlagbà sínú wàhálà ńlá gidi.",
+      "quiz": {
+        "q": "Ẹbí rẹ kan sọ pé àjọ owó-orí kò lè rí èrè crypto nítorí pé crypto kò ní ìdánimọ̀. Kí ló burú nínú èrò yẹn?",
+        "explanation": "Àwọn pẹpẹ tó bófin mu ń ṣàyẹ̀wò ẹni tí o jẹ́ kí o tó lè ṣòwò, gbogbo ìṣòwò blockchain sì wà ní gbangba títí láé, èyí tó jẹ́ ìlòdì sí àìdánimọ̀. Èrè sábà máa ń ní owó-orí, nítorí náà ṣàyẹ̀wò àwọn òfin ibi tí o ń gbé.",
+        "options": [
+          "Exchange ń ṣàyẹ̀wò ìdánimọ̀, àkọsílẹ̀ sì wà ní gbangba",
+          "Kò sí nǹkan, crypto kò ní ìdánimọ̀ lóòótọ́",
+          "Ní America nìkan ni crypto ti ní owó-orí",
+          "Owó-orí ń bẹ̀rẹ̀ nígbà tí o bá yọ mílíọ̀nù kan"
+        ]
+      }
+    },
+    "43": {
+      "title": "Ìyípadà Iye àti Òfin Ìwàláàyè",
+      "desc": "Ìdí tí crypto fi ń yí padà gidigidi",
+      "content": "Ọjọ́ burúkú lórí ọjà ìpín jẹ́ 3%. Ọjọ́ burúkú nínú crypto jẹ́ 20%. Kódà Bitcoin, 'àgbà' crypto, ti pàdánù ju 80% iye rẹ̀ lọ ju ẹ̀ẹ̀kan lọ, ó sì padà bọ̀ sípò lẹ́yìn náà. Àwọn coin kéékèèké sábà máa ń pàdánù 95% wọn kì í sì í padà mọ́.\n\nÈéṣe tí ó fi le tó bẹ́ẹ̀? Crypto ń ṣòwò ní 24/7 láìsí ohun ìdádúró (circuit breaker), ọ̀pọ̀ rẹ̀ ni a fi owó yíyá rà tí a sì fipá tà nígbà ìwólulẹ̀, iye rẹ̀ sì ń gbára lé ìtàn àti ìmọ̀lára ju ìròyìn èrè ilé-iṣẹ́ lọ.\n\nNítorí náà, àwọn òfin ìwàláàyè tí gbogbo oníṣòwò tó ní ìrírí ń tún sọ:\n\n1️⃣ Má ṣe fi owó tí o kò lè pàdánù pátápátá sílẹ̀ láé.\n2️⃣ Ṣe ìwọ̀n ipò rẹ kí àjálù kan má lè pa ọ́ run.\n3️⃣ Pinnu ọ̀nà àbájáde rẹ KÍ O TÓ wọlé, nígbà tí ara rẹ balẹ̀.\n4️⃣ FOMO ni ìmọ̀lára tó gbówó lórí jù nínú ìnáwó.\n\nṢe ìdánrawò gbogbo mẹ́rẹ̀ẹ̀rin nínú NoobTrader níbi tí àdánù jẹ́ àfaraẃé. Àwọn ìwà rere ni ẹ̀bùn gidi. 🏆",
+      "quiz": {
+        "q": "Èwo nínú ìwọ̀nyí ni òfin ìwàláàyè gidi fún àwọn ọjà tí iye wọn ń yí padà gidigidi?",
+        "explanation": "Kí o má ṣe fi owó tí o kò lè pàdánù wewu láé ni òfin kan ṣoṣo tó ń jẹ́ kí o wà nínú eré. Fífi ìlọ́po méjì sí i lẹ́yìn àdánù ni bí àwọn àkáǹtì ṣe ń parí.",
+        "options": [
+          "Ṣe ìlọ́po méjì ipò rẹ lẹ́yìn gbogbo àdánù láti gbà á padà",
+          "Má ṣe fi owó tí o kò lè pàdánù pátápátá ṣe ìdókòwò láé",
+          "Ìyípadà iye ń kan àwọn coin kéékèèké nìkan, nítorí náà àwọn coin ńlá wà láìléwu",
+          "Máa rà nígbà gbogbo tí gbogbo ènìyàn lórí social media bá ń rà"
+        ]
+      }
+    },
+    "44": {
+      "title": "Àyípo Ariwo àti FOMO",
+      "desc": "Àpẹẹrẹ tó wà lẹ́yìn gbogbo ìwákiri àṣejù",
+      "content": "Crypto ń lọ ní àyípo ariwo (hype cycle), nígbà tí o bá sì ti rí àpẹẹrẹ náà, o kò lè má rí i mọ́:\n\n📈 Ìpele 1: ohun gidi kan ṣẹlẹ̀. Àwọn onígbàgbọ́ àkọ́kọ́ ń rà ní ìdákẹ́jẹ́ẹ́.\n🚀 Ìpele 2: iye ń gòkè. Àwọn oníròyìn ṣàkíyèsí. Feed rẹ kún fún àwọn tó jèrè.\n🎪 Ìpele 3: àṣejù (mania). Àwọn awakọ̀ taxi ń fúnni ní ìmọ̀ràn coin. Àwọn ènìyàn ń yá owó láti rà. 'Ìgbà yìí yàtọ̀.'\n💥 Ìpele 4: ìwólulẹ̀. Àwọn tó dé kẹ́yìn, tí wọ́n rà ní iye tó ga jù, ló pàdánù jù.\n🕳️ Ìpele 5: ìdákẹ́rọ́rọ́. Àwọn post àwọn tó jèrè pòórá. Kò sí ẹni tó ń sọ̀rọ̀ nípa àdánù wọn.\n\nÌgbéròkè NFT ti 2021 tẹ̀lé ìwé eré yìí gan-an: àwọn nǹkan àkójọ dijítà tí wọ́n ń tà ní mílíọ̀nù ní òkè, lẹ́yìn ọdún méjì sí i ọ̀pọ̀ nínú wọn kò fẹ́rẹ̀ẹ́ níye kankan mọ́.\n\nẸ̀tàn ìkà tí gbogbo àṣejù ń ṣe: ó ń jẹ́ kí ÌGBÀ TÓ BURÚ JÙ láti rà dà bí ìgbà tó YÁ JÙ láti rà. Nígbà tí ó bá dà bí ẹni pé ó wà láìléwu jù láti kó sínú rẹ̀, nítorí pé gbogbo ènìyàn ti kó sínú rẹ̀ tán, èrè tó rọrùn sábà máa ń ti lọ. 🎯",
+      "quiz": {
+        "q": "Nínú àyípo ariwo àtijọ́, ìgbà wo ni ènìyàn lásán máa ń ní ìfẹ́ tó lágbára jù láti rà?",
+        "explanation": "Ìfẹ́ náà máa ń pariwo jù nígbà tí ìtàn náà bá pariwo jù, ìtàn náà sì máa ń pariwo jù lẹ́yìn tí iye ti gòkè tán. Pé gbogbo ènìyàn ti wọlé ni ohun tó ń jẹ́ kí ó dà bí ẹni pé kò léwu, òun náà sì ni ohun tó ń jẹ́ kí kò sí ẹnikẹ́ni tó kù láti rà.",
+        "options": [
+          "Ní ìbẹ̀rẹ̀, nígbà tí kò fẹ́rẹ̀ẹ́ sí ẹni tó ń sọ̀rọ̀ nípa rẹ̀",
+          "Ní àárín ìwólulẹ̀, nígbà tí iye ti lọ sílẹ̀",
+          "Nítòsí òkè, nígbà tí gbogbo ènìyàn mìíràn ti wọlé tán",
+          "Kò tẹ̀lé àpẹẹrẹ kankan, ìfẹ́ náà jẹ́ àìròtẹ́lẹ̀"
+        ]
+      }
+    },
+    "45": {
+      "title": "Kíka Candle",
+      "desc": "Ìgbékalẹ̀ candle: ara àti àwọ̀",
+      "content": "Gbogbo candle ló ń sọ ìtàn kékeré kan pẹ̀lú nọ́ńbà mẹ́rin péré: ibi tí iye ti ṣí, ibi tó ga jù tí ó dé, ibi tó kéré jù tí ó jábọ́ sí, àti ibi tí ó ti tì. Ara tó nípọn ń lọ láti ìṣí dé ìtì, àwọ̀ rẹ̀ sì ń sọ fún ọ èwo ló borí: àwọ̀ ewé túmọ̀ sí pé ìtì parí sókè ìṣí, pupa túmọ̀ sí pé àwọn olùtà fà á sísàlẹ̀ rẹ̀. Ọgbọ́n náà nìyẹn pátápátá. Kọ́ bí a ṣe ń ka candle kan dáadáa, gbogbo chart lágbàáyé yóò sì yí padà láti ògiri ariwo sí ìtàn àwòrán. 🟢",
+      "quiz": {
+        "q": "Candle yìí jẹ́ àwọ̀ ewé. Kí ló ń sọ fún ọ nípa àsìkò ìṣòwò yẹn?",
+        "options": [
+          "Iye tì sísàlẹ̀ ju bí ó ti ṣí lọ",
+          "Àwọn tó rà pọ̀ ju àwọn tó tà lọ, ó dájú",
+          "Iye tì sókè ju bí ó ti ṣí lọ",
+          "Iye kò lọ sílẹ̀ rárá nígbà àsìkò náà"
+        ]
+      }
+    },
+    "46": {
+      "title": "Àwọn Wick Ń Sọ Ìtàn",
+      "desc": "Ìgbékalẹ̀ candle: òkè àti ìsàlẹ̀",
+      "content": "Ara candle ń fi ibi tí àsìkò náà ti ṣí àti ibi tí ó ti tì hàn, ṣùgbọ́n àwọn wick ń fi gbogbo ìrìn-àjò náà hàn: gbogbo iye tí ìjà náà dé gan-an. Wick gígùn túmọ̀ sí pé ogun ńlá kan ṣẹlẹ̀ kọjá ìṣí àti ìtì, ẹ̀gbẹ́ tó fi wick náà sílẹ̀ sì ni ó pàdánù ogun yẹn. Wick gígùn nísàlẹ̀? Àwọn olùtà tì í gidigidi, wọ́n sì lé wọn padà. Wick gígùn lókè? Àwọn olùrà nawọ́ sókè gan-an, wọ́n sì kọ̀ wọ́n. Ara ni àkọlé, àwọn wick ni òfófó. 📏",
+      "quiz": {
+        "q": "Kí ni àwọn ìlà tínrín (àwọn wick) lókè àti nísàlẹ̀ ara candle ń fi hàn gan-an?",
+        "options": [
+          "Iye tó ga jù àti èyí tó kéré jù tí a ṣòwò nígbà àsìkò náà",
+          "Ìṣí àti ìtì ti àná",
+          "Àwọn iye gangan tí ọ̀pọ̀ ìṣòwò ti ṣẹlẹ̀",
+          "Àsọtẹ́lẹ̀ ààlà iye ti ọ̀la"
+        ]
+      }
+    },
+    "47": {
+      "title": "Doji",
+      "desc": "Candle kan ṣoṣo: àìpinnu",
+      "content": "Nígbà mìíràn candle kan máa ń ṣí, ó sì máa ń tì ní iye kan náà fẹ́rẹ̀ẹ́ gan-an, ó máa ń fi ara kékeré sílẹ̀ pẹ̀lú wick ní ẹ̀gbẹ́ méjèèjì. Doji nìyẹn, ó sì túmọ̀ sí pé ìjà okùn fífà parí ní ọ̀mì: àwọn olùrà àti olùtà fà á gidigidi ní gbogbo àsìkò náà, kò sì sí ẹ̀gbẹ́ tó borí. Fúnra rẹ̀, ó kàn jẹ́ gbígbé èjìká lásán. Lẹ́yìn ìgòkè tó lágbára, ó lè fi hàn pé àṣà náà ti ń rẹ̀, nítorí pé ẹ̀gbẹ́ tó ń borí kò lè gbé iye náà mọ́ lójijì. Àmì tó yẹ ní kíkíyèsí, kì í ṣe ìdánilójú láé. 🤝",
+      "quiz": {
+        "q": "Candle tó ń tàn ṣí, ó sì tì ní iye kan náà fẹ́rẹ̀ẹ́ gan-an. Kí ni orúkọ rẹ̀, kí ló sì ń tọ́ka sí?",
+        "options": [
+          "Marubozu, àmì ìdánilójú pátápátá sí ọ̀nà kan",
+          "Hammer, àmì pé àwọn olùrà ti gba àkóso padà",
+          "Gap, àmì pé ìṣòwò dúró lóru",
+          "Doji, àmì àìpinnu láàárín àwọn olùrà àti olùtà"
+        ]
+      }
+    },
+    "48": {
+      "title": "Hammer",
+      "desc": "Candle kan ṣoṣo: ìjàpadà",
+      "content": "Fojú inú wo àsìkò líle kan: àwọn olùtà fọ́ iye náà lulẹ̀, lẹ́yìn náà àwọn olùrà wọ́ ọ padà sókè pátápátá kí ó tó tì. Ohun tó kù lórí chart ni hammer: ara kékeré nítòsí òkè pẹ̀lú wick gígùn nísàlẹ̀ tó tóbi tó ìlọ́po méjì rẹ̀ ó kéré tán. Lẹ́yìn ìsọ̀kalẹ̀, hammer ń sọ pé àwọn olùtà gbìyànjú ẹ̀ṣẹ́ wọn tó dára jù, kò sì bá wọn. Ìyẹn sábà máa ń sàmì ìyípadà tó ṣeé ṣe. Ó ṣeé ṣe, kò dájú, nítorí náà kà á sí àmì láti ṣọ́, kì í ṣe àṣẹ láti rà. 🔨",
+      "quiz": {
+        "q": "Lẹ́yìn ìsọ̀kalẹ̀, candle tó ń tàn fi wick gígùn nísàlẹ̀ àti ara kékeré nítòsí òkè hàn. Kí ni?",
+        "options": [
+          "Shooting star, àmì pé àwọn olùtà gba àkóso",
+          "Hammer, àmì pé àwọn olùrà jà padà gidigidi",
+          "Doji, ọ̀mì pípé",
+          "Ẹ̀rí pé ìsọ̀kalẹ̀ náà ti parí"
+        ]
+      }
+    },
+    "49": {
+      "title": "Shooting Star",
+      "desc": "Candle kan ṣoṣo: ìkọ̀sílẹ̀ ní òkè",
+      "content": "Àwòrán dígí hammer. Lẹ́yìn ìgòkè tó lágbára, àwọn olùrà nawọ́ fún òkè tuntun kan sí i, wọ́n kọ̀ wọ́n gidigidi, iye náà sì tì padà sísàlẹ̀ nítòsí ibi tí ó ti ṣí. Chart náà fi ara kékeré hàn nísàlẹ̀ candle pẹ̀lú wick gígùn lókè: shooting star. Ó túmọ̀ sí pé àwọn olùtà dé òkè níkẹyìn pẹ̀lú agbára tó tó láti borí àsìkò náà. Lẹ́yìn ìgòkè ńlá, ìkọ̀sílẹ̀ yẹn sábà máa ń ṣe pàtàkì. Ó sábà máa ń rí bẹ́ẹ̀, kì í ṣe nígbà gbogbo. 🌠",
+      "quiz": {
+        "q": "Lẹ́yìn ìgòkè tó lágbára, candle tó ń tàn fò sókè, lẹ́yìn náà ó tì nítòsí ibi tó kéré jù rẹ̀, ó sì fi wick gígùn sílẹ̀ lókè. Kí ni?",
+        "options": [
+          "Shooting star, àmì pé àwọn olùtà dé ní òkè",
+          "Hammer, àmì pé àwọn olùrà ti padà wà ní àkóso",
+          "Marubozu àwọ̀ ewé, agbára ríra mímọ́",
+          "Ìdánilójú pé iye yóò wó lulẹ̀ lọ́la"
+        ]
+      }
+    },
+    "50": {
+      "title": "Marubozu",
+      "desc": "Candle kan ṣoṣo: ìdánilójú pátápátá",
+      "content": "Marubozu jẹ́ ara kan tó nípọn láìsí wick rárá: iye náà ṣí, ó sì rìn sí ọ̀nà kan ṣoṣo ní gbogbo àsìkò náà láìwẹ̀yìn rárá. Kò sí ìjà, kò sí iyèméjì, ìdánilójú pátápátá láti ẹ̀gbẹ́ kan. Marubozu àwọ̀ ewé ń kígbe ìgbẹ́kẹ̀lé àwọn olùrà, pupa sì ń kígbe ìdàkejì. Wọn kò wọ́pọ̀, ìdí nìyẹn gan-an tí àwọn oníṣòwò fi máa ń jókòó ṣánṣán nígbà tí ọ̀kan bá yọ. 💪",
+      "quiz": {
+        "q": "Candle tó ń tàn jẹ́ ara kan tó nípọn láìsí wick rárá. Kí ni ìrísí yẹn ń sọ fún ọ?",
+        "options": [
+          "Kò sí ẹni tó ṣòwò nígbà àsìkò yẹn, nítorí náà ó dúró pẹrẹsẹ",
+          "Ọjà tì ní kùtùkùtù ọjọ́ yẹn, ó sì gé e kúrú",
+          "Ẹ̀gbẹ́ kan wà ní àkóso láti ìṣí dé ìtì, ìdánilójú pátápátá",
+          "Àwọn olùrà àti olùtà dọ́gba pátápátá láti ìbẹ̀rẹ̀ dé òpin"
+        ]
+      }
+    },
+    "51": {
+      "title": "Bullish Engulfing: Ìgbémì Olùrà",
+      "desc": "Àpẹẹrẹ candle méjì: àwọn olùrà kọlù",
+      "content": "Candle méjì, ọ̀rọ̀ kan. Àkọ́kọ́, candle pupa kékeré kan, bí ó ti máa ń rí nínú ìsọ̀kalẹ̀. Lẹ́yìn náà, ara àwọ̀ ewé ńlá kan tó gbé e mì pátápátá: ní àsìkò kan, àwọn olùrà pa gbogbo ohun tí àwọn olùtà ṣe ní ọjọ́ tó ṣáájú rẹ́, wọ́n sì tún ṣe jù bẹ́ẹ̀ lọ. Nígbà tí ó bá dé lẹ́yìn ìsọ̀kalẹ̀, bullish engulfing jẹ́ ọ̀kan lára àwọn àmì ìyípadà tí a ń ṣọ́ jù lórí chart èyíkéyìí, nítorí pé ó ń fi hàn bí ìwọ̀n agbára ṣe ń yí padà nínú candle kan ṣoṣo. Àmì ni, kì í ṣe àdéhùn. 🐂",
+      "quiz": {
+        "q": "Ara àwọ̀ ewé ńlá gbé ara pupa tó ṣáájú rẹ̀ mì pátápátá. Kí ni àpẹẹrẹ candle méjì yìí?",
+        "options": [
+          "Bearish engulfing, àwọn olùtà gba àkóso",
+          "Bullish engulfing, àwọn olùrà borí àwọn olùtà",
+          "Double bottom",
+          "Doji méjì tẹ̀léra"
+        ]
+      }
+    },
+    "52": {
+      "title": "Bearish Engulfing: Ìgbémì Olùtà",
+      "desc": "Àpẹẹrẹ candle méjì: àwọn olùtà kọlù",
+      "content": "Àwòrán dígí ẹ̀yà bullish. Ní òkè ìgòkè kan, ara pupa ńlá kan gbé gbogbo ara àwọ̀ ewé tó ṣáájú rẹ̀ mì: àwọn olùtà pa ríra ọjọ́ tó ṣáájú rẹ́ nínú candle kan, gan-an níbi tí ìgòkè náà ti nà jù tán tí àwọn olùrà tuntun sì ti ń bẹ̀rù. Ìyẹn sábà máa ń jẹ́ kí àwọn olùrà yòókù náà bẹ̀rù. Nígbà tí o bá rí i lẹ́yìn ìgòkè gígùn, bọ̀wọ̀ fún un. 🐻",
+      "quiz": {
+        "q": "Ní òkè ìgòkè kan, ara pupa ńlá gbé gbogbo ara àwọ̀ ewé tó ṣáájú rẹ̀ mì. Kí ni orúkọ àwọn méjì yìí?",
+        "options": [
+          "Bullish engulfing, ìgòkè náà ń bá a lọ",
+          "Hammer tí doji tẹ̀lé",
+          "Breakout kọjá resistance",
+          "Bearish engulfing, àwọn olùtà borí àwọn olùrà"
+        ]
+      }
+    },
+    "53": {
+      "title": "Dídá Ìgòkè Mọ̀",
+      "desc": "Àṣà: òkè tó ga sí i, ìsàlẹ̀ tó ga sí i",
+      "content": "Ìgòkè (uptrend) nílò àwọn ìdajì méjèèjì: òkè tó ga sí i ÀTI ìsàlẹ̀ tó ga sí i. Òkè kọ̀ọ̀kan ń borí èyí tó kẹ́yìn, ìsọ̀kalẹ̀ kọ̀ọ̀kan sì ń dúró sókè ju èyí tó ṣáájú rẹ̀ lọ, nítorí pé àwọn olùrà ń wọlé ní kùtùkùtù sí i ní gbogbo ìgbà. Ìrísí àtẹ̀gùn yẹn ni ọjà tó ń sọ fún ọ pé ìbéèrè ló wà ní àkóso. Òkè tó ga sí i kan ṣoṣo kò fi nǹkan kan hàn. Àpẹẹrẹ náà ni àwọn méjèèjì, tí wọ́n ń tún ara wọn ṣe. 📈",
+      "quiz": {
+        "q": "Òkè kọ̀ọ̀kan ń borí èyí tó kẹ́yìn, ìsọ̀kalẹ̀ kọ̀ọ̀kan sì ń dúró sókè ju èyí tó ṣáájú rẹ̀ lọ. Kí ni chart yìí ń fi hàn?",
+        "options": [
+          "Ìgòkè, òkè tó ga sí i àti ìsàlẹ̀ tó ga sí i",
+          "Ìsọ̀kalẹ̀, òkè tó rẹlẹ̀ sí i àti ìsàlẹ̀ tó rẹlẹ̀ sí i",
+          "Range, iye há sí àárín ilẹ̀ àti àjà",
+          "Double top tó ń ṣẹlẹ̀ lọ́wọ́"
+        ]
+      }
+    },
+    "54": {
+      "title": "Dídá Ìsọ̀kalẹ̀ Mọ̀",
+      "desc": "Àṣà: òkè tó rẹlẹ̀ sí i, ìsàlẹ̀ tó rẹlẹ̀ sí i",
+      "content": "Yí àtẹ̀gùn náà dorí kodò. Òkè tó rẹlẹ̀ sí i túmọ̀ sí pé àwọn olùtà ń kọlù ní kùtùkùtù sí i ní gbogbo ìfòsókè, ìsàlẹ̀ tó rẹlẹ̀ sí i túmọ̀ sí pé àwọn olùrà ń sá sẹ́yìn jìnnà sí i ní gbogbo ìjábọ́. Níwọ̀n ìgbà tí ìgbékalẹ̀ yẹn bá dúró, àwọn olùtà ló ń darí eré náà, bíbá a jà sì ni bí àwọn oníṣòwò tuntun ṣe ń fi owó ta àwọn onísùúrù lọ́rẹ. Àṣà náà kì í ṣe ọ̀tá rẹ, ṣùgbọ́n ṣíṣe bí ẹni pé kò sí níbẹ̀ jẹ́ ọ̀tá rẹ dájúdájú. 📉",
+      "quiz": {
+        "q": "Gbogbo ìfòsókè ń dúró ní ìsàlẹ̀ ju èyí tó kẹ́yìn lọ, gbogbo ìjábọ́ sì ń jìn sí i. Kí lò ń wò?",
+        "options": [
+          "Ìgòkè tó kàn ń mí díẹ̀",
+          "Range ẹ̀gbẹ́-sí-ẹ̀gbẹ́",
+          "Ìsọ̀kalẹ̀, òkè tó rẹlẹ̀ sí i àti ìsàlẹ̀ tó rẹlẹ̀ sí i",
+          "Àpẹẹrẹ bullish engulfing tó ń ṣẹ̀dá"
+        ]
+      }
+    },
+    "55": {
+      "title": "Ọjà Ẹ̀gbẹ́-sí-Ẹ̀gbẹ́",
+      "desc": "Àṣà: eré ìdúró",
+      "content": "Nígbà mìíràn kò sí ẹ̀gbẹ́ tó ń borí, nítorí náà iye kàn ń fò síwá-sẹ́yìn láàárín ilẹ̀ kan náà àti àjà kan náà fún ọ̀sẹ̀ púpọ̀. Range nìyẹn, àwọn ọjà sì ń lo apá ńlá nínú ìgbésí ayé wọn ní ṣíṣe èyí gan-an. Kò bàjẹ́, kò sì súni, ọjà ló ń mí díẹ̀. Àwọn oníṣòwò onísùúrù ń kọ́ láti fẹ́ràn ìdúró náà, nítorí pé bí range bá ṣe pẹ́ tó, bẹ́ẹ̀ ni ìjáde rẹ̀ níkẹyìn ṣe máa ń ní ìtumọ̀ tó. 🏓",
+      "quiz": {
+        "q": "Fún ọ̀sẹ̀ púpọ̀, iye ti ń fò láàárín ilẹ̀ kan náà àti àjà kan náà. Kí ni orúkọ èyí?",
+        "options": [
+          "Ìgòkè, ó ń kan àjà ṣáá",
+          "Range, ọjà ń rìn ẹ̀gbẹ́-sí-ẹ̀gbẹ́",
+          "Head and shoulders",
+          "Breakout tó ń ṣẹlẹ̀ lọ́wọ́"
+        ]
+      }
+    },
+    "56": {
+      "title": "Support: Ilẹ̀",
+      "desc": "Support àti resistance: ilẹ̀",
+      "content": "Nígbà tí iye bá ń jábọ́ sí ìpele kan náà tí ó sì ń fò padà sókè ní gbogbo ìgbà, àwọn oníṣòwò máa ń pe ìpele yẹn ní support: ilẹ̀ kan níbi tí àwọn olùrà ti ń pinnu pé iye náà jẹ́ ọ̀fẹ́. Bí ó bá ṣe dúró tó, bẹ́ẹ̀ ni àwọn ènìyàn púpọ̀ ṣe ń ṣọ́ ọ, èyí sì jẹ́ apá kan ìdí tí ó fi ń dúró. Ṣùgbọ́n rántí pé ènìyàn ló ya ilẹ̀ náà, kì í ṣe òfin. Support lè fọ́, ó sì ń fọ́, nígbà tí ó bá sì fọ́, àwọn tó ń retí ìfòsókè yóò di àwọn tó ń bẹ̀rù. 🧱",
+      "quiz": {
+        "q": "Iye ti jábọ́ sí ìpele tí a kùn ní ẹ̀ẹ̀mẹta, ó sì fò padà sókè ní gbogbo ìgbà. Kí ni àwọn oníṣòwò ń pe ìpele yẹn?",
+        "options": [
+          "Resistance, àjà kan níbi tí àwọn olùtà ti ń kó wọlé",
+          "Trendline, àwọn ìpele gbọ́dọ̀ dábùú",
+          "Stop-loss tí exchange ṣètò",
+          "Support, ilẹ̀ kan níbi tí àwọn olùrà ti ń wọlé ṣáá"
+        ]
+      }
+    },
+    "57": {
+      "title": "Resistance: Àjà",
+      "desc": "Support àti resistance: àjà",
+      "content": "Resistance ni àjà: ìpele kan níbi tí gbogbo ìgòkè ti ń dúró nítorí pé àwọn olùtà ń láyọ̀ láti gba owó wọn níbẹ̀. Wo chart kan tó ń fi orí gbá iye kan náà ní ẹ̀ẹ̀mẹta, o ń wo resistance tó ń ṣiṣẹ́ ní àkókò gidi nìyẹn. Àyípadà tó yẹ ní rírántí nìyí: tí iye náà bá fi ìdánilójú gidi la àjà náà kọjá, àjà àtijọ́ yẹn sábà máa ń bẹ̀rẹ̀ sí ṣe bí ilẹ̀ tuntun. 🪟",
+      "quiz": {
+        "q": "Ìgòkè mẹ́ta ọ̀tọ̀ọ̀tọ̀ ti dúró ní ìpele tí a kùn. Kí ni orúkọ ìpele yẹn?",
+        "options": [
+          "Resistance, àjà kan níbi tí àwọn olùtà ti ń tì í padà ṣáá",
+          "Support, ilẹ̀ kan tó wà lábẹ́ iye",
+          "Ìpele dividend, tí a ń ṣètò lẹ́ẹ̀kan lọ́dún",
+          "Ìfòsókè volume, tí kò sọ nǹkan kan nípa iye"
+        ]
+      }
+    },
+    "58": {
+      "title": "Trendline",
+      "desc": "Trendline àti channel: ìlà tó ṣe pàtàkì",
+      "content": "So àwọn ìsàlẹ̀ tó ń gòkè pọ̀ lórí chart, o ti ya trendline nìyẹn. Ojú méjì èyíkéyìí lè ṣe ìlà kan, ṣùgbọ́n ìfọwọ́kàn kẹta ni ibi tí ó ti bẹ̀rẹ̀ sí fi hàn pé ó ṣe pàtàkì, nítorí pé ó ń fi hàn pé àwọn olùrà ń dáàbò bo ìpele tó ń gòkè kan náà ṣáá. Gbogbo ìfọwọ́kàn mìíràn tí a bọ̀wọ̀ fún jẹ́ ẹ̀rí sí i. Ẹ̀rí ló máa ń jẹ́, kì í ṣe ìlérí láé: trendline jẹ́ àmì pẹ́ńsù, kì í ṣe ògiri agbára. ✏️",
+      "quiz": {
+        "q": "Ìlà tó ń gòkè yìí ti ní ìfọwọ́kàn mẹ́ta ọ̀tọ̀ọ̀tọ̀. Èéṣe tí àwọn oníṣòwò fi ń bìkítà nípa iye ìfọwọ́kàn tí trendline ní?",
+        "options": [
+          "Wọn kò bìkítà, nítorí ojú méjì èyíkéyìí ń sọ trendline di òfin",
+          "Ìfọwọ́kàn mẹ́ta túmọ̀ sí pé ìfòsókè kẹrin dájú lẹ́yìn náà",
+          "Ìfọwọ́kàn púpọ̀ sí i ń jẹ́ kí ìlà náà ní ìtumọ̀ sí i, àwọn olùrà ń dáàbò bò ó ṣáá",
+          "Trendline kà lórí chart ojoojúmọ́ nìkan, kì í ṣe àwọn tó kúrú jù"
+        ]
+      }
+    },
+    "59": {
+      "title": "Channel",
+      "desc": "Trendline àti channel: ọ̀nà",
+      "content": "Channel jẹ́ àṣà tó ní ìwà rere. Iye ń gòkè bí ó ti ń fò láàárín ìlà méjì tó jọra: ilẹ̀ ti ìsàlẹ̀ tó ń gòkè àti àjà ti òkè tó ń gòkè, tí wọ́n ń gòkè pọ̀ bí ẹ̀gbẹ́ méjèèjì ọ̀nà kan. Àwọn oníṣòwò ń ṣọ́ etí méjèèjì fún ìfòsókè, wọ́n sì tún ń ṣọ́ gidigidi sí i fún ọjọ́ tí iye bá kúrò nínú ọ̀nà náà, nítorí pé ìjáde mímọ́ kúrò nínú channel sábà máa ń jẹ́ ibi tí ìrìn ńlá tó kàn ti ń bẹ̀rẹ̀. 🛣️",
+      "quiz": {
+        "q": "Iye ń gòkè bí ó ti ń fò láàárín ìlà méjì tó jọra. Kí ni àpẹẹrẹ yìí?",
+        "options": [
+          "Triangle, níbi tí ìlà méjèèjì gbọ́dọ̀ pàdé",
+          "Channel tó ń gòkè, ìgòkè pẹ̀lú ọ̀nà tó hàn kedere",
+          "Double top",
+          "Range pẹrẹsẹ tí kò lọ sí ibì kankan rárá"
+        ]
+      }
+    },
+    "60": {
+      "title": "Double Top",
+      "desc": "Àpẹẹrẹ chart: ìrísí M",
+      "content": "Iye gbá àjà kan náà lẹ́ẹ̀mejì, ó kùnà ní ìgbà méjèèjì, ó sì ya M ńlá kan sórí chart. Tí ó bá fọ́ sísàlẹ̀ ìsọ̀kalẹ̀ tó wà láàárín (neckline), double top ti pé: àmì ìyípadà bearish àtàtà. Àwòrán dígí rẹ̀, W, ni double bottom, ó sì ń tọ́ka sí ọ̀nà kejì. Ó sábà máa ń sàmì òkè, kò pọn dandan. Kò sí nǹkan lórí chart tó pọn dandan. Ⓜ️",
+      "quiz": {
+        "q": "Iye gbá àjà kan náà lẹ́ẹ̀mejì, ó kùnà ní ìgbà méjèèjì, lẹ́yìn náà ó fọ́ sísàlẹ̀ ìsọ̀kalẹ̀ tó wà láàárín. Kí ni ìrísí yìí?",
+        "options": [
+          "Double bottom, àmì bullish",
+          "Channel tó ń gòkè",
+          "Hammer",
+          "Double top, àmì ìyípadà bearish"
+        ]
+      }
+    },
+    "61": {
+      "title": "Nígbà Tí Àpẹẹrẹ Bá Kùnà",
+      "desc": "Àpẹẹrẹ chart: ìṣeéṣe, kì í ṣe ìlérí",
+      "content": "Èyí ni ẹ̀kọ́ tó níye lórí jù nínú module yìí. Àpẹẹrẹ bí ti inú ìwé ṣẹ̀dá, gbogbo ènìyàn rí i, lẹ́yìn náà ọjà ṣe ìdàkejì. Gbogbo àpẹẹrẹ tí o ti kọ́ ló máa ń kùnà nígbà mìíràn, ìyẹn kì í ṣe pé chart ń purọ́ fún ọ, chart ló ń fún ọ ní ìsọfúnni: ẹ̀gbẹ́ tí o tì lẹ́yìn ti pàdánù. Pinnu ọ̀nà àbájáde rẹ kí o tó wọlé, nígbà tí àpẹẹrẹ bá sì kùnà, gba àmì náà kí o jáde. Àpẹẹrẹ jẹ́ ìṣeéṣe, kì í ṣe ìlérí láé. 🚪",
+      "quiz": {
+        "q": "Double bottom bí ti inú ìwé ṣẹ̀dá ní ilẹ̀ tí a kùn... lẹ́yìn náà iye wó la á kọjá tààrà. Kí ni ẹ̀kọ́ òtítọ́?",
+        "options": [
+          "Àpẹẹrẹ jẹ́ ìṣeéṣe, kì í ṣe ìlérí, àpẹẹrẹ tó kùnà sì ni àmì rẹ láti jáde",
+          "Double bottom gidi kì í kùnà láé, nítorí náà èyí tí o ń wò gbọ́dọ̀ jẹ́ ayédèrú",
+          "Rà sí i ní iye tó rẹlẹ̀, nítorí pé àpẹẹrẹ náà yóò ṣì ṣẹlẹ̀ níkẹyìn",
+          "Chart máa ń dẹ́kun iṣẹ́ pátápátá nígbà tí àpẹẹrẹ bá ti kùnà fún ọ bẹ́ẹ̀"
+        ]
+      }
+    },
+    "62": {
+      "title": "Orí àti Èjìká (Head & Shoulders)",
+      "desc": "Àpẹẹrẹ chart: òkè mẹ́ta",
+      "content": "Òkè mẹ́ta: èyí tó ga jù ní àárín (orí), èyí tó rẹlẹ̀ ní ẹ̀gbẹ́ méjèèjì (èjìká), àti ìlà kan lábẹ́ ìsọ̀kalẹ̀ méjèèjì tí wọ́n ń pè ní neckline. Ó ń ṣẹ̀dá nígbà tí àwọn olùrà bá ṣe ìtì ìkẹyìn kan tó ga sí i, lẹ́yìn náà wọn kò tilẹ̀ lè bá a dọ́gba ní ìgbìyànjú tó kàn. Ìrísí náà fúnra rẹ̀ jẹ́ ìkìlọ̀ lásán. Apá tí àwọn oníṣòwò ń dúró dè gan-an ni ìfọ́ tó dájú sísàlẹ̀ neckline, nítorí pé ìgbà yẹn ni àpẹẹrẹ náà dẹ́kun jíjẹ́ àwòrán tí ó sì di ìpinnu. 👤",
+      "quiz": {
+        "q": "Òkè mẹ́ta: èyí tó ga jù ní àárín, èyí tó rẹlẹ̀ ní ẹ̀gbẹ́ méjèèjì, àti ilẹ̀ tó so ìsọ̀kalẹ̀ méjèèjì pọ̀. Kí ni ìrísí àtàtà yìí?",
+        "options": [
+          "Triple bottom, ìsàlẹ̀ mẹ́ta tó dọ́gba ṣáájú ìtì sókè",
+          "Head and shoulders, òpin ìgòkè tó ṣeé ṣe",
+          "Ascending triangle",
+          "Hammer mẹ́ta tẹ̀léra, ọ̀kọ̀ọ̀kan ń kọ iye tó rẹlẹ̀"
+        ]
+      }
+    },
+    "63": {
+      "title": "Ìfúnpọ̀ Triangle",
+      "desc": "Àpẹẹrẹ chart: sípírínì tí a ká",
+      "content": "Nígbà tí àwọn ìyípadà bá ń dínkù ṣáá, ìsàlẹ̀ tó ga sí i ń tì sókè sí òkè tó rẹlẹ̀ sí i, ọjà ń ká ara rẹ̀ bí sípírínì. Triangle nìyẹn: ẹ̀gbẹ́ méjèèjì ń tán ààyè, a sì ń fipá mú ìpinnu. Ìfúnpọ̀ náà sábà máa ń parí pẹ̀lú bíbú jáde, kókó ibẹ̀ nìyí: a kò mọ ọ̀nà tí bíbú náà yóò gbà ṣáájú. Dúró de ìfọ́ dípò kí o méfò rẹ̀. Ọjà yóò sọ fún ọ, kò sì ní gba owó kankan fún ìsọfúnni náà. 🌀",
+      "quiz": {
+        "q": "Àwọn ìyípadà ń dínkù ṣáá, wọ́n ń fún iye pọ̀ sínú ìkápọ̀ tó ń há sí i, títí tí ó fi bú jáde níkẹyìn. Kí ni ìkápọ̀ náà?",
+        "options": [
+          "Channel, ìlà méjì tó jọra tí kì í pàdé rárá",
+          "Double top",
+          "Triangle, ìdádúró tó sábà máa ń parí ní breakout",
+          "Ẹ̀rí pé iye gbọ́dọ̀ fọ́ sókè láti ibí lẹ́yìn náà"
+        ]
+      }
+    },
+    "64": {
+      "title": "Volume: Olùwá Irọ́",
+      "desc": "Volume: àwọn tó wá gan-an",
+      "content": "Volume ni iye ìpín tó yí ọwọ́ padà, òun sì ni olùwá irọ́ àwọn chart. Breakout pẹ̀lú volume kékeré jẹ́ ọ̀rọ̀ kẹ́lẹ́kẹ́lẹ́ tó ń tan ènìyàn jẹ: ìṣòwò díẹ̀ tì iye náà sí ibi tí kò lè dúró sí. Breakout pẹ̀lú volume tó wúwo ni èrò tó ń dìbò pẹ̀lú owó gan-an. Ìrìn iye kan náà, ìtumọ̀ tó yàtọ̀ pátápátá. Kí o tó gba ìrìn ńlá èyíkéyìí gbọ́, ṣàyẹ̀wò àwọn tó wá fún un. 🔊",
+      "quiz": {
+        "q": "Ìgbìyànjú ìjáde méjì láti àjà kan náà: èkíní pẹ̀lú volume kékeré kùnà, èkejì wá pẹ̀lú volume ńlá ó sì dúró. Kí ni volume ń ṣe níbí?",
+        "options": [
+          "Kò ṣe nǹkan kan rárá, volume kò ṣe pàtàkì sí ìrìn iye láé",
+          "Ó ń fipá ti iye sókè, nítorí volume gíga ń ti iye sókè",
+          "Ó ń sọ òkè gangan ìrìn náà tẹ́lẹ̀ kí ó tó ṣẹlẹ̀",
+          "Ó ń ṣiṣẹ́ bí ìfìdímúlẹ̀, volume ńlá ń fi ìdánilójú gidi lẹ́yìn ìrìn náà hàn"
+        ]
+      }
+    },
+    "65": {
+      "title": "Olùdámọ̀ Àṣà",
+      "desc": "Chart mẹ́wàá, kò sí àkọlé, kò sí àánú",
+      "content": "Chart mẹ́wàá. Kò sí àkọlé, kò sí ìlà ìrànlọ́wọ́, kò sí ìtọ́ka. Sọ ohun tí ọ̀kọ̀ọ̀kan ń fi hàn, gan-an bí oníṣòwò gidi tó ń wo ojú-ìwé gidi. Gba 8 nínú 10, module náà sì di tìrẹ. O ní ìgbìyànjú 3 lójúmọ́, nítorí náà fà sẹ́yìn, ka àwọn candle, kí o sì rántí ẹ̀kọ́ tó ṣe pàtàkì jù lọ: nígbà mìíràn ìdáhùn òtítọ́ ni pé kò sí àpẹẹrẹ kankan rárá. 🕯️",
+      "bossVictory": "O ti ṣẹ́gun module àṣà. Ìwọ ló ń ka chart báyìí, chart kò ka ìwọ mọ́. 🕯️",
+      "bossQuestions": {
+        "0": {
+          "q": "Kí ni chart yìí ń fi hàn?",
+          "explanation": "A mọ̀ọ́mọ̀ jẹ́ kí ó rí wúruwùru. Yọ ariwo kúrò, gbogbo òkè ìyípadà ṣì ń borí èyí tó kẹ́yìn, gbogbo ìsọ̀kalẹ̀ sì ṣì ń dúró sókè sí i. Báyìí ni àṣà gidi ṣe rí, kì í ṣe bí àtẹ̀gùn inú ìwé.",
+          "options": [
+            "Ìsọ̀kalẹ̀, òkè tó rẹlẹ̀ sí i àti ìsàlẹ̀ tó rẹlẹ̀ sí i",
+            "Ìgòkè, òkè tó ga sí i àti ìsàlẹ̀ tó ga sí i",
+            "Range ẹ̀gbẹ́-sí-ẹ̀gbẹ́",
+            "Double top"
+          ]
+        },
+        "1": {
+          "q": "Kí ló ṣẹlẹ̀ ní àwọn candle méjì tó ń tàn?",
+          "explanation": "Ara pupa gbé gbogbo ara àwọ̀ ewé mì gan-an lẹ́yìn ìgòkè gígùn. Bearish engulfing nìyẹn tó ń ṣe ohun tí ó máa ń ṣe gan-an: ó ń yọ níbi tí àwọn olùrà ti nà jù.",
+          "options": [
+            "Bullish engulfing",
+            "Doji ní òkè",
+            "Hammer",
+            "Bearish engulfing ní òkè ìgòkè kan"
+          ]
+        },
+        "2": {
+          "q": "Kí ni chart yìí ń fi hàn?",
+          "explanation": "Òkè àárín dúró ga kedere ju àwọn méjì ní ẹ̀gbẹ́ rẹ̀ lọ, àwọn ìsọ̀kalẹ̀ sì tò ní ìlà kan sí neckline. Àwọn gidi kì í dọ́gba ní ẹ̀gbẹ́ méjèèjì láé, báyìí ni wọ́n ṣe rí gan-an ní ìta gbangba.",
+          "options": [
+            "Head and shoulders",
+            "Triple top pẹ̀lú òkè mẹ́ta tó dọ́gba",
+            "Ascending triangle",
+            "Channel tó ń gòkè"
+          ]
+        },
+        "3": {
+          "q": "Kí ni chart yìí ń fi hàn?",
+          "explanation": "Ìgbìyànjú méjì sí ilẹ̀ kan náà, èkejì kò jìn tó èkíní, lẹ́yìn náà ìtì sókè la ìfòsókè àárín kọjá. Ìrísí W, tí ọjà gidi yà dípò ìwé.",
+          "options": [
+            "Head and shoulders",
+            "Descending triangle",
+            "Double bottom",
+            "Bear flag"
+          ]
+        },
+        "4": {
+          "q": "Kí ni candle tó ń tàn yìí?",
+          "explanation": "Wick gígùn lókè, ara kékeré tó jókòó sísàlẹ̀ ààlà náà, gan-an lẹ́yìn ìgòkè. Àwọn olùrà nawọ́ fún òkè tuntun, wọ́n sì gbá wọn padà sílẹ̀ kí ó tó tì.",
+          "options": [
+            "Hammer",
+            "Marubozu àwọ̀ ewé",
+            "Doji",
+            "Shooting star lẹ́yìn ìgòkè"
+          ]
+        },
+        "5": {
+          "q": "Kí ni chart yìí ń fi hàn?",
+          "explanation": "A ń bọ̀wọ̀ fún ilẹ̀ kan náà àti àjà kan náà ṣáá, gbogbo ohun tó wà láàárín sì jẹ́ ariwo. Kò sí ẹ̀gbẹ́ tó ń borí, nítorí náà kò sí àṣà láti gùn.",
+          "options": [
+            "Range, iye wà nínú àpótí láàárín support àti resistance",
+            "Ìgòkè, òkè tó ga sí i àti ìsàlẹ̀ tó ga sí i",
+            "Falling wedge",
+            "Breakout tó ń ṣẹlẹ̀ lọ́wọ́"
+          ]
+        },
+        "6": {
+          "q": "Iye bú jáde sókè àjà àtijọ́, lẹ́yìn náà ìsọ̀kalẹ̀ tí ọfà tọ́ka sí padà wá sí ìpele yẹn ó sì dúró. Kí ni ìsọ̀kalẹ̀ náà?",
+          "explanation": "Ìsọ̀kalẹ̀ náà padà gan-an sí ìpele tó jẹ́ àjà tẹ́lẹ̀, ó rí àwọn olùrà níbẹ̀, àṣà náà sì ń bá a lọ. Pullback nìyẹn. Ìyípadà ì bá ti gé ìpele náà kọjá kí ó sì máa jábọ́ ṣáá.",
+          "options": [
+            "Ìyípadà pátápátá sí ìsọ̀kalẹ̀",
+            "Pullback, àtúnyẹ̀wò ìpele tó ti fọ́",
+            "Double top",
+            "Dead cat bounce"
+          ]
+        },
+        "7": {
+          "q": "Kí ni chart yìí ń fi hàn?",
+          "explanation": "Ilẹ̀ pẹrẹsẹ, òkè tó rẹlẹ̀ sí i ń tẹ̀ ẹ́ mọ́lẹ̀, àwọn olùtà ń dé ní kùtùkùtù sí i ní gbogbo ìfòsókè. Ilẹ̀ náà yẹ̀ níkẹyìn, èyí tí ó jẹ́ àbájáde tí ìrísí yìí sábà máa ń fà sí. Ó sábà máa ń rí bẹ́ẹ̀, kì í ṣe nígbà gbogbo.",
+          "options": [
+            "Ascending triangle",
+            "Channel tó ń gòkè",
+            "Descending triangle tó fara ti support",
+            "Double bottom"
+          ]
+        },
+        "8": {
+          "q": "Kí ni chart yìí ń fi hàn?",
+          "explanation": "Ìbéèrè ìdẹkùn, òun sì ni èyí tó níye lórí jù nínú boss yìí. Ọ̀pọ̀ chart, ní ọ̀pọ̀ ìgbà, kò fi nǹkan kan tó yẹ fún ìṣòwò hàn. Rírí àpẹẹrẹ tí kò sí níbẹ̀ ni bí àwọn olùbẹ̀rẹ̀ ṣe ń pàdánù. Sísọ pé kò sí ìṣòwò jẹ́ ọgbọ́n. 🎯",
+          "options": [
+            "Head and shoulders",
+            "Double top",
+            "Ìgòkè",
+            "Kò sí àpẹẹrẹ mímọ́, kò sí nǹkan tó ṣeé ṣòwò níbí"
+          ]
+        },
+        "9": {
+          "q": "Kí ni chart yìí ń fi hàn?",
+          "explanation": "Iye yọjú sókè àjà pẹ̀lú volume aláìlera, àwọn olùrà lé e, lẹ́yìn náà ó wó padà tààrà sínú range. Breakout tó kùnà ni ìdí gan-an tí ẹ̀kọ́ volume fi sọ fún ọ pé kí o ṣàyẹ̀wò volume kí o tó gba ọ̀kan gbọ́.",
+          "options": [
+            "Bull trap, breakout tó kùnà tó fa àwọn olùrà wọlé",
+            "Breakout tó yọrí sí rere pẹ̀lú àtúnyẹ̀wò mímọ́",
+            "Double bottom",
+            "Ìyípadà hammer"
+          ]
+        }
+      }
+    },
+    "66": {
+      "title": "O Kò Ní Nǹkan Kan Níbí",
+      "desc": "Derivative jẹ́ tẹtẹ lórí nọ́ńbà kan",
+      "content": "Gbogbo ohun tí o ti kọ́ títí di ìsinsìnyí ní nǹkan gidi kan lẹ́yìn rẹ̀. Ra ìpín kan nínú {retail}, o sì ní apá kan nínú ilé-iṣẹ́ náà: apá kan nínú àwọn ṣọ́ọ̀bù, apá kan nínú èrè, ìbò kan ní ìpàdé, àti dividend nígbà tí wọ́n bá san án.\n\nDerivative kì í ṣe bẹ́ẹ̀.\n\nCFD (contract for difference) jẹ́ àdéhùn láàárín ìwọ àti olùpèsè kan láti pààrọ̀ ìyàtọ̀ iye láàárín ìgbà tí o ṣí i àti ìgbà tí o tì í. Ọjà náà nìyẹn pátápátá. Tí {retail} bá gòkè tí o sì ń ta tẹtẹ pé yóò gòkè, wọn yóò san ìyàtọ̀ náà fún ọ. Tí ó bá lọ sílẹ̀, ìwọ ni yóò sanwó fún wọn. Kò sí ẹni tó ra ìpín kankan. Kò sí ẹni tó ta ìpín kankan. Kò sí ìpín kankan nínú ìṣòwò náà rárá.\n\nFuture jẹ́ àdéhùn láti rà tàbí ta nǹkan kan ní iye tí a ti pinnu ní ọjọ́ tí a ti pinnu. Àwọn gidi máa ń parí pẹ̀lú àgbá epo gidi tàbí tọ́ọ̀nù àgbàdo, ṣùgbọ́n kò fẹ́rẹ̀ẹ́ sí ẹni tó ń dì wọ́n mú pẹ́ tó bẹ́ẹ̀, nítorí náà ní ìṣe, ọ̀pọ̀ future náà jẹ́ tẹtẹ lórí nọ́ńbà kan pẹ̀lú ọjọ́ ìparí.\n\nÌdí tí èyí fi ṣe pàtàkì ju bí ó ti dún lọ:\n\n• Kò sí dividend. Kò sí Money Babies. Ohun tó kọ́ ọ̀pọ̀ èrè ní ìdákẹ́jẹ́ẹ́ nínú ẹ̀kọ́ 15 kò sí níbí rárá.\n• Kò sí ìbò, kò sí níní, kò sí nǹkan láti dì mú. Kò sí àṣàyàn “kàn dì í mú fún ọdún mẹ́wàá”, nítorí pé kò sí nǹkan láti dì mú.\n• Kò sí compounding (èrè lórí èrè). Ìyókù app yìí lo ẹ̀kọ́ 65 láti kọ́ ọ pé àkókò wà lẹ́yìn rẹ. Nínú yàrá yìí, àkókò ń ná ọ lówó. Wàá rí iye rẹ̀ gan-an nínú ẹ̀kọ́ 72.\n\nGbogbo ohun tí o ti mọ̀ ṣì ṣe pàtàkì. Ó kàn dẹ́kun jíjẹ́ ohun tí ò ń ṣe ni. 📄",
+      "quiz": {
+        "q": "O ṣí CFD kan lórí {retail}, iye náà sì gòkè. Kí lo ní gan-an?",
+        "explanation": "CFD jẹ́ àdéhùn láàárín ìwọ àti olùpèsè láti pààrọ̀ ìyàtọ̀ láàárín iye nígbà tí o ṣí i àti iye nígbà tí o tì í. Kò sí ẹni tó ra ìpín, kò sí ẹni tó ta ọ̀kan, kò sì sí ìpín kankan nínú àdéhùn náà. Ìdí nìyẹn tí kò fi sí dividend, kò sí ìbò, kò sì sí nǹkan láti dì mú fún ọdún mẹ́wàá.",
+        "options": [
+          "Àwọn ìpín tí olùpèsè ń dì mú ní orúkọ ara rẹ̀",
+          "Àdéhùn láti pààrọ̀ ìyàtọ̀ iye ní òpin",
+          "Apá kan nínú ilé-iṣẹ́ náà, àti dividend tó tẹ̀lé e",
+          "Ìwé ẹ̀rí tó ń di ìpín gidi nígbà tí o bá tì í"
+        ]
+      }
+    },
+    "67": {
+      "title": "Yíyá Owó Lọ́wọ́ Ọ̀rẹ́",
+      "desc": "Ohun tí leverage jẹ́ gan-an, àti apá tí kò sí ẹni tó ń post",
+      "content": "Leverage dún bí ọ̀rọ̀ ìmọ̀ ẹ̀rọ. Kì í ṣe bẹ́ẹ̀. Yíyá owó ni.\n\nJẹ́ ká sọ pé o fẹ́ ìpín tó tó {c}1,000 ṣùgbọ́n {c}200 péré ló wà lọ́wọ́ rẹ. Ọ̀rẹ́ kan fẹ́ fi {c}800 tó kù sí i. O ń darí ìpín tó tó {c}1,000 pẹ̀lú {c}200 owó tìrẹ. Leverage nìyẹn. Èrò náà nìyẹn pátápátá.\n\nNísinsìnyí, àwọn nǹkan mẹ́ta tí ọ̀rẹ́ yẹn ń ṣe. O nílò gbogbo mẹ́tẹ̀ẹ̀ta, bí bẹ́ẹ̀ kọ́ ìtàn àròsọ ni wọ́n tà fún ọ.\n\n1️⃣ ÈRÈ JẸ́ TÌRẸ LÓÒÓTỌ́. Àwọn ìpín gòkè 10%. {c}1,000 rẹ ti di {c}1,100 báyìí. Ìyẹn ni èrè {c}100, o sì ń pa gbogbo kọ́bọ̀ rẹ̀ mọ́, nítorí pé {c}800 ni ọ̀rẹ́ rẹ ń bèèrè, kò sí ju bẹ́ẹ̀ lọ (owó: {cName}). Lórí {c}200 tìrẹ, {c}100 jẹ́ èrè 50%. Ìrìn 10% sọ ọ́ di 50%. Apá yìí ni gbogbo ènìyàn ń post nípa rẹ̀.\n\n2️⃣ GBÈSÈ KÌ Í DÍNKÙ NÍGBÀ TÍ O BÁ ṢÀṢÌṢE. Apá yìí ni kò sí ẹni tó ń post nípa rẹ̀, òun sì ni gbogbo ẹ̀kọ́ náà. Dípò bẹ́ẹ̀, àwọn ìpín jábọ́ 10%. {c}1,000 rẹ ti di {c}900 báyìí. O ṣì jẹ ọ̀rẹ́ rẹ ní {c}800 pátápátá. Kì í ṣe {c}720. {c}800 pátápátá. Nítorí náà, gbogbo ìjábọ́ {c}100 náà ń jáde láti inú ipín TÌRẸ, {c}200 rẹ sì ti di {c}100 báyìí. Ìrìn 10% ná ọ ní 50%.\n\nTún ka àwọn méjèèjì yẹn. Ọ̀rẹ́ kan náà, 10% kan náà. Owó rẹ ń rìn ní ìlọ́po márùn-ún ìyára sí ọ̀nà méjèèjì, nítorí pé gbèsè náà kì í gba ipín kankan nínú ìrora.\n\n3️⃣ Ọ̀RẸ́ NÁÀ Ń GBA OWÓ ÌYÁLÉ, LÓJOOJÚMỌ́, LÓRÍ GBOGBO RẸ̀. Kì í ṣe lórí {c}800 tirẹ̀. Lórí gbogbo {c}1,000 tí ò ń darí. Gbogbo alẹ́ tí o bá dì í mú, yálà iye gòkè, lọ sílẹ̀, tàbí kò lọ sí ibì kankan rárá.\n\nNǹkan kẹrin kan sì farapamọ́ sínú ìkẹta. Tí {c}200 rẹ bá ń tán lọ, ọ̀rẹ́ rẹ kò ní pè ọ́ láti jíròrò rẹ̀. Wọn yóò tà á. Lẹ́sẹ̀kẹsẹ̀, fúnra rẹ̀, ní iye èyíkéyìí tó bá wà, nítorí pé {c}800 tiwọn ló wà nínú ewu, wọn kò sì ní dúró de èrò rẹ. Ó ní orúkọ kan, wàá sì pàdé rẹ̀ lẹ́yìn ẹ̀kọ́ mẹ́ta: liquidation.\n\nNítorí náà: èrè tó tóbi jù, àdánù tó tóbi jù, owó ìyálé ní gbogbo alẹ́, àti ìka ẹlòmíràn lórí bọ́tìnnì títà. Leverage kì í ṣe owó ọ̀fẹ́ pẹ̀lú ewu díẹ̀. Gbèsè ni, pẹ̀lú gbogbo mẹ́rẹ̀ẹ̀rin wọ̀nyẹn, àwọn ìpolówó sì máa ń fi àkọ́kọ́ nìkan hàn ọ́. 🧠",
+      "quiz": {
+        "q": "Ọ̀rẹ́ kan fi 800 NT sí i, ìwọ fi 200 NT sí i, ẹ̀yin méjèèjì sì ń darí ìpín tó tó 1,000 NT. Àwọn ìpín jábọ́ 10%. Fà á sí iye tí 200 NT tìrẹ tó báyìí.",
+        "explanation": "Gbèsè kì í dínkù nígbà tí o bá ṣàṣìṣe. Àwọn ìpín tó 900 NT báyìí, ọ̀rẹ́ rẹ sì ṣì ń bèèrè 800 NT pátápátá, nítorí náà 100 NT ló kù fún ọ. Ìjábọ́ 10% nínú àwọn ìpín gba ìdajì owó rẹ, nítorí pé gbèsè kì í gba ìrora kankan. Ó ń ṣiṣẹ́ bákan náà sókè, ìdajì yẹn sì ni àwọn ìpolówó ń fi hàn ọ́."
+      }
+    },
+    "68": {
+      "title": "Margin Jẹ́ Owó Ìdógò, Kì Í Ṣe Ríra",
+      "desc": "Owó tí o fi sílẹ̀ kò ná, ó wà nínú ewu",
+      "content": "Nígbà tí o bá ra ìpín kan ní {c}100, {c}100 yẹn ti kúrò nínú owó rẹ, ìpín kan sì wà nínú àkáǹtì rẹ. Pàṣípààrọ̀ tó rọrùn.\n\nMargin kò ṣiṣẹ́ bẹ́ẹ̀. Nígbà tí o bá ṣí ipò leverage, o máa ń fi owó ìdógò sílẹ̀, owó ìdógò yẹn kì í sì í ṣe ìsanwó fún nǹkan kan. Owó ààbò ni lòdì sí àdánù tìrẹ fúnra rẹ. Ó jókòó síbẹ̀, a tì í pa, ipò náà sì ń jẹ ẹ́ bí iye ṣe ń rìn lòdì sí ọ.\n\nJẹ́ ká sọ pé ìwọ̀n owó ìdógò jẹ́ 25%. O fi 250 NT sílẹ̀, o sì ń darí 1,000 NT. Wo àkáǹtì rẹ:\n\n• Iye dúró pẹrẹsẹ: 250 rẹ ṣì jẹ́ 250. Àyàfi pé financing ti bẹ̀rẹ̀, nítorí náà ó ti dínkù díẹ̀ ní ìdákẹ́jẹ́ẹ́.\n• Iye lọ sílẹ̀ 5%: ipò náà ti pàdánù 50 NT. Owó ìdógò rẹ ti fẹ́rẹ̀ẹ́ di 200. Owó ọ̀fẹ́ rẹ kò yí padà. Àkáǹtì rẹ ti kéré sí i.\n• Iye lọ sílẹ̀ 20%: ipò náà ti pàdánù 200 NT. Owó ìdógò rẹ ti lọ sílẹ̀ dé 50. O kò ṣe nǹkan kan. O kò ta nǹkan kan. O kàn wò ó.\n\nỌ̀rọ̀ mẹ́ta tó wà lórí gbogbo ojú-ìwé nínú yàrá yìí:\n\n🔒 USED MARGIN (margin tí a lò): gbogbo owó ìdógò tí o ti fi sílẹ̀ báyìí.\n💰 ACCOUNT EQUITY (iye àkáǹtì): owó ọ̀fẹ́ rẹ, pẹ̀lú margin tí o fi sílẹ̀, àfikún tàbí àyọkúrò èrè àti àdánù gbogbo ipò tó ṣí sílẹ̀, àyọkúrò financing tí a ti gbà títí di ìsinsìnyí. Iye tí àkáǹtì rẹ tó gan-an tí gbogbo nǹkan bá tì báyìí.\n📊 MARGIN LEVEL (ìpele margin): equity tí a pín sí used margin. Lókè 100%, o ní ìtìmùtìmù. Nísàlẹ̀ 100%, ọjà ti jẹ ìtìmùtìmù tán, ó sì ti bẹ̀rẹ̀ sí jẹ owó ìdógò.\n\nÒfin kan tó máa ń ya gbogbo ènìyàn lẹ́nu: a ń wọn margin lórí gbogbo àkáǹtì rẹ, kì í ṣe lórí ipò kọ̀ọ̀kan. Ipò tó ń pàdánù ń jẹ ààbò tó gbé ipò tó ń jèrè ró. Ìdí nìyẹn tí “ìṣòwò mi mìíràn dára” kì í fi í ṣe àwáwí. 🔒",
+      "quiz": {
+        "q": "Ìwọ̀n owó ìdógò jẹ́ 25%, nítorí náà 250 NT owó tìrẹ ń darí 1,000 NT. Iye jábọ́ 8% nígbà tí o kò ṣe nǹkan kan rárá. Fà á sí iye tí ìjábọ́ yẹn ti ná ọ.",
+        "explanation": "Owó ìdógò kì í ṣe ìsanwó fún nǹkan kan, ààbò ni, a sì ń ṣírò àdánù lórí gbogbo 1,000 NT tí ò ń darí. 8% nínú 1,000 NT jẹ́ 80 NT. O kò ta nǹkan kan, owó ọ̀fẹ́ rẹ kò sì yí padà, ṣùgbọ́n a ti jẹ 80 NT nínú owó ìdógò 250 NT rẹ, àkáǹtì rẹ sì ti dínkù ní 80 NT. Tí o bá ṣírò 8% lórí owó ìdógò dípò bẹ́ẹ̀, wàá rí 20 NT, àṣìṣe tó ń jẹ́ kí leverage dà bí ẹni pé kò le nìyẹn."
+      }
+    },
+    "69": {
+      "title": "Margin Call",
+      "desc": "Àṣẹ ni, kì í ṣe ìkìlọ̀",
+      "content": "Margin call ni àkókò tí margin level rẹ bá lọ sísàlẹ̀ 100%. Ní ọ̀rọ̀ tó rọrùn: ìtìmùtìmù èrè rẹ ti tán, ọjà sì ti bẹ̀rẹ̀ sí jẹ owó ìdógò fúnra rẹ̀.\n\nBí ó ṣe rí lára gan-an nìyí, nítorí pé ẹ̀yà inú ìwé kò sọ apá pàtàkì.\n\nKì í dé ní ọjọ́ rere láé. Ó máa ń dé nígbà tí ipò náà ti burú tán, nígbà tí o ti sọ fún ara rẹ lẹ́ẹ̀mejì pé yóò padà, àti nígbà tí agbára rẹ láti ṣe ìpinnu pẹ̀lú ìfọkànbalẹ̀ kéré jù. Kì í ṣe ìkìlọ̀ oníwà rere. Àṣẹ ni: fi owó sí i, tàbí ti àwọn ipò, bí bẹ́ẹ̀ kọ́ olùpèsè yóò ṣe é fún ọ.\n\nO ní ìgbésẹ̀ mẹ́ta, méjì péré nínú wọn sì ni tìrẹ.\n\n1️⃣ TI nǹkan kan. Èyí ń tú margin sílẹ̀ lẹ́sẹ̀kẹsẹ̀, ó sì fẹ́rẹ̀ẹ́ jẹ́ ìdáhùn tó tọ́ nígbà gbogbo. Ó tún túmọ̀ sí gbígbà pé o ṣàṣìṣe, èyí tó jẹ́ ìdí gidi tí àwọn ènìyàn kì í fi í ṣe é.\n2️⃣ FI owó KÚN un. Èyí kò tún nǹkan kan ṣe. Ó kàn ń ra ààyè fún ọ láti ṣàṣìṣe fún ìgbà pípẹ́ sí i, lórí ipò tí o ti yàn lọ́nà burúkú, pẹ̀lú owó tí o kò ṣètò láti fi wewu. Fífi owó kún un nígbà margin call ni bí ìṣòwò burúkú ṣe ń di oṣù burúkú.\n3️⃣ MÁ ṢE NǸKAN KAN. Nígbà náà ìgbésẹ̀ kẹta yóò ṣẹlẹ̀ láìsí ìwọ, ó sì ní orúkọ kan.\n\nÀwọn alábòójútó ka èyí sí pàtàkì tó bẹ́ẹ̀ tí wọ́n fi kọ nọ́ńbà kan sínú òfin. Àwọn ilé-iṣẹ́ ní Europe, UK àti Australia gbọ́dọ̀ ti àwọn ipò oníbàárà lásán fúnra wọn nígbà tí margin wọn bá jábọ́ sí 50% ohun tí a béèrè. Kì í ṣe “ó yẹ”. Ó pọn dandan. Wọ́n kọ òfin yẹn nítorí pé nígbà tí a fi àwọn ènìyàn sílẹ̀ láti pinnu fúnra wọn, wọ́n yan àṣàyàn 3 wọ́n sì pàdánù ju ohun tí wọ́n ní lọ. ⚠️",
+      "quiz": {
+        "q": "Margin level rẹ ti jábọ́ sí 80%, o sì wà nínú margin call. Ìdáhùn wo ló ń dín ewu liquidation kù lóòótọ́ dípò kí ó kàn fà á sẹ́yìn?",
+        "explanation": "Títi ipò ń dá owó ìdógò padà lẹ́sẹ̀kẹsẹ̀, nítorí náà margin level ń fò sókè lójú ẹsẹ̀. Fífi owó kún un kàn ń ra ààyè láti ṣàṣìṣe fún ìgbà pípẹ́ sí i lórí ìṣòwò tí o ti yàn lọ́nà burúkú. Dídúró ni bí liquidation ṣe ń ṣẹlẹ̀. Ipò kejì sí ọ̀nà kejì sì nílò owó ìdógò tirẹ̀, nítorí náà ó ń lo margin púpọ̀ sí i, kì í ṣe díẹ̀.",
+        "options": [
+          "Fífi owó púpọ̀ sí i sínú àkáǹtì",
+          "Dídúró kí margin level gòkè padà",
+          "Títi ọ̀kan lára àwọn ipò tí o ṣí sílẹ̀",
+          "Ṣíṣí ipò kejì sí ọ̀nà kejì"
+        ]
+      }
+    },
+    "70": {
+      "title": "Liquidation, àti Iye Tí Ó Yẹ Kí O Kọ́kọ́ Mọ̀",
+      "desc": "Iye gangan tí àkáǹtì rẹ yóò ti dé odo",
+      "content": "Liquidation ni nígbà tí olùpèsè bá ti àwọn ipò rẹ fún ọ nítorí pé owó ìdógò rẹ ti fẹ́rẹ̀ẹ́ tán. Ó ń ṣẹlẹ̀ fúnra rẹ̀. Lẹ́sẹ̀kẹsẹ̀ ni. Kò sí ẹni tó ń béèrè èrò rẹ, kò sí ẹni tó ń ṣàyẹ̀wò bóyá o fẹ́ẹ̀ tọ̀nà, kò sì sí ẹ̀bẹ̀.\n\nNọ́ńbà kan ṣoṣo tó wúlò jù nínú gbogbo module yìí ni LIQUIDATION PRICE rẹ (iye liquidation): iye gangan, ní owó gidi (owó: {cPlural}), tí èyí yóò ti ṣẹlẹ̀.\n\nKì í ṣe ìpín-ọgọ́rùn-ún. Iye kan. Nítorí pé “o lè pàdánù owó ìdógò rẹ” jẹ́ gbólóhùn tí o lè mi orí sí kí o sì gbàgbé, nígbà tí “{tech} ní {c}87.40, àkáǹtì rẹ sì ṣófo” jẹ́ òótọ́ tí o lè ṣàyẹ̀wò lórí chart kí o tó tẹ nǹkan kan.\n\nGbogbo ojú-ìwé nínú yàrá yìí ń fi í hàn kí o tó fìdí rẹ̀ múlẹ̀, tí a yà lórí ìwọ̀n iye kan náà pẹ̀lú chart kí o lè rí bí ó ṣe jìnnà tó gan-an. Nǹkan méjì tí wàá ṣàkíyèsí lẹ́sẹ̀kẹsẹ̀, àwọn méjèèjì sì ni ẹ̀kọ́ náà:\n\n📏 Owó ìdógò tó tóbi jù ń ti liquidation price jìnnà sí i. Owó tìrẹ púpọ̀ sí i túmọ̀ sí pé iye ní láti jábọ́ jìnnà sí i kí owó rẹ tó tán.\n⚡ Owó ìdógò tó kéré jù ń fà á wá súnmọ́ iye ti òní gan-an. Ní owó ìdógò 10%, liquidation fẹ́rẹ̀ẹ́ jẹ́ ìrìn 10% sí ọ, ìrìn 10% sì jẹ́ ọ̀sẹ̀ lásán.\n\nLẹ́yìn náà, kókó òtítọ́ náà. Liquidation price ni ibi tí ẹ̀rọ ń gbèrò láti tì ọ́, kì í ṣe ibi tí ó dájú pé wàá ti jáde. Tí ìròyìn burúkú bá dé lóru tí ọjà sì ṣí padà jìnnà sísàlẹ̀ ìpele yẹn, a ó tì ọ́ ní iye èyíkéyìí tí ọjà bá ń san gan-an. Ìyẹn ni gap (àlàfo), ẹ̀kọ́ 78 sì dá lé e.\n\nMọ liquidation price rẹ kí o tó ṣí i. Tí o kò bá lè sọ ọ́ jáde, o kò lóye ìṣòwò tí o fẹ́ ṣe. 💀",
+      "quiz": {
+        "q": "O fi 200 NT sílẹ̀ bí owó ìdógò láti darí 1,000 NT nínú dúkìá tí iye rẹ̀ jẹ́ 100 NT. Fa iye náà sísàlẹ̀ sí ibi tí owó ìdógò rẹ ti tán.",
+        "explanation": "O ń darí ẹyọ 10, nítorí náà gbogbo 1 NT tí iye bá jábọ́ ń ná ọ ní 10 NT. Owó ìdógò 200 NT rẹ ti tán ní 80 NT, èyí tó jẹ́ ìjábọ́ 20% péré."
+      }
+    },
+    "71": {
+      "title": "Ọ̀nà Ìpadàbọ̀ Ga Jù",
+      "desc": "Ìdí tí àdánù fi ṣòro láti dá padà ju bí ó ti hàn lọ",
+      "content": "Àdánù àti èrè dà bí ìdàkejì ara wọn. Wọn kì í ṣe bẹ́ẹ̀, ìṣirò náà kò sì súnmọ́ ọn rárá.\n\nPàdánù 10%? O nílò +11% láti padà. Ó ń bíni nínú, ó dára.\nPàdánù 50%? O nílò +100%. O ní láti ṢE ÌLỌ́PO MÉJÌ kí o kàn padà sí ibi tí o wà.\nPàdánù 75%? O nílò +300%.\nPàdánù 90%? O nílò +900%.\n\nÌdí rẹ̀ rọrùn nígbà tí o bá rí i: a ń ṣírò èrè lórí òkìtì kékeré tó kù fún ọ. 100 jábọ́ sí 50, láti gun láti 50 padà sí 100 òkìtì kékeré yẹn ní láti di ìlọ́po méjì.\n\nNísinsìnyí fi leverage kún un, kí o sì ṣàkíyèsí ohun tí ó ń ṣe gan-an. Kì í kàn ṣe kí èrè rẹ yára sí i. Ó ń gbé ọ sísàlẹ̀ tábìlì yẹn ní ọ̀sán kan ṣoṣo. Ìjábọ́ 12% nínú ìpín kan, tó jẹ́ ọ̀sẹ̀ burúkú ṣùgbọ́n tó wọ́pọ̀ pátápátá, jẹ́ ìpalára 48% sí àkáǹtì rẹ ní owó ìdógò 25%. O nílò +92% báyìí láti padà sí ibi tí o ti bẹ̀rẹ̀, láti ọ̀sẹ̀ kan tí kò fẹ́rẹ̀ẹ́ dé inú ìròyìn.\n\nÌdí nìyí tí àwọn akọ́ṣẹ́mọṣẹ́ fi ń sọ̀rọ̀ nípa dídáàbò bo olú-owó ṣáájú ohunkóhun mìíràn, àti ìdí tí “màá rí i padà” fi jẹ́ gbólóhùn tó gbówó lórí jù nínú ìṣòwò. Rírí i padà ṣòro ní ìṣirò ju pípàdánù rẹ̀ lọ, ní gbogbo ìgbà. ⛰️",
+      "quiz": {
+        "q": "Àkáǹtì rẹ ti lọ sílẹ̀ 75%. Fà á sí èrè tí o nílò láti ibí kí o kàn padà sí ibi tí o ti bẹ̀rẹ̀.",
+        "explanation": "100 NT jábọ́ sí 25 NT. Láti dé 100 lẹ́ẹ̀kan sí i, 25 yẹn ní láti di ìlọ́po mẹ́rin, èyí tó jẹ́ èrè 300%. A ń wọn ìgòkè lórí òkìtì kékeré tó kù fún ọ, ìdí nìyẹn tí ó fi ga jù ìjábọ́ lọ púpọ̀."
+      }
+    },
+    "72": {
+      "title": "Owó Ìyálé Lórí Owó Yíyá",
+      "desc": "O tọ̀nà nípa ọ̀nà, síbẹ̀ ìṣòwò náà ń pàdánù",
+      "content": "O yá ipò náà. Nítorí náà o ń sanwó fún un. Ní gbogbo alẹ́.\n\nFinancing (àwọn ibì kan ń pè é ní swap, tàbí owó alẹ́) ni a ń gbà lójoojúmọ́, apá tó ń mú gbogbo ènìyàn nìyí: a ń gbà á lórí GBOGBO ipò náà, kì í ṣe lórí apá tí o yá. Fi 500 NT sílẹ̀ láti darí 2,000 NT, wàá sì san owó ìyálé lórí 2,000.\n\nBí a ṣe ń ṣírò rẹ̀: ìwọ̀n èlé ìpìlẹ̀ kan, pẹ̀lú àfikún olùpèsè, pín sí 365, ìlọ́po gbogbo ipò rẹ. O ń rí ìdajì méjèèjì lórí ojú-ìwé nínú app yìí, nítorí pé owó tí o kò lè pín sí wẹ́wẹ́ jẹ́ owó tí o kò lè dájọ́ rẹ̀. Ní nǹkan bí 7.3% lọ́dún, ìyẹn jẹ́ nǹkan bí 0.02% ipò rẹ ní alẹ́ kọ̀ọ̀kan.\n\nÓ dún bí ẹni pé kò jẹ́ nǹkan kan. Nísinsìnyí wo bí ó ṣe ń jẹ ìṣòwò tó ń jèrè. 🧾\n\nÌṢÒWÒ TÍ O TỌ̀NÀ NÍPA RẸ̀ TÍ O SÌ ṢÌ PÀDÁNÙ\n\nO ṣí ipò 2,000 NT lórí {retail} pẹ̀lú owó ìdógò 500 NT. O gbàgbọ́ pé yóò gòkè, ó sì wá jẹ́ òótọ́: láàárín oṣù díẹ̀ tó tẹ̀lé e, {retail} rọra GÒKÈ 2%.\n\n• Èrè rẹ: 2% nínú 2,000 = 40 NT. Lórí owó ìdógò 500 NT, ìyẹn jẹ́ +8%. Ó dára.\n• Owó ìyálé rẹ: 0.02% nínú 2,000 = 0.40 NT, ní gbogbo alẹ́.\n\nAlẹ́ 50: o ti san 20 NT. O ti jèrè 20 NT lápapọ̀. Ò ń borí síbẹ̀.\nAlẹ́ 100: o ti san 40 NT. Èrè 40 NT rẹ jẹ́ odo gan-an báyìí. O sọ ọ́ dáadáa, o kò sì rí nǹkan kan.\nAlẹ́ 180: o ti san 72 NT. Èrè rẹ ṣì jẹ́ 40 NT. O ti PÀDÁNÙ 32 NT, èyí tó jẹ́ àyọkúrò 6.4% nínú owó ìdógò rẹ, lórí ìṣòwò kan tí o ti ka ọjà dáadáa fún oṣù mẹ́fà.\n\nTún ka ìyẹn. Iye ṣe ohun tí o sọ pé yóò ṣe. O ṣì pàdánù.\n\nGbólóhùn tí o yẹ kí o mú jáde nínú ẹ̀kọ́ yìí nìyí: lórí ipò leverage, títọ̀nà ní ọjọ́ ìparí. Nínú àpẹẹrẹ yìí, alẹ́ 100 ló kù sí i, o sì lè ṣírò tìrẹ kí o tó ṣí i. Pín èrè tí ò ń retí sí owó ìyálé alẹ́ kan. Iye alẹ́ tí èrò rẹ tó nìyẹn.\n\nÌdàkejì rẹ̀ náà yẹ ní kíkíyèsí. Ìyókù app yìí ń kọ́ni nípa compounding, níbi tí àkókò ti ń pa owó fún ọ ní ìdákẹ́jẹ́ẹ́ nígbà tí o bá ń sùn. Ẹ̀rọ kan náà nìyí, tó ń ṣiṣẹ́ sẹ́yìn, tí a dojú rẹ̀ kọ ọ́. ⏳",
+      "quiz": {
+        "q": "O ní ipò leverage 2,000 NT tó ń ná 0.40 NT ní alẹ́ kan fún financing. Iye gòkè tó láti fún ọ ní èrè 40 NT, lẹ́yìn náà ó dẹ́kun rírìn. Lẹ́yìn alẹ́ mélòó ni èrè yẹn yóò ti jẹ tán pátápátá?",
+        "options": [
+          "A kò ní jẹ ẹ́ tán láé, nítorí pé apá tí a yá nìkan ni a ń gba financing lé lórí",
+          "Nǹkan bí alẹ́ 100, nítorí pé èrè 40 NT tí a pín sí 0.40 NT ní alẹ́ jẹ́ 100",
+          "Nǹkan bí alẹ́ 20, nítorí pé a ń gba financing lórí owó ìdógò 500 NT rẹ",
+          "A ń gba financing nìkan nígbà tí a bá ti ipò kan pẹ̀lú àdánù"
+        ]
+      }
+    },
+    "73": {
+      "title": "Future: Aago àti Roll",
+      "desc": "Iye owó kan náà, tí a gbé wá lọ́nà mìíràn",
+      "content": "Future àti CFD jẹ́ ìbátan. Àwọn méjèèjì ní leverage, àwọn méjèèjì ń lo margin, àwọn méjèèjì lè fa liquidation fún ọ. Nǹkan méjì ló mú future yàtọ̀, èkejì sì ni èyí tó dùn mọ́ni.\n\n⏰ 1. ỌJỌ́ WÀ LÓRÍ RẸ̀. Gbogbo àdéhùn future ló ní ọjọ́ ìparí. Epo March, àgbàdo June, index September. Nígbà tí ọjọ́ náà bá dé, àdéhùn náà ń parí, kò sì sí mọ́. “Dì í mú kí o dúró kí ó padà” kò sí lórí àtòjọ rárá, nítorí pé àdéhùn náà kò ní sí níbẹ̀. CFD kì í parí láé, èyí tó dún bí ẹni pé ó dára jù títí tí o fi rántí pé ó ń gba owó ìyálé títí láé.\n\n🔄 2. IYE OWÓ NÁÀ WÀ NÍNÚ IYE, A KÌ Í GBÀ Á LÁLẸ́. Apá yìí ni àwọn ènìyàn máa ń pàdánù. Future kì í sábà gba owó financing alẹ́ lọ́wọ́ rẹ. Dípò bẹ́ẹ̀, iye owó dídì nǹkan náà mú títí di ọjọ́ yẹn ti wà nínú iye àdéhùn náà tẹ́lẹ̀. Àwọn àdéhùn fún ọjọ́ tó jìnnà sábà máa ń wọ́n ju àwọn àdéhùn fún ọjọ́ tó súnmọ́ lọ, àlàfo yẹn sì ni iye owó dídì mú kan náà, tó jókòó sínú nọ́ńbà náà.\n\nNítorí náà kí ló ń ṣẹlẹ̀ nígbà tí oníṣòwò bá fẹ́ pa ipò mọ́ kọjá ọjọ́ ìparí? Wọ́n máa ń ROLL: wọ́n á ti àdéhùn tó ń parí, wọ́n á sì ṣí èyí tó kàn. Tí èyí tó kàn bá sì wọ́n jù, wọ́n á san ìyàtọ̀ yẹn. Ní gbogbo roll. Ìyẹn ni owó ìyálé alẹ́ CFD, tí a gbà ní ìsanwó tó tóbi jù, tí kò wọ́pọ̀ tó.\n\nÀkópọ̀ òtítọ́:\n\n• CFD: kò sí ọjọ́ ìparí, owó ìyálé ní gbogbo alẹ́, tí a kọ sílẹ̀ lọ́kọ̀ọ̀kan lórí statement rẹ.\n• Future: ọjọ́ ìparí tó le, iye owó farapamọ́ sínú iye a sì ń san án ní gbogbo roll, ó rọrùn láti pàdánù.\n\nKò sí èyí tó jẹ́ ọ̀fẹ́. Ọ̀kan nínú wọn kàn ń gbé ìwé owó kalẹ̀ pẹ̀lú ìwà rere jù, iye owó tí o kò lè rí sì ni èyí tó ṣeé ṣe jù láti yà ọ́ lẹ́nu. ⏳",
+      "quiz": {
+        "q": "Oníṣòwò kan fẹ́ pa ipò future mọ́ kọjá ọjọ́ ìparí rẹ̀, àdéhùn tó kàn sì ń ṣòwò ní iye tó wọ́n ju èyí tó ń parí lọ. Kí ló ń ṣẹlẹ̀ nígbà tí wọ́n bá roll?",
+        "explanation": "Roll túmọ̀ sí títi àdéhùn tó fẹ́ parí àti ṣíṣí èyí tó kàn. Tí èyí tó kàn bá wọ́n jù, o ń san ìyàtọ̀ yẹn, o sì tún ń ṣe bẹ́ẹ̀ ní gbogbo roll. Iye owó dídì mú kan náà tí CFD ń gbà lọ́wọ́ rẹ ní alẹ́ kọ̀ọ̀kan nìyẹn, tí a gbà ní ìdìpọ̀ tó tóbi jù tí a sì fi pamọ́ sínú iye dípò kí a tẹ̀ ẹ́ sórí statement rẹ.",
+        "options": [
+          "Wọ́n ń san àlàfo láàárín àdéhùn tó ń parí àti èyí tó kàn",
+          "A ń san àlàfo láàárín iye àdéhùn méjèèjì fún wọn",
+          "Kò sí owó tó ń yí ọwọ́ padà, nítorí roll jẹ́ ìṣòwò kan ṣoṣo",
+          "Ipò náà di CFD, ó sì ń bá a lọ láìní ọjọ́ ìparí"
+        ]
+      }
+    },
+    "74": {
+      "title": "Lílọ Short: Àdánù Tí Kò Ní Ilẹ̀",
+      "desc": "Ìdí tí tẹtẹ ìsọ̀kalẹ̀ kò fi ní àjà àdánidá",
+      "content": "Gbogbo nǹkan nínú app yìí títí di ìsinsìnyí ti jẹ́ long: o rà, o sì fẹ́ kí iye gòkè. Derivative ń jẹ́ kí o lọ short, èyí tó túmọ̀ sí títa tẹtẹ pé iye yóò jábọ́. O ṣí short, iye lọ sílẹ̀, o jèrè.\n\nShort wúlò lóòótọ́, kì í sì í ṣe ibi. Báyìí ni àgbẹ̀ ṣe ń dí iye mú ṣáájú ìkórè, àti bí fund ṣe ń dáàbò bo portfolio. Lílóye rẹ̀ ń jẹ́ kí o mọ ọjà kà dáadáa sí i, nítorí pé fún ìgbà àkọ́kọ́ o lè rí ẹ̀gbẹ́ méjèèjì gbogbo ìṣòwò.\n\nṢùgbọ́n ìṣirò kan wà nínú short tí kò ní ẹgbẹ́ rẹ̀ níbì kankan mìíràn, o sì nílò kí ó jó sínú ọpọlọ rẹ.\n\n📉 NÍGBÀ TÍ O BÁ RÀ, ohun tó burú jù tó lè ṣẹlẹ̀ ni kí iye lọ sí odo. O pàdánù 100% ohun tí o fi sí i. Ó burú, ṣùgbọ́n ilẹ̀ ni. Ìsàlẹ̀ wà.\n📈 NÍGBÀ TÍ O BÁ SHORT, kí iye lọ lòdì sí ọ túmọ̀ sí kí iye GÒKÈ. Kò sì sí òfin kankan níbì kankan tó sọ bí iye ṣe lè ga tó. Ìpín tó di ìlọ́po mẹ́ta ń ná ọ ní 200% ipò náà. Ìpín tó gòkè ní ìlọ́po mẹ́wàá ń ná ọ ní 900%.\n\nÀdánù long ní ilẹ̀. Àdánù short kò ní. Àìdọ́gba yẹn ni gbogbo ìkìlọ̀ náà.\n\nÀwọn ọjà gidi ń ṣe èyí. Nígbà mìíràn, ìpín tí a ti short púpọ̀ máa ń fò sókè bí rọ́kẹ́ẹ̀tì, nítorí pé gbogbo ẹni tó wà ní short ni a fipá mú láti rà kí wọ́n lè tì í, èyí tó ń ti iye sókè sí i, tó ń fipá mú púpọ̀ sí i nínú wọn láti rà. A ń pè é ní short squeeze, ó sì ti pa àwọn fund run.\n\nNǹkan méjì ló ń pa ọ́ mọ́ láàyè. Àkọ́kọ́, short ni ibi gan-an tí stop-loss ti dẹ́kun jíjẹ́ àṣàyàn. Èkejì, negative balance protection (ààbò lọ́wọ́ owó òdì): lórí àkáǹtì oníbàárà lásán tí a ṣàkóso dáadáa, àti nínú app yìí, àkáǹtì rẹ kò lè lọ sísàlẹ̀ odo. O lè pàdánù gbogbo ohun tí o fi sí i. O kò lè parí sí jíjẹ gbèsè. Ààbò yẹn wà nítorí pé, ṣáájú rẹ̀, àwọn ènìyàn jẹ gbèsè. 🕳️",
+      "quiz": {
+        "q": "Èéṣe tí ohun tó burú jù lórí ipò short fi yàtọ̀ ní irú sí ohun tó burú jù lórí ipò long?",
+        "explanation": "Ríra ní ilẹ̀. Ohun tó burú jù tí iye lè ṣe ni kí ó dé odo, nítorí náà o pàdánù ohun tí o fi sí i, kò sì ju bẹ́ẹ̀ lọ. Short jẹ́ ìdàkejì, nítorí pé pípàdánù túmọ̀ sí kí iye gòkè, kò sì sí ohun tó sọ bí iye ṣe lè ga tó. Ìpín tó di ìlọ́po mẹ́ta ń ná olùtà short ní ìlọ́po méjì ipò náà. Ìdí nìyẹn tí stop fi dẹ́kun jíjẹ́ àṣàyàn lórí short, àti ìdí tí app yìí kò fi lè mú ọ sísàlẹ̀ odo.",
+        "options": [
+          "Kò yàtọ̀, nítorí àwọn méjèèjì ní ààlà sí ohun tí o fi sí i",
+          "Stop-loss ń fi ilẹ̀ kan náà sí abẹ́ short bíi long",
+          "Ìjábọ́ lọ́ra ju ìgòkè lọ, nítorí náà short ń pàdánù díẹ̀díẹ̀",
+          "Iye lè jábọ́ sí odo nìkan, ṣùgbọ́n ó lè gòkè láìní ààlà"
+        ]
+      }
+    },
+    "75": {
+      "title": "Ìyípadà Iye Ìlọ́po Leverage",
+      "desc": "Ìdí tí crypto fi nílò owó ìdógò tó tóbi jù níbí",
+      "content": "Ìlọ́po kan náà lórí dúkìá méjì tó yàtọ̀ kì í ṣe tẹtẹ kan náà. Èrò náà nìyẹn pátápátá nínú ẹ̀kọ́ yìí, ìdí nìyẹn tí owó ìdógò tí o ní láti fi sílẹ̀ fi ń yí padà gẹ́gẹ́ bí ohun tí ò ń ṣòwò.\n\nRò ó bí ọjọ́ lásán ṣe rí:\n• Index ńlá kan ń rìn kéré sí 1% ní ọ̀pọ̀ ọjọ́.\n• Ìpín kan ṣoṣo lè rìn 2% tàbí 3%.\n• Crypto sábà máa ń rìn 5% tàbí 10%, ọjọ́ 20% kì í sì í ṣe wàhálà, Tuesday lásán ni. 🎢\n\nNísinsìnyí fi owó ìdógò kékeré sí ẹ̀yìn ọ̀kọ̀ọ̀kan wọn. Ní owó ìdógò 10%, ìrìn 10% ń pa ọ́ run. Fún index, ìyẹn jẹ́ ìṣẹ̀lẹ̀ ẹ̀ẹ̀kan lọ́pọ̀ ọdún. Fún crypto, ó fẹ́rẹ̀ẹ́ jẹ́ lóṣooṣù. Owó ìdógò kan náà. Àǹfààní ìwàláàyè tó yàtọ̀ pátápátá.\n\nÀwọn alábòójútó ṣírò èyí, wọ́n sì kọ ọ́ sínú òfin. Nígbà tí ESMA fi ààlà sí leverage CFD jákèjádò Europe ní March 2018, kò yan nọ́ńbà kan ṣoṣo. Ó tò wọ́n ní ìpele: 30:1 lórí àwọn pàṣípààrọ̀ owó pàtàkì, 20:1 lórí wúrà àti àwọn index pàtàkì, 10:1 lórí àwọn ọjà mìíràn, 5:1 lórí ìpín kọ̀ọ̀kan, àti gan-an nísàlẹ̀, 2:1 lórí crypto. Méjì sí ọ̀kan túmọ̀ sí owó ìdógò 50%. Fún crypto, wọ́n béèrè ÌDAJÌ ipò náà ní owó gidi, ìwọ̀n tó le jù lórí gbogbo àtòjọ náà.\n\nApp yìí ń ṣe ohun kan náà, fún ìdí kan náà, ó sì ń sọ bẹ́ẹ̀ lórí ojú-ìwé dípò kí ó fi pamọ́:\n\n💱 Forex: owó ìdógò tó kéré jù, nítorí pé àwọn pàṣípààrọ̀ pàtàkì ló ń rìn díẹ̀ jù.\n🥇 Wúrà àti àwọn ọjà: tó tóbi jù.\n📊 Ìpín, index àti ETF: tó tóbi jù sí i.\n🪙 Crypto: owó ìdógò tó tóbi jù lọ, nítorí pé crypto ló ń rìn gidigidi jù.\n\nA kò fòfin de crypto níbí, a sì mọ̀ọ́mọ̀ ṣe bẹ́ẹ̀ ni. O lè ṣòwò rẹ̀. O kàn kò lè ṣòwò rẹ̀ lórí owó ìdógò tínrín, nítorí pé lórí owó ìdógò tínrín, ọjọ́ crypto lásán yóò pa àkáǹtì rẹ run kí o tó parí kíkà nípa rẹ̀. Owó ìdógò tó tóbi kì í ṣe pé app ń ṣe àgàbàgebè nípa crypto. App ló ń rí i dájú pé ọjọ́ lásán kò lè pa ọ́.\n\nÓ yẹ kí o mọ̀: alábòójútó UK lọ jù ìpele lọ. Ní 2021, ó fòfin de derivative crypto pátápátá fún àwọn oníbàárà lásán, ó sì fojú díwọ̀n pé àwọn oníbàárà yóò fi nǹkan bí £53m pamọ́. O lè pàdé leverage crypto níbí, pẹ̀lú owó àfarawé àti owó ìdógò tó nípọn, tàbí o lè pàdé rẹ̀ ní ọmọ ọdún méjìdínlógún pẹ̀lú owó gidi láìsí ìkìlọ̀ kankan rárá. Èyí ni ètò tó dára jù. 🌡️",
+      "quiz": {
+        "q": "Crypto nílò owó ìdógò tó tóbi jù nínú gbogbo dúkìá nínú yàrá yìí. Kí ni ìdí gidi?",
+        "explanation": "Index ńlá kan ń rìn kéré sí 1% ní ọ̀pọ̀ ọjọ́. Crypto sábà máa ń rìn 5% tàbí 10%, ọjọ́ 20% kì í sì í ṣe wàhálà, Tuesday lásán ni. Lórí owó ìdógò tínrín, ìrìn 10% ń pa ọ́ run, èyí tó jẹ́ ìṣẹ̀lẹ̀ ẹ̀ẹ̀kan lọ́pọ̀ ọdún fún index àti nǹkan bí lóṣooṣù fún crypto. Alábòójútó Europe béèrè ìdajì ipò náà ní owó gidi fún crypto, ìwọ̀n tó le jù lórí gbogbo àtòjọ rẹ̀, fún ìdí yìí gan-an.",
+        "options": [
+          "A fòfin de crypto fún àwọn tí kò tíì pé ọdún 18, nítorí náà owó ìdógò jẹ́ ìjìyà",
+          "A kì í gba financing lórí crypto, nítorí náà owó ìdógò ló rọ́pò rẹ̀",
+          "Ó ń rìn gidigidi jù, nítorí náà ọjọ́ lásán lè sọ owó ìdógò tínrín di òfo",
+          "App fúnra rẹ̀ ló ń pinnu iye crypto dípò ọjà"
+        ]
+      }
+    },
+    "76": {
+      "title": "Àwọn Nọ́ńbà Tí Kò Sí Ẹni Tó Ń Polówó",
+      "desc": "Ohun tí àwọn alábòójútó rí nígbà tí wọ́n kà á",
+      "content": "O kò ní rí àwọn nọ́ńbà wọ̀nyí nínú ìpolówó láé. Wọ́n wá láti ọ̀dọ̀ àwọn alábòójútó ìnáwó, tí wọ́n lè béèrè dátà àkáǹtì gidi lọ́wọ́ àwọn ilé-iṣẹ́, tí wọ́n sì ń tẹ ohun tí wọ́n rí jáde.\n\n🇪🇺 ESMA, alábòójútó Europe, March 2018. Jákèjádò àwọn orílẹ̀-èdè EU, láàárín 74% sí 89% àkáǹtì CFD oníbàárà lásán ló ń pàdánù owó. Àdánù àròpín fún oníbàárà kọ̀ọ̀kan wà láàárín €1,600 sí €29,000. ESMA dín ọjà náà kù nítorí rẹ̀.\n\n🇬🇧 FCA ní UK, December 2016. Ìtúpalẹ̀ rẹ̀ lórí àpẹẹrẹ àkáǹtì oníbàárà tó dúró fún gbogbo wọn rí i pé 82% àwọn oníbàárà pàdánù owó lórí àwọn ọjà wọ̀nyí.\n\n🇦🇺 ASIC ní Australia, tí a tẹ̀ jáde ní January 2026, èyí tó jẹ́ tuntun jù nínú mẹ́tẹ̀ẹ̀ta. Ní ọdún ìnáwó 2024, 68% àwọn olùdókòwò CFD lásán pàdánù owó, lápapọ̀ ju A$458 mílíọ̀nù lọ. Nínú rẹ̀, A$73 mílíọ̀nù jẹ́ owó iṣẹ́.\n\nRonú lórí ìlà ìkẹyìn yẹn fún ìṣẹ́jú kan. Mílíọ̀nù mẹ́tàléláàádọ́rin nínú rẹ̀ kì í tilẹ̀ ṣe ìṣòwò burúkú. Iye owó ṣíṣeré ni: spread nígbà tí o bá ń wọlé, àti financing tí o pàdé nínú ẹ̀kọ́ 72.\n\nAlábòójútó mẹ́ta ọ̀tọ̀ọ̀tọ̀, orílẹ̀-èdè mẹ́ta ọ̀tọ̀ọ̀tọ̀, dátà tó gba ẹ̀wádún mẹ́ta ọ̀tọ̀ọ̀tọ̀, ìdáhùn náà sì ń bọ́ sí ibì kan láàárín ìdá méjì nínú mẹ́ta àti ìdá mẹ́sàn-án nínú mẹ́wàá ṣáá.\n\nNísinsìnyí apá tó ṣe pàtàkì jù, nítorí pé òun ló ń dènà èyí láti jẹ́ ìṣirò ìdẹ́rùbà lásán. Àwọn ènìyàn yẹn kì í ṣe òmùgọ̀. Wọn kì í ṣe ọ̀lẹ. Àgbàlagbà tó ní iṣẹ́ ni ọ̀pọ̀ nínú wọn, ọ̀pọ̀ nínú wọn sì mọ chart kà ju ìwọ lọ báyìí. Wọ́n pàdánù nítorí bí a ṣe kọ́ ọjà náà: o bẹ̀rẹ̀ lẹ́yìn nítorí spread, o ń san owó ìyálé nígbà tí o ń dúró, leverage sì túmọ̀ sí pé ìrìn lásán lè pa ọ́ run kí èrò rẹ tó ní àkókò láti jẹ́ òótọ́.\n\nÌgbékalẹ̀ ni ìyẹn, kì í ṣe àbùkù ìwà. Àwọn tó mọ̀ pé ìgbékalẹ̀ wà níbẹ̀ nìkan ló lè borí rẹ̀. 📊",
+      "quiz": {
+        "q": "Àwọn alábòójútó ní Europe, UK àti Australia ọ̀kọ̀ọ̀kan rí i pé ọ̀pọ̀ àkáǹtì CFD oníbàárà lásán ló ń pàdánù owó. Kí ni àlàyé òtítọ́?",
+        "explanation": "Àgbàlagbà lásán tó ní iṣẹ́ ni wọ́n, ọ̀pọ̀ nínú wọn sì mọ chart kà ju ìwọ lọ lónìí. Wọ́n pàdánù nítorí bí ọjà náà ṣe ń ṣiṣẹ́: o bẹ̀rẹ̀ lẹ́yìn nítorí spread, o ń san owó ìyálé ní gbogbo alẹ́ nígbà tí o ń dúró, leverage sì túmọ̀ sí pé ìrìn lásán lè pa ọ́ run kí èrò rẹ tó ní àkókò láti tọ̀nà. Ìgbékalẹ̀ ni ìyẹn, kì í ṣe àbùkù ìwà, àwọn tó mọ̀ pé ìgbékalẹ̀ wà níbẹ̀ sì lè borí rẹ̀.",
+        "options": [
+          "Bí a ṣe kọ́ ọjà náà ń ṣiṣẹ́ lòdì sí oníbàárà",
+          "Àwọn tó pàdánù jẹ́ aláìbìkítà, àwọn oníṣòwò tó ṣọ́ra sì wà dáadáa",
+          "Àwọn ilé-iṣẹ́ alátakò ló tẹ àwọn nọ́ńbà náà jáde bí ìkọlù ìpolówó",
+          "Àdánù tó tóbi tó bẹ́ẹ̀ ń wá láti àwọn orílẹ̀-èdè tí kò ní alábòójútó"
+        ]
+      }
+    },
+    "77": {
+      "title": "Ohun Tó Yí Padà Nígbà Tí Òfin Yí Padà",
+      "desc": "Ẹ̀rí pé ìgbékalẹ̀ ni, kì í ṣe àwọn ènìyàn",
+      "content": "Ẹ̀kọ́ 76 fún ọ ní àwọn àdánù. Ẹ̀kọ́ yìí fún ọ ní àdánwò náà, òun sì ni ohun tó ṣe pàtàkì jù nínú module yìí.\n\nTí ọ̀pọ̀ ènìyàn bá ń pàdánù nítorí pé ọ̀pọ̀ ènìyàn jẹ́ aláìbìkítà, yíyí òfin padà kò yẹ kí ó yí nǹkan kan padà. Àwọn aláìbìkítà yóò ṣì jẹ́ aláìbìkítà. Àbí?\n\nAustralia ṣe ìdánwò náà. Ní March 2021, ASIC fipá mú ọ̀wọ́ ààbò kan lé gbogbo ilé-iṣẹ́ CFD tó ń sin àwọn oníbàárà lásán: ààlà leverage, òfin ìtìpa-fúnra-rẹ̀ kan tó dọ́gba, negative balance protection, àti ìfòfinde àwọn ìdẹwò bí ẹ̀bùn ìforúkọsílẹ̀. Àwọn oníbàárà kan náà. Àwọn ilé-iṣẹ́ kan náà. Àwọn ọjà kan náà. Òfin nìkan ló yí padà.\n\nOhun tí ASIC wọ̀n ní oṣù mẹ́fà àkọ́kọ́ nìyí. 🔬\n\n📉 Àpapọ̀ àdánù àwọn àkáǹtì oníbàárà lásán jábọ́ 91%, láti àròpín A$372 mílíọ̀nù ní ìdámẹ́rin ọdún kan sí A$33 mílíọ̀nù.\n📉 Àkáǹtì oníbàárà lásán tó ń pàdánù dínkù ní 51% ní ìdámẹ́rin ọdún kọ̀ọ̀kan.\n📉 Margin close-out dínkù ní 87%.\n📉 Ìṣẹ̀lẹ̀ owó òdì dínkù ní 88%.\n\nKò sí ẹni tó gbọ́n sí i láàárín oṣù mẹ́fà. Ìgbékalẹ̀ yí padà, ìdá mẹ́sàn-án nínú mẹ́wàá ìpalára náà sì pòórá pẹ̀lú rẹ̀.\n\nNǹkan méjì ló tẹ̀lé e, ó sì yẹ kí o gbé àwọn méjèèjì dání.\n\nÀkọ́kọ́: nígbà tí o bá pàdánù lórí ìṣòwò leverage, ọ̀pọ̀ nínú ohun tó ṣẹlẹ̀ sí ọ ti wà nínú ọjà náà kí o tó dé. Ìyẹn kì í ṣe ìyọ̀ǹda láti jẹ́ aláìbìkítà. Ìdí ni láti bọ̀wọ̀ fún nǹkan náà.\n\nÈkejì, èyí sì ni ìdajì tó wúlò: àwọn ààbò tó ṣe iṣẹ́ náà ni àwọn ìwà gan-an tí module yìí ti ń kọ́ ọ. Ipò tó kéré jù. Ìjáde fúnra rẹ̀. Ilẹ̀ líle lábẹ́ ìpalára. Alábòójútó kan ní láti fipá mú wọn lé gbogbo ilé-iṣẹ́ kan láti rí 91% yẹn. Ìwọ lè kàn yàn wọ́n. 🛡️",
+      "quiz": {
+        "q": "Lẹ́yìn tí Australia fipá mú ààlà leverage àti ìtìpa-fúnra-rẹ̀ lé àwọn ilé-iṣẹ́ CFD, àdánù oníbàárà lásán jábọ́ 91% láàárín oṣù mẹ́fà. Kí ni ìyẹn fi hàn?",
+        "explanation": "Àwọn oníbàárà kan náà, àwọn ilé-iṣẹ́ kan náà, àwọn ọjà kan náà. Òfin nìkan ló yí padà, ìdá mẹ́sàn-án nínú mẹ́wàá ìpalára náà sì lọ pẹ̀lú wọn. Kò sí ẹni tó gbọ́n sí i láàárín oṣù mẹ́fà. Àwọn ààbò tó ṣe iṣẹ́ náà ni àwọn ìwà tí module yìí ń kọ́ ọ ṣáá: ipò tó kéré jù, ìjáde fúnra rẹ̀, àti ilẹ̀ líle lábẹ́ ìpalára. Alábòójútó kan ní láti fipá mú wọn lé gbogbo ilé-iṣẹ́ kan. Ìwọ lè kàn yàn wọ́n.",
+        "options": [
+          "Àwọn oníṣòwò Australia ní ìkóra-ẹni-níjàánu ju ti Europe lọ",
+          "Leverage di aláìléwu nígbà tí alábòójútó bá ń ṣọ́ ọ",
+          "Òfin náà dá àwọn ènìyàn dúró láti ṣòwò, nítorí náà kò sí nǹkan láti pàdánù",
+          "Ọ̀pọ̀ nínú ìpalára náà ń wá láti ìgbékalẹ̀ ọjà náà"
+        ]
+      }
+    },
+    "78": {
+      "title": "Àlàfo Tó Ń Fò Kọjá Stop Rẹ",
+      "desc": "Stop jẹ́ ìtọ́ni láti jáde, kì í ṣe iye tí a ṣèlérí",
+      "content": "O ti pàdé stop-loss nínú ẹ̀kọ́ 19. Ohun tí leverage ń ṣe sí wọn nìyí.\n\nStop-loss jẹ́ ìtọ́ni: “tí iye bá dé ìpele yìí, mú mi jáde.” Kì í ṣe àdéhùn nípa iye tí wàá rí. Ó sọ pé jáde. Kò sọ pé jáde ní ibí gan-an.\n\nNí ọ̀pọ̀ ìgbà ìyàtọ̀ yẹn kò ṣe pàtàkì, nítorí pé iye ń rìn ní ìṣísẹ̀ kékeré, àṣẹ rẹ sì ń ṣẹlẹ̀ nítòsí ìpele rẹ. Lẹ́yìn náà ní àwọn ìgbà kan ó ṣe pàtàkì gidigidi.\n\n📰 Àwọn ọjà ń tì. Ìròyìn dé ní agogo 11 alẹ́. Ọjà ṣí padà ní 8% nísàlẹ̀ ibi tí ó tì sí, kò sì ṣòwò ní èyíkéyìí nínú àwọn iye tó wà láàárín rárá. Stop rẹ wà nínú àlàfo yẹn. Ó ń ṣiṣẹ́ nígbà ìṣípadà, ó sì ń ṣẹlẹ̀ ní ibikíbi tí ọjà wà gan-an, èyí tó jìnnà kọjá ìpele tí o yàn.\n\nLáìsí leverage, ìyẹn jẹ́ ọjọ́ burúkú. Pẹ̀lú leverage, ó lè jẹ́ gbogbo àkáǹtì, nítorí pé tí owó ìdógò rẹ bá tínrín ju àlàfo náà lọ, àlàfo náà yóò la liquidation price rẹ kọjá tààrà pẹ̀lú, a ó sì tì ọ́ nísàlẹ̀ ìpele tí ẹ̀rọ gbèrò.\n\nNǹkan mẹ́ta láti ṣe pẹ̀lú èyí, kò sí èyí tó díjú nínú wọn:\n\n1️⃣ Má ṣe ka stop sí ìdánilójú. Kà á sí ìwà rere gidi kan tó ní àìlera kan tí a mọ̀.\n2️⃣ Mọ ìgbà tí ọjà rẹ ń tì àti ohun tí a ti ṣètò. Èsì ilé-iṣẹ́, ìpinnu ìwọ̀n èlé àti ìdìbò jẹ́ àlàfo tó ní ọjọ́ nínú kàlẹ́ńdà.\n3️⃣ Ṣe ìwọ̀n kí àlàfo má lè pa ọ́ run. Èyí ni ààbò gidi, òun sì ni ẹ̀kọ́ tó kàn. Stop ń dáàbò bò ọ́ lọ́wọ́ ohun lásán. Ìwọ̀n ipò ń dáàbò bò ọ́ lọ́wọ́ ohun àrà, ohun àrà sì ni ohun tó ń sọ àwọn ènìyàn di òfo gan-an.\n\nÓ sì yẹ kí o mọ̀ pé nínú app yìí, bí ó ti rí lórí àkáǹtì oníbàárà lásán èyíkéyìí tí a ṣàkóso dáadáa, negative balance protection túmọ̀ sí pé àlàfo kò lè mú ọ sísàlẹ̀ odo. O lè pàdánù àkáǹtì náà. O kò lè parí sí jíjẹ gbèsè. 📰",
+      "quiz": {
+        "q": "O fi stop-loss sí {c}90. Lóru, ìròyìn burúkú dé, ọjà sì ṣí padà ní {c}78, láìṣòwò láàárín rárá. Kí ló ṣẹlẹ̀?",
+        "explanation": "Stop jẹ́ ìtọ́ni láti jáde, kì í ṣe ìlérí nípa iye tí wàá rí. Ọjà kò ṣòwò láàárín {c}90 àti {c}78 rárá, nítorí náà kò sí {c}90 kankan tó kù láti tà sí. Stop rẹ ń ṣiṣẹ́ nígbà ìṣípadà, ó sì ń ṣẹlẹ̀ ní ibikíbi tí ọjà wà gan-an. Stop ṣì ń dáàbò bò ọ́ lọ́wọ́ ìrìn lásán. Ààbò lòdì sí ìfò bí èyí ni ìwọ̀n ipò, kì í ṣe stop.",
+        "options": [
+          "Stop rẹ ṣẹlẹ̀ ní {c}90, gan-an ibi tí o fi sí",
+          "A tà á fún ọ nítòsí {c}78, iye àkọ́kọ́ tó wà",
+          "A fagi lé àṣẹ náà, nítorí pé iye fò ó kọjá",
+          "Olùpèsè san {c}12 tí ọjà fò kọjá fún ọ"
+        ]
+      }
+    },
+    "79": {
+      "title": "Ìwọ̀n Lákọ̀ọ́kọ́, Lẹ́yìn Náà Ìṣòwò",
+      "desc": "Pinnu ohun tí o lè pàdánù kí o tó pinnu ohun tí o fẹ́ rà",
+      "content": "Ohun tó ń ya àwọn tó ń pẹ́ kúrò lára àwọn tí kì í pẹ́ nìyí, ó sì fẹ́rẹ̀ẹ́ súni.\n\nÀwọn olùbẹ̀rẹ̀ ń yan ìṣòwò, lẹ́yìn náà wọ́n ń ṣírò iye tí wọn yóò fi sí i. Àwọn akọ́ṣẹ́mọṣẹ́ ń ṣe é ní ìdàkejì. Wọ́n kọ́kọ́ pinnu ohun tí wọ́n ṣe tán láti pàdánù, wọ́n sì jẹ́ kí ìyẹn pinnu bí ipò ṣe lè tóbi tó.\n\nÒfin tí ọ̀pọ̀ nínú wọn ń lò: fi 1% sí 2% àkáǹtì wewu lórí ìṣòwò kan ṣoṣo. Kì í ṣe fífi 1% sílẹ̀. FÍFI 1% WEWU, èyí túmọ̀ sí pé ohun tí wàá pàdánù gan-an nìyẹn tí stop rẹ bá ṣẹlẹ̀.\n\nBí ó ṣe ń ṣiṣẹ́, ní ìgbésẹ̀ mẹ́ta:\n\n1️⃣ Yan àdánù tó pọ̀ jù rẹ. Àkáǹtì 10,000 NT, fífi 1% wewu, nítorí náà 100 NT.\n2️⃣ Yan ibi tí o ti ṣàṣìṣe. Wàá jáde tí iye bá jábọ́ 5% láti ibi ìwọlé rẹ.\n3️⃣ Pín in. Àdánù tí o lè gbà tó 100 NT, ní ìjìnnà stop 5%, túmọ̀ sí ipò 2,000 NT. Ìwọ̀n rẹ nìyẹn. Kì í ṣe ìmọ̀lára. Ìṣirò ni.\n\nYí stop padà, ìwọ̀n náà yóò sì yí padà fúnra rẹ̀. Stop 2% tó há jù ń jẹ́ kí o lo 5,000 NT. Stop 10% tó gbòòrò jù ń fipá mú ọ sísàlẹ̀ sí 1,000 NT. Bí ìṣòwò bá ṣe léwu tó, bẹ́ẹ̀ ni ó gbọ́dọ̀ kéré tó, ìṣirò sì ń ṣe èyí fún ọ kí ìṣesí rẹ má bàa ní láti ṣe é.\n\nÈéṣe tí ó fi jẹ́ 1%? Nítorí pé ó ń jẹ́ kí ọ̀wọ́ àdánù ṣeé là já. Àdánù mẹ́wàá tẹ̀léra ní 1% ń fi 90% àkáǹtì rẹ àti ìṣesí burúkú sílẹ̀ fún ọ. Àdánù mẹ́wàá tẹ̀léra ní 20% ń fi nǹkan bí 11% àkáǹtì rẹ sílẹ̀ fún ọ láìsí ọ̀nà ìpadàbọ̀, o sì ti mọ̀ láti ẹ̀kọ́ 71 bí ìgòkè yẹn ṣe ga tó.\n\nKò sí ẹni tó ń la ọjà já nípa yíyan àwọn tó ń jèrè. Gbogbo ẹni tó ń là á já ń ṣe é nípa rírí i dájú pé kò sí àdánù kan ṣoṣo tó lè pa wọ́n run. 📐",
+      "quiz": {
+        "q": "Àkáǹtì 10,000 NT. Wàá fi 1% wewu lórí ìṣòwò yìí, wàá sì jáde tí iye bá jábọ́ 5% láti ibi ìwọlé rẹ. Fà á sí ìwọ̀n ipò tó bọ̀wọ̀ fún ìyẹn.",
+        "explanation": "1% nínú 10,000 NT jẹ́ 100 NT, ìyẹn sì ni ohun tó pọ̀ jù tí o gbà láti pàdánù. Stop 5% túmọ̀ sí 100 NT tí a pín sí 5%, èyí tó jẹ́ ipò 2,000 NT. Fà á ga sí i, ìfihàn náà yóò sì fi hàn pé ò ń fi ju ohun tí o pinnu wewu."
+      }
+    },
+    "80": {
+      "title": "Ìdí Tí Bíborí Fi Dà Bí Ọgbọ́n",
+      "desc": "Àwọn eré ọpọlọ tí leverage ń ṣe sí ọ",
+      "content": "Leverage kì í ṣe ìṣòro ìṣirò ní pàtàkì. Ìṣirò náà rọrùn. Ìṣòro orí ni, àwọn mẹ́ta tó ń mú gbogbo ènìyàn nìyí.\n\n🎯 1. OUTCOME BIAS (ìṣègbè àbájáde): bíborí dà bí ọgbọ́n. O mú ipò tó tóbi jù lọ́nà àṣejù, ó ṣiṣẹ́, o rí owó púpọ̀ ní ọ̀sán kan, ọpọlọ rẹ sì kọ sílẹ̀ pé “mo mọ èyí dáadáa.” Kò kọ ohun tó ṣẹlẹ̀ gan-an sílẹ̀, èyí tó jẹ́ pé o gbé ewu burúkú kan o sì rí àbájáde rere. Nǹkan méjì ọ̀tọ̀ọ̀tọ̀ nìyẹn, ọjà yóò sì fi ayọ̀ san owó fún ọ fún ìpinnu burúkú ní ọ̀pọ̀ ìgbà kí ó tó gbà á padà. Ohun tó léwu jù tó lè ṣẹlẹ̀ sí oníṣòwò tuntun ni bíborí ní kùtùkùtù lọ́nà tó rọrùn.\n\n😤 2. REVENGE TRADING (ìṣòwò ẹ̀san): o fẹ́ ẹ padà, báyìí. O pàdánù, ó dùn ọ́, ìfẹ́ náà sì dé lẹ́sẹ̀kẹsẹ̀. Nítorí náà o mú ìwọ̀n pọ̀ sí i. O ti ń gbé ipò rẹ tó tóbi jù kalẹ̀ ní àkókò gan-an tí ìdájọ́ rẹ burú jù, lórí ìṣòwò tí o yàn nítorí pé o bínú dípò nítorí pé ó dára. Ọjà kò mọ̀ pé o ti pàdánù, kò sì jẹ ọ́ ní nǹkan kan. Nígbà tí o bá ní ìmọ̀lára yìí, ìwọ̀n tó tọ́ ni odo. Ti app náà.\n\n🕳️ 3. CHASING LOSSES (lílépa àdánù): “Màá kàn dì í mú títí tí yóò fi padà.” Èyí wọ aṣọ sùúrù, ìdí nìyẹn tí ó fi ṣòro láti rí. Sùúrù jẹ́ ètò tí o ṣe pẹ̀lú ìfọkànbalẹ̀ ṣáájú. Lílépa jẹ́ ètò tí o hùmọ̀ lẹ́yìn tí iye lọ lòdì sí ọ, àmì rẹ̀ sì rọrùn: ibi ìjáde rẹ ti yí padà. Tí o bá rí ara rẹ tó ń ṣàlàyé ìdí tí ìpele tí o fi sí kò fi jẹ́ ìpele tó tọ́ mọ́, ìyẹn kì í ṣe ìtúpalẹ̀ tuntun. Ìgbéraga rẹ ló ń ṣe ìdúnàádúrà.\n\nÀbò fún gbogbo mẹ́tẹ̀ẹ̀ta jẹ́ ọ̀kan náà, kò sì lẹ́wà. Pinnu gbogbo nǹkan nígbà tí ara rẹ balẹ̀, kọ ọ́ sílẹ̀, kí o sì ka ẹ̀yà rẹ tó ń yọjú láàárín ìṣòwò sí aláìṣeégbẹ́kẹ̀lé. 🧠",
+      "quiz": {
+        "q": "O mú ipò tó tóbi ju ti tẹ́lẹ̀ lọ púpọ̀, ó sì mú èrè ńlá wá ní ọ̀sán kan. Kí ni ọ̀nà tó péye jù láti ka ìyẹn?",
+        "explanation": "Ọpọlọ rẹ kọ sílẹ̀ pé o mọ èyí dáadáa. Ohun tó ṣẹlẹ̀ gan-an ni pé o gbé ewu burúkú, ọjà sì ṣèèṣì san owó fún ọ síbẹ̀, nǹkan méjì ọ̀tọ̀ọ̀tọ̀ sì nìyẹn. Ọjà yóò san owó fún ìpinnu burúkú ní ọ̀pọ̀ ìgbà kí ó tó gbà á padà. Bíborí ní kùtùkùtù lọ́nà tó rọrùn ni ohun tó léwu jù tó lè ṣẹlẹ̀ sí oníṣòwò tuntun, nítorí pé ó ń kọ́ni ní ẹ̀kọ́ tí kò tọ́, ó sì ń gba owó rẹ̀ lọ́wọ́ rẹ lẹ́yìn náà.",
+        "options": [
+          "Ọ̀nà tó ń ṣiṣẹ́ nìyí, a sì lè mú ìwọ̀n rẹ̀ pọ̀ sí i lẹ́ẹ̀kan sí i",
+          "Ìwọ̀n náà tọ́, nítorí pé èrè ti fi hàn bẹ́ẹ̀",
+          "O gbé ewu burúkú, o sì ṣèèṣì rí àbájáde rere",
+          "Èrè ńlá ń fi ọgbọ́n hàn, àdánù ló ń fi àṣìṣe hàn"
+        ]
+      }
+    },
+    "81": {
+      "title": "Ìbéèrè Òtítọ́",
+      "desc": "Ṣé ó yẹ kí o lo èyí rárá?",
+      "content": "O ti parí module náà. Ìbéèrè tí àwọn ìpolówó kì í béèrè láé nìyí.\n\nṢé ó yẹ kí o lo leverage rárá?\n\nFún ọ̀pọ̀ ènìyàn, ní ọ̀pọ̀ ìgbà, ìdáhùn òtítọ́ ni rárá. Kì í ṣe nítorí pé wọn kò gbọ́n tó. Nítorí gbogbo ohun tó wà nínú ẹ̀kọ́ mẹ́ẹ̀ẹ́dógún tó kọjá ni: o bẹ̀rẹ̀ lẹ́yìn, o ń san owó ìyálé nígbà tí o ń dúró, ìrìn lásán lè pa ọ́ run kí a tó fi hàn pé o tọ̀nà, àwọn alábòójútó mẹ́ta tó ka àkáǹtì gidi sì ń rí i ṣáá pé ìdá méjì nínú mẹ́ta sí ìdá mẹ́sàn-án nínú mẹ́wàá àwọn ènìyàn ló pàdánù.\n\nẸ̀yà ìṣòwò kan wà níbi tí o kò ní fọwọ́ kan èyíkéyìí nínú èyí láé. O ra ìpín kan, o ní apá kan nínú ilé-iṣẹ́ kan, dividend ń dé, àkókò ń ṣiṣẹ́ FÚN ọ dípò lòdì sí ọ, kò sì sí ohun tó lè ti ipò rẹ láìbèèrè. Ìyókù app yìí nìyẹn, kì í sì í ṣe àṣàyàn tó súni. Òun ni àṣàyàn tí ìṣirò inú ẹ̀kọ́ 14 sọ pé ó sábà máa ń borí. 🌱\n\nNítorí náà, ohun tí ó yẹ kí o mọ̀ kí o tó pinnu nìyí.\n\nKò sí nǹkan kan nínú app yìí tí a tì pa lẹ́yìn leverage. Gbogbo ìdíje, gbogbo leaderboard, gbogbo ọ̀nà XP, gbogbo ìdíje ilé-ìwé àti gbogbo ẹ̀bùn NOOB ló ṣí sílẹ̀ pátápátá fún ẹni tí kò ṣí ipò leverage kan ṣoṣo láé. O kò pàdánù nǹkan kan nípa kíkúrò nínú yàrá yìí. Kò sí ìjìyà, kò sì sí badge tó ń sọnù.\n\nKò sì sí nǹkan kan níbí tó ń san owó fún ọ fún bíborí. A ń san ẹ̀san fún ọ fún píparí àwọn ẹ̀kọ́, fún yíyege ìdánwò, fún fífi stop sí i, fún gígé ìṣòwò tó ń pàdánù, àti fún kíkọ ìròyìn liquidation tìrẹ. A kì í san owó fún ọ fún èrè, ipò ńlá tàbí ọ̀wọ́ oríire, nítorí pé sísan owó fún ọ fún ìyẹn yóò jẹ́ kíkọ́ ọ ní ohun tí kò tọ́ nígbà tí a ń pè é ní ẹ̀kọ́.\n\nTí o bá lò ó: lò ó ní kékeré, lò ó pẹ̀lú stop, mọ liquidation price rẹ kí o tó tẹ nǹkan kan, má sì lò ó pẹ̀lú owó tí ìwọ yóò ṣàárò láé. Tí o kò bá lò ó, o ti kọ́ láti rí ẹ̀rọ náà síbẹ̀, èyí tó jẹ́ kókó náà nígbà gbogbo. Ọ̀pọ̀ àgbàlagbà tó ń ṣòwò nǹkan yìí kò lè ṣàlàyé ohun tí o ṣẹ̀ṣẹ̀ kọ́. 🤔",
+      "quiz": {
+        "q": "Kí ni akẹ́kọ̀ọ́ ń fi sílẹ̀ nípa pípinnu pé òun kò ní ṣí ipò leverage láé nínú app yìí?",
+        "explanation": "Kò sí nǹkan kan nínú app yìí tí a tì pa lẹ́yìn leverage. Gbogbo ìdíje, gbogbo leaderboard, gbogbo ọ̀nà XP, gbogbo ìdíje ilé-ìwé àti gbogbo ẹ̀bùn NOOB ló ṣí sílẹ̀ fún ẹni tí kò ṣí ipò leverage kan ṣoṣo láé. Kò sí ìjìyà, kò sì sí badge tó ń sọnù. Kò sì sí nǹkan kan nínú yàrá yìí tó ń san owó fún ọ fún bíborí: ó ń sanwó fún píparí àwọn ẹ̀kọ́, yíyege ìdánwò, fífi stop sí i àti gígé ìṣòwò tó ń pàdánù.",
+        "options": [
+          "Kò sí nǹkan kan rárá, gbogbo ọ̀nà ló ṣí sílẹ̀ fún wọn",
+          "Gbogbo ìdíje àti leaderboard nínú app",
+          "XP nínú module yìí, tó ń sanwó lórí ìṣòwò leverage",
+          "Ẹ̀bùn NOOB, tó nílò ipò leverage kan lákọ̀ọ́kọ́"
+        ]
+      }
+    },
+    "82": {
+      "title": "Ìbúgbàù",
+      "desc": "Ọjọ́ márùn-ún, ètò onígboyà kan, àkáǹtì òfo kan",
+      "content": "Káàbọ̀ sí Lab. Níbí, o ní àkáǹtì ìdánrawò tí a dáàbò bò ti 1,000 LAB NT. Kì í ṣe wallet rẹ, kò lè fọwọ́ kan wallet rẹ, kò sì sí ohun tí a jèrè tàbí pàdánù nínú rẹ̀ tó ń jáde kúrò níbẹ̀. Ohun èlò náà ni NOVA. NOVA jẹ́ àròsọ, kí ẹnikẹ́ni má lè fẹ̀sùn kàn wá pé a sọ ìwólulẹ̀ gidi tẹ́lẹ̀. Ìwọ̀n owó ìdógò 25%. Financing 0.02% ní alẹ́. Close-out ní 50% used margin. Àti fún boss yìí nìkan, a ti pa ààlà ipò. Ní mọ̀ọ́mọ̀. Lẹ́ẹ̀kan.\n\nỌ̀sẹ̀ tí o fẹ́ ṣàlàyé nìyí.\n\n📅 ỌJỌ́ 1: NOVA ní 100. Èsì rere, group chat ń pariwo. O fi 800 nínú 1,000 NT rẹ sílẹ̀, ò ń darí 3,200 NT NOVA. Kò sí stop.\n\n📅 ỌJỌ́ 2: NOVA 106. O ti jèrè 192 NT, èyí tó jẹ́ +19.2% àkáǹtì rẹ ní ọjọ́ kan. O fi 200 NT rẹ tó kẹ́yìn kún un. Ipò 4,000 NT. Owó ọ̀fẹ́: odo. Kò ṣì sí stop.\n\n📅 ỌJỌ́ 3: NOVA 101.76. Margin level 103%. O ṣì ń jèrè fún ọ̀sẹ̀ náà, nítorí náà o dì í mú.\n\n📅 ỌJỌ́ 4: NOVA 94.64. MARGIN CALL. Margin level 75%, equity 750 NT. O kò lè fi kún un, nítorí pé kò sí nǹkan tó kù láti fi kún un. O dì í mú.\n\n📅 ỌJỌ́ 5: NOVA ṣí pẹ̀lú àlàfo 9% sísàlẹ̀ lóru, ó sì ṣí padà ní 86.12, nísàlẹ̀ ìpele close-out. LIQUIDATION ní 390 NT.\n\nLáàárín ọ̀sẹ̀ náà, NOVA jábọ́ 13.9%. Àkáǹtì rẹ jábọ́ 61%. Akẹ́kọ̀ọ́ tó fi 250 NT sílẹ̀ pẹ̀lú stop ní 95 parí ọ̀sẹ̀ kan náà ní nǹkan bí 949 NT, ìsàlẹ̀ 5%. 800 NT kan náà láìsí stop ṣùgbọ́n láìsí àfikún ọjọ́ 2 ì bá ti parí ní 550 NT: margin call, ṣùgbọ́n ó wà láàyè.\n\nNísinsìnyí, àtúnyẹ̀wò. Ìbéèrè mẹ́wàá lórí ohun tó ṣẹ̀ṣẹ̀ ṣẹlẹ̀. Gba 8 nínú 10, o sì ti ṣẹ́gun boss náà, nítorí pé níbí, yíyege ni kí o lè ṣàlàyé ìbàjẹ́ náà, kì í ṣe kí o yẹra fún un. 💀",
+      "bossVictory": "O fọ́ àkáǹtì kan, o sì jáde pẹ̀lú ìmọ̀ ìdí rẹ̀. Gbogbo module náà nìyẹn. 💀",
+      "bossQuestions": {
+        "0": {
+          "q": "Láàárín ọjọ́ márùn-ún, NOVA jábọ́ nǹkan bí 14%. Àkáǹtì rẹ jábọ́ 61%. Kí ló fa ìyàtọ̀ náà?",
+          "options": [
+            "App gba owó ìjìyà fún pípàdánù",
+            "O di ipò tó tó nǹkan bí ìlọ́po mẹ́rin iye owó ìdógò rẹ mú, nítorí náà gbogbo ìrìn kọlu nọ́ńbà tó tóbi ní ìlọ́po mẹ́rin ju àkáǹtì rẹ lọ",
+            "Financing ló fa ọ̀pọ̀ nínú àdánù náà",
+            "NOVA jẹ́ ìpín tó léwu ju bí àwọn nọ́ńbà ṣe fi hàn lọ"
+          ]
+        },
+        "1": {
+          "q": "Ní ọjọ́ 2, o ti jèrè 192 NT, èyí tó jẹ́ 19.2% àkáǹtì rẹ ní ọjọ́ kan ṣoṣo. Kí ni ìyẹn ń sọ fún ọ gan-an?",
+          "options": [
+            "Pé ìwòye rẹ tọ̀nà, ó sì yẹ kí o mú ìwọ̀n pọ̀ sí i",
+            "Pé ìwọ̀n ipò náà dára, nítorí pé ó ń mú èrè wá",
+            "Pé leverage kò léwu nígbà tí o bá tọ̀nà",
+            "Pé ipò náà tóbi tó láti gbé àkáǹtì rẹ 19% ní ọjọ́ kan, èyí túmọ̀ sí pé ó tóbi tó láti ṣe bákan náà sí ọ̀nà kejì"
+          ]
+        },
+        "2": {
+          "q": "Ní ọjọ́ 2, o fi 200 NT rẹ tó kẹ́yìn kún ipò tó ń jèrè. Kí ni ìyẹn ná ọ?",
+          "options": [
+            "Ìdajì méjèèjì ààbò rẹ: ó gbé ipò sókè láti 3,200 sí 4,000, ó sì ná owó ọ̀fẹ́ kan ṣoṣo tó lè dáhùn margin call",
+            "Kò sí nǹkan, nítorí pé fífi kún ipò tó ń jèrè ni bí àwọn akọ́ṣẹ́mọṣẹ́ ṣe ń ṣe compounding",
+            "200 NT náà fúnra rẹ̀ nìkan, tí ipò náà ì bá ti jèrè padà",
+            "Financing díẹ̀, nítorí pé owó ìyálé alẹ́ pọ̀ sí i díẹ̀"
+          ]
+        },
+        "3": {
+          "q": "Margin level rẹ dé 103% ní ọjọ́ 3. Kí ni nọ́ńbà yẹn túmọ̀ sí?",
+          "options": [
+            "O ní owó 103%, nítorí náà ipò náà ní ààbò tó pọ̀ jù, kò sì léwu",
+            "Àkáǹtì rẹ ti gòkè 3% fún ọ̀sẹ̀ náà",
+            "Equity rẹ kò fẹ́rẹ̀ẹ́ bo owó ìdógò tí o fi sílẹ̀ mọ́, nítorí náà ìtìmùtìmù ti lọ, ìrìn tó kàn yóò sì bẹ̀rẹ̀ sí jẹ owó ìdógò fúnra rẹ̀",
+            "Kò sí nǹkan fúnra rẹ̀, nítorí pé margin level ṣe pàtàkì nìkan nígbà tí ó bá wà nísàlẹ̀ 50%"
+          ]
+        },
+        "4": {
+          "q": "Ní margin call ọjọ́ 4, títi ì bá ti fìdí àdánù 250 NT múlẹ̀. O dì í mú. Èéṣe tí dídì mú fi jẹ́ ìdáhùn tí ọ̀pọ̀ ènìyàn ń yàn?",
+          "options": [
+            "Nítorí pé dídì mú sábà máa ń jẹ́ ìdáhùn tó tọ́ ní ìṣirò sí margin call",
+            "Nítorí pé títi túmọ̀ sí gbígbà pé ìṣòwò náà kò tọ́, dídì mú sì ń jẹ́ kí o máa gbàgbọ́ pé kò tíì parí",
+            "Nítorí pé margin call sábà máa ń yanjú ara rẹ̀ láàárín ọjọ́ kan",
+            "Nítorí pé olùpèsè ń gbani nímọ̀ràn láti dì í mú kí àdánù má bàa fìdí múlẹ̀"
+          ]
+        },
+        "5": {
+          "q": "A ṣe liquidation rẹ ní 390 NT, ṣùgbọ́n ìpele close-out jẹ́ 500 NT equity. Èéṣe tí o fi parí sísàlẹ̀ rẹ̀?",
+          "options": [
+            "Olùpèsè gba owó ìjìyà liquidation 110 NT",
+            "NOVA ṣí pẹ̀lú àlàfo 9% sísàlẹ̀ lóru, ó sì ṣí padà nísàlẹ̀ ìpele náà, nítorí náà close-out ṣẹlẹ̀ ní iye àkọ́kọ́ tí ọjà fúnni gan-an",
+            "A yọ financing ní ìdìpọ̀ kan ní àkókò liquidation",
+            "Ìpele close-out jẹ́ àfojúdíwọ̀n lásán, a sì sábà máa ń kùnà rẹ̀ ní iye yìí"
+          ]
+        },
+        "6": {
+          "q": "Akẹ́kọ̀ọ́ tó fi 250 NT sílẹ̀ tó sì fi stop sí 95 parí ọ̀sẹ̀ kan náà ní nǹkan bí 949 NT. Kí ni wọ́n ṣe dáadáa?",
+          "options": [
+            "Wọ́n pinnu àdánù tó pọ̀ jù wọn kí wọ́n tó ṣí i, wọ́n sì jẹ́ kí ìyẹn pinnu ìwọ̀n",
+            "Wọ́n ka chart NOVA dáadáa jù, wọ́n sì rí ìjábọ́ náà tó ń bọ̀",
+            "Wọ́n yẹra fún financing nípa lílo owó ìdógò tó kéré jù",
+            "Wọ́n ní oríire, nítorí pé àwọn àṣàyàn kan náà sábà máa ń pàdánù"
+          ]
+        },
+        "7": {
+          "q": "O san financing ní gbogbo alẹ́ lórí gbogbo ipò 4,000 NT. Lórí ìṣòwò yìí, báwo ni ó ṣe ṣe pàtàkì tó?",
+          "options": [
+            "Òun ni ọ̀pọ̀ nínú àdánù náà, nítorí pé financing ń pọ̀ sí i lálẹ́",
+            "Kò sí nǹkan, nítorí pé a ń gba financing nìkan lórí àwọn ipò tó bá pé oṣù kan",
+            "NT díẹ̀ péré, nítorí pé ìṣòwò náà kúrú. Financing ni ohun tó ń pa ipò tí kò lọ sí ibì kankan fún oṣù púpọ̀, kì í ṣe èyí tó bú gbàù láàárín ọ̀sẹ̀ kan",
+            "Nǹkan bí 192 NT, bákan náà pẹ̀lú èrè ọjọ́ 2"
+          ]
+        },
+        "8": {
+          "q": "Gbogbo àṣàyàn níbí ni a gbà láàyè. Nínú Ibùdó CFD, ọ̀pọ̀ nínú wọn kò ní ṣeé ṣe. Èéṣe?",
+          "options": [
+            "Nítorí pé ààlà náà ń jẹ́ kí app rọrùn láti ṣiṣẹ́ lówó",
+            "Nítorí pé àwọn alábòójútó ń béèrè ipò ìdánrawò ṣáájú ìṣòwò àfarawé èyíkéyìí",
+            "Nítorí pé a kò gba àwọn tí kò tíì pé ọdún 18 láàyè láti wo liquidation lẹ́ẹ̀mejì",
+            "O ṣẹ̀ṣẹ̀ wo bí owó ìdógò 80% lórí ipò kan àti owó ọ̀fẹ́ odo ṣe pa àkáǹtì run láàárín ọjọ́ márùn-ún, ààlà náà sì wà láti jẹ́ kí ọ̀wọ́ yẹn gan-an má ṣeé ṣe"
+          ]
+        },
+        "9": {
+          "q": "Kí ni ohun kan ṣoṣo tó wúlò jù láti mú jáde nínú èyí?",
+          "options": [
+            "Pé ìwọ̀n ipò, tí a pinnu kí o tó ṣí i, ṣe pàtàkì ju títọ̀nà nípa ọ̀nà lọ",
+            "Pé NOVA jẹ́ ìpín burúkú láti yàn, ìwádìí tó dára jù ì bá sì ti gba àkáǹtì náà là",
+            "Pé ẹnikẹ́ni kò gbọ́dọ̀ fọwọ́ kan leverage láé lábẹ́ ipò èyíkéyìí",
+            "Pé margin call kò ṣeé sọ tẹ́lẹ̀, nítorí náà kò sí nǹkan tí o lè ṣe"
+          ]
+        }
+      }
+    },
+    "83": {
+      "title": "Ìwé Àṣẹ",
+      "desc": "Ìbéèrè mẹ́wàá. Mẹ́jọ tó tọ́ láti yege.",
+      "content": "Ìwé Àṣẹ ni ìdánwò tí module yìí ti ń kọ́ ọ fún. Ìbéèrè mẹ́wàá, ọ̀kọ̀ọ̀kan sì jẹ́ ìṣirò tàbí ìpinnu lórí ipò tó dà bí gidi, nítorí pé Ibùdó CFD kì í ṣe òwò ìtumọ̀ ọ̀rọ̀ náà.\n\nÀmì ìyege 8 nínú 10. O ní ìgbìyànjú 3 lójúmọ́. A ń sọ àmì rẹ fún ọ ṣùgbọ́n kì í ṣe àwọn ìbéèrè tí o kùnà, nítorí náà ìgbìyànjú tó kùnà jẹ́ àmì láti tún module náà kà, kì í ṣe láti tún méfò.\n\nKò sí ẹ̀tàn kankan níbí. Gbogbo nọ́ńbà wá tààrà láti inú àwọn ẹ̀kọ́ tó wà lẹ́yìn rẹ. Tí o bá lè ṣe mẹ́wàá wọ̀nyí, o lóye module yìí ju ọ̀pọ̀ àgbàlagbà tó ń ṣòwò àwọn ọjà wọ̀nyí ní tòótọ́ lọ. 🎫",
+      "bossVictory": "O lè wo ojú-ìwé gidi, ní nọ́ńbà gidi, kí o sì sọ pé rárá. Ìwé àṣẹ náà nìyẹn. 🎫",
+      "bossQuestions": {
+        "0": {
+          "q": "Àkáǹtì rẹ jẹ́ 1,000 NT láìsí nǹkan mìíràn tó ṣí sílẹ̀. O fi gbogbo 1,000 NT sílẹ̀ bí owó ìdógò ní ìwọ̀n 25%, ò ń darí 4,000 NT {tech} ní 200 NT fún ìpín kan. Close-out ń ṣẹlẹ̀ ní 50% owó ìdógò rẹ. Ibo ni {tech} ní láti ṣòwò sí kí a tó tì ọ́?",
+          "options": [
+            "150 NT, ìjábọ́ 25%, tó bá ìwọ̀n owó ìdógò mu",
+            "100 NT, ìjábọ́ 50%, bákan náà pẹ̀lú òfin close-out",
+            "175 NT, ìjábọ́ 12.5%, nítorí pé pípàdánù 500 NT lórí ipò 4,000 NT nílò ìrìn 12.5%",
+            "195 NT, ìjábọ́ 2.5%"
+          ]
+        },
+        "1": {
+          "q": "Ipò 3,000 NT ń ná 0.02% ní alẹ́ fún financing. O retí ìrìn 3% sí ojú rere rẹ, tó tó 90 NT. Alẹ́ mélòó ni èrò yẹn tó kí financing tó jẹ ẹ́ tán?",
+          "options": [
+            "Nǹkan bí alẹ́ 50",
+            "Nǹkan bí alẹ́ 150, nítorí pé 90 NT tí a pín sí 0.60 NT ní alẹ́ jẹ́ 150",
+            "Nǹkan bí alẹ́ 300",
+            "A kò ní jẹ ẹ́ tán láé, nítorí pé financing kan àwọn ipò tó ń pàdánù nìkan"
+          ]
+        },
+        "2": {
+          "q": "Àkáǹtì rẹ jẹ́ 5,000 NT. Wàá fi 2% wewu lórí ìṣòwò kan, wàá sì jáde tí iye bá rìn 4% lòdì sí ọ. Kí ni ipò tó tóbi jù tí ó yẹ kí o ṣí?",
+          "options": [
+            "100 NT, iye tí ò ń fi wewu",
+            "1,000 NT, ìdá kan nínú márùn-ún àkáǹtì",
+            "5,000 NT, nítorí pé stop ń dáàbò bo àkáǹtì lọ́nàkọnà",
+            "2,500 NT, nítorí pé àdánù tí o lè gbà tó 100 NT tí a pín sí ìjìnnà stop 4% ló ń fúnni ní ìwọ̀n"
+          ]
+        },
+        "3": {
+          "q": "Ipò kan ti mú àkáǹtì rẹ láti 1,000 NT sí 400 NT. Èrè wo ni o nílò láti ibí kí o kàn padà sí 1,000 NT?",
+          "options": [
+            "150%, nítorí pé 400 NT ní láti pọ̀ sí i ní ìlọ́po kan àti ààbọ̀ ara rẹ̀ láti dé 1,000",
+            "60%, ìpín-ọgọ́rùn-ún kan náà tí o pàdánù",
+            "100%, nítorí pé ìlọ́po méjì máa ń mú ọ padà nígbà gbogbo",
+            "250%, ìlọ́po méjì ohun tí o pàdánù"
+          ]
+        },
+        "4": {
+          "q": "Káàdì tààrà kà pé: margin level 82%, owó ọ̀fẹ́ 0, ipò kan ṣí sílẹ̀ ó sì ti lọ sílẹ̀ 18%. Ìgbésẹ̀ wo ló ń dín ewu liquidation kù lóòótọ́?",
+          "options": [
+            "Fi owó kún àkáǹtì",
+            "Dì í mú kí o dúró kí ìpele náà padà bọ̀ sípò",
+            "Ti ipò kan, èyí tó ń tú margin tí ó ń lò sílẹ̀ lẹ́sẹ̀kẹsẹ̀",
+            "Ṣí ipò kejì sí ọ̀nà òdìkejì láti fagi lé e"
+          ]
+        },
+        "5": {
+          "q": "O short {tech} ní 50 NT pẹ̀lú ipò 2,000 NT. Ìgbàkóso ilé-iṣẹ́ kan yí iye rẹ̀ padà lóru sí 150 NT. Báwo ni àdánù yẹn ṣe rí ní ìfiwéra pẹ̀lú ohun tó burú jù lórí ipò long tó tóbi bákan náà?",
+          "options": [
+            "Bákan náà ni, nítorí pé àwọn méjèèjì ní ààlà sí ohun tí o fi sí i",
+            "Short pàdánù 4,000 NT, ìlọ́po méjì iye ipò náà, nígbà tí long kò lè pàdánù ju ipò 2,000 NT náà fúnra rẹ̀ lọ láé",
+            "Short kò pàdánù nǹkan kan tí a bá ti fi stop-loss sí i, nítorí pé stop jẹ́ ìdánilójú",
+            "Àdánù short kéré jù, nítorí pé iye ń jábọ́ yára ju bí ó ti ń gòkè lọ"
+          ]
+        },
+        "6": {
+          "q": "Stop rẹ wà ní 90 NT. Ìròyìn dé lóru, ọjà sì ṣí padà ní 78 NT láìṣòwò láàárín rárá. Kí ló ṣẹlẹ̀, kí sì ni ààbò gidi lòdì sí èyí?",
+          "options": [
+            "A tà á fún ọ ní 90 NT, nítorí pé ohun tí stop ń ṣe ìdánilójú rẹ̀ nìyẹn",
+            "A fagi lé àṣẹ náà, nítorí pé iye fò ìpele rẹ kọjá",
+            "A tà á fún ọ nítòsí 78 NT, ààbò lòdì sí àlàfo sì ni ìwọ̀n ipò, kì í ṣe stop",
+            "Olùpèsè jẹ ọ́ ní ìyàtọ̀ láàárín 90 àti 78"
+          ]
+        },
+        "7": {
+          "q": "Èéṣe tí crypto fi ní ìbéèrè owó ìdógò tó tóbi jù nínú Ibùdó CFD?",
+          "options": [
+            "Ó ń rìn gidigidi jù, nítorí náà ọjọ́ crypto lásán pátápátá yóò sọ owó ìdógò tínrín di òfo",
+            "A kì í gba financing lórí crypto, nítorí náà owó ìdógò ló rọ́pò rẹ̀",
+            "A fòfin de crypto fún àwọn tí kò tíì pé ọdún 18, owó ìdógò sì ni ìjìyà",
+            "App ló ń pinnu iye crypto dípò ọjà"
+          ]
+        },
+        "8": {
+          "q": "Èwo nínú ìwọ̀nyí ló ń mú XP wá nínú module yìí?",
+          "options": [
+            "Èrè 40% lórí ipò leverage",
+            "Lílo ipò tó tóbi jù tó wà",
+            "Bíborí ìṣòwò márùn-ún tẹ̀léra",
+            "Títi ipò tó ń pàdánù dípò fífi kún un"
+          ]
+        },
+        "9": {
+          "q": "Àwòtẹ́lẹ̀ ṣáájú ìṣòwò sọ pé ìrìn 10% lòdì sí ọ yóò yọ 620 NT kúrò nínú àkáǹtì rẹ, èyí tó jẹ́ 62% wallet rẹ. Liquidation price rẹ jẹ́ 88.40, {tech} sì ń ṣòwò ní 96.00 báyìí. Ṣé wàá ṣí i?",
+          "options": [
+            "Bẹ́ẹ̀ ni, nítorí pé liquidation price wà nísàlẹ̀ iye lọ́wọ́lọ́wọ́ láìléwu",
+            "Bẹ́ẹ̀ ni, tí o bá ní ìgbẹ́kẹ̀lé nínú ọ̀nà náà",
+            "Pẹ̀lú ìlọ́po méjì ipò nìkan, kí ewu náà lè yẹ ní gbígbé",
+            "Rárá: ìrìn tó tó nǹkan bí 8% ń sọ ipò náà di òfo, 8% jẹ́ ìrìn lásán, 62% wallet lórí ìṣòwò kan sì ń rú gbogbo òfin ìwọ̀n nínú module yìí"
+          ]
+        }
+      }
+    },
+    "84": {
+      "title": "Ohun Tó Burú Jù Fún Ọ, Tí A Yàn Ṣáájú",
+      "desc": "Stop-loss, take-profit, àti ìjáde tí kò sí ẹni tó ń yàn",
+      "content": "O mọ owó ìdógò, call, close-out, owó ìyálé, stop àti àlàfo. Ẹ̀kọ́ yìí fi apá ìkẹyìn sí ààyè rẹ̀: gbogbo ipò tí wàá ṣí láé ń parí ní ọ̀kan gan-an nínú ọ̀nà mẹ́ta, gbogbo eré náà sì ni ta ló ń yan èwo.\n\n1️⃣ ÌWỌ LÓ TÌ Í. O tẹ bọ́tìnnì, ipò náà sì tì ní iye ọjà lọ́wọ́lọ́wọ́. Ó wà nígbà gbogbo, lórí gbogbo ipò, ní gbogbo ipò-ọ̀rọ̀. Ọ̀pọ̀ ìjáde ló yẹ kí ó jẹ́ èyí.\n\n2️⃣ ÀṢẸ TÍ O FI SÍLẸ̀ LÓ TÌ Í. Oríṣi méjì, orúkọ wọn sì ṣe pàtàkì, nítorí náà kọ́ wọn dáadáa:\n\n• ÀṢẸ STOP-LOSS ń tì ọ́ fúnra rẹ̀ nígbà tí iye bá rìn LÒDÌ SÍ ọ dé ìpele tí o yàn: sell-stop nísàlẹ̀ ibi ìwọlé rẹ lórí long, buy-stop lókè ibi ìwọlé rẹ lórí short. Òun ni ohun tó burú jù fún ọ, tí o pinnu nígbà tí ara rẹ balẹ̀, èyí tí ẹ̀kọ́ 80 ti kọ́ ọ pé òun nìkan ni àkókò tí o ń pinnu nǹkan dáadáa.\n• ÀṢẸ TAKE-PROFIT jẹ́ limit order láti tì: ó ń tì ọ́ fúnra rẹ̀ ní àfojúsùn tí o yàn, nígbà tí iye bá rìn SÍ OJÚ RERE RẸ láti dé ibẹ̀. Òun ni “ó tó” rẹ, tí o pinnu kí ojúkòkòrò tó ní ìbò. Limit order ń ṣẹlẹ̀ ní ìpele rẹ tàbí èyí tó dára jù, kì í ṣe èyí tó burú jù láé.\n\n3️⃣ OLÙPÈSÈ LÓ TÌ Í. Liquidation nìyẹn, láti ẹ̀kọ́ 70. Ohun tí o gbọ́dọ̀ fi sọ́kàn nìyí: liquidation kì í ṣe oríṣi àṣẹ. O kò lè gbé “ìṣòwò liquidation” kalẹ̀. Kò sí ẹni tó lè ṣe é. Kì í ṣe irinṣẹ́ nínú àpò rẹ; ohun tí olùpèsè ń ṣe láti dáàbò bo gbèsè rẹ̀ nígbà tí owó ìdógò rẹ ti fẹ́rẹ̀ẹ́ tán ni, ní iye èyíkéyìí tí ọjà ń san, nígbà tí o wà ní ilé-ìwé tàbí tí o ń sùn.\n\nStop-loss ni ìwọ tó ń pinnu ohun tó burú jù fún ọ ṣáájú. Liquidation ni ohun tó ń ṣẹlẹ̀ nígbà tí o kò ṣe bẹ́ẹ̀.\n\nÀwọn àṣẹ rẹ méjèèjì jẹ́ olóòótọ́ lọ́nà kan náà, o sì ti mọ̀ ọ́n láti ẹ̀kọ́ 78: wọ́n ń bẹ̀rẹ̀ ní ìpele rẹ, wọ́n sì ń ṣẹlẹ̀ ní ohun tí ọjà ń san gan-an. Àlàfo kọjá stop rẹ ń tà á fún ọ ní òdìkejì ìfò náà, èyí tó burú jù. Àlàfo la take-profit rẹ kọjá ń tà á fún ọ ní òdìkejì náà pẹ̀lú, èyí tó dára jù. Òótọ́ kan náà, tó dojú kọ ọ̀nà méjèèjì.\n\nÒfin ìgbékalẹ̀ kan, app yìí sì ń mú un ṣẹ pẹ̀lú ìdí rẹ̀ lórí ojú-ìwé: stop rẹ gbọ́dọ̀ wà láàárín iye lọ́wọ́lọ́wọ́ àti liquidation price rẹ. Stop tó kọjá liquidation price kò lè ṣiṣẹ́ láé, nítorí pé olùpèsè ì bá ti tì ọ́ ṣáájú, nítorí náà app kọ̀ ọ́, ó sì sọ ìdí rẹ̀ fún ọ.\n\nIlẹ̀kùn mẹ́ta láti jáde nínú gbogbo ìṣòwò. Méjì nínú wọn ní orúkọ rẹ lórí ọwọ́ ilẹ̀kùn. Jíjáde láti ọ̀kan nínú wọn, ní ọjọ́ tí o yàn, ní ìpele tí o yàn nígbà tí ara rẹ balẹ̀, ni ohun tí gbogbo module yìí ti ń kọ́ ọ láti ṣe. 🚪",
+      "quiz": {
+        "q": "Ipò long rẹ ní stop-loss tí o fi sí 180.00 àti liquidation price 150.00. Kí ni ìyàtọ̀ gidi láàárín nọ́ńbà méjèèjì yẹn?",
+        "options": [
+          "Kò sí nǹkan kan rárá, orúkọ méjì ni fún ìtìpa-fúnra-rẹ̀ kan náà, olùpèsè sì ń ṣe é ní iye kan ṣoṣo ní gbogbo ìgbà",
+          "Stop-loss ni ìpinnu olùpèsè, liquidation price sì ni tìrẹ, nítorí náà èyí tí o ń darí gan-an ni èyí tó ń ṣiṣẹ́ kejì",
+          "Stop ní 180.00 ni ohun tó burú jù fún ọ, tí ìwọ fúnra rẹ yàn ṣáájú nígbà tí ara rẹ balẹ̀; 150.00 ni ibi tí olùpèsè ti ń tì ọ́ láti dáàbò bo gbèsè rẹ̀, nítorí pé o kò ní ẹ̀tọ́ ọ̀rọ̀ mọ́",
+          "Stop ń ṣe ìdánilójú títà ní 180.00 gan-an ohunkóhun tí ọjà bá ṣe, nígbà tí liquidation lè ṣẹlẹ̀ ní iye èyíkéyìí rárá, bí ó ti wù kí ó ti jìnnà tó"
+        ]
+      }
+    }
+  },
+  "context": {
+    "ZA": {
+      "name": "Gúúsù Áfíríkà",
+      "cName": "rándì",
+      "cPlural": "rándì",
+      "exDesc": "ọ̀kan lára àwọn ọjà ìpín tó tóbi jù ní gbogbo ilẹ̀ Áfíríkà",
+      "sectorList": "⛏️ Ìwakùsà: Anglo American, Impala Platinum. Ó so mọ́ iye owó ohun ọjà ní àgbáyé\n🏦 Báǹkì: Standard Bank, FirstRand, Capitec. Wọ́n máa ń ṣe dáadáa nígbà tí èlé bá ga\n📱 Ìmọ̀-ẹ̀rọ: Naspers, Prosus. Ó so mọ́ àṣà ìmọ̀-ẹ̀rọ àgbáyé\n🛍️ Ìtajà: Shoprite, Pick n Pay. Wọ́n máa ń ṣe dáadáa nígbà tí àwọn oníbàárà bá ní owó láti ná\n📡 Ìbánisọ̀rọ̀: MTN, Vodacom. Wọ́n dúró ṣinṣin jù, nítorí pé àwọn ènìyàn máa ń nílò dátà nígbà gbogbo",
+      "etfBasket": "àwọn ilé-iṣẹ́ 40 tó tóbi jù lórí JSE",
+      "etfDesc": "Fún àpẹẹrẹ, JSE Top 40 jẹ́ àkọsílẹ̀ àwọn ilé-iṣẹ́ 40 tó tóbi jù lórí JSE, tí a tò gẹ́gẹ́ bí iye àwọn ìpín tí ó wà ní àrọ́wọ́tó fún ìṣòwò gan-an.",
+      "etfList": "🇿🇦 Satrix Top 40: Àwọn ilé-iṣẹ́ 40 tó tóbi jù lórí JSE. Ibi ìbẹ̀rẹ̀ tó dára gan-an.\n🌍 Satrix MSCI World: Àwọn ilé-iṣẹ́ láti orílẹ̀-èdè 23 tó ti gòkè àgbà nínú rírà kan ṣoṣo.\n🇺🇸 Sygnia Itrix S&P 500: Àwọn ilé-iṣẹ́ ńlá 500 ní US tó wà lórí àkọsílẹ̀ S&P 500.\n💡 Satrix Nasdaq 100: Àwọn ilé-iṣẹ́ 100 tó tóbi jù lórí Nasdaq tí kì í ṣe ti ìnáwó owó. Ìmọ̀-ẹ̀rọ pọ̀ nínú rẹ̀ gan-an.",
+      "currencyHedge": "Owó dọ́là tàbí yúrò ni wọ́n fi ń díye lé àwọn wọ̀nyí. Nítorí náà bí rándì bá DÍN KÙ NÍ AGBÁRA (R20 fún dọ́là kan di R22), àwọn ìdókòwò àgbáyé rẹ á níye lórí JÙ ní rándì FÚNRA WỌN!",
+      "fxQuizSetup": "Rándì dín kù ní agbára láti R18 sí R22 fún dọ́là kan",
+      "fxQuizLose": "Ó dín kù ní iye nítorí pé ọrọ̀ ajé Gúúsù Áfíríkà ń tiraka",
+      "fxQuizGain": "Ó GÒKÈ ní rándì nítorí pé dọ́là kọ̀ọ̀kan ń ra rándì púpọ̀ sí i",
+      "dcaTitle": "Ìdókòwò Déédéé ní Rándì",
+      "dcaAbbrev": "RCA",
+      "food": "búgà Wimpy"
+    },
+    "US": {
+      "name": "Amẹ́ríkà",
+      "cName": "dọ́là",
+      "cPlural": "dọ́là",
+      "exDesc": "ọjà ìpín tó tóbi jù ní àgbáyé, ó sì jìnnà sí èkejì",
+      "sectorList": "💻 Ìmọ̀-ẹ̀rọ: Apple, Microsoft, Alphabet. Ìhùmọ̀ tuntun àti ìbéèrè àgbáyé ló ń tì í\n🏦 Báǹkì: JPMorgan, Bank of America, Goldman Sachs. Wọ́n máa ń ṣe dáadáa nígbà tí èlé bá gòkè\n🛍️ Ìtajà: Amazon, Walmart, Costco. Wọ́n máa ń ṣe dáadáa nígbà tí àwọn oníbàárà bá ń náwó\n⚡ Agbára (Energy): Exxon Mobil, Chevron. Ó so mọ́ iye owó epo àti gáàsì ní àgbáyé\n📡 Ìbánisọ̀rọ̀: AT&T, Verizon, T-Mobile. Àwọn ènìyàn máa ń nílò ìsopọ̀ nígbà gbogbo",
+      "etfBasket": "àwọn ilé-iṣẹ́ ńlá 500 ní US tó wà lórí àkọsílẹ̀ S&P 500",
+      "etfDesc": "Fún àpẹẹrẹ, S&P 500 jẹ́ àkọsílẹ̀ àwọn ilé-iṣẹ́ ńlá 500 ní US tí ìgbìmọ̀ kan yàn. Wọ́n gbọ́dọ̀ tóbi, kí wọ́n ní èrè, kí ó sì rọrùn láti ṣòwò wọn. KÌ Í ṢE àwọn 500 tó tóbi jù lásán, ó sì da àwọn ilé-iṣẹ́ tó wà lórí NYSE pọ̀ mọ́ àwọn tó wà lórí Nasdaq.",
+      "etfList": "🇺🇸 SPY / VOO: Wọ́n ń tẹ̀lé S&P 500, àkọsílẹ̀ àwọn ilé-iṣẹ́ ńlá 500 ní US. Òṣùwọ̀n wúrà.\n📦 VTI: Gbogbo ọjà ìpín US, ẹgbẹẹgbẹ̀rún ilé-iṣẹ́ nínú ETF kan.\n💡 QQQ: Àwọn ilé-iṣẹ́ 100 tó tóbi jù lórí Nasdaq tí kì í ṣe ti ìnáwó owó. Ìmọ̀-ẹ̀rọ pọ̀ nínú rẹ̀ gan-an.\n🌍 VT / VXUS: Àwọn ilé-iṣẹ́ àgbáyé tàbí ti òkèèrè nínú owó-àkójọ kan ṣoṣo.",
+      "currencyHedge": "Bí dọ́là bá dín kù ní agbára sí àwọn owó mìíràn, àwọn ìdókòwò àgbáyé rẹ á níye lórí JÙ ní dọ́là fúnra wọn!",
+      "fxQuizSetup": "Dọ́là dín kù ní agbára gidigidi ní ìfiwéra pẹ̀lú yúrò àti yẹ́ẹ̀nì",
+      "fxQuizLose": "Ó dín kù ní iye nítorí pé ọrọ̀ ajé Amẹ́ríkà ń tiraka",
+      "fxQuizGain": "Ó GÒKÈ ní dọ́là nítorí pé àwọn ohun ìní òkèèrè rẹ jèrè nínú iye owó ilẹ̀ òkèèrè",
+      "dcaTitle": "Ìdókòwò Déédéé ní Dọ́là",
+      "dcaAbbrev": "DCA",
+      "food": "oúnjẹ Big Mac pípé"
+    },
+    "GB": {
+      "name": "Ilẹ̀ Gẹ̀ẹ́sì (United Kingdom)",
+      "cName": "pọ́ùn",
+      "cPlural": "pọ́ùn",
+      "exDesc": "ọ̀kan lára àwọn ọjà ìpín tó dàgbà jù tí ó sì ṣe pàtàkì jù ní àgbáyé",
+      "sectorList": "⚡ Agbára (Energy): Shell, BP. Àwọn òmìrán epo àti gáàsì àgbáyé\n🏦 Báǹkì: HSBC, Barclays, Lloyds. Wọ́n máa ń ṣe dáadáa nígbà tí èlé bá ga\n🧴 Ọjà oníbàárà: Unilever, Diageo, Reckitt. Àwọn alágbára orúkọ ọjà ilé\n🛍️ Ìtajà: Tesco, Sainsbury's. Wọ́n máa ń ṣe dáadáa nígbà tí àwọn oníbàárà bá ń náwó\n📡 Ìbánisọ̀rọ̀: Vodafone, BT Group. Àwọn ènìyàn máa ń nílò ìsopọ̀ nígbà gbogbo",
+      "etfBasket": "àwọn ilé-iṣẹ́ 100 tó tóbi jù lórí London Stock Exchange",
+      "etfDesc": "Fún àpẹẹrẹ, FTSE 100 jẹ́ àkọsílẹ̀ àwọn ilé-iṣẹ́ 100 tó tóbi jù lórí ọjà pàtàkì London Stock Exchange, tí wọ́n ń ṣàyẹ̀wò rẹ̀ lẹ́ẹ̀kan sí i ní oṣù mẹ́ta mẹ́ta.",
+      "etfList": "🇬🇧 iShares Core FTSE 100: Àwọn ilé-iṣẹ́ 100 tó tóbi jù lórí London Stock Exchange.\n🌍 Vanguard FTSE All-World: Àwọn ilé-iṣẹ́ láti ọ̀pọ̀ orílẹ̀-èdè nínú rírà kan ṣoṣo.\n🇺🇸 iShares Core S&P 500: Àwọn ilé-iṣẹ́ ńlá 500 ní US tó wà lórí àkọsílẹ̀ S&P 500.\n💡 iShares Nasdaq 100: Àwọn ilé-iṣẹ́ 100 tó tóbi jù lórí Nasdaq tí kì í ṣe ti ìnáwó owó. Ìmọ̀-ẹ̀rọ pọ̀ nínú rẹ̀ gan-an.",
+      "currencyHedge": "Bí pọ́ùn bá dín kù ní agbára sí àwọn owó mìíràn, àwọn ìdókòwò àgbáyé rẹ á níye lórí JÙ ní pọ́ùn fúnra wọn!",
+      "fxQuizSetup": "Pọ́ùn dín kù ní agbára gidigidi ní ìfiwéra pẹ̀lú dọ́là àti yúrò",
+      "fxQuizLose": "Ó dín kù ní iye nítorí pé ọrọ̀ ajé Ilẹ̀ Gẹ̀ẹ́sì ń tiraka",
+      "fxQuizGain": "Ó GÒKÈ ní pọ́ùn nítorí pé àwọn ohun ìní òkèèrè rẹ jèrè nínú iye owó ilẹ̀ òkèèrè",
+      "dcaTitle": "Ìdókòwò Déédéé ní Pọ́ùn",
+      "dcaAbbrev": "PCA",
+      "food": "ìdámẹ́rin adìẹ Nando's"
+    },
+    "IN": {
+      "name": "Índíà",
+      "cName": "rupii",
+      "cPlural": "rupii",
+      "exDesc": "ọ̀kan lára àwọn ọjà ìpín tó tóbi jù ní àgbáyé ní iye ìṣòwò",
+      "sectorList": "💻 Ìmọ̀-ẹ̀rọ: TCS, Infosys, Wipro. Àwọn alágbára iṣẹ́ IT àgbáyé\n🏦 Báǹkì: HDFC Bank, SBI, ICICI. Wọ́n máa ń ṣe dáadáa nígbà tí èlé bá ga\n🛍️ Ọjà oníbàárà: ITC, Hindustan Unilever, DMart. Wọ́n máa ń ṣe dáadáa nígbà tí àwọn oníbàárà bá ń náwó\n⚡ Agbára (Energy): Reliance, ONGC. Ó so mọ́ epo, gáàsì, àti ìfọ̀mọ́ epo\n📡 Ìbánisọ̀rọ̀: Airtel, Vodafone Idea. Ọjà fóònù ńlá Índíà ń dàgbà sí i",
+      "etfBasket": "50 lára àwọn ilé-iṣẹ́ tó tóbi jù tí wọ́n sì ń ṣòwò jù ní Índíà",
+      "etfDesc": "Fún àpẹẹrẹ, Nifty 50 jẹ́ àkọsílẹ̀ 50 lára àwọn ilé-iṣẹ́ tó tóbi jù tí wọ́n sì ń ṣòwò jù ní Índíà, tí a yàn nítorí bí wọ́n ṣe tóbi tó ÀTI bí ó ṣe rọrùn láti rà wọ́n àti tà wọ́n, kì í ṣe nítorí ìtóbi nìkan.",
+      "etfList": "🇮🇳 Nippon India Nifty 50: Nifty 50, àkọsílẹ̀ 50 lára àwọn ilé-iṣẹ́ tó tóbi jù tí wọ́n sì ń ṣòwò jù ní Índíà.\n💡 ICICI Prudential Sensex: Sensex, àkọsílẹ̀ 30 lára àwọn blue chip tí a mọ̀ jù ní Índíà.\n📦 Kotak Nifty Next 50: Àwọn ilé-iṣẹ́ 50 tí ó wà nísàlẹ̀ Nifty 50 gẹ́lẹ́.\n🌍 Motilal Oswal Nasdaq 100: Àwọn ilé-iṣẹ́ 100 tó tóbi jù lórí Nasdaq tí kì í ṣe ti ìnáwó owó.",
+      "currencyHedge": "Bí rupii bá dín kù ní agbára sí dọ́là, àwọn ìdókòwò àgbáyé rẹ á níye lórí JÙ ní rupii fúnra wọn!",
+      "fxQuizSetup": "Rupii dín kù ní agbára láti ₹82 sí ₹90 fún dọ́là kan",
+      "fxQuizLose": "Ó dín kù ní iye nítorí pé ọrọ̀ ajé Índíà ń tiraka",
+      "fxQuizGain": "Ó GÒKÈ ní rupii nítorí pé dọ́là kọ̀ọ̀kan ń ra rupii púpọ̀ sí i",
+      "dcaTitle": "Ìdókòwò Déédéé ní Rupii",
+      "dcaAbbrev": "RCA",
+      "food": "pizza Domino's"
+    },
+    "JP": {
+      "name": "Jàpáànù",
+      "cName": "yẹ́ẹ̀nì",
+      "cPlural": "yẹ́ẹ̀nì",
+      "exDesc": "ọ̀kan lára àwọn ọjà ìpín tó tóbi jù ní àgbáyé",
+      "sectorList": "🚗 Ọkọ̀ ayọ́kẹ́lẹ́: Toyota, Honda, Nissan. Àwọn olùṣe ọkọ̀ Jàpáànù tí gbogbo ayé mọ̀\n💻 Ìmọ̀-ẹ̀rọ: Sony, SoftBank, Nintendo. Eré, ìdárayá, àti ìhùmọ̀ tuntun\n🏦 Báǹkì: MUFG, SMFG, Mizuho. Àwọn ẹgbẹ́ báǹkì ńláńlá Jàpáànù\n🛍️ Ìtajà: Fast Retailing (Uniqlo), Seven & i. Ìtajà tó dé gbogbo àgbáyé\n📡 Ìbánisọ̀rọ̀: NTT, KDDI, SoftBank. Ètò amáyédẹrùn fóònù ńlá",
+      "etfBasket": "àwọn ilé-iṣẹ́ 225 tó wà lórí àkọsílẹ̀ Nikkei 225",
+      "etfDesc": "Fún àpẹẹrẹ, Nikkei 225 jẹ́ àkọsílẹ̀ àwọn ilé-iṣẹ́ Jàpáànù olókìkí 225 tí a yàn láti ṣojú gbogbo ọjà. Iye owó ìpín ló ń pinnu ìwúwo rẹ̀, èyí tí ó túmọ̀ sí pé ìpín tí iye owó rẹ̀ ga ka jù ilé-iṣẹ́ tí ó kàn tóbi lásán.",
+      "etfList": "🇯🇵 ETF Nikkei 225 kan: Àwọn ilé-iṣẹ́ 225 tó wà lórí àkọsílẹ̀ Nikkei 225. Òṣùwọ̀n náà.\n📦 ETF TOPIX kan: Apá tó gbòòrò jù nínú ọjà Tokyo, ó ju ẹgbẹ̀rún ilé-iṣẹ́ lọ dáadáa.\n🌍 MAXIS All Country World: Àwọn ọjà tó ti gòkè àgbà àti àwọn tó ń dìde nínú owó-àkójọ kan.\n🇺🇸 iShares S&P 500: Àwọn ilé-iṣẹ́ ńlá 500 ní US tó wà lórí àkọsílẹ̀ S&P 500.",
+      "currencyHedge": "Bí yẹ́ẹ̀nì bá dín kù ní agbára sí àwọn owó mìíràn, àwọn ìdókòwò àgbáyé rẹ á níye lórí JÙ ní yẹ́ẹ̀nì fúnra wọn!",
+      "fxQuizSetup": "Yẹ́ẹ̀nì dín kù ní agbára láti ¥130 sí ¥155 fún dọ́là kan",
+      "fxQuizLose": "Ó dín kù ní iye nítorí pé ọrọ̀ ajé Jàpáànù ń tiraka",
+      "fxQuizGain": "Ó GÒKÈ ní yẹ́ẹ̀nì nítorí pé àwọn ohun ìní òkèèrè rẹ jèrè nínú iye owó ilẹ̀ òkèèrè",
+      "dcaTitle": "Ìdókòwò Déédéé ní Yẹ́ẹ̀nì",
+      "dcaAbbrev": "YCA",
+      "food": "àwo ramen"
+    },
+    "DE": {
+      "name": "Jámánì",
+      "cName": "yúrò",
+      "cPlural": "yúrò",
+      "exDesc": "ọ̀kan lára àwọn ọjà ìpín tó tóbi jù ní Yúróòpù",
+      "sectorList": "💻 Ìmọ̀-ẹ̀rọ: SAP, Infineon. Software fún ilé-iṣẹ́ àti semiconductor\n🚗 Ọkọ̀ ayọ́kẹ́lẹ́: Volkswagen, BMW, Mercedes-Benz. Ìgbéraga ìmọ̀ ẹ̀rọ Jámánì\n🏦 Báǹkì: Deutsche Bank, Commerzbank. Wọ́n máa ń ṣe dáadáa nígbà tí èlé bá gòkè\n🏭 Ilé-iṣẹ́ ẹ̀rọ: Siemens, BASF. Ṣíṣe ọjà àti kẹ́míkà ní àgbáyé\n📡 Ìbánisọ̀rọ̀: Deutsche Telekom, 1&1. Ẹ̀yìn ìsopọ̀ Jámánì",
+      "etfBasket": "àwọn ilé-iṣẹ́ Jámánì 40 tó tóbi jù lórí ọjà ìpín Frankfurt",
+      "etfDesc": "Fún àpẹẹrẹ, DAX 40 jẹ́ àkọsílẹ̀ àwọn ilé-iṣẹ́ Jámánì 40 tó tóbi jù lórí ọjà ìpín Frankfurt, láti 2021 wọ́n sì tún gbọ́dọ̀ ní èrè kí wọ́n tó lè wọlé.",
+      "etfList": "🇩🇪 iShares Core DAX: Àwọn ilé-iṣẹ́ Jámánì 40 tó tóbi jù lórí ọjà ìpín Frankfurt.\n🌍 Xtrackers MSCI World: Àwọn ilé-iṣẹ́ láti orílẹ̀-èdè 23 tó ti gòkè àgbà.\n🇺🇸 iShares Core S&P 500: Àwọn ilé-iṣẹ́ ńlá 500 ní US tó wà lórí àkọsílẹ̀ S&P 500.\n🇪🇺 ETF EURO STOXX 50 kan: Àwọn aṣáájú blue-chip 50 láti gbogbo agbègbè eurozone.",
+      "currencyHedge": "Bí yúrò bá dín kù ní agbára sí àwọn owó mìíràn, àwọn ìdókòwò àgbáyé rẹ á níye lórí JÙ ní yúrò fúnra wọn!",
+      "fxQuizSetup": "Yúrò dín kù ní agbára gidigidi ní ìfiwéra pẹ̀lú dọ́là àti yẹ́ẹ̀nì",
+      "fxQuizLose": "Ó dín kù ní iye nítorí pé ọrọ̀ ajé Yúróòpù ń tiraka",
+      "fxQuizGain": "Ó GÒKÈ ní yúrò nítorí pé àwọn ohun ìní òkèèrè rẹ jèrè nínú iye owó ilẹ̀ òkèèrè",
+      "dcaTitle": "Ìdókòwò Déédéé",
+      "dcaAbbrev": "DCA",
+      "food": "döner kebab"
+    },
+    "CA": {
+      "name": "Kánádà",
+      "cName": "dọ́là Kánádà",
+      "cPlural": "dọ́là Kánádà",
+      "exDesc": "ọ̀kan lára àwọn ọjà ìpín 10 tó tóbi jù ní àgbáyé",
+      "sectorList": "💻 Ìmọ̀-ẹ̀rọ: Shopify, OpenText, Constellation Software. Ìhùmọ̀ ìmọ̀-ẹ̀rọ Kánádà\n🏦 Báǹkì: RBC, TD, BMO, Scotiabank. Àwọn báǹkì ńlá márùn-ún Kánádà dúró gbọn-in\n⚡ Agbára (Energy): Enbridge, Suncor, TC Energy. Àwọn òmìrán iyanrìn epo àti páìpù\n🛍️ Ìtajà: Dollarama, Canadian Tire, Loblaw. Àwọn orúkọ ìtajà ìbílẹ̀\n📡 Ìbánisọ̀rọ̀: BCE, Rogers, Telus. Àwọn ará Kánádà máa ń nílò ìsopọ̀ nígbà gbogbo",
+      "etfBasket": "àwọn ilé-iṣẹ́ ńlá 60 ní Kánádà tí ó bo gbogbo iṣẹ́ ajé pàtàkì",
+      "etfDesc": "Fún àpẹẹrẹ, S&P/TSX 60 jẹ́ àkọsílẹ̀ àwọn ilé-iṣẹ́ ńlá 60 ní Kánádà tí ìgbìmọ̀ kan yàn kí gbogbo iṣẹ́ ajé pàtàkì lè ní aṣojú, èyí tí ó túmọ̀ sí pé kì í ṣe àwọn 60 tó tóbi jù lásán.",
+      "etfList": "🇨🇦 iShares S&P/TSX 60 (XIU): Àwọn ilé-iṣẹ́ ńlá 60 ní Kánádà láti gbogbo iṣẹ́ ajé pàtàkì.\n📦 Vanguard All-Equity (VEQT): Ìpín Kánádà, US àti ti àgbáyé nínú ETF kan.\n🇺🇸 BMO S&P 500: Àwọn ilé-iṣẹ́ ńlá 500 ní US tó wà lórí àkọsílẹ̀ S&P 500.\n💡 ETF Nasdaq 100 kan: Àwọn ilé-iṣẹ́ 100 tó tóbi jù lórí Nasdaq tí kì í ṣe ti ìnáwó owó. Ìmọ̀-ẹ̀rọ pọ̀ nínú rẹ̀ gan-an.",
+      "currencyHedge": "Bí dọ́là Kánádà bá dín kù ní agbára sí àwọn owó mìíràn, àwọn ìdókòwò àgbáyé rẹ á níye lórí JÙ ní C$ fúnra wọn!",
+      "fxQuizSetup": "Dọ́là Kánádà dín kù ní agbára gidigidi ní ìfiwéra pẹ̀lú dọ́là US",
+      "fxQuizLose": "Ó dín kù ní iye nítorí pé ọrọ̀ ajé Kánádà ń tiraka",
+      "fxQuizGain": "Ó GÒKÈ ní dọ́là Kánádà nítorí pé àwọn ohun ìní òkèèrè rẹ jèrè nínú iye owó ilẹ̀ òkèèrè",
+      "dcaTitle": "Ìdókòwò Déédéé ní Dọ́là",
+      "dcaAbbrev": "DCA",
+      "food": "oúnjẹ Tim Hortons pípé"
+    },
+    "AU": {
+      "name": "Ọsirélíà",
+      "cName": "dọ́là Ọsirélíà",
+      "cPlural": "dọ́là Ọsirélíà",
+      "exDesc": "ọjà ìpín tó tóbi jù ní Apá Gúúsù Ayé",
+      "sectorList": "⛏️ Ìwakùsà: BHP, Rio Tinto, Fortescue. Àwọn òmìrán ìwakùsà àti ohun àlùmọ́nì àgbáyé\n🏦 Báǹkì: CBA, Westpac, ANZ, NAB. Àwọn báǹkì ńlá mẹ́rin Ọsirélíà\n🏥 Ìlera: CSL, Cochlear. Biotech àti ẹ̀rọ ìṣègùn tó gbajúmọ̀ ní àgbáyé\n🛍️ Ìtajà: Woolworths, Coles, Wesfarmers. Oúnjẹ àti ohun àmúlò ojoojúmọ́\n💻 Ìmọ̀-ẹ̀rọ: WiseTech Global, Xero. Àṣeyọrí software tó wà lórí ọjà Ọsirélíà",
+      "etfBasket": "àwọn ilé-iṣẹ́ 200 tó tóbi jù lórí ASX",
+      "etfDesc": "Fún àpẹẹrẹ, S&P/ASX 200 jẹ́ àkọsílẹ̀ àwọn ilé-iṣẹ́ 200 tó tóbi jù lórí ASX, tí a wọ̀n gẹ́gẹ́ bí iye àwọn ìpín tí ó wà ní àrọ́wọ́tó fún ìṣòwò, tí a sì ṣàyẹ̀wò bí ó ṣe rọrùn tó láti rà wọ́n àti tà wọ́n.",
+      "etfList": "🇦🇺 iShares Core S&P/ASX 200 (IOZ): Àwọn ilé-iṣẹ́ 200 tó tóbi jù lórí ASX.\n📦 Vanguard Australian Shares (VAS): Ó gbòòrò jù bẹ́ẹ̀ lọ, nǹkan bí ilé-iṣẹ́ ASX 300.\n🌍 Vanguard MSCI International (VGS): Àwọn ilé-iṣẹ́ ọjà tó ti gòkè àgbà lẹ́yìn òde Ọsirélíà.\n🇺🇸 BetaShares Nasdaq 100 (NDQ): Àwọn ilé-iṣẹ́ 100 tó tóbi jù lórí Nasdaq tí kì í ṣe ti ìnáwó owó.",
+      "currencyHedge": "Bí dọ́là Ọsirélíà bá dín kù ní agbára sí àwọn owó mìíràn, àwọn ìdókòwò àgbáyé rẹ á níye lórí JÙ ní A$ fúnra wọn!",
+      "fxQuizSetup": "Dọ́là Ọsirélíà dín kù ní agbára gidigidi ní ìfiwéra pẹ̀lú dọ́là US",
+      "fxQuizLose": "Ó dín kù ní iye nítorí pé ọrọ̀ ajé Ọsirélíà ń tiraka",
+      "fxQuizGain": "Ó GÒKÈ ní A$ nítorí pé àwọn ohun ìní òkèèrè rẹ jèrè nínú iye owó ilẹ̀ òkèèrè",
+      "dcaTitle": "Ìdókòwò Déédéé ní Dọ́là",
+      "dcaAbbrev": "DCA",
+      "food": "pàì ẹran"
+    },
+    "HK": {
+      "name": "Hong Kong",
+      "cName": "dọ́là Hong Kong",
+      "cPlural": "dọ́là Hong Kong",
+      "exDesc": "ọjà ìpín tí ó jẹ́ ẹnu ọ̀nà láàárín Ṣáínà àti àwọn ọjà àgbáyé",
+      "sectorList": "💻 Ìmọ̀-ẹ̀rọ: Tencent, Xiaomi, Meituan. Àwọn òmìrán ìmọ̀-ẹ̀rọ Ṣáínà tó wà lórí ọjà HK\n🏦 Báǹkì: HSBC, Hang Seng Bank. Wọ́n máa ń ṣe dáadáa nígbà tí èlé bá gòkè\n🏗️ Ilé àti ilẹ̀: CK Asset, Sun Hung Kai. Ilé àti ilẹ̀ ni ọba ní Hong Kong\n⚡ Iná àti omi (Utilities): CLP, Power Assets. Dividend tó dúró ṣinṣin lọ́dọọdún\n🛡️ Ìbánigbófò: AIA, Prudential. Àwọn aṣáájú ìbánigbófò ní Asia-Pacific",
+      "etfBasket": "àwọn ilé-iṣẹ́ tó tóbi jù tí wọ́n sì ń ṣòwò jù ní Hong Kong",
+      "etfDesc": "Fún àpẹẹrẹ, Hang Seng Index jẹ́ àkọsílẹ̀ àyànfẹ́ àwọn ilé-iṣẹ́ tó tóbi jù tí wọ́n sì ń ṣòwò jù ní Hong Kong, tí a yàn láti ṣojú gbogbo iṣẹ́ ajé pàtàkì. Iye àwọn ilé-iṣẹ́ tó wà lórí rẹ̀ ń yí padà bí ìgbìmọ̀ atọ́kà ṣe ń fi orúkọ kún un tí wọ́n sì ń yọ ọ́ kúrò.",
+      "etfList": "🇭🇰 Tracker Fund (2800): Ó ń tẹ̀lé Hang Seng Index. Aṣáájú ETF ní Hong Kong.\n💡 Hang Seng TECH ETF: Àwọn ilé-iṣẹ́ ìmọ̀-ẹ̀rọ 30 tó tóbi jù lórí ọjà Hong Kong.\n🇺🇸 ETF S&P 500 kan: Àwọn ilé-iṣẹ́ ńlá 500 ní US tó wà lórí àkọsílẹ̀ S&P 500.\n🇨🇳 ETF China A-shares kan: Àǹfààní sí àwọn ilé-iṣẹ́ tó wà lórí ọjà Shanghai àti Shenzhen.",
+      "currencyHedge": "Dọ́là HK so mọ́ dọ́là US, nítorí náà owó-àkójọ àgbáyé tí US pọ̀ nínú rẹ̀ kò fi bẹ́ẹ̀ yí padà nítorí owó nìkan. Ṣùgbọ́n apá tí kì í ṣe ti US (Yúróòpù, Jàpáànù, ìyókù Éṣíà) ṣì ń jèrè ní HK$ nígbà tí àwọn owó yẹn bá lágbára sí i!",
+      "fxQuizSetup": "Yúrò àti yẹ́ẹ̀nì lágbára sí i ní ìfiwéra pẹ̀lú dọ́là US, dọ́là HK sì so mọ́ dọ́là US",
+      "fxQuizLose": "Ó dín kù ní iye nítorí pé ọrọ̀ ajé Hong Kong ń tiraka",
+      "fxQuizGain": "Apá ti Yúróòpù àti Jàpáànù GÒKÈ ní HK$, nítorí pé àwọn owó yẹn ń ra dọ́là HK púpọ̀ sí i báyìí",
+      "dcaTitle": "Ìdókòwò Déédéé ní Dọ́là",
+      "dcaAbbrev": "DCA",
+      "food": "àwo núdù wonton"
+    },
+    "CN": {
+      "name": "Ṣáínà",
+      "cName": "yuánì",
+      "cPlural": "yuánì",
+      "exDesc": "ọ̀kan lára àwọn ọjà ìpín tó tóbi jù ní àgbáyé ní market cap",
+      "sectorList": "💻 Ìmọ̀-ẹ̀rọ: SMIC, Kingsoft Office. Ṣíṣe chip àti software lórí ọjà Shanghai\n🏦 Báǹkì: ICBC, CCB, Bank of China. Lára àwọn báǹkì tó tóbi jù ní àgbáyé ní ohun ìní\n🚗 Ọkọ̀ ayọ́kẹ́lẹ́: SAIC Motor, Great Wall Motor. Àwọn olùṣe ọkọ̀ ìbílẹ̀ Ṣáínà\n🛍️ Ọjà oníbàárà: Kweichow Moutai, Haier, Yili. Orúkọ tí gbogbo ilé mọ̀ jákèjádò Ṣáínà\n📡 Ìbánisọ̀rọ̀: China Mobile, China Telecom. Nẹ́tíwọ̀ọ̀kì fóònù ńláńlá",
+      "etfBasket": "300 lára àwọn ilé-iṣẹ́ tó tóbi jù tí wọ́n sì ń ṣòwò jù ní ilẹ̀ Ṣáínà",
+      "etfDesc": "Fún àpẹẹrẹ, CSI 300 jẹ́ àkọsílẹ̀ 300 lára àwọn ilé-iṣẹ́ tó tóbi jù tí wọ́n sì ń ṣòwò jù ní ilẹ̀ Ṣáínà, ó sì bo ọjà Shanghai ÀTI Shenzhen MÉJÈÈJÌ, kì í ṣe ọ̀kan nínú wọn nìkan.",
+      "etfList": "🇨🇳 Huatai-PB CSI 300 (510300): Àwọn ilé-iṣẹ́ ńlá 300 tí wọ́n ń ṣòwò jù ní Shanghai àti Shenzhen.\n💡 ChinaAMC SSE 50 (510050): Àwọn ilé-iṣẹ́ 50 tó tóbi jù lórí ọjà Shanghai nìkan.\n🌍 Owó-àkójọ ìpín Ṣáínà gbòòrò kan: Ó bo ju CSI 300 lọ.\n🇺🇸 Owó-àkójọ S&P 500 QDII kan: Àǹfààní sí àwọn ilé-iṣẹ́ ńlá 500 ní US tó wà lórí àkọsílẹ̀ S&P 500.",
+      "currencyHedge": "Bí yuánì bá dín kù ní agbára sí àwọn owó mìíràn, àwọn ìdókòwò àgbáyé rẹ á níye lórí JÙ ní yuánì fúnra wọn!",
+      "fxQuizSetup": "Yuánì dín kù ní agbára gidigidi ní ìfiwéra pẹ̀lú dọ́là àti yúrò",
+      "fxQuizLose": "Ó dín kù ní iye nítorí pé ọrọ̀ ajé Ṣáínà ń tiraka",
+      "fxQuizGain": "Ó GÒKÈ ní yuánì nítorí pé àwọn ohun ìní òkèèrè rẹ jèrè nínú iye owó ilẹ̀ òkèèrè",
+      "dcaTitle": "Ìdókòwò Déédéé ní Yuánì",
+      "dcaAbbrev": "YCA",
+      "food": "àwo núdù"
+    },
+    "FR": {
+      "name": "Fránsì",
+      "cName": "yúrò",
+      "cPlural": "yúrò",
+      "exDesc": "ilé àwọn orúkọ olówó iyebíye àti ilé-iṣẹ́ ẹ̀rọ tí gbogbo ayé mọ̀ jù",
+      "sectorList": "👜 Ọjà olówó iyebíye: LVMH, Hermès, Kering. Fránsì ló ń darí ọjà olówó iyebíye ní àgbáyé\n⚡ Agbára (Energy): TotalEnergies, Engie. Àwọn ilé-iṣẹ́ agbára ńlá ní Yúróòpù\n🏦 Báǹkì: BNP Paribas, Société Générale. Wọ́n máa ń ṣe dáadáa nígbà tí èlé bá gòkè\n✈️ Ọkọ̀ òfuurufú: Airbus, Safran. Aṣáájú àgbáyé nínú ọkọ̀ òfuurufú àti ààbò\n📡 Ìbánisọ̀rọ̀: Orange, Bouygues. Ẹ̀yìn ìsopọ̀ Fránsì",
+      "etfBasket": "àwọn ilé-iṣẹ́ 40 tó wà lórí àkọsílẹ̀ CAC 40",
+      "etfDesc": "Fún àpẹẹrẹ, CAC 40 jẹ́ àkọsílẹ̀ àwọn ilé-iṣẹ́ 40 tí ìgbìmọ̀ olómìnira kan yàn láti inú àwọn 100 tó tóbi jù lórí ọjà ìpín Paris, gẹ́gẹ́ bí ìtóbi wọn ÀTI bí wọ́n ṣe ń ṣòwò wọn tó.",
+      "etfList": "🇫🇷 Amundi CAC 40: Àwọn ilé-iṣẹ́ 40 tó wà lórí àkọsílẹ̀ CAC 40. Òṣùwọ̀n náà.\n🌍 ETF MSCI World kan: Àwọn ilé-iṣẹ́ láti orílẹ̀-èdè 23 tó ti gòkè àgbà.\n🇺🇸 BNP Paribas Easy S&P 500: Àwọn ilé-iṣẹ́ ńlá 500 ní US tó wà lórí àkọsílẹ̀ S&P 500.\n🇪🇺 ETF EURO STOXX 50 kan: Àwọn aṣáájú blue-chip 50 láti gbogbo agbègbè eurozone.",
+      "currencyHedge": "Bí yúrò bá dín kù ní agbára sí àwọn owó mìíràn, àwọn ìdókòwò àgbáyé rẹ á níye lórí JÙ ní yúrò fúnra wọn!",
+      "fxQuizSetup": "Yúrò dín kù ní agbára gidigidi ní ìfiwéra pẹ̀lú dọ́là àti yẹ́ẹ̀nì",
+      "fxQuizLose": "Ó dín kù ní iye nítorí pé ọrọ̀ ajé Yúróòpù ń tiraka",
+      "fxQuizGain": "Ó GÒKÈ ní yúrò nítorí pé àwọn ohun ìní òkèèrè rẹ jèrè nínú iye owó ilẹ̀ òkèèrè",
+      "dcaTitle": "Ìdókòwò Déédéé",
+      "dcaAbbrev": "DCA",
+      "food": "croque-monsieur (búrẹ́dì oníwàràkàṣì)"
+    },
+    "IT": {
+      "name": "Ítálì",
+      "cName": "yúrò",
+      "cPlural": "yúrò",
+      "exDesc": "ọ̀kan lára àwọn ọjà ìpín tó dàgbà jù ní Yúróòpù, ilé àwọn orúkọ Ítálì olókìkí",
+      "sectorList": "🏎️ Ọkọ̀ ayọ́kẹ́lẹ́: Ferrari, Stellantis. Ìtayọ ìmọ̀ ẹ̀rọ Ítálì\n⚡ Agbára (Energy): Enel, Eni. Àwọn ilé-iṣẹ́ agbára àti iná ńlá ní Yúróòpù\n🏦 Báǹkì: UniCredit, Intesa Sanpaolo. Wọ́n máa ń ṣe dáadáa nígbà tí èlé bá gòkè\n🛡️ Ìbánigbófò: Generali, Unipol. Àwọn òmìrán ìbánigbófò Ítálì\n📡 Ìbánisọ̀rọ̀: TIM, Inwit. Ètò amáyédẹrùn ìsopọ̀ Ítálì",
+      "etfBasket": "àwọn ilé-iṣẹ́ 40 tó wà lórí àkọsílẹ̀ FTSE MIB",
+      "etfDesc": "Fún àpẹẹrẹ, FTSE MIB jẹ́ àkọsílẹ̀ 40 lára àwọn ilé-iṣẹ́ tó tóbi jù tí wọ́n sì ń ṣòwò jù lórí ọjà ìpín Milan, tí a yàn láti bo àwọn iṣẹ́ ajé pàtàkì Ítálì.",
+      "etfList": "🇮🇹 ETF FTSE MIB kan: Àwọn ilé-iṣẹ́ 40 tó wà lórí àkọsílẹ̀ FTSE MIB.\n🌍 iShares Core MSCI World: Àwọn ilé-iṣẹ́ láti orílẹ̀-èdè 23 tó ti gòkè àgbà.\n🇺🇸 Amundi S&P 500: Àwọn ilé-iṣẹ́ ńlá 500 ní US tó wà lórí àkọsílẹ̀ S&P 500.\n🇪🇺 Xtrackers EURO STOXX 50: Àwọn aṣáájú blue-chip 50 láti gbogbo agbègbè eurozone.",
+      "currencyHedge": "Bí yúrò bá dín kù ní agbára sí àwọn owó mìíràn, àwọn ìdókòwò àgbáyé rẹ á níye lórí JÙ ní yúrò fúnra wọn!",
+      "fxQuizSetup": "Yúrò dín kù ní agbára gidigidi ní ìfiwéra pẹ̀lú dọ́là àti yẹ́ẹ̀nì",
+      "fxQuizLose": "Ó dín kù ní iye nítorí pé ọrọ̀ ajé Yúróòpù ń tiraka",
+      "fxQuizGain": "Ó GÒKÈ ní yúrò nítorí pé àwọn ohun ìní òkèèrè rẹ jèrè nínú iye owó ilẹ̀ òkèèrè",
+      "dcaTitle": "Ìdókòwò Déédéé",
+      "dcaAbbrev": "DCA",
+      "food": "pizza margherita"
+    },
+    "ES": {
+      "name": "Sípéènì",
+      "cName": "yúrò",
+      "cPlural": "yúrò",
+      "exDesc": "ọjà ìpín pàtàkì Sípéènì àti ẹnu ọ̀nà sí àwọn ọjà Latin America",
+      "sectorList": "👗 Aṣọ àti ẹwà: Inditex (Zara), Puig. Ilẹ̀ ọba aṣọ àgbáyé ti Sípéènì\n🏦 Báǹkì: Santander, BBVA, CaixaBank. Àwọn báǹkì Sípéènì dé ibi gbogbo ní àgbáyé\n⚡ Agbára (Energy): Iberdrola, Endesa. Aṣáájú agbára àtúnlò ní Yúróòpù\n📡 Ìbánisọ̀rọ̀: Telefónica, Cellnex. Ẹ̀yìn ìsopọ̀ Sípéènì\n🏗️ Ohun amáyédẹrùn: Ferrovial, ACS. Wọ́n ń kọ́ ohun amáyédẹrùn kárí ayé",
+      "etfBasket": "àwọn ilé-iṣẹ́ 35 tí wọ́n ń ṣòwò jù ní Sípéènì",
+      "etfDesc": "Fún àpẹẹrẹ, IBEX 35 jẹ́ àkọsílẹ̀ àwọn ìpín Sípéènì 35 tí wọ́n ń ṣòwò jù, tí ìgbìmọ̀ onímọ̀ kan yàn gẹ́gẹ́ bí iye ìṣòwò. Nítorí náà àkọsílẹ̀ àwọn tí wọ́n ń ṣòwò jù ni, kì í ṣe àkọsílẹ̀ àwọn tó tóbi jù.",
+      "etfList": "🇪🇸 ETF IBEX 35 kan: Àwọn ìpín Sípéènì 35 tí wọ́n ń ṣòwò jù.\n🌍 iShares Core MSCI World: Àwọn ilé-iṣẹ́ láti orílẹ̀-èdè 23 tó ti gòkè àgbà.\n🇺🇸 Vanguard S&P 500: Àwọn ilé-iṣẹ́ ńlá 500 ní US tó wà lórí àkọsílẹ̀ S&P 500.\n🇪🇺 ETF EURO STOXX 50 kan: Àwọn aṣáájú blue-chip 50 láti gbogbo agbègbè eurozone.",
+      "currencyHedge": "Bí yúrò bá dín kù ní agbára sí àwọn owó mìíràn, àwọn ìdókòwò àgbáyé rẹ á níye lórí JÙ ní yúrò fúnra wọn!",
+      "fxQuizSetup": "Yúrò dín kù ní agbára gidigidi ní ìfiwéra pẹ̀lú dọ́là àti yẹ́ẹ̀nì",
+      "fxQuizLose": "Ó dín kù ní iye nítorí pé ọrọ̀ ajé Yúróòpù ń tiraka",
+      "fxQuizGain": "Ó GÒKÈ ní yúrò nítorí pé àwọn ohun ìní òkèèrè rẹ jèrè nínú iye owó ilẹ̀ òkèèrè",
+      "dcaTitle": "Ìdókòwò Déédéé",
+      "dcaAbbrev": "DCA",
+      "food": "àwo tapas"
+    },
+    "NL": {
+      "name": "Nẹ́dálándì",
+      "cName": "yúrò",
+      "cPlural": "yúrò",
+      "exDesc": "ọjà ìpín tó dàgbà jù ní àgbáyé, tí wọ́n dá sílẹ̀ ní 1602",
+      "sectorList": "💻 Ìmọ̀-ẹ̀rọ: ASML, Adyen. ASML ló ń jẹ́ kí àwọn chip tó ga jù ní àgbáyé ṣeé ṣe\n⚡ Agbára (Energy): Shell, SBM Offshore. Àwọn òmìrán agbára àgbáyé tí orílé-iṣẹ́ wọn wà ní NL\n🏦 Báǹkì: ING, ABN AMRO. Wọ́n máa ń ṣe dáadáa nígbà tí èlé bá gòkè\n🍺 Ọjà oníbàárà: Heineken, Ahold Delhaize. Àwọn orúkọ oúnjẹ àti ohun mímu àgbáyé\n📡 Ìbánisọ̀rọ̀: KPN, olùpèsè ìsopọ̀ tó tóbi jù lórí ọjà ìpín orílẹ̀-èdè náà",
+      "etfBasket": "àwọn ilé-iṣẹ́ 25 tí wọ́n ń ṣòwò jù ní Amsterdam",
+      "etfDesc": "Fún àpẹẹrẹ, AEX jẹ́ àkọsílẹ̀ àwọn ìpín 25 tí wọ́n ń ṣòwò jù lórí ọjà ìpín Amsterdam. Ó ń tò àwọn ilé-iṣẹ́ gẹ́gẹ́ bí wọ́n ṣe ń ṣòwò wọn tó, kì í ṣe gẹ́gẹ́ bí wọ́n ṣe tóbi tó.",
+      "etfList": "🇳🇱 iShares AEX: Àwọn ìpín 25 tí wọ́n ń ṣòwò jù ní Amsterdam.\n🌍 Vanguard FTSE All-World: Àwọn ilé-iṣẹ́ láti ọ̀pọ̀ orílẹ̀-èdè nínú rírà kan ṣoṣo.\n🇺🇸 iShares Core S&P 500: Àwọn ilé-iṣẹ́ ńlá 500 ní US tó wà lórí àkọsílẹ̀ S&P 500.\n🇪🇺 ETF EURO STOXX 50 kan: Àwọn aṣáájú blue-chip 50 láti gbogbo agbègbè eurozone.",
+      "currencyHedge": "Bí yúrò bá dín kù ní agbára sí àwọn owó mìíràn, àwọn ìdókòwò àgbáyé rẹ á níye lórí JÙ ní yúrò fúnra wọn!",
+      "fxQuizSetup": "Yúrò dín kù ní agbára gidigidi ní ìfiwéra pẹ̀lú dọ́là àti yẹ́ẹ̀nì",
+      "fxQuizLose": "Ó dín kù ní iye nítorí pé ọrọ̀ ajé Yúróòpù ń tiraka",
+      "fxQuizGain": "Ó GÒKÈ ní yúrò nítorí pé àwọn ohun ìní òkèèrè rẹ jèrè nínú iye owó ilẹ̀ òkèèrè",
+      "dcaTitle": "Ìdókòwò Déédéé",
+      "dcaAbbrev": "DCA",
+      "food": "kroket (oúnjẹ dídín Dutch)"
+    },
+    "BR": {
+      "name": "Bràsíl",
+      "cName": "rẹ̀ál",
+      "cPlural": "rẹ̀ál",
+      "exDesc": "ọjà ìpín tó tóbi jù ní Latin America",
+      "sectorList": "⛏️ Ìwakùsà: Vale, CSN. Àwọn òmìrán irin àti irin-tútù Bràsíl\n⚡ Agbára (Energy): Petrobras, Eletrobras. Àwọn ilé-iṣẹ́ epo àti iná ńlá\n🏦 Báǹkì: Itaú, Bradesco, Banco do Brasil. Wọ́n máa ń ṣe dáadáa nígbà tí èlé bá gòkè\n🍺 Ọjà oníbàárà: Ambev, JBS. Àwọn alágbára oúnjẹ àti ohun mímu\n📡 Ìbánisọ̀rọ̀: Vivo, TIM Brasil. Àwọn olùpèsè fóònù àti íńtánẹ́ẹ̀tì Bràsíl",
+      "etfBasket": "àwọn ilé-iṣẹ́ tí wọ́n ń ṣòwò jù lórí ọjà ìpín B3",
+      "etfDesc": "Fún àpẹẹrẹ, Ibovespa jẹ́ àkọsílẹ̀ àwọn ilé-iṣẹ́ tí wọ́n ń ṣòwò jù lórí ọjà ìpín B3. Ilé-iṣẹ́ kan ń rí ààyè rẹ̀ nípasẹ̀ bí wọ́n ṣe ń rà á àti tà á tó, kì í ṣe bí ó ṣe tóbi tó. Nítorí náà iye àwọn ilé-iṣẹ́ tó wà lórí àkọsílẹ̀ náà ń yí padà bí àkókò ti ń lọ.",
+      "etfList": "🇧🇷 BOVA11: Ó ń tẹ̀lé Ibovespa, àwọn ilé-iṣẹ́ tí wọ́n ń ṣòwò jù lórí B3. Òṣùwọ̀n náà.\n🇺🇸 IVVB11: Ó ń tẹ̀lé S&P 500. Ìyẹn ni àwọn ilé-iṣẹ́ ńlá 500 ní US, tí iye owó wọn wà ní rẹ̀ál.\n🌍 ETF ìpín àgbáyé kan: Àwọn ọjà tó ti gòkè àgbà àti àwọn tó ń dìde nínú rírà kan ṣoṣo.\n💡 HASH11: Owó-àkójọ atọ́kà crypto tí ó di Bitcoin, Ethereum àti àwọn mìíràn mú.",
+      "currencyHedge": "Bí rẹ̀ál bá dín kù ní agbára sí dọ́là, àwọn ìdókòwò àgbáyé rẹ á níye lórí JÙ ní R$ fúnra wọn!",
+      "fxQuizSetup": "Rẹ̀ál Bràsíl dín kù ní agbára láti R$5 sí R$6 fún dọ́là kan",
+      "fxQuizLose": "Ó dín kù ní iye nítorí pé ọrọ̀ ajé Bràsíl ń tiraka",
+      "fxQuizGain": "Ó GÒKÈ ní rẹ̀ál nítorí pé dọ́là kọ̀ọ̀kan ń ra rẹ̀ál púpọ̀ sí i",
+      "dcaTitle": "Ìdókòwò Déédéé ní Rẹ̀ál",
+      "dcaAbbrev": "RCA",
+      "food": "oúnjẹ pão de queijo pípé"
+    },
+    "SA_ARABIA": {
+      "name": "Saudi Arébíà",
+      "cName": "riyáàlì",
+      "cPlural": "riyáàlì",
+      "exDesc": "ọjà ìpín tó tóbi jù ní Àárín Gbùngbùn Ìlà-Oòrùn (Middle East)",
+      "sectorList": "🛢️ Agbára (Energy): Saudi Aramco, SABIC. Aramco ni ilé-iṣẹ́ epo tó níye lórí jù ní àgbáyé\n🏦 Báǹkì: Al Rajhi, SNB, Riyad Bank. Wọ́n máa ń ṣe dáadáa nígbà tí èlé bá gòkè\n📡 Ìbánisọ̀rọ̀: STC, Mobily. Àwọn olùpèsè fóònù àti íńtánẹ́ẹ̀tì Saudi Arébíà\n🛍️ Ìtajà: Jarir, Extra. Àwọn ṣọ́ọ̀bù oníbàárà tó gbajúmọ̀\n⛏️ Ohun èlò: Ma'aden, Yansab. Ìwakùsà àti kẹ́míkà epo",
+      "etfBasket": "gbogbo ilé-iṣẹ́ tó wà lórí ọjà pàtàkì Tadawul",
+      "etfDesc": "TASI (Tadawul All Share Index) kì í ṣe àkọsílẹ̀ 30 tó ga jù tàbí 100 tó ga jù rárá. Ó bo gbogbo ilé-iṣẹ́ tó wà lórí ọjà pàtàkì Tadawul, nítorí náà iye àwọn ilé-iṣẹ́ inú rẹ̀ ń yí padà nígbàkígbà tí ilé-iṣẹ́ kan bá wọlé tàbí jáde.",
+      "etfList": "🇸🇦 ETF tí ń tẹ̀lé TASI kan: Àǹfààní gbòòrò sí gbogbo ọjà pàtàkì Tadawul.\n📦 ETF blue-chip Saudi kan: Apẹ̀rẹ̀ tí ó kéré púpọ̀ ti àwọn orúkọ Saudi tó tóbi jù.\n🌍 ETF MSCI Saudi Arabia kan: Ó ń tẹ̀lé atọ́kà Saudi ti MSCI, apá ọjà tí a ti ṣàyẹ̀wò.\n🇺🇸 Owó-àkójọ S&P 500 kan: Àwọn ilé-iṣẹ́ ńlá 500 ní US tó wà lórí àkọsílẹ̀ S&P 500.",
+      "currencyHedge": "Níwọ̀n bí riyáàlì ti so mọ́ dọ́là US, ìdókòwò àgbáyé nínú àwọn owó mìíràn ń ṣe ọ́ láǹfààní nígbà tí àwọn owó yẹn bá lágbára sí i!",
+      "fxQuizSetup": "Àwọn owó àgbáyé bíi yúrò àti yẹ́ẹ̀nì lágbára sí i ní ìfiwéra pẹ̀lú riyáàlì",
+      "fxQuizLose": "Ó dín kù ní iye nítorí pé ọrọ̀ ajé Saudi Arébíà ń tiraka",
+      "fxQuizGain": "Ó GÒKÈ ní riyáàlì nítorí pé àwọn ohun ìní òkèèrè rẹ jèrè nínú iye owó ilẹ̀ òkèèrè",
+      "dcaTitle": "Ìdókòwò Déédéé ní Riyáàlì",
+      "dcaAbbrev": "RCA",
+      "food": "oúnjẹ Al Baik"
+    },
+    "KR": {
+      "name": "Kòríà Gúúsù",
+      "cName": "wọ́ọ̀nù",
+      "cPlural": "wọ́ọ̀nù",
+      "exDesc": "ilé Samsung, Hyundai, àti díẹ̀ lára àwọn ilé-iṣẹ́ tó ní ìhùmọ̀ tuntun jù ní Éṣíà",
+      "sectorList": "💻 Ìmọ̀-ẹ̀rọ: Samsung, SK Hynix, Kakao. Aṣáájú ìmọ̀-ẹ̀rọ àti chip ní àgbáyé\n🚗 Ọkọ̀ ayọ́kẹ́lẹ́: Hyundai, Kia. Àwọn olùṣe ọkọ̀ Kòríà tí gbogbo ayé mọ̀\n🏦 Báǹkì: KB Financial, Shinhan. Wọ́n máa ń ṣe dáadáa nígbà tí èlé bá gòkè\n🎶 Eré ìnàjú: HYBE, CJ ENM. Ìgbì àṣà K-pop àti K-drama kárí ayé\n📡 Ìbánisọ̀rọ̀: KT, LG Uplus. Ìsopọ̀ tó yára gan-an ní Kòríà Gúúsù",
+      "etfBasket": "200 lára àwọn ilé-iṣẹ́ tó tóbi jù tí wọ́n sì ń ṣòwò jù ní Kòríà",
+      "etfDesc": "Fún àpẹẹrẹ, KOSPI 200 jẹ́ àkọsílẹ̀ 200 lára àwọn ilé-iṣẹ́ tó tóbi jù tí wọ́n sì ń ṣòwò jù ní Kòríà, tí a yàn ní iṣẹ́ ajé kọ̀ọ̀kan kí gbogbo apá ọjà lè ní aṣojú.",
+      "etfList": "🇰🇷 KODEX 200: Ó ń tẹ̀lé KOSPI 200, àkọsílẹ̀ 200 lára àwọn ilé-iṣẹ́ tó tóbi jù tí wọ́n sì ń ṣòwò jù ní Kòríà.\n🌍 ETF ìpín àgbáyé kan: Àwọn ilé-iṣẹ́ ọjà tó ti gòkè àgbà nínú rírà kan ṣoṣo.\n🇺🇸 TIGER Nasdaq 100: Àwọn ilé-iṣẹ́ 100 tó tóbi jù lórí Nasdaq tí kì í ṣe ti ìnáwó owó.\n💡 KODEX Samsung Group: Ó ń tẹ̀lé àwọn ilé-iṣẹ́ ẹgbẹ́ Samsung tó wà lórí ọjà.",
+      "currencyHedge": "Bí wọ́ọ̀nù bá dín kù ní agbára sí àwọn owó mìíràn, àwọn ìdókòwò àgbáyé rẹ á níye lórí JÙ ní wọ́ọ̀nù fúnra wọn!",
+      "fxQuizSetup": "Wọ́ọ̀nù dín kù ní agbára láti ₩1,300 sí ₩1,400 fún dọ́là kan",
+      "fxQuizLose": "Ó dín kù ní iye nítorí pé ọrọ̀ ajé Kòríà Gúúsù ń tiraka",
+      "fxQuizGain": "Ó GÒKÈ ní wọ́ọ̀nù nítorí pé dọ́là kọ̀ọ̀kan ń ra wọ́ọ̀nù púpọ̀ sí i",
+      "dcaTitle": "Ìdókòwò Déédéé ní Wọ́ọ̀nù",
+      "dcaAbbrev": "WCA",
+      "food": "àwo bibimbap"
+    },
+    "TW": {
+      "name": "Taiwan",
+      "cName": "dọ́là Taiwan",
+      "cPlural": "dọ́là Taiwan",
+      "exDesc": "ilé TSMC, ilé-iṣẹ́ tí ó ń ṣe èyí tó pọ̀ jù nínú àwọn chip tó ga jù ní àgbáyé",
+      "sectorList": "💻 Ìmọ̀-ẹ̀rọ: TSMC, MediaTek, ASUS. Taiwan ló ń ṣe àwọn chip àgbáyé\n🏭 Ṣíṣe ọjà: Hon Hai (Foxconn), Delta. Àwọn òmìrán ṣíṣe ẹ̀rọ itanna\n🏦 Báǹkì: Cathay Financial, Fubon. Wọ́n máa ń ṣe dáadáa nígbà tí èlé bá gòkè\n🧪 Kẹ́míkà: Formosa Plastics, Nan Ya. Aṣáájú ohun èlò ilé-iṣẹ́\n📡 Ìbánisọ̀rọ̀: Chunghwa Telecom, Far EasTone. Ẹ̀yìn ìsopọ̀ Taiwan",
+      "etfBasket": "àwọn ilé-iṣẹ́ 50 tó tóbi jù lórí Taiwan Stock Exchange",
+      "etfDesc": "Taiwan ní àkọsílẹ̀ méjì tí ó yàtọ̀ gidigidi. TAIEX bo gbogbo ilé-iṣẹ́ tó wà lórí Taiwan Stock Exchange, nǹkan bí ẹgbẹ̀rún kan. Taiwan 50, tí ETF 0050 olókìkí ń tẹ̀lé, jẹ́ àwọn 50 tó tóbi jù nìkan.",
+      "etfList": "🇹🇼 0050 (Yuanta Taiwan Top 50): Àwọn ilé-iṣẹ́ 50 tó tóbi jù lórí ọjà ìpín Taiwan. Èyí àtayébáyé.\n📦 0056 (Yuanta High Dividend): Ìpín Taiwan tí a yàn fún dividend tí a retí pé wọ́n máa san.\n🇺🇸 00646 (Yuanta S&P 500): Àwọn ilé-iṣẹ́ ńlá 500 ní US tó wà lórí àkọsílẹ̀ S&P 500.\n💡 00662 (Fubon Nasdaq 100): Àwọn ilé-iṣẹ́ 100 tó tóbi jù lórí Nasdaq tí kì í ṣe ti ìnáwó owó.",
+      "currencyHedge": "Bí dọ́là Taiwan bá dín kù ní agbára sí àwọn owó mìíràn, àwọn ìdókòwò àgbáyé rẹ á níye lórí JÙ ní NT$ fúnra wọn!",
+      "fxQuizSetup": "Dọ́là Taiwan dín kù ní agbára láti NT$30 sí NT$34 fún dọ́là US kan",
+      "fxQuizLose": "Ó dín kù ní iye nítorí pé ọrọ̀ ajé Taiwan ń tiraka",
+      "fxQuizGain": "Ó GÒKÈ ní NT$ nítorí pé àwọn ohun ìní òkèèrè rẹ jèrè nínú iye owó ilẹ̀ òkèèrè",
+      "dcaTitle": "Ìdókòwò Déédéé ní Dọ́là",
+      "dcaAbbrev": "DCA",
+      "food": "ọbẹ̀ núdù ẹran màlúù"
+    },
+    "SG": {
+      "name": "Singapore",
+      "cName": "dọ́là Singapore",
+      "cPlural": "dọ́là Singapore",
+      "exDesc": "ibùdó ìnáwó owó àti ọjà ìpín tó ga jù ní Gúúsù Ìlà-Oòrùn Éṣíà",
+      "sectorList": "🏦 Báǹkì: DBS, OCBC, UOB. Àwọn báǹkì mẹ́ta Singapore tí ó dúró gbọn-in\n✈️ Ìrìnnà: Singapore Airlines, SATS. Ìrìnnà òfuurufú tó gbajúmọ̀ ní àgbáyé\n🏗️ Ilé àti ilẹ̀: CapitaLand, City Developments. Ilé àti ilẹ̀ ṣe pàtàkì gan-an ní Singapore\n💻 Ìmọ̀-ẹ̀rọ: Venture Corporation, AEM. Ìmọ̀-ẹ̀rọ lórí SGX jẹ́ ṣíṣe ẹ̀rọ itanna jù; Sea àti Grab yàn láti wà lórí ọjà US dípò\n📡 Ìbánisọ̀rọ̀: Singtel, StarHub. Àwọn olùpèsè ìsopọ̀ Singapore",
+      "etfBasket": "àwọn ilé-iṣẹ́ 30 tó tóbi jù lórí Singapore Exchange",
+      "etfDesc": "Fún àpẹẹrẹ, Straits Times Index jẹ́ àkọsílẹ̀ àwọn ilé-iṣẹ́ 30 tó tóbi jù lórí Singapore Exchange tí wọ́n tún yege nínú ìdánwò free-float àti ìṣòwò rẹ̀.",
+      "etfList": "🇸🇬 Nikko AM STI ETF: Àwọn ilé-iṣẹ́ 30 tó tóbi jù lórí Singapore Exchange. Òṣùwọ̀n náà.\n📦 ABF Singapore Bond Index Fund: Ìwé ẹ̀rí gbèsè ìjọba Singapore (bonds) nínú owó-àkójọ kan.\n🌏 iShares MSCI Asia ex Japan: Àǹfààní gbòòrò sí àwọn ọjà Éṣíà.\n🇺🇸 ETF S&P 500 kan: Àwọn ilé-iṣẹ́ ńlá 500 ní US tó wà lórí àkọsílẹ̀ S&P 500.",
+      "currencyHedge": "Bí dọ́là Singapore bá dín kù ní agbára sí àwọn owó mìíràn, àwọn ìdókòwò àgbáyé rẹ á níye lórí JÙ ní S$ fúnra wọn!",
+      "fxQuizSetup": "Dọ́là Singapore dín kù ní agbára gidigidi ní ìfiwéra pẹ̀lú dọ́là US",
+      "fxQuizLose": "Ó dín kù ní iye nítorí pé ọrọ̀ ajé Singapore ń tiraka",
+      "fxQuizGain": "Ó GÒKÈ ní S$ nítorí pé àwọn ohun ìní òkèèrè rẹ jèrè nínú iye owó ilẹ̀ òkèèrè",
+      "dcaTitle": "Ìdókòwò Déédéé ní Dọ́là",
+      "dcaAbbrev": "DCA",
+      "food": "oúnjẹ hawker centre"
+    },
+    "CH": {
+      "name": "Suwítsalandi",
+      "cName": "faránkì",
+      "cPlural": "faránkì",
+      "exDesc": "ilé Nestlé, Novartis àti Roche, mẹ́ta lára àwọn ilé-iṣẹ́ tó níye lórí jù ní Yúróòpù",
+      "sectorList": "💊 Oògùn: Novartis, Roche. Àwọn alágbára oògùn àgbáyé\n🍫 Ọjà oníbàárà: Nestlé, Lindt. Àwọn orúkọ oúnjẹ tí gbogbo ayé mọ̀ jù\n🏦 Báǹkì: UBS, Julius Baer. Báǹkì Suwítsalandi jẹ́ àròsọ\n🏭 Ilé-iṣẹ́ ẹ̀rọ: ABB, Holcim. Ìmọ̀ ẹ̀rọ àti ìkọ́lé àgbáyé\n📡 Ìbánisọ̀rọ̀: Swisscom, Sunrise. Àwọn olùpèsè ìsopọ̀ Suwítsalandi",
+      "etfBasket": "àwọn ilé-iṣẹ́ Suwítsalandi 20 tó tóbi jù tí wọ́n sì ń ṣòwò jù",
+      "etfDesc": "Fún àpẹẹrẹ, Swiss Market Index jẹ́ àkọsílẹ̀ àwọn ilé-iṣẹ́ Suwítsalandi 20 tó tóbi jù tí wọ́n sì ń ṣòwò jù.",
+      "etfList": "🇨🇭 iShares Core SPI: Gbogbo ọjà Suwítsalandi, kì í ṣe àwọn orúkọ ńlá nìkan.\n💡 ETF SMI kan: Àwọn ilé-iṣẹ́ Suwítsalandi 20 tó tóbi jù tí wọ́n sì ń ṣòwò jù.\n🌍 UBS ETF MSCI World: Àwọn ilé-iṣẹ́ láti orílẹ̀-èdè 23 tó ti gòkè àgbà.\n🇺🇸 iShares Core S&P 500: Àwọn ilé-iṣẹ́ ńlá 500 ní US tó wà lórí àkọsílẹ̀ S&P 500.",
+      "currencyHedge": "Bí faránkì bá dín kù ní agbára sí àwọn owó mìíràn, àwọn ìdókòwò àgbáyé rẹ á níye lórí JÙ ní CHF. Faránkì Suwítsalandi sábà máa ń lágbára gan-an!",
+      "fxQuizSetup": "Faránkì Suwítsalandi dín kù ní agbára gidigidi ní ìfiwéra pẹ̀lú dọ́là àti yúrò",
+      "fxQuizLose": "Ó dín kù ní iye nítorí pé ọrọ̀ ajé Suwítsalandi ń tiraka",
+      "fxQuizGain": "Ó GÒKÈ ní faránkì nítorí pé àwọn ohun ìní òkèèrè rẹ jèrè nínú iye owó ilẹ̀ òkèèrè",
+      "dcaTitle": "Ìdókòwò Déédéé ní Faránkì",
+      "dcaAbbrev": "FCA",
+      "food": "kebab"
+    },
+    "SE": {
+      "name": "Swídìn",
+      "cName": "kírónà",
+      "cPlural": "kírónà",
+      "exDesc": "ilé Ericsson, Volvo àti ọ̀pọ̀lọpọ̀ orúkọ àgbáyé tí ó yani lẹ́nu",
+      "sectorList": "💻 Ìmọ̀-ẹ̀rọ: Ericsson, Hexagon. Swídìn ń ṣe ju bí ó ṣe tóbi tó lọ nínú ìmọ̀-ẹ̀rọ\n🚗 Ọkọ̀ ayọ́kẹ́lẹ́: Volvo, Volvo Cars. Ìtayọ ìmọ̀ ẹ̀rọ Swídìn\n🏦 Báǹkì: SEB, Handelsbanken, Nordea. Wọ́n máa ń ṣe dáadáa nígbà tí èlé bá gòkè\n👗 Ìtajà: H&M, Essity. Àwọn orúkọ aṣọ àti ọjà oníbàárà àgbáyé\n📡 Ìbánisọ̀rọ̀: Telia, Tele2. Aṣáájú ìsopọ̀ ní agbègbè Nordic",
+      "etfBasket": "àwọn ilé-iṣẹ́ 30 tí wọ́n ń ṣòwò jù ní Stockholm",
+      "etfDesc": "Fún àpẹẹrẹ, OMXS30 jẹ́ àkọsílẹ̀ àwọn ìpín 30 tí wọ́n ń ṣòwò jù lórí ọjà ìpín Stockholm. Ó ń tò wọ́n gẹ́gẹ́ bí ìṣòwò ṣe pọ̀ tó, kì í ṣe gẹ́gẹ́ bí ilé-iṣẹ́ ṣe tóbi tó.",
+      "etfList": "🇸🇪 Xact OMXS30: Àwọn ìpín 30 tí wọ́n ń ṣòwò jù ní Stockholm.\n💰 Avanza Zero: Owó-àkójọ atọ́kà Swídìn kan tí kò gba owó ìṣàkóso ọdọọdún. Ó ń tẹ̀lé àwọn ìpín Stockholm 30 kan náà.\n🌍 Owó-àkójọ atọ́kà àgbáyé kan: Àwọn ilé-iṣẹ́ láti ọ̀pọ̀ orílẹ̀-èdè nínú rírà kan ṣoṣo.\n🇺🇸 Owó-àkójọ S&P 500 kan: Àwọn ilé-iṣẹ́ ńlá 500 ní US tó wà lórí àkọsílẹ̀ S&P 500.",
+      "currencyHedge": "Bí kírónà bá dín kù ní agbára sí àwọn owó mìíràn, àwọn ìdókòwò àgbáyé rẹ á níye lórí JÙ ní kr fúnra wọn!",
+      "fxQuizSetup": "Kírónà Swídìn dín kù ní agbára gidigidi ní ìfiwéra pẹ̀lú dọ́là àti yúrò",
+      "fxQuizLose": "Ó dín kù ní iye nítorí pé ọrọ̀ ajé Swídìn ń tiraka",
+      "fxQuizGain": "Ó GÒKÈ ní kírónà nítorí pé àwọn ohun ìní òkèèrè rẹ jèrè nínú iye owó ilẹ̀ òkèèrè",
+      "dcaTitle": "Ìdókòwò Déédéé ní Kírónà",
+      "dcaAbbrev": "KCA",
+      "food": "falafel tí a fi búrẹ́dì wé"
+    }
+  }
+}

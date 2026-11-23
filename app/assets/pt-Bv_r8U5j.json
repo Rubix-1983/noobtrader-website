@@ -1,0 +1,1846 @@
+{
+  "_meta": {
+    "lang": "pt",
+    "source": "src/constants/lessonData.js",
+    "lessons": 84,
+    "hash": {
+      "1": "d38ab2ed",
+      "2": "bf930bc6",
+      "3": "6e4e4d63",
+      "4": "5b7802cc",
+      "5": "0f9cde1d",
+      "6": "e5999569",
+      "7": "66bc9202",
+      "8": "65677cac",
+      "9": "59a1fc31",
+      "10": "03ccde2e",
+      "11": "fbb06743",
+      "12": "7713dc86",
+      "13": "38054a44",
+      "14": "cbac8395",
+      "15": "4355d5d7",
+      "16": "bee25cb0",
+      "17": "a5cba909",
+      "18": "df93ed01",
+      "19": "ad2f3ae8",
+      "20": "6363dc90",
+      "21": "65a3ab78",
+      "22": "61f1ee9c",
+      "23": "a475dd40",
+      "24": "6874af82",
+      "25": "d92ac77b",
+      "26": "e8f1b315",
+      "27": "c3b42e04",
+      "28": "c3719a16",
+      "29": "b8690fa4",
+      "30": "272435ad",
+      "31": "ebbffa78",
+      "32": "31ae442d",
+      "33": "71dbb7c6",
+      "34": "62d271e6",
+      "35": "da185960",
+      "36": "66e0a88e",
+      "37": "4a91dc0c",
+      "38": "9ec4dee7",
+      "39": "ae809a71",
+      "40": "c3b12ff9",
+      "41": "aa4153d7",
+      "42": "29941a97",
+      "43": "d87240fc",
+      "44": "87c794ce",
+      "45": "a3dd8868",
+      "46": "7873826b",
+      "47": "47503da5",
+      "48": "6d2df7b4",
+      "49": "c1055330",
+      "50": "7d4a6a8a",
+      "51": "27e927d2",
+      "52": "041c444d",
+      "53": "8fb1d4bc",
+      "54": "33ec5d94",
+      "55": "b7571fb2",
+      "56": "f20ea6ce",
+      "57": "5a1f3993",
+      "58": "561a7caf",
+      "59": "67437975",
+      "60": "6db8d44d",
+      "61": "04bbebe6",
+      "62": "b43659be",
+      "63": "a6bfefd0",
+      "64": "a2cc88e0",
+      "65": "2f12b47a",
+      "66": "4a676ede",
+      "67": "17351f96",
+      "68": "e9dda763",
+      "69": "3b1a13c3",
+      "70": "b07744de",
+      "71": "798da84a",
+      "72": "960b5a23",
+      "73": "76df64cb",
+      "74": "90735bdf",
+      "75": "b5be8d19",
+      "76": "b2c7a6ad",
+      "77": "1f3344ae",
+      "78": "e03a370e",
+      "79": "3b881962",
+      "80": "64bddadd",
+      "81": "d30753ea",
+      "82": "71620bf3",
+      "83": "989bc8a6",
+      "84": "cdd0a41d"
+    }
+  },
+  "lessons": {
+    "1": {
+      "title": "O que é uma ação?",
+      "desc": "Seja dono de um pedacinho de uma empresa",
+      "content": "Imagine que você e mais 9 amigos colocam {c}10 cada para comprar juntos um tênis de {c}100. Cada um de vocês é dono de 1/10 desse tênis, e isso é basicamente uma ação! Quando você compra uma ação da {retail}, você passa a ser dono de uma fatia minúscula de cada loja, cada produto e cada {cName} que ela ganha. Quanto mais a empresa cresce, mais a sua fatia vale! 🔥",
+      "quiz": {
+        "q": "Você e 4 amigos dividem igualmente o preço de uma cadeira gamer de {c}500. Do que cada um é dono?",
+        "explanation": "Ter uma ação significa ser dono de uma fração do todo. Cinco pessoas pagando partes iguais são cinco fatias iguais, e cada fatia dá os mesmos direitos que as outras.",
+        "options": [
+          "1/5 (20%) da cadeira para cada um",
+          "De nada, só uma pessoa pode ser dona dela",
+          "Da cadeira inteira juntos, sem parte individual"
+        ]
+      }
+    },
+    "2": {
+      "title": "A {ex} explicada",
+      "desc": "A bolsa de valores de {name}",
+      "content": "Pense na {ex} ({exFull}) como um enorme marketplace online, só que, em vez de comprar tênis ou celulares, as pessoas compram e vendem pedacinhos (ações) de empresas como {top5}. Ela abre todos os dias úteis, menos feriados, e os preços mudam o dia todo conforme quem está comprando e quem está vendendo. A {ex} é {exDesc}! 🌍",
+      "quiz": {
+        "q": "Com o que a {ex} mais se parece?",
+        "explanation": "Uma bolsa junta quem quer comprar ações com quem quer vendê-las. Ela não é dona das ações, não escolhe o preço e não vai te pagar juros por deixar dinheiro lá.",
+        "options": [
+          "Um marketplace, onde donos de ações encontram compradores",
+          "Uma conta poupança, onde o dinheiro fica parado rendendo juros",
+          "Uma loja que é dona das ações e as vende para você"
+        ]
+      }
+    },
+    "3": {
+      "title": "Touros vs. ursos",
+      "desc": "As direções do mercado decifradas",
+      "content": "Nos mercados, quem manda são os animais 😄\n\n🐂 Touro = preços SUBINDO. Imagine um touro atacando para cima com os chifres. Todo mundo ganhando, pessoas comprando, clima bom.\n\n🐻 Urso = preços CAINDO. Imagine um urso dando uma patada para baixo. As pessoas estão com medo, vendendo, não é uma boa hora.\n\nQuando alguém diz 'estou otimista (bullish) com a {tech}', acha que o preço vai subir. Quando diz 'pessimista (bearish)', acha que vai cair. Você vai ouvir essas palavras em todo canto no mundo das finanças!",
+      "quiz": {
+        "q": "Seu amigo diz: 'Estou bearish com a {telco} esta semana.' O que isso significa?",
+        "explanation": "Bearish significa esperar que o preço caia; bullish significa esperar que ele suba. O urso dá a patada para baixo, o touro joga para cima com os chifres.",
+        "options": [
+          "Ele acha que o preço da {telco} vai subir",
+          "Ele acha que o preço da {telco} vai cair",
+          "Ele quer comprar o máximo possível de {telco}"
+        ]
+      }
+    },
+    "4": {
+      "title": "O que é uma corretora?",
+      "desc": "Sua porta de entrada para comprar ações",
+      "content": "Você não pode simplesmente chegar na {retail} e dizer 'me dá um pouco da sua empresa, por favor' 😂 Você precisa de uma corretora: um app ou serviço que conecta compradores e vendedores na bolsa de valores.\n\nPense numa corretora como a {shop}. Você quer algo, e a {shop} te conecta a isso. Ela cuida da transação e cobra uma pequena taxa. Corretoras populares em {name} incluem {broker} e outras.\n\nO que uma corretora NÃO faz: decidir quais ações sobem. Ela passa a sua ordem para o mercado. O preço se mexe por causa do que todo mundo está comprando e vendendo, não porque a sua corretora mandou.\n\nMas as corretoras publicam opiniões. Os analistas delas classificam ações como 'comprar', 'manter' ou 'vender'. Uma opinião não é uma ordem 🤷 Analistas discordam abertamente uns dos outros sobre a mesmíssima ação, e muitos deles acabam errando. Leia uma recomendação como uma avaliação, não como uma regra.\n\nO NoobTrader te ensina exatamente como isso funciona, de graça, com dinheiro virtual!",
+      "quiz": {
+        "q": "Por que você precisa de uma corretora para comprar ações?",
+        "explanation": "A corretora é o seu caminho até a bolsa, não uma vidente nem quem define o preço. Ela repassa a ordem, e o preço é aquele pelo qual o resto do mercado aceita negociar. Os analistas dela publicam recomendações, mas uma recomendação é uma opinião, não uma instrução.",
+        "options": [
+          "Ela escolhe as ações que vão subir",
+          "Ela define o preço que você paga por cada ação",
+          "Ela repassa a sua ordem para a bolsa"
+        ]
+      }
+    },
+    "5": {
+      "title": "Básico do preço das ações",
+      "desc": "Por que os preços sobem e descem?",
+      "content": "Já reparou como tênis de edição limitada disparam de preço quando são lançados? A mesma coisa acontece com as ações. Tudo depende de oferta e demanda.\n\n📈 Muita gente QUER comprar → o preço SOBE\n📉 Muita gente QUER vender → o preço CAI\n\nSe a {telco} anuncia que vai ganhar 10 milhões de clientes novos, todo mundo quer um pedaço, e o preço dispara. Se ela divulga um grande prejuízo, as pessoas vendem em pânico e o preço cai. Notícias, resultados e até tendências nas redes sociais podem mexer com o preço das ações na hora!",
+      "quiz": {
+        "q": "A {retail} anuncia lucros recordes e planeja abrir 50 lojas novas. O que provavelmente acontece com o preço da ação?",
+        "explanation": "Lucros esperados maiores normalmente significam mais compradores, e mais compradores empurram o preço para cima. Gastar dinheiro para crescer não é o mesmo que desperdiçá-lo.",
+        "options": [
+          "Sobe, porque mais gente quer comprar",
+          "Fica exatamente igual",
+          "Despenca, porque ela está gastando dinheiro com lojas"
+        ]
+      }
+    },
+    "6": {
+      "title": "Lendo um gráfico de preços",
+      "desc": "Candles, linhas e o que significam",
+      "content": "Um gráfico de preços é como os melhores momentos da história de uma ação. O tipo mais popular é o gráfico de candles (velas). Cada 'candle' mostra 4 coisas de um dia:\n\n🟢 Candle verde = o preço SUBIU naquele dia (abriu mais baixo, fechou mais alto)\n🔴 Candle vermelho = o preço CAIU (abriu mais alto, fechou mais baixo)\n📏 As linhas finas acima/abaixo = o preço mais alto e o mais baixo do dia\n\nSe você vê vários candles verdes seguidos, é uma tendência de alta forte. Muitos vermelhos significam tendência de baixa. Aprender a ler gráficos é como aprender a ler o placar de um jogo! 🎮",
+      "quiz": {
+        "q": "Você vê 5 candles vermelhos seguidos num gráfico. O que isso te diz?",
+        "explanation": "Um candle vermelho fecha abaixo de onde abriu, então cinco seguidos são cinco pregões de queda. A cor te diz a direção, não o tamanho do movimento.",
+        "options": [
+          "A ação está subindo há 5 dias",
+          "A ação está caindo há 5 dias",
+          "O preço da ação não mudou"
+        ]
+      }
+    },
+    "7": {
+      "title": "Volume e o que ele te diz",
+      "desc": "Quantas ações estão sendo negociadas",
+      "content": "Volume = quantas ações foram compradas e vendidas em um dia. Pense nele como as visualizações de um vídeo no TikTok.\n\n🔊 Volume ALTO = muita gente negociando. Se o preço se mexe com volume alto, o sinal é mais forte e confiável, como um vídeo viralizando de verdade, não por robôs.\n\n🔇 Volume BAIXO = pouca gente negociando. Os preços podem se mexer de um jeito estranho com volume baixo, como um vídeo com só 3 visualizações que alguém compartilhou sem querer.\n\nSempre confira o volume quando vir um grande movimento de preço. Ele te diz se o movimento é real ou só ruído!",
+      "quiz": {
+        "q": "A ação da {telco} sobe 5% hoje, mas o volume está bem baixo. O que você deve pensar?",
+        "explanation": "O volume mostra quanta convicção existe por trás de um movimento. Um salto grande com pouquíssima negociação pode ser desfeito tão fácil quanto aconteceu, então confira o volume antes de acreditar num rompimento.",
+        "options": [
+          "Com certeza é uma oportunidade enorme, compre já!",
+          "Volume baixo sempre significa que o preço vai continuar subindo",
+          "O movimento pode não ser confiável, o volume baixo o torna suspeito"
+        ]
+      }
+    },
+    "8": {
+      "title": "Suporte e resistência",
+      "desc": "Níveis de preço que importam",
+      "content": "Imagine que o preço de uma ação é uma bolinha quicando:\n\n🧱 SUPORTE = o chão onde a bolinha quica. O preço continua caindo, mas toda vez que chega a esse nível, volta a subir. Muitos compradores aparecem aqui.\n\n🪟 RESISTÊNCIA = o teto que a bolinha bate. Toda vez que o preço sobe até esse nível, é empurrado de volta para baixo. Muitos vendedores embolsam o lucro aqui.\n\nOs traders usam esses níveis como o mapa de um jogo: comprar perto do chão, vender perto do teto. Quando o preço finalmente rompe a resistência, muitas vezes dispara rápido. Quando rompe o suporte, prepare-se para uma queda! 💥\n\nUm aviso sincero: esses níveis são desenhados por pessoas olhando gráficos, não são regras que o mercado tem que obedecer. Uma ação pode atravessar o 'suporte' direto e continuar caindo. 📉",
+      "quiz": {
+        "q": "Uma ação quicou em {c}50 três vezes sem ficar abaixo disso. Como se chama {c}50?",
+        "explanation": "Um chão que continua sendo respeitado é um suporte; um teto que continua rejeitando o preço é uma resistência. Nenhum dos dois é uma promessa, mas vale conhecer ambos antes de comprar.",
+        "options": [
+          "Um nível de suporte",
+          "Um nível de resistência",
+          "O preço-teto"
+        ]
+      }
+    },
+    "9": {
+      "title": "Diversificação",
+      "desc": "Não coloque todos os ovos na mesma cesta",
+      "content": "Imagine que você gasta TODO o seu pacote de dados em um único app de streaming. Aí esse app sai do ar. Você fica sem nada. 😩\n\nMas se você divide seus dados entre WhatsApp, YouTube E o seu app de streaming, um deles cair não estraga toda a sua vibe.\n\nCom investimentos é igual! Se você coloca TODO o seu dinheiro em uma única ação e ela despenca, você perde tudo. Mas se você divide entre {telco} (telecomunicações), {retail} (varejo), {tech} (tecnologia) e um ETF, a queda de uma não destrói toda a sua carteira. Essa estratégia de espalhar se chama DIVERSIFICAÇÃO. 💼",
+      "quiz": {
+        "q": "Você tem {c}500 para investir. Qual destas opções realmente espalha o seu risco?",
+        "explanation": "Cinco lojas de roupa sobem e caem pelo mesmo motivo, então o dinheiro dividido entre elas mal fica dividido. Setores diferentes passam por problemas em momentos diferentes, e é isso que impede um resultado ruim de levar tudo junto.",
+        "options": [
+          "{c}100 em cada uma de cinco lojas de roupa diferentes",
+          "{c}100 em cada um de cinco setores diferentes",
+          "Todos os {c}500 na empresa de que você mais gosta"
+        ]
+      }
+    },
+    "10": {
+      "title": "Risco e retorno",
+      "desc": "Por que ganhos maiores = risco maior",
+      "content": "Já comprou uma caixa misteriosa? Pode vir algo incrível ou lixo total. Isso é alto risco / alto retorno.\n\nInvestir funciona do mesmo jeito:\n\n✅ RISCO MENOR, RETORNO MENOR: como a {retail}. Empresa enorme, bem estabelecida. Seu dinheiro tende a crescer devagar e com constância. Repare: 'menor', não 'nenhum'. Empresas grandes também caem.\n\n🎲 ALTO RISCO, ALTO RETORNO: como uma minúscula mineradora startup. Ela pode multiplicar por 10 ou sumir. Como a caixa misteriosa.\n\nAntes de investir em qualquer coisa, sempre pergunte: 'Qual é o pior que pode acontecer?' Se você não pode se dar ao luxo de perder, não corra o risco!",
+      "quiz": {
+        "q": "Uma moeda de que ninguém ouviu falar promete retornos de 500%. O que uma promessa desse tamanho realmente te diz?",
+        "explanation": "Risco e retorno são as duas pontas do mesmo bastão. Ninguém dá 500% de graça, então o tamanho da promessa na verdade mede a facilidade com que o valor inteiro pode sumir. Antes de colocar dinheiro em qualquer coisa, pergunte como seria o pior cenário e se você conseguiria lidar com ele.",
+        "options": [
+          "É uma pechincha que o resto do mercado de algum jeito não viu",
+          "Quanto maior a promessa, mais sérias as pessoas por trás dela",
+          "A chance de perder tudo é tão grande quanto a promessa"
+        ]
+      }
+    },
+    "11": {
+      "title": "Longo prazo vs. curto prazo",
+      "desc": "Mentalidade de investir vs. negociar",
+      "content": "🏃 NEGOCIAÇÃO DE CURTO PRAZO: comprar e vender em dias ou semanas para pegar movimentos rápidos de preço. Muito estresse, exige muito tempo de tela. Como tentar prever quem ganha cada partida durante um torneio.\n\n🧘 INVESTIMENTO DE LONGO PRAZO: comprar ações e mantê-las por anos. Você aguenta as quedas e deixa o seu dinheiro crescer. Como apostar em qual time vai ganhar a temporada inteira. Você não entra em pânico depois de uma partida ruim.\n\nEstudos de contas reais em corretoras vivem encontrando o mesmo padrão: quanto mais as pessoas negociam, pior tendem a se sair depois de contar os custos.\n\nE o tempo é a única vantagem que não dá para comprar de volta depois. Cada ano em que o dinheiro fica investido é mais um ano de juros compostos trabalhando. ⏳",
+      "quiz": {
+        "q": "Duas pessoas compram as mesmas ações com o mesmo dinheiro. Uma entra e sai toda semana, a outra deixa quieto por dez anos. O que os estudos de contas reais vivem encontrando?",
+        "explanation": "Toda negociação custa alguma coisa, e esse custo sai do bolso quer a negociação tenha dado certo ou não. Estudo após estudo de contas reais em corretoras encontra o mesmo padrão: quanto mais as pessoas negociam, mais para trás terminam. Deixar o dinheiro quieto não é preguiça, é o plano mais barato.",
+        "options": [
+          "A que negocia muito costuma ficar para trás depois de contar os custos",
+          "A que negocia muito costuma ganhar, porque aqui o esforço é recompensado",
+          "Terminam empatadas, porque tinham exatamente as mesmas ações"
+        ]
+      }
+    },
+    "12": {
+      "title": "{dcaTitle}",
+      "desc": "Invista o mesmo valor regularmente",
+      "content": "Aqui vai uma estratégia tão simples que quase nem parece uma, e ela apaga a pergunta mais difícil dos investimentos:\n\nInvista o MESMO valor todo mês, com os preços em alta ou em baixa. Como separar {c}100 do dinheiro de aniversário ou da mesada todo santo mês.\n\n📉 Quando os preços estão BAIXOS → seus {c}100 compram MAIS ações\n📈 Quando os preços estão ALTOS → seus {c}100 compram MENOS ações\n\nCom o tempo, o seu custo médio por ação se suaviza e você automaticamente 'compra na queda' sem nem tentar! Isso se chama {dcaTitle} ({dcaAbbrev}). Tira a emoção do investimento porque você nunca precisa decidir 'é AGORA a hora certa?' É só se comprometer e ir! 💪\n\nPapo reto: isso nem sempre vai ganhar de colocar tudo de uma vez. O que faz é criar um plano que você consegue de fato seguir.",
+      "quiz": {
+        "q": "Você coloca 200 NT quando a ação custa 100 NT. Aí a ação despenca, e os seus próximos 200 NT entram a 25 NT. Arraste até o seu custo médio por ação nos dois aportes.",
+        "explanation": "Seus primeiros 200 NT compraram 2 ações a 100 NT. Seus segundos 200 NT compraram 8 ações a 25 NT. São 400 NT por 10 ações, então 40 NT cada. Repare que não fica nem perto do meio entre os dois preços: o mesmo dinheiro compra automaticamente mais quando as coisas estão baratas, e é isso que puxa a sua média para baixo."
+      }
+    },
+    "13": {
+      "title": "Money Babies 💸",
+      "desc": "Ganhar dinheiro só por ter ações",
+      "content": "Imagine que você é dono de uma máquina de vendas automática. Toda semana, as pessoas compram lanches na SUA máquina, e você recolhe o dinheiro, só por ser o dono. Você não precisou fazer nada a mais!\n\nÉ isso que são os dividendos. A gente chama de Money Babies 🍼 porque o seu dinheiro literalmente tem bebês: pequenos pagamentos em dinheiro que caem na sua conta só porque você tem ações.\n\nEmpresas grandes como {divPayers} pagam Money Babies regularmente. Quanto mais ações você tem, maiores os seus bebês!\n\n⚠️ Eles NÃO são garantidos. A empresa decide a cada vez se vai pagar, e pode cortar o dividendo ou parar de pagar de vez quando os negócios apertam. Um pagamento grande este ano não é promessa de outro no ano que vem.\n\nE se você reinvestir esses bebês para comprar MAIS ações... a sua próxima leva é ainda maior. É um ciclo lindo 🔁",
+      "quiz": {
+        "q": "A {bank} te paga {c}5 por cada ação que você tem, sem você vender nada. Como se chama esse pagamento?",
+        "explanation": "Um dividendo é uma parte do lucro da empresa entregue a quem é dono dela. Este app chama de Money Babies. Você continua com todas as ações que tinha, e o dinheiro ainda cai na sua conta. Mas não é prometido, e a empresa pode cortar ou parar quando os negócios apertam.",
+        "options": [
+          "Um dividendo, uma fatia do lucro",
+          "Juros, do tipo que uma conta poupança paga",
+          "Um bônus de fidelidade por ser cliente"
+        ]
+      }
+    },
+    "14": {
+      "title": "Juros compostos",
+      "desc": "Como o seu dinheiro cresce sozinho",
+      "content": "Aqui vai o segredo financeiro mais poderoso que você vai aprender. Pronto? 👀\n\nVocê investe {c}1,000 a 10% ao ano:\n• Ano 1: {c}1,000 → {c}1,100 (ganhou {c}100)\n• Ano 2: {c}1,100 → {c}1,210 (ganhou {c}110, mais que no ano 1!)\n• Ano 3: {c}1,210 → {c}1,331 (ganhou {c}121)\n\nAgora você está ganhando juros sobre os seus JUROS. A bola de neve fica maior todo ano sem você colocar nada a mais. Depois de 30 anos a 10%? Aqueles {c}1,000 viram {c}17,449! 🤯\n\nVocê vai ver isso chamado de 'a oitava maravilha do mundo' e atribuído a Einstein. Não há nenhuma prova real de que ele tenha dito isso, mas a matemática é o que importa, e a matemática é real. Comece cedo, e o tempo faz o trabalho pesado por você.",
+      "quiz": {
+        "q": "Você coloca 2,000 NT a 10% ao ano e nunca mexe. Arraste até quanto vale depois de três anos.",
+        "explanation": "O ano um soma 200 NT, o que dá 2,200. O ano dois pega 10% de 2,200, então soma 220 e dá 2,420. O ano três soma 242 e chega a 2,662. A cada ano os 10% são calculados sobre uma pilha maior, e é por isso que somar 200 três vezes e parar em 2,600 fica abaixo."
+      }
+    },
+    "15": {
+      "title": "Juros compostos e ações",
+      "desc": "Reinvestindo Money Babies para crescer",
+      "content": "Lembra dos Money Babies (dividendos)? É aqui que fica interessante 🤯\n\nNormal: você ganha {c}50 em Money Babies → gasta em lanches → fim.\n\nJogada esperta: você ganha {c}50 em Money Babies → compra MAIS ações → da próxima vez recebe MAIS Money Babies → compra ainda mais ações → a bola de neve vai 🔝\n\nIsso são juros compostos aplicados a ações. Faça as contas: coloque o mesmo valor todo mês por 30 anos com retorno médio de 10%, e você termina com cerca de SEIS VEZES o que realmente colocou. Uns cinco sextos dessa pilha são crescimento: dinheiro que você nunca ganhou trabalhando, guardou ou depositou.\n\nAo longo de períodos longos, os dividendos reinvestidos formaram uma grande parte do retorno total dos investidores. É exatamente por isso que as pagadoras de dividendos 'chatas' acabam não sendo nada chatas 💰",
+      "quiz": {
+        "q": "Você ganha {c}80 em dividendos e usa cada centavo para comprar mais ações em vez de gastar. O que acontece no próximo pagamento?",
+        "explanation": "Cada ação extra que você comprou paga o próprio dividendo da próxima vez, então o pagamento cresce sem você colocar dinheiro novo. São os juros compostos de novo, desta vez rodando sobre a renda em vez de sobre o preço.",
+        "options": [
+          "O pagamento continua do mesmo tamanho, só chega mais tarde",
+          "Você recebe menos da próxima vez, porque devolveu o dinheiro",
+          "Você tem mais ações, então o próximo pagamento é maior"
+        ]
+      }
+    },
+    "16": {
+      "title": "A regra dos 72",
+      "desc": "Jeito rápido de estimar o tempo para dobrar",
+      "content": "Aqui vai um código de trapaça para o seu cérebro 🧠\n\nQuer saber quanto tempo leva para DOBRAR o seu dinheiro? É só dividir 72 pelo seu retorno anual:\n\n• 72 ÷ 12% de retorno = 6 anos para dobrar\n• 72 ÷ 8% de retorno = 9 anos para dobrar\n• 72 ÷ 6% de retorno = 12 anos para dobrar\n\nEntão, se você ganha constantes 12% ao ano sobre {c}2,000, em 6 anos você tem {c}4,000. Espere mais 6 anos e você tem {c}8,000. Mais 6 e você tem {c}16,000! 🤯\n\nÉ uma aproximação, não uma lei, e os retornos reais nunca são um número fixo todo ano. Mas é próximo o bastante para fazer de cabeça, e esse é justamente o objetivo.\n\nÉ por isso que começar aos 13 ou 14 anos é ENORME. Você tem mais ciclos de dobrar pela frente do que quase qualquer outra pessoa!",
+      "quiz": {
+        "q": "Um investimento rende 9% ao ano. Use a regra dos 72 e arraste até quantos anos leva para dobrar.",
+        "explanation": "Divida 72 pela porcentagem anual. 72 dividido por 9 dá 8, então o dinheiro mais ou menos dobra em oito anos, e depois dobra de novo oito anos mais tarde. É uma estimativa rápida que você faz de cabeça, não uma lei exata, porque os retornos reais nunca são o mesmo número todo ano."
+      }
+    },
+    "17": {
+      "title": "Ordem a mercado vs. limitada",
+      "desc": "Duas formas de comprar ações",
+      "content": "Existem duas formas principais de comprar uma ação:\n\n⚡ ORDEM A MERCADO: 'Compre agora, pelo preço que estiver.' Como colocar no carrinho e finalizar a compra na hora na {shop}. Você recebe na hora, mas o preço que você realmente paga é o que o mercado te der, que pode ser diferente do número que você acabou de ver na tela.\n\n🎯 ORDEM LIMITADA: 'Só compre se o preço cair para {c}X.' Como colocar um item na sua lista de desejos da {shop} e esperar uma promoção. Você controla o preço, mas a negociação pode nunca acontecer.\n\nOrdens limitadas te dão controle sobre o preço. Ordens a mercado te dão a certeza de que vão ser executadas. Não dá para ter as duas coisas! 💸\n\nUma ordem limitada funciona do mesmo jeito quando você está VENDENDO, só que no sentido contrário. Você tem a ação, define o preço pelo qual ficaria feliz em vender, e se ela subir até lá o app vende por você. Comprando, você define um preço ABAIXO do atual. Vendendo, um preço ACIMA. Mesma ideia, lado oposto. 🔁",
+      "quiz": {
+        "q": "A {tech} é negociada a {c}200. Você adoraria ter a ação, mas só por {c}180 ou menos. O que você usa?",
+        "explanation": "Uma ordem a mercado é executada na hora pelo preço que estiver. Uma ordem limitada define o seu preço e espera, então é o app que fica de olho em vez de você. Quando o preço que você aceita importa mais do que entrar rápido, é essa que você quer.",
+        "options": [
+          "Uma compra a mercado, executada a {c}200 agora mesmo",
+          "Uma compra limitada a {c}180, que espera",
+          "Ficar olhando a tela e comprar manualmente a {c}180"
+        ]
+      }
+    },
+    "18": {
+      "title": "Taxas e custos de negociação",
+      "desc": "Entendendo as taxas de negociação",
+      "content": "A maioria das negociações te custa um pouquinho: a corretora fica com uma pequena parte. Isso se chama taxa de negociação ou taxa de corretagem.\n\n⚠️ Algumas corretoras anunciam 'corretagem zero'. Elas ainda precisam ganhar dinheiro de algum jeito, então ganham em outro lugar, geralmente na pequena diferença entre o preço de compra e o de venda, na conversão de moeda ou nos juros sobre o dinheiro parado na sua conta. De graça quase nunca é de graça.\n\nNo NoobTrader as taxas simuladas são:\n• Ações da {ex}: {exFee} por negociação\n• Ações globais: 0.50%\n• ETFs: 0.30%\n• Cripto: 0.60%\n• Forex: 0.05%\n• Commodities: 0.40%\n\nExemplo: você compra {c}1,000 em ações da {retail} com taxa de {exFee}. A taxa é {c}{feeAmt}, então você gasta de fato {c}{feeTotal}.\n\nTaxas pequenas se acumulam RÁPIDO se você negocia muito. Quem faz 20 negociações por mês paga essa taxa 20 vezes, e paga de novo na saída. Esse é um dos motivos pelos quais investidores de longo prazo negociam menos: menos negociações, menos taxas 🧮",
+      "quiz": {
+        "q": "Você compra {c}1,000 em ações da {ex} com uma taxa de {exFee}. Quanto é a taxa?",
+        "explanation": "A taxa é uma porcentagem do valor negociado, então cresce com o tamanho da ordem. Calcule antes de negociar, porque ela é cobrada de novo quando você vende.",
+        "options": [
+          "{c}{feeAmtX10}",
+          "{c}{feeAmtLow}",
+          "{c}{feeAmt}"
+        ]
+      }
+    },
+    "19": {
+      "title": "Ordens stop-loss",
+      "desc": "Proteja-se de grandes perdas",
+      "content": "Um stop-loss é como definir um limite de quanto você está disposto a perder: uma rede de segurança que você monta com antecedência.\n\nExemplo: você compra ações da {telco} a {c}100 cada. Você decide que NUNCA quer perder mais de 15%. Então você define um stop-loss em {c}85.\n\nSe a {telco} cair para {c}85 → uma ordem de venda dispara automaticamente. Você não precisa estar olhando, e não precisa tomar a decisão no meio do pânico.\n\nAqui está a parte que as pessoas erram. O número do stop-loss SEMPRE fica abaixo do preço de hoje. Tem que ficar, porque o preço precisa cair para chegar nele. Coloque acima do preço de hoje e a condição já é verdadeira, então ele vende no segundo em que você o define, pelo preço de hoje. Isso é uma venda, não uma rede de segurança.\n\nNão confunda com uma venda limitada. As duas vendem automaticamente a um preço que você escolheu. A diferença é a direção: um stop-loss dispara quando o preço CAI até o seu número, uma venda limitada dispara quando ele SOBE até o seu número. Se proteger → o seu número fica abaixo. Definir o seu preço → o seu número fica acima. Pergunte-se qual dos dois você está fazendo antes de digitar. 🧭\n\n⚠️ Importante: um stop-loss dispara uma VENDA, não garante um PREÇO. Se uma notícia ruim sai durante a noite e a ação abre a {c}70 sem nunca ter sido negociada a {c}85, a sua ordem é executada pelo que o mercado realmente pagar. Isso pode ser bem abaixo do nível que você definiu.\n\nSem stop-loss nenhum, você pode segurar torcendo para ela se recuperar... e vê-la cair para {c}20. 😬\n\nDica de pro: sempre decida a sua perda máxima ANTES de comprar. Não deixe a emoção tomar essa decisão quando o preço já está despencando! 🧘",
+      "quiz": {
+        "q": "Você compra a 200 NT e decide que não está disposto a perder mais de 15%. Arraste até o preço onde o seu stop-loss deve ficar.",
+        "explanation": "15% de 200 NT são 30 NT, então a sua saída fica 30 abaixo de onde você comprou, em 170 NT. Um stop-loss fica abaixo do preço de hoje, porque o preço precisa cair para chegar nele. Coloque acima e a condição já é verdadeira, então ele vende no momento em que você o define, e isso é uma venda, não uma rede de segurança."
+      }
+    },
+    "20": {
+      "title": "Quando comprar e vender",
+      "desc": "Timing, paciência e disciplina",
+      "content": "O maior erro de quem começa a investir? Comprar quando todo mundo está empolgado e vender quando todo mundo está em pânico. Isso é literalmente o contrário do que funciona. 🤦\n\n📱 Quando o seu grupo está mandando 'COMPRA ESSA AÇÃO AGORA!!!!' → a empolgação normalmente já está no preço. Você chegou tarde.\n\n😱 Quando todo mundo está vendendo em pânico → às vezes isso é na verdade uma chance de comprar com desconto. Às vezes o preço continua caindo por mais um ano. Ninguém toca um sino no fundo do poço.\n\nO segredo? Tenha um plano ANTES de investir:\n• Por que estou comprando isso? (pesquisa, não empolgação)\n• A que preço vou vender se SUBIR? (realizar lucro)\n• A que preço vou vender se CAIR? (stop-loss)\n\nSiga o seu plano. Não deixe os seus sentimentos tomarem conta da sua estratégia! 💪",
+      "quiz": {
+        "q": "Seu grupo inteiro está exaltando uma ação que já subiu 80% este mês. Qual é a jogada esperta?",
+        "explanation": "Quando uma ação já está em todos os grupos, a maior parte do movimento já aconteceu, e quem chega tarde está comprando de quem está realizando lucro. Analise a empresa você mesmo. Uma multidão fazendo barulho não é o mesmo que uma multidão com razão.",
+        "options": [
+          "Comprar agora, antes que o preço dispare sem você",
+          "Vender suas outras ações e colocar tudo nesta",
+          "Analisar a empresa você mesmo antes de decidir"
+        ]
+      }
+    },
+    "21": {
+      "title": "O que é valor de mercado?",
+      "desc": "Como medir o tamanho de uma empresa",
+      "content": "O valor de mercado (market cap) te diz o quão grande uma empresa realmente é, em {cPlural}.\n\n📐 Fórmula: preço da ação × número total de ações = valor de mercado\n\nExemplo: se a {retail} tem 1 bilhão de ações e cada ação custa {c}50, o valor de mercado é {c}50 BILHÕES. Essa é a 'etiqueta de preço' da empresa inteira.\n\n🔵 Large cap: os nomes maiores e mais estabelecidos, como {tech} e {bank}. Risco menor, crescimento geralmente mais lento.\n🟡 Mid cap: empresas de porte médio. Risco equilibrado.\n🔴 Small cap: empresas pequenas. Podem crescer rápido OU despencar feio.\n\n⚠️ Os limites não são universais. Nos EUA, 'large cap' costuma significar algo acima de $10 bilhões, mas cada mercado define as próprias faixas, então uma large cap em {name} não tem o mesmo tamanho que uma large cap nos EUA. Leia o número de verdade, não só o rótulo 🧐",
+      "quiz": {
+        "q": "A empresa A tem 5 milhões de ações a {c}200 cada. As ações da empresa B custam {c}10. Arraste até quantos milhões de ações B precisa ter para valer tanto quanto A.",
+        "explanation": "O valor de mercado é o preço da ação vezes o número de ações. A empresa A vale 5 milhões vezes {c}200, o que dá {c}1,000 milhões. A empresa B precisa chegar a esse mesmo total a {c}10 por ação, então precisa de 100 milhões de ações, vinte vezes mais. Um preço de ação baixo não diz nada sobre o tamanho de uma empresa."
+      }
+    },
+    "22": {
+      "title": "Índice P/L explicado",
+      "desc": "Uma ação está cara ou barata?",
+      "content": "O índice P/L (preço/lucro, ou P/E em inglês) te diz quanto você está pagando por cada {cName} de lucro de uma empresa.\n\n📐 Fórmula: preço da ação ÷ lucro por ação = índice P/L\n\nPense nele como o preço por fatia de pizza 🍕\n\nSe a pizza A custa {c}80 por 8 fatias = {c}10/fatia\nSe a pizza B custa {c}100 por 5 fatias = {c}20/fatia\n\nA pizza A é mais barata por fatia. Com ações a ideia é parecida:\n• P/L baixo (abaixo de 10) = talvez uma pechincha, OU o mercado espera que os lucros CAIAM. Um P/L baixo é uma pergunta, não uma resposta.\n• P/L alto (acima de 25) = o mercado espera um grande crescimento futuro. Aí a empresa precisa realmente entregar.\n\nSempre compare o P/L com OUTRAS empresas do mesmo setor. Não compare o P/L de um banco com o de uma empresa de tecnologia!",
+      "quiz": {
+        "q": "A empresa A tem P/L de 8. A empresa B (mesmo setor) tem P/L de 30. O que isso sugere?",
+        "explanation": "Um P/L mais baixo significa pagar menos por cada unidade de lucro, o que pode indicar uma pechincha ou uma empresa em apuros. O índice levanta a pergunta; não a responde.",
+        "options": [
+          "A empresa A é mais barata por unidade de lucro, mas descubra POR QUÊ antes de comprar",
+          "A empresa B é sempre o melhor investimento das duas",
+          "O índice P/L não ajuda em nada nas decisões de investimento"
+        ]
+      }
+    },
+    "23": {
+      "title": "Lendo os resultados de uma empresa",
+      "desc": "Receita, lucro e o que importa",
+      "content": "De tempos em tempos, as empresas publicam o seu 'boletim' (a cada trimestre em alguns mercados, duas vezes por ano em outros), e isso mexe MUITO com o preço das ações. Veja no que prestar atenção:\n\n📊 RECEITA: todo o dinheiro que entra com as vendas. Como o quanto uma lojinha faturou no total.\n💰 LUCRO LÍQUIDO: o que sobra DEPOIS de pagar todas as despesas. O que de fato fica no caixa no fim do dia.\n📈 LPA (lucro por ação): o lucro dividido pelo número de ações. Quanto cada ação lucrou.\n\nBons sinais: receita SUBINDO + lucro SUBINDO + LPA crescendo = 🟢 o preço costuma subir\nMaus sinais: receita CAINDO + lucro caindo = 🔴 o preço costuma cair\n\nUm detalhe: o que realmente mexe com o preço é o resultado comparado com o que o mercado ESPERAVA. Números ótimos que vieram abaixo das expectativas ainda podem derrubar uma ação.\n\nUma empresa pode ter muita receita e lucro zero (custos altos). Sempre confira OS DOIS!",
+      "quiz": {
+        "q": "A {bank} divulga receita 15% maior, mas lucro 20% menor por causa de custos mais altos. Isso é um bom ou mau sinal?",
+        "explanation": "Receita é o que entrou, lucro é o que ficou. Aqui os custos estão subindo mais rápido que as vendas, então a empresa está fazendo mais negócios e ficando com menos deles. É um alerta de verdade, mas não é um colapso, e a próxima coisa a descobrir é por que os custos subiram.",
+        "options": [
+          "Preocupante, porque ela vende mais, mas fica com menos",
+          "Forte, porque receita subindo é o que realmente conta",
+          "Terrível, porque lucro caindo significa que a empresa está falindo"
+        ]
+      }
+    },
+    "24": {
+      "title": "Setores e indústrias",
+      "desc": "Tipos diferentes de empresas",
+      "content": "A bolsa de valores é dividida em setores, como os diferentes departamentos de uma escola.\n\n{sectorList}\n\nSetores diferentes sobem e caem em momentos diferentes, e é justamente por isso que vale diversificar entre eles! Se o setor bancário despenca, talvez a tecnologia esteja bombando. A sua carteira fica equilibrada. 🎯",
+      "quiz": {
+        "q": "Os juros em {name} sobem bastante. Qual setor normalmente se beneficia mais?",
+        "explanation": "Os bancos ganham com a diferença entre o que cobram de quem pega emprestado e o que pagam a quem poupa, e juros em alta normalmente aumentam essa diferença. Para a maioria dos outros setores, crédito mais caro é um custo.",
+        "options": [
+          "Varejo: os consumidores pegam mais empréstimos e gastam o extra no comércio",
+          "Bancos: normalmente ganham uma diferença maior entre o que cobram de quem pega emprestado e pagam a quem poupa",
+          "Tecnologia: pegar dinheiro emprestado para construir fica mais barato, então as empresas de software crescem mais rápido"
+        ]
+      }
+    },
+    "25": {
+      "title": "O que é um ETF?",
+      "desc": "Compre uma cesta inteira de uma vez",
+      "content": "Antigamente, escolher música por música era o único jeito de montar uma playlist. Aí veio o Spotify com playlists prontas, uma coleção instantânea sem esforço nenhum. 🎵\n\nOs ETFs (fundos de índice negociados em bolsa) são o Spotify dos investimentos. Em vez de escolher ações uma por uma, você compra UM ETF que tem uma cesta inteira delas.\n\nA maioria dos ETFs acompanha um ÍNDICE: uma lista publicada de empresas montada segundo um conjunto de regras. {etfDesc} O ETF simplesmente compra o que está na lista, nas mesmas proporções, e se atualiza quando a lista muda.\n\nEntão um ETF {etf} te dá uma fatia minúscula de {etfBasket} (nomes como {top5}) numa única compra.\n\n⚠️ Um índice NÃO é automaticamente 'as maiores empresas'. Algumas listas classificam por tamanho, outras pelo quanto uma ação é negociada, e algumas são escolhidas por um comitê. Dois índices da mesma bolsa podem ter empresas completamente diferentes. Sempre leia o que a lista realmente é antes de comprar.\n\nOs ETFs costumam ser mais baratos, mais fáceis e mais diversificados do que escolher ações por conta própria. Muitos gestores de fundos profissionais não conseguem ganhar deles! 🤯",
+      "quiz": {
+        "q": "Você compra uma cota do ETF {etf}, que acompanha {etfBasket}. Do que você é dono agora?",
+        "explanation": "Um índice é uma lista publicada, e um ETF de índice compra tudo o que está nela nas mesmas proporções. Uma cota, portanto, tem um pedacinho de cada nome da lista, e é por isso que uma única compra já é diversificada. Não é só o maior nome, e não é dinheiro esperando as suas instruções.",
+        "options": [
+          "Uma ação da maior empresa dessa lista",
+          "Uma pequena fatia de cada uma das empresas dessa lista",
+          "Dinheiro que o fundo guarda até você dizer o que comprar"
+        ]
+      }
+    },
+    "26": {
+      "title": "ETFs da {ex}",
+      "desc": "ETFs populares que você deve conhecer",
+      "content": "Existem muitos ETFs e fundos de índice que você pode comprar a partir de {name}. Aqui estão alguns dos mais populares:\n\n{etfList}\n\nA enorme vantagem dos ETFs: as TAXAS. Muitos fundos de gestão ativa cobram algo em torno de 1–2% ao ano, às vezes mais. ETFs de índices amplos muitas vezes cobram menos de 0.2%. Num investimento de {c}10,000 mantido por 20 anos, essa diferença vale MILHARES de {cPlural} 💸\n\nConfira a taxa antes de comprar. Ela normalmente aparece como 'TER' ou 'taxa de administração'. Ninguém pode te dizer quanto um ETF vai render, mas a taxa é um número que você PODE saber com antecedência.",
+      "quiz": {
+        "q": "Você investe 20,000 NT. Um fundo de gestão ativa cobra 2% ao ano. Um ETF de índice com praticamente as mesmas empresas cobra 0.2%. Arraste até quanto a mais o caro tira de você em um único ano.",
+        "explanation": "A diferença entre as duas taxas é de 1.8% ao ano, e 1.8% de 20,000 NT são 360 NT. Isso sai quer o fundo suba ou caia, e sai de novo todo santo ano. Ninguém pode te dizer quanto um fundo vai render, mas a taxa vem impressa antes de você comprar, normalmente como TER ou taxa de administração."
+      }
+    },
+    "27": {
+      "title": "ETFs globais vs. locais",
+      "desc": "Investindo no seu país e além",
+      "content": "Você deve investir só em empresas de {name}? Resposta curta: não! Veja por quê:\n\n🏠 ETFs LOCAIS: investem nas empresas de {name}. Você conhece as marcas, e elas estão em {cPlural}. Mas se a economia de {name} passar por dificuldades, a sua carteira inteira pode cair.\n\n🌍 ETFs GLOBAIS: investem em empresas internacionais (EUA, Europa, Ásia). {currencyHedge}\n\nMas o câmbio corta para os dois lados: se a sua moeda local se FORTALECE, os mesmos investimentos no exterior passam a valer menos aqui. Essa é a troca que você aceita por ter coisas lá fora.\n\nTer ETFs locais e globais te espalha entre dois riscos diferentes ao mesmo tempo: a economia do seu país e a sua moeda. Equilíbrio é tudo! ⚖️",
+      "quiz": {
+        "q": "{fxQuizSetup}. As ações estrangeiras dentro do seu ETF global não se mexeram nada. Quanto ele vale agora em {cName}?",
+        "explanation": "Um ETF global tem coisas cotadas em outra moeda. Quando a sua moeda perde força, esse dinheiro estrangeiro se converte em mais da sua, então o investimento vale mais aqui mesmo com as ações paradas. Funciona ao contrário também: uma moeda mais forte em casa encolhe silenciosamente o mesmo investimento. O risco cambial corta para os dois lados.",
+        "options": [
+          "Mais, porque o dinheiro que ele tem lá fora agora compra mais aqui",
+          "Menos, porque notícia ruim sobre a moeda tem que ser ruim para o seu dinheiro também",
+          "O mesmo, porque as ações dentro dele não se mexeram nem um pouco"
+        ]
+      }
+    },
+    "28": {
+      "title": "Poupar vs. investir",
+      "desc": "Por que o seu dinheiro precisa trabalhar",
+      "content": "Os dois são bons. Mas servem para coisas diferentes:\n\n🏦 POUPAR: colocar dinheiro numa conta no banco. É seguro, você pode acessar a qualquer hora. MAS os juros normalmente são de {savings}, muitas vezes menos que a inflação. O seu dinheiro está 'seguro', mas perdendo poder de compra aos poucos.\n\n📈 INVESTIR: colocar dinheiro em ações, ETFs ou imóveis. Mais risco, e nenhuma garantia em um ano qualquer. Em alguns anos você simplesmente perde dinheiro. Mas, ao longo de períodos longos, as ações historicamente renderam mais do que o dinheiro parado. O mercado de {name} teve média de cerca de {mktReturn} ao ano no passado, e médias passadas são história, não promessa.\n\nRegra prática:\n• De 3 a 6 meses de despesas guardados (a sua reserva de emergência) 🚨\n• O dinheiro de que você não vai precisar por anos é o que as pessoas investem 🚀\n\nNão invista dinheiro de que você pode precisar no mês que vem. É para isso que serve a poupança!",
+      "quiz": {
+        "q": "Suas despesas somam 800 NT por mês, e você tem 5,000 NT guardados. Arraste até a menor reserva de emergência que a regra prática de sempre deixaria em dinheiro.",
+        "explanation": "A regra prática é manter de três a seis meses de despesas em dinheiro. Três meses de uma conta de 800 NT são 2,400 NT, e seis meses seriam 4,800 NT, então qualquer valor nessa faixa é normal. O motivo de guardar em dinheiro é simples: quando algo quebra de repente, você não quer ser obrigado a vender os seus investimentos no dia que for."
+      }
+    },
+    "29": {
+      "title": "A inflação e o seu dinheiro",
+      "desc": "Por que o dinheiro perde valor com o tempo",
+      "content": "Pergunte a um adulto quanto custava {food} quando ele tinha a sua idade. Era algo em torno de {c}{foodOld}. Agora custa {c}{foodNew}+. Isso é inflação: os preços subindo aos poucos com o tempo, o que significa que cada {cName} compra MENOS do que comprava antes.\n\nA inflação de {name} costuma ficar em torno de {inflation} ao ano.\n\nEntão, se a sua poupança rende 4% ao ano mas a inflação é de 6%, você está na verdade PERDENDO cerca de 2% de poder de compra todo ano, mesmo com o saldo subindo!\n\n💡 Os seus investimentos precisam ganhar da inflação para realmente aumentar o seu patrimônio.\n• Dinheiro debaixo do colchão: perdendo valor todo ano 💀\n• Poupança no banco: muitas vezes mal acompanha\n• Ações da {ex} (média de longo prazo): {mktReturn} ao ano, que é uma média passada, não uma promessa 🔥\n\nInvestir não é só ficar rico. É não ficar mais pobre! 💸",
+      "quiz": {
+        "q": "Sua conta poupança paga 4% ao ano. Os preços sobem 6% ao ano. Arraste até o que está realmente acontecendo com o seu poder de compra nesse ano.",
+        "explanation": "O retorno real são os juros que você ganha menos a inflação que você paga, então 4% contra 6% dá cerca de menos 2%. O número na sua conta sobe enquanto o que ele realmente compra cai, e esse é o truque silencioso que a inflação faz com a poupança. Para construir patrimônio de verdade, o dinheiro precisa ganhar da inflação, não só render alguma coisa."
+      }
+    },
+    "30": {
+      "title": "Emoções e investimentos",
+      "desc": "Não venda em pânico nem compre por FOMO",
+      "content": "A bolsa é basicamente um teste de controle emocional. A maioria das pessoas reprova. 🎭\n\n😱 VENDA EM PÂNICO: o mercado cai 20%, você surta e vende tudo. Aí ele se recupera. Você travou o seu prejuízo sem motivo.\n\n🤑 COMPRA POR FOMO: todo mundo nas redes sociais está exaltando uma moeda. Você entra correndo. O preço despenca na hora. Você fica com o mico na mão.\n\nOs melhores investidores tratam uma queda do mercado como uma liquidação na {retail}. Continuam comprando, com calma, em vez de entrar em pânico. Warren Buffett disse assim: 'Tenha medo quando os outros estão gananciosos, e seja ganancioso quando os outros estão com medo.'\n\nMonte o seu plano. Siga-o. O seu eu do futuro vai te agradecer por não ter vendido com raiva num dia vermelho! 🙏",
+      "quiz": {
+        "q": "O mercado cai 15% em uma semana e o seu grupo está vendendo tudo. O seu dinheiro está investido para os próximos dez anos. Qual é a jogada?",
+        "explanation": "Uma queda de 15% só vira prejuízo de verdade no dia em que você vende no meio dela. O plano que você escreveu quando nada estava acontecendo foi escrito pela versão de cabeça fria de você, e segui-lo é toda a habilidade. Esperar as coisas parecerem calmas para comprar de volta significa comprar mais caro, porque a calma aparece depois da recuperação, não antes.",
+        "options": [
+          "Vender agora e comprar de volta quando tudo parecer mais calmo",
+          "Passar o dinheiro para o que o grupo estiver comprando",
+          "Seguir com o plano que você escreveu quando estava calmo"
+        ]
+      }
+    },
+    "31": {
+      "title": "O chefão final",
+      "desc": "Juros compostos, a 8ª maravilha do mundo",
+      "content": "'A oitava maravilha do mundo: quem entende ganha com ela; quem não entende paga por ela.' Você vai ver essa frase atribuída a Einstein em todo canto da internet. Não há nenhuma prova real de que ele tenha dito isso.\n\nMas a matemática é inegável. Aqui está a coisa mais importante que você vai aprender sobre dinheiro:\n\nAlguém que começa aos 20 e investe {c}500/mês a 12% ao ano termina com MAIS aos 65 do que alguém que começa aos 35 e investe {c}2,000/mês à mesma taxa. Quatro vezes o valor mensal, e ainda assim termina atrás.\n\nO tempo. É. Tudo.\n\nIsso não é um truque dos números, é o ponto central dos juros compostos: cada ano que você espera custa mais do que qualquer ano que você acrescente depois consegue recuperar. O melhor momento para começar foi antes. O segundo melhor é agora.\n\nEste quiz é o seu teste final. Mande bem e você será oficialmente certificado pelo NoobTrader! 👑",
+      "bossVictory": "Juros compostos desbloqueados. Agora você é perigoso. 🔥",
+      "quiz": {
+        "q": "{c}1,000 investidos a 12% ao ano por 10 anos viram ~{c}3,106. O que acontece se você DOBRAR o tempo para 20 anos?",
+        "explanation": "Dobrar o tempo faz muito mais do que dobrar o resultado, porque o crescimento de cada ano se acumula sobre tudo o que veio antes. O crescimento acelera em vez de desacelerar.",
+        "options": [
+          "Mais do que triplica, para ~{c}9,646",
+          "Mais ou menos dobra, para ~{c}6,200",
+          "O retorno desacelera quanto mais você espera"
+        ]
+      }
+    },
+    "32": {
+      "title": "Plataformas e carteiras de cripto",
+      "desc": "Onde as cripto realmente ficam",
+      "content": "Primeiro, a parte sincera: plataformas de cripto de verdade exigem que você tenha 18 anos ou mais em quase todos os países. É por isso que o NoobTrader te deixa praticar tudo com dinheiro virtual primeiro. 🎮\n\nQuando os adultos compram cripto, usam dois tipos de lugar:\n\n🏦 CORRETORAS E APPS DE CRIPTO (custodiais): você cria uma conta e eles guardam as suas cripto por você. Fácil, mas você está confiando neles. Se forem hackeados ou falirem, as suas cripto podem sumir. Isso já aconteceu com alguns dos maiores nomes do mundo cripto.\n\n🔑 CARTEIRAS DE AUTOCUSTÓDIA: um app em que VOCÊ guarda as chaves secretas. Ninguém pode congelá-la, mas ninguém pode te ajudar também. Perdeu a sua frase-semente (as 12 a 24 palavras secretas) e as cripto somem para sempre. Sem redefinir senha. Sem suporte ao cliente. Já era.\n\nO pessoal de cripto diz: 'Not your keys, not your coins' (sem as chaves, sem as moedas). Agora você sabe o que isso significa.",
+      "quiz": {
+        "q": "O que significa quando uma corretora guarda as suas cripto de forma 'custodial'?",
+        "explanation": "Custodial significa que a plataforma fica com as chaves, então as suas moedas só estão tão seguras quanto a plataforma. Se ela for hackeada ou quebrar, elas podem ir junto. É isso que as pessoas querem dizer com 'sem as chaves, sem as moedas'.",
+        "options": [
+          "A corretora guarda as chaves por você",
+          "Você guarda as chaves e mais ninguém pode",
+          "Ninguém pode mexer nas moedas, nem você",
+          "Rende juros automaticamente"
+        ]
+      }
+    },
+    "33": {
+      "title": "Como funciona comprar cripto",
+      "desc": "Spreads, taxas e mercados 24/7",
+      "content": "Comprar cripto parece comprar qualquer coisa online, mas três coisas são diferentes:\n\n1️⃣ O SPREAD: o preço de compra é sempre um pouco mais alto que o de venda. Compre {c}100 em cripto e venda na mesma hora, e você recebe de volta talvez {c}97. Essa diferença é como as plataformas ganham dinheiro discretamente.\n\n2️⃣ TAXAS POR CIMA: a maioria das plataformas também cobra uma taxa por negociação, muitas vezes de 1 a 2% em compras pequenas. Taxas mais spread significam que uma compra pequena já começa uns 3 a 5% no prejuízo antes de o preço se mexer.\n\n3️⃣ SEM SINAL DE FECHAMENTO: as bolsas de valores fecham à noite e nos fins de semana. As cripto são negociadas 24/7, todos os dias do ano. Os preços podem despencar enquanto você dorme. Isso é parte do motivo de as cripto serem tão mais voláteis que as ações.\n\nNo NoobTrader você pode negociar cripto com dinheiro virtual, 24/7, sem perder um centavo. Você paga uma taxa em cada negociação, mas o NoobTrader não cobra spread, então uma compra de verdade custa mais do que a mesma negociação aqui. 📊",
+      "quiz": {
+        "q": "Você coloca 200 NT numa moeda e vende cinco segundos depois, antes de o preço se mexer. A diferença entre o preço de compra e o de venda custa 3%, e a plataforma cobra uma taxa de 1% em cada negociação. Arraste até o valor que volta para você.",
+        "explanation": "O spread leva 3%, depois cai uma taxa de 1% na entrada e outra na saída. São 5% dos seus 200 NT, então 10 NT somem antes de o preço fazer qualquer coisa. Você recebe 190 NT de volta, e a moeda agora precisa subir 5% só para você ficar no zero a zero."
+      }
+    },
+    "34": {
+      "title": "Taxas de gas explicadas",
+      "desc": "Por que enviar cripto custa dinheiro",
+      "content": "Enviar cripto não é de graça. Toda transação paga uma taxa de rede, muitas vezes chamada de GAS, aos computadores que processam e protegem a rede.\n\nAqui está a parte que surpreende todo mundo: o gas é cobrado de acordo com o tráfego da rede, NÃO com quanto você envia. Quando a rede está movimentada, as taxas disparam.\n\n🤯 Em algumas redes, nos horários de pico, enviar {c}10 em cripto pode custar MAIS de {c}10 em gas. Você pagaria mais pela entrega do que o pacote vale.\n\nRedes mais novas e sistemas de 'camada 2' existem principalmente para baratear isso, com taxas de poucos centavos. Quem mexe com cripto confere a taxa ANTES de apertar enviar.\n\nMais uma coisa: transferências de cripto não podem ser revertidas. Endereço errado mais gas pago é igual a dinheiro perdido, para sempre. Não existe banco para quem ligar. ☎️❌",
+      "quiz": {
+        "q": "As taxas de gas estão altas hoje. Você quer enviar {c}15 em cripto e o gas custa {c}20. Qual é a leitura esperta?",
+        "explanation": "O gas é cobrado pelo quanto a rede está movimentada, não pelo quanto você envia, então uma transferência pequena pode custar mais do que vale. Dividir também não ajuda, porque cada transferência paga a própria taxa. Espere um horário mais tranquilo ou use uma rede mais barata.",
+        "options": [
+          "Pagar, porque a taxa é devolvida quando a transferência chega",
+          "Não enviar, a taxa custa mais que o pacote",
+          "Dividir em dois, para cada metade pagar metade da taxa",
+          "Ignorar a taxa, o gas só vale para transferências grandes"
+        ]
+      }
+    },
+    "35": {
+      "title": "Memecoins e rug pulls",
+      "desc": "Identifique as armadilhas antes que elas te peguem",
+      "content": "Memecoins são criptos criadas em cima de piadas e hype, em vez de algum uso real. Algumas deixaram os primeiros compradores ricos, e é exatamente por isso que existem milhares de imitações. Quase todas vão a zero. 📉\n\nA armadilha mais cruel é o RUG PULL (puxada de tapete): os criadores lançam uma moeda, fazem muito hype, esperam as pessoas entrarem em massa e então despejam o seu enorme estoque ou esvaziam o pool de negociação. O preço desaba em minutos. Eles ficam com o dinheiro. Você fica com as moedas sem valor.\n\n🚩 SINAIS DE ALERTA para decorar:\n• Equipe anônima que você não consegue verificar\n• Retornos 'garantidos' (nada nos mercados é garantido)\n• Influenciadores pagos para promover\n• Um grupinho tem a maior parte da oferta\n• Pressão para 'comprar antes que seja tarde demais'\n\nSe o principal argumento de uma moeda é que OUTRAS pessoas comprando vão deixar VOCÊ rico, isso não é investir. É uma dança das cadeiras, e os criadores são os donos da música. 🎵",
+      "quiz": {
+        "q": "Uma moeda nova tem equipe anônima, promete 100x garantido, e influenciadores pagos estão empurrando ela com força. O que normalmente acontece depois?",
+        "explanation": "Equipe anônima, retorno garantido e divulgação paga é a montagem clássica de um rug pull. Os criadores têm a maior parte da oferta, vendem no meio do hype e vão embora, deixando os compradores com uma moeda que ninguém quer. Nada nos mercados é garantido.",
+        "options": [
+          "Os compradores são reembolsados pela corretora onde ela foi lançada",
+          "O preço se estabiliza quando os influenciadores param de postar",
+          "A equipe despeja o seu estoque e o preço desaba",
+          "Os reguladores obrigam a equipe a revelar quem é"
+        ]
+      }
+    },
+    "36": {
+      "title": "Mineração vs. negociação vs. staking",
+      "desc": "Três jogos bem diferentes",
+      "content": "Três formas de as pessoas tentarem ganhar com cripto, e elas NÃO são o mesmo jogo:\n\n⛏️ MINERAÇÃO: computadores potentes competem para processar transações e ganhar moedas novas. Parece divertido, mas a mineração de Bitcoin hoje é industrial: galpões cheios de máquinas especializadas e contas de luz enormes. O seu celular ou notebook não consegue competir, e apps do tipo 'minere Bitcoin no celular!' quase sempre são golpes ou fazendas de anúncios que te pagam quase nada.\n\n🥩 STAKING: em algumas redes você trava moedas para ajudar a proteger a rede e ganha recompensas, um pouco como juros. É real, mas as suas moedas podem ficar travadas por um tempo, e o PREÇO delas ainda pode despencar enquanto estão travadas.\n\n📊 NEGOCIAÇÃO: comprar e vender para lucrar com os movimentos de preço. Não precisa de equipamento, mas é o jogo em que a disciplina mais importa, e em que a maioria dos iniciantes perde para as próprias emoções.\n\nO NoobTrader ensina o jogo da negociação com risco zero. Os outros dois precisam de dinheiro de verdade até para começar.",
+      "quiz": {
+        "q": "Um app diz que o seu celular pode minerar Bitcoin com lucro enquanto você dorme. Qual é a verdade mais provável?",
+        "explanation": "A mineração é uma corrida decidida por equipamento especializado e eletricidade barata, e um celular não tem nenhum dos dois. Os apps que prometem o contrário normalmente estão atrás dos seus dados, da sua bateria ou do seu dinheiro, e te pagam quase nada por isso.",
+        "options": [
+          "Celulares mineram devagar, mas ainda dão lucro",
+          "Funciona, mas só nos celulares mais novos",
+          "A mineração por celular foi proibida pelas redes",
+          "É uma fazenda de anúncios que paga quase nada"
+        ]
+      }
+    },
+    "37": {
+      "title": "Segurança e golpes em cripto",
+      "desc": "O que é seu continua seu",
+      "content": "O superpoder das cripto também é o seu perigo: as transações são irreversíveis e não existe banco para desfazer um erro. Os golpistas adoram isso. Aqui está o seu kit de defesa:\n\n🔐 A SUA FRASE-SEMENTE É SAGRADA. Ninguém legítimo NUNCA vai pedir por ela. Nem a 'equipe de suporte', nem um 'bot de verificação', ninguém. Quem pede a sua frase-semente está te roubando, ponto final.\n\n🎣 PHISHING: sites falsos e DMs que parecem exatamente plataformas de verdade. Uma letra diferente no endereço do site. Sempre digite o endereço você mesmo.\n\n🎁 GOLPES DE SORTEIO: 'Mande 1 moeda e receba 2 de volta!', muitas vezes usando a conta hackeada de uma celebridade. Ninguém dobra o seu dinheiro. Nunca.\n\n💕 GOLPES DO AMOR E DO 'MENTOR DE INVESTIMENTOS': um desconhecido simpático que aos poucos te convence a usar uma 'plataforma especial'. A plataforma é falsa. Os saques nunca funcionam.\n\nO padrão por trás de todo golpe: urgência mais segredo mais lucro garantido. Viu esses três juntos, vá embora. 🚶",
+      "quiz": {
+        "q": "Alguém dizendo ser do 'suporte da plataforma' te manda uma DM e pede a sua frase-semente de 12 palavras para 'verificar a sua carteira'. O que você faz?",
+        "explanation": "A frase-semente É a carteira. Quem tem ela pode esvaziar tudo, o suporte de verdade nunca pede por ela, e nenhuma parte dela deve ser compartilhada.",
+        "options": [
+          "Nunca compartilhar, porque o suporte de verdade nunca pede uma frase-semente",
+          "Compartilhar, já que a equipe de suporte verificada precisa dela para checar a sua conta",
+          "Compartilhar só as seis primeiras palavras, o que já é seguro o suficiente",
+          "Pedir que te mandem um e-mail do endereço oficial primeiro e depois compartilhar"
+        ]
+      }
+    },
+    "38": {
+      "title": "O chefão das cripto",
+      "desc": "A máquina do tempo do Bitcoin",
+      "content": "Hora da história que todo mundo cita e ninguém conta direito.\n\nNo começo de 2017, um Bitcoin custava cerca de $1,000. Em dezembro de 2024 ele passou de $100,000 pela primeira vez. Uma compra de $1,000, mantida o tempo todo, virou cerca de $100,000. Isso é 100x. 🤯\n\nAgora a parte que o hype deixa de fora: para levar esses 100x você teve que aguentar duas quedas brutais, uma de cerca de 84% e outra de cerca de 77%, e ver o seu dinheiro encolher por ANOS seguidos sem vender. Quase ninguém conseguiu. A maioria das pessoas comprou caro, entrou em pânico na queda e vendeu barato.\n\nE para cada Bitcoin existem milhares de moedas mortas que foram a zero. Escolher a vencedora com antecedência só parece fácil olhando para trás. Isso se chama viés de sobrevivência, e é a ilusão mais cara do mundo cripto.\n\nA verdadeira lição da máquina do tempo: para as moedas que sobreviveram, a paciência ganhou do timing. Mas você só descobre quais moedas sobrevivem DEPOIS, e é por isso que a diversificação ganha das apostas heroicas, e por isso que NINGUÉM sabe o futuro. Nem o chefão. 🐉",
+      "bossVictory": "Módulo de cripto conquistado. Agora você sabe mais do que a maioria dos adultos. 🐉",
+      "quiz": {
+        "q": "Milhares de moedas foram lançadas junto com o Bitcoin, e a maioria hoje vale quase nada. Por que \"é só escolher o próximo Bitcoin\" parece tão fácil olhando para trás?",
+        "explanation": "Só as sobreviventes continuam sendo comentadas, então escolher vencedoras parece muito mais fácil olhando para trás do que era na época. As milhares que fracassaram não deixaram rastro na história.",
+        "options": [
+          "Porque as vencedoras são as únicas de que alguém ainda fala, e as que morreram sumiram da história",
+          "Porque as melhores moedas são óbvias desde o começo para quem lê o bastante sobre elas",
+          "Porque a maioria das moedas acaba dando certo para quem tem paciência de mantê-las por anos",
+          "Porque os especialistas acertaram o Bitcoin lá em 2010 e acertaram todas as vencedoras desde então"
+        ]
+      }
+    },
+    "39": {
+      "title": "O que é, afinal, uma blockchain?",
+      "desc": "A tecnologia por trás de tudo",
+      "content": "Tire o hype e uma blockchain é surpreendentemente simples: um livro de registros compartilhado do qual milhares de computadores mantêm cópias idênticas.\n\nQuando alguém envia cripto, essa transação entra num 'bloco' junto com centenas de outras. O bloco é selado com matemática e encadeado ao bloco anterior. Daí o nome: bloco. Cadeia (block. chain). ⛓️\n\nPor que alguém se importa com isso? Por causa do que ela torna possível:\n\n✅ Ninguém consegue editar a história escondido. Mudar um bloco antigo significaria refazer todos os blocos depois dele em milhares de computadores ao mesmo tempo.\n✅ Nenhuma empresa ou governo sozinho a controla. A rede de computadores a controla em conjunto.\n✅ Qualquer pessoa pode conferir o registro. Toda transação de Bitcoin já feita é visível publicamente.\n\nIsso é uma tecnologia genuinamente nova. Mas também NÃO é dinheiro mágico. Um registro perfeito de uma moeda sem valor continua sendo uma moeda sem valor. A tecnologia ser real não torna valiosa toda moeda criada em cima dela. 🧠",
+      "quiz": {
+        "q": "Por que é tão difícil mudar escondido uma transação antiga numa blockchain?",
+        "explanation": "Cada bloco é selado ao anterior, então reescrever um antigo significa reescrever todos os blocos depois dele, em milhares de computadores, mais rápido do que a rede adiciona novos. É isso que torna o registro praticamente permanente.",
+        "options": [
+          "Todos os blocos seguintes teriam que ser refeitos também",
+          "Cada mudança precisa ser aprovada por um governo",
+          "Todo registro com mais de um mês é apagado",
+          "O criador de cada moeda guarda uma chave privada de edição"
+        ]
+      }
+    },
+    "40": {
+      "title": "Bitcoin vs. todo o resto",
+      "desc": "Nem todas as moedas são o mesmo jogo",
+      "content": "'Cripto' não é uma coisa só. As diferenças importam mais do que as semelhanças:\n\n₿ BITCOIN: o original. A oferta dele é limitada a 21 milhões de moedas para sempre, escrita no código, e o ritmo de moedas novas cai pela metade mais ou menos a cada quatro anos. (Soa familiar? O halving do NOOB pega exatamente essa ideia emprestada.) Todo o argumento dele é escassez mais segurança.\n\n⟠ ETHEREUM: menos 'ouro digital', mais 'computador mundial'. Ele roda contratos inteligentes, que são programas que se executam automaticamente. A maioria dos apps de cripto é construída nele ou nos concorrentes.\n\n🪙 TODO O RESTO: milhares de 'altcoins'. Algumas resolvem problemas reais. A maioria são cópias, experimentos ou caça-níqueis. A estatística brutal: a maioria das moedas já criadas já está morta ou sem valor.\n\nLição: 'cripto está subindo' quase não te diz nada sobre uma moeda ESPECÍFICA. Cada uma é uma aposta própria, com as próprias chances. 🎲",
+      "quiz": {
+        "q": "Qual é a oferta máxima do Bitcoin, e quão fácil é mudá-la?",
+        "explanation": "O limite de 21 milhões faz parte das regras que todo computador da rede roda. Aumentá-lo significaria quase todos eles concordarem em fazer o que já têm valer menos, e é por isso que o limite é tratado como fixo.",
+        "options": [
+          "100 milhões, e os mineradores votam sobre isso todo ano",
+          "21 milhões, e aumentar é quase impossível",
+          "1 bilhão, e o criador pode ajustar",
+          "Sem limite nenhum, então moedas novas são criadas para sempre"
+        ]
+      }
+    },
+    "41": {
+      "title": "Stablecoins",
+      "desc": "A cripto que tenta ficar parada",
+      "content": "Uma stablecoin é uma cripto feita para valer sempre um valor fixo, geralmente exatamente 1 dólar americano. Os traders usam como um estacionamento: você vende suas moedas voláteis por uma stablecoin, e seu dinheiro fica parado enquanto você decide o próximo passo.\n\nComo elas ficam em $1? O modelo principal guarda dólares e ativos reais em reserva, então cada moeda tem algo por trás. Você está confiando em quem guarda essas reservas.\n\nE aqui vai sua história de alerta: stablecoins podem QUEBRAR. Isso já aconteceu de verdade. Em 2022, uma grande stablecoin 'algorítmica', que usava matemática esperta em vez de reservas reais, despencou de $1 para quase zero em poucos dias e evaporou dezenas de bilhões de dólares. 'Estável' é um objetivo do projeto, não uma garantia.\n\nRegra de ouro: quanto mais esperto o mecanismo que mantém algo 'seguro', mais de perto você deve olhar para ele. 🔍",
+      "quiz": {
+        "q": "Qual é a principal função de uma stablecoin?",
+        "explanation": "A função de uma stablecoin é ficar parada. Ela é um estacionamento entre uma negociação e outra, não algo que se espera que cresça.",
+        "options": [
+          "Manter um valor fixo, geralmente $1, para os traders terem um estacionamento estável",
+          "Crescer mais rápido que o Bitcoin acompanhando todo o mercado cripto",
+          "Pagar juros automaticamente a quem a guarda numa carteira",
+          "Esconder transações de todo mundo embaralhando o registro público"
+        ]
+      }
+    },
+    "42": {
+      "title": "Cripto, Impostos e a Lei",
+      "desc": "Sim, as regras valem",
+      "content": "A internet está cheia de gente que acredita que cripto é dinheiro invisível, sem regras. Essa galera costuma descobrir a verdade do jeito difícil. 😬\n\nA realidade na maioria dos países, incluindo a África do Sul:\n\n🧾 LUCROS GERALMENTE PAGAM IMPOSTO. Vendeu cripto por mais do que pagou? A Receita geralmente quer a parte dela, igualzinho às ações.\n\n🪪 AS CORRETORAS SABEM QUEM VOCÊ É. Plataformas sérias exigem verificação de identidade (chamada KYC, Know Your Customer, ou \"conheça seu cliente\"). E cada transação também fica registrada para sempre na própria blockchain, que é o OPOSTO de anônimo.\n\n⚖️ OS REGULADORES ESTÃO DE OLHO. Na África do Sul, os criptoativos são oficialmente tratados como produtos financeiros, o que significa que as plataformas que vendem cripto precisam seguir as regras de serviços financeiros.\n\nNada disso é motivo para pânico. Mas É motivo para ignorar qualquer um que diga 'as regras não valem para cripto'. Valem sim, e fingir o contrário coloca adultos em encrencas bem sérias de verdade.",
+      "quiz": {
+        "q": "Seu primo diz que os lucros com cripto são invisíveis para a Receita porque cripto é anônima. O que está errado nisso?",
+        "explanation": "Plataformas sérias verificam quem você é antes de você poder negociar, e toda transação na blockchain é pública e permanente, o oposto de anônimo. Os lucros geralmente pagam imposto, então confira as regras de onde você mora.",
+        "options": [
+          "As corretoras checam identidade, e os registros são públicos",
+          "Nada, cripto é anônima de verdade",
+          "Cripto só paga imposto nos EUA e em nenhum outro lugar",
+          "O imposto só começa quando você saca um milhão"
+        ]
+      }
+    },
+    "43": {
+      "title": "Volatilidade e Regras de Sobrevivência",
+      "desc": "Por que a cripto oscila tanto",
+      "content": "Um dia ruim na bolsa de valores é 3%. Um dia ruim em cripto é 20%. Até o Bitcoin, o 'adulto' das criptos, já perdeu mais de 80% do valor mais de uma vez e depois se recuperou. Moedas menores perdem 95% com frequência e nunca mais voltam.\n\nPor que tão louco? Cripto é negociada 24/7 sem circuit breakers, boa parte é comprada com dinheiro emprestado que é vendido à força nas quedas, e os preços andam mais por história e emoção do que por resultados financeiros.\n\nEntão aqui estão as regras de sobrevivência que todo trader experiente repete:\n\n1️⃣ Nunca coloque dinheiro que você não pode perder por completo.\n2️⃣ Dimensione suas posições para que um desastre não acabe com você.\n3️⃣ Decida sua saída ANTES de entrar, enquanto está calmo.\n4️⃣ FOMO é o sentimento mais caro das finanças.\n\nPratique as quatro no NoobTrader, onde as perdas são de mentira. Os hábitos são o prêmio de verdade. 🏆",
+      "quiz": {
+        "q": "Qual destas é uma regra de sobrevivência real para mercados voláteis?",
+        "explanation": "Nunca arriscar dinheiro que você não pode perder é a regra que te mantém no jogo. Dobrar a aposta depois de uma perda é como as contas acabam zeradas.",
+        "options": [
+          "Dobrar sua posição depois de cada perda para recuperar",
+          "Nunca investir dinheiro que você não pode perder por completo",
+          "A volatilidade só afeta moedas pequenas, então as grandes são seguras",
+          "Sempre comprar quando todo mundo nas redes sociais está comprando"
+        ]
+      }
+    },
+    "44": {
+      "title": "Ciclos de Hype e FOMO",
+      "desc": "O padrão por trás de toda mania",
+      "content": "A cripto anda em ciclos de hype, e depois que você enxerga o padrão, nunca mais deixa de ver:\n\n📈 Fase 1: algo real acontece. Os primeiros que acreditam compram em silêncio.\n🚀 Fase 2: os preços sobem. A mídia percebe. Seu feed se enche de vencedores.\n🎪 Fase 3: mania. Motorista de táxi dá dica de moeda. Gente pega empréstimo para comprar. 'Desta vez é diferente.'\n💥 Fase 4: o crash. Quem chegou atrasado, e comprou mais caro, perde mais.\n🕳️ Fase 5: silêncio. Os posts dos vencedores somem. Ninguém fala das próprias perdas.\n\nO boom dos NFTs em 2021 seguiu exatamente esse roteiro: colecionáveis digitais vendidos por milhões no topo e, alguns anos depois, a maioria valendo quase nada.\n\nO truque cruel de toda mania: ela faz o PIOR momento para comprar parecer o momento mais URGENTE para comprar. Quando entrar parece mais seguro, porque todo mundo já entrou, os ganhos fáceis geralmente já foram embora. 🎯",
+      "quiz": {
+        "q": "Num ciclo de hype clássico, quando a pessoa comum sente a maior vontade de comprar?",
+        "explanation": "A vontade grita mais alto quando a história está mais alta, e a história fica mais alta depois que o preço já subiu. Todo mundo estar dentro é o que faz parecer seguro, e também é o que deixa ninguém sobrando para comprar.",
+        "options": [
+          "No começo, quando quase ninguém está falando disso",
+          "No meio da queda, quando os preços estão baixos",
+          "Perto do topo, quando todo mundo já está dentro",
+          "Não segue padrão nenhum, a vontade é aleatória"
+        ]
+      }
+    },
+    "45": {
+      "title": "Lendo um Candle",
+      "desc": "Anatomia do candle: corpo e cor",
+      "content": "Cada candle conta uma historinha com só quatro números: onde o preço abriu, o máximo que alcançou, o mínimo que caiu e onde fechou. O corpo sólido vai da abertura ao fechamento, e a cor mostra quem venceu: verde significa que o fechamento terminou acima da abertura, vermelho significa que os vendedores arrastaram o preço para baixo dela. Esse é o truque todo. Aprenda a ler um candle direito e todo gráfico do mundo deixa de ser um muro de ruído e vira uma história em quadrinhos. 🟢",
+      "quiz": {
+        "q": "Este candle é verde. O que ele está te dizendo sobre esse período de negociação?",
+        "options": [
+          "O preço fechou mais baixo do que abriu",
+          "Mais gente comprou do que vendeu, com certeza",
+          "O preço fechou mais alto do que abriu",
+          "O preço nunca caiu durante o período"
+        ]
+      }
+    },
+    "46": {
+      "title": "Os Pavios Contam Histórias",
+      "desc": "Anatomia do candle: máximas e mínimas",
+      "content": "O corpo mostra onde o período abriu e fechou, mas os pavios mostram a jornada completa: todos os preços que a briga realmente alcançou. Um pavio longo significa que rolou uma batalha grande além da abertura e do fechamento, e o lado que deixou o pavio para trás perdeu essa batalha. Pavio longo embaixo? Os vendedores empurraram forte e foram rechaçados. Pavio longo em cima? Os compradores foram alto e foram rejeitados. O corpo é a manchete, os pavios são a fofoca. 📏",
+      "quiz": {
+        "q": "O que as linhas finas (os pavios) acima e abaixo do corpo mostram de verdade?",
+        "options": [
+          "Os preços mais alto e mais baixo negociados durante o período",
+          "A abertura e o fechamento de ontem",
+          "Os preços exatos onde aconteceu a maioria das negociações",
+          "Uma previsão da faixa de amanhã"
+        ]
+      }
+    },
+    "47": {
+      "title": "O Doji",
+      "desc": "Candles únicos: indecisão",
+      "content": "Às vezes um candle abre e fecha quase exatamente no mesmo preço, deixando um corpinho minúsculo com pavios dos dois lados. Isso é um doji, e significa que o cabo de guerra terminou empatado: compradores e vendedores puxaram forte a sessão inteira e nenhum lado venceu. Sozinho, ele é só um dar de ombros. Depois de uma subida forte, pode indicar que a tendência está cansando, porque o lado que vinha ganhando de repente não conseguiu mexer o preço. Uma pista que vale anotar, nunca uma garantia. 🤝",
+      "quiz": {
+        "q": "O candle brilhante abriu e fechou quase exatamente no mesmo preço. Como ele se chama e o que está indicando?",
+        "options": [
+          "Um marubozu, sinal de convicção total para um lado",
+          "Um martelo, sinal de que os compradores retomaram o controle",
+          "Um gap, sinal de que a negociação parou durante a noite",
+          "Um doji, sinal de indecisão entre compradores e vendedores"
+        ]
+      }
+    },
+    "48": {
+      "title": "O Martelo",
+      "desc": "Candles únicos: a reação",
+      "content": "Imagine uma sessão brutal: os vendedores derrubam o preço, aí os compradores puxam tudo de volta antes do fechamento. O que sobra no gráfico é um martelo: um corpo pequeno perto do topo com um pavio inferior longo, de pelo menos o dobro do tamanho do corpo. Depois de uma queda, o martelo diz que os vendedores deram o melhor soco deles e não acertaram. Isso muitas vezes marca uma possível virada. Possível, não prometida, então trate como uma pista para observar, não uma ordem para comprar. 🔨",
+      "quiz": {
+        "q": "Depois de uma queda, o candle brilhante marcou um pavio inferior longo e um corpo pequeno perto do topo. O que é?",
+        "options": [
+          "Uma estrela cadente, sinal de que os vendedores assumiram",
+          "Um martelo, indício de que os compradores reagiram com força",
+          "Um doji, um empate perfeito",
+          "Prova de que a tendência de baixa acabou"
+        ]
+      }
+    },
+    "49": {
+      "title": "A Estrela Cadente",
+      "desc": "Candles únicos: rejeição no topo",
+      "content": "A imagem espelhada do martelo. Depois de uma subida forte, os compradores tentam mais uma nova máxima, são rejeitados com força, e o preço fecha de volta lá embaixo, perto de onde abriu. O gráfico marca um corpo pequeno na parte de baixo do candle com um pavio superior longo: uma estrela cadente. Significa que os vendedores finalmente apareceram no topo com força suficiente para vencer a sessão. Depois de uma grande alta, essa rejeição muitas vezes importa. Muitas vezes, não sempre. 🌠",
+      "quiz": {
+        "q": "Depois de uma subida forte, o candle brilhante disparou e fechou perto da mínima, deixando um pavio superior longo. O que é?",
+        "options": [
+          "Uma estrela cadente, indício de que os vendedores apareceram no topo",
+          "Um martelo, indício de que os compradores voltaram ao comando",
+          "Um marubozu verde, pura força compradora",
+          "Uma garantia de que o preço despenca amanhã"
+        ]
+      }
+    },
+    "50": {
+      "title": "O Marubozu",
+      "desc": "Candles únicos: convicção total",
+      "content": "Um marubozu é um corpo sólido sem pavio nenhum: o preço abriu e marchou numa só direção a sessão inteira sem olhar para trás. Sem briga, sem hesitação, convicção total de um lado. Um marubozu verde grita confiança dos compradores, um vermelho grita o contrário. Eles são raros, e é exatamente por isso que os traders prestam atenção quando aparece um. 💪",
+      "quiz": {
+        "q": "O candle brilhante é um corpo sólido sem pavio nenhum. O que esse formato te diz?",
+        "options": [
+          "Ninguém negociou nesse período, então ficou parado",
+          "O mercado fechou mais cedo naquele dia e cortou o candle",
+          "Um lado esteve no controle da abertura ao fechamento, convicção total",
+          "Compradores e vendedores ficaram perfeitamente equilibrados o tempo todo"
+        ]
+      }
+    },
+    "51": {
+      "title": "Engolfo de Alta",
+      "desc": "Padrões de dois candles: os compradores atacam",
+      "content": "Dois candles, uma mensagem. Primeiro um candle vermelho pequeno, rotina normal numa tendência de baixa. Depois um corpo verde grande que o engole por completo: numa só sessão, os compradores apagaram tudo o que os vendedores conseguiram no dia anterior, e mais um pouco. Aparecendo depois de uma tendência de baixa, o engolfo de alta é uma das pistas de reversão mais observadas em qualquer gráfico, porque mostra o equilíbrio de forças virando num único candle. Pista, não contrato. 🐂",
+      "quiz": {
+        "q": "O corpo verde grande engole por completo o corpo vermelho antes dele. Que padrão de dois candles é esse?",
+        "options": [
+          "Um engolfo de baixa, os vendedores assumiram o controle",
+          "Um engolfo de alta, os compradores dominaram os vendedores",
+          "Um fundo duplo",
+          "Dois dojis seguidos"
+        ]
+      }
+    },
+    "52": {
+      "title": "Engolfo de Baixa",
+      "desc": "Padrões de dois candles: os vendedores atacam",
+      "content": "A imagem espelhada da versão de alta. No topo de uma subida, um corpo vermelho grande engole todo o corpo verde antes dele: os vendedores apagaram as compras do dia anterior num só candle, bem quando a subida já estava esticada e os últimos compradores estavam nervosos. Isso costuma deixar o resto dos compradores nervoso também. Quando você vir isso depois de uma longa alta, respeite. 🐻",
+      "quiz": {
+        "q": "No topo de uma subida, o corpo vermelho grande engole todo o corpo verde antes dele. Como se chama esse par?",
+        "options": [
+          "Um engolfo de alta, a subida continua",
+          "Um martelo seguido de um doji",
+          "Um rompimento acima da resistência",
+          "Um engolfo de baixa, os vendedores dominaram os compradores"
+        ]
+      }
+    },
+    "53": {
+      "title": "Identificando uma Tendência de Alta",
+      "desc": "Tendências: topos mais altos, fundos mais altos",
+      "content": "Uma tendência de alta precisa das duas metades: topos mais altos E fundos mais altos. Cada pico supera o anterior, e cada queda para mais alto que a anterior, porque os compradores entram cada vez mais cedo. Esse formato de escada é o mercado te dizendo que a demanda está no comando. Um topo mais alto sozinho não prova nada. O padrão é o par, se repetindo. 📈",
+      "quiz": {
+        "q": "Cada pico supera o anterior, e cada queda para mais alto que a anterior. O que este gráfico está mostrando?",
+        "options": [
+          "Uma tendência de alta, topos mais altos e fundos mais altos",
+          "Uma tendência de baixa, topos mais baixos e fundos mais baixos",
+          "Uma lateralização, preço preso entre um piso e um teto",
+          "Um topo duplo em formação"
+        ]
+      }
+    },
+    "54": {
+      "title": "Identificando uma Tendência de Baixa",
+      "desc": "Tendências: topos mais baixos, fundos mais baixos",
+      "content": "Vire a escada de cabeça para baixo. Topos mais baixos significam que os vendedores atacam mais cedo a cada repique, fundos mais baixos significam que os compradores recuam mais a cada queda. Enquanto essa estrutura se mantém, os vendedores mandam no jogo, e brigar contra isso é como trader novato doa dinheiro para trader paciente. A tendência não é sua inimiga, mas fingir que ela não existe com certeza é. 📉",
+      "quiz": {
+        "q": "Cada repique para num ponto mais baixo que o anterior, e cada queda vai mais fundo. O que você está vendo?",
+        "options": [
+          "Uma tendência de alta só tomando fôlego",
+          "Uma lateralização",
+          "Uma tendência de baixa, topos mais baixos e fundos mais baixos",
+          "Um padrão de engolfo de alta se formando"
+        ]
+      }
+    },
+    "55": {
+      "title": "O Mercado Lateral",
+      "desc": "Tendências: o jogo da espera",
+      "content": "Às vezes nenhum lado está ganhando, então o preço fica só pingando entre o mesmo piso e o mesmo teto por semanas. Isso é uma lateralização, e os mercados passam uma parte enorme da vida fazendo exatamente isso. Não está quebrado e não é chato, é o mercado tomando fôlego. Traders pacientes aprendem a curtir a espera, porque quanto mais tempo uma lateralização dura, mais significativa costuma ser a fuga quando ela finalmente vem. 🏓",
+      "quiz": {
+        "q": "Há semanas o preço fica quicando entre o mesmo piso e o mesmo teto. Como se chama isso?",
+        "options": [
+          "Uma tendência de alta, ele continua tocando o teto",
+          "Uma lateralização, o mercado está andando de lado",
+          "Um ombro-cabeça-ombro",
+          "Um rompimento em andamento"
+        ]
+      }
+    },
+    "56": {
+      "title": "Suporte",
+      "desc": "Suporte e resistência: o piso",
+      "content": "Quando o preço cai sempre até o mesmo nível e quica todas as vezes, os traders chamam esse nível de suporte: um piso onde os compradores sempre decidem que o preço está uma pechincha. Quanto mais vezes ele segura, mais gente fica de olho nele, e isso é parte do motivo de ele continuar segurando. Mas lembre que o piso é desenhado por pessoas, não por lei. O suporte pode quebrar, e quebra, e quando isso acontece, a turma do repique vira a turma do pânico. 🧱",
+      "quiz": {
+        "q": "O preço caiu até o nível sombreado três vezes e quicou todas as vezes. Como os traders chamam esse nível?",
+        "options": [
+          "Resistência, um teto onde os vendedores se amontoam",
+          "Uma linha de tendência, níveis precisam ser diagonais",
+          "Um stop-loss definido pela bolsa",
+          "Suporte, um piso onde os compradores sempre entram"
+        ]
+      }
+    },
+    "57": {
+      "title": "Resistência",
+      "desc": "Suporte e resistência: o teto",
+      "content": "A resistência é o teto: um nível onde toda alta acaba travando porque os vendedores ficam felizes em embolsar o lucro ali. Veja um gráfico bater a cabeça no mesmo preço três vezes e você está vendo a resistência funcionar ao vivo. E aqui vai a reviravolta que vale lembrar: se o preço um dia furar esse nível com convicção de verdade, aquele velho teto muitas vezes passa a funcionar como um novo piso. 🪟",
+      "quiz": {
+        "q": "Três altas diferentes travaram no nível sombreado. Como se chama esse nível?",
+        "options": [
+          "Resistência, um teto onde os vendedores sempre empurram de volta",
+          "Suporte, um piso que fica embaixo do preço",
+          "O nível de dividendos, que é definido uma vez por ano",
+          "Um pico de volume, que não diz nada sobre o preço"
+        ]
+      }
+    },
+    "58": {
+      "title": "Linhas de Tendência",
+      "desc": "Linhas de tendência e canais: a linha que importa",
+      "content": "Ligue os fundos ascendentes de um gráfico e você desenhou uma linha de tendência. Quaisquer dois pontos formam uma linha, mas é no terceiro toque que ela começa a provar que importa, porque mostra que os compradores continuam defendendo o mesmo nível ascendente. Cada toque respeitado a mais é mais uma evidência. Mas continua sendo evidência, nunca promessa: uma linha de tendência é um risco de lápis, não um campo de força. ✏️",
+      "quiz": {
+        "q": "Esta linha ascendente foi tocada três vezes diferentes. Por que os traders se importam com quantos toques uma linha de tendência tem?",
+        "options": [
+          "Não se importam, já que quaisquer dois pontos fazem de uma linha de tendência uma regra",
+          "Três toques significam que um quarto repique é garantido em seguida",
+          "Mais toques deixam a linha mais significativa, os compradores continuam defendendo",
+          "Linhas de tendência só valem em gráficos diários, nunca em tempos menores"
+        ]
+      }
+    },
+    "59": {
+      "title": "Canais",
+      "desc": "Linhas de tendência e canais: a pista",
+      "content": "Um canal é uma tendência bem-comportada. O preço sobe quicando entre duas linhas paralelas: um piso de fundos ascendentes e um teto de topos ascendentes, subindo juntos como as laterais de uma pista. Os traders observam as duas bordas esperando repiques, e observam com mais atenção ainda o dia em que o preço sai da pista, porque um rompimento limpo para fora de um canal muitas vezes é onde começa o próximo grande movimento. 🛣️",
+      "quiz": {
+        "q": "O preço está subindo enquanto quica entre duas linhas paralelas. Que padrão é esse?",
+        "options": [
+          "Um triângulo, em que as duas linhas precisam se encontrar",
+          "Um canal de alta, uma tendência de alta com uma pista visível",
+          "Um topo duplo",
+          "Uma lateralização plana que não vai a lugar nenhum"
+        ]
+      }
+    },
+    "60": {
+      "title": "O Topo Duplo",
+      "desc": "Padrões gráficos: o formato de M",
+      "content": "O preço bate no mesmo teto duas vezes, falha nas duas e desenha um grande M no gráfico. Rompa abaixo da queda do meio (a linha de pescoço) e o topo duplo está completo: uma pista clássica de reversão de baixa. A imagem espelhada dele, o W, é o fundo duplo, e aponta para o outro lado. Costuma marcar um topo, mas não é obrigado. Nada num gráfico é obrigado. Ⓜ️",
+      "quiz": {
+        "q": "O preço bateu no mesmo teto duas vezes, falhou nas duas e depois rompeu abaixo da queda do meio. Que formato é esse?",
+        "options": [
+          "Um fundo duplo, uma pista de alta",
+          "Um canal de alta",
+          "Um martelo",
+          "Um topo duplo, uma pista de reversão de baixa"
+        ]
+      }
+    },
+    "61": {
+      "title": "Quando os Padrões Falham",
+      "desc": "Padrões gráficos: probabilidades, não promessas",
+      "content": "Esta é a lição mais valiosa do módulo. Um padrão de livro se formou, todo mundo viu, e aí o mercado fez o contrário. Todo padrão que você aprendeu falha de vez em quando, e isso não é o gráfico mentindo para você, é o gráfico te entregando informação: o lado em que você apostou acabou de perder. Decida sua saída antes de entrar e, quando um padrão falhar, entenda o recado e saia. Padrões são probabilidades, nunca promessas. 🚪",
+      "quiz": {
+        "q": "Um fundo duplo de livro se formou no piso sombreado... e aí o preço despencou direto através dele. Qual é a lição honesta?",
+        "options": [
+          "Padrões são probabilidades, não promessas, e um padrão que falha é o seu sinal para sair",
+          "Fundos duplos de verdade nunca falham, então o que você estava vendo devia ser falso",
+          "Compre mais no preço mais baixo, porque o padrão ainda vai se confirmar uma hora",
+          "Os gráficos param de funcionar de vez quando um padrão falha com você desse jeito"
+        ]
+      }
+    },
+    "62": {
+      "title": "Ombro-Cabeça-Ombro",
+      "desc": "Padrões gráficos: três picos",
+      "content": "Três picos: um mais alto no meio (a cabeça), um mais baixo de cada lado (os ombros) e uma linha embaixo das duas quedas chamada linha de pescoço. Ele se forma quando os compradores conseguem um último empurrão mais alto e depois nem conseguem igualá-lo na tentativa seguinte. Só o formato é apenas um aviso. A parte que os traders realmente esperam é um rompimento decisivo abaixo da linha de pescoço, porque é aí que o padrão deixa de ser um desenho e passa a ser uma decisão. 👤",
+      "quiz": {
+        "q": "Três picos: um mais alto no meio, um mais baixo de cada lado e um piso ligando as duas quedas. Que formato clássico é esse?",
+        "options": [
+          "Um fundo triplo, três mínimas iguais antes de um empurrão para cima",
+          "Um ombro-cabeça-ombro, um possível fim da tendência de alta",
+          "Um triângulo ascendente",
+          "Três martelos seguidos, cada um rejeitando preços mais baixos"
+        ]
+      }
+    },
+    "63": {
+      "title": "O Aperto do Triângulo",
+      "desc": "Padrões gráficos: a mola comprimida",
+      "content": "Quando as oscilações vão encolhendo, com fundos mais altos pressionando contra topos mais baixos, o mercado está se comprimindo como uma mola. Isso é um triângulo: os dois lados ficando sem espaço, uma decisão sendo forçada. O aperto muitas vezes termina numa explosão, e aqui está o pulo do gato: a direção da explosão não é conhecida antes. Espere o rompimento em vez de tentar adivinhar. O mercado vai te contar, e não cobra nada pela informação. 🌀",
+      "quiz": {
+        "q": "As oscilações vão encolhendo, apertando o preço numa mola cada vez mais comprimida, até que ele finalmente explode para fora. O que era essa mola?",
+        "options": [
+          "Um canal, duas linhas paralelas que nunca se encontram",
+          "Um topo duplo",
+          "Um triângulo, uma consolidação que muitas vezes termina num rompimento",
+          "Prova de que o preço tinha que romper para cima a partir dali"
+        ]
+      }
+    },
+    "64": {
+      "title": "Volume: o Detector de Mentiras",
+      "desc": "Volume: quem realmente apareceu",
+      "content": "Volume é quantas ações trocaram de mãos, e ele é o detector de mentiras dos gráficos. Um rompimento com volume minúsculo é um sussurro que engana as pessoas: um punhado de negociações empurrou o preço para um lugar onde ele não consegue ficar. Um rompimento com volume pesado é uma multidão votando de verdade com dinheiro. Mesmo movimento de preço, significado completamente diferente. Antes de acreditar em qualquer grande movimento, veja quem apareceu para ele. 🔊",
+      "quiz": {
+        "q": "Duas tentativas de escapar do mesmo teto: a primeira, com volume minúsculo, falhou; a segunda veio com volume enorme e se manteve. O que o volume está fazendo aqui?",
+        "options": [
+          "Nada, o volume nunca importa num movimento de preço",
+          "Forçando o preço para cima, já que volume alto empurra os preços",
+          "Prevendo o topo exato do movimento antes que aconteça",
+          "Servindo de confirmação, volume grande mostra convicção real por trás do movimento"
+        ]
+      }
+    },
+    "65": {
+      "title": "O Reconhecedor de Tendências",
+      "desc": "Dez gráficos, sem legendas, sem piedade",
+      "content": "Dez gráficos. Sem legendas, sem linhas de ajuda, sem dicas. Diga o que cada um está mostrando, exatamente como um trader de verdade encarando uma tela de verdade. Acerte 8 de 10 e o módulo é seu. Você tem 3 tentativas por dia, então vá com calma, leia os candles e lembre a lição mais importante de todas: às vezes a resposta honesta é que não há padrão nenhum. 🕯️",
+      "bossVictory": "Módulo de tendências conquistado. Agora é você que lê os gráficos, não os gráficos que leem você. 🕯️",
+      "bossQuestions": {
+        "0": {
+          "q": "O que este gráfico está mostrando?",
+          "explanation": "Bagunçado de propósito. Tire o ruído e cada topo ainda supera o anterior, e cada queda ainda para num fundo mais alto. Tendências reais são assim, não uma escada de livro.",
+          "options": [
+            "Uma tendência de baixa, topos mais baixos e fundos mais baixos",
+            "Uma tendência de alta, topos mais altos e fundos mais altos",
+            "Uma lateralização",
+            "Um topo duplo"
+          ]
+        },
+        "1": {
+          "q": "O que aconteceu no par de candles brilhantes?",
+          "explanation": "O corpo vermelho engoliu o corpo verde inteiro logo depois de uma longa subida. É o engolfo de baixa fazendo exatamente o que faz: aparecer onde os compradores estão mais esticados.",
+          "options": [
+            "Um engolfo de alta",
+            "Um doji no topo",
+            "Um martelo",
+            "Um engolfo de baixa no topo de uma alta"
+          ]
+        },
+        "2": {
+          "q": "O que este gráfico está mostrando?",
+          "explanation": "O pico do meio fica bem acima dos dois dos lados, e as quedas se alinham numa linha de pescoço. Os reais nunca são simétricos, e é assim que eles aparecem de verdade na prática.",
+          "options": [
+            "Um ombro-cabeça-ombro",
+            "Um topo triplo com três picos iguais",
+            "Um triângulo ascendente",
+            "Um canal de alta"
+          ]
+        },
+        "3": {
+          "q": "O que este gráfico está mostrando?",
+          "explanation": "Duas investidas no mesmo piso, a segunda um pouco mais rasa, e depois um empurrão para cima passando pelo repique do meio. O formato de W, desenhado por um mercado real e não por um livro.",
+          "options": [
+            "Um ombro-cabeça-ombro",
+            "Um triângulo descendente",
+            "Um fundo duplo",
+            "Uma bandeira de baixa"
+          ]
+        },
+        "4": {
+          "q": "O que é o candle brilhante?",
+          "explanation": "Pavio superior longo, corpo minúsculo estacionado na parte de baixo da faixa, logo depois de uma alta. Os compradores tentaram uma nova máxima e levaram um tapa de volta para baixo antes do fechamento.",
+          "options": [
+            "Um martelo",
+            "Um marubozu verde",
+            "Um doji",
+            "Uma estrela cadente depois de uma subida"
+          ]
+        },
+        "5": {
+          "q": "O que este gráfico está mostrando?",
+          "explanation": "O mesmo piso e o mesmo teto continuam sendo respeitados, e tudo no meio é ruído. Nenhum lado está ganhando, então não há tendência para surfar.",
+          "options": [
+            "Uma lateralização, preço encaixotado entre suporte e resistência",
+            "Uma tendência de alta, topos mais altos e fundos mais altos",
+            "Uma cunha descendente",
+            "Um rompimento em andamento"
+          ]
+        },
+        "6": {
+          "q": "O preço rompeu acima do antigo teto, depois a queda marcada pela seta voltou até esse nível e segurou. O que foi essa queda?",
+          "explanation": "A queda voltou exatamente ao nível que antes era o teto, encontrou compradores ali e a tendência seguiu em frente. Isso é um pullback. Uma reversão teria cortado o nível e continuado caindo.",
+          "options": [
+            "Uma reversão completa para uma tendência de baixa",
+            "Um pullback, um reteste do nível rompido",
+            "Um topo duplo",
+            "Um repique do gato morto"
+          ]
+        },
+        "7": {
+          "q": "O que este gráfico está mostrando?",
+          "explanation": "Piso plano, topos mais baixos pressionando contra ele, vendedores chegando mais cedo a cada repique. O piso acabou cedendo, que é o desfecho para o qual esse formato muitas vezes tende. Muitas vezes, nunca sempre.",
+          "options": [
+            "Um triângulo ascendente",
+            "Um canal de alta",
+            "Um triângulo descendente apoiado no suporte",
+            "Um fundo duplo"
+          ]
+        },
+        "8": {
+          "q": "O que este gráfico está mostrando?",
+          "explanation": "A pergunta pegadinha, e a mais valiosa do chefão. A maioria dos gráficos, na maior parte do tempo, não mostra nada que valha a pena negociar. Ver padrões que não existem é como os iniciantes perdem. Dizer não à negociação é uma habilidade. 🎯",
+          "options": [
+            "Um ombro-cabeça-ombro",
+            "Um topo duplo",
+            "Uma tendência de alta",
+            "Nenhum padrão limpo, não há nada para negociar aqui"
+          ]
+        },
+        "9": {
+          "q": "O que este gráfico está mostrando?",
+          "explanation": "O preço passou de leve acima do teto com volume fraco, os compradores correram atrás, e aí ele desabou direto de volta para a lateralização. O rompimento que falha é exatamente o motivo de a lição de volume ter te dito para checar o volume antes de acreditar num rompimento.",
+          "options": [
+            "Uma armadilha de alta (bull trap), um rompimento falso que atraiu compradores",
+            "Um rompimento bem-sucedido com um reteste limpo",
+            "Um fundo duplo",
+            "Uma reversão de martelo"
+          ]
+        }
+      }
+    },
+    "66": {
+      "title": "Aqui Você Não É Dono de Nada",
+      "desc": "Um derivativo é uma aposta num número",
+      "content": "Tudo o que você aprendeu até agora tinha algo real por trás. Compre uma ação da {retail} e você é dono de um pedaço da empresa: um pedaço das lojas, um pedaço dos lucros, um voto na assembleia e um dividendo quando ela paga.\n\nUm derivativo não é isso.\n\nUm CFD (contrato por diferença) é um acordo entre você e um provedor para trocar a diferença de um preço entre o momento em que você abre e o momento em que fecha. Esse é o produto inteiro. Se a {retail} sobe e você apostou na alta, eles te pagam a diferença. Se cai, você paga a eles. Ninguém compra uma ação. Ninguém vende uma ação. Não existe ação nenhuma em lugar nenhum da transação.\n\nUm contrato futuro é um contrato para comprar ou vender algo a um preço definido numa data definida. Os de verdade são liquidados em barris de petróleo ou toneladas de milho de verdade, mas quase ninguém fica com eles até lá, então na prática a maioria dos futuros também é uma aposta num número com prazo de validade.\n\nPor que isso importa mais do que parece:\n\n• Sem dividendos. Sem Dinheirinho. A coisa que construiu silenciosamente a maior parte dos retornos na lição 15 simplesmente não está aqui.\n• Sem voto, sem posse, nada para guardar. Não existe a opção \"é só segurar por dez anos\", porque não há nada para segurar.\n• Sem juros compostos. O resto deste app passa 65 lições te ensinando que o tempo está do seu lado. Nesta sala, o tempo te custa dinheiro. Você vai ver exatamente quanto na lição 72.\n\nTudo o que você já sabe continua importando. Só deixa de ser o que você está fazendo. 📄",
+      "quiz": {
+        "q": "Você abre um CFD da {retail} e o preço sobe. Do que você é dono de verdade?",
+        "explanation": "Um CFD é um acordo entre você e o provedor para trocar a diferença entre o preço quando você abriu e o preço quando você fecha. Ninguém compra uma ação, ninguém vende, e não existe nenhuma em lugar nenhum do negócio. É por isso que não há dividendo, nem voto, nem nada para segurar por dez anos.",
+        "options": [
+          "Ações que o provedor guarda no nome dele",
+          "Um contrato para trocar a diferença de preço no final",
+          "Parte da empresa, e os dividendos que vêm com ela",
+          "Um vale que vira ações de verdade quando você fecha"
+        ]
+      }
+    },
+    "67": {
+      "title": "Pegando Emprestado de um Amigo",
+      "desc": "O que a alavancagem realmente é, e a parte que ninguém posta",
+      "content": "Alavancagem parece algo técnico. Não é. É pegar dinheiro emprestado.\n\nDigamos que você quer {c}1,000 em ações, mas só tem {c}200. Um amigo se oferece para colocar os outros {c}800. Você controla {c}1,000 em ações com {c}200 do seu próprio dinheiro. Isso é alavancagem. Essa é a ideia toda.\n\nAgora, as três coisas que esse amigo faz. Você precisa das três, senão te venderam um conto de fadas.\n\n1️⃣ O GANHO É SEU DE VERDADE. As ações sobem 10%. Seus {c}1,000 agora valem {c}1,100. São {c}100 de lucro e você fica com cada centavo, porque seu amigo tem a receber {c}800 e nem um centavo a mais (moeda: {cName}). Sobre os seus {c}200, {c}100 é um ganho de 50%. Um movimento de 10% te rendeu 50%. Essa é a parte que todo mundo posta.\n\n2️⃣ O EMPRÉSTIMO NÃO ENCOLHE QUANDO VOCÊ ERRA. Essa é a parte que ninguém posta, e é a lição inteira. Em vez disso, as ações caem 10%. Seus {c}1,000 agora valem {c}900. Você ainda deve ao seu amigo os {c}800 inteiros. Não {c}720. Os {c}800 inteiros. Então toda a queda de {c}100 sai da SUA parte, e seus {c}200 agora são {c}100. Um movimento de 10% te custou 50%.\n\nLeia esses dois de novo. Mesmo amigo, mesmos 10%. Seu dinheiro anda cinco vezes mais rápido nas duas direções, porque o empréstimo nunca leva uma parte da dor.\n\n3️⃣ O AMIGO COBRA ALUGUEL, TODO DIA, SOBRE O TOTAL. Não sobre os {c}800 dele. Sobre os {c}1,000 inteiros que você controla. Toda noite que você mantém a posição, tenha o preço subido, caído ou ficado parado.\n\nE tem uma quarta coisa escondida dentro da terceira. Se os seus {c}200 ficarem baixos, seu amigo não te liga para conversar. Ele vende. Na hora, automaticamente, pelo preço que tiver, porque são os {c}800 dele em risco e ele não vai esperar sua opinião. Isso tem nome, e você vai conhecê-lo daqui a três lições: liquidação.\n\nEntão: ganhos maiores, perdas maiores, aluguel toda noite e o dedo de outra pessoa no botão de vender. Alavancagem não é dinheiro grátis com um pouquinho de risco junto. É um empréstimo com essas quatro coisas junto, e os anúncios só te mostram a primeira. 🧠",
+      "quiz": {
+        "q": "Um amigo coloca 800 NT, você coloca 200 NT, e juntos vocês controlam 1,000 NT em ações. As ações caem 10%. Arraste até quanto valem agora os seus 200 NT.",
+        "explanation": "O empréstimo não encolhe quando você erra. As ações agora valem 900 NT e seu amigo ainda tem a receber os 800 NT inteiros, então sobram 100 NT para você. Uma queda de 10% nas ações levou metade do seu dinheiro, porque o empréstimo não leva nada da dor. Funciona do mesmo jeito para cima, e essa é a metade que os anúncios te mostram."
+      }
+    },
+    "68": {
+      "title": "Margem É um Depósito, Não uma Compra",
+      "desc": "O dinheiro que você coloca não é gasto, ele fica em jogo",
+      "content": "Quando você compra uma ação por {c}100, esses {c}100 saem do seu saldo e uma ação aparece na sua conta. Uma troca simples.\n\nMargem não funciona assim. Quando você abre uma posição alavancada, você coloca um depósito, e esse depósito não é pagamento de nada. É um depósito de garantia contra as suas próprias perdas. Ele fica lá, travado, e a posição vai comendo ele conforme o preço anda contra você.\n\nDigamos que a taxa de depósito é 25%. Você coloca 250 NT e controla 1,000 NT de exposição. Observe sua conta:\n\n• Preço parado: seus 250 continuam 250. Só que o financiamento já começou, então na real é um pouco menos.\n• Preço cai 5%: a posição perdeu 50 NT. Seu depósito na prática é 200. Seu saldo livre não mexeu. Sua conta está menor.\n• Preço cai 20%: a posição perdeu 200 NT. Seu depósito caiu para 50. Você não fez nada. Não vendeu nada. Só assistiu.\n\nTrês termos que aparecem em toda tela desta sala:\n\n🔒 MARGEM USADA: todos os depósitos que você tem colocados agora.\n💰 PATRIMÔNIO DA CONTA: seu saldo livre, mais sua margem colocada, mais ou menos o lucro e o prejuízo de cada posição aberta, menos o financiamento cobrado até agora. Quanto sua conta realmente vale se tudo fosse fechado neste instante.\n📊 NÍVEL DE MARGEM: patrimônio dividido pela margem usada. Acima de 100% você tem uma folga. Abaixo de 100% o mercado acabou com a folga e começou a comer o depósito.\n\nE uma regra que surpreende todo mundo: a margem é medida na conta inteira, não por posição. Uma posição perdedora come a garantia que sustenta uma vencedora. É por isso que \"minha outra operação está bem\" não é defesa. 🔒",
+      "quiz": {
+        "q": "A taxa de depósito é 25%, então 250 NT do seu próprio dinheiro controlam 1,000 NT de exposição. O preço cai 8% enquanto você não faz absolutamente nada. Arraste até quanto essa queda te custou.",
+        "explanation": "Um depósito não é pagamento de nada, é garantia, e a perda é calculada sobre os 1,000 NT inteiros que você controla. 8% de 1,000 NT são 80 NT. Você não vendeu nada e seu saldo livre não mexeu, mas 80 NT do seu depósito de 250 NT foram comidos e sua conta está 80 NT menor. Calcule os 8% sobre o depósito e você chega a 20 NT, que é o erro que faz a alavancagem parecer suave."
+      }
+    },
+    "69": {
+      "title": "A Chamada de Margem",
+      "desc": "Uma exigência, não um aviso",
+      "content": "Uma chamada de margem é o momento em que seu nível de margem cai abaixo de 100%. Em palavras simples: sua folga de lucro acabou e o mercado começou a comer o próprio depósito.\n\nAqui está como ela é de verdade, porque a versão do livro deixa de fora a parte importante.\n\nEla nunca chega num dia bom. Ela chega quando a posição já está feia, quando você já disse para si mesmo duas vezes que vai voltar, e quando você está menos capaz de tomar uma decisão calma. Não é um aviso educado. É uma exigência: coloque mais dinheiro, ou feche posições, ou o provedor faz isso por você.\n\nVocê tem três jogadas e só duas são suas.\n\n1️⃣ FECHAR alguma coisa. Isso libera margem na hora e é quase sempre a resposta certa. Também significa admitir que você errou, que é o verdadeiro motivo de as pessoas não fazerem isso.\n2️⃣ COLOCAR dinheiro. Isso não resolve nada. Só te compra espaço para ficar errado por mais tempo, numa posição que você já escolheu mal, com dinheiro que você não planejava arriscar. Colocar dinheiro numa chamada de margem é como uma operação ruim vira um mês ruim.\n3️⃣ NÃO FAZER NADA. Aí a terceira jogada acontece sem você, e ela tem nome.\n\nOs reguladores levam isso tão a sério que colocaram um número na lei. Empresas na Europa, no Reino Unido e na Austrália precisam fechar automaticamente as posições de um cliente de varejo quando a margem dele cai para 50% do que era exigido. Não \"deveriam\". Precisam. Eles criaram essa regra porque, quando as pessoas ficavam livres para decidir sozinhas, escolhiam a opção 3 e perdiam mais do que tinham. ⚠️",
+      "quiz": {
+        "q": "Seu nível de margem caiu para 80% e você está numa chamada de margem. Qual resposta realmente reduz o risco de liquidação em vez de só adiá-lo?",
+        "explanation": "Fechar devolve o depósito na hora, então o nível de margem sobe imediatamente. Colocar dinheiro só compra espaço para ficar errado por mais tempo numa operação que você já escolheu mal. Esperar é como a liquidação acontece. E uma segunda posição na direção contrária precisa do próprio depósito, então usa mais margem, não menos.",
+        "options": [
+          "Depositar mais dinheiro na conta",
+          "Esperar o nível de margem voltar a subir",
+          "Fechar uma das posições que você tem abertas",
+          "Abrir uma segunda posição na direção contrária"
+        ]
+      }
+    },
+    "70": {
+      "title": "Liquidação, e o Preço que Você Deve Saber Antes",
+      "desc": "O preço exato em que sua conta chega a zero",
+      "content": "Liquidação é o provedor fechando suas posições por você porque seu depósito está quase acabando. É automática. É instantânea. Ninguém pede sua opinião, ninguém verifica se você estava prestes a acertar, e não tem recurso.\n\nO número mais útil deste módulo inteiro é o seu PREÇO DE LIQUIDAÇÃO: o preço real, em {cPlural} reais, em que isso acontece.\n\nNão uma porcentagem. Um preço. Porque \"você pode perder seu depósito\" é uma frase que você ouve, concorda e esquece, enquanto \"{tech} a {c}87.40 e sua conta está vazia\" é um fato que você pode conferir no gráfico antes de apertar qualquer coisa.\n\nToda tela desta sala mostra esse preço antes de você confirmar, desenhado na mesma escala de preço do gráfico para você ver o quão longe ele realmente está. Duas coisas que você vai notar na hora, e as duas são a lição:\n\n📏 Um depósito maior empurra o preço de liquidação para mais longe. Mais dinheiro seu dentro significa que o preço tem mais espaço para cair antes de o seu dinheiro acabar.\n⚡ Um depósito menor puxa ele para bem perto do preço de hoje. Com um depósito de 10%, a liquidação fica a mais ou menos um movimento de 10%, e um movimento de 10% é uma semana comum.\n\nAgora a pegadinha honesta. O preço de liquidação é onde o sistema pretende te fechar, não onde você tem garantia de sair. Se uma notícia ruim chegar durante a noite e o mercado reabrir muito abaixo desse nível, você é fechado pelo preço que o mercado realmente pagar. Isso é o gap, e a lição 78 é sobre ele.\n\nSaiba seu preço de liquidação antes de abrir. Se você não consegue dizê-lo em voz alta, você não entende a operação que está prestes a fazer. 💀",
+      "quiz": {
+        "q": "Você coloca 200 NT de depósito para controlar 1,000 NT de um ativo que custa 100 NT. Arraste o preço para baixo até onde seu depósito acaba.",
+        "explanation": "Você controla 10 unidades, então cada 1 NT que o preço cai te custa 10 NT. Seu depósito de 200 NT acaba em 80 NT, o que é uma queda de apenas 20%."
+      }
+    },
+    "71": {
+      "title": "O Caminho de Volta É Mais Íngreme",
+      "desc": "Por que perdas são mais difíceis de desfazer do que parecem",
+      "content": "Perdas e ganhos parecem opostos. Não são, e a matemática nem chega perto.\n\nPerdeu 10%? Você precisa de +11% para voltar. Chato, mas ok.\nPerdeu 50%? Você precisa de +100%. Você tem que DOBRAR só para empatar.\nPerdeu 75%? Você precisa de +300%.\nPerdeu 90%? Você precisa de +900%.\n\nO motivo é simples quando você enxerga: o ganho é calculado sobre a pilha menor que sobrou. 100 cai para 50, e para subir de 50 de volta a 100 essa pilha menor tem que dobrar.\n\nAgora adicione alavancagem e repare no que ela realmente faz. Ela não só acelera seus ganhos. Ela te leva tabela abaixo numa única tarde. Uma queda de 12% numa ação, que é uma semana ruim mas totalmente normal, é um golpe de 48% na sua conta com um depósito de 25%. Agora você precisa de +92% para voltar ao ponto de partida, por causa de uma semana que mal saiu no noticiário.\n\nÉ por isso que profissionais falam em proteger o capital antes de falar de qualquer outra coisa, e por que \"eu recupero\" é a frase mais cara do trading. Recuperar é aritmeticamente mais difícil do que foi perder, todas as vezes. ⛰️",
+      "quiz": {
+        "q": "Sua conta está 75% abaixo. Arraste até o ganho de que você precisa a partir daqui só para voltar ao ponto de partida.",
+        "explanation": "100 NT caíram para 25 NT. Para chegar a 100 de novo, esses 25 têm que quadruplicar, o que é um ganho de 300%. A subida é medida sobre a pilha menor que sobrou, e é por isso que ela é muito mais íngreme do que foi a queda."
+      }
+    },
+    "72": {
+      "title": "O Aluguel do Dinheiro Emprestado",
+      "desc": "Certo sobre a direção, e ainda assim no prejuízo",
+      "content": "Você pegou a exposição emprestada. Então você paga por ela. Toda noite.\n\nO financiamento (alguns lugares chamam de swap, ou taxa overnight) é cobrado diariamente, e aqui está a parte que pega todo mundo: ele é cobrado sobre a posição INTEIRA, não sobre a parte que você pegou emprestado. Coloque 500 NT para controlar 2,000 NT e você paga aluguel sobre 2,000.\n\nComo é calculado: uma taxa de juros de referência, mais a margem do provedor, dividido por 365, vezes sua posição inteira. Você vê as duas metades na tela deste app, porque uma taxa que você não consegue separar é uma taxa que você não consegue julgar. A mais ou menos 7.3% ao ano, isso dá cerca de 0.02% da sua posição por noite.\n\nParece nada. Agora veja isso comer uma operação vencedora. 🧾\n\nA OPERAÇÃO EM QUE VOCÊ ACERTA E MESMO ASSIM PERDE\n\nVocê abre uma posição de 2,000 NT na {retail} com um depósito de 500 NT. Você aposta na alta, e acaba acertando: nos meses seguintes a {retail} sobe devagar 2%.\n\n• Seu ganho: 2% de 2,000 = 40 NT. Sobre um depósito de 500 NT isso é +8%. Legal.\n• Seu aluguel: 0.02% de 2,000 = 0.40 NT, toda noite.\n\nNoite 50: você pagou 20 NT. Você está 20 NT acima no total. Ainda ganhando.\nNoite 100: você pagou 40 NT. Seus 40 NT de lucro agora valem exatamente zero. Você acertou e não ganhou nada.\nNoite 180: você pagou 72 NT. Seu ganho continua 40 NT. Você está 32 NT ABAIXO, o que é menos 6.4% do seu depósito, numa operação em que você leu o mercado corretamente por seis meses.\n\nLeia de novo. O preço fez o que você disse que faria. Você ainda assim perdeu.\n\nEssa é a frase para levar desta lição: numa posição alavancada, estar certo tem prazo de validade. Neste exemplo são 100 noites, e você pode calcular o seu antes de abrir. Divida o lucro que você espera pelo aluguel por noite. É quantas noites a sua opinião vale.\n\nO contrário também merece atenção. O resto deste app ensina juros compostos, em que o tempo silenciosamente te faz ganhar dinheiro enquanto você dorme. Esta é a mesma máquina, funcionando ao contrário, apontada para você. ⏳",
+      "quiz": {
+        "q": "Você mantém uma posição alavancada de 2,000 NT que custa 0.40 NT por noite de financiamento. O preço sobe o suficiente para te dar um ganho de 40 NT e depois para de se mexer. Depois de quantas noites esse ganho é totalmente comido?",
+        "options": [
+          "Nunca é comido, porque o financiamento só é cobrado sobre a parte emprestada",
+          "Cerca de 100 noites, porque 40 NT de ganho divididos por 0.40 NT por noite dá 100",
+          "Cerca de 20 noites, porque o financiamento é cobrado sobre seu depósito de 500 NT",
+          "O financiamento só é cobrado quando uma posição é fechada no prejuízo"
+        ]
+      }
+    },
+    "73": {
+      "title": "Futuros: o Relógio e a Rolagem",
+      "desc": "O mesmo custo, entregue de outro jeito",
+      "content": "Futuros e CFDs são primos. Os dois são alavancados, os dois usam margem, os dois podem te liquidar. Duas coisas tornam os futuros diferentes, e a segunda é a interessante.\n\n⏰ 1. TEM UMA DATA NELE. Todo contrato futuro vence. Petróleo de março, milho de junho, índice de setembro. Quando a data chega, o contrato é liquidado e deixa de existir. \"Segurar e esperar voltar\" simplesmente não está no cardápio, porque o contrato não vai estar lá. Um CFD nunca vence, o que parece melhor até você lembrar que ele cobra aluguel para sempre.\n\n🔄 2. O CUSTO ESTÁ EMBUTIDO NO PREÇO, NÃO COBRADO TODA NOITE. Essa é a parte que as pessoas não percebem. Um futuro normalmente não te cobra uma taxa de financiamento por noite. Em vez disso, o custo de manter a coisa até aquela data já vem embutido no preço do contrato. Contratos com datas mais distantes muitas vezes custam mais do que contratos com datas mais próximas, e essa diferença é o mesmo custo de carregamento, escondido dentro do número.\n\nEntão o que acontece quando um trader quer manter a posição depois do vencimento? Ele ROLA: fecha o contrato que está vencendo e abre o próximo. E se o próximo for mais caro, ele paga essa diferença. A cada rolagem. É o aluguel por noite do CFD, cobrado em parcelas maiores e menos frequentes.\n\nO resumo honesto:\n\n• CFD: sem prazo, aluguel toda noite, discriminado no seu extrato.\n• Futuro: prazo rígido, custo escondido dentro do preço e pago a cada rolagem, fácil de não perceber.\n\nNenhum dos dois é de graça. Um deles só apresenta a conta de um jeito mais educado, e um custo que você não vê é o que tem mais chance de te surpreender. ⏳",
+      "quiz": {
+        "q": "Um trader quer manter uma posição em futuros depois da data de vencimento, e o próximo contrato está sendo negociado mais caro do que o que está vencendo. O que acontece quando ele rola?",
+        "explanation": "Rolar significa fechar o contrato que está para vencer e abrir o próximo. Se o próximo custa mais, você entrega essa diferença, e faz isso de novo a cada rolagem. É o mesmo custo de manutenção que um CFD te cobra toda noite, só que cobrado em blocos maiores e escondido dentro do preço em vez de impresso no seu extrato.",
+        "options": [
+          "Ele paga a diferença entre o contrato que vence e o próximo",
+          "Ele recebe a diferença entre os preços dos dois contratos",
+          "Nenhum dinheiro muda de mãos, já que rolar é uma única operação",
+          "A posição vira um CFD e segue sem data de vencimento"
+        ]
+      }
+    },
+    "74": {
+      "title": "Vendendo a Descoberto: a Perda Sem Piso",
+      "desc": "Por que a aposta na queda não tem teto natural",
+      "content": "Tudo neste app até agora foi comprado (long): você compra e quer que o preço suba. Os derivativos deixam você vender a descoberto (short), o que significa apostar que o preço cai. Você abre um short, o preço cai, você lucra.\n\nVender a descoberto é genuinamente útil e não é coisa do mal. É como um agricultor garante um preço antes da colheita e como um fundo protege uma carteira. Entender isso te deixa melhor em ler mercados, porque pela primeira vez você consegue ver os dois lados de cada negociação.\n\nMas existe uma conta na venda a descoberto que não tem equivalente em nenhum outro lugar, e você precisa gravar ela a fogo.\n\n📉 QUANDO VOCÊ COMPRA, o pior caso é o preço ir a zero. Você perde 100% do que colocou. Terrível, mas é um piso. Existe um fundo.\n📈 QUANDO VOCÊ VENDE A DESCOBERTO, o preço indo contra você significa o preço SUBINDO. E não existe regra nenhuma em lugar nenhum dizendo até onde um preço pode subir. Uma ação que triplica te custa 200% da posição. Uma ação que sobe dez vezes te custa 900%.\n\nPerdas na compra têm piso. Perdas na venda a descoberto não têm. Essa assimetria é o aviso inteiro.\n\nMercados reais fazem isso. De vez em quando, uma ação muito vendida a descoberto dispara, porque todo mundo que está vendido é obrigado a comprar para fechar, o que empurra o preço para cima, o que obriga mais gente a comprar. Isso se chama short squeeze e já acabou com fundos.\n\nDuas coisas te mantêm vivo. Primeiro, um short é exatamente onde um stop-loss deixa de ser opcional. Segundo, a proteção contra saldo negativo: numa conta de varejo devidamente regulada, e neste app, sua conta não pode ficar abaixo de zero. Você pode perder tudo o que colocou. Você não pode acabar devendo dinheiro. Essa proteção existe porque, antes dela, as pessoas acabavam. 🕳️",
+      "quiz": {
+        "q": "Por que o pior caso numa posição vendida é diferente, em natureza, do pior caso numa posição comprada?",
+        "explanation": "Comprar tem piso. O pior que um preço pode fazer é chegar a zero, então você perde o que colocou e nada mais. Vender a descoberto é o contrário, porque perder significa o preço subir, e nada diz até onde um preço pode subir. Uma ação que triplica custa ao vendedor a descoberto o dobro da posição. É por isso que um stop deixa de ser opcional num short, e por que este app não pode te levar abaixo de zero.",
+        "options": [
+          "Não é diferente, já que as duas são limitadas ao que você colocou",
+          "Um stop-loss coloca o mesmo piso num short e num long",
+          "Quedas são mais lentas que altas, então um short perde mais devagar",
+          "Um preço só pode cair até zero, mas pode subir sem limite"
+        ]
+      }
+    },
+    "75": {
+      "title": "Volatilidade Vezes Alavancagem",
+      "desc": "Por que a cripto exige o maior depósito aqui",
+      "content": "O mesmo multiplicador em dois ativos diferentes não é a mesma aposta. Essa é a ideia inteira desta lição, e é por isso que o depósito que você precisa colocar muda dependendo do que você está negociando.\n\nPense em como é um dia normal:\n• Um grande índice se move menos de 1% na maioria dos dias.\n• Uma ação individual pode se mover 2% ou 3%.\n• A cripto se move 5% ou 10% com frequência, e um dia de 20% não é uma crise, é uma terça-feira. 🎢\n\nAgora coloque um depósito pequeno por trás de cada um. Com um depósito de 10%, um movimento de 10% te zera. Para o índice, isso é um evento de uma vez a cada vários anos. Para a cripto, é mais ou menos mensal. Mesmo depósito. Chances de sobrevivência completamente diferentes.\n\nOs reguladores perceberam isso e colocaram nas regras. Quando a ESMA limitou a alavancagem de CFDs em toda a Europa em março de 2018, ela não escolheu um número só. Ela escalonou: 30:1 em pares de moedas principais, 20:1 em ouro e índices principais, 10:1 em outras commodities, 5:1 em ações individuais e, lá embaixo, 2:1 em cripto. Dois para um significa um depósito de 50%. Para cripto, eles exigiram METADE da posição em dinheiro real, a regra mais rígida da lista inteira.\n\nEste app faz a mesma coisa, pelo mesmo motivo, e diz isso na tela em vez de esconder:\n\n💱 Forex: o menor depósito, porque os pares principais se movem menos.\n🥇 Ouro e commodities: maior.\n📊 Ações, índices e ETFs: maior ainda.\n🪙 Cripto: o maior depósito de todos, porque a cripto se move mais forte.\n\nA cripto não é proibida aqui, e isso é de propósito. Você pode negociá-la. Só não pode negociá-la com um depósito magro, porque com um depósito magro um dia comum de cripto acabaria com sua conta antes de você terminar de ler sobre isso. O depósito maior não é o app implicando com cripto. É o app garantindo que um dia normal não possa te matar.\n\nVale saber: o regulador do Reino Unido foi além de uma faixa. Em 2021, ele proibiu completamente derivativos de cripto para clientes de varejo, estimando que os consumidores economizariam cerca de £53m. Você pode conhecer a alavancagem em cripto aqui, com dinheiro de mentira e um depósito gordo, ou pode conhecê-la aos dezoito anos com dinheiro real e sem aviso nenhum. Esta é a ordem melhor. 🌡️",
+      "quiz": {
+        "q": "A cripto exige o maior depósito de todos os ativos desta sala. Qual é o motivo real?",
+        "explanation": "Um grande índice se move menos de 1% na maioria dos dias. A cripto se move 5% ou 10% com frequência, e um dia de 20% não é uma crise, é uma terça-feira. Com um depósito magro, um movimento de 10% te zera, o que é um evento de uma vez a cada vários anos para o índice e mais ou menos mensal para a cripto. O regulador europeu exigiu metade da posição em dinheiro real para cripto, a regra mais rígida de toda a lista, exatamente por esse motivo.",
+        "options": [
+          "Menores de 18 são proibidos de cripto, então o depósito é uma punição",
+          "Não se cobra financiamento em cripto, então o depósito o substitui",
+          "Ela se move mais forte, então um dia comum pode esvaziar um depósito magro",
+          "O próprio app define os preços da cripto, em vez do mercado"
+        ]
+      }
+    },
+    "76": {
+      "title": "Os Números que Ninguém Anuncia",
+      "desc": "O que os reguladores descobriram quando contaram",
+      "content": "Você nunca vai ver esses números num anúncio. Eles vêm de reguladores financeiros, que podem exigir os dados reais das contas das empresas e depois publicam o que encontraram.\n\n🇪🇺 ESMA, o regulador europeu, março de 2018. Nos países da UE, entre 74% e 89% das contas de CFD de varejo perdem dinheiro. As perdas médias por cliente iam de €1,600 a €29,000. A ESMA restringiu o produto com base nisso.\n\n🇬🇧 A FCA no Reino Unido, dezembro de 2016. A análise dela de uma amostra representativa de contas de clientes descobriu que 82% dos clientes perderam dinheiro com esses produtos.\n\n🇦🇺 ASIC na Austrália, publicado em janeiro de 2026, o mais recente dos três. No ano fiscal de 2024, 68% dos investidores de varejo em CFDs perderam dinheiro, somando mais de A$458 milhões. Disso, A$73 milhões foram taxas.\n\nPense nessa última linha por um segundo. Setenta e três milhões disso nem foram operações ruins. Foi o custo de jogar: o spread na entrada e o financiamento que você conheceu na lição 72.\n\nTrês reguladores diferentes, três países diferentes, dados de três décadas diferentes, e a resposta continua caindo em algum lugar entre dois terços e nove décimos.\n\nAgora a parte que mais importa, porque é o que impede isso de ser só uma estatística para assustar. Essas pessoas não eram burras. Não eram preguiçosas. Eram, na maioria, adultos com emprego, e muitos deles leem um gráfico melhor do que você lê agora. Elas perderam por causa de como o produto é construído: você começa atrás por causa do spread, paga aluguel enquanto espera, e a alavancagem significa que um movimento comum pode acabar com você antes de a sua opinião ter tempo de se provar certa.\n\nIsso é uma estrutura, não um defeito de caráter. E estruturas só podem ser vencidas por quem sabe que elas existem. 📊",
+      "quiz": {
+        "q": "Reguladores na Europa, no Reino Unido e na Austrália descobriram, cada um, que a maioria das contas de CFD de varejo perde dinheiro. Qual é a explicação honesta?",
+        "explanation": "Eram adultos comuns com emprego, e muitos deles leem um gráfico melhor do que você lê hoje. Eles perderam por causa de como o produto funciona: você começa atrás por causa do spread, paga aluguel toda noite enquanto espera, e a alavancagem significa que um movimento normal pode acabar com você antes de a sua visão ter tempo de dar certo. Isso é uma estrutura, não um defeito de caráter, e estruturas podem ser vencidas por quem sabe que elas existem.",
+        "options": [
+          "O jeito como o produto é construído joga contra o cliente",
+          "Quem perdeu foi descuidado, e traders cuidadosos ficam bem",
+          "Empresas rivais publicaram os números como ataque de marketing",
+          "Perdas nessa escala vêm de países não regulados"
+        ]
+      }
+    },
+    "77": {
+      "title": "O que Mudou Quando as Regras Mudaram",
+      "desc": "A prova de que era o design, não as pessoas",
+      "content": "A lição 76 te deu as perdas. Esta lição te dá o experimento, e é a coisa mais importante deste módulo.\n\nSe a maioria das pessoas perde porque a maioria das pessoas é imprudente, então mudar as regras não deveria mudar nada. Os imprudentes continuam imprudentes. Certo?\n\nA Austrália fez o teste. Em março de 2021, a ASIC impôs um conjunto de proteções a todas as empresas de CFD que atendem clientes de varejo: limites de alavancagem, uma regra padrão de encerramento automático, proteção contra saldo negativo e a proibição de incentivos como bônus de cadastro. Mesmos clientes. Mesmas empresas. Mesmos mercados. Só as regras mudaram.\n\nAqui está o que a ASIC mediu nos primeiros seis meses. 🔬\n\n📉 As perdas líquidas totais das contas de varejo caíram 91%, de uma média de A$372 milhões por trimestre para A$33 milhões.\n📉 51% menos contas de varejo com prejuízo por trimestre.\n📉 87% menos encerramentos por margem.\n📉 88% menos casos de saldo negativo.\n\nNinguém ficou mais esperto em seis meses. O design mudou, e nove décimos do estrago sumiram junto.\n\nDuas coisas decorrem disso, e você deve levar as duas.\n\nPrimeiro: quando você perde numa operação alavancada, muito do que aconteceu com você já estava embutido no produto antes de você chegar. Isso não é permissão para ser descuidado. É um motivo para respeitar a coisa.\n\nSegundo, e esta é a metade útil: as proteções que fizeram o trabalho são exatamente os hábitos que este módulo vem te ensinando. Uma posição menor. Uma saída automática. Um piso rígido para o estrago. Um regulador teve que impor isso a uma indústria inteira para chegar a esses 91%. Você pode simplesmente escolher. 🛡️",
+      "quiz": {
+        "q": "Depois que a Austrália impôs limites de alavancagem e encerramentos automáticos às empresas de CFD, as perdas de varejo caíram 91% em seis meses. O que isso mostra?",
+        "explanation": "Mesmos clientes, mesmas empresas, mesmos mercados. Só as regras mudaram, e nove décimos do estrago foram junto. Ninguém ficou mais esperto em seis meses. As proteções que fizeram o trabalho são os hábitos que este módulo vem te ensinando: uma posição menor, uma saída automática e um piso rígido para o estrago. Um regulador teve que impor isso a uma indústria inteira. Você pode simplesmente escolher.",
+        "options": [
+          "Os traders australianos são mais disciplinados que os europeus",
+          "A alavancagem fica segura quando um regulador está de olho",
+          "As regras fizeram as pessoas pararem de negociar, então não havia o que perder",
+          "A maior parte do estrago vinha do design do produto"
+        ]
+      }
+    },
+    "78": {
+      "title": "O Gap que Pula Seu Stop",
+      "desc": "Um stop é uma instrução para sair, não um preço prometido",
+      "content": "Você já conheceu os stop-losses na lição 19. Aqui está o que a alavancagem faz com eles.\n\nUm stop-loss é uma instrução: \"se o preço chegar a este nível, me tira daqui.\" Não é um contrato sobre o preço que você vai conseguir. Ele diz saia. Ele não diz saia exatamente aqui.\n\nNa maior parte do tempo essa diferença não importa, porque os preços se movem em passos pequenos e sua ordem é executada perto do seu nível. Mas às vezes ela importa demais.\n\n📰 Os mercados fecham. Uma notícia chega às 23h. O mercado reabre 8% abaixo de onde fechou, e nunca foi negociado em nenhum dos preços no meio. Seu stop estava nesse gap. Ele dispara na reabertura e é executado onde o mercado realmente está, bem além do nível que você escolheu.\n\nSem alavancagem, isso é um dia ruim. Com alavancagem, pode ser a conta inteira, porque se o seu depósito era mais fino que o gap, o gap passa direto pelo seu preço de liquidação também, e você é encerrado abaixo do nível que o sistema pretendia.\n\nTrês coisas para fazer com isso, nenhuma complicada:\n\n1️⃣ Não trate um stop como garantia. Trate como um hábito muito bom com uma fraqueza conhecida.\n2️⃣ Saiba quando seu mercado está fechado e o que está agendado. Resultados de empresas, decisões de taxa de juros e eleições são gaps com data marcada na agenda.\n3️⃣ Dimensione para que um gap não possa acabar com você. Essa é a defesa de verdade, e é a próxima lição. Um stop te protege do comum. O tamanho da posição te protege do incomum, e é o incomum que realmente quebra as pessoas.\n\nE vale saber que neste app, como em qualquer conta de varejo devidamente regulada, a proteção contra saldo negativo significa que um gap não pode te levar abaixo de zero. Você pode perder a conta. Você não pode acabar devendo. 📰",
+      "quiz": {
+        "q": "Você coloca um stop-loss em {c}90. Durante a noite, chega uma notícia ruim e o mercado reabre em {c}78, sem ter sido negociado em nenhum preço no meio. O que acontece?",
+        "explanation": "Um stop é uma instrução para sair, não uma promessa sobre o preço que você consegue. O mercado nunca foi negociado entre {c}90 e {c}78, então não havia mais {c}90 para vender. Seu stop dispara na reabertura e é executado onde o mercado realmente está. Os stops ainda te protegem de movimentos comuns. A defesa contra um salto como este é o tamanho da posição, não o stop.",
+        "options": [
+          "Seu stop é executado em {c}90, exatamente onde você colocou",
+          "Você é executado perto de {c}78, o primeiro preço disponível",
+          "A ordem é cancelada, porque o preço pulou ela",
+          "O provedor te paga os {c}12 que o mercado pulou"
+        ]
+      }
+    },
+    "79": {
+      "title": "Primeiro o Tamanho, Depois a Operação",
+      "desc": "Decida o que você pode perder antes de decidir o que comprar",
+      "content": "Aqui está o que separa quem dura de quem não dura, e é quase chato.\n\nIniciantes escolhem a operação e depois calculam quanto colocar. Profissionais fazem ao contrário. Eles decidem primeiro quanto estão dispostos a perder e deixam isso decidir o tamanho que a posição pode ter.\n\nA regra que a maioria usa: arriscar de 1% a 2% da conta em qualquer operação. Não depositar 1%. ARRISCAR 1%, ou seja, é isso que você realmente perde se o seu stop for atingido.\n\nComo funciona, em três passos:\n\n1️⃣ Escolha sua perda máxima. Conta de 10,000 NT, arriscando 1%, então 100 NT.\n2️⃣ Escolha onde você está errado. Você vai sair se o preço cair 5% a partir da sua entrada.\n3️⃣ Divida. 100 NT de perda aceitável, com um stop a 5% de distância, significa uma posição de 2,000 NT. Esse é o seu tamanho. Não um sentimento. Um cálculo.\n\nMude o stop e o tamanho muda automaticamente. Um stop mais apertado de 2% te deixa operar 5,000 NT. Um stop mais largo de 10% te força a descer para 1,000 NT. Quanto mais arriscada a operação, menor ela tem que ser, e a aritmética faz isso por você para que o seu humor não precise fazer.\n\nPor que 1%? Porque isso torna uma sequência de perdas sobrevivível. Dez perdas seguidas a 1% te deixam com 90% da conta e de mau humor. Dez perdas seguidas a 20% te deixam com cerca de 11% da conta e sem caminho de volta, e você já sabe pela lição 71 o quão íngreme é essa subida.\n\nNinguém sobrevive aos mercados escolhendo vencedores. Todo mundo que sobrevive faz isso garantindo que nenhuma perda sozinha possa acabar com ele. 📐",
+      "quiz": {
+        "q": "Uma conta de 10,000 NT. Você vai arriscar 1% nesta operação, e vai sair se o preço cair 5% a partir da sua entrada. Arraste até o tamanho de posição que respeita isso.",
+        "explanation": "1% de 10,000 NT são 100 NT, e isso é o máximo que você combinou perder. Um stop de 5% significa 100 NT divididos por 5%, o que dá uma posição de 2,000 NT. Arraste para mais e o painel mostra você arriscando mais do que decidiu."
+      }
+    },
+    "80": {
+      "title": "Por que Ganhar Parece Habilidade",
+      "desc": "Os jogos mentais que a alavancagem faz com você",
+      "content": "A alavancagem não é principalmente um problema de matemática. A matemática é fácil. É um problema de cabeça, e aqui estão os três que pegam todo mundo.\n\n🎯 1. VIÉS DE RESULTADO: ganhar parece habilidade. Você abre uma posição absurdamente grande, dá certo, você ganha muito numa tarde, e seu cérebro anota \"eu sou bom nisso\". Ele não registrou o que realmente aconteceu, que é que você correu um risco ruim e teve um resultado bom. São coisas diferentes, e o mercado vai alegremente te pagar por uma decisão ruim várias vezes antes de cobrar. A coisa mais perigosa que pode acontecer com um trader novato é uma vitória cedo e fácil.\n\n😤 2. TRADING DE VINGANÇA: você quer de volta, agora. Você leva uma perda, dói, e a vontade é imediata. Então você aumenta o tamanho. Agora você está abrindo sua maior posição exatamente no momento em que seu julgamento está no pior, numa operação que você escolheu porque estava com raiva e não porque era boa. O mercado não sabe que você está no prejuízo e não te deve nada. Quando sentir isso, o tamanho certo é zero. Feche o app.\n\n🕳️ 3. CORRER ATRÁS DO PREJUÍZO: \"vou só segurar até voltar.\" Esse se disfarça de paciência, e é por isso que é tão difícil de perceber. Paciência é um plano que você fez com calma antes. Correr atrás é um plano que você inventou depois que o preço foi contra você, e o sinal é simples: sua saída mudou de lugar. Se você se pegar explicando por que o nível que você definiu não é mais o nível certo, isso não é análise nova. É o seu ego negociando.\n\nA defesa para os três é a mesma e não tem glamour nenhum. Decida tudo enquanto está calmo, anote, e trate a versão de você que aparece no meio da operação como um narrador não confiável. 🧠",
+      "quiz": {
+        "q": "Você abre uma posição muito maior que o normal e ela dá um lucro grande numa tarde. Qual é a forma mais precisa de interpretar isso?",
+        "explanation": "Seu cérebro anota que você é bom nisso. O que realmente aconteceu é que você correu um risco ruim e o mercado por acaso te pagou mesmo assim, e são duas coisas separadas. O mercado paga uma decisão ruim várias vezes antes de cobrar. Uma vitória cedo e fácil é a coisa mais perigosa que pode acontecer com um trader novato, porque ensina a lição errada e te cobra por isso depois.",
+        "options": [
+          "É uma abordagem que funciona, e dá para aumentar o tamanho de novo",
+          "O tamanho estava certo, porque o lucro prova isso",
+          "Você correu um risco ruim e por acaso teve um resultado bom",
+          "Grandes ganhos mostram habilidade, e são as perdas que mostram erros"
+        ]
+      }
+    },
+    "81": {
+      "title": "A Pergunta Honesta",
+      "desc": "Você deveria usar isso?",
+      "content": "Você terminou o módulo. Aqui está a pergunta que os anúncios nunca fazem.\n\nVocê deveria usar alavancagem?\n\nPara a maioria das pessoas, na maior parte do tempo, a resposta honesta é não. Não porque elas não são inteligentes o suficiente. Por causa de tudo nas últimas quinze lições: você começa atrás, paga aluguel enquanto espera, um movimento comum pode acabar com você antes de você ter razão, e três reguladores contando contas reais continuaram descobrindo que de dois terços a nove décimos das pessoas perderam.\n\nExiste uma versão do trading em que você nunca toca em nada disso. Você compra uma ação, é dono de um pedaço de uma empresa, os dividendos caem na conta, o tempo trabalha A SEU FAVOR em vez de contra você, e nada pode fechar sua posição sem perguntar. Esse é o resto deste app, e não é a opção chata. É a opção que a matemática da lição 14 diz que geralmente vence. 🌱\n\nEntão aqui está o que você deve saber antes de decidir.\n\nNada neste app fica trancado atrás da alavancagem. Cada competição, cada ranking, cada caminho de XP, cada partida escolar e cada recompensa NOOB continua completamente aberta para quem nunca abre uma única posição alavancada. Você não perde nada saindo desta sala. Não tem punição nem medalha faltando.\n\nE nada aqui te paga por ganhar. Você é recompensado por terminar as lições, por passar na prova, por colocar um stop, por cortar uma perdedora e por escrever sobre a sua própria liquidação. Você nunca é pago por um lucro, uma posição grande ou uma sequência de sorte, porque te pagar por isso seria ensinar a coisa errada chamando de educação.\n\nSe você usar: use pouco, use com stop, saiba seu preço de liquidação antes de apertar qualquer coisa, e nunca com dinheiro que faria falta. Se não usar, você ainda aprendeu a enxergar a engrenagem, que sempre foi o objetivo. A maioria dos adultos que negocia essas coisas não consegue explicar o que você acabou de aprender. 🤔",
+      "quiz": {
+        "q": "Do que um aluno abre mão ao decidir nunca abrir uma posição alavancada neste app?",
+        "explanation": "Nada neste app fica trancado atrás da alavancagem. Cada competição, cada ranking, cada caminho de XP, cada partida escolar e cada recompensa NOOB continua aberta para quem nunca abre uma única posição alavancada. Não tem punição nem medalha faltando. E nada nesta sala te paga por ganhar: ela paga por terminar as lições, passar na prova, colocar um stop e cortar uma perdedora.",
+        "options": [
+          "De nada, todos os caminhos continuam abertos",
+          "De todas as competições e rankings do app",
+          "Do XP deste módulo, que paga por operações alavancadas",
+          "Das recompensas NOOB, que exigem uma posição alavancada antes"
+        ]
+      }
+    },
+    "82": {
+      "title": "A Explosão",
+      "desc": "Cinco dias, um plano agressivo, uma conta vazia",
+      "content": "Bem-vindo ao Laboratório. Aqui você ganha uma conta de treino isolada de 1,000 LAB NT. Não é a sua carteira, não pode mexer na sua carteira, e nada ganho ou perdido aqui dentro sai daqui. O instrumento é a NOVA. A NOVA é inventada, para ninguém poder nos acusar de prever um crash real. Taxa de depósito 25%. Financiamento 0.02% por noite. Encerramento a 50% da margem usada. E só neste chefão, os limites de posição estão desligados. De propósito. Uma vez.\n\nAqui está a semana que você vai explicar.\n\n📅 DIA 1: NOVA a 100. Bons resultados, o grupo do chat está agitado. Você coloca 800 dos seus 1,000 NT, controlando 3,200 NT de NOVA. Sem stop.\n\n📅 DIA 2: NOVA 106. Você está 192 NT acima, o que é +19.2% da sua conta num dia. Você coloca seus últimos 200 NT. Exposição 4,000 NT. Saldo livre: zero. Ainda sem stop.\n\n📅 DIA 3: NOVA 101.76. Nível de margem 103%. Você ainda está no lucro na semana, então segura.\n\n📅 DIA 4: NOVA 94.64. CHAMADA DE MARGEM. Nível de margem 75%, patrimônio 750 NT. Você não pode colocar mais, porque não sobrou nada para colocar. Você segura.\n\n📅 DIA 5: A NOVA abre com gap de baixa de 9% durante a noite e reabre a 86.12, abaixo do nível de encerramento. LIQUIDADO a 390 NT.\n\nNa semana, a NOVA caiu 13.9%. Sua conta caiu 61%. O aluno que colocou 250 NT com um stop em 95 terminou a mesma semana com cerca de 949 NT, 5% abaixo. E os mesmos 800 NT sem stop, mas sem o aporte do dia 2, teriam terminado em 550 NT: uma chamada de margem, mas vivo.\n\nAgora a análise. Dez perguntas sobre o que acabou de acontecer. Acerte 8 de 10 e você venceu o chefão, porque aqui passar é conseguir explicar o desastre, não evitá-lo. 💀",
+      "bossVictory": "Você explodiu uma conta e saiu sabendo por quê. Esse é o módulo inteiro. 💀",
+      "bossQuestions": {
+        "0": {
+          "q": "Nos cinco dias a NOVA caiu cerca de 14%. Sua conta caiu 61%. Por que a diferença?",
+          "options": [
+            "O app cobrou uma multa por perder",
+            "Você tinha cerca de quatro vezes a exposição que o seu depósito valia, então cada movimento atingia um número quatro vezes maior que a sua conta",
+            "O financiamento respondeu pela maior parte da perda",
+            "A NOVA é uma ação mais arriscada do que os números sugerem"
+          ]
+        },
+        "1": {
+          "q": "No dia 2 você estava 192 NT acima, o que era 19.2% da sua conta num único dia. O que isso estava realmente te dizendo?",
+          "options": [
+            "Que a sua leitura estava certa e você devia aumentar o tamanho",
+            "Que a posição estava bem dimensionada, já que estava no lucro",
+            "Que a alavancagem é segura quando você está certo",
+            "Que a posição era grande o bastante para mexer sua conta em 19% num dia, o que significa que era grande o bastante para fazer o mesmo na direção contrária"
+          ]
+        },
+        "2": {
+          "q": "No dia 2 você colocou seus últimos 200 NT na posição vencedora. O que isso te custou?",
+          "options": [
+            "As duas metades da sua segurança: aumentou a exposição de 3,200 para 4,000 e gastou o único saldo livre que poderia responder a uma chamada de margem",
+            "Nada, porque aumentar uma posição vencedora é como os profissionais fazem os ganhos crescerem",
+            "Só os próprios 200 NT, que a posição teria recuperado",
+            "Um pouco de financiamento, já que o aluguel por noite cresceu um pouco"
+          ]
+        },
+        "3": {
+          "q": "Seu nível de margem chegou a 103% no dia 3. O que esse número significava?",
+          "options": [
+            "Você estava 103% coberto, então a posição tinha garantia de sobra e estava segura",
+            "Sua conta estava 3% acima na semana",
+            "Seu patrimônio mal cobria os depósitos colocados, então a folga tinha acabado e o próximo movimento ia começar a comer o próprio depósito",
+            "Nada sozinho, porque o nível de margem só importa quando está abaixo de 50%"
+          ]
+        },
+        "4": {
+          "q": "Na chamada de margem do dia 4, fechar teria travado uma perda de 250 NT. Você segurou. Por que segurar é a resposta que a maioria das pessoas escolhe?",
+          "options": [
+            "Porque segurar geralmente é a resposta matematicamente correta a uma chamada de margem",
+            "Porque fechar significa admitir que a operação estava errada, e segurar deixa você continuar acreditando que ainda não acabou",
+            "Porque chamadas de margem geralmente se resolvem sozinhas em um dia",
+            "Porque o provedor recomenda segurar para não realizar as perdas"
+          ]
+        },
+        "5": {
+          "q": "Você foi liquidado a 390 NT, mas o nível de encerramento era 500 NT de patrimônio. Por que você terminou abaixo dele?",
+          "options": [
+            "O provedor cobrou uma multa de liquidação de 110 NT",
+            "A NOVA abriu com gap de baixa de 9% durante a noite e reabriu abaixo do nível, então o encerramento foi executado no primeiro preço que o mercado realmente ofereceu",
+            "O financiamento foi descontado de uma vez no momento da liquidação",
+            "O nível de encerramento é só uma estimativa e normalmente erra por essa diferença"
+          ]
+        },
+        "6": {
+          "q": "O aluno que colocou 250 NT e um stop em 95 terminou a mesma semana com cerca de 949 NT. O que ele acertou?",
+          "options": [
+            "Ele decidiu a perda máxima antes de abrir e deixou isso decidir o tamanho",
+            "Ele leu melhor o gráfico da NOVA e viu a queda chegando",
+            "Ele evitou o financiamento usando um depósito menor",
+            "Ele teve sorte, porque as mesmas escolhas geralmente perdem"
+          ]
+        },
+        "7": {
+          "q": "Você pagou financiamento toda noite sobre os 4,000 NT inteiros de exposição. Nesta operação, quanto isso importou?",
+          "options": [
+            "Foi a maior parte da perda, porque o financiamento se acumula toda noite",
+            "Nada, porque o financiamento só é cobrado em posições que sobrevivem um mês",
+            "Só alguns NT, porque a operação foi curta. O financiamento é o que mata a posição que fica parada por meses, não a que explode em uma semana",
+            "Cerca de 192 NT, o mesmo que o ganho do dia 2"
+          ]
+        },
+        "8": {
+          "q": "Todas as escolhas aqui eram permitidas. No Centro CFD, a maioria delas não vai ser. Por quê?",
+          "options": [
+            "Porque os limites deixam o app mais barato de manter",
+            "Porque os reguladores exigem um modo de treino antes de qualquer negociação simulada",
+            "Porque menores de 18 não podem assistir a uma liquidação duas vezes",
+            "Você acabou de ver um depósito de 80% numa só posição e um saldo livre zerado destruírem uma conta em cinco dias, e os limites existem para tornar essa sequência exata impossível"
+          ]
+        },
+        "9": {
+          "q": "Qual é a coisa mais útil para levar disso tudo?",
+          "options": [
+            "Que o tamanho da posição, decidido antes de abri-la, importa mais do que acertar a direção",
+            "Que a NOVA foi uma ação ruim de escolher, e uma pesquisa melhor teria salvado a conta",
+            "Que ninguém deveria tocar em alavancagem em hipótese nenhuma",
+            "Que chamadas de margem são imprevisíveis, então não havia nada que você pudesse fazer"
+          ]
+        }
+      }
+    },
+    "83": {
+      "title": "A Licença",
+      "desc": "Dez perguntas. Oito certas para passar.",
+      "content": "A Licença é a prova para a qual este módulo vem se preparando. Dez perguntas, e cada uma é um cálculo ou uma decisão sobre uma posição com cara de real, porque o Centro CFD também não trabalha com definições.\n\nNota para passar: 8 de 10. Você tem 3 tentativas por dia. Nós te dizemos sua pontuação, mas não quais perguntas você errou, então uma tentativa que não passou é um sinal para reler o módulo, não para chutar de novo.\n\nNada aqui é pegadinha. Cada número vem direto das lições que você já fez. Se você consegue resolver essas dez, você entende este módulo melhor do que a maioria dos adultos que negocia esses produtos de verdade. 🎫",
+      "bossVictory": "Você consegue olhar para a tela de verdade, com números de verdade, e dizer não. Essa é a licença. 🎫",
+      "bossQuestions": {
+        "0": {
+          "q": "Sua conta tem 1,000 NT e nada mais aberto. Você coloca os 1,000 NT inteiros como depósito a uma taxa de 25%, controlando 4,000 NT de {tech} a 200 NT por ação. O encerramento dispara a 50% do seu depósito. A que preço {tech} precisa chegar para você ser encerrado?",
+          "options": [
+            "150 NT, uma queda de 25%, igual à taxa de depósito",
+            "100 NT, uma queda de 50%, igual à regra de encerramento",
+            "175 NT, uma queda de 12.5%, porque perder 500 NT sobre 4,000 NT de exposição exige um movimento de 12.5%",
+            "195 NT, uma queda de 2.5%"
+          ]
+        },
+        "1": {
+          "q": "Uma posição de 3,000 NT custa 0.02% por noite de financiamento. Você espera um movimento de 3% a seu favor, que vale 90 NT. Quantas noites essa visão vale antes de o financiamento comê-la?",
+          "options": [
+            "Cerca de 50 noites",
+            "Cerca de 150 noites, porque 90 NT divididos por 0.60 NT por noite dá 150",
+            "Cerca de 300 noites",
+            "Nunca é comida, porque o financiamento só se aplica a posições perdedoras"
+          ]
+        },
+        "2": {
+          "q": "Sua conta tem 5,000 NT. Você vai arriscar 2% numa operação e vai sair se o preço andar 4% contra você. Qual é a maior posição que você deve abrir?",
+          "options": [
+            "100 NT, o valor que você está arriscando",
+            "1,000 NT, um quinto da conta",
+            "5,000 NT, porque o stop protege a conta de qualquer jeito",
+            "2,500 NT, porque 100 NT de perda aceitável divididos por um stop a 4% de distância dão o tamanho"
+          ]
+        },
+        "3": {
+          "q": "Uma posição levou sua conta de 1,000 NT para 400 NT. Que retorno você precisa a partir daqui só para voltar a 1,000 NT?",
+          "options": [
+            "150%, porque 400 NT precisam crescer uma vez e meia o próprio valor para chegar a 1,000",
+            "60%, a mesma porcentagem que você perdeu",
+            "100%, porque dobrar sempre te faz voltar",
+            "250%, o dobro do que você perdeu"
+          ]
+        },
+        "4": {
+          "q": "O painel ao vivo mostra: nível de margem 82%, saldo livre 0, uma posição aberta e 18% abaixo. Qual jogada realmente reduz o risco de liquidação?",
+          "options": [
+            "Colocar dinheiro na conta",
+            "Segurar e esperar o nível se recuperar",
+            "Fechar uma posição, o que libera na hora a margem que ela estava usando",
+            "Abrir uma segunda posição na direção oposta para anular a primeira"
+          ]
+        },
+        "5": {
+          "q": "Você vende {tech} a descoberto a 50 NT com uma posição de 2,000 NT. Uma aquisição reprecifica a ação durante a noite para 150 NT. Como essa perda se compara ao pior caso de uma posição comprada do mesmo tamanho?",
+          "options": [
+            "É a mesma, porque as duas são limitadas ao que você colocou",
+            "O short perde 4,000 NT, o dobro do valor da posição, enquanto um long nunca poderia perder mais do que os próprios 2,000 NT da posição",
+            "O short não perde nada se havia um stop-loss, porque stops são garantidos",
+            "A perda do short é menor, porque os preços caem mais rápido do que sobem"
+          ]
+        },
+        "6": {
+          "q": "Seu stop está em 90 NT. Uma notícia chega durante a noite e o mercado reabre em 78 NT sem nunca ter sido negociado no meio. O que acontece, e qual é a defesa real contra isso?",
+          "options": [
+            "Você é executado em 90 NT, porque é isso que um stop garante",
+            "A ordem é cancelada, porque o preço pulou o seu nível",
+            "Você é executado perto de 78 NT, e a defesa contra gaps é o tamanho da posição, não o stop",
+            "O provedor te deve a diferença entre 90 e 78"
+          ]
+        },
+        "7": {
+          "q": "Por que a cripto tem a maior exigência de depósito no Centro CFD?",
+          "options": [
+            "Ela se move mais forte, então um depósito magro seria esvaziado por um dia de cripto completamente comum",
+            "Não se cobra financiamento em cripto, então o depósito o substitui",
+            "Cripto é proibida para menores de 18 e o depósito é a punição",
+            "Os preços da cripto são definidos pelo app, e não pelo mercado"
+          ]
+        },
+        "8": {
+          "q": "Qual destas coisas rende XP neste módulo?",
+          "options": [
+            "Um ganho de 40% numa posição alavancada",
+            "Usar a maior exposição disponível",
+            "Uma sequência de cinco operações vencedoras",
+            "Fechar uma posição perdedora em vez de aumentá-la"
+          ]
+        },
+        "9": {
+          "q": "A prévia antes da operação diz que um movimento adverso de 10% tira 620 NT da sua conta, o que é 62% da sua carteira. Seu preço de liquidação é 88.40 e {tech} está sendo negociada a 96.00 agora. Você abre?",
+          "options": [
+            "Sim, porque o preço de liquidação está bem abaixo do preço atual",
+            "Sim, se você estiver confiante na direção",
+            "Só com o dobro da exposição, para o risco valer a pena",
+            "Não: um movimento de cerca de 8% esvazia a posição, 8% é um movimento comum, e 62% de uma carteira numa só operação quebra todas as regras de dimensionamento deste módulo"
+          ]
+        }
+      }
+    },
+    "84": {
+      "title": "Seu Pior Caso, Escolhido com Antecedência",
+      "desc": "Stop-loss, take-profit e a saída que ninguém escolhe",
+      "content": "Você já conhece o depósito, a chamada, o encerramento, o aluguel, o stop e o gap. Esta lição coloca a última peça no lugar: toda posição que você abrir vai terminar de exatamente uma de três formas, e o jogo inteiro é quem escolhe qual.\n\n1️⃣ VOCÊ FECHA. Você toca no botão e a posição fecha no preço de mercado atual. Sempre disponível, em toda posição, em qualquer situação. A maioria das saídas deveria ser esta.\n\n2️⃣ UMA ORDEM QUE VOCÊ DEFINIU FECHA. Dois tipos, e os nomes importam, então aprenda direito:\n\n• Uma ORDEM STOP-LOSS te fecha automaticamente quando o preço anda CONTRA você até um nível que você escolheu: um stop de venda abaixo da sua entrada num long, um stop de compra acima da sua entrada num short. É o seu pior caso, decidido enquanto você estava calmo, que a lição 80 já te ensinou que é o único momento em que você decide algo bem.\n• Uma ORDEM TAKE-PROFIT é uma ordem limitada para fechar: ela te fecha automaticamente no alvo que você escolheu, quando o preço anda A SEU FAVOR até alcançá-lo. É o seu \"já chega\", decidido antes de a ganância ter voto. Uma ordem limitada é executada no seu nível ou melhor, nunca pior.\n\n3️⃣ O PROVEDOR FECHA. Isso é a liquidação, da lição 70. E aqui está o que você precisa gravar: liquidação não é um tipo de ordem. Você não pode colocar uma \"operação de liquidação\". Ninguém pode. Não é uma ferramenta do seu kit; é o que o provedor faz para proteger o empréstimo dele quando seu depósito está quase acabando, pelo preço que o mercado estiver pagando, enquanto você está na escola ou dormindo.\n\nUm stop-loss é você decidindo seu pior caso com antecedência. A liquidação é o que acontece quando você não decidiu.\n\nSuas duas ordens são honestas do mesmo jeito, e você já sabe disso pela lição 78: elas disparam no seu nível e são executadas pelo que o mercado realmente paga. Um gap por cima do seu stop te executa do outro lado do salto, o que é pior. Um gap através do seu take-profit também te executa do outro lado, o que é melhor. O mesmo fato, virado para as duas direções.\n\nUma regra de posicionamento, e este app a aplica com o motivo na tela: seu stop precisa ficar entre o preço atual e o seu preço de liquidação. Um stop além do preço de liquidação nunca poderia disparar, porque o provedor teria te fechado antes, então o app recusa e te diz por quê.\n\nTrês portas de saída em toda operação. Duas delas têm o seu nome na maçaneta. Sair por uma dessas, num dia que você escolheu, num nível que você escolheu com calma, é o que este módulo inteiro vem te ensinando a fazer. 🚪",
+      "quiz": {
+        "q": "Sua posição comprada tem um stop-loss que você colocou em 180.00 e um preço de liquidação de 150.00. Qual é a diferença real entre esses dois números?",
+        "options": [
+          "Nenhuma, são dois nomes para o mesmo encerramento automático, e o provedor o dispara num único preço todas as vezes",
+          "O stop-loss é decisão do provedor e o preço de liquidação é seu, então o que você realmente controla é o que dispara em segundo",
+          "O stop em 180.00 é o seu pior caso, escolhido por você com antecedência enquanto estava calmo; 150.00 é onde o provedor te fecha para proteger o empréstimo dele, porque você não tem mais voz",
+          "O stop garante uma execução exatamente em 180.00, não importa o que o mercado faça, enquanto a liquidação pode ser executada em qualquer preço, por mais longe que ele tenha ido"
+        ]
+      }
+    }
+  },
+  "context": {
+    "ZA": {
+      "name": "África do Sul",
+      "cName": "rand",
+      "cPlural": "rands",
+      "exDesc": "uma das maiores bolsas de valores de todo o continente africano",
+      "sectorList": "⛏️ Mineração: Anglo American, Impala Platinum. Ligadas aos preços globais das commodities\n🏦 Bancos: Standard Bank, FirstRand, Capitec. Vão bem quando os juros estão mais altos\n📱 Tecnologia: Naspers, Prosus. Ligadas às tendências globais de tecnologia\n🛍️ Varejo: Shoprite, Pick n Pay. Vão bem quando os consumidores têm dinheiro para gastar\n📡 Telecomunicações: MTN, Vodacom. Mais estáveis, porque as pessoas sempre precisam de dados",
+      "etfBasket": "as 40 maiores empresas da JSE",
+      "etfDesc": "O JSE Top 40, por exemplo, é uma lista das 40 maiores empresas listadas na JSE, classificadas pelo valor das ações realmente disponíveis para negociação.",
+      "etfList": "🇿🇦 Satrix Top 40: as 40 maiores empresas da JSE. Ótimo ponto de partida.\n🌍 Satrix MSCI World: empresas de 23 países desenvolvidos numa única compra.\n🇺🇸 Sygnia Itrix S&P 500: as 500 grandes empresas americanas da lista do S&P 500.\n💡 Satrix Nasdaq 100: as 100 maiores empresas não financeiras da Nasdaq. Muito concentrado em tecnologia.",
+      "currencyHedge": "Eles são cotados em dólares ou euros. Então, se o rand se DESVALORIZA (R20 por dólar vira R22), os seus investimentos globais AUTOMATICAMENTE passam a valer mais em rands!",
+      "fxQuizSetup": "O rand se desvaloriza de R18 para R22 em relação ao dólar",
+      "fxQuizLose": "Perde valor porque a África do Sul está indo pior",
+      "fxQuizGain": "SOBE em rands porque cada dólar compra mais rands",
+      "dcaTitle": "Custo médio em rands",
+      "dcaAbbrev": "RCA",
+      "food": "um hambúrguer do Wimpy"
+    },
+    "US": {
+      "name": "Estados Unidos",
+      "cName": "dólar",
+      "cPlural": "dólares",
+      "exDesc": "o maior mercado de ações do mundo, com folga",
+      "sectorList": "💻 Tecnologia: Apple, Microsoft, Alphabet. Movidas pela inovação e pela demanda global\n🏦 Bancos: JPMorgan, Bank of America, Goldman Sachs. Vão bem quando os juros sobem\n🛍️ Varejo: Amazon, Walmart, Costco. Vão bem quando os consumidores estão gastando\n⚡ Energia: Exxon Mobil, Chevron. Ligadas aos preços globais de petróleo e gás\n📡 Telecomunicações: AT&T, Verizon, T-Mobile. As pessoas sempre precisam de conexão",
+      "etfBasket": "as 500 grandes empresas americanas da lista do S&P 500",
+      "etfDesc": "O S&P 500, por exemplo, é uma lista de 500 grandes empresas americanas escolhidas por um comitê. Elas precisam ser grandes, lucrativas e fáceis de negociar. NÃO são simplesmente as 500 maiores, e a lista mistura empresas listadas na NYSE com empresas listadas na Nasdaq.",
+      "etfList": "🇺🇸 SPY / VOO: acompanham o S&P 500, uma lista de 500 grandes empresas americanas. O padrão-ouro.\n📦 VTI: o mercado de ações americano inteiro, milhares de empresas em um ETF.\n💡 QQQ: as 100 maiores empresas não financeiras da Nasdaq. Muito concentrado em tecnologia.\n🌍 VT / VXUS: empresas globais ou internacionais num único fundo.",
+      "currencyHedge": "Se o dólar se desvaloriza frente a outras moedas, os seus investimentos internacionais passam a valer MAIS em dólares automaticamente!",
+      "fxQuizSetup": "O dólar se desvaloriza bastante frente ao euro e ao iene",
+      "fxQuizLose": "Perde valor porque a economia americana está com dificuldades",
+      "fxQuizGain": "SOBE em dólares porque os seus investimentos no exterior ganharam valor com o câmbio",
+      "dcaTitle": "Custo médio em dólares",
+      "dcaAbbrev": "DCA",
+      "food": "um combo de Big Mac"
+    },
+    "GB": {
+      "name": "Reino Unido",
+      "cName": "libra",
+      "cPlural": "libras",
+      "exDesc": "uma das bolsas de valores mais antigas e importantes do mundo",
+      "sectorList": "⚡ Energia: Shell, BP. Gigantes globais de petróleo e gás\n🏦 Bancos: HSBC, Barclays, Lloyds. Vão bem quando os juros estão mais altos\n🧴 Consumo: Unilever, Diageo, Reckitt. Potências de marcas para a casa\n🛍️ Varejo: Tesco, Sainsbury's. Vão bem quando os consumidores estão gastando\n📡 Telecomunicações: Vodafone, BT Group. As pessoas sempre precisam de conexão",
+      "etfBasket": "as 100 maiores empresas da Bolsa de Londres",
+      "etfDesc": "O FTSE 100, por exemplo, é uma lista das 100 maiores empresas do mercado principal da Bolsa de Londres, revisada a cada três meses.",
+      "etfList": "🇬🇧 iShares Core FTSE 100: as 100 maiores empresas da Bolsa de Londres.\n🌍 Vanguard FTSE All-World: empresas de dezenas de países numa única compra.\n🇺🇸 iShares Core S&P 500: as 500 grandes empresas americanas da lista do S&P 500.\n💡 iShares Nasdaq 100: as 100 maiores empresas não financeiras da Nasdaq. Muito concentrado em tecnologia.",
+      "currencyHedge": "Se a libra se desvaloriza frente a outras moedas, os seus investimentos internacionais passam a valer MAIS em libras automaticamente!",
+      "fxQuizSetup": "A libra se desvaloriza bastante frente ao dólar e ao euro",
+      "fxQuizLose": "Perde valor porque a economia britânica está com dificuldades",
+      "fxQuizGain": "SOBE em libras porque os seus investimentos no exterior ganharam valor com o câmbio",
+      "dcaTitle": "Custo médio em libras",
+      "dcaAbbrev": "PCA",
+      "food": "um quarto de frango do Nando's"
+    },
+    "IN": {
+      "name": "Índia",
+      "cName": "rupia",
+      "cPlural": "rupias",
+      "exDesc": "uma das maiores bolsas de valores do mundo em número de negociações",
+      "sectorList": "💻 Tecnologia: TCS, Infosys, Wipro. Potências globais de serviços de TI\n🏦 Bancos: HDFC Bank, SBI, ICICI. Vão bem quando os juros estão mais altos\n🛍️ Consumo: ITC, Hindustan Unilever, DMart. Vão bem quando os consumidores estão gastando\n⚡ Energia: Reliance, ONGC. Ligadas a petróleo, gás e refino\n📡 Telecomunicações: Airtel, Vodafone Idea. O enorme mercado de celulares da Índia não para de crescer",
+      "etfBasket": "50 das maiores e mais negociadas empresas da Índia",
+      "etfDesc": "O Nifty 50, por exemplo, é uma lista de 50 das maiores e mais negociadas empresas da Índia, escolhidas pelo tamanho E pela facilidade de serem compradas e vendidas, não só pelo tamanho.",
+      "etfList": "🇮🇳 Nippon India Nifty 50: o Nifty 50, uma lista de 50 das maiores e mais negociadas empresas da Índia.\n💡 ICICI Prudential Sensex: o Sensex, uma lista de 30 das blue chips mais conhecidas da Índia.\n📦 Kotak Nifty Next 50: as 50 empresas classificadas logo abaixo do Nifty 50.\n🌍 Motilal Oswal Nasdaq 100: as 100 maiores empresas não financeiras da Nasdaq.",
+      "currencyHedge": "Se a rupia se desvaloriza frente ao dólar, os seus investimentos internacionais passam a valer MAIS em rupias automaticamente!",
+      "fxQuizSetup": "A rupia se desvaloriza de ₹82 para ₹90 em relação ao dólar",
+      "fxQuizLose": "Perde valor porque a economia da Índia está com dificuldades",
+      "fxQuizGain": "SOBE em rupias porque cada dólar compra mais rupias",
+      "dcaTitle": "Custo médio em rupias",
+      "dcaAbbrev": "RCA",
+      "food": "uma pizza da Domino's"
+    },
+    "JP": {
+      "name": "Japão",
+      "cName": "iene",
+      "cPlural": "ienes",
+      "exDesc": "uma das maiores bolsas de valores do mundo",
+      "sectorList": "🚗 Automotivo: Toyota, Honda, Nissan. As montadoras mundialmente famosas do Japão\n💻 Tecnologia: Sony, SoftBank, Nintendo. Games, entretenimento e inovação\n🏦 Bancos: MUFG, SMFG, Mizuho. Os megagrupos bancários do Japão\n🛍️ Varejo: Fast Retailing (Uniqlo), Seven & i. Alcance global no varejo\n📡 Telecomunicações: NTT, KDDI, SoftBank. Enorme infraestrutura móvel",
+      "etfBasket": "as 225 empresas da lista do Nikkei 225",
+      "etfDesc": "O Nikkei 225, por exemplo, é uma lista de 225 empresas japonesas conhecidas, escolhidas para representar o mercado inteiro. Ele é ponderado pelo preço, o que significa que uma ação com preço alto conta mais do que uma empresa que é simplesmente grande.",
+      "etfList": "🇯🇵 Um ETF do Nikkei 225: as 225 empresas da lista do Nikkei 225. A referência.\n📦 Um ETF do TOPIX: uma fatia bem mais ampla do mercado de Tóquio, bem mais de mil empresas.\n🌍 MAXIS All Country World: mercados desenvolvidos e emergentes num único fundo.\n🇺🇸 iShares S&P 500: as 500 grandes empresas americanas da lista do S&P 500.",
+      "currencyHedge": "Se o iene se desvaloriza frente a outras moedas, os seus investimentos internacionais passam a valer MAIS em ienes automaticamente!",
+      "fxQuizSetup": "O iene se desvaloriza de ¥130 para ¥155 em relação ao dólar",
+      "fxQuizLose": "Perde valor porque a economia do Japão está com dificuldades",
+      "fxQuizGain": "SOBE em ienes porque os seus investimentos no exterior ganharam valor com o câmbio",
+      "dcaTitle": "Custo médio em ienes",
+      "dcaAbbrev": "YCA",
+      "food": "uma tigela de ramen"
+    },
+    "DE": {
+      "name": "Alemanha",
+      "cName": "euro",
+      "cPlural": "euros",
+      "exDesc": "uma das maiores bolsas de valores da Europa",
+      "sectorList": "💻 Tecnologia: SAP, Infineon. Software empresarial e semicondutores\n🚗 Automotivo: Volkswagen, BMW, Mercedes-Benz. O orgulho da engenharia alemã\n🏦 Bancos: Deutsche Bank, Commerzbank. Vão bem quando os juros sobem\n🏭 Indústria: Siemens, BASF. Manufatura e química globais\n📡 Telecomunicações: Deutsche Telekom, 1&1. A espinha dorsal da conectividade alemã",
+      "etfBasket": "as 40 maiores empresas alemãs da Bolsa de Frankfurt",
+      "etfDesc": "O DAX 40, por exemplo, é uma lista das 40 maiores empresas alemãs da Bolsa de Frankfurt, e desde 2021 elas também precisam ser lucrativas para entrar.",
+      "etfList": "🇩🇪 iShares Core DAX: as 40 maiores empresas alemãs da Bolsa de Frankfurt.\n🌍 Xtrackers MSCI World: empresas de 23 países desenvolvidos.\n🇺🇸 iShares Core S&P 500: as 500 grandes empresas americanas da lista do S&P 500.\n🇪🇺 Um ETF do EURO STOXX 50: 50 líderes blue chip de toda a zona do euro.",
+      "currencyHedge": "Se o euro se desvaloriza frente a outras moedas, os seus investimentos internacionais passam a valer MAIS em euros automaticamente!",
+      "fxQuizSetup": "O euro se desvaloriza bastante frente ao dólar e ao iene",
+      "fxQuizLose": "Perde valor porque a economia da Europa está com dificuldades",
+      "fxQuizGain": "SOBE em euros porque os seus investimentos no exterior ganharam valor com o câmbio",
+      "dcaTitle": "Custo médio",
+      "dcaAbbrev": "DCA",
+      "food": "um döner kebab"
+    },
+    "CA": {
+      "name": "Canadá",
+      "cName": "dólar canadense",
+      "cPlural": "dólares canadenses",
+      "exDesc": "uma das 10 maiores bolsas de valores do mundo",
+      "sectorList": "💻 Tecnologia: Shopify, OpenText, Constellation Software. Inovação tecnológica canadense\n🏦 Bancos: RBC, TD, BMO, Scotiabank. Os cinco grandes do Canadá são sólidos como rocha\n⚡ Energia: Enbridge, Suncor, TC Energy. Gigantes das areias betuminosas e dos oleodutos\n🛍️ Varejo: Dollarama, Canadian Tire, Loblaw. Marcas de varejo nascidas no país\n📡 Telecomunicações: BCE, Rogers, Telus. Os canadenses sempre precisam de conexão",
+      "etfBasket": "60 grandes empresas canadenses que cobrem todos os principais setores",
+      "etfDesc": "O S&P/TSX 60, por exemplo, é uma lista de 60 grandes empresas canadenses escolhidas por um comitê para que todos os principais setores estejam representados, o que significa que não são simplesmente as 60 maiores.",
+      "etfList": "🇨🇦 iShares S&P/TSX 60 (XIU): 60 grandes empresas canadenses de todos os principais setores.\n📦 Vanguard All-Equity (VEQT): ações canadenses, americanas e internacionais em um ETF.\n🇺🇸 BMO S&P 500: as 500 grandes empresas americanas da lista do S&P 500.\n💡 Um ETF do Nasdaq 100: as 100 maiores empresas não financeiras da Nasdaq. Muito concentrado em tecnologia.",
+      "currencyHedge": "Se o dólar canadense se desvaloriza frente a outras moedas, os seus investimentos internacionais passam a valer MAIS em C$ automaticamente!",
+      "fxQuizSetup": "O dólar canadense se desvaloriza bastante frente ao dólar americano",
+      "fxQuizLose": "Perde valor porque a economia do Canadá está com dificuldades",
+      "fxQuizGain": "SOBE em dólares canadenses porque os seus investimentos no exterior ganharam valor com o câmbio",
+      "dcaTitle": "Custo médio em dólares",
+      "dcaAbbrev": "DCA",
+      "food": "um combo do Tim Hortons"
+    },
+    "AU": {
+      "name": "Austrália",
+      "cName": "dólar australiano",
+      "cPlural": "dólares australianos",
+      "exDesc": "a maior bolsa de valores do Hemisfério Sul",
+      "sectorList": "⛏️ Mineração: BHP, Rio Tinto, Fortescue. Gigantes globais de mineração e recursos naturais\n🏦 Bancos: CBA, Westpac, ANZ, NAB. Os quatro grandes bancos da Austrália\n🏥 Saúde: CSL, Cochlear. Biotecnologia e dispositivos médicos de nível mundial\n🛍️ Varejo: Woolworths, Coles, Wesfarmers. Supermercados e bens de consumo essenciais\n💻 Tecnologia: WiseTech Global, Xero. Casos de sucesso de software listados na Austrália",
+      "etfBasket": "as 200 maiores empresas da ASX",
+      "etfDesc": "O S&P/ASX 200, por exemplo, é uma lista das 200 maiores empresas listadas na ASX, medidas pelo valor das ações disponíveis para negociação e filtradas pela facilidade com que trocam de mãos.",
+      "etfList": "🇦🇺 iShares Core S&P/ASX 200 (IOZ): as 200 maiores empresas da ASX.\n📦 Vanguard Australian Shares (VAS): ainda mais amplo, cerca de 300 empresas da ASX.\n🌍 Vanguard MSCI International (VGS): empresas de mercados desenvolvidos fora da Austrália.\n🇺🇸 BetaShares Nasdaq 100 (NDQ): as 100 maiores empresas não financeiras da Nasdaq.",
+      "currencyHedge": "Se o dólar australiano se desvaloriza frente a outras moedas, os seus investimentos internacionais passam a valer MAIS em A$ automaticamente!",
+      "fxQuizSetup": "O dólar australiano se desvaloriza bastante frente ao dólar americano",
+      "fxQuizLose": "Perde valor porque a economia da Austrália está com dificuldades",
+      "fxQuizGain": "SOBE em A$ porque os seus investimentos no exterior ganharam valor com o câmbio",
+      "dcaTitle": "Custo médio em dólares",
+      "dcaAbbrev": "DCA",
+      "food": "uma torta de carne"
+    },
+    "HK": {
+      "name": "Hong Kong",
+      "cName": "dólar de Hong Kong",
+      "cPlural": "dólares de Hong Kong",
+      "exDesc": "a bolsa de valores que serve de porta de entrada entre a China e os mercados globais",
+      "sectorList": "💻 Tecnologia: Tencent, Xiaomi, Meituan. Gigantes chinesas de tecnologia listadas em HK\n🏦 Bancos: HSBC, Hang Seng Bank. Vão bem quando os juros sobem\n🏗️ Imóveis: CK Asset, Sun Hung Kai. Em Hong Kong, o setor imobiliário é rei\n⚡ Serviços públicos: CLP, Power Assets. Dividendos estáveis ano após ano\n🛡️ Seguros: AIA, Prudential. Líderes de seguros da Ásia-Pacífico",
+      "etfBasket": "as maiores e mais negociadas empresas de Hong Kong",
+      "etfDesc": "O Hang Seng Index, por exemplo, é uma lista selecionada das maiores e mais negociadas empresas de Hong Kong, escolhidas para representar todos os principais setores. O número de empresas nele muda conforme o comitê do índice inclui e retira nomes.",
+      "etfList": "🇭🇰 Tracker Fund (2800): acompanha o Hang Seng Index. O pioneiro dos ETFs em Hong Kong.\n💡 Hang Seng TECH ETF: as 30 maiores empresas de tecnologia listadas em Hong Kong.\n🇺🇸 Um ETF do S&P 500: as 500 grandes empresas americanas da lista do S&P 500.\n🇨🇳 Um ETF de ações A da China: acesso a empresas listadas em Xangai e Shenzhen.",
+      "currencyHedge": "O dólar de Hong Kong é atrelado ao dólar americano, então um fundo global com muitos EUA quase não se mexe só por causa do câmbio. Mas a parte fora dos EUA (Europa, Japão, o resto da Ásia) ainda ganha valor em HK$ quando essas moedas se valorizam!",
+      "fxQuizSetup": "O euro e o iene se valorizam frente ao dólar americano, e o dólar de Hong Kong é atrelado ao dólar americano",
+      "fxQuizLose": "Perde valor porque a economia de Hong Kong está com dificuldades",
+      "fxQuizGain": "A parte europeia e japonesa SOBE em HK$, porque essas moedas agora compram mais dólares de Hong Kong",
+      "dcaTitle": "Custo médio em dólares",
+      "dcaAbbrev": "DCA",
+      "food": "uma tigela de macarrão com wonton"
+    },
+    "CN": {
+      "name": "China",
+      "cName": "yuan",
+      "cPlural": "yuans",
+      "exDesc": "uma das maiores bolsas de valores do mundo em valor de mercado",
+      "sectorList": "💻 Tecnologia: SMIC, Kingsoft Office. Fabricação de chips e software listados em Xangai\n🏦 Bancos: ICBC, CCB, Bank of China. Entre os maiores bancos do mundo em ativos\n🚗 Automotivo: SAIC Motor, Great Wall Motor. As montadoras nascidas na China\n🛍️ Consumo: Kweichow Moutai, Haier, Yili. Marcas conhecidas em toda a China\n📡 Telecomunicações: China Mobile, China Telecom. Redes móveis gigantescas",
+      "etfBasket": "300 das maiores e mais negociadas empresas da China continental",
+      "etfDesc": "O CSI 300, por exemplo, é uma lista de 300 das maiores e mais negociadas empresas da China continental, e cobre TANTO a bolsa de Xangai QUANTO a de Shenzhen, não só uma delas.",
+      "etfList": "🇨🇳 Huatai-PB CSI 300 (510300): 300 grandes empresas muito negociadas de Xangai e Shenzhen.\n💡 ChinaAMC SSE 50 (510050): as 50 maiores empresas só da bolsa de Xangai.\n🌍 Um fundo amplo de ações chinesas: cobertura maior que a do CSI 300.\n🇺🇸 Um fundo QDII do S&P 500: acesso às 500 grandes empresas americanas da lista do S&P 500.",
+      "currencyHedge": "Se o yuan se desvaloriza frente a outras moedas, os seus investimentos internacionais passam a valer MAIS em yuans automaticamente!",
+      "fxQuizSetup": "O yuan se desvaloriza bastante frente ao dólar e ao euro",
+      "fxQuizLose": "Perde valor porque a economia da China está com dificuldades",
+      "fxQuizGain": "SOBE em yuans porque os seus investimentos no exterior ganharam valor com o câmbio",
+      "dcaTitle": "Custo médio em yuans",
+      "dcaAbbrev": "YCA",
+      "food": "uma tigela de macarrão"
+    },
+    "FR": {
+      "name": "França",
+      "cName": "euro",
+      "cPlural": "euros",
+      "exDesc": "a casa de algumas das marcas de luxo e industriais mais icônicas do mundo",
+      "sectorList": "👜 Luxo: LVMH, Hermès, Kering. A França domina o luxo mundial\n⚡ Energia: TotalEnergies, Engie. Grandes empresas europeias de energia\n🏦 Bancos: BNP Paribas, Société Générale. Vão bem quando os juros sobem\n✈️ Aeroespacial: Airbus, Safran. Aviões e defesa de liderança mundial\n📡 Telecomunicações: Orange, Bouygues. A espinha dorsal da conectividade francesa",
+      "etfBasket": "as 40 empresas da lista do CAC 40",
+      "etfDesc": "O CAC 40, por exemplo, é uma lista de 40 empresas escolhidas por um comitê independente entre as 100 maiores da Bolsa de Paris, com base no tamanho E no quanto são negociadas.",
+      "etfList": "🇫🇷 Amundi CAC 40: as 40 empresas da lista do CAC 40. A referência.\n🌍 Um ETF do MSCI World: empresas de 23 países desenvolvidos.\n🇺🇸 BNP Paribas Easy S&P 500: as 500 grandes empresas americanas da lista do S&P 500.\n🇪🇺 Um ETF do EURO STOXX 50: 50 líderes blue chip de toda a zona do euro.",
+      "currencyHedge": "Se o euro se desvaloriza frente a outras moedas, os seus investimentos internacionais passam a valer MAIS em euros automaticamente!",
+      "fxQuizSetup": "O euro se desvaloriza bastante frente ao dólar e ao iene",
+      "fxQuizLose": "Perde valor porque a economia da Europa está com dificuldades",
+      "fxQuizGain": "SOBE em euros porque os seus investimentos no exterior ganharam valor com o câmbio",
+      "dcaTitle": "Custo médio",
+      "dcaAbbrev": "DCA",
+      "food": "um croque-monsieur"
+    },
+    "IT": {
+      "name": "Itália",
+      "cName": "euro",
+      "cPlural": "euros",
+      "exDesc": "uma das bolsas de valores mais antigas da Europa, casa de marcas italianas icônicas",
+      "sectorList": "🏎️ Automotivo: Ferrari, Stellantis. A excelência da engenharia italiana\n⚡ Energia: Enel, Eni. Grandes empresas europeias de energia e serviços públicos\n🏦 Bancos: UniCredit, Intesa Sanpaolo. Vão bem quando os juros sobem\n🛡️ Seguros: Generali, Unipol. Os gigantes de seguros da Itália\n📡 Telecomunicações: TIM, Inwit. A infraestrutura de conectividade da Itália",
+      "etfBasket": "as 40 empresas da lista do FTSE MIB",
+      "etfDesc": "O FTSE MIB, por exemplo, é uma lista de 40 das maiores e mais negociadas empresas da Bolsa de Milão, escolhidas para cobrir os principais setores da Itália.",
+      "etfList": "🇮🇹 Um ETF do FTSE MIB: as 40 empresas da lista do FTSE MIB.\n🌍 iShares Core MSCI World: empresas de 23 países desenvolvidos.\n🇺🇸 Amundi S&P 500: as 500 grandes empresas americanas da lista do S&P 500.\n🇪🇺 Xtrackers EURO STOXX 50: 50 líderes blue chip de toda a zona do euro.",
+      "currencyHedge": "Se o euro se desvaloriza frente a outras moedas, os seus investimentos internacionais passam a valer MAIS em euros automaticamente!",
+      "fxQuizSetup": "O euro se desvaloriza bastante frente ao dólar e ao iene",
+      "fxQuizLose": "Perde valor porque a economia da Europa está com dificuldades",
+      "fxQuizGain": "SOBE em euros porque os seus investimentos no exterior ganharam valor com o câmbio",
+      "dcaTitle": "Custo médio",
+      "dcaAbbrev": "DCA",
+      "food": "uma pizza margherita"
+    },
+    "ES": {
+      "name": "Espanha",
+      "cName": "euro",
+      "cPlural": "euros",
+      "exDesc": "a principal bolsa de valores da Espanha e porta de entrada para os mercados latino-americanos",
+      "sectorList": "👗 Moda e beleza: Inditex (Zara), Puig. O império global de estilo da Espanha\n🏦 Bancos: Santander, BBVA, CaixaBank. Os bancos espanhóis têm um enorme alcance global\n⚡ Energia: Iberdrola, Endesa. Líderes em energia renovável na Europa\n📡 Telecomunicações: Telefónica, Cellnex. A espinha dorsal da conectividade espanhola\n🏗️ Infraestrutura: Ferrovial, ACS. Construindo infraestrutura no mundo todo",
+      "etfBasket": "as 35 empresas mais negociadas da Espanha",
+      "etfDesc": "O IBEX 35, por exemplo, é uma lista das 35 ações espanholas mais negociadas, escolhidas por um comitê técnico com base no volume de negociação. Então é uma lista das mais negociadas, não das maiores.",
+      "etfList": "🇪🇸 Um ETF do IBEX 35: as 35 ações espanholas mais negociadas.\n🌍 iShares Core MSCI World: empresas de 23 países desenvolvidos.\n🇺🇸 Vanguard S&P 500: as 500 grandes empresas americanas da lista do S&P 500.\n🇪🇺 Um ETF do EURO STOXX 50: 50 líderes blue chip de toda a zona do euro.",
+      "currencyHedge": "Se o euro se desvaloriza frente a outras moedas, os seus investimentos internacionais passam a valer MAIS em euros automaticamente!",
+      "fxQuizSetup": "O euro se desvaloriza bastante frente ao dólar e ao iene",
+      "fxQuizLose": "Perde valor porque a economia da Europa está com dificuldades",
+      "fxQuizGain": "SOBE em euros porque os seus investimentos no exterior ganharam valor com o câmbio",
+      "dcaTitle": "Custo médio",
+      "dcaAbbrev": "DCA",
+      "food": "um prato de tapas"
+    },
+    "NL": {
+      "name": "Países Baixos",
+      "cName": "euro",
+      "cPlural": "euros",
+      "exDesc": "a bolsa de valores mais antiga do mundo, fundada em 1602",
+      "sectorList": "💻 Tecnologia: ASML, Adyen. A ASML move os chips mais avançados do mundo\n⚡ Energia: Shell, SBM Offshore. Gigantes globais de energia com sede nos Países Baixos\n🏦 Bancos: ING, ABN AMRO. Vão bem quando os juros sobem\n🍺 Consumo: Heineken, Ahold Delhaize. Marcas globais de alimentos e bebidas\n📡 Telecomunicações: KPN, a maior empresa de conectividade listada do país",
+      "etfBasket": "as 25 empresas mais negociadas de Amsterdã",
+      "etfDesc": "O AEX, por exemplo, é uma lista das 25 ações mais negociadas da Bolsa de Amsterdã. Ele classifica as empresas pelo quanto são negociadas, não pelo tamanho.",
+      "etfList": "🇳🇱 iShares AEX: as 25 ações mais negociadas de Amsterdã.\n🌍 Vanguard FTSE All-World: empresas de dezenas de países numa única compra.\n🇺🇸 iShares Core S&P 500: as 500 grandes empresas americanas da lista do S&P 500.\n🇪🇺 Um ETF do EURO STOXX 50: 50 líderes blue chip de toda a zona do euro.",
+      "currencyHedge": "Se o euro se desvaloriza frente a outras moedas, os seus investimentos internacionais passam a valer MAIS em euros automaticamente!",
+      "fxQuizSetup": "O euro se desvaloriza bastante frente ao dólar e ao iene",
+      "fxQuizLose": "Perde valor porque a economia da Europa está com dificuldades",
+      "fxQuizGain": "SOBE em euros porque os seus investimentos no exterior ganharam valor com o câmbio",
+      "dcaTitle": "Custo médio",
+      "dcaAbbrev": "DCA",
+      "food": "um kroket (croquete holandês)"
+    },
+    "BR": {
+      "name": "Brasil",
+      "cName": "real",
+      "cPlural": "reais",
+      "exDesc": "a maior bolsa de valores da América Latina",
+      "sectorList": "⛏️ Mineração: Vale, CSN. As gigantes brasileiras de minério de ferro e aço\n⚡ Energia: Petrobras, Eletrobras. Grandes empresas de petróleo e energia elétrica\n🏦 Bancos: Itaú, Bradesco, Banco do Brasil. Vão bem quando os juros sobem\n🍺 Consumo: Ambev, JBS. Potências de alimentos e bebidas\n📡 Telecomunicações: Vivo, TIM Brasil. As operadoras de celular e banda larga do Brasil",
+      "etfBasket": "as empresas mais negociadas da B3",
+      "etfDesc": "O Ibovespa, por exemplo, é uma lista das empresas mais negociadas da B3. Uma empresa conquista o seu lugar pelo quanto é comprada e vendida, não pelo tamanho. Por isso, o número de empresas na lista muda com o tempo.",
+      "etfList": "🇧🇷 BOVA11: acompanha o Ibovespa, as empresas mais negociadas da B3. A referência.\n🇺🇸 IVVB11: acompanha o S&P 500. São 500 grandes empresas americanas, cotadas em reais.\n🌍 Um ETF global de ações: mercados desenvolvidos e emergentes numa única compra.\n💡 HASH11: um fundo de índice de cripto com Bitcoin, Ethereum e mais.",
+      "currencyHedge": "Se o real se desvaloriza frente ao dólar, os seus investimentos internacionais passam a valer MAIS em R$ automaticamente!",
+      "fxQuizSetup": "O real se desvaloriza de R$5 para R$6 em relação ao dólar",
+      "fxQuizLose": "Perde valor porque a economia do Brasil está com dificuldades",
+      "fxQuizGain": "SOBE em reais porque cada dólar compra mais reais",
+      "dcaTitle": "Custo médio em reais",
+      "dcaAbbrev": "RCA",
+      "food": "um combo de pão de queijo"
+    },
+    "SA_ARABIA": {
+      "name": "Arábia Saudita",
+      "cName": "rial",
+      "cPlural": "riais",
+      "exDesc": "a maior bolsa de valores do Oriente Médio",
+      "sectorList": "🛢️ Energia: Saudi Aramco, SABIC. A Aramco é a petroleira mais valiosa do mundo\n🏦 Bancos: Al Rajhi, SNB, Riyad Bank. Vão bem quando os juros sobem\n📡 Telecomunicações: STC, Mobily. As operadoras de celular e banda larga da Arábia Saudita\n🛍️ Varejo: Jarir, Extra. Redes de varejo populares\n⛏️ Materiais: Ma'aden, Yansab. Mineração e petroquímica",
+      "etfBasket": "todas as empresas listadas no mercado principal da Tadawul",
+      "etfDesc": "O TASI (Tadawul All Share Index) não é uma lista de top 30 nem de top 100. Ele cobre todas as empresas listadas no mercado principal da Tadawul, então o número de empresas nele muda sempre que uma empresa entra ou sai da bolsa.",
+      "etfList": "🇸🇦 Um ETF que acompanha o TASI: exposição ampla a todo o mercado principal da Tadawul.\n📦 Um ETF de blue chips sauditas: uma cesta bem menor com os maiores nomes sauditas.\n🌍 Um ETF do MSCI Saudi Arabia: acompanha o índice saudita da MSCI, um recorte filtrado do mercado.\n🇺🇸 Um fundo do S&P 500: as 500 grandes empresas americanas da lista do S&P 500.",
+      "currencyHedge": "Como o rial é atrelado ao dólar americano, investir globalmente em outras moedas te beneficia quando essas moedas se valorizam!",
+      "fxQuizSetup": "Moedas globais como o euro e o iene se valorizam frente ao rial",
+      "fxQuizLose": "Perde valor porque a economia da Arábia Saudita está com dificuldades",
+      "fxQuizGain": "SOBE em riais porque os seus investimentos no exterior ganharam valor com o câmbio",
+      "dcaTitle": "Custo médio em riais",
+      "dcaAbbrev": "RCA",
+      "food": "uma refeição do Al Baik"
+    },
+    "KR": {
+      "name": "Coreia do Sul",
+      "cName": "won",
+      "cPlural": "wons",
+      "exDesc": "a casa da Samsung, da Hyundai e de algumas das empresas mais inovadoras da Ásia",
+      "sectorList": "💻 Tecnologia: Samsung, SK Hynix, Kakao. Líderes globais em tecnologia e chips\n🚗 Automotivo: Hyundai, Kia. As montadoras mundialmente famosas da Coreia\n🏦 Bancos: KB Financial, Shinhan. Vão bem quando os juros sobem\n🎶 Entretenimento: HYBE, CJ ENM. A onda cultural global do K-pop e dos K-dramas\n📡 Telecomunicações: KT, LG Uplus. A conectividade ultrarrápida da Coreia do Sul",
+      "etfBasket": "200 das maiores e mais negociadas empresas da Coreia",
+      "etfDesc": "O KOSPI 200, por exemplo, é uma lista de 200 das maiores e mais negociadas empresas da Coreia, escolhidas setor por setor para que todas as partes do mercado estejam representadas.",
+      "etfList": "🇰🇷 KODEX 200: acompanha o KOSPI 200, uma lista de 200 das maiores e mais negociadas empresas da Coreia.\n🌍 Um ETF global de ações: empresas de mercados desenvolvidos numa única compra.\n🇺🇸 TIGER Nasdaq 100: as 100 maiores empresas não financeiras da Nasdaq.\n💡 KODEX Samsung Group: acompanha as empresas listadas do grupo Samsung.",
+      "currencyHedge": "Se o won se desvaloriza frente a outras moedas, os seus investimentos internacionais passam a valer MAIS em wons automaticamente!",
+      "fxQuizSetup": "O won se desvaloriza de ₩1,300 para ₩1,400 em relação ao dólar",
+      "fxQuizLose": "Perde valor porque a economia da Coreia do Sul está com dificuldades",
+      "fxQuizGain": "SOBE em wons porque cada dólar compra mais wons",
+      "dcaTitle": "Custo médio em wons",
+      "dcaAbbrev": "WCA",
+      "food": "uma tigela de bibimbap"
+    },
+    "TW": {
+      "name": "Taiwan",
+      "cName": "dólar taiwanês",
+      "cPlural": "dólares taiwaneses",
+      "exDesc": "a casa da TSMC, a empresa que fabrica a maioria dos chips mais avançados do mundo",
+      "sectorList": "💻 Tecnologia: TSMC, MediaTek, ASUS. Taiwan fabrica os chips do mundo\n🏭 Manufatura: Hon Hai (Foxconn), Delta. Gigantes da fabricação de eletrônicos\n🏦 Bancos: Cathay Financial, Fubon. Vão bem quando os juros sobem\n🧪 Química: Formosa Plastics, Nan Ya. Líderes em materiais industriais\n📡 Telecomunicações: Chunghwa Telecom, Far EasTone. A espinha dorsal da conectividade de Taiwan",
+      "etfBasket": "as 50 maiores empresas da Bolsa de Taiwan",
+      "etfDesc": "Taiwan tem duas listas bem diferentes. O TAIEX cobre todas as empresas listadas na Bolsa de Taiwan, cerca de mil. O Taiwan 50, que o popular ETF 0050 acompanha, tem só as 50 maiores.",
+      "etfList": "🇹🇼 0050 (Yuanta Taiwan Top 50): as 50 maiores empresas da Bolsa de Taiwan. O clássico.\n📦 0056 (Yuanta High Dividend): ações de Taiwan escolhidas pelo dividend yield esperado.\n🇺🇸 00646 (Yuanta S&P 500): as 500 grandes empresas americanas da lista do S&P 500.\n💡 00662 (Fubon Nasdaq 100): as 100 maiores empresas não financeiras da Nasdaq.",
+      "currencyHedge": "Se o dólar taiwanês se desvaloriza frente a outras moedas, os seus investimentos internacionais passam a valer MAIS em NT$ automaticamente!",
+      "fxQuizSetup": "O dólar taiwanês se desvaloriza de NT$30 para NT$34 em relação ao dólar americano",
+      "fxQuizLose": "Perde valor porque a economia de Taiwan está com dificuldades",
+      "fxQuizGain": "SOBE em NT$ porque os seus investimentos no exterior ganharam valor com o câmbio",
+      "dcaTitle": "Custo médio em dólares",
+      "dcaAbbrev": "DCA",
+      "food": "uma sopa de macarrão com carne"
+    },
+    "SG": {
+      "name": "Singapura",
+      "cName": "dólar de Singapura",
+      "cPlural": "dólares de Singapura",
+      "exDesc": "o principal centro financeiro e bolsa de valores do Sudeste Asiático",
+      "sectorList": "🏦 Bancos: DBS, OCBC, UOB. O trio de bancos sólidos como rocha de Singapura\n✈️ Transporte: Singapore Airlines, SATS. Aviação de nível mundial\n🏗️ Imóveis: CapitaLand, City Developments. O setor imobiliário é enorme em Singapura\n💻 Tecnologia: Venture Corporation, AEM. A tecnologia listada na SGX é principalmente fabricação de eletrônicos; a Sea e a Grab preferiram abrir capital nos EUA\n📡 Telecomunicações: Singtel, StarHub. As operadoras de conectividade de Singapura",
+      "etfBasket": "as 30 maiores empresas da Bolsa de Singapura",
+      "etfDesc": "O Straits Times Index, por exemplo, é uma lista das 30 maiores empresas da Bolsa de Singapura que também passam nos testes de free float e de negociação.",
+      "etfList": "🇸🇬 Nikko AM STI ETF: as 30 maiores empresas da Bolsa de Singapura. A referência.\n📦 ABF Singapore Bond Index Fund: títulos do governo de Singapura num único fundo.\n🌏 iShares MSCI Asia ex Japan: acesso amplo aos mercados asiáticos.\n🇺🇸 Um ETF do S&P 500: as 500 grandes empresas americanas da lista do S&P 500.",
+      "currencyHedge": "Se o dólar de Singapura se desvaloriza frente a outras moedas, os seus investimentos internacionais passam a valer MAIS em S$ automaticamente!",
+      "fxQuizSetup": "O dólar de Singapura se desvaloriza bastante frente ao dólar americano",
+      "fxQuizLose": "Perde valor porque a economia de Singapura está com dificuldades",
+      "fxQuizGain": "SOBE em S$ porque os seus investimentos no exterior ganharam valor com o câmbio",
+      "dcaTitle": "Custo médio em dólares",
+      "dcaAbbrev": "DCA",
+      "food": "uma refeição num hawker centre"
+    },
+    "CH": {
+      "name": "Suíça",
+      "cName": "franco",
+      "cPlural": "francos",
+      "exDesc": "a casa da Nestlé, da Novartis e da Roche, três das empresas mais valiosas da Europa",
+      "sectorList": "💊 Farmacêutico: Novartis, Roche. Potências farmacêuticas globais\n🍫 Consumo: Nestlé, Lindt. As marcas de alimentos mais icônicas do mundo\n🏦 Bancos: UBS, Julius Baer. Os bancos suíços são lendários\n🏭 Indústria: ABB, Holcim. Engenharia e construção globais\n📡 Telecomunicações: Swisscom, Sunrise. As operadoras de conectividade da Suíça",
+      "etfBasket": "as 20 maiores e mais negociadas empresas suíças",
+      "etfDesc": "O Swiss Market Index, por exemplo, é uma lista das 20 maiores e mais negociadas empresas suíças.",
+      "etfList": "🇨🇭 iShares Core SPI: o mercado suíço inteiro, não só os grandes nomes.\n💡 Um ETF do SMI: as 20 maiores e mais negociadas empresas suíças.\n🌍 UBS ETF MSCI World: empresas de 23 países desenvolvidos.\n🇺🇸 iShares Core S&P 500: as 500 grandes empresas americanas da lista do S&P 500.",
+      "currencyHedge": "Se o franco se desvaloriza frente a outras moedas, os seus investimentos internacionais passam a valer MAIS em CHF. O franco suíço costuma ser muito forte!",
+      "fxQuizSetup": "O franco suíço se desvaloriza bastante frente ao dólar e ao euro",
+      "fxQuizLose": "Perde valor porque a economia da Suíça está com dificuldades",
+      "fxQuizGain": "SOBE em francos porque os seus investimentos no exterior ganharam valor com o câmbio",
+      "dcaTitle": "Custo médio em francos",
+      "dcaAbbrev": "FCA",
+      "food": "um kebab"
+    },
+    "SE": {
+      "name": "Suécia",
+      "cName": "coroa",
+      "cPlural": "coroas",
+      "exDesc": "a casa da Ericsson, da Volvo e de um número surpreendente de marcas globais",
+      "sectorList": "💻 Tecnologia: Ericsson, Hexagon. A Suécia joga acima do seu peso em tecnologia\n🚗 Automotivo: Volvo, Volvo Cars. A excelência da engenharia sueca\n🏦 Bancos: SEB, Handelsbanken, Nordea. Vão bem quando os juros sobem\n👗 Varejo: H&M, Essity. Marcas globais de moda e consumo\n📡 Telecomunicações: Telia, Tele2. Líderes nórdicos em conectividade",
+      "etfBasket": "as 30 empresas mais negociadas de Estocolmo",
+      "etfDesc": "O OMXS30, por exemplo, é uma lista das 30 ações mais negociadas da Bolsa de Estocolmo. Ele classifica pela atividade de negociação, não pelo tamanho da empresa.",
+      "etfList": "🇸🇪 Xact OMXS30: as 30 ações mais negociadas de Estocolmo.\n💰 Avanza Zero: um fundo de índice sueco sem taxa anual de administração. Ele segue as mesmas 30 ações de Estocolmo.\n🌍 Um fundo de índice global: empresas de dezenas de países numa única compra.\n🇺🇸 Um fundo do S&P 500: as 500 grandes empresas americanas da lista do S&P 500.",
+      "currencyHedge": "Se a coroa se desvaloriza frente a outras moedas, os seus investimentos internacionais passam a valer MAIS em kr automaticamente!",
+      "fxQuizSetup": "A coroa sueca se desvaloriza bastante frente ao dólar e ao euro",
+      "fxQuizLose": "Perde valor porque a economia da Suécia está com dificuldades",
+      "fxQuizGain": "SOBE em coroas porque os seus investimentos no exterior ganharam valor com o câmbio",
+      "dcaTitle": "Custo médio em coroas",
+      "dcaAbbrev": "KCA",
+      "food": "um wrap de falafel"
+    }
+  }
+}

@@ -1,0 +1,1846 @@
+{
+  "_meta": {
+    "lang": "fi",
+    "source": "src/constants/lessonData.js",
+    "lessons": 84,
+    "hash": {
+      "1": "d38ab2ed",
+      "2": "bf930bc6",
+      "3": "6e4e4d63",
+      "4": "5b7802cc",
+      "5": "0f9cde1d",
+      "6": "e5999569",
+      "7": "66bc9202",
+      "8": "65677cac",
+      "9": "59a1fc31",
+      "10": "03ccde2e",
+      "11": "fbb06743",
+      "12": "7713dc86",
+      "13": "38054a44",
+      "14": "cbac8395",
+      "15": "4355d5d7",
+      "16": "bee25cb0",
+      "17": "a5cba909",
+      "18": "df93ed01",
+      "19": "ad2f3ae8",
+      "20": "6363dc90",
+      "21": "65a3ab78",
+      "22": "61f1ee9c",
+      "23": "a475dd40",
+      "24": "6874af82",
+      "25": "d92ac77b",
+      "26": "e8f1b315",
+      "27": "c3b42e04",
+      "28": "c3719a16",
+      "29": "b8690fa4",
+      "30": "272435ad",
+      "31": "ebbffa78",
+      "32": "31ae442d",
+      "33": "71dbb7c6",
+      "34": "62d271e6",
+      "35": "da185960",
+      "36": "66e0a88e",
+      "37": "4a91dc0c",
+      "38": "9ec4dee7",
+      "39": "ae809a71",
+      "40": "c3b12ff9",
+      "41": "aa4153d7",
+      "42": "29941a97",
+      "43": "d87240fc",
+      "44": "87c794ce",
+      "45": "a3dd8868",
+      "46": "7873826b",
+      "47": "47503da5",
+      "48": "6d2df7b4",
+      "49": "c1055330",
+      "50": "7d4a6a8a",
+      "51": "27e927d2",
+      "52": "041c444d",
+      "53": "8fb1d4bc",
+      "54": "33ec5d94",
+      "55": "b7571fb2",
+      "56": "f20ea6ce",
+      "57": "5a1f3993",
+      "58": "561a7caf",
+      "59": "67437975",
+      "60": "6db8d44d",
+      "61": "04bbebe6",
+      "62": "b43659be",
+      "63": "a6bfefd0",
+      "64": "a2cc88e0",
+      "65": "2f12b47a",
+      "66": "4a676ede",
+      "67": "17351f96",
+      "68": "e9dda763",
+      "69": "3b1a13c3",
+      "70": "b07744de",
+      "71": "798da84a",
+      "72": "960b5a23",
+      "73": "76df64cb",
+      "74": "90735bdf",
+      "75": "b5be8d19",
+      "76": "b2c7a6ad",
+      "77": "1f3344ae",
+      "78": "e03a370e",
+      "79": "3b881962",
+      "80": "64bddadd",
+      "81": "d30753ea",
+      "82": "71620bf3",
+      "83": "989bc8a6",
+      "84": "cdd0a41d"
+    }
+  },
+  "lessons": {
+    "1": {
+      "title": "Mikä on osake?",
+      "desc": "Omista pieni pala yhtiötä",
+      "content": "Kuvittele, että sinä ja 9 kaveria laitatte kukin {c}10, jotta voitte ostaa yhdessä {c}100 maksavat lenkkarit. Jokainen omistaa 1/10 lenkkareista, ja se on käytännössä osake! Kun ostat osakkeen yhtiöstä {retail}, omistat pienen siivun jokaisesta myymälästä, jokaisesta tuotteesta ja jokaisesta {cName}-yksiköstä, jonka yhtiö tienaa. Mitä isommaksi yhtiö kasvaa, sitä arvokkaampi siivusi on! 🔥",
+      "quiz": {
+        "q": "Sinä ja 4 kaveria jaatte {c}500 maksavan pelituolin hinnan tasan. Mitä kukin teistä omistaa?",
+        "explanation": "Osakkeen omistaminen tarkoittaa, että omistat osan kokonaisuudesta. Viisi yhtä paljon maksanutta tarkoittaa viittä yhtä suurta siivua, ja jokaisella siivulla on samat oikeudet kuin muilla.",
+        "options": [
+          "Kukin omistaa 1/5 (20 %) tuolista",
+          "Ei mitään, vain yksi ihminen voi omistaa sen",
+          "Koko tuolin yhdessä ilman kenenkään omaa osuutta"
+        ]
+      }
+    },
+    "2": {
+      "title": "{ex} selitettynä",
+      "desc": "Pörssi maassa {name}",
+      "content": "Ajattele {ex}:tä ({exFull}) jättimäisenä verkkokauppana, paitsi että lenkkarien tai puhelinten sijaan ihmiset ostavat ja myyvät pieniä paloja (osakkeita) yhtiöistä, kuten {top5}. Se on auki joka arkipäivä paitsi yleisinä vapaapäivinä, ja hinnat muuttuvat koko päivän sen mukaan, kuka ostaa ja kuka myy. {ex} on {exDesc}! 🌍",
+      "quiz": {
+        "q": "Mitä {ex} muistuttaa eniten?",
+        "explanation": "Pörssi yhdistää ihmiset, jotka haluavat ostaa osakkeita, niihin, jotka haluavat myydä niitä. Pörssi ei omista osakkeita, se ei päätä hintaa, eikä se maksa sinulle korkoa rahoista, jotka jätät sinne.",
+        "options": [
+          "Markkinapaikkaa, jossa osakkeiden omistajat kohtaavat ostajat",
+          "Säästötiliä, jossa raha makaa ja kerryttää korkoa",
+          "Kauppaa, joka omistaa osakkeet ja myy ne sinulle"
+        ]
+      }
+    },
+    "3": {
+      "title": "Härät vs karhut",
+      "desc": "Markkinoiden suunnat avattuna",
+      "content": "Markkinoilla eläimet pitävät jöötä 😄\n\n🐂 Härkä = hinnat NOUSEVAT. Kuvittele härkä, joka puskee sarvillaan ylöspäin. Kaikki voittavat, ihmiset ostavat, fiilis on hyvä.\n\n🐻 Karhu = hinnat LASKEVAT. Kuvittele karhu, joka huitaisee tassullaan alaspäin. Ihmiset pelkäävät ja myyvät, eikä aika ole paras mahdollinen.\n\nKun joku sanoo olevansa 'bullish {tech}:n suhteen' (härkämäinen), hän uskoo hinnan nousevan. Kun hän sanoo olevansa 'bearish' (karhumainen), hän uskoo hinnan laskevan. Kuulet näitä sanoja kaikkialla rahamaailmassa!",
+      "quiz": {
+        "q": "Kaverisi sanoo: 'Olen karhumainen {telco}:n suhteen tällä viikolla.' Mitä se tarkoittaa?",
+        "explanation": "Karhumainen (bearish) tarkoittaa, että odotat hinnan laskevan, ja härkämäinen (bullish), että odotat sen nousevan. Karhu huitaisee alas, härkä heittää ylös.",
+        "options": [
+          "Hän uskoo, että {telco}:n hinta nousee",
+          "Hän uskoo, että {telco}:n hinta laskee",
+          "Hän haluaa ostaa {telco}:a niin paljon kuin mahdollista"
+        ]
+      }
+    },
+    "4": {
+      "title": "Mikä on välittäjä?",
+      "desc": "Porttisi osakkeiden ostamiseen",
+      "content": "Et voi vain kävellä yhtiön {retail} luo ja sanoa 'antakaa minulle vähän yhtiötänne, kiitos' 😂 Tarvitset välittäjän: sovelluksen tai palvelun, joka yhdistää ostajat ja myyjät pörssissä.\n\nAjattele välittäjää kuin {shop}:ia. Haluat jotain, ja {shop} yhdistää sinut siihen. Se hoitaa kaupan ja veloittaa pienen palkkion. Suosittuja välittäjiä maassa {name} ovat muun muassa {broker}.\n\nTätä välittäjä EI tee: päätä, mitkä osakkeet nousevat. Se välittää toimeksiantosi markkinoille. Hinta liikkuu sen mukaan, mitä kaikki muut ostavat ja myyvät, ei siksi, että välittäjäsi sanoi niin.\n\nVälittäjät kyllä julkaisevat mielipiteitä. Niiden analyytikot antavat osakkeille suosituksia 'osta', 'pidä' tai 'myy'. Mielipide ei ole käsky 🤷 Analyytikot ovat avoimesti eri mieltä täsmälleen samasta osakkeesta, ja moni heistä osoittautuu vääräksi. Lue suositus kuin arvostelu, älä kuin sääntö.\n\nNoobTrader opettaa sinulle tarkalleen, miten tämä toimii, ilmaiseksi ja virtuaalirahalla!",
+      "quiz": {
+        "q": "Miksi tarvitset välittäjän osakkeiden ostamiseen?",
+        "explanation": "Välittäjä on reittisi pörssiin, ei ennustaja eikä hinnan päättäjä. Se välittää toimeksiannon eteenpäin, ja hinta on se, mihin muut markkinoilla ovat valmiita käymään kauppaa. Sen analyytikot julkaisevat suosituksia, mutta suositus on mielipide, ei ohje.",
+        "options": [
+          "Se valitsee osakkeet, jotka tulevat nousemaan",
+          "Se päättää hinnan, jonka maksat jokaisesta osakkeesta",
+          "Se välittää toimeksiantosi pörssiin"
+        ]
+      }
+    },
+    "5": {
+      "title": "Osakekurssin perusteet",
+      "desc": "Miksi hinnat nousevat ja laskevat?",
+      "content": "Oletko huomannut, miten rajoitetun erän lenkkarien hinta pomppaa julkaisun jälkeen? Sama tapahtuu osakkeille. Kyse on kysynnästä ja tarjonnasta.\n\n📈 Moni HALUAA ostaa → hinta NOUSEE\n📉 Moni HALUAA myydä → hinta LASKEE\n\nJos {telco} kertoo saavansa 10 miljoonaa uutta asiakasta, kaikki haluavat palan, joten hinta lähtee lentoon. Jos yhtiö raportoi ison tappion, ihmiset paniikkimyyvät ja hinta putoaa. Uutiset, tulokset ja jopa somen trendit voivat liikuttaa osakekursseja hetkessä!",
+      "quiz": {
+        "q": "{retail} kertoo ennätysvoitoista ja aikoo avata 50 uutta myymälää. Mitä osakekurssille todennäköisesti tapahtuu?",
+        "explanation": "Paremmat odotetut voitot tarkoittavat yleensä enemmän ostajia, ja enemmän ostajia nostaa hintaa. Rahan käyttäminen kasvuun ei ole sama asia kuin sen tuhlaaminen.",
+        "options": [
+          "Se nousee, kun yhä useampi haluaa ostaa",
+          "Se pysyy täsmälleen samana",
+          "Se romahtaa, koska yhtiö käyttää rahaa myymälöihin"
+        ]
+      }
+    },
+    "6": {
+      "title": "Hintakaavion lukeminen",
+      "desc": "Kynttilät, viivat ja mitä ne tarkoittavat",
+      "content": "Hintakaavio on kuin koostevideo osakkeen historiasta. Suosituin tyyppi on kynttiläkaavio. Jokainen 'kynttilä' näyttää sinulle 4 asiaa yhdeltä päivältä:\n\n🟢 Vihreä kynttilä = hinta NOUSI sinä päivänä (avasi alempana, sulki ylempänä)\n🔴 Punainen kynttilä = hinta LASKI (avasi ylempänä, sulki alempana)\n📏 Ohuet viivat ylä- ja alapuolella = päivän korkein ja matalin hinta\n\nJos näet monta vihreää kynttilää peräkkäin, kyseessä on vahva nousutrendi. Monta punaista tarkoittaa laskutrendiä. Kaavioiden lukemisen oppiminen on kuin oppisi lukemaan pelin tulostaulua! 🎮",
+      "quiz": {
+        "q": "Näet kaaviossa 5 punaista kynttilää peräkkäin. Mitä tämä kertoo sinulle?",
+        "explanation": "Punainen kynttilä sulkeutuu alemmas kuin mistä se avasi, joten viisi peräkkäin tarkoittaa viittä laskevaa kaupankäyntipäivää. Väri kertoo suunnan, ei liikkeen kokoa.",
+        "options": [
+          "Osake on noussut 5 päivää",
+          "Osake on laskenut 5 päivää",
+          "Osakkeen hinta ei muuttunut"
+        ]
+      }
+    },
+    "7": {
+      "title": "Volyymi ja mitä se kertoo",
+      "desc": "Kuinka paljon osakkeilla käydään kauppaa",
+      "content": "Volyymi = kuinka monta osaketta ostettiin ja myytiin päivän aikana. Ajattele sitä kuin TikTok-videon katselukertoja.\n\n🔊 SUURI volyymi = moni käy kauppaa. Jos hinta liikkuu suurella volyymilla, signaali on vahvempi ja luotettavampi, kuin video, joka menee viraaliksi oikeasti eikä bottien takia.\n\n🔇 PIENI volyymi = vain harva käy kauppaa. Hinnat voivat liikkua oudosti pienellä volyymilla, kuin video, jolla on vain 3 katselua ja joka jaetaan vahingossa.\n\nTarkista aina volyymi, kun näet ison hintaliikkeen. Se kertoo, onko liike todellinen vai pelkkää kohinaa!",
+      "quiz": {
+        "q": "{telco}:n osake hyppää tänään 5 %, mutta volyymi on hyvin pieni. Mitä sinun kannattaa ajatella?",
+        "explanation": "Volyymi kertoo, kuinka paljon vakaumusta liikkeen takana on. Iso hyppy hyvin vähäisellä kaupankäynnillä voi peruuntua yhtä helposti kuin se tapahtui, joten tarkista volyymi ennen kuin uskot läpimurtoon.",
+        "options": [
+          "Se on varmasti iso tilaisuus, osta nyt!",
+          "Pieni volyymi tarkoittaa aina, että hinta jatkaa nousuaan",
+          "Liike ei ehkä ole luotettava, pieni volyymi tekee siitä epäilyttävän"
+        ]
+      }
+    },
+    "8": {
+      "title": "Tuki ja vastus",
+      "desc": "Hintatasot, joilla on väliä",
+      "content": "Kuvittele, että osakkeen hinta on pomppupallo:\n\n🧱 TUKI = lattia, josta pallo pomppaa. Hinta laskee, mutta joka kerta kun se osuu tähän tasoon, se pomppaa takaisin ylös. Täällä paikalle ilmestyy paljon ostajia.\n\n🪟 VASTUS = katto, johon pallo osuu. Joka kerta kun hinta nousee tähän tasoon, se painuu takaisin alas. Täällä moni myyjä kotiuttaa voittonsa.\n\nTreidaajat käyttävät näitä tasoja kuin pelikarttaa: osta lähellä lattiaa, myy lähellä kattoa. Kun hinta lopulta murtautuu vastuksen läpi, se usein ampaisee nopeasti ylös. Kun se murtaa tuen, varaudu pudotukseen! 💥\n\nRehellinen varoitus: kaavioita katsovat ihmiset piirtävät nämä tasot, eivätkä ne ole sääntöjä, joita markkinan on pakko totella. Osake voi rysähtää suoraan 'tuen' läpi ja jatkaa matkaa. 📉",
+      "quiz": {
+        "q": "Osake on pompannut tasolta {c}50 kolme kertaa menemättä sen alle. Mikä {c}50 on?",
+        "explanation": "Lattia, jota kunnioitetaan kerta toisensa jälkeen, on tuki; katto, joka torjuu hinnan kerta toisensa jälkeen, on vastus. Kumpikaan ei ole lupaus, mutta molemmat kannattaa tuntea ennen kuin ostat.",
+        "options": [
+          "Tukitaso",
+          "Vastustaso",
+          "Kattohinta"
+        ]
+      }
+    },
+    "9": {
+      "title": "Hajauttaminen",
+      "desc": "Älä laita kaikkia munia samaan koriin",
+      "content": "Kuvittele, että käytät KOKO datapakettisi yhteen suoratoistosovellukseen. Sitten se sovellus kaatuu. Jäät tyhjän päälle. 😩\n\nMutta jos jaat datasi WhatsAppin, YouTuben JA suoratoistosovelluksesi kesken, yhden kaatuminen ei pilaa koko fiilistä.\n\nSama pätee sijoittamiseen! Jos laitat KAIKKI rahasi yhteen osakkeeseen ja se romahtaa, menetät kaiken. Mutta jos jaat ne yhtiöiden {telco} (tietoliikenne), {retail} (vähittäiskauppa), {tech} (teknologia) ja ETF:n kesken, yhden romahdus ei tuhoa koko salkkuasi. Tätä levittämisstrategiaa kutsutaan HAJAUTTAMISEKSI. 💼",
+      "quiz": {
+        "q": "Sinulla on {c}500 sijoitettavaksi. Mikä näistä oikeasti hajauttaa riskiäsi?",
+        "explanation": "Viisi vaatekauppaa nousee ja laskee saman asian mukana, joten niiden kesken jaettu raha on tuskin hajautettu ollenkaan. Eri toimialat ajautuvat vaikeuksiin eri aikoihin, ja juuri se estää yhtä huonoa tulosta viemästä kaikkea mukanaan.",
+        "options": [
+          "{c}100 kuhunkin viidestä eri vaatekaupasta",
+          "{c}100 kuhunkin viidestä eri toimialasta",
+          "Kaikki {c}500 siihen yhteen yhtiöön, josta pidät eniten"
+        ]
+      }
+    },
+    "10": {
+      "title": "Riski ja tuotto",
+      "desc": "Miksi isommat voitot = isompi riski",
+      "content": "Oletko koskaan ostanut yllätyslaatikon? Voit saada jotain uskomatonta tai täyttä roskaa. Se on korkea riski / korkea tuotto.\n\nSijoittaminen toimii samalla tavalla:\n\n✅ PIENEMPI RISKI, PIENEMPI TUOTTO: Kuten {retail}. Valtava, vakiintunut yhtiö. Rahasi kasvaa yleensä hitaasti ja tasaisesti. Huomaa 'pienempi', ei 'ei riskiä'. Myös isot yhtiöt kaatuvat.\n\n🎲 KORKEA RISKI, KORKEA TUOTTO: Kuten pikkuruinen kaivosalan startup. Se voi kymmenkertaistua tai kadota. Kuin yllätyslaatikko.\n\nEnnen kuin sijoitat mihinkään, kysy aina: 'Mikä on pahin, mitä voi tapahtua?' Jos sinulla ei ole varaa menettää sitä, älä ota riskiä!",
+      "quiz": {
+        "q": "Kolikko, josta kukaan ei ole kuullut, lupaa 500 %:n tuotot. Mitä noin iso lupaus oikeasti kertoo sinulle?",
+        "explanation": "Riski ja tuotto ovat saman kepin kaksi päätä. Kukaan ei jaa 500 %:a ilmaiseksi, joten lupauksen koko kertoo oikeastaan siitä, kuinka helposti koko summa voi kadota. Ennen kuin laitat rahaa mihinkään, kysy, miltä pahin tapaus näyttää ja voisitko elää sen kanssa.",
+        "options": [
+          "Se on löytö, jonka muu markkina jotenkin ohitti",
+          "Mitä isompi lupaus, sitä vakavampia ovat sen takana olevat ihmiset",
+          "Mahdollisuus menettää kaikki on yhtä suuri kuin lupaus"
+        ]
+      }
+    },
+    "11": {
+      "title": "Pitkä vs lyhyt aikaväli",
+      "desc": "Sijoittajan vs treidaajan ajattelutapa",
+      "content": "🏃 LYHYEN AIKAVÄLIN TREIDAUS: Ostat ja myyt päivien tai viikkojen sisällä napataksesi nopeita hintaliikkeitä. Paljon stressiä ja paljon ruutuaikaa. Kuin yrittäisit ennustaa jokaisen ottelun voittajan turnauksen aikana.\n\n🧘 PITKÄN AIKAVÄLIN SIJOITTAMINEN: Ostat osakkeita ja pidät niitä vuosia. Kestät notkahdukset ja annat rahasi kasvaa. Kuin veikkaisit, mikä joukkue voittaa koko kauden. Et panikoi yhden huonon ottelun jälkeen.\n\nTutkimukset oikeista arvopaperitileistä löytävät kerta toisensa jälkeen saman kaavan: mitä useammin ihmiset käyvät kauppaa, sitä huonommin heille yleensä käy, kun kulut lasketaan mukaan.\n\nJa aika on se yksi etu, jota ei voi ostaa takaisin myöhemmin. Jokainen vuosi, jonka raha pysyy sijoitettuna, on taas vuosi, jona korkoa korolle -ilmiö tekee töitä. ⏳",
+      "quiz": {
+        "q": "Kaksi ihmistä ostaa samoja osakkeita samalla rahalla. Toinen käy kauppaa sisään ja ulos joka viikko, toinen antaa niiden olla kymmenen vuotta. Mitä tutkimukset oikeista tileistä toistuvasti havaitsevat?",
+        "explanation": "Jokainen kauppa maksaa jotain, ja se kulu lähtee, onnistui kauppa tai ei. Tutkimus toisensa jälkeen oikeista arvopaperitileistä löytää saman kaavan: mitä useammin ihmiset käyvät kauppaa, sitä enemmän he jäävät jälkeen. Rahan rauhaan jättäminen ei ole laiskuutta, se on halvempi suunnitelma.",
+        "options": [
+          "Ahkera kauppoja tekevä jää yleensä jälkeen, kun kulut lasketaan",
+          "Ahkera kauppoja tekevä yleensä voittaa, koska vaiva palkitaan",
+          "He päätyvät tasoihin, koska heillä oli täsmälleen samat osakkeet"
+        ]
+      }
+    },
+    "12": {
+      "title": "{dcaTitle}",
+      "desc": "Sijoita sama summa säännöllisesti",
+      "content": "Tässä on strategia, joka on niin yksinkertainen, että se tuskin tuntuu strategialta, ja se poistaa sijoittamisen vaikeimman kysymyksen:\n\nSijoita SAMA summa joka kuukausi, olivat hinnat ylhäällä tai alhaalla. Kuin laittaisit {c}100 syrjään syntymäpäivärahoistasi tai viikkorahastasi joka ikinen kuukausi.\n\n📉 Kun hinnat ovat ALHAALLA → {c}100:llasi saat ENEMMÄN osakkeita\n📈 Kun hinnat ovat YLHÄÄLLÄ → {c}100:llasi saat VÄHEMMÄN osakkeita\n\nAjan myötä keskihintasi osaketta kohden tasoittuu, ja 'ostat notkahduksen' automaattisesti edes yrittämättä! Tätä kutsutaan nimellä {dcaTitle} ({dcaAbbrev}). Se poistaa tunteet sijoittamisesta, koska sinun ei koskaan tarvitse päättää, 'onko NYT oikea hetki?' Sitoudut vain ja menet! 💪\n\nSuoraan sanottuna: tämä ei aina voita sitä, että laittaisit kertasumman sisään kerralla. Se tekee suunnitelmasta sellaisen, jossa oikeasti pysyt.",
+      "quiz": {
+        "q": "Laitat sisään 200 NT, kun osake maksaa 100 NT. Sitten osake romahtaa, ja seuraavat 200 NT menevät sisään hintaan 25 NT. Vedä keskihintaasi osaketta kohden näiden kahden maksun jälkeen.",
+        "explanation": "Ensimmäisillä 200 NT:llä ostit 2 osaketta hintaan 100 NT. Toisilla 200 NT:llä ostit 8 osaketta hintaan 25 NT. Se on 400 NT 10 osakkeesta, eli 40 NT kappale. Huomaa, ettei se ole lähelläkään kahden hinnan puoliväliä: sama raha ostaa automaattisesti enemmän, kun asiat ovat halpoja, ja juuri se vetää keskihintaasi alas."
+      }
+    },
+    "13": {
+      "title": "Money Babies 💸",
+      "desc": "Rahaa pelkästä osakkeiden omistamisesta",
+      "content": "Kuvittele, että omistat välipala-automaatin. Joka viikko ihmiset ostavat herkkuja SINUN automaatistasi, ja sinä keräät rahat pelkästä omistamisesta. Sinun ei tarvinnut tehdä mitään ylimääräistä!\n\nSitä osingot ovat. Kutsumme niitä nimellä Money Babies 🍼, koska rahasi kirjaimellisesti saa vauvoja: pieniä rahasummia, jotka tupsahtavat tilillesi pelkästään siksi, että omistat osakkeita.\n\nIsot yhtiöt, kuten {divPayers}, maksavat Money Babies -osinkoja säännöllisesti. Mitä enemmän osakkeita omistat, sitä isompia vauvasi ovat!\n\n⚠️ Ne EIVÄT ole taattuja. Yhtiö päättää joka kerta, maksaako se, ja se voi pienentää osinkoa tai lopettaa sen kokonaan, kun liiketoiminnalla menee huonosti. Iso osinko tänä vuonna ei ole lupaus osingosta ensi vuonna.\n\nJa jos sijoitat vauvat uudelleen ostamalla LISÄÄ osakkeita... seuraava satsi on vielä isompi. Se on kaunis kierre 🔁",
+      "quiz": {
+        "q": "{bank} maksaa sinulle {c}5 jokaisesta omistamastasi osakkeesta, vaikka et myy mitään. Mikä tämä maksu on nimeltään?",
+        "explanation": "Osinko on osa yhtiön voitosta, joka annetaan sen omistajille. Tässä sovelluksessa niitä kutsutaan nimellä Money Babies. Pidät jokaisen osakkeesi, ja raha tulee silti tilillesi. Se ei kuitenkaan ole luvattu, ja yhtiö voi pienentää tai lopettaa sen milloin tahansa, kun liiketoiminnalla menee huonosti.",
+        "options": [
+          "Osinko, siivu voitosta",
+          "Korko, sellainen jota säästötili maksaa",
+          "Kanta-asiakasbonus asiakkaana olemisesta"
+        ]
+      }
+    },
+    "14": {
+      "title": "Korkoa korolle",
+      "desc": "Miten rahasi kasvaa itsestään",
+      "content": "Tässä on voimakkain rahasalaisuus, jonka tulet koskaan oppimaan. Valmiina? 👀\n\nSijoitat {c}1,000 10 %:n vuosituotolla:\n• Vuosi 1: {c}1,000 → {c}1,100 (tienasit {c}100)\n• Vuosi 2: {c}1,100 → {c}1,210 (tienasit {c}110, enemmän kuin vuonna 1!)\n• Vuosi 3: {c}1,210 → {c}1,331 (tienasit {c}121)\n\nNyt tienaat korkoa KOROLLESI. Lumipallo kasvaa joka vuosi, vaikka et lisää mitään. 30 vuoden jälkeen 10 %:lla? Tuosta {c}1,000:sta tulee {c}17,449! 🤯\n\nNäet tätä kutsuttavan 'maailman kahdeksanneksi ihmeeksi', ja sen väitetään olevan Einsteinin sanoma. Ei ole mitään oikeaa näyttöä, että hän olisi koskaan sanonut niin, mutta matematiikka on se, millä on väliä, ja matematiikka on totta. Aloita aikaisin, niin aika tekee raskaan työn puolestasi.",
+      "quiz": {
+        "q": "Laitat sisään 2,000 NT 10 %:n vuosituotolla etkä koskaan koske siihen. Vedä siihen, paljonko se on arvoltaan kolmen vuoden jälkeen.",
+        "explanation": "Ensimmäinen vuosi lisää 200 NT, mikä tekee 2,200. Toinen vuosi ottaa 10 % summasta 2,200, joten se lisää 220 ja tekee 2,420. Kolmas vuosi lisää 242 ja päätyy lukuun 2,662. Joka vuosi 10 % lasketaan isommasta kasasta, minkä takia 200:n lisääminen kolme kertaa ja pysähtyminen lukuun 2,600 jää vajaaksi."
+      }
+    },
+    "15": {
+      "title": "Korkoa korolle ja osakkeet",
+      "desc": "Money Babies -osinkojen uudelleensijoitus kasvuun",
+      "content": "Muistatko Money Babies -osingot? Tästä se muuttuu kiinnostavaksi 🤯\n\nTavallinen: Tienaat {c}50 Money Babies -osinkoja → käytät ne herkkuihin → valmis.\n\nFiksu liike: Tienaat {c}50 Money Babies -osinkoja → ostat LISÄÄ osakkeita → seuraavalla kerralla saat ENEMMÄN Money Babies -osinkoja → ostat vielä enemmän osakkeita → lumipallo lähtee 🔝\n\nTämä on korkoa korolle -ilmiö osakkeisiin sovellettuna. Laske itse: laita sama summa sisään joka kuukausi 30 vuoden ajan 10 %:n keskimääräisellä tuotolla, niin päädyt noin KUUSINKERTAISEEN summaan siihen nähden, mitä oikeasti maksoit sisään. Noin viisi kuudesosaa siitä kasasta on kasvua: rahaa, jota et koskaan tienannut, säästänyt tai tallettanut.\n\nPitkillä aikaväleillä uudelleensijoitetut osingot ovat muodostaneet ison osan sijoittajien kokonaistuotoista. Juuri siksi 'tylsät' osingonmaksajat eivät osoittaudu tylsiksi ollenkaan 💰",
+      "quiz": {
+        "q": "Tienaat {c}80 osinkoja ja käytät jokaisen sentin uusien osakkeiden ostamiseen sen sijaan, että kuluttaisit sen. Mitä seuraavassa osingonmaksussa tapahtuu?",
+        "explanation": "Jokainen ostamasi lisäosake maksaa seuraavalla kerralla oman osinkonsa, joten osinko kasvaa ilman, että lisäät uutta rahaa. Se on taas korkoa korolle, tällä kertaa tulojen eikä hinnan voimalla.",
+        "options": [
+          "Osinko pysyy samankokoisena, se vain tulee myöhemmin",
+          "Saat vähemmän ensi kerralla, koska annoit rahat takaisin",
+          "Omistat enemmän osakkeita, joten seuraava osinko on isompi"
+        ]
+      }
+    },
+    "16": {
+      "title": "72:n sääntö",
+      "desc": "Nopea tapa arvioida tuplaantumisaika",
+      "content": "Tässä on huijauskoodi aivoillesi 🧠\n\nHaluatko tietää, kauanko kestää TUPLATA rahasi? Jaa vain 72 vuosituotollasi:\n\n• 72 ÷ 12 % tuotto = 6 vuotta tuplaantumiseen\n• 72 ÷ 8 % tuotto = 9 vuotta tuplaantumiseen\n• 72 ÷ 6 % tuotto = 12 vuotta tuplaantumiseen\n\nJos siis tienaat tasaiset 12 % vuodessa summalle {c}2,000, 6 vuodessa sinulla on {c}4,000. Odota toiset 6 vuotta, niin sinulla on {c}8,000. Vielä 6 lisää, niin sinulla on {c}16,000! 🤯\n\nSe on likiarvo, ei laki, eivätkä oikeat tuotot ole koskaan tasainen luku joka vuosi. Mutta se on tarpeeksi lähellä, jotta sen voi laskea päässä, ja siinä koko pointti.\n\nTämän takia 13- tai 14-vuotiaana aloittaminen on VALTAVA juttu. Sinulla on edessäsi enemmän tuplaantumiskierroksia kuin melkein kenelläkään muulla!",
+      "quiz": {
+        "q": "Sijoitus tuottaa 9 % vuodessa. Käytä 72:n sääntöä ja vedä siihen, kuinka monessa vuodessa se tuplaantuu.",
+        "explanation": "Jaa 72 vuotuisella prosentilla. 72 jaettuna 9:llä on 8, joten raha suunnilleen tuplaantuu kahdeksassa vuodessa ja sitten taas kahdeksan vuotta sen jälkeen. Se on nopea arvio, jonka voit laskea päässä, ei tarkka laki, koska oikeat tuotot eivät ole koskaan sama luku joka vuosi."
+      }
+    },
+    "17": {
+      "title": "Markkinatoimeksianto vs raja",
+      "desc": "Kaksi tapaa ostaa osakkeita",
+      "content": "Osakkeen voi ostaa kahdella päätavalla:\n\n⚡ MARKKINATOIMEKSIANTO: 'Osta heti, oli hinta mikä tahansa.' Kuin lisäisit tuotteen ostoskoriin ja maksaisit saman tien {shop}:ssa. Saat sen heti, mutta oikeasti maksamasi hinta on se, minkä markkina antaa, ja se voi poiketa luvusta, jonka juuri näit ruudulla.\n\n🎯 RAJAHINTATOIMEKSIANTO: 'Osta vain, jos hinta laskee tasolle {c}X.' Kuin laittaisit tuotteen {shop}-toivelistallesi ja odottaisit alennusta. Sinä päätät hinnan, mutta kauppa ei välttämättä toteudu koskaan.\n\nRajahintatoimeksiannot antavat sinulle hallinnan hintaan. Markkinatoimeksiannot antavat varmuuden siitä, että kauppa toteutuu. Molempia et voi saada! 💸\n\nRajahintatoimeksianto toimii samalla tavalla, kun MYYT, vain toiseen suuntaan. Omistat osakkeen, nimeät hinnan, jolla myisit mielelläsi, ja jos se nousee sinne asti, sovellus myy puolestasi. Ostaessa nimeät hinnan, joka on NYKYISTÄ ALEMPI. Myydessä nimeät hinnan, joka on YLEMPI. Sama idea, vastakkainen puoli. 🔁",
+      "quiz": {
+        "q": "{tech}:n kurssi on {c}200. Omistaisit sen mielelläsi, mutta vain hintaan {c}180 tai alle. Kumpaa käytät?",
+        "explanation": "Markkinatoimeksianto toteutuu heti, oli hinta sillä hetkellä mikä tahansa. Rajahintatoimeksianto nimeää hintasi ja odottaa, joten sovellus vahtii puolestasi. Kun hinta, jonka hyväksyt, on tärkeämpi kuin nopea sisäänpääsy, tämä on se, jonka haluat.",
+        "options": [
+          "Markkinaosto, joka toteutuu heti hintaan {c}200",
+          "Rajahintaosto hintaan {c}180, joka odottaa",
+          "Tuijota ruutua ja osta käsin hintaan {c}180"
+        ]
+      }
+    },
+    "18": {
+      "title": "Kaupankäyntipalkkiot ja kulut",
+      "desc": "Kaupankäyntipalkkioiden ymmärtäminen",
+      "content": "Useimmat kaupat maksavat sinulle vähän: välittäjä ottaa pienen siivun. Näitä kutsutaan kaupankäyntipalkkioiksi tai välityspalkkioiksi.\n\n⚠️ Jotkut välittäjät mainostavat 'nolla palkkiota'. Niidenkin täytyy tienata jotenkin, joten ne tienaavat muualta, yleensä osto- ja myyntihinnan välisestä pienestä erosta, valuutanvaihdosta tai korosta tililläsi makaavalle käteiselle. Ilmainen on harvoin ilmaista.\n\nNoobTrader-sovelluksessa simuloidut palkkiot ovat:\n• {ex}-osakkeet: {exFee} per kauppa\n• Globaalit osakkeet: 0.50%\n• ETF:t: 0.30%\n• Krypto: 0.60%\n• Valuutat (forex): 0.05%\n• Raaka-aineet: 0.40%\n\nEsimerkki: Ostat {retail}-osakkeita {c}1,000:lla palkkiolla {exFee}. Palkkio on {c}{feeAmt}, joten oikeasti käytät {c}{feeTotal}.\n\nPienet palkkiot kasautuvat NOPEASTI, jos käyt kauppaa usein. Joku, joka tekee 20 kauppaa kuussa, maksaa palkkion 20 kertaa ja maksaa sen taas ulos lähtiessään. Se on yksi syy, miksi pitkän aikavälin sijoittajat käyvät vähemmän kauppaa: vähemmän kauppoja, vähemmän palkkioita 🧮",
+      "quiz": {
+        "q": "Ostat {ex}-osakkeita {c}1,000:lla, ja palkkio on {exFee}. Kuinka suuri palkkio on?",
+        "explanation": "Palkkio on prosenttiosuus kaupan summasta, joten se kasvaa toimeksiannon koon mukana. Laske se ennen kuin käyt kauppaa, koska se veloitetaan uudelleen, kun myyt.",
+        "options": [
+          "{c}{feeAmtX10}",
+          "{c}{feeAmtLow}",
+          "{c}{feeAmt}"
+        ]
+      }
+    },
+    "19": {
+      "title": "Stop-loss-toimeksiannot",
+      "desc": "Suojaa itsesi isoilta tappioilta",
+      "content": "Stop-loss on kuin asettaisit rajan sille, kuinka paljon olet valmis häviämään: turvaverkko, jonka asennat etukäteen.\n\nEsimerkki: Ostat {telco}-osakkeita hintaan {c}100 kappale. Päätät, että et KOSKAAN halua hävitä yli 15 %. Joten asetat stop-lossin hintaan {c}85.\n\nJos {telco} laskee hintaan {c}85 → myyntitoimeksianto laukeaa automaattisesti. Sinun ei tarvitse olla katsomassa, eikä sinun tarvitse tehdä päätöstä paniikissa.\n\nTässä kohtaa ihmiset menevät pieleen. Stop-loss-luku on AINA nykyisen hinnan alapuolella. Sen on pakko olla, koska hinnan täytyy laskea sinne asti. Laita se nykyisen hinnan yläpuolelle, niin ehto on jo totta, joten se myy samalla sekunnilla kun asetat sen, nykyiseen hintaan. Se on myynti, ei turvaverkko.\n\nÄlä sekoita sitä rajahintamyyntiin. Molemmat myyvät automaattisesti valitsemallasi hinnalla. Ero on suunta: stop-loss laukeaa, kun hinta LASKEE lukuusi, rajahintamyynti laukeaa, kun hinta NOUSEE lukuusi. Suojaat itseäsi → lukusi menee alle. Nimeät hintasi → lukusi menee yli. Kysy itseltäsi, kumpaa olet tekemässä, ennen kuin kirjoitat. 🧭\n\n⚠️ Iso juttu: stop-loss laukaisee MYYNNIN, se ei takaa HINTAA. Jos huonot uutiset iskevät yön aikana ja osake avaa hinnassa {c}70 käymättä koskaan kauppaa hinnalla {c}85, toimeksiantosi toteutuu sillä hinnalla, minkä markkina oikeasti maksaa. Se voi olla reilusti asettamasi tason alapuolella.\n\nIlman mitään stop-lossia saatat pitää kiinni toivoen toipumista... ja katsoa, kun se putoaa hintaan {c}20. 😬\n\nPro-vinkki: Päätä aina suurin tappiosi ENNEN kuin ostat. Älä anna tunteiden tehdä sitä päätöstä, kun hinta on jo syöksyssä! 🧘",
+      "quiz": {
+        "q": "Ostat hintaan 200 NT ja päätät, ettet ole valmis häviämään siinä yli 15 %. Vedä siihen hintaan, johon stop-lossisi kuuluu.",
+        "explanation": "15 % 200 NT:stä on 30 NT, joten ulospääsysi on 30 alempana kuin ostohintasi, eli 170 NT:ssä. Stop-loss menee nykyisen hinnan alapuolelle, koska hinnan täytyy laskea sinne asti. Laita se yläpuolelle, niin ehto on jo totta, joten se myy heti kun asetat sen, ja se on myynti eikä turvaverkko."
+      }
+    },
+    "20": {
+      "title": "Milloin ostaa ja myydä",
+      "desc": "Ajoitus, kärsivällisyys ja kurinalaisuus",
+      "content": "Uusien sijoittajien suurin virhe? Ostaa, kun kaikki ovat hypessä, ja myydä, kun kaikki panikoivat. Se on kirjaimellisesti päinvastaista kuin se, mikä toimii. 🤦\n\n📱 Kun ryhmächattisi spämmää 'OSTA TÄTÄ OSAKETTA NYT!!!!' → hype on yleensä jo hinnoiteltu sisään. Olet myöhässä.\n\n😱 Kun kaikki myyvät paniikissa → joskus se on oikeasti tilaisuus ostaa alennuksella. Joskus hinta jatkaa laskuaan vielä vuoden. Kukaan ei soita kelloa pohjalla.\n\nSalaisuus? Tee suunnitelma ENNEN kuin sijoitat:\n• Miksi ostan tätä? (tutkimus, ei hype)\n• Millä hinnalla myyn, jos se NOUSEE? (voitonotto)\n• Millä hinnalla myyn, jos se LASKEE? (stop-loss)\n\nPysy suunnitelmassasi. Älä anna tunteidesi ottaa strategiaasi haltuun! 💪",
+      "quiz": {
+        "q": "Koko ryhmächattisi hypettää osaketta, joka on jo noussut 80 % tässä kuussa. Mikä on fiksu liike?",
+        "explanation": "Siinä vaiheessa kun osake on jokaisessa ryhmächatissa, suurin osa liikkeestä on jo tapahtunut, ja myöhään saapuvat ostavat niiltä, jotka kotiuttavat voittonsa. Tutki yhtiötä itse. Äänekäs joukko ei ole sama asia kuin joukko, joka on oikeassa.",
+        "options": [
+          "Osta nyt, ennen kuin hinta karkaa käsistä",
+          "Myy muut osakkeesi ja laita kaikki tähän",
+          "Tutki yhtiötä itse ennen kuin päätät"
+        ]
+      }
+    },
+    "21": {
+      "title": "Mikä on markkina-arvo?",
+      "desc": "Miten yhtiön koko mitataan",
+      "content": "Markkina-arvo kertoo, kuinka iso yhtiö oikeasti on, rahassa mitattuna ({cPlural}).\n\n📐 Kaava: Osakkeen hinta × osakkeiden kokonaismäärä = markkina-arvo\n\nEsimerkki: Jos yhtiöllä {retail} on 1 miljardi osaketta ja jokainen osake maksaa {c}50, markkina-arvo on {c}50 MILJARDIA. Se on koko yhtiön 'hintalappu'.\n\n🔵 Large cap: suurimmat ja vakiintuneimmat nimet, kuten {tech} ja {bank}. Pienempi riski, yleensä hitaampi kasvu.\n🟡 Mid cap: keskikokoiset yhtiöt. Tasapainoinen riski.\n🔴 Small cap: pikkuruiset yhtiöt. Voivat kasvaa nopeasti TAI romahtaa rajusti.\n\n⚠️ Rajat eivät ole yleismaailmallisia. Yhdysvalloissa 'large cap' tarkoittaa yleensä jotain yli $10 miljardin, mutta jokainen markkina asettaa omat rajansa, joten large cap maassa {name} ei ole samankokoinen kuin large cap Yhdysvalloissa. Lue oikea luku, älä pelkkää nimilappua 🧐",
+      "quiz": {
+        "q": "Yhtiöllä A on 5 miljoonaa osaketta, joista kukin maksaa {c}200. Yhtiön B osakkeet maksavat {c}10. Vedä siihen, kuinka monta miljoonaa osaketta B tarvitsee ollakseen yhtä arvokas kuin A.",
+        "explanation": "Markkina-arvo on osakkeen hinta kertaa osakkeiden määrä. Yhtiö A on arvoltaan 5 miljoonaa kertaa {c}200, eli {c}1,000 miljoonaa. Yhtiön B on päästävä samaan summaan hinnalla {c}10 per osake, joten se tarvitsee 100 miljoonaa osaketta, kaksikymmentä kertaa enemmän. Matala osakekurssi ei kerro mitään yhtiön koosta."
+      }
+    },
+    "22": {
+      "title": "P/E-luku selitettynä",
+      "desc": "Onko osake kallis vai halpa?",
+      "content": "P/E-luku (hinta suhteessa tulokseen, Price-to-Earnings) kertoo, kuinka paljon maksat jokaisesta yhtiön voiton {cName}-yksiköstä.\n\n📐 Kaava: Osakkeen hinta ÷ osakekohtainen tulos = P/E-luku\n\nAjattele sitä kuin pizzan palakohtaista hintaa 🍕\n\nJos pizza A maksaa {c}80 ja siinä on 8 palaa = {c}10/pala\nJos pizza B maksaa {c}100 ja siinä on 5 palaa = {c}20/pala\n\nPizza A on halvempi palaa kohden. Osakkeissa idea on samanlainen:\n• Matala P/E (alle 10) = mahdollisesti löytö, TAI markkina odottaa yhtiön voittojen LASKEVAN. Matala P/E on kysymys, ei vastaus.\n• Korkea P/E (yli 25) = markkina odottaa isoa tulevaa kasvua. Yhtiön täytyy sitten oikeasti toimittaa se.\n\nVertaa P/E-lukua aina MUIHIN saman toimialan yhtiöihin. Älä vertaa pankin P/E-lukua teknologiayhtiön lukuun!",
+      "quiz": {
+        "q": "Yhtiön A P/E-luku on 8. Yhtiön B (sama toimiala) P/E-luku on 30. Mitä tämä viittaa?",
+        "explanation": "Matalampi P/E tarkoittaa, että maksat vähemmän jokaisesta voittoyksiköstä, mikä voi tarkoittaa löytöä tai vaikeuksissa olevaa yhtiötä. Luku herättää kysymyksen; se ei vastaa siihen.",
+        "options": [
+          "Yhtiö A on halvempi voittoyksikköä kohden, mutta selvitä MIKSI ennen kuin ostat",
+          "Yhtiö B on aina parempi sijoitus näistä kahdesta",
+          "P/E-luku ei auta sijoituspäätöksissä lainkaan"
+        ]
+      }
+    },
+    "23": {
+      "title": "Yhtiön tulosten lukeminen",
+      "desc": "Liikevaihto, voitto ja mikä ratkaisee",
+      "content": "Muutaman kuukauden välein yhtiöt julkaisevat 'todistuksensa' (joillain markkinoilla joka neljännes, toisilla kahdesti vuodessa), ja se liikuttaa osakekursseja ROIMASTI. Tätä kannattaa katsoa:\n\n📊 LIIKEVAIHTO: Kaikki myynnistä tuleva raha. Kuin se, paljonko pieni kauppa myi yhteensä.\n💰 NETTOTULOS: Se, mitä jää JÄLJELLE kaikkien kulujen maksamisen jälkeen. Oikea tienesti päivän päätteeksi.\n📈 EPS (osakekohtainen tulos): Voitto jaettuna osakkeiden määrällä. Paljonko kukin osake tienasi.\n\nHyvät merkit: Liikevaihto YLÖS + voitto YLÖS + EPS kasvaa = 🟢 hinta nousee usein\nHuonot merkit: Liikevaihto ALAS + voitto laskee = 🔴 hinta laskee usein\n\nYksi koukku: hintaa liikuttaa oikeasti tulos verrattuna siihen, mitä markkina ODOTTI. Upeat luvut, jotka jäivät odotuksista, voivat silti pudottaa osaketta.\n\nYhtiöllä voi olla paljon liikevaihtoa mutta nolla voittoa (korkeat kulut). Tarkista aina MOLEMMAT!",
+      "quiz": {
+        "q": "{bank} raportoi liikevaihdon nousseen 15 % mutta voiton laskeneen 20 % kasvaneiden kulujen takia. Onko tämä hyvä vai huono merkki?",
+        "explanation": "Liikevaihto on se, mitä tuli sisään, voitto se, mitä jäi. Kulut kasvavat tässä myyntiä nopeammin, joten yhtiö tekee enemmän kauppaa ja pitää siitä vähemmän itsellään. Se on todellinen varoitusmerkki, mutta ei romahdus, ja seuraavaksi kannattaa selvittää, miksi kulut nousivat.",
+        "options": [
+          "Huolestuttava, koska yhtiö myy enemmän mutta pitää siitä vähemmän",
+          "Vahva, koska kasvava liikevaihto on se, mikä oikeasti ratkaisee",
+          "Kamala, koska laskeva voitto tarkoittaa, että yhtiö on kaatumassa"
+        ]
+      }
+    },
+    "24": {
+      "title": "Sektorit ja toimialat",
+      "desc": "Erilaisia yhtiötyyppejä",
+      "content": "Osakemarkkina on jaettu sektoreihin, kuin koulun eri aineryhmiin.\n\n{sectorList}\n\nEri sektorit nousevat ja laskevat eri aikoina, ja juuri siksi niiden kesken hajautetaan! Jos pankkiala romahtaa, ehkä teknologia kukoistaa. Salkkusi pysyy tasapainossa. 🎯",
+      "quiz": {
+        "q": "Korot nousevat jyrkästi maassa {name}. Mikä sektori yleensä hyötyy eniten?",
+        "explanation": "Pankit tienaavat sillä erolla, jonka ne veloittavat lainanottajilta ja maksavat säästäjille, ja nousevat korot yleensä kasvattavat sitä. Useimmille muille sektoreille kalliimpi lainaraha on kulu.",
+        "options": [
+          "Vähittäiskauppa: ostajat lainaavat vapaammin ja käyttävät ylimääräisen ostoskaduilla",
+          "Pankkiala: pankit tienaavat yleensä isomman eron lainanottajilta veloitetun ja säästäjille maksetun välillä",
+          "Teknologia: lainaaminen rakentamiseen halpenee, joten ohjelmistoyhtiöt laajenevat nopeammin"
+        ]
+      }
+    },
+    "25": {
+      "title": "Mikä on ETF?",
+      "desc": "Osta koko kori kerralla",
+      "content": "Ennen ainoa tapa koota soittolista oli valita kappaleet yksi kerrallaan. Sitten tuli Spotify ja antoi valmiita soittolistoja, välittömän kokoelman ilman vaivaa. 🎵\n\nETF:t (pörssinoteeratut rahastot, Exchange-Traded Funds) ovat sijoittamisen Spotify. Sen sijaan, että valitsisit osakkeet yksi kerrallaan, ostat YHDEN ETF:n, joka omistaa kokonaisen korillisen niitä.\n\nUseimmat ETF:t seuraavat INDEKSIÄ: julkaistua listaa yhtiöistä, joka on koottu sääntökirjan mukaan. {etfDesc} ETF yksinkertaisesti ostaa sen, mitä listalla on, samoissa suhteissa, ja päivittää itsensä, kun lista muuttuu.\n\nYksi {etf}-ETF antaa siis pienen siivun kohteesta {etfBasket} (nimiä kuten {top5}) yhdellä ostolla.\n\n⚠️ Indeksi EI ole automaattisesti 'suurimmat yhtiöt'. Jotkut listat järjestävät koon mukaan, jotkut sen mukaan, kuinka paljon osakkeella käydään kauppaa, ja joidenkin jäsenet valitsee komitea. Kaksi saman pörssin indeksiä voi sisältää täysin eri yhtiöt. Lue aina, mikä lista oikeasti on, ennen kuin ostat sen.\n\nETF:t ovat yleensä halvempia, helpompia ja paremmin hajautettuja kuin itse valitut osakkeet. Moni ammattirahastonhoitaja ei pysty voittamaan niitä! 🤯",
+      "quiz": {
+        "q": "Ostat yhden osuuden {etf}-ETF:ää, joka seuraa kohdetta {etfBasket}. Mitä nyt omistat?",
+        "explanation": "Indeksi on julkaistu lista, ja indeksi-ETF ostaa kaiken listalla olevan samoissa suhteissa. Yksi osuus sisältää siis siivun jokaisesta listan nimestä, minkä takia jo yksi osto on hajautettu. Se ei ole pelkkä suurin nimi, eikä se ole käteistä, joka odottaa ohjeitasi.",
+        "options": [
+          "Yhden osakkeen listan suurimmasta yhtiöstä",
+          "Pienen siivun jokaisesta listan yhtiöstä",
+          "Käteistä, jota rahasto pitää, kunnes kerrot, mitä ostaa"
+        ]
+      }
+    },
+    "26": {
+      "title": "{ex}-ETF:t",
+      "desc": "Suosittuja ETF:iä, jotka kannattaa tuntea",
+      "content": "On olemassa valtavasti ETF:iä ja indeksirahastoja, joita voit ostaa maasta {name}. Tässä joitain suosituimmista:\n\n{etfList}\n\nETF:ien valtava etu: PALKKIOT. Monet aktiivisesti hoidetut rahastot veloittavat noin 1–2 % vuodessa, joskus enemmän. Laajat indeksi-ETF:t veloittavat usein alle 0.2 %. {c}10,000:n sijoituksessa, jota pidetään 20 vuotta, se ero on TUHANSIEN arvoinen ({cPlural}) 💸\n\nTarkista palkkio ennen kuin ostat. Se on yleensä merkitty 'TER' tai 'kulusuhde' (expense ratio). Kukaan ei voi kertoa, mitä ETF tulee tuottamaan, mutta palkkio on yksi luku, jonka VOIT tietää etukäteen.",
+      "quiz": {
+        "q": "Sijoitat 20,000 NT. Aktiivisesti hoidettu rahasto veloittaa 2 % vuodessa. Indeksi-ETF, joka omistaa pitkälti samat yhtiöt, veloittaa 0.2 %. Vedä siihen, kuinka paljon enemmän kallis rahasto vie sinulta yhdessä vuodessa.",
+        "explanation": "Kahden palkkion ero on 1.8 % vuodessa, ja 1.8 % summasta 20,000 NT on 360 NT. Se lähtee, nousi rahasto tai laski, ja se lähtee uudelleen joka ikinen vuosi. Kukaan ei voi kertoa, mitä rahasto tuottaa, mutta palkkio on ilmoitettu ennen kuin ostat, yleensä nimellä TER tai kulusuhde."
+      }
+    },
+    "27": {
+      "title": "Globaalit vs kotimaiset ETF:t",
+      "desc": "Sijoittaminen kotimaahan ja kauemmas",
+      "content": "Pitäisikö sinun sijoittaa vain yhtiöihin maasta {name}? Lyhyt vastaus: Ei! Tässä syy:\n\n🏠 KOTIMAISET ETF:t: Sijoittavat maan {name} yhtiöihin. Tunnet brändit, ja ne ovat omassa valuutassasi ({cPlural}). Mutta jos maan {name} talous takkuaa, koko salkkusi voi laskea.\n\n🌍 GLOBAALIT ETF:t: Sijoittavat kansainvälisiin yhtiöihin (Yhdysvallat, Eurooppa, Aasia). {currencyHedge}\n\nValuutta toimii kuitenkin molempiin suuntiin: jos oma valuuttasi VAHVISTUU, samat ulkomaiset omistukset ovat kotona arvoltaan pienempiä. Se on hinta, jonka hyväksyt omistaessasi asioita ulkomailla.\n\nKun omistat sekä kotimaisia että globaaleja, hajautat kahden eri riskin yli kerralla: oman taloutesi ja oman valuuttasi. Tasapaino on kaikki kaikessa! ⚖️",
+      "quiz": {
+        "q": "{fxQuizSetup}. Globaalin ETF:si sisällä olevat ulkomaiset osakkeet eivät ole liikahtaneetkaan. Mikä sen arvo on nyt omassa valuutassasi ({cName})?",
+        "explanation": "Globaali ETF omistaa asioita, jotka on hinnoiteltu toisessa valuutassa. Kun oma valuuttasi heikkenee, se ulkomainen raha muuttuu takaisin suuremmaksi määräksi omaa valuuttaasi, joten omistus on kotona arvokkaampi, vaikka osakkeet seisoivat paikallaan. Toisin päin se toimii myös: vahvempi kotivaluutta kutistaa saman omistuksen hiljaa. Valuuttariski toimii molempiin suuntiin.",
+        "options": [
+          "Noussut, koska ulkomailla oleva raha ostaa nyt enemmän kotona",
+          "Laskenut, koska huonon valuuttauutisen on pakko olla huono myös rahoillesi",
+          "Ennallaan, koska sen sisällä olevat osakkeet eivät liikkuneet milliäkään"
+        ]
+      }
+    },
+    "28": {
+      "title": "Säästäminen vs sijoittaminen",
+      "desc": "Miksi rahasi täytyy tehdä töitä",
+      "content": "Molemmat ovat hyviä. Mutta niillä on eri tarkoitukset:\n\n🏦 SÄÄSTÄMINEN: Laitat rahaa pankkitilille. Se on turvassa, ja pääset siihen käsiksi milloin vain. MUTTA korot ovat yleensä {savings}, usein vähemmän kuin inflaatio. Rahasi on 'turvassa', mutta menettää hiljalleen ostovoimaansa.\n\n📈 SIJOITTAMINEN: Laitat rahaa osakkeisiin, ETF:iin tai kiinteistöihin. Enemmän riskiä, eikä mitään takuuta yksittäisenä vuonna. Joinain vuosina yksinkertaisesti menetät rahaa. Pitkillä aikaväleillä osakkeet ovat kuitenkin historiallisesti tuottaneet enemmän kuin käteinen. Maan {name} markkina on aiemmin tuottanut keskimäärin noin {mktReturn} vuodessa, ja menneet keskiarvot ovat historiaa, eivät lupaus.\n\nNyrkkisääntö:\n• 3–6 kuukauden menot säästöissä (hätärahastosi) 🚨\n• Raha, jota et tarvitse vuosiin, on se, mitä ihmiset sijoittavat 🚀\n\nÄlä sijoita rahaa, jota saatat tarvita ensi kuussa. Sitä varten säästöt ovat!",
+      "quiz": {
+        "q": "Menosi ovat 800 NT kuukaudessa, ja sinulla on säästössä 5,000 NT. Vedä siihen pienimpään hätärahastoon, jonka tavallinen nyrkkisääntö jättäisi käteiseksi.",
+        "explanation": "Nyrkkisääntö on pitää kolmen–kuuden kuukauden menot käteisenä. Kolme kuukautta 800 NT:n menoja on 2,400 NT, ja kuusi kuukautta olisi 4,800 NT, joten mikä tahansa tältä väliltä on normaalia. Syy pitää se käteisenä on yksinkertainen: kun jotain hajoaa yllättäen, et halua joutua myymään sijoituksiasi minä päivänä tahansa se sattuu tapahtumaan."
+      }
+    },
+    "29": {
+      "title": "Inflaatio ja rahasi",
+      "desc": "Miksi käteinen menettää arvoaan ajan myötä",
+      "content": "Kysy aikuiselta, mitä {food} maksoi, kun hän oli sinun ikäisesi. Se oli jotain {c}{foodOld} paikkeilla. Nyt se on {c}{foodNew}+. Se on inflaatiota: hinnat nousevat hiljalleen ajan myötä, eli jokaisella {cName}-yksiköllä saa VÄHEMMÄN kuin ennen.\n\nMaan {name} inflaatio on yleensä ollut noin {inflation} vuodessa.\n\nJos siis säästösi tuottavat 4 % vuodessa mutta inflaatio on 6 %, MENETÄT oikeasti noin 2 % ostovoimastasi joka vuosi, vaikka saldosi nousi!\n\n💡 Sijoitustesi täytyy voittaa inflaatio, jotta varallisuutesi oikeasti kasvaa.\n• Käteinen patjan alla: menettää arvoaan joka vuosi 💀\n• Pankkisäästöt: pysyvät usein juuri ja juuri perässä\n• {ex}-osakkeet (pitkän aikavälin keskiarvo): {mktReturn} vuodessa, mikä on mennyt keskiarvo, ei lupaus 🔥\n\nSijoittamisessa ei ole kyse vain rikastumisesta. Kyse on siitä, ettet köyhdy! 💸",
+      "quiz": {
+        "q": "Säästötilisi maksaa 4 % vuodessa. Hinnat nousevat 6 % vuodessa. Vedä siihen, mitä ostovoimallesi oikeasti tapahtuu sen vuoden aikana.",
+        "explanation": "Reaalituotto on saamasi korko miinus maksamasi inflaatio, joten 4 % vastaan 6 % tekee noin miinus 2 %. Tilisi luku nousee, mutta sillä oikeasti ostettava määrä laskee, ja se on inflaation hiljainen temppu säästöille. Todellisen varallisuuden rakentamiseksi rahan täytyy voittaa inflaatio, ei vain tuottaa jotain."
+      }
+    },
+    "30": {
+      "title": "Tunteet ja sijoittaminen",
+      "desc": "Älä paniikkimyy tai FOMO-osta",
+      "content": "Osakemarkkina on pohjimmiltaan tunteiden hallinnan testi. Useimmat reputtavat sen. 🎭\n\n😱 PANIIKKIMYYNTI: Markkina laskee 20 %, sekoat ja myyt kaiken. Sitten se toipuu. Lukitsit tappiosi turhaan.\n\n🤑 FOMO-OSTO: Kaikki somessa hypettävät jotain kolikkoa. Ryntäät mukaan. Hinta romahtaa heti. Sinä jäät pussin kanssa.\n\nParhaat sijoittajat kohtelevat markkinaromahdusta kuin alennusmyyntiä yhtiön {retail} myymälässä. He jatkavat ostamista rauhallisesti paniikin sijaan. Warren Buffett sanoi sen näin: 'Ole pelokas, kun muut ovat ahneita, ja ahne, kun muut ovat pelokkaita.'\n\nRakenna suunnitelmasi. Pysy siinä. Tuleva itsesi kiittää sinua siitä, ettet raivomyynyt punaisena päivänä! 🙏",
+      "quiz": {
+        "q": "Markkina laskee 15 % yhdessä viikossa, ja ryhmächattisi myy kaiken. Rahasi on sijoitettu seuraavaksi kymmeneksi vuodeksi. Mikä on oikea liike?",
+        "explanation": "15 %:n lasku muuttuu oikeaksi tappioksi vasta sinä päivänä, kun myyt. Suunnitelman, jonka kirjoitit silloin kun mitään ei tapahtunut, kirjoitti selväpäinen versio sinusta, ja siinä pysyminen on koko taito. Rauhallisen hetken odottaminen ennen takaisinostoa tarkoittaa ostamista kalliimmalla, koska rauha tulee toipumisen jälkeen, ei ennen sitä.",
+        "options": [
+          "Myy nyt ja osta takaisin, kun kaikki näyttää rauhallisemmalta",
+          "Siirrä rahat siihen, mitä chatti ostaa sen sijaan",
+          "Jatka suunnitelmalla, jonka kirjoitit rauhallisena"
+        ]
+      }
+    },
+    "31": {
+      "title": "Viimeinen pomo",
+      "desc": "Korkoa korolle, maailman 8. ihme",
+      "content": "'Maailman kahdeksas ihme: joka sen ymmärtää, ansaitsee sen; joka ei ymmärrä, maksaa sen.' Näet sen lauseen netissä kaikkialla Einsteinin nimissä. Ei ole mitään oikeaa näyttöä, että hän olisi sanonut sen.\n\nMatematiikka on kuitenkin kiistatonta. Tässä tärkein asia, jonka tulet oppimaan rahasta:\n\nJoku, joka aloittaa 20-vuotiaana ja sijoittaa {c}500/kk 12 %:n vuosituotolla, päätyy 65-vuotiaana ENEMPÄÄN kuin joku, joka aloittaa 35-vuotiaana ja sijoittaa {c}2,000/kk samalla tuotolla. Nelinkertainen kuukausisumma, ja silti hän jää jälkeen.\n\nAika. On. Kaikki.\n\nSe ei ole lukujen temppu, vaan korkoa korolle -ilmiön koko pointti: jokainen vuosi, jonka odotat, maksaa enemmän kuin mikään myöhemmin lisätty vuosi pystyy voittamaan takaisin. Paras hetki aloittaa oli aiemmin. Toiseksi paras on nyt.\n\nTämä visa on viimeinen kokeesi. Naula se, niin olet virallisesti NoobTrader-sertifioitu! 👑",
+      "bossVictory": "Korkoa korolle avattu. Olet nyt vaarallinen. 🔥",
+      "quiz": {
+        "q": "{c}1,000 sijoitettuna 12 %:n vuosituotolla 10 vuodeksi kasvaa noin {c}3,106:een. Mitä tapahtuu, jos TUPLAAT ajan 20 vuoteen?",
+        "explanation": "Ajan tuplaaminen tekee paljon enemmän kuin tuplaa tuloksen, koska jokaisen vuoden kasvu kertyy kaiken aiemman päälle. Kasvu kiihtyy eikä hidastu.",
+        "options": [
+          "Se yli kolminkertaistuu noin {c}9,646:een",
+          "Se suunnilleen tuplaantuu noin {c}6,200:aan",
+          "Tuotto hidastuu, mitä kauemmin odotat"
+        ]
+      }
+    },
+    "32": {
+      "title": "Kryptoalustat ja lompakot",
+      "desc": "Missä krypto oikeasti asuu",
+      "content": "Ensin rehellinen osuus: oikeat kryptoalustat vaativat, että olet 18+, lähes joka maassa. Siksi NoobTrader antaa sinun harjoitella koko jutun ensin virtuaalirahalla. 🎮\n\nKun aikuiset ostavat kryptoa, he käyttävät kahdenlaisia paikkoja:\n\n🏦 PÖRSSIT JA VÄLITTÄJÄSOVELLUKSET (säilyttäjä hoitaa): teet tilin, ja ne säilyttävät kryptosi puolestasi. Helppoa, mutta luotat niihin. Jos ne hakkeroidaan tai menevät konkurssiin, kryptosi voi kadota. Niin on käynyt joillekin kryptomaailman suurimmista nimistä.\n\n🔑 OMAT LOMPAKOT (self-custody): sovellus, jossa SINÄ pidät salaiset avaimet. Kukaan ei voi jäädyttää sitä, mutta kukaan ei voi myöskään auttaa sinua. Hukkaa palautuslauseesi (seed phrase, 12–24 salaista sanaa), niin krypto on poissa ikuisesti. Ei salasanan palautusta. Ei asiakastukea. Poissa.\n\nKryptoihmiset sanovat: 'Not your keys, not your coins' eli ei avaimiasi, ei kolikoitasi. Nyt tiedät, mitä se tarkoittaa.",
+      "quiz": {
+        "q": "Mitä tarkoittaa, kun pörssi säilyttää kryptosi 'säilytyspalveluna' (custodial)?",
+        "explanation": "Säilytyspalvelu tarkoittaa, että alusta pitää avaimet, joten kolikkosi ovat vain yhtä turvassa kuin alusta. Jos se hakkeroidaan tai kaatuu, ne voivat mennä sen mukana. Sitä ihmiset tarkoittavat sanoessaan: ei avaimiasi, ei kolikoitasi.",
+        "options": [
+          "Pörssi pitää avaimia puolestasi",
+          "Sinä pidät avaimet, eikä kukaan muu voi",
+          "Kukaan ei voi koskea kolikoihin, et edes sinä",
+          "Se kerryttää korkoa automaattisesti"
+        ]
+      }
+    },
+    "33": {
+      "title": "Miten kryptojen ostaminen toimii",
+      "desc": "Spreadit, palkkiot ja 24/7-markkinat",
+      "content": "Kryptojen ostaminen näyttää siltä kuin ostaisit mitä tahansa netistä, mutta kolme asiaa on toisin:\n\n1️⃣ SPREADI (hintaero): ostohinta on aina vähän korkeampi kuin myyntihinta. Osta kryptoa {c}100:lla ja myy heti, niin saat takaisin ehkä {c}97. Se ero on tapa, jolla alustat tienaavat hiljaa.\n\n2️⃣ PALKKIOT PÄÄLLE: useimmat alustat veloittavat lisäksi palkkion jokaisesta kaupasta, pienistä ostoista usein 1–2 %. Palkkiot plus spreadi tarkoittaa, että pieni osto on noin 3–5 % miinuksella ennen kuin hinta on liikahtanutkaan.\n\n3️⃣ EI SULKEMISKELLOA: pörssit sulkeutuvat yöksi ja viikonlopuiksi. Kryptolla käydään kauppaa 24/7, vuoden jokaisena päivänä. Hinnat voivat romahtaa, kun nukut. Se on osasyy siihen, miksi krypto heiluu niin paljon enemmän kuin osakkeet.\n\nNoobTrader-sovelluksessa voit käydä kauppaa kryptolla virtuaalirahalla, 24/7, menettämättä senttiäkään. Maksat palkkion jokaisesta kaupasta, mutta NoobTrader ei veloita spreadia, joten oikea osto maksaa enemmän kuin sama kauppa täällä. 📊",
+      "quiz": {
+        "q": "Laitat 200 NT kolikkoon ja myyt sen viisi sekuntia myöhemmin, ennen kuin hinta on liikahtanut lainkaan. Osto- ja myyntihinnan välinen ero maksaa 3 %, ja alusta veloittaa 1 %:n palkkion jokaisesta kaupasta. Vedä siihen summaan, joka palaa takaisin.",
+        "explanation": "Spreadi vie 3 %, sitten 1 %:n palkkio lähtee sisään mennessä ja toinen ulos tullessa. Se on 5 % 200 NT:stäsi, joten 10 NT on poissa ennen kuin hinta on tehnyt mitään. Saat takaisin 190 NT, ja kolikon täytyy nyt nousta 5 % pelkästään, jotta pääset omillesi."
+      }
+    },
+    "34": {
+      "title": "Gas-maksut selitettynä",
+      "desc": "Miksi kryptojen lähettäminen maksaa",
+      "content": "Kryptojen lähettäminen ei ole ilmaista. Jokainen siirto maksaa verkkomaksun, jota kutsutaan usein nimellä GAS, tietokoneille, jotka käsittelevät ja suojaavat verkkoa.\n\nTässä kohta, joka yllättää kaikki: gas hinnoitellaan verkon ruuhkan mukaan, EI sen mukaan, kuinka paljon lähetät. Kun verkko on ruuhkainen, maksut pomppaavat.\n\n🤯 Joissain verkoissa ruuhka-aikaan {c}10 arvoisen kryptomäärän lähettäminen voi maksaa ENEMMÄN kuin {c}10 gasia. Maksaisit toimituksesta enemmän kuin paketti on arvoltaan.\n\nUudemmat verkot ja 'layer 2' -järjestelmät ovat olemassa lähinnä tehdäkseen tästä halvempaa, muutaman sentin maksuilla. Jokainen kryptojen kanssa toimiva tarkistaa maksun ENNEN kuin painaa lähetä.\n\nVielä yksi juttu: kryptosiirtoja ei voi perua. Väärä osoite plus maksettu gas on yhtä kuin raha poissa, pysyvästi. Ei ole pankkia, jolle soittaa. ☎️❌",
+      "quiz": {
+        "q": "Gas-maksut ovat tänään korkeat. Haluat lähettää {c}15 arvosta kryptoa, ja gas maksaa {c}20. Mikä on fiksu tulkinta?",
+        "explanation": "Gas hinnoitellaan sen mukaan, kuinka ruuhkainen verkko on, ei sen mukaan, kuinka paljon lähetät, joten pieni siirto voi maksaa enemmän kuin se on arvoltaan. Jakaminenkaan ei auta, koska jokainen siirto maksaa oman maksunsa. Odota rauhallisempaa hetkeä tai käytä halvempaa verkkoa.",
+        "options": [
+          "Maksa se, koska maksu palautetaan, kun siirto menee perille",
+          "Jätä väliin, maksu maksaa enemmän kuin paketti",
+          "Jaa se kahtia, niin kumpikin puolikas maksaa puolet maksusta",
+          "Älä välitä maksusta, gas koskee vain isoja siirtoja"
+        ]
+      }
+    },
+    "35": {
+      "title": "Meemikolikot ja rug pullit",
+      "desc": "Huomaa ansat ennen kuin ne huomaavat sinut",
+      "content": "Meemikolikot ovat kryptoja, jotka perustuvat vitseihin ja hypeen eivätkä mihinkään oikeaan käyttöön. Muutama teki varhaisista ostajista rikkaita, minkä takia tuhansia kopioita on olemassa. Lähes kaikki niistä menevät nollaan. 📉\n\nIlkein ansa on RUG PULL (maton alta vetäminen): tekijät luovat kolikon, hypettävät sitä kovaa, odottavat, että ihmiset ryntäävät mukaan, ja sitten dumppaavat valtavan varastonsa tai tyhjentävät kaupankäyntipoolin. Hinta romahtaa minuuteissa. He pitävät rahat. Sinä pidät arvottomat kolikot.\n\n🚩 PUNAISET LIPUT, jotka kannattaa muistaa:\n• Anonyymi tiimi, jota et voi tarkistaa\n• 'Taatut' tuotot (mikään markkinoilla ei ole taattua)\n• Vaikuttajat, joille maksetaan sen mainostamisesta\n• Pieni porukka omistaa suurimman osan tarjonnasta\n• Painostus 'ostaa ennen kuin on liian myöhäistä'\n\nJos kolikon pääasiallinen myyntipuhe on, että MUIDEN ostaminen tekee SINUSTA rikkaan, se ei ole sijoittamista. Se on tuolileikki, ja tekijät omistavat musiikin. 🎵",
+      "quiz": {
+        "q": "Uudella kolikolla on anonyymi tiimi, se lupaa taatun 100-kertaistumisen, ja maksetut vaikuttajat työntävät sitä kovaa. Mitä yleensä tapahtuu seuraavaksi?",
+        "explanation": "Anonyymi tiimi, taattu tuotto ja maksettu mainonta on tavallinen rug pull -asetelma. Tekijät omistavat suurimman osan tarjonnasta, myyvät sen hypen keskellä ja kävelevät pois, jättäen ostajille kolikon, jota kukaan ei halua. Mikään markkinoilla ei ole taattua.",
+        "options": [
+          "Pörssi, jossa se julkaistiin, palauttaa ostajien rahat",
+          "Hinnat tasaantuvat, kun vaikuttajat lopettavat postaamisen",
+          "Tiimi dumppaa varastonsa ja hinta romahtaa",
+          "Viranomaiset pakottavat tiimin kertomaan, keitä he ovat"
+        ]
+      }
+    },
+    "36": {
+      "title": "Louhinta vs treidaus vs staking",
+      "desc": "Kolme hyvin erilaista peliä",
+      "content": "Kolme tapaa, joilla ihmiset yrittävät tienata kryptolla, eivätkä ne ole SAMA peli:\n\n⛏️ LOUHINTA: tehokkaat tietokoneet kilpailevat siirtojen käsittelystä ja ansaitsevat uusia kolikoita. Kuulostaa hauskalta, mutta Bitcoinin louhinta on nykyään teollista: hallillisia erikoiskoneita ja valtavia sähkölaskuja. Puhelimesi tai läppärisi ei pysty kilpailemaan, ja 'louhi Bitcoinia puhelimellasi!' -sovellukset ovat lähes aina huijauksia tai mainosfarmeja, jotka maksavat sinulle lähes mitään.\n\n🥩 STAKING: joissain verkoissa lukitset kolikoita auttaaksesi verkon suojaamisessa ja ansaitset palkkioita, vähän kuin korkoa. Todellista, mutta kolikkosi voivat olla lukossa jonkin aikaa, ja niiden HINTA voi silti romahtaa, kun ne ovat lukossa.\n\n📊 TREIDAUS: ostamista ja myymistä hintaliikkeistä hyötymiseksi. Laitteita ei tarvita, mutta se on peli, jossa kurinalaisuudella on eniten väliä ja jossa useimmat aloittelijat häviävät omille tunteilleen.\n\nNoobTrader opettaa treidauspelin ilman riskiä. Kaksi muuta vaativat oikeaa rahaa jo aloittamiseen.",
+      "quiz": {
+        "q": "Sovellus väittää, että puhelimesi voi louhia Bitcoinia kannattavasti, kun nukut. Mikä on todennäköisin totuus?",
+        "explanation": "Louhinta on kilpailu, jonka ratkaisevat erikoislaitteet ja halpa sähkö, eikä puhelimella ole kumpaakaan. Muuta lupaavat sovellukset ovat yleensä datasi, akkusi tai rahojesi perässä ja maksavat sinulle siitä lähes mitään.",
+        "options": [
+          "Puhelimet louhivat hitaasti mutta tekevät silti voittoa",
+          "Se toimii, mutta vain uusimmilla puhelimilla",
+          "Verkot ovat kieltäneet puhelinlouhinnan",
+          "Se on mainosfarmi, joka maksaa lähes mitään"
+        ]
+      }
+    },
+    "37": {
+      "title": "Kryptoturvallisuus ja huijaukset",
+      "desc": "Pidä omasi omanasi",
+      "content": "Kryptojen supervoima on myös niiden vaara: siirrot ovat peruuttamattomia, eikä ole pankkia, joka perisi virheen. Huijarit rakastavat sitä. Tässä puolustuspakkauksesi:\n\n🔐 PALAUTUSLAUSEESI ON PYHÄ. Kukaan luotettava ei KOSKAAN pyydä sitä. Ei 'tukihenkilö', ei 'vahvistusbotti', ei kukaan. Jokainen, joka pyytää palautuslausettasi, varastaa sinulta, piste.\n\n🎣 TIETOJENKALASTELU: valesivustot ja yksityisviestit, jotka näyttävät täsmälleen oikeilta alustoilta. Yksi kirjain pielessä verkko-osoitteessa. Kirjoita osoite aina itse.\n\n🎁 ARVONTAHUIJAUKSET: 'Lähetä 1 kolikko, saat 2 takaisin!', usein julkkiksen hakkeroidulta tililtä. Kukaan ei tuplaa rahojasi. Ikinä.\n\n💕 ROMANSSI- JA 'SIJOITUSMENTORI'-HUIJAUKSET: ystävällinen tuntematon, joka hitaasti puhuu sinut 'erityiselle alustalle'. Alusta on feikki. Nostot eivät koskaan toimi.\n\nKaava jokaisen huijauksen takana: kiire plus salailu plus taattu voitto. Näetkö ne kolme yhdessä? Kävele pois. 🚶",
+      "quiz": {
+        "q": "Joku, joka väittää olevansa 'alustan tuki', lähettää sinulle yksityisviestin ja pyytää 12 sanan palautuslausettasi 'lompakkosi vahvistamiseksi'. Mitä teet?",
+        "explanation": "Palautuslause ON lompakko. Kuka tahansa, jolla se on, voi tyhjentää sen, oikea tuki ei koskaan pyydä sitä, eikä mitään osaa siitä pidä koskaan jakaa.",
+        "options": [
+          "Et koskaan jaa sitä, koska oikea tuki ei koskaan pyydä palautuslausetta",
+          "Jaat sen, koska vahvistettu tukihenkilöstö tarvitsee sen tilisi tarkistamiseen",
+          "Jaat vain kuusi ensimmäistä sanaa, mikä on yksinään tarpeeksi turvallista",
+          "Pyydät heitä ensin lähettämään sähköpostia virallisesta osoitteesta ja jaat sen sitten"
+        ]
+      }
+    },
+    "38": {
+      "title": "Kryptopomo",
+      "desc": "Bitcoin-aikakone",
+      "content": "Aika tarinalle, jota kaikki lainaavat mutta kukaan ei kerro kunnolla.\n\nAlkuvuonna 2017 yksi Bitcoin maksoi noin $1,000. Joulukuussa 2024 se ylitti ensimmäistä kertaa $100,000. $1,000:n osto, jota pidettiin koko matkan, kasvoi noin $100,000:een. Se on 100-kertaistuminen. 🤯\n\nNyt se osa, jonka hype jättää pois: kerätäksesi sen 100-kertaistumisen sinun piti istua kahden raa'an romahduksen läpi, joista toinen oli noin 84 % ja toinen noin 77 %, ja katsoa rahojesi kutistuvan VUOSIA kerrallaan myymättä. Tuskin kukaan onnistui siinä. Useimmat ostivat kalliilla, panikoivat romahduksessa ja myivät halvalla.\n\nJa jokaista Bitcoinia kohden on tuhansia kuolleita kolikoita, jotka menivät nollaan. Voittajan valitseminen etukäteen näyttää helpolta vain jälkikäteen. Sitä kutsutaan selviytymisharhaksi (survivorship bias), ja se on kryptomaailman kallein illuusio.\n\nAikakoneen todellinen opetus: niillä kolikoilla, jotka selvisivät, kärsivällisyys voitti ajoituksen. Mutta saat tietää, mitkä kolikot selviävät, vasta JÄLKIKÄTEEN, minkä takia hajauttaminen voittaa sankarivalinnat, ja miksi KUKAAN ei tiedä tulevaisuutta. Ei edes pomo. 🐉",
+      "bossVictory": "Kryptomoduuli valloitettu. Tiedät nyt enemmän kuin useimmat aikuiset. 🐉",
+      "quiz": {
+        "q": "Tuhansia kolikoita julkaistiin Bitcoinin rinnalla, ja useimmat ovat nyt lähes arvottomia. Miksi ”valitse vain seuraava Bitcoin” näyttää niin helpolta, kun katsot taaksepäin?",
+        "explanation": "Vain selviytyjistä puhutaan yhä, joten voittajien valitseminen näyttää jälkikäteen paljon helpommalta kuin se oli silloin. Ne tuhannet, jotka epäonnistuivat, eivät jättäneet tarinaan jälkeäkään.",
+        "options": [
+          "Koska voittajat ovat ainoita, joista kukaan enää puhuu, ja kuolleet katosivat tarinasta",
+          "Koska parhaat kolikot ovat ilmeisiä alusta asti kenelle tahansa, joka lukee niistä tarpeeksi",
+          "Koska useimmat kolikot onnistuvat lopulta kenelle tahansa, joka jaksaa pitää niitä vuosia",
+          "Koska asiantuntijat ennustivat Bitcoinin oikein jo vuonna 2010 ja ovat ennustaneet jokaisen voittajan siitä lähtien"
+        ]
+      }
+    },
+    "39": {
+      "title": "Mikä lohkoketju OIKEASTI on?",
+      "desc": "Tekniikka kaiken takana",
+      "content": "Riisu hype pois, niin lohkoketju on yllättävän yksinkertainen: yhteinen kirjanpito, josta tuhannet tietokoneet pitävät identtisiä kopioita.\n\nKun joku lähettää kryptoa, se siirto menee 'lohkoon' satojen muiden kanssa. Lohko sinetöidään matematiikalla ja ketjutetaan edelliseen lohkoon. Siitä nimi: lohko. Ketju. ⛓️\n\nMiksi ketään kiinnostaa? Sen takia, mitä se tekee mahdolliseksi:\n\n✅ Kukaan ei voi hiljaa muokata historiaa. Vanhan lohkon muuttaminen tarkoittaisi jokaisen sen jälkeisen lohkon uudelleen tekemistä tuhansilla tietokoneilla yhtä aikaa.\n✅ Mikään yksittäinen yhtiö tai hallitus ei pyöritä sitä. Tietokoneiden verkko pyörittää sitä yhdessä.\n✅ Kuka tahansa voi tarkistaa kirjanpidon. Jokainen koskaan tehty Bitcoin-siirto on julkisesti nähtävissä.\n\nSe on aidosti uutta teknologiaa. Se EI myöskään ole taikarahaa. Täydellinen kirjanpito arvottomasta kolikosta on silti arvoton kolikko. Se, että tekniikka on totta, ei tee jokaisesta sen päälle rakennetusta kolikosta arvokasta. 🧠",
+      "quiz": {
+        "q": "Miksi lohkoketjussa on niin vaikeaa muuttaa vanhaa siirtoa salaa?",
+        "explanation": "Jokainen lohko on sinetöity edelliseen, joten vanhan uudelleenkirjoittaminen tarkoittaa jokaisen sen jälkeisen lohkon uudelleenkirjoittamista tuhansilla tietokoneilla nopeammin kuin verkko lisää uusia. Se tekee kirjanpidosta käytännössä pysyvän.",
+        "options": [
+          "Jokainen myöhempi lohko pitäisi myös tehdä uudelleen",
+          "Jokaisen muutoksen täytyy saada hallituksen hyväksyntä",
+          "Jokainen kuukautta vanhempi merkintä pyyhitään",
+          "Jokaisen kolikon tekijällä on yksityinen muokkausavain"
+        ]
+      }
+    },
+    "40": {
+      "title": "Bitcoin vs kaikki muut",
+      "desc": "Kaikki kolikot eivät ole samaa peliä",
+      "content": "'Krypto' ei ole yksi asia. Erot ovat tärkeämpiä kuin yhtäläisyydet:\n\n₿ BITCOIN: alkuperäinen. Sen tarjonta on rajattu 21 miljoonaan kolikkoon ikuisesti, koodiin kirjoitettuna, ja uusien kolikoiden tahti puolittuu suunnilleen neljän vuoden välein. (Kuulostaako tutulta? NOOB-kolikon puolittuminen lainaa juuri tämän idean.) Sen koko myyntipuhe on niukkuus plus turvallisuus.\n\n⟠ ETHEREUM: vähemmän 'digitaalista kultaa', enemmän 'maailman tietokone'. Se pyörittää älysopimuksia, jotka ovat automaattisesti suoritettavia ohjelmia. Useimmat kryptosovellukset on rakennettu sen tai sen kilpailijoiden päälle.\n\n🪙 KAIKKI MUUT: tuhansia 'altcoineja'. Muutama ratkaisee oikeita ongelmia. Useimmat ovat kopioita, kokeiluja tai rahastuksia. Raaka tilasto: suurin osa koskaan luoduista kolikoista on jo kuolleita tai arvottomia.\n\nOpetus: 'krypto nousee' kertoo lähes mitään mistään TIETYSTÄ kolikosta. Jokainen on oma vetonsa, omilla todennäköisyyksillään. 🎲",
+      "quiz": {
+        "q": "Mikä on Bitcoinin enimmäistarjonta, ja kuinka helposti sitä voi muuttaa?",
+        "explanation": "21 miljoonan raja on osa sääntöjä, joita jokainen verkon tietokone ajaa. Sen nostaminen tarkoittaisi, että lähes kaikki niistä suostuisivat tekemään jo omistamastaan vähemmän arvokasta, minkä takia rajaa pidetään kiinteänä.",
+        "options": [
+          "100 miljoonaa, ja louhijat äänestävät siitä joka vuosi",
+          "21 miljoonaa, ja sen nostaminen on lähes mahdotonta",
+          "1 miljardi, ja tekijä voi säätää sitä",
+          "Ei rajaa lainkaan, joten uusia kolikoita syntyy ikuisesti"
+        ]
+      }
+    },
+    "41": {
+      "title": "Vakaakolikot",
+      "desc": "Krypto, joka yrittää pysyä paikallaan",
+      "content": "Vakaakolikko (stablecoin) on krypto, joka on suunniteltu olemaan aina tietyn summan arvoinen, yleensä tasan 1 Yhdysvaltain dollari. Kaupankävijät käyttävät niitä parkkipaikkana: myyt heiluvat kolikkosi vakaakolikoiksi, ja rahasi pysyvät paikallaan sillä aikaa, kun mietit seuraavaa siirtoa.\n\nMiten ne pysyvät 1 dollarissa ($1)? Yleisin malli pitää varannossa oikeita dollareita ja muuta omaisuutta, jolloin jokaisen kolikon takana on jotain. Luotat siihen, joka niitä varantoja hallitsee.\n\nJa tässä varoittava tarina: vakaakolikot voivat HAJOTA. Niin on oikeasti käynyt. Vuonna 2022 suuri 'algoritminen' vakaakolikko, joka käytti oikeiden varantojen sijaan nokkelaa matematiikkaa, romahti $1:stä lähes nollaan muutamassa päivässä ja hävitti kymmeniä miljardeja dollareita. 'Vakaa' on suunnittelutavoite, ei takuu.\n\nNyrkkisääntö: mitä nokkelampi mekanismi pitää jotain 'turvallisena', sitä tarkemmin kannattaa katsoa. 🔍",
+      "quiz": {
+        "q": "Mikä on vakaakolikon päätehtävä?",
+        "explanation": "Vakaakolikon tehtävä on pysyä paikallaan. Se on parkkipaikka kauppojen välissä, ei jotain, jonka odotetaan kasvavan.",
+        "options": [
+          "Pitää kiinteä arvo, yleensä $1, jotta kaupankävijöillä on vakaa parkkipaikka",
+          "Kasvaa Bitcoinia nopeammin seuraamalla koko kryptomarkkinaa",
+          "Maksaa automaattisesti korkoa kaikille, joilla sitä on lompakossa",
+          "Piilottaa siirrot kaikilta sotkemalla julkisen tilikirjan"
+        ]
+      }
+    },
+    "42": {
+      "title": "Krypto, verot ja laki",
+      "desc": "Kyllä, säännöt pätevät",
+      "content": "Netti on täynnä ihmisiä, jotka uskovat kryptojen olevan näkymätöntä rahaa ilman sääntöjä. He yleensä oppivat totuuden kantapään kautta. 😬\n\nTodellisuus useimmissa maissa, myös Etelä-Afrikassa:\n\n🧾 VOITOT OVAT YLEENSÄ VERONALAISIA. Jos myyt kryptoa kalliimmalla kuin ostit, veroviranomainen haluaa yleensä osansa, ihan kuten osakkeissakin.\n\n🪪 PÖRSSIT TIETÄVÄT, KUKA OLET. Luotettavat alustat vaativat henkilöllisyyden tarkistuksen (nimeltään KYC, Know Your Customer). Jokainen siirto myös tallentuu pysyvästi itse lohkoketjuun, mikä on anonyymin VASTAKOHTA.\n\n⚖️ VALVOJAT OVAT MUKANA. Etelä-Afrikassa kryptovarat luokitellaan virallisesti rahoitustuotteiksi, joten niitä myyvien alustojen on noudatettava rahoituspalveluiden sääntöjä.\n\nMikään tästä ei ole syy paniikkiin. Se ON syy olla kuuntelematta ketään, joka sanoo, että 'säännöt eivät koske kryptoa'. Ne koskevat, ja muuta teeskentelevät aikuiset joutuvat oikeasti vakaviin vaikeuksiin.",
+      "quiz": {
+        "q": "Serkkusi sanoo, että kryptovoitot ovat veroviranomaiselle näkymättömiä, koska krypto on anonyymiä. Mikä tässä on pielessä?",
+        "explanation": "Luotettavat alustat tarkistavat henkilöllisyytesi ennen kuin voit käydä kauppaa, ja jokainen lohkoketjun siirto on julkinen ja pysyvä, mikä on anonyymin vastakohta. Voitot ovat yleensä veronalaisia, joten tarkista oman asuinmaasi säännöt.",
+        "options": [
+          "Pörssit tarkistavat henkilöllisyyden, ja tiedot ovat julkisia",
+          "Ei mikään, krypto on oikeasti anonyymiä",
+          "Kryptoa verotetaan vain Amerikassa eikä missään muualla",
+          "Vero alkaa vasta, kun nostat miljoonan"
+        ]
+      }
+    },
+    "43": {
+      "title": "Volatiliteetti ja selviytymissäännöt",
+      "desc": "Miksi krypto heiluu niin rajusti",
+      "content": "Huono päivä osakemarkkinoilla on 3%. Huono päivä kryptossa on 20%. Jopa Bitcoin, kryptojen 'aikuinen', on menettänyt yli 80% arvostaan useammin kuin kerran ja palautunut myöhemmin. Pienemmät kolikot menettävät rutiininomaisesti 95% eivätkä koskaan palaa.\n\nMiksi niin villiä? Kryptolla käydään kauppaa 24/7 ilman kaupankäynnin pysäytyksiä, iso osa ostetaan lainarahalla, joka pakkomyydään romahduksissa, ja hinnat kulkevat tarinoiden ja tunteiden varassa enemmän kuin tulosraporttien.\n\nJoten tässä selviytymissäännöt, joita jokainen kokenut kaupankävijä toistaa:\n\n1️⃣ Älä koskaan laita sisään rahaa, jonka menettämiseen kokonaan sinulla ei ole varaa.\n2️⃣ Mitoita positiot niin, ettei yksi katastrofi pyyhi sinua pois.\n3️⃣ Päätä poistumisesi ENNEN kuin menet sisään, kun olet vielä rauhallinen.\n4️⃣ FOMO on rahoitusmaailman kallein tunne.\n\nHarjoittele kaikkia neljää NoobTrader-sovelluksessa, jossa tappiot ovat leikkiä. Tavat ovat se oikea palkinto. 🏆",
+      "quiz": {
+        "q": "Mikä näistä on oikea selviytymissääntö heiluville markkinoille?",
+        "explanation": "Se, ettei koskaan riskeeraa rahaa, jonka menettämiseen ei ole varaa, on se yksi sääntö, joka pitää sinut pelissä. Panoksen tuplaaminen tappion jälkeen on tapa, jolla tilit tyhjenevät.",
+        "options": [
+          "Tuplaa positiosi jokaisen tappion jälkeen voittaaksesi sen takaisin",
+          "Älä koskaan sijoita rahaa, jonka menettämiseen kokonaan sinulla ei ole varaa",
+          "Volatiliteetti koskee vain pieniä kolikoita, joten isot kolikot ovat turvassa",
+          "Osta aina, kun kaikki somessa ostavat"
+        ]
+      }
+    },
+    "44": {
+      "title": "Hypesyklit ja FOMO",
+      "desc": "Jokaisen manian takana oleva kaava",
+      "content": "Krypto kulkee hypesykleissä, ja kun kerran näet kaavan, et voi enää olla näkemättä sitä:\n\n📈 Vaihe 1: jotain todellista tapahtuu. Varhaiset uskovat ostavat hiljaa.\n🚀 Vaihe 2: hinnat nousevat. Media huomaa. Syötteesi täyttyy voittajista.\n🎪 Vaihe 3: mania. Taksikuskit jakavat kolikkovinkkejä. Ihmiset lainaavat ostaakseen. 'Tällä kertaa on toisin.'\n💥 Vaihe 4: romahdus. Myöhäiset tulijat, jotka ostivat kalleimmalla, häviävät eniten.\n🕳️ Vaihe 5: hiljaisuus. Voittajien postaukset katoavat. Kukaan ei puhu tappioistaan.\n\nVuoden 2021 NFT-buumi meni täsmälleen tämän käsikirjoituksen mukaan: digitaalisia keräilyesineitä myytiin huipulla miljoonilla, ja pari vuotta myöhemmin useimmat olivat lähes arvottomia.\n\nJokaisen manian julma temppu: se saa PAHIMMAN ostohetken tuntumaan KIIREELLISIMMÄLTÄ ostohetkeltä. Kun mukaan hyppääminen tuntuu turvallisimmalta, koska kaikki muut ovat jo mukana, helpot voitot ovat yleensä jo menneet. 🎯",
+      "quiz": {
+        "q": "Milloin tavallinen ihminen tuntee klassisessa hypesyklissä voimakkaimman halun ostaa?",
+        "explanation": "Halu on kovimmillaan, kun tarina on kovimmillaan, ja tarina on kovimmillaan sen jälkeen, kun hinta on jo noussut. Se, että kaikki ovat mukana, saa sen tuntumaan turvalliselta, ja juuri siksi ostajia ei ole enää jäljellä.",
+        "options": [
+          "Alussa, kun melkein kukaan ei vielä puhu siitä",
+          "Puolivälissä romahdusta, kun hinnat ovat matalalla",
+          "Lähellä huippua, kun kaikki muut ovat jo mukana",
+          "Siinä ei ole kaavaa, halu on satunnainen"
+        ]
+      }
+    },
+    "45": {
+      "title": "Kynttilän lukeminen",
+      "desc": "Kynttilän anatomia: runko ja väri",
+      "content": "Jokainen kynttilä kertoo pienen tarinan vain neljällä luvulla: mistä hinta aukesi, kuinka korkealle se nousi, kuinka matalalle se laski ja mihin se sulkeutui. Kiinteä runko ulottuu avauksesta päätökseen, ja väri kertoo, kumpi voitti: vihreä tarkoittaa, että päätös jäi avauksen yläpuolelle, punainen tarkoittaa, että myyjät vetivät sen alapuolelle. Siinä koko temppu. Opettele lukemaan yksi kynttilä kunnolla, niin jokainen kaavio maailmassa muuttuu meteliseinästä sarjakuvaksi. 🟢",
+      "quiz": {
+        "q": "Tämä kynttilä on vihreä. Mitä se kertoo kyseisestä kaupankäyntijaksosta?",
+        "options": [
+          "Hinta sulkeutui alemmas kuin se aukesi",
+          "Ostajia oli varmasti enemmän kuin myyjiä",
+          "Hinta sulkeutui korkeammalle kuin se aukesi",
+          "Hinta ei laskenut kertaakaan jakson aikana"
+        ]
+      }
+    },
+    "46": {
+      "title": "Varjot kertovat tarinoita",
+      "desc": "Kynttilän anatomia: huiput ja pohjat",
+      "content": "Runko näyttää, mistä jakso aukesi ja mihin se sulkeutui, mutta varjot (wicks) näyttävät koko matkan: jokaisen hinnan, johon taistelu oikeasti ylsi. Pitkä varjo tarkoittaa, että avauksen ja päätöksen ulkopuolella käytiin iso taistelu, ja puoli, joka jätti varjon jälkeensä, hävisi sen. Pitkä varjo alhaalla? Myyjät painoivat kovaa ja lyötiin takaisin. Pitkä varjo ylhäällä? Ostajat kurottivat korkealle ja torjuttiin. Runko on otsikko, varjot ovat juorut. 📏",
+      "quiz": {
+        "q": "Mitä rungon ylä- ja alapuolella olevat ohuet viivat (varjot) oikeasti näyttävät?",
+        "options": [
+          "Jakson aikana vaihdetut korkeimman ja matalimman hinnan",
+          "Eilisen avauksen ja päätöksen",
+          "Tarkat hinnat, joilla suurin osa kaupoista tehtiin",
+          "Ennusteen huomisen vaihteluvälistä"
+        ]
+      }
+    },
+    "47": {
+      "title": "Doji",
+      "desc": "Yksittäiset kynttilät: epäröinti",
+      "content": "Joskus kynttilä aukeaa ja sulkeutuu lähes täsmälleen samaan hintaan, jolloin jää pieni runko ja varjot molemmin puolin. Se on doji, ja se tarkoittaa, että köydenveto päättyi tasapeliin: ostajat ja myyjät vetivät kovaa koko session, eikä kumpikaan voittanut. Yksinään se on vain olankohautus. Vahvan nousun jälkeen se voi vihjata trendin väsymisestä, koska voitolla ollut puoli ei yhtäkkiä saanutkaan hintaa liikkumaan. Huomionarvoinen vihje, ei koskaan takuu. 🤝",
+      "quiz": {
+        "q": "Hehkuva kynttilä aukesi ja sulkeutui lähes täsmälleen samaan hintaan. Mikä sen nimi on ja mihin se vihjaa?",
+        "options": [
+          "Marubozu, merkki täydestä vakaumuksesta suuntaan tai toiseen",
+          "Vasara, merkki siitä, että ostajat ottivat ohjat takaisin",
+          "Gappi, merkki siitä, että kaupankäynti taukosi yön yli",
+          "Doji, merkki epäröinnistä ostajien ja myyjien välillä"
+        ]
+      }
+    },
+    "48": {
+      "title": "Vasara",
+      "desc": "Yksittäiset kynttilät: vastaisku",
+      "content": "Kuvittele raju sessio: myyjät murskaavat hinnan alas, ja sitten ostajat vetävät sen koko matkan takaisin ennen päätöstä. Kaavioon jää vasara: pieni runko lähellä yläpäätä ja pitkä alavarjo, joka on vähintään kaksi kertaa rungon kokoinen. Laskun jälkeen vasara kertoo, että myyjät heittivät parhaan iskunsa eikä se osunut. Se merkitsee usein mahdollista käännettä. Mahdollista, ei luvattua, joten pidä sitä seurattavana vihjeenä, ei ostokäskynä. 🔨",
+      "quiz": {
+        "q": "Laskun jälkeen hehkuva kynttilä piirsi pitkän alavarjon ja pienen rungon lähelle yläpäätä. Mikä se on?",
+        "options": [
+          "Tähdenlento, merkki siitä, että myyjät ottivat vallan",
+          "Vasara, vihje siitä, että ostajat iskivät kovaa takaisin",
+          "Doji, täydellinen tasapeli",
+          "Todiste siitä, että laskutrendi on ohi"
+        ]
+      }
+    },
+    "49": {
+      "title": "Tähdenlento",
+      "desc": "Yksittäiset kynttilät: torjunta huipulla",
+      "content": "Vasaran peilikuva. Vahvan nousun jälkeen ostajat kurottavat vielä yhteen uuteen huippuun, saavat kovan torjunnan, ja hinta sulkeutuu takaisin alas lähelle avaustaan. Kaavioon piirtyy pieni runko kynttilän alaosaan ja pitkä ylävarjo: tähdenlento (shooting star). Se tarkoittaa, että myyjät vihdoin ilmestyivät huipulle niin voimalla, että voittivat session. Ison nousun jälkeen tuo torjunta on usein merkittävä. Usein, ei aina. 🌠",
+      "quiz": {
+        "q": "Vahvan nousun jälkeen hehkuva kynttilä piikkasi ylös ja sulkeutui lähelle pohjaansa jättäen pitkän ylävarjon. Mikä se on?",
+        "options": [
+          "Tähdenlento, vihje siitä, että myyjät ilmestyivät huipulle",
+          "Vasara, vihje siitä, että ostajat ovat taas ohjaksissa",
+          "Vihreä marubozu, puhdasta ostovoimaa",
+          "Takuu siitä, että hinta romahtaa huomenna"
+        ]
+      }
+    },
+    "50": {
+      "title": "Marubozu",
+      "desc": "Yksittäiset kynttilät: täysi vakaumus",
+      "content": "Marubozu on yksi kiinteä runko ilman lainkaan varjoja: hinta aukesi ja marssi yhteen suuntaan koko session katsomatta kertaakaan taakseen. Ei taistelua, ei epäröintiä, täysi vakaumus yhdeltä puolelta. Vihreä marubozu huutaa ostajien itseluottamusta, punainen huutaa päinvastaista. Ne ovat harvinaisia, ja juuri siksi kaupankävijät terästäytyvät, kun sellainen ilmestyy. 💪",
+      "quiz": {
+        "q": "Hehkuva kynttilä on yksi kiinteä runko ilman lainkaan varjoja. Mitä tuo muoto kertoo sinulle?",
+        "options": [
+          "Kukaan ei käynyt kauppaa sinä aikana, joten se pysyi tasaisena",
+          "Markkina sulkeutui sinä päivänä aikaisin ja katkaisi sen",
+          "Yksi puoli hallitsi avauksesta päätökseen, täysi vakaumus",
+          "Ostajat ja myyjät olivat täydellisessä tasapainossa koko ajan"
+        ]
+      }
+    },
+    "51": {
+      "title": "Nouseva nielaisu",
+      "desc": "Kahden kynttilän kuviot: ostajat iskevät",
+      "content": "Kaksi kynttilää, yksi viesti. Ensin pieni punainen kynttilä, tavallista arkea laskutrendissä. Sitten iso vihreä runko, joka nielaisee sen kokonaan: yhdessä sessiossa ostajat pyyhkivät pois kaiken, mitä myyjät saivat aikaan edellisenä päivänä, ja vähän enemmänkin. Laskutrendin jälkeen ilmestyvä nouseva nielaisu (bullish engulfing) on yksi seuratuimmista käännevihjeistä missä tahansa kaaviossa, koska se näyttää voimatasapainon kääntyvän yhdessä kynttilässä. Vihje, ei sopimus. 🐂",
+      "quiz": {
+        "q": "Iso vihreä runko nielaisee kokonaan sitä edeltävän punaisen rungon. Mikä tämä kahden kynttilän kuvio on?",
+        "options": [
+          "Laskeva nielaisu, myyjät ottivat vallan",
+          "Nouseva nielaisu, ostajat jyräsivät myyjät",
+          "Tuplapohja",
+          "Kaksi dojia peräkkäin"
+        ]
+      }
+    },
+    "52": {
+      "title": "Laskeva nielaisu",
+      "desc": "Kahden kynttilän kuviot: myyjät iskevät",
+      "content": "Nousevan version peilikuva. Nousun huipulla iso punainen runko nielaisee koko sitä edeltävän vihreän rungon: myyjät pyyhkivät edellisen päivän ostot pois yhdellä kynttilällä juuri siellä, missä nousu oli jo venynyt ja viimeisimmät ostajat olivat hermostuneita. Se saa yleensä loputkin ostajat hermostumaan. Kun näet sen pitkän nousun jälkeen, kunnioita sitä. 🐻",
+      "quiz": {
+        "q": "Nousun huipulla iso punainen runko nielaisee koko sitä edeltävän vihreän rungon. Mikä tämän parin nimi on?",
+        "options": [
+          "Nouseva nielaisu, nousu jatkuu",
+          "Vasara, jota seuraa doji",
+          "Läpimurto vastustason yläpuolelle",
+          "Laskeva nielaisu, myyjät jyräsivät ostajat"
+        ]
+      }
+    },
+    "53": {
+      "title": "Nousutrendin tunnistaminen",
+      "desc": "Trendit: korkeammat huiput, korkeammat pohjat",
+      "content": "Nousutrendi tarvitsee molemmat puolikkaat: korkeammat huiput JA korkeammat pohjat. Jokainen huippu ylittää edellisen, ja jokainen notkahdus pysähtyy korkeammalle kuin edellinen, koska ostajat tulevat mukaan joka kerta aiemmin. Tuo portaikon muoto on markkinan tapa kertoa, että kysyntä on ohjaksissa. Yksi korkeampi huippu yksinään ei todista mitään. Kuvio on pari, joka toistuu. 📈",
+      "quiz": {
+        "q": "Jokainen huippu ylittää edellisen, ja jokainen notkahdus pysähtyy korkeammalle kuin edellinen. Mitä tämä kaavio näyttää?",
+        "options": [
+          "Nousutrendin, korkeammat huiput ja korkeammat pohjat",
+          "Laskutrendin, matalammat huiput ja matalammat pohjat",
+          "Vaihteluvälin, hinta jumissa lattian ja katon välissä",
+          "Muodostumassa olevan tuplahuipun"
+        ]
+      }
+    },
+    "54": {
+      "title": "Laskutrendin tunnistaminen",
+      "desc": "Trendit: matalammat huiput, matalammat pohjat",
+      "content": "Käännä portaikko ylösalaisin. Matalammat huiput tarkoittavat, että myyjät hyökkäävät jokaisella pomppulla aiemmin, matalammat pohjat tarkoittavat, että ostajat perääntyvät jokaisella pudotuksella kauemmas. Niin kauan kuin rakenne pitää, myyjät johtavat show'ta, ja sitä vastaan taisteleminen on tapa, jolla uudet kaupankävijät lahjoittavat rahaa kärsivällisille. Trendi ei ole vihollisesi, mutta sen olemassaolon kieltäminen ehdottomasti on. 📉",
+      "quiz": {
+        "q": "Jokainen pomppu jää edellistä matalammalle, ja jokainen pudotus menee syvemmälle. Mitä katsot?",
+        "options": [
+          "Nousutrendiä, joka vain vetää henkeä",
+          "Sivuttaista vaihteluväliä",
+          "Laskutrendiä, matalammat huiput ja matalammat pohjat",
+          "Muodostumassa olevaa nousevaa nielaisukuviota"
+        ]
+      }
+    },
+    "55": {
+      "title": "Sivuttaismarkkina",
+      "desc": "Trendit: odotuspeli",
+      "content": "Joskus kumpikaan puoli ei voita, joten hinta vain pomppii pingispallon lailla saman lattian ja saman katon välillä viikkokausia. Se on vaihteluväli (range), ja markkinat viettävät valtavan osan elämästään tehden juuri tätä. Se ei ole rikki eikä se ole tylsää, se on markkinan hengähdystauko. Kärsivälliset kaupankävijät oppivat rakastamaan odottamista, koska mitä pidempään vaihteluväli pitää, sitä merkityksellisempi lopullinen pakoliike yleensä on. 🏓",
+      "quiz": {
+        "q": "Hinta on viikkokausia pomppinut saman lattian ja saman katon välillä. Mikä tämän nimi on?",
+        "options": [
+          "Nousutrendi, se koskettaa jatkuvasti kattoa",
+          "Vaihteluväli, markkina liikkuu sivuttain",
+          "Pää ja hartiat",
+          "Käynnissä oleva läpimurto"
+        ]
+      }
+    },
+    "56": {
+      "title": "Tuki",
+      "desc": "Tuki ja vastus: lattia",
+      "content": "Kun hinta laskee yhä uudelleen samalle tasolle ja pomppaa sieltä joka ikinen kerta, kaupankävijät kutsuvat sitä tasoa tueksi: lattiaksi, jolla ostajat päättävät kerta toisensa jälkeen hinnan olevan löytö. Mitä useammin se pitää, sitä useampi sitä seuraa, mikä on osittain syy siihen, miksi se pitää edelleen. Mutta muista, että lattian piirtävät ihmiset, ei laki. Tuki voi murtua ja murtuukin, ja kun niin käy, pomppujoukosta tulee paniikkijoukko. 🧱",
+      "quiz": {
+        "q": "Hinta on laskenut varjostetulle tasolle kolme kertaa ja pompannut joka ikinen kerta. Miksi kaupankävijät kutsuvat sitä tasoa?",
+        "options": [
+          "Vastukseksi, katoksi, jolle myyjät kasautuvat",
+          "Trendiviivaksi, tasojen on oltava vinoja",
+          "Pörssin asettamaksi stop-lossiksi",
+          "Tueksi, lattiaksi, jolle ostajat tulevat yhä uudelleen"
+        ]
+      }
+    },
+    "57": {
+      "title": "Vastus",
+      "desc": "Tuki ja vastus: katto",
+      "content": "Vastus on katto: taso, jolla jokainen nousu pysähtyy, koska myyjät kotiuttavat siellä mielellään voittonsa. Kun katsot kaavion lyövän päätään samaan hintaan kolme kertaa, näet vastuksen toiminnassa reaaliajassa. Tässä muistamisen arvoinen käänne: jos hinta joskus lävistää sen todellisella vakaumuksella, vanha katto alkaa usein toimia uutena lattiana. 🪟",
+      "quiz": {
+        "q": "Kolme erillistä nousua on pysähtynyt varjostetulle tasolle. Mikä sen tason nimi on?",
+        "options": [
+          "Vastus, katto, jolla myyjät painavat jatkuvasti takaisin",
+          "Tuki, lattia hinnan alapuolella",
+          "Osinkotaso, joka asetetaan kerran vuodessa",
+          "Volyymipiikki, joka ei kerro hinnasta mitään"
+        ]
+      }
+    },
+    "58": {
+      "title": "Trendiviivat",
+      "desc": "Trendiviivat ja kanavat: viiva, jolla on väliä",
+      "content": "Yhdistä kaavion nousevat pohjat, niin olet piirtänyt trendiviivan. Mitkä tahansa kaksi pistettä muodostavat viivan, mutta kolmas kosketus on se, jossa viiva alkaa todistaa merkityksensä, koska se näyttää ostajien puolustavan jatkuvasti samaa nousevaa tasoa. Jokainen lisäkosketus, jota kunnioitetaan, on lisää näyttöä. Se pysyy näyttönä, ei koskaan lupauksena: trendiviiva on lyijykynän jälki, ei voimakenttä. ✏️",
+      "quiz": {
+        "q": "Tätä nousevaa viivaa on kosketettu kolme erillistä kertaa. Miksi kaupankävijöitä kiinnostaa, montako kosketusta trendiviivalla on?",
+        "options": [
+          "Ei kiinnosta, koska mitkä tahansa kaksi pistettä tekevät trendiviivasta säännön",
+          "Kolme kosketusta tarkoittaa, että neljäs pomppu on taattu seuraavaksi",
+          "Useampi kosketus tekee viivasta merkityksellisemmän, ostajat puolustavat sitä yhä",
+          "Trendiviivat lasketaan vain päiväkaavioissa, ei koskaan lyhyemmissä"
+        ]
+      }
+    },
+    "59": {
+      "title": "Kanavat",
+      "desc": "Trendiviivat ja kanavat: kaista",
+      "content": "Kanava on hyvätapainen trendi. Hinta nousee pomppien kahden yhdensuuntaisen viivan välillä: nousevien pohjien lattia ja nousevien huippujen katto kulkevat ylös yhdessä kuin kaistan reunat. Kaupankävijät seuraavat molempia reunoja pomppujen varalta, ja vielä tarkemmin he seuraavat päivää, jona hinta lähtee kaistalta, koska puhdas murtautuminen ulos kanavasta on usein se kohta, josta seuraava iso liike alkaa. 🛣️",
+      "quiz": {
+        "q": "Hinta nousee pomppien kahden yhdensuuntaisen viivan välillä. Mikä tämä kuvio on?",
+        "options": [
+          "Kolmio, jossa kahden viivan on kohdattava",
+          "Nouseva kanava, nousutrendi näkyvällä kaistalla",
+          "Tuplahuippu",
+          "Tasainen vaihteluväli, joka ei mene mihinkään"
+        ]
+      }
+    },
+    "60": {
+      "title": "Tuplahuippu",
+      "desc": "Kaaviokuviot: M-muoto",
+      "content": "Hinta törmää samaan kattoon kahdesti, epäonnistuu molemmilla kerroilla ja piirtää kaavioon ison M-kirjaimen. Kun hinta putoaa keskellä olevan notkahduksen (kaulalinjan) alapuolelle, tuplahuippu on valmis: klassinen laskeva käännevihje. Sen peilikuva, W, on tuplapohja, ja se osoittaa toiseen suuntaan. Merkitsee usein huippua, mutta sen ei ole pakko. Mikään kaaviossa ei ole pakko. Ⓜ️",
+      "quiz": {
+        "q": "Hinta törmäsi samaan kattoon kahdesti, epäonnistui molemmilla kerroilla ja putosi sitten keskellä olevan notkahduksen alapuolelle. Mikä tämä muoto on?",
+        "options": [
+          "Tuplapohja, nouseva vihje",
+          "Nouseva kanava",
+          "Vasara",
+          "Tuplahuippu, laskeva käännevihje"
+        ]
+      }
+    },
+    "61": {
+      "title": "Kun kuviot pettävät",
+      "desc": "Kaaviokuviot: todennäköisyyksiä, ei lupauksia",
+      "content": "Tämä on moduulin arvokkain oppitunti. Oppikirjamainen kuvio muodostui, kaikki näkivät sen, ja sitten markkina teki päinvastoin. Jokainen oppimasi kuvio pettää joskus, eikä se ole kaavion valehtelua, vaan kaavio antaa sinulle tietoa: puoli, jota tuit, hävisi juuri. Päätä poistumisesi ennen kuin menet sisään, ja kun kuvio pettää, ota vihjeestä vaari ja lähde. Kuviot ovat todennäköisyyksiä, eivät koskaan lupauksia. 🚪",
+      "quiz": {
+        "q": "Oppikirjamainen tuplapohja muodostui varjostetulle lattialle... ja sitten hinta romahti suoraan sen läpi. Mikä on rehellinen opetus?",
+        "options": [
+          "Kuviot ovat todennäköisyyksiä, eivät lupauksia, ja pettänyt kuvio on merkki lähteä",
+          "Oikeat tuplapohjat eivät koskaan petä, joten katsomasi kuvio oli varmasti feikki",
+          "Osta lisää halvemmalla, koska kuvio toteutuu lopulta kuitenkin",
+          "Kaaviot lakkaavat toimimasta kokonaan, kun kuvio on pettänyt sinut noin"
+        ]
+      }
+    },
+    "62": {
+      "title": "Pää ja hartiat",
+      "desc": "Kaaviokuviot: kolme huippua",
+      "content": "Kolme huippua: korkeampi keskellä (pää), matalampi kummallakin puolella (hartiat) ja kahden notkahduksen alle piirretty viiva, jota kutsutaan kaulalinjaksi. Se muodostuu, kun ostajat saavat aikaan yhden viimeisen, korkeamman työnnön eivätkä seuraavalla yrityksellä pääse edes samalle tasolle. Pelkkä muoto on vain varoitus. Kohta, jota kaupankävijät oikeasti odottavat, on selvä murtuminen kaulalinjan alapuolelle, koska silloin kuvio lakkaa olemasta piirros ja alkaa olla päätös. 👤",
+      "quiz": {
+        "q": "Kolme huippua: korkeampi keskellä, matalampi kummallakin puolella ja lattia, joka yhdistää kaksi notkahdusta. Mikä tämä klassinen muoto on?",
+        "options": [
+          "Kolmoispohja, kolme yhtä matalaa pohjaa ennen nousua",
+          "Pää ja hartiat, mahdollinen nousutrendin loppu",
+          "Nouseva kolmio",
+          "Kolme vasaraa peräkkäin, jokainen torjuu matalammat hinnat"
+        ]
+      }
+    },
+    "63": {
+      "title": "Kolmion puristus",
+      "desc": "Kaaviokuviot: viritetty jousi",
+      "content": "Kun heilahdukset pienenevät pienenemistään, korkeammat pohjat painavat ylöspäin matalampia huippuja vasten, markkina kiertyy kuin jousi. Se on kolmio: molemmilta puolilta loppuu tila, ja päätös pakotetaan. Puristus päättyy usein purkaukseen, ja tässä on koukku: purkauksen suuntaa ei tiedetä etukäteen. Odota murtumista sen arvaamisen sijaan. Markkina kertoo sen sinulle, eikä se veloita tiedosta mitään. 🌀",
+      "quiz": {
+        "q": "Heilahdukset pienenevät pienenemistään ja puristavat hintaa yhä tiukemmaksi kiepiksi, kunnes se lopulta purkautuu. Mikä se kieppi oli?",
+        "options": [
+          "Kanava, kaksi yhdensuuntaista viivaa, jotka eivät koskaan kohtaa",
+          "Tuplahuippu",
+          "Kolmio, konsolidaatio, joka päättyy usein läpimurtoon",
+          "Todiste siitä, että hinnan oli seuraavaksi pakko murtautua ylöspäin"
+        ]
+      }
+    },
+    "64": {
+      "title": "Volyymi: valheenpaljastin",
+      "desc": "Volyymi: kuka oikeasti saapui paikalle",
+      "content": "Volyymi kertoo, kuinka monta osaketta vaihtoi omistajaa, ja se on kaavioiden valheenpaljastin. Läpimurto pienellä volyymilla on kuiskaus, joka hämää ihmisiä: kourallinen kauppoja työnsi hinnan paikkaan, jossa se ei voi pysyä. Läpimurto suurella volyymilla on joukko, joka oikeasti äänestää rahallaan. Sama hintaliike, täysin eri merkitys. Ennen kuin uskot mihinkään isoon liikkeeseen, tarkista, kuka saapui paikalle. 🔊",
+      "quiz": {
+        "q": "Kaksi pakoyritystä saman katon läpi: ensimmäinen pienellä volyymilla epäonnistui, toinen tuli valtavalla volyymilla ja piti. Mitä volyymi tekee tässä?",
+        "options": [
+          "Ei yhtään mitään, volyymilla ei ole koskaan väliä hintaliikkeelle",
+          "Pakottaa hinnan ylös, koska suuri volyymi työntää hintoja ylemmäs",
+          "Ennustaa liikkeen tarkan huipun ennen kuin se tapahtuu",
+          "Toimii vahvistuksena, suuri volyymi näyttää liikkeen takana olevan todellisen vakaumuksen"
+        ]
+      }
+    },
+    "65": {
+      "title": "Trendintunnistaja",
+      "desc": "Kymmenen kaaviota, ei nimiä, ei armoa",
+      "content": "Kymmenen kaaviota. Ei nimiä, ei apuviivoja, ei vihjeitä. Kerro, mitä kukin näyttää, aivan kuin oikea kaupankävijä tuijottaisi oikeaa näyttöä. Saa 8 pistettä 10:stä, niin moduuli on sinun. Sinulla on 3 yritystä päivässä, joten hidasta, lue kynttilät ja muista kaikkein tärkein opetus: joskus rehellinen vastaus on, ettei kuviota ole lainkaan. 🕯️",
+      "bossVictory": "Trendimoduuli valloitettu. Nyt sinä luet kaaviot, eivätkä kaaviot lue sinua. 🕯️",
+      "bossQuestions": {
+        "0": {
+          "q": "Mitä tämä kaavio näyttää?",
+          "explanation": "Tarkoituksella sotkuinen. Kun kohinan riisuu pois, jokainen heilahduksen huippu ylittää yhä edellisen ja jokainen notkahdus pohjaa yhä korkeammalle. Oikeat trendit näyttävät tältä, eivät oppikirjan portaikolta.",
+          "options": [
+            "Laskutrendin, matalammat huiput ja matalammat pohjat",
+            "Nousutrendin, korkeammat huiput ja korkeammat pohjat",
+            "Sivuttaisen vaihteluvälin",
+            "Tuplahuipun"
+          ]
+        },
+        "1": {
+          "q": "Mitä tapahtui hehkuvan kynttiläparin kohdalla?",
+          "explanation": "Punainen runko nielaisi koko vihreän rungon heti pitkän nousun jälkeen. Siinä laskeva nielaisu tekee juuri sitä, mitä se tekee: ilmestyy sinne, missä ostajat ovat venyneimmillään.",
+          "options": [
+            "Nouseva nielaisu",
+            "Doji huipulla",
+            "Vasara",
+            "Laskeva nielaisu nousun huipulla"
+          ]
+        },
+        "2": {
+          "q": "Mitä tämä kaavio näyttää?",
+          "explanation": "Keskimmäinen huippu nousee selvästi kummallakin puolella olevien yläpuolelle, ja notkahdukset asettuvat kaulalinjaksi. Oikeat eivät ole koskaan symmetrisiä, ja tältä ne oikeasti näyttävät luonnossa.",
+          "options": [
+            "Pään ja hartiat",
+            "Kolmoishuipun, jossa on kolme yhtä korkeaa huippua",
+            "Nousevan kolmion",
+            "Nousevan kanavan"
+          ]
+        },
+        "3": {
+          "q": "Mitä tämä kaavio näyttää?",
+          "explanation": "Kaksi käyntiä samalla lattialla, toinen hieman matalampi, ja sitten työntö ylös keskimmäisen pompun läpi. W-muoto, jonka on piirtänyt oikea markkina eikä oppikirja.",
+          "options": [
+            "Pään ja hartiat",
+            "Laskevan kolmion",
+            "Tuplapohjan",
+            "Laskulipun"
+          ]
+        },
+        "4": {
+          "q": "Mikä hehkuva kynttilä on?",
+          "explanation": "Pitkä ylävarjo, pieni runko vaihteluvälin pohjalla, heti nousun jälkeen. Ostajat kurottivat uuteen huippuun ja saivat läpsäisyn takaisin alas ennen päätöstä.",
+          "options": [
+            "Vasara",
+            "Vihreä marubozu",
+            "Doji",
+            "Tähdenlento nousun jälkeen"
+          ]
+        },
+        "5": {
+          "q": "Mitä tämä kaavio näyttää?",
+          "explanation": "Samaa lattiaa ja samaa kattoa kunnioitetaan jatkuvasti, ja kaikki siltä väliltä on kohinaa. Kumpikaan puoli ei voita, joten ratsastettavaa trendiä ei ole.",
+          "options": [
+            "Vaihteluvälin, hinta laatikossa tuen ja vastuksen välissä",
+            "Nousutrendin, korkeammat huiput ja korkeammat pohjat",
+            "Laskevan kiilan",
+            "Käynnissä olevan läpimurron"
+          ]
+        },
+        "6": {
+          "q": "Hinta murtautui vanhan katon yläpuolelle, ja sitten nuolella merkitty notkahdus palasi sille tasolle ja piti. Mikä notkahdus oli?",
+          "explanation": "Notkahdus palasi täsmälleen tasolle, joka ennen oli katto, löysi sieltä ostajia, ja trendi jatkui. Se on paluuliike (pullback). Käänne olisi viiltänyt tason läpi ja jatkanut laskuaan.",
+          "options": [
+            "Täysi käänne laskutrendiksi",
+            "Paluuliike, murretun tason uudelleentestaus",
+            "Tuplahuippu",
+            "Kuolleen kissan pomppu"
+          ]
+        },
+        "7": {
+          "q": "Mitä tämä kaavio näyttää?",
+          "explanation": "Tasainen lattia, matalammat huiput painamassa sitä vasten, myyjät saapumassa joka pompulla aiemmin. Lattia antoi lopulta periksi, mikä on lopputulos, johon tämä muoto usein kallistuu. Usein, ei koskaan aina.",
+          "options": [
+            "Nousevan kolmion",
+            "Nousevan kanavan",
+            "Laskevan kolmion, joka nojaa tukeen",
+            "Tuplapohjan"
+          ]
+        },
+        "8": {
+          "q": "Mitä tämä kaavio näyttää?",
+          "explanation": "Ansakysymys, ja bossin arvokkain. Useimmat kaaviot eivät useimmiten näytä mitään kaupankäynnin arvoista. Olemattomien kuvioiden näkeminen on tapa, jolla aloittelijat häviävät. Ei kauppaa -päätös on taito. 🎯",
+          "options": [
+            "Pään ja hartiat",
+            "Tuplahuipun",
+            "Nousutrendin",
+            "Ei selkeää kuviota, tässä ei ole mitään kaupattavaa"
+          ]
+        },
+        "9": {
+          "q": "Mitä tämä kaavio näyttää?",
+          "explanation": "Hinta pisti katon yläpuolelle heikolla volyymilla, ostajat lähtivät perään, ja sitten se romahti suoraan takaisin vaihteluväliin. Pettävä läpimurto on juuri se syy, miksi volyymioppitunti käski tarkistaa volyymin ennen kuin uskot sellaiseen.",
+          "options": [
+            "Härkäansa, pettänyt läpimurto, joka imaisi ostajat mukaan",
+            "Onnistunut läpimurto puhtaalla uudelleentestauksella",
+            "Tuplapohjan",
+            "Vasarakäänteen"
+          ]
+        }
+      }
+    },
+    "66": {
+      "title": "Et omista täällä mitään",
+      "desc": "Johdannainen on veto luvusta",
+      "content": "Kaiken tähän mennessä oppimasi takana oli jokin asia. Osta osake yhtiöstä {retail}, niin omistat palan yhtiötä: palan kaupoista, palan voitoista, äänen yhtiökokouksessa ja osingon, kun yhtiö sellaisen maksaa.\n\nJohdannainen ei ole sitä.\n\nCFD (contract for difference, hinnanerosopimus) on sinun ja palveluntarjoajan välinen sopimus vaihtaa hinnan erotus sen välillä, kun avaat ja kun suljet. Siinä on koko tuote. Jos {retail} nousee ja veikkasit nousua, he maksavat sinulle erotuksen. Jos se laskee, sinä maksat heille. Kukaan ei osta osaketta. Kukaan ei myy osaketta. Koko kaupassa ei ole missään yhtään osaketta.\n\nFutuuri on sopimus ostaa tai myydä jotain sovittuun hintaan sovittuna päivänä. Oikeat futuurit selvitetään oikeina öljytynnyreinä tai maissitonneina, mutta melkein kukaan ei pidä niitä niin pitkään, joten käytännössä useimmat futuuritkin ovat veto luvusta, johon on liitetty takaraja.\n\nMiksi tällä on enemmän merkitystä kuin miltä kuulostaa:\n\n• Ei osinkoja. Ei Rahavauvoja. Se, mikä hiljaa rakensi suurimman osan tuotoista oppitunnilla 15, ei yksinkertaisesti ole täällä.\n• Ei ääntä, ei omistusta, ei mitään pidettävää. \"Pidä vain kymmenen vuotta\" -vaihtoehtoa ei ole, koska ei ole mitään pidettävää.\n• Ei korkoa korolle. Tämän sovelluksen muut 65 oppituntia opettavat, että aika on puolellasi. Tässä huoneessa aika maksaa sinulle rahaa. Näet tarkalleen kuinka paljon oppitunnilla 72.\n\nKaikki, minkä jo tiedät, on yhä tärkeää. Se vain lakkaa olemasta se, mitä teet. 📄",
+      "quiz": {
+        "q": "Avaat CFD:n yhtiöön {retail}, ja hinta nousee. Mitä oikeasti omistat?",
+        "explanation": "CFD on sinun ja palveluntarjoajan välinen sopimus vaihtaa erotus avaushetken hinnan ja sulkemishetken hinnan välillä. Kukaan ei osta osaketta, kukaan ei myy sellaista, eikä kaupassa ole missään yhtään osaketta. Siksi ei ole osinkoa, ei ääntä eikä mitään, mitä pitää kymmenen vuotta.",
+        "options": [
+          "Osakkeita, joita palveluntarjoaja pitää omissa nimissään",
+          "Sopimuksen vaihtaa hinnanero lopussa",
+          "Osan yhtiöstä ja sen myötä tulevat osingot",
+          "Kupongin, joka muuttuu oikeiksi osakkeiksi, kun suljet"
+        ]
+      }
+    },
+    "67": {
+      "title": "Lainaa kaverilta",
+      "desc": "Mitä vipu oikeasti on, ja se osa, jota kukaan ei postaa",
+      "content": "Vipu kuulostaa tekniseltä. Se ei ole. Se on lainaamista.\n\nSanotaan, että haluat osakkeita {c}1,000 arvosta, mutta sinulla on vain {c}200. Kaveri tarjoutuu laittamaan loput {c}800. Hallitset {c}1,000 arvosta osakkeita {c}200 omalla rahallasi. Se on vipu. Siinä koko idea.\n\nNyt ne kolme asiaa, jotka tuo kaveri tekee. Tarvitset kaikki kolme, tai sinulle on myyty satu.\n\n1️⃣ NOUSU ON OIKEASTI SINUN. Osakkeet nousevat 10%. Sinun {c}1,000 on nyt {c}1,100. Se on {c}100 voittoa, ja pidät siitä joka sentin, koska kaverillesi ollaan velkaa {c}800 eikä {cName}-yksikköäkään enempää. Omista {c}200 laskettuna {c}100 on 50% voitto. 10% liike tuotti sinulle 50%. Tästä osasta kaikki postaavat.\n\n2️⃣ LAINA EI KUTISTU, KUN OLET VÄÄRÄSSÄ. Tästä osasta kukaan ei postaa, ja se on koko oppitunti. Osakkeet laskevatkin 10%. Sinun {c}1,000 on nyt {c}900. Olet yhä velkaa kaverillesi koko {c}800. Ei {c}720. Koko {c}800. Joten koko {c}100 lasku tulee SINUN osuudestasi, ja sinun {c}200 on nyt {c}100. 10% liike maksoi sinulle 50%.\n\nLue nuo kaksi uudestaan. Sama kaveri, sama 10%. Rahasi liikkuu viisinkertaisella nopeudella molempiin suuntiin, koska laina ei koskaan ota osaa kivusta.\n\n3️⃣ KAVERI PERII VUOKRAA, PÄIVITTÄIN, KOKO SUMMASTA. Ei heidän {c}800 summastaan. Koko {c}1,000 summasta, jota hallitset. Joka yö, kun pidät sitä, nousi hinta, laski tai pysyi paikallaan.\n\nJa kolmannen sisällä piilee neljäs asia. Jos sinun {c}200 alkaa loppua, kaverisi ei soita sinulle jutellakseen. Hän myy. Heti, automaattisesti, mihin tahansa hintaan on tarjolla, koska riskissä on hänen {c}800 eikä hän odota mielipidettäsi. Sillä on nimi, ja tapaat sen kolmen oppitunnin päästä: likvidointi.\n\nSiis: isommat voitot, isommat tappiot, vuokraa joka yö ja jonkun toisen sormi myyntinapilla. Vipu ei ole ilmaista rahaa pienellä riskillä. Se on laina, johon kuuluvat kaikki nuo neljä, ja mainokset näyttävät aina vain ensimmäisen. 🧠",
+      "quiz": {
+        "q": "Kaveri laittaa 800 NT, sinä laitat 200 NT, ja yhdessä hallitsette 1,000 NT arvosta osakkeita. Osakkeet laskevat 10%. Vedä siihen, minkä arvoinen oma 200 NT:si on nyt.",
+        "explanation": "Laina ei kutistu, kun olet väärässä. Osakkeet ovat nyt 900 NT arvoisia ja kaverillesi ollaan yhä velkaa koko 800 NT, joten sinulle jää 100 NT. Osakkeiden 10% lasku vei puolet rahoistasi, koska laina ei ota kivusta mitään. Sama toimii ylöspäin, ja sen puolen mainokset näyttävät."
+      }
+    },
+    "68": {
+      "title": "Marginaali on talletus, ei ostos",
+      "desc": "Laittamaasi rahaa ei käytetä, se on pelissä",
+      "content": "Kun ostat osakkeen hintaan {c}100, se {c}100 lähtee käteisestäsi ja tilillesi ilmestyy osake. Yksinkertainen vaihto.\n\nMarginaali ei toimi niin. Kun avaat vipuposition, laitat talletuksen, eikä se talletus ole maksu mistään. Se on vakuustalletus omia tappioitasi vastaan. Se on siellä lukittuna, ja positio syö sitä, kun hinta liikkuu sinua vastaan.\n\nSanotaan, että talletusprosentti on 25%. Laitat 250 NT ja hallitset 1,000 NT altistusta. Katso tiliäsi:\n\n• Hinta ennallaan: 250:si on yhä 250. Paitsi että rahoitus on alkanut, joten se on hiljaa vähemmän.\n• Hinta laskee 5%: positio on menettänyt 50 NT. Talletuksesi on käytännössä 200. Vapaa käteisesi ei ole liikkunut. Tilisi on pienempi.\n• Hinta laskee 20%: positio on menettänyt 200 NT. Talletuksesi on enää 50. Et tehnyt mitään. Et myynyt mitään. Katsoit vain.\n\nKolme sanaa, jotka ovat tämän huoneen jokaisella näytöllä:\n\n🔒 KÄYTETTY MARGINAALI: kaikki talletukset, jotka sinulla on tällä hetkellä asetettuna.\n💰 TILIN OMA PÄÄOMA: vapaa käteisesi, plus asetettu marginaalisi, plus tai miinus jokaisen avoimen position voitto ja tappio, miinus tähän mennessä veloitettu rahoitus. Mitä tilisi oikeasti on arvoinen, jos kaikki suljettaisiin juuri nyt.\n📊 MARGINAALITASO: oma pääoma jaettuna käytetyllä marginaalilla. Yli 100%:ssa sinulla on puskuri. Alle 100%:ssa markkina on syönyt puskurin ja aloittanut talletuksen.\n\nJa yksi sääntö, joka yllättää kaikki: marginaali mitataan koko tilisi yli, ei positiokohtaisesti. Tappiollinen positio syö vakuutta, joka pitää pystyssä voitollista. Siksi \"toinen kauppani on ihan ok\" ei ole puolustus. 🔒",
+      "quiz": {
+        "q": "Talletusprosentti on 25%, joten 250 NT omaa rahaasi hallitsee 1,000 NT altistusta. Hinta laskee 8%, kun et tee yhtään mitään. Vedä siihen, kuinka paljon tuo lasku on maksanut sinulle.",
+        "explanation": "Talletus ei ole maksu mistään, se on vakuus, ja tappio lasketaan koko hallitsemastasi 1,000 NT:stä. 8% 1,000 NT:stä on 80 NT. Et myynyt mitään eikä vapaa käteisesi ole liikkunut, mutta 80 NT 250 NT:n talletuksestasi on syöty ja tilisi on 80 NT pienempi. Jos lasket 8% talletuksesta, saat 20 NT, ja se on virhe, joka saa vivun näyttämään lempeältä."
+      }
+    },
+    "69": {
+      "title": "Vakuuspyyntö",
+      "desc": "Vaatimus, ei varoitus",
+      "content": "Vakuuspyyntö (margin call) on hetki, jolloin marginaalitasosi putoaa alle 100%:n. Selkokielellä: voittopuskurisi on lopussa, ja markkina on alkanut syödä itse talletusta.\n\nTältä se oikeasti tuntuu, koska oppikirjaversio ohittaa tärkeän osan.\n\nSe ei koskaan saavu hyvänä päivänä. Se saapuu, kun positio on jo ruma, kun olet jo kahdesti sanonut itsellesi, että kyllä se palaa, ja kun olet vähiten kykenevä tekemään rauhallista päätöstä. Se ei ole kohtelias ennakkovaroitus. Se on vaatimus: laita lisää rahaa, tai sulje positioita, tai palveluntarjoaja tekee sen puolestasi.\n\nSinulla on kolme siirtoa, ja vain kaksi niistä on sinun.\n\n1️⃣ SULJE jotain. Tämä vapauttaa marginaalia heti, ja se on lähes aina oikea vastaus. Se tarkoittaa myös myöntämistä, että olit väärässä, mikä on se oikea syy, miksi ihmiset eivät tee sitä.\n2️⃣ LISÄÄ rahaa. Tämä ei korjaa mitään. Se ostaa sinulle tilaa olla väärässä pidempään, positiossa, jonka valitsit jo huonosti, rahalla, jota et aikonut riskeerata. Käteisen lisääminen vakuuspyynnön aikana on tapa, jolla huonosta kaupasta tulee huono kuukausi.\n3️⃣ ÄLÄ TEE MITÄÄN. Silloin kolmas siirto tapahtuu ilman sinua, ja sillä on nimi.\n\nValvojat suhtautuvat tähän niin vakavasti, että he kirjoittivat lakiin luvun. Euroopan, Iso-Britannian ja Australian yritysten on suljettava yksityisasiakkaan positiot automaattisesti, kun marginaali putoaa 50%:iin vaaditusta. Ei \"pitäisi\". On pakko. He kirjoittivat säännön, koska kun ihmiset saivat päättää itse, he valitsivat vaihtoehdon 3 ja menettivät enemmän kuin heillä oli. ⚠️",
+      "quiz": {
+        "q": "Marginaalitasosi on pudonnut 80%:iin ja olet vakuuspyynnössä. Mikä vastaus oikeasti pienentää likvidoinnin riskiä sen sijaan, että vain lykkäisi sitä?",
+        "explanation": "Sulkeminen palauttaa talletuksen saman tien, joten marginaalitaso hyppää heti. Käteisen lisääminen vain ostaa tilaa olla väärässä pidempään kaupassa, jonka valitsit jo huonosti. Odottaminen on tapa, jolla likvidointi tapahtuu. Ja toinen positio vastakkaiseen suuntaan tarvitsee oman talletuksensa, joten se käyttää enemmän marginaalia, ei vähemmän.",
+        "options": [
+          "Talletat lisää käteistä tilille",
+          "Odotat, että marginaalitaso nousee takaisin",
+          "Suljet yhden avoimista positioistasi",
+          "Avaat toisen position vastakkaiseen suuntaan"
+        ]
+      }
+    },
+    "70": {
+      "title": "Likvidointi, ja hinta, joka sinun pitää tietää ensin",
+      "desc": "Tarkka hinta, jossa tilisi menee nollaan",
+      "content": "Likvidointi tarkoittaa, että palveluntarjoaja sulkee positiosi puolestasi, koska talletuksesi on melkein loppu. Se on automaattinen. Se on välitön. Kukaan ei kysy mielipidettäsi, kukaan ei tarkista, olisitko kohta ollut oikeassa, eikä valittaa voi.\n\nKoko tämän moduulin hyödyllisin yksittäinen luku on LIKVIDOINTIHINTASI: se todellinen hinta, todellisena summana (valuuttana {cPlural}), jossa niin tapahtuu.\n\nEi prosentti. Hinta. Koska \"voit menettää talletuksesi\" on lause, jolle voit nyökätä ja unohtaa, kun taas \"{tech} hinnassa {c}87.40 ja tilisi on tyhjä\" on fakta, jonka voit tarkistaa kaaviosta ennen kuin painat mitään.\n\nTämän huoneen jokainen näyttö näyttää sen ennen kuin vahvistat, piirrettynä samalle hinta-asteikolle kuin kaavio, jotta näet, kuinka kaukana se oikeasti on. Kaksi asiaa huomaat heti, ja molemmat ovat se oppitunti:\n\n📏 Isompi talletus työntää likvidointihinnan kauemmas. Enemmän omaa rahaa sisällä tarkoittaa, että hinnan pitää pudota pidemmälle ennen kuin rahasi loppuvat.\n⚡ Pienempi talletus vetää sen aivan tämänpäiväisen hinnan viereen. 10% talletuksella likvidointi on noin 10% liikkeen päässä, ja 10% liike on tavallinen viikko.\n\nSitten rehellinen koukku. Likvidointihinta on se, jossa järjestelmä aikoo sulkea sinut, ei se, jossa pääset varmasti ulos. Jos huonot uutiset tulevat yöllä ja markkina aukeaa reilusti tuon tason alapuolelta, sinut suljetaan siihen hintaan, jonka markkina oikeasti maksaa. Se on gappi, ja oppitunti 78 käsittelee sitä.\n\nTiedä likvidointihintasi ennen kuin avaat. Jos et pysty sanomaan sitä ääneen, et ymmärrä kauppaa, jota olet tekemässä. 💀",
+      "quiz": {
+        "q": "Laitat 200 NT talletukseksi hallitaksesi 1,000 NT arvosta omaisuuserää, jonka hinta on 100 NT. Vedä hinta alas siihen kohtaan, jossa talletuksesi on mennyt.",
+        "explanation": "Hallitset 10 yksikköä, joten jokainen 1 NT, jonka hinta laskee, maksaa sinulle 10 NT. 200 NT:n talletuksesi on mennyt hinnassa 80 NT, mikä on vain 20% lasku."
+      }
+    },
+    "71": {
+      "title": "Paluumatka on jyrkempi",
+      "desc": "Miksi tappiot on vaikeampi korjata kuin miltä näyttää",
+      "content": "Tappiot ja voitot tuntuvat vastakohdilta. Ne eivät ole, eikä matematiikka ole lähelläkään.\n\nMenetät 10%? Tarvitset +11% päästäksesi takaisin. Ärsyttävää, mutta ok.\nMenetät 50%? Tarvitset +100%. Sinun pitää TUPLATA pelkästään päästäksesi omillesi.\nMenetät 75%? Tarvitset +300%.\nMenetät 90%? Tarvitset +900%.\n\nSyy on yksinkertainen, kun sen näkee: voitto lasketaan siitä pienemmästä kasasta, joka sinulle jäi. 100 putoaa 50:een, ja noustakseen 50:stä takaisin 100:aan tuon pienemmän kasan pitää tuplaantua.\n\nLisää nyt vipu ja huomaa, mitä se oikeasti tekee. Se ei vain nopeuta voittojasi. Se siirtää sinut tuota taulukkoa alas yhdessä iltapäivässä. Osakkeen 12% lasku, joka on huono mutta täysin normaali viikko, on 48% isku tilillesi 25% talletuksella. Tarvitset nyt +92% ollaksesi takaisin lähtöpisteessä, viikon jälkeen, joka tuskin pääsi uutisiin.\n\nSiksi ammattilaiset puhuvat pääoman suojaamisesta ennen kaikkea muuta, ja siksi \"kyllä minä voitan sen takaisin\" on kaupankäynnin kallein lause. Takaisin voittaminen on aritmeettisesti vaikeampaa kuin häviäminen oli, joka ikinen kerta. ⛰️",
+      "quiz": {
+        "q": "Tilisi on 75% miinuksella. Vedä siihen tuottoon, jonka tarvitset tästä pelkästään päästäksesi takaisin lähtöpisteeseen.",
+        "explanation": "100 NT putosi 25 NT:hen. Päästäkseen taas 100:aan tuon 25:n pitää nelinkertaistua, mikä on 300% tuotto. Nousu mitataan pienemmästä kasasta, joka sinulle jäi, ja siksi se on niin paljon jyrkempi kuin pudotus oli."
+      }
+    },
+    "72": {
+      "title": "Lainarahan vuokra",
+      "desc": "Oikeassa suunnasta, silti tappiolla",
+      "content": "Lainasit altistuksen. Joten maksat siitä. Joka yö.\n\nRahoituskulu (jossain sitä kutsutaan swapiksi tai yön yli -maksuksi) veloitetaan päivittäin, ja tässä se osa, joka yllättää kaikki: se veloitetaan KOKO positiosta, ei siitä osasta, jonka lainasit. Laita 500 NT hallitaksesi 2,000 NT, niin maksat vuokraa 2,000:sta.\n\nNäin se lasketaan: viitekorko plus palveluntarjoajan marginaali, jaettuna 365:llä, kertaa koko positiosi. Näet tämän sovelluksen näytöllä molemmat osat, koska maksua, jota et voi purkaa osiin, et voi arvioida. Noin 7.3% vuodessa tarkoittaa noin 0.02% positiostasi per yö.\n\nKuulostaa ei miltään. Katso nyt, kuinka se syö voitollisen kaupan. 🧾\n\nKAUPPA, JOSSA OLET OIKEASSA JA HÄVIÄT SILTI\n\nAvaat 2,000 NT position yhtiöön {retail} 500 NT talletuksella. Olet nousuhenkinen, ja olet oikeassa: seuraavien kuukausien aikana {retail} lipuu YLÖS 2%.\n\n• Voittosi: 2% 2,000:sta = 40 NT. 500 NT talletuksella se on +8%. Kiva.\n• Vuokrasi: 0.02% 2,000:sta = 0.40 NT, joka yö.\n\nYö 50: olet maksanut 20 NT. Olet kaikkiaan 20 NT plussalla. Yhä voitolla.\nYö 100: olet maksanut 40 NT. 40 NT:n voittosi on nyt tasan nollan arvoinen. Arvasit oikein etkä ole tienannut mitään.\nYö 180: olet maksanut 72 NT. Voittosi on yhä 40 NT. Olet 32 NT MIINUKSELLA, mikä on miinus 6.4% talletuksestasi, kaupassa, jossa luit markkinaa oikein kuusi kuukautta.\n\nLue tuo uudestaan. Hinta teki juuri sen, mitä sanoit sen tekevän. Hävisit silti.\n\nTämä on se lause, joka sinun kannattaa ottaa tältä oppitunnilta: vipupositiossa oikeassa olemisella on viimeinen käyttöpäivä. Tässä esimerkissä se on 100 yön päässä, ja voit laskea omasi ennen kuin avaat. Jaa toivomasi voitto öisellä vuokralla. Niin monta yötä mielipiteesi on arvoinen.\n\nMyös vastakohta kannattaa huomata. Tämän sovelluksen muut osat opettavat korkoa korolle, jossa aika hiljaa tienaa sinulle rahaa nukkuessasi. Tämä on sama kone, joka pyörii takaperin ja on suunnattu sinuun. ⏳",
+      "quiz": {
+        "q": "Pidät 2,000 NT vipupositiota, jonka rahoituskulu on 0.40 NT yössä. Hinta nousee sen verran, että saat 40 NT voittoa, ja pysähtyy sitten. Monenko yön jälkeen voitto on kokonaan syöty?",
+        "options": [
+          "Sitä ei syödä koskaan, koska rahoitus veloitetaan vain lainatusta osuudesta",
+          "Noin 100 yön, koska 40 NT voittoa jaettuna 0.40 NT:llä yössä on 100",
+          "Noin 20 yön, koska rahoitus veloitetaan 500 NT:n talletuksestasi",
+          "Rahoitus veloitetaan vain, kun positio suljetaan tappiolla"
+        ]
+      }
+    },
+    "73": {
+      "title": "Futuurit: kello ja rullaus",
+      "desc": "Sama kulu, toisella tavalla toimitettuna",
+      "content": "Futuurit ja CFD:t ovat serkkuja. Molemmissa on vipu, molemmat käyttävät marginaalia, molemmat voivat likvidoida sinut. Kaksi asiaa tekee futuureista erilaisia, ja jälkimmäinen on se kiinnostava.\n\n⏰ 1. SIINÄ ON PÄIVÄMÄÄRÄ. Jokainen futuurisopimus erääntyy. Maaliskuun öljy, kesäkuun maissi, syyskuun indeksi. Kun päivä koittaa, sopimus selvitetään ja lakkaa olemasta. \"Pidä ja odota, että se palaa\" ei yksinkertaisesti ole valikossa, koska sopimusta ei ole enää olemassa. CFD ei koskaan erääny, mikä kuulostaa paremmalta, kunnes muistat, että se perii vuokraa ikuisesti.\n\n🔄 2. KULU ON LEIVOTTU HINTAAN, EI LASKUTETTU ÖISIN. Tämä on se osa, jonka ihmiset ohittavat. Futuuri ei yleensä veloita sinulta öistä rahoituskulua. Sen sijaan kulu siitä, että asiaa pidetään siihen päivään asti, on jo leivottu sopimuksen hintaan. Myöhempien päivien sopimukset maksavat usein enemmän kuin aikaisempien päivien sopimukset, ja tuo ero on sama hallussapitokulu, joka istuu luvun sisällä.\n\nMitä siis tapahtuu, kun kaupankävijä haluaa pitää position erääntymisen yli? Hän ROLLAA: sulkee erääntyvän sopimuksen ja avaa seuraavan. Ja jos seuraava on kalliimpi, hän maksaa tuon erotuksen. Joka rullauksessa. Se on CFD:n öinen vuokra, kerättynä isompina ja harvempina erinä.\n\nRehellinen yhteenveto:\n\n• CFD: ei takarajaa, vuokraa joka yö, eriteltynä tiliotteellasi.\n• Futuuri: tiukka takaraja, kulu piilotettuna hinnan sisään ja maksettuna jokaisessa rullauksessa, helppo ohittaa.\n\nKumpikaan ei ole ilmainen. Toinen vain esittää laskun kohteliaammin, ja kulu, jota et näe, on se, joka todennäköisimmin yllättää sinut. ⏳",
+      "quiz": {
+        "q": "Kaupankävijä haluaa pitää futuuriposition erääntymispäivän yli, ja seuraava sopimus on kalliimpi kuin erääntyvä. Mitä tapahtuu, kun hän rullaa?",
+        "explanation": "Rullaaminen tarkoittaa erääntymässä olevan sopimuksen sulkemista ja seuraavan avaamista. Jos seuraava maksaa enemmän, maksat sen erotuksen, ja teet sen uudestaan jokaisessa rullauksessa. Se on sama hallussapitokulu, jonka CFD laskuttaa sinulta joka yö, kerättynä isompina erinä ja piilotettuna hinnan sisään sen sijaan, että se olisi painettu tiliotteellesi.",
+        "options": [
+          "Hän maksaa erotuksen erääntyvän ja seuraavan sopimuksen välillä",
+          "Hänelle maksetaan kahden sopimushinnan välinen erotus",
+          "Rahaa ei vaihda omistajaa, koska rullaus on yksi ainoa kauppa",
+          "Positiosta tulee CFD, joka jatkuu ilman erääntymispäivää"
+        ]
+      }
+    },
+    "74": {
+      "title": "Lyhyeksi myynti: tappio ilman lattiaa",
+      "desc": "Miksi laskuvedolla ei ole luonnollista kattoa",
+      "content": "Kaikki tässä sovelluksessa on tähän asti ollut pitkää: ostat ja haluat hinnan nousevan. Johdannaisilla voit mennä lyhyeksi (short), mikä tarkoittaa vetoa hinnan laskusta. Avaat lyhyen position, hinta putoaa, voitat.\n\nLyhyeksi myynti on oikeasti hyödyllistä eikä se ole pahaa. Sillä maanviljelijä lukitsee hinnan ennen satoa ja rahasto suojaa salkkuaan. Sen ymmärtäminen tekee sinusta paremman markkinoiden lukijan, koska ensimmäistä kertaa näet jokaisen kaupan molemmat puolet.\n\nMutta lyhyeksi myynnissä on yksi laskutoimitus, jolle ei ole vastinetta missään muualla, ja sen pitää olla poltettuna mieleesi.\n\n📉 KUN OSTAT, pahin tapaus on, että hinta menee nollaan. Menetät 100% siitä, mitä laitoit. Kamalaa, mutta se on lattia. Pohja on olemassa.\n📈 KUN MYYT LYHYEKSI, hinnan liikkuminen sinua vastaan tarkoittaa hinnan NOUSUA. Eikä missään ole sääntöä, joka sanoisi, kuinka korkealle hinta saa nousta. Kolminkertaistuva osake maksaa sinulle 200% positiosta. Kymmenkertaistuva osake maksaa sinulle 900%.\n\nPitkillä tappioilla on lattia. Lyhyillä ei. Tuo epäsymmetria on koko varoitus.\n\nOikeat markkinat tekevät tätä. Silloin tällöin paljon lyhyeksi myyty osake ampaisee nousuun, koska jokainen lyhyessä positiossa oleva joutuu ostamaan sulkeakseen, mikä työntää hintaa ylemmäs, mikä pakottaa yhä useamman ostamaan. Sitä kutsutaan short squeezeksi, ja se on kaatanut rahastoja.\n\nKaksi asiaa pitää sinut hengissä. Ensinnäkin lyhyt positio on juuri se paikka, jossa stop-loss lakkaa olemasta valinnainen. Toiseksi negatiivisen saldon suoja: kunnolla säännellyllä yksityisasiakkaan tilillä, ja tässä sovelluksessa, tilisi ei voi mennä alle nollan. Voit menettää kaiken, minkä laitoit. Et voi päätyä velkaa. Tuo suoja on olemassa, koska ennen sitä ihmiset päätyivät. 🕳️",
+      "quiz": {
+        "q": "Miksi lyhyen position pahin tapaus on luonteeltaan erilainen kuin pitkän position pahin tapaus?",
+        "explanation": "Ostamisella on lattia. Pahinta, mitä hinta voi tehdä, on päätyä nollaan, joten menetät sen, minkä laitoit, eikä enempää. Lyhyeksi myynti toimii toisin päin, koska häviäminen tarkoittaa hinnan nousua, eikä mikään sano, kuinka korkealle hinta saa nousta. Kolminkertaistuva osake maksaa lyhyeksi myyjälle kaksi kertaa position verran. Siksi stop lakkaa olemasta valinnainen lyhyessä positiossa, ja siksi tämä sovellus ei voi viedä sinua alle nollan.",
+        "options": [
+          "Se ei ole erilainen, koska molemmat on rajattu siihen, minkä laitoit",
+          "Stop-loss asettaa lyhyen alle saman lattian kuin pitkän",
+          "Laskut ovat nousuja hitaampia, joten lyhyt häviää hitaammin",
+          "Hinta voi laskea vain nollaan, mutta se voi nousta rajatta"
+        ]
+      }
+    },
+    "75": {
+      "title": "Volatiliteetti kertaa vipu",
+      "desc": "Miksi krypto tarvitsee täällä suurimman talletuksen",
+      "content": "Sama kerroin kahdella eri omaisuuserällä ei ole sama veto. Siinä on tämän oppitunnin koko idea, ja siksi talletus, joka sinun pitää laittaa, muuttuu sen mukaan, millä käyt kauppaa.\n\nMieti, miltä tavallinen päivä näyttää:\n• Iso indeksi liikkuu useimpina päivinä alle 1%.\n• Yksittäinen osake saattaa liikkua 2% tai 3%.\n• Krypto liikkuu rutiininomaisesti 5% tai 10%, eikä 20% päivä ole kriisi, se on tiistai. 🎢\n\nLaita nyt pieni talletus jokaisen taakse. 10% talletuksella 10% liike pyyhkii sinut pois. Indeksille se on kerran vuosissa tapahtuva asia. Kryptolle se on suunnilleen kuukausittainen. Sama talletus. Täysin eri selviytymiskertoimet.\n\nValvojat tajusivat tämän ja kirjoittivat sen sääntöihin. Kun ESMA rajasi CFD-vivun koko Euroopassa maaliskuussa 2018, se ei valinnut yhtä lukua. Se porrasti ne: 30:1 suurimmille valuuttapareille, 20:1 kullalle ja suurimmille indekseille, 10:1 muille hyödykkeille, 5:1 yksittäisille osakkeille ja aivan pohjalla 2:1 kryptolle. Kaksi yhteen tarkoittaa 50% talletusta. Kryptolle he vaativat PUOLET positiosta oikeana rahana, koko listan tiukimman prosentin.\n\nTämä sovellus tekee saman, samasta syystä, ja kertoo sen näytöllä piilottamisen sijaan:\n\n💱 Valuutat: pienin talletus, koska suurimmat parit liikkuvat vähiten.\n🥇 Kulta ja hyödykkeet: isompi.\n📊 Osakkeet, indeksit ja ETF:t: vielä isompi.\n🪙 Krypto: kaikista suurin talletus, koska krypto liikkuu rajuimmin.\n\nKryptoa ei ole kielletty täällä, ja se on tarkoituksellista. Voit käydä sillä kauppaa. Et vain voi käydä sillä kauppaa ohuella talletuksella, koska ohuella talletuksella tavallinen kryptopäivä lopettaisi tilisi ennen kuin olisit ehtinyt lukea siitä. Isompi talletus ei ole sovelluksen oikkuilua kryptosta. Se on sovelluksen tapa varmistaa, ettei tavallinen päivä voi tappaa sinua.\n\nHyvä tietää: Iso-Britannian valvoja meni porrastusta pidemmälle. Vuonna 2021 se kielsi kryptojohdannaiset yksityisasiakkailta kokonaan ja arvioi kuluttajien säästävän noin £53m. Voit tavata kryptovivun täällä, leikkirahalla ja paksulla talletuksella, tai voit tavata sen kahdeksantoistavuotiaana oikealla rahalla ja ilman mitään varoitusta. Tämä on parempi järjestys. 🌡️",
+      "quiz": {
+        "q": "Krypto vaatii tämän huoneen omaisuuseristä suurimman talletuksen. Mikä on todellinen syy?",
+        "explanation": "Iso indeksi liikkuu useimpina päivinä alle 1%. Krypto liikkuu rutiininomaisesti 5% tai 10%, eikä 20% päivä ole kriisi, se on tiistai. Ohuella talletuksella 10% liike pyyhkii sinut pois, mikä on indeksille kerran vuosissa tapahtuva asia ja kryptolle suunnilleen kuukausittainen. Euroopan valvoja vaati kryptolle puolet positiosta oikeana rahana, koko listansa tiukimman prosentin, juuri tästä syystä.",
+        "options": [
+          "Alle 18-vuotiailta on kielletty krypto, joten talletus on rangaistus",
+          "Kryptosta ei veloiteta rahoitusta, joten talletus korvaa sen",
+          "Se liikkuu rajuimmin, joten tavallinen päivä voi tyhjentää ohuen talletuksen",
+          "Sovellus asettaa kryptohinnat itse markkinan sijaan"
+        ]
+      }
+    },
+    "76": {
+      "title": "Luvut, joita kukaan ei mainosta",
+      "desc": "Mitä valvojat löysivät, kun he laskivat",
+      "content": "Et koskaan näe näitä lukuja mainoksessa. Ne tulevat rahoitusvalvojilta, jotka voivat vaatia yrityksiltä todelliset tilitiedot ja jotka sitten julkaisevat, mitä löysivät.\n\n🇪🇺 ESMA, Euroopan valvoja, maaliskuu 2018. EU-maissa 74%–89% yksityisasiakkaiden CFD-tileistä menettää rahaa. Keskimääräiset tappiot asiakasta kohden vaihtelivat €1,600:sta €29,000:een. ESMA rajoitti tuotetta tämän perusteella.\n\n🇬🇧 FCA Iso-Britanniassa, joulukuu 2016. Sen edustavan asiakastiliotoksen analyysi osoitti, että 82% asiakkaista menetti rahaa näillä tuotteilla.\n\n🇦🇺 ASIC Australiassa, julkaistu tammikuussa 2026, kolmesta tuorein. Tilikaudella 2024 68% yksityisistä CFD-sijoittajista menetti rahaa, yhteensä yli A$458 million. Siitä A$73 million oli maksuja.\n\nPysähdy hetkeksi tuon viimeisen rivin kohdalle. Seitsemänkymmentäkolme miljoonaa siitä ei ollut edes huonoja kauppoja. Se oli pelaamisen hinta: spread sisään mennessä ja rahoituskulu, jonka tapasit oppitunnilla 72.\n\nKolme eri valvojaa, kolme eri maata, dataa kolmelta eri vuosikymmeneltä, ja vastaus osuu aina jonnekin kahden kolmasosan ja yhdeksän kymmenesosan välille.\n\nNyt se tärkein osa, koska juuri se estää tätä olemasta pelottelutilasto. Nuo ihmiset eivät olleet tyhmiä. He eivät olleet laiskoja. He olivat enimmäkseen aikuisia, joilla oli työpaikka, ja moni heistä luki kaaviota paremmin kuin sinä juuri nyt. He hävisivät sen takia, miten tuote on rakennettu: aloitat spreadin verran jäljessä, maksat vuokraa odottaessasi, ja vipu tarkoittaa, että tavallinen liike voi lopettaa sinut ennen kuin mielipiteesi on ehtinyt osoittautua oikeaksi.\n\nSe on rakenne, ei luonteenvika. Ja rakenteen voivat voittaa vain ihmiset, jotka tietävät sen olevan olemassa. 📊",
+      "quiz": {
+        "q": "Valvojat Euroopassa, Iso-Britanniassa ja Australiassa havaitsivat kukin, että useimmat yksityisasiakkaiden CFD-tilit menettävät rahaa. Mikä on rehellinen selitys?",
+        "explanation": "He olivat tavallisia aikuisia, joilla oli työpaikka, ja moni heistä luki kaaviota paremmin kuin sinä tänään. He hävisivät sen takia, miten tuote toimii: aloitat spreadin verran jäljessä, maksat vuokraa joka yö odottaessasi, ja vipu tarkoittaa, että normaali liike voi lopettaa sinut ennen kuin näkemyksesi on ehtinyt osoittautua oikeaksi. Se on rakenne, ei luonteenvika, ja rakenteen voivat voittaa ihmiset, jotka tietävät sen olevan olemassa.",
+        "options": [
+          "Tapa, jolla tuote on rakennettu, toimii asiakasta vastaan",
+          "Hävinneet olivat huolimattomia, ja huolelliset kaupankävijät pärjäävät",
+          "Kilpailevat yritykset julkaisivat luvut markkinointihyökkäyksenä",
+          "Noin suuret tappiot tulevat sääntelemättömistä maista"
+        ]
+      }
+    },
+    "77": {
+      "title": "Mitä muuttui, kun säännöt muuttuivat",
+      "desc": "Todiste siitä, että syy oli suunnittelussa, ei ihmisissä",
+      "content": "Oppitunti 76 antoi sinulle tappiot. Tämä oppitunti antaa sinulle kokeen, ja se on tämän moduulin tärkein asia.\n\nJos useimmat ihmiset häviävät, koska useimmat ihmiset ovat holtittomia, sääntöjen muuttamisen ei pitäisi muuttaa mitään. Holtittomat pysyvät holtittomina. Eikö?\n\nAustralia teki testin. Maaliskuussa 2021 ASIC pakotti joukon suojauksia jokaiselle yksityisasiakkaita palvelevalle CFD-yritykselle: vipukatot, vakiomuotoisen automaattisen sulkemissäännön, negatiivisen saldon suojan ja kiellon houkuttimille, kuten liittymisbonuksille. Samat asiakkaat. Samat yritykset. Samat markkinat. Vain säännöt muuttuivat.\n\nTässä on se, mitä ASIC mittasi ensimmäisten kuuden kuukauden aikana. 🔬\n\n📉 Yksityisasiakastilien yhteenlasketut nettotappiot laskivat 91%, keskimäärin A$372 million kvartaalissa summasta A$33 million summaan.\n📉 51% vähemmän tappiollisia yksityisasiakastilejä kvartaalissa.\n📉 87% vähemmän marginaalisulkemisia.\n📉 88% vähemmän negatiivisen saldon tapauksia.\n\nKukaan ei viisastunut kuudessa kuukaudessa. Suunnittelu muuttui, ja yhdeksän kymmenesosaa vahingoista katosi sen mukana.\n\nTästä seuraa kaksi asiaa, ja sinun kannattaa kantaa molempia mukanasi.\n\nEnsinnäkin: kun häviät vipukaupassa, suuri osa siitä, mitä sinulle tapahtui, oli rakennettu tuotteeseen jo ennen kuin saavuit. Se ei ole lupa olla huolimaton. Se on syy kunnioittaa asiaa.\n\nToiseksi, ja tämä on se hyödyllinen puolisko: suojaukset, jotka tekivät työn, ovat täsmälleen niitä tapoja, joita tämä moduuli on opettanut sinulle. Pienempi positio. Automaattinen poistuminen. Tiukka lattia vahingoille. Valvojan piti pakottaa ne koko alalle saadakseen tuon 91%. Sinä voit vain valita ne. 🛡️",
+      "quiz": {
+        "q": "Kun Australia pakotti CFD-yrityksille vipukatot ja automaattiset sulkemiset, yksityisasiakkaiden tappiot laskivat 91% kuudessa kuukaudessa. Mitä se osoittaa?",
+        "explanation": "Samat asiakkaat, samat yritykset, samat markkinat. Vain säännöt muuttuivat, ja yhdeksän kymmenesosaa vahingoista lähti niiden mukana. Kukaan ei viisastunut kuudessa kuukaudessa. Suojaukset, jotka tekivät työn, ovat niitä tapoja, joita tämä moduuli opettaa sinulle jatkuvasti: pienempi positio, automaattinen poistuminen ja tiukka lattia vahinkojen alla. Valvojan piti pakottaa ne koko alalle. Sinä voit yksinkertaisesti valita ne.",
+        "options": [
+          "Australialaiset kaupankävijät ovat kurinalaisempia kuin eurooppalaiset",
+          "Vipu muuttuu turvalliseksi, kun valvoja pitää sitä silmällä",
+          "Säännöt estivät ihmisiä käymästä kauppaa, joten hävittävää ei ollut",
+          "Suurin osa vahingoista tuli tuotteen suunnittelusta"
+        ]
+      }
+    },
+    "78": {
+      "title": "Gappi, joka hyppää stopin yli",
+      "desc": "Stop on käsky lähteä, ei luvattu hinta",
+      "content": "Tapasit stop-lossit jo oppitunnilla 19. Tässä on, mitä vipu tekee niille.\n\nStop-loss on käsky: \"jos hinta saavuttaa tämän tason, vie minut ulos.\" Se ei ole sopimus hinnasta, jonka saat. Se sanoo lähde. Se ei sano lähde tasan tästä.\n\nUseimmiten tuolla erolla ei ole väliä, koska hinnat liikkuvat pienin askelin ja toimeksiantosi toteutuu lähellä tasoasi. Sitten joskus sillä on valtavasti väliä.\n\n📰 Markkinat sulkeutuvat. Uutiset tulevat klo 23. Markkina aukeaa 8% alempaa kuin se sulkeutui, eikä välissä olevilla hinnoilla käyty lainkaan kauppaa. Stopisi oli tuossa gapissa. Se laukeaa avauksessa ja toteutuu siellä, missä markkina oikeasti on, eli reilusti valitsemasi tason ohi.\n\nIlman vipua se on huono päivä. Vivulla se voi olla koko tili, koska jos talletuksesi oli gappia ohuempi, gappi menee suoraan myös likvidointihintasi läpi, ja sinut suljetaan järjestelmän aikoman tason alapuolella.\n\nKolme asiaa tehtäväksi tämän kanssa, eikä yksikään ole monimutkainen:\n\n1️⃣ Älä pidä stoppia takuuna. Pidä sitä erittäin hyvänä tapana, jolla on yksi tunnettu heikkous.\n2️⃣ Tiedä, milloin markkinasi on kiinni ja mitä on aikataulussa. Yhtiöiden tulokset, korkopäätökset ja vaalit ovat gappeja, joilla on merkintä kalenterissa.\n3️⃣ Mitoita niin, ettei gappi voi lopettaa sinua. Tämä on se todellinen puolustus, ja se on seuraava oppitunti. Stop suojaa sinua tavalliselta. Position koko suojaa sinua epätavalliselta, ja epätavallinen on se, mikä oikeasti tyhjentää ihmiset.\n\nJa on hyvä tietää, että tässä sovelluksessa, kuten millä tahansa kunnolla säännellyllä yksityisasiakkaan tilillä, negatiivisen saldon suoja tarkoittaa, ettei gappi voi viedä sinua alle nollan. Voit menettää tilin. Et voi päätyä velkaa. 📰",
+      "quiz": {
+        "q": "Asetat stop-lossin tasolle {c}90. Yön aikana tulee huonoja uutisia, ja markkina aukeaa hinnassa {c}78 ilman, että välissä käytiin kauppaa. Mitä tapahtuu?",
+        "explanation": "Stop on käsky lähteä, ei lupaus hinnasta, jonka saat. Markkinalla ei käyty kauppaa välillä {c}90 ja {c}78, joten {c}90 hintaa, jolla myydä, ei ollut jäljellä. Stopisi laukeaa avauksessa ja toteutuu siellä, missä markkina oikeasti on. Stopit suojaavat sinua yhä tavallisilta liikkeiltä. Puolustus tämänkaltaista hyppyä vastaan on position koko, ei stop.",
+        "options": [
+          "Stopisi toteutuu hinnassa {c}90, juuri siellä, mihin sen asetit",
+          "Toimeksiantosi toteutuu lähellä hintaa {c}78, ensimmäistä tarjolla olevaa hintaa",
+          "Toimeksianto perutaan, koska hinta hyppäsi sen yli",
+          "Palveluntarjoaja maksaa sinulle {c}12, jonka markkina ohitti"
+        ]
+      }
+    },
+    "79": {
+      "title": "Ensin koko, sitten kauppa",
+      "desc": "Päätä, mitä voit menettää, ennen kuin päätät, mitä ostat",
+      "content": "Tässä on se asia, joka erottaa kestävät niistä, jotka eivät kestä, ja se on melkein tylsä.\n\nAloittelijat valitsevat kaupan ja miettivät sitten, kuinka paljon laittaa. Ammattilaiset tekevät sen toisin päin. He päättävät ensin, mitä ovat valmiita menettämään, ja antavat sen päättää, kuinka suuri positio saa olla.\n\nSääntö, jota useimmat heistä käyttävät: riskeeraa 1%–2% tilistä yhdessä kaupassa. Ei talleta 1%. RISKEERAA 1%, eli sen verran oikeasti menetät, jos stopisi osuu.\n\nNäin se toimii, kolmessa vaiheessa:\n\n1️⃣ Valitse enimmäistappiosi. Tili 10,000 NT, riskinä 1%, joten 100 NT.\n2️⃣ Valitse, missä olet väärässä. Poistut, jos hinta putoaa 5% avaushinnastasi.\n3️⃣ Jaa. 100 NT hyväksyttävää tappiota 5% stop-etäisyydellä tarkoittaa 2,000 NT positiota. Se on kokosi. Ei tunne. Laskelma.\n\nMuuta stoppia, niin koko muuttuu automaattisesti. Tiukempi 2% stop antaa sinun pitää 5,000 NT. Leveämpi 10% stop pakottaa sinut alas 1,000 NT:hen. Mitä riskisempi kauppa, sitä pienempi sen pitää olla, ja laskutoimitus hoitaa sen puolestasi, jotta mielialasi ei tarvitse.\n\nMiksi 1%? Koska se tekee tappioputkesta selviydyttävän. Kymmenen tappiota peräkkäin 1%:lla jättää sinulle 90% tilistäsi ja huonon tuulen. Kymmenen tappiota peräkkäin 20%:lla jättää sinulle noin 11% tilistäsi eikä tietä takaisin, ja tiedät jo oppitunnilta 71, kuinka jyrkkä se nousu on.\n\nKukaan ei selviä markkinoilla valitsemalla voittajia. Jokainen, joka selviää, tekee sen varmistamalla, ettei mikään yksittäinen tappio voi lopettaa häntä. 📐",
+      "quiz": {
+        "q": "10,000 NT tili. Riskeeraat tässä kaupassa 1%, ja poistut, jos hinta laskee 5% avaushinnastasi. Vedä siihen position kokoon, joka noudattaa tätä.",
+        "explanation": "1% 10,000 NT:stä on 100 NT, ja se on eniten, minkä suostuit menettämään. 5% stop tarkoittaa 100 NT jaettuna 5%:lla, mikä on 2,000 NT positio. Vedä korkeammalle, niin lukema näyttää, että riskeeraat enemmän kuin päätit."
+      }
+    },
+    "80": {
+      "title": "Miksi voittaminen tuntuu taidolta",
+      "desc": "Pääpelit, joita vipu pelaa kanssasi",
+      "content": "Vipu ei ole pääasiassa matematiikkaongelma. Matematiikka on helppoa. Se on pääongelma, ja tässä ne kolme, jotka nappaavat jokaisen.\n\n🎯 1. LOPPUTULOSHARHA: voittaminen tuntuu taidolta. Otat villisti ylisuuren position, se toimii, tienaat paljon yhdessä iltapäivässä, ja aivosi kirjaavat \"olen hyvä tässä.\" Ne eivät kirjanneet sitä, mitä oikeasti tapahtui, eli että otit huonon riskin ja sait hyvän tuloksen. Ne ovat eri asioita, ja markkina maksaa sinulle mielellään huonosta päätöksestä useita kertoja ennen kuin se perii laskun. Vaarallisinta, mitä uudelle kaupankävijälle voi tapahtua, on varhainen, helppo voitto.\n\n😤 2. KOSTOKAUPANKÄYNTI: haluat sen takaisin, heti. Otat tappion, se kirvelee, ja halu on välitön. Joten kasvatat kokoa. Laitat nyt suurimman positiosi juuri sillä hetkellä, kun arvostelukykysi on huonoimmillaan, kauppaan, jonka valitsit, koska olit vihainen, etkä siksi, että se olisi hyvä. Markkina ei tiedä, että olet miinuksella, eikä se ole sinulle mitään velkaa. Kun tunnet tämän, oikea koko on nolla. Sulje sovellus.\n\n🕳️ 3. TAPPIOIDEN JAHTAAMINEN: \"pidän vain, kunnes se palaa.\" Tämä on puettu kärsivällisyydeksi, ja siksi sitä on niin vaikea huomata. Kärsivällisyys on suunnitelma, jonka teit rauhallisena etukäteen. Jahtaaminen on suunnitelma, jonka keksit sen jälkeen, kun hinta lähti sinua vastaan, ja paljastava merkki on yksinkertainen: poistumisesi siirtyi. Jos huomaat selittäväsi, miksi asettamasi taso ei enää olekaan oikea taso, se ei ole uutta analyysia. Se on egosi neuvottelemassa.\n\nPuolustus kaikkia kolmea vastaan on sama ja se on epäglamööri. Päätä kaikki ollessasi rauhallinen, kirjoita se ylös ja pidä sitä versiota itsestäsi, joka ilmestyy kesken kaupan, epäluotettavana kertojana. 🧠",
+      "quiz": {
+        "q": "Otat paljon tavallista isomman position, ja se tekee suuren voiton yhdessä iltapäivässä. Mikä on tarkin tapa tulkita se?",
+        "explanation": "Aivosi kirjaavat, että olet hyvä tässä. Oikeasti tapahtui se, että otit huonon riskin ja markkina sattui maksamaan sinulle silti, ja ne ovat kaksi erillistä asiaa. Markkina maksaa huonosta päätöksestä useita kertoja ennen kuin perii laskun. Varhainen, helppo voitto on vaarallisinta, mitä uudelle kaupankävijälle voi tapahtua, koska se opettaa väärän läksyn ja laskuttaa siitä myöhemmin.",
+        "options": [
+          "Tämä on toimiva lähestymistapa, ja kokoa voi kasvattaa taas",
+          "Koko oli oikea, koska voitto todistaa sen",
+          "Otit huonon riskin ja sait sattumalta hyvän tuloksen",
+          "Isot voitot osoittavat taitoa, ja tappiot osoittavat virheitä"
+        ]
+      }
+    },
+    "81": {
+      "title": "Rehellinen kysymys",
+      "desc": "Pitäisikö tätä käyttää ollenkaan?",
+      "content": "Olet suorittanut moduulin. Tässä kysymys, jota mainokset eivät koskaan kysy.\n\nPitäisikö sinun käyttää vipua ollenkaan?\n\nUseimmille ihmisille, useimmiten, rehellinen vastaus on ei. Ei siksi, että he eivät olisi tarpeeksi fiksuja. Vaan kaiken sen takia, mitä viimeiset viisitoista oppituntia kertoivat: aloitat jäljessä, maksat vuokraa odottaessasi, tavallinen liike voi lopettaa sinut ennen kuin olet osoittautunut oikeaksi, ja kolme valvojaa, jotka laskivat oikeita tilejä, havaitsivat kerta toisensa jälkeen, että kahdesta kolmasosasta yhdeksään kymmenesosaan ihmisistä hävisi.\n\nOn olemassa versio kaupankäynnistä, jossa et koskaan koske mihinkään tästä. Ostat osakkeen, omistat palan yhtiötä, osinkoja tipahtaa, aika työskentelee SINUN PUOLESTASI eikä sinua vastaan, eikä mikään voi koskaan sulkea positiotasi kysymättä. Se on tämän sovelluksen loppuosa, eikä se ole tylsä vaihtoehto. Se on vaihtoehto, joka oppitunnin 14 matematiikan mukaan yleensä voittaa. 🌱\n\nJoten tässä on se, mitä sinun pitää tietää ennen kuin päätät.\n\nMitään tässä sovelluksessa ei ole lukittu vivun taakse. Jokainen kilpailu, jokainen tulostaulu, jokainen XP-reitti, jokainen koulujen ottelu ja jokainen NOOB-palkinto pysyy täysin avoimena sille, joka ei koskaan avaa yhtäkään vipupositiota. Et menetä mitään kävelemällä pois tästä huoneesta. Ei rangaistusta eikä puuttuvaa merkkiä.\n\nEikä mikään täällä maksa sinulle voittamisesta. Sinut palkitaan oppituntien suorittamisesta, kokeen läpäisemisestä, stopin asettamisesta, tappiollisen position katkaisemisesta ja oman likvidointisi kirjoittamisesta auki. Sinulle ei koskaan makseta voitosta, isosta positiosta tai onnekkaasta putkesta, koska niistä maksaminen opettaisi sinulle väärän asian ja kutsuisi sitä opetukseksi.\n\nJos käytät sitä: käytä pienesti, käytä stopin kanssa, tiedä likvidointihintasi ennen kuin painat mitään, äläkä koskaan käytä rahaa, jota kaipaisit. Jos et käytä sitä, olet silti oppinut näkemään koneiston, mikä oli aina se pointti. Useimmat aikuiset, jotka käyvät tällä kauppaa, eivät osaa selittää sitä, minkä juuri opit. 🤔",
+      "quiz": {
+        "q": "Mistä oppija luopuu päättämällä, ettei koskaan avaa vipupositiota tässä sovelluksessa?",
+        "explanation": "Mitään tässä sovelluksessa ei ole lukittu vivun taakse. Jokainen kilpailu, jokainen tulostaulu, jokainen XP-reitti, jokainen koulujen ottelu ja jokainen NOOB-palkinto pysyy avoimena sille, joka ei koskaan avaa yhtäkään vipupositiota. Ei rangaistusta eikä puuttuvaa merkkiä. Eikä mikään tässä huoneessa maksa sinulle voittamisesta: se maksaa oppituntien suorittamisesta, kokeen läpäisemisestä, stopin asettamisesta ja tappiollisen position katkaisemisesta.",
+        "options": [
+          "Ei yhtään mistään, jokainen reitti pysyy hänelle avoimena",
+          "Jokaisesta sovelluksen kilpailusta ja tulostaulusta",
+          "Tämän moduulin XP:stä, joka maksetaan vipukaupoista",
+          "NOOB-palkinnoista, jotka vaativat ensin yhden vipuposition"
+        ]
+      }
+    },
+    "82": {
+      "title": "Räjähdys",
+      "desc": "Viisi päivää, yksi aggressiivinen suunnitelma, yksi tyhjä tili",
+      "content": "Tervetuloa Labraan. Täällä saat erillisen 1,000 LAB NT harjoitustilin. Se ei ole lompakkosi, se ei voi koskea lompakkoosi, eikä mikään sen sisällä voitettu tai hävitty lähde sieltä. Instrumentti on NOVA. NOVA on keksitty, joten kukaan ei voi syyttää meitä oikean romahduksen ennustamisesta. Talletusprosentti 25%. Rahoitus 0.02% yössä. Sulkeminen 50%:ssa käytetystä marginaalista. Ja vain tässä bossissa positiorajat on kytketty pois. Tarkoituksella. Kerran.\n\nTässä on viikko, jonka olet selittämässä.\n\n📅 PÄIVÄ 1: NOVA 100:ssa. Hyvä tulos, ryhmächatti käy kuumana. Laitat 800 1,000 NT:stäsi ja hallitset 3,200 NT arvosta NOVAa. Ei stoppia.\n\n📅 PÄIVÄ 2: NOVA 106. Olet 192 NT plussalla, mikä on +19.2% tilistäsi yhdessä päivässä. Lisäät viimeiset 200 NT:si. Altistus 4,000 NT. Vapaa käteinen: nolla. Yhä ei stoppia.\n\n📅 PÄIVÄ 3: NOVA 101.76. Marginaalitaso 103%. Olet yhä viikon osalta plussalla, joten pidät.\n\n📅 PÄIVÄ 4: NOVA 94.64. VAKUUSPYYNTÖ. Marginaalitaso 75%, oma pääoma 750 NT. Et voi lisätä, koska lisättävää ei ole jäljellä. Pidät.\n\n📅 PÄIVÄ 5: NOVA aukeaa yön jälkeen 9% gapilla alaspäin hinnassa 86.12, sulkemistason alapuolella. LIKVIDOITU 390 NT:ssä.\n\nViikon aikana NOVA laski 13.9%. Tilisi laski 61%. Oppija, joka laittoi 250 NT ja stopin tasolle 95, päätti saman viikon noin 949 NT:ssä, 5% miinuksella. Ja samat 800 NT ilman stoppia mutta ilman päivän 2 lisäystä olisi päättynyt 550 NT:hen: vakuuspyyntö, mutta hengissä.\n\nNyt jälkikatsaus. Kymmenen kysymystä siitä, mitä juuri tapahtui. Saa 8 pistettä 10:stä, niin olet voittanut bossin, koska täällä läpäisy tarkoittaa, että osaat selittää haaksirikon, ei sitä, että vältät sen. 💀",
+      "bossVictory": "Räjäytit tilin ja kävelit ulos tietäen miksi. Siinä on koko moduuli. 💀",
+      "bossQuestions": {
+        "0": {
+          "q": "Viiden päivän aikana NOVA laski noin 14%. Tilisi laski 61%. Miksi ero?",
+          "options": [
+            "Sovellus veloitti rangaistuksen häviämisestä",
+            "Pidit noin neljä kertaa niin paljon altistusta kuin talletuksesi oli arvoinen, joten jokainen liike osui lukuun, joka oli neljä kertaa tiliäsi isompi",
+            "Rahoitus oli suurin osa tappiosta",
+            "NOVA on riskisempi osake kuin luvut antavat ymmärtää"
+          ]
+        },
+        "1": {
+          "q": "Päivänä 2 olit 192 NT plussalla, mikä oli 19.2% tilistäsi yhdessä päivässä. Mitä se oikeasti kertoi sinulle?",
+          "options": [
+            "Että tulkintasi oli oikea ja sinun kannattaa kasvattaa kokoa",
+            "Että positio oli hyvin mitoitettu, koska se oli voitollinen",
+            "Että vipu on turvallinen, kun olet oikeassa",
+            "Että positio oli tarpeeksi iso liikuttamaan tiliäsi 19% päivässä, mikä tarkoittaa, että se oli tarpeeksi iso tekemään saman toiseen suuntaan"
+          ]
+        },
+        "2": {
+          "q": "Päivänä 2 lisäsit viimeiset 200 NT:si voitolliseen positioon. Mitä se maksoi sinulle?",
+          "options": [
+            "Turvallisuutesi molemmat puolikkaat: se nosti altistuksen 3,200:sta 4,000:een, ja se käytti ainoan vapaan käteisen, joka olisi voinut vastata vakuuspyyntöön",
+            "Ei mitään, koska voittajaan lisääminen on tapa, jolla ammattilaiset kerryttävät korkoa korolle",
+            "Vain itse 200 NT, jonka positio olisi voittanut takaisin",
+            "Vähän rahoitusta, koska öinen vuokra kasvoi hieman"
+          ]
+        },
+        "3": {
+          "q": "Marginaalitasosi osui päivänä 3 103%:iin. Mitä tuo luku tarkoitti?",
+          "options": [
+            "Olit 103% rahoitettu, joten positio oli ylivakuutettu ja turvassa",
+            "Tilisi oli viikon osalta 3% plussalla",
+            "Oma pääomasi riitti hädin tuskin kattamaan asetetut talletuksesi, joten puskuri oli mennyt ja seuraava liike alkaisi syödä itse talletusta",
+            "Ei mitään yksinään, koska marginaalitasolla on väliä vasta, kun se on alle 50%"
+          ]
+        },
+        "4": {
+          "q": "Päivän 4 vakuuspyynnössä sulkeminen olisi lukinnut 250 NT tappion. Sinä pidit. Miksi pitäminen on vastaus, jonka useimmat valitsevat?",
+          "options": [
+            "Koska pitäminen on yleensä matemaattisesti oikea vastaus vakuuspyyntöön",
+            "Koska sulkeminen tarkoittaa sen myöntämistä, että kauppa oli väärä, ja pitäminen antaa sinun uskoa, ettei se ole vielä ohi",
+            "Koska vakuuspyynnöt yleensä ratkeavat itsestään päivän sisällä",
+            "Koska palveluntarjoaja suosittelee pitämistä tappioiden realisoitumisen välttämiseksi"
+          ]
+        },
+        "5": {
+          "q": "Sinut likvidoitiin 390 NT:ssä, mutta sulkemistaso oli 500 NT omaa pääomaa. Miksi päädyit sen alapuolelle?",
+          "options": [
+            "Palveluntarjoaja veloitti 110 NT likvidointisakon",
+            "NOVA aukesi yön jälkeen 9% gapilla alaspäin tason alapuolelta, joten sulkeminen toteutui ensimmäiseen hintaan, jota markkina oikeasti tarjosi",
+            "Rahoitus vähennettiin yhtenä könttänä likvidoinnin hetkellä",
+            "Sulkemistaso on vain arvio, ja se ohitetaan normaalisti näin paljon"
+          ]
+        },
+        "6": {
+          "q": "Oppija, joka laittoi 250 NT ja asetti stopin tasolle 95, päätti saman viikon noin 949 NT:ssä. Mitä hän teki oikein?",
+          "options": [
+            "Hän päätti enimmäistappionsa ennen avaamista ja antoi sen päättää koon",
+            "Hän luki NOVAn kaaviota paremmin ja näki laskun tulevan",
+            "Hän vältti rahoituksen käyttämällä pienempää talletusta",
+            "Hänellä kävi tuuri, koska samat valinnat yleensä häviävät"
+          ]
+        },
+        "7": {
+          "q": "Maksoit rahoitusta joka yö koko 4,000 NT:n altistuksesta. Kuinka paljon sillä oli väliä tässä kaupassa?",
+          "options": [
+            "Se oli suurin osa tappiosta, koska rahoitus kasvaa korkoa korolle öisin",
+            "Ei mitään, koska rahoitus veloitetaan vain positioista, jotka selviävät kuukauden",
+            "Vain muutama NT, koska kauppa oli lyhyt. Rahoitus tappaa position, joka ei mene mihinkään kuukausiin, ei sitä, joka räjähtää viikossa",
+            "Noin 192 NT, saman verran kuin päivän 2 voitto"
+          ]
+        },
+        "8": {
+          "q": "Jokainen valinta täällä oli sallittu. CFD-keskuksessa useimmat niistä eivät ole. Miksi?",
+          "options": [
+            "Koska rajat tekevät sovelluksen pyörittämisestä halvempaa",
+            "Koska valvojat vaativat harjoitustilan ennen mitään simuloitua kaupankäyntiä",
+            "Koska alle 18-vuotiaat eivät saa katsoa likvidointia kahdesti",
+            "Näit juuri, kuinka 80% talletus yhteen positioon ja nolla vapaata käteistä tuhosivat tilin viidessä päivässä, ja rajat ovat olemassa tehdäkseen juuri tuon sarjan mahdottomaksi"
+          ]
+        },
+        "9": {
+          "q": "Mikä on tästä hyödyllisin yksittäinen opetus?",
+          "options": [
+            "Että position koko, päätettynä ennen kuin avaat sen, on tärkeämpi kuin suunnasta oikeassa oleminen",
+            "Että NOVA oli huono osakevalinta, ja parempi tutkimus olisi pelastanut tilin",
+            "Ettei kenenkään pitäisi koskea vipuun missään olosuhteissa",
+            "Että vakuuspyynnöt ovat arvaamattomia, joten et olisi voinut tehdä mitään"
+          ]
+        }
+      }
+    },
+    "83": {
+      "title": "Lisenssi",
+      "desc": "Kymmenen kysymystä. Kahdeksan oikein läpäisyyn.",
+      "content": "Lisenssi on koe, jota kohti tämä moduuli on rakentunut. Kymmenen kysymystä, ja jokainen on laskelma tai päätös aidon näköisestä positiosta, koska CFD-keskuskaan ei käsittele määritelmiä.\n\nLäpäisyraja on 8 pistettä 10:stä. Sinulla on 3 yritystä päivässä. Kerromme pisteesi mutta emme sitä, mitkä kysymykset menivät väärin, joten hylätty yritys on merkki lukea moduuli uudelleen, ei arvata uudelleen.\n\nTäällä ei ole mitään kompaa. Jokainen luku tulee suoraan takanasi olevista oppitunneista. Jos osaat nämä kymmenen, ymmärrät tämän moduulin paremmin kuin useimmat aikuiset, jotka käyvät näillä tuotteilla kauppaa oikeasti. 🎫",
+      "bossVictory": "Pystyt katsomaan oikeaa näyttöä, oikeina lukuina, ja sanomaan ei. Se on lisenssi. 🎫",
+      "bossQuestions": {
+        "0": {
+          "q": "Tilisi on 1,000 NT eikä mitään muuta ole auki. Asetat koko 1,000 NT talletukseksi 25% prosentilla ja hallitset 4,000 NT arvosta yhtiötä {tech} hintaan 200 NT osakkeelta. Sulkeminen laukeaa 50%:ssa talletuksestasi. Mihin hintaan {tech} pitää mennä, jotta sinut suljetaan?",
+          "options": [
+            "150 NT, 25% lasku, sama kuin talletusprosentti",
+            "100 NT, 50% lasku, sama kuin sulkemissääntö",
+            "175 NT, 12.5% lasku, koska 500 NT:n menettäminen 4,000 NT:n altistuksella vaatii 12.5% liikkeen",
+            "195 NT, 2.5% lasku"
+          ]
+        },
+        "1": {
+          "q": "3,000 NT positio maksaa 0.02% yössä rahoitusta. Odotat 3% liikettä eduksesi, arvoltaan 90 NT. Montako yötä tuo näkemys on arvoinen ennen kuin rahoitus on syönyt sen?",
+          "options": [
+            "Noin 50 yötä",
+            "Noin 150 yötä, koska 90 NT jaettuna 0.60 NT:llä yössä on 150",
+            "Noin 300 yötä",
+            "Sitä ei syödä koskaan, koska rahoitus koskee vain tappiollisia positioita"
+          ]
+        },
+        "2": {
+          "q": "Tilisi on 5,000 NT. Riskeeraat kaupassa 2%, ja poistut, jos hinta liikkuu 4% sinua vastaan. Mikä on suurin positio, jonka sinun kannattaa avata?",
+          "options": [
+            "100 NT, summa, jonka riskeeraat",
+            "1,000 NT, viidesosa tilistä",
+            "5,000 NT, koska stop suojaa tiliä joka tapauksessa",
+            "2,500 NT, koska 100 NT hyväksyttävää tappiota jaettuna 4% stop-etäisyydellä antaa koon"
+          ]
+        },
+        "3": {
+          "q": "Positio on vienyt tilisi 1,000 NT:stä 400 NT:hen. Minkä tuoton tarvitset tästä pelkästään päästäksesi takaisin 1,000 NT:hen?",
+          "options": [
+            "150%, koska 400 NT:n pitää kasvaa puolitoista kertaa oman kokonsa verran päästäkseen 1,000:een",
+            "60%, sama prosentti kuin menetit",
+            "100%, koska tuplaaminen vie aina takaisin",
+            "250%, kaksi kertaa sen, minkä menetit"
+          ]
+        },
+        "4": {
+          "q": "Live-kortissa lukee: marginaalitaso 82%, vapaa käteinen 0, yksi positio auki ja 18% miinuksella. Mikä siirto oikeasti pienentää likvidoinnin riskiä?",
+          "options": [
+            "Lisää käteistä tilille",
+            "Pidä ja odota, että taso palautuu",
+            "Sulje positio, mikä vapauttaa sen käyttämän marginaalin saman tien",
+            "Avaa toinen positio vastakkaiseen suuntaan kumotaksesi sen"
+          ]
+        },
+        "5": {
+          "q": "Myyt yhtiön {tech} lyhyeksi hinnassa 50 NT 2,000 NT positiolla. Yritysosto hinnoittelee sen yön aikana uudelleen 150 NT:hen. Miten tuo tappio vertautuu saman kokoisen pitkän position pahimpaan tapaukseen?",
+          "options": [
+            "Se on sama, koska molemmat on rajattu siihen, minkä laitoit",
+            "Lyhyt häviää 4,000 NT, kaksi kertaa position arvon, kun taas pitkä ei voisi koskaan hävitä enempää kuin itse 2,000 NT position",
+            "Lyhyt ei häviä mitään, jos stop-loss oli asetettu, koska stopit ovat taattuja",
+            "Lyhyen tappio on pienempi, koska hinnat laskevat nopeammin kuin nousevat"
+          ]
+        },
+        "6": {
+          "q": "Stopisi on tasolla 90 NT. Yöllä tulee uutisia, ja markkina aukeaa hinnassa 78 NT ilman, että välissä käytiin kauppaa. Mitä tapahtuu, ja mikä on todellinen puolustus tätä vastaan?",
+          "options": [
+            "Toimeksiantosi toteutuu hinnassa 90 NT, koska sen stop takaa",
+            "Toimeksianto peruuntuu, koska hinta hyppäsi tasosi yli",
+            "Toimeksiantosi toteutuu lähellä 78 NT:tä, ja puolustus gappeja vastaan on position koko, ei stop",
+            "Palveluntarjoaja on sinulle velkaa 90:n ja 78:n välisen erotuksen"
+          ]
+        },
+        "7": {
+          "q": "Miksi kryptolla on CFD-keskuksen suurin talletusvaatimus?",
+          "options": [
+            "Se liikkuu rajuimmin, joten täysin tavallinen kryptopäivä tyhjentäisi ohuen talletuksen",
+            "Kryptosta ei veloiteta rahoitusta, joten talletus korvaa sen",
+            "Krypto on kielletty alle 18-vuotiailta ja talletus on rangaistus",
+            "Kryptohinnat asettaa sovellus eikä markkina"
+          ]
+        },
+        "8": {
+          "q": "Mikä näistä ansaitsee XP:tä tässä moduulissa?",
+          "options": [
+            "40% voitto vipupositiolla",
+            "Suurimman saatavilla olevan altistuksen käyttäminen",
+            "Viiden kaupan voittoputki",
+            "Tappiollisen position sulkeminen sen sijaan, että lisäisit siihen"
+          ]
+        },
+        "9": {
+          "q": "Kauppaa edeltävä esikatselu sanoo, että 10% epäedullinen liike vie tililtäsi 620 NT, mikä on 62% lompakostasi. Likvidointihintasi on 88.40, ja {tech} on juuri nyt hinnassa 96.00. Avaatko sen?",
+          "options": [
+            "Kyllä, koska likvidointihinta on turvallisesti nykyhinnan alapuolella",
+            "Kyllä, jos olet varma suunnasta",
+            "Vain tuplatulla altistuksella, jotta riski olisi ottamisen arvoinen",
+            "Ei: noin 8% liike tyhjentää position, 8% on tavallinen liike, ja 62% lompakosta yhteen kauppaan rikkoo jokaisen tämän moduulin mitoitussäännön"
+          ]
+        }
+      }
+    },
+    "84": {
+      "title": "Pahin tapauksesi, valittuna etukäteen",
+      "desc": "Stop-loss, take-profit ja poistuminen, jota kukaan ei valitse",
+      "content": "Tunnet talletuksen, vakuuspyynnön, sulkemisen, vuokran, stopin ja gapin. Tämä oppitunti asettaa viimeisen palan paikalleen: jokainen positio, jonka koskaan avaat, päättyy täsmälleen yhdellä kolmesta tavasta, ja koko peli on siinä, kuka valitsee minkä.\n\n1️⃣ SINÄ SULJET SEN. Napautat painiketta, ja positio sulkeutuu nykyiseen markkinahintaan. Aina saatavilla, jokaisessa positiossa, jokaisessa tilassa. Useimpien poistumisten pitäisi olla tätä.\n\n2️⃣ ASETTAMASI TOIMEKSIANTO SULKEE SEN. Kaksi lajia, ja nimillä on väliä, joten opettele ne kunnolla:\n\n• STOP-LOSS-TOIMEKSIANTO sulkee sinut automaattisesti, kun hinta liikkuu SINUA VASTAAN valitsemallesi tasolle: myynti-stop avaushintasi alapuolella pitkässä positiossa, osto-stop avaushintasi yläpuolella lyhyessä. Se on pahin tapauksesi, päätettynä ollessasi rauhallinen, ja oppitunti 80 jo opetti, että se on ainoa hetki, jolloin päätät mitään hyvin.\n• TAKE-PROFIT-TOIMEKSIANTO (voitonotto) on limiittitoimeksianto sulkea: se sulkee sinut automaattisesti valitsemassasi tavoitteessa, kun hinta liikkuu SINUN EDUKSESI ja saavuttaa sen. Se on sinun \"riittää\", päätettynä ennen kuin ahneus sai äänestää. Limiittitoimeksianto toteutuu tasollasi tai paremmin, ei koskaan huonommin.\n\n3️⃣ PALVELUNTARJOAJA SULKEE SEN. Se on likvidointi, oppitunnilta 70. Ja tässä se asia, joka pitää polttaa mieleen: likvidointi ei ole toimeksiantotyyppi. Et voi asettaa \"likvidointikauppaa\". Kukaan ei voi. Se ei ole työkalu pakissasi; se on se, mitä palveluntarjoaja tekee suojatakseen lainaansa, kun talletuksesi on melkein loppu, siihen hintaan, jonka markkina maksaa, sillä aikaa kun olet koulussa tai nukut.\n\nStop-loss on sitä, että päätät pahimman tapauksesi etukäteen. Likvidointi on se, mitä tapahtuu, kun et päättänyt.\n\nMolemmat toimeksiantosi ovat rehellisiä samalla tavalla, ja tiedät sen jo oppitunnilta 78: ne laukeavat tasollasi ja toteutuvat siihen hintaan, jonka markkina oikeasti maksaa. Gappi stopisi yli toteuttaa sinut hypyn toisella puolella, mikä on huonompi. Gappi take-profitisi läpi toteuttaa sinut myös toisella puolella, mikä on parempi. Sama fakta, molempiin suuntiin.\n\nYksi sijoitussääntö, ja tämä sovellus valvoo sitä ja näyttää syyn näytöllä: stopisi on oltava nykyisen hinnan ja likvidointihintasi välissä. Likvidointihinnan takana oleva stop ei voisi koskaan laueta, koska palveluntarjoaja olisi sulkenut sinut ensin, joten sovellus kieltäytyy siitä ja kertoo miksi.\n\nJokaisesta kaupasta johtaa kolme ovea ulos. Kahden kahvassa on sinun nimesi. Kävellä ulos jommastakummasta niistä, valitsemanasi päivänä, tasolla, jonka valitsit rauhallisena, on se, mitä koko tämä moduuli on opettanut sinua tekemään. 🚪",
+      "quiz": {
+        "q": "Pitkässä positiossasi on asettamasi stop-loss tasolla 180.00 ja likvidointihinta 150.00. Mikä on näiden kahden luvun todellinen ero?",
+        "options": [
+          "Ei mitään, ne ovat kaksi nimeä samalle automaattiselle sulkemiselle, ja palveluntarjoaja laukaisee sen joka kerta yhteen ja samaan hintaan",
+          "Stop-loss on palveluntarjoajan päätös ja likvidointihinta on sinun, joten se, jota oikeasti hallitset, on se, joka laukeaa toisena",
+          "Stop tasolla 180.00 on pahin tapauksesi, jonka valitsit itse etukäteen rauhallisena; 150.00 on se, jossa palveluntarjoaja sulkee sinut suojatakseen lainaansa, koska sinulla ei ole enää sananvaltaa",
+          "Stop takaa toteutuksen tasan 180.00:ssa teki markkina mitä tahansa, kun taas likvidointi voi toteutua mihin tahansa hintaan, kuinka pitkälle se onkin karannut"
+        ]
+      }
+    }
+  },
+  "context": {
+    "ZA": {
+      "name": "Etelä-Afrikka",
+      "cName": "randi",
+      "cPlural": "randeja",
+      "exDesc": "yksi koko Afrikan mantereen suurimmista pörsseistä",
+      "sectorList": "⛏️ Kaivosala: Anglo American, Impala Platinum. Sidoksissa maailman raaka-ainehintoihin\n🏦 Pankkiala: Standard Bank, FirstRand, Capitec. Pärjäävät hyvin, kun korot ovat korkeammalla\n📱 Teknologia: Naspers, Prosus. Sidoksissa globaaleihin teknologiatrendeihin\n🛍️ Vähittäiskauppa: Shoprite, Pick n Pay. Pärjäävät hyvin, kun kuluttajilla on rahaa käytettävänä\n📡 Tietoliikenne: MTN, Vodacom. Vakaampia, koska ihmiset tarvitsevat aina dataa",
+      "etfBasket": "JSE:n 40 suurinta yhtiötä",
+      "etfDesc": "Esimerkiksi JSE Top 40 on lista JSE:llä listatuista 40 suurimmasta yhtiöstä, järjestettynä oikeasti kaupankäynnin saatavilla olevien osakkeiden arvon mukaan.",
+      "etfList": "🇿🇦 Satrix Top 40: JSE:n 40 suurinta yhtiötä. Loistava lähtöpiste.\n🌍 Satrix MSCI World: Yhtiöitä 23 kehittyneestä maasta yhdellä ostolla.\n🇺🇸 Sygnia Itrix S&P 500: S&P 500 -listan 500 suurta yhdysvaltalaista yhtiötä.\n💡 Satrix Nasdaq 100: Nasdaqin 100 suurinta muuta kuin rahoitusalan yhtiötä. Hyvin teknologiapainotteinen.",
+      "currencyHedge": "Nämä on hinnoiteltu dollareissa tai euroissa. Joten jos randi HEIKKENEE (R20 dollarilta muuttuu R22:ksi), globaalit sijoituksesi ovat AUTOMAATTISESTI arvokkaampia randeissa!",
+      "fxQuizSetup": "Randi heikkenee dollaria vastaan tasolta R18 tasolle R22",
+      "fxQuizLose": "Se menettää arvoaan, koska Etelä-Afrikalla menee huonommin",
+      "fxQuizGain": "Se NOUSEE randeissa mitattuna, koska jokaisella dollarilla saa enemmän randeja",
+      "dcaTitle": "Keskihintamenetelmä",
+      "dcaAbbrev": "RCA, Rand Cost Averaging",
+      "food": "Wimpy-hampurilainen"
+    },
+    "US": {
+      "name": "Yhdysvallat",
+      "cName": "dollari",
+      "cPlural": "dollareita",
+      "exDesc": "maailman ylivoimaisesti suurin osakemarkkina",
+      "sectorList": "💻 Teknologia: Apple, Microsoft, Alphabet. Innovaation ja globaalin kysynnän vetämiä\n🏦 Pankkiala: JPMorgan, Bank of America, Goldman Sachs. Pärjäävät hyvin, kun korot nousevat\n🛍️ Vähittäiskauppa: Amazon, Walmart, Costco. Pärjäävät hyvin, kun kuluttajat käyttävät rahaa\n⚡ Energia: Exxon Mobil, Chevron. Sidoksissa maailman öljyn ja kaasun hintoihin\n📡 Tietoliikenne: AT&T, Verizon, T-Mobile. Ihmiset tarvitsevat aina yhteyksiä",
+      "etfBasket": "S&P 500 -listan 500 suurta yhdysvaltalaista yhtiötä",
+      "etfDesc": "Esimerkiksi S&P 500 on komitean valitsema lista 500 suuresta yhdysvaltalaisesta yhtiöstä. Niiden täytyy olla isoja, kannattavia ja helposti vaihdettavia. Se EI ole pelkästään 500 suurinta, ja siinä on sekaisin NYSE:ssä ja Nasdaqissa listattuja yhtiöitä.",
+      "etfList": "🇺🇸 SPY / VOO: Seuraavat S&P 500:aa, 500 suuren yhdysvaltalaisen yhtiön listaa. Kultainen standardi.\n📦 VTI: Koko Yhdysvaltain osakemarkkina, tuhansia yhtiöitä yhdessä ETF:ssä.\n💡 QQQ: Nasdaqin 100 suurinta muuta kuin rahoitusalan yhtiötä. Hyvin teknologiapainotteinen.\n🌍 VT / VXUS: Globaaleja tai kansainvälisiä yhtiöitä yhdessä rahastossa.",
+      "currencyHedge": "Jos dollari heikkenee muita valuuttoja vastaan, kansainväliset sijoituksesi ovat automaattisesti ARVOKKAAMPIA dollareissa mitattuna!",
+      "fxQuizSetup": "Dollari heikkenee merkittävästi euroa ja jeniä vastaan",
+      "fxQuizLose": "Se menettää arvoaan, koska Yhdysvaltain talous takkuaa",
+      "fxQuizGain": "Se NOUSEE dollareissa mitattuna, koska ulkomaiset omistuksesi saivat valuutta-arvoa",
+      "dcaTitle": "Keskihintamenetelmä",
+      "dcaAbbrev": "DCA, Dollar Cost Averaging",
+      "food": "Big Mac -ateria"
+    },
+    "GB": {
+      "name": "Iso-Britannia",
+      "cName": "punta",
+      "cPlural": "puntia",
+      "exDesc": "yksi maailman vanhimmista ja tärkeimmistä pörsseistä",
+      "sectorList": "⚡ Energia: Shell, BP. Globaaleja öljy- ja kaasujättejä\n🏦 Pankkiala: HSBC, Barclays, Lloyds. Pärjäävät hyvin, kun korot ovat korkeammalla\n🧴 Kulutustuotteet: Unilever, Diageo, Reckitt. Kodin tuotemerkkien voimataloja\n🛍️ Vähittäiskauppa: Tesco, Sainsbury's. Pärjäävät hyvin, kun kuluttajat käyttävät rahaa\n📡 Tietoliikenne: Vodafone, BT Group. Ihmiset tarvitsevat aina yhteyksiä",
+      "etfBasket": "Lontoon pörssin 100 suurinta yhtiötä",
+      "etfDesc": "Esimerkiksi FTSE 100 on lista Lontoon pörssin päämarkkinan 100 suurimmasta yhtiöstä, ja se tarkistetaan kolmen kuukauden välein.",
+      "etfList": "🇬🇧 iShares Core FTSE 100: Lontoon pörssin 100 suurinta yhtiötä.\n🌍 Vanguard FTSE All-World: Yhtiöitä kymmenistä maista yhdellä ostolla.\n🇺🇸 iShares Core S&P 500: S&P 500 -listan 500 suurta yhdysvaltalaista yhtiötä.\n💡 iShares Nasdaq 100: Nasdaqin 100 suurinta muuta kuin rahoitusalan yhtiötä. Hyvin teknologiapainotteinen.",
+      "currencyHedge": "Jos punta heikkenee muita valuuttoja vastaan, kansainväliset sijoituksesi ovat automaattisesti ARVOKKAAMPIA punnissa mitattuna!",
+      "fxQuizSetup": "Punta heikkenee merkittävästi dollaria ja euroa vastaan",
+      "fxQuizLose": "Se menettää arvoaan, koska Ison-Britannian talous takkuaa",
+      "fxQuizGain": "Se NOUSEE punnissa mitattuna, koska ulkomaiset omistuksesi saivat valuutta-arvoa",
+      "dcaTitle": "Keskihintamenetelmä",
+      "dcaAbbrev": "PCA, Pound Cost Averaging",
+      "food": "Nando's-kanan neljännes"
+    },
+    "IN": {
+      "name": "Intia",
+      "cName": "rupia",
+      "cPlural": "rupioita",
+      "exDesc": "yksi maailman suurimmista pörsseistä kauppojen määrällä mitattuna",
+      "sectorList": "💻 Teknologia: TCS, Infosys, Wipro. Globaaleja IT-palveluiden voimataloja\n🏦 Pankkiala: HDFC Bank, SBI, ICICI. Pärjäävät hyvin, kun korot ovat korkeammalla\n🛍️ Kulutustuotteet: ITC, Hindustan Unilever, DMart. Pärjäävät hyvin, kun kuluttajat käyttävät rahaa\n⚡ Energia: Reliance, ONGC. Sidoksissa öljyyn, kaasuun ja jalostukseen\n📡 Tietoliikenne: Airtel, Vodafone Idea. Intian valtava mobiilimarkkina kasvaa yhä",
+      "etfBasket": "50 Intian suurimmista ja vaihdetuimmista yhtiöistä",
+      "etfDesc": "Esimerkiksi Nifty 50 on lista 50 Intian suurimmasta ja vaihdetuimmasta yhtiöstä, jotka on valittu koon JA sen mukaan, kuinka helposti niitä voi ostaa ja myydä, ei pelkän koon perusteella.",
+      "etfList": "🇮🇳 Nippon India Nifty 50: Nifty 50, lista 50 Intian suurimmasta ja vaihdetuimmasta yhtiöstä.\n💡 ICICI Prudential Sensex: Sensex, lista 30 Intian tunnetuimmasta blue chip -yhtiöstä.\n📦 Kotak Nifty Next 50: Ne 50 yhtiötä, jotka sijoittuvat heti Nifty 50:n alapuolelle.\n🌍 Motilal Oswal Nasdaq 100: Nasdaqin 100 suurinta muuta kuin rahoitusalan yhtiötä.",
+      "currencyHedge": "Jos rupia heikkenee dollaria vastaan, kansainväliset sijoituksesi ovat automaattisesti ARVOKKAAMPIA rupioissa mitattuna!",
+      "fxQuizSetup": "Rupia heikkenee dollaria vastaan tasolta ₹82 tasolle ₹90",
+      "fxQuizLose": "Se menettää arvoaan, koska Intian talous takkuaa",
+      "fxQuizGain": "Se NOUSEE rupioissa mitattuna, koska jokaisella dollarilla saa enemmän rupioita",
+      "dcaTitle": "Keskihintamenetelmä",
+      "dcaAbbrev": "RCA, Rupee Cost Averaging",
+      "food": "Domino's-pizza"
+    },
+    "JP": {
+      "name": "Japani",
+      "cName": "jeni",
+      "cPlural": "jenejä",
+      "exDesc": "yksi maailman suurimmista pörsseistä",
+      "sectorList": "🚗 Autoteollisuus: Toyota, Honda, Nissan. Japanin maailmankuulut autonvalmistajat\n💻 Teknologia: Sony, SoftBank, Nintendo. Pelaamista, viihdettä ja innovaatiota\n🏦 Pankkiala: MUFG, SMFG, Mizuho. Japanin megapankkiryhmät\n🛍️ Vähittäiskauppa: Fast Retailing (Uniqlo), Seven & i. Globaali vähittäiskaupan ulottuvuus\n📡 Tietoliikenne: NTT, KDDI, SoftBank. Valtava mobiili-infrastruktuuri",
+      "etfBasket": "Nikkei 225 -listan 225 yhtiötä",
+      "etfDesc": "Esimerkiksi Nikkei 225 on lista 225 tunnetusta japanilaisesta yhtiöstä, jotka on valittu edustamaan koko markkinaa. Se on hintapainotettu, mikä tarkoittaa, että korkeahintainen osake painaa enemmän kuin yhtiö, joka on vain iso.",
+      "etfList": "🇯🇵 Nikkei 225 -ETF: Nikkei 225 -listan 225 yhtiötä. Vertailukohta.\n📦 TOPIX-ETF: Paljon laajempi siivu Tokion markkinaa, reilusti yli tuhat yhtiötä.\n🌍 MAXIS All Country World: Kehittyneet ja kehittyvät markkinat yhdessä rahastossa.\n🇺🇸 iShares S&P 500: S&P 500 -listan 500 suurta yhdysvaltalaista yhtiötä.",
+      "currencyHedge": "Jos jeni heikkenee muita valuuttoja vastaan, kansainväliset sijoituksesi ovat automaattisesti ARVOKKAAMPIA jeneissä mitattuna!",
+      "fxQuizSetup": "Jeni heikkenee dollaria vastaan tasolta ¥130 tasolle ¥155",
+      "fxQuizLose": "Se menettää arvoaan, koska Japanin talous takkuaa",
+      "fxQuizGain": "Se NOUSEE jeneissä mitattuna, koska ulkomaiset omistuksesi saivat valuutta-arvoa",
+      "dcaTitle": "Keskihintamenetelmä",
+      "dcaAbbrev": "YCA, Yen Cost Averaging",
+      "food": "ramenkulho"
+    },
+    "DE": {
+      "name": "Saksa",
+      "cName": "euro",
+      "cPlural": "euroja",
+      "exDesc": "yksi Euroopan suurimmista pörsseistä",
+      "sectorList": "💻 Teknologia: SAP, Infineon. Yritysohjelmistoja ja puolijohteita\n🚗 Autoteollisuus: Volkswagen, BMW, Mercedes-Benz. Saksan insinööritaidon ylpeys\n🏦 Pankkiala: Deutsche Bank, Commerzbank. Pärjäävät hyvin, kun korot nousevat\n🏭 Teollisuus: Siemens, BASF. Globaalia valmistusta ja kemianteollisuutta\n📡 Tietoliikenne: Deutsche Telekom, 1&1. Saksan yhteyksien selkäranka",
+      "etfBasket": "Frankfurtin pörssin 40 suurinta saksalaista yhtiötä",
+      "etfDesc": "Esimerkiksi DAX 40 on lista Frankfurtin pörssin 40 suurimmasta saksalaisesta yhtiöstä, ja vuodesta 2021 lähtien niiden on myös täytynyt olla kannattavia päästäkseen mukaan.",
+      "etfList": "🇩🇪 iShares Core DAX: Frankfurtin pörssin 40 suurinta saksalaista yhtiötä.\n🌍 Xtrackers MSCI World: Yhtiöitä 23 kehittyneestä maasta.\n🇺🇸 iShares Core S&P 500: S&P 500 -listan 500 suurta yhdysvaltalaista yhtiötä.\n🇪🇺 EURO STOXX 50 -ETF: 50 blue chip -johtajaa eri puolilta euroaluetta.",
+      "currencyHedge": "Jos euro heikkenee muita valuuttoja vastaan, kansainväliset sijoituksesi ovat automaattisesti ARVOKKAAMPIA euroissa mitattuna!",
+      "fxQuizSetup": "Euro heikkenee merkittävästi dollaria ja jeniä vastaan",
+      "fxQuizLose": "Se menettää arvoaan, koska Euroopan talous takkuaa",
+      "fxQuizGain": "Se NOUSEE euroissa mitattuna, koska ulkomaiset omistuksesi saivat valuutta-arvoa",
+      "dcaTitle": "Keskihintamenetelmä",
+      "dcaAbbrev": "DCA, Cost Averaging",
+      "food": "dönerkebab"
+    },
+    "CA": {
+      "name": "Kanada",
+      "cName": "Kanadan dollari",
+      "cPlural": "Kanadan dollareita",
+      "exDesc": "yksi maailman 10 suurimmasta pörssistä",
+      "sectorList": "💻 Teknologia: Shopify, OpenText, Constellation Software. Kanadalaista teknologiainnovaatiota\n🏦 Pankkiala: RBC, TD, BMO, Scotiabank. Kanadan viisi suurta ovat kalliota\n⚡ Energia: Enbridge, Suncor, TC Energy. Öljyhiekka- ja putkijättejä\n🛍️ Vähittäiskauppa: Dollarama, Canadian Tire, Loblaw. Kotimaisia kauppabrändejä\n📡 Tietoliikenne: BCE, Rogers, Telus. Kanadalaiset tarvitsevat aina yhteyksiä",
+      "etfBasket": "60 suurta kanadalaista yhtiötä kaikilta päätoimialoilta",
+      "etfDesc": "Esimerkiksi S&P/TSX 60 on komitean valitsema lista 60 suuresta kanadalaisesta yhtiöstä niin, että jokainen päätoimiala on edustettuna, mikä tarkoittaa, ettei se ole pelkästään 60 suurinta.",
+      "etfList": "🇨🇦 iShares S&P/TSX 60 (XIU): 60 suurta kanadalaista yhtiötä kaikilta päätoimialoilta.\n📦 Vanguard All-Equity (VEQT): Kanadalaisia, yhdysvaltalaisia ja kansainvälisiä osakkeita yhdessä ETF:ssä.\n🇺🇸 BMO S&P 500: S&P 500 -listan 500 suurta yhdysvaltalaista yhtiötä.\n💡 Nasdaq 100 -ETF: Nasdaqin 100 suurinta muuta kuin rahoitusalan yhtiötä. Hyvin teknologiapainotteinen.",
+      "currencyHedge": "Jos Kanadan dollari heikkenee muita valuuttoja vastaan, kansainväliset sijoituksesi ovat automaattisesti ARVOKKAAMPIA C$:ssa mitattuna!",
+      "fxQuizSetup": "Kanadan dollari heikkenee merkittävästi Yhdysvaltain dollaria vastaan",
+      "fxQuizLose": "Se menettää arvoaan, koska Kanadan talous takkuaa",
+      "fxQuizGain": "Se NOUSEE Kanadan dollareissa mitattuna, koska ulkomaiset omistuksesi saivat valuutta-arvoa",
+      "dcaTitle": "Keskihintamenetelmä",
+      "dcaAbbrev": "DCA, Dollar Cost Averaging",
+      "food": "Tim Hortons -ateria"
+    },
+    "AU": {
+      "name": "Australia",
+      "cName": "Australian dollari",
+      "cPlural": "Australian dollareita",
+      "exDesc": "eteläisen pallonpuoliskon suurin pörssi",
+      "sectorList": "⛏️ Kaivosala: BHP, Rio Tinto, Fortescue. Globaaleja kaivos- ja luonnonvarajättejä\n🏦 Pankkiala: CBA, Westpac, ANZ, NAB. Australian neljä suurta pankkia\n🏥 Terveydenhuolto: CSL, Cochlear. Maailmanluokan biotekniikkaa ja lääkinnällisiä laitteita\n🛍️ Vähittäiskauppa: Woolworths, Coles, Wesfarmers. Päivittäistavaroita ja kulutushyödykkeitä\n💻 Teknologia: WiseTech Global, Xero. Australiassa listattuja ohjelmistojen menestystarinoita",
+      "etfBasket": "ASX:n 200 suurinta yhtiötä",
+      "etfDesc": "Esimerkiksi S&P/ASX 200 on lista ASX:llä listatuista 200 suurimmasta yhtiöstä, mitattuna kaupankäynnin saatavilla olevien osakkeiden arvolla ja seulottuna sen mukaan, kuinka helposti ne vaihtavat omistajaa.",
+      "etfList": "🇦🇺 iShares Core S&P/ASX 200 (IOZ): ASX:n 200 suurinta yhtiötä.\n📦 Vanguard Australian Shares (VAS): Vielä laajempi, noin 300 ASX-yhtiötä.\n🌍 Vanguard MSCI International (VGS): Kehittyneiden markkinoiden yhtiöitä Australian ulkopuolelta.\n🇺🇸 BetaShares Nasdaq 100 (NDQ): Nasdaqin 100 suurinta muuta kuin rahoitusalan yhtiötä.",
+      "currencyHedge": "Jos Australian dollari heikkenee muita valuuttoja vastaan, kansainväliset sijoituksesi ovat automaattisesti ARVOKKAAMPIA A$:ssa mitattuna!",
+      "fxQuizSetup": "Australian dollari heikkenee merkittävästi Yhdysvaltain dollaria vastaan",
+      "fxQuizLose": "Se menettää arvoaan, koska Australian talous takkuaa",
+      "fxQuizGain": "Se NOUSEE A$:ssa mitattuna, koska ulkomaiset omistuksesi saivat valuutta-arvoa",
+      "dcaTitle": "Keskihintamenetelmä",
+      "dcaAbbrev": "DCA, Dollar Cost Averaging",
+      "food": "lihapiirakka"
+    },
+    "HK": {
+      "name": "Hongkong",
+      "cName": "Hongkongin dollari",
+      "cPlural": "Hongkongin dollareita",
+      "exDesc": "Kiinan ja globaalien markkinoiden välinen porttipörssi",
+      "sectorList": "💻 Teknologia: Tencent, Xiaomi, Meituan. Hongkongissa listattuja kiinalaisia teknologiajättejä\n🏦 Pankkiala: HSBC, Hang Seng Bank. Pärjäävät hyvin, kun korot nousevat\n🏗️ Kiinteistöt: CK Asset, Sun Hung Kai. Kiinteistöt ovat Hongkongissa kuninkaita\n⚡ Yleishyödylliset palvelut: CLP, Power Assets. Vakaita osinkoja vuodesta toiseen\n🛡️ Vakuutukset: AIA, Prudential. Aasian ja Tyynenmeren vakuutusjohtajia",
+      "etfBasket": "Hongkongin suurimmat ja vaihdetuimmat yhtiöt",
+      "etfDesc": "Esimerkiksi Hang Seng Index on valikoitu lista Hongkongin suurimmista ja vaihdetuimmista yhtiöistä, jotka on poimittu edustamaan jokaista päätoimialaa. Yhtiöiden määrä listalla muuttuu, kun indeksikomitea lisää ja poistaa nimiä.",
+      "etfList": "🇭🇰 Tracker Fund (2800): Seuraa Hang Seng Indexiä. Hongkongin ETF-pioneeri.\n💡 Hang Seng TECH ETF: Hongkongissa listatut 30 suurinta teknologiayhtiötä.\n🇺🇸 S&P 500 -ETF: S&P 500 -listan 500 suurta yhdysvaltalaista yhtiötä.\n🇨🇳 Kiinan A-osake-ETF: Pääsy Shanghaissa ja Shenzhenissä listattuihin yhtiöihin.",
+      "currencyHedge": "Hongkongin dollari on sidottu Yhdysvaltain dollariin, joten Yhdysvaltoihin painottuva globaali rahasto tuskin liikkuu pelkän valuutan takia. Mutta muu kuin yhdysvaltalainen osuus (Eurooppa, Japani, muu Aasia) nousee silti HK$:ssa mitattuna, kun noiden maiden valuutat vahvistuvat!",
+      "fxQuizSetup": "Euro ja jeni vahvistuvat Yhdysvaltain dollaria vastaan, ja Hongkongin dollari on sidottu Yhdysvaltain dollariin",
+      "fxQuizLose": "Se menettää arvoaan, koska Hongkongin talous takkuaa",
+      "fxQuizGain": "Eurooppalainen ja japanilainen osuus NOUSEE HK$:ssa mitattuna, koska niillä valuutoilla saa nyt enemmän Hongkongin dollareita",
+      "dcaTitle": "Keskihintamenetelmä",
+      "dcaAbbrev": "DCA, Dollar Cost Averaging",
+      "food": "wonton-nuudelikulho"
+    },
+    "CN": {
+      "name": "Kiina",
+      "cName": "juan",
+      "cPlural": "juaneja",
+      "exDesc": "yksi maailman suurimmista pörsseistä markkina-arvolla mitattuna",
+      "sectorList": "💻 Teknologia: SMIC, Kingsoft Office. Shanghaissa listattua sirujen valmistusta ja ohjelmistoja\n🏦 Pankkiala: ICBC, CCB, Bank of China. Varoiltaan maailman suurimpien pankkien joukossa\n🚗 Autoteollisuus: SAIC Motor, Great Wall Motor. Kiinan kotimaiset autonvalmistajat\n🛍️ Kulutustuotteet: Kweichow Moutai, Haier, Yili. Tuttuja nimiä kaikkialla Kiinassa\n📡 Tietoliikenne: China Mobile, China Telecom. Valtavia mobiiliverkkoja",
+      "etfBasket": "300 Manner-Kiinan suurimmista ja vaihdetuimmista yhtiöistä",
+      "etfDesc": "Esimerkiksi CSI 300 on lista 300 Manner-Kiinan suurimmasta ja vaihdetuimmasta yhtiöstä, ja se kattaa SEKÄ Shanghain ETTÄ Shenzhenin pörssin, ei vain toista niistä.",
+      "etfList": "🇨🇳 Huatai-PB CSI 300 (510300): 300 suurta, vilkkaasti vaihdettua yhtiötä Shanghaista ja Shenzhenistä.\n💡 ChinaAMC SSE 50 (510050): Pelkän Shanghain pörssin 50 suurinta yhtiötä.\n🌍 Laaja Kiinan osakerahasto: Laajempi kattavuus kuin CSI 300.\n🇺🇸 S&P 500 QDII -rahasto: Pääsy S&P 500 -listan 500 suureen yhdysvaltalaiseen yhtiöön.",
+      "currencyHedge": "Jos juan heikkenee muita valuuttoja vastaan, kansainväliset sijoituksesi ovat automaattisesti ARVOKKAAMPIA juaneissa mitattuna!",
+      "fxQuizSetup": "Juan heikkenee merkittävästi dollaria ja euroa vastaan",
+      "fxQuizLose": "Se menettää arvoaan, koska Kiinan talous takkuaa",
+      "fxQuizGain": "Se NOUSEE juaneissa mitattuna, koska ulkomaiset omistuksesi saivat valuutta-arvoa",
+      "dcaTitle": "Keskihintamenetelmä",
+      "dcaAbbrev": "YCA, Yuan Cost Averaging",
+      "food": "nuudelikulho"
+    },
+    "FR": {
+      "name": "Ranska",
+      "cName": "euro",
+      "cPlural": "euroja",
+      "exDesc": "koti joillekin maailman ikonisimmista luksus- ja teollisuusbrändeistä",
+      "sectorList": "👜 Luksus: LVMH, Hermès, Kering. Ranska hallitsee globaalia luksusta\n⚡ Energia: TotalEnergies, Engie. Suuria eurooppalaisia energiayhtiöitä\n🏦 Pankkiala: BNP Paribas, Société Générale. Pärjäävät hyvin, kun korot nousevat\n✈️ Ilmailu: Airbus, Safran. Maailman johtavia lentokoneita ja puolustusta\n📡 Tietoliikenne: Orange, Bouygues. Ranskan yhteyksien selkäranka",
+      "etfBasket": "CAC 40 -listan 40 yhtiötä",
+      "etfDesc": "Esimerkiksi CAC 40 on lista 40 yhtiöstä, jotka riippumaton komitea valitsee Pariisin pörssin 100 suurimman joukosta koon JA kaupankäynnin vilkkauden perusteella.",
+      "etfList": "🇫🇷 Amundi CAC 40: CAC 40 -listan 40 yhtiötä. Vertailukohta.\n🌍 MSCI World -ETF: Yhtiöitä 23 kehittyneestä maasta.\n🇺🇸 BNP Paribas Easy S&P 500: S&P 500 -listan 500 suurta yhdysvaltalaista yhtiötä.\n🇪🇺 EURO STOXX 50 -ETF: 50 blue chip -johtajaa eri puolilta euroaluetta.",
+      "currencyHedge": "Jos euro heikkenee muita valuuttoja vastaan, kansainväliset sijoituksesi ovat automaattisesti ARVOKKAAMPIA euroissa mitattuna!",
+      "fxQuizSetup": "Euro heikkenee merkittävästi dollaria ja jeniä vastaan",
+      "fxQuizLose": "Se menettää arvoaan, koska Euroopan talous takkuaa",
+      "fxQuizGain": "Se NOUSEE euroissa mitattuna, koska ulkomaiset omistuksesi saivat valuutta-arvoa",
+      "dcaTitle": "Keskihintamenetelmä",
+      "dcaAbbrev": "DCA, Cost Averaging",
+      "food": "croque monsieur -leipä"
+    },
+    "IT": {
+      "name": "Italia",
+      "cName": "euro",
+      "cPlural": "euroja",
+      "exDesc": "yksi Euroopan vanhimmista pörsseistä ja ikonisten italialaisbrändien koti",
+      "sectorList": "🏎️ Autoteollisuus: Ferrari, Stellantis. Italialaisen insinööritaidon huippua\n⚡ Energia: Enel, Eni. Suuria eurooppalaisia energia- ja sähköyhtiöitä\n🏦 Pankkiala: UniCredit, Intesa Sanpaolo. Pärjäävät hyvin, kun korot nousevat\n🛡️ Vakuutukset: Generali, Unipol. Italian vakuutusjätit\n📡 Tietoliikenne: TIM, Inwit. Italian yhteysinfrastruktuuri",
+      "etfBasket": "FTSE MIB -listan 40 yhtiötä",
+      "etfDesc": "Esimerkiksi FTSE MIB on lista 40 Milanon pörssin suurimmasta ja vaihdetuimmasta yhtiöstä, jotka on valittu kattamaan Italian päätoimialat.",
+      "etfList": "🇮🇹 FTSE MIB -ETF: FTSE MIB -listan 40 yhtiötä.\n🌍 iShares Core MSCI World: Yhtiöitä 23 kehittyneestä maasta.\n🇺🇸 Amundi S&P 500: S&P 500 -listan 500 suurta yhdysvaltalaista yhtiötä.\n🇪🇺 Xtrackers EURO STOXX 50: 50 blue chip -johtajaa eri puolilta euroaluetta.",
+      "currencyHedge": "Jos euro heikkenee muita valuuttoja vastaan, kansainväliset sijoituksesi ovat automaattisesti ARVOKKAAMPIA euroissa mitattuna!",
+      "fxQuizSetup": "Euro heikkenee merkittävästi dollaria ja jeniä vastaan",
+      "fxQuizLose": "Se menettää arvoaan, koska Euroopan talous takkuaa",
+      "fxQuizGain": "Se NOUSEE euroissa mitattuna, koska ulkomaiset omistuksesi saivat valuutta-arvoa",
+      "dcaTitle": "Keskihintamenetelmä",
+      "dcaAbbrev": "DCA, Cost Averaging",
+      "food": "margherita-pizza"
+    },
+    "ES": {
+      "name": "Espanja",
+      "cName": "euro",
+      "cPlural": "euroja",
+      "exDesc": "Espanjan pääpörssi ja portti Latinalaisen Amerikan markkinoille",
+      "sectorList": "👗 Muoti ja kauneus: Inditex (Zara), Puig. Espanjan globaali tyyli-imperiumi\n🏦 Pankkiala: Santander, BBVA, CaixaBank. Espanjan pankeilla on valtava globaali ulottuvuus\n⚡ Energia: Iberdrola, Endesa. Uusiutuvan energian johtajia Euroopassa\n📡 Tietoliikenne: Telefónica, Cellnex. Espanjan yhteyksien selkäranka\n🏗️ Infrastruktuuri: Ferrovial, ACS. Rakentavat infrastruktuuria ympäri maailmaa",
+      "etfBasket": "Espanjan 35 vaihdetuinta yhtiötä",
+      "etfDesc": "Esimerkiksi IBEX 35 on lista 35 vaihdetuimmasta espanjalaisesta osakkeesta, jotka tekninen komitea valitsee kaupankäyntivolyymin perusteella. Se on siis vaihdetuimpien lista, ei suurimpien lista.",
+      "etfList": "🇪🇸 IBEX 35 -ETF: 35 vaihdetuinta espanjalaista osaketta.\n🌍 iShares Core MSCI World: Yhtiöitä 23 kehittyneestä maasta.\n🇺🇸 Vanguard S&P 500: S&P 500 -listan 500 suurta yhdysvaltalaista yhtiötä.\n🇪🇺 EURO STOXX 50 -ETF: 50 blue chip -johtajaa eri puolilta euroaluetta.",
+      "currencyHedge": "Jos euro heikkenee muita valuuttoja vastaan, kansainväliset sijoituksesi ovat automaattisesti ARVOKKAAMPIA euroissa mitattuna!",
+      "fxQuizSetup": "Euro heikkenee merkittävästi dollaria ja jeniä vastaan",
+      "fxQuizLose": "Se menettää arvoaan, koska Euroopan talous takkuaa",
+      "fxQuizGain": "Se NOUSEE euroissa mitattuna, koska ulkomaiset omistuksesi saivat valuutta-arvoa",
+      "dcaTitle": "Keskihintamenetelmä",
+      "dcaAbbrev": "DCA, Cost Averaging",
+      "food": "tapaslautanen"
+    },
+    "NL": {
+      "name": "Alankomaat",
+      "cName": "euro",
+      "cPlural": "euroja",
+      "exDesc": "maailman vanhin pörssi, perustettu vuonna 1602",
+      "sectorList": "💻 Teknologia: ASML, Adyen. ASML mahdollistaa maailman edistyneimmät sirut\n⚡ Energia: Shell, SBM Offshore. Alankomaissa pääkonttoriaan pitäviä globaaleja energiajättejä\n🏦 Pankkiala: ING, ABN AMRO. Pärjäävät hyvin, kun korot nousevat\n🍺 Kulutustuotteet: Heineken, Ahold Delhaize. Globaaleja ruoka- ja juomabrändejä\n📡 Tietoliikenne: KPN, maan suurin pörssilistattu yhteyksien tarjoaja",
+      "etfBasket": "Amsterdamin 25 aktiivisimmin vaihdettua yhtiötä",
+      "etfDesc": "Esimerkiksi AEX on lista Amsterdamin pörssin 25 aktiivisimmin vaihdetusta osakkeesta. Se järjestää yhtiöt sen mukaan, kuinka paljon niillä käydään kauppaa, ei sen mukaan, kuinka isoja ne ovat.",
+      "etfList": "🇳🇱 iShares AEX: Amsterdamin 25 aktiivisimmin vaihdettua osaketta.\n🌍 Vanguard FTSE All-World: Yhtiöitä kymmenistä maista yhdellä ostolla.\n🇺🇸 iShares Core S&P 500: S&P 500 -listan 500 suurta yhdysvaltalaista yhtiötä.\n🇪🇺 EURO STOXX 50 -ETF: 50 blue chip -johtajaa eri puolilta euroaluetta.",
+      "currencyHedge": "Jos euro heikkenee muita valuuttoja vastaan, kansainväliset sijoituksesi ovat automaattisesti ARVOKKAAMPIA euroissa mitattuna!",
+      "fxQuizSetup": "Euro heikkenee merkittävästi dollaria ja jeniä vastaan",
+      "fxQuizLose": "Se menettää arvoaan, koska Euroopan talous takkuaa",
+      "fxQuizGain": "Se NOUSEE euroissa mitattuna, koska ulkomaiset omistuksesi saivat valuutta-arvoa",
+      "dcaTitle": "Keskihintamenetelmä",
+      "dcaAbbrev": "DCA, Cost Averaging",
+      "food": "kroketti"
+    },
+    "BR": {
+      "name": "Brasilia",
+      "cName": "real",
+      "cPlural": "realeja",
+      "exDesc": "Latinalaisen Amerikan suurin pörssi",
+      "sectorList": "⛏️ Kaivosala: Vale, CSN. Brasilian rautamalmi- ja terästehtaiden jättejä\n⚡ Energia: Petrobras, Eletrobras. Suuria öljy- ja sähköyhtiöitä\n🏦 Pankkiala: Itaú, Bradesco, Banco do Brasil. Pärjäävät hyvin, kun korot nousevat\n🍺 Kulutustuotteet: Ambev, JBS. Ruoan ja juomien voimataloja\n📡 Tietoliikenne: Vivo, TIM Brasil. Brasilian mobiili- ja laajakaistaoperaattorit",
+      "etfBasket": "B3-pörssin vaihdetuimmat yhtiöt",
+      "etfDesc": "Esimerkiksi Ibovespa on lista B3-pörssin vaihdetuimmista yhtiöistä. Yhtiö ansaitsee paikkansa sillä, kuinka paljon sitä ostetaan ja myydään, ei sillä, kuinka iso se on. Siksi listan yhtiöiden määrä muuttuu ajan myötä.",
+      "etfList": "🇧🇷 BOVA11: Seuraa Ibovespaa, B3:n vaihdetuimpia yhtiöitä. Vertailukohta.\n🇺🇸 IVVB11: Seuraa S&P 500:aa. Eli 500 suurta yhdysvaltalaista yhtiötä, hinnoiteltuna realeissa.\n🌍 Globaali osake-ETF: Kehittyneet ja kehittyvät markkinat yhdellä ostolla.\n💡 HASH11: Kryptoindeksirahasto, joka omistaa Bitcoinia, Ethereumia ja muita.",
+      "currencyHedge": "Jos real heikkenee dollaria vastaan, kansainväliset sijoituksesi ovat automaattisesti ARVOKKAAMPIA R$:ssa mitattuna!",
+      "fxQuizSetup": "Brasilian real heikkenee dollaria vastaan tasolta R$5 tasolle R$6",
+      "fxQuizLose": "Se menettää arvoaan, koska Brasilian talous takkuaa",
+      "fxQuizGain": "Se NOUSEE realeissa mitattuna, koska jokaisella dollarilla saa enemmän realeja",
+      "dcaTitle": "Keskihintamenetelmä",
+      "dcaAbbrev": "RCA, Real Cost Averaging",
+      "food": "pão de queijo -ateria"
+    },
+    "SA_ARABIA": {
+      "name": "Saudi-Arabia",
+      "cName": "rial",
+      "cPlural": "rialeja",
+      "exDesc": "Lähi-idän suurin pörssi",
+      "sectorList": "🛢️ Energia: Saudi Aramco, SABIC. Aramco on maailman arvokkain öljy-yhtiö\n🏦 Pankkiala: Al Rajhi, SNB, Riyad Bank. Pärjäävät hyvin, kun korot nousevat\n📡 Tietoliikenne: STC, Mobily. Saudi-Arabian mobiili- ja laajakaistaoperaattorit\n🛍️ Vähittäiskauppa: Jarir, Extra. Suosittuja kulutustavaraketjuja\n⛏️ Materiaalit: Ma'aden, Yansab. Kaivostoimintaa ja petrokemiaa",
+      "etfBasket": "jokainen Tadawulin päämarkkinalla listattu yhtiö",
+      "etfDesc": "TASI (Tadawul All Share Index) ei ole lainkaan top 30- tai top 100 -lista. Se kattaa jokaisen Tadawulin päämarkkinalla listatun yhtiön, joten sen yhtiöiden määrä muuttuu aina, kun yhtiö listautuu tai poistuu.",
+      "etfList": "🇸🇦 TASI-indeksiä seuraava ETF: Laaja altistus koko Tadawulin päämarkkinalle.\n📦 Saudi-Arabian blue chip -ETF: Paljon pienempi kori Saudi-Arabian suurimpia nimiä.\n🌍 MSCI Saudi Arabia -ETF: Seuraa MSCI:n Saudi-Arabia-indeksiä, markkinan seulottua osajoukkoa.\n🇺🇸 S&P 500 -rahasto: S&P 500 -listan 500 suurta yhdysvaltalaista yhtiötä.",
+      "currencyHedge": "Koska rial on sidottu Yhdysvaltain dollariin, globaali sijoittaminen muihin valuuttoihin hyödyttää sinua, kun ne valuutat vahvistuvat!",
+      "fxQuizSetup": "Maailman valuutat, kuten euro ja jeni, vahvistuvat rialia vastaan",
+      "fxQuizLose": "Se menettää arvoaan, koska Saudi-Arabian talous takkuaa",
+      "fxQuizGain": "Se NOUSEE rialeissa mitattuna, koska ulkomaiset omistuksesi saivat valuutta-arvoa",
+      "dcaTitle": "Keskihintamenetelmä",
+      "dcaAbbrev": "RCA, Riyal Cost Averaging",
+      "food": "Al Baik -ateria"
+    },
+    "KR": {
+      "name": "Etelä-Korea",
+      "cName": "won",
+      "cPlural": "woneja",
+      "exDesc": "Samsungin, Hyundain ja joidenkin Aasian innovatiivisimpien yhtiöiden koti",
+      "sectorList": "💻 Teknologia: Samsung, SK Hynix, Kakao. Johtavaa globaalia teknologiaa ja siruja\n🚗 Autoteollisuus: Hyundai, Kia. Korean maailmankuulut autonvalmistajat\n🏦 Pankkiala: KB Financial, Shinhan. Pärjäävät hyvin, kun korot nousevat\n🎶 Viihde: HYBE, CJ ENM. K-popin ja K-draaman globaali kulttuuriaalto\n📡 Tietoliikenne: KT, LG Uplus. Etelä-Korean huippunopeat yhteydet",
+      "etfBasket": "200 Korean suurimmista ja vaihdetuimmista yhtiöistä",
+      "etfDesc": "Esimerkiksi KOSPI 200 on lista 200 Korean suurimmasta ja vaihdetuimmasta yhtiöstä, jotka on valittu toimiala kerrallaan niin, että jokainen markkinan osa on edustettuna.",
+      "etfList": "🇰🇷 KODEX 200: Seuraa KOSPI 200:aa, listaa 200 Korean suurimmasta ja vaihdetuimmasta yhtiöstä.\n🌍 Globaali osake-ETF: Kehittyneiden markkinoiden yhtiöitä yhdellä ostolla.\n🇺🇸 TIGER Nasdaq 100: Nasdaqin 100 suurinta muuta kuin rahoitusalan yhtiötä.\n💡 KODEX Samsung Group: Seuraa listattuja Samsung-konsernin yhtiöitä.",
+      "currencyHedge": "Jos won heikkenee muita valuuttoja vastaan, kansainväliset sijoituksesi ovat automaattisesti ARVOKKAAMPIA woneissa mitattuna!",
+      "fxQuizSetup": "Won heikkenee dollaria vastaan tasolta ₩1,300 tasolle ₩1,400",
+      "fxQuizLose": "Se menettää arvoaan, koska Etelä-Korean talous takkuaa",
+      "fxQuizGain": "Se NOUSEE woneissa mitattuna, koska jokaisella dollarilla saa enemmän woneja",
+      "dcaTitle": "Keskihintamenetelmä",
+      "dcaAbbrev": "WCA, Won Cost Averaging",
+      "food": "bibimbap-kulho"
+    },
+    "TW": {
+      "name": "Taiwan",
+      "cName": "Taiwanin dollari",
+      "cPlural": "Taiwanin dollareita",
+      "exDesc": "TSMC:n koti, yhtiön, joka valmistaa suurimman osan maailman edistyneimmistä siruista",
+      "sectorList": "💻 Teknologia: TSMC, MediaTek, ASUS. Taiwan valmistaa maailman sirut\n🏭 Valmistus: Hon Hai (Foxconn), Delta. Elektroniikan valmistuksen jättejä\n🏦 Pankkiala: Cathay Financial, Fubon. Pärjäävät hyvin, kun korot nousevat\n🧪 Kemikaalit: Formosa Plastics, Nan Ya. Teollisuusmateriaalien johtajia\n📡 Tietoliikenne: Chunghwa Telecom, Far EasTone. Taiwanin yhteyksien selkäranka",
+      "etfBasket": "Taiwanin pörssin 50 suurinta yhtiötä",
+      "etfDesc": "Taiwanilla on kaksi hyvin erilaista listaa. TAIEX kattaa jokaisen Taiwanin pörssissä listatun yhtiön, noin tuhat kappaletta. Taiwan 50, jota suosittu 0050-ETF seuraa, on vain 50 suurinta.",
+      "etfList": "🇹🇼 0050 (Yuanta Taiwan Top 50): Taiwanin pörssin 50 suurinta yhtiötä. Klassikko.\n📦 0056 (Yuanta High Dividend): Taiwanilaisia osakkeita, jotka on valittu odotetun osinkotuoton perusteella.\n🇺🇸 00646 (Yuanta S&P 500): S&P 500 -listan 500 suurta yhdysvaltalaista yhtiötä.\n💡 00662 (Fubon Nasdaq 100): Nasdaqin 100 suurinta muuta kuin rahoitusalan yhtiötä.",
+      "currencyHedge": "Jos Taiwanin dollari heikkenee muita valuuttoja vastaan, kansainväliset sijoituksesi ovat automaattisesti ARVOKKAAMPIA NT$:ssa mitattuna!",
+      "fxQuizSetup": "Taiwanin dollari heikkenee Yhdysvaltain dollaria vastaan tasolta NT$30 tasolle NT$34",
+      "fxQuizLose": "Se menettää arvoaan, koska Taiwanin talous takkuaa",
+      "fxQuizGain": "Se NOUSEE NT$:ssa mitattuna, koska ulkomaiset omistuksesi saivat valuutta-arvoa",
+      "dcaTitle": "Keskihintamenetelmä",
+      "dcaAbbrev": "DCA, Dollar Cost Averaging",
+      "food": "naudanliha-nuudelikeitto"
+    },
+    "SG": {
+      "name": "Singapore",
+      "cName": "Singaporen dollari",
+      "cPlural": "Singaporen dollareita",
+      "exDesc": "Kaakkois-Aasian johtava rahoituskeskus ja pörssi",
+      "sectorList": "🏦 Pankkiala: DBS, OCBC, UOB. Singaporen kallionluja pankkikolmikko\n✈️ Liikenne: Singapore Airlines, SATS. Maailmanluokan ilmailua\n🏗️ Kiinteistöt: CapitaLand, City Developments. Kiinteistöt ovat Singaporessa iso juttu\n💻 Teknologia: Venture Corporation, AEM. SGX:n teknologiayhtiöt ovat enimmäkseen elektroniikan valmistusta; Sea ja Grab päättivät listautua sen sijaan Yhdysvalloissa\n📡 Tietoliikenne: Singtel, StarHub. Singaporen yhteyksien tarjoajat",
+      "etfBasket": "Singaporen pörssin 30 suurinta yhtiötä",
+      "etfDesc": "Esimerkiksi Straits Times Index on lista Singaporen pörssin 30 suurimmasta yhtiöstä, jotka läpäisevät myös sen vapaasti vaihdettavien osakkeiden ja kaupankäynnin testit.",
+      "etfList": "🇸🇬 Nikko AM STI ETF: Singaporen pörssin 30 suurinta yhtiötä. Vertailukohta.\n📦 ABF Singapore Bond Index Fund: Singaporen valtion joukkovelkakirjoja yhdessä rahastossa.\n🌏 iShares MSCI Asia ex Japan: Laaja pääsy Aasian markkinoille.\n🇺🇸 S&P 500 -ETF: S&P 500 -listan 500 suurta yhdysvaltalaista yhtiötä.",
+      "currencyHedge": "Jos Singaporen dollari heikkenee muita valuuttoja vastaan, kansainväliset sijoituksesi ovat automaattisesti ARVOKKAAMPIA S$:ssa mitattuna!",
+      "fxQuizSetup": "Singaporen dollari heikkenee merkittävästi Yhdysvaltain dollaria vastaan",
+      "fxQuizLose": "Se menettää arvoaan, koska Singaporen talous takkuaa",
+      "fxQuizGain": "Se NOUSEE S$:ssa mitattuna, koska ulkomaiset omistuksesi saivat valuutta-arvoa",
+      "dcaTitle": "Keskihintamenetelmä",
+      "dcaAbbrev": "DCA, Dollar Cost Averaging",
+      "food": "hawker-ruokakojun ateria"
+    },
+    "CH": {
+      "name": "Sveitsi",
+      "cName": "frangi",
+      "cPlural": "frangeja",
+      "exDesc": "Nestlén, Novartiksen ja Rochen, kolmen Euroopan arvokkaimman yhtiön, koti",
+      "sectorList": "💊 Lääkeala: Novartis, Roche. Globaaleja lääkealan voimataloja\n🍫 Kulutustuotteet: Nestlé, Lindt. Maailman ikonisimpia ruokabrändejä\n🏦 Pankkiala: UBS, Julius Baer. Sveitsiläinen pankkitoiminta on legendaarista\n🏭 Teollisuus: ABB, Holcim. Globaalia insinööritoimintaa ja rakentamista\n📡 Tietoliikenne: Swisscom, Sunrise. Sveitsiläisiä yhteyksien tarjoajia",
+      "etfBasket": "20 suurinta ja vaihdetuinta sveitsiläistä yhtiötä",
+      "etfDesc": "Esimerkiksi Swiss Market Index on lista 20 suurimmasta ja vaihdetuimmasta sveitsiläisestä yhtiöstä.",
+      "etfList": "🇨🇭 iShares Core SPI: Koko Sveitsin markkina, ei pelkät isot nimet.\n💡 SMI-ETF: 20 suurinta ja vaihdetuinta sveitsiläistä yhtiötä.\n🌍 UBS ETF MSCI World: Yhtiöitä 23 kehittyneestä maasta.\n🇺🇸 iShares Core S&P 500: S&P 500 -listan 500 suurta yhdysvaltalaista yhtiötä.",
+      "currencyHedge": "Jos frangi heikkenee muita valuuttoja vastaan, kansainväliset sijoituksesi ovat ARVOKKAAMPIA CHF:ssä mitattuna. Sveitsin frangi on yleensä hyvin vahva!",
+      "fxQuizSetup": "Sveitsin frangi heikkenee merkittävästi dollaria ja euroa vastaan",
+      "fxQuizLose": "Se menettää arvoaan, koska Sveitsin talous takkuaa",
+      "fxQuizGain": "Se NOUSEE frangeissa mitattuna, koska ulkomaiset omistuksesi saivat valuutta-arvoa",
+      "dcaTitle": "Keskihintamenetelmä",
+      "dcaAbbrev": "FCA, Franc Cost Averaging",
+      "food": "kebab-annos"
+    },
+    "SE": {
+      "name": "Ruotsi",
+      "cName": "kruunu",
+      "cPlural": "kruunuja",
+      "exDesc": "Ericssonin, Volvon ja yllättävän monen globaalin brändin koti",
+      "sectorList": "💻 Teknologia: Ericsson, Hexagon. Ruotsi on teknologiassa kokoaan isompi\n🚗 Autoteollisuus: Volvo, Volvo Cars. Ruotsalaisen insinööritaidon huippua\n🏦 Pankkiala: SEB, Handelsbanken, Nordea. Pärjäävät hyvin, kun korot nousevat\n👗 Vähittäiskauppa: H&M, Essity. Globaaleja muoti- ja kulutusbrändejä\n📡 Tietoliikenne: Telia, Tele2. Pohjoismaiden yhteysjohtajia",
+      "etfBasket": "Tukholman 30 vaihdetuinta yhtiötä",
+      "etfDesc": "Esimerkiksi OMXS30 on lista Tukholman pörssin 30 vaihdetuimmasta osakkeesta. Se järjestää kaupankäynnin aktiivisuuden mukaan, ei yhtiön koon mukaan.",
+      "etfList": "🇸🇪 Xact OMXS30: Tukholman 30 vaihdetuinta osaketta.\n💰 Avanza Zero: Ruotsalainen indeksirahasto ilman vuotuista hallinnointipalkkiota. Se seuraa samoja 30 Tukholman osaketta.\n🌍 Globaali indeksirahasto: Yhtiöitä kymmenistä maista yhdellä ostolla.\n🇺🇸 S&P 500 -rahasto: S&P 500 -listan 500 suurta yhdysvaltalaista yhtiötä.",
+      "currencyHedge": "Jos kruunu heikkenee muita valuuttoja vastaan, kansainväliset sijoituksesi ovat automaattisesti ARVOKKAAMPIA kruunuissa mitattuna!",
+      "fxQuizSetup": "Ruotsin kruunu heikkenee merkittävästi dollaria ja euroa vastaan",
+      "fxQuizLose": "Se menettää arvoaan, koska Ruotsin talous takkuaa",
+      "fxQuizGain": "Se NOUSEE kruunuissa mitattuna, koska ulkomaiset omistuksesi saivat valuutta-arvoa",
+      "dcaTitle": "Keskihintamenetelmä",
+      "dcaAbbrev": "KCA, Krona Cost Averaging",
+      "food": "falafel-rulla"
+    }
+  }
+}

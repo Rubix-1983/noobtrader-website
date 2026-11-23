@@ -1,0 +1,1846 @@
+{
+  "_meta": {
+    "lang": "ro",
+    "source": "src/constants/lessonData.js",
+    "lessons": 84,
+    "hash": {
+      "1": "d38ab2ed",
+      "2": "bf930bc6",
+      "3": "6e4e4d63",
+      "4": "5b7802cc",
+      "5": "0f9cde1d",
+      "6": "e5999569",
+      "7": "66bc9202",
+      "8": "65677cac",
+      "9": "59a1fc31",
+      "10": "03ccde2e",
+      "11": "fbb06743",
+      "12": "7713dc86",
+      "13": "38054a44",
+      "14": "cbac8395",
+      "15": "4355d5d7",
+      "16": "bee25cb0",
+      "17": "a5cba909",
+      "18": "df93ed01",
+      "19": "ad2f3ae8",
+      "20": "6363dc90",
+      "21": "65a3ab78",
+      "22": "61f1ee9c",
+      "23": "a475dd40",
+      "24": "6874af82",
+      "25": "d92ac77b",
+      "26": "e8f1b315",
+      "27": "c3b42e04",
+      "28": "c3719a16",
+      "29": "b8690fa4",
+      "30": "272435ad",
+      "31": "ebbffa78",
+      "32": "31ae442d",
+      "33": "71dbb7c6",
+      "34": "62d271e6",
+      "35": "da185960",
+      "36": "66e0a88e",
+      "37": "4a91dc0c",
+      "38": "9ec4dee7",
+      "39": "ae809a71",
+      "40": "c3b12ff9",
+      "41": "aa4153d7",
+      "42": "29941a97",
+      "43": "d87240fc",
+      "44": "87c794ce",
+      "45": "a3dd8868",
+      "46": "7873826b",
+      "47": "47503da5",
+      "48": "6d2df7b4",
+      "49": "c1055330",
+      "50": "7d4a6a8a",
+      "51": "27e927d2",
+      "52": "041c444d",
+      "53": "8fb1d4bc",
+      "54": "33ec5d94",
+      "55": "b7571fb2",
+      "56": "f20ea6ce",
+      "57": "5a1f3993",
+      "58": "561a7caf",
+      "59": "67437975",
+      "60": "6db8d44d",
+      "61": "04bbebe6",
+      "62": "b43659be",
+      "63": "a6bfefd0",
+      "64": "a2cc88e0",
+      "65": "2f12b47a",
+      "66": "4a676ede",
+      "67": "17351f96",
+      "68": "e9dda763",
+      "69": "3b1a13c3",
+      "70": "b07744de",
+      "71": "798da84a",
+      "72": "960b5a23",
+      "73": "76df64cb",
+      "74": "90735bdf",
+      "75": "b5be8d19",
+      "76": "b2c7a6ad",
+      "77": "1f3344ae",
+      "78": "e03a370e",
+      "79": "3b881962",
+      "80": "64bddadd",
+      "81": "d30753ea",
+      "82": "71620bf3",
+      "83": "989bc8a6",
+      "84": "cdd0a41d"
+    }
+  },
+  "lessons": {
+    "1": {
+      "title": "Ce este o acțiune?",
+      "desc": "Deții o bucățică dintr-o companie",
+      "content": "Imaginează-ți că tu și 9 prieteni puneți fiecare câte {c}10 ca să cumpărați împreună o pereche de sneakerși de {c}100. Fiecare dintre voi deține 1/10 din sneakerși, iar asta e practic o acțiune! Când cumperi o acțiune la {retail}, deții o felie mică din fiecare magazin, fiecare produs și din fiecare {cName} de profit. Cu cât compania crește mai mult, cu atât felia ta valorează mai mult! 🔥",
+      "quiz": {
+        "q": "Tu și 4 prieteni împărțiți în mod egal costul unui scaun de gaming de {c}500. Ce deține fiecare dintre voi?",
+        "explanation": "Să deții o acțiune înseamnă să deții o fracțiune din întreg. Cinci plătitori egali înseamnă cinci felii egale, iar fiecare felie are aceleași drepturi ca celelalte.",
+        "options": [
+          "Fiecare deține 1/5 (20%) din scaun",
+          "Nimic, doar o singură persoană îl poate deține",
+          "Tot scaunul împreună, fără nicio parte individuală"
+        ]
+      }
+    },
+    "2": {
+      "title": "{ex} pe înțelesul tuturor",
+      "desc": "Bursa de valori din {name}",
+      "content": "Gândește-te la {ex} ({exFull}) ca la o piață online uriașă, doar că, în loc să cumpere sneakerși sau telefoane, oamenii cumpără și vând bucățele mici (acțiuni) din companii precum {top5}. E deschisă în fiecare zi lucrătoare, cu excepția sărbătorilor legale, iar prețurile se schimbă toată ziua în funcție de cine cumpără și cine vinde. {ex} este {exDesc}! 🌍",
+      "quiz": {
+        "q": "Cu ce seamănă cel mai mult {ex}?",
+        "explanation": "O bursă îi pune în legătură pe cei care vor să cumpere acțiuni cu cei care vor să le vândă. Nu deține acțiunile, nu alege prețul și nu îți plătește dobândă dacă îți lași banii acolo.",
+        "options": [
+          "Cu o piață, unde proprietarii de acțiuni se întâlnesc cu cumpărătorii",
+          "Cu un cont de economii, unde banii stau și aduc dobândă",
+          "Cu un magazin care deține acțiunile și ți le vinde"
+        ]
+      }
+    },
+    "3": {
+      "title": "Tauri vs urși",
+      "desc": "Direcțiile pieței, decodate",
+      "content": "Pe piețe, animalele conduc totul 😄\n\n🐂 Taur (bull) = prețurile CRESC. Imaginează-ți un taur care atacă în sus cu coarnele. Toată lumea câștigă, oamenii cumpără, atmosferă bună.\n\n🐻 Urs (bear) = prețurile SCAD. Imaginează-ți un urs care lovește în jos cu laba. Oamenii sunt speriați, vând, nu e un moment grozav.\n\nCând cineva spune „sunt bullish pe {tech}”, crede că prețul va crește. Când spune „bearish”, crede că prețul se îndreaptă în jos. O să auzi aceste cuvinte peste tot în finanțe!",
+      "quiz": {
+        "q": "Prietenul tău spune „Sunt bearish pe {telco} săptămâna asta.” Ce înseamnă asta?",
+        "explanation": "Bearish înseamnă că te aștepți ca prețul să scadă, bullish înseamnă că te aștepți să crească. Ursul lovește în jos, taurul aruncă în sus.",
+        "options": [
+          "Crede că prețul {telco} va crește",
+          "Crede că prețul {telco} va scădea",
+          "Vrea să cumpere cât mai multe acțiuni {telco}"
+        ]
+      }
+    },
+    "4": {
+      "title": "Ce este un broker?",
+      "desc": "Poarta ta spre cumpărarea de acțiuni",
+      "content": "Nu poți pur și simplu să mergi la {retail} și să spui „dați-mi și mie o bucată din compania voastră, vă rog” 😂 Ai nevoie de un broker: o aplicație sau un serviciu care pune în legătură cumpărătorii și vânzătorii de pe bursă.\n\nGândește-te la un broker ca la {shop}. Vrei ceva, {shop} te conectează la acel lucru. Se ocupă de tranzacție și percepe un mic comision. Printre brokerii populari din {name} se numără {broker} și alții.\n\nUite ce NU face un broker: nu decide ce acțiuni cresc. Îți transmite ordinul către piață. Prețul se mișcă din cauza a ceea ce cumpără și vând toți ceilalți, nu pentru că a spus brokerul tău.\n\nTotuși, brokerii publică opinii. Analiștii lor evaluează acțiunile cu „cumpără”, „păstrează” sau „vinde”. O opinie nu e un ordin 🤷 Analiștii nu sunt de acord unii cu alții chiar despre aceeași acțiune, iar mulți dintre ei se dovedesc a greși. Citește o evaluare ca pe o recenzie, nu ca pe o regulă.\n\nNoobTrader te învață exact cum funcționează asta, gratis, cu bani virtuali!",
+      "quiz": {
+        "q": "De ce ai nevoie de un broker ca să cumperi acțiuni?",
+        "explanation": "Un broker este drumul tău spre bursă, nu un ghicitor și nu cel care stabilește prețul. Îți transmite ordinul mai departe, iar prețul este cel la care restul pieței e dispus să tranzacționeze. Analiștii lor publică evaluări, dar o evaluare este o opinie, nu o instrucțiune.",
+        "options": [
+          "Aleg acțiunile care urmează să crească",
+          "Stabilesc prețul pe care îl plătești pentru fiecare acțiune",
+          "Îți transmit ordinul către bursă"
+        ]
+      }
+    },
+    "5": {
+      "title": "Bazele prețului unei acțiuni",
+      "desc": "De ce cresc și scad prețurile?",
+      "content": "Ai observat cum sneakerșii în ediție limitată se scumpesc brusc când se lansează? Același lucru se întâmplă cu acțiunile. Totul ține de cerere și ofertă.\n\n📈 Mulți oameni VOR să cumpere → prețul CREȘTE\n📉 Mulți oameni VOR să vândă → prețul SCADE\n\nDacă {telco} anunță că primește 10 milioane de clienți noi, toată lumea vrea o bucată, așa că prețul explodează. Dacă raportează o pierdere mare, oamenii vând în panică și prețul scade. Știrile, rezultatele și chiar trendurile de pe rețelele sociale pot mișca instant prețurile acțiunilor!",
+      "quiz": {
+        "q": "{retail} anunță profituri record și plănuiește să deschidă 50 de magazine noi. Ce se întâmplă probabil cu prețul acțiunilor sale?",
+        "explanation": "Profiturile așteptate mai mari înseamnă de obicei mai mulți cumpărători, iar mai mulți cumpărători împing prețul în sus. Să cheltuiești bani ca să crești nu e același lucru cu a-i irosi.",
+        "options": [
+          "Crește, pentru că mai mulți oameni vor să cumpere",
+          "Rămâne exact la fel",
+          "Se prăbușește pentru că cheltuiesc bani pe magazine"
+        ]
+      }
+    },
+    "6": {
+      "title": "Cum citești un grafic de preț",
+      "desc": "Lumânări, linii și ce înseamnă",
+      "content": "Un grafic de preț e ca un rezumat cu momentele importante din istoria unei acțiuni. Cel mai popular tip este graficul cu lumânări (candlestick). Fiecare „lumânare” îți arată 4 lucruri pentru o zi:\n\n🟢 Lumânare verde = prețul a CRESCUT în ziua aceea (a deschis mai jos, a închis mai sus)\n🔴 Lumânare roșie = prețul a SCĂZUT (a deschis mai sus, a închis mai jos)\n📏 Liniile subțiri de deasupra/dedesubt = cel mai mare și cel mai mic preț din zi\n\nDacă vezi multe lumânări verzi la rând, e un trend puternic de creștere. Multe roșii înseamnă un trend de scădere. Să înveți să citești grafice e ca și cum ai învăța să citești tabela de scor a unui meci! 🎮",
+      "quiz": {
+        "q": "Vezi 5 lumânări roșii la rând pe un grafic. Ce îți spune asta?",
+        "explanation": "O lumânare roșie se închide sub nivelul la care s-a deschis, deci cinci la rând înseamnă cinci ședințe de scădere. Culoarea îți spune direcția, nu mărimea mișcării.",
+        "options": [
+          "Acțiunea a crescut timp de 5 zile",
+          "Acțiunea a scăzut timp de 5 zile",
+          "Prețul acțiunii nu s-a schimbat"
+        ]
+      }
+    },
+    "7": {
+      "title": "Volumul și ce îți spune",
+      "desc": "Câte acțiuni se tranzacționează",
+      "content": "Volum = câte acțiuni au fost cumpărate și vândute într-o zi. Gândește-te la el ca la vizualizările unui videoclip pe TikTok.\n\n🔊 Volum MARE = mulți oameni tranzacționează. Dacă prețul se mișcă cu volum mare, e un semnal mai puternic și mai de încredere, ca un videoclip care devine viral pe bune, nu din boți.\n\n🔇 Volum MIC = doar câțiva oameni tranzacționează. Prețurile se pot mișca ciudat la volum mic, ca un videoclip cu doar 3 vizualizări distribuit din greșeală.\n\nVerifică mereu volumul când vezi o mișcare mare de preț. Îți spune dacă mișcarea e reală sau doar zgomot!",
+      "quiz": {
+        "q": "Acțiunea {telco} sare cu 5% azi, dar volumul este foarte mic. Ce ar trebui să crezi?",
+        "explanation": "Volumul arată câtă convingere stă în spatele unei mișcări. Un salt mare cu foarte puține tranzacții poate fi anulat la fel de ușor cum a apărut, așa că verifică volumul înainte să crezi într-o spargere de nivel.",
+        "options": [
+          "E clar o oportunitate uriașă, cumpără acum!",
+          "Volumul mic înseamnă mereu că prețul va continua să crească",
+          "Mișcarea s-ar putea să nu fie de încredere, volumul mic o face suspectă"
+        ]
+      }
+    },
+    "8": {
+      "title": "Suport și rezistență",
+      "desc": "Niveluri de preț care contează",
+      "content": "Imaginează-ți că prețul unei acțiuni e o minge săltăreață:\n\n🧱 SUPORT = podeaua de care sare mingea. Prețul tot scade, dar de fiecare dată când atinge acest nivel, sare înapoi în sus. Aici apar mulți cumpărători.\n\n🪟 REZISTENȚĂ = tavanul pe care îl lovește mingea. De fiecare dată când prețul urcă la acest nivel, e împins înapoi în jos. Aici mulți vânzători își încasează câștigul.\n\nTraderii folosesc aceste niveluri ca pe o hartă de joc: cumpără lângă podea, vând lângă tavan. Când prețul trece în sfârșit de rezistență, de multe ori urcă rapid. Când sparge suportul, pregătește-te de o scădere! 💥\n\nUn avertisment sincer: aceste niveluri sunt trasate de oameni care se uită la grafice, nu sunt reguli pe care piața trebuie să le respecte. O acțiune poate trece direct prin „suport” și poate continua să scadă. 📉",
+      "quiz": {
+        "q": "O acțiune a ricoșat de trei ori din {c}50 fără să coboare sub acest nivel. Cum se numește {c}50?",
+        "explanation": "O podea care tot e respectată este suport; un tavan care tot respinge prețul este rezistență. Niciunul nu e o promisiune, dar merită să le cunoști pe amândouă înainte să cumperi.",
+        "options": [
+          "Un nivel de suport",
+          "Un nivel de rezistență",
+          "Prețul-tavan"
+        ]
+      }
+    },
+    "9": {
+      "title": "Diversificarea",
+      "desc": "Nu pune toate ouăle în același coș",
+      "content": "Imaginează-ți că îți cheltuiești TOT pachetul de date pe o singură aplicație de streaming. Apoi aplicația pică. Rămâi fără nimic. 😩\n\nDar dacă îți împarți datele între WhatsApp, YouTube ȘI aplicația de streaming, căderea uneia nu îți strică toată ziua.\n\nLa fel e și cu investițiile! Dacă îți pui TOȚI banii într-o singură acțiune și ea se prăbușește, pierzi tot. Dar dacă îi împarți între {telco} (telecom), {retail} (retail), {tech} (tehnologie) și un ETF, o prăbușire a uneia nu îți distruge tot portofoliul. Această strategie de împărțire se numește DIVERSIFICARE. 💼",
+      "quiz": {
+        "q": "Ai {c}500 de investit. Care dintre variante îți împarte cu adevărat riscul?",
+        "explanation": "Cinci magazine de haine cresc și scad toate din același motiv, așa că banii împărțiți între ele sunt aproape deloc împărțiți. Industriile diferite au probleme în momente diferite, iar asta împiedică un singur rezultat prost să ia totul cu el.",
+        "options": [
+          "Câte {c}100 în cinci magazine de haine diferite",
+          "Câte {c}100 în cinci industrii diferite",
+          "Toți cei {c}500 în compania care îți place cel mai mult"
+        ]
+      }
+    },
+    "10": {
+      "title": "Risc și recompensă",
+      "desc": "De ce câștiguri mai mari = risc mai mare",
+      "content": "Ai cumpărat vreodată o cutie-surpriză (mystery box)? Poți primi ceva incredibil sau gunoi curat. Asta înseamnă risc mare / recompensă mare.\n\nInvestițiile funcționează la fel:\n\n✅ RISC MAI MIC, RECOMPENSĂ MAI MICĂ: Ca {retail}. Companie uriașă, bine stabilită. Banii tăi tind să crească încet și constant. Atenție: „mai mic”, nu „zero”. Și companiile mari scad.\n\n🎲 RISC MARE, RECOMPENSĂ MARE: Ca o companie minieră mică, abia înființată. Poate crește de 10 ori sau poate dispărea. Ca o cutie-surpriză.\n\nÎnainte să investești în orice, întreabă-te mereu: „Care e cel mai rău lucru care se poate întâmpla?” Dacă nu îți permiți să pierzi banii, nu-ți asuma riscul!",
+      "quiz": {
+        "q": "O monedă de care n-a auzit nimeni promite randamente de 500%. Ce îți spune de fapt o promisiune atât de mare?",
+        "explanation": "Riscul și recompensa sunt cele două capete ale aceluiași băț. Nimeni nu împarte 500% pe degeaba, așa că mărimea promisiunii arată de fapt cât de ușor poate dispărea toată suma. Înainte să bagi bani în ceva, întreabă-te cum arată cel mai rău scenariu și dacă l-ai putea suporta.",
+        "options": [
+          "E un chilipir pe care restul pieței l-a ratat cumva",
+          "Cu cât promisiunea e mai mare, cu atât oamenii din spate sunt mai serioși",
+          "Șansa de a pierde tot e la fel de mare ca promisiunea"
+        ]
+      }
+    },
+    "11": {
+      "title": "Termen lung vs termen scurt",
+      "desc": "Mentalitatea de investitor vs trader",
+      "content": "🏃 TRADING PE TERMEN SCURT: Cumperi și vinzi în câteva zile sau săptămâni ca să prinzi mișcări rapide de preț. Mult stres, mult timp în fața ecranului. Ca și cum ai încerca să ghicești cine câștigă fiecare meci dintr-un turneu.\n\n🧘 INVESTIȚII PE TERMEN LUNG: Cumperi acțiuni și le păstrezi ani de zile. Treci peste scăderi și îți lași banii să crească. Ca și cum ai paria pe echipa care câștigă tot sezonul. Nu intri în panică după un meci prost.\n\nStudiile pe conturi reale de brokeraj găsesc mereu același tipar: cu cât oamenii tranzacționează mai des, cu atât le merge mai prost odată ce sunt luate în calcul costurile.\n\nIar timpul este singurul avantaj care nu poate fi cumpărat înapoi mai târziu. Fiecare an în care banii rămân investiți e încă un an în care dobânda compusă lucrează. ⏳",
+      "quiz": {
+        "q": "Doi oameni cumpără aceleași acțiuni cu aceeași sumă. Unul intră și iese în fiecare săptămână, celălalt le lasă în pace zece ani. Ce găsesc mereu studiile pe conturi reale?",
+        "explanation": "Fiecare tranzacție costă ceva, iar costul se plătește indiferent dacă tranzacția a mers sau nu. Studiu după studiu pe conturi reale de brokeraj găsește același tipar: cu cât oamenii tranzacționează mai des, cu atât termină mai în urmă. Să-ți lași banii în pace nu e lene, e planul mai ieftin.",
+        "options": [
+          "Cel activ ajunge de obicei în urmă după ce sunt luate în calcul costurile",
+          "Cel activ câștigă de obicei, pentru că efortul e răsplătit aici",
+          "Termină la egalitate, pentru că au deținut exact aceleași acțiuni"
+        ]
+      }
+    },
+    "12": {
+      "title": "{dcaTitle}",
+      "desc": "Investește regulat aceeași sumă",
+      "content": "Uite o strategie atât de simplă încât abia pare o strategie, și elimină cea mai grea întrebare din investiții:\n\nInvestește ACEEAȘI sumă în fiecare lună, fie că prețurile sunt sus sau jos. Ca și cum ai pune deoparte {c}100 din banii de ziua ta sau din alocație în fiecare lună.\n\n📉 Când prețurile sunt MICI → cei {c}100 ai tăi cumpără MAI MULTE acțiuni\n📈 Când prețurile sunt MARI → cei {c}100 ai tăi cumpără MAI PUȚINE acțiuni\n\nCu timpul, costul tău mediu pe acțiune se netezește și „cumperi la scădere” automat, fără să încerci! Asta se numește {dcaTitle} ({dcaAbbrev}). Scoate emoțiile din investiții, pentru că nu trebuie să decizi niciodată „ACUM e momentul potrivit?” Doar te angajezi și mergi mai departe! 💪\n\nSincer: asta nu va bate întotdeauna investirea unei sume mari dintr-odată. Ce face este să-ți ofere un plan de care chiar te poți ține.",
+      "quiz": {
+        "q": "Pui 200 NT când acțiunea costă 100 NT. Apoi acțiunea se prăbușește, iar următorii tăi 200 NT intră la 25 NT. Trage până la costul tău mediu pe acțiune pentru cele două plăți.",
+        "explanation": "Primii tăi 200 NT au cumpărat 2 acțiuni la 100 NT. Următorii 200 NT au cumpărat 8 acțiuni la 25 NT. Asta înseamnă 400 NT pentru 10 acțiuni, deci 40 NT fiecare. Observă că nu e nici pe departe la jumătatea drumului dintre cele două prețuri: aceiași bani cumpără automat mai mult când lucrurile sunt ieftine, iar asta îți trage media în jos."
+      }
+    },
+    "13": {
+      "title": "Bani-bebeluși 💸",
+      "desc": "Ești plătit doar pentru că deții acțiuni",
+      "content": "Imaginează-ți că deții un automat de gustări. În fiecare săptămână, oamenii cumpără gustări din automatul TĂU, iar tu strângi banii, doar pentru că îl deții. N-a trebuit să faci nimic în plus!\n\nAsta sunt dividendele. Noi le spunem Bani-bebeluși 🍼 pentru că banii tăi chiar fac pui: mici plăți în numerar care ajung în contul tău doar pentru că deții acțiuni.\n\nCompanii mari precum {divPayers} plătesc regulat Bani-bebeluși. Cu cât ai mai multe acțiuni, cu atât bebelușii tăi sunt mai mari!\n\n⚠️ NU sunt garantați. O companie decide de fiecare dată dacă plătește și poate reduce sau opri complet dividendul când afacerile merg greu. O plată mare anul acesta nu e o promisiune pentru anul viitor.\n\nIar dacă reinvestești bebelușii ca să cumperi MAI MULTE acțiuni... următoarea tură e și mai mare. E un ciclu frumos 🔁",
+      "quiz": {
+        "q": "{bank} îți plătește {c}5 pentru fiecare acțiune pe care o deții, fără să vinzi nimic. Cum se numește această plată?",
+        "explanation": "Un dividend este o parte din profitul companiei dată celor care o dețin. Aplicația asta le numește Bani-bebeluși. Îți păstrezi toate acțiunile pe care le aveai, iar banii ajung oricum în contul tău. Totuși nu sunt promiși, iar o companie îi poate reduce sau opri oricând afacerile merg greu.",
+        "options": [
+          "Un dividend, o felie din profit",
+          "Dobândă, cum plătește un cont de economii",
+          "Un bonus de fidelitate pentru că ești client"
+        ]
+      }
+    },
+    "14": {
+      "title": "Dobânda compusă",
+      "desc": "Cum cresc banii tăi singuri",
+      "content": "Uite cel mai puternic secret despre bani pe care îl vei afla vreodată. Gata? 👀\n\nInvestești {c}1,000 la 10% pe an:\n• Anul 1: {c}1,000 → {c}1,100 (ai câștigat {c}100)\n• Anul 2: {c}1,100 → {c}1,210 (ai câștigat {c}110, mai mult decât în anul 1!)\n• Anul 3: {c}1,210 → {c}1,331 (ai câștigat {c}121)\n\nAcum câștigi dobândă la DOBÂNDĂ. Bulgărele de zăpadă crește în fiecare an fără să adaugi nimic în plus. După 30 de ani la 10%? Cei {c}1,000 devin {c}17,449! 🤯\n\nO să vezi că i se spune „a opta minune a lumii” și că i se atribuie lui Einstein. Nu există nicio dovadă reală că a spus asta vreodată, dar matematica e partea care contează, iar matematica e reală. Începe devreme, iar timpul face greul pentru tine.",
+      "quiz": {
+        "q": "Pui 2,000 NT la 10% pe an și nu te atingi niciodată de ei. Trage până la cât valorează după trei ani.",
+        "explanation": "Anul unu adaugă 200 NT, ceea ce face 2,200. Anul doi ia 10% din 2,200, deci adaugă 220 și ajunge la 2,420. Anul trei adaugă 242 și ajunge la 2,662. În fiecare an, cei 10% se calculează dintr-o grămadă mai mare, de aceea dacă aduni 200 de trei ori și te oprești la 2,600 ieși mai puțin."
+      }
+    },
+    "15": {
+      "title": "Dobânda compusă și acțiunile",
+      "desc": "Reinvestești Banii-bebeluși ca să crești",
+      "content": "Îți amintești de Banii-bebeluși (dividendele)? Aici devine interesant 🤯\n\nNormal: Câștigi {c}50 din Bani-bebeluși → îi cheltuiești pe gustări → gata.\n\nMișcarea deșteaptă: Câștigi {c}50 din Bani-bebeluși → cumperi MAI MULTE acțiuni → data viitoare primești MAI MULȚI Bani-bebeluși → cumperi și mai multe acțiuni → bulgărele urcă 🔝\n\nAsta e dobânda compusă aplicată acțiunilor. Fă calculul: pui aceeași sumă în fiecare lună timp de 30 de ani, cu un randament mediu de 10%, și ajungi la aproximativ de ȘASE ORI cât ai plătit de fapt. Cam cinci șesimi din grămadă sunt creștere: bani pe care nu i-ai câștigat, economisit sau depus niciodată.\n\nPe perioade lungi, dividendele reinvestite au reprezentat o parte mare din randamentul total al investitorilor. Exact de aceea companiile „plictisitoare” care plătesc dividende se dovedesc a nu fi deloc plictisitoare 💰",
+      "quiz": {
+        "q": "Câștigi {c}80 din dividende și folosești fiecare bănuț ca să cumperi mai multe acțiuni în loc să-i cheltuiești. Ce se întâmplă la următoarea plată?",
+        "explanation": "Fiecare acțiune în plus pe care ai cumpărat-o își plătește propriul dividend data viitoare, așa că plata crește fără să adaugi bani noi. Asta e din nou dobânda compusă, de data asta pe baza venitului, nu a prețului.",
+        "options": [
+          "Plata rămâne la fel de mare, doar că vine mai târziu",
+          "Primești mai puțin data viitoare, pentru că ai dat banii înapoi",
+          "Deții mai multe acțiuni, deci următoarea plată e mai mare"
+        ]
+      }
+    },
+    "16": {
+      "title": "Regula lui 72",
+      "desc": "Un mod rapid de a estima timpul de dublare",
+      "content": "Uite un cheat code pentru creierul tău 🧠\n\nVrei să știi în cât timp îți DUBLEZI banii? Doar împarte 72 la randamentul tău anual:\n\n• 72 ÷ randament de 12% = 6 ani până la dublare\n• 72 ÷ randament de 8% = 9 ani până la dublare\n• 72 ÷ randament de 6% = 12 ani până la dublare\n\nDeci dacă câștigi constant 12% pe an la {c}2,000, în 6 ani ai {c}4,000. Mai aștepți 6 ani și ai {c}8,000. Încă 6 și ai {c}16,000! 🤯\n\nE o aproximare, nu o lege, iar randamentele reale nu sunt niciodată un număr constant în fiecare an. Dar e destul de aproape încât s-o faci în minte, și asta e tot ideea.\n\nDe aceea să începi la 13 sau 14 ani e ENORM. Ai în față mai multe cicluri de dublare decât aproape oricine altcineva!",
+      "quiz": {
+        "q": "O investiție aduce 9% pe an. Folosește Regula lui 72 și trage până la numărul de ani necesari ca să se dubleze.",
+        "explanation": "Împarte 72 la procentul anual. 72 împărțit la 9 face 8, deci banii se dublează cam în opt ani, apoi se dublează din nou după încă opt ani. E o estimare rapidă pe care o poți face în minte, nu o lege exactă, pentru că randamentele reale nu sunt niciodată același număr în fiecare an."
+      }
+    },
+    "17": {
+      "title": "Ordine la piață vs limită",
+      "desc": "Două moduri de a cumpăra acțiuni",
+      "content": "Există două moduri principale de a cumpăra o acțiune:\n\n⚡ ORDIN LA PIAȚĂ: „Cumpără chiar acum, la orice preț ar fi.” Ca atunci când adaugi în coș și finalizezi imediat comanda pe {shop}. O primești instant, dar prețul pe care îl plătești de fapt este cel pe care ți-l dă piața, care poate fi diferit de numărul pe care tocmai l-ai văzut pe ecran.\n\n🎯 ORDIN LIMITĂ: „Cumpără doar dacă prețul scade la {c}X.” Ca atunci când pui un produs în wishlist-ul de pe {shop} și aștepți o reducere. Tu controlezi prețul, dar tranzacția s-ar putea să nu aibă loc deloc.\n\nOrdinele limită îți dau control asupra prețului. Ordinele la piață îți dau siguranța că se execută. Nu le poți avea pe amândouă! 💸\n\nUn ordin limită funcționează la fel și când VINZI, doar în direcția opusă. Deții acțiunea, alegi prețul la care ai fi bucuros să vinzi, iar dacă urcă până acolo aplicația vinde pentru tine. La cumpărare, alegi un preț SUB cel de acum. La vânzare, alegi un preț PESTE. Aceeași idee, partea opusă. 🔁",
+      "quiz": {
+        "q": "{tech} se tranzacționează la {c}200. Ai deține-o cu plăcere, dar doar la {c}180 sau mai puțin. Ce folosești?",
+        "explanation": "Un ordin la piață se execută imediat la orice preț ar fi în acel moment. Un ordin limită își numește prețul și așteaptă, așa că aplicația urmărește în locul tău. Când prețul pe care îl accepți contează mai mult decât să intri repede, pe acesta îl vrei.",
+        "options": [
+          "O cumpărare la piață, care se execută la {c}200 chiar acum",
+          "O cumpărare limită setată la {c}180, care așteaptă",
+          "Te uiți la ecran și cumperi manual la {c}180"
+        ]
+      }
+    },
+    "18": {
+      "title": "Comisioane și costuri de tranzacționare",
+      "desc": "Să înțelegi comisioanele de tranzacționare",
+      "content": "Majoritatea tranzacțiilor te costă puțin: brokerul ia o mică parte. Acestea se numesc comisioane de tranzacționare sau comisioane de brokeraj.\n\n⚠️ Unii brokeri fac reclamă cu „comision zero”. Tot trebuie să facă bani cumva, așa că îi fac din altă parte, de obicei din mica diferență dintre prețul de cumpărare și cel de vânzare, din conversia valutară sau din dobânda la banii care stau în contul tău. Gratis e rareori gratis.\n\nÎn NoobTrader, comisioanele simulate sunt:\n• Acțiuni {ex}: {exFee} pe tranzacție\n• Acțiuni globale: 0.50%\n• ETF-uri: 0.30%\n• Crypto: 0.60%\n• Forex: 0.05%\n• Mărfuri: 0.40%\n\nExemplu: Cumperi acțiuni {retail} de {c}1,000 la {exFee}. Comisionul este {c}{feeAmt}, deci cheltuiești de fapt {c}{feeTotal}.\n\nComisioanele mici se adună REPEDE dacă tranzacționezi des. Cineva care face 20 de tranzacții pe lună plătește comisionul de 20 de ori și îl plătește din nou la ieșire. Acesta e unul dintre motivele pentru care investitorii pe termen lung tranzacționează mai puțin: mai puține tranzacții, mai puține comisioane 🧮",
+      "quiz": {
+        "q": "Cumperi acțiuni {ex} de {c}1,000 cu un comision de {exFee}. Cât este comisionul?",
+        "explanation": "Comisionul este un procent din suma tranzacționată, deci crește odată cu mărimea ordinului. Calculează-l înainte să tranzacționezi, pentru că se plătește din nou când vinzi.",
+        "options": [
+          "{c}{feeAmtX10}",
+          "{c}{feeAmtLow}",
+          "{c}{feeAmt}"
+        ]
+      }
+    },
+    "19": {
+      "title": "Ordinele stop-loss",
+      "desc": "Protejează-te de pierderi mari",
+      "content": "Un stop-loss e ca și cum ai stabili o limită pentru cât ești dispus să pierzi: o plasă de siguranță pe care o pui din timp.\n\nExemplu: Cumperi acțiuni {telco} la {c}100 fiecare. Decizi că NU vrei niciodată să pierzi mai mult de 15%. Așa că setezi un stop-loss la {c}85.\n\nDacă {telco} scade la {c}85 → un ordin de vânzare se declanșează automat. Nu trebuie să fii cu ochii pe ecran și nu trebuie să iei decizia în timp ce ești în panică.\n\nUite partea pe care oamenii o înțeleg greșit. Numărul unui stop-loss stă ÎNTOTDEAUNA sub prețul de azi. Trebuie, pentru că prețul trebuie să scadă ca să ajungă la el. Pune-l peste prețul de azi și condiția e deja îndeplinită, așa că vinde în secunda în care îl setezi, la prețul de azi. Asta e o vânzare, nu o plasă de siguranță.\n\nNu-l confunda cu o vânzare limită. Amândouă vând automat la un preț ales de tine. Diferența e direcția: un stop-loss se declanșează când prețul SCADE la numărul tău, o vânzare limită se declanșează când CREȘTE la numărul tău. Te protejezi → numărul tău merge dedesubt. Îți numești prețul → numărul tău merge deasupra. Întreabă-te pe care o faci înainte să tastezi. 🧭\n\n⚠️ Important: un stop-loss declanșează o VÂNZARE, nu garantează un PREȚ. Dacă vin vești proaste peste noapte și acțiunea se deschide la {c}70 fără să se fi tranzacționat vreodată la {c}85, ordinul tău se execută la cât plătește de fapt piața. Asta poate fi mult sub nivelul pe care l-ai setat.\n\nFără niciun stop-loss, ai putea s-o ții sperând că își revine... și s-o vezi cum scade la {c}20. 😬\n\nSfat de pro: Decide-ți mereu pierderea maximă ÎNAINTE să cumperi. Nu lăsa emoțiile să ia decizia asta când prețul deja se prăbușește! 🧘",
+      "quiz": {
+        "q": "Cumperi la 200 NT și decizi că nu ești dispus să pierzi mai mult de 15%. Trage până la prețul unde trebuie pus stop-loss-ul tău.",
+        "explanation": "15% din 200 NT înseamnă 30 NT, deci ieșirea ta stă cu 30 sub prețul de cumpărare, la 170 NT. Un stop-loss se pune sub prețul de azi, pentru că prețul trebuie să scadă ca să ajungă la el. Pune-l deasupra și condiția e deja îndeplinită, așa că vinde în momentul în care îl setezi, iar asta e o vânzare, nu o plasă de siguranță."
+      }
+    },
+    "20": {
+      "title": "Când să cumperi și să vinzi",
+      "desc": "Momentul potrivit, răbdare și disciplină",
+      "content": "Cea mai mare greșeală a investitorilor noi? Cumpără când toată lumea e entuziasmată și vând când toată lumea e în panică. E literalmente opusul a ceea ce funcționează. 🤦\n\n📱 Când grupul tău de chat dă spam cu „CUMPĂRAȚI ACȚIUNEA ASTA ACUM!!!!” → hype-ul e de obicei deja inclus în preț. Ai întârziat.\n\n😱 Când toată lumea vinde în panică → uneori chiar e o șansă să cumperi la reducere. Alteori prețul continuă să scadă încă un an. Nimeni nu sună din clopoțel când s-a atins fundul.\n\nSecretul? Fă-ți un plan ÎNAINTE să investești:\n• De ce cumpăr asta? (cercetare, nu hype)\n• La ce preț vând dacă CREȘTE? (luare de profit)\n• La ce preț vând dacă SCADE? (stop-loss)\n\nȚine-te de plan. Nu lăsa sentimentele să-ți preia strategia! 💪",
+      "quiz": {
+        "q": "Tot grupul tău de chat laudă o acțiune care a crescut deja cu 80% luna asta. Care e mișcarea inteligentă?",
+        "explanation": "Până ajunge o acțiune în fiecare grup de chat, cea mai mare parte a mișcării s-a petrecut deja, iar cei care vin târziu cumpără de la cei care își iau profitul. Analizează tu compania. O mulțime gălăgioasă nu e același lucru cu o mulțime care are dreptate.",
+        "options": [
+          "Cumperi acum, înainte ca prețul să fugă de tine",
+          "Îți vinzi celelalte acțiuni și pui totul aici",
+          "Verifici tu compania înainte să decizi"
+        ]
+      }
+    },
+    "21": {
+      "title": "Ce este capitalizarea bursieră?",
+      "desc": "Cum măsori mărimea unei companii",
+      "content": "Capitalizarea bursieră (market cap) îți spune cât de mare este de fapt o companie, în {cPlural}.\n\n📐 Formula: Prețul acțiunii × Numărul total de acțiuni = Capitalizarea bursieră\n\nExemplu: Dacă {retail} are 1 miliard de acțiuni și fiecare acțiune costă {c}50, capitalizarea bursieră este {c}50 de MILIARDE. Aceasta e „eticheta de preț” a întregii companii.\n\n🔵 Capitalizare mare (large cap): cele mai mari și mai bine stabilite nume, precum {tech} și {bank}. Risc mai mic, de obicei creștere mai lentă.\n🟡 Capitalizare medie (mid cap): companii de mărime medie. Risc echilibrat.\n🔴 Capitalizare mică (small cap): companii mici. Pot crește repede SAU se pot prăbuși tare.\n\n⚠️ Pragurile nu sunt universale. În SUA, „large cap” înseamnă de obicei undeva peste $10 miliarde, dar fiecare piață își stabilește propriile intervale, așa că o companie large cap din {name} nu are aceeași mărime ca una din SUA. Citește numărul real, nu doar eticheta 🧐",
+      "quiz": {
+        "q": "Compania A are 5 milioane de acțiuni la {c}200 fiecare. Acțiunile companiei B costă {c}10. Trage până la câte milioane de acțiuni îi trebuie lui B ca să valoreze cât A.",
+        "explanation": "Capitalizarea bursieră este prețul acțiunii înmulțit cu numărul de acțiuni. Compania A valorează 5 milioane înmulțit cu {c}200, adică {c}1,000 de milioane. Compania B trebuie să ajungă la același total la {c}10 pe acțiune, deci are nevoie de 100 de milioane de acțiuni, de douăzeci de ori mai multe. Un preț mic al acțiunii nu îți spune nimic despre mărimea unei companii."
+      }
+    },
+    "22": {
+      "title": "Raportul P/E pe înțeles",
+      "desc": "E o acțiune scumpă sau ieftină?",
+      "content": "Raportul P/E (preț/profit, Price-to-Earnings) îți spune cât plătești pentru fiecare {cName} din profitul unei companii.\n\n📐 Formula: Prețul acțiunii ÷ Profitul pe acțiune = Raportul P/E\n\nGândește-te la el ca la prețul pe felie de pizza 🍕\n\nDacă pizza A costă {c}80 pentru 8 felii = {c}10/felie\nDacă pizza B costă {c}100 pentru 5 felii = {c}20/felie\n\nPizza A e mai ieftină pe felie. Ideea e asemănătoare la acțiuni:\n• P/E mic (sub 10) = posibil un chilipir, SAU piața se așteaptă ca profiturile să SCADĂ. Un P/E mic e o întrebare, nu un răspuns.\n• P/E mare (peste 25) = piața se așteaptă la o creștere mare în viitor. Apoi compania chiar trebuie s-o livreze.\n\nCompară mereu P/E-ul cu al ALTOR companii din aceeași industrie. Nu compara P/E-ul unei bănci cu cel al unei companii de tehnologie!",
+      "quiz": {
+        "q": "Compania A are un P/E de 8. Compania B (aceeași industrie) are un P/E de 30. Ce sugerează asta?",
+        "explanation": "Un P/E mai mic înseamnă că plătești mai puțin pentru fiecare unitate de profit, ceea ce poate însemna un chilipir sau o companie cu probleme. Raportul ridică întrebarea; nu îi răspunde.",
+        "options": [
+          "Compania A e mai ieftină pe unitate de profit, dar află DE CE înainte să cumperi",
+          "Compania B este întotdeauna investiția mai bună dintre cele două",
+          "Raportul P/E nu ajută deloc la deciziile de investiții"
+        ]
+      }
+    },
+    "23": {
+      "title": "Cum citești rezultatele unei companii",
+      "desc": "Venituri, profit și ce contează",
+      "content": "La fiecare câteva luni, companiile își publică „carnetul de note” (în fiecare trimestru pe unele piețe, de două ori pe an pe altele) și asta mișcă MULT prețurile acțiunilor. Uite la ce să te uiți:\n\n📊 VENITURI: Toți banii care intră din vânzări. Cam cât a încasat în total un magazin mic.\n💰 PROFIT NET: Ce rămâne DUPĂ ce sunt plătite toate cheltuielile. Câștigul real de la sfârșitul zilei.\n📈 EPS (profit pe acțiune): Profitul împărțit la numărul de acțiuni. Cât a câștigat fiecare acțiune.\n\nSemne bune: Venituri ÎN CREȘTERE + Profit ÎN CREȘTERE + EPS în creștere = 🟢 prețul crește adesea\nSemne rele: Venituri ÎN SCĂDERE + Profit în scădere = 🔴 prețul scade adesea\n\nO capcană: ce mișcă de fapt prețul este rezultatul comparat cu ce se AȘTEPTA piața. Niște cifre grozave, dar sub așteptări, pot totuși trimite o acțiune în jos.\n\nO companie poate avea venituri mari, dar profit zero (costuri mari). Verifică-le mereu pe AMÂNDOUĂ!",
+      "quiz": {
+        "q": "{bank} raportează venituri în creștere cu 15%, dar profit în scădere cu 20% din cauza costurilor mai mari. E un semn bun sau rău?",
+        "explanation": "Veniturile sunt ce a intrat, profitul e ce a rămas. Aici costurile cresc mai repede decât vânzările, deci compania face mai multe afaceri și păstrează mai puțin din ele. E un avertisment real, dar nu o prăbușire, iar următorul lucru de aflat este de ce au crescut costurile.",
+        "options": [
+          "Îngrijorător, pentru că vând mai mult, dar păstrează mai puțin",
+          "Puternic, pentru că veniturile în creștere sunt ce contează de fapt",
+          "Groaznic, pentru că profitul în scădere înseamnă că firma se prăbușește"
+        ]
+      }
+    },
+    "24": {
+      "title": "Sectoare și industrii",
+      "desc": "Tipuri diferite de companii",
+      "content": "Bursa este împărțită în sectoare, ca niște catedre diferite într-o școală.\n\n{sectorList}\n\nSectoarele diferite cresc și scad în momente diferite, și exact asta e ideea diversificării între ele! Dacă sectorul bancar se prăbușește, poate tehnologia e în plin avânt. Portofoliul tău rămâne echilibrat. 🎯",
+      "quiz": {
+        "q": "Dobânzile din {name} cresc brusc. Ce sector beneficiază de obicei cel mai mult?",
+        "explanation": "Băncile câștigă din diferența dintre ce le cer celor care se împrumută și ce le plătesc celor care economisesc, iar dobânzile în creștere de obicei măresc această diferență. Pentru majoritatea celorlalte sectoare, împrumuturile mai scumpe sunt un cost.",
+        "options": [
+          "Retailul: cumpărătorii se împrumută mai ușor și cheltuiesc surplusul prin magazine",
+          "Sectorul bancar: băncile câștigă de obicei o diferență mai mare între ce cer celor care se împrumută și ce plătesc deponenților",
+          "Tehnologia: împrumuturile pentru dezvoltare se ieftinesc, deci firmele de software se extind mai repede"
+        ]
+      }
+    },
+    "25": {
+      "title": "Ce este un ETF?",
+      "desc": "Cumperi un coș întreg dintr-o mișcare",
+      "content": "Pe vremuri, singurul mod de a-ți face un playlist era să alegi melodiile una câte una. Apoi a apărut Spotify și ți-a dat playlisturi gata făcute, o colecție instant, fără efort. 🎵\n\nETF-urile (fonduri tranzacționate la bursă, Exchange-Traded Funds) sunt Spotify-ul investițiilor. În loc să alegi acțiuni una câte una, cumperi UN ETF care conține un coș întreg de acțiuni.\n\nMajoritatea ETF-urilor urmăresc un INDICE: o listă publicată de companii, alcătuită după un regulament. {etfDesc} ETF-ul pur și simplu cumpără ce e pe listă, în aceleași proporții, și se actualizează singur când lista se schimbă.\n\nAșa că un singur ETF {etf} îți dă o felie mică din {etfBasket} (nume precum {top5}) dintr-o singură cumpărare.\n\n⚠️ Un indice NU înseamnă automat „cele mai mari companii”. Unele liste ordonează după mărime, altele după cât de mult se tranzacționează o acțiune, iar altele sunt alese de un comitet. Doi indici de pe aceeași bursă pot conține companii complet diferite. Citește mereu ce este de fapt lista înainte s-o cumperi.\n\nETF-urile sunt de obicei mai ieftine, mai simple și mai diversificate decât să alegi singur acțiuni. Mulți administratori profesioniști de fonduri nu reușesc să le bată! 🤯",
+      "quiz": {
+        "q": "Cumperi o unitate din ETF-ul {etf}, care urmărește {etfBasket}. Ce deții acum?",
+        "explanation": "Un indice este o listă publicată, iar un ETF pe indice cumpără tot ce e pe ea în aceleași proporții. Așa că o unitate conține o fărâmă din fiecare nume de pe listă, de aceea o singură cumpărare este deja diversificată. Nu e doar cel mai mare nume și nu sunt bani care îți așteaptă instrucțiunile.",
+        "options": [
+          "O acțiune la cea mai mare companie de pe acea listă",
+          "O mică felie din fiecare companie de pe acea listă",
+          "Bani pe care fondul îi ține până îi spui ce să cumpere"
+        ]
+      }
+    },
+    "26": {
+      "title": "ETF-uri {ex}",
+      "desc": "ETF-uri populare pe care ar trebui să le știi",
+      "content": "Există o mulțime de ETF-uri și fonduri pe indici pe care le poți cumpăra din {name}. Iată câteva dintre cele mai populare:\n\n{etfList}\n\nAvantajul uriaș al ETF-urilor: COMISIOANELE. Multe fonduri administrate activ percep cam 1–2% pe an, uneori mai mult. ETF-urile pe indici largi percep adesea sub 0.2%. La o investiție de {c}10,000 ținută 20 de ani, diferența asta valorează MII de {cPlural} 💸\n\nVerifică comisionul înainte să cumperi. De obicei e marcat „TER” sau „rata cheltuielilor” (expense ratio). Nimeni nu-ți poate spune ce randament va avea un ETF, dar comisionul e un număr pe care îl POȚI ști dinainte.",
+      "quiz": {
+        "q": "Investești 20,000 NT. Un fond administrat activ percepe 2% pe an. Un ETF pe indice care deține cam aceleași companii percepe 0.2%. Trage până la cât de mult îți ia în plus cel scump într-un singur an.",
+        "explanation": "Diferența dintre cele două comisioane este de 1.8% pe an, iar 1.8% din 20,000 NT înseamnă 360 NT. Se plătește fie că fondul crește, fie că scade, și se plătește din nou în fiecare an. Nimeni nu-ți poate spune ce randament va avea un fond, dar comisionul e tipărit înainte să cumperi, de obicei marcat TER sau rata cheltuielilor."
+      }
+    },
+    "27": {
+      "title": "ETF-uri globale vs locale",
+      "desc": "Investiții acasă și mai departe",
+      "content": "Ar trebui să investești doar în companii din {name}? Răspunsul scurt: Nu! Uite de ce:\n\n🏠 ETF-URI LOCALE: Investesc în companiile din {name}. Cunoști brandurile, sunt în {cPlural}. Dar dacă economia din {name} are probleme, tot portofoliul tău ar putea scădea.\n\n🌍 ETF-URI GLOBALE: Investesc în companii internaționale (SUA, Europa, Asia). {currencyHedge}\n\nTotuși, moneda taie în ambele direcții: dacă moneda ta locală SE ÎNTĂREȘTE, aceleași investiții din străinătate valorează mai puțin acasă. Ăsta e compromisul pe care îl accepți când deții lucruri în străinătate.\n\nDacă le ai pe amândouă, locale și globale, te împarți între două riscuri diferite deodată: propria economie și propria monedă. Echilibrul e totul! ⚖️",
+      "quiz": {
+        "q": "{fxQuizSetup}. Acțiunile străine din ETF-ul tău global nu s-au mișcat deloc. Cât valorează acum, socotit în {cName}?",
+        "explanation": "Un ETF global deține lucruri cu prețul într-o altă monedă. Când moneda ta pierde teren, banii aceia străini se convertesc înapoi în mai mulți bani de-ai tăi, deci investiția valorează mai mult acasă, deși acțiunile au stat pe loc. Funcționează și invers: o monedă mai puternică acasă micșorează pe tăcute aceeași investiție. Riscul valutar taie în ambele direcții.",
+        "options": [
+          "Mai mult, pentru că banii din străinătate cumpără acum mai mult acasă",
+          "Mai puțin, pentru că veștile proaste despre monedă trebuie să fie rele și pentru banii tăi",
+          "La fel, pentru că acțiunile din el nu s-au mișcat deloc"
+        ]
+      }
+    },
+    "28": {
+      "title": "Economisire vs investiții",
+      "desc": "De ce banii tăi trebuie să muncească",
+      "content": "Amândouă sunt bune. Dar servesc unor scopuri diferite:\n\n🏦 ECONOMISIRE: Pui bani într-un cont bancar. E sigur, poți accesa banii oricând. DAR dobânzile sunt de obicei {savings}, adesea mai mici decât inflația. Banii tăi sunt „în siguranță”, dar își pierd încet puterea de cumpărare.\n\n📈 INVESTIȚII: Pui bani în acțiuni, ETF-uri sau imobiliare. Mai mult risc și nicio garanție într-un anumit an. În unii ani pur și simplu pierzi bani. Totuși, pe perioade lungi, acțiunile au adus istoric mai mult decât numerarul. Piața din {name} a avut în trecut o medie de aproximativ {mktReturn} pe an, iar mediile trecute sunt istorie, nu o promisiune.\n\nRegulă de bază:\n• 3–6 luni de cheltuieli în economii (fondul tău de urgență) 🚨\n• Banii de care nu vei avea nevoie ani de zile sunt cei pe care oamenii îi investesc 🚀\n\nNu investi bani de care s-ar putea să ai nevoie luna viitoare. Pentru asta sunt economiile!",
+      "quiz": {
+        "q": "Cheltuielile tale ajung la 800 NT pe lună și ai economisit 5,000 NT. Trage până la cel mai mic fond de urgență pe care regula de bază obișnuită l-ar lăsa în numerar.",
+        "explanation": "Regula de bază este să ții în numerar cheltuielile pe trei până la șase luni. Trei luni dintr-o factură de 800 NT înseamnă 2,400 NT, iar șase luni ar fi 4,800 NT, deci orice sumă din intervalul ăsta e normală. Motivul pentru care îi ții în numerar e simplu: când se strică ceva pe neașteptate, nu vrei să fii obligat să-ți vinzi investițiile în ziua în care se întâmplă, oricare ar fi ea."
+      }
+    },
+    "29": {
+      "title": "Inflația și banii tăi",
+      "desc": "De ce numerarul își pierde valoarea în timp",
+      "content": "Întreabă un adult cât costa {food} când avea vârsta ta. Era cam {c}{foodOld}. Acum e {c}{foodNew}+. Asta e inflația: prețurile cresc încet în timp, ceea ce înseamnă că fiecare {cName} cumpără MAI PUȚIN decât înainte.\n\nInflația din {name} a fost de obicei în jur de {inflation} pe an.\n\nDeci dacă economiile tale aduc 4% pe an, dar inflația e 6%, de fapt PIERZI cam 2% din puterea de cumpărare în fiecare an, chiar dacă soldul tău a crescut!\n\n💡 Investițiile tale trebuie să bată inflația ca să-ți crească cu adevărat averea.\n• Bani sub saltea: pierd valoare în fiecare an 💀\n• Economii în bancă: adesea abia țin pasul\n• Acțiuni {ex} (media pe termen lung): {mktReturn} pe an, care e o medie trecută, nu o promisiune 🔥\n\nInvestițiile nu țin doar de a te îmbogăți. Țin de a nu sărăci! 💸",
+      "quiz": {
+        "q": "Contul tău de economii plătește 4% pe an. Prețurile cresc cu 6% pe an. Trage până la ce se întâmplă de fapt cu puterea ta de cumpărare în acel an.",
+        "explanation": "Randamentul real este dobânda pe care o câștigi minus inflația pe care o plătești, deci 4% față de 6% înseamnă cam minus 2%. Numărul din contul tău crește, în timp ce ce poți cumpăra de fapt cu el scade, iar ăsta e trucul discret pe care inflația îl face economiilor. Ca să construiești o avere reală, banii trebuie să bată inflația, nu doar să câștige ceva."
+      }
+    },
+    "30": {
+      "title": "Emoțiile și investițiile",
+      "desc": "Nu vinde în panică și nu cumpăra din FOMO",
+      "content": "Bursa e practic un test de control emoțional. Majoritatea oamenilor îl pică. 🎭\n\n😱 VÂNZARE ÎN PANICĂ: Piața scade cu 20%, te sperii, vinzi tot. Apoi își revine. Ți-ai fixat pierderea fără niciun motiv.\n\n🤑 CUMPĂRARE DIN FOMO: Toată lumea de pe rețelele sociale laudă o monedă. Te repezi. Prețul se prăbușește imediat. Rămâi cu buzduganul în mână.\n\nCei mai buni investitori tratează o prăbușire a pieței ca pe o reducere la {retail}. Continuă să cumpere, calm, în loc să intre în panică. Warren Buffett a spus-o așa: „Fii temător când alții sunt lacomi și lacom când alții sunt temători.”\n\nFă-ți planul. Ține-te de el. Viitorul tău eu îți va mulțumi că n-ai vândut de nervi într-o zi pe roșu! 🙏",
+      "quiz": {
+        "q": "Piața scade cu 15% într-o săptămână și grupul tău de chat vinde tot. Banii tăi sunt investiți pentru următorii zece ani. Care e mișcarea?",
+        "explanation": "O scădere de 15% devine o pierdere reală doar în ziua în care vinzi. Planul pe care l-ai scris când nu se întâmpla nimic a fost scris de varianta ta cu capul limpede, iar să te ții de el e toată abilitatea. Dacă aștepți să pară totul calm ca să cumperi înapoi, cumperi mai scump, pentru că liniștea apare după revenire, nu înainte.",
+        "options": [
+          "Vinzi acum și cumperi înapoi când pare totul mai calm",
+          "Muți banii în ce cumpără cei din chat",
+          "Continui cu planul pe care l-ai scris când erai calm"
+        ]
+      }
+    },
+    "31": {
+      "title": "Boss-ul final",
+      "desc": "Dobânda compusă, a 8-a minune a lumii",
+      "content": "„A opta minune a lumii: cine o înțelege, o câștigă; cine nu, o plătește.” O să vezi citatul ăsta atribuit lui Einstein peste tot online. Nu există nicio dovadă reală că l-a spus.\n\nMatematica, în schimb, e de netăgăduit. Uite cel mai important lucru pe care îl vei învăța despre bani:\n\nCineva care începe la 20 de ani și investește {c}500/lună la 12% pe an ajunge la 65 de ani cu MAI MULT decât cineva care începe la 35 de ani și investește {c}2,000/lună la aceeași rată. De patru ori suma lunară și tot termină în urmă.\n\nTimpul. Este. Totul.\n\nNu e un truc al cifrelor, e chiar esența dobânzii compuse: fiecare an în care aștepți costă mai mult decât poate recupera orice an adăugat mai târziu. Cel mai bun moment să începi a fost mai devreme. Al doilea cel mai bun e acum.\n\nTestul ăsta e examenul tău final. Rezolvă-l și ești oficial certificat NoobTrader! 👑",
+      "bossVictory": "Dobânda compusă deblocată. Acum ești periculos. 🔥",
+      "quiz": {
+        "q": "{c}1,000 investiți la 12% pe an timp de 10 ani cresc la ~{c}3,106. Ce se întâmplă dacă DUBLEZI timpul la 20 de ani?",
+        "explanation": "Dublarea timpului face mult mai mult decât să dubleze rezultatul, pentru că creșterea fiecărui an se compune peste tot ce a fost înainte. Creșterea accelerează, nu încetinește.",
+        "options": [
+          "Se mai mult decât triplează, la ~{c}9,646",
+          "Se dublează aproximativ, la ~{c}6,200",
+          "Randamentul încetinește cu cât aștepți mai mult"
+        ]
+      }
+    },
+    "32": {
+      "title": "Platforme și portofele crypto",
+      "desc": "Unde stă de fapt crypto",
+      "content": "Mai întâi, partea sinceră: platformele crypto reale cer să ai peste 18 ani în aproape toate țările. De aceea NoobTrader te lasă să exersezi totul mai întâi cu bani virtuali. 🎮\n\nCând adulții cumpără crypto, folosesc două tipuri de locuri:\n\n🏦 EXCHANGE-URI ȘI APLICAȚII DE BROKERAJ (custodiale): îți faci un cont, iar ei îți păstrează crypto pentru tine. Simplu, dar trebuie să ai încredere în ei. Dacă sunt hackuiți sau dau faliment, crypto-ul tău poate dispărea. S-a întâmplat cu unele dintre cele mai mari nume din crypto.\n\n🔑 PORTOFELE SELF-CUSTODY: o aplicație în care TU deții cheile secrete. Nimeni nu le poate bloca, dar nici nu te poate ajuta nimeni. Dacă îți pierzi fraza seed (cele 12 până la 24 de cuvinte secrete), crypto-ul dispare pentru totdeauna. Fără resetare de parolă. Fără suport pentru clienți. Dispărut.\n\nOamenii din crypto spun: „Nu cheile tale, nu monedele tale.” Acum știi ce înseamnă.",
+      "quiz": {
+        "q": "Ce înseamnă când un exchange îți păstrează crypto „în custodie”?",
+        "explanation": "Custodial înseamnă că platforma păstrează cheile, deci monedele tale sunt exact atât de sigure cât e platforma. Dacă e hackuită sau se prăbușește, pot dispărea odată cu ea. Asta vor să spună oamenii prin nu cheile tale, nu monedele tale.",
+        "options": [
+          "Exchange-ul păstrează cheile pentru tine",
+          "Tu deții cheile și nimeni altcineva nu le poate avea",
+          "Nimeni nu se poate atinge de monede, nici măcar tu",
+          "Aduce dobândă automat"
+        ]
+      }
+    },
+    "33": {
+      "title": "Cum funcționează cumpărarea de crypto",
+      "desc": "Spread-uri, comisioane și piețe 24/7",
+      "content": "Cumpărarea de crypto arată ca o cumpărătură online oarecare, dar trei lucruri sunt diferite:\n\n1️⃣ SPREAD-UL: prețul de cumpărare e mereu puțin mai mare decât cel de vânzare. Cumperi crypto de {c}100 și îl vinzi imediat, iar primești înapoi poate {c}97. Diferența asta e felul în care platformele câștigă pe tăcute.\n\n2️⃣ COMISIOANE PE DEASUPRA: majoritatea platformelor percep și un comision pe tranzacție, adesea 1 până la 2% la cumpărături mici. Comisioanele plus spread-ul înseamnă că o cumpărătură mică pornește cu vreo 3 până la 5% pe minus înainte ca prețul să se miște deloc.\n\n3️⃣ FĂRĂ CLOPOȚEL DE ÎNCHIDERE: bursele de acțiuni se închid noaptea și în weekend. Crypto se tranzacționează 24/7, în fiecare zi a anului. Prețurile se pot prăbuși cât dormi. Asta e unul dintre motivele pentru care crypto e mult mai volatil decât acțiunile.\n\nÎn NoobTrader poți tranzacționa crypto cu bani virtuali, 24/7, fără să pierzi un bănuț. Plătești un comision la fiecare tranzacție, dar NoobTrader nu percepe spread, așa că o cumpărătură reală costă mai mult decât aceeași tranzacție aici. 📊",
+      "quiz": {
+        "q": "Pui 200 NT într-o monedă și o vinzi cinci secunde mai târziu, înainte ca prețul să se fi mișcat deloc. Diferența dintre prețul de cumpărare și cel de vânzare costă 3%, iar platforma percepe un comision de 1% la fiecare tranzacție. Trage până la suma care se întoarce.",
+        "explanation": "Spread-ul ia 3%, apoi un comision de 1% se aplică la intrare și încă unul la ieșire. Asta înseamnă 5% din cei 200 NT ai tăi, deci 10 NT au dispărut înainte ca prețul să fi făcut ceva. Primești înapoi 190 NT, iar moneda trebuie acum să crească cu 5% doar ca să ajungi pe zero."
+      }
+    },
+    "34": {
+      "title": "Taxele de gas pe înțeles",
+      "desc": "De ce costă bani să trimiți crypto",
+      "content": "Trimiterea de crypto nu e gratuită. Fiecare tranzacție plătește o taxă de rețea, adesea numită GAS, calculatoarelor care procesează și securizează rețeaua.\n\nUite partea care surprinde pe toată lumea: gas-ul are prețul stabilit de traficul din rețea, NU de cât trimiți. Când rețeaua e aglomerată, taxele explodează.\n\n🤯 Pe unele rețele, în perioadele aglomerate, trimiterea a {c}10 în crypto poate costa MAI MULT de {c}10 în gas. Ai plăti mai mult pentru livrare decât valorează coletul.\n\nRețelele mai noi și sistemele „layer 2” există în mare parte ca să facă asta mai ieftin, cu taxe de câțiva cenți. Oricine se ocupă de crypto verifică taxa ÎNAINTE să apese pe trimite.\n\nÎncă ceva: transferurile crypto nu pot fi anulate. Adresă greșită plus gas plătit înseamnă bani pierduți, definitiv. Nu există nicio bancă pe care s-o suni. ☎️❌",
+      "quiz": {
+        "q": "Taxele de gas sunt mari azi. Vrei să trimiți {c}15 în crypto, iar gas-ul costă {c}20. Care e interpretarea inteligentă?",
+        "explanation": "Gas-ul are prețul stabilit de cât de aglomerată e rețeaua, nu de cât trimiți, așa că un transfer mic poate costa mai mult decât valorează. Nici împărțirea nu ajută, pentru că fiecare transfer își plătește propria taxă. Așteaptă un moment mai liniștit sau folosește o rețea mai ieftină.",
+        "options": [
+          "Plătești, pentru că taxa e rambursată când ajunge",
+          "Renunți, taxa costă mai mult decât coletul",
+          "Îl împarți în două, ca fiecare jumătate să plătească jumătate din taxă",
+          "Ignori taxa, gas-ul se aplică doar la transferuri mari"
+        ]
+      }
+    },
+    "35": {
+      "title": "Meme coins și rug pulls",
+      "desc": "Recunoaște capcanele înainte să te prindă",
+      "content": "Meme coins sunt monede crypto construite pe glume și hype, fără vreo utilitate reală. Câteva i-au îmbogățit pe primii cumpărători, și exact de aceea există mii de copii. Aproape toate ajung la zero. 📉\n\nCea mai urâtă capcană e RUG PULL-UL: creatorii fac o monedă, o promovează agresiv, așteaptă să se înghesuie lumea, apoi își vând rezerva uriașă sau golesc fondul de tranzacționare. Prețul se prăbușește în câteva minute. Ei păstrează banii. Tu rămâi cu monedele fără valoare.\n\n🚩 SEMNALE DE ALARMĂ de memorat:\n• Echipă anonimă pe care n-o poți verifica\n• Randamente „garantate” (nimic pe piețe nu e garantat)\n• Influenceri plătiți s-o promoveze\n• Un grup mic deține cea mai mare parte din monede\n• Presiune să „cumperi înainte să fie prea târziu”\n\nDacă principalul argument al unei monede e că ALȚII care o cumpără te vor face pe TINE bogat, asta nu e investiție. E un joc de scaune muzicale, iar muzica e a creatorilor. 🎵",
+      "quiz": {
+        "q": "O monedă nouă are o echipă anonimă, promite un 100x garantat, iar influencerii plătiți o promovează intens. Ce se întâmplă de obicei după aceea?",
+        "explanation": "O echipă anonimă, un randament garantat și promovare plătită sunt scenariul clasic de rug pull. Creatorii dețin cea mai mare parte din monede, le vând în plin hype și pleacă, lăsându-i pe cumpărători cu o monedă pe care n-o vrea nimeni. Nimic pe piețe nu e garantat.",
+        "options": [
+          "Cumpărătorii primesc banii înapoi de la exchange-ul pe care s-a lansat",
+          "Prețul se stabilizează când influencerii nu mai postează",
+          "Echipa își vinde rezerva și prețul se prăbușește",
+          "Autoritățile de reglementare obligă echipa să spună cine este"
+        ]
+      }
+    },
+    "36": {
+      "title": "Minerit vs trading vs staking",
+      "desc": "Trei jocuri foarte diferite",
+      "content": "Trei moduri prin care oamenii încearcă să câștige din crypto, și NU sunt același joc:\n\n⛏️ MINERIT: calculatoare puternice se întrec să proceseze tranzacții și câștigă monede noi. Sună distractiv, dar mineritul de Bitcoin de azi e industrial: depozite pline de aparate specializate și facturi uriașe la curent. Telefonul sau laptopul tău nu pot concura, iar aplicațiile de tip „minează Bitcoin pe telefon!” sunt aproape mereu țepe sau ferme de reclame care nu-ți plătesc aproape nimic.\n\n🥩 STAKING: pe unele rețele îți blochezi monedele ca să ajuți la securizarea rețelei și primești recompense, cam ca o dobândă. E real, dar monedele tale pot fi blocate o vreme, iar PREȚUL lor se poate prăbuși în timp ce sunt blocate.\n\n📊 TRADING: cumperi și vinzi ca să profiți de mișcările de preț. Nu ai nevoie de hardware, dar e jocul în care disciplina contează cel mai mult și în care majoritatea începătorilor pierd în fața propriilor emoții.\n\nNoobTrader te învață jocul de trading cu risc zero. Celelalte două au nevoie de bani reali ca să poți măcar începe.",
+      "quiz": {
+        "q": "O aplicație spune că telefonul tău poate mina Bitcoin profitabil cât dormi. Care e cel mai probabil adevărul?",
+        "explanation": "Mineritul e o cursă decisă de hardware specializat și curent ieftin, iar un telefon nu le are pe niciuna. Aplicațiile care promit altceva urmăresc de obicei datele tale, bateria ta sau banii tăi și îți plătesc aproape nimic în schimb.",
+        "options": [
+          "Telefoanele minează încet, dar tot fac profit",
+          "Funcționează, dar doar pe cele mai noi telefoane",
+          "Mineritul pe telefon a fost interzis de rețele",
+          "E o fermă de reclame care plătește aproape nimic"
+        ]
+      }
+    },
+    "37": {
+      "title": "Securitate crypto și țepe",
+      "desc": "Ce e al tău rămâne al tău",
+      "content": "Superputerea crypto e și pericolul lui: tranzacțiile sunt ireversibile și nu există nicio bancă să anuleze o greșeală. Escrocii adoră asta. Uite trusa ta de apărare:\n\n🔐 FRAZA TA SEED E SACRĂ. Nimeni legitim nu ți-o va cere VREODATĂ. Nici „echipa de suport”, nici un „bot de verificare”, nimeni. Oricine îți cere fraza seed te fură, punct.\n\n🎣 PHISHING: site-uri și mesaje private false care arată exact ca platformele reale. O literă diferită în adresa web. Tastează mereu adresa singur.\n\n🎁 ȚEPE CU GIVEAWAY: „Trimite 1 monedă, primești 2 înapoi!”, adesea folosind contul spart al unei vedete. Nimeni nu-ți dublează banii. Niciodată.\n\n💕 ȚEPE ROMANTICE ȘI CU „MENTOR DE INVESTIȚII”: un străin prietenos care te convinge încet să intri pe o „platformă specială”. Platforma e falsă. Retragerile nu funcționează niciodată.\n\nTiparul din spatele oricărei țepe: urgență plus secret plus profit garantat. Când le vezi pe toate trei împreună, pleacă. 🚶",
+      "quiz": {
+        "q": "Cineva care pretinde că e „suportul platformei” îți scrie în privat și îți cere fraza seed de 12 cuvinte ca să-ți „verifice portofelul”. Ce faci?",
+        "explanation": "Fraza seed ESTE portofelul. Oricine o are îl poate goli, suportul real nu ți-o cere niciodată și nicio parte din ea nu trebuie împărtășită vreodată.",
+        "options": [
+          "N-o dai niciodată, pentru că suportul real nu cere niciodată o frază seed",
+          "O dai, pentru că echipa de suport verificată are nevoie de ea ca să-ți verifice contul",
+          "Dai doar primele șase cuvinte, ceea ce e destul de sigur în sine",
+          "Le ceri mai întâi să-ți scrie de pe adresa oficială de email, apoi o dai"
+        ]
+      }
+    },
+    "38": {
+      "title": "Boss-ul crypto",
+      "desc": "Mașina timpului Bitcoin",
+      "content": "E momentul poveștii pe care o citează toată lumea și pe care n-o spune nimeni cum trebuie.\n\nLa începutul lui 2017, un Bitcoin costa cam $1,000. În decembrie 2024 a trecut de $100,000 pentru prima dată. O cumpărătură de $1,000, ținută tot drumul, a devenit cam $100,000. Asta e un 100x. 🤯\n\nAcum partea pe care hype-ul o lasă deoparte: ca să încasezi acel 100x, a trebuit să reziști la două prăbușiri brutale, una de aproximativ 84% și alta de aproximativ 77%, și să-ți vezi banii micșorându-se ANI la rând fără să vinzi. Aproape nimeni n-a reușit. Majoritatea oamenilor au cumpărat sus, au intrat în panică la prăbușire și au vândut jos.\n\nIar pentru fiecare Bitcoin există mii de monede moarte care au ajuns la zero. Să alegi câștigătorul dinainte pare ușor doar privind înapoi. Asta se numește eroarea supraviețuitorului (survivorship bias) și e cea mai scumpă iluzie din crypto.\n\nAdevărata lecție a mașinii timpului: pentru monedele care au supraviețuit, răbdarea a bătut alegerea momentului. Dar afli care monede supraviețuiesc abia DUPĂ, de aceea diversificarea bate alegerile de erou și de aceea NIMENI nu știe viitorul. Nici măcar boss-ul. 🐉",
+      "bossVictory": "Modulul crypto cucerit. Acum știi mai mult decât majoritatea adulților. 🐉",
+      "quiz": {
+        "q": "Mii de monede s-au lansat odată cu Bitcoin, iar majoritatea valorează acum aproape nimic. De ce pare atât de ușor „alege pur și simplu următorul Bitcoin” când privești înapoi?",
+        "explanation": "Doar despre supraviețuitori se mai vorbește, așa că alegerea câștigătorilor pare mult mai ușoară privind înapoi decât a fost la momentul respectiv. Miile care au eșuat n-au lăsat nicio urmă în poveste.",
+        "options": [
+          "Pentru că doar despre câștigători se mai vorbește, iar cei care au murit au dispărut din poveste",
+          "Pentru că cele mai bune monede sunt evidente încă de la început pentru oricine citește destul despre ele",
+          "Pentru că majoritatea monedelor își revin până la urmă pentru oricine are răbdare să le țină ani de zile",
+          "Pentru că experții au prezis corect Bitcoin încă din 2010 și au ghicit fiecare câștigător de atunci"
+        ]
+      }
+    },
+    "39": {
+      "title": "Ce ESTE de fapt un blockchain?",
+      "desc": "Tehnologia din spatele tuturor",
+      "content": "Dacă dai la o parte hype-ul, un blockchain e surprinzător de simplu: un registru comun din care mii de calculatoare păstrează copii identice.\n\nCând cineva trimite crypto, tranzacția intră într-un „bloc” împreună cu sute de altele. Blocul e sigilat cu matematică și legat de blocul anterior. De aici: bloc. Lanț. ⛓️\n\nDe ce i-ar păsa cuiva? Din cauza a ceea ce face posibil:\n\n✅ Nimeni nu poate modifica istoria pe ascuns. Schimbarea unui bloc vechi ar însemna refacerea fiecărui bloc de după el pe mii de calculatoare deodată.\n✅ Nicio companie sau guvern nu-l controlează singur. Rețeaua de calculatoare îl rulează împreună.\n✅ Oricine poate verifica registrul. Fiecare tranzacție Bitcoin făcută vreodată e vizibilă public.\n\nE o tehnologie cu adevărat nouă. Dar NU e bani magici. Un registru perfect al unei monede fără valoare tot o monedă fără valoare rămâne. Faptul că tehnologia e reală nu face valoroasă fiecare monedă construită pe ea. 🧠",
+      "quiz": {
+        "q": "De ce e atât de greu să modifici pe ascuns o tranzacție veche dintr-un blockchain?",
+        "explanation": "Fiecare bloc e sigilat de cel dinaintea lui, așa că rescrierea unuia vechi înseamnă rescrierea fiecărui bloc de după el, pe mii de calculatoare, mai repede decât adaugă rețeaua blocuri noi. Asta face registrul practic permanent.",
+        "options": [
+          "Ar trebui refăcut și fiecare bloc de după",
+          "Fiecare modificare trebuie aprobată de un guvern",
+          "Fiecare înregistrare mai veche de o lună e ștearsă",
+          "Creatorul fiecărei monede are o cheie privată de editare"
+        ]
+      }
+    },
+    "40": {
+      "title": "Bitcoin vs tot restul",
+      "desc": "Nu toate monedele sunt același joc",
+      "content": "„Crypto” nu e un singur lucru. Diferențele contează mai mult decât asemănările:\n\n₿ BITCOIN: originalul. Oferta lui e plafonată la 21 de milioane de monede pentru totdeauna, scris în cod, iar ritmul monedelor noi se înjumătățește cam la fiecare patru ani. (Îți sună cunoscut? Înjumătățirea NOOB împrumută exact ideea asta.) Tot argumentul lui e raritate plus securitate.\n\n⟠ ETHEREUM: mai puțin „aur digital”, mai mult „calculator mondial”. Rulează contracte inteligente (smart contracts), adică programe care se execută automat. Majoritatea aplicațiilor crypto sunt construite pe el sau pe concurenții lui.\n\n🪙 TOT RESTUL: mii de „altcoins”. Câteva rezolvă probleme reale. Majoritatea sunt copii, experimente sau încercări de a face bani rapid. Statistica brutală: majoritatea monedelor create vreodată sunt deja moarte sau fără valoare.\n\nLecția: „crypto crește” nu-ți spune aproape nimic despre o monedă ANUME. Fiecare e un pariu separat, cu propriile șanse. 🎲",
+      "quiz": {
+        "q": "Care e oferta maximă de Bitcoin și cât de ușor poate fi schimbată?",
+        "explanation": "Plafonul de 21 de milioane face parte din regulile pe care le rulează fiecare calculator din rețea. Ridicarea lui ar însemna ca aproape toate să fie de acord să facă ce dețin deja să valoreze mai puțin, de aceea plafonul e considerat fix.",
+        "options": [
+          "100 de milioane, iar minerii votează asupra lui în fiecare an",
+          "21 de milioane, iar ridicarea lui e aproape imposibilă",
+          "1 miliard, iar creatorul îl poate ajusta",
+          "Fără plafon, deci se tipăresc monede noi la nesfârșit"
+        ]
+      }
+    },
+    "41": {
+      "title": "Stablecoin-urile",
+      "desc": "Cripto care încearcă să stea pe loc",
+      "content": "Un stablecoin este o criptomonedă concepută să valoreze mereu o sumă fixă, de obicei exact 1 dolar american. Traderii le folosesc ca pe o parcare: îți vinzi monedele volatile pe un stablecoin, iar banii tăi stau pe loc cât timp te hotărăști ce faci mai departe.\n\nCum rămân la $1? Modelul principal ține dolari reali și active în rezervă, astfel încât fiecare monedă e garantată de ceva. Practic, ai încredere în cel care deține acele rezerve.\n\nȘi iată povestea ta de avertizare: stablecoin-urile se pot STRICA. Chiar s-a întâmplat. În 2022, un stablecoin „algoritmic” important, care folosea matematică ingenioasă în loc de rezerve reale, s-a prăbușit de la $1 aproape la zero în câteva zile și a spulberat zeci de miliarde de dolari. „Stabil” e un obiectiv de design, nu o garanție.\n\nRegulă de bază: cu cât mecanismul care ține ceva „în siguranță” e mai ingenios, cu atât trebuie să-l privești mai atent. 🔍",
+      "quiz": {
+        "q": "Care este rolul principal al unui stablecoin?",
+        "explanation": "Rolul unui stablecoin este să stea pe loc. E o parcare între tranzacții, nu ceva de la care te aștepți să crească.",
+        "options": [
+          "Să păstreze o valoare fixă, de obicei $1, ca traderii să aibă o parcare stabilă",
+          "Să crească mai repede decât Bitcoin, urmărind întreaga piață cripto",
+          "Să plătească automat dobândă oricui îl ține într-un portofel",
+          "Să ascundă tranzacțiile de toată lumea, amestecând registrul public"
+        ]
+      }
+    },
+    "42": {
+      "title": "Cripto, taxe și legea",
+      "desc": "Da, regulile se aplică",
+      "content": "Internetul e plin de oameni care cred că cripto e bani invizibili, fără reguli. De obicei află adevărul pe calea cea grea. 😬\n\nRealitatea în majoritatea țărilor, inclusiv în Africa de Sud:\n\n🧾 PROFITURILE SUNT DE OBICEI IMPOZABILE. Vinzi cripto mai scump decât ai cumpărat și autoritatea fiscală vrea, în general, partea ei, la fel ca la acțiuni.\n\n🪪 EXCHANGE-URILE ȘTIU CINE EȘTI. Platformele legitime cer verificarea identității (numită KYC, Know Your Customer – „Cunoaște-ți clientul”). În plus, fiecare tranzacție e înregistrată permanent chiar pe blockchain, adică exact OPUSUL anonimatului.\n\n⚖️ AUTORITĂȚILE DE REGLEMENTARE SUNT IMPLICATE. În Africa de Sud, activele cripto sunt tratate oficial ca produse financiare, ceea ce înseamnă că platformele care le vând trebuie să respecte regulile serviciilor financiare.\n\nNimic din toate astea nu e un motiv de panică. ESTE însă un motiv să ignori pe oricine spune că „regulile nu se aplică la cripto”. Se aplică, iar cei care se prefac că nu ajung, ca adulți, în probleme chiar serioase.",
+      "quiz": {
+        "q": "Vărul tău spune că profiturile din cripto sunt invizibile pentru autoritatea fiscală pentru că cripto e anonim. Ce e greșit aici?",
+        "explanation": "Platformele legitime îți verifică identitatea înainte să poți tranzacționa, iar fiecare tranzacție pe blockchain e publică și permanentă, adică opusul anonimatului. Profiturile sunt în general impozabile, așa că verifică regulile din țara ta.",
+        "options": [
+          "Exchange-urile verifică identitatea, iar înregistrările sunt publice",
+          "Nimic, cripto chiar e anonim",
+          "Cripto e impozitat în America și nicăieri altundeva",
+          "Impozitul începe abia când retragi un milion"
+        ]
+      }
+    },
+    "43": {
+      "title": "Volatilitate și reguli de supraviețuire",
+      "desc": "De ce cripto oscilează atât de tare",
+      "content": "O zi proastă pe bursă înseamnă 3%. O zi proastă în cripto înseamnă 20%. Chiar și Bitcoin, „adultul” din cripto, a pierdut de mai multe ori peste 80% din valoare și și-a revenit mai târziu. Monedele mai mici pierd frecvent 95% și nu-și mai revin niciodată.\n\nDe ce atât de sălbatic? Cripto se tranzacționează 24/7 fără mecanisme de oprire (circuit breakers), o mare parte e cumpărată cu bani împrumutați care sunt vânduți forțat în prăbușiri, iar prețurile se bazează mai mult pe povești și emoții decât pe rapoarte de profit.\n\nAșadar, regulile de supraviețuire pe care le repetă orice trader cu experiență:\n\n1️⃣ Nu pune niciodată bani pe care nu-ți permiți să-i pierzi complet.\n2️⃣ Dimensionează pozițiile astfel încât un singur dezastru să nu te poată distruge.\n3️⃣ Decide-ți ieșirea ÎNAINTE să intri, cât timp ești calm.\n4️⃣ FOMO este cel mai scump sentiment din finanțe.\n\nExersează-le pe toate patru în NoobTrader, unde pierderile sunt doar de mentă. Obiceiurile sunt adevăratul premiu. 🏆",
+      "quiz": {
+        "q": "Care dintre acestea este o regulă reală de supraviețuire pe piețele volatile?",
+        "explanation": "Să nu riști niciodată bani pe care nu-ți permiți să-i pierzi este singura regulă care te ține în joc. Dublarea mizei după o pierdere este felul în care se termină conturile.",
+        "options": [
+          "Dublează-ți poziția după fiecare pierdere ca să recuperezi",
+          "Nu investi niciodată bani pe care nu-ți permiți să-i pierzi complet",
+          "Volatilitatea afectează doar monedele mici, deci cele mari sunt sigure",
+          "Cumpără mereu când toată lumea de pe rețelele sociale cumpără"
+        ]
+      }
+    },
+    "44": {
+      "title": "Cicluri de hype și FOMO",
+      "desc": "Tiparul din spatele oricărei manii",
+      "content": "Cripto merge în cicluri de hype, iar odată ce vezi tiparul, nu-l mai poți ignora:\n\n📈 Faza 1: se întâmplă ceva real. Primii credincioși cumpără în liniște.\n🚀 Faza 2: prețurile cresc. Presa observă. Feedul tău se umple de câștigători.\n🎪 Faza 3: mania. Taximetriștii dau ponturi pe monede. Oamenii se împrumută ca să cumpere. „De data asta e altfel.”\n💥 Faza 4: prăbușirea. Cei veniți târziu, care au cumpărat cel mai scump, pierd cel mai mult.\n🕳️ Faza 5: tăcerea. Postările câștigătorilor dispar. Nimeni nu vorbește despre pierderile lui.\n\nBoomul NFT din 2021 a urmat exact acest scenariu: colecții digitale vândute cu milioane la vârf, iar câțiva ani mai târziu majoritatea valorau aproape nimic.\n\nTrucul crud al oricărei manii: face ca momentul CEL MAI PROST de cumpărat să pară cel mai URGENT. Când pare cel mai sigur să te arunci, pentru că toți ceilalți au făcut-o deja, câștigurile ușoare s-au dus de obicei. 🎯",
+      "quiz": {
+        "q": "Într-un ciclu clasic de hype, când simte omul obișnuit cea mai puternică dorință de a cumpăra?",
+        "explanation": "Dorința e cea mai puternică atunci când povestea e cea mai gălăgioasă, iar povestea e cea mai gălăgioasă după ce prețul a crescut deja. Faptul că toată lumea a intrat e ce o face să pară sigură și tot asta face să nu mai rămână nimeni care să cumpere.",
+        "options": [
+          "La început, când aproape nimeni nu vorbește despre asta",
+          "La jumătatea prăbușirii, când prețurile sunt mici",
+          "Aproape de vârf, când toți ceilalți au intrat deja",
+          "Nu urmează niciun tipar, dorința e aleatorie"
+        ]
+      }
+    },
+    "45": {
+      "title": "Cum citești o lumânare",
+      "desc": "Anatomia lumânării: corp și culoare",
+      "content": "Fiecare lumânare spune o mică poveste cu doar patru numere: unde s-a deschis prețul, cel mai sus unde a ajuns, cel mai jos unde a căzut și unde s-a închis. Corpul plin merge de la deschidere la închidere, iar culoarea îți spune cine a câștigat: verde înseamnă că închiderea a terminat peste deschidere, roșu înseamnă că vânzătorii l-au tras sub ea. Asta e tot trucul. Învață să citești corect o lumânare și fiecare grafic din lume se transformă dintr-un zid de zgomot într-o bandă desenată. 🟢",
+      "quiz": {
+        "q": "Lumânarea aceasta e verde. Ce îți spune despre acea perioadă de tranzacționare?",
+        "options": [
+          "Prețul s-a închis mai jos decât s-a deschis",
+          "Mai mulți oameni au cumpărat decât au vândut, garantat",
+          "Prețul s-a închis mai sus decât s-a deschis",
+          "Prețul nu a scăzut deloc în acea perioadă"
+        ]
+      }
+    },
+    "46": {
+      "title": "Fitilele spun povești",
+      "desc": "Anatomia lumânării: maxime și minime",
+      "content": "Corpul arată unde s-a deschis și s-a închis perioada, dar fitilele arată întreaga călătorie: fiecare preț la care a ajuns de fapt lupta. Un fitil lung înseamnă că a avut loc o bătălie mare dincolo de deschidere și închidere, iar partea care a lăsat fitilul în urmă a pierdut acea bătălie. Fitil lung jos? Vânzătorii au împins tare și au fost respinși. Fitil lung sus? Cumpărătorii au urcat sus și au fost respinși. Corpul e titlul, fitilele sunt bârfa. 📏",
+      "quiz": {
+        "q": "Ce arată de fapt liniile subțiri (fitilele) de deasupra și de sub corp?",
+        "options": [
+          "Cele mai mari și cele mai mici prețuri tranzacționate în acea perioadă",
+          "Deschiderea și închiderea de ieri",
+          "Prețurile exacte la care au avut loc cele mai multe tranzacții",
+          "O prognoză a intervalului de mâine"
+        ]
+      }
+    },
+    "47": {
+      "title": "Doji",
+      "desc": "Lumânări individuale: indecizie",
+      "content": "Uneori o lumânare se deschide și se închide aproape exact la același preț, lăsând un corp minuscul cu fitile de o parte și de alta. Acesta e un doji și înseamnă că lupta s-a terminat la egalitate perfectă: cumpărătorii și vânzătorii au tras tare toată sesiunea și niciuna dintre părți n-a câștigat. Singur, e doar o ridicare din umeri. După o creștere puternică, poate sugera că trendul obosește, pentru că partea care câștiga brusc n-a mai putut mișca prețul. Un indiciu de reținut, niciodată o garanție. 🤝",
+      "quiz": {
+        "q": "Lumânarea evidențiată s-a deschis și s-a închis aproape exact la același preț. Cum se numește și ce sugerează?",
+        "options": [
+          "Un marubozu, semn de convingere totală într-o direcție sau alta",
+          "Un ciocan, semn că cumpărătorii au preluat din nou controlul",
+          "Un gap, semn că tranzacționarea s-a oprit peste noapte",
+          "Un doji, semn de indecizie între cumpărători și vânzători"
+        ]
+      }
+    },
+    "48": {
+      "title": "Ciocanul",
+      "desc": "Lumânări individuale: contraatacul",
+      "content": "Imaginează-ți o sesiune brutală: vânzătorii trântesc prețul în jos, apoi cumpărătorii îl trag înapoi până sus înainte de închidere. Ce rămâne pe grafic e un ciocan (hammer): un corp mic aproape de vârf, cu un fitil inferior lung, de cel puțin două ori mai mare decât corpul. După o alunecare în jos, un ciocan spune că vânzătorii și-au dat cea mai bună lovitură și n-au nimerit. Asta marchează adesea o posibilă întoarcere. Posibilă, nu promisă, așa că tratează-l ca pe un indiciu de urmărit, nu ca pe un ordin de cumpărare. 🔨",
+      "quiz": {
+        "q": "După o alunecare în jos, lumânarea evidențiată a format un fitil inferior lung și un corp mic aproape de vârf. Ce este?",
+        "options": [
+          "O stea căzătoare, semn că vânzătorii au preluat controlul",
+          "Un ciocan, semn că cumpărătorii au ripostat puternic",
+          "Un doji, o egalitate perfectă",
+          "Dovada că trendul descendent s-a terminat"
+        ]
+      }
+    },
+    "49": {
+      "title": "Steaua căzătoare",
+      "desc": "Lumânări individuale: respingere la vârf",
+      "content": "Imaginea în oglindă a ciocanului. După o urcare puternică, cumpărătorii încearcă încă un maxim nou, sunt respinși puternic, iar prețul se închide înapoi jos, aproape de unde s-a deschis. Graficul arată un corp mic în partea de jos a lumânării, cu un fitil superior lung: o stea căzătoare (shooting star). Înseamnă că vânzătorii au apărut în sfârșit la vârf cu destulă forță cât să câștige sesiunea. După o creștere mare, această respingere contează adesea. Adesea, nu întotdeauna. 🌠",
+      "quiz": {
+        "q": "După o urcare puternică, lumânarea evidențiată a țâșnit în sus, apoi s-a închis aproape de minimul ei, lăsând un fitil superior lung. Ce este?",
+        "options": [
+          "O stea căzătoare, semn că vânzătorii au apărut la vârf",
+          "Un ciocan, semn că cumpărătorii au revenit la conducere",
+          "Un marubozu verde, putere de cumpărare pură",
+          "O garanție că prețul se prăbușește mâine"
+        ]
+      }
+    },
+    "50": {
+      "title": "Marubozu",
+      "desc": "Lumânări individuale: convingere totală",
+      "content": "Un marubozu este un singur corp plin, fără niciun fitil: prețul s-a deschis și a mărșăluit într-o singură direcție toată sesiunea, fără să se uite vreodată înapoi. Nicio luptă, nicio ezitare, convingere totală de la o singură parte. Un marubozu verde strigă încrederea cumpărătorilor, unul roșu strigă opusul. Sunt rare, și exact de aceea traderii devin atenți când apare unul. 💪",
+      "quiz": {
+        "q": "Lumânarea evidențiată este un singur corp plin, fără niciun fitil. Ce îți spune această formă?",
+        "options": [
+          "Nimeni n-a tranzacționat în acea perioadă, așa că a rămas plată",
+          "Piața s-a închis mai devreme în ziua aceea și a scurtat-o",
+          "O singură parte a avut controlul de la deschidere la închidere, convingere totală",
+          "Cumpărătorii și vânzătorii au fost perfect echilibrați de la început până la sfârșit"
+        ]
+      }
+    },
+    "51": {
+      "title": "Învăluire de creștere",
+      "desc": "Modele din două lumânări: cumpărătorii lovesc",
+      "content": "Două lumânări, un singur mesaj. Mai întâi o lumânare roșie mică, nimic neobișnuit într-un trend descendent. Apoi un corp verde mare care o înghite complet: într-o singură sesiune, cumpărătorii au șters tot ce reușiseră vânzătorii cu o zi înainte, și chiar mai mult. Apărând după un trend descendent, învăluirea de creștere (bullish engulfing) este unul dintre cele mai urmărite indicii de inversare de pe orice grafic, pentru că arată cum balanța puterii se întoarce într-o singură lumânare. Indiciu, nu contract. 🐂",
+      "quiz": {
+        "q": "Corpul verde mare înghite complet corpul roșu dinaintea lui. Ce model din două lumânări este acesta?",
+        "options": [
+          "O învăluire de scădere, vânzătorii au preluat controlul",
+          "O învăluire de creștere, cumpărătorii i-au copleșit pe vânzători",
+          "Un dublu minim",
+          "Două doji la rând"
+        ]
+      }
+    },
+    "52": {
+      "title": "Învăluire de scădere",
+      "desc": "Modele din două lumânări: vânzătorii lovesc",
+      "content": "Imaginea în oglindă a versiunii de creștere. În vârful unei urcări, un corp roșu mare înghite întregul corp verde dinaintea lui: vânzătorii au șters într-o singură lumânare cumpărăturile din ziua precedentă, exact acolo unde urcarea era deja întinsă și ultimii cumpărători erau agitați. Asta tinde să-i agite și pe restul cumpărătorilor. Când o vezi după o creștere lungă, ia-o în serios. 🐻",
+      "quiz": {
+        "q": "În vârful unei urcări, corpul roșu mare înghite întregul corp verde dinaintea lui. Cum se numește această pereche?",
+        "options": [
+          "O învăluire de creștere, urcarea continuă",
+          "Un ciocan urmat de un doji",
+          "O străpungere peste rezistență",
+          "O învăluire de scădere, vânzătorii i-au copleșit pe cumpărători"
+        ]
+      }
+    },
+    "53": {
+      "title": "Cum recunoști un trend ascendent",
+      "desc": "Trenduri: maxime mai mari, minime mai mari",
+      "content": "Un trend ascendent are nevoie de ambele jumătăți: maxime mai mari ȘI minime mai mari. Fiecare vârf îl depășește pe precedentul, iar fiecare scădere se oprește mai sus decât cea dinainte, pentru că cumpărătorii intră de fiecare dată mai devreme. Forma asta de scară e piața care îți spune că cererea e la conducere. Un singur maxim mai mare nu dovedește nimic. Modelul este perechea, repetată. 📈",
+      "quiz": {
+        "q": "Fiecare vârf îl depășește pe precedentul, iar fiecare scădere se oprește mai sus decât cea dinainte. Ce arată acest grafic?",
+        "options": [
+          "Un trend ascendent, maxime mai mari și minime mai mari",
+          "Un trend descendent, maxime mai mici și minime mai mici",
+          "Un interval, prețul blocat între o podea și un tavan",
+          "Un dublu maxim în formare"
+        ]
+      }
+    },
+    "54": {
+      "title": "Cum recunoști un trend descendent",
+      "desc": "Trenduri: maxime mai mici, minime mai mici",
+      "content": "Întoarce scara cu susul în jos. Maximele mai mici înseamnă că vânzătorii atacă mai devreme la fiecare revenire, minimele mai mici înseamnă că cumpărătorii se retrag mai mult la fiecare scădere. Cât timp structura asta rezistă, vânzătorii conduc spectacolul, iar să te lupți cu ea e felul în care traderii noi le donează bani celor răbdători. Trendul nu e dușmanul tău, dar să te prefaci că nu există chiar este. 📉",
+      "quiz": {
+        "q": "Fiecare revenire se oprește mai jos decât precedenta, iar fiecare scădere taie mai adânc. La ce te uiți?",
+        "options": [
+          "Un trend ascendent care doar își trage sufletul",
+          "Un interval lateral",
+          "Un trend descendent, maxime mai mici și minime mai mici",
+          "Un model de învăluire de creștere în formare"
+        ]
+      }
+    },
+    "55": {
+      "title": "Piața laterală",
+      "desc": "Trenduri: jocul așteptării",
+      "content": "Uneori niciuna dintre părți nu câștigă, așa că prețul face ping-pong între aceeași podea și același tavan săptămâni întregi. Acesta e un interval (range), iar piețele își petrec o mare parte din viață făcând exact asta. Nu e stricată și nu e plictisitoare, e piața care își trage sufletul. Traderii răbdători învață să iubească așteptarea, pentru că, cu cât un interval rezistă mai mult, cu atât evadarea finală tinde să conteze mai mult. 🏓",
+      "quiz": {
+        "q": "De săptămâni întregi prețul sare între aceeași podea și același tavan. Cum se numește asta?",
+        "options": [
+          "Un trend ascendent, atinge mereu tavanul",
+          "Un interval, piața se mișcă lateral",
+          "Un cap și umeri",
+          "O străpungere în desfășurare"
+        ]
+      }
+    },
+    "56": {
+      "title": "Suportul",
+      "desc": "Suport și rezistență: podeaua",
+      "content": "Când prețul tot coboară la același nivel și revine de fiecare dată, traderii numesc acel nivel suport: o podea unde cumpărătorii tot decid că prețul e un chilipir. Cu cât rezistă de mai multe ori, cu atât mai mulți oameni îl urmăresc, și ăsta e parțial motivul pentru care continuă să reziste. Dar ține minte că podeaua e trasă de oameni, nu de lege. Suportul se poate rupe și chiar se rupe, iar când se întâmplă, mulțimea care miza pe revenire devine mulțimea în panică. 🧱",
+      "quiz": {
+        "q": "Prețul a coborât de trei ori în nivelul umbrit și a revenit de fiecare dată. Cum numesc traderii acel nivel?",
+        "options": [
+          "Rezistență, un tavan unde vânzătorii se înghesuie",
+          "O linie de trend, nivelurile trebuie să fie diagonale",
+          "Un stop-loss stabilit de bursă",
+          "Suport, o podea unde cumpărătorii tot intră"
+        ]
+      }
+    },
+    "57": {
+      "title": "Rezistența",
+      "desc": "Suport și rezistență: tavanul",
+      "content": "Rezistența este tavanul: un nivel unde fiecare creștere se tot blochează pentru că vânzătorii sunt bucuroși să încaseze acolo. Uită-te la un grafic care se lovește cu capul de același preț de trei ori și vezi rezistența lucrând în timp real. Iată răsturnarea de situație care merită ținută minte: dacă prețul trece vreodată prin el cu convingere reală, vechiul tavan începe adesea să se poarte ca o podea nouă. 🪟",
+      "quiz": {
+        "q": "Trei creșteri separate s-au blocat la nivelul umbrit. Cum se numește acel nivel?",
+        "options": [
+          "Rezistență, un tavan unde vânzătorii tot împing înapoi",
+          "Suport, o podea aflată sub preț",
+          "Nivelul dividendului, stabilit o dată pe an",
+          "Un vârf de volum, care nu spune nimic despre preț"
+        ]
+      }
+    },
+    "58": {
+      "title": "Liniile de trend",
+      "desc": "Linii de trend și canale: linia care contează",
+      "content": "Unește minimele în creștere de pe un grafic și ai desenat o linie de trend. Oricare două puncte formează o linie, dar a treia atingere e momentul în care începe să dovedească că contează, pentru că arată că cumpărătorii apără mereu același nivel în urcare. Fiecare atingere respectată în plus e o dovadă în plus. Rămâne o dovadă, niciodată o promisiune: o linie de trend e un semn de creion, nu un câmp de forță. ✏️",
+      "quiz": {
+        "q": "Această linie în urcare a fost atinsă de trei ori separat. De ce le pasă traderilor câte atingeri are o linie de trend?",
+        "options": [
+          "Nu le pasă, pentru că oricare două puncte fac dintr-o linie de trend o regulă",
+          "Trei atingeri înseamnă că a patra revenire e garantată",
+          "Mai multe atingeri fac linia mai semnificativă, cumpărătorii o tot apără",
+          "Liniile de trend contează doar pe graficele zilnice, niciodată pe cele mai scurte"
+        ]
+      }
+    },
+    "59": {
+      "title": "Canalele",
+      "desc": "Linii de trend și canale: banda",
+      "content": "Un canal e un trend cu maniere. Prețul urcă în timp ce sare între două linii paralele: o podea de minime în creștere și un tavan de maxime în creștere, care urcă împreună ca marginile unei benzi. Traderii urmăresc ambele margini pentru reveniri și urmăresc și mai atent ziua în care prețul iese din bandă, pentru că o ieșire clară dintr-un canal e adesea locul de unde începe următoarea mișcare mare. 🛣️",
+      "quiz": {
+        "q": "Prețul urcă în timp ce sare între două linii paralele. Ce model este acesta?",
+        "options": [
+          "Un triunghi, unde cele două linii trebuie să se întâlnească",
+          "Un canal ascendent, un trend ascendent cu o bandă vizibilă",
+          "Un dublu maxim",
+          "Un interval plat care nu duce nicăieri"
+        ]
+      }
+    },
+    "60": {
+      "title": "Dublul maxim",
+      "desc": "Modele grafice: forma de M",
+      "content": "Prețul se izbește de același tavan de două ori, eșuează de ambele dăți și desenează un M mare pe grafic. Dacă trece sub scăderea din mijloc (linia gâtului), dublul maxim (double top) e complet: un indiciu clasic de inversare în scădere. Imaginea lui în oglindă, W-ul, este dublul minim și arată în cealaltă direcție. Tinde să marcheze un vârf, dar nu e obligat. Nimic de pe un grafic nu e obligat. Ⓜ️",
+      "quiz": {
+        "q": "Prețul s-a izbit de același tavan de două ori, a eșuat de ambele dăți, apoi a trecut sub scăderea din mijloc. Ce formă este aceasta?",
+        "options": [
+          "Un dublu minim, un indiciu de creștere",
+          "Un canal ascendent",
+          "Un ciocan",
+          "Un dublu maxim, un indiciu de inversare în scădere"
+        ]
+      }
+    },
+    "61": {
+      "title": "Când modelele eșuează",
+      "desc": "Modele grafice: probabilități, nu promisiuni",
+      "content": "Aceasta este cea mai valoroasă lecție din modul. Un model ca la carte s-a format, toată lumea l-a văzut, iar apoi piața a făcut exact opusul. Fiecare model pe care l-ai învățat eșuează uneori, iar asta nu înseamnă că graficul te minte, ci că îți dă o informație: partea pe care ai pariat tocmai a pierdut. Decide-ți ieșirea înainte să intri, iar când un model eșuează, înțelege aluzia și ieși. Modelele sunt probabilități, niciodată promisiuni. 🚪",
+      "quiz": {
+        "q": "Un dublu minim ca la carte s-a format la podeaua umbrită... apoi prețul s-a prăbușit direct prin ea. Care e lecția sinceră?",
+        "options": [
+          "Modelele sunt probabilități, nu promisiuni, iar un model eșuat e semnalul tău să ieși",
+          "Dublurile minime reale nu eșuează niciodată, deci cel la care te uitai trebuie să fi fost fals",
+          "Cumpără mai mult la prețul mai mic, pentru că modelul tot se va împlini până la urmă",
+          "Graficele nu mai funcționează deloc odată ce un model a eșuat așa în fața ta"
+        ]
+      }
+    },
+    "62": {
+      "title": "Cap și umeri",
+      "desc": "Modele grafice: trei vârfuri",
+      "content": "Trei vârfuri: unul mai înalt la mijloc (capul), câte unul mai jos de fiecare parte (umerii) și o linie sub cele două scăderi, numită linia gâtului. Se formează când cumpărătorii reușesc o ultimă împingere, mai sus, iar apoi nici măcar nu o mai pot egala la următoarea încercare. Forma în sine e doar un avertisment. Partea pe care o așteaptă de fapt traderii este o trecere decisivă sub linia gâtului, pentru că atunci modelul încetează să fie un desen și devine o decizie. 👤",
+      "quiz": {
+        "q": "Trei vârfuri: unul mai înalt la mijloc, câte unul mai jos de fiecare parte și o podea care unește cele două scăderi. Ce formă clasică este aceasta?",
+        "options": [
+          "Un triplu minim, trei minime egale înainte de o împingere în sus",
+          "Un cap și umeri, un posibil sfârșit al trendului ascendent",
+          "Un triunghi ascendent",
+          "Trei ciocane la rând, fiecare respingând prețuri mai mici"
+        ]
+      }
+    },
+    "63": {
+      "title": "Strânsoarea triunghiului",
+      "desc": "Modele grafice: arcul comprimat",
+      "content": "Când oscilațiile se tot micșorează, cu minime mai mari care apasă în sus spre maxime mai mici, piața se comprimă ca un arc. Acesta e un triunghi: ambele părți rămân fără spațiu și o decizie e forțată. Strânsoarea se termină adesea cu o explozie, și iată capcana: direcția exploziei nu se cunoaște dinainte. Așteaptă ruperea în loc să o ghicești. Piața îți va spune, și nu-ți cere nimic pentru informație. 🌀",
+      "quiz": {
+        "q": "Oscilațiile se tot micșorează, strângând prețul într-un arc tot mai comprimat, până când în sfârșit explodează. Ce era arcul?",
+        "options": [
+          "Un canal, două linii paralele care nu se întâlnesc niciodată",
+          "Un dublu maxim",
+          "Un triunghi, o consolidare care se termină adesea cu o străpungere",
+          "Dovada că prețul trebuia să rupă în sus de aici"
+        ]
+      }
+    },
+    "64": {
+      "title": "Volumul: detectorul de minciuni",
+      "desc": "Volum: cine a venit cu adevărat",
+      "content": "Volumul este numărul de acțiuni care au schimbat proprietarul și e detectorul de minciuni al graficelor. O străpungere pe volum mic e o șoaptă care păcălește oamenii: o mână de tranzacții a împins prețul undeva unde nu poate rămâne. O străpungere pe volum mare e o mulțime care votează efectiv cu bani. Aceeași mișcare de preț, cu totul alt înțeles. Înainte să crezi orice mișcare mare, verifică cine a venit la ea. 🔊",
+      "quiz": {
+        "q": "Două încercări de evadare de sub același tavan: prima, pe volum mic, a eșuat, a doua a venit cu volum uriaș și a rezistat. Ce face volumul aici?",
+        "options": [
+          "Absolut nimic, volumul nu contează niciodată pentru o mișcare de preț",
+          "Forțează prețul în sus, pentru că volumul mare împinge prețurile mai sus",
+          "Prezice vârful exact al mișcării înainte să se întâmple",
+          "Servește drept confirmare, volumul mare arată convingere reală în spatele mișcării"
+        ]
+      }
+    },
+    "65": {
+      "title": "Recunoașterea trendurilor",
+      "desc": "Zece grafice, fără etichete, fără milă",
+      "content": "Zece grafice. Fără etichete, fără linii ajutătoare, fără indicii. Spune ce arată fiecare, exact ca un trader adevărat care se uită la un ecran adevărat. Fă 8 din 10 și modulul e al tău. Ai 3 încercări pe zi, așa că ia-o încet, citește lumânările și ține minte cea mai importantă lecție dintre toate: uneori răspunsul sincer este că nu există niciun model. 🕯️",
+      "bossVictory": "Modulul de trenduri e cucerit. Acum tu citești graficele, nu graficele pe tine. 🕯️",
+      "bossQuestions": {
+        "0": {
+          "q": "Ce arată acest grafic?",
+          "explanation": "Dezordonat intenționat. Dacă elimini zgomotul, fiecare maxim al oscilațiilor îl depășește tot pe precedentul, iar fiecare scădere tot se oprește mai sus. Trendurile reale arată așa, nu ca o scară din manual.",
+          "options": [
+            "Un trend descendent, maxime mai mici și minime mai mici",
+            "Un trend ascendent, maxime mai mari și minime mai mari",
+            "Un interval lateral",
+            "Un dublu maxim"
+          ]
+        },
+        "1": {
+          "q": "Ce s-a întâmplat la perechea de lumânări evidențiată?",
+          "explanation": "Corpul roșu a înghițit întregul corp verde imediat după o urcare lungă. Asta e învăluirea de scădere făcând exact ce face: apare acolo unde cumpărătorii sunt cei mai întinși.",
+          "options": [
+            "O învăluire de creștere",
+            "Un doji la vârf",
+            "Un ciocan",
+            "O învăluire de scădere în vârful unei creșteri"
+          ]
+        },
+        "2": {
+          "q": "Ce arată acest grafic?",
+          "explanation": "Vârful din mijloc stă clar deasupra celor două de o parte și de alta, iar scăderile se aliniază într-o linie a gâtului. Cele reale nu sunt niciodată simetrice, și exact așa arată în realitate.",
+          "options": [
+            "Un cap și umeri",
+            "Un triplu maxim cu trei vârfuri egale",
+            "Un triunghi ascendent",
+            "Un canal ascendent"
+          ]
+        },
+        "3": {
+          "q": "Ce arată acest grafic?",
+          "explanation": "Două sondări ale aceleiași podele, a doua puțin mai puțin adâncă, apoi o împingere în sus prin revenirea din mijloc. Forma de W, desenată de o piață reală, nu de un manual.",
+          "options": [
+            "Un cap și umeri",
+            "Un triunghi descendent",
+            "Un dublu minim",
+            "Un steag de scădere (bear flag)"
+          ]
+        },
+        "4": {
+          "q": "Ce este lumânarea evidențiată?",
+          "explanation": "Fitil superior lung, corp minuscul parcat în partea de jos a intervalului, imediat după o creștere. Cumpărătorii au încercat un maxim nou și au fost trântiți înapoi înainte de închidere.",
+          "options": [
+            "Un ciocan",
+            "Un marubozu verde",
+            "Un doji",
+            "O stea căzătoare după o urcare"
+          ]
+        },
+        "5": {
+          "q": "Ce arată acest grafic?",
+          "explanation": "Aceeași podea și același tavan sunt respectate mereu, iar tot ce e între ele e zgomot. Nicio parte nu câștigă, deci nu există niciun trend pe care să-l prinzi.",
+          "options": [
+            "Un interval, prețul închis între suport și rezistență",
+            "Un trend ascendent, maxime mai mari și minime mai mari",
+            "O pană descendentă",
+            "O străpungere în desfășurare"
+          ]
+        },
+        "6": {
+          "q": "Prețul a străpuns peste vechiul tavan, apoi scăderea marcată cu săgeată a revenit la acel nivel și a rezistat. Ce a fost scăderea?",
+          "explanation": "Scăderea a revenit exact la nivelul care fusese tavanul, a găsit cumpărători acolo, iar trendul a continuat. Asta e o retragere (pullback). O inversare ar fi tăiat prin nivel și ar fi continuat să scadă.",
+          "options": [
+            "O inversare completă într-un trend descendent",
+            "O retragere, o retestare a nivelului străpuns",
+            "Un dublu maxim",
+            "Un salt de pisică moartă (dead cat bounce)"
+          ]
+        },
+        "7": {
+          "q": "Ce arată acest grafic?",
+          "explanation": "Podea plată, maxime mai mici care apasă pe ea, vânzători care apar tot mai devreme la fiecare revenire. Podeaua a cedat până la urmă, care e rezultatul spre care tinde adesea această formă. Adesea, niciodată întotdeauna.",
+          "options": [
+            "Un triunghi ascendent",
+            "Un canal ascendent",
+            "Un triunghi descendent sprijinit pe suport",
+            "Un dublu minim"
+          ]
+        },
+        "8": {
+          "q": "Ce arată acest grafic?",
+          "explanation": "Întrebarea capcană și cea mai valoroasă din testul final. Majoritatea graficelor, de cele mai multe ori, nu arată nimic care să merite tranzacționat. Să vezi modele care nu există e felul în care pierd începătorii. Să spui „nicio tranzacție” e o abilitate. 🎯",
+          "options": [
+            "Un cap și umeri",
+            "Un dublu maxim",
+            "Un trend ascendent",
+            "Niciun model clar, nu e nimic de tranzacționat aici"
+          ]
+        },
+        "9": {
+          "q": "Ce arată acest grafic?",
+          "explanation": "Prețul a ieșit peste tavan pe un volum slab, cumpărătorii au fugit după el, apoi s-a prăbușit direct înapoi în interval. Străpungerea care eșuează e exact motivul pentru care lecția despre volum ți-a spus să verifici volumul înainte să crezi una.",
+          "options": [
+            "O capcană pentru tauri (bull trap), o străpungere eșuată care a atras cumpărătorii",
+            "O străpungere reușită cu o retestare curată",
+            "Un dublu minim",
+            "O inversare de tip ciocan"
+          ]
+        }
+      }
+    },
+    "66": {
+      "title": "Aici nu deții nimic",
+      "desc": "Un instrument derivat e un pariu pe un număr",
+      "content": "Tot ce ai învățat până acum avea ceva real în spate. Cumperi o acțiune {retail} și deții o felie din companie: o felie din magazine, o felie din profituri, un vot la adunare și un dividend când îl plătesc.\n\nUn instrument derivat nu e așa ceva.\n\nUn CFD (contract pentru diferență) este un acord între tine și un furnizor de a schimba diferența de preț dintre momentul în care deschizi și momentul în care închizi. Asta e tot produsul. Dacă {retail} crește și tu ai pariat pe creștere, ei îți plătesc diferența. Dacă scade, tu le plătești lor. Nimeni nu cumpără nicio acțiune. Nimeni nu vinde nicio acțiune. Nu există acțiuni nicăieri în această tranzacție.\n\nUn contract futures este un contract de a cumpăra sau vinde ceva la un preț stabilit, la o dată stabilită. Cele reale se decontează în barili reali de petrol sau tone de porumb, dar aproape nimeni nu le ține atât de mult, așa că în practică majoritatea contractelor futures sunt tot un pariu pe un număr, doar că au și un termen-limită.\n\nDe ce contează asta mai mult decât pare:\n\n• Fără dividende. Fără Money Babies. Lucrul care a construit în liniște cea mai mare parte a randamentelor din lecția 15 pur și simplu nu există aici.\n• Fără vot, fără proprietate, nimic de păstrat. Nu există opțiunea „îl țin zece ani și gata”, pentru că nu ai ce ține.\n• Fără dobândă compusă. Restul acestei aplicații petrece 65 de lecții învățându-te că timpul e de partea ta. În camera asta, timpul te costă bani. Vei vedea exact cât în lecția 72.\n\nTot ce știi deja contează în continuare. Doar că nu mai e ceea ce faci de fapt. 📄",
+      "quiz": {
+        "q": "Deschizi un CFD pe {retail} și prețul crește. Ce deții de fapt?",
+        "explanation": "Un CFD este un acord între tine și furnizor de a schimba diferența dintre prețul de la deschidere și prețul de la închidere. Nimeni nu cumpără nicio acțiune, nimeni nu vinde vreuna și nu există niciuna nicăieri în înțelegere. De aceea nu există dividend, nici vot și nimic de păstrat zece ani.",
+        "options": [
+          "Acțiuni pe care furnizorul le deține pe numele lui",
+          "Un contract de a schimba diferența de preț la final",
+          "O parte din companie și dividendele care vin cu ea",
+          "Un voucher care devine acțiuni reale când închizi"
+        ]
+      }
+    },
+    "67": {
+      "title": "Împrumut de la un prieten",
+      "desc": "Ce este de fapt efectul de levier și partea pe care n-o postează nimeni",
+      "content": "Efectul de levier sună tehnic. Nu e. E un împrumut.\n\nSă zicem că vrei acțiuni de {c}1,000, dar ai doar {c}200. Un prieten se oferă să pună restul de {c}800. Controlezi acțiuni de {c}1,000 cu {c}200 din banii tăi. Asta e efectul de levier. Asta e toată ideea.\n\nAcum, cele trei lucruri pe care le face prietenul ăsta. Ai nevoie de toate trei, altfel ți s-a vândut un basm.\n\n1️⃣ CÂȘTIGUL E CHIAR AL TĂU. Acțiunile cresc cu 10%. Cei {c}1,000 ai tăi sunt acum {c}1,100. Asta înseamnă {c}100 profit și păstrezi fiecare bănuț, pentru că prietenului i se datorează {c}800 și nimic în plus (moneda: {cName}). Raportat la cei {c}200 ai tăi, {c}100 înseamnă un câștig de 50%. O mișcare de 10% ți-a adus 50%. Asta e partea despre care postează toată lumea.\n\n2️⃣ ÎMPRUMUTUL NU SE MICȘOREAZĂ CÂND GREȘEȘTI. Asta e partea despre care nu postează nimeni și e toată lecția. Acțiunile scad în schimb cu 10%. Cei {c}1,000 ai tăi sunt acum {c}900. Tot îi datorezi prietenului întregii {c}800. Nu {c}720. Întregii {c}800. Așa că toată scăderea de {c}100 iese din partea TA, iar cei {c}200 ai tăi sunt acum {c}100. O mișcare de 10% te-a costat 50%.\n\nCitește-le din nou pe amândouă. Același prieten, aceleași 10%. Banii tăi se mișcă de cinci ori mai repede în ambele direcții, pentru că împrumutul nu preia niciodată o parte din durere.\n\n3️⃣ PRIETENUL CERE CHIRIE, ZILNIC, PE TOT. Nu pe cei {c}800 ai lui. Pe întregii {c}1,000 pe care îi controlezi. În fiecare noapte în care ții poziția, fie că prețul a crescut, a scăzut sau a stat pe loc.\n\nȘi mai e un al patrulea lucru ascuns în al treilea. Dacă cei {c}200 ai tăi se împuținează, prietenul nu te sună să discutați. Vinde. Imediat, automat, la orice preț e disponibil, pentru că cei {c}800 ai lui sunt în pericol și nu așteaptă părerea ta. Asta are un nume și îl vei întâlni peste trei lecții: lichidarea.\n\nAșadar: câștiguri mai mari, pierderi mai mari, chirie în fiecare noapte și degetul altcuiva pe butonul de vânzare. Efectul de levier nu e bani gratis cu un pic de risc atașat. E un împrumut cu toate cele patru atașate, iar reclamele îți arată mereu doar primul. 🧠",
+      "quiz": {
+        "q": "Un prieten pune 800 NT, tu pui 200 NT și împreună controlați acțiuni de 1,000 NT. Acțiunile scad cu 10%. Trage la cât valorează acum cei 200 NT ai tăi.",
+        "explanation": "Împrumutul nu se micșorează când greșești. Acțiunile valorează acum 900 NT, iar prietenului tău i se datorează în continuare întregii 800 NT, deci ție îți rămân 100 NT. O scădere de 10% a acțiunilor ți-a luat jumătate din bani, pentru că împrumutul nu preia nimic din durere. În sus funcționează la fel, și asta e jumătatea pe care ți-o arată reclamele."
+      }
+    },
+    "68": {
+      "title": "Marja e o garanție, nu o cumpărare",
+      "desc": "Banii pe care îi depui nu sunt cheltuiți, sunt în joc",
+      "content": "Când cumperi o acțiune cu {c}100, acei {c}100 dispar din numerarul tău și o acțiune apare în contul tău. Un schimb simplu.\n\nMarja nu funcționează așa. Când deschizi o poziție cu efect de levier, depui o garanție, iar acea garanție nu e plata pentru nimic. E un depozit de siguranță pentru propriile tale pierderi. Stă acolo, blocat, iar poziția îl mănâncă pe măsură ce prețul se mișcă împotriva ta.\n\nSă zicem că rata garanției e 25%. Depui 250 NT și controlezi o expunere de 1,000 NT. Urmărește-ți contul:\n\n• Preț neschimbat: cei 250 ai tăi sunt tot 250. Doar că a început finanțarea, așa că, pe tăcute, sunt mai puțini.\n• Preț în scădere cu 5%: poziția a pierdut 50 NT. Garanția ta e efectiv 200. Numerarul liber nu s-a mișcat. Contul tău e mai mic.\n• Preț în scădere cu 20%: poziția a pierdut 200 NT. Garanția ta a scăzut la 50. N-ai făcut nimic. N-ai vândut nimic. Doar te-ai uitat.\n\nTrei termeni care apar pe fiecare ecran din camera asta:\n\n🔒 MARJĂ UTILIZATĂ: toate garanțiile pe care le ai depuse în acest moment.\n💰 CAPITALUL CONTULUI: numerarul tău liber, plus marja depusă, plus sau minus profitul și pierderea fiecărei poziții deschise, minus finanțarea taxată până acum. Cât valorează de fapt contul tău dacă totul s-ar închide chiar acum.\n📊 NIVEL DE MARJĂ: capitalul împărțit la marja utilizată. Peste 100% ai o pernă. Sub 100%, piața a terminat perna și a început să mănânce garanția.\n\nȘi o regulă care surprinde pe toată lumea: marja se măsoară pe tot contul, nu pe fiecare poziție. O poziție pe pierdere mănâncă garanția care susține una pe câștig. De aceea „cealaltă tranzacție a mea e în regulă” nu e o apărare. 🔒",
+      "quiz": {
+        "q": "Rata garanției e 25%, așa că 250 NT din banii tăi controlează o expunere de 1,000 NT. Prețul scade cu 8% în timp ce tu nu faci absolut nimic. Trage la cât te-a costat această scădere.",
+        "explanation": "O garanție nu e plata pentru nimic, e o asigurare, iar pierderea se calculează pe întregii 1,000 NT pe care îi controlezi. 8% din 1,000 NT înseamnă 80 NT. N-ai vândut nimic și numerarul tău liber nu s-a mișcat, dar 80 NT din garanția ta de 250 NT au fost mâncați, iar contul tău e cu 80 NT mai mic. Dacă calculezi cei 8% din garanție, obții 20 NT, iar asta e greșeala care face efectul de levier să pară blând."
+      }
+    },
+    "69": {
+      "title": "Apelul în marjă",
+      "desc": "O cerere, nu un avertisment",
+      "content": "Un apel în marjă (margin call) este momentul în care nivelul tău de marjă scade sub 100%. Pe înțelesul tuturor: perna de profit s-a terminat, iar piața a început să mănânce chiar garanția.\n\nIată cum se simte de fapt, pentru că versiunea din manual ratează partea importantă.\n\nNu vine niciodată într-o zi bună. Vine când poziția arată deja urât, când ți-ai spus deja de două ori că își va reveni și când ești cel mai puțin capabil să iei o decizie calmă. Nu e o atenționare politicoasă. E o cerere: pune mai mulți bani, închide poziții sau o face furnizorul în locul tău.\n\nAi trei mutări și doar două dintre ele sunt ale tale.\n\n1️⃣ ÎNCHIZI ceva. Asta eliberează marjă instant și e aproape mereu răspunsul corect. Înseamnă și să recunoști că ai greșit, iar ăsta e adevăratul motiv pentru care oamenii nu o fac.\n2️⃣ ADAUGI bani. Asta nu rezolvă nimic. Îți cumpără spațiu ca să greșești mai mult timp, pe o poziție pe care ai ales-o deja prost, cu bani pe care nu plănuiai să-i riști. Să adaugi numerar la un apel în marjă e felul în care o tranzacție proastă devine o lună proastă.\n3️⃣ NU FACI NIMIC. Atunci a treia mutare se întâmplă fără tine și are un nume.\n\nAutoritățile de reglementare iau asta atât de în serios încât au scris un număr în lege. Firmele din Europa, Regatul Unit și Australia trebuie să închidă automat pozițiile unui client de retail când marja lui scade la 50% din cât era necesar. Nu „ar trebui”. Trebuie. Au scris regula asta pentru că, atunci când oamenii au fost lăsați să decidă singuri, au ales opțiunea 3 și au pierdut mai mult decât aveau. ⚠️",
+      "quiz": {
+        "q": "Nivelul tău de marjă a scăzut la 80% și ești într-un apel în marjă. Care reacție reduce de fapt riscul de lichidare, în loc doar să-l amâne?",
+        "explanation": "Închiderea îți dă garanția înapoi imediat, așa că nivelul de marjă sare pe loc. Adăugarea de numerar doar îți cumpără spațiu să greșești mai mult timp pe o tranzacție pe care ai ales-o deja prost. Așteptarea e felul în care se produce lichidarea. Iar o a doua poziție în direcția opusă are nevoie de propria garanție, deci folosește mai multă marjă, nu mai puțină.",
+        "options": [
+          "Să depui mai mult numerar în cont",
+          "Să aștepți ca nivelul de marjă să urce înapoi",
+          "Să închizi una dintre pozițiile deschise",
+          "Să deschizi o a doua poziție în direcția opusă"
+        ]
+      }
+    },
+    "70": {
+      "title": "Lichidarea și prețul pe care trebuie să-l știi dinainte",
+      "desc": "Prețul exact la care contul tău ajunge la zero",
+      "content": "Lichidarea înseamnă că furnizorul îți închide pozițiile în locul tău pentru că garanția ta aproape s-a terminat. E automată. E instantă. Nimeni nu-ți cere părerea, nimeni nu verifică dacă erai pe cale să ai dreptate și nu există contestație.\n\nCel mai util număr din tot acest modul este PREȚUL TĂU DE LICHIDARE: prețul real, exprimat în {cPlural}, la care se întâmplă asta.\n\nNu un procent. Un preț. Pentru că „ți-ai putea pierde garanția” e o propoziție la care poți da din cap și pe care o poți uita, în timp ce „{tech} la {c}87.40 și contul tău e gol” e un fapt pe care îl poți verifica pe grafic înainte să apeși ceva.\n\nFiecare ecran din camera asta ți-l arată înainte să confirmi, desenat pe aceeași scară de preț ca graficul, ca să vezi cât de departe e de fapt. Două lucruri vei observa imediat și amândouă sunt lecția:\n\n📏 O garanție mai mare împinge prețul de lichidare mai departe. Mai mulți bani de-ai tăi înseamnă că prețul are mai mult de căzut până se termină banii.\n⚡ O garanție mai mică îl trage chiar lângă prețul de azi. La o garanție de 10%, lichidarea e la aproximativ o mișcare de 10%, iar o mișcare de 10% e o săptămână obișnuită.\n\nApoi, capcana sinceră. Prețul de lichidare e locul unde motorul intenționează să te închidă, nu locul unde ai garanția că ieși. Dacă apare o veste proastă peste noapte și piața se redeschide mult sub acel nivel, ești închis la cât plătește de fapt piața. Acesta este golul de preț (gap), iar lecția 78 e despre el.\n\nAflă-ți prețul de lichidare înainte să deschizi. Dacă nu-l poți spune cu voce tare, nu înțelegi tranzacția pe care urmează s-o faci. 💀",
+      "quiz": {
+        "q": "Depui 200 NT ca garanție ca să controlezi 1,000 NT dintr-un activ cu prețul de 100 NT. Trage prețul în jos până unde garanția ta a dispărut.",
+        "explanation": "Controlezi 10 unități, așa că fiecare 1 NT cu care scade prețul te costă 10 NT. Garanția ta de 200 NT dispare la 80 NT, adică o scădere de doar 20%."
+      }
+    },
+    "71": {
+      "title": "Drumul înapoi e mai abrupt",
+      "desc": "De ce pierderile sunt mai greu de recuperat decât par",
+      "content": "Pierderile și câștigurile par opuse. Nu sunt, iar matematica nici pe departe nu e egală.\n\nPierzi 10%? Ai nevoie de +11% ca să revii. Enervant, dar ok.\nPierzi 50%? Ai nevoie de +100%. Trebuie să DUBLEZI doar ca să ieși pe zero.\nPierzi 75%? Ai nevoie de +300%.\nPierzi 90%? Ai nevoie de +900%.\n\nMotivul e simplu odată ce îl vezi: câștigul se calculează pe grămada mai mică pe care ți-a rămas. 100 scade la 50, iar ca să urce de la 50 înapoi la 100, grămada aceea mai mică trebuie să se dubleze.\n\nAcum adaugă efectul de levier și observă ce face de fapt. Nu doar îți face câștigurile mai rapide. Te coboară în tabelul ăsta într-o singură după-amiază. O scădere de 12% a unei acțiuni, adică o săptămână proastă dar perfect normală, înseamnă o lovitură de 48% pentru contul tău la o garanție de 25%. Acum ai nevoie de +92% ca să ajungi de unde ai plecat, după o săptămână care abia a apărut la știri.\n\nDe aceea profesioniștii vorbesc despre protejarea capitalului înainte de orice altceva și de aceea „o să-i recuperez” e cea mai scumpă propoziție din trading. Să recuperezi e matematic mai greu decât a fost să pierzi, de fiecare dată. ⛰️",
+      "quiz": {
+        "q": "Contul tău e pe minus 75%. Trage la câștigul de care ai nevoie de aici doar ca să revii de unde ai plecat.",
+        "explanation": "100 NT au scăzut la 25 NT. Ca să ajungă iar la 100, acei 25 trebuie să se împătrească, adică un câștig de 300%. Urcarea se măsoară pe grămada mai mică ce ți-a rămas, de aceea e mult mai abruptă decât a fost căderea."
+      }
+    },
+    "72": {
+      "title": "Chiria pe banii împrumutați",
+      "desc": "Ai dreptate cu direcția, dar tot ești pe minus",
+      "content": "Ai împrumutat expunerea. Așa că plătești pentru ea. În fiecare noapte.\n\nFinanțarea (în unele locuri i se spune swap sau comision overnight) se taxează zilnic, iar partea care îi prinde pe toți e asta: se taxează pe ÎNTREAGA poziție, nu pe partea pe care ai împrumutat-o. Depui 500 NT ca să controlezi 2,000 NT și plătești chirie pe 2,000.\n\nCum se calculează: o rată de dobândă de referință, plus adaosul furnizorului, împărțit la 365, înmulțit cu întreaga ta poziție. Vezi ambele jumătăți pe ecranul din această aplicație, pentru că un comision pe care nu-l poți descompune e un comision pe care nu-l poți judeca. La aproximativ 7.3% pe an, asta înseamnă cam 0.02% din poziție pe noapte.\n\nPare nimic. Acum uită-te cum mănâncă o tranzacție câștigătoare. 🧾\n\nTRANZACȚIA ÎN CARE AI DREPTATE ȘI TOT PIERZI\n\nDeschizi o poziție de 2,000 NT pe {retail} cu o garanție de 500 NT. Ești optimist și se dovedește că ai dreptate: în următoarele luni {retail} urcă încet cu 2%.\n\n• Câștigul tău: 2% din 2,000 = 40 NT. Pe o garanție de 500 NT, asta înseamnă +8%. Frumos.\n• Chiria ta: 0.02% din 2,000 = 0.40 NT, în fiecare noapte.\n\nNoaptea 50: ai plătit 20 NT. Ești pe plus 20 NT în total. Încă câștigi.\nNoaptea 100: ai plătit 40 NT. Cei 40 NT de profit valorează acum exact zero. Ai ghicit corect și n-ai câștigat nimic.\nNoaptea 180: ai plătit 72 NT. Câștigul tău e tot 40 NT. Ești pe MINUS 32 NT, adică minus 6.4% din garanție, într-o tranzacție în care ai citit corect piața timp de șase luni.\n\nCitește din nou. Prețul a făcut exact ce ai spus. Și tot ai pierdut.\n\nAceasta e propoziția de reținut din lecție: pe o poziție cu efect de levier, a avea dreptate are o dată de expirare. În exemplul ăsta e la 100 de nopți distanță, iar pe a ta o poți calcula înainte să deschizi. Împarte profitul pe care îl speri la chiria pe noapte. Atâtea nopți valorează părerea ta.\n\nMerită observat și opusul. Restul aplicației te învață despre dobânda compusă, unde timpul îți face în liniște bani cât dormi. Aici e aceeași mașinărie, mergând invers, îndreptată spre tine. ⏳",
+      "quiz": {
+        "q": "Ții o poziție cu efect de levier de 2,000 NT care costă 0.40 NT pe noapte în finanțare. Prețul crește suficient cât să-ți dea un câștig de 40 NT, apoi nu se mai mișcă. După câte nopți e câștigul mâncat complet?",
+        "options": [
+          "Nu e mâncat niciodată, pentru că finanțarea se taxează doar pe partea împrumutată",
+          "Cam 100 de nopți, pentru că 40 NT câștig împărțit la 0.40 NT pe noapte dă 100",
+          "Cam 20 de nopți, pentru că finanțarea se taxează pe garanția ta de 500 NT",
+          "Finanțarea se taxează doar când o poziție e închisă pe pierdere"
+        ]
+      }
+    },
+    "73": {
+      "title": "Contracte futures: ceasul și rostogolirea",
+      "desc": "Același cost, livrat altfel",
+      "content": "Contractele futures și CFD-urile sunt veri. Ambele au efect de levier, ambele folosesc marjă, ambele te pot lichida. Două lucruri fac contractele futures diferite, iar al doilea e cel interesant.\n\n⏰ 1. ARE O DATĂ PE EL. Fiecare contract futures expiră. Petrol pe martie, porumb pe iunie, indice pe septembrie. Când vine data, contractul se decontează și încetează să existe. „Țin și aștept să-și revină” pur și simplu nu e pe meniu, pentru că contractul nu va mai fi acolo. Un CFD nu expiră niciodată, ceea ce sună mai bine până îți amintești că cere chirie la nesfârșit.\n\n🔄 2. COSTUL E INCLUS ÎN PREȚ, NU FACTURAT ÎN FIECARE NOAPTE. Asta e partea pe care oamenii o ratează. Un contract futures nu-ți cere de obicei un comision de finanțare pe noapte. În schimb, costul păstrării activului până la acea dată e deja inclus în prețul contractului. Contractele pentru date mai îndepărtate costă adesea mai mult decât cele pentru date mai apropiate, iar diferența aceea e același cost de deținere, ascuns în număr.\n\nAșadar, ce se întâmplă când un trader vrea să păstreze poziția după expirare? O ROSTOGOLEȘTE (roll): închide contractul care expiră și îl deschide pe următorul. Iar dacă următorul e mai scump, plătește acea diferență. La fiecare rostogolire. Asta e chiria pe noapte a CFD-ului, colectată în rate mai mari și mai rare.\n\nRezumatul sincer:\n\n• CFD: fără termen-limită, chirie în fiecare noapte, detaliată în extrasul tău.\n• Futures: termen-limită strict, cost ascuns în preț și plătit la fiecare rostogolire, ușor de ratat.\n\nNiciunul nu e gratis. Doar că unul îți prezintă nota mai politicos, iar un cost pe care nu-l vezi e cel mai probabil să te surprindă. ⏳",
+      "quiz": {
+        "q": "Un trader vrea să păstreze o poziție futures după data de expirare, iar următorul contract se tranzacționează mai scump decât cel care expiră. Ce se întâmplă când îl rostogolește?",
+        "explanation": "Rostogolirea înseamnă să închizi contractul care e pe cale să expire și să-l deschizi pe următorul. Dacă următorul costă mai mult, plătești acea diferență și o faci din nou la fiecare rostogolire. E același cost de deținere pe care ți-l facturează un CFD în fiecare noapte, colectat în bucăți mai mari și ascuns în preț în loc să fie tipărit în extrasul tău.",
+        "options": [
+          "Plătește diferența dintre contractul care expiră și următorul",
+          "Primește el diferența dintre prețurile celor două contracte",
+          "Nu se schimbă niciun ban, pentru că rostogolirea e o singură tranzacție",
+          "Poziția devine un CFD și continuă fără dată de expirare"
+        ]
+      }
+    },
+    "74": {
+      "title": "Poziția scurtă: pierderea fără podea",
+      "desc": "De ce pariul pe scădere nu are o limită naturală",
+      "content": "Tot ce ai făcut până acum în aplicație a fost long: cumperi și vrei ca prețul să crească. Instrumentele derivate te lasă să intri short, adică să pariezi că prețul scade. Deschizi o poziție scurtă, prețul scade, faci profit.\n\nVânzarea în lipsă (shorting) e chiar utilă și nu e malefică. Așa își blochează un fermier prețul înainte de recoltă și așa își protejează un fond portofoliul. Dacă o înțelegi, citești mai bine piețele, pentru că pentru prima dată vezi ambele părți ale fiecărei tranzacții.\n\nDar există o bucată de aritmetică în shorting care nu are echivalent nicăieri altundeva și trebuie să ți-o întipărești în minte.\n\n📉 CÂND CUMPERI, cel mai rău caz e ca prețul să ajungă la zero. Pierzi 100% din ce ai pus. Groaznic, dar e o podea. Există un fund.\n📈 CÂND INTRI SHORT, prețul care merge împotriva ta înseamnă prețul care CREȘTE. Și nu există nicio regulă nicăieri care să spună cât de sus are voie să urce un preț. O acțiune care se triplează te costă 200% din poziție. O acțiune care crește de zece ori te costă 900%.\n\nPierderile pe long au o podea. Pierderile pe short nu au. Asimetria asta e tot avertismentul.\n\nPiețele reale chiar fac asta. Din când în când, o acțiune pe care mulți au mizat short explodează, pentru că toți cei care sunt short sunt forțați să cumpere ca să închidă, ceea ce urcă prețul și mai mult, ceea ce îi forțează pe și mai mulți să cumpere. Se numește short squeeze și a pus capăt unor fonduri.\n\nDouă lucruri te țin în viață. Primul: la o poziție scurtă, un stop-loss încetează să fie opțional. Al doilea: protecția împotriva soldului negativ. Pe un cont de retail reglementat corect, și în această aplicație, contul tău nu poate scădea sub zero. Poți pierde tot ce ai pus. Nu poți ajunge să datorezi bani. Protecția asta există pentru că, înainte de ea, oamenii ajungeau. 🕳️",
+      "quiz": {
+        "q": "De ce cel mai rău caz la o poziție scurtă e diferit ca natură de cel mai rău caz la o poziție lungă?",
+        "explanation": "Cumpărarea are o podea. Cel mai rău lucru pe care îl poate face un preț e să ajungă la zero, deci pierzi ce ai pus și nimic în plus. La shorting e invers, pentru că a pierde înseamnă ca prețul să crească, iar nimic nu spune cât de sus poate urca un preț. O acțiune care se triplează îl costă pe cel care a vândut în lipsă de două ori poziția. De aceea un stop încetează să fie opțional pe un short și de aceea această aplicație nu te poate duce sub zero.",
+        "options": [
+          "Nu e diferit, pentru că ambele sunt limitate la ce ai pus",
+          "Un stop-loss pune aceeași podea sub un short ca sub un long",
+          "Scăderile sunt mai lente decât creșterile, deci un short pierde mai încet",
+          "Un preț poate scădea doar până la zero, dar poate urca fără limită"
+        ]
+      }
+    },
+    "75": {
+      "title": "Volatilitate înmulțită cu levier",
+      "desc": "De ce cripto are nevoie de cea mai mare garanție aici",
+      "content": "Același multiplicator pe două active diferite nu înseamnă același pariu. Asta e toată ideea lecției și de aceea garanția pe care trebuie s-o depui se schimbă în funcție de ce tranzacționezi.\n\nGândește-te cum arată o zi normală:\n• Un indice mare se mișcă sub 1% în majoritatea zilelor.\n• O singură acțiune s-ar putea mișca 2% sau 3%.\n• Cripto se mișcă frecvent 5% sau 10%, iar o zi de 20% nu e o criză, e o marți oarecare. 🎢\n\nAcum pune o garanție mică în spatele fiecăruia. La o garanție de 10%, o mișcare de 10% te șterge. Pentru indice, asta e un eveniment care se întâmplă o dată la câțiva ani. Pentru cripto, cam lunar. Aceeași garanție. Șanse de supraviețuire complet diferite.\n\nAutoritățile de reglementare și-au dat seama și au scris asta în reguli. Când ESMA a plafonat efectul de levier pe CFD-uri în toată Europa în martie 2018, n-a ales un singur număr. Le-a etajat: 30:1 pe perechile valutare majore, 20:1 pe aur și indicii majori, 10:1 pe alte mărfuri, 5:1 pe acțiuni individuale și, chiar la coadă, 2:1 pe cripto. Doi la unu înseamnă o garanție de 50%. Pentru cripto au cerut JUMĂTATE din poziție în bani reali, cea mai strictă rată de pe toată lista.\n\nAceastă aplicație face la fel, din același motiv, și o spune pe ecran în loc s-o ascundă:\n\n💱 Forex: cea mai mică garanție, pentru că perechile majore se mișcă cel mai puțin.\n🥇 Aur și mărfuri: mai mare.\n📊 Acțiuni, indici și ETF-uri: și mai mare.\n🪙 Cripto: cea mai mare garanție dintre toate, pentru că cripto se mișcă cel mai violent.\n\nCripto nu e interzis aici, și asta e intenționat. Îl poți tranzacționa. Doar că nu-l poți tranzacționa cu o garanție subțire, pentru că, cu o garanție subțire, o zi obișnuită de cripto ți-ar termina contul înainte să fi terminat de citit despre ea. Garanția mai mare nu e aplicația care face mofturi la cripto. E aplicația care se asigură că o zi normală nu te poate distruge.\n\nE bine de știut: autoritatea de reglementare din Regatul Unit a mers mai departe decât un nivel. În 2021 a interzis complet instrumentele derivate pe cripto pentru clienții de retail, estimând că consumatorii vor economisi aproximativ £53m. Poți întâlni levierul pe cripto aici, cu bani de mentă și o garanție groasă, sau îl poți întâlni la optsprezece ani, cu bani reali și fără niciun avertisment. Ordinea asta e mai bună. 🌡️",
+      "quiz": {
+        "q": "Cripto cere cea mai mare garanție dintre toate activele din camera asta. Care e motivul real?",
+        "explanation": "Un indice mare se mișcă sub 1% în majoritatea zilelor. Cripto se mișcă frecvent 5% sau 10%, iar o zi de 20% nu e o criză, e o marți oarecare. Cu o garanție subțire, o mișcare de 10% te șterge, iar asta e un eveniment de o dată la câțiva ani pentru indice și cam lunar pentru cripto. Autoritatea de reglementare a Europei a cerut jumătate din poziție în bani reali pentru cripto, cea mai strictă rată de pe toată lista ei, exact din acest motiv.",
+        "options": [
+          "Cei sub 18 ani n-au voie la cripto, deci garanția e o penalizare",
+          "Pe cripto nu se taxează finanțare, deci garanția o înlocuiește",
+          "Se mișcă cel mai violent, deci o zi obișnuită poate goli o garanție subțire",
+          "Aplicația stabilește singură prețurile cripto, nu piața"
+        ]
+      }
+    },
+    "76": {
+      "title": "Cifrele pe care nu le face nimeni reclamă",
+      "desc": "Ce au găsit autoritățile când au numărat",
+      "content": "Nu vei vedea niciodată aceste cifre într-o reclamă. Ele vin de la autoritățile de reglementare financiară, care pot cere firmelor datele reale ale conturilor și care apoi publică ce au găsit.\n\n🇪🇺 ESMA, autoritatea europeană, martie 2018. În țările UE, între 74% și 89% dintre conturile CFD de retail pierd bani. Pierderile medii per client au variat între €1,600 și €29,000. ESMA a restricționat produsul pe baza acestor date.\n\n🇬🇧 FCA din Regatul Unit, decembrie 2016. Analiza sa pe un eșantion reprezentativ de conturi de clienți a arătat că 82% dintre clienți au pierdut bani pe aceste produse.\n\n🇦🇺 ASIC din Australia, publicat în ianuarie 2026, cel mai recent dintre cele trei. În anul financiar 2024, 68% dintre investitorii CFD de retail au pierdut bani, în total peste A$458 milioane. Din aceștia, A$73 milioane au fost comisioane.\n\nGândește-te o secundă la ultimul rând. Șaptezeci și trei de milioane din sumă nici măcar n-au fost tranzacții proaste. A fost costul jocului: spreadul la intrare și finanțarea pe care ai cunoscut-o în lecția 72.\n\nTrei autorități diferite, trei țări diferite, date din trei decenii diferite, iar răspunsul tot ajunge undeva între două treimi și nouă zecimi.\n\nAcum partea care contează cel mai mult, pentru că ea împiedică asta să fie doar o statistică sperietoare. Oamenii aceia nu erau proști. Nu erau leneși. Erau în mare parte adulți cu joburi, iar mulți dintre ei citeau un grafic mai bine decât tine acum. Au pierdut din cauza felului în care e construit produsul: pornești în urmă cu spreadul, plătești chirie cât aștepți, iar efectul de levier înseamnă că o mișcare obișnuită te poate termina înainte ca părerea ta să fi avut timp să se dovedească corectă.\n\nAsta e o structură, nu un defect de caracter. Iar structurile pot fi învinse doar de oamenii care știu că ele există. 📊",
+      "quiz": {
+        "q": "Autoritățile de reglementare din Europa, Regatul Unit și Australia au constatat fiecare că majoritatea conturilor CFD de retail pierd bani. Care e explicația sinceră?",
+        "explanation": "Erau adulți obișnuiți cu joburi, iar mulți dintre ei citeau un grafic mai bine decât tine azi. Au pierdut din cauza felului în care funcționează produsul: pornești în urmă cu spreadul, plătești chirie în fiecare noapte cât aștepți, iar efectul de levier înseamnă că o mișcare normală te poate termina înainte ca părerea ta să fi avut timp să se dovedească corectă. Asta e o structură, nu un defect de caracter, iar structurile pot fi învinse de oamenii care știu că ele există.",
+        "options": [
+          "Felul în care e construit produsul lucrează împotriva clientului",
+          "Cei care au pierdut au fost neatenți, iar traderii atenți sunt ok",
+          "Firme rivale au publicat cifrele ca atac de marketing",
+          "Pierderile de o asemenea amploare vin din țări nereglementate"
+        ]
+      }
+    },
+    "77": {
+      "title": "Ce s-a schimbat când s-au schimbat regulile",
+      "desc": "Dovada că era designul, nu oamenii",
+      "content": "Lecția 76 ți-a dat pierderile. Lecția asta îți dă experimentul și e cel mai important lucru din acest modul.\n\nDacă majoritatea oamenilor pierd pentru că majoritatea oamenilor sunt nesăbuiți, atunci schimbarea regulilor n-ar trebui să schimbe nimic. Nesăbuiții rămân nesăbuiți. Corect?\n\nAustralia a făcut testul. În martie 2021, ASIC a impus un set de protecții fiecărei firme CFD care deservește clienți de retail: plafoane ale efectului de levier, o regulă standard de închidere automată, protecție împotriva soldului negativ și interzicerea stimulentelor precum bonusurile de înscriere. Aceiași clienți. Aceleași firme. Aceleași piețe. S-au schimbat doar regulile.\n\nIată ce a măsurat ASIC în primele șase luni. 🔬\n\n📉 Pierderile nete agregate ale conturilor de retail au scăzut cu 91%, de la o medie de A$372 milioane pe trimestru la A$33 milioane.\n📉 Cu 51% mai puține conturi de retail pe pierdere pe trimestru.\n📉 Cu 87% mai puține închideri forțate în marjă.\n📉 Cu 88% mai puține cazuri de sold negativ.\n\nNimeni nu s-a deșteptat în șase luni. S-a schimbat designul, iar nouă zecimi din pagube au dispărut odată cu el.\n\nDe aici decurg două lucruri și ar trebui să le ții minte pe amândouă.\n\nPrimul: când pierzi pe o tranzacție cu efect de levier, mult din ce ți s-a întâmplat era construit în produs înainte să ajungi tu. Asta nu e o permisiune să fii neatent. E un motiv să respecți instrumentul.\n\nAl doilea, și asta e jumătatea utilă: protecțiile care au făcut treaba sunt exact obiceiurile pe care ți le-a predat acest modul. O poziție mai mică. O ieșire automată. O podea fermă sub pagube. O autoritate de reglementare a trebuit să le impună unei industrii întregi ca să obțină acel 91%. Tu pur și simplu le poți alege. 🛡️",
+      "quiz": {
+        "q": "După ce Australia a impus firmelor CFD plafoane ale efectului de levier și închideri automate, pierderile de retail au scăzut cu 91% în șase luni. Ce arată asta?",
+        "explanation": "Aceiași clienți, aceleași firme, aceleași piețe. S-au schimbat doar regulile, iar nouă zecimi din pagube au plecat odată cu ele. Nimeni nu s-a deșteptat în șase luni. Protecțiile care au făcut treaba sunt obiceiurile pe care acest modul ți le tot predă: o poziție mai mică, o ieșire automată și o podea fermă sub pagube. O autoritate de reglementare a trebuit să le impună unei industrii întregi. Tu pur și simplu le poți alege.",
+        "options": [
+          "Traderii australieni sunt mai disciplinați decât cei europeni",
+          "Efectul de levier devine sigur odată ce îl supraveghează o autoritate",
+          "Regulile i-au oprit pe oameni din tranzacționat, deci n-au mai avut ce pierde",
+          "Cea mai mare parte a pagubelor venea din designul produsului"
+        ]
+      }
+    },
+    "78": {
+      "title": "Golul de preț care îți sare peste stop",
+      "desc": "Un stop e o instrucțiune de ieșire, nu un preț promis",
+      "content": "Ai cunoscut deja ordinele stop-loss în lecția 19. Iată ce le face efectul de levier.\n\nUn stop-loss este o instrucțiune: „dacă prețul ajunge la acest nivel, scoate-mă afară.” Nu e un contract despre prețul pe care îl vei obține. Spune „ieși”. Nu spune „ieși exact aici”.\n\nDe cele mai multe ori diferența asta nu contează, pentru că prețurile se mișcă în pași mici și ordinul tău se execută aproape de nivelul tău. Dar uneori contează enorm.\n\n📰 Piețele se închid. O știre apare la 11 noaptea. Piața se redeschide cu 8% mai jos decât s-a închis și nu s-a tranzacționat deloc la prețurile dintre ele. Stopul tău era în golul acela. Se declanșează la redeschidere și se execută acolo unde e de fapt piața, adică mult după nivelul pe care l-ai ales.\n\nFără efect de levier, asta e o zi proastă. Cu efect de levier, poate fi tot contul, pentru că, dacă garanția ta era mai subțire decât golul, golul trece direct și prin prețul tău de lichidare, iar tu ești închis sub nivelul pe care îl intenționa motorul.\n\nTrei lucruri de făcut cu asta, niciunul complicat:\n\n1️⃣ Nu trata un stop ca pe o garanție. Tratează-l ca pe un obicei foarte bun, cu o slăbiciune cunoscută.\n2️⃣ Află când e închisă piața ta și ce e programat. Rezultatele companiilor, deciziile privind dobânzile și alegerile sunt goluri cu dată în calendar.\n3️⃣ Dimensionează astfel încât un gol să nu te poată termina. Asta e adevărata apărare și e următoarea lecție. Un stop te protejează de obișnuit. Mărimea poziției te protejează de neobișnuit, iar neobișnuitul e cel care îi golește de fapt pe oameni.\n\nȘi e bine de știut că în această aplicație, ca pe orice cont de retail reglementat corect, protecția împotriva soldului negativ înseamnă că un gol nu te poate duce sub zero. Poți pierde contul. Nu poți ajunge să datorezi. 📰",
+      "quiz": {
+        "q": "Pui un stop-loss la {c}90. Peste noapte apare o veste proastă, iar piața se redeschide la {c}78, fără să se fi tranzacționat între ele. Ce se întâmplă?",
+        "explanation": "Un stop e o instrucțiune de ieșire, nu o promisiune despre prețul pe care îl obții. Piața nu s-a tranzacționat deloc între {c}90 și {c}78, așa că nu mai exista niciun {c}90 la care să vinzi. Stopul se declanșează la redeschidere și se execută acolo unde e de fapt piața. Stopurile te protejează în continuare de mișcările obișnuite. Apărarea împotriva unui salt ca acesta e mărimea poziției, nu stopul.",
+        "options": [
+          "Stopul tău se execută la {c}90, exact unde l-ai pus",
+          "Ordinul ți se execută aproape de {c}78, primul preț oferit",
+          "Ordinul se anulează, pentru că prețul a sărit peste el",
+          "Furnizorul îți plătește cei {c}12 pe care i-a sărit piața"
+        ]
+      }
+    },
+    "79": {
+      "title": "Întâi mărimea, apoi tranzacția",
+      "desc": "Decide cât poți pierde înainte să decizi ce cumperi",
+      "content": "Iată lucrul care îi separă pe cei care rezistă de cei care nu rezistă, și e aproape plictisitor.\n\nÎncepătorii aleg tranzacția, apoi calculează cât să pună. Profesioniștii o fac invers. Decid mai întâi cât sunt dispuși să piardă și lasă asta să decidă cât de mare are voie să fie poziția.\n\nRegula pe care o folosesc cei mai mulți: riscă între 1% și 2% din cont pe o singură tranzacție. Nu depui 1%. RIȘTI 1%, adică atât pierzi de fapt dacă ți se atinge stopul.\n\nCum funcționează, în trei pași:\n\n1️⃣ Alege-ți pierderea maximă. Cont de 10,000 NT, riști 1%, deci 100 NT.\n2️⃣ Alege unde greșești. Ieși dacă prețul scade cu 5% față de intrare.\n3️⃣ Împarte. 100 NT pierdere acceptabilă, la o distanță a stopului de 5%, înseamnă o poziție de 2,000 NT. Asta e mărimea ta. Nu o senzație. Un calcul.\n\nSchimbă stopul și mărimea se schimbă automat. Un stop mai strâns, de 2%, te lasă să mergi pe 5,000 NT. Un stop mai larg, de 10%, te obligă să cobori la 1,000 NT. Cu cât tranzacția e mai riscantă, cu atât trebuie să fie mai mică, iar aritmetica face asta pentru tine, ca să nu fie nevoie s-o facă starea ta de spirit.\n\nDe ce 1%? Pentru că face supraviețuibilă o serie de pierderi. Zece pierderi la rând la 1% te lasă cu 90% din cont și o dispoziție proastă. Zece pierderi la rând la 20% te lasă cu aproximativ 11% din cont și fără cale de întoarcere, iar din lecția 71 știi deja cât de abruptă e urcarea aceea.\n\nNimeni nu supraviețuiește piețelor alegând câștigători. Toți cei care supraviețuiesc o fac asigurându-se că nicio pierdere singură nu-i poate termina. 📐",
+      "quiz": {
+        "q": "Un cont de 10,000 NT. Vei risca 1% pe această tranzacție și vei ieși dacă prețul scade cu 5% față de intrare. Trage la mărimea poziției care respectă asta.",
+        "explanation": "1% din 10,000 NT înseamnă 100 NT, și atât ai acceptat să pierzi maximum. Un stop de 5% înseamnă 100 NT împărțit la 5%, adică o poziție de 2,000 NT. Trage mai sus și afișajul îți arată că riști mai mult decât ai decis."
+      }
+    },
+    "80": {
+      "title": "De ce câștigul pare talent",
+      "desc": "Jocurile mentale pe care ți le face efectul de levier",
+      "content": "Efectul de levier nu e în primul rând o problemă de matematică. Matematica e ușoară. E o problemă de minte, iar iată cele trei care îi prind pe toți.\n\n🎯 1. BIASUL REZULTATULUI: câștigul pare talent. Iei o poziție exagerat de mare, merge, faci mulți bani într-o după-amiază, iar creierul tău notează „sunt bun la asta”. N-a înregistrat ce s-a întâmplat de fapt, adică ai luat un risc prost și ai obținut un rezultat bun. Sunt lucruri diferite, iar piața te va plăti cu plăcere pentru o decizie proastă de mai multe ori înainte să-și ia banii înapoi. Cel mai periculos lucru care i se poate întâmpla unui trader nou este un câștig timpuriu și ușor.\n\n😤 2. TRANZACȚIONAREA DIN RĂZBUNARE: vrei banii înapoi, acum. Iei o pierdere, te ustură, iar impulsul e imediat. Așa că mărești poziția. Acum deschizi cea mai mare poziție a ta exact în momentul în care judecata ta e cea mai proastă, pe o tranzacție aleasă pentru că erai furios, nu pentru că era bună. Piața nu știe că ești pe minus și nu-ți datorează nimic. Când simți asta, mărimea corectă e zero. Închide aplicația.\n\n🕳️ 3. URMĂRIREA PIERDERILOR: „o țin doar până își revine.” Asta se deghizează în răbdare, de aceea e atât de greu de observat. Răbdarea e un plan pe care l-ai făcut calm dinainte. Urmărirea e un plan pe care l-ai inventat după ce prețul a mers împotriva ta, iar semnul e simplu: ieșirea ta s-a mutat. Dacă te trezești explicând de ce nivelul pe care l-ai stabilit nu mai e nivelul potrivit, asta nu e o analiză nouă. E ego-ul tău care negociază.\n\nApărarea pentru toate trei e aceeași și nu e deloc spectaculoasă. Decide totul cât ești calm, notează și tratează versiunea ta care apare în mijlocul tranzacției ca pe un narator de neîncredere. 🧠",
+      "quiz": {
+        "q": "Iei o poziție mult mai mare decât de obicei și face un profit mare într-o singură după-amiază. Care e cel mai corect mod de a interpreta asta?",
+        "explanation": "Creierul tău notează că ești bun la asta. Ce s-a întâmplat de fapt e că ai luat un risc prost, iar piața s-a nimerit să te plătească oricum, și astea sunt două lucruri separate. Piața va plăti o decizie proastă de mai multe ori înainte să-și ia banii înapoi. Un câștig timpuriu și ușor e cel mai periculos lucru care i se poate întâmpla unui trader nou, pentru că te învață lecția greșită și ți-o facturează mai târziu.",
+        "options": [
+          "E o abordare care funcționează și poate fi mărită din nou",
+          "Mărimea a fost corectă, pentru că profitul o dovedește",
+          "Ai luat un risc prost și s-a nimerit să obții un rezultat bun",
+          "Câștigurile mari arată talent, iar pierderile arată greșeli"
+        ]
+      }
+    },
+    "81": {
+      "title": "Întrebarea sinceră",
+      "desc": "Ar trebui să folosești asta vreodată?",
+      "content": "Ai terminat modulul. Iată întrebarea pe care reclamele nu o pun niciodată.\n\nAr trebui să folosești efectul de levier vreodată?\n\nPentru majoritatea oamenilor, de cele mai multe ori, răspunsul sincer e nu. Nu pentru că n-ar fi destul de deștepți. Ci din cauza a tot ce a fost în ultimele cincisprezece lecții: pornești în urmă, plătești chirie cât aștepți, o mișcare obișnuită te poate termina înainte să ți se dea dreptate, iar trei autorități de reglementare care au numărat conturi reale au tot constatat că între două treimi și nouă zecimi dintre oameni au pierdut.\n\nExistă o versiune de trading în care nu atingi nimic din toate astea. Cumperi o acțiune, deții o bucată dintr-o companie, vin dividendele, timpul lucrează PENTRU tine în loc să lucreze împotriva ta și nimic nu-ți poate închide vreodată poziția fără să te întrebe. Asta e restul aplicației și nu e opțiunea plictisitoare. E opțiunea care, după matematica din lecția 14, de obicei câștigă. 🌱\n\nAșa că iată ce ar trebui să știi înainte să decizi.\n\nNimic din această aplicație nu e blocat în spatele efectului de levier. Fiecare competiție, fiecare clasament, fiecare traseu de XP, fiecare meci școlar și fiecare recompensă NOOB rămân complet deschise pentru cineva care nu deschide niciodată nicio poziție cu efect de levier. Nu pierzi nimic dacă pleci din camera asta. Nu există nicio penalizare și nicio insignă lipsă.\n\nȘi nimic de aici nu te plătește pentru că ai câștigat. Ești recompensat pentru că termini lecțiile, pentru că treci testul, pentru că pui un stop, pentru că tai o pierdere și pentru că îți descrii singur propria lichidare. Nu ești plătit niciodată pentru un profit, o poziție mare sau o serie norocoasă, pentru că dacă te-am plăti pentru astea te-am învăța lucrul greșit și l-am numi educație.\n\nDacă îl folosești: folosește-l puțin, folosește-l cu un stop, află-ți prețul de lichidare înainte să apeși ceva și niciodată cu bani care ți-ar lipsi. Dacă nu-l folosești, tot ai învățat să vezi mecanismul, iar asta a fost mereu scopul. Majoritatea adulților care tranzacționează așa ceva nu pot explica ce tocmai ai învățat tu. 🤔",
+      "quiz": {
+        "q": "La ce renunță un elev dacă decide să nu deschidă niciodată o poziție cu efect de levier în această aplicație?",
+        "explanation": "Nimic din această aplicație nu e blocat în spatele efectului de levier. Fiecare competiție, fiecare clasament, fiecare traseu de XP, fiecare meci școlar și fiecare recompensă NOOB rămân deschise pentru cineva care nu deschide niciodată nicio poziție cu efect de levier. Nu există nicio penalizare și nicio insignă lipsă. Și nimic din camera asta nu te plătește pentru că ai câștigat: plătește pentru terminarea lecțiilor, trecerea testului, punerea unui stop și tăierea unei pierderi.",
+        "options": [
+          "La nimic, fiecare traseu îi rămâne deschis",
+          "La fiecare competiție și clasament din aplicație",
+          "La XP-ul din acest modul, care se dă pe tranzacțiile cu levier",
+          "La recompensele NOOB, care cer întâi o poziție cu levier"
+        ]
+      }
+    },
+    "82": {
+      "title": "Explozia",
+      "desc": "Cinci zile, un plan agresiv, un cont gol",
+      "content": "Bine ai venit în Laborator. Aici primești un cont de exersare separat, de 1,000 LAB NT. Nu e portofelul tău, nu-ți poate atinge portofelul și nimic din ce se câștigă sau se pierde înăuntru nu iese de acolo. Instrumentul este NOVA. NOVA e inventat, ca nimeni să nu ne poată acuza că prezicem o prăbușire reală. Rata garanției 25%. Finanțare 0.02% pe noapte. Închidere forțată la 50% din marja utilizată. Și doar pentru acest test final, limitele de poziție sunt dezactivate. Intenționat. O singură dată.\n\nIată săptămâna pe care urmează s-o explici.\n\n📅 ZIUA 1: NOVA la 100. Rezultate bune, grupul de chat e în fierbere. Depui 800 din cei 1,000 NT ai tăi și controlezi 3,200 NT de NOVA. Fără stop.\n\n📅 ZIUA 2: NOVA 106. Ești pe plus 192 NT, adică +19.2% din cont într-o singură zi. Adaugi ultimii 200 NT. Expunere 4,000 NT. Numerar liber: zero. Tot fără stop.\n\n📅 ZIUA 3: NOVA 101.76. Nivel de marjă 103%. Ești încă pe plus pe săptămână, așa că ții.\n\n📅 ZIUA 4: NOVA 94.64. APEL ÎN MARJĂ. Nivel de marjă 75%, capital 750 NT. Nu poți adăuga, pentru că nu mai ai nimic de adăugat. Ții.\n\n📅 ZIUA 5: NOVA deschide cu un gol de 9% în jos peste noapte și se redeschide la 86.12, sub nivelul de închidere forțată. LICHIDAT la 390 NT.\n\nPe parcursul săptămânii, NOVA a scăzut cu 13.9%. Contul tău a scăzut cu 61%. Elevul care a depus 250 NT cu un stop la 95 a terminat aceeași săptămână cu aproximativ 949 NT, pe minus 5%. Iar aceiași 800 NT fără stop, dar fără adăugarea din ziua 2, ar fi terminat la 550 NT: un apel în marjă, dar în viață.\n\nAcum analiza. Zece întrebări despre ce tocmai s-a întâmplat. Fă 8 din 10 și ai învins testul final, pentru că aici trecerea înseamnă să poți explica dezastrul, nu să-l eviți. 💀",
+      "bossVictory": "Ai aruncat în aer un cont și ai plecat știind de ce. Asta e tot modulul. 💀",
+      "bossQuestions": {
+        "0": {
+          "q": "În cele cinci zile NOVA a scăzut cu aproximativ 14%. Contul tău a scăzut cu 61%. De unde diferența?",
+          "options": [
+            "Aplicația a perceput o penalizare pentru pierdere",
+            "Aveai o expunere de aproximativ patru ori cât valora garanția, așa că fiecare mișcare lovea un număr de patru ori mai mare decât contul tău",
+            "Finanțarea a reprezentat cea mai mare parte a pierderii",
+            "NOVA e o acțiune mai riscantă decât sugerează cifrele"
+          ]
+        },
+        "1": {
+          "q": "În ziua 2 erai pe plus 192 NT, adică 19.2% din cont într-o singură zi. Ce îți spunea de fapt asta?",
+          "options": [
+            "Că ai citit corect piața și ar trebui să mărești poziția",
+            "Că poziția era bine dimensionată, din moment ce era profitabilă",
+            "Că efectul de levier e sigur când ai dreptate",
+            "Că poziția era destul de mare cât să-ți miște contul cu 19% într-o zi, deci destul de mare cât să facă același lucru și în direcția opusă"
+          ]
+        },
+        "2": {
+          "q": "În ziua 2 ai adăugat ultimii 200 NT la poziția câștigătoare. Ce te-a costat asta?",
+          "options": [
+            "Ambele jumătăți ale siguranței tale: a crescut expunerea de la 3,200 la 4,000 și a cheltuit singurul numerar liber care ar fi putut răspunde unui apel în marjă",
+            "Nimic, pentru că adăugarea la o poziție câștigătoare e felul în care profesioniștii își compun câștigurile",
+            "Doar cei 200 NT în sine, pe care poziția i-ar fi recâștigat",
+            "Puțină finanțare, din moment ce chiria pe noapte a crescut ușor"
+          ]
+        },
+        "3": {
+          "q": "Nivelul tău de marjă a ajuns la 103% în ziua 3. Ce însemna acest număr?",
+          "options": [
+            "Erai finanțat 103%, deci poziția era supragarantată și sigură",
+            "Contul tău era pe plus 3% pe săptămână",
+            "Capitalul tău abia mai acoperea garanțiile depuse, deci perna dispăruse și următoarea mișcare ar fi început să mănânce chiar garanția",
+            "Nimic în sine, pentru că nivelul de marjă contează doar când e sub 50%"
+          ]
+        },
+        "4": {
+          "q": "La apelul în marjă din ziua 4, închiderea ar fi blocat o pierdere de 250 NT. Tu ai ținut. De ce e ținerea răspunsul pe care îl aleg cei mai mulți?",
+          "options": [
+            "Pentru că ținerea e de obicei răspunsul corect matematic la un apel în marjă",
+            "Pentru că închiderea înseamnă să recunoști că tranzacția a fost greșită, iar ținerea te lasă să crezi în continuare că nu s-a terminat încă",
+            "Pentru că apelurile în marjă se rezolvă de obicei singure într-o zi",
+            "Pentru că furnizorul recomandă ținerea ca să eviți materializarea pierderilor"
+          ]
+        },
+        "5": {
+          "q": "Ai fost lichidat la 390 NT, dar nivelul de închidere forțată era la 500 NT capital. De ce ai ajuns sub el?",
+          "options": [
+            "Furnizorul a perceput o penalizare de lichidare de 110 NT",
+            "NOVA a deschis cu un gol de 9% în jos peste noapte și s-a redeschis sub nivel, așa că închiderea s-a executat la primul preț oferit efectiv de piață",
+            "Finanțarea a fost dedusă dintr-odată în momentul lichidării",
+            "Nivelul de închidere forțată e doar o estimare și de obicei e ratat cu atât"
+          ]
+        },
+        "6": {
+          "q": "Elevul care a depus 250 NT și a pus un stop la 95 a terminat aceeași săptămână cu aproximativ 949 NT. Ce a făcut bine?",
+          "options": [
+            "A decis pierderea maximă înainte să deschidă și a lăsat-o pe ea să decidă mărimea",
+            "A citit mai bine graficul NOVA și a văzut căderea venind",
+            "A evitat finanțarea folosind o garanție mai mică",
+            "A avut noroc, pentru că aceleași alegeri de obicei pierd"
+          ]
+        },
+        "7": {
+          "q": "Ai plătit finanțare în fiecare noapte pe întreaga expunere de 4,000 NT. În această tranzacție, cât a contat?",
+          "options": [
+            "A fost cea mai mare parte a pierderii, pentru că finanțarea se compune în fiecare noapte",
+            "Deloc, pentru că finanțarea se taxează doar pe pozițiile care supraviețuiesc o lună",
+            "Doar câțiva NT, pentru că tranzacția a fost scurtă. Finanțarea ucide poziția care nu merge nicăieri luni întregi, nu pe cea care explodează într-o săptămână",
+            "Aproximativ 192 NT, la fel ca și câștigul din ziua 2"
+          ]
+        },
+        "8": {
+          "q": "Fiecare alegere de aici a fost permisă. În Centrul CFD, cele mai multe nu vor fi. De ce?",
+          "options": [
+            "Pentru că limitele fac aplicația mai ieftin de întreținut",
+            "Pentru că autoritățile cer un mod de exersare înainte de orice tranzacționare simulată",
+            "Pentru că cei sub 18 ani n-au voie să vadă o lichidare de două ori",
+            "Tocmai ai văzut cum o garanție de 80% pe o singură poziție și un sold de numerar liber zero au distrus un cont în cinci zile, iar limitele există ca să facă imposibilă exact această succesiune"
+          ]
+        },
+        "9": {
+          "q": "Care e cel mai util lucru de reținut din toate astea?",
+          "options": [
+            "Că mărimea poziției, decisă înainte s-o deschizi, contează mai mult decât să ai dreptate cu direcția",
+            "Că NOVA a fost o acțiune proastă de ales, iar o cercetare mai bună ar fi salvat contul",
+            "Că efectul de levier nu ar trebui atins niciodată de nimeni, în nicio circumstanță",
+            "Că apelurile în marjă sunt imprevizibile, deci nu ai fi putut face nimic"
+          ]
+        }
+      }
+    },
+    "83": {
+      "title": "Licența",
+      "desc": "Zece întrebări. Opt corecte ca să treci.",
+      "content": "Licența este examenul spre care a construit tot acest modul. Zece întrebări, iar fiecare e un calcul sau o decizie pe o poziție care arată ca una reală, pentru că nici Centrul CFD nu lucrează cu definiții.\n\nNota de trecere: 8 din 10. Ai 3 încercări pe zi. Îți spunem scorul, dar nu și ce întrebări ai greșit, așa că o încercare ratată e un semnal să recitești modulul, nu să ghicești din nou.\n\nNimic de aici nu e o păcăleală. Fiecare număr vine direct din lecțiile din spatele tău. Dacă le poți face pe toate zece, înțelegi acest modul mai bine decât majoritatea adulților care tranzacționează aceste produse pe bune. 🎫",
+      "bossVictory": "Te poți uita la ecranul real, la cifre reale, și poți spune nu. Asta e licența. 🎫",
+      "bossQuestions": {
+        "0": {
+          "q": "Contul tău are 1,000 NT și nimic altceva deschis. Depui toți cei 1,000 NT ca garanție la o rată de 25%, controlând 4,000 NT de {tech} la 200 NT pe acțiune. Închiderea forțată se declanșează la 50% din garanție. Unde trebuie să se tranzacționeze {tech} ca să fii închis?",
+          "options": [
+            "150 NT, o scădere de 25%, egală cu rata garanției",
+            "100 NT, o scădere de 50%, la fel ca regula de închidere",
+            "175 NT, o scădere de 12.5%, pentru că o pierdere de 500 NT pe o expunere de 4,000 NT cere o mișcare de 12.5%",
+            "195 NT, o scădere de 2.5%"
+          ]
+        },
+        "1": {
+          "q": "O poziție de 3,000 NT costă 0.02% pe noapte în finanțare. Te aștepți la o mișcare de 3% în favoarea ta, în valoare de 90 NT. Câte nopți valorează această părere înainte ca finanțarea s-o mănânce?",
+          "options": [
+            "Cam 50 de nopți",
+            "Cam 150 de nopți, pentru că 90 NT împărțit la 0.60 NT pe noapte dă 150",
+            "Cam 300 de nopți",
+            "Nu e mâncată niciodată, pentru că finanțarea se aplică doar pozițiilor pe pierdere"
+          ]
+        },
+        "2": {
+          "q": "Contul tău are 5,000 NT. Vei risca 2% pe o tranzacție și vei ieși dacă prețul se mișcă cu 4% împotriva ta. Care e cea mai mare poziție pe care ar trebui s-o deschizi?",
+          "options": [
+            "100 NT, suma pe care o riști",
+            "1,000 NT, o cincime din cont",
+            "5,000 NT, pentru că stopul protejează oricum contul",
+            "2,500 NT, pentru că 100 NT pierdere acceptabilă împărțit la o distanță a stopului de 4% dă mărimea"
+          ]
+        },
+        "3": {
+          "q": "O poziție ți-a dus contul de la 1,000 NT la 400 NT. Ce randament îți trebuie de aici doar ca să revii la 1,000 NT?",
+          "options": [
+            "150%, pentru că 400 NT trebuie să crească cu încă o dată și jumătate cât el ca să ajungă la 1,000",
+            "60%, același procent pe care l-ai pierdut",
+            "100%, pentru că dublarea te aduce mereu înapoi",
+            "250%, de două ori cât ai pierdut"
+          ]
+        },
+        "4": {
+          "q": "Cardul live arată: nivel de marjă 82%, numerar liber 0, o poziție deschisă și pe minus 18%. Ce mutare reduce de fapt riscul de lichidare?",
+          "options": [
+            "Adaugi numerar în cont",
+            "Ții și aștepți ca nivelul să-și revină",
+            "Închizi o poziție, ceea ce eliberează imediat marja pe care o folosea",
+            "Deschizi o a doua poziție în direcția opusă ca s-o anulezi"
+          ]
+        },
+        "5": {
+          "q": "Intri short pe {tech} la 50 NT cu o poziție de 2,000 NT. O preluare îl reevaluează peste noapte la 150 NT. Cum se compară această pierdere cu cel mai rău caz la o poziție lungă de aceeași mărime?",
+          "options": [
+            "E la fel, pentru că ambele sunt limitate la ce ai pus",
+            "Short-ul pierde 4,000 NT, de două ori valoarea poziției, în timp ce un long n-ar putea pierde niciodată mai mult decât poziția de 2,000 NT în sine",
+            "Short-ul nu pierde nimic dacă a fost pus un stop-loss, pentru că stopurile sunt garantate",
+            "Pierderea short-ului e mai mică, pentru că prețurile scad mai repede decât cresc"
+          ]
+        },
+        "6": {
+          "q": "Stopul tău e la 90 NT. Peste noapte apare o știre, iar piața se redeschide la 78 NT fără să se fi tranzacționat între ele. Ce se întâmplă și care e adevărata apărare împotriva asta?",
+          "options": [
+            "Ordinul se execută la 90 NT, pentru că asta garantează un stop",
+            "Ordinul se anulează, pentru că prețul a sărit peste nivelul tău",
+            "Ordinul se execută aproape de 78 NT, iar apărarea împotriva golurilor e mărimea poziției, nu stopul",
+            "Furnizorul îți datorează diferența dintre 90 și 78"
+          ]
+        },
+        "7": {
+          "q": "De ce are cripto cea mai mare cerință de garanție din Centrul CFD?",
+          "options": [
+            "Se mișcă cel mai violent, așa că o garanție subțire ar fi golită de o zi de cripto complet obișnuită",
+            "Pe cripto nu se taxează finanțare, deci garanția o înlocuiește",
+            "Cripto e interzis pentru cei sub 18 ani, iar garanția e penalizarea",
+            "Prețurile cripto sunt stabilite de aplicație, nu de piață"
+          ]
+        },
+        "8": {
+          "q": "Care dintre acestea îți aduce XP în acest modul?",
+          "options": [
+            "Un câștig de 40% pe o poziție cu efect de levier",
+            "Folosirea celei mai mari expuneri disponibile",
+            "O serie de cinci tranzacții câștigătoare",
+            "Închiderea unei poziții pe pierdere în loc să adaugi la ea"
+          ]
+        },
+        "9": {
+          "q": "Previzualizarea dinainte de tranzacție spune că o mișcare nefavorabilă de 10% îți ia 620 NT din cont, adică 62% din portofel. Prețul tău de lichidare e 88.40, iar {tech} se tranzacționează acum la 96.00. O deschizi?",
+          "options": [
+            "Da, pentru că prețul de lichidare e la o distanță sigură sub prețul curent",
+            "Da, dacă ești sigur pe direcție",
+            "Doar cu expunere dublă, ca riscul să merite",
+            "Nu: o mișcare de aproximativ 8% golește poziția, 8% e o mișcare obișnuită, iar 62% dintr-un portofel pe o singură tranzacție încalcă orice regulă de dimensionare din acest modul"
+          ]
+        }
+      }
+    },
+    "84": {
+      "title": "Cel mai rău caz, ales dinainte",
+      "desc": "Stop-loss, take-profit și ieșirea pe care nu o alege nimeni",
+      "content": "Știi garanția, apelul, închiderea forțată, chiria, stopul și golul de preț. Lecția asta pune ultima piesă la locul ei: fiecare poziție pe care o vei deschide vreodată se termină în exact unul din trei moduri, iar tot jocul e cine alege care.\n\n1️⃣ O ÎNCHIZI TU. Apeși butonul și poziția se închide la prețul curent al pieței. Mereu disponibil, pe fiecare poziție, în orice stare. Cele mai multe ieșiri ar trebui să fie așa.\n\n2️⃣ O ÎNCHIDE UN ORDIN PE CARE L-AI SETAT. Două tipuri, iar numele contează, așa că învață-le cum trebuie:\n\n• Un ORDIN STOP-LOSS te închide automat când prețul se mișcă ÎMPOTRIVA ta până la un nivel ales de tine: un sell-stop sub intrarea ta pe un long, un buy-stop peste intrarea ta pe un short. E cel mai rău caz al tău, decis cât erai calm, iar lecția 80 te-a învățat deja că ăsta e singurul moment în care decizi ceva bine.\n• Un ORDIN TAKE-PROFIT este un ordin limită de închidere: te închide automat la ținta aleasă de tine, când prețul se mișcă ÎN FAVOAREA ta și ajunge la ea. E „ajunge” al tău, decis înainte ca lăcomia să aibă drept de vot. Un ordin limită se execută la nivelul tău sau mai bine, niciodată mai rău.\n\n3️⃣ O ÎNCHIDE FURNIZORUL. Asta e lichidarea, din lecția 70. Și iată ce trebuie să-ți întipărești: lichidarea nu e un tip de ordin. Nu poți plasa o „tranzacție de lichidare”. Nimeni nu poate. Nu e o unealtă din trusa ta; e ce face furnizorul ca să-și protejeze împrumutul când garanția ta aproape s-a terminat, la orice preț plătește piața, în timp ce tu ești la școală sau dormi.\n\nUn stop-loss înseamnă că tu îți decizi dinainte cel mai rău caz. Lichidarea e ce se întâmplă când n-ai făcut-o.\n\nAmbele ordine ale tale sunt sincere în același fel, și știi deja asta din lecția 78: se declanșează la nivelul tău și se execută la cât plătește de fapt piața. Un gol peste stopul tău te execută de cealaltă parte a saltului, ceea ce e mai rău. Un gol prin take-profit-ul tău te execută tot de cealaltă parte, ceea ce e mai bine. Același fapt, privind în ambele direcții.\n\nO regulă de plasare, pe care această aplicație o impune cu motivul afișat pe ecran: stopul tău trebuie să stea între prețul curent și prețul tău de lichidare. Un stop dincolo de prețul de lichidare nu s-ar putea declanșa niciodată, pentru că furnizorul te-ar fi închis înainte, așa că aplicația îl refuză și îți spune de ce.\n\nTrei uși de ieșire din fiecare tranzacție. Două dintre ele au numele tău pe clanță. Să ieși pe una dintre ele, într-o zi aleasă de tine, la un nivel ales de tine cât erai calm, e exact ce te-a învățat tot acest modul. 🚪",
+      "quiz": {
+        "q": "Poziția ta lungă are un stop-loss pus de tine la 180.00 și un preț de lichidare de 150.00. Care e diferența reală dintre aceste două numere?",
+        "options": [
+          "Absolut niciuna, sunt două nume pentru aceeași închidere automată, iar furnizorul o declanșează mereu la un singur preț",
+          "Stop-loss-ul e decizia furnizorului, iar prețul de lichidare e al tău, deci cel pe care îl controlezi de fapt e cel care se declanșează al doilea",
+          "Stopul de la 180.00 e cel mai rău caz al tău, ales de tine dinainte cât erai calm; 150.00 e locul unde furnizorul te închide ca să-și protejeze împrumutul, pentru că tu nu mai ai niciun cuvânt de spus",
+          "Stopul garantează o execuție exact la 180.00 orice ar face piața, în timp ce lichidarea se poate executa la orice preț, oricât de departe ar fi ajuns"
+        ]
+      }
+    }
+  },
+  "context": {
+    "ZA": {
+      "name": "Africa de Sud",
+      "cName": "rand",
+      "cPlural": "ranzi",
+      "exDesc": "una dintre cele mai mari burse de valori de pe tot continentul african",
+      "sectorList": "⛏️ Minerit: Anglo American, Impala Platinum. Legate de prețurile globale ale materiilor prime\n🏦 Sectorul bancar: Standard Bank, FirstRand, Capitec. Le merge bine când dobânzile sunt mai mari\n📱 Tehnologie: Naspers, Prosus. Legate de tendințele globale din tehnologie\n🛍️ Retail: Shoprite, Pick n Pay. Le merge bine când consumatorii au bani de cheltuit\n📡 Telecom: MTN, Vodacom. Mai stabile, pentru că oamenii au mereu nevoie de date mobile",
+      "etfBasket": "cele mai mari 40 de companii de pe JSE",
+      "etfDesc": "JSE Top 40, de exemplu, este o listă cu cele mai mari 40 de companii listate pe JSE, ordonate după valoarea acțiunilor disponibile efectiv pentru tranzacționare.",
+      "etfList": "🇿🇦 Satrix Top 40: Cele mai mari 40 de companii de pe JSE. Un punct de plecare excelent.\n🌍 Satrix MSCI World: Companii din 23 de țări dezvoltate într-o singură cumpărare.\n🇺🇸 Sygnia Itrix S&P 500: Cele 500 de companii mari din SUA de pe lista S&P 500.\n💡 Satrix Nasdaq 100: Cele mai mari 100 de companii nefinanciare de pe Nasdaq. Foarte axat pe tehnologie.",
+      "currencyHedge": "Acestea au prețul în dolari sau euro. Așa că, dacă randul SE DEPRECIAZĂ (R20 pentru un dolar devine R22), investițiile tale globale valorează AUTOMAT mai mult în ranzi!",
+      "fxQuizSetup": "Randul se depreciază de la R18 la R22 față de dolar",
+      "fxQuizLose": "Își pierde valoarea pentru că Africii de Sud îi merge mai prost",
+      "fxQuizGain": "CREȘTE socotit în ranzi, pentru că fiecare dolar cumpără mai mulți ranzi",
+      "dcaTitle": "Medierea costului în ranzi",
+      "dcaAbbrev": "RCA",
+      "food": "un burger Wimpy"
+    },
+    "US": {
+      "name": "Statele Unite",
+      "cName": "dolar",
+      "cPlural": "dolari",
+      "exDesc": "cea mai mare piață de acțiuni din lume, la mare distanță de restul",
+      "sectorList": "💻 Tehnologie: Apple, Microsoft, Alphabet. Propulsate de inovație și cererea globală\n🏦 Sectorul bancar: JPMorgan, Bank of America, Goldman Sachs. Le merge bine când cresc dobânzile\n🛍️ Retail: Amazon, Walmart, Costco. Le merge bine când consumatorii cheltuiesc\n⚡ Energie: Exxon Mobil, Chevron. Legate de prețurile globale ale petrolului și gazelor\n📡 Telecom: AT&T, Verizon, T-Mobile. Oamenii au mereu nevoie de conectivitate",
+      "etfBasket": "cele 500 de companii mari din SUA de pe lista S&P 500",
+      "etfDesc": "S&P 500, de exemplu, este o listă de 500 de companii mari din SUA alese de un comitet. Trebuie să fie mari, profitabile și ușor de tranzacționat. NU sunt pur și simplu cele mai mari 500, iar lista amestecă firme listate pe NYSE cu firme listate pe Nasdaq.",
+      "etfList": "🇺🇸 SPY / VOO: Urmăresc S&P 500, o listă de 500 de companii mari din SUA. Standardul de aur.\n📦 VTI: Toată bursa americană, mii de companii într-un singur ETF.\n💡 QQQ: Cele mai mari 100 de companii nefinanciare de pe Nasdaq. Foarte axat pe tehnologie.\n🌍 VT / VXUS: Companii globale sau internaționale într-un singur fond.",
+      "currencyHedge": "Dacă dolarul se depreciază față de alte monede, investițiile tale internaționale valorează automat MAI MULT socotite în dolari!",
+      "fxQuizSetup": "Dolarul se depreciază semnificativ față de euro și yen",
+      "fxQuizLose": "Își pierde valoarea pentru că economia SUA are probleme",
+      "fxQuizGain": "CREȘTE socotit în dolari, pentru că investițiile tale din străinătate au câștigat valoare valutară",
+      "dcaTitle": "Medierea costului în dolari",
+      "dcaAbbrev": "DCA",
+      "food": "un meniu Big Mac"
+    },
+    "GB": {
+      "name": "Regatul Unit",
+      "cName": "liră",
+      "cPlural": "lire",
+      "exDesc": "una dintre cele mai vechi și mai importante burse de valori din lume",
+      "sectorList": "⚡ Energie: Shell, BP. Giganți globali ai petrolului și gazelor\n🏦 Sectorul bancar: HSBC, Barclays, Lloyds. Le merge bine când dobânzile sunt mai mari\n🧴 Bunuri de consum: Unilever, Diageo, Reckitt. Puteri ale brandurilor de uz casnic\n🛍️ Retail: Tesco, Sainsbury's. Le merge bine când consumatorii cheltuiesc\n📡 Telecom: Vodafone, BT Group. Oamenii au mereu nevoie de conectivitate",
+      "etfBasket": "cele mai mari 100 de companii de pe London Stock Exchange",
+      "etfDesc": "FTSE 100, de exemplu, este o listă cu cele mai mari 100 de companii de pe piața principală a London Stock Exchange, reverificată la fiecare trei luni.",
+      "etfList": "🇬🇧 iShares Core FTSE 100: Cele mai mari 100 de companii de pe London Stock Exchange.\n🌍 Vanguard FTSE All-World: Companii din zeci de țări într-o singură cumpărare.\n🇺🇸 iShares Core S&P 500: Cele 500 de companii mari din SUA de pe lista S&P 500.\n💡 iShares Nasdaq 100: Cele mai mari 100 de companii nefinanciare de pe Nasdaq. Foarte axat pe tehnologie.",
+      "currencyHedge": "Dacă lira se depreciază față de alte monede, investițiile tale internaționale valorează automat MAI MULT socotite în lire!",
+      "fxQuizSetup": "Lira se depreciază semnificativ față de dolar și euro",
+      "fxQuizLose": "Își pierde valoarea pentru că economia Regatului Unit are probleme",
+      "fxQuizGain": "CREȘTE socotit în lire, pentru că investițiile tale din străinătate au câștigat valoare valutară",
+      "dcaTitle": "Medierea costului în lire",
+      "dcaAbbrev": "PCA",
+      "food": "un sfert de pui Nando's"
+    },
+    "IN": {
+      "name": "India",
+      "cName": "rupie",
+      "cPlural": "rupii",
+      "exDesc": "una dintre cele mai mari burse de valori din lume după numărul de tranzacții",
+      "sectorList": "💻 Tehnologie: TCS, Infosys, Wipro. Puteri globale ale serviciilor IT\n🏦 Sectorul bancar: HDFC Bank, SBI, ICICI. Le merge bine când dobânzile sunt mai mari\n🛍️ Bunuri de consum: ITC, Hindustan Unilever, DMart. Le merge bine când consumatorii cheltuiesc\n⚡ Energie: Reliance, ONGC. Legate de petrol, gaze și rafinare\n📡 Telecom: Airtel, Vodafone Idea. Uriașa piață mobilă a Indiei continuă să crească",
+      "etfBasket": "50 dintre cele mai mari și mai tranzacționate companii din India",
+      "etfDesc": "Nifty 50, de exemplu, este o listă cu 50 dintre cele mai mari și mai tranzacționate companii din India, alese după mărime ȘI după cât de ușor pot fi cumpărate și vândute, nu doar după mărime.",
+      "etfList": "🇮🇳 Nippon India Nifty 50: Nifty 50, o listă cu 50 dintre cele mai mari și mai tranzacționate companii din India.\n💡 ICICI Prudential Sensex: Sensex, o listă cu 30 dintre cele mai cunoscute blue chips din India.\n📦 Kotak Nifty Next 50: Cele 50 de companii clasate imediat sub Nifty 50.\n🌍 Motilal Oswal Nasdaq 100: Cele mai mari 100 de companii nefinanciare de pe Nasdaq.",
+      "currencyHedge": "Dacă rupia se depreciază față de dolar, investițiile tale internaționale valorează automat MAI MULT socotite în rupii!",
+      "fxQuizSetup": "Rupia se depreciază de la ₹82 la ₹90 față de dolar",
+      "fxQuizLose": "Își pierde valoarea pentru că economia Indiei are probleme",
+      "fxQuizGain": "CREȘTE socotit în rupii, pentru că fiecare dolar cumpără mai multe rupii",
+      "dcaTitle": "Medierea costului în rupii",
+      "dcaAbbrev": "RCA",
+      "food": "o pizza Domino's"
+    },
+    "JP": {
+      "name": "Japonia",
+      "cName": "yen",
+      "cPlural": "yeni",
+      "exDesc": "una dintre cele mai mari burse de valori din lume",
+      "sectorList": "🚗 Auto: Toyota, Honda, Nissan. Producătorii de mașini faimoși în toată lumea ai Japoniei\n💻 Tehnologie: Sony, SoftBank, Nintendo. Gaming, divertisment și inovație\n🏦 Sectorul bancar: MUFG, SMFG, Mizuho. Megagrupurile bancare ale Japoniei\n🛍️ Retail: Fast Retailing (Uniqlo), Seven & i. Prezență globală în retail\n📡 Telecom: NTT, KDDI, SoftBank. Infrastructură mobilă uriașă",
+      "etfBasket": "cele 225 de companii de pe lista Nikkei 225",
+      "etfDesc": "Nikkei 225, de exemplu, este o listă de 225 de companii japoneze cunoscute, alese să reprezinte întreaga piață. Este ponderat după preț, ceea ce înseamnă că o acțiune cu preț mare contează mai mult decât o companie care e pur și simplu mare.",
+      "etfList": "🇯🇵 Un ETF Nikkei 225: Cele 225 de companii de pe lista Nikkei 225. Reperul pieței.\n📦 Un ETF TOPIX: O felie mult mai largă din piața din Tokyo, cu mult peste o mie de companii.\n🌍 MAXIS All Country World: Piețe dezvoltate și emergente într-un singur fond.\n🇺🇸 iShares S&P 500: Cele 500 de companii mari din SUA de pe lista S&P 500.",
+      "currencyHedge": "Dacă yenul se depreciază față de alte monede, investițiile tale internaționale valorează automat MAI MULT socotite în yeni!",
+      "fxQuizSetup": "Yenul se depreciază de la ¥130 la ¥155 față de dolar",
+      "fxQuizLose": "Își pierde valoarea pentru că economia Japoniei are probleme",
+      "fxQuizGain": "CREȘTE socotit în yeni, pentru că investițiile tale din străinătate au câștigat valoare valutară",
+      "dcaTitle": "Medierea costului în yeni",
+      "dcaAbbrev": "YCA",
+      "food": "un bol de ramen"
+    },
+    "DE": {
+      "name": "Germania",
+      "cName": "euro",
+      "cPlural": "euro",
+      "exDesc": "una dintre cele mai mari burse de valori din Europa",
+      "sectorList": "💻 Tehnologie: SAP, Infineon. Software pentru companii și semiconductori\n🚗 Auto: Volkswagen, BMW, Mercedes-Benz. Mândria inginerească a Germaniei\n🏦 Sectorul bancar: Deutsche Bank, Commerzbank. Le merge bine când cresc dobânzile\n🏭 Industrie: Siemens, BASF. Producție globală și chimicale\n📡 Telecom: Deutsche Telekom, 1&1. Coloana vertebrală a conectivității Germaniei",
+      "etfBasket": "cele mai mari 40 de companii germane de pe bursa din Frankfurt",
+      "etfDesc": "DAX 40, de exemplu, este o listă cu cele mai mari 40 de companii germane de pe bursa din Frankfurt, iar din 2021 trebuie să fie și profitabile ca să se califice.",
+      "etfList": "🇩🇪 iShares Core DAX: Cele mai mari 40 de companii germane de pe bursa din Frankfurt.\n🌍 Xtrackers MSCI World: Companii din 23 de țări dezvoltate.\n🇺🇸 iShares Core S&P 500: Cele 500 de companii mari din SUA de pe lista S&P 500.\n🇪🇺 Un ETF EURO STOXX 50: 50 de lideri blue-chip din toată zona euro.",
+      "currencyHedge": "Dacă euro se depreciază față de alte monede, investițiile tale internaționale valorează automat MAI MULT socotite în euro!",
+      "fxQuizSetup": "Euro se depreciază semnificativ față de dolar și yen",
+      "fxQuizLose": "Își pierde valoarea pentru că economia Europei are probleme",
+      "fxQuizGain": "CREȘTE socotit în euro, pentru că investițiile tale din străinătate au câștigat valoare valutară",
+      "dcaTitle": "Medierea costului",
+      "dcaAbbrev": "DCA",
+      "food": "un döner kebab"
+    },
+    "CA": {
+      "name": "Canada",
+      "cName": "dolar canadian",
+      "cPlural": "dolari canadieni",
+      "exDesc": "una dintre primele 10 cele mai mari burse de valori din lume",
+      "sectorList": "💻 Tehnologie: Shopify, OpenText, Constellation Software. Inovație tech canadiană\n🏦 Sectorul bancar: RBC, TD, BMO, Scotiabank. Cele cinci mari bănci ale Canadei sunt solide ca stânca\n⚡ Energie: Enbridge, Suncor, TC Energy. Giganți ai nisipurilor petrolifere și ai conductelor\n🛍️ Retail: Dollarama, Canadian Tire, Loblaw. Branduri de retail crescute acasă\n📡 Telecom: BCE, Rogers, Telus. Canadienii au mereu nevoie de conectivitate",
+      "etfBasket": "60 de companii canadiene mari care acoperă fiecare industrie importantă",
+      "etfDesc": "S&P/TSX 60, de exemplu, este o listă de 60 de companii canadiene mari alese de un comitet astfel încât fiecare industrie importantă să fie reprezentată, ceea ce înseamnă că nu sunt pur și simplu cele mai mari 60.",
+      "etfList": "🇨🇦 iShares S&P/TSX 60 (XIU): 60 de companii canadiene mari din fiecare industrie importantă.\n📦 Vanguard All-Equity (VEQT): Acțiuni canadiene, americane și internaționale într-un singur ETF.\n🇺🇸 BMO S&P 500: Cele 500 de companii mari din SUA de pe lista S&P 500.\n💡 Un ETF Nasdaq 100: Cele mai mari 100 de companii nefinanciare de pe Nasdaq. Foarte axat pe tehnologie.",
+      "currencyHedge": "Dacă dolarul canadian se depreciază față de alte monede, investițiile tale internaționale valorează automat MAI MULT socotite în C$!",
+      "fxQuizSetup": "Dolarul canadian se depreciază semnificativ față de dolarul american",
+      "fxQuizLose": "Își pierde valoarea pentru că economia Canadei are probleme",
+      "fxQuizGain": "CREȘTE socotit în dolari canadieni, pentru că investițiile tale din străinătate au câștigat valoare valutară",
+      "dcaTitle": "Medierea costului în dolari",
+      "dcaAbbrev": "DCA",
+      "food": "un meniu Tim Hortons"
+    },
+    "AU": {
+      "name": "Australia",
+      "cName": "dolar australian",
+      "cPlural": "dolari australieni",
+      "exDesc": "cea mai mare bursă de valori din emisfera sudică",
+      "sectorList": "⛏️ Minerit: BHP, Rio Tinto, Fortescue. Giganți globali ai mineritului și resurselor\n🏦 Sectorul bancar: CBA, Westpac, ANZ, NAB. Cele patru mari bănci ale Australiei\n🏥 Sănătate: CSL, Cochlear. Biotehnologie și dispozitive medicale de clasă mondială\n🛍️ Retail: Woolworths, Coles, Wesfarmers. Alimente și bunuri de consum de bază\n💻 Tehnologie: WiseTech Global, Xero. Povești de succes în software listate în Australia",
+      "etfBasket": "cele mai mari 200 de companii de pe ASX",
+      "etfDesc": "S&P/ASX 200, de exemplu, este o listă cu cele mai mari 200 de companii listate pe ASX, măsurate după valoarea acțiunilor disponibile pentru tranzacționare și verificate după cât de ușor își schimbă proprietarul.",
+      "etfList": "🇦🇺 iShares Core S&P/ASX 200 (IOZ): Cele mai mari 200 de companii de pe ASX.\n📦 Vanguard Australian Shares (VAS): Și mai larg, în jur de 300 de companii de pe ASX.\n🌍 Vanguard MSCI International (VGS): Companii de pe piețele dezvoltate din afara Australiei.\n🇺🇸 BetaShares Nasdaq 100 (NDQ): Cele mai mari 100 de companii nefinanciare de pe Nasdaq.",
+      "currencyHedge": "Dacă dolarul australian se depreciază față de alte monede, investițiile tale internaționale valorează automat MAI MULT socotite în A$!",
+      "fxQuizSetup": "Dolarul australian se depreciază semnificativ față de dolarul american",
+      "fxQuizLose": "Își pierde valoarea pentru că economia Australiei are probleme",
+      "fxQuizGain": "CREȘTE socotit în A$, pentru că investițiile tale din străinătate au câștigat valoare valutară",
+      "dcaTitle": "Medierea costului în dolari",
+      "dcaAbbrev": "DCA",
+      "food": "o plăcintă cu carne"
+    },
+    "HK": {
+      "name": "Hong Kong",
+      "cName": "dolar din Hong Kong",
+      "cPlural": "dolari din Hong Kong",
+      "exDesc": "bursa de valori care face legătura dintre China și piețele globale",
+      "sectorList": "💻 Tehnologie: Tencent, Xiaomi, Meituan. Giganți tech chinezi listați în HK\n🏦 Sectorul bancar: HSBC, Hang Seng Bank. Le merge bine când cresc dobânzile\n🏗️ Imobiliare: CK Asset, Sun Hung Kai. Proprietățile sunt regele din Hong Kong\n⚡ Utilități: CLP, Power Assets. Dividende stabile an după an\n🛡️ Asigurări: AIA, Prudential. Lideri ai asigurărilor din Asia-Pacific",
+      "etfBasket": "cele mai mari și mai tranzacționate companii din Hong Kong",
+      "etfDesc": "Indicele Hang Seng, de exemplu, este o listă selectată cu cele mai mari și mai tranzacționate companii din Hong Kong, alese să reprezinte fiecare industrie importantă. Numărul de companii de pe ea se schimbă pe măsură ce comitetul indicelui adaugă și scoate nume.",
+      "etfList": "🇭🇰 Tracker Fund (2800): Urmărește indicele Hang Seng. Pionierul ETF-urilor din Hong Kong.\n💡 Hang Seng TECH ETF: Cele mai mari 30 de companii tech listate în Hong Kong.\n🇺🇸 Un ETF S&P 500: Cele 500 de companii mari din SUA de pe lista S&P 500.\n🇨🇳 Un ETF pe acțiuni chinezești de tip A: Acces la companii listate în Shanghai și Shenzhen.",
+      "currencyHedge": "Dolarul din Hong Kong este legat de dolarul american, așa că un fond global axat pe SUA abia se mișcă doar din cauza monedei. Dar partea din afara SUA (Europa, Japonia, restul Asiei) tot câștigă socotită în HK$ când acele monede se apreciază!",
+      "fxQuizSetup": "Euro și yenul se apreciază față de dolarul american, iar dolarul din Hong Kong este legat de dolarul american",
+      "fxQuizLose": "Își pierde valoarea pentru că economia din Hong Kong are probleme",
+      "fxQuizGain": "Partea europeană și cea japoneză CRESC socotite în HK$, pentru că acele monede cumpără acum mai mulți dolari din Hong Kong",
+      "dcaTitle": "Medierea costului în dolari",
+      "dcaAbbrev": "DCA",
+      "food": "un bol de tăiței cu wonton"
+    },
+    "CN": {
+      "name": "China",
+      "cName": "yuan",
+      "cPlural": "yuani",
+      "exDesc": "una dintre cele mai mari burse de valori din lume după capitalizarea bursieră",
+      "sectorList": "💻 Tehnologie: SMIC, Kingsoft Office. Cipuri și software listate în Shanghai\n🏦 Sectorul bancar: ICBC, CCB, Bank of China. Printre cele mai mari bănci din lume după active\n🚗 Auto: SAIC Motor, Great Wall Motor. Producătorii de mașini autohtoni ai Chinei\n🛍️ Bunuri de consum: Kweichow Moutai, Haier, Yili. Nume cunoscute în toată China\n📡 Telecom: China Mobile, China Telecom. Rețele mobile uriașe",
+      "etfBasket": "300 dintre cele mai mari și mai tranzacționate companii din China continentală",
+      "etfDesc": "CSI 300, de exemplu, este o listă cu 300 dintre cele mai mari și mai tranzacționate companii din China continentală și acoperă ATÂT bursa din Shanghai, cât și pe cea din Shenzhen, nu doar una dintre ele.",
+      "etfList": "🇨🇳 Huatai-PB CSI 300 (510300): 300 de companii mari și intens tranzacționate din Shanghai și Shenzhen.\n💡 ChinaAMC SSE 50 (510050): Cele mai mari 50 de companii doar de pe bursa din Shanghai.\n🌍 Un fond larg pe acțiuni chinezești: O acoperire mai largă decât CSI 300.\n🇺🇸 Un fond QDII S&P 500: Acces la cele 500 de companii mari din SUA de pe lista S&P 500.",
+      "currencyHedge": "Dacă yuanul se depreciază față de alte monede, investițiile tale internaționale valorează automat MAI MULT socotite în yuani!",
+      "fxQuizSetup": "Yuanul se depreciază semnificativ față de dolar și euro",
+      "fxQuizLose": "Își pierde valoarea pentru că economia Chinei are probleme",
+      "fxQuizGain": "CREȘTE socotit în yuani, pentru că investițiile tale din străinătate au câștigat valoare valutară",
+      "dcaTitle": "Medierea costului în yuani",
+      "dcaAbbrev": "YCA",
+      "food": "un bol de tăiței"
+    },
+    "FR": {
+      "name": "Franța",
+      "cName": "euro",
+      "cPlural": "euro",
+      "exDesc": "casa unora dintre cele mai iconice branduri de lux și industriale din lume",
+      "sectorList": "👜 Lux: LVMH, Hermès, Kering. Franța domină luxul la nivel global\n⚡ Energie: TotalEnergies, Engie. Companii energetice europene importante\n🏦 Sectorul bancar: BNP Paribas, Société Générale. Le merge bine când cresc dobânzile\n✈️ Aerospațial: Airbus, Safran. Lideri mondiali în avioane și apărare\n📡 Telecom: Orange, Bouygues. Coloana vertebrală a conectivității Franței",
+      "etfBasket": "cele 40 de companii de pe lista CAC 40",
+      "etfDesc": "CAC 40, de exemplu, este o listă de 40 de companii alese de un comitet independent dintre cele mai mari 100 de pe bursa din Paris, în funcție de mărime ȘI de cât de intens sunt tranzacționate.",
+      "etfList": "🇫🇷 Amundi CAC 40: Cele 40 de companii de pe lista CAC 40. Reperul pieței.\n🌍 Un ETF MSCI World: Companii din 23 de țări dezvoltate.\n🇺🇸 BNP Paribas Easy S&P 500: Cele 500 de companii mari din SUA de pe lista S&P 500.\n🇪🇺 Un ETF EURO STOXX 50: 50 de lideri blue-chip din toată zona euro.",
+      "currencyHedge": "Dacă euro se depreciază față de alte monede, investițiile tale internaționale valorează automat MAI MULT socotite în euro!",
+      "fxQuizSetup": "Euro se depreciază semnificativ față de dolar și yen",
+      "fxQuizLose": "Își pierde valoarea pentru că economia Europei are probleme",
+      "fxQuizGain": "CREȘTE socotit în euro, pentru că investițiile tale din străinătate au câștigat valoare valutară",
+      "dcaTitle": "Medierea costului",
+      "dcaAbbrev": "DCA",
+      "food": "un croque-monsieur"
+    },
+    "IT": {
+      "name": "Italia",
+      "cName": "euro",
+      "cPlural": "euro",
+      "exDesc": "una dintre cele mai vechi burse de valori din Europa, casa unor branduri italiene iconice",
+      "sectorList": "🏎️ Auto: Ferrari, Stellantis. Excelența ingineriei italiene\n⚡ Energie: Enel, Eni. Companii europene importante de energie și utilități\n🏦 Sectorul bancar: UniCredit, Intesa Sanpaolo. Le merge bine când cresc dobânzile\n🛡️ Asigurări: Generali, Unipol. Giganții asigurărilor din Italia\n📡 Telecom: TIM, Inwit. Infrastructura de conectivitate a Italiei",
+      "etfBasket": "cele 40 de companii de pe lista FTSE MIB",
+      "etfDesc": "FTSE MIB, de exemplu, este o listă cu 40 dintre cele mai mari și mai tranzacționate companii de pe bursa din Milano, alese să acopere principalele industrii ale Italiei.",
+      "etfList": "🇮🇹 Un ETF FTSE MIB: Cele 40 de companii de pe lista FTSE MIB.\n🌍 iShares Core MSCI World: Companii din 23 de țări dezvoltate.\n🇺🇸 Amundi S&P 500: Cele 500 de companii mari din SUA de pe lista S&P 500.\n🇪🇺 Xtrackers EURO STOXX 50: 50 de lideri blue-chip din toată zona euro.",
+      "currencyHedge": "Dacă euro se depreciază față de alte monede, investițiile tale internaționale valorează automat MAI MULT socotite în euro!",
+      "fxQuizSetup": "Euro se depreciază semnificativ față de dolar și yen",
+      "fxQuizLose": "Își pierde valoarea pentru că economia Europei are probleme",
+      "fxQuizGain": "CREȘTE socotit în euro, pentru că investițiile tale din străinătate au câștigat valoare valutară",
+      "dcaTitle": "Medierea costului",
+      "dcaAbbrev": "DCA",
+      "food": "o pizza margherita"
+    },
+    "ES": {
+      "name": "Spania",
+      "cName": "euro",
+      "cPlural": "euro",
+      "exDesc": "principala bursă de valori a Spaniei și poarta spre piețele din America Latină",
+      "sectorList": "👗 Modă și frumusețe: Inditex (Zara), Puig. Imperiul global al stilului spaniol\n🏦 Sectorul bancar: Santander, BBVA, CaixaBank. Băncile Spaniei au o acoperire globală uriașă\n⚡ Energie: Iberdrola, Endesa. Lideri ai energiei regenerabile din Europa\n📡 Telecom: Telefónica, Cellnex. Coloana vertebrală a conectivității Spaniei\n🏗️ Infrastructură: Ferrovial, ACS. Construiesc infrastructură în toată lumea",
+      "etfBasket": "cele mai tranzacționate 35 de companii din Spania",
+      "etfDesc": "IBEX 35, de exemplu, este o listă cu cele mai tranzacționate 35 de acțiuni spaniole, alese de un comitet tehnic după volumul de tranzacționare. Deci e o listă a celor mai tranzacționate, nu a celor mai mari.",
+      "etfList": "🇪🇸 Un ETF IBEX 35: Cele mai tranzacționate 35 de acțiuni spaniole.\n🌍 iShares Core MSCI World: Companii din 23 de țări dezvoltate.\n🇺🇸 Vanguard S&P 500: Cele 500 de companii mari din SUA de pe lista S&P 500.\n🇪🇺 Un ETF EURO STOXX 50: 50 de lideri blue-chip din toată zona euro.",
+      "currencyHedge": "Dacă euro se depreciază față de alte monede, investițiile tale internaționale valorează automat MAI MULT socotite în euro!",
+      "fxQuizSetup": "Euro se depreciază semnificativ față de dolar și yen",
+      "fxQuizLose": "Își pierde valoarea pentru că economia Europei are probleme",
+      "fxQuizGain": "CREȘTE socotit în euro, pentru că investițiile tale din străinătate au câștigat valoare valutară",
+      "dcaTitle": "Medierea costului",
+      "dcaAbbrev": "DCA",
+      "food": "o farfurie cu tapas"
+    },
+    "NL": {
+      "name": "Țările de Jos",
+      "cName": "euro",
+      "cPlural": "euro",
+      "exDesc": "cea mai veche bursă de valori din lume, fondată în 1602",
+      "sectorList": "💻 Tehnologie: ASML, Adyen. ASML alimentează cele mai avansate cipuri din lume\n⚡ Energie: Shell, SBM Offshore. Giganți globali ai energiei cu sediul în NL\n🏦 Sectorul bancar: ING, ABN AMRO. Le merge bine când cresc dobânzile\n🍺 Bunuri de consum: Heineken, Ahold Delhaize. Branduri globale de alimente și băuturi\n📡 Telecom: KPN, cel mai mare furnizor de conectivitate listat din țară",
+      "etfBasket": "cele mai tranzacționate 25 de companii din Amsterdam",
+      "etfDesc": "AEX, de exemplu, este o listă cu cele mai tranzacționate 25 de acțiuni de pe bursa din Amsterdam. Ordonează companiile după cât de mult sunt tranzacționate, nu după cât de mari sunt.",
+      "etfList": "🇳🇱 iShares AEX: Cele mai tranzacționate 25 de acțiuni din Amsterdam.\n🌍 Vanguard FTSE All-World: Companii din zeci de țări într-o singură cumpărare.\n🇺🇸 iShares Core S&P 500: Cele 500 de companii mari din SUA de pe lista S&P 500.\n🇪🇺 Un ETF EURO STOXX 50: 50 de lideri blue-chip din toată zona euro.",
+      "currencyHedge": "Dacă euro se depreciază față de alte monede, investițiile tale internaționale valorează automat MAI MULT socotite în euro!",
+      "fxQuizSetup": "Euro se depreciază semnificativ față de dolar și yen",
+      "fxQuizLose": "Își pierde valoarea pentru că economia Europei are probleme",
+      "fxQuizGain": "CREȘTE socotit în euro, pentru că investițiile tale din străinătate au câștigat valoare valutară",
+      "dcaTitle": "Medierea costului",
+      "dcaAbbrev": "DCA",
+      "food": "o crochetă (kroket)"
+    },
+    "BR": {
+      "name": "Brazilia",
+      "cName": "real",
+      "cPlural": "reali",
+      "exDesc": "cea mai mare bursă de valori din America Latină",
+      "sectorList": "⛏️ Minerit: Vale, CSN. Giganții minereului de fier și ai oțelului din Brazilia\n⚡ Energie: Petrobras, Eletrobras. Companii importante de petrol și electricitate\n🏦 Sectorul bancar: Itaú, Bradesco, Banco do Brasil. Le merge bine când cresc dobânzile\n🍺 Bunuri de consum: Ambev, JBS. Puteri ale alimentelor și băuturilor\n📡 Telecom: Vivo, TIM Brasil. Furnizorii de internet mobil și în bandă largă ai Braziliei",
+      "etfBasket": "cele mai tranzacționate companii de pe bursa B3",
+      "etfDesc": "Ibovespa, de exemplu, este o listă cu cele mai tranzacționate companii de pe bursa B3. O companie își câștigă locul după cât de mult e cumpărată și vândută, nu după cât de mare e. Așa că numărul de companii de pe listă se schimbă în timp.",
+      "etfList": "🇧🇷 BOVA11: Urmărește Ibovespa, cele mai tranzacționate companii de pe B3. Reperul pieței.\n🇺🇸 IVVB11: Urmărește S&P 500. Adică 500 de companii mari din SUA, cu prețul în reali.\n🌍 Un ETF global pe acțiuni: Piețe dezvoltate și emergente într-o singură cumpărare.\n💡 HASH11: Un fond pe indice crypto care deține Bitcoin, Ethereum și altele.",
+      "currencyHedge": "Dacă realul se depreciază față de dolar, investițiile tale internaționale valorează automat MAI MULT socotite în R$!",
+      "fxQuizSetup": "Realul brazilian se depreciază de la R$5 la R$6 față de dolar",
+      "fxQuizLose": "Își pierde valoarea pentru că economia Braziliei are probleme",
+      "fxQuizGain": "CREȘTE socotit în reali, pentru că fiecare dolar cumpără mai mulți reali",
+      "dcaTitle": "Medierea costului în reali",
+      "dcaAbbrev": "RCA",
+      "food": "un meniu cu pão de queijo"
+    },
+    "SA_ARABIA": {
+      "name": "Arabia Saudită",
+      "cName": "rial",
+      "cPlural": "riali",
+      "exDesc": "cea mai mare bursă de valori din Orientul Mijlociu",
+      "sectorList": "🛢️ Energie: Saudi Aramco, SABIC. Aramco este cea mai valoroasă companie petrolieră din lume\n🏦 Sectorul bancar: Al Rajhi, SNB, Riyad Bank. Le merge bine când cresc dobânzile\n📡 Telecom: STC, Mobily. Furnizorii de internet mobil și în bandă largă ai Arabiei Saudite\n🛍️ Retail: Jarir, Extra. Lanțuri de retail populare\n⛏️ Materiale: Ma'aden, Yansab. Minerit și petrochimie",
+      "etfBasket": "toate companiile listate pe piața principală Tadawul",
+      "etfDesc": "TASI (Tadawul All Share Index) nu este deloc o listă de top 30 sau top 100. Acoperă toate companiile listate pe piața principală Tadawul, așa că numărul de companii din el se schimbă de fiecare dată când o companie se listează sau pleacă.",
+      "etfList": "🇸🇦 Un ETF care urmărește TASI: Expunere largă la toată piața principală Tadawul.\n📦 Un ETF saudit blue-chip: Un coș mult mai mic cu cele mai mari nume saudite.\n🌍 Un ETF MSCI Saudi Arabia: Urmărește indicele saudit al MSCI, o parte filtrată a pieței.\n🇺🇸 Un fond S&P 500: Cele 500 de companii mari din SUA de pe lista S&P 500.",
+      "currencyHedge": "Pentru că rialul este legat de dolarul american, investițiile globale în alte monede te avantajează când acele monede se apreciază!",
+      "fxQuizSetup": "Monede globale precum euro și yenul se apreciază față de rial",
+      "fxQuizLose": "Își pierde valoarea pentru că economia Arabiei Saudite are probleme",
+      "fxQuizGain": "CREȘTE socotit în riali, pentru că investițiile tale din străinătate au câștigat valoare valutară",
+      "dcaTitle": "Medierea costului în riali",
+      "dcaAbbrev": "RCA",
+      "food": "un meniu Al Baik"
+    },
+    "KR": {
+      "name": "Coreea de Sud",
+      "cName": "won",
+      "cPlural": "woni",
+      "exDesc": "casa Samsung, Hyundai și a unora dintre cele mai inovatoare companii din Asia",
+      "sectorList": "💻 Tehnologie: Samsung, SK Hynix, Kakao. Lideri globali în tehnologie și cipuri\n🚗 Auto: Hyundai, Kia. Producătorii de mașini faimoși în toată lumea ai Coreei\n🏦 Sectorul bancar: KB Financial, Shinhan. Le merge bine când cresc dobânzile\n🎶 Divertisment: HYBE, CJ ENM. Valul cultural global K-pop și K-drama\n📡 Telecom: KT, LG Uplus. Conectivitatea ultrarapidă a Coreei de Sud",
+      "etfBasket": "200 dintre cele mai mari și mai tranzacționate companii din Coreea",
+      "etfDesc": "KOSPI 200, de exemplu, este o listă cu 200 dintre cele mai mari și mai tranzacționate companii din Coreea, alese industrie cu industrie, astfel încât fiecare parte a pieței să fie reprezentată.",
+      "etfList": "🇰🇷 KODEX 200: Urmărește KOSPI 200, o listă cu 200 dintre cele mai mari și mai tranzacționate companii din Coreea.\n🌍 Un ETF global pe acțiuni: Companii de pe piețele dezvoltate într-o singură cumpărare.\n🇺🇸 TIGER Nasdaq 100: Cele mai mari 100 de companii nefinanciare de pe Nasdaq.\n💡 KODEX Samsung Group: Urmărește companiile afiliate Samsung listate la bursă.",
+      "currencyHedge": "Dacă wonul se depreciază față de alte monede, investițiile tale internaționale valorează automat MAI MULT socotite în woni!",
+      "fxQuizSetup": "Wonul se depreciază de la ₩1,300 la ₩1,400 față de dolar",
+      "fxQuizLose": "Își pierde valoarea pentru că economia Coreei de Sud are probleme",
+      "fxQuizGain": "CREȘTE socotit în woni, pentru că fiecare dolar cumpără mai mulți woni",
+      "dcaTitle": "Medierea costului în woni",
+      "dcaAbbrev": "WCA",
+      "food": "un bol de bibimbap"
+    },
+    "TW": {
+      "name": "Taiwan",
+      "cName": "dolar taiwanez",
+      "cPlural": "dolari taiwanezi",
+      "exDesc": "casa TSMC, compania care produce majoritatea celor mai avansate cipuri din lume",
+      "sectorList": "💻 Tehnologie: TSMC, MediaTek, ASUS. Taiwanul face cipurile lumii\n🏭 Producție: Hon Hai (Foxconn), Delta. Giganți ai producției de electronice\n🏦 Sectorul bancar: Cathay Financial, Fubon. Le merge bine când cresc dobânzile\n🧪 Chimie: Formosa Plastics, Nan Ya. Lideri ai materialelor industriale\n📡 Telecom: Chunghwa Telecom, Far EasTone. Coloana vertebrală a conectivității Taiwanului",
+      "etfBasket": "cele mai mari 50 de companii de pe Taiwan Stock Exchange",
+      "etfDesc": "Taiwanul are două liste foarte diferite. TAIEX acoperă toate companiile listate pe Taiwan Stock Exchange, în jur de o mie. Taiwan 50, pe care îl urmărește popularul ETF 0050, cuprinde doar cele mai mari 50.",
+      "etfList": "🇹🇼 0050 (Yuanta Taiwan Top 50): Cele mai mari 50 de companii de pe bursa din Taiwan. Clasicul.\n📦 0056 (Yuanta High Dividend): Acțiuni taiwaneze alese după randamentul estimat al dividendelor.\n🇺🇸 00646 (Yuanta S&P 500): Cele 500 de companii mari din SUA de pe lista S&P 500.\n💡 00662 (Fubon Nasdaq 100): Cele mai mari 100 de companii nefinanciare de pe Nasdaq.",
+      "currencyHedge": "Dacă dolarul taiwanez se depreciază față de alte monede, investițiile tale internaționale valorează automat MAI MULT socotite în NT$!",
+      "fxQuizSetup": "Dolarul taiwanez se depreciază de la NT$30 la NT$34 față de dolarul american",
+      "fxQuizLose": "Își pierde valoarea pentru că economia Taiwanului are probleme",
+      "fxQuizGain": "CREȘTE socotit în NT$, pentru că investițiile tale din străinătate au câștigat valoare valutară",
+      "dcaTitle": "Medierea costului în dolari",
+      "dcaAbbrev": "DCA",
+      "food": "o supă cu tăiței și carne de vită"
+    },
+    "SG": {
+      "name": "Singapore",
+      "cName": "dolar singaporez",
+      "cPlural": "dolari singaporezi",
+      "exDesc": "principalul centru financiar și bursă de valori din Asia de Sud-Est",
+      "sectorList": "🏦 Sectorul bancar: DBS, OCBC, UOB. Trioul bancar solid ca stânca al Singapore-ului\n✈️ Transport: Singapore Airlines, SATS. Aviație de clasă mondială\n🏗️ Imobiliare: CapitaLand, City Developments. Proprietățile contează enorm în Singapore\n💻 Tehnologie: Venture Corporation, AEM. Tech-ul listat pe SGX înseamnă mai ales producție de electronice; Sea și Grab au ales să se listeze în SUA\n📡 Telecom: Singtel, StarHub. Furnizorii de conectivitate din Singapore",
+      "etfBasket": "cele mai mari 30 de companii de pe Singapore Exchange",
+      "etfDesc": "Straits Times Index, de exemplu, este o listă cu cele mai mari 30 de companii de pe Singapore Exchange care trec și testele de free float și de tranzacționare ale acesteia.",
+      "etfList": "🇸🇬 Nikko AM STI ETF: Cele mai mari 30 de companii de pe Singapore Exchange. Reperul pieței.\n📦 ABF Singapore Bond Index Fund: Obligațiuni de stat din Singapore într-un singur fond.\n🌏 iShares MSCI Asia ex Japan: Acces larg la piețele asiatice.\n🇺🇸 Un ETF S&P 500: Cele 500 de companii mari din SUA de pe lista S&P 500.",
+      "currencyHedge": "Dacă dolarul singaporez se depreciază față de alte monede, investițiile tale internaționale valorează automat MAI MULT socotite în S$!",
+      "fxQuizSetup": "Dolarul singaporez se depreciază semnificativ față de dolarul american",
+      "fxQuizLose": "Își pierde valoarea pentru că economia Singapore-ului are probleme",
+      "fxQuizGain": "CREȘTE socotit în S$, pentru că investițiile tale din străinătate au câștigat valoare valutară",
+      "dcaTitle": "Medierea costului în dolari",
+      "dcaAbbrev": "DCA",
+      "food": "o masă la un hawker centre"
+    },
+    "CH": {
+      "name": "Elveția",
+      "cName": "franc",
+      "cPlural": "franci",
+      "exDesc": "casa Nestlé, Novartis și Roche, trei dintre cele mai valoroase companii din Europa",
+      "sectorList": "💊 Farma: Novartis, Roche. Puteri farmaceutice globale\n🍫 Bunuri de consum: Nestlé, Lindt. Cele mai iconice branduri alimentare din lume\n🏦 Sectorul bancar: UBS, Julius Baer. Sistemul bancar elvețian e legendar\n🏭 Industrie: ABB, Holcim. Inginerie și construcții la nivel global\n📡 Telecom: Swisscom, Sunrise. Furnizori elvețieni de conectivitate",
+      "etfBasket": "cele mai mari și mai tranzacționate 20 de companii elvețiene",
+      "etfDesc": "Swiss Market Index, de exemplu, este o listă cu cele mai mari și mai tranzacționate 20 de companii elvețiene.",
+      "etfList": "🇨🇭 iShares Core SPI: Toată piața elvețiană, nu doar numele mari.\n💡 Un ETF SMI: Cele mai mari și mai tranzacționate 20 de companii elvețiene.\n🌍 UBS ETF MSCI World: Companii din 23 de țări dezvoltate.\n🇺🇸 iShares Core S&P 500: Cele 500 de companii mari din SUA de pe lista S&P 500.",
+      "currencyHedge": "Dacă francul se depreciază față de alte monede, investițiile tale internaționale valorează MAI MULT socotite în CHF. Francul elvețian este de obicei foarte puternic!",
+      "fxQuizSetup": "Francul elvețian se depreciază semnificativ față de dolar și euro",
+      "fxQuizLose": "Își pierde valoarea pentru că economia Elveției are probleme",
+      "fxQuizGain": "CREȘTE socotit în franci, pentru că investițiile tale din străinătate au câștigat valoare valutară",
+      "dcaTitle": "Medierea costului în franci",
+      "dcaAbbrev": "FCA",
+      "food": "un kebab"
+    },
+    "SE": {
+      "name": "Suedia",
+      "cName": "coroană",
+      "cPlural": "coroane",
+      "exDesc": "casa Ericsson, Volvo și a unui număr surprinzător de branduri globale",
+      "sectorList": "💻 Tehnologie: Ericsson, Hexagon. Suedia joacă peste categoria ei în tehnologie\n🚗 Auto: Volvo, Volvo Cars. Excelența ingineriei suedeze\n🏦 Sectorul bancar: SEB, Handelsbanken, Nordea. Le merge bine când cresc dobânzile\n👗 Retail: H&M, Essity. Branduri globale de modă și bunuri de consum\n📡 Telecom: Telia, Tele2. Lideri nordici ai conectivității",
+      "etfBasket": "cele mai tranzacționate 30 de companii din Stockholm",
+      "etfDesc": "OMXS30, de exemplu, este o listă cu cele mai tranzacționate 30 de acțiuni de pe bursa din Stockholm. Ordonează după activitatea de tranzacționare, nu după mărimea companiei.",
+      "etfList": "🇸🇪 Xact OMXS30: Cele mai tranzacționate 30 de acțiuni din Stockholm.\n💰 Avanza Zero: Un fond suedez pe indice fără comision anual de administrare. Urmărește aceleași 30 de acțiuni din Stockholm.\n🌍 Un fond global pe indice: Companii din zeci de țări într-o singură cumpărare.\n🇺🇸 Un fond S&P 500: Cele 500 de companii mari din SUA de pe lista S&P 500.",
+      "currencyHedge": "Dacă coroana se depreciază față de alte monede, investițiile tale internaționale valorează automat MAI MULT socotite în kr!",
+      "fxQuizSetup": "Coroana suedeză se depreciază semnificativ față de dolar și euro",
+      "fxQuizLose": "Își pierde valoarea pentru că economia Suediei are probleme",
+      "fxQuizGain": "CREȘTE socotit în coroane, pentru că investițiile tale din străinătate au câștigat valoare valutară",
+      "dcaTitle": "Medierea costului în coroane",
+      "dcaAbbrev": "KCA",
+      "food": "un wrap cu falafel"
+    }
+  }
+}

@@ -1,0 +1,1846 @@
+{
+  "_meta": {
+    "lang": "ha",
+    "source": "src/constants/lessonData.js",
+    "lessons": 84,
+    "hash": {
+      "1": "d38ab2ed",
+      "2": "bf930bc6",
+      "3": "6e4e4d63",
+      "4": "5b7802cc",
+      "5": "0f9cde1d",
+      "6": "e5999569",
+      "7": "66bc9202",
+      "8": "65677cac",
+      "9": "59a1fc31",
+      "10": "03ccde2e",
+      "11": "fbb06743",
+      "12": "7713dc86",
+      "13": "38054a44",
+      "14": "cbac8395",
+      "15": "4355d5d7",
+      "16": "bee25cb0",
+      "17": "a5cba909",
+      "18": "df93ed01",
+      "19": "ad2f3ae8",
+      "20": "6363dc90",
+      "21": "65a3ab78",
+      "22": "61f1ee9c",
+      "23": "a475dd40",
+      "24": "6874af82",
+      "25": "d92ac77b",
+      "26": "e8f1b315",
+      "27": "c3b42e04",
+      "28": "c3719a16",
+      "29": "b8690fa4",
+      "30": "272435ad",
+      "31": "ebbffa78",
+      "32": "31ae442d",
+      "33": "71dbb7c6",
+      "34": "62d271e6",
+      "35": "da185960",
+      "36": "66e0a88e",
+      "37": "4a91dc0c",
+      "38": "9ec4dee7",
+      "39": "ae809a71",
+      "40": "c3b12ff9",
+      "41": "aa4153d7",
+      "42": "29941a97",
+      "43": "d87240fc",
+      "44": "87c794ce",
+      "45": "a3dd8868",
+      "46": "7873826b",
+      "47": "47503da5",
+      "48": "6d2df7b4",
+      "49": "c1055330",
+      "50": "7d4a6a8a",
+      "51": "27e927d2",
+      "52": "041c444d",
+      "53": "8fb1d4bc",
+      "54": "33ec5d94",
+      "55": "b7571fb2",
+      "56": "f20ea6ce",
+      "57": "5a1f3993",
+      "58": "561a7caf",
+      "59": "67437975",
+      "60": "6db8d44d",
+      "61": "04bbebe6",
+      "62": "b43659be",
+      "63": "a6bfefd0",
+      "64": "a2cc88e0",
+      "65": "2f12b47a",
+      "66": "4a676ede",
+      "67": "17351f96",
+      "68": "e9dda763",
+      "69": "3b1a13c3",
+      "70": "b07744de",
+      "71": "798da84a",
+      "72": "960b5a23",
+      "73": "76df64cb",
+      "74": "90735bdf",
+      "75": "b5be8d19",
+      "76": "b2c7a6ad",
+      "77": "1f3344ae",
+      "78": "e03a370e",
+      "79": "3b881962",
+      "80": "64bddadd",
+      "81": "d30753ea",
+      "82": "71620bf3",
+      "83": "989bc8a6",
+      "84": "cdd0a41d"
+    }
+  },
+  "lessons": {
+    "1": {
+      "title": "Mene ne Hannun Jari?",
+      "desc": "Mallaki ɗan ƙaramin yanki na kamfani",
+      "content": "Ka yi tunanin kai da abokanka 9 kowa ya ba da {c}10 don ku saya takalman sneakers na {c}100 tare. Kowannenku ya mallaki 1/10 na waɗannan takalman, kuma wannan shi ne ainihin hannun jari! Idan ka saya hannun jari a {retail}, ka mallaki ɗan ƙaramin yanki na kowane shago, kowane kaya, da kowane {cName} da suke samu. Yayin da kamfanin ke ƙara girma, yankinka na ƙara daraja! 🔥",
+      "quiz": {
+        "q": "Kai da abokanka 4 kun raba kuɗin kujerar wasan bidiyo ta {c}500 daidai-wa-daida. Me kowannenku ya mallaka?",
+        "explanation": "Mallakar hannun jari na nufin mallakar wani ɓangare na abu gaba ɗaya. Mutane biyar da suka biya daidai suna nufin yanka biyar daidai, kuma kowane yanki yana da haƙƙoƙi iri ɗaya da sauran.",
+        "options": [
+          "1/5 (20%) na kujerar ga kowannenku",
+          "Babu komai, mutum ɗaya kaɗai ne zai iya mallakarta",
+          "Kujerar gaba ɗaya tare, ba tare da rabon kowa ba"
+        ]
+      }
+    },
+    "2": {
+      "title": "Bayanin {ex}",
+      "desc": "Kasuwar hannayen jari ta {name}",
+      "content": "Ka ɗauki {ex} ({exFull}) kamar wata babbar kasuwar intanet, sai dai maimakon saya takalma ko wayoyi, mutane suna saya da sayar da ƙananan yankuna (hannayen jari) na kamfanoni kamar {top5}. Tana buɗe kowace rana ta aiki banda ranakun hutu na ƙasa, kuma farashin yana canzawa duk yini gwargwadon wanda ke saya da wanda ke sayarwa. {ex} ita ce {exDesc}! 🌍",
+      "quiz": {
+        "q": "Da me {ex} ta fi kama?",
+        "explanation": "Kasuwar hannayen jari tana haɗa mutanen da ke son saya hannayen jari da mutanen da ke son sayar da su. Ba ta mallaki hannayen jarin ba, ba ita ke zaɓar farashi ba, kuma ba za ta biya ka ruwa don barin kuɗi a can ba.",
+        "options": [
+          "Kasuwa, inda masu hannayen jari ke haɗuwa da masu saya",
+          "Asusun ajiya, inda kuɗi ke zaune yana samun ruwa",
+          "Shago da ya mallaki hannayen jarin yana sayar maka da su"
+        ]
+      }
+    },
+    "3": {
+      "title": "Bijimai da Beyar",
+      "desc": "Fassarar alkiblar kasuwa",
+      "content": "A kasuwanni, dabbobi ne ke jagoranci 😄\n\n🐂 Bijimi (Bull) = farashi na HAWA. Ka yi tunanin bijimi yana tunkuɗa sama da ƙahoninsa. Kowa na cin nasara, mutane suna saya, yanayi mai daɗi.\n\n🐻 Beyar (Bear) = farashi na FAƊUWA. Ka yi tunanin beyar yana mari ƙasa da tafinsa. Mutane suna tsoro, suna sayarwa, ba lokaci mai kyau ba.\n\nIdan wani ya ce 'Ina bullish game da {tech}', yana ganin farashin zai hau. Idan ya ce 'bearish', yana ganin zai faɗi. Za ka ji waɗannan kalmomi ko'ina a harkar kuɗi!",
+      "quiz": {
+        "q": "Abokinka ya ce 'Ina bearish game da {telco} a wannan makon.' Me hakan ke nufi?",
+        "explanation": "Bearish na nufin tsammanin farashi zai faɗi, bullish na nufin tsammanin zai hau. Beyar na mari ƙasa, bijimi na jefa sama.",
+        "options": [
+          "Yana ganin farashin {telco} zai hau",
+          "Yana ganin farashin {telco} zai faɗi",
+          "Yana son saya {telco} gwargwadon iko"
+        ]
+      }
+    },
+    "4": {
+      "title": "Mene ne Broker?",
+      "desc": "Ƙofarka ta saya hannayen jari",
+      "content": "Ba za ka iya kawai zuwa {retail} ka ce 'ba ni wani ɓangare na kamfaninku don Allah' ba 😂 Kana buƙatar broker (dillali): manhaja ko sabis da ke haɗa masu saya da masu sayarwa a kasuwar hannayen jari.\n\nKa ɗauki broker kamar {shop}. Kana son wani abu, {shop} na haɗa ka da shi. Suna kula da cinikin kuma suna cajin ɗan ƙaramin kuɗin sabis. Shahararrun brokers a {name} sun haɗa da {broker} da wasu.\n\nGa abin da broker BA YA yi: zaɓar waɗanne hannayen jari za su hau. Yana tura umarninka zuwa kasuwa. Farashi na motsi saboda abin da kowa a waje ke saya da sayarwa, ba don broker ɗinka ya faɗa ba.\n\nAmma brokers suna wallafa ra'ayoyi. Masu nazarinsu suna ƙididdige hannayen jari da 'saya', 'riƙe' ko 'sayar'. Ra'ayi ba umarni ba ne 🤷 Masu nazari suna saɓa wa juna a fili game da hannun jari ɗaya, kuma da yawa daga cikinsu suna yin kuskure. Karanta ƙididdiga kamar sharhi, ba doka ba.\n\nNoobTrader na koya maka yadda wannan ke aiki daidai, kyauta, da kuɗin kama-da-wane!",
+      "quiz": {
+        "q": "Me ya sa kake buƙatar broker don saya hannayen jari?",
+        "explanation": "Broker hanyarka ce ta shiga kasuwar hannayen jari, ba boka ba ne kuma ba shi ke saita farashi ba. Yana tura umarnin gaba, kuma farashin shi ne duk abin da sauran kasuwa ke shirye su yi ciniki a kai. Masu nazarinsa suna wallafa ƙididdiga, amma ƙididdiga ra'ayi ne, ba umarni ba.",
+        "options": [
+          "Shi ke zaɓar hannayen jarin da za su hau",
+          "Shi ke saita farashin da kake biya kan kowane hannun jari",
+          "Yana tura umarninka zuwa kasuwar hannayen jari"
+        ]
+      }
+    },
+    "5": {
+      "title": "Tushen Farashin Hannun Jari",
+      "desc": "Me ya sa farashi ke hawa da faɗuwa?",
+      "content": "Ka taɓa lura yadda takalman sneakers na musamman ke tashin farashi idan suka fito? Haka abin yake da hannayen jari. Duk game da wadata da buƙata ne.\n\n📈 Mutane da yawa na SON saya → farashi na HAWA\n📉 Mutane da yawa na SON sayarwa → farashi na FAƊUWA\n\nIdan {telco} ta sanar cewa za ta samu sababbin kwastomomi miliyan 10, kowa na son yanki, don haka farashin ya yi tashin gwauron zabi. Idan ta bayar da rahoton babbar asara, mutane suna firgita su sayar kuma farashin ya faɗi. Labarai, sakamako, har ma da yayin kafofin sada zumunta na iya motsa farashin hannayen jari nan take!",
+      "quiz": {
+        "q": "{retail} ta sanar da riba mafi girma a tarihinta kuma tana shirin buɗe sababbin shaguna 50. Me wataƙila zai faru da farashin hannun jarinta?",
+        "explanation": "Ingantacciyar ribar da ake tsammani yawanci na nufin ƙarin masu saya, kuma ƙarin masu saya na tura farashi sama. Kashe kuɗi don bunƙasa ba ɗaya ba ne da ɓata shi.",
+        "options": [
+          "Zai hau saboda ƙarin mutane na son saya",
+          "Zai tsaya daidai yadda yake",
+          "Zai rushe saboda suna kashe kuɗi kan shaguna"
+        ]
+      }
+    },
+    "6": {
+      "title": "Karanta Jadawalin Farashi",
+      "desc": "Kyandirori, layuka da ma'anarsu",
+      "content": "Jadawalin farashi kamar bidiyon muhimman lokuta ne na tarihin hannun jari. Nau'in da ya fi shahara shi ne jadawalin kyandir (candlestick). Kowane 'kyandir' na nuna maka abubuwa 4 na rana ɗaya:\n\n🟢 Koren kyandir = farashi ya HAU a ranar (ya buɗe ƙasa, ya rufe sama)\n🔴 Jan kyandir = farashi ya FAƊI (ya buɗe sama, ya rufe ƙasa)\n📏 Siraran layukan sama/ƙasa = farashi mafi girma da mafi ƙanƙanta na ranar\n\nIdan ka ga koren kyandirori da yawa a jere, wannan hawa ne mai ƙarfi. Jajaye da yawa na nufin faɗuwa. Koyon karanta jadawali kamar koyon karanta allon sakamakon wasa ne! 🎮",
+      "quiz": {
+        "q": "Ka ga jajayen kyandirori 5 a jere a kan jadawali. Me wannan ke gaya maka?",
+        "explanation": "Jan kyandir na rufewa ƙasa da inda ya buɗe, don haka biyar a jere na nufin zama biyar na faɗuwa. Launi na gaya maka alkibla, ba girman motsin ba.",
+        "options": [
+          "Hannun jarin yana hawa tsawon kwanaki 5",
+          "Hannun jarin yana faɗuwa tsawon kwanaki 5",
+          "Farashin hannun jarin bai canza ba"
+        ]
+      }
+    },
+    "7": {
+      "title": "Yawan Ciniki & Abin da Yake Faɗa",
+      "desc": "Hannayen jari nawa ake ciniki",
+      "content": "Yawan ciniki (volume) = hannayen jari nawa aka saya da sayarwa a rana. Ka ɗauke shi kamar yawan kallon bidiyon TikTok.\n\n🔊 Yawan ciniki MAI YAWA = mutane da yawa na ciniki. Idan farashi ya motsa da ciniki mai yawa, alama ce mai ƙarfi kuma abar dogaro, kamar bidiyon da ya yaɗu da gaske, ba bots ba.\n\n🔇 Yawan ciniki KAƊAN = mutane kaɗan ne ke ciniki. Farashi na iya motsi ba bisa ƙa'ida ba idan ciniki kaɗan ne, kamar bidiyon da ke da kallo 3 kawai da aka raba bisa kuskure.\n\nKoyaushe ka duba yawan ciniki idan ka ga babban motsin farashi. Yana gaya maka ko motsin na gaske ne ko hayaniya kawai!",
+      "quiz": {
+        "q": "Hannun jarin {telco} ya yi tsalle da 5% yau, amma yawan ciniki kaɗan ne sosai. Me ya kamata ka yi tunani?",
+        "explanation": "Yawan ciniki shi ne girman tabbacin da ke bayan motsi. Babban tsalle a kan ciniki kaɗan sosai na iya komawa cikin sauƙi kamar yadda ya faru, don haka duba yawan ciniki kafin ka yarda da fashewar farashi.",
+        "options": [
+          "Tabbas babbar dama ce, saya yanzu!",
+          "Ciniki kaɗan koyaushe na nufin farashin zai ci gaba da hawa",
+          "Motsin ba lallai abin dogaro ba ne, ciniki kaɗan na sa a yi shakku"
+        ]
+      }
+    },
+    "8": {
+      "title": "Tallafi & Juriya",
+      "desc": "Matakan farashi masu muhimmanci",
+      "content": "Ka yi tunanin farashin hannun jari ƙwallo ne mai tsalle:\n\n🧱 TALLAFI (support) = ƙasan da ƙwallon ke tsallewa daga gare shi. Farashin na ci gaba da faɗuwa amma duk lokacin da ya kai wannan mataki, sai ya koma sama. Masu saya da yawa na bayyana a nan.\n\n🪟 JURIYA (resistance) = rufin da ƙwallon ke bugawa. Duk lokacin da farashi ya hau zuwa wannan mataki, ana tura shi ƙasa. Masu sayarwa da yawa na karɓar kuɗinsu a nan.\n\n'Yan kasuwa na amfani da waɗannan matakai kamar taswirar wasa: saya kusa da ƙasa, sayar kusa da rufi. Idan farashi ya keta juriya daga ƙarshe, yakan yi tashin gaggawa. Idan ya keta tallafi, ka shirya don faɗuwa! 💥\n\nGargaɗi na gaskiya: mutane ne ke zana waɗannan matakai suna kallon jadawali, ba dokoki ne da kasuwa dole ta bi ba. Hannun jari na iya ratsa 'tallafi' kai tsaye ya ci gaba. 📉",
+      "quiz": {
+        "q": "Wani hannun jari ya yi tsalle daga {c}50 sau uku ba tare da ya gangara ƙasa da shi ba. Me ake kira {c}50?",
+        "explanation": "Ƙasan da ake ci gaba da mutuntawa shi ne tallafi; rufin da ke ci gaba da ƙin farashi shi ne juriya. Babu ɗaya da ke alƙawari, amma dukansu sun cancanci a san su kafin ka saya.",
+        "options": [
+          "Matakin tallafi",
+          "Matakin juriya",
+          "Farashin rufi"
+        ]
+      }
+    },
+    "9": {
+      "title": "Rarraba Jari",
+      "desc": "Kada ka sa duk ƙwai a kwando ɗaya",
+      "content": "Ka yi tunanin ka kashe DUK data ɗinka a manhajar kallo ɗaya. Sai manhajar ta lalace. Ka maƙale babu komai. 😩\n\nAmma idan ka raba data ɗinka tsakanin WhatsApp, YouTube, DA manhajar kallonka, lalacewar ɗaya ba za ta ɓata maka komai ba.\n\nHaka zuba jari yake! Idan ka sa DUK kuɗinka a hannun jari ɗaya kuma ya rushe, ka rasa komai. Amma idan ka raba shi tsakanin {telco} (sadarwa), {retail} (kasuwanci), {tech} (fasaha), da ETF, to rushewar ɗaya ba za ta kashe dukan portfolio ɗinka ba. Ana kiran wannan dabarar raba-raba RARRABA JARI (diversification). 💼",
+      "quiz": {
+        "q": "Kana da {c}500 da za ka zuba jari. Wanne daga cikin waɗannan ne ainihin ke raba haɗarinka?",
+        "explanation": "Shagunan tufafi biyar duk suna hawa da faɗuwa saboda abu ɗaya, don haka kuɗin da aka raba tsakaninsu da ƙyar ya rabu. Masana'antu daban-daban na shiga matsala a lokuta daban-daban, kuma wannan ne ke hana mummunan sakamako ɗaya ya ɗauke komai.",
+        "options": [
+          "{c}100 kowanne cikin shagunan tufafi biyar daban-daban",
+          "{c}100 kowanne cikin masana'antu biyar daban-daban",
+          "Duk {c}500 cikin kamfani ɗaya da ka fi so"
+        ]
+      }
+    },
+    "10": {
+      "title": "Haɗari & Lada",
+      "desc": "Me ya sa babbar riba = babban haɗari",
+      "content": "Ka taɓa saya akwatin asiri? Za ka iya samun abu mai ban mamaki, ko shara gaba ɗaya. Wannan haɗari mai yawa ne / lada mai yawa.\n\nZuba jari na aiki haka:\n\n✅ ƘARANCIN HAƊARI, ƘARANCIN LADA: Kamar {retail}. Babban kamfani, mai daɗaɗɗen tushe. Kuɗinka yakan girma a hankali kuma a tsaye. Ka lura 'ƙaranci', ba 'babu' ba. Manyan kamfanoni ma suna faɗuwa.\n\n🎲 HAƊARI MAI YAWA, LADA MAI YAWA: Kamar ƙaramin sabon kamfanin haƙar ma'adinai. Zai iya ninka sau 10, ko ya ɓace. Kamar akwatin asiri.\n\nKafin ka zuba jari a kowane abu, koyaushe ka tambaya: 'Mene ne mafi munin abin da zai iya faruwa?' Idan ba za ka iya jure rasa shi ba, kada ka ɗauki haɗarin!",
+      "quiz": {
+        "q": "Wani coin da babu wanda ya ji labarinsa yana alƙawarin riba ta 500%. Me alƙawari mai girman haka ke gaya maka da gaske?",
+        "explanation": "Haɗari da lada ƙarshen sanda ɗaya ne. Babu wanda ke ba da 500% a banza, don haka girman alƙawarin ainihin ma'auni ne na yadda dukan kuɗin zai iya ɓacewa cikin sauƙi. Kafin ka sa kuɗi a kowane abu, ka tambayi yadda mafi munin yanayi yake da ko za ka iya jurewa.",
+        "options": [
+          "Ciniki ne mai arha da sauran kasuwa ta kasa gani ko ta yaya",
+          "Girman alƙawarin, girman muhimmancin mutanen da ke bayansa",
+          "Damar rasa duka kuɗin tana da girma kamar alƙawarin"
+        ]
+      }
+    },
+    "11": {
+      "title": "Dogon Lokaci da Gajeren Lokaci",
+      "desc": "Tunanin zuba jari da na ciniki",
+      "content": "🏃 CINIKI NA GAJEREN LOKACI: Saya da sayarwa cikin kwanaki ko makonni don kama saurin motsin farashi. Damuwa mai yawa, yana buƙatar kallon allo sosai. Kamar ƙoƙarin hasashen wanda zai ci kowane wasa a gasa.\n\n🧘 ZUBA JARI NA DOGON LOKACI: Saya hannayen jari ka riƙe su tsawon shekaru. Kana jure faɗuwar ka bar kuɗinka ya girma. Kamar fare kan ƙungiyar da za ta ci dukan kakar wasa. Ba ka firgita bayan mummunan wasa ɗaya.\n\nNazarin ainihin asusun brokers na ci gaba da gano tsari ɗaya: yawan cinikin da mutane ke yi, haka suke ƙara yin muni idan aka lissafa kuɗaɗen sabis.\n\nKuma lokaci shi ne fa'ida ɗaya tilo da ba za a iya saya daga baya ba. Kowace shekara da kuɗi ke zaune a zuba jari wata shekara ce da riba-kan-riba ke aiki. ⏳",
+      "quiz": {
+        "q": "Mutane biyu sun saya hannayen jari iri ɗaya da kuɗi iri ɗaya. Ɗaya na shiga da fita kowane mako, ɗayan ya bar shi shekaru goma. Me nazarin ainihin asusu ke ci gaba da gano?",
+        "explanation": "Kowane ciniki yana da kuɗi, kuma wannan kuɗin na fita ko cinikin ya yi nasara ko bai yi ba. Nazari bayan nazari na ainihin asusun brokers na gano tsari ɗaya: yawan cinikin da mutane ke yi, haka suke ƙara baya a ƙarshe. Barin kuɗi a zaune ba lalaci ba ne, shirin da ya fi arha ne.",
+        "options": [
+          "Mai yawan cinikin yawanci yana baya idan aka lissafa kuɗaɗen sabis",
+          "Mai yawan cinikin yawanci yana cin nasara, domin ana ba da ladan ƙoƙari a nan",
+          "Suna kammalawa daidai, domin sun riƙe hannayen jari iri ɗaya"
+        ]
+      }
+    },
+    "12": {
+      "title": "{dcaTitle}",
+      "desc": "Zuba adadi ɗaya akai-akai",
+      "content": "Ga dabarar da ta yi sauƙi har da ƙyar take kama da dabara, kuma tana goge tambaya mafi wuya a zuba jari:\n\nZuba adadi ƊAYA kowane wata, ko farashi ya hau ko ya faɗi. Kamar ajiye {c}100 daga kuɗin ranar haihuwarka ko kuɗin aljihu kowane wata ba fashi.\n\n📉 Idan farashi ya YI ƘASA → {c}100 ɗinka na saya hannayen jari DA YAWA\n📈 Idan farashi ya YI SAMA → {c}100 ɗinka na saya hannayen jari KAƊAN\n\nA tsawon lokaci, matsakaicin kuɗinka kan kowane hannun jari yana daidaita kuma kai tsaye kana 'saya a faɗuwa' ba tare da ko ƙoƙari ba! Ana kiran wannan {dcaTitle} ({dcaAbbrev}). Yana cire motsin rai daga zuba jari domin ba za ka taɓa yanke shawarar 'shin YANZU ne lokacin da ya dace?' ba. Kawai ka ƙuduri aniya ka tafi! 💪\n\nMagana ta gaskiya: wannan ba koyaushe zai fi zuba dukan kuɗi lokaci ɗaya ba. Abin da yake yi shi ne samar da shirin da za ka iya bi da gaske.",
+      "quiz": {
+        "q": "Ka zuba 200 NT lokacin da hannun jari ke 100 NT. Sai hannun jarin ya rushe, kuma 200 NT ɗinka na gaba ya shiga a 25 NT. Ja zuwa matsakaicin kuɗinka kan kowane hannun jari a biyan kuɗi biyun.",
+        "explanation": "200 NT ɗinka na farko ya saya hannayen jari 2 a 100 NT. 200 NT ɗinka na biyu ya saya hannayen jari 8 a 25 NT. Wannan 400 NT ne kan hannayen jari 10, don haka 40 NT kowanne. Ka lura ba ya kusa da tsakiyar farashin biyu ko kaɗan: kuɗi iri ɗaya kai tsaye na saya fiye idan abubuwa sun yi arha, kuma wannan ne ke jan matsakaicinka ƙasa."
+      }
+    },
+    "13": {
+      "title": "'Ya'yan Kuɗi 💸",
+      "desc": "Samun kuɗi kawai don riƙe hannayen jari",
+      "content": "Ka yi tunanin ka mallaki injin sayar da kayan ciye-ciye. Kowane mako, mutane suna saya kayan ciye-ciye daga injinKA, kuma kai kake karɓar kuɗin, kawai don ka mallake shi. Ba sai ka yi wani ƙarin abu ba!\n\nWannan shi ne riba ta rabo (dividends). Muna kiransu 'Ya'yan Kuɗi 🍼 domin kuɗinka a zahiri yana haihuwa: ƙananan biyan kuɗi da ke sauka a asusunka kawai saboda ka mallaki hannayen jari.\n\nManyan kamfanoni kamar {divPayers} suna biyan 'Ya'yan Kuɗi akai-akai. Yawan hannayen jarin da kake riƙe, girman 'ya'yanka!\n\n⚠️ BA a ba da tabbacinsu ba. Kamfani ne ke yanke shawara kowane lokaci ko zai biya, kuma zai iya rage ribar rabon ko ya dakatar da ita gaba ɗaya idan kasuwanci ya yi tsanani. Babban biya a bana ba alƙawarin wani ba ne a baɗi.\n\nKuma idan ka sake zuba waɗannan 'ya'ya don saya ƘARIN hannayen jari... rukuninka na gaba zai fi girma. Zagaye ne mai kyau 🔁",
+      "quiz": {
+        "q": "{bank} na biyan ka {c}5 kan kowane hannun jari da ka mallaka, ba tare da ka sayar da komai ba. Me ake kiran wannan biyan?",
+        "explanation": "Riba ta rabo (dividend) wani ɓangare ne na ribar kamfani da ake ba wa mutanen da suka mallake shi. Wannan manhaja na kiransu 'Ya'yan Kuɗi. Kana riƙe kowane hannun jari da kake da shi, kuma kuɗin na sauka a asusunka duk da haka. Amma ba alƙawari ba ne, kuma kamfani zai iya rage shi ko ya dakatar da shi duk lokacin da kasuwanci ya yi tsanani.",
+        "options": [
+          "Riba ta rabo (dividend), yanki na ribar kamfani",
+          "Ruwan kuɗi, irin wanda asusun ajiya ke biya",
+          "Kyautar aminci don kasancewa kwastoma"
+        ]
+      }
+    },
+    "14": {
+      "title": "Riba-kan-Riba",
+      "desc": "Yadda kuɗinka ke girma da kansa",
+      "content": "Ga sirrin kuɗi mafi ƙarfi da za ka taɓa koya. Ka shirya? 👀\n\nKa zuba {c}1,000 a 10% a shekara:\n• Shekara ta 1: {c}1,000 → {c}1,100 (ka samu {c}100)\n• Shekara ta 2: {c}1,100 → {c}1,210 (ka samu {c}110, fiye da shekara ta 1!)\n• Shekara ta 3: {c}1,210 → {c}1,331 (ka samu {c}121)\n\nYanzu kana samun riba kan RIBARKA. Ƙwallon dusar ƙanƙara na ƙara girma kowace shekara ba tare da ka ƙara komai ba. Bayan shekaru 30 a 10%? Wannan {c}1,000 ya zama {c}17,449! 🤯\n\nZa ka ga ana kiran wannan 'abin al'ajabi na takwas na duniya' ana danganta shi ga Einstein. Babu ainihin shaidar cewa ya taɓa faɗa, amma lissafin ne abin da ke da muhimmanci, kuma lissafin gaskiya ne. Fara da wuri, kuma lokaci zai yi maka aiki mai nauyi.",
+      "quiz": {
+        "q": "Ka zuba 2,000 NT a 10% a shekara kuma ba ka taɓa shi ba. Ja zuwa darajarsa bayan shekaru uku.",
+        "explanation": "Shekara ta ɗaya na ƙara 200 NT, wanda ya zama 2,200. Shekara ta biyu na ɗaukar 10% na 2,200, don haka tana ƙara 220 ya zama 2,420. Shekara ta uku na ƙara 242 ya sauka a 2,662. Kowace shekara ana lissafa 10% kan tari mafi girma, shi ya sa ƙara 200 sau uku da tsayawa a 2,600 bai kai ba."
+      }
+    },
+    "15": {
+      "title": "Riba-kan-Riba & Hannayen Jari",
+      "desc": "Sake zuba 'Ya'yan Kuɗi don bunƙasa",
+      "content": "Ka tuna 'Ya'yan Kuɗi (dividends)? Ga inda abin ke daɗa ban sha'awa 🤯\n\nNa yau da kullum: Ka samu {c}50 na 'Ya'yan Kuɗi → ka kashe su kan kayan ciye-ciye → shi ke nan.\n\nMataki mai wayo: Ka samu {c}50 na 'Ya'yan Kuɗi → ka saya ƘARIN hannayen jari → a gaba ka samu ƘARIN 'Ya'yan Kuɗi → ka saya hannayen jari fiye da haka → ƙwallon dusar ƙanƙara ya tafi 🔝\n\nWannan riba-kan-riba ce da aka yi amfani da ita a hannayen jari. Yi lissafin: zuba adadi ɗaya kowane wata tsawon shekaru 30 a matsakaicin riba ta 10%, kuma za ka ƙare da kusan NINKI SHIDA na abin da ka biya da gaske. Kusan kashi biyar cikin shida na wannan tarin bunƙasa ne: kuɗin da ba ka taɓa samu ta aiki ba, ko ajiye, ko saka ba.\n\nA dogon lokaci, ribar rabon da aka sake zubawa ta zama babban kaso na jimillar ribar masu zuba jari. Shi ya sa masu biyan ribar rabo 'marasa ban sha'awa' ke zama ba marasa ban sha'awa ba ko kaɗan 💰",
+      "quiz": {
+        "q": "Ka samu {c}80 na ribar rabo kuma ka yi amfani da kowane kwabo nata don saya ƙarin hannayen jari maimakon kashewa. Me zai faru a biya na gaba?",
+        "explanation": "Kowane ƙarin hannun jari da ka saya na biyan nasa ribar rabon a gaba, don haka biyan yana girma ba tare da ka ƙara sabon kuɗi ba. Wannan riba-kan-riba ce kuma, a wannan karon tana aiki kan kuɗin shiga maimakon kan farashi.",
+        "options": [
+          "Biyan yana tsayawa a girma ɗaya, sai dai ya iso daga baya",
+          "Za ka samu ƙasa a gaba, domin ka mayar da kuɗin",
+          "Ka mallaki ƙarin hannayen jari, don haka biya na gaba ya fi girma"
+        ]
+      }
+    },
+    "16": {
+      "title": "Dokar 72",
+      "desc": "Hanya mai sauri ta kimanta lokacin ninkawa",
+      "content": "Ga dabarar sirri ga ƙwaƙwalwarka 🧠\n\nKana son sanin tsawon lokacin da zai ɗauka kafin kuɗinka ya NINKA? Kawai ka raba 72 da ribarka ta shekara:\n\n• 72 ÷ riba ta 12% = shekaru 6 kafin ninkawa\n• 72 ÷ riba ta 8% = shekaru 9 kafin ninkawa\n• 72 ÷ riba ta 6% = shekaru 12 kafin ninkawa\n\nDon haka idan kana samun 12% a tsaye kowace shekara kan {c}2,000, cikin shekaru 6 za ka sami {c}4,000. Jira wasu shekaru 6 za ka sami {c}8,000. Wasu 6 kuma za ka sami {c}16,000! 🤯\n\nKimantawa ce, ba doka ba, kuma ainihin riba ba ta taɓa zama lamba ɗaya a tsaye kowace shekara ba. Amma tana kusa sosai har za ka iya yi a kanka, kuma wannan ne dukan manufar.\n\nShi ya sa farawa a shekara 13 ko 14 ke da GIRMA. Kana da ƙarin zagayen ninkawa a gabanka fiye da kusan kowa!",
+      "quiz": {
+        "q": "Wani zuba jari na samun 9% a shekara. Yi amfani da Dokar 72 ka ja zuwa shekaru nawa zai ɗauka kafin ya ninka.",
+        "explanation": "Raba 72 da kaso na shekara. 72 raba 9 ya ba da 8, don haka kuɗin zai kusa ninkawa cikin shekaru takwas, sannan ya sake ninkawa shekaru takwas bayan haka. Kimantawa ce mai sauri da za ka iya yi a kanka, ba ainihin doka ba, domin ainihin riba ba ta taɓa zama lamba ɗaya kowace shekara ba."
+      }
+    },
+    "17": {
+      "title": "Umarnin Kasuwa da na Iyaka",
+      "desc": "Hanyoyi biyu na saya hannayen jari",
+      "content": "Akwai manyan hanyoyi biyu na saya hannun jari:\n\n⚡ UMARNIN KASUWA (market order): 'Saya yanzu a duk farashin da ake da shi.' Kamar sa wa a kwando da biya nan take a {shop}. Kana samu nan take, amma farashin da kake biya da gaske shi ne duk abin da kasuwa ta ba ka, wanda zai iya bambanta da lambar da ka gani a allo yanzu.\n\n🎯 UMARNIN IYAKA (limit order): 'Saya kawai idan farashi ya faɗi zuwa {c}X.' Kamar sa kaya a jerin burinka na {shop} ka jira rangwame. Kai ke sarrafa farashin, amma cinikin zai iya ƙin faruwa ko kaɗan.\n\nUmarnin iyaka na ba ka iko kan farashi. Umarnin kasuwa na ba ka tabbacin cewa zai cika. Ba za ka iya samun duka biyun ba! 💸\n\nUmarnin iyaka na aiki haka idan kana SAYARWA, sai dai alkiblar ta juya. Ka mallaki hannun jarin, ka faɗi farashin da za ka yi murna ka sayar a kai, kuma idan ya hau har can manhajar tana sayarwa a madadinka. Idan kana saya, kana faɗin farashi ƘASA da inda yake yanzu. Idan kana sayarwa, kana faɗin farashi SAMA. Ra'ayi ɗaya, ɓangare na saɓani. 🔁",
+      "quiz": {
+        "q": "{tech} na ciniki a {c}200. Za ka yi murna ka mallake shi, amma sai a {c}180 ko ƙasa da haka. Wanne za ka yi amfani da shi?",
+        "explanation": "Umarnin kasuwa na cika nan take a duk farashin da ake da shi. Umarnin iyaka na faɗin farashinka ya jira, don haka manhajar ce ke kallo maimakon kai. Idan farashin da za ka karɓa ya fi muhimmanci fiye da shiga da sauri, wannan ne kake so.",
+        "options": [
+          "Sayen kasuwa, wanda ke cika a {c}200 yanzu",
+          "Sayen iyaka da aka saita a {c}180, wanda ke jira",
+          "Kalli allo ka saya da hannu a {c}180"
+        ]
+      }
+    },
+    "18": {
+      "title": "Kuɗaɗen Ciniki & Farashi",
+      "desc": "Fahimtar kuɗaɗen ciniki",
+      "content": "Yawancin cinikai na ɗaukar ɗan kuɗi kaɗan: broker na ɗaukar ɗan ƙaramin kaso. Ana kiran waɗannan kuɗaɗen ciniki ko kuɗaɗen broker.\n\n⚠️ Wasu brokers na tallata 'babu kwamishan'. Dole su samu kuɗi ta wata hanya, don haka suna samun sa a wani wuri, yawanci daga ɗan ƙaramin giɓi tsakanin farashin saya da farashin sayarwa, daga canjin kuɗi, ko daga ruwan kuɗin da ke zaune a asusunka. Kyauta ba kasafai take zama kyauta ba.\n\nA NoobTrader kuɗaɗen kwaikwayo sune:\n• Hannayen jari na {ex}: {exFee} kowane ciniki\n• Hannayen jari na duniya: 0.50%\n• ETFs: 0.30%\n• Crypto: 0.60%\n• Forex: 0.05%\n• Kayayyaki: 0.40%\n\nMisali: Ka saya hannayen jari na {retail} na {c}1,000 a {exFee}. Kuɗin sabis ɗin {c}{feeAmt} ne, don haka a zahiri ka kashe {c}{feeTotal}.\n\nƘananan kuɗaɗe na taruwa da SAURI idan kana yawan ciniki. Wanda ke yin cinikai 20 a wata na biyan wannan kuɗin sau 20, kuma ya sake biya lokacin fita. Wannan ɗaya ne daga cikin dalilan da masu zuba jari na dogon lokaci ke rage ciniki: ƙarancin cinikai, ƙarancin kuɗaɗe 🧮",
+      "quiz": {
+        "q": "Ka saya hannayen jari na {ex} na {c}1,000 da kuɗin sabis na {exFee}. Nawa ne kuɗin sabis ɗin?",
+        "explanation": "Kuɗin sabis kaso ne na adadin da aka yi ciniki, don haka yana girma da girman umarnin. Ka lissafa shi kafin ka yi ciniki, domin ana sake caji idan ka sayar.",
+        "options": [
+          "{c}{feeAmtX10}",
+          "{c}{feeAmtLow}",
+          "{c}{feeAmt}"
+        ]
+      }
+    },
+    "19": {
+      "title": "Umarnin Dakatar-da-Asara",
+      "desc": "Kare kanka daga manyan asarori",
+      "content": "Dakatar-da-asara (stop-loss) kamar saita iyakar yawan abin da kake shirye ka rasa ne: ragar tsaro da ka shirya tun da wuri.\n\nMisali: Ka saya hannayen jari na {telco} a {c}100 kowanne. Ka yanke shawarar BA za ka taɓa son rasa fiye da 15% ba. Don haka ka saita dakatar-da-asara a {c}85.\n\nIdan {telco} ta faɗi zuwa {c}85 → umarnin sayarwa na tashi kai tsaye. Ba sai kana kallo ba, kuma ba sai ka yanke shawara lokacin da kake firgita ba.\n\nGa ɓangaren da mutane ke kuskure a kai. Lambar dakatar-da-asara KOYAUSHE tana ƙasa da farashin yau. Dole ne, domin farashin dole ya faɗi kafin ya kai ta. Sa ta sama da farashin yau kuma ta riga ta zama gaskiya, don haka tana sayarwa a daƙiƙar da ka saita ta, a farashin yau. Wannan sayarwa ce, ba ragar tsaro ba.\n\nKada ka haɗa ta da sayarwar iyaka. Dukansu suna sayarwa kai tsaye a farashin da ka zaɓa. Bambancin alkibla ce: dakatar-da-asara na tashi idan farashi ya FAƊI zuwa lambarka, sayarwar iyaka na tashi idan ya HAU zuwa lambarka. Kare kanka → lambarka na zuwa ƙasa. Faɗin farashinka → lambarka na zuwa sama. Ka tambayi wanne kake yi kafin ka rubuta. 🧭\n\n⚠️ Babban abu: dakatar-da-asara na jawo SAYARWA, ba ta ba da tabbacin FARASHI ba. Idan mummunan labari ya zo da dare kuma hannun jarin ya buɗe a {c}70 ba tare da ya taɓa ciniki a {c}85 ba, umarninka zai cika a duk abin da kasuwa za ta biya da gaske. Hakan na iya zama ƙasa sosai da matakin da ka saita.\n\nBa tare da wani dakatar-da-asara ko kaɗan ba, za ka iya riƙewa kana fatan ya farfaɗo... ka kalle shi ya faɗi zuwa {c}20. 😬\n\nShawarar ƙwararru: Koyaushe ka yanke shawarar mafi girman asararka KAFIN ka saya. Kada ka bar motsin rai ya yanke wannan shawara lokacin da farashi ke rushewa! 🧘",
+      "quiz": {
+        "q": "Ka saya a 200 NT kuma ka yanke shawarar ba za ka yarda ka rasa fiye da 15% a kai ba. Ja zuwa farashin da dakatar-da-asara ɗinka ya dace ya kasance.",
+        "explanation": "15% na 200 NT shi ne 30 NT, don haka fitarka na zaune 30 ƙasa da inda ka saya, a 170 NT. Dakatar-da-asara na zuwa ƙasa da farashin yau, domin farashin dole ya faɗi kafin ya kai shi. Sa shi sama kuma ya riga ya zama gaskiya, don haka yana sayarwa nan take da ka saita shi, kuma wannan sayarwa ce maimakon ragar tsaro."
+      }
+    },
+    "20": {
+      "title": "Lokacin Saya & Sayarwa",
+      "desc": "Lokaci, haƙuri, da horo",
+      "content": "Mafi girman kuskuren sababbin masu zuba jari? Saya lokacin da kowa ke zumuɗi da sayarwa lokacin da kowa ke firgita. Wannan a zahiri kishiyar abin da ke aiki ne. 🤦\n\n📱 Idan group chat ɗinku na ta tura 'KU SAYI WANNAN HANNUN JARIN YANZU!!!!' → zumuɗin yawanci ya riga ya shiga cikin farashi. Ka makara.\n\n😱 Idan kowa na sayarwa cikin firgici → wani lokaci wannan dama ce ta saya da rangwame. Wani lokaci farashin na ci gaba da faɗuwa har wata shekara. Babu wanda ke buga ƙararrawa a ƙasa.\n\nSirrin? Ka sami shiri KAFIN ka zuba jari:\n• Me ya sa nake saya wannan? (bincike, ba zumuɗi ba)\n• A wane farashi zan sayar idan ya HAU? (ɗaukar riba)\n• A wane farashi zan sayar idan ya FAƊI? (dakatar-da-asara)\n\nKa tsaya kan shirinka. Kada ka bar ji ya mamaye dabararka! 💪",
+      "quiz": {
+        "q": "Dukan group chat ɗinku na zumuɗi kan hannun jarin da ya riga ya hau 80% a wannan watan. Mene ne mataki mai wayo?",
+        "explanation": "A lokacin da hannun jari ke cikin kowane group chat, yawancin motsin ya riga ya faru, kuma mutanen da ke zuwa a makare suna saya daga mutanen da ke ɗaukar ribarsu. Ka duba kamfanin da kanka. Taron jama'a mai hayaniya ba ɗaya ba ne da taron jama'a mai gaskiya.",
+        "options": [
+          "Saya yanzu, kafin farashin ya gudu ya bar ka",
+          "Sayar da sauran hannayen jarinka ka sa duka a nan",
+          "Ka duba kamfanin da kanka kafin ka yanke shawara"
+        ]
+      }
+    },
+    "21": {
+      "title": "Mene ne Market Cap?",
+      "desc": "Yadda ake auna girman kamfani",
+      "content": "Market cap (darajar kasuwa) na gaya maka girman kamfani da gaske, a {cPlural}.\n\n📐 Dabara: Farashin Hannun Jari × Jimillar Yawan Hannayen Jari = Market Cap\n\nMisali: Idan {retail} na da hannayen jari biliyan 1 kuma kowane hannun jari yana {c}50, market cap ɗin {c}50 BILIYAN ne. Wannan shi ne 'alamar farashi' na dukan kamfanin.\n\n🔵 Large cap: sunaye mafi girma kuma mafi kafuwa, kamar {tech} da {bank}. Ƙarancin haɗari, yawanci bunƙasa a hankali.\n🟡 Mid cap: kamfanoni masu matsakaicin girma. Haɗari mai daidaito.\n🔴 Small cap: ƙananan kamfanoni. Za su iya bunƙasa da sauri KO su rushe sosai.\n\n⚠️ Iyakokin ba iri ɗaya ba ne a ko'ina. A Amurka, 'large cap' yawanci na nufin wani abu sama da $10 biliyan, amma kowace kasuwa na saita nata matakai, don haka large cap a {name} ba girma ɗaya ba ne da large cap a Amurka. Karanta ainihin lambar, ba alamar kawai ba 🧐",
+      "quiz": {
+        "q": "Kamfani A na da hannayen jari miliyan 5 a {c}200 kowanne. Hannayen jarin Kamfani B na {c}10. Ja zuwa hannayen jari miliyan nawa B ke buƙata don ya kai darajar A.",
+        "explanation": "Market cap shi ne farashin hannun jari sau yawan hannayen jari. Kamfani A na da daraja ta miliyan 5 sau {c}200, wato {c}1,000 miliyan. Kamfani B dole ya kai wannan jimillar a {c}10 kowane hannun jari, don haka yana buƙatar hannayen jari miliyan 100, ninki ashirin. Ƙaramin farashin hannun jari ba ya gaya maka komai game da girman kamfani."
+      }
+    },
+    "22": {
+      "title": "Bayanin P/E Ratio",
+      "desc": "Shin hannun jari na da tsada ko arha?",
+      "content": "P/E ratio (Farashi-zuwa-Riba) na gaya maka nawa kake biya kan kowane {cName} na ribar kamfani.\n\n📐 Dabara: Farashin Hannun Jari ÷ Riba Kan Kowane Hannun Jari = P/E Ratio\n\nKa ɗauke shi kamar farashin kowane yanki na pizza 🍕\n\nIdan pizza A na {c}80 kan yanka 8 = {c}10/yanki\nIdan pizza B na {c}100 kan yanka 5 = {c}20/yanki\n\nPizza A ya fi arha kan kowane yanki. Haka ra'ayin yake da hannayen jari:\n• Ƙaramin P/E (ƙasa da 10) = wataƙila ciniki mai arha, KO kasuwa na tsammanin ribarsa za ta FAƊI. Ƙaramin P/E tambaya ne, ba amsa ba.\n• Babban P/E (sama da 25) = kasuwa na tsammanin babban bunƙasa a nan gaba. Sai kamfanin ya cika hakan da gaske.\n\nKoyaushe ka kwatanta P/E da WASU kamfanoni a masana'anta ɗaya. Kada ka kwatanta P/E na banki da na kamfanin fasaha!",
+      "quiz": {
+        "q": "Kamfani A na da P/E na 8. Kamfani B (masana'anta ɗaya) na da P/E na 30. Me wannan ke nunawa?",
+        "explanation": "Ƙaramin P/E na nufin biyan ƙasa kan kowane rukunin riba, wanda zai iya nufin ciniki mai arha ko kamfani da ke cikin matsala. Ratio ɗin na tayar da tambaya; ba ya amsa ta.",
+        "options": [
+          "Kamfani A ya fi arha kan kowane rukunin riba, amma ka gano DALILI kafin ka saya",
+          "Kamfani B koyaushe shi ne mafi kyawun zuba jari a cikin biyun",
+          "P/E ratio ba ya taimakawa wajen yanke shawarar zuba jari ko kaɗan"
+        ]
+      }
+    },
+    "23": {
+      "title": "Karanta Sakamakon Kamfani",
+      "desc": "Kuɗin shiga, riba, da abin da ke da muhimmanci",
+      "content": "Bayan 'yan watanni, kamfanoni na wallafa 'katin sakamakonsu' (kowane kwata a wasu kasuwanni, sau biyu a shekara a wasu) kuma yana motsa farashin hannayen jari SOSAI. Ga abin da za ka nema:\n\n📊 KUƊIN SHIGA (revenue): Jimillar kuɗin da ke shigowa daga tallace-tallace. Kamar yawan abin da ƙaramin shago ya samu gaba ɗaya.\n💰 RIBA TA ƘARSHE (net profit): Abin da ya rage BAYAN biyan duk kuɗaɗen kashewa. Ainihin abin da aka samu a ƙarshen rana.\n📈 EPS (Riba Kan Kowane Hannun Jari): Riba raba da yawan hannayen jari. Nawa kowane hannun jari ya samu.\n\nAlamomi masu kyau: Kuɗin shiga YA HAU + Riba TA HAU + EPS na girma = 🟢 farashi yakan hau\nAlamomi marasa kyau: Kuɗin shiga YA FAƊI + Riba na faɗuwa = 🔴 farashi yakan faɗi\n\nWani abu ɗaya: abin da ke motsa farashi da gaske shi ne sakamakon idan aka kwatanta da abin da kasuwa ta YI TSAMMANI. Lambobi masu kyau da suka zo ƙasa da tsammani na iya sa hannun jari ya faɗi duk da haka.\n\nKamfani na iya samun kuɗin shiga mai yawa amma babu riba (kuɗaɗen kashewa masu yawa). Koyaushe ka duba DUKA biyun!",
+      "quiz": {
+        "q": "{bank} ta bayar da rahoton kuɗin shiga ya hau 15% amma riba ta faɗi 20% saboda ƙarin kuɗaɗen kashewa. Alama ce mai kyau ko marar kyau?",
+        "explanation": "Kuɗin shiga shi ne abin da ya shigo, riba shi ne abin da ya rage. Kuɗaɗen kashewa na hawa da sauri fiye da tallace-tallace a nan, don haka kamfanin na ƙara kasuwanci amma yana riƙe ƙasa da shi. Wannan gargaɗi ne na gaske, amma ba rushewa ba ne, kuma abu na gaba da za a gano shi ne me ya sa kuɗaɗen kashewa suka hau.",
+        "options": [
+          "Abin damuwa, domin suna ƙara sayarwa amma suna riƙe ƙasa da shi",
+          "Mai ƙarfi, domin hawan kuɗin shiga shi ne abin da ke da muhimmanci da gaske",
+          "Mummuna sosai, domin faɗuwar riba na nufin kamfanin na rushewa"
+        ]
+      }
+    },
+    "24": {
+      "title": "Sassa & Masana'antu",
+      "desc": "Nau'o'in kamfanoni daban-daban",
+      "content": "An raba kasuwar hannayen jari zuwa sassa, kamar sassa daban-daban a makaranta.\n\n{sectorList}\n\nSassa daban-daban na hawa da faɗuwa a lokuta daban-daban, kuma wannan ne dukan manufar rarraba jari tsakaninsu! Idan harkar banki ta rushe, wataƙila fasaha na bunƙasa. Portfolio ɗinka na zama daidai. 🎯",
+      "quiz": {
+        "q": "Ƙimar ruwan kuɗi a {name} ta hau sosai. Wane sashe ne yawanci ya fi amfana?",
+        "explanation": "Bankuna na samun kuɗi daga giɓin tsakanin abin da suke cajin masu karɓar bashi da abin da suke biyan masu ajiya, kuma hawan ƙimar ruwa yawanci na faɗaɗa shi. Ga yawancin sauran sassa, bashi mai tsada kuɗin kashewa ne.",
+        "options": [
+          "Kasuwanci: masu sayayya na karɓar bashi cikin sauƙi su kashe ƙarin a kasuwa",
+          "Banki: bankuna yawanci na samun giɓi mafi faɗi tsakanin abin da suke cajin masu bashi da abin da suke biyan masu ajiya",
+          "Fasaha: karɓar bashi don gini na ƙara arha, don haka kamfanonin manhaja na faɗaɗa da sauri"
+        ]
+      }
+    },
+    "25": {
+      "title": "Mene ne ETF?",
+      "desc": "Saya dukan kwando lokaci ɗaya",
+      "content": "A da, zaɓar waƙoƙi ɗaya-ɗaya ita ce hanya ɗaya tilo ta gina jerin waƙoƙi. Sai Spotify ya zo ya ba ka jerin waƙoƙi da aka riga aka shirya, tarin nan take ba tare da wahala ba. 🎵\n\nETFs (Asusun Jari da Ake Ciniki a Kasuwa) su ne Spotify na zuba jari. Maimakon zaɓar hannayen jari ɗaya bayan ɗaya, kana saya ETF ƊAYA da ke riƙe da dukan kwandon su.\n\nYawancin ETFs na bin wani INDEX: jerin kamfanoni da aka wallafa wanda aka haɗa bisa wasu dokoki. {etfDesc} ETF ɗin kawai na saya abin da ke cikin jerin, a kaso iri ɗaya, kuma yana sabunta kansa idan jerin ya canza.\n\nDon haka ETF ɗaya na {etf} na ba ka ɗan ƙaramin yanki na {etfBasket} (sunaye kamar {top5}) a sayayya ɗaya.\n\n⚠️ Index BA kai tsaye 'manyan kamfanoni' ba ne. Wasu jerin na jera bisa girma, wasu bisa yawan cinikin hannun jari, wasu kuma kwamiti ne ke zaɓe. Index biyu a kasuwar hannayen jari ɗaya na iya riƙe kamfanoni daban gaba ɗaya. Koyaushe ka karanta menene ainihin jerin kafin ka saya.\n\nETFs yawanci sun fi arha, sauƙi da rarrabuwa fiye da zaɓar hannayen jari da kanka. Da yawa daga cikin ƙwararrun manajojin asusun jari ba sa iya doke su! 🤯",
+      "quiz": {
+        "q": "Ka saya raka'a ɗaya ta ETF ɗin {etf}, wanda ke bin {etfBasket}. Me ka mallaka yanzu?",
+        "explanation": "Index jerin da aka wallafa ne, kuma ETF na index na saya duk abin da ke cikinsa a kaso iri ɗaya. Don haka raka'a ɗaya na riƙe ɗan yanki na kowane suna a jerin, shi ya sa sayayya ɗaya ta riga ta rarrabu. Ba babban suna kaɗai ba ne, kuma ba kuɗi ne da ke jiran umarninka ba.",
+        "options": [
+          "Hannun jari ɗaya a cikin kamfani mafi girma a wannan jerin",
+          "Ɗan ƙaramin yanki na kowane kamfani a wannan jerin",
+          "Kuɗin da asusun ke riƙewa har sai ka gaya masa abin da zai saya"
+        ]
+      }
+    },
+    "26": {
+      "title": "ETFs na {ex}",
+      "desc": "Shahararrun ETFs da ya kamata ka sani",
+      "content": "Akwai ETFs da asusun index masu yawa da za ka iya saya daga {name}. Ga wasu daga cikin mafi shahara:\n\n{etfList}\n\nBabbar fa'idar ETFs: KUƊAƊEN SABIS. Yawancin asusun jari da ake gudanarwa da hannu na cajin wani abu kusan 1–2% a shekara, wani lokaci fiye da haka. ETFs na index mai faɗi sau da yawa na cajin ƙasa da 0.2%. Kan zuba jari na {c}10,000 da aka riƙe tsawon shekaru 20, wannan giɓin ya kai DUBBAN {cPlural} 💸\n\nKa duba kuɗin sabis kafin ka saya. Yawanci ana masa lakabi da 'TER' ko 'expense ratio'. Babu wanda zai iya gaya maka ribar da ETF zai samu, amma kuɗin sabis lamba ɗaya ce da za ka IYA sani tun da wuri.",
+      "quiz": {
+        "q": "Ka zuba 20,000 NT. Wani asusun jari da ake gudanarwa da hannu na cajin 2% a shekara. ETF na index da ke riƙe kusan kamfanoni iri ɗaya na cajin 0.2%. Ja zuwa nawa mai tsadar ke ƙara ɗauka daga gare ka a shekara ɗaya.",
+        "explanation": "Giɓin tsakanin kuɗaɗen sabis biyun 1.8% ne a shekara, kuma 1.8% na 20,000 NT shi ne 360 NT. Wannan na fita ko asusun ya hau ko ya faɗi, kuma yana sake fita kowace shekara. Babu wanda zai iya gaya maka ribar da asusu zai samu, amma ana buga kuɗin sabis kafin ka saya, yawanci da lakabin TER ko expense ratio."
+      }
+    },
+    "27": {
+      "title": "ETFs na Duniya da na Gida",
+      "desc": "Zuba jari a gida da waje",
+      "content": "Shin kamfanonin {name} kaɗai ya kamata ka zuba jari a ciki? Amsa a taƙaice: A'a! Ga dalili:\n\n🏠 ETFs NA GIDA: Zuba jari a kamfanonin {name}. Ka san sunayen, suna cikin {cPlural}. Amma idan tattalin arzikin {name} ya shiga wahala, dukan portfolio ɗinka zai iya faɗuwa.\n\n🌍 ETFs NA DUNIYA: Zuba jari a kamfanonin ƙasashen waje (Amurka, Turai, Asiya). {currencyHedge}\n\nAmma kuɗi na yanka ta ɓangarori biyu: idan kuɗin ƙasarka ya ƘARA ƘARFI, waɗannan kadarorin ƙasashen waje na ƙasa da daraja a gida. Wannan ne cinikin da kake karɓa don mallakar abubuwa a waje.\n\nRiƙe na gida da na duniya duka na raba ka tsakanin haɗari biyu daban-daban lokaci ɗaya: tattalin arzikin ƙasarka, da kuɗin ƙasarka. Daidaito shi ne komai! ⚖️",
+      "quiz": {
+        "q": "{fxQuizSetup}. Hannayen jarin ƙasashen waje da ke cikin ETF ɗinka na duniya ba su motsa ko kaɗan ba. Nawa darajarsa take yanzu idan aka lissafa a kuɗin ƙasarka ({cName})?",
+        "explanation": "ETF na duniya na riƙe abubuwan da ake farashinsu a wani kuɗin. Idan kuɗin ƙasarka ya rasa ƙarfi, wannan kuɗin waje na canjawa zuwa ƙarin naka, don haka kadarar ta fi daraja a gida duk da cewa hannayen jarin ba su motsa ba. Yana aiki a ɗaya ɓangaren ma: kuɗin gida mai ƙarfi na rage wannan kadarar a hankali. Haɗarin canjin kuɗi na yanka ta ɓangarori biyu.",
+        "options": [
+          "Ya hau, domin kuɗin da yake riƙe a waje yanzu na saya fiye a gida",
+          "Ya faɗi, domin mummunan labarin kuɗi dole ya zama mummuna ga kuɗinka ma",
+          "Bai canza ba, domin hannayen jarin cikinsa ba su motsa ko kaɗan ba"
+        ]
+      }
+    },
+    "28": {
+      "title": "Ajiya da Zuba Jari",
+      "desc": "Me ya sa kuɗinka ke buƙatar aiki",
+      "content": "Duka biyun suna da kyau. Amma suna da manufofi daban-daban:\n\n🏦 AJIYA: Sa kuɗi a asusun banki. Yana da aminci, za ka iya samunsa a kowane lokaci. AMMA ƙimar ruwa yawanci {savings} ce, sau da yawa ƙasa da hauhawar farashi. Kuɗinka na 'cikin aminci' amma a hankali yana rasa ƙarfin saye.\n\n📈 ZUBA JARI: Sa kuɗi a hannayen jari, ETFs ko kadarori. Ƙarin haɗari, kuma babu tabbaci a kowace shekara. Wasu shekaru kawai kana rasa kuɗi. Amma a dogon lokaci, a tarihi hannayen jari sun samar da riba fiye da tsabar kuɗi. Kasuwar {name} ta samu matsakaicin kusan {mktReturn} a shekara a baya, kuma matsakaicin baya tarihi ne, ba alƙawari ba.\n\nƘa'idar gama-gari:\n• Kuɗaɗen kashewa na watanni 3–6 a ajiya (asusun gaggawarka) 🚨\n• Kuɗin da ba za ka buƙata ba tsawon shekaru shi ne abin da mutane ke zubawa jari 🚀\n\nKada ka zuba jari da kuɗin da za ka iya buƙata wata mai zuwa. Ajiya ce don haka!",
+      "quiz": {
+        "q": "Kuɗaɗen kashewarka sun kai 800 NT a wata, kuma kana da 5,000 NT a ajiye. Ja zuwa mafi ƙanƙantar asusun gaggawa da ƙa'idar gama-gari za ta bari a tsabar kuɗi.",
+        "explanation": "Ƙa'idar gama-gari ita ce kuɗaɗen kashewa na watanni uku zuwa shida a ajiye a tsabar kuɗi. Watanni uku na kuɗin 800 NT shi ne 2,400 NT, kuma watanni shida zai zama 4,800 NT, don haka ko'ina a cikin wannan tsakani daidai ne. Dalilin riƙe shi a tsabar kuɗi mai sauƙi ne: idan wani abu ya lalace ba zato, ba ka son a tilasta maka sayar da jarinka a duk ranar da hakan ya faru."
+      }
+    },
+    "29": {
+      "title": "Hauhawar Farashi & Kuɗinka",
+      "desc": "Me ya sa tsabar kuɗi ke rasa daraja a tsawon lokaci",
+      "content": "Ka tambayi babban mutum nawa {food} yake lokacin yana shekarunka. Yana kusan {c}{foodOld}. Yanzu ya kai {c}{foodNew}+. Wannan hauhawar farashi ce (inflation): farashi na hawa a hankali a tsawon lokaci, ma'ana kowane {cName} na saya ƘASA da yadda yake a da.\n\nHauhawar farashi a {name} yawanci ta kasance kusan {inflation} a shekara.\n\nDon haka idan ajiyarka na samun 4% a shekara amma hauhawar farashi 6% ce, a zahiri kana RASA kusan 2% na ƙarfin saye kowace shekara, duk da cewa ma'aunin kuɗinka ya hau!\n\n💡 Jarinka na buƙatar doke hauhawar farashi don ya ƙara arzikinka da gaske.\n• Tsabar kuɗi ƙarƙashin katifa: yana rasa daraja kowace shekara 💀\n• Ajiyar banki: sau da yawa da ƙyar take tafiya daidai\n• Hannayen jari na {ex} (matsakaicin dogon lokaci): {mktReturn} a shekara, wanda matsakaicin baya ne, ba alƙawari ba 🔥\n\nZuba jari ba game da yin arziki kawai ba ne. Game da rashin ƙara talauci ne! 💸",
+      "quiz": {
+        "q": "Asusun ajiyarka na biyan 4% a shekara. Farashi na hawa 6% a shekara. Ja zuwa abin da ke faruwa da gaske ga ƙarfin sayenka a wannan shekarar.",
+        "explanation": "Ainihin riba shi ne ruwan da kake samu cire hauhawar farashin da kake biya, don haka 4% gaba da 6% ya fito kusan ragi 2%. Lambar da ke asusunka na hawa yayin da abin da za ta iya saya da gaske ke faɗuwa, kuma wannan ita ce dabarar shiru da hauhawar farashi ke yi wa ajiya. Don gina ainihin arziki, kuɗi dole ya doke hauhawar farashi, ba wai ya samu wani abu kawai ba."
+      }
+    },
+    "30": {
+      "title": "Motsin Rai & Zuba Jari",
+      "desc": "Kada ka sayar cikin firgici ko ka saya don FOMO",
+      "content": "Kasuwar hannayen jari ainihin gwajin sarrafa motsin rai ce. Yawancin mutane suna faɗuwa. 🎭\n\n😱 SAYARWA CIKIN FIRGICI: Kasuwa ta faɗi 20%, ka firgita, ka sayar da komai. Sai ta farfaɗo. Ka kulle asararka ba don komai ba.\n\n🤑 SAYA DON FOMO: Kowa a kafofin sada zumunta na zumuɗi kan wani coin. Ka yi gaggawar shiga. Farashin ya rushe nan take. Kai ne ka rage da kayan.\n\nMafi kyawun masu zuba jari na ɗaukar rushewar kasuwa kamar rangwame a {retail}. Suna ci gaba da saya, cikin natsuwa, maimakon firgita. Warren Buffett ya faɗa haka: 'Ka ji tsoro idan wasu na kwaɗayi, ka yi kwaɗayi idan wasu na tsoro.'\n\nGina shirinka. Tsaya a kai. Kai na nan gaba zai gode maka don rashin sayarwa cikin fushi a ranar ja! 🙏",
+      "quiz": {
+        "q": "Kasuwa ta faɗi 15% a mako ɗaya kuma group chat ɗinku na sayar da komai. Kuɗinka na zuba jari ne na shekaru goma masu zuwa. Mene ne matakin?",
+        "explanation": "Faɗuwar 15% na zama ainihin asara ne kawai a ranar da ka sayar a cikinta. Shirin da ka rubuta lokacin da babu abin da ke faruwa kai mai natsuwa ne ya rubuta shi, kuma tsayawa a kai shi ne dukan fasahar. Jiran abubuwa su yi natsuwa kafin ka sake saya na nufin sake saya a farashi mafi girma, domin natsuwa na bayyana bayan farfaɗowa, ba kafin ta ba.",
+        "options": [
+          "Sayar yanzu ka sake saya da zarar komai ya yi natsuwa",
+          "Matsar da kuɗin zuwa duk abin da chat ɗin ke saya maimakon haka",
+          "Ci gaba da shirin da ka rubuta lokacin kana cikin natsuwa"
+        ]
+      }
+    },
+    "31": {
+      "title": "Babban Gwaji na Ƙarshe",
+      "desc": "Riba-kan-Riba, abin al'ajabi na 8 na duniya",
+      "content": "'Abin al'ajabi na takwas na duniya: wanda ya fahimce shi, yana samun sa; wanda bai fahimta ba, yana biyan sa.' Za ka ga ana danganta wannan magana ga Einstein ko'ina a intanet. Babu ainihin shaidar cewa ya faɗa.\n\nAmma lissafin ba za a iya musanta shi ba. Ga abu mafi muhimmanci da za ka koya game da kuɗi:\n\nWanda ya fara a shekara 20 ya zuba {c}500/wata a 12% a shekara zai ƙare da FIYE a shekara 65 fiye da wanda ya fara a shekara 35 ya zuba {c}2,000/wata a ƙima ɗaya. Ninki huɗu na adadin wata-wata, kuma duk da haka yana baya a ƙarshe.\n\nLokaci. Shi. Ne. Komai.\n\nWannan ba dabarar lambobi ba ce, ita ce dukan manufar riba-kan-riba: kowace shekara da ka jira na kashe fiye da yadda kowace shekara da ka ƙara daga baya za ta iya dawo da ita. Mafi kyawun lokacin farawa shi ne a baya. Na biyu mafi kyau shi ne yanzu.\n\nWannan jarrabawa ita ce gwajinka na ƙarshe. Ka ci ta kuma ka zama mai shaidar NoobTrader a hukumance! 👑",
+      "bossVictory": "An buɗe Riba-kan-Riba. Yanzu kai mai haɗari ne. 🔥",
+      "quiz": {
+        "q": "{c}1,000 da aka zuba a 12% a shekara tsawon shekaru 10 ya girma zuwa ~{c}3,106. Me zai faru idan ka NINKA lokacin zuwa shekaru 20?",
+        "explanation": "Ninka lokaci na yin fiye da ninka sakamakon sosai, domin bunƙasar kowace shekara na yin riba-kan-riba kan duk abin da ya gabace ta. Bunƙasa na ƙara sauri maimakon raguwa.",
+        "options": [
+          "Ya ninka fiye da sau uku zuwa ~{c}9,646",
+          "Ya kusa ninkawa zuwa ~{c}6,200",
+          "Riba na raguwa yayin da kake ƙara jira"
+        ]
+      }
+    },
+    "32": {
+      "title": "Dandalin Crypto & Walat",
+      "desc": "Inda crypto ke zaune da gaske",
+      "content": "Da farko, ɓangaren gaskiya: ainihin dandalin crypto na buƙatar ka kai shekara 18+ a kusan kowace ƙasa. Shi ya sa NoobTrader ke bari ka gwada komai da kuɗin kama-da-wane tukuna. 🎮\n\nIdan manya suka saya crypto, suna amfani da wurare iri biyu:\n\n🏦 KASUWANNI & MANHAJOJIN BROKER (masu riƙo, custodial): kana buɗe asusu, su ke riƙe maka crypto ɗinka. Mai sauƙi, amma kana amincewa da su. Idan aka yi musu kutse ko suka karye, crypto ɗinka zai iya ɓacewa. Hakan ya faru da wasu daga cikin manyan sunaye a crypto.\n\n🔑 WALAT NA RIƘO DA KANKA (self-custody): manhaja inda KAI ke riƙe makullan sirri. Babu wanda zai iya daskare shi, amma babu wanda zai iya taimaka maka ma. Idan ka rasa seed phrase ɗinka (kalmomin sirri 12 zuwa 24) crypto ɗin ya tafi har abada. Babu sake saita kalmar sirri. Babu taimakon kwastoma. Ya tafi.\n\nMutanen crypto na cewa: 'Ba makullanka ba, ba coins ɗinka ba.' Yanzu ka san ma'anar hakan.",
+      "quiz": {
+        "q": "Me ake nufi idan kasuwar crypto na riƙe crypto ɗinka a matsayin 'mai riƙo' (custodial)?",
+        "explanation": "Mai riƙo na nufin dandalin ne ke riƙe makullan, don haka coins ɗinka na da aminci ne kawai gwargwadon amincin dandalin. Idan aka yi masa kutse ko ya durƙushe, za su iya tafiya tare da shi. Wannan ne mutane ke nufi da ba makullanka ba, ba coins ɗinka ba.",
+        "options": [
+          "Kasuwar ce ke riƙe maka makullan",
+          "Kai ke riƙe makullan kuma babu wani da zai iya",
+          "Babu wanda zai iya taɓa coins ɗin, har kai ma",
+          "Yana samun ruwa kai tsaye"
+        ]
+      }
+    },
+    "33": {
+      "title": "Yadda Saya Crypto Ke Aiki",
+      "desc": "Spread, kuɗaɗen sabis da kasuwanni 24/7",
+      "content": "Saya crypto na kama da saya kowane abu a intanet, amma abubuwa uku sun bambanta:\n\n1️⃣ SPREAD (giɓin farashi): farashin saya koyaushe ya ɗan fi farashin sayarwa. Saya crypto na {c}100 ka sayar nan take, kuma za ka dawo da wataƙila {c}97. Wannan giɓin ne hanyar da dandamali ke samun kuɗi a ɓoye.\n\n2️⃣ KUƊAƊEN SABIS A SAMA: yawancin dandamali na cajin kuɗin sabis kan kowane ciniki ma, sau da yawa 1 zuwa 2% kan ƙananan sayayya. Kuɗin sabis da spread na nufin ƙaramar sayayya na farawa kusan 3 zuwa 5% a asara kafin farashin ya motsa ko kaɗan.\n\n3️⃣ BABU ƘARARRAWAR RUFEWA: kasuwannin hannayen jari na rufewa da dare da ƙarshen mako. Crypto na ciniki 24/7, kowace rana ta shekara. Farashi na iya rushewa yayin da kake barci. Wannan ɓangare ne na dalilin da crypto ya fi hannayen jari saurin canzawa sosai.\n\nA NoobTrader za ka iya ciniki crypto da kuɗin kama-da-wane, 24/7, ba tare da rasa ko kwabo ba. Kana biyan kuɗin sabis kan kowane ciniki, amma NoobTrader ba ya cajin spread, don haka ainihin sayayya na da tsada fiye da ciniki iri ɗaya a nan. 📊",
+      "quiz": {
+        "q": "Ka sa 200 NT a cikin wani coin ka sayar da shi bayan daƙiƙa biyar, kafin farashin ya motsa ko kaɗan. Giɓin tsakanin farashin saya da na sayarwa na kashe 3%, kuma dandalin na cajin kuɗin sabis na 1% kan kowane ciniki. Ja zuwa adadin da ke dawowa.",
+        "explanation": "Spread na ɗaukar 3%, sannan kuɗin sabis na 1% na sauka lokacin shiga da wani lokacin fita. Wannan 5% ne na 200 NT ɗinka, don haka 10 NT ya tafi kafin farashin ya yi komai. Kana dawo da 190 NT, kuma yanzu coin ɗin dole ya hau 5% kawai don ya mayar da kai daidai."
+      }
+    },
+    "34": {
+      "title": "Bayanin Kuɗin Gas",
+      "desc": "Me ya sa aika crypto ke da kuɗi",
+      "content": "Aika crypto ba kyauta ba ne. Kowace mu'amala na biyan kuɗin hanyar sadarwa, wanda ake yawan kira GAS, ga kwamfutocin da ke sarrafa da kare hanyar sadarwar.\n\nGa ɓangaren da ke ba kowa mamaki: ana farashin gas bisa cunkoson hanyar sadarwa, BA bisa yawan abin da kake aikawa ba. Idan hanyar sadarwa na da cunkoso, kuɗaɗe na tashi.\n\n🤯 A wasu hanyoyin sadarwa, a lokutan cunkoso, aika crypto na {c}10 na iya kashe FIYE da {c}10 a gas. Za ka biya fiye kan isarwa fiye da darajar kayan.\n\nSababbin hanyoyin sadarwa da tsarin 'layer 2' sun wanzu galibi don sa wannan ya yi arha, da kuɗaɗen 'yan kwabbai. Duk wanda ke mu'amala da crypto na duba kuɗin KAFIN ya danna aika.\n\nWani abu kuma: ba za a iya juya canja wurin crypto ba. Adireshin da ba daidai ba tare da gas da aka biya daidai yake da kuɗin da ya tafi, har abada. Babu bankin da za ka kira. ☎️❌",
+      "quiz": {
+        "q": "Kuɗin gas na da yawa yau. Kana son aika crypto na {c}15 kuma gas yana {c}20. Mene ne fahimta mai wayo?",
+        "explanation": "Ana farashin gas bisa yadda hanyar sadarwa ke da cunkoso, ba bisa yawan abin da kake aikawa ba, don haka ƙaramin canja wuri na iya kashe fiye da darajarsa. Raba shi ma ba ya taimakawa, domin kowane canja wuri na biyan nasa kuɗin. Jira lokacin da ya fi shiru ko ka yi amfani da hanyar sadarwa mai arha.",
+        "options": [
+          "Biya shi, domin ana mayar da kuɗin da zarar ya isa",
+          "Bar shi, kuɗin ya fi darajar kayan",
+          "Raba shi gida biyu, don kowane rabi ya biya rabin kuɗin",
+          "Yi watsi da kuɗin, gas na manyan canja wuri ne kawai"
+        ]
+      }
+    },
+    "35": {
+      "title": "Meme Coins & Zambar Rug Pull",
+      "desc": "Gano tarkuna kafin su gano ka",
+      "content": "Meme coins crypto ne da aka gina kan barkwanci da zumuɗi maimakon wani ainihin amfani. Kaɗan sun arzuta masu saya na farko, shi ya sa dubban masu kwaikwayo suke wanzuwa. Kusan duka suna komawa sifili. 📉\n\nTarko mafi muni shi ne RUG PULL (jan tabarma): masu ƙirƙira na yin coin, su yi masa zumuɗi sosai, su jira mutane su yi tururuwa, sannan su zubar da babban tarinsu ko su zubar da asusun ciniki. Farashi na rushewa cikin mintoci. Su ke riƙe kuɗin. Kai kuma ka riƙe coins marasa daraja.\n\n🚩 JAJAYEN ALAMOMI da za ka haddace:\n• Ƙungiyar da ba a san ko su wane ne ba kuma ba za ka iya tantancewa ba\n• Riba 'tabbatacciya' (babu abin da aka tabbatar a kasuwanni)\n• Masu tasiri da aka biya don tallata shi\n• Ƙaramin rukuni na riƙe yawancin coins ɗin\n• Matsin lamba don 'saya kafin lokaci ya ƙure'\n\nIdan babban tallan coin shi ne cewa WASU mutane da ke saya zai arzuta KAI, wannan ba zuba jari ba ne. Wasan kujerun kiɗa ne, kuma masu ƙirƙira ne ke da kiɗan. 🎵",
+      "quiz": {
+        "q": "Sabon coin na da ƙungiyar da ba a san ko su wane ne ba, yana alƙawarin tabbataccen ninki 100, kuma masu tasiri da aka biya na tallata shi sosai. Me yawanci ke faruwa a gaba?",
+        "explanation": "Ƙungiyar da ba a sani ba, riba tabbatacciya da tallan da aka biya su ne tsarin rug pull na yau da kullum. Masu ƙirƙira na riƙe yawancin coins ɗin, su sayar a cikin zumuɗin su tafi, su bar masu saya da coin da babu mai so. Babu abin da aka tabbatar a kasuwanni.",
+        "options": [
+          "Kasuwar da aka ƙaddamar da shi a kai na mayar wa masu saya kuɗinsu",
+          "Farashi na daidaita da zarar masu tasiri sun daina wallafawa",
+          "Ƙungiyar na zubar da tarinta kuma farashin ya rushe",
+          "Hukumomi na tilasta ƙungiyar ta bayyana ko su wane ne"
+        ]
+      }
+    },
+    "36": {
+      "title": "Haƙa da Ciniki da Staking",
+      "desc": "Wasanni uku daban-daban sosai",
+      "content": "Hanyoyi uku da mutane ke ƙoƙarin samun kuɗi a crypto, kuma BA wasa ɗaya ba ne:\n\n⛏️ HAƘA (mining): kwamfutoci masu ƙarfi na tsere don sarrafa mu'amaloli su samu sababbin coins. Yana kama da nishaɗi, amma haƙar Bitcoin a yau ta masana'antu ce: rumbunan injuna na musamman da manyan kuɗaɗen wutar lantarki. Wayarka ko kwamfutar tafi-da-gidanka ba za su iya gogayya ba, kuma manhajojin 'haƙa Bitcoin a wayarka!' kusan koyaushe zamba ne ko gonakin talla da ke biyan ka kusan babu komai.\n\n🥩 STAKING: a wasu hanyoyin sadarwa kana kulle coins don taimakawa kare hanyar sadarwar ka samu lada, kamar ruwan kuɗi. Na gaske ne, amma coins ɗinka na iya kasancewa a kulle na ɗan lokaci, kuma FARASHINSU na iya rushewa duk da haka yayin da suke a kulle.\n\n📊 CINIKI (trading): saya da sayarwa don samun riba daga motsin farashi. Ba a buƙatar na'ura, amma wasan ne inda horo ya fi muhimmanci, kuma inda yawancin masu farawa ke shan kaye a hannun motsin ransu.\n\nNoobTrader na koyar da wasan ciniki ba tare da wani haɗari ba. Sauran biyun na buƙatar ainihin kuɗi ko don farawa.",
+      "quiz": {
+        "q": "Wata manhaja ta ce wayarka za ta iya haƙa Bitcoin da riba yayin da kake barci. Mene ne mafi yiwuwar gaskiya?",
+        "explanation": "Haƙa tsere ne da na'urori na musamman da wutar lantarki mai arha ke yanke hukunci, kuma waya ba ta da ko ɗaya. Manhajojin da ke alƙawarin akasin haka yawanci suna neman bayananka, batirinka ko kuɗinka, kuma suna biyan ka kusan babu komai.",
+        "options": [
+          "Wayoyi na haƙa a hankali amma suna samun riba duk da haka",
+          "Yana aiki, amma a sababbin wayoyi kawai",
+          "Hanyoyin sadarwa sun haramta haƙa ta waya",
+          "Gonar talla ce da ke biyan kusan babu komai"
+        ]
+      }
+    },
+    "37": {
+      "title": "Tsaron Crypto & Zamba",
+      "desc": "Riƙe abin da ke naka, naka",
+      "content": "Babban ƙarfin crypto shi ne haɗarinsa ma: ba za a iya juya mu'amaloli ba kuma babu bankin da zai gyara kuskure. 'Yan zamba na son hakan. Ga kayan kariyarka:\n\n🔐 SEED PHRASE ƊINKA ABU NE MAI TSARKI. Babu mutum na gaskiya da zai TAƁA tambayarsa. Ba 'ma'aikatan taimako' ba, ba 'bot na tantancewa' ba, babu kowa. Duk wanda ya tambayi seed phrase ɗinka yana sata daga gare ka, shi ke nan.\n\n🎣 PHISHING (kamun kifi na yaudara): shafukan intanet na bogi da saƙonnin DM da ke kama da ainihin dandamali daidai. Harafi ɗaya ya saɓa a adireshin yanar gizo. Koyaushe ka rubuta adireshin da kanka.\n\n🎁 ZAMBAR KYAUTA: 'Aika coin 1, ka samu 2 baya!', sau da yawa ana amfani da asusun shahararren mutum da aka yi wa kutse. Babu wanda ke ninka maka kuɗi. Har abada.\n\n💕 ZAMBAR SOYAYYA & 'MAI BA DA SHAWARAR ZUBA JARI': baƙo mai fara'a da a hankali ke lallashin ka zuwa wani 'dandali na musamman'. Dandalin na bogi ne. Cire kuɗi ba ya taɓa aiki.\n\nTsarin da ke ƙarƙashin kowace zamba: gaggawa da ɓoye-ɓoye da riba tabbatacciya. Idan ka ga ukun nan tare, ka tafi. 🚶",
+      "quiz": {
+        "q": "Wani da ke cewa shi 'taimakon dandali' ne ya tura maka DM yana neman seed phrase ɗinka na kalmomi 12 don 'tantance walat ɗinka'. Me za ka yi?",
+        "explanation": "Seed phrase ITA CE walat ɗin. Duk wanda ke riƙe da ita zai iya kwashe shi, ainihin taimako ba ya taɓa tambayarta, kuma bai kamata a taɓa raba ko wani ɓangare nata ba.",
+        "options": [
+          "Kada ka taɓa raba ta, domin ainihin taimako ba ya taɓa neman seed phrase",
+          "Raba ta, domin ma'aikatan taimako da aka tantance na buƙatarta don duba asusunka",
+          "Raba kalmomi shida na farko kawai, wanda ya isa aminci da kansa",
+          "Ka nemi su tura maka imel daga adireshin hukuma tukuna, sannan ka raba ta"
+        ]
+      }
+    },
+    "38": {
+      "title": "Babban Gwajin Crypto",
+      "desc": "Injin lokaci na Bitcoin",
+      "content": "Lokaci ya yi na labarin da kowa ke ambato amma babu wanda ke ba da shi yadda ya kamata.\n\nA farkon 2017, Bitcoin ɗaya na kusan $1,000. A Disamba 2024 ya wuce $100,000 a karon farko. Sayen $1,000, da aka riƙe har ƙarshe, ya zama kusan $100,000. Wannan ninki 100 ne. 🤯\n\nYanzu ɓangaren da zumuɗi ke barinsa: don karɓar wannan ninki 100 dole ka jure manyan rushewa biyu masu tsanani, ɗaya ta kusan 84% ɗaya kuma ta kusan 77%, ka kalli kuɗinka na raguwa tsawon SHEKARU a jere ba tare da sayarwa ba. Kusan babu wanda ya iya. Yawancin mutane sun saya a sama, suka firgita a rushewar, suka sayar a ƙasa.\n\nKuma ga kowane Bitcoin akwai dubban matattun coins da suka koma sifili. Zaɓar mai nasara tun da wuri na kama da sauƙi ne kawai idan ka waiwaya baya. Ana kiran wannan survivorship bias (son kai ga masu tsira), kuma shi ne ruɗi mafi tsada a crypto.\n\nAinihin darasin injin lokaci: ga coins da suka tsira, haƙuri ya doke zaɓar lokaci. Amma kana gano waɗanne coins ne suka tsira BAYAN HAKA kawai, shi ya sa rarraba jari ke doke zaɓin jarumai, kuma shi ya sa BABU WANDA ya san gaba. Har babban ma. 🐉",
+      "bossVictory": "An ci nasara kan sashen crypto. Yanzu ka fi yawancin manya sani. 🐉",
+      "quiz": {
+        "q": "Dubban coins sun fito tare da Bitcoin, kuma yawancinsu yanzu ba su da daraja sosai. Me ya sa \"kawai zaɓi Bitcoin na gaba\" ke kama da sauƙi idan ka waiwaya baya?",
+        "explanation": "Masu tsira ne kawai ake ci gaba da magana a kansu, don haka zaɓar masu nasara na kama da sauƙi sosai idan an waiwaya baya fiye da yadda yake a lokacin. Dubban da suka gaza ba su bar wata alama a labarin ba.",
+        "options": [
+          "Domin masu nasara ne kaɗai ake ci gaba da magana a kansu, kuma waɗanda suka mutu sun ɓace daga labarin",
+          "Domin mafi kyawun coins a bayyane suke tun farko ga duk wanda ya karanta sosai game da su",
+          "Domin yawancin coins na yin kyau a ƙarshe ga duk wanda ya yi haƙurin riƙe su tsawon shekaru",
+          "Domin masana sun yi hasashen Bitcoin daidai tun a 2010 kuma sun yi hasashen kowane mai nasara tun daga lokacin"
+        ]
+      }
+    },
+    "39": {
+      "title": "Mene ne Blockchain da Gaske?",
+      "desc": "Fasahar da ke ƙarƙashin komai",
+      "content": "Cire zumuɗin kuma blockchain abu ne mai sauƙi abin mamaki: littafin rikodi na tarayya da dubban kwamfutoci ke riƙe kwafinsa iri ɗaya.\n\nIdan wani ya aika crypto, wannan mu'amala na shiga cikin 'block' (tubali) tare da ɗaruruwan wasu. Ana rufe tubalin da lissafi a haɗa shi da tubalin da ya gabata. Shi ya sa: block. Chain (sarƙa). ⛓️\n\nMe ya sa wani zai damu? Saboda abin da yake sa ya yiwu:\n\n✅ Babu wanda zai iya gyara tarihi a ɓoye. Canza tsohon tubali na nufin sake yin kowane tubali bayansa a dubban kwamfutoci lokaci ɗaya.\n✅ Babu kamfani ɗaya ko gwamnati da ke gudanar da shi. Hanyar sadarwar kwamfutoci ce ke gudanar da shi tare.\n✅ Kowa zai iya duba rikodin. Kowace mu'amalar Bitcoin da aka taɓa yi a bayyane take ga jama'a.\n\nWannan fasaha ce sabuwa da gaske. Amma kuma BA kuɗin sihiri ba ce. Cikakken rikodin coin mara daraja har yanzu coin ne mara daraja. Kasancewar fasahar ta gaske ba ya sa kowane coin da aka gina a kanta ya zama mai daraja. 🧠",
+      "quiz": {
+        "q": "Me ya sa yake da wuya sosai a canza tsohuwar mu'amala a ɓoye a kan blockchain?",
+        "explanation": "Ana rufe kowane tubali da wanda ya gabace shi, don haka sake rubuta tsoho na nufin sake rubuta kowane tubali bayansa, a dubban kwamfutoci, da sauri fiye da yadda hanyar sadarwa ke ƙara sababbi. Wannan ne ke sa rikodin ya zama na dindindin a zahiri.",
+        "options": [
+          "Dole a sake yin kowane tubali na baya ma",
+          "Dole gwamnati ta amince da kowane canji",
+          "Ana goge kowane rikodi da ya wuce wata ɗaya",
+          "Mai ƙirƙirar kowane coin na riƙe makullin gyara na sirri"
+        ]
+      }
+    },
+    "40": {
+      "title": "Bitcoin da Sauran Komai",
+      "desc": "Ba duk coins ne wasa ɗaya ba",
+      "content": "'Crypto' ba abu ɗaya ba ne. Bambance-bambancen sun fi kamanceceniya muhimmanci:\n\n₿ BITCOIN: na asali. An iyakance yawansa zuwa coins miliyan 21 har abada, an rubuta a cikin code, kuma ƙimar sababbin coins na raguwa da rabi kusan kowace shekara huɗu. (Ka saba da wannan? Halving ɗin NOOB na aro wannan ra'ayin daidai.) Dukan tallansa shi ne ƙaranci da tsaro.\n\n⟠ ETHEREUM: ba 'zinare na dijital' sosai ba, fiye da 'kwamfutar duniya'. Yana gudanar da smart contracts, waɗanda shirye-shirye ne da ke aiki kai tsaye. Yawancin manhajojin crypto an gina su a kansa ko a kan masu gogayya da shi.\n\n🪙 SAURAN KOMAI: dubban 'altcoins'. Kaɗan na magance ainihin matsaloli. Yawanci kwafi ne, gwaje-gwaje, ko neman kuɗi a banza. Ƙididdiga mai tsanani: yawancin coins da aka taɓa ƙirƙira sun riga sun mutu ko ba su da daraja.\n\nDarasi: 'crypto na hawa' ba ya gaya maka kusan komai game da wani coin NA MUSAMMAN. Kowanne fare ne na kansa, da nasa damar. 🎲",
+      "quiz": {
+        "q": "Mene ne mafi girman yawan Bitcoin, kuma yaya sauƙin canza shi yake?",
+        "explanation": "Iyakar miliyan 21 ɓangare ne na dokokin da kowace kwamfuta a hanyar sadarwa ke bi. Ƙara ta na nufin kusan dukansu su amince su rage darajar abin da suka riga suka riƙe, shi ya sa ake ɗaukar iyakar a matsayin tabbatacciya.",
+        "options": [
+          "Miliyan 100, kuma masu haƙa na kaɗa ƙuri'a a kai kowace shekara",
+          "Miliyan 21, kuma ƙara ta kusan ba zai yiwu ba",
+          "Biliyan 1, kuma mai ƙirƙira zai iya daidaita ta",
+          "Babu iyaka ko kaɗan, don haka ana buga sababbin coins har abada"
+        ]
+      }
+    },
+    "41": {
+      "title": "Stablecoin: crypto mai tsayayyen farashi",
+      "desc": "Crypto da ke ƙoƙarin tsayawa wuri ɗaya",
+      "content": "Stablecoin wani nau'in crypto ne da aka tsara don ko da yaushe darajarsa ta zama adadi ɗaya tak, yawanci daidai dalar Amurka 1. 'Yan kasuwa suna amfani da shi a matsayin wurin ajiye kuɗi: ka sayar da kuɗaɗen crypto masu tashi da faɗuwa zuwa stablecoin, kuɗinka su tsaya cak yayin da kake tunanin mataki na gaba.\n\nTa yaya suke tsayawa a $1? Babban tsarin yana ajiye dalolin gaske da kadarori a matsayin ajiya, don kowane tsabar kuɗi yana da abin da ke goyon bayansa. Kana amincewa da duk wanda ke riƙe da wannan ajiyar.\n\nGa labarin gargaɗinka: stablecoin na iya RUSHEWA. Hakan ya faru da gaske. A 2022 wani babban stablecoin na 'algorithm', wanda ya yi amfani da lissafi mai wayo maimakon ajiya ta gaske, ya faɗi daga $1 zuwa kusan sifili cikin 'yan kwanaki, kuma ya share dubun biliyoyin daloli. 'Tsayayye' buri ne na tsari, ba tabbaci ba.\n\nDoka mai sauƙi: idan dabarar da ke sa abu ya zama 'lafiya' ta fi wayo, to ka fi duba ta sosai. 🔍",
+      "quiz": {
+        "q": "Mene ne babban aikin stablecoin?",
+        "explanation": "Aikin stablecoin shi ne ya tsaya cak. Wurin ajiye kuɗi ne tsakanin cinikai, ba abin da ake tsammanin zai girma ba.",
+        "options": [
+          "Riƙe daraja ɗaya tak, yawanci $1, don 'yan kasuwa su sami tsayayyen wurin ajiye kuɗi",
+          "Girma fiye da Bitcoin ta hanyar bin dukkan kasuwar crypto",
+          "Biyan riba kai tsaye ga duk wanda ke riƙe da shi a walat",
+          "Ɓoye cinikai daga kowa ta hanyar rikita kundin bayanan jama'a"
+        ]
+      }
+    },
+    "42": {
+      "title": "Crypto, Haraji da Doka",
+      "desc": "Eh, dokokin suna aiki",
+      "content": "Intanet cike yake da mutanen da suka yarda cewa crypto kuɗi ne marar ganuwa, babu doka. Galibi sukan gane gaskiya ta hanya mai wuya. 😬\n\nGaskiyar lamari a yawancin ƙasashe, har da Afirka ta Kudu:\n\n🧾 RIBA GALIBI ANA BIYAN HARAJI A KANTA. Idan ka sayar da crypto fiye da yadda ka saya, hukumar haraji galibi tana son kasonta, kamar yadda yake da hannayen jari.\n\n🪪 KASUWANNIN CRYPTO SUN SAN KO KAI WANENE. Sahihan dandamali suna buƙatar tantance shaidar ɗan ƙasa (ana kiransa KYC, Know Your Customer). Haka kuma kowane ciniki ana rubuta shi har abada a kan blockchain da kansa, wanda shi ne AKASIN ɓoyewa.\n\n⚖️ MASU KULA DA DOKA SUNA CIKI. A Afirka ta Kudu, ana ɗaukar kadarorin crypto a hukumance a matsayin kayayyakin kuɗi, wanda ke nufin dandamalin da ke sayar da su dole su bi dokokin ayyukan kuɗi.\n\nBabu ɗaya daga cikin waɗannan da zai sa ka firgita. Amma DALILI NE na yin watsi da duk wanda ya ce 'dokoki ba su shafi crypto ba'. Suna shafa, kuma yin kamar ba haka ba yana jefa manya cikin babbar matsala ta gaske.",
+      "quiz": {
+        "q": "Ɗan uwanka ya ce hukumar haraji ba ta iya ganin ribar crypto saboda crypto ba a san mai shi ba. Mene ne kuskuren wannan?",
+        "explanation": "Sahihan dandamali suna tantance ko kai wanene kafin ka yi ciniki, kuma kowane ciniki a blockchain a bayyane yake kuma na dindindin ne, wanda shi ne akasin ɓoyewa. Galibi ana biyan haraji a kan riba, don haka ka duba dokokin wurin da kake zaune.",
+        "options": [
+          "Kasuwannin crypto suna duba shaida, kuma bayanai a bayyane suke",
+          "Babu komai, crypto lallai ba a san mai shi ba",
+          "Ana biyan harajin crypto a Amurka kawai, ba wani wuri ba",
+          "Haraji yana farawa ne idan ka cire miliyan ɗaya"
+        ]
+      }
+    },
+    "43": {
+      "title": "Tashi da Faɗuwa da Dokokin Tsira",
+      "desc": "Me ya sa crypto ke juyawa da ƙarfi haka",
+      "content": "Mummunar rana a kasuwar hannayen jari ita ce 3%. Mummunar rana a crypto ita ce 20%. Ko Bitcoin ma, 'babba' na crypto, ya rasa fiye da 80% na darajarsa fiye da sau ɗaya sannan daga baya ya farfaɗo. Ƙananan kuɗaɗen crypto kan rasa 95% akai-akai kuma ba sa dawowa.\n\nMe ya sa haka daji? Ana cinikin crypto awa 24 kowace rana ba tare da birki na kasuwa ba, yawancinsa ana saye da kuɗin aro wanda ake tilasta sayar da shi lokacin faɗuwa, kuma farashi yana tafiya ne bisa labari da ji fiye da rahotannin samun kuɗi.\n\nDon haka ga dokokin tsira, waɗanda kowane ƙwararren ɗan kasuwa ke maimaitawa:\n\n1️⃣ Kada ka taɓa saka kuɗin da ba za ka iya jure rasa su gaba ɗaya ba.\n2️⃣ Ka auna girman cinikinka ta yadda bala'i ɗaya ba zai share ka ba.\n3️⃣ Ka yanke shawarar fitarka KAFIN ka shiga, yayin da kake natsuwa.\n4️⃣ FOMO (tsoron a bar ka a baya) shi ne ji mafi tsada a harkar kuɗi.\n\nKa gwada dukkan huɗun a NoobTrader inda asarar ta wasa ce. Ɗabi'un su ne ainihin kyautar. 🏆",
+      "quiz": {
+        "q": "Wanne daga cikin waɗannan doka ce ta gaske ta tsira a kasuwanni masu tashi da faɗuwa sosai?",
+        "explanation": "Kada ka taɓa haɗarin kuɗin da ba za ka iya jure rasa su ba, ita ce doka ɗaya da ke riƙe ka a cikin wasan. Ninka cinikinka bayan asara shi ne yadda asusu ke ƙarewa.",
+        "options": [
+          "Ninka cinikinka bayan kowace asara don ka dawo da ita",
+          "Kada ka taɓa zuba jarin kuɗin da ba za ka iya jure rasa su gaba ɗaya ba",
+          "Tashi da faɗuwa yana shafar ƙananan kuɗaɗen crypto ne kawai, don haka manya lafiya suke",
+          "Ko da yaushe ka saya idan kowa a kafafen sada zumunta yana saye"
+        ]
+      }
+    },
+    "44": {
+      "title": "Zagayen Zuga da FOMO",
+      "desc": "Tsarin da ke bayan kowace hauka ta kasuwa",
+      "content": "Crypto yana tafiya cikin zagayen zuga, kuma da zarar ka ga tsarin ba za ka taɓa daina ganinsa ba:\n\n📈 Mataki na 1: wani abu na gaske ya faru. Masu imani na farko suna saye a hankali.\n🚀 Mataki na 2: farashi yana hawa. Kafafen yaɗa labarai sun lura. Shafinka ya cika da masu nasara.\n🎪 Mataki na 3: hauka. Direbobin tasi suna ba da shawarar crypto. Mutane suna karɓar bashi don saye. 'Wannan karon ya bambanta.'\n💥 Mataki na 4: faɗuwa. Waɗanda suka zo a ƙarshe, waɗanda suka saya a mafi tsada, su ne suka fi asara.\n🕳️ Mataki na 5: shiru. Rubuce-rubucen masu nasara sun ɓace. Babu wanda ke magana kan asararsa.\n\nHaukar NFT ta 2021 ta bi wannan tsari daidai: kayan tarin dijital ana sayar da su miliyoyi a kololuwa, kuma bayan shekara biyu yawancinsu darajarsu ta kusa zama ba komai.\n\nMugun wayo na kowace hauka: tana sa LOKACI MAFI MUNI na saye ya ji kamar lokaci mafi GAGGAWA na saye. Idan ya fi jin lafiya ka afka ciki, saboda kowa ya riga ya shiga, sauƙaƙan ribobi galibi sun riga sun ƙare. 🎯",
+      "quiz": {
+        "q": "A cikin zagayen zuga na yau da kullum, yaushe matsakaicin mutum ke jin sha'awar saye mafi ƙarfi?",
+        "explanation": "Sha'awar ta fi ƙara idan labarin ya fi ƙara, kuma labarin ya fi ƙara ne bayan farashi ya riga ya hau. Kasancewar kowa a ciki shi ke sa ya ji lafiya, kuma shi ne ke barin babu wanda ya rage don saye.",
+        "options": [
+          "Da wuri, lokacin da kusan babu wanda ke magana a kai",
+          "A tsakiyar faɗuwa, lokacin da farashi ya yi ƙasa",
+          "Kusa da kololuwa, lokacin da kowa ya riga ya shiga",
+          "Ba ya bin wani tsari, sha'awar ba ta da ƙa'ida"
+        ]
+      }
+    },
+    "45": {
+      "title": "Karanta Kyandir",
+      "desc": "Tsarin kyandir: jiki da launi",
+      "content": "Kowane kyandir yana ba da ɗan ƙaramin labari da lambobi huɗu kacal: inda farashi ya buɗe, mafi girman da ya kai, mafi ƙasan da ya faɗi, da inda ya rufe. Jiki mai kauri yana tafiya daga buɗewa zuwa rufewa, kuma launin yana gaya maka wanda ya yi nasara: kore yana nufin rufewar ta ƙare sama da buɗewa, ja yana nufin masu sayarwa sun ja shi ƙasa da ita. Wannan shi ne dukkan sirrin. Ka koyi karanta kyandir ɗaya da kyau, kuma kowane jadawali a duniya zai juya daga bangon hayaniya zuwa labarin hoto mai ban dariya. 🟢",
+      "quiz": {
+        "q": "Wannan kyandir kore ne. Me yake gaya maka game da wannan lokacin ciniki?",
+        "options": [
+          "Farashi ya rufe ƙasa da yadda ya buɗe",
+          "Mutane da yawa sun saya fiye da waɗanda suka sayar, tabbas",
+          "Farashi ya rufe sama da yadda ya buɗe",
+          "Farashi bai taɓa faɗuwa ba a lokacin"
+        ]
+      }
+    },
+    "46": {
+      "title": "Lagwanai Suna Ba da Labari",
+      "desc": "Tsarin kyandir: mafi sama da mafi ƙasa",
+      "content": "Jiki yana nuna inda lokacin ya buɗe da inda ya rufe, amma lagwanai (wicks) suna nuna dukkan tafiyar: kowane farashi da faɗan ya kai da gaske. Doguwar lagwani tana nufin babban yaƙi ya faru fiye da buɗewa da rufewa, kuma ɓangaren da ya bar lagwanin a baya ya sha kaye a wannan yaƙin. Doguwar lagwani a ƙasa? Masu sayarwa sun tura da ƙarfi kuma aka mayar da su baya. Doguwar lagwani a sama? Masu saye sun kai sama kuma aka ƙi su. Jiki shi ne babban labari, lagwanai su ne gulma. 📏",
+      "quiz": {
+        "q": "Mene ne ainihin siraran layukan (lagwanai) da ke sama da ƙasan jiki suke nunawa?",
+        "options": [
+          "Mafi girma da mafi ƙasan farashin da aka yi ciniki a lokacin",
+          "Buɗewa da rufewar jiya",
+          "Ainihin farashin da aka fi yin cinikai",
+          "Hasashen iyakar farashin gobe"
+        ]
+      }
+    },
+    "47": {
+      "title": "Doji",
+      "desc": "Kyandir guda ɗaya: rashin yanke shawara",
+      "content": "Wani lokaci kyandir yakan buɗe ya rufe kusan a farashi ɗaya daidai, ya bar ɗan ƙaramin jiki da lagwanai a kowane gefe. Wannan shi ne doji, kuma yana nufin jan igiya ya ƙare babu wanda ya ci: masu saye da masu sayarwa sun ja da ƙarfi duk zaman kuma babu ɓangaren da ya yi nasara. Shi kaɗai, ɗaga kafaɗa ne kawai. Bayan hawa mai ƙarfi zai iya nuna alamar cewa yanayin tafiyar yana gajiya, saboda ɓangaren da ke nasara ba zato ba tsammani ya kasa motsa farashi. Alama ce da ya kamata a lura da ita, ba tabbaci ba. 🤝",
+      "quiz": {
+        "q": "Kyandir mai haske ya buɗe ya rufe kusan a farashi ɗaya daidai. Me ake kiransa, kuma me yake nunawa?",
+        "options": [
+          "Marubozu, alamar cikakken tabbaci ta kowane ɓangare",
+          "Guduma (hammer), alamar cewa masu saye sun ƙwace iko",
+          "Gibi (gap), alamar cewa ciniki ya tsaya cikin dare",
+          "Doji, alamar rashin yanke shawara tsakanin masu saye da masu sayarwa"
+        ]
+      }
+    },
+    "48": {
+      "title": "Guduma (Hammer)",
+      "desc": "Kyandir guda ɗaya: mayar da martani",
+      "content": "Ka yi tunanin zama mai zafi: masu sayarwa sun durƙusar da farashi ƙasa, sannan masu saye suka ja shi har ya dawo kafin rufewa. Abin da ya rage a jadawalin shi ne guduma (hammer): ƙaramin jiki kusa da sama da doguwar lagwani a ƙasa wadda ta kai aƙalla ninki biyu na girmansa. Bayan zamewa ƙasa, guduma tana cewa masu sayarwa sun jefa naushinsu mafi ƙarfi kuma bai sami wurin ba. Wannan sau da yawa yana nuna yiwuwar juyawa. Yiwuwa ce, ba alkawari ba, don haka ka ɗauke ta alamar da za ka sa ido a kai, ba umarnin saye ba. 🔨",
+      "quiz": {
+        "q": "Bayan zamewa ƙasa, kyandir mai haske ya nuna doguwar lagwani a ƙasa da ƙaramin jiki kusa da sama. Mene ne shi?",
+        "options": [
+          "Tauraro mai wutsiya (shooting star), alamar masu sayarwa sun karɓe iko",
+          "Guduma (hammer), alamar cewa masu saye sun mayar da martani da ƙarfi",
+          "Doji, cikakken kunnen doki",
+          "Hujjar cewa faɗuwar farashi ta ƙare"
+        ]
+      }
+    },
+    "49": {
+      "title": "Tauraro Mai Wutsiya (Shooting Star)",
+      "desc": "Kyandir guda ɗaya: ƙin yarda a kololuwa",
+      "content": "Kishiyar guduma ce kamar a madubi. Bayan hawa mai ƙarfi, masu saye sukan nemi sabon kololuwa ɗaya kuma, a ƙi su da ƙarfi, kuma farashi ya rufe ya dawo ƙasa kusa da inda ya buɗe. Jadawalin yana nuna ƙaramin jiki a ƙasan kyandir da doguwar lagwani a sama: tauraro mai wutsiya (shooting star). Yana nufin masu sayarwa a ƙarshe sun bayyana a kololuwa da isasshen ƙarfi don cin zaman. Bayan babban hawa, wannan ƙin yarda sau da yawa yana da muhimmanci. Sau da yawa, ba ko da yaushe ba. 🌠",
+      "quiz": {
+        "q": "Bayan hawa mai ƙarfi, kyandir mai haske ya yi tsalle sama sannan ya rufe kusa da mafi ƙasansa, ya bar doguwar lagwani a sama. Mene ne shi?",
+        "options": [
+          "Tauraro mai wutsiya (shooting star), alamar cewa masu sayarwa sun bayyana a kololuwa",
+          "Guduma (hammer), alamar cewa masu saye sun dawo kan iko",
+          "Marubozu kore, tsantsar ƙarfin saye",
+          "Tabbacin cewa farashi zai rushe gobe"
+        ]
+      }
+    },
+    "50": {
+      "title": "Marubozu",
+      "desc": "Kyandir guda ɗaya: cikakken tabbaci",
+      "content": "Marubozu jiki ɗaya ne mai kauri ba tare da lagwani ko kaɗan ba: farashi ya buɗe ya yi tattaki ta hanya ɗaya duk zaman ba tare da ya waiwaya ba. Babu faɗa, babu jinkiri, cikakken tabbaci daga ɓangare ɗaya. Marubozu kore yana ihun ƙwarin gwiwar masu saye, ja kuma yana ihun akasin haka. Ba kasafai ake ganinsu ba, kuma shi ya sa 'yan kasuwa ke farkawa idan ɗaya ya bayyana. 💪",
+      "quiz": {
+        "q": "Kyandir mai haske jiki ɗaya ne mai kauri ba tare da lagwani ko kaɗan ba. Me wannan siffar ke gaya maka?",
+        "options": [
+          "Babu wanda ya yi ciniki a lokacin, don haka ya tsaya cak",
+          "Kasuwa ta rufe da wuri a ranar kuma ta katse shi",
+          "Ɓangare ɗaya ne ke da iko daga buɗewa zuwa rufewa, cikakken tabbaci",
+          "Masu saye da masu sayarwa sun daidaita sosai daga farko har ƙarshe"
+        ]
+      }
+    },
+    "51": {
+      "title": "Haɗiyewar Masu Saye (Bullish Engulfing)",
+      "desc": "Tsarin kyandir biyu: masu saye sun kai hari",
+      "content": "Kyandir biyu, saƙo ɗaya. Na farko ƙaramin kyandir ja, abin da aka saba a lokacin faɗuwar farashi. Sannan babban jiki kore da ya haɗiye shi gaba ɗaya: cikin zama ɗaya, masu saye sun share duk abin da masu sayarwa suka cimma a ranar da ta gabata, har da ƙari. Idan ya bayyana bayan faɗuwar farashi, haɗiyewar masu saye (bullish engulfing) na ɗaya daga cikin alamun juyawa da aka fi sa ido a kai a kowane jadawali, saboda yana nuna ma'aunin iko yana juyawa cikin kyandir ɗaya. Alama ce, ba kwangila ba. 🐂",
+      "quiz": {
+        "q": "Babban jiki kore ya haɗiye jikin ja da ke gabansa gaba ɗaya. Mene ne wannan tsarin kyandir biyu?",
+        "options": [
+          "Haɗiyewar masu sayarwa (bearish engulfing), masu sayarwa sun karɓe iko",
+          "Haɗiyewar masu saye (bullish engulfing), masu saye sun rinjayi masu sayarwa",
+          "Ƙasa biyu (double bottom)",
+          "Doji biyu a jere"
+        ]
+      }
+    },
+    "52": {
+      "title": "Haɗiyewar Masu Sayarwa (Bearish Engulfing)",
+      "desc": "Tsarin kyandir biyu: masu sayarwa sun kai hari",
+      "content": "Kishiyar na masu saye ce kamar a madubi. A ƙarshen hawa, babban jiki ja ya haɗiye dukkan jikin kore da ke gabansa: masu sayarwa sun share sayen ranar da ta gabata cikin kyandir ɗaya, daidai inda hawan ya riga ya miƙe sosai kuma sababbin masu saye suna cikin fargaba. Hakan kan sa sauran masu saye su firgita su ma. Idan ka gan shi bayan dogon hawa, ka girmama shi. 🐻",
+      "quiz": {
+        "q": "A ƙarshen hawa, babban jiki ja ya haɗiye dukkan jikin kore da ke gabansa. Me ake kiran wannan biyun?",
+        "options": [
+          "Haɗiyewar masu saye (bullish engulfing), hawan yana ci gaba",
+          "Guduma (hammer) sannan doji",
+          "Fitowa (breakout) sama da katanga",
+          "Haɗiyewar masu sayarwa (bearish engulfing), masu sayarwa sun rinjayi masu saye"
+        ]
+      }
+    },
+    "53": {
+      "title": "Gane Hawan Farashi (Uptrend)",
+      "desc": "Yanayin tafiya: kololuwa mafi tsayi, kwari mafi tsayi",
+      "content": "Hawan farashi (uptrend) yana buƙatar rabi biyun duka: kololuwa mafi tsayi DA kwari mafi tsayi. Kowane kololuwa yana wuce na baya, kuma kowane kwari yana tsayawa sama da wanda ya gabace shi, saboda masu saye suna ci gaba da shigowa da wuri kowane lokaci. Wannan siffar matakala ita ce kasuwa tana gaya maka cewa buƙata ce ke da iko. Kololuwa mafi tsayi ɗaya shi kaɗai ba ya tabbatar da komai. Tsarin shi ne biyun tare, suna maimaituwa. 📈",
+      "quiz": {
+        "q": "Kowane kololuwa yana wuce na baya, kuma kowane kwari yana tsayawa sama da wanda ya gabace shi. Me wannan jadawali ke nunawa?",
+        "options": [
+          "Hawan farashi (uptrend), kololuwa mafi tsayi da kwari mafi tsayi",
+          "Faɗuwar farashi (downtrend), kololuwa mafi ƙasa da kwari mafi ƙasa",
+          "Kewayon tafiya a kwance (range), farashi a maƙale tsakanin ƙasa da rufi",
+          "Kololuwa biyu (double top) da ke kan samuwa"
+        ]
+      }
+    },
+    "54": {
+      "title": "Gane Faɗuwar Farashi (Downtrend)",
+      "desc": "Yanayin tafiya: kololuwa mafi ƙasa, kwari mafi ƙasa",
+      "content": "Juya matakalar kife. Kololuwa mafi ƙasa yana nufin masu sayarwa suna kai hari da wuri a kowane tashin dawowa, kwari mafi ƙasa yana nufin masu saye suna ja da baya fiye da da a kowace faɗuwa. Muddin wannan tsarin ya tsaya, masu sayarwa ne ke jagorantar wasan, kuma yaƙar sa shi ne yadda sababbin 'yan kasuwa ke ba da kuɗi kyauta ga masu haƙuri. Yanayin tafiya ba maƙiyinka ba ne, amma yin kamar ba ya nan tabbas maƙiyi ne. 📉",
+      "quiz": {
+        "q": "Kowane tashin dawowa yana tsayawa ƙasa da na baya, kuma kowace faɗuwa tana zurfafa. Me kake kallo?",
+        "options": [
+          "Hawan farashi (uptrend) da ke ɗan hutawa kawai",
+          "Kewayon tafiya a kwance (range)",
+          "Faɗuwar farashi (downtrend), kololuwa mafi ƙasa da kwari mafi ƙasa",
+          "Tsarin haɗiyewar masu saye (bullish engulfing) da ke samuwa"
+        ]
+      }
+    },
+    "55": {
+      "title": "Kasuwa Mai Tafiya a Kwance",
+      "desc": "Yanayin tafiya: wasan jira",
+      "content": "Wani lokaci babu ɓangaren da ke nasara, don haka farashi kawai yana kai da komowa tsakanin ƙasa ɗaya da rufi ɗaya tsawon makonni. Wannan shi ne kewayo (range), kuma kasuwanni suna ɓata babban ɓangare na rayuwarsu suna yin haka daidai. Ba lalacewa ba ne kuma ba abin gundura ba ne, kasuwa ce ke ɗaukar numfashi. 'Yan kasuwa masu haƙuri suna koyon son jiran, saboda yayin da kewayo ya daɗe yana tsayawa, haka fitowar da za ta zo daga baya ke ƙara ma'ana. 🏓",
+      "quiz": {
+        "q": "Tsawon makonni farashi yana bugawa tsakanin ƙasa ɗaya da rufi ɗaya. Me ake kiran wannan?",
+        "options": [
+          "Hawan farashi (uptrend), yana ci gaba da taɓa rufin",
+          "Kewayo (range), kasuwa tana tafiya a kwance",
+          "Kai da kafaɗu (head and shoulders)",
+          "Fitowa (breakout) da ke gudana"
+        ]
+      }
+    },
+    "56": {
+      "title": "Tallafi (Support)",
+      "desc": "Tallafi da katanga: ƙasa",
+      "content": "Idan farashi yana ci gaba da faɗuwa zuwa mataki ɗaya kuma yana dawowa sama kowane lokaci, 'yan kasuwa suna kiran wannan mataki tallafi (support): ƙasa inda masu saye ke ci gaba da yanke shawarar cewa farashin ya yi araha. Yayin da yake ƙara jurewa, haka mutane ke ƙara sa ido a kansa, wanda wani ɓangare ne na dalilin da ya sa yake ci gaba da jurewa. Amma ka tuna mutane ne suka zana ƙasan, ba doka ba. Tallafi na iya karyewa kuma yana karyewa, kuma idan ya karye, taron masu jiran dawowa ya zama taron firgici. 🧱",
+      "quiz": {
+        "q": "Farashi ya faɗo cikin matakin da aka inuwantar sau uku, kuma ya dawo sama kowane lokaci. Me 'yan kasuwa ke kiran wannan mataki?",
+        "options": [
+          "Katanga (resistance), rufi inda masu sayarwa ke taruwa",
+          "Layin yanayin tafiya (trendline), matakai dole su zama a karkace",
+          "Dakatar-da-asara da kasuwar hannayen jari ta saita",
+          "Tallafi (support), ƙasa inda masu saye ke ci gaba da shigowa"
+        ]
+      }
+    },
+    "57": {
+      "title": "Katanga (Resistance)",
+      "desc": "Tallafi da katanga: rufi",
+      "content": "Katanga (resistance) ita ce rufi: matakin da kowane hawa ke ci gaba da tsayawa saboda masu sayarwa suna farin cikin karɓar kuɗinsu a wurin. Ka kalli jadawali yana bugun kansa a farashi ɗaya sau uku kuma kana kallon katanga tana aiki a zahiri. Ga abin mamaki da ya kamata ka tuna: idan farashi ya taɓa huda shi da tabbaci na gaske, wannan tsohon rufin sau da yawa yakan fara aiki kamar sabuwar ƙasa. 🪟",
+      "quiz": {
+        "q": "Hawa uku daban-daban sun tsaya a matakin da aka inuwantar. Me ake kiran wannan mataki?",
+        "options": [
+          "Katanga (resistance), rufi inda masu sayarwa ke ci gaba da turawa baya",
+          "Tallafi (support), ƙasa da ke ƙarƙashin farashi",
+          "Matakin riba (dividend), wanda ake saitawa sau ɗaya a shekara",
+          "Tashin yawan ciniki (volume), wanda ba ya cewa komai game da farashi"
+        ]
+      }
+    },
+    "58": {
+      "title": "Layukan Yanayin Tafiya (Trendlines)",
+      "desc": "Layukan yanayin tafiya da hanyoyi: layin da ke da muhimmanci",
+      "content": "Haɗa kwarurrukan da ke hawa a jadawali kuma ka zana layin yanayin tafiya (trendline). Kowane maki biyu suna yin layi, amma taɓawa ta uku ita ce inda ya fara tabbatar da muhimmancinsa, saboda yana nuna masu saye suna ci gaba da kare matakin hawa iri ɗaya. Kowace ƙarin taɓawa da aka girmama ƙarin shaida ce. Shaida ce har abada, ba alkawari ba: layin yanayin tafiya alamar fensir ce, ba garkuwar sihiri ba. ✏️",
+      "quiz": {
+        "q": "An taɓa wannan layi mai hawa sau uku daban-daban. Me ya sa 'yan kasuwa ke damuwa da yawan taɓawar layin yanayin tafiya?",
+        "options": [
+          "Ba sa damuwa, tun da kowane maki biyu suna sa layin yanayin tafiya ya zama doka",
+          "Taɓawa uku na nufin tabbas dawowa ta huɗu za ta zo na gaba",
+          "Ƙarin taɓawa na ƙara ma'anar layin, masu saye suna ci gaba da kare shi",
+          "Layukan yanayin tafiya suna aiki ne a jadawalin yau da kullum kawai, ba gajeru ba"
+        ]
+      }
+    },
+    "59": {
+      "title": "Hanyoyi (Channels)",
+      "desc": "Layukan yanayin tafiya da hanyoyi: layin hanya",
+      "content": "Hanya (channel) yanayin tafiya ne mai ladabi. Farashi yana hawa yayin da yake bugawa tsakanin layuka biyu masu layi ɗaya: ƙasan kwarurruka masu hawa da rufin kololuwa masu hawa, suna tafiya sama tare kamar gefunan layin hanya. 'Yan kasuwa suna sa ido kan gefuna biyun don dawowa, kuma suna ƙara sa ido kan ranar da farashi zai bar layin hanya, saboda fita mai tsabta daga hanya sau da yawa nan ne babban motsi na gaba ke farawa. 🛣️",
+      "quiz": {
+        "q": "Farashi yana hawa yayin da yake bugawa tsakanin layuka biyu masu layi ɗaya. Mene ne wannan tsarin?",
+        "options": [
+          "Alwatika (triangle), inda layuka biyun dole su haɗu",
+          "Hanya mai hawa (rising channel), hawan farashi da layin hanya da ake gani",
+          "Kololuwa biyu (double top)",
+          "Kewayo a kwance da ba ya zuwa ko'ina"
+        ]
+      }
+    },
+    "60": {
+      "title": "Kololuwa Biyu (Double Top)",
+      "desc": "Tsare-tsaren jadawali: siffar M",
+      "content": "Farashi ya bugi rufi ɗaya sau biyu, ya kasa duka sau biyun, kuma ya zana babban M a jadawali. Idan ya karye ƙasa da kwarin da ke tsakiya (layin wuya, neckline), kololuwa biyu (double top) ya cika: alamar juyawa zuwa faɗuwa ta gargajiya. Kishiyarsa kamar a madubi, W, ita ce ƙasa biyu (double bottom), kuma tana nuna ɗaya hanyar. Galibi yana nuna kololuwa, ba dole ba ne. Babu abin da ke dole a jadawali. Ⓜ️",
+      "quiz": {
+        "q": "Farashi ya bugi rufi ɗaya sau biyu, ya kasa duka sau biyun, sannan ya karye ƙasa da kwarin da ke tsakiya. Mece ce wannan siffar?",
+        "options": [
+          "Ƙasa biyu (double bottom), alamar hawa",
+          "Hanya mai hawa (rising channel)",
+          "Guduma (hammer)",
+          "Kololuwa biyu (double top), alamar juyawa zuwa faɗuwa"
+        ]
+      }
+    },
+    "61": {
+      "title": "Lokacin da Tsare-tsare Suka Kasa",
+      "desc": "Tsare-tsaren jadawali: yiwuwa, ba alkawari ba",
+      "content": "Wannan shi ne darasi mafi daraja a wannan sashe. Tsari irin na littafi ya samu, kowa ya gan shi, sannan kasuwa ta yi akasin haka. Kowane tsarin da ka koya yana kasawa wani lokaci, kuma wannan ba jadawali ne ke yi maka ƙarya ba, jadawali ne ke ba ka bayani: ɓangaren da ka goyi baya ya sha kaye yanzu. Ka yanke shawarar fitarka kafin ka shiga, kuma idan tsari ya kasa, ka fahimci alamar ka fita. Tsare-tsare yiwuwa ne, ba alkawari ba har abada. 🚪",
+      "quiz": {
+        "q": "Ƙasa biyu (double bottom) irin na littafi ya samu a ƙasan da aka inuwantar... sannan farashi ya rushe ya ratsa ta cikinsa kai tsaye. Mene ne darasin gaskiya?",
+        "options": [
+          "Tsare-tsare yiwuwa ne, ba alkawari ba, kuma tsarin da ya kasa alama ce gare ka ka fita",
+          "Ƙasa biyu na gaske ba sa kasawa, don haka wanda kake kallo lallai na bogi ne",
+          "Ƙara saye a farashi mafi ƙasa, saboda tsarin zai cika daga ƙarshe",
+          "Jadawalai suna daina aiki gaba ɗaya da zarar tsari ya kasa maka haka"
+        ]
+      }
+    },
+    "62": {
+      "title": "Kai da Kafaɗu (Head & Shoulders)",
+      "desc": "Tsare-tsaren jadawali: kololuwa uku",
+      "content": "Kololuwa uku: mafi tsayi a tsakiya (kai), mafi ƙasa a kowane gefe (kafaɗu), da layi a ƙarƙashin kwari biyun da ake kira layin wuya (neckline). Yana samuwa ne lokacin da masu saye suka yi turawa ta ƙarshe mafi tsayi sannan ba su iya ko da kai ta ba a gwaji na gaba. Siffar ita kaɗai gargaɗi ce kawai. Abin da 'yan kasuwa ke jira da gaske shi ne karyewa mai ƙarfi ƙasa da layin wuya, saboda a lokacin ne tsarin ya daina zama zane ya fara zama yanke shawara. 👤",
+      "quiz": {
+        "q": "Kololuwa uku: mafi tsayi a tsakiya, mafi ƙasa a kowane gefe, da ƙasa da ke haɗa kwari biyun. Mece ce wannan siffa ta gargajiya?",
+        "options": [
+          "Ƙasa uku (triple bottom), kwari uku daidai kafin turawa sama",
+          "Kai da kafaɗu (head and shoulders), yiwuwar ƙarshen hawan farashi",
+          "Alwatika mai hawa (ascending triangle)",
+          "Guduma uku a jere, kowacce tana ƙin farashi mafi ƙasa"
+        ]
+      }
+    },
+    "63": {
+      "title": "Matsewar Alwatika (Triangle)",
+      "desc": "Tsare-tsaren jadawali: maɓuɓɓugar da aka naɗe",
+      "content": "Idan juyawar farashi na ci gaba da raguwa, kwari mafi tsayi suna matsawa sama zuwa kololuwa mafi ƙasa, kasuwa tana naɗewa kamar maɓuɓɓuga (spring). Wannan shi ne alwatika (triangle): ɓangarorin biyu suna ƙarewa da wuri, ana tilasta yanke shawara. Matsewar sau da yawa tana ƙarewa da fashewa, kuma ga matsalar: ba a san hanyar fashewar tun da wuri ba. Ka jira karyewar maimakon ka yi hasashe. Kasuwa za ta gaya maka, kuma ba ta karɓar ko kwabo kan bayanin. 🌀",
+      "quiz": {
+        "q": "Juyawar farashi na ci gaba da raguwa, tana matse farashi cikin naɗi mai ƙara matsewa, har sai daga ƙarshe ya fashe ya fita. Mene ne naɗin?",
+        "options": [
+          "Hanya (channel), layuka biyu masu layi ɗaya da ba sa haɗuwa ko kaɗan",
+          "Kololuwa biyu (double top)",
+          "Alwatika (triangle), dakatawa da sau da yawa ke ƙarewa da fitowa (breakout)",
+          "Hujjar cewa farashi dole ya karye sama daga nan na gaba"
+        ]
+      }
+    },
+    "64": {
+      "title": "Yawan Ciniki: Na'urar Gano Ƙarya",
+      "desc": "Yawan ciniki (volume): wa ya zo da gaske",
+      "content": "Yawan ciniki (volume) shi ne adadin hannayen jarin da suka canza hannu, kuma shi ne na'urar gano ƙarya ta jadawalai. Fitowa (breakout) da ƙaramin yawan ciniki raɗa ce da ke yaudarar mutane: 'yan cinikai kaɗan sun tura farashi zuwa inda ba zai iya tsayawa ba. Fitowa da yawan ciniki mai nauyi taron jama'a ne ke jefa ƙuri'a da kuɗi da gaske. Motsin farashi iri ɗaya, ma'ana daban gaba ɗaya. Kafin ka yarda da kowane babban motsi, ka duba wa ya zo dominsa. 🔊",
+      "quiz": {
+        "q": "Ƙoƙarin fita biyu daga rufi ɗaya: na farko da ƙaramin yawan ciniki ya kasa, na biyu ya zo da yawan ciniki mai yawa kuma ya tsaya. Me yawan ciniki ke yi a nan?",
+        "options": [
+          "Babu komai ko kaɗan, yawan ciniki ba ya da muhimmanci ga motsin farashi",
+          "Yana tilasta farashi sama, tun da yawan ciniki mai yawa yana tura farashi sama",
+          "Yana hasashen ainihin kololuwar motsin kafin ya faru",
+          "Yana aiki a matsayin tabbatarwa, babban yawan ciniki yana nuna tabbaci na gaske a bayan motsin"
+        ]
+      }
+    },
+    "65": {
+      "title": "Mai Gane Yanayin Tafiya",
+      "desc": "Jadawalai goma, babu lakabi, babu tausayi",
+      "content": "Jadawalai goma. Babu lakabi, babu layukan taimako, babu alamu. Ka faɗi abin da kowanne ke nunawa, daidai kamar ainihin ɗan kasuwa da ke kallon ainihin allo. Ka sami 8 cikin 10 kuma sashen naka ne. Kana da damar gwadawa 3 a rana, don haka ka rage gudu, ka karanta kyandiran, kuma ka tuna darasi mafi muhimmanci duka: wani lokaci amsar gaskiya ita ce babu wani tsari ko kaɗan. 🕯️",
+      "bossVictory": "An ci sashen yanayin tafiya. Yanzu kai ne kake karanta jadawalai, ba jadawalai ne ke karanta ka ba. 🕯️",
+      "bossQuestions": {
+        "0": {
+          "q": "Me wannan jadawali ke nunawa?",
+          "explanation": "Da gangan aka rikita shi. Cire hayaniyar kuma kowane kololuwa har yanzu yana wuce na baya, kuma kowane kwari har yanzu yana tsayawa sama. Haka yanayin tafiya na gaske suke kama, ba kamar matakalar littafi ba.",
+          "options": [
+            "Faɗuwar farashi (downtrend), kololuwa mafi ƙasa da kwari mafi ƙasa",
+            "Hawan farashi (uptrend), kololuwa mafi tsayi da kwari mafi tsayi",
+            "Kewayo a kwance (range)",
+            "Kololuwa biyu (double top)"
+          ]
+        },
+        "1": {
+          "q": "Me ya faru a biyun kyandiran masu haske?",
+          "explanation": "Jikin ja ya haɗiye dukkan jikin kore daidai bayan dogon hawa. Wannan shi ne haɗiyewar masu sayarwa (bearish engulfing) yana yin abin da yake yi: bayyana inda masu saye suka fi miƙewa.",
+          "options": [
+            "Haɗiyewar masu saye (bullish engulfing)",
+            "Doji a kololuwa",
+            "Guduma (hammer)",
+            "Haɗiyewar masu sayarwa (bearish engulfing) a kololuwar hawa"
+          ]
+        },
+        "2": {
+          "q": "Me wannan jadawali ke nunawa?",
+          "explanation": "Kololuwar tsakiya ta tsaya a fili sama da biyun da ke kowane gefe, kuma kwarurrukan sun jeru sun zama layin wuya. Na gaske ba sa taɓa zama daidai a ɓangarorin biyu, kuma haka suke kama da gaske a kasuwa.",
+          "options": [
+            "Kai da kafaɗu (head and shoulders)",
+            "Kololuwa uku (triple top) masu tsayi daidai",
+            "Alwatika mai hawa (ascending triangle)",
+            "Hanya mai hawa (rising channel)"
+          ]
+        },
+        "3": {
+          "q": "Me wannan jadawali ke nunawa?",
+          "explanation": "Gwaji biyu zuwa ƙasa ɗaya, na biyun ɗan bai yi zurfi ba, sannan turawa sama ta ratsa dawowar tsakiya. Siffar W, wadda kasuwa ta gaske ta zana maimakon littafi.",
+          "options": [
+            "Kai da kafaɗu (head and shoulders)",
+            "Alwatika mai sauka (descending triangle)",
+            "Ƙasa biyu (double bottom)",
+            "Tutar faɗuwa (bear flag)"
+          ]
+        },
+        "4": {
+          "q": "Mene ne kyandir mai haske?",
+          "explanation": "Doguwar lagwani a sama, ƙaramin jiki zaune a ƙasan kewayon, kai tsaye bayan hawa. Masu saye sun nemi sabon kololuwa kuma aka mare su suka koma ƙasa kafin rufewa.",
+          "options": [
+            "Guduma (hammer)",
+            "Marubozu kore",
+            "Doji",
+            "Tauraro mai wutsiya (shooting star) bayan hawa"
+          ]
+        },
+        "5": {
+          "q": "Me wannan jadawali ke nunawa?",
+          "explanation": "Ƙasa ɗaya da rufi ɗaya suna ci gaba da samun girmamawa, kuma duk abin da ke tsakaninsu hayaniya ce. Babu ɓangaren da ke nasara, don haka babu yanayin tafiya da za a hau.",
+          "options": [
+            "Kewayo (range), farashi a kulle tsakanin tallafi da katanga",
+            "Hawan farashi (uptrend), kololuwa mafi tsayi da kwari mafi tsayi",
+            "Ƙugiya mai sauka (falling wedge)",
+            "Fitowa (breakout) da ke gudana"
+          ]
+        },
+        "6": {
+          "q": "Farashi ya fito sama da tsohon rufi, sannan faɗuwar da aka nuna da kibiya ta dawo zuwa wannan mataki kuma ta tsaya. Mece ce faɗuwar?",
+          "explanation": "Faɗuwar ta dawo daidai zuwa matakin da a da yake rufi, ta sami masu saye a wurin, kuma yanayin tafiyar ya ci gaba. Wannan ja da baya ne (pullback). Da juyawa ce, da ta yanke matakin ta ci gaba da faɗuwa.",
+          "options": [
+            "Cikakkiyar juyawa zuwa faɗuwar farashi",
+            "Ja da baya (pullback), sake gwada matakin da aka karya",
+            "Kololuwa biyu (double top)",
+            "Tashin mataccen mage (dead cat bounce)"
+          ]
+        },
+        "7": {
+          "q": "Me wannan jadawali ke nunawa?",
+          "explanation": "Ƙasa mai faɗi, kololuwa mafi ƙasa suna danne ta, masu sayarwa suna zuwa da wuri a kowane tashin dawowa. Daga ƙarshe ƙasan ta ba da kai, wanda shi ne sakamakon da wannan siffar sau da yawa ke karkata zuwa gare shi. Sau da yawa, ba ko da yaushe ba.",
+          "options": [
+            "Alwatika mai hawa (ascending triangle)",
+            "Hanya mai hawa (rising channel)",
+            "Alwatika mai sauka (descending triangle) da ke jingine a kan tallafi",
+            "Ƙasa biyu (double bottom)"
+          ]
+        },
+        "8": {
+          "q": "Me wannan jadawali ke nunawa?",
+          "explanation": "Tambayar tarko, kuma mafi daraja a jarrabawar ƙarshe. Yawancin jadawalai, a yawancin lokaci, ba sa nuna komai da ya cancanci ciniki. Ganin tsare-tsaren da ba su nan shi ne yadda masu farawa ke yin asara. Cewa babu ciniki fasaha ce. 🎯",
+          "options": [
+            "Kai da kafaɗu (head and shoulders)",
+            "Kololuwa biyu (double top)",
+            "Hawan farashi (uptrend)",
+            "Babu tsari mai tsabta, babu abin da za a yi ciniki a nan"
+          ]
+        },
+        "9": {
+          "q": "Me wannan jadawali ke nunawa?",
+          "explanation": "Farashi ya leƙa sama da rufi da yawan ciniki mai rauni, masu saye suka bi shi, sannan ya rushe kai tsaye ya koma cikin kewayon. Fitowar da ta kasa shi ne ainihin dalilin da ya sa darasin yawan ciniki ya gaya maka ka duba yawan ciniki kafin ka yarda da ita.",
+          "options": [
+            "Tarkon masu saye (bull trap), fitowar da ta kasa wadda ta jawo masu saye ciki",
+            "Fitowa (breakout) mai nasara tare da sake gwaji mai tsabta",
+            "Ƙasa biyu (double bottom)",
+            "Juyawar guduma (hammer)"
+          ]
+        }
+      }
+    },
+    "66": {
+      "title": "Ba Ka Mallaki Komai a Nan",
+      "desc": "Derivative caca ce a kan lamba",
+      "content": "Duk abin da ka koya zuwa yanzu yana da wani abu a bayansa. Ka saya hannun jari ɗaya na {retail} kuma ka mallaki yanki na kamfanin: yanki na shagunan, yanki na ribar, ƙuri'a a taron masu hannun jari, da rabon riba (dividend) idan sun biya.\n\nDerivative ba haka yake ba.\n\nCFD (contract for difference, wato kwangilar bambanci) yarjejeniya ce tsakaninka da mai bayarwa don musanya bambancin farashi tsakanin lokacin da ka buɗe da lokacin da ka rufe. Wannan shi ne dukkan kayan. Idan {retail} ya hau kuma kana caca kan hawa, za su biya ka bambancin. Idan ya sauka, kai za ka biya su. Babu wanda ya saya hannun jari. Babu wanda ya sayar da hannun jari. Babu hannun jari ko ɗaya a ko'ina cikin cinikin.\n\nFuture kwangila ce ta saya ko sayar da wani abu a farashin da aka ƙayyade a ranar da aka ƙayyade. Na gaske ana kammala su da ganguna na mai ko tan-tan na masara, amma kusan babu wanda ke riƙe su har zuwa lokacin, don haka a zahiri yawancin futures ma caca ce a kan lamba da wa'adi a haɗe da ita.\n\nMe ya sa wannan ya fi muhimmanci fiye da yadda yake ji:\n\n• Babu rabon riba. Babu Money Babies. Abin da a hankali ya gina yawancin ribar a darasi na 15 kawai ba ya nan.\n• Babu ƙuri'a, babu mallaka, babu abin riƙewa. Babu zaɓin \"kawai ka riƙe shi shekara goma\", saboda babu abin da za a riƙe.\n• Babu ribar da ke haihuwar riba (compounding). Sauran wannan app ɗin yana ɓata darussa 65 yana koya maka cewa lokaci yana tare da kai. A wannan ɗakin, lokaci yana cin kuɗinka. Za ka ga daidai nawa a darasi na 72.\n\nDuk abin da ka riga ka sani har yanzu yana da muhimmanci. Kawai ya daina zama abin da kake yi. 📄",
+      "quiz": {
+        "q": "Ka buɗe CFD a kan {retail} kuma farashi ya hau. Me kake mallaka a zahiri?",
+        "explanation": "CFD yarjejeniya ce tsakaninka da mai bayarwa don musanya bambanci tsakanin farashin lokacin da ka buɗe da farashin lokacin da ka rufe. Babu wanda ya saya hannun jari, babu wanda ya sayar, kuma babu ko ɗaya a ko'ina cikin yarjejeniyar. Shi ya sa babu rabon riba, babu ƙuri'a kuma babu abin da za a riƙe tsawon shekara goma.",
+        "options": [
+          "Hannayen jarin da mai bayarwa ke riƙewa da sunansa",
+          "Kwangilar musanya bambancin farashi a ƙarshe",
+          "Wani ɓangare na kamfanin, da rabon ribar da ke biyo baya",
+          "Takardar da ke juyawa zuwa hannayen jari na gaske idan ka rufe"
+        ]
+      }
+    },
+    "67": {
+      "title": "Aron Kuɗi Daga Aboki",
+      "desc": "Ainihin abin da leverage yake, da ɓangaren da babu wanda ke wallafawa",
+      "content": "Leverage yana jin kamar kalmar ƙwararru. Ba haka ba ne. Aro ne kawai.\n\nA ce kana son hannayen jari na {c}1,000 amma kana da {c}200 kawai. Aboki ya ce zai saka sauran {c}800. Kana iko da hannayen jari na {c}1,000 da {c}200 na kuɗinka. Wannan shi ne leverage. Wannan ne dukkan ra'ayin.\n\nYanzu ga abubuwa uku da wannan abokin yake yi. Kana buƙatar dukkan ukun, in ba haka ba an sayar maka da tatsuniya.\n\n1️⃣ RIBAR TAKA CE DA GASKE. Hannayen jarin sun hau 10%. {c}1,000 naka yanzu ya zama {c}1,100. Wannan riba ce ta {c}100 kuma ka riƙe kowane kwabo nata, saboda abokinka yana bin ka {c}800 ne kawai, ba ƙari ko kaɗan ba (kuɗi: {cName}). A kan {c}200 naka, {c}100 riba ce ta 50%. Motsi na 10% ya ba ka 50%. Wannan shi ne ɓangaren da kowa ke wallafawa.\n\n2️⃣ BASHIN BA YA RAGUWA IDAN KA YI KUSKURE. Wannan shi ne ɓangaren da babu wanda ke wallafawa, kuma shi ne dukkan darasin. Maimakon haka hannayen jarin sun faɗi 10%. {c}1,000 naka yanzu ya zama {c}900. Har yanzu kana bin abokinka cikakken {c}800. Ba {c}720 ba. Cikakken {c}800. Don haka dukkan faɗuwar {c}100 tana fitowa daga KASONKA, kuma {c}200 naka yanzu ya zama {c}100. Motsi na 10% ya ci ka 50%.\n\nKa sake karanta waɗannan biyun. Aboki ɗaya, 10% ɗaya. Kuɗinka yana motsi da gudun ninki biyar a ɓangarorin biyu, saboda bashin ba ya taɓa ɗaukar kaso na raɗaɗin.\n\n3️⃣ ABOKIN YANA KARƁAR HAYA, KOWACE RANA, A KAN DUKKAN ABIN. Ba a kan {c}800 nasa ba. A kan cikakken {c}1,000 da kake iko da shi. Kowane dare da ka riƙe shi, ko farashi ya hau, ya sauka, ko bai motsa ko kaɗan ba.\n\nKuma akwai abu na huɗu da ke ɓoye a cikin na ukun. Idan {c}200 naka ya yi ƙaranci, abokinka ba zai kira ka don ku tattauna ba. Zai sayar. Nan take, kai tsaye, a duk farashin da ake samu, saboda {c}800 nasa ne ke cikin haɗari kuma ba zai jira ra'ayinka ba. Wannan yana da suna, kuma za ka haɗu da shi nan da darussa uku: liquidation (rufewar tilas).\n\nDon haka: riba mafi girma, asara mafi girma, haya kowane dare, da yatsan wani a kan maɓallin sayarwa. Leverage ba kuɗin banza ba ne da ɗan haɗari a haɗe. Bashi ne da dukkan waɗannan huɗun a haɗe, kuma tallace-tallace suna nuna maka na farkon ne kawai. 🧠",
+      "quiz": {
+        "q": "Aboki ya saka 800 NT, kai ka saka 200 NT, kuma tare kuna iko da hannayen jari na 1,000 NT. Hannayen jarin sun faɗi 10%. Ja zuwa darajar 200 NT naka yanzu.",
+        "explanation": "Bashin ba ya raguwa idan ka yi kuskure. Hannayen jarin yanzu sun kai 900 NT kuma abokinka har yanzu yana bin cikakken 800 NT, don haka 100 NT shi ne abin da ya rage maka. Faɗuwar 10% a hannayen jarin ta ɗauki rabin kuɗinka, saboda bashin ba ya ɗaukar ko kaɗan na raɗaɗin. Haka yake aiki a hawa ma, kuma wannan shi ne rabin da tallace-tallace ke nuna maka."
+      }
+    },
+    "68": {
+      "title": "Margin Ajiya Ce, Ba Saye Ba",
+      "desc": "Kuɗin da ka ajiye ba a kashe su ba, suna cikin haɗari",
+      "content": "Idan ka saya hannun jari a {c}100, wannan {c}100 ya fita daga tsabar kuɗinka kuma hannun jari yana zaune a asusunka. Musanya mai sauƙi.\n\nMargin ba ya aiki haka. Idan ka buɗe matsayi na leverage, kana ajiye ajiya, kuma wannan ajiyar ba biyan wani abu ba ce. Ajiyar tabbaci ce a kan asararka. Tana zaune a can, a kulle, kuma matsayin yana cinye ta yayin da farashi ke motsi da kai.\n\nA ce adadin ajiya 25% ne. Ka ajiye 250 NT kuma kana iko da girman ciniki (exposure) na 1,000 NT. Ka kalli asusunka:\n\n• Farashi bai motsa ba: 250 naka har yanzu 250 ne. Sai dai kuɗin aro (financing) ya fara, don haka a hankali ya ragu.\n• Farashi ya sauka 5%: matsayin ya yi asarar 50 NT. Ajiyarka a zahiri ta zama 200. Tsabar kuɗinka da ke kyauta ba ta motsa ba. Asusunka ya ragu.\n• Farashi ya sauka 20%: matsayin ya yi asarar 200 NT. Ajiyarka ta ragu zuwa 50. Ba ka yi komai ba. Ba ka sayar da komai ba. Kallo kawai ka yi.\n\nKalmomi uku da ke kan kowane allo a wannan ɗakin:\n\n🔒 MARGIN DA AKA YI AMFANI DA SHI (used margin): kowace ajiya da ka sanya a yanzu.\n💰 DARAJAR ASUSU (equity): tsabar kuɗinka da ke kyauta, tare da margin da ka sanya, ƙari ko ragi da riba ko asarar kowane buɗaɗɗen matsayi, a cire kuɗin aron da aka caje zuwa yanzu. Ainihin darajar asusunka idan an rufe komai a yanzu.\n📊 MATAKIN MARGIN (margin level): equity a raba da margin da aka yi amfani da shi. Sama da 100% kana da kariya. Ƙasa da 100% kasuwa ta gama da kariyar ta fara cin ajiyar.\n\nKuma doka ɗaya da ke ba kowa mamaki: ana auna margin a kan dukkan asusunka, ba a kan kowane matsayi ba. Matsayi mai asara yana cinye tabbacin da ke riƙe da mai riba. Shi ya sa \"ɗayan cinikina lafiya yake\" ba hujja ba ce. 🔒",
+      "quiz": {
+        "q": "Adadin ajiya 25% ne, don haka 250 NT na kuɗinka yana iko da girman ciniki na 1,000 NT. Farashi ya faɗi 8% yayin da ba ka yi komai ko kaɗan ba. Ja zuwa nawa wannan faɗuwar ta ci ka.",
+        "explanation": "Ajiya ba biyan wani abu ba ce, tabbaci ce, kuma ana lissafin asarar a kan dukkan 1,000 NT da kake iko da su. 8% na 1,000 NT shi ne 80 NT. Ba ka sayar da komai ba kuma tsabar kuɗinka da ke kyauta ba ta motsa ba, amma an cinye 80 NT na ajiyarka ta 250 NT kuma asusunka ya ragu da 80 NT. Idan ka lissafa 8% a kan ajiyar maimakon haka za ka sami 20 NT, kuma wannan kuskuren ne ke sa leverage ya yi kamar mai sauƙi."
+      }
+    },
+    "69": {
+      "title": "Kiran Margin (Margin Call)",
+      "desc": "Buƙata ce, ba gargaɗi ba",
+      "content": "Kiran margin (margin call) shi ne lokacin da matakin margin naka ya faɗi ƙasa da 100%. A sauƙaƙe: kariyar ribarka ta ƙare kuma kasuwa ta fara cin ajiyar da kanta.\n\nGa yadda yake ji a zahiri, saboda na littafi yana barin muhimmin ɓangaren.\n\nBa ya taɓa zuwa a rana mai kyau. Yana zuwa ne lokacin da matsayin ya riga ya yi muni, lokacin da ka riga ka gaya wa kanka sau biyu cewa zai dawo, kuma lokacin da ka fi kasa yanke shawara cikin natsuwa. Ba sanarwa ce ta ladabi ba. Buƙata ce: ka ƙara kuɗi, ko ka rufe matsayi, ko mai bayarwa ya yi maka.\n\nKana da matakai uku kuma biyu ne kawai naka.\n\n1️⃣ KA RUFE wani abu. Wannan yana sakin margin nan take kuma kusan ko da yaushe shi ne amsar da ta dace. Haka kuma yana nufin amincewa cewa ka yi kuskure, wanda shi ne ainihin dalilin da ya sa mutane ba sa yin sa.\n2️⃣ KA ƘARA kuɗi. Wannan ba ya gyara komai. Yana saya maka damar ci gaba da kuskure na tsawon lokaci, a kan matsayin da ka riga ka zaɓa ba daidai ba, da kuɗin da ba ka shirya saka su cikin haɗari ba. Ƙara kuɗi a lokacin kiran margin shi ne yadda mummunan ciniki ke zama mummunan wata.\n3️⃣ KADA KA YI KOMAI. Sai mataki na uku ya faru ba tare da kai ba, kuma yana da suna.\n\nMasu kula da doka sun ɗauki wannan da muhimmanci har suka rubuta lamba a cikin doka. Kamfanoni a Turai, Birtaniya da Ostiraliya dole su rufe matsayin abokin ciniki na yau da kullum kai tsaye idan margin ɗinsa ya faɗi zuwa 50% na abin da ake buƙata. Ba \"ya kamata\" ba. Dole. Sun rubuta wannan doka ne saboda lokacin da aka bar mutane su yanke wa kansu shawara, sun zaɓi zaɓi na 3 kuma sun yi asarar fiye da abin da suke da shi. ⚠️",
+      "quiz": {
+        "q": "Matakin margin naka ya faɗi zuwa 80% kuma kana cikin kiran margin. Wace amsa ce a zahiri ke rage haɗarin liquidation maimakon jinkirta shi kawai?",
+        "explanation": "Rufewa tana dawo da ajiyar nan take, don haka matakin margin yana tsalle sama nan da nan. Ƙara kuɗi yana saya maka damar ci gaba da kuskure na tsawon lokaci ne kawai a kan cinikin da ka riga ka zaɓa ba daidai ba. Jira shi ne yadda liquidation ke faruwa. Kuma matsayi na biyu a ɗaya hanyar yana buƙatar ajiyarsa, don haka yana amfani da ƙarin margin, ba ƙasa ba.",
+        "options": [
+          "Saka ƙarin kuɗi cikin asusun",
+          "Jiran matakin margin ya dawo sama",
+          "Rufe ɗaya daga cikin matsayin da ka buɗe",
+          "Buɗe matsayi na biyu a ɗaya hanyar"
+        ]
+      }
+    },
+    "70": {
+      "title": "Liquidation, da Farashin da Ya Kamata Ka Sani da Farko",
+      "desc": "Ainihin farashin da asusunka zai kai sifili",
+      "content": "Liquidation shi ne mai bayarwa ya rufe maka matsayinka saboda ajiyarka ta kusa ƙarewa. Kai tsaye ne. Nan take ne. Babu wanda ke tambayar ra'ayinka, babu wanda ke duba ko kana gab da yin daidai, kuma babu ɗaukaka ƙara.\n\nLamba mafi amfani a dukkan wannan sashe ita ce FARASHIN LIQUIDATION naka: ainihin farashi, a ainihin kuɗi ({cPlural}), da hakan zai faru.\n\nBa kaso ba. Farashi. Saboda \"za ka iya rasa ajiyarka\" jimla ce da za ka iya gyaɗa kai ka manta, yayin da \"{tech} a {c}87.40 kuma asusunka babu komai\" gaskiya ce da za ka iya duba ta a jadawali kafin ka danna komai.\n\nKowane allo a wannan ɗakin yana nuna shi kafin ka tabbatar, an zana shi a ma'aunin farashi ɗaya da jadawalin don ka ga nisansa na gaske. Abubuwa biyu da za ka lura nan take, kuma duka biyun su ne darasin:\n\n📏 Babbar ajiya tana tura farashin liquidation nesa. Ƙarin kuɗinka a ciki yana nufin farashi yana da nisa da zai faɗi kafin kuɗinka ya ƙare.\n⚡ Ƙaramar ajiya tana jan shi kusa da farashin yau. A ajiya ta 10%, liquidation yana kusan nisan motsi na 10%, kuma motsi na 10% mako ne na yau da kullum.\n\nSannan ga matsalar gaskiya. Farashin liquidation shi ne inda na'urar ke niyyar rufe ka, ba inda aka tabbatar maka za ka fita ba. Idan mummunan labari ya zo cikin dare kuma kasuwa ta sake buɗewa nesa ƙasa da wannan matakin, za a rufe ka a duk farashin da kasuwa za ta biya a zahiri. Wannan shi ne gibi (gap), kuma darasi na 78 game da shi ne.\n\nKa san farashin liquidation naka kafin ka buɗe. Idan ba za ka iya faɗinsa da baki ba, ba ka fahimci cinikin da kake shirin yi ba. 💀",
+      "quiz": {
+        "q": "Ka ajiye 200 NT a matsayin ajiya don iko da 1,000 NT na kadarar da farashinta 100 NT ne. Ja farashin ƙasa zuwa inda ajiyarka ta ƙare.",
+        "explanation": "Kana iko da raka'a 10, don haka kowane 1 NT da farashi ya faɗi yana cin ka 10 NT. Ajiyarka ta 200 NT ta ƙare a 80 NT, wanda faɗuwa ce ta 20% kawai."
+      }
+    },
+    "71": {
+      "title": "Hanyar Dawowa Ta Fi Tsauri",
+      "desc": "Me ya sa asara ta fi wuyar gyarawa fiye da yadda take kama",
+      "content": "Asara da riba suna jin kamar kishiyoyi. Ba haka ba ne, kuma lissafin bai ma kusa ba.\n\nKa yi asarar 10%? Kana buƙatar +11% don dawowa. Abin haushi, to.\nKa yi asarar 50%? Kana buƙatar +100%. Dole ka NINKA kawai don ka dawo daidai.\nKa yi asarar 75%? Kana buƙatar +300%.\nKa yi asarar 90%? Kana buƙatar +900%.\n\nDalilin mai sauƙi ne da zarar ka gan shi: ana lissafin ribar a kan ƙaramin tarin da ya rage maka. 100 ya faɗi zuwa 50, kuma don hawa daga 50 zuwa 100 wannan ƙaramin tarin dole ya ninka.\n\nYanzu ƙara leverage, ka lura da ainihin abin da yake yi. Ba wai yana sa ribarka ta yi sauri ba kawai. Yana sauke ka ƙasa a wannan teburin cikin rana ɗaya. Faɗuwar 12% a hannun jari, wanda mummunan mako ne amma na yau da kullum, bugun 48% ne ga asusunka a ajiya ta 25%. Yanzu kana buƙatar +92% don komawa inda ka fara, daga makon da da ƙyar ya shiga labarai.\n\nShi ya sa ƙwararru ke magana kan kare jari kafin su yi magana kan komai, kuma shi ya sa \"zan dawo da shi\" ita ce jimla mafi tsada a ciniki. Dawo da shi ya fi wuya a lissafi fiye da rasa shi, kowane lokaci. ⛰️",
+      "quiz": {
+        "q": "Asusunka ya ragu da 75%. Ja zuwa ribar da kake buƙata daga nan kawai don komawa inda ka fara.",
+        "explanation": "100 NT ya faɗi zuwa 25 NT. Don sake kaiwa 100 wannan 25 dole ya ninka sau huɗu, wanda riba ce ta 300%. Ana auna hawan a kan ƙaramin tarin da ya rage maka, shi ya sa ya fi faɗuwar tsauri sosai."
+      }
+    },
+    "72": {
+      "title": "Hayar Kuɗin Aro",
+      "desc": "Ka yi daidai a kan hanya, amma har yanzu cinikin yana asara",
+      "content": "Ka ari girman cinikin. Don haka kana biyan sa. Kowane dare.\n\nKuɗin aro (financing; wasu wurare suna kiransa swap, ko kuɗin dare) ana caje shi kowace rana, kuma ga ɓangaren da ke kama kowa: ana caje shi a kan CIKAKKEN matsayin, ba a kan ɓangaren da ka ara ba. Ka ajiye 500 NT don iko da 2,000 NT kuma za ka biya haya a kan 2,000.\n\nYadda ake lissafa shi: ƙimar ruwa ta ma'auni, tare da ƙarin riba na mai bayarwa, a raba da 365, sau cikakken matsayinka. Kana ganin rabi biyun a allo a wannan app ɗin, saboda kuɗin da ba za ka iya rarraba shi ba kuɗi ne da ba za ka iya auna shi ba. A kusan 7.3% a shekara, hakan ya kai kusan 0.02% na matsayinka a kowane dare.\n\nYana jin kamar ba komai ba. Yanzu ka kalli yadda yake cinye ciniki mai riba. 🧾\n\nCINIKIN DA KA YI DAIDAI AMMA HAR YANZU KA YI ASARA\n\nKa buɗe matsayi na 2,000 NT a kan {retail} da ajiya ta 500 NT. Kana tsammanin hawa, kuma ka yi daidai: a cikin 'yan watanni masu zuwa {retail} ya hau a hankali da 2%.\n\n• Ribarka: 2% na 2,000 = 40 NT. A kan ajiya ta 500 NT wannan +8% ne. Madalla.\n• Hayarka: 0.02% na 2,000 = 0.40 NT, kowane dare.\n\nDare na 50: ka biya 20 NT. Kana da ribar 20 NT gaba ɗaya. Har yanzu kana nasara.\nDare na 100: ka biya 40 NT. Ribarka ta 40 NT yanzu darajarta daidai sifili ce. Ka faɗi daidai kuma ba ka sami komai ba.\nDare na 180: ka biya 72 NT. Ribarka har yanzu 40 NT ce. Kana ASARAR 32 NT, wato rage 6.4% na ajiyarka, a kan cinikin da ka karanta kasuwa daidai tsawon watanni shida.\n\nKa sake karanta wannan. Farashi ya yi abin da ka ce zai yi. Duk da haka ka yi asara.\n\nGa jimlar da za ka fitar daga wannan darasi: a kan matsayi na leverage, yin daidai yana da ranar ƙarewa. A wannan misalin dare 100 ne, kuma za ka iya lissafa naka kafin ka buɗe. Ka raba ribar da kake fata da hayar kowane dare. Wannan shi ne adadin darare da ra'ayinka ya cancanta.\n\nAkasin haka ma ya cancanci a lura. Sauran wannan app ɗin yana koyar da compounding, inda lokaci a hankali ke samar maka da kuɗi yayin da kake barci. Wannan injin ɗaya ne, yana gudu a baya, an nuna shi gare ka. ⏳",
+      "quiz": {
+        "q": "Kana riƙe da matsayi na leverage na 2,000 NT wanda kuɗin aronsa 0.40 NT ne a kowane dare. Farashi ya hau har ya ba ka ribar 40 NT, sannan ya daina motsi. Bayan darare nawa za a cinye wannan ribar gaba ɗaya?",
+        "options": [
+          "Ba za a taɓa cinye ta ba, saboda ana caje kuɗin aro a kan ɓangaren da aka ara ne kawai",
+          "Kusan darare 100, saboda ribar 40 NT a raba da 0.40 NT a kowane dare shi ne 100",
+          "Kusan darare 20, saboda ana caje kuɗin aro a kan ajiyarka ta 500 NT",
+          "Ana caje kuɗin aro ne kawai idan aka rufe matsayi da asara"
+        ]
+      }
+    },
+    "73": {
+      "title": "Futures: Agogo da Canjawa (Roll)",
+      "desc": "Kuɗi ɗaya, an kawo shi ta wata hanya daban",
+      "content": "Futures da CFDs 'yan uwa ne. Duka biyun na leverage ne, duka biyun suna amfani da margin, duka biyun za su iya yi maka liquidation. Abubuwa biyu ne ke bambanta futures, kuma na biyun shi ne mai ban sha'awa.\n\n⏰ 1. AKWAI RANA A KANSA. Kowace kwangilar future tana ƙarewa. Man Maris, masarar Yuni, ma'aunin Satumba. Idan ranar ta zo kwangilar tana kammaluwa kuma ta daina wanzuwa. \"Ka riƙe ka jira ya dawo\" kawai ba ya cikin zaɓuɓɓuka, saboda kwangilar ba za ta kasance a wurin ba. CFD ba ya taɓa ƙarewa, wanda yake jin kamar ya fi kyau har sai ka tuna yana karɓar haya har abada.\n\n🔄 2. KUƊIN YANA CIKIN FARASHIN, BA A CAJE SHI KOWANE DARE BA. Wannan shi ne ɓangaren da mutane ke rasawa. Future galibi ba ya caje ka kuɗin aro na kowane dare. Maimakon haka, kuɗin riƙe abin har zuwa wannan ranar an riga an saka shi cikin farashin kwangilar. Kwangilolin ranaku masu nisa sau da yawa sun fi tsada fiye da na ranaku masu kusa, kuma wannan gibin shi ne kuɗin riƙewa iri ɗaya, zaune a cikin lambar.\n\nTo me ke faruwa idan ɗan kasuwa yana son ci gaba da riƙe matsayin bayan ƙarewa? Suna CANJAWA (roll): rufe kwangilar da ke ƙarewa, buɗe ta gaba. Kuma idan ta gaba ta fi tsada, suna biyan wannan bambancin. Kowane canjawa. Wannan shi ne hayar dare ta CFD, ana karɓar ta a kashi-kashi manya, ba akai-akai ba.\n\nTaƙaitawar gaskiya:\n\n• CFD: babu wa'adi, haya kowane dare, an jera ta a bayanin asusunka.\n• Future: wa'adi mai tsauri, kuɗin a ɓoye cikin farashin kuma ana biya a kowane canjawa, mai sauƙin rasawa.\n\nBabu ɗaya da ke kyauta. Ɗaya daga cikinsu kawai yana gabatar da lissafin cikin ladabi, kuma kuɗin da ba za ka iya gani ba shi ne mafi yiwuwar ba ka mamaki. ⏳",
+      "quiz": {
+        "q": "Ɗan kasuwa yana son riƙe matsayin future bayan ranar ƙarewarsa, kuma ana cinikin kwangila ta gaba da tsada fiye da wadda ke ƙarewa. Me ke faruwa idan sun canja (roll)?",
+        "explanation": "Canjawa yana nufin rufe kwangilar da ke gab da ƙarewa da buɗe ta gaba. Idan ta gaba ta fi tsada, kana ba da wannan bambancin, kuma kana sake yi a kowane canjawa. Wannan kuɗin riƙewa ɗaya ne da CFD ke caje ka kowane dare, ana karɓar sa a dunƙule manya kuma a ɓoye cikin farashi maimakon a buga shi a bayanin asusunka.",
+        "options": [
+          "Suna biyan gibin tsakanin kwangilar da ke ƙarewa da ta gaba",
+          "Ana biyan su gibin tsakanin farashin kwangilolin biyu",
+          "Babu kuɗin da ke canza hannu, tun da canjawa ciniki ɗaya ne",
+          "Matsayin ya zama CFD kuma ya ci gaba ba tare da ranar ƙarewa ba"
+        ]
+      }
+    },
+    "74": {
+      "title": "Cinikin Short: Asarar da Ba Ta da Ƙasa",
+      "desc": "Me ya sa cacar faɗuwa ba ta da iyaka ta halitta",
+      "content": "Duk abin da ke cikin wannan app zuwa yanzu ya kasance long: kana saye, kana son farashi ya hau. Derivatives suna ba ka damar yin short, wanda ke nufin caca cewa farashi zai faɗi. Ka buɗe short, farashi ya sauka, ka sami riba.\n\nShort yana da amfani da gaske kuma ba mugunta ba ne. Ta haka manomi ke kulle farashi kafin girbi kuma ta haka asusun zuba jari ke kare jarinsa. Fahimtarsa tana sa ka ƙware a karanta kasuwanni, saboda a karon farko za ka iya ganin ɓangarorin biyu na kowane ciniki.\n\nAmma akwai lissafi ɗaya a cikin short da ba shi da kwatankwacinsa a ko'ina, kuma kana buƙatar ya zauna a kanka daram.\n\n📉 IDAN KA SAYA, mafi munin abin da zai faru shi ne farashi ya kai sifili. Ka rasa 100% na abin da ka saka. Mummuna ne, amma ƙasa ce. Akwai ƙarshe.\n📈 IDAN KA YI SHORT, farashi yana tafiya da kai yana nufin farashi yana HAWA. Kuma babu wata doka a ko'ina da ta faɗi yadda farashi zai iya hawa. Hannun jarin da ya ninka sau uku yana cin ka 200% na matsayin. Hannun jarin da ya hau ninki goma yana cin ka 900%.\n\nAsarar long tana da ƙasa. Asarar short ba ta da ita. Wannan rashin daidaito shi ne dukkan gargaɗin.\n\nKasuwanni na gaske suna yin haka. Lokaci-lokaci hannun jarin da aka yi wa short da yawa yakan yi tashin roka, saboda duk wanda ke short ana tilasta masa saye don rufewa, wanda ke tura farashi sama, wanda ke tilasta ƙarin su saye. Ana kiransa short squeeze kuma ya kawo ƙarshen wasu asusun zuba jari.\n\nAbubuwa biyu ne ke raya ka. Na farko, short shi ne daidai inda dakatar-da-asara ya daina zama na zaɓi. Na biyu, kariyar ma'auni mara kyau (negative balance protection): a asusun da aka tsara yadda ya kamata, da kuma a wannan app, asusunka ba zai iya faɗuwa ƙasa da sifili ba. Za ka iya rasa duk abin da ka saka. Ba za ka ƙare da bin bashi ba. Wannan kariya tana nan ne saboda, kafin ta, mutane sun ƙare haka. 🕳️",
+      "quiz": {
+        "q": "Me ya sa mafi munin abin da zai faru a matsayin short ya bambanta a irinsa da mafi munin abin da zai faru a matsayin long?",
+        "explanation": "Saye yana da ƙasa. Mafi munin abin da farashi zai iya yi shi ne ya kai sifili, don haka ka rasa abin da ka saka ba fiye ba. Short akasin haka ne, saboda asara tana nufin farashi yana hawa, kuma babu abin da ya faɗi yadda farashi zai iya hawa. Hannun jarin da ya ninka sau uku yana cin mai short ninki biyu na matsayin. Shi ya sa dakatarwa ta daina zama na zaɓi a short, kuma shi ya sa wannan app ba zai iya kai ka ƙasa da sifili ba.",
+        "options": [
+          "Ba ya bambanta, tun da duka biyun suna da iyaka a abin da ka saka",
+          "Dakatar-da-asara yana sanya ƙasa ɗaya a ƙarƙashin short kamar long",
+          "Faɗuwa ta fi hawa jinkiri, don haka short yana asara a hankali",
+          "Farashi zai iya faɗuwa zuwa sifili kawai, amma zai iya hawa ba iyaka"
+        ]
+      }
+    },
+    "75": {
+      "title": "Tashi da Faɗuwa Sau Leverage",
+      "desc": "Me ya sa crypto ke buƙatar ajiya mafi girma a nan",
+      "content": "Ninki ɗaya a kan kadarori biyu daban-daban ba caca ɗaya ba ce. Wannan shi ne dukkan ra'ayin wannan darasi, kuma shi ya sa ajiyar da dole ka saka ke canzawa bisa abin da kake ciniki.\n\nKa yi tunanin yadda rana ta yau da kullum take:\n• Babban ma'auni (index) yana motsi ƙasa da 1% a yawancin ranaku.\n• Hannun jari ɗaya zai iya motsi 2% ko 3%.\n• Crypto akai-akai yana motsi 5% ko 10%, kuma rana ta 20% ba rikici ba ce, Talata ce kawai. 🎢\n\nYanzu saka ƙaramar ajiya a bayan kowannensu. A ajiya ta 10%, motsi na 10% yana share ka. Ga ma'auni, wannan abu ne da ke faruwa sau ɗaya cikin shekaru. Ga crypto kusan kowane wata ne. Ajiya ɗaya. Damar tsira daban gaba ɗaya.\n\nMasu kula da doka sun gano wannan kuma suka rubuta shi cikin dokoki. Lokacin da ESMA ta sanya iyaka ga leverage na CFD a duk Turai a Maris 2018, ba ta zaɓi lamba ɗaya ba. Ta jera su a matakai: 30:1 a kan manyan nau'ikan kuɗaɗe, 20:1 a kan zinariya da manyan ma'auni, 10:1 a kan sauran kayayyaki, 5:1 a kan hannayen jari ɗaiɗai, kuma a can ƙasa, 2:1 a kan crypto. Biyu zuwa ɗaya yana nufin ajiya ta 50%. Ga crypto sun buƙaci RABIN matsayin a kuɗi na gaske, ƙima mafi tsauri a dukkan jerin.\n\nWannan app yana yin abu ɗaya, saboda dalili ɗaya, kuma yana faɗin haka a allo maimakon ɓoye shi:\n\n💱 Forex: ajiya mafi ƙanƙanta, saboda manyan nau'ikan kuɗaɗe sun fi ƙarancin motsi.\n🥇 Zinariya da kayayyaki: mafi girma.\n📊 Hannayen jari, ma'auni da ETFs: mafi girma kuma.\n🪙 Crypto: ajiya mafi girma duka, saboda crypto ya fi motsi da ƙarfi.\n\nBa a hana crypto a nan ba, kuma hakan da gangan ne. Za ka iya cinikinsa. Kawai ba za ka iya cinikinsa da siririyar ajiya ba, saboda a siririyar ajiya rana ta yau da kullum ta crypto za ta kawo ƙarshen asusunka kafin ka gama karantawa game da shi. Babbar ajiyar ba app ne ke nuna ƙyama ga crypto ba. App ne ke tabbatar da cewa rana ta yau da kullum ba za ta kashe ka ba.\n\nYa cancanci ka sani: mai kula da doka na Birtaniya ya wuce mataki. A 2021 ya hana derivatives na crypto ga abokan ciniki na yau da kullum gaba ɗaya, yana ƙiyasta cewa masu amfani za su ceci kusan £53m. Za ka iya haɗuwa da leverage na crypto a nan, da kuɗin wasa da ajiya mai kauri, ko ka haɗu da shi a shekara goma sha takwas da kuɗi na gaske babu gargaɗi ko kaɗan. Wannan tsarin ya fi kyau. 🌡️",
+      "quiz": {
+        "q": "Crypto yana buƙatar ajiya mafi girma fiye da kowace kadara a wannan ɗakin. Mene ne ainihin dalilin?",
+        "explanation": "Babban ma'auni yana motsi ƙasa da 1% a yawancin ranaku. Crypto akai-akai yana motsi 5% ko 10%, kuma rana ta 20% ba rikici ba ce, Talata ce kawai. A siririyar ajiya, motsi na 10% yana share ka, wanda abu ne na sau ɗaya cikin shekaru ga ma'auni kuma kusan kowane wata ga crypto. Mai kula da doka na Turai ya buƙaci rabin matsayin a kuɗi na gaske ga crypto, ƙima mafi tsauri a dukkan jerinsa, saboda daidai wannan dalili.",
+        "options": [
+          "An hana 'yan ƙasa da shekara 18 crypto, don haka ajiyar hukunci ce",
+          "Ba a caje kuɗin aro a kan crypto, don haka ajiyar tana maye gurbinsa",
+          "Ya fi motsi da ƙarfi, don haka rana ta yau da kullum za ta iya kwashe siririyar ajiya",
+          "App ne ke saita farashin crypto da kansa maimakon kasuwa"
+        ]
+      }
+    },
+    "76": {
+      "title": "Lambobin da Babu Wanda Ke Tallatawa",
+      "desc": "Abin da masu kula da doka suka gano lokacin da suka ƙirga",
+      "content": "Ba za ka taɓa ganin waɗannan lambobin a talla ba. Sun fito ne daga masu kula da harkokin kuɗi, waɗanda za su iya buƙatar ainihin bayanan asusu daga kamfanoni, sannan su wallafa abin da suka gano.\n\n🇪🇺 ESMA, mai kula da doka na Turai, Maris 2018. A ƙasashen EU, tsakanin 74% da 89% na asusun CFD na yau da kullum suna asara. Matsakaicin asara ga kowane abokin ciniki ya kasance daga €1,600 zuwa €29,000. ESMA ta taƙaita kayan bisa wannan.\n\n🇬🇧 FCA a Birtaniya, Disamba 2016. Bincikenta a kan samfurin asusun abokan ciniki da ke wakiltar kowa ya gano cewa 82% na abokan ciniki sun yi asara a kan waɗannan kayayyakin.\n\n🇦🇺 ASIC a Ostiraliya, an wallafa Janairu 2026, mafi kusa daga cikin ukun. A shekarar kuɗi ta 2024, 68% na masu zuba jari a CFD na yau da kullum sun yi asara, jimillar sama da A$458 million. Daga ciki, A$73 million kuɗaɗen sabis ne.\n\nKa tsaya kan wannan layin na ƙarshe na ɗan lokaci. Miliyan saba'in da uku daga ciki ba ma munanan cinikai ba ne. Kuɗin shiga wasa ne: bambancin farashi (spread) a hanyar shiga, da kuɗin aron da ka haɗu da shi a darasi na 72.\n\nMasu kula da doka uku daban-daban, ƙasashe uku daban-daban, bayanai da suka shafi shekaru goma uku daban-daban, kuma amsar tana ci gaba da sauka a wani wuri tsakanin kashi biyu cikin uku da kashi tara cikin goma.\n\nYanzu ga ɓangaren da ya fi muhimmanci, saboda shi ne ke hana wannan zama ƙididdigar tsoratarwa. Waɗannan mutanen ba wawaye ba ne. Ba malalata ba ne. Galibinsu manya ne masu aiki, kuma da yawa daga cikinsu suna karanta jadawali fiye da yadda kake yi a yanzu. Sun yi asara ne saboda yadda aka gina kayan: kana farawa a baya saboda spread, kana biyan haya yayin da kake jira, kuma leverage yana nufin motsi na yau da kullum zai iya kawo ƙarshenka kafin ra'ayinka ya sami lokacin ya zama daidai.\n\nWannan tsari ne, ba aibin hali ba. Kuma tsare-tsare za a iya cin su ne kawai ta hannun mutanen da suka san suna nan. 📊",
+      "quiz": {
+        "q": "Masu kula da doka a Turai, Birtaniya da Ostiraliya kowannensu ya gano cewa yawancin asusun CFD na yau da kullum suna asara. Mene ne bayanin gaskiya?",
+        "explanation": "Waɗannan manya ne na yau da kullum masu aiki, kuma da yawa daga cikinsu suna karanta jadawali fiye da yadda kake yi a yau. Sun yi asara ne saboda yadda kayan ke aiki: kana farawa a baya saboda spread, kana biyan haya kowane dare yayin da kake jira, kuma leverage yana nufin motsi na yau da kullum zai iya kawo ƙarshenka kafin ra'ayinka ya sami lokacin ya zama daidai. Wannan tsari ne, ba aibin hali ba, kuma mutanen da suka san suna nan za su iya cin tsare-tsare.",
+        "options": [
+          "Yadda aka gina kayan yana aiki ne a kan abokin ciniki",
+          "Mutanen da suka yi asara sakarkaru ne, kuma 'yan kasuwa masu hankali lafiya suke",
+          "Kamfanonin hamayya ne suka wallafa lambobin a matsayin harin talla",
+          "Asara mai girman haka tana fitowa ne daga ƙasashen da ba a kula da su"
+        ]
+      }
+    },
+    "77": {
+      "title": "Abin da Ya Canza Lokacin da Dokoki Suka Canza",
+      "desc": "Hujja cewa tsarin ne, ba mutanen ba",
+      "content": "Darasi na 76 ya ba ka asarar. Wannan darasi yana ba ka gwajin, kuma shi ne abu mafi muhimmanci a wannan sashe.\n\nIdan yawancin mutane suna asara saboda yawancin mutane masu rashin hankali ne, to canza dokoki bai kamata ya canza komai ba. Masu rashin hankali za su ci gaba da rashin hankali. Ko ba haka ba?\n\nOstiraliya ta yi gwajin. A Maris 2021 ASIC ta tilasta wasu kariyoyi a kan kowane kamfanin CFD da ke hidima ga abokan ciniki na yau da kullum: iyakokin leverage, ƙa'idar rufewa kai tsaye ta bai ɗaya, kariyar ma'auni mara kyau, da hana jan hankali kamar kyautar rajista. Abokan ciniki ɗaya. Kamfanoni ɗaya. Kasuwanni ɗaya. Dokokin ne kawai suka canza.\n\nGa abin da ASIC ta auna a watanni shida na farko. 🔬\n\n📉 Jimillar asarar asusun na yau da kullum ta faɗi 91%, daga matsakaicin A$372 million a kowane kwata zuwa A$33 million.\n📉 Asusun na yau da kullum masu asara sun ragu da 51% a kowane kwata.\n📉 Rufewar margin ta ragu da 87%.\n📉 Abubuwan da suka faru na ma'auni mara kyau sun ragu da 88%.\n\nBabu wanda ya ƙara wayo a watanni shida. Tsarin ne ya canza, kuma kashi tara cikin goma na ɓarnar ya ɓace tare da shi.\n\nAbubuwa biyu ne ke biyo baya, kuma ya kamata ka riƙe duka biyun.\n\nNa farko: idan ka yi asara a cinikin leverage, yawancin abin da ya same ka an riga an gina shi cikin kayan kafin ka iso. Wannan ba izini ba ne na yin sakaci. Dalili ne na girmama abin.\n\nNa biyu, kuma wannan shi ne rabi mai amfani: kariyoyin da suka yi aikin su ne daidai ɗabi'un da wannan sashe ke koya maka. Ƙaramin matsayi. Fita kai tsaye. Ƙasa mai ƙarfi a ƙarƙashin ɓarna. Sai da mai kula da doka ya tilasta waɗannan a kan dukkan masana'antu don samun wannan 91%. Kai kawai za ka iya zaɓar su. 🛡️",
+      "quiz": {
+        "q": "Bayan Ostiraliya ta tilasta iyakokin leverage da rufewa kai tsaye a kan kamfanonin CFD, asarar abokan ciniki na yau da kullum ta faɗi 91% a watanni shida. Me hakan ke nunawa?",
+        "explanation": "Abokan ciniki ɗaya, kamfanoni ɗaya, kasuwanni ɗaya. Dokokin ne kawai suka canza, kuma kashi tara cikin goma na ɓarnar ya tafi tare da su. Babu wanda ya ƙara wayo a watanni shida. Kariyoyin da suka yi aikin su ne ɗabi'un da wannan sashe ke ci gaba da koya maka: ƙaramin matsayi, fita kai tsaye, da ƙasa mai ƙarfi a ƙarƙashin ɓarna. Sai da mai kula da doka ya tilasta waɗannan a kan dukkan masana'antu. Kai kawai za ka iya zaɓar su.",
+        "options": [
+          "'Yan kasuwar Ostiraliya sun fi na Turai horo",
+          "Leverage yana zama lafiya da zarar mai kula da doka yana sa ido a kai",
+          "Dokokin sun hana mutane ciniki, don haka babu abin da za a rasa",
+          "Yawancin ɓarnar tana fitowa ne daga tsarin kayan"
+        ]
+      }
+    },
+    "78": {
+      "title": "Gibin da Ke Tsallake Dakatarwarka",
+      "desc": "Dakatarwa umarni ne na fita, ba alkawarin farashi ba",
+      "content": "Ka riga ka haɗu da dakatar-da-asara (stop-loss) a darasi na 19. Ga abin da leverage ke yi musu.\n\nDakatar-da-asara umarni ne: \"idan farashi ya kai wannan mataki, fitar da ni.\" Ba kwangila ba ce game da farashin da za ka samu. Tana cewa ka fita. Ba ta cewa ka fita daidai a nan ba.\n\nA yawancin lokaci wannan bambancin ba ya da muhimmanci, saboda farashi yana motsi a ƙananan matakai kuma umarninka yana cika kusa da matakinka. Sannan wani lokaci yana da muhimmanci ƙwarai.\n\n📰 Kasuwanni suna rufewa. Labari ya zo da ƙarfe 11 na dare. Kasuwa ta sake buɗewa ƙasa da 8% fiye da yadda ta rufe, kuma ba a taɓa yin ciniki a kowane farashi a tsakani ba. Dakatarwarka tana cikin wannan gibin. Tana tashi a lokacin sake buɗewa kuma ta cika a duk inda kasuwa take a zahiri, wanda ya wuce matakin da ka zaɓa nesa.\n\nBa tare da leverage ba, wannan mummunar rana ce. Da leverage, zai iya zama dukkan asusun, saboda idan ajiyarka ta fi gibin sirara, gibin yana ratsawa kai tsaye ta farashin liquidation naka ma, kuma ana rufe ka ƙasa da matakin da na'urar ta yi niyya.\n\nAbubuwa uku da za ka yi da wannan, babu ɗaya mai wuya:\n\n1️⃣ Kada ka ɗauki dakatarwa a matsayin tabbaci. Ka ɗauke ta ɗabi'a mai kyau sosai mai rauni ɗaya da aka sani.\n2️⃣ Ka san lokacin da kasuwarka ke rufe da abin da aka tsara. Sakamakon kamfanoni, shawarwarin ƙimar ruwa da zaɓe gibi ne da ke da rana a kalanda.\n3️⃣ Ka auna girma ta yadda gibi ba zai kawo ƙarshenka ba. Wannan ita ce ainihin kariya, kuma ita ce darasi na gaba. Dakatarwa tana kare ka daga na yau da kullum. Girman matsayi yana kare ka daga baƙon abu, kuma baƙon abu shi ne ke share mutane a zahiri.\n\nKuma ya cancanci ka sani cewa a wannan app, kamar a kowane asusun da aka tsara yadda ya kamata, kariyar ma'auni mara kyau tana nufin gibi ba zai kai ka ƙasa da sifili ba. Za ka iya rasa asusun. Ba za ka ƙare da bin bashi ba. 📰",
+      "quiz": {
+        "q": "Ka saita dakatar-da-asara a {c}90. Cikin dare, mummunan labari ya zo kuma kasuwa ta sake buɗewa a {c}78, ba tare da an yi ciniki a tsakani ba. Me ke faruwa?",
+        "explanation": "Dakatarwa umarni ne na fita, ba alkawari ba game da farashin da za ka samu. Kasuwa ba ta taɓa yin ciniki tsakanin {c}90 da {c}78 ba, don haka babu {c}90 da ya rage da za a sayar a kai. Dakatarwarka tana tashi a sake buɗewa kuma ta cika a duk inda kasuwa take a zahiri. Dakatarwa har yanzu tana kare ka daga motsi na yau da kullum. Kariya daga tsalle irin wannan ita ce girman matsayin, ba dakatarwar ba.",
+        "options": [
+          "Dakatarwarka ta cika a {c}90, daidai inda ka saita ta",
+          "An cika maka kusa da {c}78, farashin farko da aka samu",
+          "An soke umarnin, saboda farashi ya tsallake shi",
+          "Mai bayarwa ya biya ka {c}12 da kasuwa ta tsallake"
+        ]
+      }
+    },
+    "79": {
+      "title": "Girma da Farko, Sannan Cinikin",
+      "desc": "Ka yanke abin da za ka iya rasawa kafin ka yanke abin da za ka saya",
+      "content": "Ga abin da ke raba mutanen da ke daɗewa da waɗanda ba sa daɗewa, kuma kusan abin gundura ne.\n\nMasu farawa suna zaɓar cinikin, sannan su lissafa nawa za su saka. Ƙwararru suna yin sa a baya. Suna yanke abin da suke shirye su rasa da farko, kuma su bar hakan ya yanke girman da matsayin zai iya kaiwa.\n\nDokar da yawancinsu ke amfani da ita: haɗarin 1% zuwa 2% na asusun a kowane ciniki ɗaya. Ba ajiyar 1% ba. HAƊARIN 1%, wato abin da za ka rasa a zahiri idan an taɓa dakatarwarka.\n\nYadda yake aiki, a matakai uku:\n\n1️⃣ Zaɓi mafi girman asararka. Asusu na 10,000 NT, haɗarin 1%, don haka 100 NT.\n2️⃣ Zaɓi inda ka yi kuskure. Za ka fita idan farashi ya sauka 5% daga shigarka.\n3️⃣ Raba. Asarar 100 NT da za a iya karɓa, a nisan dakatarwa na 5%, yana nufin matsayi na 2,000 NT. Wannan shi ne girmanka. Ba ji ba. Lissafi.\n\nCanza dakatarwar kuma girman zai canza kai tsaye. Dakatarwa mai matsewa ta 2% tana ba ka damar 5,000 NT. Dakatarwa mai faɗi ta 10% tana tilasta ka zuwa 1,000 NT. Yayin da cinikin ya fi haɗari, haka dole ya zama ƙarami, kuma lissafin yana yi maka haka don yanayin zuciyarka ba sai ya yi ba.\n\nMe ya sa 1%? Saboda yana sa jerin asara ya zama mai yiwuwar tsira. Asara goma a jere a 1% tana barin ka da 90% na asusunka da ɓacin rai. Asara goma a jere a 20% tana barin ka da kusan 11% na asusunka babu hanyar dawowa, kuma ka riga ka sani daga darasi na 71 yadda wannan hawan yake da tsauri.\n\nBabu wanda ke tsira a kasuwanni ta hanyar zaɓar masu nasara. Duk wanda ke tsira yana yin haka ne ta hanyar tabbatar da cewa babu asara ɗaya da za ta kawo ƙarshensa. 📐",
+      "quiz": {
+        "q": "Asusu na 10,000 NT. Za ka yi haɗarin 1% a wannan cinikin, kuma za ka fita idan farashi ya faɗi 5% daga shigarka. Ja zuwa girman matsayin da ke mutunta hakan.",
+        "explanation": "1% na 10,000 NT shi ne 100 NT, kuma wannan shi ne mafi yawan abin da ka amince ka rasa. Dakatarwa ta 5% tana nufin 100 NT a raba da 5%, wanda matsayi ne na 2,000 NT. Ja sama kuma alamar za ta nuna maka kana haɗarin fiye da abin da ka yanke."
+      }
+    },
+    "80": {
+      "title": "Me Ya Sa Nasara Ke Jin Kamar Ƙwarewa",
+      "desc": "Wasannin tunani da leverage ke yi maka",
+      "content": "Leverage ba matsalar lissafi ba ce da farko. Lissafin mai sauƙi ne. Matsalar tunani ce, kuma ga guda uku da ke kama kowa.\n\n🎯 1. SON ZUCIYAR SAKAMAKO (outcome bias): nasara tana jin kamar ƙwarewa. Ka ɗauki matsayi mai girman gaske fiye da kima, ya yi aiki, ka sami kuɗi da yawa cikin rana ɗaya, kuma kwakwalwarka ta rubuta \"na ƙware a wannan.\" Ba ta rubuta ainihin abin da ya faru ba, wato ka ɗauki mummunan haɗari kuma ka sami sakamako mai kyau. Waɗannan abubuwa ne daban-daban, kuma kasuwa za ta biya ka cikin farin ciki a kan mummunar shawara sau da yawa kafin ta karɓi nata. Abu mafi haɗari da zai iya faruwa ga sabon ɗan kasuwa shi ne nasara mai sauƙi da wuri.\n\n😤 2. CINIKIN RAMUWA (revenge trading): kana son dawo da shi, yanzu. Ka yi asara, ta yi zafi, kuma sha'awar tana nan take. Don haka ka ƙara girma. Yanzu kana sanya matsayinka mafi girma daidai lokacin da hukuncinka ya fi muni, a kan cinikin da ka zaɓa saboda kana fushi ba saboda yana da kyau ba. Kasuwa ba ta san kana asara ba kuma ba ta bin ka komai. Idan ka ji haka, girman da ya dace shi ne sifili. Rufe app ɗin.\n\n🕳️ 3. BIN ASARA (chasing losses): \"zan riƙe kawai har sai ya dawo.\" Wannan an yi masa ado kamar haƙuri, shi ya sa yake da wuyar ganewa. Haƙuri shiri ne da ka yi cikin natsuwa tun da wuri. Bin asara shiri ne da ka ƙirƙira bayan farashi ya tafi da kai, kuma alamar mai sauƙi ce: wurin fitarka ya motsa. Idan ka sami kanka kana bayanin dalilin da ya sa matakin da ka saita ba shi ne daidai ba kuma, wannan ba sabon bincike ba ne. Girman kanka ne ke ciniki.\n\nKariya ga dukkan ukun ɗaya ce kuma ba ta da ƙyalli. Ka yanke komai yayin da kake natsuwa, ka rubuta shi, kuma ka ɗauki kai da ke bayyana a tsakiyar ciniki a matsayin mai ba da labari da ba za a amince da shi ba. 🧠",
+      "quiz": {
+        "q": "Ka ɗauki matsayi mafi girma fiye da yadda ka saba kuma ya sami babbar riba cikin rana ɗaya. Mene ne hanya mafi daidai ta fahimtar hakan?",
+        "explanation": "Kwakwalwarka tana rubuta cewa ka ƙware a wannan. Ainihin abin da ya faru shi ne ka ɗauki mummunan haɗari kuma kasuwa kawai ta biya ka duk da haka, kuma waɗannan abubuwa biyu ne daban. Kasuwa za ta biya mummunar shawara sau da yawa kafin ta karɓi nata. Nasara mai sauƙi da wuri ita ce abu mafi haɗari da zai iya faruwa ga sabon ɗan kasuwa, saboda tana koyar da darasin da ba daidai ba kuma ta caje ka a kansa daga baya.",
+        "options": [
+          "Wannan hanya ce da ke aiki, kuma za a iya ƙara girmanta kuma",
+          "Girman ya yi daidai, saboda ribar ta tabbatar da hakan",
+          "Ka ɗauki mummunan haɗari kuma kawai ka sami sakamako mai kyau",
+          "Babbar riba tana nuna ƙwarewa, kuma asara ce ke nuna kuskure"
+        ]
+      }
+    },
+    "81": {
+      "title": "Tambayar Gaskiya",
+      "desc": "Ya kamata ka yi amfani da wannan kwata-kwata?",
+      "content": "Ka gama sashen. Ga tambayar da tallace-tallace ba sa taɓa yi.\n\nYa kamata ka yi amfani da leverage kwata-kwata?\n\nGa yawancin mutane, a yawancin lokaci, amsar gaskiya ita ce a'a. Ba don ba su da wayo ba. Saboda duk abin da ke cikin darussa goma sha biyar na ƙarshe: kana farawa a baya, kana biyan haya yayin da kake jira, motsi na yau da kullum zai iya kawo ƙarshenka kafin a tabbatar ka yi daidai, kuma masu kula da doka uku da suka ƙirga asusu na gaske sun ci gaba da gano cewa kashi biyu cikin uku zuwa kashi tara cikin goma na mutane sun yi asara.\n\nAkwai nau'in ciniki inda ba za ka taɓa taɓa ko ɗaya daga cikin waɗannan ba. Ka saya hannun jari, ka mallaki yanki na kamfani, rabon riba ya sauka, lokaci yana aiki DOMINKA maimakon a kanka, kuma babu abin da zai taɓa rufe matsayinka ba tare da tambaya ba. Wannan shi ne sauran wannan app ɗin, kuma ba zaɓi ne mai gundura ba. Shi ne zaɓin da lissafin darasi na 14 ya ce galibi yana nasara. 🌱\n\nDon haka ga abin da ya kamata ka sani kafin ka yanke shawara.\n\nBabu wani abu a wannan app da aka kulle a bayan leverage. Kowace gasa, kowane jerin gwarzaye, kowace hanyar XP, kowace karawar makaranta da kowace kyautar NOOB suna buɗe gaba ɗaya ga wanda bai taɓa buɗe ko da matsayi ɗaya na leverage ba. Ba ka rasa komai ta barin wannan ɗakin. Babu hukunci kuma babu lambar yabo da ta ɓace.\n\nKuma babu abin da ke nan da ke biyan ka don nasara. Ana ba ka lada don gama darussan, don cin jarrabawar, don saita dakatarwa, don yanke mai asara, da kuma don rubuta bayanin liquidation naka. Ba a taɓa biyan ka don riba, babban matsayi ko jerin sa'a ba, saboda biyan ka a kan waɗannan zai zama koya maka abin da ba daidai ba yayin da ake kiransa ilimi.\n\nIdan ka yi amfani da shi: ka yi amfani da shi kaɗan, ka yi amfani da shi da dakatarwa, ka san farashin liquidation naka kafin ka danna komai, kuma kada ka taɓa yi da kuɗin da za ka yi kewarsu. Idan ba ka yi amfani da shi ba, har yanzu ka koyi ganin injin, wanda ko da yaushe shi ne manufar. Yawancin manya da ke cinikin waɗannan abubuwa ba za su iya bayyana abin da ka koya yanzu ba. 🤔",
+      "quiz": {
+        "q": "Me ɗalibi ke rasawa ta yanke shawarar ba zai taɓa buɗe matsayi na leverage a wannan app ba?",
+        "explanation": "Babu wani abu a wannan app da aka kulle a bayan leverage. Kowace gasa, kowane jerin gwarzaye, kowace hanyar XP, kowace karawar makaranta da kowace kyautar NOOB suna buɗe ga wanda bai taɓa buɗe ko da matsayi ɗaya na leverage ba. Babu hukunci kuma babu lambar yabo da ta ɓace. Kuma babu abin da ke wannan ɗakin da ke biyan ka don nasara: yana biya don gama darussan, cin jarrabawar, saita dakatarwa da yanke mai asara.",
+        "options": [
+          "Babu komai ko kaɗan, kowace hanya tana buɗe gare shi",
+          "Kowace gasa da jerin gwarzaye a cikin app",
+          "XP na wannan sashe, wanda ake biya a kan cinikin leverage",
+          "Kyautukan NOOB, waɗanda ke buƙatar matsayi ɗaya na leverage da farko"
+        ]
+      }
+    },
+    "82": {
+      "title": "Fashewar Asusu",
+      "desc": "Kwanaki biyar, shiri ɗaya mai zafin rai, asusu ɗaya babu komai",
+      "content": "Barka da zuwa Lab. A nan kana samun asusun gwaji da aka katange na 1,000 LAB NT. Ba walat ɗinka ba ne, ba zai iya taɓa walat ɗinka ba, kuma babu abin da aka ci ko aka rasa a ciki da ke fita daga cikinsa. Kayan cinikin shi ne NOVA. NOVA ƙirƙirarre ne, don haka babu wanda zai zarge mu da hasashen faɗuwa ta gaske. Adadin ajiya 25%. Kuɗin aro 0.02% a dare. Rufewa a 50% na margin da aka yi amfani da shi. Kuma a wannan jarrabawar ƙarshe kawai, an kashe iyakokin matsayi. Da gangan. Sau ɗaya.\n\nGa makon da kake shirin bayani a kai.\n\n📅 RANA TA 1: NOVA a 100. Sakamako mai kyau, rukunin hira yana ta hayaniya. Ka ajiye 800 daga cikin 1,000 NT naka, kana iko da 3,200 NT na NOVA. Babu dakatarwa.\n\n📅 RANA TA 2: NOVA 106. Kana da ribar 192 NT, wato +19.2% na asusunka cikin rana ɗaya. Ka ƙara 200 NT naka na ƙarshe. Girman ciniki 4,000 NT. Tsabar kuɗi da ke kyauta: sifili. Har yanzu babu dakatarwa.\n\n📅 RANA TA 3: NOVA 101.76. Matakin margin 103%. Har yanzu kana da riba a makon, don haka ka riƙe.\n\n📅 RANA TA 4: NOVA 94.64. KIRAN MARGIN. Matakin margin 75%, equity 750 NT. Ba za ka iya ƙarawa ba, saboda babu abin da ya rage da za ka ƙara. Ka riƙe.\n\n📅 RANA TA 5: NOVA ta yi gibin faɗuwa 9% cikin dare kuma ta sake buɗewa a 86.12, ƙasa da matakin rufewa. AN YI LIQUIDATION a 390 NT.\n\nA cikin makon NOVA ta faɗi 13.9%. Asusunka ya faɗi 61%. Ɗalibin da ya ajiye 250 NT tare da dakatarwa a 95 ya gama makon ɗaya da kusan 949 NT, ya ragu da 5%. Kuma 800 NT ɗin ba tare da dakatarwa ba amma ba tare da ƙarin rana ta 2 ba da sun gama a 550 NT: kiran margin, amma a raye.\n\nYanzu ga bita. Tambayoyi goma kan abin da ya faru yanzu. Ka sami 8 cikin 10 kuma ka ci jarrabawar ƙarshe, saboda a nan cin jarrabawar shi ne iya bayyana ɓarnar, ba guje mata ba. 💀",
+      "bossVictory": "Ka fasa asusu kuma ka fita kana sane da dalili. Wannan shi ne dukkan sashen. 💀",
+      "bossQuestions": {
+        "0": {
+          "q": "A cikin kwanaki biyar NOVA ta faɗi kusan 14%. Asusunka ya faɗi 61%. Me ya kawo bambancin?",
+          "options": [
+            "App ya caje hukunci don asara",
+            "Ka riƙe girman ciniki kusan ninki huɗu na darajar ajiyarka, don haka kowane motsi ya bugi lambar da ta fi asusunka girma ninki huɗu",
+            "Kuɗin aro ne ya ɗauki yawancin asarar",
+            "NOVA hannun jari ne mai haɗari fiye da yadda lambobin ke nunawa"
+          ]
+        },
+        "1": {
+          "q": "A rana ta 2 kana da ribar 192 NT, wato 19.2% na asusunka cikin rana ɗaya. Me hakan ke gaya maka a zahiri?",
+          "options": [
+            "Cewa fahimtarka daidai ce kuma ya kamata ka ƙara girma",
+            "Cewa matsayin yana da girman da ya dace, tun da yana riba",
+            "Cewa leverage lafiya yake idan kana daidai",
+            "Cewa matsayin yana da girman da zai motsa asusunka 19% cikin rana ɗaya, wanda ke nufin yana da girman da zai yi haka a ɗaya hanyar"
+          ]
+        },
+        "2": {
+          "q": "A rana ta 2 ka ƙara 200 NT naka na ƙarshe ga matsayin mai riba. Me hakan ya ci ka?",
+          "options": [
+            "Rabi biyun kariyarka: ya ɗaga girman ciniki daga 3,200 zuwa 4,000, kuma ya kashe tsabar kuɗi kaɗai da ke kyauta da za ta iya amsa kiran margin",
+            "Babu komai, saboda ƙara wa mai nasara shi ne yadda ƙwararru ke tara riba",
+            "200 NT ɗin kawai, wanda matsayin zai dawo da shi",
+            "Ɗan kuɗin aro, tun da hayar dare ta ƙaru kaɗan"
+          ]
+        },
+        "3": {
+          "q": "Matakin margin naka ya kai 103% a rana ta 3. Me wannan lambar take nufi?",
+          "options": [
+            "Kana da kuɗin 103%, don haka matsayin yana da tabbaci fiye da kima kuma lafiya yake",
+            "Asusunka ya ƙaru da 3% a makon",
+            "Equity naka da ƙyar yake rufe ajiyoyin da ka sanya, don haka kariyar ta ƙare kuma motsi na gaba zai fara cin ajiyar da kanta",
+            "Babu komai shi kaɗai, saboda matakin margin yana da muhimmanci ne kawai idan ya yi ƙasa da 50%"
+          ]
+        },
+        "4": {
+          "q": "A kiran margin na rana ta 4, rufewa da ta kulle asarar 250 NT. Ka riƙe. Me ya sa riƙewa ce amsar da yawancin mutane ke zaɓa?",
+          "options": [
+            "Saboda riƙewa galibi ita ce amsar da ta dace a lissafi ga kiran margin",
+            "Saboda rufewa tana nufin amincewa cewa cinikin kuskure ne, kuma riƙewa tana ba ka damar ci gaba da yarda cewa bai ƙare ba tukuna",
+            "Saboda kiran margin galibi yana warware kansa cikin rana ɗaya",
+            "Saboda mai bayarwa yana ba da shawarar riƙewa don guje wa tabbatar da asara"
+          ]
+        },
+        "5": {
+          "q": "An yi maka liquidation a 390 NT, amma matakin rufewa shi ne equity na 500 NT. Me ya sa ka ƙare ƙasa da shi?",
+          "options": [
+            "Mai bayarwa ya caje hukuncin liquidation na 110 NT",
+            "NOVA ta yi gibin faɗuwa 9% cikin dare kuma ta sake buɗewa ƙasa da matakin, don haka rufewar ta cika a farashin farko da kasuwa ta bayar a zahiri",
+            "An cire kuɗin aro a dunƙule ɗaya a lokacin liquidation",
+            "Matakin rufewa ƙiyasi ne kawai kuma galibi ana kuskure shi da wannan adadi"
+          ]
+        },
+        "6": {
+          "q": "Ɗalibin da ya ajiye 250 NT kuma ya saita dakatarwa a 95 ya gama makon ɗaya da kusan 949 NT. Me ya yi daidai?",
+          "options": [
+            "Ya yanke mafi girman asararsa kafin ya buɗe, kuma ya bar hakan ya yanke girman",
+            "Ya fi karanta jadawalin NOVA kuma ya ga faɗuwar na zuwa",
+            "Ya guje wa kuɗin aro ta amfani da ƙaramar ajiya",
+            "Ya yi sa'a, saboda zaɓuɓɓuka iri ɗaya galibi suna asara"
+          ]
+        },
+        "7": {
+          "q": "Ka biya kuɗin aro kowane dare a kan cikakken girman ciniki na 4,000 NT. A wannan cinikin, nawa ne muhimmancinsa?",
+          "options": [
+            "Shi ne yawancin asarar, saboda kuɗin aro yana ƙaruwa kowane dare",
+            "Babu komai, saboda ana caje kuɗin aro ne kawai a kan matsayin da suka kai wata ɗaya",
+            "'Yan NT kaɗan kawai, saboda cinikin gajere ne. Kuɗin aro shi ne ke kashe matsayin da bai je ko'ina ba tsawon watanni, ba wanda ya fashe cikin mako ɗaya ba",
+            "Kusan 192 NT, daidai da ribar rana ta 2"
+          ]
+        },
+        "8": {
+          "q": "Kowane zaɓi a nan an yarda da shi. A CFD Hub yawancinsu ba za a yarda da su ba. Me ya sa?",
+          "options": [
+            "Saboda iyakokin suna sa app ya fi araha a gudanar",
+            "Saboda masu kula da doka suna buƙatar yanayin gwaji kafin kowane cinikin kwaikwayo",
+            "Saboda ba a yarda 'yan ƙasa da shekara 18 su kalli liquidation sau biyu ba",
+            "Ka gani yanzu yadda ajiya ta 80% a matsayi ɗaya da rashin tsabar kuɗi da ke kyauta suka lalata asusu cikin kwanaki biyar, kuma iyakokin suna nan ne don sa wannan jerin abubuwan ya zama ba zai yiwu ba"
+          ]
+        },
+        "9": {
+          "q": "Mene ne abu ɗaya mafi amfani da za ka fitar daga wannan?",
+          "options": [
+            "Cewa girman matsayin, wanda aka yanke kafin ka buɗe shi, ya fi muhimmanci fiye da yin daidai a kan hanya",
+            "Cewa NOVA mummunan hannun jari ne da aka zaɓa, kuma ingantaccen bincike da ya ceci asusun",
+            "Cewa kada kowa ya taɓa leverage a kowane hali",
+            "Cewa kiran margin ba a iya hasashensa, don haka babu abin da za ka iya yi"
+          ]
+        }
+      }
+    },
+    "83": {
+      "title": "Lasisi",
+      "desc": "Tambayoyi goma. Takwas daidai don cin nasara.",
+      "content": "Lasisi ita ce jarrabawar da wannan sashe ke ginawa zuwa gare ta. Tambayoyi goma, kuma kowacce lissafi ne ko shawara a kan matsayin da yake kama da na gaske, saboda CFD Hub ma ba ya mu'amala da ma'anoni.\n\nMakin cin nasara 8 cikin 10. Kana da damar gwadawa 3 a rana. Muna gaya maka makinka amma ba tambayoyin da ka yi kuskure ba, don haka gazawa alama ce ta sake karanta sashen, ba ta sake yin hasashe ba.\n\nBabu yaudara a nan. Kowace lamba ta fito kai tsaye daga darussan da ke bayanka. Idan za ka iya yin waɗannan goman, ka fahimci wannan sashe fiye da yawancin manya da ke cinikin waɗannan kayayyakin da gaske. 🎫",
+      "bossVictory": "Za ka iya kallon allo na gaske, a lambobi na gaske, ka ce a'a. Wannan shi ne lasisin. 🎫",
+      "bossQuestions": {
+        "0": {
+          "q": "Asusunka 1,000 NT ne babu wani abu da aka buɗe. Ka sanya dukkan 1,000 NT a matsayin ajiya a ƙimar 25%, kana iko da 4,000 NT na {tech} a 200 NT kowane hannun jari. Rufewa tana tashi a 50% na ajiyarka. A wane farashi dole {tech} ya yi ciniki kafin a rufe ka?",
+          "options": [
+            "150 NT, faɗuwar 25%, daidai da adadin ajiya",
+            "100 NT, faɗuwar 50%, daidai da ƙa'idar rufewa",
+            "175 NT, faɗuwar 12.5%, saboda rasa 500 NT a kan girman ciniki na 4,000 NT yana buƙatar motsi na 12.5%",
+            "195 NT, faɗuwar 2.5%"
+          ]
+        },
+        "1": {
+          "q": "Matsayi na 3,000 NT yana cin 0.02% a dare na kuɗin aro. Kana tsammanin motsi na 3% a gefenka, wanda darajarsa 90 NT. Darare nawa wannan ra'ayi ya cancanta kafin kuɗin aro ya cinye shi?",
+          "options": [
+            "Kusan darare 50",
+            "Kusan darare 150, saboda 90 NT a raba da 0.60 NT a dare shi ne 150",
+            "Kusan darare 300",
+            "Ba za a taɓa cinye shi ba, saboda kuɗin aro yana shafar matsayin masu asara ne kawai"
+          ]
+        },
+        "2": {
+          "q": "Asusunka 5,000 NT ne. Za ka yi haɗarin 2% a ciniki, kuma za ka fita idan farashi ya motsa 4% a kanka. Mene ne matsayi mafi girma da ya kamata ka buɗe?",
+          "options": [
+            "100 NT, adadin da kake haɗari da shi",
+            "1,000 NT, kashi ɗaya cikin biyar na asusun",
+            "5,000 NT, saboda dakatarwar tana kare asusun ko ta yaya",
+            "2,500 NT, saboda asarar 100 NT da za a iya karɓa a raba da nisan dakatarwa na 4% yana ba da girman"
+          ]
+        },
+        "3": {
+          "q": "Wani matsayi ya kai asusunka daga 1,000 NT zuwa 400 NT. Wace riba kake buƙata daga nan kawai don komawa 1,000 NT?",
+          "options": [
+            "150%, saboda 400 NT dole ya girma da ninki ɗaya da rabi na kansa don kaiwa 1,000",
+            "60%, daidai da kason da ka rasa",
+            "100%, saboda ninkawa ko da yaushe tana dawo da kai",
+            "250%, ninki biyu na abin da ka rasa"
+          ]
+        },
+        "4": {
+          "q": "Katin kai tsaye yana nuna: matakin margin 82%, tsabar kuɗi da ke kyauta 0, matsayi ɗaya a buɗe kuma ya ragu da 18%. Wane mataki ne a zahiri ke rage haɗarin liquidation?",
+          "options": [
+            "Ƙara kuɗi a asusun",
+            "Riƙe ka jira matakin ya farfaɗo",
+            "Rufe matsayi, wanda ke sakin margin da yake amfani da shi nan take",
+            "Buɗe matsayi na biyu a ɗaya hanyar don soke shi"
+          ]
+        },
+        "5": {
+          "q": "Ka yi short na {tech} a 50 NT da matsayi na 2,000 NT. Sayen kamfani ya sake saita farashinsa cikin dare a 150 NT. Ta yaya wannan asarar ta kwatanta da mafi munin abin da zai faru a matsayin long mai girma ɗaya?",
+          "options": [
+            "Ɗaya ce, saboda duka biyun suna da iyaka a abin da ka saka",
+            "Short ɗin yana asarar 4,000 NT, ninki biyu na darajar matsayin, yayin da long ba zai taɓa asarar fiye da matsayin 2,000 NT da kansa ba",
+            "Short ɗin ba ya asarar komai idan an saita dakatar-da-asara, saboda dakatarwa tabbatattu ne",
+            "Asarar short ɗin ta fi ƙanƙanta, saboda farashi yana faɗuwa da sauri fiye da yadda yake hawa"
+          ]
+        },
+        "6": {
+          "q": "Dakatarwarka tana a 90 NT. Labari ya zo cikin dare kuma kasuwa ta sake buɗewa a 78 NT ba tare da ta taɓa yin ciniki a tsakani ba. Me ke faruwa, kuma mece ce ainihin kariya daga wannan?",
+          "options": [
+            "An cika maka a 90 NT, saboda abin da dakatarwa ke tabbatarwa ke nan",
+            "Umarnin ya soke, saboda farashi ya tsallake matakinka",
+            "An cika maka kusa da 78 NT, kuma kariya daga gibi ita ce girman matsayi, ba dakatarwa ba",
+            "Mai bayarwa yana bin ka bambancin tsakanin 90 da 78"
+          ]
+        },
+        "7": {
+          "q": "Me ya sa crypto ke da buƙatar ajiya mafi girma a CFD Hub?",
+          "options": [
+            "Ya fi motsi da ƙarfi, don haka rana ta yau da kullum ta crypto za ta kwashe siririyar ajiya",
+            "Ba a caje crypto kuɗin aro, don haka ajiyar tana maye gurbinsa",
+            "An hana 'yan ƙasa da shekara 18 crypto kuma ajiyar hukunci ce",
+            "App ne ke saita farashin crypto maimakon kasuwa"
+          ]
+        },
+        "8": {
+          "q": "Wanne daga cikin waɗannan ke samun XP a wannan sashe?",
+          "options": [
+            "Ribar 40% a matsayi na leverage",
+            "Amfani da girman ciniki mafi girma da ake samu",
+            "Jerin nasarar cinikai biyar a jere",
+            "Rufe matsayi mai asara maimakon ƙara masa"
+          ]
+        },
+        "9": {
+          "q": "Bayanin kafin ciniki ya ce motsi na 10% a kanka zai cire 620 NT daga asusunka, wato 62% na walat ɗinka. Farashin liquidation naka 88.40 ne kuma {tech} yana ciniki a 96.00 a yanzu. Za ka buɗe shi?",
+          "options": [
+            "Eh, saboda farashin liquidation yana ƙasa da farashin yanzu cikin aminci",
+            "Eh, idan kana da tabbaci a kan hanya",
+            "Sai da ninki biyu na girman ciniki, don haɗarin ya cancanta",
+            "A'a: motsi na kusan 8% yana kwashe matsayin, 8% motsi ne na yau da kullum, kuma 62% na walat a ciniki ɗaya yana karya kowace dokar girma a wannan sashe"
+          ]
+        }
+      }
+    },
+    "84": {
+      "title": "Mafi Munin Abinka, An Zaɓa Tun da Wuri",
+      "desc": "Dakatar-da-asara, take-profit, da fitar da babu wanda ke zaɓa",
+      "content": "Ka san ajiya, kira, rufewa, haya, dakatarwa da gibi. Wannan darasi yana saka yanki na ƙarshe a wurinsa: kowane matsayi da za ka taɓa buɗewa yana ƙarewa ta ɗaya daga cikin hanyoyi uku daidai, kuma dukkan wasan shi ne wa ke zaɓar wacce.\n\n1️⃣ KAI KA RUFE SHI. Ka danna maɓallin kuma matsayin ya rufe a farashin kasuwa na yanzu. Ko da yaushe ana samu, a kowane matsayi, a kowane yanayi. Yawancin fitarwa ya kamata su zama wannan.\n\n2️⃣ UMARNIN DA KA SAITA NE YA RUFE SHI. Iri biyu, kuma sunayen suna da muhimmanci, don haka ka koye su da kyau:\n\n• UMARNIN DAKATAR-DA-ASARA (stop-loss) yana rufe ka kai tsaye idan farashi ya motsa A KANKA zuwa matakin da ka zaɓa: dakatarwar sayarwa ƙasa da shigarka a long, dakatarwar saye sama da shigarka a short. Shi ne mafi munin abinka, wanda aka yanke yayin da kake natsuwa, wanda darasi na 80 ya riga ya koya maka cewa shi ne lokaci kaɗai da kake yanke komai da kyau.\n• UMARNIN TAKE-PROFIT umarnin iyaka ne (limit order) na rufewa: yana rufe ka kai tsaye a burin da ka zaɓa, idan farashi ya motsa A GEFENKA ya kai shi. Shi ne \"ya isa\" naka, wanda aka yanke kafin kwaɗayi ya sami ƙuri'a. Umarnin iyaka yana cika a matakinka ko mafi kyau, ba mafi muni ba.\n\n3️⃣ MAI BAYARWA NE YA RUFE SHI. Wannan shi ne liquidation, daga darasi na 70. Kuma ga abin da za ka sa a ranka daram: liquidation ba nau'in umarni ba ne. Ba za ka iya sanya \"cinikin liquidation\" ba. Babu wanda zai iya. Ba kayan aiki ba ne a cikin jakarka; shi ne abin da mai bayarwa ke yi don kare bashinsa idan ajiyarka ta kusa ƙarewa, a duk farashin da kasuwa ke biya, yayin da kake makaranta ko kana barci.\n\nDakatar-da-asara shi ne kai kana yanke mafi munin abinka tun da wuri. Liquidation shi ne abin da ke faruwa idan ba ka yi ba.\n\nUmarninka biyun gaskiya ne ta hanya ɗaya, kuma ka riga ka sani daga darasi na 78: suna tashi a matakinka kuma suna cika a abin da kasuwa ke biya a zahiri. Gibi a kan dakatarwarka yana cika ka a ɗaya gefen tsallen, wanda ya fi muni. Gibi ta cikin take-profit naka yana cika ka a ɗaya gefen shi ma, wanda ya fi kyau. Gaskiya ɗaya, tana fuskantar hanyoyi biyu.\n\nƘa'idar sanyawa ɗaya, kuma wannan app yana tilasta ta tare da dalilin a allo: dakatarwarka dole ta zauna tsakanin farashin yanzu da farashin liquidation naka. Dakatarwa da ta wuce farashin liquidation ba za ta taɓa tashi ba, saboda mai bayarwa da ya riga ya rufe ka, don haka app yana ƙin ta kuma ya gaya maka dalili.\n\nƘofofi uku na fita daga kowane ciniki. Biyu daga cikinsu suna da sunanka a kan hannun ƙofar. Fita ta ɗaya daga cikin waɗannan, a ranar da ka zaɓa, a matakin da ka zaɓa yayin da kake natsuwa, shi ne abin da dukkan wannan sashe ke koya maka ka yi. 🚪",
+      "quiz": {
+        "q": "Matsayinka na long yana da dakatar-da-asara da ka saita a 180.00 da farashin liquidation na 150.00. Mene ne ainihin bambanci tsakanin waɗannan lambobin biyu?",
+        "options": [
+          "Babu komai ko kaɗan, sunaye biyu ne na rufewa kai tsaye ɗaya, kuma mai bayarwa yana tayar da ita a farashi ɗaya tak kowane lokaci",
+          "Dakatar-da-asara shawarar mai bayarwa ce kuma farashin liquidation naka ne, don haka wanda kake iko da shi a zahiri shi ne wanda ke tashi na biyu",
+          "Dakatarwa a 180.00 ita ce mafi munin abinka, wanda kai ka zaɓa tun da wuri yayin da kake natsuwa; 150.00 shi ne inda mai bayarwa ke rufe ka don kare bashinsa, saboda ba ka da ta cewa kuma",
+          "Dakatarwa tana tabbatar da cikawa daidai a 180.00 ko me kasuwa ta yi, yayin da liquidation zai iya cika a kowane farashi, ko yaya nisan da ya gudu"
+        ]
+      }
+    }
+  },
+  "context": {
+    "ZA": {
+      "name": "Afirka ta Kudu",
+      "cName": "rand",
+      "cPlural": "rand",
+      "exDesc": "ɗaya daga cikin manyan kasuwannin hannayen jari a dukan nahiyar Afirka",
+      "sectorList": "⛏️ Haƙar ma'adinai: Anglo American, Impala Platinum. Suna da alaƙa da farashin kayayyaki na duniya\n🏦 Banki: Standard Bank, FirstRand, Capitec. Suna yin kyau idan ƙimar ruwan kuɗi ta fi girma\n📱 Fasaha: Naspers, Prosus. Suna da alaƙa da yanayin fasaha na duniya\n🛍️ Kasuwanci: Shoprite, Pick n Pay. Suna yin kyau idan masu sayayya na da kuɗin kashewa\n📡 Sadarwa: MTN, Vodacom. Sun fi kwanciyar hankali, domin mutane koyaushe na buƙatar data",
+      "etfBasket": "kamfanoni 40 mafi girma a JSE",
+      "etfDesc": "Misali, JSE Top 40 jerin kamfanoni 40 mafi girma da aka jera a JSE ne, an jera su bisa darajar hannayen jarin da ake da su don ciniki da gaske.",
+      "etfList": "🇿🇦 Satrix Top 40: Kamfanoni 40 mafi girma a JSE. Wuri mai kyau na farawa.\n🌍 Satrix MSCI World: Kamfanoni daga ƙasashe 23 masu ci gaba a sayayya ɗaya.\n🇺🇸 Sygnia Itrix S&P 500: Manyan kamfanonin Amurka 500 da ke jerin S&P 500.\n💡 Satrix Nasdaq 100: Kamfanoni 100 mafi girma da ba na harkar kuɗi ba a Nasdaq. Galibi na fasaha ne.",
+      "currencyHedge": "Ana farashin waɗannan a dala ko Yuro. Don haka idan rand ya RAUNANA (R20 kan dala ya zama R22), jarinka na duniya na ƙara daraja a rand KAI TSAYE!",
+      "fxQuizSetup": "Rand ya raunana daga R18 zuwa R22 a kan dala",
+      "fxQuizLose": "Yana rasa daraja domin Afirka ta Kudu na ƙara lalacewa",
+      "fxQuizGain": "Yana HAWA a rand domin kowace dala na saya ƙarin rand",
+      "dcaTitle": "Daidaita Matsakaicin Farashi da Rand",
+      "dcaAbbrev": "RCA",
+      "food": "burger na Wimpy"
+    },
+    "US": {
+      "name": "Amurka",
+      "cName": "dala",
+      "cPlural": "daloli",
+      "exDesc": "kasuwar hannayen jari mafi girma a duniya da tazara mai yawa",
+      "sectorList": "💻 Fasaha: Apple, Microsoft, Alphabet. Ƙirƙira da buƙatar duniya ne ke tuƙa su\n🏦 Banki: JPMorgan, Bank of America, Goldman Sachs. Suna yin kyau idan ƙimar ruwan kuɗi ta hau\n🛍️ Kasuwanci: Amazon, Walmart, Costco. Suna yin kyau idan masu sayayya na kashe kuɗi\n⚡ Makamashi: Exxon Mobil, Chevron. Suna da alaƙa da farashin mai da iskar gas na duniya\n📡 Sadarwa: AT&T, Verizon, T-Mobile. Mutane koyaushe na buƙatar haɗin intanet",
+      "etfBasket": "manyan kamfanonin Amurka 500 da ke jerin S&P 500",
+      "etfDesc": "Misali, S&P 500 jerin manyan kamfanonin Amurka 500 ne da wani kwamiti ya zaɓa. Dole su kasance manya, masu riba kuma masu sauƙin ciniki. BA kawai kamfanoni 500 mafi girma ba ne, kuma yana haɗa kamfanonin da aka jera a NYSE da waɗanda aka jera a Nasdaq.",
+      "etfList": "🇺🇸 SPY / VOO: Suna bin S&P 500, jerin manyan kamfanonin Amurka 500. Ma'aunin zinare.\n📦 VTI: Dukan kasuwar hannayen jari ta Amurka, dubban kamfanoni a ETF ɗaya.\n💡 QQQ: Kamfanoni 100 mafi girma da ba na harkar kuɗi ba a Nasdaq. Galibi na fasaha ne.\n🌍 VT / VXUS: Kamfanonin duniya ko na ƙasashen waje a asusu ɗaya.",
+      "currencyHedge": "Idan dala ta raunana a kan sauran kuɗaɗe, jarinka na ƙasashen waje na ƙara daraja a dala KAI TSAYE!",
+      "fxQuizSetup": "Dala ta raunana sosai a kan Yuro da yen",
+      "fxQuizLose": "Yana rasa daraja domin tattalin arzikin Amurka na fama",
+      "fxQuizGain": "Yana HAWA a dala domin kadarorinka na ƙasashen waje sun samu ƙarin darajar kuɗi",
+      "dcaTitle": "Daidaita Matsakaicin Farashi da Dala",
+      "dcaAbbrev": "DCA",
+      "food": "abincin Big Mac"
+    },
+    "GB": {
+      "name": "Birtaniya",
+      "cName": "fam",
+      "cPlural": "fam",
+      "exDesc": "ɗaya daga cikin kasuwannin hannayen jari mafi tsufa kuma mafi muhimmanci a duniya",
+      "sectorList": "⚡ Makamashi: Shell, BP. Manyan kamfanonin mai da iskar gas na duniya\n🏦 Banki: HSBC, Barclays, Lloyds. Suna yin kyau idan ƙimar ruwan kuɗi ta fi girma\n🧴 Kayan amfanin gida: Unilever, Diageo, Reckitt. Ƙwararrun masu sunayen kayan gida\n🛍️ Kasuwanci: Tesco, Sainsbury's. Suna yin kyau idan masu sayayya na kashe kuɗi\n📡 Sadarwa: Vodafone, BT Group. Mutane koyaushe na buƙatar haɗin intanet",
+      "etfBasket": "kamfanoni 100 mafi girma a London Stock Exchange",
+      "etfDesc": "Misali, FTSE 100 jerin kamfanoni 100 mafi girma a babbar kasuwar London Stock Exchange ne, ana sake duba shi kowane wata uku.",
+      "etfList": "🇬🇧 iShares Core FTSE 100: Kamfanoni 100 mafi girma a London Stock Exchange.\n🌍 Vanguard FTSE All-World: Kamfanoni daga ƙasashe da dama a sayayya ɗaya.\n🇺🇸 iShares Core S&P 500: Manyan kamfanonin Amurka 500 da ke jerin S&P 500.\n💡 iShares Nasdaq 100: Kamfanoni 100 mafi girma da ba na harkar kuɗi ba a Nasdaq. Galibi na fasaha ne.",
+      "currencyHedge": "Idan fam ya raunana a kan sauran kuɗaɗe, jarinka na ƙasashen waje na ƙara daraja a fam KAI TSAYE!",
+      "fxQuizSetup": "Fam ya raunana sosai a kan dala da Yuro",
+      "fxQuizLose": "Yana rasa daraja domin tattalin arzikin Birtaniya na fama",
+      "fxQuizGain": "Yana HAWA a fam domin kadarorinka na ƙasashen waje sun samu ƙarin darajar kuɗi",
+      "dcaTitle": "Daidaita Matsakaicin Farashi da Fam",
+      "dcaAbbrev": "PCA",
+      "food": "kwata na kaza na Nando's"
+    },
+    "IN": {
+      "name": "Indiya",
+      "cName": "rupee",
+      "cPlural": "rupee",
+      "exDesc": "ɗaya daga cikin manyan kasuwannin hannayen jari a duniya bisa yawan cinikai",
+      "sectorList": "💻 Fasaha: TCS, Infosys, Wipro. Ƙwararrun masu ba da sabis na IT a duniya\n🏦 Banki: HDFC Bank, SBI, ICICI. Suna yin kyau idan ƙimar ruwan kuɗi ta fi girma\n🛍️ Kayan masarufi: ITC, Hindustan Unilever, DMart. Suna yin kyau idan masu sayayya na kashe kuɗi\n⚡ Makamashi: Reliance, ONGC. Suna da alaƙa da mai, iskar gas, da tace mai\n📡 Sadarwa: Airtel, Vodafone Idea. Babbar kasuwar wayoyin hannu ta Indiya na ci gaba da girma",
+      "etfBasket": "kamfanoni 50 daga cikin mafi girma kuma mafi yawan ciniki a Indiya",
+      "etfDesc": "Misali, Nifty 50 jerin kamfanoni 50 ne daga cikin mafi girma kuma mafi yawan ciniki a Indiya, an zaɓe su bisa girma DA sauƙin saya da sayar da su, ba bisa girma kaɗai ba.",
+      "etfList": "🇮🇳 Nippon India Nifty 50: Nifty 50, jerin kamfanoni 50 daga cikin mafi girma kuma mafi yawan ciniki a Indiya.\n💡 ICICI Prudential Sensex: Sensex, jerin shahararrun kamfanoni (blue chips) 30 na Indiya.\n📦 Kotak Nifty Next 50: Kamfanoni 50 da ke biye da Nifty 50 a jeri.\n🌍 Motilal Oswal Nasdaq 100: Kamfanoni 100 mafi girma da ba na harkar kuɗi ba a Nasdaq.",
+      "currencyHedge": "Idan rupee ya raunana a kan dala, jarinka na ƙasashen waje na ƙara daraja a rupee KAI TSAYE!",
+      "fxQuizSetup": "Rupee ya raunana daga ₹82 zuwa ₹90 a kan dala",
+      "fxQuizLose": "Yana rasa daraja domin tattalin arzikin Indiya na fama",
+      "fxQuizGain": "Yana HAWA a rupee domin kowace dala na saya ƙarin rupee",
+      "dcaTitle": "Daidaita Matsakaicin Farashi da Rupee",
+      "dcaAbbrev": "RCA",
+      "food": "pizza na Domino's"
+    },
+    "JP": {
+      "name": "Japan",
+      "cName": "yen",
+      "cPlural": "yen",
+      "exDesc": "ɗaya daga cikin manyan kasuwannin hannayen jari a duniya",
+      "sectorList": "🚗 Motoci: Toyota, Honda, Nissan. Shahararrun masu ƙera motoci na Japan a duniya\n💻 Fasaha: Sony, SoftBank, Nintendo. Wasannin bidiyo, nishaɗi, da ƙirƙira\n🏦 Banki: MUFG, SMFG, Mizuho. Manyan rukunonin bankuna na Japan\n🛍️ Kasuwanci: Fast Retailing (Uniqlo), Seven & i. Kasuwanci da ya isa duniya\n📡 Sadarwa: NTT, KDDI, SoftBank. Babban tsarin sadarwar wayar hannu",
+      "etfBasket": "kamfanoni 225 da ke jerin Nikkei 225",
+      "etfDesc": "Misali, Nikkei 225 jerin shahararrun kamfanonin Japan 225 ne da aka zaɓa don wakiltar dukan kasuwar. Ana auna shi bisa farashi, ma'ana hannun jari mai babban farashi ya fi nauyi fiye da kamfani da kawai yake da girma.",
+      "etfList": "🇯🇵 ETF na Nikkei 225: Kamfanoni 225 da ke jerin Nikkei 225. Ma'aunin kasuwa.\n📦 ETF na TOPIX: Yanki mafi faɗi na kasuwar Tokyo, sama da kamfanoni dubu.\n🌍 MAXIS All Country World: Kasuwanni masu ci gaba da masu tasowa a asusu ɗaya.\n🇺🇸 iShares S&P 500: Manyan kamfanonin Amurka 500 da ke jerin S&P 500.",
+      "currencyHedge": "Idan yen ya raunana a kan sauran kuɗaɗe, jarinka na ƙasashen waje na ƙara daraja a yen KAI TSAYE!",
+      "fxQuizSetup": "Yen ya raunana daga ¥130 zuwa ¥155 a kan dala",
+      "fxQuizLose": "Yana rasa daraja domin tattalin arzikin Japan na fama",
+      "fxQuizGain": "Yana HAWA a yen domin kadarorinka na ƙasashen waje sun samu ƙarin darajar kuɗi",
+      "dcaTitle": "Daidaita Matsakaicin Farashi da Yen",
+      "dcaAbbrev": "YCA",
+      "food": "kwanon ramen"
+    },
+    "DE": {
+      "name": "Jamus",
+      "cName": "Yuro",
+      "cPlural": "Yuro",
+      "exDesc": "ɗaya daga cikin manyan kasuwannin hannayen jari a Turai",
+      "sectorList": "💻 Fasaha: SAP, Infineon. Manhajojin kamfanoni da semiconductors\n🚗 Motoci: Volkswagen, BMW, Mercedes-Benz. Alfaharin injiniyancin Jamus\n🏦 Banki: Deutsche Bank, Commerzbank. Suna yin kyau idan ƙimar ruwan kuɗi ta hau\n🏭 Masana'antu: Siemens, BASF. Ƙere-ƙere da sinadarai na duniya\n📡 Sadarwa: Deutsche Telekom, 1&1. Ginshiƙin haɗin sadarwar Jamus",
+      "etfBasket": "manyan kamfanonin Jamus 40 a kasuwar Frankfurt",
+      "etfDesc": "Misali, DAX 40 jerin manyan kamfanonin Jamus 40 ne a kasuwar Frankfurt, kuma tun 2021 dole su kasance masu riba don su cancanta.",
+      "etfList": "🇩🇪 iShares Core DAX: Manyan kamfanonin Jamus 40 a kasuwar Frankfurt.\n🌍 Xtrackers MSCI World: Kamfanoni daga ƙasashe 23 masu ci gaba.\n🇺🇸 iShares Core S&P 500: Manyan kamfanonin Amurka 500 da ke jerin S&P 500.\n🇪🇺 ETF na EURO STOXX 50: Shahararrun kamfanoni (blue chips) 50 daga ko'ina a yankin Yuro.",
+      "currencyHedge": "Idan Yuro ya raunana a kan sauran kuɗaɗe, jarinka na ƙasashen waje na ƙara daraja a Yuro KAI TSAYE!",
+      "fxQuizSetup": "Yuro ya raunana sosai a kan dala da yen",
+      "fxQuizLose": "Yana rasa daraja domin tattalin arzikin Turai na fama",
+      "fxQuizGain": "Yana HAWA a Yuro domin kadarorinka na ƙasashen waje sun samu ƙarin darajar kuɗi",
+      "dcaTitle": "Daidaita Matsakaicin Farashi",
+      "dcaAbbrev": "DCA",
+      "food": "döner kebab"
+    },
+    "CA": {
+      "name": "Kanada",
+      "cName": "dalar Kanada",
+      "cPlural": "dalolin Kanada",
+      "exDesc": "ɗaya daga cikin kasuwannin hannayen jari 10 mafi girma a duniya",
+      "sectorList": "💻 Fasaha: Shopify, OpenText, Constellation Software. Ƙirƙirar fasaha ta Kanada\n🏦 Banki: RBC, TD, BMO, Scotiabank. Manyan bankuna biyar na Kanada na da ƙarfi sosai\n⚡ Makamashi: Enbridge, Suncor, TC Energy. Manyan kamfanonin yashin mai da bututun mai\n🛍️ Kasuwanci: Dollarama, Canadian Tire, Loblaw. Sunayen kasuwanci na cikin gida\n📡 Sadarwa: BCE, Rogers, Telus. 'Yan Kanada koyaushe na buƙatar haɗin intanet",
+      "etfBasket": "manyan kamfanonin Kanada 60 da suka game kowace babbar masana'anta",
+      "etfDesc": "Misali, S&P/TSX 60 jerin manyan kamfanonin Kanada 60 ne da wani kwamiti ya zaɓa don a wakilci kowace babbar masana'anta, ma'ana ba kawai kamfanoni 60 mafi girma ba ne.",
+      "etfList": "🇨🇦 iShares S&P/TSX 60 (XIU): Manyan kamfanonin Kanada 60 a kowace babbar masana'anta.\n📦 Vanguard All-Equity (VEQT): Hannayen jari na Kanada, Amurka da na ƙasashen waje a ETF ɗaya.\n🇺🇸 BMO S&P 500: Manyan kamfanonin Amurka 500 da ke jerin S&P 500.\n💡 ETF na Nasdaq 100: Kamfanoni 100 mafi girma da ba na harkar kuɗi ba a Nasdaq. Galibi na fasaha ne.",
+      "currencyHedge": "Idan dalar Kanada ta raunana a kan sauran kuɗaɗe, jarinka na ƙasashen waje na ƙara daraja a C$ KAI TSAYE!",
+      "fxQuizSetup": "Dalar Kanada ta raunana sosai a kan dalar Amurka",
+      "fxQuizLose": "Yana rasa daraja domin tattalin arzikin Kanada na fama",
+      "fxQuizGain": "Yana HAWA a dalar Kanada domin kadarorinka na ƙasashen waje sun samu ƙarin darajar kuɗi",
+      "dcaTitle": "Daidaita Matsakaicin Farashi da Dala",
+      "dcaAbbrev": "DCA",
+      "food": "abincin Tim Hortons"
+    },
+    "AU": {
+      "name": "Ostiraliya",
+      "cName": "dalar Ostiraliya",
+      "cPlural": "dalolin Ostiraliya",
+      "exDesc": "kasuwar hannayen jari mafi girma a Kudancin Duniya",
+      "sectorList": "⛏️ Haƙar ma'adinai: BHP, Rio Tinto, Fortescue. Manyan kamfanonin haƙar ma'adinai da albarkatu na duniya\n🏦 Banki: CBA, Westpac, ANZ, NAB. Manyan bankuna huɗu na Ostiraliya\n🏥 Kiwon lafiya: CSL, Cochlear. Fasahar halittu da na'urorin likita na matakin duniya\n🛍️ Kasuwanci: Woolworths, Coles, Wesfarmers. Kayan abinci da kayan masarufi\n💻 Fasaha: WiseTech Global, Xero. Labaran nasarar manhajoji da aka jera a Ostiraliya",
+      "etfBasket": "kamfanoni 200 mafi girma a ASX",
+      "etfDesc": "Misali, S&P/ASX 200 jerin kamfanoni 200 mafi girma da aka jera a ASX ne, an auna su bisa darajar hannayen jarin da ake da su don ciniki kuma an tace su bisa sauƙin cinikinsu.",
+      "etfList": "🇦🇺 iShares Core S&P/ASX 200 (IOZ): Kamfanoni 200 mafi girma a ASX.\n📦 Vanguard Australian Shares (VAS): Mafi faɗi, kusan kamfanonin ASX 300.\n🌍 Vanguard MSCI International (VGS): Kamfanonin kasuwanni masu ci gaba a wajen Ostiraliya.\n🇺🇸 BetaShares Nasdaq 100 (NDQ): Kamfanoni 100 mafi girma da ba na harkar kuɗi ba a Nasdaq.",
+      "currencyHedge": "Idan dalar Ostiraliya ta raunana a kan sauran kuɗaɗe, jarinka na ƙasashen waje na ƙara daraja a A$ KAI TSAYE!",
+      "fxQuizSetup": "Dalar Ostiraliya ta raunana sosai a kan dalar Amurka",
+      "fxQuizLose": "Yana rasa daraja domin tattalin arzikin Ostiraliya na fama",
+      "fxQuizGain": "Yana HAWA a A$ domin kadarorinka na ƙasashen waje sun samu ƙarin darajar kuɗi",
+      "dcaTitle": "Daidaita Matsakaicin Farashi da Dala",
+      "dcaAbbrev": "DCA",
+      "food": "fanken nama (meat pie)"
+    },
+    "HK": {
+      "name": "Hong Kong",
+      "cName": "dalar Hong Kong",
+      "cPlural": "dalolin Hong Kong",
+      "exDesc": "kasuwar hannayen jari da ke zama ƙofa tsakanin China da kasuwannin duniya",
+      "sectorList": "💻 Fasaha: Tencent, Xiaomi, Meituan. Manyan kamfanonin fasaha na China da aka jera a HK\n🏦 Banki: HSBC, Hang Seng Bank. Suna yin kyau idan ƙimar ruwan kuɗi ta hau\n🏗️ Gidaje da filaye: CK Asset, Sun Hung Kai. Kadarorin gidaje sarki ne a Hong Kong\n⚡ Ababen more rayuwa: CLP, Power Assets. Ribar rabo mai ɗorewa shekara bayan shekara\n🛡️ Inshora: AIA, Prudential. Jagororin inshora a Asiya da Pasifik",
+      "etfBasket": "kamfanoni mafi girma kuma mafi yawan ciniki a Hong Kong",
+      "etfDesc": "Misali, Hang Seng Index jerin zaɓaɓɓun kamfanoni mafi girma kuma mafi yawan ciniki a Hong Kong ne, an zaɓe su don wakiltar kowace babbar masana'anta. Yawan kamfanonin da ke ciki na canzawa yayin da kwamitin index ke ƙara da cire sunaye.",
+      "etfList": "🇭🇰 Tracker Fund (2800): Yana bin Hang Seng Index. Majagaban ETF na Hong Kong.\n💡 Hang Seng TECH ETF: Kamfanonin fasaha 30 mafi girma da aka jera a Hong Kong.\n🇺🇸 ETF na S&P 500: Manyan kamfanonin Amurka 500 da ke jerin S&P 500.\n🇨🇳 ETF na China A-shares: Samun kamfanonin da aka jera a Shanghai da Shenzhen.",
+      "currencyHedge": "An ɗaure dalar HK da dalar Amurka, don haka asusun duniya mai yawan kadarorin Amurka da ƙyar yake motsi saboda canjin kuɗi kaɗai. Amma ɓangaren da ba na Amurka ba (Turai, Japan, sauran Asiya) har yanzu na samun riba a HK$ idan waɗannan kuɗaɗe suka ƙara ƙarfi!",
+      "fxQuizSetup": "Yuro da yen sun ƙara ƙarfi a kan dalar Amurka, kuma an ɗaure dalar HK da dalar Amurka",
+      "fxQuizLose": "Yana rasa daraja domin tattalin arzikin Hong Kong na fama",
+      "fxQuizGain": "Ɓangaren Turai da Japan na HAWA a HK$, domin waɗannan kuɗaɗe yanzu na saya ƙarin dalolin HK",
+      "dcaTitle": "Daidaita Matsakaicin Farashi da Dala",
+      "dcaAbbrev": "DCA",
+      "food": "kwanon taliyar wonton"
+    },
+    "CN": {
+      "name": "China",
+      "cName": "yuan",
+      "cPlural": "yuan",
+      "exDesc": "ɗaya daga cikin manyan kasuwannin hannayen jari a duniya bisa darajar kasuwa",
+      "sectorList": "💻 Fasaha: SMIC, Kingsoft Office. Ƙera chips da manhajoji da aka jera a Shanghai\n🏦 Banki: ICBC, CCB, Bank of China. Suna cikin manyan bankuna a duniya bisa kadarori\n🚗 Motoci: SAIC Motor, Great Wall Motor. Masu ƙera motoci na cikin gidan China\n🛍️ Kayan masarufi: Kweichow Moutai, Haier, Yili. Sanannun sunaye a dukan China\n📡 Sadarwa: China Mobile, China Telecom. Manyan hanyoyin sadarwar wayar hannu",
+      "etfBasket": "kamfanoni 300 daga cikin mafi girma kuma mafi yawan ciniki a babban yankin China",
+      "etfDesc": "Misali, CSI 300 jerin kamfanoni 300 ne daga cikin mafi girma kuma mafi yawan ciniki a babban yankin China, kuma ya game DUKA kasuwar Shanghai da ta Shenzhen, ba ɗaya kawai ba.",
+      "etfList": "🇨🇳 Huatai-PB CSI 300 (510300): Manyan kamfanoni 300 masu yawan ciniki a Shanghai da Shenzhen.\n💡 ChinaAMC SSE 50 (510050): Kamfanoni 50 mafi girma a kasuwar Shanghai kaɗai.\n🌍 Asusun hannayen jari na China mai faɗi: Ya game fiye da CSI 300.\n🇺🇸 Asusun QDII na S&P 500: Samun manyan kamfanonin Amurka 500 da ke jerin S&P 500.",
+      "currencyHedge": "Idan yuan ya raunana a kan sauran kuɗaɗe, jarinka na ƙasashen waje na ƙara daraja a yuan KAI TSAYE!",
+      "fxQuizSetup": "Yuan ya raunana sosai a kan dala da Yuro",
+      "fxQuizLose": "Yana rasa daraja domin tattalin arzikin China na fama",
+      "fxQuizGain": "Yana HAWA a yuan domin kadarorinka na ƙasashen waje sun samu ƙarin darajar kuɗi",
+      "dcaTitle": "Daidaita Matsakaicin Farashi da Yuan",
+      "dcaAbbrev": "YCA",
+      "food": "kwanon taliya"
+    },
+    "FR": {
+      "name": "Faransa",
+      "cName": "Yuro",
+      "cPlural": "Yuro",
+      "exDesc": "gidan wasu daga cikin shahararrun sunayen kayan alatu da masana'antu a duniya",
+      "sectorList": "👜 Kayan alatu: LVMH, Hermès, Kering. Faransa ce ke jagorantar kayan alatu a duniya\n⚡ Makamashi: TotalEnergies, Engie. Manyan kamfanonin makamashi na Turai\n🏦 Banki: BNP Paribas, Société Générale. Suna yin kyau idan ƙimar ruwan kuɗi ta hau\n✈️ Sararin samaniya: Airbus, Safran. Jagororin duniya a jiragen sama da tsaro\n📡 Sadarwa: Orange, Bouygues. Ginshiƙin haɗin sadarwar Faransa",
+      "etfBasket": "kamfanoni 40 da ke jerin CAC 40",
+      "etfDesc": "Misali, CAC 40 jerin kamfanoni 40 ne da wani kwamiti mai zaman kansa ya zaɓa daga cikin 100 mafi girma a kasuwar Paris, bisa girma DA yawan cinikinsu.",
+      "etfList": "🇫🇷 Amundi CAC 40: Kamfanoni 40 da ke jerin CAC 40. Ma'aunin kasuwa.\n🌍 ETF na MSCI World: Kamfanoni daga ƙasashe 23 masu ci gaba.\n🇺🇸 BNP Paribas Easy S&P 500: Manyan kamfanonin Amurka 500 da ke jerin S&P 500.\n🇪🇺 ETF na EURO STOXX 50: Shahararrun kamfanoni (blue chips) 50 daga ko'ina a yankin Yuro.",
+      "currencyHedge": "Idan Yuro ya raunana a kan sauran kuɗaɗe, jarinka na ƙasashen waje na ƙara daraja a Yuro KAI TSAYE!",
+      "fxQuizSetup": "Yuro ya raunana sosai a kan dala da yen",
+      "fxQuizLose": "Yana rasa daraja domin tattalin arzikin Turai na fama",
+      "fxQuizGain": "Yana HAWA a Yuro domin kadarorinka na ƙasashen waje sun samu ƙarin darajar kuɗi",
+      "dcaTitle": "Daidaita Matsakaicin Farashi",
+      "dcaAbbrev": "DCA",
+      "food": "croque-monsieur"
+    },
+    "IT": {
+      "name": "Italiya",
+      "cName": "Yuro",
+      "cPlural": "Yuro",
+      "exDesc": "ɗaya daga cikin kasuwannin hannayen jari mafi tsufa a Turai, gidan shahararrun sunayen Italiya",
+      "sectorList": "🏎️ Motoci: Ferrari, Stellantis. Ƙwarewar injiniyancin Italiya\n⚡ Makamashi: Enel, Eni. Manyan kamfanonin makamashi da ababen more rayuwa na Turai\n🏦 Banki: UniCredit, Intesa Sanpaolo. Suna yin kyau idan ƙimar ruwan kuɗi ta hau\n🛡️ Inshora: Generali, Unipol. Manyan kamfanonin inshora na Italiya\n📡 Sadarwa: TIM, Inwit. Tsarin haɗin sadarwar Italiya",
+      "etfBasket": "kamfanoni 40 da ke jerin FTSE MIB",
+      "etfDesc": "Misali, FTSE MIB jerin kamfanoni 40 ne daga cikin mafi girma kuma mafi yawan ciniki a kasuwar Milan, an zaɓe su don su game manyan masana'antun Italiya.",
+      "etfList": "🇮🇹 ETF na FTSE MIB: Kamfanoni 40 da ke jerin FTSE MIB.\n🌍 iShares Core MSCI World: Kamfanoni daga ƙasashe 23 masu ci gaba.\n🇺🇸 Amundi S&P 500: Manyan kamfanonin Amurka 500 da ke jerin S&P 500.\n🇪🇺 Xtrackers EURO STOXX 50: Shahararrun kamfanoni (blue chips) 50 daga ko'ina a yankin Yuro.",
+      "currencyHedge": "Idan Yuro ya raunana a kan sauran kuɗaɗe, jarinka na ƙasashen waje na ƙara daraja a Yuro KAI TSAYE!",
+      "fxQuizSetup": "Yuro ya raunana sosai a kan dala da yen",
+      "fxQuizLose": "Yana rasa daraja domin tattalin arzikin Turai na fama",
+      "fxQuizGain": "Yana HAWA a Yuro domin kadarorinka na ƙasashen waje sun samu ƙarin darajar kuɗi",
+      "dcaTitle": "Daidaita Matsakaicin Farashi",
+      "dcaAbbrev": "DCA",
+      "food": "pizza margherita"
+    },
+    "ES": {
+      "name": "Sifaniya",
+      "cName": "Yuro",
+      "cPlural": "Yuro",
+      "exDesc": "babbar kasuwar hannayen jari ta Sifaniya kuma ƙofar kasuwannin Latin Amurka",
+      "sectorList": "👗 Kayan ado & kwalliya: Inditex (Zara), Puig. Daular salon Sifaniya a duniya\n🏦 Banki: Santander, BBVA, CaixaBank. Bankunan Sifaniya sun isa sassan duniya sosai\n⚡ Makamashi: Iberdrola, Endesa. Jagororin makamashi mai sabuntawa a Turai\n📡 Sadarwa: Telefónica, Cellnex. Ginshiƙin haɗin sadarwar Sifaniya\n🏗️ Ababen more rayuwa: Ferrovial, ACS. Gina ababen more rayuwa a duniya",
+      "etfBasket": "kamfanoni 35 mafi yawan ciniki a Sifaniya",
+      "etfDesc": "Misali, IBEX 35 jerin hannayen jari 35 mafi yawan ciniki a Sifaniya ne, wani kwamitin fasaha ya zaɓe su bisa yawan ciniki. Don haka jerin mafi yawan ciniki ne, ba jerin mafi girma ba.",
+      "etfList": "🇪🇸 ETF na IBEX 35: Hannayen jari 35 mafi yawan ciniki a Sifaniya.\n🌍 iShares Core MSCI World: Kamfanoni daga ƙasashe 23 masu ci gaba.\n🇺🇸 Vanguard S&P 500: Manyan kamfanonin Amurka 500 da ke jerin S&P 500.\n🇪🇺 ETF na EURO STOXX 50: Shahararrun kamfanoni (blue chips) 50 daga ko'ina a yankin Yuro.",
+      "currencyHedge": "Idan Yuro ya raunana a kan sauran kuɗaɗe, jarinka na ƙasashen waje na ƙara daraja a Yuro KAI TSAYE!",
+      "fxQuizSetup": "Yuro ya raunana sosai a kan dala da yen",
+      "fxQuizLose": "Yana rasa daraja domin tattalin arzikin Turai na fama",
+      "fxQuizGain": "Yana HAWA a Yuro domin kadarorinka na ƙasashen waje sun samu ƙarin darajar kuɗi",
+      "dcaTitle": "Daidaita Matsakaicin Farashi",
+      "dcaAbbrev": "DCA",
+      "food": "farantin tapas"
+    },
+    "NL": {
+      "name": "Netherlands",
+      "cName": "Yuro",
+      "cPlural": "Yuro",
+      "exDesc": "kasuwar hannayen jari mafi tsufa a duniya, wadda aka kafa a 1602",
+      "sectorList": "💻 Fasaha: ASML, Adyen. ASML ne ke ba da ƙarfi ga chips mafi ci gaba a duniya\n⚡ Makamashi: Shell, SBM Offshore. Manyan kamfanonin makamashi na duniya da hedkwatarsu ke NL\n🏦 Banki: ING, ABN AMRO. Suna yin kyau idan ƙimar ruwan kuɗi ta hau\n🍺 Kayan masarufi: Heineken, Ahold Delhaize. Sunayen abinci da abin sha na duniya\n📡 Sadarwa: KPN, babban kamfanin haɗin sadarwa da aka jera a ƙasar",
+      "etfBasket": "kamfanoni 25 mafi yawan ciniki a Amsterdam",
+      "etfDesc": "Misali, AEX jerin hannayen jari 25 mafi yawan ciniki a kasuwar Amsterdam ne. Yana jera kamfanoni bisa yawan cinikinsu, ba bisa girmansu ba.",
+      "etfList": "🇳🇱 iShares AEX: Hannayen jari 25 mafi yawan ciniki a Amsterdam.\n🌍 Vanguard FTSE All-World: Kamfanoni daga ƙasashe da dama a sayayya ɗaya.\n🇺🇸 iShares Core S&P 500: Manyan kamfanonin Amurka 500 da ke jerin S&P 500.\n🇪🇺 ETF na EURO STOXX 50: Shahararrun kamfanoni (blue chips) 50 daga ko'ina a yankin Yuro.",
+      "currencyHedge": "Idan Yuro ya raunana a kan sauran kuɗaɗe, jarinka na ƙasashen waje na ƙara daraja a Yuro KAI TSAYE!",
+      "fxQuizSetup": "Yuro ya raunana sosai a kan dala da yen",
+      "fxQuizLose": "Yana rasa daraja domin tattalin arzikin Turai na fama",
+      "fxQuizGain": "Yana HAWA a Yuro domin kadarorinka na ƙasashen waje sun samu ƙarin darajar kuɗi",
+      "dcaTitle": "Daidaita Matsakaicin Farashi",
+      "dcaAbbrev": "DCA",
+      "food": "kroket"
+    },
+    "BR": {
+      "name": "Brazil",
+      "cName": "real",
+      "cPlural": "reais",
+      "exDesc": "kasuwar hannayen jari mafi girma a Latin Amurka",
+      "sectorList": "⛏️ Haƙar ma'adinai: Vale, CSN. Manyan kamfanonin tama da ƙarfe na Brazil\n⚡ Makamashi: Petrobras, Eletrobras. Manyan kamfanonin mai da wutar lantarki\n🏦 Banki: Itaú, Bradesco, Banco do Brasil. Suna yin kyau idan ƙimar ruwan kuɗi ta hau\n🍺 Kayan masarufi: Ambev, JBS. Ƙwararrun kamfanonin abinci da abin sha\n📡 Sadarwa: Vivo, TIM Brasil. Masu ba da sabis na wayar hannu da intanet a Brazil",
+      "etfBasket": "kamfanoni mafi yawan ciniki a kasuwar B3",
+      "etfDesc": "Misali, Ibovespa jerin kamfanoni mafi yawan ciniki a kasuwar B3 ne. Kamfani na samun gurbinsa bisa yawan saya da sayar da shi, ba bisa girmansa ba. Don haka yawan kamfanonin da ke jerin na canzawa a tsawon lokaci.",
+      "etfList": "🇧🇷 BOVA11: Yana bin Ibovespa, kamfanoni mafi yawan ciniki a B3. Ma'aunin kasuwa.\n🇺🇸 IVVB11: Yana bin S&P 500. Wato manyan kamfanonin Amurka 500, da farashi a reais.\n🌍 ETF na hannayen jari na duniya: Kasuwanni masu ci gaba da masu tasowa a sayayya ɗaya.\n💡 HASH11: Asusun index na crypto da ke riƙe Bitcoin, Ethereum da ƙari.",
+      "currencyHedge": "Idan real ya raunana a kan dala, jarinka na ƙasashen waje na ƙara daraja a R$ KAI TSAYE!",
+      "fxQuizSetup": "Real na Brazil ya raunana daga R$5 zuwa R$6 a kan dala",
+      "fxQuizLose": "Yana rasa daraja domin tattalin arzikin Brazil na fama",
+      "fxQuizGain": "Yana HAWA a real domin kowace dala na saya ƙarin reais",
+      "dcaTitle": "Daidaita Matsakaicin Farashi da Real",
+      "dcaAbbrev": "RCA",
+      "food": "abincin pão de queijo"
+    },
+    "SA_ARABIA": {
+      "name": "Saudiyya",
+      "cName": "riyal",
+      "cPlural": "riyal",
+      "exDesc": "kasuwar hannayen jari mafi girma a Gabas ta Tsakiya",
+      "sectorList": "🛢️ Makamashi: Saudi Aramco, SABIC. Aramco ne kamfanin mai mafi daraja a duniya\n🏦 Banki: Al Rajhi, SNB, Riyad Bank. Suna yin kyau idan ƙimar ruwan kuɗi ta hau\n📡 Sadarwa: STC, Mobily. Masu ba da sabis na wayar hannu da intanet a Saudiyya\n🛍️ Kasuwanci: Jarir, Extra. Shahararrun shagunan kayan masarufi\n⛏️ Kayan ƙere-ƙere: Ma'aden, Yansab. Haƙar ma'adinai da sinadaran man fetur",
+      "etfBasket": "kowane kamfani da aka jera a babbar kasuwar Tadawul",
+      "etfDesc": "TASI (Tadawul All Share Index) ba jerin 30 ko 100 na farko ba ne ko kaɗan. Ya game kowane kamfani da aka jera a babbar kasuwar Tadawul, don haka yawan kamfanonin da ke ciki na canzawa duk lokacin da aka jera kamfani ko ya fita.",
+      "etfList": "🇸🇦 ETF mai bin TASI: Faɗaɗɗen damar shiga dukan babbar kasuwar Tadawul.\n📦 ETF na shahararrun kamfanonin Saudiyya: Ƙaramin kwando na manyan sunayen Saudiyya.\n🌍 ETF na MSCI Saudi Arabia: Yana bin index na Saudiyya na MSCI, wani tataccen ɓangare na kasuwar.\n🇺🇸 Asusun S&P 500: Manyan kamfanonin Amurka 500 da ke jerin S&P 500.",
+      "currencyHedge": "Tun da an ɗaure riyal da dalar Amurka, zuba jari a duniya a wasu kuɗaɗe na amfanar ka idan waɗannan kuɗaɗe suka ƙara ƙarfi!",
+      "fxQuizSetup": "Kuɗaɗen duniya kamar Yuro da yen sun ƙara ƙarfi a kan riyal",
+      "fxQuizLose": "Yana rasa daraja domin tattalin arzikin Saudiyya na fama",
+      "fxQuizGain": "Yana HAWA a riyal domin kadarorinka na ƙasashen waje sun samu ƙarin darajar kuɗi",
+      "dcaTitle": "Daidaita Matsakaicin Farashi da Riyal",
+      "dcaAbbrev": "RCA",
+      "food": "abincin Al Baik"
+    },
+    "KR": {
+      "name": "Koriya ta Kudu",
+      "cName": "won",
+      "cPlural": "won",
+      "exDesc": "gidan Samsung, Hyundai, da wasu daga cikin kamfanoni mafi ƙirƙira a Asiya",
+      "sectorList": "💻 Fasaha: Samsung, SK Hynix, Kakao. Jagororin fasaha da chips a duniya\n🚗 Motoci: Hyundai, Kia. Shahararrun masu ƙera motoci na Koriya a duniya\n🏦 Banki: KB Financial, Shinhan. Suna yin kyau idan ƙimar ruwan kuɗi ta hau\n🎶 Nishaɗi: HYBE, CJ ENM. Guguwar al'adun K-pop da K-drama a duniya\n📡 Sadarwa: KT, LG Uplus. Haɗin sadarwa mai sauri sosai na Koriya ta Kudu",
+      "etfBasket": "kamfanoni 200 daga cikin mafi girma kuma mafi yawan ciniki a Koriya",
+      "etfDesc": "Misali, KOSPI 200 jerin kamfanoni 200 ne daga cikin mafi girma kuma mafi yawan ciniki a Koriya, an zaɓe su masana'anta bayan masana'anta don a wakilci kowane ɓangare na kasuwar.",
+      "etfList": "🇰🇷 KODEX 200: Yana bin KOSPI 200, jerin kamfanoni 200 daga cikin mafi girma kuma mafi yawan ciniki a Koriya.\n🌍 ETF na hannayen jari na duniya: Kamfanonin kasuwanni masu ci gaba a sayayya ɗaya.\n🇺🇸 TIGER Nasdaq 100: Kamfanoni 100 mafi girma da ba na harkar kuɗi ba a Nasdaq.\n💡 KODEX Samsung Group: Yana bin kamfanonin rukunin Samsung da aka jera.",
+      "currencyHedge": "Idan won ya raunana a kan sauran kuɗaɗe, jarinka na ƙasashen waje na ƙara daraja a won KAI TSAYE!",
+      "fxQuizSetup": "Won ya raunana daga ₩1,300 zuwa ₩1,400 a kan dala",
+      "fxQuizLose": "Yana rasa daraja domin tattalin arzikin Koriya ta Kudu na fama",
+      "fxQuizGain": "Yana HAWA a won domin kowace dala na saya ƙarin won",
+      "dcaTitle": "Daidaita Matsakaicin Farashi da Won",
+      "dcaAbbrev": "WCA",
+      "food": "kwanon bibimbap"
+    },
+    "TW": {
+      "name": "Taiwan",
+      "cName": "dalar Taiwan",
+      "cPlural": "dalolin Taiwan",
+      "exDesc": "gidan TSMC, kamfanin da ke ƙera yawancin chips mafi ci gaba a duniya",
+      "sectorList": "💻 Fasaha: TSMC, MediaTek, ASUS. Taiwan ce ke ƙera chips na duniya\n🏭 Ƙere-ƙere: Hon Hai (Foxconn), Delta. Manyan masu ƙera kayan lantarki\n🏦 Banki: Cathay Financial, Fubon. Suna yin kyau idan ƙimar ruwan kuɗi ta hau\n🧪 Sinadarai: Formosa Plastics, Nan Ya. Jagororin kayan masana'antu\n📡 Sadarwa: Chunghwa Telecom, Far EasTone. Ginshiƙin haɗin sadarwar Taiwan",
+      "etfBasket": "kamfanoni 50 mafi girma a Taiwan Stock Exchange",
+      "etfDesc": "Taiwan na da jerin biyu da suka bambanta sosai. TAIEX ya game kowane kamfani da aka jera a Taiwan Stock Exchange, kusan dubu daga cikinsu. Taiwan 50, wanda shahararren ETF 0050 ke bi, kamfanoni 50 mafi girma ne kawai.",
+      "etfList": "🇹🇼 0050 (Yuanta Taiwan Top 50): Kamfanoni 50 mafi girma a kasuwar Taiwan. Na gargajiya.\n📦 0056 (Yuanta High Dividend): Hannayen jarin Taiwan da aka zaɓa saboda ribar rabon da ake tsammani.\n🇺🇸 00646 (Yuanta S&P 500): Manyan kamfanonin Amurka 500 da ke jerin S&P 500.\n💡 00662 (Fubon Nasdaq 100): Kamfanoni 100 mafi girma da ba na harkar kuɗi ba a Nasdaq.",
+      "currencyHedge": "Idan dalar Taiwan ta raunana a kan sauran kuɗaɗe, jarinka na ƙasashen waje na ƙara daraja a NT$ KAI TSAYE!",
+      "fxQuizSetup": "Dalar Taiwan ta raunana daga NT$30 zuwa NT$34 a kan dalar Amurka",
+      "fxQuizLose": "Yana rasa daraja domin tattalin arzikin Taiwan na fama",
+      "fxQuizGain": "Yana HAWA a NT$ domin kadarorinka na ƙasashen waje sun samu ƙarin darajar kuɗi",
+      "dcaTitle": "Daidaita Matsakaicin Farashi da Dala",
+      "dcaAbbrev": "DCA",
+      "food": "miyar taliya da naman sa"
+    },
+    "SG": {
+      "name": "Singapore",
+      "cName": "dalar Singapore",
+      "cPlural": "dalolin Singapore",
+      "exDesc": "babbar cibiyar harkar kuɗi da kasuwar hannayen jari ta Kudu maso Gabashin Asiya",
+      "sectorList": "🏦 Banki: DBS, OCBC, UOB. Bankuna uku masu ƙarfi sosai na Singapore\n✈️ Sufuri: Singapore Airlines, SATS. Sufurin jiragen sama na matakin duniya\n🏗️ Gidaje da filaye: CapitaLand, City Developments. Kadarorin gidaje na da girma sosai a Singapore\n💻 Fasaha: Venture Corporation, AEM. Fasahar da aka jera a SGX galibi ƙera kayan lantarki ce; Sea da Grab sun zaɓi a jera su a Amurka maimakon haka\n📡 Sadarwa: Singtel, StarHub. Masu ba da haɗin sadarwa na Singapore",
+      "etfBasket": "kamfanoni 30 mafi girma a Singapore Exchange",
+      "etfDesc": "Misali, Straits Times Index jerin kamfanoni 30 mafi girma a Singapore Exchange ne da suka kuma ci gwaje-gwajen hannayen jari masu yawo (free-float) da na ciniki.",
+      "etfList": "🇸🇬 Nikko AM STI ETF: Kamfanoni 30 mafi girma a Singapore Exchange. Ma'aunin kasuwa.\n📦 ABF Singapore Bond Index Fund: Takardun lamuni (bonds) na gwamnatin Singapore a asusu ɗaya.\n🌏 iShares MSCI Asia ex Japan: Faɗaɗɗen damar shiga kasuwannin Asiya.\n🇺🇸 ETF na S&P 500: Manyan kamfanonin Amurka 500 da ke jerin S&P 500.",
+      "currencyHedge": "Idan dalar Singapore ta raunana a kan sauran kuɗaɗe, jarinka na ƙasashen waje na ƙara daraja a S$ KAI TSAYE!",
+      "fxQuizSetup": "Dalar Singapore ta raunana sosai a kan dalar Amurka",
+      "fxQuizLose": "Yana rasa daraja domin tattalin arzikin Singapore na fama",
+      "fxQuizGain": "Yana HAWA a S$ domin kadarorinka na ƙasashen waje sun samu ƙarin darajar kuɗi",
+      "dcaTitle": "Daidaita Matsakaicin Farashi da Dala",
+      "dcaAbbrev": "DCA",
+      "food": "abinci a cibiyar hawker"
+    },
+    "CH": {
+      "name": "Switzerland",
+      "cName": "franc",
+      "cPlural": "franc",
+      "exDesc": "gidan Nestlé, Novartis da Roche, uku daga cikin kamfanoni mafi daraja a Turai",
+      "sectorList": "💊 Magunguna: Novartis, Roche. Ƙwararrun kamfanonin magunguna na duniya\n🍫 Kayan masarufi: Nestlé, Lindt. Shahararrun sunayen abinci a duniya\n🏦 Banki: UBS, Julius Baer. Harkar bankin Switzerland ta yi suna\n🏭 Masana'antu: ABB, Holcim. Injiniyanci da gine-gine na duniya\n📡 Sadarwa: Swisscom, Sunrise. Masu ba da haɗin sadarwa na Switzerland",
+      "etfBasket": "kamfanonin Switzerland 20 mafi girma kuma mafi yawan ciniki",
+      "etfDesc": "Misali, Swiss Market Index jerin kamfanonin Switzerland 20 mafi girma kuma mafi yawan ciniki ne.",
+      "etfList": "🇨🇭 iShares Core SPI: Dukan kasuwar Switzerland, ba manyan sunaye kaɗai ba.\n💡 ETF na SMI: Kamfanonin Switzerland 20 mafi girma kuma mafi yawan ciniki.\n🌍 UBS ETF MSCI World: Kamfanoni daga ƙasashe 23 masu ci gaba.\n🇺🇸 iShares Core S&P 500: Manyan kamfanonin Amurka 500 da ke jerin S&P 500.",
+      "currencyHedge": "Idan franc ya raunana a kan sauran kuɗaɗe, jarinka na ƙasashen waje na ƙara daraja a CHF. Franc na Switzerland yawanci yana da ƙarfi sosai!",
+      "fxQuizSetup": "Franc na Switzerland ya raunana sosai a kan dala da Yuro",
+      "fxQuizLose": "Yana rasa daraja domin tattalin arzikin Switzerland na fama",
+      "fxQuizGain": "Yana HAWA a franc domin kadarorinka na ƙasashen waje sun samu ƙarin darajar kuɗi",
+      "dcaTitle": "Daidaita Matsakaicin Farashi da Franc",
+      "dcaAbbrev": "FCA",
+      "food": "kebab"
+    },
+    "SE": {
+      "name": "Sweden",
+      "cName": "krona",
+      "cPlural": "kronor",
+      "exDesc": "gidan Ericsson, Volvo da yawan sunayen duniya abin mamaki",
+      "sectorList": "💻 Fasaha: Ericsson, Hexagon. Sweden na taka rawar da ta fi girmanta a fasaha\n🚗 Motoci: Volvo, Volvo Cars. Ƙwarewar injiniyancin Sweden\n🏦 Banki: SEB, Handelsbanken, Nordea. Suna yin kyau idan ƙimar ruwan kuɗi ta hau\n👗 Kasuwanci: H&M, Essity. Sunayen kayan sawa da kayan masarufi na duniya\n📡 Sadarwa: Telia, Tele2. Jagororin haɗin sadarwa na yankin Nordic",
+      "etfBasket": "kamfanoni 30 mafi yawan ciniki a Stockholm",
+      "etfDesc": "Misali, OMXS30 jerin hannayen jari 30 mafi yawan ciniki a kasuwar Stockholm ne. Yana jerawa bisa yawan ciniki, ba bisa girman kamfani ba.",
+      "etfList": "🇸🇪 Xact OMXS30: Hannayen jari 30 mafi yawan ciniki a Stockholm.\n💰 Avanza Zero: Asusun index na Sweden da babu kuɗin gudanarwa na shekara. Yana bin hannayen jari 30 iri ɗaya na Stockholm.\n🌍 Asusun index na duniya: Kamfanoni daga ƙasashe da dama a sayayya ɗaya.\n🇺🇸 Asusun S&P 500: Manyan kamfanonin Amurka 500 da ke jerin S&P 500.",
+      "currencyHedge": "Idan krona ya raunana a kan sauran kuɗaɗe, jarinka na ƙasashen waje na ƙara daraja a kr KAI TSAYE!",
+      "fxQuizSetup": "Krona na Sweden ya raunana sosai a kan dala da Yuro",
+      "fxQuizLose": "Yana rasa daraja domin tattalin arzikin Sweden na fama",
+      "fxQuizGain": "Yana HAWA a krona domin kadarorinka na ƙasashen waje sun samu ƙarin darajar kuɗi",
+      "dcaTitle": "Daidaita Matsakaicin Farashi da Krona",
+      "dcaAbbrev": "KCA",
+      "food": "nannaɗen falafel"
+    }
+  }
+}

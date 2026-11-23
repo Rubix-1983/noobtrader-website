@@ -1,0 +1,1846 @@
+{
+  "_meta": {
+    "lang": "hr",
+    "source": "src/constants/lessonData.js",
+    "lessons": 84,
+    "hash": {
+      "1": "d38ab2ed",
+      "2": "bf930bc6",
+      "3": "6e4e4d63",
+      "4": "5b7802cc",
+      "5": "0f9cde1d",
+      "6": "e5999569",
+      "7": "66bc9202",
+      "8": "65677cac",
+      "9": "59a1fc31",
+      "10": "03ccde2e",
+      "11": "fbb06743",
+      "12": "7713dc86",
+      "13": "38054a44",
+      "14": "cbac8395",
+      "15": "4355d5d7",
+      "16": "bee25cb0",
+      "17": "a5cba909",
+      "18": "df93ed01",
+      "19": "ad2f3ae8",
+      "20": "6363dc90",
+      "21": "65a3ab78",
+      "22": "61f1ee9c",
+      "23": "a475dd40",
+      "24": "6874af82",
+      "25": "d92ac77b",
+      "26": "e8f1b315",
+      "27": "c3b42e04",
+      "28": "c3719a16",
+      "29": "b8690fa4",
+      "30": "272435ad",
+      "31": "ebbffa78",
+      "32": "31ae442d",
+      "33": "71dbb7c6",
+      "34": "62d271e6",
+      "35": "da185960",
+      "36": "66e0a88e",
+      "37": "4a91dc0c",
+      "38": "9ec4dee7",
+      "39": "ae809a71",
+      "40": "c3b12ff9",
+      "41": "aa4153d7",
+      "42": "29941a97",
+      "43": "d87240fc",
+      "44": "87c794ce",
+      "45": "a3dd8868",
+      "46": "7873826b",
+      "47": "47503da5",
+      "48": "6d2df7b4",
+      "49": "c1055330",
+      "50": "7d4a6a8a",
+      "51": "27e927d2",
+      "52": "041c444d",
+      "53": "8fb1d4bc",
+      "54": "33ec5d94",
+      "55": "b7571fb2",
+      "56": "f20ea6ce",
+      "57": "5a1f3993",
+      "58": "561a7caf",
+      "59": "67437975",
+      "60": "6db8d44d",
+      "61": "04bbebe6",
+      "62": "b43659be",
+      "63": "a6bfefd0",
+      "64": "a2cc88e0",
+      "65": "2f12b47a",
+      "66": "4a676ede",
+      "67": "17351f96",
+      "68": "e9dda763",
+      "69": "3b1a13c3",
+      "70": "b07744de",
+      "71": "798da84a",
+      "72": "960b5a23",
+      "73": "76df64cb",
+      "74": "90735bdf",
+      "75": "b5be8d19",
+      "76": "b2c7a6ad",
+      "77": "1f3344ae",
+      "78": "e03a370e",
+      "79": "3b881962",
+      "80": "64bddadd",
+      "81": "d30753ea",
+      "82": "71620bf3",
+      "83": "989bc8a6",
+      "84": "cdd0a41d"
+    }
+  },
+  "lessons": {
+    "1": {
+      "title": "Što je dionica?",
+      "desc": "Posjeduj mali dio tvrtke",
+      "content": "Zamisli da ti i 9 prijatelja svatko ubacite {c}10 i zajedno kupite tenisice od {c}100. Svatko od vas posjeduje 1/10 tih tenisica, i to je u biti dionica! Kad kupiš dionicu tvrtke {retail}, posjeduješ sićušan dio svake trgovine, svakog proizvoda i svake zarade, do zadnjeg novčića (1 {cName}). Što tvrtka više raste, to tvoj dio više vrijedi! 🔥",
+      "quiz": {
+        "q": "Ti i 4 prijatelja jednako ste podijelili cijenu gaming stolca od {c}500. Što svatko od vas posjeduje?",
+        "explanation": "Posjedovati dionicu znači posjedovati dio cjeline. Pet jednakih uplatitelja znači pet jednakih dijelova, a svaki dio nosi ista prava kao i ostali.",
+        "options": [
+          "Svatko po 1/5 (20%) stolca",
+          "Ništa, samo jedna osoba ga može posjedovati",
+          "Cijeli stolac zajedno, bez ičijeg pojedinačnog udjela"
+        ]
+      }
+    },
+    "2": {
+      "title": "{ex} objašnjen",
+      "desc": "Burza: {name}",
+      "content": "Zamisli {ex} ({exFull}) kao ogromnu internetsku tržnicu, samo što ljudi umjesto tenisica ili mobitela kupuju i prodaju sićušne dijelove (dionice) tvrtki kao što su {top5}. Otvorena je svaki radni dan osim državnih praznika, a cijene se mijenjaju cijeli dan, ovisno o tome tko kupuje, a tko prodaje. {ex} je {exDesc}! 🌍",
+      "quiz": {
+        "q": "Čemu je {ex} najsličniji?",
+        "explanation": "Burza spaja ljude koji žele kupiti dionice s ljudima koji ih žele prodati. Ona ne posjeduje dionice, ne određuje cijenu i neće ti plaćati kamate ako ondje ostaviš novac.",
+        "options": [
+          "Tržnici, gdje se vlasnici dionica susreću s kupcima",
+          "Štednom računu, gdje novac stoji i donosi kamate",
+          "Trgovini koja posjeduje dionice i prodaje ti ih"
+        ]
+      }
+    },
+    "3": {
+      "title": "Bikovi protiv medvjeda",
+      "desc": "Smjerovi tržišta objašnjeni",
+      "content": "Na tržištima glavnu riječ vode životinje 😄\n\n🐂 Bik = cijene idu GORE. Zamisli bika koji rogovima juriša prema gore. Svi pobjeđuju, ljudi kupuju, atmosfera je super.\n\n🐻 Medvjed = cijene idu DOLJE. Zamisli medvjeda koji šapom zamahuje prema dolje. Ljudi su uplašeni, prodaju, nije baš sjajno vrijeme.\n\nKad netko kaže 'bikovski sam raspoložen prema {tech}', misli da će cijena rasti. Kad kaže 'medvjeđe', misli da će padati. Te ćeš riječi čuti posvuda u svijetu financija!",
+      "quiz": {
+        "q": "Prijatelj ti kaže: 'Ovaj tjedan sam medvjeđe raspoložen prema {telco}.' Što to znači?",
+        "explanation": "Medvjeđe znači očekivati pad cijene, bikovski znači očekivati rast. Medvjed šapom udara prema dolje, bik rogovima baca prema gore.",
+        "options": [
+          "Misli da će cijena dionice {telco} rasti",
+          "Misli da će cijena dionice {telco} padati",
+          "Želi kupiti što više dionica {telco}"
+        ]
+      }
+    },
+    "4": {
+      "title": "Što je broker?",
+      "desc": "Tvoj ulaz u kupnju dionica",
+      "content": "Ne možeš samo ušetati u {retail} i reći 'dajte mi malo vaše tvrtke, molim' 😂 Treba ti broker: aplikacija ili usluga koja povezuje kupce i prodavatelje na burzi.\n\nZamisli brokera kao {shop}. Želiš nešto, a {shop} te povezuje s tim. Obavi transakciju i naplati malu naknadu. Popularni brokeri (tržište: {name}) su {broker} i drugi.\n\nEvo što broker NE radi: ne odlučuje koje će dionice rasti. On prosljeđuje tvoj nalog na tržište. Cijena se miče zbog onoga što svi ostali kupuju i prodaju, a ne zato što je tvoj broker tako rekao.\n\nBrokeri ipak objavljuju mišljenja. Njihovi analitičari ocjenjuju dionice s 'kupi', 'drži' ili 'prodaj'. Mišljenje nije naredba 🤷 Analitičari se otvoreno ne slažu oko iste dionice, a mnogi od njih na kraju pogriješe. Čitaj ocjenu kao recenziju, a ne kao pravilo.\n\nNoobTrader te uči točno kako sve to funkcionira, besplatno i s virtualnim novcem!",
+      "quiz": {
+        "q": "Zašto ti treba broker za kupnju dionica?",
+        "explanation": "Broker je tvoj put do burze, a ne gatara niti netko tko određuje cijenu. On prosljeđuje nalog, a cijena je ona po kojoj je ostatak tržišta spreman trgovati. Njegovi analitičari objavljuju ocjene, ali ocjena je mišljenje, a ne uputa.",
+        "options": [
+          "On bira dionice koje će rasti",
+          "On određuje cijenu koju plaćaš za svaku dionicu",
+          "On prosljeđuje tvoj nalog na burzu"
+        ]
+      }
+    },
+    "5": {
+      "title": "Osnove cijene dionice",
+      "desc": "Zašto cijene rastu i padaju?",
+      "content": "Jesi li primijetio kako cijena tenisica iz ograničene serije poskoči čim izađu? Isto se događa s dionicama. Sve se svodi na ponudu i potražnju.\n\n📈 Puno ljudi ŽELI kupiti → cijena ide GORE\n📉 Puno ljudi ŽELI prodati → cijena ide DOLJE\n\nAko {telco} objavi da dobiva 10 milijuna novih korisnika, svi žele komadić, pa cijena poleti. Ako prijavi veliki gubitak, ljudi u panici prodaju i cijena pada. Vijesti, rezultati, pa čak i trendovi na društvenim mrežama mogu u trenu pomaknuti cijene dionica!",
+      "quiz": {
+        "q": "{retail} objavljuje rekordnu dobit i planira otvoriti 50 novih trgovina. Što će se vjerojatno dogoditi s cijenom njihovih dionica?",
+        "explanation": "Bolja očekivana dobit obično znači više kupaca, a više kupaca gura cijenu gore. Trošenje novca na rast nije isto što i bacanje novca.",
+        "options": [
+          "Raste jer je sve više ljudi želi kupiti",
+          "Ostaje potpuno ista",
+          "Strmoglavi se jer troše novac na trgovine"
+        ]
+      }
+    },
+    "6": {
+      "title": "Čitanje grafikona cijene",
+      "desc": "Svijeće, linije i što znače",
+      "content": "Grafikon cijene je kao video s najboljim trenucima iz povijesti dionice. Najpopularnija vrsta je grafikon sa svijećama (candlestick). Svaka 'svijeća' pokazuje ti 4 stvari za jedan dan:\n\n🟢 Zelena svijeća = cijena je taj dan porasla (otvorila se niže, zatvorila više)\n🔴 Crvena svijeća = cijena je pala (otvorila se više, zatvorila niže)\n📏 Tanke linije iznad/ispod = najviša i najniža cijena tog dana\n\nAko vidiš puno zelenih svijeća zaredom, to je snažan uzlazni trend. Puno crvenih znači silazni trend. Učiti čitati grafikone je kao učiti čitati semafor na utakmici! 🎮",
+      "quiz": {
+        "q": "Na grafikonu vidiš 5 crvenih svijeća zaredom. Što ti to govori?",
+        "explanation": "Crvena svijeća zatvara se ispod razine na kojoj se otvorila, pa je pet zaredom pet dana pada. Boja ti govori smjer, a ne veličinu pomaka.",
+        "options": [
+          "Dionica raste već 5 dana",
+          "Dionica pada već 5 dana",
+          "Cijena dionice se nije promijenila"
+        ]
+      }
+    },
+    "7": {
+      "title": "Volumen i što ti govori",
+      "desc": "Koliko se dionica trguje",
+      "content": "Volumen = koliko je dionica kupljeno i prodano u jednom danu. Zamisli ga kao broj pregleda TikTok videa.\n\n🔊 VISOK volumen = puno ljudi trguje. Ako se cijena miče uz visok volumen, to je jači i pouzdaniji signal, kao video koji je stvarno postao viralan, a ne zbog botova.\n\n🔇 NIZAK volumen = trguje samo nekoliko ljudi. Uz nizak volumen cijene se mogu čudno micati, kao video sa samo 3 pregleda koji je netko podijelio greškom.\n\nUvijek provjeri volumen kad vidiš velik pomak cijene. On ti govori je li pomak stvaran ili samo šum!",
+      "quiz": {
+        "q": "Dionica tvrtke {telco} danas skoči 5%, ali je volumen vrlo nizak. Što bi trebao misliti?",
+        "explanation": "Volumen pokazuje koliko uvjerenja stoji iza pomaka. Velik skok uz vrlo malo trgovanja može nestati jednako lako kao što se dogodio, pa provjeri volumen prije nego što povjeruješ u proboj.",
+        "options": [
+          "To je sigurno ogromna prilika, kupi odmah!",
+          "Nizak volumen uvijek znači da će cijena nastaviti rasti",
+          "Pomak možda nije pouzdan, nizak volumen ga čini sumnjivim"
+        ]
+      }
+    },
+    "8": {
+      "title": "Podrška i otpor",
+      "desc": "Razine cijene koje su važne",
+      "content": "Zamisli da je cijena dionice loptica koja odskače:\n\n🧱 PODRŠKA = pod od kojeg se loptica odbija. Cijena stalno pada, ali svaki put kad dotakne tu razinu, odbije se natrag gore. Ovdje se pojavi puno kupaca.\n\n🪟 OTPOR = strop u koji loptica udara. Svaki put kad cijena naraste do te razine, gurne je natrag dolje. Ovdje puno prodavatelja uzima zaradu.\n\nTraderi koriste te razine kao kartu u igri: kupi blizu poda, prodaj blizu stropa. Kad cijena napokon probije otpor, često brzo poleti. Kad probije podršku, pripremi se na pad! 💥\n\nJedno iskreno upozorenje: te razine crtaju ljudi koji gledaju grafikone, to nisu pravila koja tržište mora poštovati. Dionica može ravno probiti 'podršku' i nastaviti padati. 📉",
+      "quiz": {
+        "q": "Dionica se tri puta odbila od {c}50, a da nije pala ispod. Kako se zove {c}50?",
+        "explanation": "Pod koji se stalno poštuje je podrška; strop koji stalno odbija cijenu je otpor. Ni jedno ni drugo nije obećanje, ali vrijedi ih znati prije kupnje.",
+        "options": [
+          "Razina podrške",
+          "Razina otpora",
+          "Cijena stropa"
+        ]
+      }
+    },
+    "9": {
+      "title": "Diversifikacija",
+      "desc": "Ne stavljaj sva jaja u istu košaru",
+      "content": "Zamisli da SAV svoj mobilni internet potrošiš na jednu aplikaciju za streaming. Onda ta aplikacija prestane raditi. Ostao si bez ičega. 😩\n\nAli ako podatke rasporediš na WhatsApp, YouTube I svoju aplikaciju za streaming, pad jedne ne uništava ti cijeli dan.\n\nIsto je s ulaganjem! Ako SAV novac uložiš u jednu dionicu i ona se strmoglavi, gubiš sve. Ali ako ga rasporediš na {telco} (telekomunikacije), {retail} (maloprodaja), {tech} (tehnologija) i jedan ETF, onda pad jedne ne uništava cijeli tvoj portfelj. Ta strategija raspoređivanja zove se DIVERSIFIKACIJA. 💼",
+      "quiz": {
+        "q": "Imaš {c}500 za ulaganje. Što od ovoga stvarno raspoređuje tvoj rizik?",
+        "explanation": "Pet trgovina odjećom raste i pada zbog istih stvari, pa je novac raspoređen na njih jedva raspoređen. Različite industrije upadaju u probleme u različito vrijeme, i upravo to sprječava da jedan loš rezultat odnese sve.",
+        "options": [
+          "Po {c}100 u pet različitih trgovina odjećom",
+          "Po {c}100 u pet različitih industrija",
+          "Svih {c}500 u jednu tvrtku koja ti se najviše sviđa"
+        ]
+      }
+    },
+    "10": {
+      "title": "Rizik i nagrada",
+      "desc": "Zašto veća zarada = veći rizik",
+      "content": "Jesi li ikad kupio kutiju iznenađenja? Možeš dobiti nešto nevjerojatno ili potpuno smeće. To je visok rizik / visoka nagrada.\n\nUlaganje funkcionira isto:\n\n✅ NIŽI RIZIK, NIŽA NAGRADA: Kao {retail}. Ogromna, dobro etablirana tvrtka. Tvoj novac uglavnom raste polako i postojano. Primijeti 'niži', a ne 'nikakav'. I velike tvrtke padaju.\n\n🎲 VISOK RIZIK, VISOKA NAGRADA: Kao sićušna rudarska startup tvrtka. Može narasti 10 puta ili nestati. Kao kutija iznenađenja.\n\nPrije nego što uložiš u bilo što, uvijek se pitaj: 'Što je najgore što se može dogoditi?' Ako si ne možeš priuštiti da to izgubiš, nemoj riskirati!",
+      "quiz": {
+        "q": "Kriptovaluta za koju nitko nije čuo obećava povrat od 500%. Što ti tako veliko obećanje zapravo govori?",
+        "explanation": "Rizik i nagrada su dva kraja istog štapa. Nitko ne dijeli 500% bez razloga, pa je veličina obećanja zapravo mjera toga koliko lako cijeli iznos može nestati. Prije nego što uložiš novac u bilo što, pitaj se kako izgleda najgori scenarij i možeš li živjeti s njim.",
+        "options": [
+          "To je prilika koju je ostatak tržišta nekako propustio",
+          "Što je obećanje veće, to su ljudi iza njega ozbiljniji",
+          "Šansa da izgubiš sve jednako je velika kao i obećanje"
+        ]
+      }
+    },
+    "11": {
+      "title": "Dugoročno ili kratkoročno",
+      "desc": "Način razmišljanja ulagača i tradera",
+      "content": "🏃 KRATKOROČNO TRGOVANJE: Kupnja i prodaja unutar nekoliko dana ili tjedana kako bi se uhvatili brzi pomaci cijena. Puno stresa i puno vremena pred ekranom. Kao da pokušavaš pogoditi pobjednika svake utakmice na turniru.\n\n🧘 DUGOROČNO ULAGANJE: Kupiš dionice i držiš ih godinama. Prebrodiš padove i pustiš novac da raste. Kao da se kladiš na to koja će momčad osvojiti cijelu sezonu. Ne paničariš nakon jedne loše utakmice.\n\nIstraživanja stvarnih brokerskih računa stalno pronalaze isti obrazac: što ljudi češće trguju, to im obično ide lošije kad se uračunaju troškovi.\n\nA vrijeme je jedina prednost koju kasnije ne možeš kupiti natrag. Svaka godina u kojoj novac ostaje uložen još je jedna godina u kojoj radi složeni rast. ⏳",
+      "quiz": {
+        "q": "Dvije osobe kupe iste dionice s istim novcem. Jedna svaki tjedan kupuje i prodaje, a druga ih ne dira deset godina. Što istraživanja stvarnih računa stalno pronalaze?",
+        "explanation": "Svaka transakcija nešto košta, a taj se trošak plaća bez obzira na to je li transakcija uspjela. Istraživanje za istraživanjem stvarnih brokerskih računa pronalazi isti obrazac: što ljudi češće trguju, to više zaostaju na kraju. Ostaviti novac na miru nije lijenost, to je jeftiniji plan.",
+        "options": [
+          "Ona aktivna obično zaostaje kad se uračunaju troškovi",
+          "Ona aktivna obično pobjeđuje, jer se trud ovdje nagrađuje",
+          "Završe izjednačeno, jer su držale potpuno iste dionice"
+        ]
+      }
+    },
+    "12": {
+      "title": "{dcaTitle}",
+      "desc": "Redovito ulaži isti iznos",
+      "content": "Evo strategije toliko jednostavne da se jedva čini kao strategija, a briše najteže pitanje u ulaganju:\n\nUlaži ISTI iznos svaki mjesec, bez obzira na to rastu li cijene ili padaju. Kao da svaki mjesec odvojiš {c}100 od rođendanskog novca ili džeparca.\n\n📉 Kad su cijene NISKE → tvojih {c}100 kupi VIŠE dionica\n📈 Kad su cijene VISOKE → tvojih {c}100 kupi MANJE dionica\n\nS vremenom se tvoj prosječni trošak po dionici izravna i automatski 'kupuješ na padu', a da se ni ne trudiš! Ta se strategija zove {dcaTitle} ({dcaAbbrev}). Ona iz ulaganja uklanja emocije jer nikad ne moraš odlučivati 'je li SADA pravi trenutak?' Samo se obvežeš i kreneš! 💪\n\nIskreno: ovo neće uvijek nadmašiti jednokratno ulaganje cijelog iznosa odjednom. Ono što čini jest da ti daje plan kojeg se stvarno možeš držati.",
+      "quiz": {
+        "q": "Uložiš 200 NT kad dionica košta 100 NT. Dionica se zatim strmoglavi, a tvojih sljedećih 200 NT ulaže se po 25 NT. Povuci do svog prosječnog troška po dionici za obje uplate.",
+        "explanation": "Tvojih prvih 200 NT kupilo je 2 dionice po 100 NT. Tvojih drugih 200 NT kupilo je 8 dionica po 25 NT. To je 400 NT za 10 dionica, dakle 40 NT po dionici. Primijeti da to nije ni blizu sredine između dviju cijena: isti novac automatski kupi više kad je sve jeftino, i upravo to spušta tvoj prosjek."
+      }
+    },
+    "13": {
+      "title": "Novčane bebe 💸",
+      "desc": "Plaćeni samo zato što držiš dionice",
+      "content": "Zamisli da posjeduješ automat za grickalice. Svaki tjedan ljudi kupuju grickalice iz TVOG automata, a ti skupljaš novac samo zato što ga posjeduješ. Nisi morao raditi ništa dodatno!\n\nTo su dividende. Zovemo ih Novčane bebe 🍼 jer tvoj novac doslovno dobiva bebe: male isplate gotovine koje sjedaju na tvoj račun samo zato što posjeduješ dionice.\n\nVelike tvrtke kao što su {divPayers} redovito isplaćuju Novčane bebe. Što više dionica držiš, to su ti bebe veće!\n\n⚠️ One NISU zajamčene. Tvrtka svaki put odlučuje hoće li isplatiti, a može smanjiti dividendu ili je potpuno ukinuti kad posao krene loše. Velika isplata ove godine nije obećanje isplate sljedeće godine.\n\nA ako te bebe ponovno uložiš u kupnju JOŠ dionica... sljedeća tura je još veća. To je prekrasan krug 🔁",
+      "quiz": {
+        "q": "{bank} ti isplaćuje {c}5 za svaku dionicu koju posjeduješ, a da ništa ne prodaš. Kako se zove ta isplata?",
+        "explanation": "Dividenda je dio dobiti tvrtke koji se isplaćuje njezinim vlasnicima. Ova aplikacija ih zove Novčane bebe. Zadržavaš sve dionice koje si imao, a novac ti svejedno sjeda na račun. Ipak nije zajamčena, i tvrtka je može smanjiti ili ukinuti kad god posao krene loše.",
+        "options": [
+          "Dividenda, dio dobiti",
+          "Kamata, kakvu isplaćuje štedni račun",
+          "Bonus vjernosti za to što si kupac"
+        ]
+      }
+    },
+    "14": {
+      "title": "Složene kamate",
+      "desc": "Kako tvoj novac raste sam od sebe",
+      "content": "Evo najmoćnije novčane tajne koju ćeš ikad naučiti. Spreman? 👀\n\nUložiš {c}1,000 uz 10% godišnje:\n• 1. godina: {c}1,000 → {c}1,100 (zaradio si {c}100)\n• 2. godina: {c}1,100 → {c}1,210 (zaradio si {c}110, više nego 1. godine!)\n• 3. godina: {c}1,210 → {c}1,331 (zaradio si {c}121)\n\nSada zarađuješ kamate na svoje KAMATE. Gruda snijega raste svake godine, a da ti ne dodaješ ništa. Nakon 30 godina uz 10%? Tih {c}1,000 postane {c}17,449! 🤯\n\nVidjet ćeš da to zovu 'osmim svjetskim čudom' i pripisuju Einsteinu. Nema stvarnog dokaza da je on to ikad rekao, ali važna je matematika, a matematika je stvarna. Počni rano i vrijeme će odraditi težak posao za tebe.",
+      "quiz": {
+        "q": "Uložiš 2,000 NT uz 10% godišnje i nikad ih ne diraš. Povuci do iznosa koji vrijede nakon tri godine.",
+        "explanation": "Prva godina dodaje 200 NT, što daje 2,200. Druga godina uzima 10% od 2,200, dakle dodaje 220 i daje 2,420. Treća godina dodaje 242 i dolazi do 2,662. Svake se godine 10% računa na veću hrpu, zato dodavanje 200 tri puta i zaustavljanje na 2,600 nije dovoljno."
+      }
+    },
+    "15": {
+      "title": "Složeni rast i dionice",
+      "desc": "Ponovno ulaganje Novčanih beba za rast",
+      "content": "Sjećaš se Novčanih beba (dividendi)? Evo gdje postaje zanimljivo 🤯\n\nObično: Zaradiš {c}50 u Novčanim bebama → potrošiš ih na grickalice → kraj.\n\nPametan potez: Zaradiš {c}50 u Novčanim bebama → kupiš JOŠ dionica → sljedeći put dobiješ VIŠE Novčanih beba → kupiš još više dionica → gruda snijega ide 🔝\n\nTo je složeni rast primijenjen na dionice. Izračunaj: ulaži isti iznos svaki mjesec 30 godina uz prosječni povrat od 10% i na kraju imaš otprilike ŠEST PUTA više nego što si stvarno uplatio. Oko pet šestina te hrpe je rast: novac koji nikad nisi zaradio, uštedio ni uplatio.\n\nKroz duga razdoblja ponovno uložene dividende činile su velik dio ukupnog povrata ulagača. Upravo zato se 'dosadne' tvrtke koje isplaćuju dividende pokažu kao sve samo ne dosadne 💰",
+      "quiz": {
+        "q": "Zaradiš {c}80 od dividendi i svaki cent iskoristiš za kupnju novih dionica umjesto da ga potrošiš. Što se događa pri sljedećoj isplati?",
+        "explanation": "Svaka dodatna dionica koju si kupio sljedeći put isplaćuje vlastitu dividendu, pa isplata raste, a da ne dodaješ nikakav novi novac. To je opet složeni rast, ovaj put pokretan prihodom, a ne cijenom.",
+        "options": [
+          "Isplata ostaje iste veličine, samo stiže kasnije",
+          "Sljedeći put dobiješ manje, jer si novac vratio natrag",
+          "Posjeduješ više dionica, pa je sljedeća isplata veća"
+        ]
+      }
+    },
+    "16": {
+      "title": "Pravilo 72",
+      "desc": "Brz način procjene vremena udvostručenja",
+      "content": "Evo cheat koda za tvoj mozak 🧠\n\nŽeliš znati koliko treba da UDVOSTRUČIŠ svoj novac? Samo podijeli 72 sa svojim godišnjim povratom:\n\n• 72 ÷ 12% povrata = 6 godina do udvostručenja\n• 72 ÷ 8% povrata = 9 godina do udvostručenja\n• 72 ÷ 6% povrata = 12 godina do udvostručenja\n\nDakle, ako na {c}2,000 zarađuješ stabilnih 12% godišnje, za 6 godina imaš {c}4,000. Pričekaj još 6 godina i imaš {c}8,000. Još 6 i imaš {c}16,000! 🤯\n\nTo je aproksimacija, a ne zakon, i stvarni povrati nikad nisu isti broj svake godine. Ali dovoljno je blizu da to izračunaš u glavi, a to je i cijela poanta.\n\nZato je početak s 13 ili 14 godina OGROMNA stvar. Pred sobom imaš više ciklusa udvostručenja nego gotovo itko drugi!",
+      "quiz": {
+        "q": "Ulaganje donosi 9% godišnje. Pomoću Pravila 72 povuci do broja godina potrebnih za udvostručenje.",
+        "explanation": "Podijeli 72 s godišnjim postotkom. 72 podijeljeno s 9 je 8, pa se novac otprilike udvostruči za osam godina, a zatim ponovno udvostruči osam godina nakon toga. To je brza procjena koju možeš napraviti u glavi, a ne točan zakon, jer stvarni povrati nikad nisu isti broj svake godine."
+      }
+    },
+    "17": {
+      "title": "Tržišni ili limitirani nalozi",
+      "desc": "Dva načina kupnje dionica",
+      "content": "Postoje dva glavna načina kupnje dionice:\n\n⚡ TRŽIŠNI NALOG: 'Kupi odmah, po kojoj god cijeni bila.' Kao kad nešto dodaš u košaricu i odmah platiš na {shop}. Dobiješ to odmah, ali cijena koju stvarno platiš je ona koju ti tržište da, a može se razlikovati od broja koji si upravo vidio na ekranu.\n\n🎯 LIMITIRANI NALOG: 'Kupi samo ako cijena padne na {c}X.' Kao kad stvar staviš na listu želja na {shop} i čekaš sniženje. Ti kontroliraš cijenu, ali transakcija se možda nikad neće dogoditi.\n\nLimitirani nalozi daju ti kontrolu nad cijenom. Tržišni nalozi daju ti sigurnost da će se izvršiti. Ne možeš imati oboje! 💸\n\nLimitirani nalog funkcionira isto kad PRODAJEŠ, samo u suprotnom smjeru. Posjeduješ dionicu, odrediš cijenu po kojoj bi rado prodao, i ako se popne do nje, aplikacija prodaje umjesto tebe. Kad kupuješ, zadaješ cijenu ISPOD trenutne. Kad prodaješ, zadaješ cijenu IZNAD. Ista ideja, suprotna strana. 🔁",
+      "quiz": {
+        "q": "{tech} se trguje po {c}200. Rado bi ga posjedovao, ali samo po {c}180 ili manje. Što koristiš?",
+        "explanation": "Tržišni nalog izvršava se odmah po kojoj god cijeni trenutno bila. Limitirani nalog navodi tvoju cijenu i čeka, pa aplikacija prati cijenu umjesto tebe. Kad ti je cijena koju prihvaćaš važnija od brzog ulaska, to je onaj koji želiš.",
+        "options": [
+          "Tržišnu kupnju, koja se odmah izvršava po {c}200",
+          "Limitiranu kupnju postavljenu na {c}180, koja čeka",
+          "Gledati ekran i ručno kupiti po {c}180"
+        ]
+      }
+    },
+    "18": {
+      "title": "Naknade i troškovi trgovanja",
+      "desc": "Razumijevanje naknada za trgovanje",
+      "content": "Većina transakcija te malo košta: broker uzima mali dio. To se zove naknada za trgovanje ili brokerska naknada.\n\n⚠️ Neki brokeri reklamiraju 'nultu proviziju'. Oni ipak moraju nekako zaraditi, pa zarađuju negdje drugdje, obično na maloj razlici između kupovne i prodajne cijene, na konverziji valuta ili na kamatama na novac koji stoji na tvom računu. Besplatno je rijetko besplatno.\n\nSimulirane naknade u aplikaciji NoobTrader su:\n• Dionice na {ex}: {exFee} po transakciji\n• Globalne dionice: 0.50%\n• ETF-ovi: 0.30%\n• Kripto: 0.60%\n• Forex: 0.05%\n• Robe: 0.40%\n\nPrimjer: Kupiš dionice tvrtke {retail} u vrijednosti {c}1,000 uz naknadu od {exFee}. Naknada iznosi {c}{feeAmt}, pa zapravo potrošiš {c}{feeTotal}.\n\nMale naknade se BRZO zbrajaju ako često trguješ. Netko tko napravi 20 transakcija mjesečno plaća tu naknadu 20 puta, i plaća je ponovno kad izlazi. To je jedan od razloga zašto dugoročni ulagači manje trguju: manje transakcija, manje naknada 🧮",
+      "quiz": {
+        "q": "Kupiš dionice na {ex} u vrijednosti {c}1,000 uz naknadu od {exFee}. Koliko iznosi naknada?",
+        "explanation": "Naknada je postotak iznosa kojim se trguje, pa raste s veličinom naloga. Izračunaj je prije transakcije, jer se ponovno naplaćuje kad prodaješ.",
+        "options": [
+          "{c}{feeAmtX10}",
+          "{c}{feeAmtLow}",
+          "{c}{feeAmt}"
+        ]
+      }
+    },
+    "19": {
+      "title": "Stop-loss nalozi",
+      "desc": "Zaštiti se od velikih gubitaka",
+      "content": "Stop-loss je kao postavljanje granice koliko si spreman izgubiti: sigurnosna mreža koju postaviš unaprijed.\n\nPrimjer: Kupiš dionice tvrtke {telco} po {c}100. Odlučiš da NIKAD ne želiš izgubiti više od 15%. Zato postaviš stop-loss na {c}85.\n\nAko {telco} padne na {c}85 → nalog za prodaju se automatski aktivira. Ne moraš gledati i ne moraš donositi odluku dok paničariš.\n\nEvo dijela koji ljudi krivo shvaćaju. Broj za stop-loss UVIJEK je ispod današnje cijene. Mora biti, jer cijena mora pasti da bi ga dosegla. Postaviš li ga iznad današnje cijene, uvjet je već ispunjen, pa prodaje čim ga postaviš, po današnjoj cijeni. To je prodaja, a ne sigurnosna mreža.\n\nNemoj ga brkati s limitiranom prodajom. Oboje automatski prodaju po cijeni koju si odabrao. Razlika je smjer: stop-loss se aktivira kad cijena PADNE na tvoj broj, limitirana prodaja kad NARASTE do tvog broja. Štitiš se → tvoj broj ide ispod. Određuješ svoju cijenu → tvoj broj ide iznad. Pitaj se što od toga radiš prije nego što upišeš. 🧭\n\n⚠️ Važno: stop-loss pokreće PRODAJU, ali ne jamči CIJENU. Ako loše vijesti stignu preko noći i dionica se otvori na {c}70, a da se nikad nije trgovala po {c}85, tvoj nalog izvršava se po onome što tržište stvarno plaća. To može biti znatno ispod razine koju si postavio.\n\nBez ikakvog stop-lossa mogao bi je držati nadajući se oporavku... i gledati kako pada na {c}20. 😬\n\nPro savjet: Uvijek odluči o svom maksimalnom gubitku PRIJE kupnje. Ne dopusti emocijama da donesu tu odluku kad cijena već tone! 🧘",
+      "quiz": {
+        "q": "Kupiš po 200 NT i odlučiš da nisi spreman izgubiti više od 15%. Povuci do cijene na koju spada tvoj stop-loss.",
+        "explanation": "15% od 200 NT je 30 NT, pa je tvoj izlaz 30 ispod cijene po kojoj si kupio, na 170 NT. Stop-loss ide ispod današnje cijene, jer cijena mora pasti da bi ga dosegla. Postaviš li ga iznad, uvjet je već ispunjen, pa prodaje čim ga postaviš, a to je prodaja, a ne sigurnosna mreža."
+      }
+    },
+    "20": {
+      "title": "Kada kupiti i prodati",
+      "desc": "Tajming, strpljenje i disciplina",
+      "content": "Najveća greška novih ulagača? Kupuju kad su svi u hypeu, a prodaju kad svi paničare. To je doslovno suprotno od onoga što funkcionira. 🤦\n\n📱 Kad tvoj grupni chat spama 'KUPI OVU DIONICU ODMAH!!!!' → hype je obično već uračunat u cijenu. Zakasnio si.\n\n😱 Kad svi prodaju u panici → ponekad je to zapravo prilika za kupnju po sniženoj cijeni. Ponekad cijena nastavi padati još godinu dana. Nitko ne zvoni zvonom na dnu.\n\nTajna? Imaj plan PRIJE nego što uložiš:\n• Zašto ovo kupujem? (istraživanje, ne hype)\n• Po kojoj ću cijeni prodati ako ode GORE? (uzimanje dobiti)\n• Po kojoj ću cijeni prodati ako ode DOLJE? (stop-loss)\n\nDrži se svog plana. Ne dopusti da osjećaji preuzmu tvoju strategiju! 💪",
+      "quiz": {
+        "q": "Cijeli tvoj grupni chat hypea dionicu koja je ovaj mjesec već porasla 80%. Koji je pametan potez?",
+        "explanation": "Dok dionica dospije u svaki grupni chat, većina pomaka već se dogodila, a oni koji kasno stižu kupuju od onih koji uzimaju dobit. Sam pogledaj tvrtku. Glasna gomila nije isto što i gomila koja je u pravu.",
+        "options": [
+          "Kupi odmah, prije nego ti cijena pobjegne",
+          "Prodaj ostale dionice i sve stavi ovdje",
+          "Sam provjeri tvrtku prije nego što odlučiš"
+        ]
+      }
+    },
+    "21": {
+      "title": "Što je tržišna kapitalizacija?",
+      "desc": "Kako izmjeriti veličinu tvrtke",
+      "content": "Tržišna kapitalizacija govori ti koliko je tvrtka stvarno velika, odnosno koliko {cPlural} vrijedi.\n\n📐 Formula: Cijena dionice × Ukupan broj dionica = Tržišna kapitalizacija\n\nPrimjer: Ako {retail} ima 1 milijardu dionica i svaka dionica košta {c}50, tržišna kapitalizacija je {c}50 MILIJARDI. To je 'cijena' cijele tvrtke.\n\n🔵 Velika kapitalizacija: najveća, najetabliranija imena, kao {tech} i {bank}. Niži rizik, obično sporiji rast.\n🟡 Srednja kapitalizacija: srednje velike tvrtke. Uravnotežen rizik.\n🔴 Mala kapitalizacija: sićušne tvrtke. Mogu brzo rasti ILI se jako strmoglaviti.\n\n⚠️ Granice nisu univerzalne. U SAD-u 'velika kapitalizacija' obično znači iznad $10 milijardi, ali svako tržište postavlja vlastite razrede, pa velika kapitalizacija na domaćem tržištu ({name}) nije iste veličine kao velika kapitalizacija u SAD-u. Čitaj stvarni broj, ne samo oznaku 🧐",
+      "quiz": {
+        "q": "Tvrtka A ima 5 milijuna dionica po {c}200. Dionice tvrtke B koštaju {c}10. Povuci do broja milijuna dionica koje B treba da bi vrijedila koliko i A.",
+        "explanation": "Tržišna kapitalizacija je cijena dionice puta broj dionica. Tvrtka A vrijedi 5 milijuna puta {c}200, što je {c}1,000 milijuna. Tvrtka B mora doseći isti ukupni iznos po {c}10 za dionicu, pa joj treba 100 milijuna dionica, dvadeset puta više. Niska cijena dionice ne govori ti ništa o veličini tvrtke."
+      }
+    },
+    "22": {
+      "title": "Omjer P/E objašnjen",
+      "desc": "Je li dionica skupa ili jeftina?",
+      "content": "Omjer P/E (cijena/zarada, eng. Price-to-Earnings) govori ti koliko plaćaš za svaku jedinicu dobiti tvrtke (1 {cName} dobiti).\n\n📐 Formula: Cijena dionice ÷ Zarada po dionici = Omjer P/E\n\nZamisli to kao cijenu po komadu pizze 🍕\n\nAko pizza A košta {c}80 za 8 komada = {c}10/komad\nAko pizza B košta {c}100 za 5 komada = {c}20/komad\n\nPizza A je jeftinija po komadu. Slična je ideja s dionicama:\n• Nizak P/E (ispod 10) = možda prilika, ILI tržište očekuje da će dobit PASTI. Nizak P/E je pitanje, a ne odgovor.\n• Visok P/E (iznad 25) = tržište očekuje velik budući rast. Tvrtka ga onda mora stvarno i ostvariti.\n\nUvijek uspoređuj P/E s DRUGIM tvrtkama iz iste industrije. Ne uspoređuj P/E banke s P/E tehnološke tvrtke!",
+      "quiz": {
+        "q": "Tvrtka A ima P/E od 8. Tvrtka B (ista industrija) ima P/E od 30. Što to sugerira?",
+        "explanation": "Niži P/E znači da plaćaš manje za svaku jedinicu dobiti, što može značiti priliku ili tvrtku u problemima. Omjer otvara pitanje; ne odgovara na njega.",
+        "options": [
+          "Tvrtka A je jeftinija po jedinici dobiti, ali saznaj ZAŠTO prije kupnje",
+          "Tvrtka B je uvijek bolja investicija od te dvije",
+          "Omjer P/E uopće ne pomaže pri odlukama o ulaganju"
+        ]
+      }
+    },
+    "23": {
+      "title": "Čitanje rezultata tvrtke",
+      "desc": "Prihod, dobit i što je važno",
+      "content": "Svakih nekoliko mjeseci tvrtke objavljuju svoju 'svjedodžbu' (na nekim tržištima svako tromjesečje, na drugima dvaput godišnje) i ona JAKO pomiče cijene dionica. Evo na što treba paziti:\n\n📊 PRIHOD: Ukupan novac koji dolazi od prodaje. Kao koliko je mala trgovina ukupno utržila.\n💰 NETO DOBIT: Ono što ostane NAKON plaćanja svih troškova. Stvarna zarada na kraju dana.\n📈 EPS (zarada po dionici): Dobit podijeljena s brojem dionica. Koliko je zaradila svaka dionica.\n\nDobri znakovi: Prihod GORE + Dobit GORE + EPS raste = 🟢 cijena često raste\nLoši znakovi: Prihod DOLJE + Dobit pada = 🔴 cijena često pada\n\nJedna kvaka: ono što stvarno pomiče cijenu je rezultat u usporedbi s onim što je tržište OČEKIVALO. Odlični brojevi koji su ispod očekivanja svejedno mogu srušiti dionicu.\n\nTvrtka može imati velik prihod, a nultu dobit (visoki troškovi). Uvijek provjeri OBOJE!",
+      "quiz": {
+        "q": "{bank} prijavljuje prihod veći za 15%, ali dobit manju za 20% zbog viših troškova. Je li to dobar ili loš znak?",
+        "explanation": "Prihod je ono što je ušlo, dobit je ono što je ostalo. Ovdje troškovi rastu brže od prodaje, pa tvrtka posluje više, a zadržava manje. To je stvarno upozorenje, ali nije propast, i sljedeće što treba saznati jest zašto su troškovi porasli.",
+        "options": [
+          "Zabrinjavajuć, jer prodaju više, ali zadržavaju manje",
+          "Snažan, jer je rast prihoda ono što se stvarno računa",
+          "Užasan, jer pad dobiti znači da tvrtka propada"
+        ]
+      }
+    },
+    "24": {
+      "title": "Sektori i industrije",
+      "desc": "Različite vrste tvrtki",
+      "content": "Burza je podijeljena na sektore, kao različiti odjeli u školi.\n\n{sectorList}\n\nRazličiti sektori rastu i padaju u različito vrijeme, i upravo je to cijela poanta diversifikacije među njima! Ako se bankarstvo sruši, možda tehnologija cvjeta. Tvoj portfelj ostaje uravnotežen. 🎯",
+      "quiz": {
+        "q": "Kamatne stope u tvojoj zemlji ({name}) naglo rastu. Koji sektor obično najviše profitira?",
+        "explanation": "Banke zarađuju na razlici između onoga što naplaćuju zajmoprimcima i onoga što plaćaju štedišama, a rast kamatnih stopa obično povećava tu razliku. Za većinu drugih sektora skuplje zaduživanje je trošak.",
+        "options": [
+          "Maloprodaja: kupci se slobodnije zadužuju i višak troše u trgovinama",
+          "Bankarstvo: banke obično zarađuju na većoj razlici između kamata koje naplaćuju zajmoprimcima i plaćaju štedišama",
+          "Tehnologija: zaduživanje za razvoj postaje jeftinije, pa softverske tvrtke brže rastu"
+        ]
+      }
+    },
+    "25": {
+      "title": "Što je ETF?",
+      "desc": "Kupi cijelu košaru odjednom",
+      "content": "Nekad je biranje pjesama jednu po jednu bio jedini način da složiš playlistu. Onda je došao Spotify i dao ti gotove playliste, trenutnu kolekciju bez truda. 🎵\n\nETF-ovi (fondovi kojima se trguje na burzi, eng. Exchange-Traded Funds) su Spotify ulaganja. Umjesto da biraš dionice jednu po jednu, kupiš JEDAN ETF koji drži cijelu košaru dionica.\n\nVećina ETF-ova prati INDEKS: objavljeni popis tvrtki sastavljen prema pravilniku. {etfDesc} ETF jednostavno kupuje ono što je na popisu, u istim omjerima, i sam se ažurira kad se popis promijeni.\n\nDakle, jedan ETF {etf} daje ti sićušan dio sljedećeg: {etfBasket} (imena kao {top5}), jednom kupnjom.\n\n⚠️ Indeks NIJE automatski 'najveće tvrtke'. Neki popisi rangiraju po veličini, neki po tome koliko se dionicom trguje, a neke bira odbor. Dva indeksa na istoj burzi mogu sadržavati potpuno različite tvrtke. Uvijek pročitaj što popis stvarno jest prije nego što ga kupiš.\n\nETF-ovi su obično jeftiniji, jednostavniji i bolje diversificirani od samostalnog biranja dionica. Mnogi profesionalni upravitelji fondova ne mogu ih nadmašiti! 🤯",
+      "quiz": {
+        "q": "Kupiš jedan udio ETF-a {etf}, koji prati sljedeće: {etfBasket}. Što sada posjeduješ?",
+        "explanation": "Indeks je objavljeni popis, a indeksni ETF kupuje sve s njega u istim omjerima. Jedan udio zato drži komadić svakog imena na popisu, zbog čega je i jedna kupnja već raspoređena. To nije samo najveće ime, niti je to gotovina koja čeka tvoje upute.",
+        "options": [
+          "Jednu dionicu najveće tvrtke na tom popisu",
+          "Mali dio svake pojedine tvrtke na tom popisu",
+          "Gotovinu koju fond drži dok mu ne kažeš što da kupi"
+        ]
+      }
+    },
+    "26": {
+      "title": "ETF-ovi na {ex}",
+      "desc": "Popularni ETF-ovi koje bi trebao znati",
+      "content": "Postoji hrpa ETF-ova i indeksnih fondova koje možeš kupiti iz svoje zemlje ({name}). Evo nekih od najpopularnijih:\n\n{etfList}\n\nOgromna prednost ETF-ova: NAKNADE. Mnogi aktivno upravljani fondovi naplaćuju negdje oko 1–2% godišnje, ponekad i više. Široki indeksni ETF-ovi često naplaćuju manje od 0.2%. Na ulaganju od {c}10,000 koje držiš 20 godina ta razlika vrijedi TISUĆE {cPlural} 💸\n\nProvjeri naknadu prije kupnje. Obično je označena kao 'TER' ili 'omjer troškova' (expense ratio). Nitko ti ne može reći koliki će biti povrat ETF-a, ali naknada je jedan broj koji MOŽEŠ znati unaprijed.",
+      "quiz": {
+        "q": "Uložiš 20,000 NT. Aktivno upravljani fond naplaćuje 2% godišnje. Indeksni ETF koji drži uglavnom iste tvrtke naplaćuje 0.2%. Povuci do iznosa koliko ti skuplji uzme više u jednoj godini.",
+        "explanation": "Razlika između dviju naknada je 1.8% godišnje, a 1.8% od 20,000 NT je 360 NT. To se naplaćuje bez obzira na to raste li fond ili pada, i naplaćuje se ponovno svake godine. Nitko ti ne može reći koliki će biti povrat fonda, ali naknada je napisana prije nego što kupiš, obično označena kao TER ili omjer troškova."
+      }
+    },
+    "27": {
+      "title": "Globalni ili lokalni ETF-ovi",
+      "desc": "Ulaganje kod kuće i šire",
+      "content": "Trebaš li ulagati samo u tvrtke iz svoje zemlje ({name})? Kratak odgovor: Ne! Evo zašto:\n\n🏠 LOKALNI ETF-ovi: Ulažu u domaće tvrtke ({name}). Znaš te brendove, a cijene su ti odmah jasne jer su izražene kao iznos {cPlural}. Ali ako domaće gospodarstvo ({name}) zapne, cijeli tvoj portfelj mogao bi pasti.\n\n🌍 GLOBALNI ETF-ovi: Ulažu u međunarodne tvrtke (SAD, Europa, Azija). {currencyHedge}\n\nValuta ipak siječe u oba smjera: ako tvoja domaća valuta OJAČA, isti strani udjeli vrijede manje kod kuće. To je cijena koju prihvaćaš za posjedovanje imovine u inozemstvu.\n\nDržanje i lokalnog i globalnog raspoređuje te na dva različita rizika istovremeno: tvoje gospodarstvo i tvoju valutu. Ravnoteža je sve! ⚖️",
+      "quiz": {
+        "q": "{fxQuizSetup}. Strane dionice u tvom globalnom ETF-u uopće se nisu pomaknule. Koliko on sada vrijedi izraženo u valuti {cName}?",
+        "explanation": "Globalni ETF drži imovinu čija je cijena u drugoj valuti. Kad tvoja valuta oslabi, taj se strani novac pretvara u više tvoje valute, pa udio kod kuće vrijedi više iako su dionice stajale na mjestu. Funkcionira i obrnuto: jača domaća valuta tiho smanjuje isti udio. Valutni rizik siječe u oba smjera.",
+        "options": [
+          "Više, jer novac koji drži u inozemstvu sada kod kuće vrijedi više",
+          "Manje, jer loše vijesti o valuti moraju biti loše i za tvoj novac",
+          "Isto, jer se dionice u njemu nisu ni pomaknule"
+        ]
+      }
+    },
+    "28": {
+      "title": "Štednja ili ulaganje",
+      "desc": "Zašto tvoj novac mora raditi",
+      "content": "Oboje je dobro. Ali služe različitim svrhama:\n\n🏦 ŠTEDNJA: Stavi novac na bankovni račun. Siguran je i možeš mu pristupiti kad god želiš. ALI kamatne stope su obično {savings}, često niže od inflacije. Tvoj novac je 'siguran', ali polako gubi kupovnu moć.\n\n📈 ULAGANJE: Uloži novac u dionice, ETF-ove ili nekretnine. Veći rizik i nikakvo jamstvo u bilo kojoj godini. Neke godine jednostavno izgubiš novac. Kroz duga razdoblja, međutim, dionice su povijesno donosile više od gotovine. Domaće tržište ({name}) u prošlosti je u prosjeku donosilo otprilike {mktReturn} godišnje, a prošli prosjeci su povijest, ne obećanje.\n\nOkvirno pravilo:\n• Troškovi za 3–6 mjeseci u štednji (tvoj fond za hitne slučajeve) 🚨\n• Novac koji ti godinama neće trebati je ono što ljudi ulažu 🚀\n\nNe ulaži novac koji bi ti mogao trebati sljedeći mjesec. Za to služi štednja!",
+      "quiz": {
+        "q": "Tvoji troškovi iznose 800 NT mjesečno, a imaš ušteđenih 5,000 NT. Povuci do najmanjeg fonda za hitne slučajeve koji bi uobičajeno okvirno pravilo ostavilo u gotovini.",
+        "explanation": "Okvirno pravilo je tri do šest mjeseci troškova u gotovini. Tri mjeseca računa od 800 NT je 2,400 NT, a šest mjeseci bilo bi 4,800 NT, pa je bilo što u tom rasponu normalno. Razlog za držanje u gotovini je jednostavan: kad se nešto neočekivano pokvari, ne želiš biti prisiljen prodati ulaganja na dan kad se to dogodi, kakav god on bio."
+      }
+    },
+    "29": {
+      "title": "Inflacija i tvoj novac",
+      "desc": "Zašto gotovina s vremenom gubi vrijednost",
+      "content": "Pitaj nekog odraslog kolika je bila cijena jednog proizvoda, {food}, kad je bio tvojih godina. Bila je negdje oko {c}{foodOld}. Sada je {c}{foodNew}+. To je inflacija: cijene s vremenom polako rastu, što znači da se za isti novac (1 {cName}) može kupiti MANJE nego prije.\n\nInflacija u tvojoj zemlji ({name}) obično je iznosila oko {inflation} godišnje.\n\nDakle, ako tvoja štednja donosi 4% godišnje, a inflacija je 6%, ti zapravo GUBIŠ oko 2% kupovne moći svake godine, iako je stanje na računu poraslo!\n\n💡 Tvoja ulaganja moraju nadmašiti inflaciju da bi stvarno povećala tvoje bogatstvo.\n• Gotovina ispod madraca: gubi vrijednost svake godine 💀\n• Štednja u banci: često jedva drži korak\n• Dionice na {ex} (dugoročni prosjek): {mktReturn} godišnje, što je prošli prosjek, a ne obećanje 🔥\n\nUlaganje nije samo bogaćenje. Radi se o tome da ne postaneš siromašniji! 💸",
+      "quiz": {
+        "q": "Tvoj štedni račun donosi 4% godišnje. Cijene rastu 6% godišnje. Povuci do onoga što se stvarno događa s tvojom kupovnom moći tijekom te godine.",
+        "explanation": "Stvarni povrat je kamata koju zaradiš minus inflacija koju plaćaš, pa 4% naspram 6% daje otprilike minus 2%. Broj na tvom računu raste, dok ono što zapravo možeš kupiti pada, i to je tihi trik koji inflacija izvodi sa štednjom. Za stvaranje stvarnog bogatstva novac mora nadmašiti inflaciju, a ne samo nešto zaraditi."
+      }
+    },
+    "30": {
+      "title": "Emocije i ulaganje",
+      "desc": "Ne prodaji u panici, ne kupuj iz FOMO-a",
+      "content": "Burza je u biti test kontrole emocija. Većina ljudi ga padne. 🎭\n\n😱 PRODAJA U PANICI: Tržište padne 20%, ti poludiš i prodaš sve. Onda se oporavi. Zaključao si gubitak bez razloga.\n\n🤑 KUPNJA IZ FOMO-a: Svi na društvenim mrežama hypeaju neku kriptovalutu. Uletiš. Cijena se odmah strmoglavi. Ostao si držati vreću.\n\nNajbolji ulagači pad tržišta tretiraju kao sniženje u {retail}. Mirno nastavljaju kupovati umjesto da paničare. Warren Buffett je to rekao ovako: 'Budi plašljiv kad su drugi pohlepni, a pohlepan kad se drugi boje.'\n\nNapravi plan. Drži ga se. Tvoje buduće ja zahvalit će ti što nisi bijesno prodavao na crveni dan! 🙏",
+      "quiz": {
+        "q": "Tržište padne 15% u jednom tjednu, a tvoj grupni chat prodaje sve. Tvoj je novac uložen na sljedećih deset godina. Koji je potez?",
+        "explanation": "Pad od 15% postaje stvaran gubitak tek onog dana kad prodaš. Plan koji si napisao dok se ništa nije događalo napisala je tvoja bistra glava, a držati ga se je cijela vještina. Čekati da sve izgleda mirno prije ponovne kupnje znači kupiti skuplje, jer mir dolazi nakon oporavka, a ne prije njega.",
+        "options": [
+          "Prodaj sada i kupi ponovno kad sve izgleda mirnije",
+          "Prebaci novac u ono što chat kupuje",
+          "Nastavi s planom koji si zapisao dok si bio miran"
+        ]
+      }
+    },
+    "31": {
+      "title": "Završni boss",
+      "desc": "Složene kamate, osmo svjetsko čudo",
+      "content": "'Osmo svjetsko čudo: tko ga razumije, zarađuje ga; tko ga ne razumije, plaća ga.' Na internetu ćeš posvuda vidjeti da se ta rečenica pripisuje Einsteinu. Nema stvarnog dokaza da ju je rekao.\n\nMatematika je, međutim, neosporna. Evo najvažnije stvari koju ćeš naučiti o novcu:\n\nNetko tko počne s 20 godina i ulaže {c}500/mjesečno uz 12% godišnje, sa 65 godina ima VIŠE od nekoga tko počne s 35 i ulaže {c}2,000/mjesečno uz istu stopu. Četiri puta veći mjesečni iznos, a ipak završi iza.\n\nVrijeme. Je. Sve.\n\nTo nije trik s brojevima, to je cijela poanta složenog rasta: svaka godina čekanja košta više nego što bilo koja kasnije dodana godina može vratiti. Najbolji trenutak za početak bio je ranije. Drugi najbolji je sada.\n\nOvaj kviz je tvoj završni test. Riješi ga i službeno imaš NoobTrader certifikat! 👑",
+      "bossVictory": "Složene kamate otključane. Sad si opasan. 🔥",
+      "quiz": {
+        "q": "{c}1,000 uloženih uz 12% godišnje tijekom 10 godina naraste na ~{c}3,106. Što se događa ako UDVOSTRUČIŠ vrijeme na 20 godina?",
+        "explanation": "Udvostručenje vremena čini daleko više od udvostručenja rezultata, jer se rast svake godine nadograđuje na sve prije. Rast se ubrzava umjesto da usporava.",
+        "options": [
+          "Više nego utrostruči se na ~{c}9,646",
+          "Otprilike se udvostruči na ~{c}6,200",
+          "Povrat usporava što duže čekaš"
+        ]
+      }
+    },
+    "32": {
+      "title": "Kripto platforme i novčanici",
+      "desc": "Gdje kripto zapravo živi",
+      "content": "Prvo iskreni dio: prave kripto platforme u gotovo svakoj zemlji traže da imaš 18+ godina. Zato ti NoobTrader omogućuje da sve najprije vježbaš s virtualnim novcem. 🎮\n\nKad odrasli kupuju kripto, koriste dvije vrste mjesta:\n\n🏦 MJENJAČNICE I BROKERSKE APLIKACIJE (skrbničke): otvoriš račun, a oni čuvaju tvoj kripto umjesto tebe. Jednostavno, ali im vjeruješ. Ako ih hakiraju ili propadnu, tvoj kripto može nestati. To se dogodilo nekima od najvećih imena u kriptu.\n\n🔑 NOVČANICI U VLASTITOJ SKRBI: aplikacija u kojoj TI držiš tajne ključeve. Nitko ih ne može zamrznuti, ali ti ni nitko ne može pomoći. Izgubiš li seed frazu (12 do 24 tajne riječi), kripto je zauvijek nestao. Nema resetiranja lozinke. Nema korisničke podrške. Nestao.\n\nKripto ekipa kaže: 'Nisu tvoji ključevi, nisu tvoji coinovi.' Sad znaš što to znači.",
+      "quiz": {
+        "q": "Što znači kad mjenjačnica drži tvoj kripto 'skrbnički'?",
+        "explanation": "Skrbnički znači da platforma čuva ključeve, pa su tvoji coinovi sigurni točno onoliko koliko je sigurna platforma. Ako je hakiraju ili propadne, mogu nestati s njom. To ljudi misle kad kažu: nisu tvoji ključevi, nisu tvoji coinovi.",
+        "options": [
+          "Mjenjačnica čuva ključeve umjesto tebe",
+          "Ti držiš ključeve i nitko drugi ih ne može imati",
+          "Nitko ne može dirati coinove, čak ni ti",
+          "Automatski donosi kamate"
+        ]
+      }
+    },
+    "33": {
+      "title": "Kako funkcionira kupnja kripta",
+      "desc": "Spreadovi, naknade i tržišta 24/7",
+      "content": "Kupnja kripta izgleda kao kupnja bilo čega na internetu, ali tri su stvari drukčije:\n\n1️⃣ SPREAD: kupovna cijena uvijek je malo viša od prodajne. Kupiš kripto za {c}100 i odmah ga prodaš, a dobiješ natrag možda {c}97. Ta razlika je način na koji platforme tiho zarađuju.\n\n2️⃣ NAKNADE POVRH TOGA: većina platformi naplaćuje i naknadu po transakciji, često 1 do 2% za male kupnje. Naknade plus spread znače da mala kupnja kreće s oko 3 do 5% minusa prije nego što se cijena uopće pomakne.\n\n3️⃣ NEMA ZATVARANJA: burze dionica zatvaraju se noću i vikendom. Kriptom se trguje 24/7, svaki dan u godini. Cijene se mogu srušiti dok spavaš. To je dio razloga zašto je kripto toliko nestabilniji od dionica.\n\nU NoobTraderu možeš trgovati kriptom s virtualnim novcem, 24/7, bez gubitka ijednog centa. Plaćaš naknadu na svaku transakciju, ali NoobTrader ne naplaćuje spread, pa prava kupnja košta više od iste transakcije ovdje. 📊",
+      "quiz": {
+        "q": "Uložiš 200 NT u neki coin i prodaš ga pet sekundi kasnije, prije nego što se cijena uopće pomaknula. Razlika između kupovne i prodajne cijene košta 3%, a platforma naplaćuje naknadu od 1% na svaku transakciju. Povuci do iznosa koji ti se vrati.",
+        "explanation": "Spread uzima 3%, zatim naknada od 1% pada pri ulasku i još jedna pri izlasku. To je 5% od tvojih 200 NT, dakle 10 NT nestane prije nego što je cijena išta napravila. Dobiješ natrag 190 NT, a coin sada mora narasti 5% samo da budeš na nuli."
+      }
+    },
+    "34": {
+      "title": "Gas naknade objašnjene",
+      "desc": "Zašto slanje kripta košta",
+      "content": "Slanje kripta nije besplatno. Svaka transakcija plaća mrežnu naknadu, često zvanu GAS, računalima koja obrađuju i osiguravaju mrežu.\n\nEvo dijela koji sve iznenadi: cijena gasa ovisi o prometu na mreži, a NE o tome koliko šalješ. Kad je mreža zauzeta, naknade skoče.\n\n🤯 Na nekim mrežama, u gužvi, slanje kripta vrijednog {c}10 može koštati VIŠE od {c}10 u gasu. Platio bi više za dostavu nego što paket vrijedi.\n\nNovije mreže i sustavi 'drugog sloja' (layer 2) postoje uglavnom da bi to pojeftinili, uz naknade od nekoliko centi. Svatko tko se bavi kriptom provjeri naknadu PRIJE nego što pritisne 'pošalji'.\n\nJoš nešto: kripto prijenosi ne mogu se poništiti. Kriva adresa plus plaćeni gas jednako je novac koji je trajno nestao. Nema banke koju možeš nazvati. ☎️❌",
+      "quiz": {
+        "q": "Gas naknade su danas visoke. Želiš poslati kripto vrijedan {c}15, a gas košta {c}20. Kako je pametno to protumačiti?",
+        "explanation": "Cijena gasa ovisi o tome koliko je mreža zauzeta, a ne o tome koliko šalješ, pa mali prijenos može koštati više nego što vrijedi. Ni dijeljenje ne pomaže, jer svaki prijenos plaća vlastitu naknadu. Pričekaj mirnije vrijeme ili koristi jeftiniju mrežu.",
+        "options": [
+          "Plati, jer se naknada vraća kad prijenos stigne",
+          "Preskoči, naknada košta više od paketa",
+          "Podijeli na dva dijela, pa svaka polovica plaća pola naknade",
+          "Ignoriraj naknadu, gas vrijedi samo za velike prijenose"
+        ]
+      }
+    },
+    "35": {
+      "title": "Meme coinovi i rug pullovi",
+      "desc": "Uoči zamke prije nego one uoče tebe",
+      "content": "Meme coinovi su kriptovalute izgrađene na šalama i hypeu umjesto na ikakvoj stvarnoj upotrebi. Nekoliko ih je obogatilo rane kupce, i upravo zato postoje tisuće kopija. Gotovo sve padnu na nulu. 📉\n\nNajgadnija zamka je RUG PULL (izvlačenje tepiha): kreatori naprave coin, žestoko ga hypeaju, čekaju da ljudi nagrnu, a onda prodaju svoju ogromnu zalihu ili isprazne fond za trgovanje. Cijena se sruši u nekoliko minuta. Oni zadrže novac. Ti zadržiš bezvrijedne coinove.\n\n🚩 CRVENE ZASTAVICE koje trebaš zapamtiti:\n• Anonimni tim koji ne možeš provjeriti\n• 'Zajamčeni' povrati (ništa na tržištima nije zajamčeno)\n• Influenceri plaćeni da ga reklamiraju\n• Mala skupina drži većinu ponude\n• Pritisak da 'kupiš prije nego bude prekasno'\n\nAko je glavni argument nekog coina da će te DRUGI ljudi koji ga kupuju obogatiti, to nije ulaganje. To je igra glazbenih stolica, a glazba pripada kreatorima. 🎵",
+      "quiz": {
+        "q": "Novi coin ima anonimni tim, obećava zajamčenih 100x, a plaćeni influenceri ga žestoko guraju. Što se obično dogodi nakon toga?",
+        "explanation": "Anonimni tim, zajamčeni povrat i plaćena promocija standardni su recept za rug pull. Kreatori drže većinu ponude, prodaju je u jeku hypea i odlaze, a kupcima ostaje coin koji nitko ne želi. Ništa na tržištima nije zajamčeno.",
+        "options": [
+          "Kupcima novac vrati mjenjačnica na kojoj je pokrenut",
+          "Cijene se stabiliziraju kad influenceri prestanu objavljivati",
+          "Tim proda svoju zalihu i cijena se sruši",
+          "Regulatori prisile tim da otkrije tko su"
+        ]
+      }
+    },
+    "36": {
+      "title": "Rudarenje, trgovanje ili staking",
+      "desc": "Tri vrlo različite igre",
+      "content": "Tri načina na koja ljudi pokušavaju zaraditi u kriptu, i to NIJE ista igra:\n\n⛏️ RUDARENJE: moćna računala natječu se u obradi transakcija i zarađuju nove coinove. Zvuči zabavno, ali rudarenje Bitcoina danas je industrijsko: skladišta puna specijaliziranih strojeva i ogromni računi za struju. Tvoj mobitel ili laptop ne mogu se natjecati, a aplikacije tipa 'rudari Bitcoin na mobitelu!' gotovo su uvijek prijevare ili farme reklama koje ti ne plate gotovo ništa.\n\n🥩 STAKING: na nekim mrežama zaključaš coinove kako bi pomogao osigurati mrežu i zarađuješ nagrade, pomalo kao kamate. Stvarno je, ali tvoji coinovi mogu neko vrijeme biti zaključani, a njihova CIJENA se i dalje može srušiti dok su zaključani.\n\n📊 TRGOVANJE: kupnja i prodaja radi zarade na pomacima cijena. Hardver ne treba, ali to je igra u kojoj je disciplina najvažnija i u kojoj većina početnika gubi zbog vlastitih emocija.\n\nNoobTrader te uči igru trgovanja bez ikakvog rizika. Za druge dvije treba ti pravi novac da uopće počneš.",
+      "quiz": {
+        "q": "Aplikacija tvrdi da tvoj mobitel može isplativo rudariti Bitcoin dok spavaš. Što je najvjerojatnija istina?",
+        "explanation": "Rudarenje je utrka koju odlučuju specijalizirani hardver i jeftina struja, a mobitel nema ni jedno ni drugo. Aplikacije koje obećavaju drukčije obično žele tvoje podatke, tvoju bateriju ili tvoj novac, a za to ti plate gotovo ništa.",
+        "options": [
+          "Mobiteli rudare sporo, ali ipak ostvaruju dobit",
+          "Funkcionira, ali samo na najnovijim mobitelima",
+          "Mreže su zabranile rudarenje na mobitelima",
+          "To je farma reklama koja ne plaća gotovo ništa"
+        ]
+      }
+    },
+    "37": {
+      "title": "Kripto sigurnost i prijevare",
+      "desc": "Ono što je tvoje neka ostane tvoje",
+      "content": "Supermoć kripta ujedno je i njegova opasnost: transakcije su nepovratne i nema banke koja bi poništila grešku. Prevaranti to obožavaju. Evo tvog obrambenog paketa:\n\n🔐 TVOJA SEED FRAZA JE SVETA. Nitko legitiman NIKAD je neće tražiti. Ni 'osoblje podrške', ni 'bot za provjeru', nitko. Svatko tko traži tvoju seed frazu krade od tebe, točka.\n\n🎣 PHISHING: lažne web stranice i privatne poruke koje izgledaju točno kao prave platforme. Jedno slovo krivo u web adresi. Uvijek sam upiši adresu.\n\n🎁 PRIJEVARE S DARIVANJEM: 'Pošalji 1 coin, dobij 2 natrag!', često preko hakiranog računa neke slavne osobe. Nitko ti ne udvostručuje novac. Nikad.\n\n💕 LJUBAVNE PRIJEVARE I PRIJEVARE S 'MENTOROM ZA ULAGANJE': prijateljski stranac koji te polako nagovori na 'posebnu platformu'. Platforma je lažna. Isplate nikad ne prolaze.\n\nObrazac ispod svake prijevare: hitnost plus tajnost plus zajamčena zarada. Vidiš li to troje zajedno, odlazi. 🚶",
+      "quiz": {
+        "q": "Netko tko tvrdi da je 'podrška platforme' pošalje ti privatnu poruku i traži tvoju seed frazu od 12 riječi kako bi 'provjerio tvoj novčanik'. Što radiš?",
+        "explanation": "Seed fraza JEST novčanik. Svatko tko je ima može ga isprazniti, prava podrška je nikad ne traži i nijedan njezin dio nikad se ne smije dijeliti.",
+        "options": [
+          "Nikad je ne dijeliš, jer prava podrška nikad ne traži seed frazu",
+          "Podijeliš je, jer je provjerenom osoblju podrške potrebna za provjeru računa",
+          "Podijeliš samo prvih šest riječi, što je samo po sebi dovoljno sigurno",
+          "Zamoliš ih da ti se prvo jave e-mailom sa službene adrese, pa je onda podijeliš"
+        ]
+      }
+    },
+    "38": {
+      "title": "Kripto boss",
+      "desc": "Bitcoin vremeplov",
+      "content": "Vrijeme je za priču koju svi citiraju, a nitko je ne ispriča kako treba.\n\nPočetkom 2017. jedan Bitcoin koštao je oko $1,000. U prosincu 2024. prvi je put prešao $100,000. Kupnja od $1,000, držana cijelo vrijeme, postala je oko $100,000. To je 100x. 🤯\n\nA sad dio koji hype izostavlja: da bi pokupio tih 100x, morao si izdržati dva brutalna pada, jedan od oko 84% i drugi od oko 77%, i GODINAMA gledati kako ti se novac smanjuje, a da ne prodaš. Gotovo nikome to nije uspjelo. Većina ljudi kupila je skupo, uspaničila se u padu i prodala jeftino.\n\nA na svaki Bitcoin dolaze tisuće mrtvih coinova koji su pali na nulu. Unaprijed izabrati pobjednika izgleda lako samo unatrag. To se zove pristranost preživjelih (survivorship bias) i to je najskuplja iluzija u kriptu.\n\nPrava lekcija vremeplova: kod coinova koji su preživjeli, strpljenje je pobijedilo tajming. Ali koji će coinovi preživjeti saznaš tek NAKNADNO, i zato diversifikacija pobjeđuje herojske odabire i zato NITKO ne zna budućnost. Čak ni boss. 🐉",
+      "bossVictory": "Kripto modul osvojen. Sad znaš više od većine odraslih. 🐉",
+      "quiz": {
+        "q": "Tisuće coinova pokrenute su uz Bitcoin, a većina danas ne vrijedi gotovo ništa. Zašto \"samo izaberi sljedeći Bitcoin\" izgleda tako lako kad gledaš unatrag?",
+        "explanation": "O preživjelima se još jedino priča, pa biranje pobjednika unatrag izgleda puno lakše nego što je bilo u tom trenutku. Tisuće onih koji su propali nisu ostavile nikakav trag u priči.",
+        "options": [
+          "Zato što su pobjednici jedini o kojima se još priča, a oni koji su propali nestali su iz priče",
+          "Zato što su najbolji coinovi od samog početka očiti svakome tko dovoljno čita o njima",
+          "Zato što većina coinova na kraju uspije za svakoga tko je dovoljno strpljiv da ih drži godinama",
+          "Zato što su stručnjaci točno predvidjeli Bitcoin još 2010. i od tada su pogodili svakog pobjednika"
+        ]
+      }
+    },
+    "39": {
+      "title": "Što je ZAPRAVO blockchain?",
+      "desc": "Tehnologija ispod svega",
+      "content": "Makni hype i blockchain je iznenađujuće jednostavan: zajednička knjiga zapisa čije identične kopije čuvaju tisuće računala.\n\nKad netko pošalje kripto, ta transakcija ide u 'blok' sa stotinama drugih. Blok se zapečati matematikom i poveže lancem s prethodnim blokom. Otuda: blok. Lanac. ⛓️\n\nZašto je to ikome važno? Zbog onoga što omogućuje:\n\n✅ Nitko ne može potajno mijenjati povijest. Promjena starog bloka značila bi ponovnu izradu svakog bloka nakon njega na tisućama računala odjednom.\n✅ Ne vodi ga nijedna tvrtka ni vlada. Mreža računala vodi ga zajedno.\n✅ Svatko može provjeriti zapis. Svaka Bitcoin transakcija ikad napravljena javno je vidljiva.\n\nTo je doista nova tehnologija. Ali NIJE čarobni novac. Savršen zapis bezvrijednog coina i dalje je bezvrijedan coin. To što je tehnologija stvarna ne čini svaki coin izgrađen na njoj vrijednim. 🧠",
+      "quiz": {
+        "q": "Zašto je tako teško potajno promijeniti staru transakciju na blockchainu?",
+        "explanation": "Svaki blok zapečaćen je za onaj prije njega, pa prepisivanje starog znači prepisivanje svakog bloka nakon njega, na tisućama računala, brže nego što mreža dodaje nove. Zbog toga je zapis praktički trajan.",
+        "options": [
+          "Svaki kasniji blok također bi se morao ponovno izraditi",
+          "Svaku promjenu mora odobriti vlada",
+          "Svaki zapis stariji od mjesec dana se briše",
+          "Kreator svakog coina čuva privatni ključ za uređivanje"
+        ]
+      }
+    },
+    "40": {
+      "title": "Bitcoin protiv svega ostalog",
+      "desc": "Nisu svi coinovi ista igra",
+      "content": "'Kripto' nije jedna stvar. Razlike su važnije od sličnosti:\n\n₿ BITCOIN: original. Njegova ponuda zauvijek je ograničena na 21 milijun coinova, zapisano u kodu, a stopa novih coinova prepolovi se otprilike svake četiri godine. (Zvuči poznato? NOOB-ovo prepolavljanje posuđuje točno tu ideju.) Cijela mu je poanta oskudnost plus sigurnost.\n\n⟠ ETHEREUM: manje 'digitalno zlato', više 'svjetsko računalo'. Pokreće pametne ugovore, a to su programi koji se izvršavaju automatski. Većina kripto aplikacija izgrađena je na njemu ili njegovim konkurentima.\n\n🪙 SVE OSTALO: tisuće 'altcoina'. Nekoliko ih rješava stvarne probleme. Većina su kopije, eksperimenti ili grabež novca. Brutalna statistika: većina coinova ikad stvorenih već je mrtva ili bezvrijedna.\n\nLekcija: 'kripto raste' ne govori ti gotovo ništa o nekom ODREĐENOM coinu. Svaki je zasebna oklada, s vlastitim izgledima. 🎲",
+      "quiz": {
+        "q": "Kolika je maksimalna ponuda Bitcoina i koliko se lako može promijeniti?",
+        "explanation": "Granica od 21 milijun dio je pravila koja pokreće svako računalo u mreži. Podizanje granice značilo bi da se gotovo sva ona slože da ono što već drže vrijedi manje, i zato se granica smatra fiksnom.",
+        "options": [
+          "100 milijuna, a rudari o tome glasaju svake godine",
+          "21 milijun, a podizanje je gotovo nemoguće",
+          "1 milijarda, a kreator je može prilagoditi",
+          "Nema granice, pa se novi coinovi tiskaju zauvijek"
+        ]
+      }
+    },
+    "41": {
+      "title": "Stabilni kovanici (stablecoins)",
+      "desc": "Kripto koji pokušava stajati na mjestu",
+      "content": "Stabilni kovanik (stablecoin) je kriptovaluta osmišljena da uvijek vrijedi fiksni iznos, obično točno 1 američki dolar. Trgovci ga koriste kao parkiralište: prodaš svoje nestabilne kovanice za stablecoin i tvoj novac miruje dok odlučuješ o sljedećem potezu.\n\nKako ostaju na $1? Glavni model drži prave dolare i imovinu u rezervi, tako da je svaki kovanik nečim pokriven. Vjeruješ onome tko drži te rezerve.\n\nA evo i tvoje priče upozorenja: stablecoini se mogu SLOMITI. To se stvarno dogodilo. Godine 2022. jedan veliki 'algoritamski' stablecoin, koji je umjesto pravih rezervi koristio pametnu matematiku, pao je s $1 gotovo na nulu u nekoliko dana i izbrisao desetke milijardi dolara. 'Stabilan' je cilj dizajna, a ne jamstvo.\n\nPravilo palca: što je pametniji mehanizam koji nešto drži 'sigurnim', to ga pažljivije trebaš pogledati. 🔍",
+      "quiz": {
+        "q": "Koja je glavna zadaća stabilnog kovanika?",
+        "explanation": "Zadaća stablecoina je stajati na mjestu. On je parkiralište između trgovanja, a ne nešto od čega se očekuje rast.",
+        "options": [
+          "Držati fiksnu vrijednost, obično $1, kako bi trgovci imali stabilno parkiralište",
+          "Rasti brže od Bitcoina praćenjem cijelog kripto tržišta",
+          "Automatski isplaćivati kamatu svakome tko ga drži u novčaniku",
+          "Sakriti transakcije od svih miješanjem javne knjige transakcija"
+        ]
+      }
+    },
+    "42": {
+      "title": "Kripto, porez i zakon",
+      "desc": "Da, pravila vrijede",
+      "content": "Internet je pun ljudi koji vjeruju da je kripto nevidljiv novac bez pravila. Obično to nauče na teži način. 😬\n\nStvarnost u većini zemalja, uključujući Južnu Afriku:\n\n🧾 DOBIT SE OBIČNO OPOREZUJE. Prodaš li kripto skuplje nego što si platio/la, porezna uprava u pravilu želi svoj dio, isto kao i kod dionica.\n\n🪪 MJENJAČNICE ZNAJU TKO SI. Legitimne platforme traže provjeru identiteta (zove se KYC, Know Your Customer, tj. upoznaj svog klijenta). Svaka transakcija također je trajno zapisana na samom blockchainu, što je SUPROTNO od anonimnosti.\n\n⚖️ REGULATORI SU UKLJUČENI. U Južnoj Africi kripto imovina službeno se tretira kao financijski proizvod, što znači da platforme koje je prodaju moraju poštovati pravila financijskih usluga.\n\nNišta od ovoga nije razlog za paniku. Ali JEST razlog da ignoriraš svakoga tko kaže 'pravila ne vrijede za kripto'. Vrijede, a pretvaranje da ne vrijede odrasle dovodi u stvarno ozbiljne nevolje.",
+      "quiz": {
+        "q": "Tvoj rođak kaže da je dobit od kripta nevidljiva poreznoj upravi jer je kripto anoniman. Što tu ne valja?",
+        "explanation": "Legitimne platforme provjeravaju tko si prije nego što možeš trgovati, a svaka transakcija na blockchainu javna je i trajna, što je suprotno od anonimnosti. Dobit se u pravilu oporezuje, pa provjeri pravila tamo gdje živiš.",
+        "options": [
+          "Mjenjačnice provjeravaju identitet, a zapisi su javni",
+          "Ništa, kripto je stvarno anoniman",
+          "Kripto se oporezuje u Americi i nigdje drugdje",
+          "Porez počinje tek kad podigneš milijun"
+        ]
+      }
+    },
+    "43": {
+      "title": "Volatilnost i pravila preživljavanja",
+      "desc": "Zašto kripto toliko divlje skače",
+      "content": "Loš dan na burzi dionica je 3%. Loš dan u kriptu je 20%. Čak je i Bitcoin, 'odrasla osoba' kripta, više puta izgubio preko 80% vrijednosti i kasnije se oporavio. Manji kovanici redovito izgube 95% i nikad se ne vrate.\n\nZašto tako divlje? Kripto se trguje 24/7 bez automatskih kočnica, velik dio kupljen je posuđenim novcem koji se u slomovima prisilno prodaje, a cijene pokreću priče i emocije više nego financijska izvješća.\n\nZato pravila preživljavanja koja ponavlja svaki iskusni trgovac:\n\n1️⃣ Nikad ne ulaži novac koji si ne možeš priuštiti potpuno izgubiti.\n2️⃣ Odredi veličinu pozicija tako da te jedna katastrofa ne može zbrisati.\n3️⃣ Odluči o izlasku PRIJE ulaska, dok si smiren/a.\n4️⃣ FOMO je najskuplji osjećaj u financijama.\n\nVježbaj sva četiri u aplikaciji NoobTrader, gdje su gubici izmišljeni. Navike su prava nagrada. 🏆",
+      "quiz": {
+        "q": "Koje je od ovoga pravo pravilo preživljavanja na volatilnim tržištima?",
+        "explanation": "Nikad ne riskirati novac koji si ne možeš priuštiti izgubiti jedino je pravilo koje te drži u igri. Udvostručavanje nakon gubitka način je na koji računi završavaju.",
+        "options": [
+          "Udvostruči poziciju nakon svakog gubitka da ga vratiš",
+          "Nikad ne ulaži novac koji si ne možeš priuštiti potpuno izgubiti",
+          "Volatilnost pogađa samo male kovanice, pa su veliki sigurni",
+          "Uvijek kupuj kad svi na društvenim mrežama kupuju"
+        ]
+      }
+    },
+    "44": {
+      "title": "Ciklusi hypea i FOMO",
+      "desc": "Obrazac iza svake manije",
+      "content": "Kripto se kreće u ciklusima hypea, a kad jednom uočiš obrazac, više ga ne možeš ne vidjeti:\n\n📈 Faza 1: dogodi se nešto stvarno. Rani vjernici tiho kupuju.\n🚀 Faza 2: cijene rastu. Mediji primijete. Tvoj feed puni se pobjednicima.\n🎪 Faza 3: manija. Taksisti dijele savjete o kovanicima. Ljudi se zadužuju da kupe. 'Ovaj put je drukčije.'\n💥 Faza 4: slom. Zakašnjeli, koji su kupili najskuplje, gube najviše.\n🕳️ Faza 5: tišina. Objave pobjednika nestanu. Nitko ne priča o svojim gubicima.\n\nNFT boom 2021. odigrao je točno ovaj scenarij: digitalni kolekcionarski predmeti prodavali su se za milijune na vrhuncu, a par godina kasnije većina je vrijedila gotovo ništa.\n\nOkrutni trik svake manije: NAJGORE vrijeme za kupnju čini da se osjeća kao NAJHITNIJE vrijeme za kupnju. Kad se čini najsigurnije uskočiti, jer su svi ostali već unutra, laka zarada obično je već nestala. 🎯",
+      "quiz": {
+        "q": "Kad u klasičnom ciklusu hypea prosječna osoba osjeća najjači poriv za kupnjom?",
+        "explanation": "Poriv je najglasniji kad je priča najglasnija, a priča je najglasnija nakon što je cijena već narasla. To što su svi unutra čini da se osjeća sigurno, a upravo zbog toga nema više nikoga tko bi kupio.",
+        "options": [
+          "Rano, dok o tome gotovo nitko ne priča",
+          "Na pola sloma, kad su cijene niske",
+          "Blizu vrha, kad su svi ostali već unutra",
+          "Ne prati nikakav obrazac, poriv je nasumičan"
+        ]
+      }
+    },
+    "45": {
+      "title": "Čitanje svijeće",
+      "desc": "Anatomija svijeće: tijelo i boja",
+      "content": "Svaka svijeća priča malu priču sa samo četiri broja: gdje je cijena otvorila, koliko je najviše dosegla, koliko je najniže pala i gdje je zatvorila. Puno tijelo proteže se od otvaranja do zatvaranja, a boja ti govori tko je pobijedio: zelena znači da je zatvaranje završilo iznad otvaranja, crvena znači da su je prodavači povukli ispod. To je cijeli trik. Nauči pravilno pročitati jednu svijeću i svaki graf na svijetu pretvorit će se iz zida šuma u strip. 🟢",
+      "quiz": {
+        "q": "Ova svijeća je zelena. Što ti govori o tom razdoblju trgovanja?",
+        "options": [
+          "Cijena je zatvorila niže nego što je otvorila",
+          "Više ljudi je kupilo nego prodalo, zajamčeno",
+          "Cijena je zatvorila više nego što je otvorila",
+          "Cijena tijekom razdoblja nijednom nije pala"
+        ]
+      }
+    },
+    "46": {
+      "title": "Fitilji pričaju priče",
+      "desc": "Anatomija svijeće: najviše i najniže",
+      "content": "Tijelo pokazuje gdje je razdoblje otvorilo i zatvorilo, ali fitilji pokazuju cijelo putovanje: svaku cijenu koju je borba stvarno dosegla. Dugi fitilj znači da se velika bitka vodila izvan otvaranja i zatvaranja, a strana koja je ostavila fitilj za sobom tu je bitku izgubila. Dugi fitilj dolje? Prodavači su jako gurali i bili odbijeni. Dugi fitilj gore? Kupci su posegnuli visoko i bili odbijeni. Tijelo je naslov, fitilji su trač. 📏",
+      "quiz": {
+        "q": "Što zapravo pokazuju tanke linije (fitilji) iznad i ispod tijela?",
+        "options": [
+          "Najvišu i najnižu cijenu po kojoj se trgovalo tijekom razdoblja",
+          "Jučerašnje otvaranje i zatvaranje",
+          "Točne cijene na kojima se dogodila većina trgovanja",
+          "Prognozu sutrašnjeg raspona"
+        ]
+      }
+    },
+    "47": {
+      "title": "Doji",
+      "desc": "Pojedinačne svijeće: neodlučnost",
+      "content": "Ponekad svijeća otvori i zatvori na gotovo točno istoj cijeni, ostavljajući sićušno tijelo s fitiljima s obje strane. To je doji i znači da je natezanje konopa završilo neriješeno: kupci i prodavači vukli su snažno cijelu sesiju i nijedna strana nije pobijedila. Sam za sebe to je samo slijeganje ramenima. Nakon snažnog rasta može nagovijestiti da se trend umara, jer strana koja je pobjeđivala odjednom nije mogla pomaknuti cijenu. Trag vrijedan pažnje, nikad jamstvo. 🤝",
+      "quiz": {
+        "q": "Svijetleća svijeća otvorila je i zatvorila na gotovo točno istoj cijeni. Kako se zove i što nagovještava?",
+        "options": [
+          "Marubozu, znak potpunog uvjerenja u jednom smjeru",
+          "Čekić, znak da su kupci vratili kontrolu",
+          "Jaz, znak da je trgovanje stalo preko noći",
+          "Doji, znak neodlučnosti između kupaca i prodavača"
+        ]
+      }
+    },
+    "48": {
+      "title": "Čekić",
+      "desc": "Pojedinačne svijeće: uzvratni udarac",
+      "content": "Zamisli brutalnu sesiju: prodavači sruše cijenu, a onda je kupci prije zatvaranja izvuku skroz natrag. Ono što ostane na grafu je čekić: malo tijelo pri vrhu s dugim donjim fitiljem barem dvostruko većim od tijela. Nakon pada, čekić govori da su prodavači zadali svoj najjači udarac i da nije pogodio. To često označava mogući preokret. Mogući, ne obećani, pa ga shvati kao trag koji pratiš, a ne kao nalog za kupnju. 🔨",
+      "quiz": {
+        "q": "Nakon pada, svijetleća svijeća ispisala je dugi donji fitilj i malo tijelo pri vrhu. Što je to?",
+        "options": [
+          "Zvijezda padalica, znak da su prodavači preuzeli",
+          "Čekić, nagovještaj da su kupci snažno uzvratili",
+          "Doji, savršeno neriješeno",
+          "Dokaz da je silazni trend gotov"
+        ]
+      }
+    },
+    "49": {
+      "title": "Zvijezda padalica",
+      "desc": "Pojedinačne svijeće: odbijanje na vrhu",
+      "content": "Zrcalna slika čekića. Nakon snažnog uspona kupci posegnu za još jednim novim vrhom, budu snažno odbijeni, a cijena zatvori natrag blizu mjesta gdje je otvorila. Graf ispiše malo tijelo pri dnu svijeće s dugim gornjim fitiljem: zvijezdu padalicu. To znači da su se prodavači napokon pojavili na vrhu s dovoljno snage da dobiju sesiju. Nakon velikog rasta to odbijanje često je važno. Često, ne uvijek. 🌠",
+      "quiz": {
+        "q": "Nakon snažnog uspona svijetleća svijeća skočila je gore, a zatim zatvorila blizu svog dna, ostavivši dugi gornji fitilj. Što je to?",
+        "options": [
+          "Zvijezda padalica, nagovještaj da su se prodavači pojavili na vrhu",
+          "Čekić, nagovještaj da kupci opet vladaju",
+          "Zeleni marubozu, čista kupovna snaga",
+          "Jamstvo da cijena sutra pada"
+        ]
+      }
+    },
+    "50": {
+      "title": "Marubozu",
+      "desc": "Pojedinačne svijeće: potpuno uvjerenje",
+      "content": "Marubozu je jedno puno tijelo bez ikakvih fitilja: cijena je otvorila i marširala u jednom smjeru cijelu sesiju bez osvrtanja. Bez borbe, bez oklijevanja, potpuno uvjerenje jedne strane. Zeleni marubozu vrišti povjerenje kupaca, crveni vrišti suprotno. Rijetki su, i upravo zato trgovci naćule uši kad se jedan pojavi. 💪",
+      "quiz": {
+        "q": "Svijetleća svijeća je jedno puno tijelo bez ikakvih fitilja. Što ti taj oblik govori?",
+        "options": [
+          "Nitko nije trgovao u tom razdoblju, pa je ostala ravna",
+          "Tržište se tog dana ranije zatvorilo i prekinulo je",
+          "Jedna strana imala je kontrolu od otvaranja do zatvaranja, potpuno uvjerenje",
+          "Kupci i prodavači bili su savršeno uravnoteženi cijelo vrijeme"
+        ]
+      }
+    },
+    "51": {
+      "title": "Bikovsko gutanje",
+      "desc": "Uzorci od dvije svijeće: kupci udaraju",
+      "content": "Dvije svijeće, jedna poruka. Prvo mala crvena svijeća, uobičajena stvar u silaznom trendu. Zatim veliko zeleno tijelo koje je potpuno proguta: u jednoj sesiji kupci su izbrisali sve što su prodavači postigli dan prije, i još više. Kad se pojavi nakon silaznog trenda, bikovsko gutanje (bullish engulfing) jedan je od najpraćenijih tragova preokreta na bilo kojem grafu, jer pokazuje kako se odnos snaga okreće u jednoj svijeći. Trag, ne ugovor. 🐂",
+      "quiz": {
+        "q": "Veliko zeleno tijelo potpuno guta crveno tijelo ispred sebe. Koji je ovo uzorak od dvije svijeće?",
+        "options": [
+          "Medvjeđe gutanje, prodavači su preuzeli kontrolu",
+          "Bikovsko gutanje, kupci su nadjačali prodavače",
+          "Dvostruko dno",
+          "Dva dojija zaredom"
+        ]
+      }
+    },
+    "52": {
+      "title": "Medvjeđe gutanje",
+      "desc": "Uzorci od dvije svijeće: prodavači udaraju",
+      "content": "Zrcalna slika bikovske verzije. Na vrhu uspona veliko crveno tijelo proguta cijelo zeleno tijelo ispred sebe: prodavači su u jednoj svijeći zbrisali kupnju od prethodnog dana, baš tamo gdje je uspon već bio rastegnut, a najnoviji kupci nervozni. To obično i ostale kupce učini nervoznima. Kad ga vidiš nakon dugog rasta, poštuj ga. 🐻",
+      "quiz": {
+        "q": "Na vrhu uspona veliko crveno tijelo guta cijelo zeleno tijelo ispred sebe. Kako se zove ovaj par?",
+        "options": [
+          "Bikovsko gutanje, uspon se nastavlja",
+          "Čekić nakon kojeg slijedi doji",
+          "Proboj iznad otpora",
+          "Medvjeđe gutanje, prodavači su nadjačali kupce"
+        ]
+      }
+    },
+    "53": {
+      "title": "Prepoznavanje uzlaznog trenda",
+      "desc": "Trendovi: viši vrhovi, viša dna",
+      "content": "Uzlaznom trendu trebaju obje polovice: viši vrhovi I viša dna. Svaki vrh nadmašuje prethodni, a svaki pad staje više od onog prije, jer kupci svaki put uskaču ranije. Taj oblik stubišta tržište ti govori da potražnja vlada. Jedan viši vrh sam za sebe ne dokazuje ništa. Obrazac je par, koji se ponavlja. 📈",
+      "quiz": {
+        "q": "Svaki vrh nadmašuje prethodni, a svaki pad staje više od onog prije. Što pokazuje ovaj graf?",
+        "options": [
+          "Uzlazni trend, viši vrhovi i viša dna",
+          "Silazni trend, niži vrhovi i niža dna",
+          "Raspon, cijena zaglavljena između poda i stropa",
+          "Dvostruki vrh u nastajanju"
+        ]
+      }
+    },
+    "54": {
+      "title": "Prepoznavanje silaznog trenda",
+      "desc": "Trendovi: niži vrhovi, niža dna",
+      "content": "Okreni stubište naopako. Niži vrhovi znače da prodavači napadaju ranije pri svakom odbijanju, niža dna znače da se kupci povlače dalje pri svakom padu. Dok ta struktura drži, prodavači vode igru, a boriti se protiv nje način je na koji novi trgovci poklanjaju novac strpljivima. Trend ti nije neprijatelj, ali pretvarati se da ga nema definitivno jest. 📉",
+      "quiz": {
+        "q": "Svako odbijanje završava niže od prethodnog, a svaki pad ide dublje. Što gledaš?",
+        "options": [
+          "Uzlazni trend koji samo hvata dah",
+          "Bočni raspon",
+          "Silazni trend, niži vrhovi i niža dna",
+          "Uzorak bikovskog gutanja u nastajanju"
+        ]
+      }
+    },
+    "55": {
+      "title": "Bočno tržište",
+      "desc": "Trendovi: igra čekanja",
+      "content": "Ponekad nijedna strana ne pobjeđuje, pa cijena tjednima skače kao ping-pong loptica između istog poda i istog stropa. To je raspon, a tržišta provode golem dio svog života radeći upravo to. Nije pokvareno i nije dosadno, to tržište hvata dah. Strpljivi trgovci nauče voljeti čekanje, jer što raspon dulje drži, to je konačni bijeg obično značajniji. 🏓",
+      "quiz": {
+        "q": "Cijena se tjednima odbija između istog poda i istog stropa. Kako se to zove?",
+        "options": [
+          "Uzlazni trend, stalno dodiruje strop",
+          "Raspon, tržište se kreće bočno",
+          "Glava i ramena",
+          "Proboj u tijeku"
+        ]
+      }
+    },
+    "56": {
+      "title": "Podrška",
+      "desc": "Podrška i otpor: pod",
+      "content": "Kad cijena stalno pada na istu razinu i svaki se put odbije, trgovci tu razinu zovu podrška: pod na kojem kupci stalno odlučuju da je cijena povoljna. Što više puta drži, to je više ljudi prati, što je dijelom razlog zašto i dalje drži. Ali zapamti, pod crtaju ljudi, ne zakon. Podrška se može probiti i probija se, a kad se to dogodi, ekipa koja je čekala odbijanje postaje ekipa u panici. 🧱",
+      "quiz": {
+        "q": "Cijena je tri puta pala u osjenčanu razinu i svaki se put odbila. Kako trgovci zovu tu razinu?",
+        "options": [
+          "Otpor, strop na kojem se prodavači gomilaju",
+          "Linija trenda, razine moraju biti dijagonalne",
+          "Stop-loss koji je postavila burza",
+          "Podrška, pod na kojem kupci stalno uskaču"
+        ]
+      }
+    },
+    "57": {
+      "title": "Otpor",
+      "desc": "Podrška i otpor: strop",
+      "content": "Otpor je strop: razina na kojoj svaki rast zastane jer prodavači tamo rado unovčavaju. Gledaj kako graf tri puta udara glavom u istu cijenu i gledaš kako otpor djeluje uživo. Evo obrata koji vrijedi zapamtiti: ako se cijena ikad probije s pravim uvjerenjem, taj stari strop često počne djelovati kao novi pod. 🪟",
+      "quiz": {
+        "q": "Tri odvojena rasta zastala su na osjenčanoj razini. Kako se ta razina zove?",
+        "options": [
+          "Otpor, strop na kojem prodavači stalno guraju natrag",
+          "Podrška, pod koji se nalazi ispod cijene",
+          "Razina dividende, koja se određuje jednom godišnje",
+          "Skok obujma, koji ne govori ništa o cijeni"
+        ]
+      }
+    },
+    "58": {
+      "title": "Linije trenda",
+      "desc": "Linije trenda i kanali: linija koja je važna",
+      "content": "Spoji rastuća dna na grafu i nacrtao/la si liniju trenda. Bilo koje dvije točke čine liniju, ali treći dodir je mjesto gdje ona počinje dokazivati da je važna, jer pokazuje da kupci stalno brane istu rastuću razinu. Svaki dodatni poštovani dodir dodatni je dokaz. Ostaje dokaz, nikad obećanje: linija trenda je trag olovke, a ne zaštitno polje. ✏️",
+      "quiz": {
+        "q": "Ova rastuća linija dodirnuta je tri odvojena puta. Zašto je trgovcima važno koliko dodira linija trenda ima?",
+        "options": [
+          "Nije im važno, jer bilo koje dvije točke liniju trenda čine pravilom",
+          "Tri dodira znače da je četvrto odbijanje zajamčeno",
+          "Više dodira čini liniju značajnijom, kupci je stalno brane",
+          "Linije trenda vrijede samo na dnevnim grafovima, nikad kraćima"
+        ]
+      }
+    },
+    "59": {
+      "title": "Kanali",
+      "desc": "Linije trenda i kanali: traka",
+      "content": "Kanal je trend s lijepim manirama. Cijena raste odbijajući se između dvije paralelne linije: poda od rastućih dna i stropa od rastućih vrhova, koji se zajedno kreću prema gore poput rubova prometne trake. Trgovci prate oba ruba zbog odbijanja, a još pažljivije prate dan kad cijena napusti traku, jer čist proboj iz kanala često je mjesto gdje počinje sljedeći veliki pomak. 🛣️",
+      "quiz": {
+        "q": "Cijena raste odbijajući se između dvije paralelne linije. Koji je ovo uzorak?",
+        "options": [
+          "Trokut, u kojem se dvije linije moraju spojiti",
+          "Rastući kanal, uzlazni trend s vidljivom trakom",
+          "Dvostruki vrh",
+          "Ravni raspon koji ne ide baš nikamo"
+        ]
+      }
+    },
+    "60": {
+      "title": "Dvostruki vrh",
+      "desc": "Uzorci na grafu: oblik slova M",
+      "content": "Cijena dvaput udari u isti strop, oba puta ne uspije i nacrta veliko M na grafu. Probij ispod udubine u sredini (linija vrata) i dvostruki vrh je dovršen: klasičan medvjeđi trag preokreta. Njegova zrcalna slika, W, je dvostruko dno i pokazuje u drugom smjeru. Obično označava vrh, ali ne mora. Ništa na grafu ne mora. Ⓜ️",
+      "quiz": {
+        "q": "Cijena je dvaput udarila u isti strop, oba puta nije uspjela, a zatim je probila ispod udubine u sredini. Koji je ovo oblik?",
+        "options": [
+          "Dvostruko dno, bikovski trag",
+          "Rastući kanal",
+          "Čekić",
+          "Dvostruki vrh, medvjeđi trag preokreta"
+        ]
+      }
+    },
+    "61": {
+      "title": "Kad uzorci zakažu",
+      "desc": "Uzorci na grafu: vjerojatnosti, ne obećanja",
+      "content": "Ovo je najvrjednija lekcija u modulu. Nastao je uzorak kao iz udžbenika, svi su ga vidjeli, a onda je tržište napravilo suprotno. Svaki uzorak koji si naučio/la ponekad zakaže, i to nije graf koji ti laže, to je graf koji ti daje informaciju: strana na koju si se kladio/la upravo je izgubila. Odluči o izlasku prije ulaska, a kad uzorak zakaže, shvati mig i izađi. Uzorci su vjerojatnosti, nikad obećanja. 🚪",
+      "quiz": {
+        "q": "Dvostruko dno kao iz udžbenika nastalo je na osjenčanom podu... a onda se cijena srušila ravno kroz njega. Koja je iskrena pouka?",
+        "options": [
+          "Uzorci su vjerojatnosti, ne obećanja, a uzorak koji zakaže tvoj je znak da izađeš",
+          "Prava dvostruka dna nikad ne zakažu, pa je ono koje si gledao/la sigurno bilo lažno",
+          "Kupi još po nižoj cijeni, jer će se uzorak ionako na kraju ostvariti",
+          "Grafovi potpuno prestaju funkcionirati kad ti uzorak tako zakaže"
+        ]
+      }
+    },
+    "62": {
+      "title": "Glava i ramena",
+      "desc": "Uzorci na grafu: tri vrha",
+      "content": "Tri vrha: viši u sredini (glava), niži sa svake strane (ramena) i linija ispod dviju udubina koja se zove linija vrata. Nastaje kad kupci izvedu jedan posljednji, viši nalet, a onda ga u sljedećem pokušaju ne mogu ni dostići. Sam oblik samo je upozorenje. Dio koji trgovci stvarno čekaju je odlučan proboj ispod linije vrata, jer tada uzorak prestaje biti crtež i postaje odluka. 👤",
+      "quiz": {
+        "q": "Tri vrha: viši u sredini, niži sa svake strane i pod koji spaja dvije udubine. Koji je ovo klasični oblik?",
+        "options": [
+          "Trostruko dno, tri jednaka dna prije naleta prema gore",
+          "Glava i ramena, mogući kraj uzlaznog trenda",
+          "Uzlazni trokut",
+          "Tri čekića zaredom, svaki odbija niže cijene"
+        ]
+      }
+    },
+    "63": {
+      "title": "Stiskanje trokuta",
+      "desc": "Uzorci na grafu: napeta opruga",
+      "content": "Kad se zamasi stalno smanjuju, a viša dna pritišću niže vrhove, tržište se napinje poput opruge. To je trokut: objema stranama ponestaje prostora, odluka se iznuđuje. Stiskanje često završava eksplozijom, a evo kvake: smjer eksplozije unaprijed nije poznat. Pričekaj proboj umjesto da ga pogađaš. Tržište će ti reći, i za tu informaciju ne naplaćuje ništa. 🌀",
+      "quiz": {
+        "q": "Zamasi se stalno smanjuju, stiskajući cijenu u sve užu oprugu, dok konačno ne eksplodira. Što je bila ta opruga?",
+        "options": [
+          "Kanal, dvije paralelne linije koje se nikad ne spoje",
+          "Dvostruki vrh",
+          "Trokut, konsolidacija koja često završava probojem",
+          "Dokaz da je cijena odavde morala probiti prema gore"
+        ]
+      }
+    },
+    "64": {
+      "title": "Obujam: detektor laži",
+      "desc": "Obujam: tko se stvarno pojavio",
+      "content": "Obujam (volumen) je broj dionica koje su promijenile vlasnika, i on je detektor laži grafova. Proboj uz sićušan obujam šapat je koji zavarava ljude: šačica trgovanja gurnula je cijenu negdje gdje ne može ostati. Proboj uz velik obujam je gomila koja stvarno glasa novcem. Isti pomak cijene, potpuno drukčije značenje. Prije nego što povjeruješ bilo kojem velikom pomaku, provjeri tko se za njega pojavio. 🔊",
+      "quiz": {
+        "q": "Dva pokušaja bijega od istog stropa: prvi uz sićušan obujam nije uspio, drugi je došao s ogromnim obujmom i održao se. Što obujam ovdje radi?",
+        "options": [
+          "Baš ništa, obujam nikad nije važan za pomak cijene",
+          "Gura cijenu gore, jer visok obujam podiže cijene",
+          "Predviđa točan vrh pomaka prije nego što se dogodi",
+          "Služi kao potvrda, velik obujam pokazuje pravo uvjerenje iza pomaka"
+        ]
+      }
+    },
+    "65": {
+      "title": "Prepoznavač trendova",
+      "desc": "Deset grafova, bez oznaka, bez milosti",
+      "content": "Deset grafova. Bez oznaka, bez pomoćnih linija, bez savjeta. Reci što svaki pokazuje, točno kao pravi trgovac koji bulji u pravi ekran. Ostvari 8 od 10 i modul je tvoj. Imaš 3 pokušaja dnevno, zato uspori, čitaj svijeće i zapamti najvažniju lekciju od svih: ponekad je iskren odgovor da uzorka uopće nema. 🕯️",
+      "bossVictory": "Modul trendova osvojen. Sad ti čitaš grafove, a ne grafovi tebe. 🕯️",
+      "bossQuestions": {
+        "0": {
+          "q": "Što pokazuje ovaj graf?",
+          "explanation": "Namjerno neuredno. Ukloni šum i svaki vrh zamaha i dalje nadmašuje prethodni, a svaki pad i dalje završava više. Pravi trendovi izgledaju ovako, a ne kao stubište iz udžbenika.",
+          "options": [
+            "Silazni trend, niži vrhovi i niža dna",
+            "Uzlazni trend, viši vrhovi i viša dna",
+            "Bočni raspon",
+            "Dvostruki vrh"
+          ]
+        },
+        "1": {
+          "q": "Što se dogodilo kod svijetlećeg para svijeća?",
+          "explanation": "Crveno tijelo progutalo je cijelo zeleno tijelo odmah nakon dugog uspona. To je medvjeđe gutanje koje radi točno ono što radi: pojavljuje se tamo gdje su kupci najviše rastegnuti.",
+          "options": [
+            "Bikovsko gutanje",
+            "Doji na vrhu",
+            "Čekić",
+            "Medvjeđe gutanje na vrhu rasta"
+          ]
+        },
+        "2": {
+          "q": "Što pokazuje ovaj graf?",
+          "explanation": "Srednji vrh jasno stoji iznad dvaju sa strane, a udubine se poravnavaju u liniju vrata. Pravi uzorci nikad nisu simetrični, i ovako stvarno izgledaju u divljini.",
+          "options": [
+            "Glava i ramena",
+            "Trostruki vrh s tri jednaka vrha",
+            "Uzlazni trokut",
+            "Rastući kanal"
+          ]
+        },
+        "3": {
+          "q": "Što pokazuje ovaj graf?",
+          "explanation": "Dva pokušaja na istom podu, drugi malo plići, a zatim nalet prema gore kroz srednje odbijanje. Oblik slova W, koji je nacrtalo pravo tržište, a ne udžbenik.",
+          "options": [
+            "Glava i ramena",
+            "Silazni trokut",
+            "Dvostruko dno",
+            "Medvjeđa zastava"
+          ]
+        },
+        "4": {
+          "q": "Što je svijetleća svijeća?",
+          "explanation": "Dugi gornji fitilj, sićušno tijelo parkirano na dnu raspona, odmah nakon rasta. Kupci su posegnuli za novim vrhom i dobili pljusku natrag dolje prije zatvaranja.",
+          "options": [
+            "Čekić",
+            "Zeleni marubozu",
+            "Doji",
+            "Zvijezda padalica nakon uspona"
+          ]
+        },
+        "5": {
+          "q": "Što pokazuje ovaj graf?",
+          "explanation": "Isti pod i isti strop stalno se poštuju, a sve između je šum. Nijedna strana ne pobjeđuje, pa nema trenda koji bi se mogao jahati.",
+          "options": [
+            "Raspon, cijena zatvorena između podrške i otpora",
+            "Uzlazni trend, viši vrhovi i viša dna",
+            "Padajući klin",
+            "Proboj u tijeku"
+          ]
+        },
+        "6": {
+          "q": "Cijena se probila iznad starog stropa, a zatim se pad označen strelicom vratio na tu razinu i održao. Što je bio taj pad?",
+          "explanation": "Pad se vratio točno na razinu koja je nekad bila strop, tamo našao kupce, i trend se nastavio. To je povlačenje. Preokret bi prorezao razinu i nastavio padati.",
+          "options": [
+            "Potpuni preokret u silazni trend",
+            "Povlačenje, ponovno testiranje probijene razine",
+            "Dvostruki vrh",
+            "Odskok mrtve mačke"
+          ]
+        },
+        "7": {
+          "q": "Što pokazuje ovaj graf?",
+          "explanation": "Ravan pod, niži vrhovi koji pritišću na njega, prodavači stižu ranije pri svakom odbijanju. Pod je na kraju popustio, a to je ishod prema kojem ovaj oblik često naginje. Često, nikad uvijek.",
+          "options": [
+            "Uzlazni trokut",
+            "Rastući kanal",
+            "Silazni trokut naslonjen na podršku",
+            "Dvostruko dno"
+          ]
+        },
+        "8": {
+          "q": "Što pokazuje ovaj graf?",
+          "explanation": "Pitanje-zamka, i najvrjednije u boss kvizu. Većina grafova, većinu vremena, ne pokazuje ništa vrijedno trgovanja. Vidjeti uzorke kojih nema način je na koji početnici gube. Reći ne trgovanju je vještina. 🎯",
+          "options": [
+            "Glava i ramena",
+            "Dvostruki vrh",
+            "Uzlazni trend",
+            "Nema čistog uzorka, ovdje nema ničeg za trgovanje"
+          ]
+        },
+        "9": {
+          "q": "Što pokazuje ovaj graf?",
+          "explanation": "Cijena je provirila iznad stropa uz slab obujam, kupci su je jurili, a onda se srušila ravno natrag u raspon. Proboj koji zakaže upravo je razlog zašto ti je lekcija o obujmu rekla da provjeriš obujam prije nego što mu povjeruješ.",
+          "options": [
+            "Bikovska zamka, neuspjeli proboj koji je uvukao kupce",
+            "Uspješan proboj s čistim ponovnim testiranjem",
+            "Dvostruko dno",
+            "Preokret čekićem"
+          ]
+        }
+      }
+    },
+    "66": {
+      "title": "Ovdje ništa ne posjeduješ",
+      "desc": "Derivat je oklada na broj",
+      "content": "Iza svega što si dosad naučio/la stajalo je nešto stvarno. Kupiš dionicu tvrtke {retail} i posjeduješ komadić tvrtke: komadić trgovina, komadić dobiti, glas na skupštini i dividendu kad je isplaćuju.\n\nDerivat nije to.\n\nCFD (ugovor za razliku, contract for difference) je dogovor između tebe i pružatelja usluge da razmijenite razliku u cijeni između trenutka kad otvoriš i trenutka kad zatvoriš. To je cijeli proizvod. Ako {retail} poraste, a ti si se kladio/la na rast, oni tebi plate razliku. Ako padne, ti platiš njima. Nitko ne kupuje dionicu. Nitko ne prodaje dionicu. U cijeloj transakciji nigdje ne postoji nijedna dionica.\n\nFutures (terminski ugovor) je ugovor da kupiš ili prodaš nešto po određenoj cijeni na određeni datum. Pravi se namiruju stvarnim barelima nafte ili tonama kukuruza, ali gotovo ih nitko ne drži toliko dugo, pa je u praksi i većina futuresa oklada na broj s pridruženim rokom.\n\nZašto je to važnije nego što zvuči:\n\n• Nema dividendi. Nema Novčanih Beba. Ono što je tiho izgradilo većinu prinosa u lekciji 15 ovdje jednostavno ne postoji.\n• Nema glasa, nema vlasništva, nema ničega za držati. Nema opcije „samo drži deset godina”, jer nema ničega što bi držao/la.\n• Nema složenog rasta. Ostatak ove aplikacije troši 65 lekcija da te nauči da je vrijeme na tvojoj strani. U ovoj sobi vrijeme te košta novca. Točno koliko vidjet ćeš u lekciji 72.\n\nSve što već znaš i dalje je važno. Samo to više nije ono što radiš. 📄",
+      "quiz": {
+        "q": "Otvoriš CFD na {retail} i cijena poraste. Što zapravo posjeduješ?",
+        "explanation": "CFD je dogovor između tebe i pružatelja da razmijenite razliku između cijene kad si otvorio/la i cijene kad zatvoriš. Nitko ne kupuje dionicu, nitko je ne prodaje i nijedna ne postoji nigdje u dogovoru. Zato nema dividende, nema glasa i nema ničega za držati deset godina.",
+        "options": [
+          "Dionice koje pružatelj drži na svoje ime",
+          "Ugovor o razmjeni razlike u cijeni na kraju",
+          "Dio tvrtke i dividende koje uz to idu",
+          "Bon koji se pretvara u prave dionice kad zatvoriš"
+        ]
+      }
+    },
+    "67": {
+      "title": "Posudba od prijatelja",
+      "desc": "Što poluga zapravo jest, i dio koji nitko ne objavljuje",
+      "content": "Poluga zvuči tehnički. Nije. To je posudba.\n\nRecimo da želiš dionica za {c}1,000, ali imaš samo {c}200. Prijatelj ponudi da uloži preostalih {c}800. Kontroliraš {c}1,000 dionica s {c}200 vlastitog novca. To je poluga. To je cijela ideja.\n\nSad tri stvari koje taj prijatelj radi. Trebaju ti sve tri, inače su ti prodali bajku.\n\n1️⃣ DOBIT JE STVARNO TVOJA. Dionice porastu 10%. Tvojih {c}1,000 sada je {c}1,100. To je {c}100 dobiti i zadržavaš svaki cent, jer prijatelju duguješ {c}800 i ni centa više (valuta: {cName}). Na tvojih {c}200, {c}100 je dobitak od 50%. Pomak od 10% donio ti je 50%. To je dio o kojem svi objavljuju.\n\n2️⃣ ZAJAM SE NE SMANJUJE KAD SI U KRIVU. To je dio o kojem nitko ne objavljuje, i to je cijela lekcija. Dionice umjesto toga padnu 10%. Tvojih {c}1,000 sada je {c}900. Prijatelju i dalje duguješ punih {c}800. Ne {c}720. Punih {c}800. Dakle cijeli pad od {c}100 ide iz TVOG dijela, i tvojih {c}200 sada je {c}100. Pomak od 10% koštao te 50%.\n\nPročitaj to dvoje ponovno. Isti prijatelj, istih 10%. Tvoj se novac kreće pet puta brže u oba smjera, jer zajam nikad ne preuzima dio boli.\n\n3️⃣ PRIJATELJ NAPLAĆUJE NAJAMNINU, SVAKI DAN, NA CIJELI IZNOS. Ne na svojih {c}800. Na punih {c}1,000 koje kontroliraš. Svaku noć koju držiš poziciju, bez obzira je li cijena išla gore, dolje ili nikamo.\n\nA četvrta stvar skriva se unutar treće. Ako tvojih {c}200 počne nestajati, prijatelj te ne zove da porazgovarate. On prodaje. Odmah, automatski, po bilo kojoj dostupnoj cijeni, jer su u riziku njegovih {c}800 i ne čeka tvoje mišljenje. To ima ime i upoznat ćeš ga za tri lekcije: likvidacija.\n\nDakle: veći dobici, veći gubici, najamnina svake noći i tuđi prst na gumbu za prodaju. Poluga nije besplatan novac s malo rizika. To je zajam sa sve četiri te stvari, a reklame ti uvijek pokazuju samo prvu. 🧠",
+      "quiz": {
+        "q": "Prijatelj uloži 800 NT, ti uložiš 200 NT i zajedno kontrolirate 1,000 NT dionica. Dionice padnu 10%. Povuci na iznos koji tvojih 200 NT sada vrijedi.",
+        "explanation": "Zajam se ne smanjuje kad si u krivu. Dionice sada vrijede 900 NT, a prijatelju se i dalje duguje punih 800 NT, pa tebi ostaje 100 NT. Pad dionica od 10% odnio je pola tvog novca, jer zajam ne preuzima ništa od boli. Isto vrijedi i prema gore, a to je polovica koju ti reklame pokazuju."
+      }
+    },
+    "68": {
+      "title": "Marža je depozit, a ne kupnja",
+      "desc": "Novac koji uložiš nije potrošen, nego je u igri",
+      "content": "Kad kupiš dionicu za {c}100, tih {c}100 nestane iz tvoje gotovine, a dionica sjedi na tvom računu. Jednostavna zamjena.\n\nMarža ne funkcionira tako. Kad otvoriš poziciju s polugom, uplatiš depozit, a taj depozit nije plaćanje ni za što. To je sigurnosni polog protiv tvojih vlastitih gubitaka. Stoji ondje, zaključan, a pozicija ga jede kako se cijena kreće protiv tebe.\n\nRecimo da je stopa depozita 25%. Uplatiš 250 NT i kontroliraš 1,000 NT izloženosti. Prati svoj račun:\n\n• Cijena miruje: tvojih 250 i dalje je 250. Osim što je financiranje počelo, pa je tiho manje.\n• Cijena pala 5%: pozicija je izgubila 50 NT. Tvoj depozit zapravo je 200. Tvoja slobodna gotovina se nije pomaknula. Tvoj račun je manji.\n• Cijena pala 20%: pozicija je izgubila 200 NT. Tvoj depozit pao je na 50. Nisi ništa napravio/la. Nisi ništa prodao/la. Gledao/la si.\n\nTri pojma koja stoje na svakom ekranu u ovoj sobi:\n\n🔒 KORIŠTENA MARŽA: svi depoziti koje trenutno imaš uplaćene.\n💰 KAPITAL RAČUNA: tvoja slobodna gotovina, plus uplaćena marža, plus ili minus dobit i gubitak svake otvorene pozicije, minus dosad naplaćeno financiranje. Koliko tvoj račun stvarno vrijedi kad bi se sve odmah zatvorilo.\n📊 RAZINA MARŽE: kapital podijeljen s korištenom maržom. Iznad 100% imaš jastuk. Ispod 100% tržište je potrošilo jastuk i počelo jesti depozit.\n\nI jedno pravilo koje sve iznenadi: marža se mjeri na cijelom računu, a ne po poziciji. Pozicija u gubitku jede kolateral koji drži onu dobitnu. Zato „moja druga trgovina je u redu” nije obrana. 🔒",
+      "quiz": {
+        "q": "Stopa depozita je 25%, pa 250 NT tvog novca kontrolira 1,000 NT izloženosti. Cijena padne 8% dok ti ne radiš baš ništa. Povuci na iznos koliko te taj pad koštao.",
+        "explanation": "Depozit nije plaćanje ni za što, on je kolateral, a gubitak se računa na cijelih 1,000 NT koje kontroliraš. 8% od 1,000 NT je 80 NT. Nisi ništa prodao/la i tvoja slobodna gotovina se nije pomaknula, ali 80 NT od tvog depozita od 250 NT je pojedeno i tvoj račun je 80 NT manji. Izračunaš li 8% na depozitu, dobiješ 20 NT, a to je pogreška zbog koje poluga izgleda bezazleno."
+      }
+    },
+    "69": {
+      "title": "Margin poziv",
+      "desc": "Zahtjev, a ne upozorenje",
+      "content": "Margin poziv je trenutak kad tvoja razina marže padne ispod 100%. Jednostavno rečeno: tvoj jastuk dobiti je potrošen i tržište je počelo jesti sam depozit.\n\nEvo kakav je to osjećaj zapravo, jer udžbenička verzija propušta važan dio.\n\nNikad ne stiže na dobar dan. Stiže kad je pozicija već ružna, kad si si već dvaput rekao/la da će se vratiti i kad si najmanje sposoban/na donijeti smirenu odluku. Nije pristojna obavijest. To je zahtjev: uplati još novca ili zatvori pozicije, inače će pružatelj to učiniti umjesto tebe.\n\nImaš tri poteza, a samo su dva tvoja.\n\n1️⃣ ZATVORI nešto. To odmah oslobađa maržu i gotovo je uvijek pravi odgovor. To također znači priznati da si bio/la u krivu, što je stvarni razlog zašto ljudi to ne čine.\n2️⃣ DODAJ novac. To ništa ne popravlja. Kupuje ti prostor da dulje budeš u krivu, na poziciji koju si već loše odabrao/la, novcem koji nisi planirao/la riskirati. Dodavanje gotovine pri margin pozivu način je na koji loša trgovina postaje loš mjesec.\n3️⃣ NE RADI NIŠTA. Tada se treći potez dogodi bez tebe, i on ima ime.\n\nRegulatori ovo shvaćaju toliko ozbiljno da su broj upisali u zakon. Tvrtke u Europi, Ujedinjenom Kraljevstvu i Australiji moraju automatski zatvoriti pozicije malog ulagača kad njegova marža padne na 50% potrebnog iznosa. Ne „trebale bi”. Moraju. To su pravilo napisali jer su ljudi, kad su sami odlučivali, birali opciju 3 i gubili više nego što su imali. ⚠️",
+      "quiz": {
+        "q": "Tvoja razina marže pala je na 80% i u margin pozivu si. Koji odgovor stvarno smanjuje rizik likvidacije, umjesto da ga samo odgodi?",
+        "explanation": "Zatvaranje ti odmah vraća depozit, pa razina marže smjesta skoči. Dodavanje gotovine samo kupuje prostor da dulje budeš u krivu na trgovini koju si već loše odabrao/la. Čekanje je način na koji se likvidacija događa. A druga pozicija u suprotnom smjeru treba vlastiti depozit, pa koristi više marže, a ne manje.",
+        "options": [
+          "Uplata dodatne gotovine na račun",
+          "Čekanje da se razina marže opet popne",
+          "Zatvaranje jedne od otvorenih pozicija",
+          "Otvaranje druge pozicije u suprotnom smjeru"
+        ]
+      }
+    },
+    "70": {
+      "title": "Likvidacija i cijena koju trebaš znati prva",
+      "desc": "Točna cijena na kojoj tvoj račun pada na nulu",
+      "content": "Likvidacija je kad pružatelj zatvori tvoje pozicije umjesto tebe jer je tvoj depozit gotovo potrošen. Automatska je. Trenutačna je. Nitko te ne pita za mišljenje, nitko ne provjerava jesi li upravo trebao/la biti u pravu, i nema žalbe.\n\nNajkorisniji broj u cijelom ovom modulu je tvoja CIJENA LIKVIDACIJE: stvarna cijena, izražena u stvarnoj valuti ({cPlural}), na kojoj se to događa.\n\nNe postotak. Cijena. Jer „mogao/la bi izgubiti depozit” je rečenica na koju možeš kimnuti i zaboraviti je, dok je „{tech} na {c}87.40 i tvoj je račun prazan” činjenica koju možeš provjeriti na grafu prije nego što išta pritisneš.\n\nSvaki ekran u ovoj sobi pokazuje je prije potvrde, nacrtanu na istoj ljestvici cijena kao i graf, da vidiš koliko je stvarno daleko. Dvije stvari primijetit ćeš odmah, i obje su lekcija:\n\n📏 Veći depozit gura cijenu likvidacije dalje. Više vlastitog novca znači da cijena mora pasti dalje prije nego što ti novac ponestane.\n⚡ Manji depozit vuče je tik do današnje cijene. Uz depozit od 10%, likvidacija je otprilike 10% pomaka daleko, a pomak od 10% običan je tjedan.\n\nA sad iskrena kvaka. Cijena likvidacije je mjesto gdje te sustav namjerava zatvoriti, a ne mjesto gdje ti je izlaz zajamčen. Ako loše vijesti stignu preko noći i tržište se ponovno otvori daleko ispod te razine, zatvoren/a si po cijeni koju tržište stvarno plaća. To je jaz, i o njemu govori lekcija 78.\n\nZnaj svoju cijenu likvidacije prije nego što otvoriš. Ako je ne možeš reći naglas, ne razumiješ trgovinu koju se spremaš napraviti. 💀",
+      "quiz": {
+        "q": "Uplatiš 200 NT depozita da kontroliraš 1,000 NT imovine čija je cijena 100 NT. Povuci cijenu dolje do mjesta gdje je tvoj depozit nestao.",
+        "explanation": "Kontroliraš 10 jedinica, pa te svaki 1 NT pada cijene košta 10 NT. Tvoj depozit od 200 NT nestaje na 80 NT, što je pad od samo 20%."
+      }
+    },
+    "71": {
+      "title": "Put natrag je strmiji",
+      "desc": "Zašto je gubitke teže poništiti nego što izgleda",
+      "content": "Gubici i dobici čine se kao suprotnosti. Nisu, i matematika nije ni blizu.\n\nIzgubiš 10%? Trebaš +11% da se vratiš. Iritantno, ali u redu.\nIzgubiš 50%? Trebaš +100%. Moraš se UDVOSTRUČITI samo da budeš na nuli.\nIzgubiš 75%? Trebaš +300%.\nIzgubiš 90%? Trebaš +900%.\n\nRazlog je jednostavan kad ga jednom vidiš: dobitak se računa na manjoj hrpi koja ti je ostala. 100 padne na 50, a da se popne s 50 natrag na 100, ta se manja hrpa mora udvostručiti.\n\nSad dodaj polugu i primijeti što ona stvarno radi. Ne čini samo tvoje dobitke bržima. Spušta te niz tu tablicu u jednom popodnevu. Pad dionice od 12%, što je loš, ali posve normalan tjedan, udarac je od 48% na tvoj račun uz depozit od 25%. Sad trebaš +92% da budeš tamo gdje si počeo/la, nakon tjedna koji je jedva dospio u vijesti.\n\nZato profesionalci govore o zaštiti kapitala prije svega drugog, i zato je „vratit ću to” najskuplja rečenica u trgovanju. Vratiti je aritmetički teže nego što je bilo izgubiti, svaki put. ⛰️",
+      "quiz": {
+        "q": "Tvoj račun je u minusu 75%. Povuci na dobitak koji ti odavde treba samo da se vratiš tamo gdje si počeo/la.",
+        "explanation": "100 NT palo je na 25 NT. Da opet dosegne 100, tih 25 mora se učetverostručiti, što je dobitak od 300%. Uspon se mjeri na manjoj hrpi koja ti je ostala, zato je toliko strmiji nego što je bio pad."
+      }
+    },
+    "72": {
+      "title": "Najamnina za posuđeni novac",
+      "desc": "U pravu za smjer, a opet u minusu na trgovini",
+      "content": "Posudio/la si izloženost. Pa je i plaćaš. Svake noći.\n\nFinanciranje (negdje se zove swap ili noćna naknada) naplaćuje se svaki dan, a evo dijela koji uhvati svakoga: naplaćuje se na CIJELU poziciju, a ne na dio koji si posudio/la. Uplatiš 500 NT da kontroliraš 2,000 NT i plaćaš najamninu na 2,000.\n\nKako se računa: referentna kamatna stopa, plus marža pružatelja, podijeljeno s 365, puta tvoja cijela pozicija. Obje polovice vidiš na ekranu u ovoj aplikaciji, jer naknadu koju ne možeš rastaviti ne možeš ni procijeniti. Uz otprilike 7.3% godišnje, to iznosi oko 0.02% tvoje pozicije po noći.\n\nZvuči kao ništa. Sad gledaj kako jede dobitnu trgovinu. 🧾\n\nTRGOVINA U KOJOJ SI U PRAVU, A IPAK GUBIŠ\n\nOtvoriš poziciju od 2,000 NT na {retail} s depozitom od 500 NT. Optimist si i ispostavi se da si u pravu: tijekom sljedećih nekoliko mjeseci {retail} polako poraste 2%.\n\n• Tvoj dobitak: 2% od 2,000 = 40 NT. Na depozit od 500 NT to je +8%. Lijepo.\n• Tvoja najamnina: 0.02% od 2,000 = 0.40 NT, svake noći.\n\nNoć 50: platio/la si 20 NT. Ukupno si u plusu 20 NT. I dalje pobjeđuješ.\nNoć 100: platio/la si 40 NT. Tvojih 40 NT dobiti sada vrijedi točno nula. Pogodio/la si, a nisi zaradio/la ništa.\nNoć 180: platio/la si 72 NT. Tvoj dobitak je i dalje 40 NT. U MINUSU si 32 NT, što je minus 6.4% tvog depozita, na trgovini u kojoj si šest mjeseci točno čitao/la tržište.\n\nPročitaj to ponovno. Cijena je napravila ono što si rekao/la. Ipak si izgubio/la.\n\nTo je rečenica koju trebaš ponijeti iz ove lekcije: na poziciji s polugom biti u pravu ima rok trajanja. U ovom primjeru on je 100 noći daleko, a svoj možeš izračunati prije nego što otvoriš. Podijeli dobit kojoj se nadaš s noćnom najamninom. Toliko noći vrijedi tvoje mišljenje.\n\nVrijedi primijetiti i suprotno. Ostatak ove aplikacije uči složeni rast, gdje ti vrijeme tiho zarađuje novac dok spavaš. Ovo je isti stroj, pokrenut unatrag i uperen u tebe. ⏳",
+      "quiz": {
+        "q": "Držiš poziciju s polugom od 2,000 NT koja košta 0.40 NT financiranja po noći. Cijena poraste dovoljno da ti da dobitak od 40 NT, a zatim se prestane kretati. Nakon koliko noći je taj dobitak potpuno pojeden?",
+        "options": [
+          "Nikad nije pojeden, jer se financiranje naplaćuje samo na posuđeni dio",
+          "Nakon otprilike 100 noći, jer 40 NT dobitka podijeljeno s 0.40 NT po noći daje 100",
+          "Nakon otprilike 20 noći, jer se financiranje naplaćuje na tvoj depozit od 500 NT",
+          "Financiranje se naplaćuje samo kad se pozicija zatvori s gubitkom"
+        ]
+      }
+    },
+    "73": {
+      "title": "Futuresi: sat i prebacivanje",
+      "desc": "Isti trošak, isporučen na drukčiji način",
+      "content": "Futuresi i CFD-ovi su rođaci. Oboje koriste polugu, oboje koriste maržu, oboje te mogu likvidirati. Dvije stvari čine futurese drukčijima, a druga je ona zanimljiva.\n\n⏰ 1. NA NJEMU JE DATUM. Svaki futures ugovor istječe. Ožujska nafta, lipanjski kukuruz, rujanski indeks. Kad datum stigne, ugovor se namiruje i prestaje postojati. „Drži i čekaj da se vrati” jednostavno nije na meniju, jer ugovora više neće biti. CFD nikad ne istječe, što zvuči bolje dok se ne sjetiš da zauvijek naplaćuje najamninu.\n\n🔄 2. TROŠAK JE UGRAĐEN U CIJENU, A NE NAPLAĆEN SVAKE NOĆI. To je dio koji ljudi propuste. Futures ti obično ne naplaćuje noćnu naknadu za financiranje. Umjesto toga, trošak držanja do tog datuma već je uračunat u cijenu ugovora. Ugovori za kasnije datume često koštaju više od ugovora za ranije datume, a ta razlika je isti trošak držanja, skriven unutar broja.\n\nŠto se onda događa kad trgovac želi zadržati poziciju nakon isteka? PREBACI je (roll): zatvori ugovor koji istječe i otvori sljedeći. A ako je sljedeći skuplji, plati tu razliku. Pri svakom prebacivanju. To je noćna najamnina CFD-a, naplaćena u većim, rjeđim obrocima.\n\nIskreni sažetak:\n\n• CFD: bez roka, najamnina svake noći, navedena stavku po stavku na izvodu.\n• Futures: čvrst rok, trošak skriven u cijeni i plaćen pri svakom prebacivanju, lako ga je previdjeti.\n\nNijedan nije besplatan. Jedan samo pristojnije predstavlja račun, a trošak koji ne vidiš najvjerojatnije će te iznenaditi. ⏳",
+      "quiz": {
+        "q": "Trgovac želi držati futures poziciju nakon datuma isteka, a sljedeći ugovor trguje se skuplje od onog koji istječe. Što se događa kad je prebaci?",
+        "explanation": "Prebacivanje znači zatvoriti ugovor koji uskoro istječe i otvoriti sljedeći. Ako sljedeći košta više, predaješ tu razliku, i to ponovno pri svakom prebacivanju. To je isti trošak držanja koji ti CFD naplaćuje svake noći, prikupljen u većim komadima i skriven u cijeni umjesto ispisan na izvodu.",
+        "options": [
+          "Plati razliku između ugovora koji istječe i sljedećeg",
+          "Isplati mu se razlika između cijena dvaju ugovora",
+          "Novac ne mijenja vlasnika, jer je prebacivanje jedna trgovina",
+          "Pozicija postaje CFD i nastavlja bez datuma isteka"
+        ]
+      }
+    },
+    "74": {
+      "title": "Short pozicija: gubitak bez dna",
+      "desc": "Zašto oklada na pad nema prirodnu granicu",
+      "content": "Sve u ovoj aplikaciji dosad je bilo long: kupiš i želiš da cijena raste. Derivati ti omogućuju short, što znači kladiti se da cijena pada. Otvoriš short, cijena padne, zaradiš.\n\nShortanje je stvarno korisno i nije zlo. Tako poljoprivrednik zaključa cijenu prije žetve i tako fond štiti portfelj. Kad ga razumiješ, bolje čitaš tržišta, jer prvi put vidiš obje strane svake trgovine.\n\nAli u shortanju postoji jedan komad aritmetike koji nema ekvivalent nigdje drugdje, i trebaš ga upamtiti zauvijek.\n\n📉 KAD KUPUJEŠ, najgori slučaj je da cijena padne na nulu. Izgubiš 100% onoga što si uložio/la. Grozno, ali to je pod. Postoji dno.\n📈 KAD SHORTAŠ, cijena koja ide protiv tebe znači cijena koja ide GORE. A nigdje ne postoji pravilo koje kaže koliko visoko cijena smije ići. Dionica koja se utrostruči košta te 200% pozicije. Dionica koja poraste deset puta košta te 900%.\n\nLong gubici imaju pod. Short gubici nemaju. Ta asimetrija cijelo je upozorenje.\n\nPrava tržišta to rade. S vremena na vrijeme jako shortana dionica poleti, jer svi koji su u shortu moraju kupiti da bi zatvorili, što gura cijenu više, što prisiljava još njih da kupe. To se zove short squeeze i već je ugasio fondove.\n\nDvije stvari te održavaju na životu. Prvo, short je upravo mjesto gdje stop-loss prestaje biti opcionalan. Drugo, zaštita od negativnog salda: na pravilno reguliranom računu malog ulagača, i u ovoj aplikaciji, tvoj račun ne može pasti ispod nule. Možeš izgubiti sve što si uložio/la. Ne možeš završiti dužan/na. Ta zaštita postoji jer su prije nje ljudi završavali dužni. 🕳️",
+      "quiz": {
+        "q": "Zašto je najgori slučaj na short poziciji po svojoj naravi drukčiji od najgoreg slučaja na long poziciji?",
+        "explanation": "Kupnja ima pod. Najgore što cijena može je pasti na nulu, pa izgubiš ono što si uložio/la i ništa više. Kod shortanja je obrnuto, jer gubitak znači da cijena raste, a ništa ne kaže koliko visoko cijena smije ići. Dionica koja se utrostruči košta short prodavača dvostruku vrijednost pozicije. Zato stop na shortu prestaje biti opcionalan i zato te ova aplikacija ne može spustiti ispod nule.",
+        "options": [
+          "Nije drukčiji, jer su oba ograničena na ono što si uložio/la",
+          "Stop-loss pod shortom stvara isti pod kao pod longom",
+          "Padovi su sporiji od rasta, pa short gubi sporije",
+          "Cijena može pasti samo do nule, ali rasti može bez granice"
+        ]
+      }
+    },
+    "75": {
+      "title": "Volatilnost puta poluga",
+      "desc": "Zašto kripto ovdje traži najveći depozit",
+      "content": "Isti multiplikator na dvije različite imovine nije ista oklada. To je cijela ideja ove lekcije, i zato se depozit koji moraš uplatiti mijenja ovisno o tome čime trguješ.\n\nRazmisli kako izgleda običan dan:\n• Veliki indeks većinom dana pomakne se manje od 1%.\n• Pojedinačna dionica može se pomaknuti 2% ili 3%.\n• Kripto se redovito pomakne 5% ili 10%, a dan od 20% nije kriza, to je utorak. 🎢\n\nSad iza svakog od njih stavi mali depozit. Uz depozit od 10%, pomak od 10% te briše. Za indeks je to događaj jednom u nekoliko godina. Za kripto je to otprilike svaki mjesec. Isti depozit. Potpuno drukčiji izgledi za preživljavanje.\n\nRegulatori su to shvatili i upisali u pravila. Kad je ESMA u ožujku 2018. ograničila CFD polugu diljem Europe, nije odabrala jedan broj. Podijelila ih je u razrede: 30:1 na glavne valutne parove, 20:1 na zlato i glavne indekse, 10:1 na ostale robe, 5:1 na pojedinačne dionice i, skroz na dnu, 2:1 na kripto. Dva prema jedan znači depozit od 50%. Za kripto su tražili POLA pozicije u pravom novcu, najstrožu stopu na cijelom popisu.\n\nOva aplikacija radi isto, iz istog razloga, i to piše na ekranu umjesto da skriva:\n\n💱 Forex: najmanji depozit, jer se glavni parovi najmanje kreću.\n🥇 Zlato i robe: veći.\n📊 Dionice, indeksi i ETF-ovi: još veći.\n🪙 Kripto: najveći depozit od svih, jer se kripto najjače kreće.\n\nKripto ovdje nije zabranjen, i to je namjerno. Možeš njime trgovati. Samo ne možeš trgovati uz tanak depozit, jer bi uz tanak depozit običan kripto dan završio tvoj račun prije nego što bi dočitao/la o tome. Veći depozit nije hir aplikacije prema kriptu. To je aplikacija koja se brine da te običan dan ne može uništiti.\n\nVrijedi znati: regulator u Ujedinjenom Kraljevstvu otišao je dalje od razreda. Godine 2021. potpuno je zabranio kripto derivate za male ulagače, procjenjujući da će potrošači uštedjeti oko £53m. Kripto polugu možeš upoznati ovdje, s izmišljenim novcem i debelim depozitom, ili je možeš upoznati s osamnaest, s pravim novcem i bez ikakvog upozorenja. Ovo je bolji redoslijed. 🌡️",
+      "quiz": {
+        "q": "Kripto traži najveći depozit od svih imovina u ovoj sobi. Koji je pravi razlog?",
+        "explanation": "Veliki indeks većinom dana pomakne se manje od 1%. Kripto se redovito pomakne 5% ili 10%, a dan od 20% nije kriza, to je utorak. Uz tanak depozit pomak od 10% te briše, što je za indeks događaj jednom u nekoliko godina, a za kripto otprilike svaki mjesec. Europski regulator za kripto je tražio pola pozicije u pravom novcu, najstrožu stopu na cijelom svom popisu, upravo iz tog razloga.",
+        "options": [
+          "Mlađima od 18 kripto je zabranjen, pa je depozit kazna",
+          "Na kripto se ne naplaćuje financiranje, pa ga depozit zamjenjuje",
+          "Najjače se kreće, pa običan dan može isprazniti tanak depozit",
+          "Aplikacija sama određuje cijene kripta umjesto tržišta"
+        ]
+      }
+    },
+    "76": {
+      "title": "Brojke koje nitko ne reklamira",
+      "desc": "Što su regulatori otkrili kad su prebrojali",
+      "content": "Ove brojke nikad nećeš vidjeti u reklami. Dolaze od financijskih regulatora, koji od tvrtki mogu zatražiti stvarne podatke o računima i zatim objaviti što su otkrili.\n\n🇪🇺 ESMA, europski regulator, ožujak 2018. U zemljama EU-a između 74% i 89% CFD računa malih ulagača gubi novac. Prosječni gubici po klijentu kretali su se od €1,600 do €29,000. ESMA je na temelju toga ograničila proizvod.\n\n🇬🇧 FCA u Ujedinjenom Kraljevstvu, prosinac 2016. Njezina analiza reprezentativnog uzorka klijentskih računa pokazala je da je 82% klijenata izgubilo novac na tim proizvodima.\n\n🇦🇺 ASIC u Australiji, objavljeno u siječnju 2026., najnovije od tri. U financijskoj godini 2024. 68% malih CFD ulagača izgubilo je novac, ukupno više od A$458 milijuna. Od toga je A$73 milijuna bilo naknada.\n\nZadrži se na tom zadnjem retku na trenutak. Sedamdeset tri milijuna od toga nisu bile ni loše trgovine. Bio je to trošak igranja: spread na ulazu i financiranje koje si upoznao/la u lekciji 72.\n\nTri različita regulatora, tri različite zemlje, podaci koji obuhvaćaju tri različita desetljeća, a odgovor stalno pada negdje između dvije trećine i devet desetina.\n\nSad dio koji je najvažniji, jer sprječava da ovo bude samo statistika za zastrašivanje. Ti ljudi nisu bili glupi. Nisu bili lijeni. Uglavnom su bili odrasli s poslom, a mnogi od njih čitaju graf bolje nego ti sada. Izgubili su zbog toga kako je proizvod građen: kreneš u zaostatku zbog spreada, plaćaš najamninu dok čekaš, a poluga znači da te običan pomak može završiti prije nego što tvoje mišljenje stigne biti točno.\n\nTo je struktura, a ne mana karaktera. A strukture mogu pobijediti samo ljudi koji znaju da postoje. 📊",
+      "quiz": {
+        "q": "Regulatori u Europi, Ujedinjenom Kraljevstvu i Australiji svaki su otkrili da većina CFD računa malih ulagača gubi novac. Koje je iskreno objašnjenje?",
+        "explanation": "To su bili obični odrasli s poslom, a mnogi od njih čitaju graf bolje nego ti danas. Izgubili su zbog toga kako proizvod funkcionira: kreneš u zaostatku zbog spreada, plaćaš najamninu svake noći dok čekaš, a poluga znači da te normalan pomak može završiti prije nego što tvoje mišljenje stigne biti točno. To je struktura, a ne mana karaktera, a strukture mogu pobijediti ljudi koji znaju da postoje.",
+        "options": [
+          "Način na koji je proizvod građen radi protiv kupca",
+          "Ljudi koji su izgubili bili su nepažljivi, a pažljivi trgovci su u redu",
+          "Konkurentske tvrtke objavile su brojke kao marketinški napad",
+          "Gubici tih razmjera dolaze iz nereguliranih zemalja"
+        ]
+      }
+    },
+    "77": {
+      "title": "Što se promijenilo kad su se promijenila pravila",
+      "desc": "Dokaz da je kriv dizajn, a ne ljudi",
+      "content": "Lekcija 76 dala ti je gubitke. Ova lekcija daje ti eksperiment, i to je najvažnija stvar u ovom modulu.\n\nAko većina ljudi gubi zato što je većina ljudi nepromišljena, onda promjena pravila ne bi trebala ništa promijeniti. Nepromišljeni ostaju nepromišljeni. Zar ne?\n\nAustralija je provela test. U ožujku 2021. ASIC je nametnuo skup zaštita svakoj CFD tvrtki koja služi malim ulagačima: ograničenja poluge, standardno pravilo automatskog zatvaranja, zaštitu od negativnog salda i zabranu poticaja poput bonusa za registraciju. Isti klijenti. Iste tvrtke. Ista tržišta. Promijenila su se samo pravila.\n\nEvo što je ASIC izmjerio u prvih šest mjeseci. 🔬\n\n📉 Ukupni neto gubici računa malih ulagača pali su 91%, s prosječnih A$372 milijuna po tromjesečju na A$33 milijuna.\n📉 51% manje računa malih ulagača u gubitku po tromjesečju.\n📉 87% manje zatvaranja zbog marže.\n📉 88% manje slučajeva negativnog salda.\n\nNitko nije postao pametniji u šest mjeseci. Dizajn se promijenio, a s njim je nestalo devet desetina štete.\n\nIz toga slijede dvije stvari, i trebaš ponijeti obje.\n\nPrvo: kad izgubiš na trgovini s polugom, velik dio onoga što ti se dogodilo bio je ugrađen u proizvod prije nego što si stigao/la. To nije dopuštenje za nepažnju. To je razlog da tu stvar poštuješ.\n\nDrugo, i to je korisna polovica: zaštite koje su obavile posao upravo su navike koje te ovaj modul uči. Manja pozicija. Automatski izlaz. Čvrst pod ispod štete. Regulator ih je morao nametnuti cijeloj industriji da dobije tih 91%. Ti ih jednostavno možeš odabrati. 🛡️",
+      "quiz": {
+        "q": "Nakon što je Australija CFD tvrtkama nametnula ograničenja poluge i automatska zatvaranja, gubici malih ulagača pali su 91% u šest mjeseci. Što to pokazuje?",
+        "explanation": "Isti klijenti, iste tvrtke, ista tržišta. Promijenila su se samo pravila, a s njima je otišlo devet desetina štete. Nitko nije postao pametniji u šest mjeseci. Zaštite koje su obavile posao su navike koje te ovaj modul stalno uči: manja pozicija, automatski izlaz i čvrst pod ispod štete. Regulator ih je morao nametnuti cijeloj industriji. Ti ih jednostavno možeš odabrati.",
+        "options": [
+          "Australski trgovci disciplinirani su više od europskih",
+          "Poluga postaje sigurna kad je regulator nadzire",
+          "Pravila su ljude spriječila da trguju, pa nije bilo što izgubiti",
+          "Većina štete dolazila je iz dizajna samog proizvoda"
+        ]
+      }
+    },
+    "78": {
+      "title": "Jaz koji preskoči tvoj stop",
+      "desc": "Stop je uputa za izlaz, a ne obećana cijena",
+      "content": "Stop-loss naloge već si upoznao/la u lekciji 19. Evo što im poluga radi.\n\nStop-loss je uputa: „ako cijena dosegne ovu razinu, izvuci me van.” To nije ugovor o cijeni koju ćeš dobiti. Kaže izađi. Ne kaže izađi točno ovdje.\n\nVećinu vremena ta razlika nije važna, jer se cijene kreću u malim koracima i tvoj se nalog izvrši blizu tvoje razine. A ponekad je silno važna.\n\n📰 Tržišta se zatvaraju. Vijesti stignu u 23 sata. Tržište se ponovno otvori 8% niže nego što je zatvorilo i nikad se nije trgovalo ni po jednoj cijeni između. Tvoj stop bio je u tom jazu. Okine se pri otvaranju i izvrši se gdje god tržište stvarno jest, a to je daleko iza razine koju si odabrao/la.\n\nBez poluge, to je loš dan. S polugom to može biti cijeli račun, jer ako je tvoj depozit bio tanji od jaza, jaz prolazi ravno i kroz tvoju cijenu likvidacije, pa si zatvoren/a ispod razine koju je sustav namjeravao.\n\nTri stvari koje s tim trebaš napraviti, nijedna nije komplicirana:\n\n1️⃣ Ne smatraj stop jamstvom. Smatraj ga vrlo dobrom navikom s jednom poznatom slabošću.\n2️⃣ Znaj kad je tvoje tržište zatvoreno i što je zakazano. Rezultati tvrtki, odluke o kamatnim stopama i izbori su jazovi s upisom u kalendar.\n3️⃣ Odredi veličinu tako da te jaz ne može završiti. To je prava obrana, i to je sljedeća lekcija. Stop te štiti od običnog. Veličina pozicije štiti te od neobičnog, a neobično je ono što stvarno počisti ljude.\n\nI vrijedi znati da u ovoj aplikaciji, kao i na svakom pravilno reguliranom računu malog ulagača, zaštita od negativnog salda znači da te jaz ne može spustiti ispod nule. Možeš izgubiti račun. Ne možeš završiti dužan/na. 📰",
+      "quiz": {
+        "q": "Postaviš stop-loss na {c}90. Preko noći stignu loše vijesti i tržište se ponovno otvori na {c}78, a između se nikad nije trgovalo. Što se događa?",
+        "explanation": "Stop je uputa za izlaz, a ne obećanje o cijeni koju dobiješ. Tržište se nikad nije trgovalo između {c}90 i {c}78, pa nije ostalo {c}90 po kojima bi se prodalo. Tvoj stop okine se pri otvaranju i izvrši se gdje god tržište stvarno jest. Stopovi te i dalje štite od običnih pomaka. Obrana od ovakvog skoka je veličina pozicije, a ne stop.",
+        "options": [
+          "Tvoj stop izvrši se na {c}90, točno gdje si ga postavio/la",
+          "Izvršen/a si blizu {c}78, prve ponuđene cijene",
+          "Nalog se poništi, jer ga je cijena preskočila",
+          "Pružatelj ti isplati {c}12 koje je tržište preskočilo"
+        ]
+      }
+    },
+    "79": {
+      "title": "Prvo veličina, onda trgovina",
+      "desc": "Odluči koliko možeš izgubiti prije nego što odlučiš što kupiti",
+      "content": "Evo stvari koja razdvaja ljude koji izdrže od onih koji ne izdrže, i gotovo je dosadna.\n\nPočetnici odaberu trgovinu, pa onda izračunaju koliko uložiti. Profesionalci to rade unatrag. Prvo odluče koliko su spremni izgubiti, i pusti da to odredi koliko velika pozicija smije biti.\n\nPravilo koje većina njih koristi: riskiraj 1% do 2% računa na bilo kojoj pojedinačnoj trgovini. Ne uloži 1%. RISKIRAJ 1%, što znači da je toliko ono što stvarno izgubiš ako se aktivira tvoj stop.\n\nKako funkcionira, u tri koraka:\n\n1️⃣ Odaberi svoj maksimalni gubitak. Račun od 10,000 NT, riskiraš 1%, dakle 100 NT.\n2️⃣ Odaberi gdje si u krivu. Izaći ćeš ako cijena padne 5% od tvog ulaza.\n3️⃣ Podijeli. 100 NT prihvatljivog gubitka, uz udaljenost stopa od 5%, znači poziciju od 2,000 NT. To je tvoja veličina. Ne osjećaj. Izračun.\n\nPromijeni stop i veličina se automatski mijenja. Uži stop od 2% dopušta ti 5,000 NT. Širi stop od 10% tjera te dolje na 1,000 NT. Što je trgovina rizičnija, to mora biti manja, a aritmetika to radi umjesto tebe, pa tvoje raspoloženje ne mora.\n\nZašto 1%? Jer čini niz gubitaka preživljivim. Deset gubitaka zaredom uz 1% ostavlja ti 90% računa i loše raspoloženje. Deset gubitaka zaredom uz 20% ostavlja ti oko 11% računa i nikakav put natrag, a iz lekcije 71 već znaš koliko je taj uspon strm.\n\nNitko ne preživi tržišta biranjem pobjednika. Svatko tko preživi to postiže tako da se pobrine da ga nijedan pojedinačni gubitak ne može završiti. 📐",
+      "quiz": {
+        "q": "Račun od 10,000 NT. Na ovoj trgovini riskirat ćeš 1%, a izaći ćeš ako cijena padne 5% od tvog ulaza. Povuci na veličinu pozicije koja to poštuje.",
+        "explanation": "1% od 10,000 NT je 100 NT, i to je najviše što si pristao/la izgubiti. Stop od 5% znači 100 NT podijeljeno s 5%, što je pozicija od 2,000 NT. Povučeš li više, prikaz pokazuje da riskiraš više nego što si odlučio/la."
+      }
+    },
+    "80": {
+      "title": "Zašto se pobjeda čini kao vještina",
+      "desc": "Igre s glavom koje poluga igra s tobom",
+      "content": "Poluga nije uglavnom matematički problem. Matematika je laka. To je problem u glavi, a evo tri koja uhvate svakoga.\n\n🎯 1. PRISTRANOST ISHODA: pobjeda se čini kao vještina. Otvoriš ludo preveliku poziciju, uspije, zaradiš puno u jednom popodnevu, a tvoj mozak zapiše „dobar/a sam u ovome”. Nije zabilježio što se stvarno dogodilo, a to je da si preuzeo/la loš rizik i dobio/la dobar rezultat. To su različite stvari, a tržište će te rado nagraditi za lošu odluku nekoliko puta prije nego što naplati. Najopasnije što se novom trgovcu može dogoditi je rana, laka pobjeda.\n\n😤 2. OSVETNIČKO TRGOVANJE: želiš to natrag, odmah. Doživiš gubitak, peče, i poriv je trenutačan. Pa povećaš veličinu. Sada otvaraš svoju najveću poziciju točno u trenutku kad ti je prosudba najgora, na trgovini koju si odabrao/la jer si bio/la ljut/a, a ne zato što je dobra. Tržište ne zna da si u minusu i ništa ti ne duguje. Kad to osjetiš, ispravna veličina je nula. Zatvori aplikaciju.\n\n🕳️ 3. JURENJE GUBITAKA: „samo ću držati dok se ne vrati.” Ovaj se prerušava u strpljenje, zato ga je tako teško uočiti. Strpljenje je plan koji si smireno napravio/la unaprijed. Jurenje je plan koji si izmislio/la nakon što je cijena krenula protiv tebe, a znak je jednostavan: tvoj se izlaz pomaknuo. Ako se uhvatiš kako objašnjavaš zašto razina koju si postavio/la više nije prava razina, to nije nova analiza. To tvoj ego pregovara.\n\nObrana od sve tri je ista i nije glamurozna. Odluči sve dok si smiren/a, zapiši to i tretiraj verziju sebe koja se pojavi usred trgovine kao nepouzdanog pripovjedača. 🧠",
+      "quiz": {
+        "q": "Otvoriš puno veću poziciju nego inače i ona u jednom popodnevu donese veliku dobit. Koji je najtočniji način da to protumačiš?",
+        "explanation": "Tvoj mozak zapiše da si dobar/a u ovome. Ono što se stvarno dogodilo je da si preuzeo/la loš rizik i da te tržište slučajno ipak nagradilo, a to su dvije odvojene stvari. Tržište će lošu odluku nagraditi nekoliko puta prije nego što naplati. Rana, laka pobjeda najopasnije je što se novom trgovcu može dogoditi, jer uči pogrešnu lekciju i naplati ti je kasnije.",
+        "options": [
+          "Ovo je pristup koji funkcionira i može se opet povećati",
+          "Veličina je bila prava, jer to dobit dokazuje",
+          "Preuzeo/la si loš rizik i slučajno dobio/la dobar rezultat",
+          "Veliki dobici pokazuju vještinu, a gubici pokazuju pogreške"
+        ]
+      }
+    },
+    "81": {
+      "title": "Iskreno pitanje",
+      "desc": "Trebaš li ovo uopće koristiti?",
+      "content": "Završio/la si modul. Evo pitanja koje reklame nikad ne postavljaju.\n\nTrebaš li uopće koristiti polugu?\n\nZa većinu ljudi, većinu vremena, iskren odgovor je ne. Ne zato što nisu dovoljno pametni. Zbog svega u zadnjih petnaest lekcija: kreneš u zaostatku, plaćaš najamninu dok čekaš, običan pomak može te završiti prije nego što se pokaže da si u pravu, a tri regulatora koja su brojala stvarne račune stalno su nalazila da je izgubilo između dvije trećine i devet desetina ljudi.\n\nPostoji verzija trgovanja u kojoj ništa od ovoga nikad ne dotakneš. Kupiš dionicu, posjeduješ komadić tvrtke, dividende stižu, vrijeme radi ZA tebe umjesto protiv tebe i ništa ti nikad ne može zatvoriti poziciju bez pitanja. To je ostatak ove aplikacije, i to nije dosadna opcija. To je opcija za koju matematika iz lekcije 14 kaže da obično pobjeđuje. 🌱\n\nEvo što trebaš znati prije nego što odlučiš.\n\nNišta u ovoj aplikaciji nije zaključano iza poluge. Svako natjecanje, svaka ljestvica, svaki put do XP-a, svaki školski susret i svaka NOOB nagrada ostaju potpuno otvoreni nekome tko nikad ne otvori nijednu poziciju s polugom. Ništa ne gubiš ako odeš iz ove sobe. Nema kazne i nema bedža koji ti nedostaje.\n\nI ništa ovdje te ne nagrađuje za pobjedu. Nagrađen/a si za završavanje lekcija, za prolazak testa, za postavljanje stopa, za rezanje gubitnika i za vlastiti opis svoje likvidacije. Nikad nisi plaćen/a za dobit, veliku poziciju ili niz sreće, jer bi plaćanje za to značilo učiti te pogrešnoj stvari i zvati to obrazovanjem.\n\nAko je koristiš: koristi je u malom, koristi je sa stopom, znaj svoju cijenu likvidacije prije nego što išta pritisneš i nikad s novcem koji bi ti nedostajao. Ako je ne koristiš, ipak si naučio/la vidjeti mehanizam, što je uvijek i bila poanta. Većina odraslih koji trguju ovim stvarima ne zna objasniti ono što si upravo naučio/la. 🤔",
+      "quiz": {
+        "q": "Čega se odriče učenik koji odluči da u ovoj aplikaciji nikad neće otvoriti poziciju s polugom?",
+        "explanation": "Ništa u ovoj aplikaciji nije zaključano iza poluge. Svako natjecanje, svaka ljestvica, svaki put do XP-a, svaki školski susret i svaka NOOB nagrada ostaju otvoreni nekome tko nikad ne otvori nijednu poziciju s polugom. Nema kazne i nema bedža koji nedostaje. I ništa u ovoj sobi ne nagrađuje te za pobjedu: nagrađuje završavanje lekcija, prolazak testa, postavljanje stopa i rezanje gubitnika.",
+        "options": [
+          "Baš ničega, svaki put ostaje mu otvoren",
+          "Svakog natjecanja i ljestvice u aplikaciji",
+          "XP-a u ovom modulu, koji se dobiva za trgovine s polugom",
+          "NOOB nagrada, za koje prvo treba jedna pozicija s polugom"
+        ]
+      }
+    },
+    "82": {
+      "title": "Krah",
+      "desc": "Pet dana, jedan agresivan plan, jedan prazan račun",
+      "content": "Dobro došao/la u Lab. Ovdje dobivaš zaseban račun za vježbu od 1,000 LAB NT. To nije tvoj novčanik, ne može dirati tvoj novčanik i ništa dobiveno ili izgubljeno unutar njega ne izlazi van. Instrument je NOVA. NOVA je izmišljena, da nas nitko ne može optužiti da predviđamo pravi slom. Stopa depozita 25%. Financiranje 0.02% po noći. Zatvaranje na 50% korištene marže. I samo za ovaj boss kviz ograničenja pozicija su isključena. Namjerno. Jednom.\n\nEvo tjedna koji ćeš upravo objasniti.\n\n📅 DAN 1: NOVA na 100. Dobri rezultati, grupni chat je glasan. Uplatiš 800 od svojih 1,000 NT i kontroliraš 3,200 NT NOVA-e. Bez stopa.\n\n📅 DAN 2: NOVA 106. U plusu si 192 NT, što je +19.2% tvog računa u jednom danu. Dodaš svojih zadnjih 200 NT. Izloženost 4,000 NT. Slobodna gotovina: nula. I dalje bez stopa.\n\n📅 DAN 3: NOVA 101.76. Razina marže 103%. I dalje si u plusu za tjedan, pa držiš.\n\n📅 DAN 4: NOVA 94.64. MARGIN POZIV. Razina marže 75%, kapital 750 NT. Ne možeš dodati, jer nema više ničega za dodati. Držiš.\n\n📅 DAN 5: NOVA preko noći padne s jazom od 9% i ponovno se otvori na 86.12, ispod razine zatvaranja. LIKVIDIRAN/A na 390 NT.\n\nTijekom tjedna NOVA je pala 13.9%. Tvoj račun pao je 61%. Učenik koji je uplatio 250 NT sa stopom na 95 završio je isti tjedan na oko 949 NT, u minusu 5%. A istih 800 NT bez stopa, ali bez dodavanja drugog dana, završilo bi na 550 NT: margin poziv, ali živ račun.\n\nSad analiza. Deset pitanja o tome što se upravo dogodilo. Ostvari 8 od 10 i pobijedio/la si bossa, jer ovdje prolaz znači znati objasniti olupinu, a ne izbjeći je. 💀",
+      "bossVictory": "Uništio/la si račun i otišao/la znajući zašto. To je cijeli modul. 💀",
+      "bossQuestions": {
+        "0": {
+          "q": "Tijekom pet dana NOVA je pala oko 14%. Tvoj račun pao je 61%. Zašto ta razlika?",
+          "options": [
+            "Aplikacija je naplatila kaznu za gubitak",
+            "Držao/la si otprilike četiri puta veću izloženost od vrijednosti depozita, pa je svaki pomak pogađao broj četiri puta veći od tvog računa",
+            "Financiranje je činilo većinu gubitka",
+            "NOVA je rizičnija dionica nego što brojke sugeriraju"
+          ]
+        },
+        "1": {
+          "q": "Drugog dana bio/la si u plusu 192 NT, što je bilo 19.2% tvog računa u jednom danu. Što ti je to zapravo govorilo?",
+          "options": [
+            "Da je tvoja procjena bila točna i da trebaš povećati veličinu",
+            "Da je pozicija bila dobro odmjerena, jer je bila profitabilna",
+            "Da je poluga sigurna kad si u pravu",
+            "Da je pozicija bila dovoljno velika da pomakne tvoj račun 19% u danu, što znači da je bila dovoljno velika da učini isto u suprotnom smjeru"
+          ]
+        },
+        "2": {
+          "q": "Drugog dana dodao/la si svojih zadnjih 200 NT dobitnoj poziciji. Što te to koštalo?",
+          "options": [
+            "Obje polovice tvoje sigurnosti: podiglo je izloženost s 3,200 na 4,000 i potrošilo jedinu slobodnu gotovinu koja je mogla odgovoriti na margin poziv",
+            "Ništa, jer dodavanje dobitniku je način na koji profesionalci slažu rast",
+            "Samo tih 200 NT, koje bi pozicija vratila",
+            "Malo financiranja, jer je noćna najamnina malo narasla"
+          ]
+        },
+        "3": {
+          "q": "Tvoja razina marže trećeg je dana pala na 103%. Što je taj broj značio?",
+          "options": [
+            "Bio/la si 103% pokriven/a, pa je pozicija bila prekomjerno osigurana i sigurna",
+            "Tvoj račun bio je u plusu 3% za tjedan",
+            "Tvoj kapital jedva je pokrivao uplaćene depozite, pa je jastuk nestao i sljedeći pomak počeo bi jesti sam depozit",
+            "Ništa sam po sebi, jer je razina marže važna tek kad padne ispod 50%"
+          ]
+        },
+        "4": {
+          "q": "Pri margin pozivu četvrtog dana zatvaranje bi zaključalo gubitak od 250 NT. Držao/la si. Zašto je držanje odgovor koji većina ljudi odabere?",
+          "options": [
+            "Jer je držanje obično matematički ispravan odgovor na margin poziv",
+            "Jer zatvaranje znači priznati da je trgovina bila pogrešna, a držanje ti dopušta da i dalje vjeruješ da nije gotovo",
+            "Jer se margin pozivi obično riješe sami u roku od jednog dana",
+            "Jer pružatelj preporučuje držanje kako bi se izbjeglo ostvarivanje gubitaka"
+          ]
+        },
+        "5": {
+          "q": "Likvidiran/a si na 390 NT, ali razina zatvaranja bila je 500 NT kapitala. Zašto si završio/la ispod nje?",
+          "options": [
+            "Pružatelj je naplatio kaznu za likvidaciju od 110 NT",
+            "NOVA je preko noći pala s jazom od 9% i otvorila se ispod razine, pa se zatvaranje izvršilo po prvoj cijeni koju je tržište stvarno ponudilo",
+            "Financiranje je odbijeno u jednom komadu u trenutku likvidacije",
+            "Razina zatvaranja samo je procjena i obično se promaši za toliko"
+          ]
+        },
+        "6": {
+          "q": "Učenik koji je uplatio 250 NT i postavio stop na 95 završio je isti tjedan na oko 949 NT. Što je napravio dobro?",
+          "options": [
+            "Odlučio je o maksimalnom gubitku prije otvaranja i pustio da to odredi veličinu",
+            "Bolje je pročitao graf NOVA-e i vidio pad kako dolazi",
+            "Izbjegao je financiranje korištenjem manjeg depozita",
+            "Imao je sreće, jer isti izbori obično gube"
+          ]
+        },
+        "7": {
+          "q": "Plaćao/la si financiranje svake noći na punih 4,000 NT izloženosti. Koliko je to bilo važno na ovoj trgovini?",
+          "options": [
+            "Činilo je većinu gubitka, jer se financiranje svake noći ukamaćuje",
+            "Ništa, jer se financiranje naplaćuje samo na pozicije koje prežive mjesec dana",
+            "Samo nekoliko NT, jer je trgovina bila kratka. Financiranje ubija poziciju koja mjesecima ide nikamo, a ne onu koja se uruši u tjednu",
+            "Oko 192 NT, isto kao dobitak drugog dana"
+          ]
+        },
+        "8": {
+          "q": "Svaki izbor ovdje bio je dopušten. U CFD Hubu većina njih neće biti. Zašto?",
+          "options": [
+            "Jer ograničenja čine rad aplikacije jeftinijim",
+            "Jer regulatori traže način vježbe prije bilo kakvog simuliranog trgovanja",
+            "Jer mlađi od 18 ne smiju dvaput gledati likvidaciju",
+            "Upravo si gledao/la kako depozit od 80% na jednoj poziciji i nulta slobodna gotovina uništavaju račun u pet dana, a ograničenja postoje kako bi upravo taj slijed bio nemoguć"
+          ]
+        },
+        "9": {
+          "q": "Koja je najkorisnija stvar koju trebaš ponijeti iz ovoga?",
+          "options": [
+            "Da je veličina pozicije, odlučena prije otvaranja, važnija od toga jesi li u pravu za smjer",
+            "Da je NOVA bila loš izbor dionice i da bi bolje istraživanje spasilo račun",
+            "Da polugu nitko nikad ne bi smio dirati ni pod kojim okolnostima",
+            "Da su margin pozivi nepredvidljivi, pa nisi mogao/la ništa napraviti"
+          ]
+        }
+      }
+    },
+    "83": {
+      "title": "Dozvola",
+      "desc": "Deset pitanja. Osam točnih za prolaz.",
+      "content": "Dozvola je ispit prema kojem je ovaj modul vodio. Deset pitanja, i svako je izračun ili odluka o poziciji koja izgleda kao prava, jer ni CFD Hub ne radi s definicijama.\n\nProlaz je 8 od 10. Imaš 3 pokušaja dnevno. Kažemo ti rezultat, ali ne i koja si pitanja promašio/la, pa je neuspjeli pokušaj znak da ponovno pročitaš modul, a ne da ponovno pogađaš.\n\nNišta ovdje nije trik. Svaki broj dolazi ravno iz lekcija iza tebe. Ako riješiš ovih deset, razumiješ ovaj modul bolje od većine odraslih koji tim proizvodima trguju stvarno. 🎫",
+      "bossVictory": "Možeš pogledati pravi ekran, u pravim brojkama, i reći ne. To je dozvola. 🎫",
+      "bossQuestions": {
+        "0": {
+          "q": "Tvoj račun je 1,000 NT i ništa drugo nije otvoreno. Cijelih 1,000 NT uplatiš kao depozit uz stopu od 25% i kontroliraš 4,000 NT dionica {tech} po cijeni od 200 NT po dionici. Zatvaranje se aktivira na 50% tvog depozita. Gdje se {tech} mora trgovati da budeš zatvoren/a?",
+          "options": [
+            "150 NT, pad od 25%, jednak stopi depozita",
+            "100 NT, pad od 50%, isto kao pravilo zatvaranja",
+            "175 NT, pad od 12.5%, jer gubitak od 500 NT na 4,000 NT izloženosti traži pomak od 12.5%",
+            "195 NT, pad od 2.5%"
+          ]
+        },
+        "1": {
+          "q": "Pozicija od 3,000 NT košta 0.02% financiranja po noći. Očekuješ pomak od 3% u svoju korist, vrijedan 90 NT. Koliko noći vrijedi to mišljenje prije nego što ga financiranje pojede?",
+          "options": [
+            "Otprilike 50 noći",
+            "Otprilike 150 noći, jer 90 NT podijeljeno s 0.60 NT po noći daje 150",
+            "Otprilike 300 noći",
+            "Nikad nije pojedeno, jer se financiranje odnosi samo na pozicije u gubitku"
+          ]
+        },
+        "2": {
+          "q": "Tvoj račun je 5,000 NT. Na trgovini ćeš riskirati 2%, a izaći ćeš ako se cijena pomakne 4% protiv tebe. Koju najveću poziciju trebaš otvoriti?",
+          "options": [
+            "100 NT, iznos koji riskiraš",
+            "1,000 NT, petinu računa",
+            "5,000 NT, jer stop ionako štiti račun",
+            "2,500 NT, jer 100 NT prihvatljivog gubitka podijeljeno s udaljenošću stopa od 4% daje veličinu"
+          ]
+        },
+        "3": {
+          "q": "Pozicija je tvoj račun srušila s 1,000 NT na 400 NT. Koji prinos ti odavde treba samo da se vratiš na 1,000 NT?",
+          "options": [
+            "150%, jer 400 NT mora narasti za jedan i pol put samog sebe da dosegne 1,000",
+            "60%, isti postotak koji si izgubio/la",
+            "100%, jer te udvostručenje uvijek vrati",
+            "250%, dvostruko više od onoga što si izgubio/la"
+          ]
+        },
+        "4": {
+          "q": "Kartica uživo pokazuje: razina marže 82%, slobodna gotovina 0, jedna otvorena pozicija u minusu 18%. Koji potez stvarno smanjuje rizik likvidacije?",
+          "options": [
+            "Dodaj gotovinu na račun",
+            "Drži i čekaj da se razina oporavi",
+            "Zatvori poziciju, čime se odmah oslobađa marža koju je koristila",
+            "Otvori drugu poziciju u suprotnom smjeru da je poništi"
+          ]
+        },
+        "5": {
+          "q": "Shortaš {tech} na 50 NT s pozicijom od 2,000 NT. Preuzimanje tvrtke preko noći podigne cijenu na 150 NT. Kako se taj gubitak uspoređuje s najgorim slučajem na long poziciji iste veličine?",
+          "options": [
+            "Isti je, jer su oba ograničena na ono što si uložio/la",
+            "Short gubi 4,000 NT, dvostruku vrijednost pozicije, dok long nikad ne bi mogao izgubiti više od same pozicije od 2,000 NT",
+            "Short ne gubi ništa ako je postavljen stop-loss, jer su stopovi zajamčeni",
+            "Gubitak shorta je manji, jer cijene padaju brže nego što rastu"
+          ]
+        },
+        "6": {
+          "q": "Tvoj stop stoji na 90 NT. Preko noći stignu vijesti i tržište se ponovno otvori na 78 NT, a između se nikad nije trgovalo. Što se događa i koja je prava obrana od ovoga?",
+          "options": [
+            "Izvršen/a si na 90 NT, jer to stop jamči",
+            "Nalog se poništava, jer je cijena preskočila tvoju razinu",
+            "Izvršen/a si blizu 78 NT, a obrana od jazova je veličina pozicije, a ne stop",
+            "Pružatelj ti duguje razliku između 90 i 78"
+          ]
+        },
+        "7": {
+          "q": "Zašto kripto u CFD Hubu nosi najveći zahtjev za depozitom?",
+          "options": [
+            "Najjače se kreće, pa bi tanak depozit ispraznio posve običan kripto dan",
+            "Na kripto se ne naplaćuje financiranje, pa ga depozit zamjenjuje",
+            "Kripto je zabranjen mlađima od 18, a depozit je kazna",
+            "Cijene kripta određuje aplikacija, a ne tržište"
+          ]
+        },
+        "8": {
+          "q": "Što od ovoga donosi XP u ovom modulu?",
+          "options": [
+            "Dobitak od 40% na poziciji s polugom",
+            "Korištenje najveće dostupne izloženosti",
+            "Niz od pet dobitnih trgovina",
+            "Zatvaranje pozicije u gubitku umjesto dodavanja u nju"
+          ]
+        },
+        "9": {
+          "q": "Pregled prije trgovine kaže da nepovoljan pomak od 10% skida 620 NT s tvog računa, što je 62% tvog novčanika. Tvoja cijena likvidacije je 88.40, a {tech} se trenutno trguje na 96.00. Otvaraš li je?",
+          "options": [
+            "Da, jer je cijena likvidacije sigurno ispod trenutne cijene",
+            "Da, ako si siguran/na u smjer",
+            "Samo s dvostrukom izloženošću, da se rizik isplati",
+            "Ne: pomak od otprilike 8% prazni poziciju, 8% je običan pomak, a 62% novčanika na jednoj trgovini krši svako pravilo o veličini iz ovog modula"
+          ]
+        }
+      }
+    },
+    "84": {
+      "title": "Tvoj najgori slučaj, odabran unaprijed",
+      "desc": "Stop-loss, take-profit i izlaz koji nitko ne bira",
+      "content": "Znaš depozit, poziv, zatvaranje, najamninu, stop i jaz. Ova lekcija postavlja zadnji komadić: svaka pozicija koju ćeš ikad otvoriti završava na točno jedan od tri načina, a cijela igra je u tome tko bira koji.\n\n1️⃣ TI JE ZATVORIŠ. Dotakneš gumb i pozicija se zatvori po trenutnoj tržišnoj cijeni. Uvijek dostupno, na svakoj poziciji, u svakom stanju. Većina izlaza trebala bi biti ovakva.\n\n2️⃣ ZATVORI JE NALOG KOJI SI POSTAVIO/LA. Dvije vrste, a nazivi su važni, pa ih nauči kako treba:\n\n• STOP-LOSS NALOG zatvara te automatski kad se cijena pomakne PROTIV tebe do razine koju si odabrao/la: prodajni stop ispod tvog ulaza na longu, kupovni stop iznad tvog ulaza na shortu. To je tvoj najgori slučaj, odlučen dok si bio/la smiren/a, a lekcija 80 već te naučila da je to jedino vrijeme kad išta dobro odlučuješ.\n• TAKE-PROFIT NALOG je limitirani nalog za zatvaranje: zatvara te automatski na cilju koji si odabrao/la, kad se cijena pomakne U TVOJU KORIST i dosegne ga. To je tvoje „dosta”, odlučeno prije nego što je pohlepa dobila glas. Limitirani nalog izvršava se na tvojoj razini ili bolje, nikad lošije.\n\n3️⃣ ZATVORI JE PRUŽATELJ. To je likvidacija, iz lekcije 70. A evo što trebaš zauvijek upamtiti: likvidacija nije vrsta naloga. Ne možeš postaviti „trgovinu likvidacije”. Nitko ne može. To nije alat u tvom kompletu; to je ono što pružatelj radi da zaštiti svoj zajam kad je tvoj depozit gotovo potrošen, po bilo kojoj cijeni koju tržište plaća, dok si ti u školi ili spavaš.\n\nStop-loss je ti koji/a unaprijed odlučuješ o svom najgorem slučaju. Likvidacija je ono što se dogodi kad to nisi učinio/la.\n\nOba tvoja naloga iskrena su na isti način, a to već znaš iz lekcije 78: okidaju se na tvojoj razini i izvršavaju se po onome što tržište stvarno plaća. Jaz preko tvog stopa izvrši te s druge strane skoka, što je gore. Jaz kroz tvoj take-profit također te izvrši s druge strane, što je bolje. Ista činjenica, okrenuta u oba smjera.\n\nJedno pravilo postavljanja, a ova ga aplikacija provodi uz razlog na ekranu: tvoj stop mora stajati između trenutne cijene i tvoje cijene likvidacije. Stop iza cijene likvidacije nikad se ne bi mogao aktivirati, jer bi te pružatelj prije zatvorio, pa ga aplikacija odbija i kaže ti zašto.\n\nTri vrata iz svake trgovine. Na kvaki dvaju od njih piše tvoje ime. Izaći kroz jedna od njih, na dan koji si odabrao/la, na razini koju si odabrao/la dok si bio/la smiren/a, upravo je ono što te cijeli ovaj modul uči. 🚪",
+      "quiz": {
+        "q": "Tvoja long pozicija ima stop-loss koji si postavio/la na 180.00 i cijenu likvidacije od 150.00. Koja je stvarna razlika između ta dva broja?",
+        "options": [
+          "Baš nikakva, to su dva naziva za isto automatsko zatvaranje, a pružatelj ga svaki put aktivira po jednoj jedinoj cijeni",
+          "Stop-loss je odluka pružatelja, a cijena likvidacije je tvoja, pa se onaj koji stvarno kontroliraš aktivira drugi",
+          "Stop na 180.00 je tvoj najgori slučaj, koji si sam/a odabrao/la unaprijed dok si bio/la smiren/a; 150.00 je mjesto gdje te pružatelj zatvara da zaštiti svoj zajam, jer ti više nemaš pravo glasa",
+          "Stop jamči izvršenje na točno 180.00 bez obzira na tržište, dok se likvidacija može izvršiti po bilo kojoj cijeni, koliko god daleko tržište otišlo"
+        ]
+      }
+    }
+  },
+  "context": {
+    "ZA": {
+      "name": "Južna Afrika",
+      "cName": "rand",
+      "cPlural": "randa",
+      "exDesc": "jedna od najvećih burzi na cijelom afričkom kontinentu",
+      "sectorList": "⛏️ Rudarstvo: Anglo American, Impala Platinum. Povezano sa svjetskim cijenama sirovina\n🏦 Bankarstvo: Standard Bank, FirstRand, Capitec. Dobro im ide kad su kamatne stope više\n📱 Tehnologija: Naspers, Prosus. Povezano sa svjetskim tehnološkim trendovima\n🛍️ Maloprodaja: Shoprite, Pick n Pay. Dobro im ide kad potrošači imaju novca za trošenje\n📡 Telekomunikacije: MTN, Vodacom. Stabilnije, jer ljudima uvijek trebaju podaci",
+      "etfBasket": "40 najvećih tvrtki na JSE-u",
+      "etfDesc": "JSE Top 40, na primjer, popis je 40 najvećih tvrtki uvrštenih na JSE, rangiranih prema vrijednosti dionica koje su stvarno dostupne za trgovanje.",
+      "etfList": "🇿🇦 Satrix Top 40: 40 najvećih tvrtki na JSE-u. Odlično mjesto za početak.\n🌍 Satrix MSCI World: Tvrtke iz 23 razvijene zemlje jednom kupnjom.\n🇺🇸 Sygnia Itrix S&P 500: 500 velikih američkih tvrtki s popisa S&P 500.\n💡 Satrix Nasdaq 100: 100 najvećih nefinancijskih tvrtki na Nasdaqu. Jako puno tehnologije.",
+      "currencyHedge": "Njihove su cijene u dolarima ili eurima. Dakle, ako rand OSLABI (R20 za dolar postane R22), tvoja globalna ulaganja AUTOMATSKI vrijede više u randima!",
+      "fxQuizSetup": "Rand slabi s R18 na R22 u odnosu na dolar",
+      "fxQuizLose": "Gubi vrijednost jer Južnoj Africi ide lošije",
+      "fxQuizGain": "Vrijednost u randima RASTE jer se za svaki dolar dobije više randa",
+      "dcaTitle": "Usrednjavanje troška u randima",
+      "dcaAbbrev": "RCA",
+      "food": "Wimpy burger"
+    },
+    "US": {
+      "name": "Sjedinjene Američke Države",
+      "cName": "dolar",
+      "cPlural": "dolara",
+      "exDesc": "daleko najveće tržište dionica na svijetu",
+      "sectorList": "💻 Tehnologija: Apple, Microsoft, Alphabet. Pokreću ih inovacije i svjetska potražnja\n🏦 Bankarstvo: JPMorgan, Bank of America, Goldman Sachs. Dobro im ide kad kamatne stope rastu\n🛍️ Maloprodaja: Amazon, Walmart, Costco. Dobro im ide kad potrošači troše\n⚡ Energetika: Exxon Mobil, Chevron. Povezano sa svjetskim cijenama nafte i plina\n📡 Telekomunikacije: AT&T, Verizon, T-Mobile. Ljudima uvijek treba povezanost",
+      "etfBasket": "500 velikih američkih tvrtki s popisa S&P 500",
+      "etfDesc": "S&P 500, na primjer, popis je 500 velikih američkih tvrtki koje bira odbor. Moraju biti velike, profitabilne i lake za trgovanje. To NIJE jednostavno 500 najvećih, a miješa tvrtke uvrštene na NYSE s tvrtkama uvrštenima na Nasdaq.",
+      "etfList": "🇺🇸 SPY / VOO: Prate S&P 500, popis 500 velikih američkih tvrtki. Zlatni standard.\n📦 VTI: Cijelo američko tržište dionica, tisuće tvrtki u jednom ETF-u.\n💡 QQQ: 100 najvećih nefinancijskih tvrtki na Nasdaqu. Jako puno tehnologije.\n🌍 VT / VXUS: Globalne ili međunarodne tvrtke u jednom fondu.",
+      "currencyHedge": "Ako dolar oslabi u odnosu na druge valute, tvoja međunarodna ulaganja automatski vrijede VIŠE u dolarima!",
+      "fxQuizSetup": "Dolar znatno slabi u odnosu na euro i jen",
+      "fxQuizLose": "Gubi vrijednost jer američko gospodarstvo posrće",
+      "fxQuizGain": "Vrijednost u dolarima RASTE jer su tvoji strani udjeli dobili na vrijednosti valute",
+      "dcaTitle": "Usrednjavanje troška u dolarima",
+      "dcaAbbrev": "DCA",
+      "food": "Big Mac meni"
+    },
+    "GB": {
+      "name": "Ujedinjeno Kraljevstvo",
+      "cName": "funta",
+      "cPlural": "funti",
+      "exDesc": "jedna od najstarijih i najvažnijih burzi na svijetu",
+      "sectorList": "⚡ Energetika: Shell, BP. Svjetski divovi nafte i plina\n🏦 Bankarstvo: HSBC, Barclays, Lloyds. Dobro im ide kad su kamatne stope više\n🧴 Potrošačka dobra: Unilever, Diageo, Reckitt. Moćne kućne marke\n🛍️ Maloprodaja: Tesco, Sainsbury's. Dobro im ide kad potrošači troše\n📡 Telekomunikacije: Vodafone, BT Group. Ljudima uvijek treba povezanost",
+      "etfBasket": "100 najvećih tvrtki na Londonskoj burzi",
+      "etfDesc": "FTSE 100, na primjer, popis je 100 najvećih tvrtki na glavnom tržištu Londonske burze, koji se provjerava svaka tri mjeseca.",
+      "etfList": "🇬🇧 iShares Core FTSE 100: 100 najvećih tvrtki na Londonskoj burzi.\n🌍 Vanguard FTSE All-World: Tvrtke iz desetaka zemalja jednom kupnjom.\n🇺🇸 iShares Core S&P 500: 500 velikih američkih tvrtki s popisa S&P 500.\n💡 iShares Nasdaq 100: 100 najvećih nefinancijskih tvrtki na Nasdaqu. Jako puno tehnologije.",
+      "currencyHedge": "Ako funta oslabi u odnosu na druge valute, tvoja međunarodna ulaganja automatski vrijede VIŠE u funtama!",
+      "fxQuizSetup": "Funta znatno slabi u odnosu na dolar i euro",
+      "fxQuizLose": "Gubi vrijednost jer britansko gospodarstvo posrće",
+      "fxQuizGain": "Vrijednost u funtama RASTE jer su tvoji strani udjeli dobili na vrijednosti valute",
+      "dcaTitle": "Usrednjavanje troška u funtama",
+      "dcaAbbrev": "PCA",
+      "food": "Nando's četvrtina piletine"
+    },
+    "IN": {
+      "name": "Indija",
+      "cName": "rupija",
+      "cPlural": "rupija",
+      "exDesc": "jedna od najvećih burzi na svijetu po broju transakcija",
+      "sectorList": "💻 Tehnologija: TCS, Infosys, Wipro. Svjetske velesile IT usluga\n🏦 Bankarstvo: HDFC Bank, SBI, ICICI. Dobro im ide kad su kamatne stope više\n🛍️ Potrošačka dobra: ITC, Hindustan Unilever, DMart. Dobro im ide kad potrošači troše\n⚡ Energetika: Reliance, ONGC. Povezano s naftom, plinom i preradom\n📡 Telekomunikacije: Airtel, Vodafone Idea. Ogromno indijsko mobilno tržište stalno raste",
+      "etfBasket": "50 najvećih indijskih tvrtki kojima se najviše trguje",
+      "etfDesc": "Nifty 50, na primjer, popis je 50 najvećih indijskih tvrtki kojima se najviše trguje, odabranih prema veličini I prema tome koliko se lako mogu kupiti i prodati, a ne samo prema veličini.",
+      "etfList": "🇮🇳 Nippon India Nifty 50: Nifty 50, popis 50 najvećih indijskih tvrtki kojima se najviše trguje.\n💡 ICICI Prudential Sensex: Sensex, popis 30 najpoznatijih indijskih blue chip tvrtki.\n📦 Kotak Nifty Next 50: 50 tvrtki rangiranih odmah ispod Nifty 50.\n🌍 Motilal Oswal Nasdaq 100: 100 najvećih nefinancijskih tvrtki na Nasdaqu.",
+      "currencyHedge": "Ako rupija oslabi u odnosu na dolar, tvoja međunarodna ulaganja automatski vrijede VIŠE u rupijama!",
+      "fxQuizSetup": "Rupija slabi s ₹82 na ₹90 u odnosu na dolar",
+      "fxQuizLose": "Gubi vrijednost jer indijsko gospodarstvo posrće",
+      "fxQuizGain": "Vrijednost u rupijama RASTE jer se za svaki dolar dobije više rupija",
+      "dcaTitle": "Usrednjavanje troška u rupijama",
+      "dcaAbbrev": "RCA",
+      "food": "Domino's pizza"
+    },
+    "JP": {
+      "name": "Japan",
+      "cName": "jen",
+      "cPlural": "jena",
+      "exDesc": "jedna od najvećih burzi na svijetu",
+      "sectorList": "🚗 Automobilska industrija: Toyota, Honda, Nissan. Svjetski poznati japanski proizvođači automobila\n💻 Tehnologija: Sony, SoftBank, Nintendo. Gaming, zabava i inovacije\n🏦 Bankarstvo: MUFG, SMFG, Mizuho. Japanske megabankarske grupe\n🛍️ Maloprodaja: Fast Retailing (Uniqlo), Seven & i. Globalni doseg u maloprodaji\n📡 Telekomunikacije: NTT, KDDI, SoftBank. Ogromna mobilna infrastruktura",
+      "etfBasket": "225 tvrtki s popisa Nikkei 225",
+      "etfDesc": "Nikkei 225, na primjer, popis je 225 poznatih japanskih tvrtki odabranih da predstavljaju cijelo tržište. Ponderiran je cijenom, što znači da dionica s visokom cijenom vrijedi više od tvrtke koja je samo velika.",
+      "etfList": "🇯🇵 Nikkei 225 ETF: 225 tvrtki s popisa Nikkei 225. Mjerilo tržišta.\n📦 TOPIX ETF: Daleko širi dio tokijskog tržišta, znatno više od tisuću tvrtki.\n🌍 MAXIS All Country World: Razvijena tržišta i tržišta u nastajanju u jednom fondu.\n🇺🇸 iShares S&P 500: 500 velikih američkih tvrtki s popisa S&P 500.",
+      "currencyHedge": "Ako jen oslabi u odnosu na druge valute, tvoja međunarodna ulaganja automatski vrijede VIŠE u jenima!",
+      "fxQuizSetup": "Jen slabi s ¥130 na ¥155 u odnosu na dolar",
+      "fxQuizLose": "Gubi vrijednost jer japansko gospodarstvo posrće",
+      "fxQuizGain": "Vrijednost u jenima RASTE jer su tvoji strani udjeli dobili na vrijednosti valute",
+      "dcaTitle": "Usrednjavanje troška u jenima",
+      "dcaAbbrev": "YCA",
+      "food": "zdjela ramena"
+    },
+    "DE": {
+      "name": "Njemačka",
+      "cName": "euro",
+      "cPlural": "eura",
+      "exDesc": "jedna od najvećih burzi u Europi",
+      "sectorList": "💻 Tehnologija: SAP, Infineon. Poslovni softver i poluvodiči\n🚗 Automobilska industrija: Volkswagen, BMW, Mercedes-Benz. Ponos njemačkog inženjerstva\n🏦 Bankarstvo: Deutsche Bank, Commerzbank. Dobro im ide kad kamatne stope rastu\n🏭 Industrija: Siemens, BASF. Svjetska proizvodnja i kemikalije\n📡 Telekomunikacije: Deutsche Telekom, 1&1. Okosnica njemačke povezanosti",
+      "etfBasket": "40 najvećih njemačkih tvrtki na frankfurtskoj burzi",
+      "etfDesc": "DAX 40, na primjer, popis je 40 najvećih njemačkih tvrtki na frankfurtskoj burzi, a od 2021. moraju biti i profitabilne da bi se kvalificirale.",
+      "etfList": "🇩🇪 iShares Core DAX: 40 najvećih njemačkih tvrtki na frankfurtskoj burzi.\n🌍 Xtrackers MSCI World: Tvrtke iz 23 razvijene zemlje.\n🇺🇸 iShares Core S&P 500: 500 velikih američkih tvrtki s popisa S&P 500.\n🇪🇺 EURO STOXX 50 ETF: 50 vodećih blue chip tvrtki iz cijele eurozone.",
+      "currencyHedge": "Ako euro oslabi u odnosu na druge valute, tvoja međunarodna ulaganja automatski vrijede VIŠE u eurima!",
+      "fxQuizSetup": "Euro znatno slabi u odnosu na dolar i jen",
+      "fxQuizLose": "Gubi vrijednost jer europsko gospodarstvo posrće",
+      "fxQuizGain": "Vrijednost u eurima RASTE jer su tvoji strani udjeli dobili na vrijednosti valute",
+      "dcaTitle": "Usrednjavanje troška",
+      "dcaAbbrev": "DCA",
+      "food": "döner kebab"
+    },
+    "CA": {
+      "name": "Kanada",
+      "cName": "kanadski dolar",
+      "cPlural": "kanadskih dolara",
+      "exDesc": "jedna od 10 najvećih burzi na svijetu",
+      "sectorList": "💻 Tehnologija: Shopify, OpenText, Constellation Software. Kanadske tehnološke inovacije\n🏦 Bankarstvo: RBC, TD, BMO, Scotiabank. Kanadskih velikih pet čvrsto je kao stijena\n⚡ Energetika: Enbridge, Suncor, TC Energy. Divovi naftnog pijeska i naftovoda\n🛍️ Maloprodaja: Dollarama, Canadian Tire, Loblaw. Domaće maloprodajne marke\n📡 Telekomunikacije: BCE, Rogers, Telus. Kanađanima uvijek treba povezanost",
+      "etfBasket": "60 velikih kanadskih tvrtki iz svih glavnih industrija",
+      "etfDesc": "S&P/TSX 60, na primjer, popis je 60 velikih kanadskih tvrtki koje bira odbor tako da svaka glavna industrija bude zastupljena, što znači da to nije jednostavno 60 najvećih.",
+      "etfList": "🇨🇦 iShares S&P/TSX 60 (XIU): 60 velikih kanadskih tvrtki iz svih glavnih industrija.\n📦 Vanguard All-Equity (VEQT): Kanadske, američke i međunarodne dionice u jednom ETF-u.\n🇺🇸 BMO S&P 500: 500 velikih američkih tvrtki s popisa S&P 500.\n💡 Nasdaq 100 ETF: 100 najvećih nefinancijskih tvrtki na Nasdaqu. Jako puno tehnologije.",
+      "currencyHedge": "Ako kanadski dolar oslabi u odnosu na druge valute, tvoja međunarodna ulaganja automatski vrijede VIŠE u C$!",
+      "fxQuizSetup": "Kanadski dolar znatno slabi u odnosu na američki dolar",
+      "fxQuizLose": "Gubi vrijednost jer kanadsko gospodarstvo posrće",
+      "fxQuizGain": "Vrijednost u kanadskim dolarima RASTE jer su tvoji strani udjeli dobili na vrijednosti valute",
+      "dcaTitle": "Usrednjavanje troška u dolarima",
+      "dcaAbbrev": "DCA",
+      "food": "Tim Hortons meni"
+    },
+    "AU": {
+      "name": "Australija",
+      "cName": "australski dolar",
+      "cPlural": "australskih dolara",
+      "exDesc": "najveća burza na južnoj polutci",
+      "sectorList": "⛏️ Rudarstvo: BHP, Rio Tinto, Fortescue. Svjetski divovi rudarstva i sirovina\n🏦 Bankarstvo: CBA, Westpac, ANZ, NAB. Četiri velike australske banke\n🏥 Zdravstvo: CSL, Cochlear. Vrhunska biotehnologija i medicinski uređaji\n🛍️ Maloprodaja: Woolworths, Coles, Wesfarmers. Namirnice i osnovna potrošačka dobra\n💻 Tehnologija: WiseTech Global, Xero. Uspješne softverske priče s australske burze",
+      "etfBasket": "200 najvećih tvrtki na ASX-u",
+      "etfDesc": "S&P/ASX 200, na primjer, popis je 200 najvećih tvrtki uvrštenih na ASX, mjereno vrijednošću dionica dostupnih za trgovanje i provjereno prema tome koliko lako mijenjaju vlasnika.",
+      "etfList": "🇦🇺 iShares Core S&P/ASX 200 (IOZ): 200 najvećih tvrtki na ASX-u.\n📦 Vanguard Australian Shares (VAS): Još šire, oko 300 tvrtki s ASX-a.\n🌍 Vanguard MSCI International (VGS): Tvrtke s razvijenih tržišta izvan Australije.\n🇺🇸 BetaShares Nasdaq 100 (NDQ): 100 najvećih nefinancijskih tvrtki na Nasdaqu.",
+      "currencyHedge": "Ako australski dolar oslabi u odnosu na druge valute, tvoja međunarodna ulaganja automatski vrijede VIŠE u A$!",
+      "fxQuizSetup": "Australski dolar znatno slabi u odnosu na američki dolar",
+      "fxQuizLose": "Gubi vrijednost jer australsko gospodarstvo posrće",
+      "fxQuizGain": "Vrijednost u A$ RASTE jer su tvoji strani udjeli dobili na vrijednosti valute",
+      "dcaTitle": "Usrednjavanje troška u dolarima",
+      "dcaAbbrev": "DCA",
+      "food": "pita s mesom"
+    },
+    "HK": {
+      "name": "Hong Kong",
+      "cName": "hongkonški dolar",
+      "cPlural": "hongkonških dolara",
+      "exDesc": "burza koja je vrata između Kine i svjetskih tržišta",
+      "sectorList": "💻 Tehnologija: Tencent, Xiaomi, Meituan. Kineski tehnološki divovi uvršteni u HK\n🏦 Bankarstvo: HSBC, Hang Seng Bank. Dobro im ide kad kamatne stope rastu\n🏗️ Nekretnine: CK Asset, Sun Hung Kai. Nekretnine su kralj u Hong Kongu\n⚡ Komunalne usluge: CLP, Power Assets. Stabilne dividende iz godine u godinu\n🛡️ Osiguranje: AIA, Prudential. Vodeći osiguravatelji Azije i Pacifika",
+      "etfBasket": "najveće hongkonške tvrtke kojima se najviše trguje",
+      "etfDesc": "Hang Seng Index, na primjer, odabrani je popis najvećih hongkonških tvrtki kojima se najviše trguje, odabranih tako da predstavljaju svaku glavnu industriju. Broj tvrtki na njemu mijenja se kako odbor indeksa dodaje i uklanja imena.",
+      "etfList": "🇭🇰 Tracker Fund (2800): Prati Hang Seng Index. Hongkonški pionir ETF-ova.\n💡 Hang Seng TECH ETF: 30 najvećih tehnoloških tvrtki uvrštenih u Hong Kongu.\n🇺🇸 S&P 500 ETF: 500 velikih američkih tvrtki s popisa S&P 500.\n🇨🇳 ETF kineskih A-dionica: Pristup tvrtkama uvrštenima u Šangaju i Shenzhenu.",
+      "currencyHedge": "Hongkonški dolar vezan je uz američki dolar, pa se globalni fond s puno američkih dionica jedva miče samo zbog valute. Ali neamerički dio (Europa, Japan, ostatak Azije) i dalje dobiva na vrijednosti u HK$ kad te valute ojačaju!",
+      "fxQuizSetup": "Euro i jen jačaju u odnosu na američki dolar, a hongkonški dolar vezan je uz američki dolar",
+      "fxQuizLose": "Gubi vrijednost jer hongkonško gospodarstvo posrće",
+      "fxQuizGain": "Europski i japanski dio RASTE u HK$, jer se za te valute sada dobije više hongkonških dolara",
+      "dcaTitle": "Usrednjavanje troška u dolarima",
+      "dcaAbbrev": "DCA",
+      "food": "zdjela wonton rezanaca"
+    },
+    "CN": {
+      "name": "Kina",
+      "cName": "juan",
+      "cPlural": "juana",
+      "exDesc": "jedna od najvećih burzi na svijetu po tržišnoj kapitalizaciji",
+      "sectorList": "💻 Tehnologija: SMIC, Kingsoft Office. Proizvodnja čipova i softver uvršteni u Šangaju\n🏦 Bankarstvo: ICBC, CCB, Bank of China. Među najvećim bankama na svijetu po imovini\n🚗 Automobilska industrija: SAIC Motor, Great Wall Motor. Domaći kineski proizvođači automobila\n🛍️ Potrošačka dobra: Kweichow Moutai, Haier, Yili. Poznata imena diljem Kine\n📡 Telekomunikacije: China Mobile, China Telecom. Ogromne mobilne mreže",
+      "etfBasket": "300 najvećih tvrtki s kineskog kopna kojima se najviše trguje",
+      "etfDesc": "CSI 300, na primjer, popis je 300 najvećih tvrtki s kineskog kopna kojima se najviše trguje, a obuhvaća I šangajsku I shenzhensku burzu, a ne samo jednu od njih.",
+      "etfList": "🇨🇳 Huatai-PB CSI 300 (510300): 300 velikih tvrtki kojima se puno trguje, iz Šangaja i Shenzhena.\n💡 ChinaAMC SSE 50 (510050): 50 najvećih tvrtki samo na šangajskoj burzi.\n🌍 Široki fond kineskih dionica: Šira pokrivenost od CSI 300.\n🇺🇸 S&P 500 QDII fond: Pristup 500 velikih američkih tvrtki s popisa S&P 500.",
+      "currencyHedge": "Ako juan oslabi u odnosu na druge valute, tvoja međunarodna ulaganja automatski vrijede VIŠE u juanima!",
+      "fxQuizSetup": "Juan znatno slabi u odnosu na dolar i euro",
+      "fxQuizLose": "Gubi vrijednost jer kinesko gospodarstvo posrće",
+      "fxQuizGain": "Vrijednost u juanima RASTE jer su tvoji strani udjeli dobili na vrijednosti valute",
+      "dcaTitle": "Usrednjavanje troška u juanima",
+      "dcaAbbrev": "YCA",
+      "food": "zdjela rezanaca"
+    },
+    "FR": {
+      "name": "Francuska",
+      "cName": "euro",
+      "cPlural": "eura",
+      "exDesc": "dom nekih od najprepoznatljivijih svjetskih luksuznih i industrijskih marki",
+      "sectorList": "👜 Luksuz: LVMH, Hermès, Kering. Francuska dominira svjetskim luksuzom\n⚡ Energetika: TotalEnergies, Engie. Velike europske energetske tvrtke\n🏦 Bankarstvo: BNP Paribas, Société Générale. Dobro im ide kad kamatne stope rastu\n✈️ Zrakoplovstvo: Airbus, Safran. Vodeći svjetski proizvođači zrakoplova i obrambene opreme\n📡 Telekomunikacije: Orange, Bouygues. Okosnica francuske povezanosti",
+      "etfBasket": "40 tvrtki s popisa CAC 40",
+      "etfDesc": "CAC 40, na primjer, popis je 40 tvrtki koje neovisni odbor bira između 100 najvećih na pariškoj burzi, na temelju veličine I toga koliko se njima trguje.",
+      "etfList": "🇫🇷 Amundi CAC 40: 40 tvrtki s popisa CAC 40. Mjerilo tržišta.\n🌍 MSCI World ETF: Tvrtke iz 23 razvijene zemlje.\n🇺🇸 BNP Paribas Easy S&P 500: 500 velikih američkih tvrtki s popisa S&P 500.\n🇪🇺 EURO STOXX 50 ETF: 50 vodećih blue chip tvrtki iz cijele eurozone.",
+      "currencyHedge": "Ako euro oslabi u odnosu na druge valute, tvoja međunarodna ulaganja automatski vrijede VIŠE u eurima!",
+      "fxQuizSetup": "Euro znatno slabi u odnosu na dolar i jen",
+      "fxQuizLose": "Gubi vrijednost jer europsko gospodarstvo posrće",
+      "fxQuizGain": "Vrijednost u eurima RASTE jer su tvoji strani udjeli dobili na vrijednosti valute",
+      "dcaTitle": "Usrednjavanje troška",
+      "dcaAbbrev": "DCA",
+      "food": "croque-monsieur"
+    },
+    "IT": {
+      "name": "Italija",
+      "cName": "euro",
+      "cPlural": "eura",
+      "exDesc": "jedna od najstarijih europskih burzi, dom kultnih talijanskih marki",
+      "sectorList": "🏎️ Automobilska industrija: Ferrari, Stellantis. Izvrsnost talijanskog inženjerstva\n⚡ Energetika: Enel, Eni. Velike europske energetske i komunalne tvrtke\n🏦 Bankarstvo: UniCredit, Intesa Sanpaolo. Dobro im ide kad kamatne stope rastu\n🛡️ Osiguranje: Generali, Unipol. Talijanski divovi osiguranja\n📡 Telekomunikacije: TIM, Inwit. Talijanska infrastruktura povezanosti",
+      "etfBasket": "40 tvrtki s popisa FTSE MIB",
+      "etfDesc": "FTSE MIB, na primjer, popis je 40 najvećih tvrtki na milanskoj burzi kojima se najviše trguje, odabranih tako da pokriju glavne talijanske industrije.",
+      "etfList": "🇮🇹 FTSE MIB ETF: 40 tvrtki s popisa FTSE MIB.\n🌍 iShares Core MSCI World: Tvrtke iz 23 razvijene zemlje.\n🇺🇸 Amundi S&P 500: 500 velikih američkih tvrtki s popisa S&P 500.\n🇪🇺 Xtrackers EURO STOXX 50: 50 vodećih blue chip tvrtki iz cijele eurozone.",
+      "currencyHedge": "Ako euro oslabi u odnosu na druge valute, tvoja međunarodna ulaganja automatski vrijede VIŠE u eurima!",
+      "fxQuizSetup": "Euro znatno slabi u odnosu na dolar i jen",
+      "fxQuizLose": "Gubi vrijednost jer europsko gospodarstvo posrće",
+      "fxQuizGain": "Vrijednost u eurima RASTE jer su tvoji strani udjeli dobili na vrijednosti valute",
+      "dcaTitle": "Usrednjavanje troška",
+      "dcaAbbrev": "DCA",
+      "food": "pizza margherita"
+    },
+    "ES": {
+      "name": "Španjolska",
+      "cName": "euro",
+      "cPlural": "eura",
+      "exDesc": "glavna španjolska burza i vrata prema latinskoameričkim tržištima",
+      "sectorList": "👗 Moda i ljepota: Inditex (Zara), Puig. Španjolsko globalno carstvo stila\n🏦 Bankarstvo: Santander, BBVA, CaixaBank. Španjolske banke imaju ogroman globalni doseg\n⚡ Energetika: Iberdrola, Endesa. Europski predvodnici obnovljive energije\n📡 Telekomunikacije: Telefónica, Cellnex. Okosnica španjolske povezanosti\n🏗️ Infrastruktura: Ferrovial, ACS. Grade infrastrukturu diljem svijeta",
+      "etfBasket": "35 španjolskih tvrtki kojima se najviše trguje",
+      "etfDesc": "IBEX 35, na primjer, popis je 35 španjolskih dionica kojima se najviše trguje, a bira ih tehnički odbor prema volumenu trgovanja. Dakle, to je popis onih kojima se najviše trguje, a ne popis najvećih.",
+      "etfList": "🇪🇸 IBEX 35 ETF: 35 španjolskih dionica kojima se najviše trguje.\n🌍 iShares Core MSCI World: Tvrtke iz 23 razvijene zemlje.\n🇺🇸 Vanguard S&P 500: 500 velikih američkih tvrtki s popisa S&P 500.\n🇪🇺 EURO STOXX 50 ETF: 50 vodećih blue chip tvrtki iz cijele eurozone.",
+      "currencyHedge": "Ako euro oslabi u odnosu na druge valute, tvoja međunarodna ulaganja automatski vrijede VIŠE u eurima!",
+      "fxQuizSetup": "Euro znatno slabi u odnosu na dolar i jen",
+      "fxQuizLose": "Gubi vrijednost jer europsko gospodarstvo posrće",
+      "fxQuizGain": "Vrijednost u eurima RASTE jer su tvoji strani udjeli dobili na vrijednosti valute",
+      "dcaTitle": "Usrednjavanje troška",
+      "dcaAbbrev": "DCA",
+      "food": "tanjur tapasa"
+    },
+    "NL": {
+      "name": "Nizozemska",
+      "cName": "euro",
+      "cPlural": "eura",
+      "exDesc": "najstarija burza na svijetu, osnovana 1602. godine",
+      "sectorList": "💻 Tehnologija: ASML, Adyen. ASML pokreće najnaprednije čipove na svijetu\n⚡ Energetika: Shell, SBM Offshore. Svjetski energetski divovi sa sjedištem u NL\n🏦 Bankarstvo: ING, ABN AMRO. Dobro im ide kad kamatne stope rastu\n🍺 Potrošačka dobra: Heineken, Ahold Delhaize. Svjetske marke hrane i pića\n📡 Telekomunikacije: KPN, najveći uvršteni pružatelj povezanosti u zemlji",
+      "etfBasket": "25 tvrtki kojima se najaktivnije trguje u Amsterdamu",
+      "etfDesc": "AEX, na primjer, popis je 25 dionica kojima se najaktivnije trguje na amsterdamskoj burzi. Rangira tvrtke prema tome koliko se njima trguje, a ne prema tome koliko su velike.",
+      "etfList": "🇳🇱 iShares AEX: 25 dionica kojima se najaktivnije trguje u Amsterdamu.\n🌍 Vanguard FTSE All-World: Tvrtke iz desetaka zemalja jednom kupnjom.\n🇺🇸 iShares Core S&P 500: 500 velikih američkih tvrtki s popisa S&P 500.\n🇪🇺 EURO STOXX 50 ETF: 50 vodećih blue chip tvrtki iz cijele eurozone.",
+      "currencyHedge": "Ako euro oslabi u odnosu na druge valute, tvoja međunarodna ulaganja automatski vrijede VIŠE u eurima!",
+      "fxQuizSetup": "Euro znatno slabi u odnosu na dolar i jen",
+      "fxQuizLose": "Gubi vrijednost jer europsko gospodarstvo posrće",
+      "fxQuizGain": "Vrijednost u eurima RASTE jer su tvoji strani udjeli dobili na vrijednosti valute",
+      "dcaTitle": "Usrednjavanje troška",
+      "dcaAbbrev": "DCA",
+      "food": "kroket"
+    },
+    "BR": {
+      "name": "Brazil",
+      "cName": "real",
+      "cPlural": "reala",
+      "exDesc": "najveća burza u Latinskoj Americi",
+      "sectorList": "⛏️ Rudarstvo: Vale, CSN. Brazilski divovi željezne rude i čelika\n⚡ Energetika: Petrobras, Eletrobras. Velike naftne i elektroenergetske tvrtke\n🏦 Bankarstvo: Itaú, Bradesco, Banco do Brasil. Dobro im ide kad kamatne stope rastu\n🍺 Potrošačka dobra: Ambev, JBS. Velesile hrane i pića\n📡 Telekomunikacije: Vivo, TIM Brasil. Brazilski pružatelji mobilnih i širokopojasnih usluga",
+      "etfBasket": "tvrtke kojima se najviše trguje na burzi B3",
+      "etfDesc": "Ibovespa, na primjer, popis je tvrtki kojima se najviše trguje na burzi B3. Tvrtka zaslužuje mjesto prema tome koliko se kupuje i prodaje, a ne prema tome koliko je velika. Zato se broj tvrtki na popisu s vremenom mijenja.",
+      "etfList": "🇧🇷 BOVA11: Prati Ibovespu, tvrtke kojima se najviše trguje na B3. Mjerilo tržišta.\n🇺🇸 IVVB11: Prati S&P 500. To je 500 velikih američkih tvrtki, s cijenom u realima.\n🌍 Globalni ETF dionica: Razvijena tržišta i tržišta u nastajanju jednom kupnjom.\n💡 HASH11: Indeksni kripto fond koji drži Bitcoin, Ethereum i druge.",
+      "currencyHedge": "Ako real oslabi u odnosu na dolar, tvoja međunarodna ulaganja automatski vrijede VIŠE u R$!",
+      "fxQuizSetup": "Brazilski real slabi s R$5 na R$6 u odnosu na dolar",
+      "fxQuizLose": "Gubi vrijednost jer brazilsko gospodarstvo posrće",
+      "fxQuizGain": "Vrijednost u realima RASTE jer se za svaki dolar dobije više reala",
+      "dcaTitle": "Usrednjavanje troška u realima",
+      "dcaAbbrev": "RCA",
+      "food": "pão de queijo meni"
+    },
+    "SA_ARABIA": {
+      "name": "Saudijska Arabija",
+      "cName": "rijal",
+      "cPlural": "rijala",
+      "exDesc": "najveća burza na Bliskom istoku",
+      "sectorList": "🛢️ Energetika: Saudi Aramco, SABIC. Aramco je najvrjednija naftna tvrtka na svijetu\n🏦 Bankarstvo: Al Rajhi, SNB, Riyad Bank. Dobro im ide kad kamatne stope rastu\n📡 Telekomunikacije: STC, Mobily. Saudijski pružatelji mobilnih i širokopojasnih usluga\n🛍️ Maloprodaja: Jarir, Extra. Popularni maloprodajni lanci\n⛏️ Materijali: Ma'aden, Yansab. Rudarstvo i petrokemija",
+      "etfBasket": "sve tvrtke uvrštene na glavno tržište Tadawula",
+      "etfDesc": "TASI (Tadawul All Share Index) uopće nije popis top 30 ili top 100. Obuhvaća sve tvrtke uvrštene na glavno tržište Tadawula, pa se broj tvrtki u njemu mijenja kad god neka tvrtka uđe na burzu ili je napusti.",
+      "etfList": "🇸🇦 ETF koji prati TASI: Široka izloženost cijelom glavnom tržištu Tadawula.\n📦 Saudijski blue chip ETF: Puno manja košara najvećih saudijskih imena.\n🌍 MSCI Saudi Arabia ETF: Prati MSCI-jev saudijski indeks, filtrirani dio tržišta.\n🇺🇸 S&P 500 fond: 500 velikih američkih tvrtki s popisa S&P 500.",
+      "currencyHedge": "Budući da je rijal vezan uz američki dolar, globalno ulaganje u drugim valutama donosi ti korist kad te valute ojačaju!",
+      "fxQuizSetup": "Svjetske valute poput eura i jena jačaju u odnosu na rijal",
+      "fxQuizLose": "Gubi vrijednost jer saudijsko gospodarstvo posrće",
+      "fxQuizGain": "Vrijednost u rijalima RASTE jer su tvoji strani udjeli dobili na vrijednosti valute",
+      "dcaTitle": "Usrednjavanje troška u rijalima",
+      "dcaAbbrev": "RCA",
+      "food": "Al Baik obrok"
+    },
+    "KR": {
+      "name": "Južna Koreja",
+      "cName": "von",
+      "cPlural": "vona",
+      "exDesc": "dom Samsunga, Hyundaija i nekih od najinovativnijih tvrtki u Aziji",
+      "sectorList": "💻 Tehnologija: Samsung, SK Hynix, Kakao. Vodeća svjetska tehnologija i čipovi\n🚗 Automobilska industrija: Hyundai, Kia. Svjetski poznati korejski proizvođači automobila\n🏦 Bankarstvo: KB Financial, Shinhan. Dobro im ide kad kamatne stope rastu\n🎶 Zabava: HYBE, CJ ENM. Globalni kulturni val K-popa i K-drama\n📡 Telekomunikacije: KT, LG Uplus. Ultrabrza južnokorejska povezanost",
+      "etfBasket": "200 najvećih korejskih tvrtki kojima se najviše trguje",
+      "etfDesc": "KOSPI 200, na primjer, popis je 200 najvećih korejskih tvrtki kojima se najviše trguje, odabranih industriju po industriju tako da bude zastupljen svaki dio tržišta.",
+      "etfList": "🇰🇷 KODEX 200: Prati KOSPI 200, popis 200 najvećih korejskih tvrtki kojima se najviše trguje.\n🌍 Globalni ETF dionica: Tvrtke s razvijenih tržišta jednom kupnjom.\n🇺🇸 TIGER Nasdaq 100: 100 najvećih nefinancijskih tvrtki na Nasdaqu.\n💡 KODEX Samsung Group: Prati uvrštene povezane tvrtke grupe Samsung.",
+      "currencyHedge": "Ako von oslabi u odnosu na druge valute, tvoja međunarodna ulaganja automatski vrijede VIŠE u vonima!",
+      "fxQuizSetup": "Von slabi s ₩1,300 na ₩1,400 u odnosu na dolar",
+      "fxQuizLose": "Gubi vrijednost jer južnokorejsko gospodarstvo posrće",
+      "fxQuizGain": "Vrijednost u vonima RASTE jer se za svaki dolar dobije više vona",
+      "dcaTitle": "Usrednjavanje troška u vonima",
+      "dcaAbbrev": "WCA",
+      "food": "zdjela bibimbapa"
+    },
+    "TW": {
+      "name": "Tajvan",
+      "cName": "tajvanski dolar",
+      "cPlural": "tajvanskih dolara",
+      "exDesc": "dom TSMC-a, tvrtke koja proizvodi većinu najnaprednijih čipova na svijetu",
+      "sectorList": "💻 Tehnologija: TSMC, MediaTek, ASUS. Tajvan proizvodi svjetske čipove\n🏭 Proizvodnja: Hon Hai (Foxconn), Delta. Divovi proizvodnje elektronike\n🏦 Bankarstvo: Cathay Financial, Fubon. Dobro im ide kad kamatne stope rastu\n🧪 Kemikalije: Formosa Plastics, Nan Ya. Predvodnici industrijskih materijala\n📡 Telekomunikacije: Chunghwa Telecom, Far EasTone. Okosnica tajvanske povezanosti",
+      "etfBasket": "50 najvećih tvrtki na Tajvanskoj burzi",
+      "etfDesc": "Tajvan ima dva vrlo različita popisa. TAIEX obuhvaća sve tvrtke uvrštene na Tajvansku burzu, njih oko tisuću. Taiwan 50, koji prati popularni ETF 0050, samo je 50 najvećih.",
+      "etfList": "🇹🇼 0050 (Yuanta Taiwan Top 50): 50 najvećih tvrtki na tajvanskoj burzi. Klasik.\n📦 0056 (Yuanta High Dividend): Tajvanske dionice odabrane prema očekivanom dividendnom prinosu.\n🇺🇸 00646 (Yuanta S&P 500): 500 velikih američkih tvrtki s popisa S&P 500.\n💡 00662 (Fubon Nasdaq 100): 100 najvećih nefinancijskih tvrtki na Nasdaqu.",
+      "currencyHedge": "Ako tajvanski dolar oslabi u odnosu na druge valute, tvoja međunarodna ulaganja automatski vrijede VIŠE u NT$!",
+      "fxQuizSetup": "Tajvanski dolar slabi s NT$30 na NT$34 u odnosu na američki dolar",
+      "fxQuizLose": "Gubi vrijednost jer tajvansko gospodarstvo posrće",
+      "fxQuizGain": "Vrijednost u NT$ RASTE jer su tvoji strani udjeli dobili na vrijednosti valute",
+      "dcaTitle": "Usrednjavanje troška u dolarima",
+      "dcaAbbrev": "DCA",
+      "food": "juha s govedinom i rezancima"
+    },
+    "SG": {
+      "name": "Singapur",
+      "cName": "singapurski dolar",
+      "cPlural": "singapurskih dolara",
+      "exDesc": "vodeće financijsko središte i burza jugoistočne Azije",
+      "sectorList": "🏦 Bankarstvo: DBS, OCBC, UOB. Čvrsti singapurski bankarski trio\n✈️ Prijevoz: Singapore Airlines, SATS. Zrakoplovstvo svjetske klase\n🏗️ Nekretnine: CapitaLand, City Developments. Nekretnine su ogromna stvar u Singapuru\n💻 Tehnologija: Venture Corporation, AEM. Tehnologija uvrštena na SGX uglavnom je proizvodnja elektronike; Sea i Grab odlučili su se umjesto toga uvrstiti u SAD-u\n📡 Telekomunikacije: Singtel, StarHub. Singapurski pružatelji povezanosti",
+      "etfBasket": "30 najvećih tvrtki na Singapurskoj burzi",
+      "etfDesc": "Straits Times Index, na primjer, popis je 30 najvećih tvrtki na Singapurskoj burzi koje također prolaze njezine testove slobodno prenosivih dionica (free float) i trgovanja.",
+      "etfList": "🇸🇬 Nikko AM STI ETF: 30 najvećih tvrtki na Singapurskoj burzi. Mjerilo tržišta.\n📦 ABF Singapore Bond Index Fund: Singapurske državne obveznice u jednom fondu.\n🌏 iShares MSCI Asia ex Japan: Širok pristup azijskim tržištima.\n🇺🇸 S&P 500 ETF: 500 velikih američkih tvrtki s popisa S&P 500.",
+      "currencyHedge": "Ako singapurski dolar oslabi u odnosu na druge valute, tvoja međunarodna ulaganja automatski vrijede VIŠE u S$!",
+      "fxQuizSetup": "Singapurski dolar znatno slabi u odnosu na američki dolar",
+      "fxQuizLose": "Gubi vrijednost jer singapursko gospodarstvo posrće",
+      "fxQuizGain": "Vrijednost u S$ RASTE jer su tvoji strani udjeli dobili na vrijednosti valute",
+      "dcaTitle": "Usrednjavanje troška u dolarima",
+      "dcaAbbrev": "DCA",
+      "food": "obrok iz hawker centra"
+    },
+    "CH": {
+      "name": "Švicarska",
+      "cName": "franak",
+      "cPlural": "franaka",
+      "exDesc": "dom Nestléa, Novartisa i Rochea, triju najvrjednijih europskih tvrtki",
+      "sectorList": "💊 Farmacija: Novartis, Roche. Svjetske farmaceutske velesile\n🍫 Potrošačka dobra: Nestlé, Lindt. Najpoznatije prehrambene marke na svijetu\n🏦 Bankarstvo: UBS, Julius Baer. Švicarsko bankarstvo je legendarno\n🏭 Industrija: ABB, Holcim. Svjetsko inženjerstvo i graditeljstvo\n📡 Telekomunikacije: Swisscom, Sunrise. Švicarski pružatelji povezanosti",
+      "etfBasket": "20 najvećih švicarskih tvrtki kojima se najviše trguje",
+      "etfDesc": "Swiss Market Index, na primjer, popis je 20 najvećih švicarskih tvrtki kojima se najviše trguje.",
+      "etfList": "🇨🇭 iShares Core SPI: Cijelo švicarsko tržište, ne samo velika imena.\n💡 SMI ETF: 20 najvećih švicarskih tvrtki kojima se najviše trguje.\n🌍 UBS ETF MSCI World: Tvrtke iz 23 razvijene zemlje.\n🇺🇸 iShares Core S&P 500: 500 velikih američkih tvrtki s popisa S&P 500.",
+      "currencyHedge": "Ako franak oslabi u odnosu na druge valute, tvoja međunarodna ulaganja vrijede VIŠE u CHF. Švicarski franak obično je vrlo jak!",
+      "fxQuizSetup": "Švicarski franak znatno slabi u odnosu na dolar i euro",
+      "fxQuizLose": "Gubi vrijednost jer švicarsko gospodarstvo posrće",
+      "fxQuizGain": "Vrijednost u francima RASTE jer su tvoji strani udjeli dobili na vrijednosti valute",
+      "dcaTitle": "Usrednjavanje troška u francima",
+      "dcaAbbrev": "FCA",
+      "food": "kebab"
+    },
+    "SE": {
+      "name": "Švedska",
+      "cName": "kruna",
+      "cPlural": "kruna",
+      "exDesc": "dom Ericssona, Volva i iznenađujuće velikog broja svjetskih marki",
+      "sectorList": "💻 Tehnologija: Ericsson, Hexagon. Švedska u tehnologiji nadmašuje svoju veličinu\n🚗 Automobilska industrija: Volvo, Volvo Cars. Izvrsnost švedskog inženjerstva\n🏦 Bankarstvo: SEB, Handelsbanken, Nordea. Dobro im ide kad kamatne stope rastu\n👗 Maloprodaja: H&M, Essity. Svjetske modne i potrošačke marke\n📡 Telekomunikacije: Telia, Tele2. Nordijski predvodnici povezanosti",
+      "etfBasket": "30 tvrtki kojima se najviše trguje u Stockholmu",
+      "etfDesc": "OMXS30, na primjer, popis je 30 dionica kojima se najviše trguje na stockholmskoj burzi. Rangira prema aktivnosti trgovanja, a ne prema veličini tvrtke.",
+      "etfList": "🇸🇪 Xact OMXS30: 30 dionica kojima se najviše trguje u Stockholmu.\n💰 Avanza Zero: Švedski indeksni fond bez godišnje naknade za upravljanje. Prati istih 30 stockholmskih dionica.\n🌍 Globalni indeksni fond: Tvrtke iz desetaka zemalja jednom kupnjom.\n🇺🇸 S&P 500 fond: 500 velikih američkih tvrtki s popisa S&P 500.",
+      "currencyHedge": "Ako kruna oslabi u odnosu na druge valute, tvoja međunarodna ulaganja automatski vrijede VIŠE u kr!",
+      "fxQuizSetup": "Švedska kruna znatno slabi u odnosu na dolar i euro",
+      "fxQuizLose": "Gubi vrijednost jer švedsko gospodarstvo posrće",
+      "fxQuizGain": "Vrijednost u krunama RASTE jer su tvoji strani udjeli dobili na vrijednosti valute",
+      "dcaTitle": "Usrednjavanje troška u krunama",
+      "dcaAbbrev": "KCA",
+      "food": "falafel wrap"
+    }
+  }
+}

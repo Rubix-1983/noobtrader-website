@@ -1,0 +1,1846 @@
+{
+  "_meta": {
+    "lang": "tr",
+    "source": "src/constants/lessonData.js",
+    "lessons": 84,
+    "hash": {
+      "1": "d38ab2ed",
+      "2": "bf930bc6",
+      "3": "6e4e4d63",
+      "4": "5b7802cc",
+      "5": "0f9cde1d",
+      "6": "e5999569",
+      "7": "66bc9202",
+      "8": "65677cac",
+      "9": "59a1fc31",
+      "10": "03ccde2e",
+      "11": "fbb06743",
+      "12": "7713dc86",
+      "13": "38054a44",
+      "14": "cbac8395",
+      "15": "4355d5d7",
+      "16": "bee25cb0",
+      "17": "a5cba909",
+      "18": "df93ed01",
+      "19": "ad2f3ae8",
+      "20": "6363dc90",
+      "21": "65a3ab78",
+      "22": "61f1ee9c",
+      "23": "a475dd40",
+      "24": "6874af82",
+      "25": "d92ac77b",
+      "26": "e8f1b315",
+      "27": "c3b42e04",
+      "28": "c3719a16",
+      "29": "b8690fa4",
+      "30": "272435ad",
+      "31": "ebbffa78",
+      "32": "31ae442d",
+      "33": "71dbb7c6",
+      "34": "62d271e6",
+      "35": "da185960",
+      "36": "66e0a88e",
+      "37": "4a91dc0c",
+      "38": "9ec4dee7",
+      "39": "ae809a71",
+      "40": "c3b12ff9",
+      "41": "aa4153d7",
+      "42": "29941a97",
+      "43": "d87240fc",
+      "44": "87c794ce",
+      "45": "a3dd8868",
+      "46": "7873826b",
+      "47": "47503da5",
+      "48": "6d2df7b4",
+      "49": "c1055330",
+      "50": "7d4a6a8a",
+      "51": "27e927d2",
+      "52": "041c444d",
+      "53": "8fb1d4bc",
+      "54": "33ec5d94",
+      "55": "b7571fb2",
+      "56": "f20ea6ce",
+      "57": "5a1f3993",
+      "58": "561a7caf",
+      "59": "67437975",
+      "60": "6db8d44d",
+      "61": "04bbebe6",
+      "62": "b43659be",
+      "63": "a6bfefd0",
+      "64": "a2cc88e0",
+      "65": "2f12b47a",
+      "66": "4a676ede",
+      "67": "17351f96",
+      "68": "e9dda763",
+      "69": "3b1a13c3",
+      "70": "b07744de",
+      "71": "798da84a",
+      "72": "960b5a23",
+      "73": "76df64cb",
+      "74": "90735bdf",
+      "75": "b5be8d19",
+      "76": "b2c7a6ad",
+      "77": "1f3344ae",
+      "78": "e03a370e",
+      "79": "3b881962",
+      "80": "64bddadd",
+      "81": "d30753ea",
+      "82": "71620bf3",
+      "83": "989bc8a6",
+      "84": "cdd0a41d"
+    }
+  },
+  "lessons": {
+    "1": {
+      "title": "Hisse Nedir?",
+      "desc": "Bir şirketin minicik bir parçasına sahip ol",
+      "content": "Düşün ki sen ve 9 arkadaşın {c}100'lük bir spor ayakkabıyı birlikte almak için her biriniz {c}10 koyuyorsunuz. Her biriniz o ayakkabının 1/10'una sahip oluyorsunuz ve işte hisse temelde bu! {retail} hissesi aldığında, o şirketin her mağazasının, her ürününün ve kazandığı her kuruşun ({cName}) minicik bir dilimine sahip olursun. Şirket büyüdükçe dilimin de o kadar değerlenir! 🔥",
+      "quiz": {
+        "q": "Sen ve 4 arkadaşın {c}500'lük bir oyuncu koltuğunun parasını eşit bölüşüyorsunuz. Her biriniz neye sahip olursunuz?",
+        "explanation": "Hisse sahibi olmak, bütünün bir parçasına sahip olmak demektir. Eşit ödeyen beş kişi, beş eşit dilim demektir ve her dilim diğerleriyle aynı haklara sahiptir.",
+        "options": [
+          "Her biriniz koltuğun 1/5'ine (%20) sahip olursunuz",
+          "Hiçbir şeye, onu yalnızca bir kişi sahiplenebilir",
+          "Koltuğun tamamına birlikte, bireysel pay olmadan"
+        ]
+      }
+    },
+    "2": {
+      "title": "{ex} Nedir?",
+      "desc": "{name} borsası",
+      "content": "{ex} ({exFull}) borsasını devasa bir online pazar yeri gibi düşün; tek farkı, insanların burada spor ayakkabı ya da telefon değil, {top5} gibi şirketlerin minicik parçalarını (hisselerini) alıp satması. Resmi tatiller dışında hafta içi her gün açık ve fiyatlar gün boyu kimin aldığına, kimin sattığına göre değişiyor. {ex} hakkında kısa bilgi: {exDesc}! 🌍",
+      "quiz": {
+        "q": "{ex} en çok neye benzer?",
+        "explanation": "Borsa, hisse almak isteyenlerle satmak isteyenleri buluşturur. Hisselerin sahibi değildir, fiyatı o belirlemez ve orada bıraktığın para için sana faiz de ödemez.",
+        "options": [
+          "Hisse sahiplerinin alıcılarla buluştuğu bir pazar yerine",
+          "Paranın durup faiz kazandığı bir tasarruf hesabına",
+          "Hisselerin sahibi olan ve onları sana satan bir dükkâna"
+        ]
+      }
+    },
+    "3": {
+      "title": "Boğalar ve Ayılar",
+      "desc": "Piyasa yönleri çözüldü",
+      "content": "Piyasalarda işleri hayvanlar yönetir 😄\n\n🐂 Boğa = fiyatlar YÜKSELİYOR. Boynuzlarıyla yukarı doğru saldıran bir boğa düşün. Herkes kazanıyor, insanlar alıyor, hava güzel.\n\n🐻 Ayı = fiyatlar DÜŞÜYOR. Pençesiyle aşağı doğru vuran bir ayı düşün. İnsanlar korkuyor, satıyor, pek iyi bir dönem değil.\n\nBiri '{tech} için boğa görüşündeyim' derse fiyatın yükseleceğini düşünüyordur. 'Ayı görüşündeyim' derse düşeceğini düşünüyordur. Bu kelimeleri finans dünyasında her yerde duyacaksın!",
+      "quiz": {
+        "q": "Arkadaşın 'Bu hafta {telco} için ayı görüşündeyim' diyor. Bu ne anlama gelir?",
+        "explanation": "Ayı görüşü fiyatın düşmesini, boğa görüşü yükselmesini beklemek demektir. Ayı pençesini aşağı indirir, boğa boynuzuyla yukarı savurur.",
+        "options": [
+          "{telco} hisse fiyatının yükseleceğini düşünüyor",
+          "{telco} hisse fiyatının düşeceğini düşünüyor",
+          "Olabildiğince çok {telco} hissesi almak istiyor"
+        ]
+      }
+    },
+    "4": {
+      "title": "Aracı Kurum Nedir?",
+      "desc": "Hisse almanın kapısı",
+      "content": "{retail} şirketine gidip 'bana biraz şirketinizden verin lütfen' diyemezsin 😂 Bir aracı kuruma ihtiyacın var: borsada alıcılarla satıcıları buluşturan bir uygulama ya da hizmet.\n\nAracı kurumu {shop} gibi düşün. Bir şey istiyorsun, {shop} seni ona ulaştırıyor. İşlemi onlar yürütür ve küçük bir ücret alır. {name} ülkesindeki popüler aracı kurumlar arasında {broker} ve diğerleri var.\n\nAracı kurumun YAPMADIĞI şey şu: hangi hisselerin yükseleceğine karar vermek. Emrini piyasaya iletirler. Fiyat, aracı kurumun öyle dediği için değil, dışarıdaki herkesin ne alıp sattığına göre hareket eder.\n\nYine de aracı kurumlar görüş yayımlar. Analistleri hisseleri 'al', 'tut' ya da 'sat' diye değerlendirir. Görüş bir emir değildir 🤷 Analistler aynı hisse hakkında açıkça birbirleriyle aynı fikirde olmaz ve birçoğu yanılır. Bir değerlendirmeyi kural gibi değil, yorum gibi oku.\n\nNoobTrader sana bunun tam olarak nasıl işlediğini ücretsiz ve sanal parayla öğretir!",
+      "quiz": {
+        "q": "Hisse almak için neden bir aracı kuruma ihtiyacın var?",
+        "explanation": "Aracı kurum borsaya giden yolundur; ne bir falcı ne de fiyatı belirleyen biridir. Emri iletirler, fiyat da piyasanın geri kalanının işlem yapmaya razı olduğu fiyattır. Analistleri değerlendirmeler yayımlar ama bir değerlendirme talimat değil, görüştür.",
+        "options": [
+          "Yükselecek hisseleri onlar seçer",
+          "Her hisse için ödeyeceğin fiyatı onlar belirler",
+          "Emrini borsaya onlar iletir"
+        ]
+      }
+    },
+    "5": {
+      "title": "Hisse Fiyatının Temelleri",
+      "desc": "Fiyatlar neden yükselir ve düşer?",
+      "content": "Sınırlı sayıda üretilen spor ayakkabıların çıktıkları anda fiyatının nasıl fırladığını fark ettin mi? Aynı şey hisselerde de olur. Her şey arz ve talep meselesi.\n\n📈 Çok kişi almak İSTİYOR → fiyat YÜKSELİR\n📉 Çok kişi satmak İSTİYOR → fiyat DÜŞER\n\n{telco} 10 milyon yeni müşteri kazanacağını açıklarsa herkes bir parça ister ve fiyat uçar. Büyük bir zarar açıklarsa insanlar panikle satar ve fiyat düşer. Haberler, sonuçlar, hatta sosyal medya akımları bile hisse fiyatlarını anında hareket ettirebilir!",
+      "quiz": {
+        "q": "{retail} rekor kâr açıklıyor ve 50 yeni mağaza açmayı planlıyor. Hisse fiyatına büyük ihtimalle ne olur?",
+        "explanation": "Daha yüksek beklenen kâr genelde daha fazla alıcı demektir, daha fazla alıcı da fiyatı yukarı iter. Büyümek için para harcamak, parayı çarçur etmekle aynı şey değildir.",
+        "options": [
+          "Daha çok kişi almak istediği için yükselir",
+          "Tamamen aynı kalır",
+          "Mağazalara para harcadıkları için çöker"
+        ]
+      }
+    },
+    "6": {
+      "title": "Fiyat Grafiği Okumak",
+      "desc": "Mumlar, çizgiler ve anlamları",
+      "content": "Fiyat grafiği, bir hissenin geçmişinin özet videosu gibidir. En popüler türü mum grafiğidir. Her 'mum' sana bir gün için 4 şey gösterir:\n\n🟢 Yeşil mum = fiyat o gün YÜKSELDİ (daha düşük açtı, daha yüksek kapattı)\n🔴 Kırmızı mum = fiyat DÜŞTÜ (daha yüksek açtı, daha düşük kapattı)\n📏 Üstteki/alttaki ince çizgiler = günün en yüksek ve en düşük fiyatları\n\nArka arkaya çok sayıda yeşil mum görürsen bu güçlü bir yükseliş trendidir. Çok sayıda kırmızı mum düşüş trendi demektir. Grafik okumayı öğrenmek, bir maçın skor tabelasını okumayı öğrenmek gibidir! 🎮",
+      "quiz": {
+        "q": "Bir grafikte arka arkaya 5 kırmızı mum görüyorsun. Bu sana ne anlatır?",
+        "explanation": "Kırmızı mum açıldığı seviyenin altında kapanır, yani arka arkaya beş tane beş seans boyunca düşüş demektir. Renk sana hareketin büyüklüğünü değil, yönünü söyler.",
+        "options": [
+          "Hisse 5 gündür yükseliyor",
+          "Hisse 5 gündür düşüyor",
+          "Hisse fiyatı değişmedi"
+        ]
+      }
+    },
+    "7": {
+      "title": "Hacim ve Sana Söyledikleri",
+      "desc": "Kaç hisse işlem görüyor",
+      "content": "Hacim = bir günde kaç hissenin alınıp satıldığı. Bunu bir TikTok videosunun izlenme sayısı gibi düşün.\n\n🔊 YÜKSEK hacim = çok kişi işlem yapıyor. Fiyat yüksek hacimle hareket ediyorsa bu daha güçlü, daha güvenilir bir sinyaldir; botlarla değil, gerçekten viral olan bir video gibi.\n\n🔇 DÜŞÜK hacim = yalnızca birkaç kişi işlem yapıyor. Düşük hacimde fiyatlar tuhaf hareket edebilir; sadece 3 izlenmesi olan ve yanlışlıkla paylaşılan bir video gibi.\n\nBüyük bir fiyat hareketi gördüğünde her zaman hacme bak. Hareketin gerçek mi yoksa sadece gürültü mü olduğunu sana o söyler!",
+      "quiz": {
+        "q": "{telco} hissesi bugün %5 sıçradı ama hacim çok düşük. Ne düşünmelisin?",
+        "explanation": "Hacim, bir hareketin arkasında ne kadar kararlılık olduğunu gösterir. Çok az işlemle gelen büyük bir sıçrama, olduğu kadar kolay geri alınabilir; o yüzden bir kırılıma inanmadan önce hacme bak.",
+        "options": [
+          "Kesinlikle büyük bir fırsat, hemen al!",
+          "Düşük hacim her zaman fiyatın yükselmeye devam edeceği anlamına gelir",
+          "Hareket güvenilir olmayabilir, düşük hacim onu şüpheli yapar"
+        ]
+      }
+    },
+    "8": {
+      "title": "Destek ve Direnç",
+      "desc": "Önemli fiyat seviyeleri",
+      "content": "Bir hissenin fiyatının zıplayan bir top olduğunu düşün:\n\n🧱 DESTEK = topun sekip geri döndüğü zemin. Fiyat düşmeye devam eder ama bu seviyeye her geldiğinde geri sıçrar. Burada çok sayıda alıcı ortaya çıkar.\n\n🪟 DİRENÇ = topun çarptığı tavan. Fiyat bu seviyeye her yükseldiğinde geri itilir. Burada çok sayıda satıcı kârını alır.\n\nYatırımcılar bu seviyeleri bir oyun haritası gibi kullanır: zemine yakın al, tavana yakın sat. Fiyat sonunda direnci kırdığında genelde hızla fırlar. Desteği kırdığında düşüşe hazırlan! 💥\n\nDürüst bir uyarı: bu seviyeleri grafiklere bakan insanlar çizer; piyasanın uymak zorunda olduğu kurallar değildir. Bir hisse 'desteği' doğrudan delip geçebilir ve düşmeye devam edebilir. 📉",
+      "quiz": {
+        "q": "Bir hisse {c}50 seviyesinden üç kez sekmiş ve hiç altına inmemiş. {c}50 seviyesine ne denir?",
+        "explanation": "Sürekli saygı gören bir zemin destektir; fiyatı sürekli geri çeviren bir tavan dirençtir. İkisi de bir garanti değildir ama almadan önce ikisini de bilmeye değer.",
+        "options": [
+          "Destek seviyesi",
+          "Direnç seviyesi",
+          "Tavan fiyat"
+        ]
+      }
+    },
+    "9": {
+      "title": "Çeşitlendirme",
+      "desc": "Tüm yumurtaları aynı sepete koyma",
+      "content": "Bütün mobil internet paketini tek bir yayın uygulamasına harcadığını düşün. Sonra o uygulama çöküyor. Elinde hiçbir şey kalmıyor. 😩\n\nAma internetini WhatsApp, YouTube VE yayın uygulaman arasında paylaştırırsan, birinin çökmesi bütün keyfini kaçırmaz.\n\nYatırımda da durum aynı! Bütün paranı tek bir hisseye yatırırsan ve o çökerse her şeyini kaybedersin. Ama paranı {telco} (telekom), {retail} (perakende), {tech} (teknoloji) ve bir ETF arasında dağıtırsan, birindeki çöküş bütün portföyünü bitirmez. Bu dağıtma stratejisine ÇEŞİTLENDİRME denir. 💼",
+      "quiz": {
+        "q": "Yatırım yapacak {c}500'ün var. Bunlardan hangisi riskini gerçekten dağıtır?",
+        "explanation": "Beş giyim mağazası da aynı şeye bağlı olarak yükselir ve düşer, yani aralarında dağıtılan para neredeyse hiç dağıtılmamış sayılır. Farklı sektörler farklı zamanlarda sıkıntıya girer ve tek bir kötü sonucun her şeyi götürmesini engelleyen de budur.",
+        "options": [
+          "Beş farklı giyim mağazasına {c}100'er",
+          "Beş farklı sektöre {c}100'er",
+          "{c}500'ün tamamını en sevdiğin tek şirkete"
+        ]
+      }
+    },
+    "10": {
+      "title": "Risk ve Getiri",
+      "desc": "Neden büyük kazanç = büyük risk",
+      "content": "Hiç sürpriz kutu aldın mı? İnanılmaz bir şey de çıkabilir, tamamen çöp de. İşte bu yüksek risk / yüksek getiridir.\n\nYatırım da aynı şekilde işler:\n\n✅ DAHA DÜŞÜK RİSK, DAHA DÜŞÜK GETİRİ: {retail} gibi. Dev, köklü bir şirket. Paran genelde yavaş ve istikrarlı büyür. Dikkat: 'risksiz' değil, 'daha düşük riskli'. Büyük şirketler de düşer.\n\n🎲 YÜKSEK RİSK, YÜKSEK GETİRİ: Minicik, yeni kurulmuş bir madencilik şirketi gibi. 10 katına çıkabilir ya da yok olabilir. Tıpkı sürpriz kutu gibi.\n\nHerhangi bir şeye yatırım yapmadan önce her zaman sor: 'Olabilecek en kötü şey ne?' Kaybetmeyi göze alamıyorsan, o riski alma!",
+      "quiz": {
+        "q": "Kimsenin duymadığı bir coin %500 getiri vaat ediyor. Bu kadar büyük bir vaat sana aslında ne söyler?",
+        "explanation": "Risk ve getiri aynı sopanın iki ucudur. Kimse boşuna %500 dağıtmaz; yani vaadin büyüklüğü aslında paranın tamamının ne kadar kolay yok olabileceğinin ölçüsüdür. Herhangi bir şeye para yatırmadan önce en kötü senaryonun neye benzediğini ve buna katlanıp katlanamayacağını sor.",
+        "options": [
+          "Piyasanın geri kalanının bir şekilde kaçırdığı bir fırsattır",
+          "Vaat ne kadar büyükse arkasındaki insanlar o kadar ciddidir",
+          "Hepsini kaybetme ihtimali de vaat kadar büyüktür"
+        ]
+      }
+    },
+    "11": {
+      "title": "Uzun Vade ve Kısa Vade",
+      "desc": "Yatırım ve alım satım bakış açısı",
+      "content": "🏃 KISA VADELİ ALIM SATIM: Hızlı fiyat hareketlerini yakalamak için günler ya da haftalar içinde alıp satmak. Çok stresli, ekran başında çok zaman ister. Bir turnuvada her maçı kimin kazanacağını tahmin etmeye çalışmak gibi.\n\n🧘 UZUN VADELİ YATIRIM: Hisseleri alıp yıllarca tutmak. Düşüşleri atlatırsın ve paranın büyümesine izin verirsin. Bütün sezonu hangi takımın kazanacağına bahse girmek gibi. Tek bir kötü maçtan sonra paniğe kapılmazsın.\n\nGerçek aracı kurum hesapları üzerine yapılan araştırmalar hep aynı örüntüyü buluyor: insanlar ne kadar sık işlem yaparsa, maliyetler hesaba katıldığında sonuçları o kadar kötü oluyor.\n\nVe zaman, sonradan geri satın alınamayan tek avantajdır. Paranın yatırımda kaldığı her yıl, bileşik getirinin çalıştığı bir yıl daha demektir. ⏳",
+      "quiz": {
+        "q": "İki kişi aynı parayla aynı hisseleri alıyor. Biri her hafta alıp satıyor, diğeri on yıl boyunca dokunmuyor. Gerçek hesaplar üzerine yapılan araştırmalar hep ne buluyor?",
+        "explanation": "Her işlemin bir maliyeti vardır ve işlem işe yarasa da yaramasa da bu maliyet ödenir. Gerçek aracı kurum hesapları üzerine yapılan araştırmalar defalarca aynı örüntüyü buluyor: insanlar ne kadar sık işlem yaparsa o kadar geride kalıyor. Paraya dokunmamak tembellik değil, daha ucuz olan plandır.",
+        "options": [
+          "Maliyetler hesaba katıldığında sık işlem yapan genelde geride kalır",
+          "Sık işlem yapan genelde kazanır, çünkü burada çaba ödüllendirilir",
+          "Berabere bitirirler, çünkü tamamen aynı hisseleri tuttular"
+        ]
+      }
+    },
+    "12": {
+      "title": "{dcaTitle}",
+      "desc": "Düzenli olarak aynı tutarı yatır",
+      "content": "İşte o kadar basit bir strateji ki strateji gibi bile gelmiyor ve yatırımdaki en zor soruyu ortadan kaldırıyor:\n\nFiyatlar ister yükselsin ister düşsün, her ay AYNI tutarı yatır. Doğum günü paranın ya da harçlığının {c}100'ünü her ay kenara koymak gibi.\n\n📉 Fiyatlar DÜŞÜKKEN → {c}100'ün DAHA FAZLA hisse alır\n📈 Fiyatlar YÜKSEKKEN → {c}100'ün DAHA AZ hisse alır\n\nZamanla hisse başına ortalama maliyetin dengelenir ve hiç uğraşmadan otomatik olarak 'düşüşte alım' yaparsın! Buna {dcaTitle} ({dcaAbbrev}) denir. Yatırımdan duyguyu çıkarır, çünkü hiçbir zaman 'doğru zaman ŞİMDİ mi?' diye karar vermek zorunda kalmazsın. Sadece söz verir ve devam edersin! 💪\n\nAçık konuşalım: bu yöntem, paranın tamamını tek seferde yatırmaktan her zaman daha iyi sonuç vermez. Yaptığı şey, gerçekten sadık kalabileceğin bir plan oluşturmaktır.",
+      "quiz": {
+        "q": "Hisse 100 NT iken 200 NT yatırıyorsun. Sonra hisse çöküyor ve sonraki 200 NT'ni 25 NT'den yatırıyorsun. İki ödeme boyunca hisse başına ortalama maliyetine sürükle.",
+        "explanation": "İlk 200 NT'n 100 NT'den 2 hisse aldı. İkinci 200 NT'n 25 NT'den 8 hisse aldı. Bu, 10 hisse için 400 NT eder, yani hissesi 40 NT. Dikkat et, iki fiyatın tam ortasına yakın bile değil: aynı para, işler ucuzken otomatik olarak daha fazla hisse alır ve ortalamanı aşağı çeken de budur."
+      }
+    },
+    "13": {
+      "title": "Para Bebekleri 💸",
+      "desc": "Sadece hisse tuttuğun için para kazanmak",
+      "content": "Bir otomatik satış makinen olduğunu düşün. İnsanlar her hafta SENİN makinenden atıştırmalık alıyor ve sen de sırf sahibi olduğun için parayı topluyorsun. Fazladan hiçbir şey yapman gerekmedi!\n\nTemettü (kâr payı) işte budur. Biz onlara Para Bebekleri 🍼 diyoruz, çünkü paran resmen bebek yapıyor: sırf hisselere sahip olduğun için hesabına düşen küçük nakit ödemeler.\n\n{divPayers} gibi büyük şirketler düzenli olarak Para Bebekleri öder. Ne kadar çok hissen varsa bebeklerin de o kadar büyük olur!\n\n⚠️ Bunlar garanti DEĞİLDİR. Şirket her seferinde ödeme yapıp yapmayacağına karar verir ve işler zorlaştığında temettüyü azaltabilir ya da tamamen durdurabilir. Bu yılki büyük bir ödeme, gelecek yıl da olacağının garantisi değildir.\n\nVe bu bebekleri DAHA FAZLA hisse almak için yeniden yatırırsan... bir sonraki partin daha da büyük olur. Harika bir döngü 🔁",
+      "quiz": {
+        "q": "{bank}, hiçbir şey satmadan sahip olduğun her hisse için sana {c}5 ödüyor. Bu ödemeye ne denir?",
+        "explanation": "Temettü, şirket kârının şirketin sahiplerine verilen bir parçasıdır. Bu uygulama onlara Para Bebekleri diyor. Sahip olduğun her hisseyi elinde tutmaya devam edersin ve para yine de hesabına yatar. Ama garanti değildir; şirket, işler zorlaştığında onu azaltabilir ya da durdurabilir.",
+        "options": [
+          "Temettü, kârdan bir dilim",
+          "Faiz, bir tasarruf hesabının ödediği türden",
+          "Müşteri olduğun için verilen bir sadakat bonusu"
+        ]
+      }
+    },
+    "14": {
+      "title": "Bileşik Faiz",
+      "desc": "Paran kendi kendine nasıl büyür",
+      "content": "İşte öğreneceğin en güçlü para sırrı. Hazır mısın? 👀\n\nYılda %10 getiriyle {c}1,000 yatırıyorsun:\n• 1. Yıl: {c}1,000 → {c}1,100 ({c}100 kazandın)\n• 2. Yıl: {c}1,100 → {c}1,210 ({c}110 kazandın, 1. yıldan fazla!)\n• 3. Yıl: {c}1,210 → {c}1,331 ({c}121 kazandın)\n\nArtık FAİZİNİN üzerinden faiz kazanıyorsun. Kartopu, sen fazladan hiçbir şey eklemeden her yıl büyüyor. %10'la 30 yıl sonra mı? O {c}1,000, {c}17,449 olur! 🤯\n\nBunun 'dünyanın sekizinci harikası' diye anıldığını ve Einstein'a mal edildiğini göreceksin. Onun bunu gerçekten söylediğine dair sağlam bir kanıt yok ama önemli olan matematik ve matematik gerçek. Erken başla, ağır işi zaman senin yerine yapsın.",
+      "quiz": {
+        "q": "Yılda %10 getiriyle 2,000 NT yatırıyorsun ve hiç dokunmuyorsun. Üç yıl sonra ne kadar ettiğine sürükle.",
+        "explanation": "Birinci yıl 200 NT ekler ve 2,200 olur. İkinci yıl 2,200'ün %10'unu alır, yani 220 ekler ve 2,420 olur. Üçüncü yıl 242 ekler ve 2,662'ye ulaşır. Her yıl %10 daha büyük bir yığın üzerinden hesaplanır; üç kez 200 ekleyip 2,600'de durmanın eksik kalmasının nedeni budur."
+      }
+    },
+    "15": {
+      "title": "Bileşik Getiri ve Hisseler",
+      "desc": "Büyüme için Para Bebeklerini yeniden yatırmak",
+      "content": "Para Bebeklerini (temettüleri) hatırlıyor musun? İşte işin ilginçleştiği yer 🤯\n\nNormal: Para Bebeklerinden {c}50 kazanırsın → atıştırmalığa harcarsın → bitti.\n\nAkıllıca hamle: Para Bebeklerinden {c}50 kazanırsın → DAHA FAZLA hisse alırsın → bir dahaki sefere DAHA FAZLA Para Bebeği gelir → daha da fazla hisse alırsın → kartopu büyür 🔝\n\nBu, hisselere uygulanan bileşik getiridir. Hesabı yap: 30 yıl boyunca her ay aynı tutarı ortalama %10 getiriyle yatırırsan, gerçekte yatırdığının kabaca ALTI KATINI elde edersin. O yığının yaklaşık altıda beşi büyümedir: hiç kazanmadığın, biriktirmediğin ya da yatırmadığın para.\n\nUzun dönemlerde, yeniden yatırılan temettüler yatırımcıların toplam getirisinin büyük bir bölümünü oluşturmuştur. 'Sıkıcı' temettü ödeyen şirketlerin aslında hiç de sıkıcı olmamasının nedeni tam olarak budur 💰",
+      "quiz": {
+        "q": "Temettüden {c}80 kazanıyorsun ve harcamak yerine her kuruşunu daha fazla hisse almak için kullanıyorsun. Bir sonraki ödemede ne olur?",
+        "explanation": "Aldığın her ek hisse bir dahaki sefere kendi temettüsünü öder, yani sen yeni para eklemeden ödeme büyür. Bu yine bileşik getiridir; bu kez fiyat üzerinden değil, gelir üzerinden işler.",
+        "options": [
+          "Ödeme aynı büyüklükte kalır, sadece daha geç gelir",
+          "Bir dahaki sefere daha az alırsın, çünkü parayı geri verdin",
+          "Daha fazla hissen olur, bu yüzden bir sonraki ödeme daha büyük olur"
+        ]
+      }
+    },
+    "16": {
+      "title": "72 Kuralı",
+      "desc": "İkiye katlanma süresini tahmin etmenin hızlı yolu",
+      "content": "İşte beynin için bir hile kodu 🧠\n\nParanın İKİYE KATLANMASININ ne kadar süreceğini mi merak ediyorsun? 72'yi yıllık getirine böl, yeter:\n\n• 72 ÷ %12 getiri = ikiye katlanması 6 yıl\n• 72 ÷ %8 getiri = ikiye katlanması 9 yıl\n• 72 ÷ %6 getiri = ikiye katlanması 12 yıl\n\nYani {c}2,000 üzerinden yılda istikrarlı %12 kazanırsan 6 yılda {c}4,000'in olur. 6 yıl daha bekle, {c}8,000'in olur. 6 yıl daha, {c}16,000'in olur! 🤯\n\nBu bir yaklaşık hesap, kesin bir yasa değil; gerçek getiriler de hiçbir zaman her yıl aynı sabit sayı olmaz. Ama kafandan hesaplayabileceğin kadar yakın ve bütün mesele de bu.\n\nİşte bu yüzden 13 ya da 14 yaşında başlamak MUAZZAM. Önünde neredeyse herkesten daha fazla ikiye katlanma döngüsü var!",
+      "quiz": {
+        "q": "Bir yatırım yılda %9 kazandırıyor. 72 Kuralını kullanarak ikiye katlanmasının kaç yıl süreceğine sürükle.",
+        "explanation": "72'yi yıllık yüzdeye böl. 72 bölü 9, 8 eder; yani para kabaca sekiz yılda ikiye katlanır, ondan sekiz yıl sonra da bir kez daha katlanır. Bu, kafandan yapabileceğin hızlı bir tahmindir, kesin bir yasa değildir, çünkü gerçek getiriler hiçbir zaman her yıl aynı sayı olmaz."
+      }
+    },
+    "17": {
+      "title": "Piyasa Emri ve Limit Emir",
+      "desc": "Hisse almanın iki yolu",
+      "content": "Hisse almanın iki ana yolu var:\n\n⚡ PİYASA EMRİ: 'Fiyat neyse şimdi hemen al.' {shop} üzerinde sepete ekleyip hemen ödeme yapmak gibi. Anında alırsın ama gerçekte ödediğin fiyat piyasanın sana verdiği fiyattır ve bu, ekranda az önce gördüğün sayıdan farklı olabilir.\n\n🎯 LİMİT EMİR: 'Sadece fiyat {c}X'e düşerse al.' {shop} üzerinde bir ürünü istek listene ekleyip indirim beklemek gibi. Fiyatı sen kontrol edersin ama işlem hiç gerçekleşmeyebilir.\n\nLimit emirler sana fiyat üzerinde kontrol verir. Piyasa emirleri ise emrin gerçekleşeceğinden emin olmanı sağlar. İkisine birden sahip olamazsın! 💸\n\nLimit emir SATARKEN de aynı şekilde çalışır, sadece ters yöne bakar. Hisse sende, satmaktan memnun olacağın fiyatı söylersin ve fiyat oraya kadar çıkarsa uygulama senin için satar. Alırken şu anki fiyatın ALTINDA bir fiyat belirlersin. Satarken ÜSTÜNDE bir fiyat belirlersin. Aynı fikir, ters taraf. 🔁",
+      "quiz": {
+        "q": "{tech} hissesi {c}200'den işlem görüyor. Ona seve seve sahip olursun ama sadece {c}180 ya da daha altında. Hangisini kullanırsın?",
+        "explanation": "Piyasa emri, fiyat o an neyse ondan hemen gerçekleşir. Limit emir senin fiyatını belirler ve bekler, yani takibi sen değil uygulama yapar. Kabul edeceğin fiyat hızlı girmekten daha önemliyse, istediğin emir budur.",
+        "options": [
+          "Şu anda {c}200'den gerçekleşen bir piyasa alım emri",
+          "{c}180'e ayarlanmış ve bekleyen bir limit alım emri",
+          "Ekranı izleyip {c}180'den elle almak"
+        ]
+      }
+    },
+    "18": {
+      "title": "İşlem Ücretleri ve Maliyetler",
+      "desc": "İşlem ücretlerini anlamak",
+      "content": "Çoğu işlem sana biraz mal olur: aracı kurum küçük bir pay alır. Bunlara işlem ücreti ya da aracılık komisyonu denir.\n\n⚠️ Bazı aracı kurumlar 'sıfır komisyon' reklamı yapar. Yine de bir şekilde para kazanmaları gerekir, bu yüzden başka bir yerden kazanırlar: genelde alış fiyatı ile satış fiyatı arasındaki küçük farktan, döviz çevriminden ya da hesabında duran nakdin faizinden. Bedava nadiren bedavadır.\n\nNoobTrader'daki simüle edilmiş ücretler şunlar:\n• {ex} hisseleri: işlem başına {exFee}\n• Küresel hisseler: %0.50\n• ETF'ler: %0.30\n• Kripto: %0.60\n• Forex: %0.05\n• Emtialar: %0.40\n\nÖrnek: {exFee} ücretle {c}1,000 değerinde {retail} hissesi alıyorsun. Ücret {c}{feeAmt} olur, yani aslında {c}{feeTotal} harcarsın.\n\nSık işlem yaparsan küçük ücretler HIZLA birikir. Ayda 20 işlem yapan biri bu ücreti 20 kez öder, çıkarken de bir kez daha öder. Uzun vadeli yatırımcıların daha az işlem yapmasının nedenlerinden biri de bu: daha az işlem, daha az ücret 🧮",
+      "quiz": {
+        "q": "{exFee} ücretle {c}1,000 değerinde {ex} hissesi alıyorsun. Ücret ne kadar?",
+        "explanation": "Ücret, işlem tutarının bir yüzdesidir, yani emrin büyüklüğüyle birlikte artar. İşlem yapmadan önce hesapla, çünkü satarken yeniden alınır.",
+        "options": [
+          "{c}{feeAmtX10}",
+          "{c}{feeAmtLow}",
+          "{c}{feeAmt}"
+        ]
+      }
+    },
+    "19": {
+      "title": "Zarar Durdur Emirleri",
+      "desc": "Kendini büyük kayıplardan koru",
+      "content": "Zarar durdur (stop-loss), ne kadar kaybetmeye razı olduğuna bir sınır koymak gibidir: önceden kurduğun bir güvenlik ağı.\n\nÖrnek: {telco} hisselerini tanesi {c}100'den alıyorsun. %15'ten fazla ASLA kaybetmek istemediğine karar veriyorsun. Bu yüzden zarar durdur emrini {c}85'e koyuyorsun.\n\n{telco} hissesi {c}85'e düşerse → otomatik olarak bir satış emri tetiklenir. İzliyor olman gerekmez ve panik halindeyken karar vermek zorunda kalmazsın.\n\nİnsanların yanlış anladığı kısım şu. Zarar durdur seviyesi HER ZAMAN bugünkü fiyatın altındadır. Öyle olmak zorundadır, çünkü fiyatın ona ulaşmak için düşmesi gerekir. Bugünkü fiyatın üstüne koyarsan koşul zaten gerçekleşmiş olur ve onu ayarladığın anda bugünkü fiyattan satar. Bu bir güvenlik ağı değil, bir satıştır.\n\nBunu limit satış emriyle karıştırma. İkisi de senin seçtiğin bir fiyattan otomatik olarak satar. Fark yöndedir: zarar durdur, fiyat senin sayına DÜŞTÜĞÜNDE tetiklenir; limit satış, fiyat senin sayına YÜKSELDİĞİNDE tetiklenir. Kendini koruyorsan → sayın altta olur. Fiyatını belirliyorsan → sayın üstte olur. Yazmadan önce hangisini yaptığını kendine sor. 🧭\n\n⚠️ Önemli: zarar durdur bir SATIŞI tetikler, bir FİYATI garanti etmez. Gece kötü bir haber gelir ve hisse {c}85'ten hiç işlem görmeden {c}70'ten açılırsa, emrin piyasanın gerçekten ödeyeceği fiyattan gerçekleşir. Bu, belirlediğin seviyenin epey altında olabilir.\n\nHiç zarar durdur olmadan, toparlanacağını umarak elinde tutabilir... ve {c}20'ye düşüşünü izleyebilirsin. 😬\n\nUzman ipucu: Maksimum kaybına her zaman ALMADAN ÖNCE karar ver. Fiyat zaten çakılırken o kararı duygularının vermesine izin verme! 🧘",
+      "quiz": {
+        "q": "200 NT'den alıyorsun ve bu hissede %15'ten fazla kaybetmeye razı olmadığına karar veriyorsun. Zarar durdur emrinin olması gereken fiyata sürükle.",
+        "explanation": "200 NT'nin %15'i 30 NT eder, yani çıkış noktan aldığın yerin 30 altında, 170 NT'de olur. Zarar durdur bugünkü fiyatın altına konur, çünkü fiyatın ona ulaşmak için düşmesi gerekir. Üstüne koyarsan koşul zaten gerçekleşmiş olur ve onu ayarladığın anda satar; bu da bir güvenlik ağı değil, bir satıştır."
+      }
+    },
+    "20": {
+      "title": "Ne Zaman Alıp Satmalı",
+      "desc": "Zamanlama, sabır ve disiplin",
+      "content": "Yeni yatırımcıların yaptığı en büyük hata ne mi? Herkes heyecanlıyken almak ve herkes panikteyken satmak. Bu, işe yarayan şeyin resmen tam tersi. 🤦\n\n📱 Grup sohbetin 'BU HİSSEYİ HEMEN AL!!!!' mesajlarıyla doluyorsa → heyecan genelde zaten fiyata yansımıştır. Geç kaldın.\n\n😱 Herkes panikle satıyorsa → bazen bu aslında indirimli alım için bir fırsattır. Bazen de fiyat bir yıl daha düşmeye devam eder. Dipte kimse zil çalmaz.\n\nSır ne mi? Yatırım yapmadan ÖNCE bir planın olsun:\n• Bunu neden alıyorum? (heyecan değil, araştırma)\n• YÜKSELİRSE hangi fiyattan satacağım? (kâr al)\n• DÜŞERSE hangi fiyattan satacağım? (zarar durdur)\n\nPlanına sadık kal. Duygularının stratejini ele geçirmesine izin verme! 💪",
+      "quiz": {
+        "q": "Bütün grup sohbetin bu ay zaten %80 yükselmiş bir hisseyi göklere çıkarıyor. Akıllıca hamle ne?",
+        "explanation": "Bir hisse her grup sohbetine düştüğünde hareketin çoğu zaten olmuştur ve geç gelenler, kârını alanlardan satın alıyordur. Şirkete kendin bak. Kalabalığın gürültülü olması, kalabalığın haklı olduğu anlamına gelmez.",
+        "options": [
+          "Fiyat elinden kaçmadan hemen al",
+          "Diğer hisselerini sat ve hepsini buna yatır",
+          "Karar vermeden önce şirketi kendin incele"
+        ]
+      }
+    },
+    "21": {
+      "title": "Piyasa Değeri Nedir?",
+      "desc": "Şirket büyüklüğü nasıl ölçülür",
+      "content": "Piyasa değeri sana bir şirketin gerçekte ne kadar büyük olduğunu {cPlural} cinsinden söyler.\n\n📐 Formül: Hisse Fiyatı × Toplam Hisse Sayısı = Piyasa Değeri\n\nÖrnek: {retail} şirketinin 1 milyar hissesi varsa ve her hisse {c}50 ise piyasa değeri {c}50 MİLYAR olur. Bu, şirketin tamamının 'fiyat etiketi'dir.\n\n🔵 Büyük ölçekli: {tech} ve {bank} gibi en büyük, en köklü isimler. Daha düşük risk, genelde daha yavaş büyüme.\n🟡 Orta ölçekli: orta büyüklükte şirketler. Dengeli risk.\n🔴 Küçük ölçekli: minicik şirketler. Hızla büyüyebilir YA DA sert çakılabilir.\n\n⚠️ Sınırlar evrensel değildir. ABD'de 'büyük ölçekli' genelde 10 milyar $'ın üzeri demektir ama her piyasa kendi aralıklarını belirler; yani {name} piyasasındaki büyük ölçekli bir şirket, ABD'deki büyük ölçekli bir şirketle aynı büyüklükte değildir. Sadece etikete değil, gerçek sayıya bak 🧐",
+      "quiz": {
+        "q": "A şirketinin tanesi {c}200'den 5 milyon hissesi var. B şirketinin hisseleri {c}10. B'nin A kadar değerli olması için kaç milyon hisseye ihtiyacı olduğuna sürükle.",
+        "explanation": "Piyasa değeri, hisse fiyatı çarpı hisse sayısıdır. A şirketi 5 milyon çarpı {c}200, yani {c}1,000 milyon değerindedir. B şirketi aynı toplama hissesi {c}10'dan ulaşmak zorundadır, bu yüzden 100 milyon hisseye, yani yirmi kat fazlasına ihtiyacı vardır. Düşük bir hisse fiyatı sana bir şirketin büyüklüğü hakkında hiçbir şey söylemez."
+      }
+    },
+    "22": {
+      "title": "F/K Oranı Nedir?",
+      "desc": "Bir hisse pahalı mı ucuz mu?",
+      "content": "F/K oranı (Fiyat/Kazanç, İngilizcesi P/E), bir şirketin kârının her bir {cName} birimi için ne kadar ödediğini söyler.\n\n📐 Formül: Hisse Fiyatı ÷ Hisse Başına Kâr = F/K Oranı\n\nBunu pizza dilimi başına fiyat gibi düşün 🍕\n\nA pizzası 8 dilim için {c}80 ise = dilimi {c}10\nB pizzası 5 dilim için {c}100 ise = dilimi {c}20\n\nA pizzası dilim başına daha ucuz. Hisselerde de fikir benzer:\n• Düşük F/K (10'un altı) = belki bir fırsat, YA DA piyasa kârlarının DÜŞMESİNİ bekliyor. Düşük F/K bir cevap değil, bir sorudur.\n• Yüksek F/K (25'in üstü) = piyasa gelecekte büyük büyüme bekliyor. Şirketin de bunu gerçekten gerçekleştirmesi gerekir.\n\nF/K'yı her zaman aynı sektördeki DİĞER şirketlerle karşılaştır. Bir bankanın F/K'sını bir teknoloji şirketininkiyle karşılaştırma!",
+      "quiz": {
+        "q": "A şirketinin F/K'sı 8. B şirketinin (aynı sektör) F/K'sı 30. Bu neye işaret eder?",
+        "explanation": "Daha düşük F/K, her kâr birimi için daha az ödemek demektir; bu bir fırsat da olabilir, başı dertte bir şirket de. Oran soruyu sorar; cevabı vermez.",
+        "options": [
+          "A şirketi kâr birimi başına daha ucuz, ama almadan önce NEDENİNİ öğren",
+          "B şirketi her zaman ikisi arasında daha iyi yatırımdır",
+          "F/K oranı yatırım kararlarında hiçbir işe yaramaz"
+        ]
+      }
+    },
+    "23": {
+      "title": "Şirket Sonuçlarını Okumak",
+      "desc": "Gelir, kâr ve önemli olanlar",
+      "content": "Şirketler birkaç ayda bir 'karnelerini' yayımlar (bazı piyasalarda her çeyrekte, bazılarında yılda iki kez) ve bu, hisse fiyatlarını ÇOK oynatır. İşte bakman gerekenler:\n\n📊 GELİR (HASILAT): Satışlardan gelen toplam para. Küçük bir dükkânın toplamda ne kadar kasaya koyduğu gibi.\n💰 NET KÂR: Tüm giderler ödendikten SONRA kalan. Günün sonunda gerçekten cepte kalan.\n📈 HBK (Hisse Başına Kâr, İngilizcesi EPS): Kârın hisse sayısına bölümü. Her hissenin ne kadar kazandığı.\n\nİyi işaretler: Gelir YUKARI + Kâr YUKARI + HBK büyüyor = 🟢 fiyat genelde yükselir\nKötü işaretler: Gelir AŞAĞI + Kâr düşüyor = 🔴 fiyat genelde düşer\n\nBir püf noktası: fiyatı asıl hareket ettiren, sonucun piyasanın BEKLEDİĞİYLE karşılaştırılmasıdır. Harika rakamlar beklentinin altında kalırsa hisseyi yine de düşürebilir.\n\nBir şirketin çok geliri olup hiç kârı olmayabilir (yüksek maliyetler). Her zaman İKİSİNE de bak!",
+      "quiz": {
+        "q": "{bank}, gelirinin %15 arttığını ama artan maliyetler yüzünden kârının %20 düştüğünü açıklıyor. Bu iyi bir işaret mi, kötü mü?",
+        "explanation": "Gelir içeri giren paradır, kâr ise kalan paradır. Burada maliyetler satışlardan daha hızlı artıyor, yani şirket daha çok iş yapıp bunun daha azını elinde tutuyor. Bu gerçek bir uyarıdır ama bir çöküş değildir; bir sonraki adım maliyetlerin neden arttığını öğrenmektir.",
+        "options": [
+          "Endişe verici, çünkü daha çok satıyorlar ama daha azını ellerinde tutuyorlar",
+          "Güçlü, çünkü asıl önemli olan artan gelirdir",
+          "Berbat, çünkü düşen kâr şirketin batmakta olduğu anlamına gelir"
+        ]
+      }
+    },
+    "24": {
+      "title": "Sektörler ve Endüstriler",
+      "desc": "Farklı şirket türleri",
+      "content": "Borsa, bir okuldaki farklı bölümler gibi sektörlere ayrılır.\n\n{sectorList}\n\nFarklı sektörler farklı zamanlarda yükselir ve düşer; aralarında çeşitlendirme yapmanın bütün amacı da bu! Bankacılık çökerse belki teknoloji patlama yaşıyordur. Portföyün dengede kalır. 🎯",
+      "quiz": {
+        "q": "{name} ülkesinde faiz oranları sert bir şekilde yükseliyor. Hangi sektör genelde en çok kazanır?",
+        "explanation": "Bankalar, borçlulardan aldıkları faiz ile tasarruf sahiplerine ödedikleri faiz arasındaki farktan kazanır ve artan faizler genelde bu farkı açar. Diğer sektörlerin çoğu için pahalanan borçlanma bir maliyettir.",
+        "options": [
+          "Perakende: alışveriş yapanlar daha rahat borçlanır ve fazlasını çarşıda harcar",
+          "Bankacılık: bankalar genelde borçlulardan aldıkları ile tasarruf sahiplerine ödedikleri arasında daha geniş bir fark kazanır",
+          "Teknoloji: büyümek için borçlanmak ucuzlar, bu yüzden yazılım şirketleri daha hızlı genişler"
+        ]
+      }
+    },
+    "25": {
+      "title": "ETF Nedir?",
+      "desc": "Tek seferde koca bir sepet al",
+      "content": "Eskiden çalma listesi yapmanın tek yolu şarkıları tek tek seçmekti. Sonra Spotify geldi ve sana hazır çalma listeleri verdi: hiç uğraşmadan anında bir koleksiyon. 🎵\n\nETF'ler (Borsa Yatırım Fonları) yatırımın Spotify'ıdır. Hisseleri tek tek seçmek yerine, koca bir hisse sepetini içinde tutan TEK bir ETF alırsın.\n\nÇoğu ETF bir ENDEKSİ takip eder: bir kurallar kitabına göre hazırlanmış, yayımlanmış bir şirket listesi. {etfDesc} ETF sadece listede ne varsa aynı oranlarda alır ve liste değiştiğinde kendini günceller.\n\nYani tek bir {etf} ETF'si, tek bir alımla sana şu sepetin minicik bir dilimini verir: {etfBasket} ({top5} gibi isimler).\n\n⚠️ Bir endeks otomatik olarak 'en büyük şirketler' demek DEĞİLDİR. Bazı listeler büyüklüğe göre sıralar, bazıları bir hissenin ne kadar yoğun işlem gördüğüne göre, bazılarını da bir komite seçer. Aynı borsadaki iki endeks tamamen farklı şirketleri içerebilir. Almadan önce listenin gerçekte ne olduğunu her zaman oku.\n\nETF'ler genelde hisseleri kendin seçmekten daha ucuz, daha kolay ve daha çeşitlendirilmiştir. Birçok profesyonel fon yöneticisi bile onları geçemiyor! 🤯",
+      "quiz": {
+        "q": "{etf} ETF'sinden bir pay alıyorsun; bu ETF şunu takip ediyor: {etfBasket}. Artık neye sahipsin?",
+        "explanation": "Endeks yayımlanmış bir listedir ve bir endeks ETF'si listedeki her şeyi aynı oranlarda alır. Bu yüzden tek bir pay, listedeki her ismin ince bir dilimini içerir; tek bir alımın zaten dağıtılmış olmasının nedeni budur. Sadece en büyük isim değildir ve senin talimatını bekleyen nakit de değildir.",
+        "options": [
+          "O listedeki en büyük şirketten bir hisse",
+          "O listedeki her bir şirketten küçük bir dilim",
+          "Fonun, ne alacağını söyleyene kadar tuttuğu nakit"
+        ]
+      }
+    },
+    "26": {
+      "title": "{ex} ETF'leri",
+      "desc": "Bilmen gereken popüler ETF'ler",
+      "content": "{name} ülkesinden alabileceğin bir sürü ETF ve endeks fonu var. İşte en popülerlerinden bazıları:\n\n{etfList}\n\nETF'lerin dev avantajı: ÜCRETLER. Aktif yönetilen birçok fon yılda %1–2 civarında, bazen daha fazla ücret alır. Geniş endeks ETF'leri genelde %0.2'nin altında ücret alır. 20 yıl tutulan {c}10,000'lik bir yatırımda bu fark BİNLERCE değerinde olur ({cPlural} cinsinden) 💸\n\nAlmadan önce ücrete bak. Genelde 'TER' ya da 'gider oranı' olarak yazılır. Bir ETF'nin ne getireceğini kimse sana söyleyemez ama ücret, önceden BİLEBİLECEĞİN tek sayıdır.",
+      "quiz": {
+        "q": "20,000 NT yatırıyorsun. Aktif yönetilen bir fon yılda %2 ücret alıyor. Hemen hemen aynı şirketleri tutan bir endeks ETF'si %0.2 alıyor. Pahalı olanın tek bir yılda senden ne kadar fazla aldığına sürükle.",
+        "explanation": "İki ücret arasındaki fark yılda %1.8'dir ve 20,000 NT'nin %1.8'i 360 NT eder. Bu ücret fon yükselse de düşse de kesilir ve her yıl yeniden kesilir. Bir fonun ne getireceğini kimse sana söyleyemez ama ücret, almadan önce yazılıdır; genelde TER ya da gider oranı olarak geçer."
+      }
+    },
+    "27": {
+      "title": "Küresel ve Yerel ETF'ler",
+      "desc": "Yerelde ve ötesinde yatırım",
+      "content": "Sadece {name} şirketlerine mi yatırım yapmalısın? Kısa cevap: Hayır! İşte nedeni:\n\n🏠 YEREL ETF'ler: {name} şirketlerine yatırım yapar. Markaları tanırsın, {cPlural} cinsindendirler. Ama {name} ekonomisi zorlanırsa bütün portföyün düşebilir.\n\n🌍 KÜRESEL ETF'ler: Uluslararası şirketlere (ABD, Avrupa, Asya) yatırım yapar. {currencyHedge}\n\nAma kur iki yönlü keser: yerel paran DEĞER KAZANIRSA, aynı yabancı varlıklar memlekette daha az eder. Yurt dışında bir şeylere sahip olmak için kabul ettiğin takas budur.\n\nHem yerel hem küresel tutmak, seni aynı anda iki farklı riske dağıtır: kendi ekonomin ve kendi paran. Denge her şeydir! ⚖️",
+      "quiz": {
+        "q": "{fxQuizSetup}. Küresel ETF'nin içindeki yabancı hisseler hiç hareket etmedi. Şimdi {cName} cinsinden değeri ne oldu?",
+        "explanation": "Küresel bir ETF, başka bir para biriminde fiyatlanan şeyler tutar. Kendi paran değer kaybettiğinde o yabancı para, seninkinden daha fazlasına çevrilir; yani hisseler yerinde saysa bile varlık memlekette daha değerli olur. Tersi de geçerlidir: memlekette güçlenen bir para birimi aynı varlığı sessizce küçültür. Kur riski iki yönlü keser.",
+        "options": [
+          "Arttı, çünkü yurt dışında tuttuğu para artık memlekette daha fazlasını alıyor",
+          "Azaldı, çünkü kötü kur haberi senin paran için de kötü olmak zorunda",
+          "Aynı kaldı, çünkü içindeki hisseler milim kıpırdamadı"
+        ]
+      }
+    },
+    "28": {
+      "title": "Biriktirmek ve Yatırım Yapmak",
+      "desc": "Paran neden çalışmalı",
+      "content": "İkisi de iyi. Ama farklı amaçlara hizmet ederler:\n\n🏦 BİRİKTİRMEK: Parayı bir banka hesabına koymak. Güvenlidir, istediğin zaman ulaşabilirsin. AMA faiz oranları genelde {savings} civarındadır ve çoğu zaman enflasyondan düşüktür. Paran 'güvende' ama yavaş yavaş satın alma gücünü kaybediyor.\n\n📈 YATIRIM YAPMAK: Parayı hisselere, ETF'lere ya da gayrimenkule koymak. Daha fazla risk var ve herhangi bir yılda garanti yok. Bazı yıllar düpedüz para kaybedersin. Yine de uzun dönemlerde hisseler tarihsel olarak nakitten daha fazla getiri sağlamıştır. {name} piyasası geçmişte yılda ortalama kabaca {mktReturn} getirmiştir ve geçmiş ortalamalar bir vaat değil, tarihtir.\n\nPratik kural:\n• 3–6 aylık giderin birikimde (acil durum fonun) 🚨\n• Yıllarca ihtiyaç duymayacağın para, insanların yatırdığı paradır 🚀\n\nGelecek ay ihtiyaç duyabileceğin parayı yatırma. Birikim tam olarak bunun için var!",
+      "quiz": {
+        "q": "Aylık giderin 800 NT ve biriktirdiğin 5,000 NT var. Bilinen pratik kuralın nakit olarak bırakacağı en küçük acil durum fonuna sürükle.",
+        "explanation": "Pratik kural, üç ila altı aylık giderin nakit olarak tutulmasıdır. 800 NT'lik bir faturanın üç ayı 2,400 NT, altı ayı 4,800 NT eder; yani bu aralıktaki her şey normaldir. Nakit tutmanın nedeni basit: bir şey beklenmedik şekilde bozulduğunda, yatırımlarını o gün fiyat neyse ondan satmak zorunda kalmak istemezsin."
+      }
+    },
+    "29": {
+      "title": "Enflasyon ve Paran",
+      "desc": "Nakit neden zamanla değer kaybeder",
+      "content": "Bir yetişkine senin yaşındayken şunun ne kadar olduğunu sor: {food}. Yaklaşık {c}{foodOld} civarındaydı. Şimdi {c}{foodNew}+. İşte enflasyon bu: fiyatların zamanla yavaş yavaş artması, yani her bir para biriminin ({cName}) eskisinden DAHA AZ şey alması.\n\n{name} ülkesinde enflasyon genelde yılda {inflation} civarında seyretmiştir.\n\nYani birikimin yılda %4 kazandırıyor ama enflasyon %6 ise, bakiyen artmış olsa bile aslında her yıl satın alma gücünün yaklaşık %2'sini KAYBEDİYORSUN!\n\n💡 Servetini gerçekten büyütmek için yatırımlarının enflasyonu yenmesi gerekir.\n• Yastık altındaki nakit: her yıl değer kaybediyor 💀\n• Banka birikimi: çoğu zaman ancak yetişiyor\n• {ex} hisseleri (uzun vadeli ortalama): yılda {mktReturn}; bu bir vaat değil, geçmiş ortalamadır 🔥\n\nYatırım sadece zengin olmakla ilgili değil. Daha fakir olmamakla ilgili! 💸",
+      "quiz": {
+        "q": "Tasarruf hesabın yılda %4 ödüyor. Fiyatlar yılda %6 artıyor. O yıl boyunca satın alma gücüne gerçekte ne olduğuna sürükle.",
+        "explanation": "Reel getiri, kazandığın faiz eksi ödediğin enflasyondur; yani %6'ya karşı %4, yaklaşık eksi %2 eder. Hesabındaki sayı artarken onunla gerçekte alabileceklerin azalır ve enflasyonun birikimlere oynadığı sessiz oyun budur. Gerçek servet oluşturmak için paranın sadece bir şey kazanması değil, enflasyonu yenmesi gerekir."
+      }
+    },
+    "30": {
+      "title": "Duygular ve Yatırım",
+      "desc": "Panikle satma, FOMO ile alma",
+      "content": "Borsa temelde bir duygu kontrolü sınavıdır. Çoğu insan bu sınavda kalır. 🎭\n\n😱 PANİK SATIŞI: Piyasa %20 düşer, kafayı yersin, her şeyi satarsın. Sonra piyasa toparlanır. Zararını boşu boşuna kesinleştirmiş olursun.\n\n🤑 FOMO ALIMI: Sosyal medyada herkes bir coini göklere çıkarıyor. Koşarak girersin. Fiyat hemen çöker. Elinde değersiz kâğıtlar kalır.\n\nEn iyi yatırımcılar bir piyasa çöküşüne {retail} indirimi gibi bakar. Paniğe kapılmak yerine sakin sakin almaya devam ederler. Warren Buffett bunu şöyle söylemiştir: 'Başkaları açgözlüyken korkak, başkaları korkarken açgözlü ol.'\n\nPlanını yap. Ona sadık kal. Kırmızı bir günde öfkeyle satmadığın için gelecekteki sen sana teşekkür edecek! 🙏",
+      "quiz": {
+        "q": "Piyasa bir haftada %15 düşüyor ve grup sohbetin her şeyi satıyor. Paran önümüzdeki on yıl için yatırımda. Hamle ne?",
+        "explanation": "%15'lik bir düşüş, ancak düşüşün içinde sattığın gün gerçek bir zarara dönüşür. Hiçbir şey olmazken yazdığın plan, senin aklı başında halin tarafından yazıldı ve ona sadık kalmak bütün beceridir. Geri almak için ortalığın sakinleşmesini beklemek daha yüksekten geri almak demektir, çünkü sakinlik toparlanmadan önce değil, sonra gelir.",
+        "options": [
+          "Şimdi sat ve her şey sakinleşince geri al",
+          "Parayı sohbettekilerin aldığı şeye kaydır",
+          "Sakinken yazdığın plana devam et"
+        ]
+      }
+    },
+    "31": {
+      "title": "Son Boss",
+      "desc": "Bileşik faiz, dünyanın 8. harikası",
+      "content": "'Dünyanın sekizinci harikası: onu anlayan kazanır, anlamayan öder.' İnternette her yerde bu sözün Einstein'a ait olduğunu göreceksin. Onun bunu söylediğine dair gerçek bir kanıt yok.\n\nAma matematik inkâr edilemez. İşte para hakkında öğreneceğin en önemli şey:\n\n20 yaşında başlayıp yılda %12 getiriyle ayda {c}500 yatıran biri, 65 yaşına geldiğinde, 35 yaşında başlayıp aynı oranla ayda {c}2,000 yatıran birinden DAHA FAZLA paraya sahip olur. Aylık tutarın dört katı ve yine de geride bitiriyor.\n\nZaman. Her. Şeydir.\n\nBu bir sayı oyunu değil, bileşik getirinin bütün özü: beklediğin her yıl, sonradan ekleyeceğin herhangi bir yılın geri kazanabileceğinden daha pahalıya mal olur. Başlamak için en iyi an daha önceydi. İkinci en iyi an şimdi.\n\nBu test son sınavın. Başarırsan resmen NoobTrader sertifikalısın! 👑",
+      "bossVictory": "Bileşik faiz açıldı. Artık tehlikelisin. 🔥",
+      "quiz": {
+        "q": "Yılda %12 getiriyle 10 yıl boyunca yatırılan {c}1,000 yaklaşık {c}3,106 olur. Süreyi İKİYE KATLAYIP 20 yıl yaparsan ne olur?",
+        "explanation": "Süreyi ikiye katlamak, sonucu ikiye katlamaktan çok daha fazlasını yapar, çünkü her yılın büyümesi kendinden önceki her şeyin üzerine bileşik olarak eklenir. Büyüme yavaşlamaz, hızlanır.",
+        "options": [
+          "Üç katından fazlasına çıkar, yaklaşık {c}9,646 olur",
+          "Kabaca ikiye katlanır, yaklaşık {c}6,200 olur",
+          "Ne kadar uzun beklersen getiri o kadar yavaşlar"
+        ]
+      }
+    },
+    "32": {
+      "title": "Kripto Platformları ve Cüzdanlar",
+      "desc": "Kripto aslında nerede durur",
+      "content": "Önce dürüst kısım: gerçek kripto platformları neredeyse her ülkede 18 yaşından büyük olmanı şart koşar. NoobTrader'ın her şeyi önce sanal parayla denemene izin vermesinin nedeni bu. 🎮\n\nYetişkinler kripto alırken iki tür yer kullanır:\n\n🏦 BORSALAR VE ARACI KURUM UYGULAMALARI (saklamalı): bir hesap açarsın, kriptonu senin yerine onlar tutar. Kolaydır ama onlara güveniyorsun. Hacklenirlerse ya da batarlarsa kriptonu kaybedebilirsin. Bu, kripto dünyasının en büyük isimlerinden bazılarının başına geldi.\n\n🔑 KENDİ KENDİNE SAKLAMA CÜZDANLARI: gizli anahtarları SENİN tuttuğun bir uygulama. Kimse onu donduramaz ama kimse sana yardım da edemez. Kurtarma ifadeni (12 ila 24 gizli kelime) kaybedersen kripto sonsuza dek gider. Şifre sıfırlama yok. Müşteri desteği yok. Gitti.\n\nKriptocular şöyle der: 'Anahtarlar senin değilse, coinler de senin değil.' Artık ne anlama geldiğini biliyorsun.",
+      "quiz": {
+        "q": "Bir borsanın kriptonu 'saklamalı' olarak tutması ne anlama gelir?",
+        "explanation": "Saklamalı, anahtarları platformun tuttuğu anlamına gelir; yani coinlerin ancak platform kadar güvendedir. Platform hacklenirse ya da batarsa coinlerin de onunla gidebilir. 'Anahtarlar senin değilse, coinler de senin değil' sözünün anlamı budur.",
+        "options": [
+          "Anahtarları borsa senin yerine tutar",
+          "Anahtarları sen tutarsın ve başka kimse tutamaz",
+          "Coinlere kimse dokunamaz, sen bile",
+          "Otomatik olarak faiz kazandırır"
+        ]
+      }
+    },
+    "33": {
+      "title": "Kripto Almak Nasıl İşler",
+      "desc": "Makaslar, ücretler ve 7/24 piyasalar",
+      "content": "Kripto almak internetten herhangi bir şey almaya benzer ama üç şey farklıdır:\n\n1️⃣ MAKAS (SPREAD): alış fiyatı her zaman satış fiyatından biraz yüksektir. {c}100'lük kripto alıp hemen satarsan belki {c}97 geri alırsın. Bu fark, platformların sessizce para kazanma yoludur.\n\n2️⃣ ÜSTÜNE ÜCRETLER: çoğu platform her işlem için de ücret alır; küçük alımlarda genelde %1 ila 2. Ücretler artı makas, küçük bir alımın daha fiyat hiç kıpırdamadan yaklaşık %3 ila 5 zararla başlaması demektir.\n\n3️⃣ KAPANIŞ ZİLİ YOK: hisse borsaları geceleri ve hafta sonları kapanır. Kripto ise yılın her günü 7/24 işlem görür. Sen uyurken fiyatlar çökebilir. Kriptonun hisselerden çok daha oynak olmasının bir nedeni de bu.\n\nNoobTrader'da sanal parayla, 7/24 ve tek kuruş kaybetmeden kripto alıp satabilirsin. Her işlemde bir ücret ödersin ama NoobTrader makas almaz; yani gerçek bir alım, buradaki aynı işlemden daha pahalıya gelir. 📊",
+      "quiz": {
+        "q": "Bir coine 200 NT koyuyorsun ve fiyat hiç kıpırdamadan beş saniye sonra satıyorsun. Alış ve satış fiyatı arasındaki fark %3'e mal oluyor ve platform her işlemde %1 ücret alıyor. Geri gelen tutara sürükle.",
+        "explanation": "Makas %3 alır, sonra girişte bir %1 ücret ve çıkışta bir tane daha gelir. Bu, 200 NT'nin %5'i eder; yani fiyat hiçbir şey yapmadan 10 NT gitmiştir. 190 NT geri alırsın ve coinin seni sadece başa baş getirmesi için bile %5 yükselmesi gerekir."
+      }
+    },
+    "34": {
+      "title": "Gas Ücretleri Nedir?",
+      "desc": "Kripto göndermek neden para tutar",
+      "content": "Kripto göndermek bedava değildir. Her işlem, ağı işleten ve güvenliğini sağlayan bilgisayarlara genelde GAS denen bir ağ ücreti öder.\n\nHerkesi şaşırtan kısım şu: gas, ne kadar gönderdiğine göre DEĞİL, ağ trafiğine göre fiyatlanır. Ağ yoğunken ücretler fırlar.\n\n🤯 Bazı ağlarda, yoğun zamanlarda, {c}10'luk kripto göndermek {c}10'dan FAZLA gas tutabilir. Paketin değerinden daha fazlasını kargoya ödemiş olursun.\n\nDaha yeni ağlar ve 'katman 2' sistemleri çoğunlukla bunu ucuzlatmak için var; ücretleri birkaç kuruş civarında. Kriptoyla uğraşan herkes göndere basmadan ÖNCE ücrete bakar.\n\nBir şey daha: kripto transferleri geri alınamaz. Yanlış adres artı ödenmiş gas, kalıcı olarak giden para demektir. Arayabileceğin bir banka yok. ☎️❌",
+      "quiz": {
+        "q": "Bugün gas ücretleri yüksek. {c}15'lik kripto göndermek istiyorsun ve gas {c}20 tutuyor. Akıllıca yorum ne?",
+        "explanation": "Gas, ne kadar gönderdiğine göre değil ağın ne kadar yoğun olduğuna göre fiyatlanır; yani küçük bir transfer değerinden fazlaya mal olabilir. Bölmek de işe yaramaz, çünkü her transfer kendi ücretini öder. Daha sakin bir zamanı bekle ya da daha ucuz bir ağ kullan.",
+        "options": [
+          "Öde, çünkü ücret transfer ulaşınca iade edilir",
+          "Vazgeç, ücret paketten daha pahalı",
+          "İkiye böl, böylece her yarı ücretin yarısını öder",
+          "Ücreti boşver, gas sadece büyük transferlerde geçerli"
+        ]
+      }
+    },
+    "35": {
+      "title": "Meme Coinler ve Rug Pull'lar",
+      "desc": "Tuzaklar seni yakalamadan sen onları fark et",
+      "content": "Meme coinler, gerçek bir kullanım yerine şakalar ve heyecan üzerine kurulmuş kriptolardır. Birkaçı erken alanları zengin etti ve binlerce taklidin olmasının nedeni tam olarak bu. Neredeyse hepsi sıfıra gider. 📉\n\nEn sinsi tuzak RUG PULL'dur (halı çekme): yaratıcılar bir coin çıkarır, onu sıkı bir şekilde pazarlar, insanların akın etmesini bekler, sonra ellerindeki dev stoku boşaltır ya da işlem havuzunu kurutur. Fiyat dakikalar içinde çöker. Para onlarda kalır. Değersiz coinler sende kalır.\n\n🚩 Ezberlemen gereken KIRMIZI BAYRAKLAR:\n• Doğrulayamadığın anonim bir ekip\n• 'Garantili' getiriler (piyasalarda hiçbir şey garanti değildir)\n• Tanıtması için para ödenen influencer'lar\n• Arzın çoğunu küçük bir grubun tutması\n• 'Çok geç olmadan al' baskısı\n\nBir coinin ana satış argümanı, BAŞKALARININ onu almasının SENİ zengin edeceğiyse, bu yatırım değildir. Bu bir sandalye kapmaca oyunudur ve müzik yaratıcıların elindedir. 🎵",
+      "quiz": {
+        "q": "Yeni bir coinin anonim bir ekibi var, garantili 100 kat vaat ediyor ve parayla tutulan influencer'lar onu sıkı bir şekilde pazarlıyor. Genelde sonra ne olur?",
+        "explanation": "Anonim bir ekip, garantili bir getiri ve parayla yapılan tanıtım, standart rug pull düzeneğidir. Yaratıcılar arzın çoğunu tutar, heyecanın içine satar ve çekip giderler; alıcıların elinde kimsenin istemediği bir coin kalır. Piyasalarda hiçbir şey garanti değildir.",
+        "options": [
+          "Alıcılara, coinin listelendiği borsa tarafından para iadesi yapılır",
+          "Influencer'lar paylaşımı bırakınca fiyatlar dengelenir",
+          "Ekip elindeki stoku boşaltır ve fiyat çöker",
+          "Düzenleyiciler ekibi kim olduklarını açıklamaya zorlar"
+        ]
+      }
+    },
+    "36": {
+      "title": "Madencilik, Alım Satım ve Staking",
+      "desc": "Üç çok farklı oyun",
+      "content": "İnsanların kriptoda kazanmaya çalıştığı üç yol var ve bunlar aynı oyun DEĞİL:\n\n⛏️ MADENCİLİK: güçlü bilgisayarlar işlemleri işlemek ve yeni coin kazanmak için yarışır. Eğlenceli gelir ama bugün Bitcoin madenciliği endüstriyeldir: özel makinelerle dolu depolar ve devasa elektrik faturaları. Telefonun ya da dizüstü bilgisayarın rekabet edemez ve 'telefonunda Bitcoin kaz!' uygulamaları neredeyse her zaman dolandırıcılık ya da sana neredeyse hiçbir şey ödemeyen reklam çiftlikleridir.\n\n🥩 STAKING: bazı ağlarda ağın güvenliğine yardım etmek için coinlerini kilitler ve faize biraz benzeyen ödüller kazanırsın. Gerçektir ama coinlerin bir süre kilitli kalabilir ve kilitliyken FİYATLARI yine de çökebilir.\n\n📊 ALIM SATIM: fiyat hareketlerinden kâr etmek için alıp satmak. Donanım gerekmez ama disiplinin en çok önemli olduğu ve çoğu yeni başlayanın kendi duygularına yenildiği oyun budur.\n\nNoobTrader alım satım oyununu sıfır riskle öğretir. Diğer ikisine başlamak için bile gerçek para gerekir.",
+      "quiz": {
+        "q": "Bir uygulama, sen uyurken telefonunun kârlı şekilde Bitcoin kazabileceğini söylüyor. En olası gerçek ne?",
+        "explanation": "Madencilik, özel donanım ve ucuz elektrikle kazanılan bir yarıştır ve bir telefonda ikisi de yoktur. Aksini vaat eden uygulamalar genelde verilerinin, pilinin ya da paranın peşindedir ve karşılığında sana neredeyse hiçbir şey ödemez.",
+        "options": [
+          "Telefonlar yavaş kazar ama yine de kâr eder",
+          "İşe yarar, ama sadece en yeni telefonlarda",
+          "Telefonla madencilik ağlar tarafından yasaklandı",
+          "Neredeyse hiçbir şey ödemeyen bir reklam çiftliğidir"
+        ]
+      }
+    },
+    "37": {
+      "title": "Kripto Güvenliği ve Dolandırıcılıklar",
+      "desc": "Senin olan senin kalsın",
+      "content": "Kriptonun süper gücü aynı zamanda tehlikesidir: işlemler geri alınamaz ve bir hatayı geri çevirecek bir banka yoktur. Dolandırıcılar buna bayılır. İşte savunma setin:\n\n🔐 KURTARMA İFADEN KUTSALDIR. Meşru hiç kimse onu ASLA istemez. Ne 'destek ekibi', ne 'doğrulama botu', hiç kimse. Kurtarma ifadeni isteyen herkes senden çalıyordur, nokta.\n\n🎣 OLTALAMA (PHISHING): gerçek platformlara tıpatıp benzeyen sahte web siteleri ve DM'ler. Web adresinde tek bir harf farklı. Adresi her zaman kendin yaz.\n\n🎁 ÇEKİLİŞ DOLANDIRICILIKLARI: '1 coin gönder, 2 geri al!', genelde ünlü birinin hacklenmiş hesabıyla. Kimse paranı ikiye katlamaz. Asla.\n\n💕 ROMANTİK VE 'YATIRIM MENTORU' DOLANDIRICILIKLARI: seni yavaş yavaş 'özel bir platforma' ikna eden arkadaş canlısı bir yabancı. Platform sahtedir. Para çekme işlemleri hiçbir zaman çalışmaz.\n\nHer dolandırıcılığın altındaki örüntü: aciliyet artı gizlilik artı garantili kâr. Bu üçünü bir arada görürsen uzaklaş. 🚶",
+      "quiz": {
+        "q": "'Platform desteği' olduğunu iddia eden biri sana DM atıyor ve 'cüzdanını doğrulamak' için 12 kelimelik kurtarma ifadeni istiyor. Ne yaparsın?",
+        "explanation": "Kurtarma ifadesi cüzdanın TA KENDİSİDİR. Onu elinde tutan herkes cüzdanı boşaltabilir, gerçek destek onu asla istemez ve hiçbir parçası asla paylaşılmamalıdır.",
+        "options": [
+          "Asla paylaşmam, çünkü gerçek destek asla kurtarma ifadesi istemez",
+          "Paylaşırım, çünkü doğrulanmış destek ekibinin hesabını kontrol etmek için buna ihtiyacı var",
+          "Sadece ilk altı kelimeyi paylaşırım, bu tek başına yeterince güvenli",
+          "Önce resmi adresten e-posta atmalarını isterim, sonra paylaşırım"
+        ]
+      }
+    },
+    "38": {
+      "title": "Kripto Boss",
+      "desc": "Bitcoin zaman makinesi",
+      "content": "Herkesin alıntıladığı ama kimsenin doğru dürüst anlatmadığı hikâyenin zamanı geldi.\n\n2017'nin başında bir Bitcoin yaklaşık $1,000'dı. Aralık 2024'te ilk kez $100,000'ı geçti. Baştan sona tutulan $1,000'lık bir alım yaklaşık $100,000 oldu. Bu 100 kat demek. 🤯\n\nŞimdi heyecanın atladığı kısım: o 100 katı toplamak için biri yaklaşık %84, diğeri yaklaşık %77 olan iki acımasız çöküşe katlanman ve satmadan paranın YILLARCA eridiğini izlemen gerekiyordu. Neredeyse kimse bunu başaramadı. Çoğu insan yüksekten aldı, çöküşte paniğe kapıldı ve düşükten sattı.\n\nVe her Bitcoin'e karşılık sıfıra giden binlerce ölü coin var. Kazananı önceden seçmek sadece geriye bakınca kolay görünür. Buna hayatta kalma yanılgısı denir ve kriptodaki en pahalı yanılsamadır.\n\nZaman makinesinin asıl dersi: hayatta kalan coinler için sabır, zamanlamayı yendi. Ama hangi coinlerin hayatta kalacağını ancak SONRADAN öğrenirsin; çeşitlendirmenin kahramanca seçimlerden üstün olmasının ve geleceği KİMSENİN bilmemesinin nedeni bu. Boss bile bilmez. 🐉",
+      "bossVictory": "Kripto modülü fethedildi. Artık çoğu yetişkinden fazlasını biliyorsun. 🐉",
+      "quiz": {
+        "q": "Bitcoin'le birlikte binlerce coin piyasaya çıktı ve çoğu artık neredeyse hiçbir şey etmiyor. \"Sadece bir sonraki Bitcoin'i seç\" demek geriye bakınca neden bu kadar kolay görünüyor?",
+        "explanation": "Sadece hayatta kalanlar hâlâ konuşuluyor; bu yüzden kazananları seçmek geriye bakınca o zaman olduğundan çok daha kolay görünüyor. Batan binlercesi hikâyede hiçbir iz bırakmadı.",
+        "options": [
+          "Çünkü hâlâ konuşulanlar sadece kazananlar, ölenler ise hikâyeden silinip gitti",
+          "Çünkü en iyi coinler, onlar hakkında yeterince okuyan herkes için en başından belli",
+          "Çünkü çoğu coin, onları yıllarca tutacak kadar sabırlı olan herkes için sonunda kazandırır",
+          "Çünkü uzmanlar Bitcoin'i 2010'da doğru tahmin etti ve o zamandan beri her kazananı bildi"
+        ]
+      }
+    },
+    "39": {
+      "title": "Blok Zinciri Aslında NEDİR?",
+      "desc": "Her şeyin altındaki teknoloji",
+      "content": "Heyecanı bir kenara bırakırsan blok zinciri şaşırtıcı derecede basittir: binlerce bilgisayarın birebir aynı kopyalarını tuttuğu ortak bir kayıt defteri.\n\nBiri kripto gönderdiğinde bu işlem yüzlerce başka işlemle birlikte bir 'bloğa' girer. Blok matematikle mühürlenir ve bir önceki bloğa zincirlenir. İşte bu yüzden: blok. Zincir. ⛓️\n\nBu neden önemli? Mümkün kıldığı şeyler yüzünden:\n\n✅ Kimse geçmişi sessizce düzenleyemez. Eski bir bloğu değiştirmek, ondan sonraki her bloğu binlerce bilgisayarda aynı anda yeniden yapmak demektir.\n✅ Onu tek bir şirket ya da hükümet yönetmez. Bilgisayar ağı onu birlikte yönetir.\n✅ Herkes kaydı kontrol edebilir. Şimdiye kadar yapılmış her Bitcoin işlemi herkese açık olarak görülebilir.\n\nBu gerçekten yeni bir teknoloji. Ama sihirli para da DEĞİL. Değersiz bir coinin kusursuz kaydı yine de değersiz bir coindir. Teknolojinin gerçek olması, üzerine kurulan her coini değerli yapmaz. 🧠",
+      "quiz": {
+        "q": "Bir blok zincirinde eski bir işlemi gizlice değiştirmek neden bu kadar zor?",
+        "explanation": "Her blok bir öncekine mühürlenir; yani eski bir bloğu yeniden yazmak, ondan sonraki her bloğu binlerce bilgisayarda, ağın yeni blok eklemesinden daha hızlı yeniden yazmak demektir. Kaydı pratikte kalıcı yapan budur.",
+        "options": [
+          "Sonraki her bloğun da yeniden yapılması gerekir",
+          "Her değişikliğin bir hükümet tarafından onaylanması gerekir",
+          "Bir aydan eski her kayıt silinir",
+          "Her coinin yaratıcısı gizli bir düzenleme anahtarı tutar"
+        ]
+      }
+    },
+    "40": {
+      "title": "Bitcoin ve Diğerleri",
+      "desc": "Bütün coinler aynı oyun değil",
+      "content": "'Kripto' tek bir şey değil. Farklılıklar benzerliklerden daha önemli:\n\n₿ BITCOIN: ilk olan. Arzı sonsuza dek 21 milyon coinle sınırlı, bu koda yazılı ve yeni coin çıkış hızı kabaca her dört yılda bir yarıya iniyor. (Tanıdık geldi mi? NOOB'un yarılanması tam olarak bu fikri ödünç alıyor.) Bütün iddiası kıtlık artı güvenlik.\n\n⟠ ETHEREUM: 'dijital altın'dan çok 'dünya bilgisayarı'. Otomatik olarak çalışan programlar olan akıllı sözleşmeleri çalıştırır. Kripto uygulamalarının çoğu onun ya da rakiplerinin üzerine kurulur.\n\n🪙 DİĞER HER ŞEY: binlerce 'altcoin'. Birkaçı gerçek sorunları çözer. Çoğu kopya, deney ya da köşe dönmecilik. Acı istatistik: şimdiye kadar yaratılan coinlerin çoğu zaten ölü ya da değersiz.\n\nDers: 'kripto yükseliyor' sözü sana herhangi bir BELİRLİ coin hakkında neredeyse hiçbir şey söylemez. Her biri kendi ihtimalleri olan ayrı bir bahistir. 🎲",
+      "quiz": {
+        "q": "Bitcoin'in maksimum arzı nedir ve ne kadar kolay değiştirilebilir?",
+        "explanation": "21 milyon sınırı, ağdaki her bilgisayarın çalıştırdığı kuralların bir parçasıdır. Onu yükseltmek, neredeyse hepsinin ellerindekinin değerini düşürmeyi kabul etmesi demektir; sınırın sabit kabul edilmesinin nedeni budur.",
+        "options": [
+          "100 milyon, ve madenciler her yıl bunu oylar",
+          "21 milyon, ve yükseltmek neredeyse imkânsızdır",
+          "1 milyar, ve yaratıcısı bunu ayarlayabilir",
+          "Hiç sınır yok, yani sonsuza dek yeni coin basılır"
+        ]
+      }
+    },
+    "41": {
+      "title": "Sabit Coinler (Stablecoin)",
+      "desc": "Yerinde durmaya çalışan kripto",
+      "content": "Stablecoin, değeri hep sabit kalacak şekilde tasarlanmış bir kriptodur; genellikle tam olarak 1 ABD doları. Trader'lar onu bir park yeri gibi kullanır: oynak coinlerini satıp stablecoin'e geçersin, sen bir sonraki hamleni düşünürken paran yerinde durur.\n\nPeki nasıl 1 $'da kalıyorlar? Ana tasarımda gerçek dolar ve varlıklar rezervde tutulur, böylece her coin'in arkasında bir karşılık olur. Yani o rezervleri elinde tutan kişiye güveniyorsun.\n\nŞimdi de uyarı hikâyen: stablecoin'ler ÇÖKEBİLİR. Bu gerçekten yaşandı. 2022'de gerçek rezervler yerine akıllıca matematik kullanan büyük bir 'algoritmik' stablecoin, birkaç gün içinde 1 $'dan neredeyse sıfıra çakıldı ve on milyarlarca doları buhar etti. 'Sabit' bir tasarım hedefidir, garanti değil.\n\nAltın kural: bir şeyi 'güvende' tutan mekanizma ne kadar akıllıcaysa, ona o kadar dikkatli bakmalısın. 🔍",
+      "quiz": {
+        "q": "Bir stablecoin'in asıl görevi nedir?",
+        "explanation": "Stablecoin'in görevi yerinde durmaktır. İşlemler arasında bir park yeridir, büyümesi beklenen bir şey değildir.",
+        "options": [
+          "Sabit bir değeri, genellikle 1 $'ı korumak; böylece trader'ların sabit bir park yeri olur",
+          "Tüm kripto piyasasını takip ederek Bitcoin'den daha hızlı büyümek",
+          "Cüzdanında tutan herkese otomatik olarak faiz ödemek",
+          "Açık defteri karıştırarak işlemleri herkesten gizlemek"
+        ]
+      }
+    },
+    "42": {
+      "title": "Kripto, Vergi ve Hukuk",
+      "desc": "Evet, kurallar geçerli",
+      "content": "İnternet, kriptonun kuralsız, görünmez para olduğuna inanan insanlarla dolu. Genelde gerçeği zor yoldan öğrenirler. 😬\n\nGüney Afrika dahil çoğu ülkede gerçek durum şu:\n\n🧾 KÂRLAR GENELLİKLE VERGİYE TABİDİR. Kriptoyu aldığından daha pahalıya satarsan, vergi idaresi genelde payını ister; tıpkı hisselerde olduğu gibi.\n\n🪪 BORSALAR KİM OLDUĞUNU BİLİR. Güvenilir platformlar kimlik doğrulaması ister (buna KYC, Müşterini Tanı denir). Ayrıca her işlem blokzincirin kendisine kalıcı olarak kaydedilir; bu da anonimliğin TAM TERSİ.\n\n⚖️ DÜZENLEYİCİLER İŞİN İÇİNDE. Güney Afrika'da kripto varlıklar resmi olarak finansal ürün sayılır; yani bunları satan platformlar finansal hizmet kurallarına uymak zorundadır.\n\nBunların hiçbiri paniğe kapılman için bir sebep değil. Ama 'kurallar kripto için geçerli değil' diyen herkesi duymazdan gelmen için bir sebep. Kurallar geçerli ve aksini varsaymak yetişkinlerin başını gerçekten ciddi belaya sokar.",
+      "quiz": {
+        "q": "Kuzenin, kripto anonim olduğu için kripto kârlarının vergi idaresine görünmez olduğunu söylüyor. Bu düşüncenin hatası ne?",
+        "explanation": "Güvenilir platformlar işlem yapmana izin vermeden önce kim olduğunu doğrular ve her blokzincir işlemi açık ve kalıcıdır; bu da anonimliğin tam tersi. Kârlar genellikle vergiye tabidir, o yüzden yaşadığın yerdeki kuralları kontrol et.",
+        "options": [
+          "Borsalar kimlik kontrol eder ve kayıtlar herkese açıktır",
+          "Hiçbir hata yok, kripto gerçekten anonim",
+          "Kripto sadece Amerika'da vergilendirilir, başka hiçbir yerde değil",
+          "Vergi ancak bir milyon çektiğinde başlar"
+        ]
+      }
+    },
+    "43": {
+      "title": "Oynaklık ve Hayatta Kalma Kuralları",
+      "desc": "Kripto neden bu kadar sert dalgalanır",
+      "content": "Borsada kötü bir gün %3'tür. Kriptoda kötü bir gün %20'dir. Kriptonun 'yetişkini' sayılan Bitcoin bile birden fazla kez değerinin %80'inden fazlasını kaybetti ve sonra toparlandı. Daha küçük coinler sık sık %95 değer kaybeder ve bir daha asla geri dönmez.\n\nNeden bu kadar çılgın? Kripto 7/24 işlem görür ve devre kesici yoktur, büyük kısmı çöküşlerde zorla sattırılan borç parayla alınır ve fiyatlar bilanço raporlarından çok hikâyeyle ve duyguyla hareket eder.\n\nİşte her deneyimli trader'ın tekrarladığı hayatta kalma kuralları:\n\n1️⃣ Tamamen kaybetmeyi göze alamayacağın parayı asla yatırma.\n2️⃣ Pozisyonlarını, tek bir felaket seni silip süpüremeyecek büyüklükte tut.\n3️⃣ Çıkışına GİRMEDEN ÖNCE, sakinken karar ver.\n4️⃣ FOMO finanstaki en pahalı duygudur.\n\nKayıpların sahte olduğu NoobTrader'da dördünü de pratik et. Asıl ödül alışkanlıklardır. 🏆",
+      "quiz": {
+        "q": "Bunlardan hangisi oynak piyasalar için gerçek bir hayatta kalma kuralıdır?",
+        "explanation": "Kaybetmeyi göze alamayacağın parayı asla riske atmamak, seni oyunda tutan tek kuraldır. Her kayıptan sonra pozisyonu ikiye katlamak ise hesapların böyle biter.",
+        "options": [
+          "Her kayıptan sonra pozisyonunu ikiye katla ki parayı geri kazan",
+          "Tamamen kaybetmeyi göze alamayacağın parayı asla yatırma",
+          "Oynaklık sadece küçük coinleri etkiler, büyük coinler güvenlidir",
+          "Sosyal medyada herkes alırken sen de hep al"
+        ]
+      }
+    },
+    "44": {
+      "title": "Heyecan Döngüleri ve FOMO",
+      "desc": "Her çılgınlığın ardındaki kalıp",
+      "content": "Kripto heyecan döngüleriyle ilerler ve kalıbı bir kez gördüğünde bir daha görmezden gelemezsin:\n\n📈 1. Aşama: gerçek bir şey olur. İlk inananlar sessizce alır.\n🚀 2. Aşama: fiyatlar yükselir. Medya fark eder. Akışın kazananlarla dolar.\n🎪 3. Aşama: çılgınlık. Taksiciler coin tüyosu verir. İnsanlar almak için borçlanır. 'Bu sefer farklı.'\n💥 4. Aşama: çöküş. En pahalıdan alan geç kalanlar en çok kaybeder.\n🕳️ 5. Aşama: sessizlik. Kazananların paylaşımları kaybolur. Kimse kayıplarından bahsetmez.\n\n2021'deki NFT patlaması tam olarak bu senaryoyu izledi: zirvede milyonlara satılan dijital koleksiyonlar, birkaç yıl sonra çoğunlukla neredeyse hiçbir şey etmiyordu.\n\nHer çılgınlığın acımasız hilesi: almak için EN KÖTÜ zamanı, almak için EN ACİL zaman gibi hissettirir. Herkes zaten girdiği için atlamak en güvenli göründüğünde, kolay kazançlar genellikle çoktan bitmiştir. 🎯",
+      "quiz": {
+        "q": "Klasik bir heyecan döngüsünde ortalama bir kişi almak için en güçlü dürtüyü ne zaman hisseder?",
+        "explanation": "Dürtü, hikâye en gürültülüyken en güçlüdür; hikâye de en çok fiyat zaten koştuktan sonra gürültülüdür. Herkesin içeride olması güvenli hissettirir, ama aynı zamanda alacak kimsenin kalmamasına yol açar.",
+        "options": [
+          "Erken, henüz neredeyse kimse bundan bahsetmezken",
+          "Çöküşün ortasında, fiyatlar düşükken",
+          "Zirveye yakın, diğer herkes zaten içerideyken",
+          "Hiçbir kalıbı yok, dürtü rastgeledir"
+        ]
+      }
+    },
+    "45": {
+      "title": "Bir Mumu Okumak",
+      "desc": "Mumun anatomisi: gövde ve renk",
+      "content": "Her mum sadece dört sayıyla minik bir hikâye anlatır: fiyatın nerede açıldığı, ulaştığı en yüksek nokta, düştüğü en düşük nokta ve nerede kapandığı. Dolu gövde açılıştan kapanışa uzanır ve renk hangisinin kazandığını söyler: yeşil, kapanışın açılışın üstünde bittiği anlamına gelir; kırmızı ise satıcıların fiyatı açılışın altına çektiğini gösterir. Bütün sır bu kadar. Tek bir mumu doğru okumayı öğren, dünyadaki her grafik gürültü duvarından bir çizgi romana dönüşsün. 🟢",
+      "quiz": {
+        "q": "Bu mum yeşil. O işlem dönemi hakkında sana ne söylüyor?",
+        "options": [
+          "Fiyat açıldığından daha düşük kapandı",
+          "Kesinlikle satan kişilerden daha fazlası aldı",
+          "Fiyat açıldığından daha yüksek kapandı",
+          "Fiyat dönem boyunca hiç düşmedi"
+        ]
+      }
+    },
+    "46": {
+      "title": "Fitiller Hikâye Anlatır",
+      "desc": "Mumun anatomisi: en yüksek ve en düşük",
+      "content": "Gövde, dönemin nerede açılıp kapandığını gösterir; fitiller ise yolculuğun tamamını: mücadelenin gerçekten ulaştığı her fiyatı. Uzun bir fitil, açılış ve kapanışın ötesinde büyük bir savaş yaşandığı anlamına gelir ve fitili geride bırakan taraf o savaşı kaybetmiştir. Altta uzun fitil mi var? Satıcılar sert bastırdı ve geri püskürtüldü. Üstte uzun fitil mi var? Alıcılar yükseğe uzandı ve reddedildi. Gövde manşettir, fitiller dedikodu. 📏",
+      "quiz": {
+        "q": "Gövdenin üstündeki ve altındaki ince çizgiler (fitiller) aslında neyi gösterir?",
+        "options": [
+          "Dönem boyunca işlem gören en yüksek ve en düşük fiyatları",
+          "Dünün açılış ve kapanışını",
+          "İşlemlerin çoğunun gerçekleştiği tam fiyatları",
+          "Yarının fiyat aralığına dair bir tahmini"
+        ]
+      }
+    },
+    "47": {
+      "title": "Doji",
+      "desc": "Tekli mumlar: kararsızlık",
+      "content": "Bazen bir mum neredeyse tam olarak aynı fiyattan açılıp kapanır ve iki yanında fitiller olan minicik bir gövde bırakır. Buna doji denir ve halat çekmenin berabere bittiği anlamına gelir: alıcılar ve satıcılar tüm seans boyunca sert çekti, ama hiçbir taraf kazanamadı. Tek başına sadece bir omuz silkmedir. Güçlü bir yükselişten sonra ise trendin yorulduğuna işaret edebilir, çünkü kazanan taraf birden fiyatı hareket ettiremez oldu. Not etmeye değer bir ipucu, asla bir garanti değil. 🤝",
+      "quiz": {
+        "q": "Parlayan mum neredeyse tam olarak aynı fiyattan açılıp kapandı. Adı ne ve neye işaret ediyor?",
+        "options": [
+          "Marubozu, iki yönden birinde tam bir kararlılık işareti",
+          "Çekiç, alıcıların kontrolü geri aldığının işareti",
+          "Boşluk (gap), işlemin gece boyunca durduğunun işareti",
+          "Doji, alıcılar ve satıcılar arasındaki kararsızlığın işareti"
+        ]
+      }
+    },
+    "48": {
+      "title": "Çekiç",
+      "desc": "Tekli mumlar: karşı saldırı",
+      "content": "Sert bir seans düşün: satıcılar fiyatı yerle bir eder, sonra alıcılar kapanıştan önce fiyatı sonuna kadar geri çeker. Grafikte geriye kalan şey bir çekiçtir: tepeye yakın küçük bir gövde ve onun en az iki katı uzunluğunda bir alt fitil. Bir düşüşten sonra çekiç, satıcıların en güçlü yumruklarını attığını ama isabet ettiremediklerini söyler. Bu genellikle olası bir dönüşe işaret eder. Olası, söz verilmiş değil; o yüzden onu takip edilecek bir ipucu olarak gör, bir alım emri olarak değil. 🔨",
+      "quiz": {
+        "q": "Bir düşüşten sonra parlayan mum uzun bir alt fitil ve tepeye yakın küçük bir gövde oluşturdu. Bu nedir?",
+        "options": [
+          "Kayan yıldız, satıcıların kontrolü ele aldığının işareti",
+          "Çekiç, alıcıların sert karşılık verdiğinin ipucu",
+          "Doji, kusursuz bir beraberlik",
+          "Düşüş trendinin bittiğinin kanıtı"
+        ]
+      }
+    },
+    "49": {
+      "title": "Kayan Yıldız",
+      "desc": "Tekli mumlar: zirvede ret",
+      "content": "Çekicin ayna görüntüsü. Güçlü bir yükselişten sonra alıcılar yeni bir zirveye daha uzanır, sert biçimde reddedilir ve fiyat açıldığı yerin yakınında geri kapanır. Grafikte mumun altında küçük bir gövde ve uzun bir üst fitil oluşur: kayan yıldız. Bu, satıcıların sonunda zirvede seansı kazanacak kadar güçle ortaya çıktığı anlamına gelir. Büyük bir yükselişten sonra bu ret çoğu zaman önemlidir. Çoğu zaman, her zaman değil. 🌠",
+      "quiz": {
+        "q": "Güçlü bir yükselişten sonra parlayan mum yukarı fırladı, sonra en düşüğüne yakın kapandı ve uzun bir üst fitil bıraktı. Bu nedir?",
+        "options": [
+          "Kayan yıldız, satıcıların zirvede ortaya çıktığının ipucu",
+          "Çekiç, alıcıların yeniden kontrolde olduğunun ipucu",
+          "Yeşil marubozu, saf alım gücü",
+          "Fiyatın yarın çökeceğinin garantisi"
+        ]
+      }
+    },
+    "50": {
+      "title": "Marubozu",
+      "desc": "Tekli mumlar: tam kararlılık",
+      "content": "Marubozu hiç fitili olmayan tek, dolu bir gövdedir: fiyat açıldı ve tüm seans boyunca hiç geri bakmadan tek yönde yürüdü. Mücadele yok, tereddüt yok, bir taraftan tam kararlılık. Yeşil bir marubozu alıcıların güvenini haykırır, kırmızı olan ise tam tersini. Nadir görülürler ve tam da bu yüzden biri ortaya çıktığında trader'lar dikkat kesilir. 💪",
+      "quiz": {
+        "q": "Parlayan mum hiç fitili olmayan tek, dolu bir gövde. Bu şekil sana ne söylüyor?",
+        "options": [
+          "O dönem kimse işlem yapmadı, bu yüzden fiyat yatay kaldı",
+          "Piyasa o gün erken kapandı ve mumu yarıda kesti",
+          "Açılıştan kapanışa kadar bir taraf kontroldeydi, tam kararlılık",
+          "Alıcılar ve satıcılar baştan sona kusursuz biçimde dengedeydi"
+        ]
+      }
+    },
+    "51": {
+      "title": "Boğa Yutan Formasyonu",
+      "desc": "İki mumlu formasyonlar: alıcılar vuruyor",
+      "content": "İki mum, tek mesaj. Önce küçük kırmızı bir mum; düşüş trendinde olağan bir gün. Sonra onu tamamen yutan büyük yeşil bir gövde: alıcılar tek seansta satıcıların bir gün önce başardığı her şeyi sildi, hatta fazlasını. Bir düşüş trendinin ardından gelen boğa yutan formasyonu, her grafikte en çok izlenen dönüş ipuçlarından biridir, çünkü güç dengesinin tek bir mumda tersine döndüğünü gösterir. İpucu, sözleşme değil. 🐂",
+      "quiz": {
+        "q": "Büyük yeşil gövde, kendinden önceki kırmızı gövdeyi tamamen yutuyor. Bu iki mumlu formasyon nedir?",
+        "options": [
+          "Ayı yutan formasyonu, satıcılar kontrolü ele aldı",
+          "Boğa yutan formasyonu, alıcılar satıcıları ezdi",
+          "İkili dip",
+          "Art arda iki doji"
+        ]
+      }
+    },
+    "52": {
+      "title": "Ayı Yutan Formasyonu",
+      "desc": "İki mumlu formasyonlar: satıcılar vuruyor",
+      "content": "Boğa versiyonunun ayna görüntüsü. Bir yükselişin zirvesinde büyük kırmızı bir gövde, kendinden önceki yeşil gövdenin tamamını yutar: satıcılar önceki günün alımlarını tek mumda sildi, hem de yükselişin zaten gerildiği ve son alıcıların gergin olduğu noktada. Bu da genelde geri kalan alıcıları da gerer. Uzun bir rallinin ardından bunu gördüğünde, ciddiye al. 🐻",
+      "quiz": {
+        "q": "Bir yükselişin zirvesinde büyük kırmızı gövde, kendinden önceki yeşil gövdenin tamamını yutuyor. Bu ikiliye ne denir?",
+        "options": [
+          "Boğa yutan formasyonu, yükseliş devam ediyor",
+          "Ardından doji gelen bir çekiç",
+          "Direncin üzerine bir kırılım",
+          "Ayı yutan formasyonu, satıcılar alıcıları ezdi"
+        ]
+      }
+    },
+    "53": {
+      "title": "Yükseliş Trendini Tanımak",
+      "desc": "Trendler: daha yüksek tepeler, daha yüksek dipler",
+      "content": "Bir yükseliş trendi için iki yarı da gerekir: daha yüksek tepeler VE daha yüksek dipler. Her tepe bir öncekini geçer ve her geri çekilme bir öncekinden daha yukarıda durur, çünkü alıcılar her seferinde daha erken devreye girer. Bu merdiven şekli, piyasanın sana talebin kontrolde olduğunu söylemesidir. Tek başına bir yüksek tepe hiçbir şey kanıtlamaz. Kalıp, tekrarlanan bu ikilidir. 📈",
+      "quiz": {
+        "q": "Her tepe bir öncekini geçiyor ve her geri çekilme bir öncekinden daha yukarıda duruyor. Bu grafik ne gösteriyor?",
+        "options": [
+          "Yükseliş trendi, daha yüksek tepeler ve daha yüksek dipler",
+          "Düşüş trendi, daha düşük tepeler ve daha düşük dipler",
+          "Yatay bant, fiyat bir taban ile tavan arasında sıkışmış",
+          "Oluşmakta olan bir ikili tepe"
+        ]
+      }
+    },
+    "54": {
+      "title": "Düşüş Trendini Tanımak",
+      "desc": "Trendler: daha düşük tepeler, daha düşük dipler",
+      "content": "Merdiveni ters çevir. Daha düşük tepeler, satıcıların her toparlanmada daha erken saldırdığını; daha düşük dipler ise alıcıların her düşüşte daha da geri çekildiğini gösterir. Bu yapı sürdükçe gösteriyi satıcılar yönetir ve buna karşı savaşmak, yeni trader'ların sabırlı olanlara para bağışlama yoludur. Trend senin düşmanın değil, ama yokmuş gibi davranmak kesinlikle öyle. 📉",
+      "quiz": {
+        "q": "Her toparlanma bir öncekinden daha aşağıda zirve yapıyor ve her düşüş daha derine iniyor. Neye bakıyorsun?",
+        "options": [
+          "Sadece soluklanan bir yükseliş trendi",
+          "Yatay bir bant",
+          "Düşüş trendi, daha düşük tepeler ve daha düşük dipler",
+          "Oluşmakta olan bir boğa yutan formasyonu"
+        ]
+      }
+    },
+    "55": {
+      "title": "Yatay Piyasa",
+      "desc": "Trendler: bekleme oyunu",
+      "content": "Bazen hiçbir taraf kazanmaz ve fiyat haftalarca aynı taban ile aynı tavan arasında ping pong topu gibi gidip gelir. Buna yatay bant (range) denir ve piyasalar ömürlerinin çok büyük bir kısmını tam olarak bunu yaparak geçirir. Bozuk değil, sıkıcı da değil; piyasa sadece soluklanıyor. Sabırlı trader'lar beklemeyi sevmeyi öğrenir, çünkü bir bant ne kadar uzun sürerse, sonunda gelen kaçış genellikle o kadar anlamlı olur. 🏓",
+      "quiz": {
+        "q": "Fiyat haftalardır aynı taban ile aynı tavan arasında sekiyor. Buna ne denir?",
+        "options": [
+          "Yükseliş trendi, sürekli tavana dokunuyor",
+          "Yatay bant, piyasa yatay hareket ediyor",
+          "Omuz baş omuz",
+          "Gerçekleşmekte olan bir kırılım"
+        ]
+      }
+    },
+    "56": {
+      "title": "Destek",
+      "desc": "Destek ve direnç: taban",
+      "content": "Fiyat sürekli aynı seviyeye düşüp her seferinde oradan sektiğinde, trader'lar o seviyeye destek der: alıcıların fiyatı sürekli kelepir bulduğu bir taban. Ne kadar çok kez tutarsa, o kadar çok kişi onu izler; bu da kısmen neden tutmaya devam ettiğini açıklar. Ama unutma, o tabanı yasa değil insanlar çizer. Destek kırılabilir ve kırılır da; kırıldığında sekmeyi bekleyen kalabalık panik kalabalığına dönüşür. 🧱",
+      "quiz": {
+        "q": "Fiyat gölgeli seviyeye üç kez düştü ve her seferinde sekti. Trader'lar bu seviyeye ne der?",
+        "options": [
+          "Direnç, satıcıların akın ettiği bir tavan",
+          "Trend çizgisi, seviyeler çapraz olmak zorundadır",
+          "Borsanın belirlediği bir zarar durdur (stop-loss)",
+          "Destek, alıcıların sürekli devreye girdiği bir taban"
+        ]
+      }
+    },
+    "57": {
+      "title": "Direnç",
+      "desc": "Destek ve direnç: tavan",
+      "content": "Direnç tavandır: satıcılar orada kâr almaktan memnun olduğu için her rallinin tekrar tekrar durduğu bir seviye. Bir grafiğin aynı fiyata üç kez kafa attığını izliyorsan, direncin canlı çalıştığını izliyorsun demektir. İşte akılda tutmaya değer bir sürpriz: fiyat bir gün gerçek bir kararlılıkla o seviyeyi delip geçerse, eski tavan çoğu zaman yeni bir taban gibi davranmaya başlar. 🪟",
+      "quiz": {
+        "q": "Üç ayrı ralli gölgeli seviyede durdu. Bu seviyeye ne denir?",
+        "options": [
+          "Direnç, satıcıların sürekli geri ittiği bir tavan",
+          "Destek, fiyatın altında duran bir taban",
+          "Temettü seviyesi, yılda bir kez belirlenir",
+          "Hacim sıçraması, fiyat hakkında hiçbir şey söylemez"
+        ]
+      }
+    },
+    "58": {
+      "title": "Trend Çizgileri",
+      "desc": "Trend çizgileri ve kanallar: önemli olan çizgi",
+      "content": "Bir grafikteki yükselen dipleri birleştir, bir trend çizgisi çizmiş olursun. Herhangi iki nokta bir çizgi oluşturur, ama üçüncü temas çizginin önemli olduğunu kanıtlamaya başladığı yerdir, çünkü alıcıların aynı yükselen seviyeyi savunmaya devam ettiğini gösterir. Saygı gören her ek temas daha fazla kanıttır. Yine de kanıt olarak kalır, asla söz değil: trend çizgisi bir kalem izidir, bir güç alanı değil. ✏️",
+      "quiz": {
+        "q": "Bu yükselen çizgiye üç ayrı kez dokunuldu. Trader'lar bir trend çizgisinin kaç temas aldığını neden önemser?",
+        "options": [
+          "Önemsemezler, çünkü herhangi iki nokta bir trend çizgisini kural yapar",
+          "Üç temas, sıradaki dördüncü sekmenin garanti olduğu anlamına gelir",
+          "Daha fazla temas çizgiyi daha anlamlı kılar, alıcılar onu savunmaya devam ediyor",
+          "Trend çizgileri sadece günlük grafiklerde geçerlidir, daha kısalarda asla"
+        ]
+      }
+    },
+    "59": {
+      "title": "Kanallar",
+      "desc": "Trend çizgileri ve kanallar: şerit",
+      "content": "Kanal, terbiyeli bir trenddir. Fiyat iki paralel çizgi arasında sekerek tırmanır: yükselen diplerden oluşan bir taban ve yükselen tepelerden oluşan bir tavan, bir şeridin kenarları gibi birlikte yukarı ilerler. Trader'lar sekmeler için iki kenarı da izler ve fiyatın şeritten çıktığı günü daha da dikkatle izler, çünkü bir kanaldan temiz bir kırılım çoğu zaman bir sonraki büyük hareketin başladığı yerdir. 🛣️",
+      "quiz": {
+        "q": "Fiyat iki paralel çizgi arasında sekerek tırmanıyor. Bu formasyon nedir?",
+        "options": [
+          "Üçgen, iki çizginin buluşması gerekir",
+          "Yükselen kanal, görünür bir şeridi olan yükseliş trendi",
+          "İkili tepe",
+          "Hiçbir yere gitmeyen düz bir yatay bant"
+        ]
+      }
+    },
+    "60": {
+      "title": "İkili Tepe",
+      "desc": "Grafik formasyonları: M şekli",
+      "content": "Fiyat aynı tavana iki kez çarpar, ikisinde de başarısız olur ve grafiğe büyük bir M çizer. Ortadaki dibin (boyun çizgisinin) altına kırılırsa ikili tepe tamamlanır: klasik bir düşüş yönlü dönüş ipucu. Ayna görüntüsü olan W ise ikili diptir ve ters yönü işaret eder. Genelde bir tepeyi işaret eder, işaret etmek zorunda değil. Grafikte hiçbir şey zorunda değil. Ⓜ️",
+      "quiz": {
+        "q": "Fiyat aynı tavana iki kez çarptı, ikisinde de başarısız oldu, sonra ortadaki dibin altına kırıldı. Bu şekil nedir?",
+        "options": [
+          "İkili dip, yükseliş yönlü bir ipucu",
+          "Yükselen kanal",
+          "Çekiç",
+          "İkili tepe, düşüş yönlü bir dönüş ipucu"
+        ]
+      }
+    },
+    "61": {
+      "title": "Formasyonlar Başarısız Olduğunda",
+      "desc": "Grafik formasyonları: olasılıklar, sözler değil",
+      "content": "Bu, modüldeki en değerli ders. Ders kitabındaki gibi bir formasyon oluştu, herkes gördü ve sonra piyasa tam tersini yaptı. Öğrendiğin her formasyon bazen başarısız olur ve bu grafiğin sana yalan söylemesi değil, grafiğin sana bilgi vermesidir: desteklediğin taraf az önce kaybetti. Çıkışına girmeden önce karar ver ve bir formasyon başarısız olduğunda imayı anla ve çık. Formasyonlar olasılıktır, asla söz değil. 🚪",
+      "quiz": {
+        "q": "Gölgeli tabanda ders kitabındaki gibi bir ikili dip oluştu... sonra fiyat dosdoğru onu delip çöktü. Dürüst ders ne?",
+        "options": [
+          "Formasyonlar olasılıktır, söz değil; başarısız bir formasyon çıkman için işarettir",
+          "Gerçek ikili dipler asla başarısız olmaz, yani baktığın sahte olmalıydı",
+          "Düşük fiyattan daha fazla al, çünkü formasyon sonunda yine de gerçekleşecek",
+          "Bir formasyon seni böyle yüzüstü bıraktığında grafikler tamamen işe yaramaz olur"
+        ]
+      }
+    },
+    "62": {
+      "title": "Omuz Baş Omuz",
+      "desc": "Grafik formasyonları: üç tepe",
+      "content": "Üç tepe: ortada daha uzun olanı (baş), iki yanında daha alçak olanlar (omuzlar) ve iki dibin altından geçen boyun çizgisi denen bir çizgi. Alıcılar son bir kez daha yükseğe itmeyi başarıp bir sonraki denemede buna bile ulaşamadığında oluşur. Şekil tek başına sadece bir uyarıdır. Trader'ların asıl beklediği kısım boyun çizgisinin altına kararlı bir kırılımdır, çünkü formasyon o anda bir çizim olmaktan çıkıp bir karara dönüşür. 👤",
+      "quiz": {
+        "q": "Üç tepe: ortada daha uzun olanı, iki yanında daha alçak olanlar ve iki dibi birleştiren bir taban. Bu klasik şekil nedir?",
+        "options": [
+          "Üçlü dip, yukarı itişten önce üç eşit dip",
+          "Omuz baş omuz, yükseliş trendinin olası sonu",
+          "Yükselen üçgen",
+          "Art arda üç çekiç, her biri daha düşük fiyatları reddediyor"
+        ]
+      }
+    },
+    "63": {
+      "title": "Üçgen Sıkışması",
+      "desc": "Grafik formasyonları: kurulu yay",
+      "content": "Salınımlar sürekli küçüldüğünde, yükselen dipler alçalan tepelere doğru bastırdığında, piyasa bir yay gibi kurulur. Bu bir üçgendir: iki tarafın da alanı daralıyor, bir karar zorlanıyor. Sıkışma çoğu zaman bir patlamayla biter ve işin püf noktası şu: patlamanın yönü önceden bilinmez. Tahmin etmek yerine kırılımı bekle. Piyasa sana söyleyecek ve bu bilgi için hiçbir ücret almaz. 🌀",
+      "quiz": {
+        "q": "Salınımlar sürekli küçülüyor, fiyatı giderek daralan bir sarmala sıkıştırıyor, ta ki sonunda dışarı patlayana kadar. Bu sarmal neydi?",
+        "options": [
+          "Kanal, asla buluşmayan iki paralel çizgi",
+          "İkili tepe",
+          "Üçgen, çoğu zaman bir kırılımla biten bir sıkışma",
+          "Fiyatın buradan sonra yukarı kırılmak zorunda olduğunun kanıtı"
+        ]
+      }
+    },
+    "64": {
+      "title": "Hacim: Yalan Makinesi",
+      "desc": "Hacim: gerçekte kim geldi",
+      "content": "Hacim, kaç hissenin el değiştirdiğidir ve grafiklerin yalan makinesidir. Minicik hacimle gelen bir kırılım, insanları kandıran bir fısıltıdır: bir avuç işlem fiyatı kalamayacağı bir yere itti. Yüksek hacimle gelen bir kırılım ise parasıyla gerçekten oy veren bir kalabalıktır. Aynı fiyat hareketi, bambaşka bir anlam. Herhangi bir büyük harekete inanmadan önce, ona kimin geldiğini kontrol et. 🔊",
+      "quiz": {
+        "q": "Aynı tavandan iki kaçış denemesi: minicik hacimli ilki başarısız oldu, ikincisi devasa hacimle geldi ve tuttu. Hacim burada ne yapıyor?",
+        "options": [
+          "Hiçbir şey, hacim bir fiyat hareketi için asla önemli değildir",
+          "Fiyatı yukarı zorluyor, çünkü yüksek hacim fiyatları yükseltir",
+          "Hareketin tam zirvesini gerçekleşmeden önce tahmin ediyor",
+          "Onay görevi görüyor, büyük hacim hareketin arkasındaki gerçek kararlılığı gösterir"
+        ]
+      }
+    },
+    "65": {
+      "title": "Trend Tanıyıcı",
+      "desc": "On grafik, etiket yok, merhamet yok",
+      "content": "On grafik. Etiket yok, yardımcı çizgi yok, ipucu yok. Her birinin ne gösterdiğini söyle; tıpkı gerçek bir ekrana bakan gerçek bir trader gibi. 10'da 8 yap, modül senin olsun. Günde 3 deneme hakkın var, o yüzden yavaşla, mumları oku ve hepsinden önemli dersi unutma: bazen dürüst cevap, ortada hiçbir formasyon olmadığıdır. 🕯️",
+      "bossVictory": "Trend modülü fethedildi. Artık grafikleri sen okuyorsun, grafikler seni değil. 🕯️",
+      "bossQuestions": {
+        "0": {
+          "q": "Bu grafik ne gösteriyor?",
+          "explanation": "Bilerek dağınık. Gürültüyü ayıkla; her salınım tepesi yine bir öncekini geçiyor ve her geri çekilme yine daha yukarıda dip yapıyor. Gerçek trendler ders kitabındaki merdiven gibi değil, böyle görünür.",
+          "options": [
+            "Düşüş trendi, daha düşük tepeler ve daha düşük dipler",
+            "Yükseliş trendi, daha yüksek tepeler ve daha yüksek dipler",
+            "Yatay bir bant",
+            "İkili tepe"
+          ]
+        },
+        "1": {
+          "q": "Parlayan mum çiftinde ne oldu?",
+          "explanation": "Kırmızı gövde, uzun bir yükselişin hemen ardından yeşil gövdenin tamamını yuttu. Bu, ayı yutan formasyonunun tam olarak yaptığı şey: alıcıların en çok gerildiği yerde ortaya çıkmak.",
+          "options": [
+            "Boğa yutan formasyonu",
+            "Zirvede bir doji",
+            "Çekiç",
+            "Bir rallinin zirvesinde ayı yutan formasyonu"
+          ]
+        },
+        "2": {
+          "q": "Bu grafik ne gösteriyor?",
+          "explanation": "Ortadaki tepe iki yanındakilerin açıkça üstünde duruyor ve dipler bir boyun çizgisi oluşturacak şekilde hizalanıyor. Gerçekleri asla simetrik olmaz ve doğada aslında böyle görünürler.",
+          "options": [
+            "Omuz baş omuz",
+            "Üç eşit tepeli üçlü tepe",
+            "Yükselen üçgen",
+            "Yükselen kanal"
+          ]
+        },
+        "3": {
+          "q": "Bu grafik ne gösteriyor?",
+          "explanation": "Aynı tabana iki yoklama, ikincisi biraz daha sığ, ardından ortadaki sekmenin üzerine bir itiş. Ders kitabı değil, gerçek bir piyasa tarafından çizilmiş W şekli.",
+          "options": [
+            "Omuz baş omuz",
+            "Alçalan üçgen",
+            "İkili dip",
+            "Ayı bayrağı"
+          ]
+        },
+        "4": {
+          "q": "Parlayan mum nedir?",
+          "explanation": "Uzun üst fitil, aralığın altına park etmiş minicik gövde, hem de bir rallinin hemen ardından. Alıcılar yeni bir zirveye uzandı ve kapanıştan önce sertçe geri itildi.",
+          "options": [
+            "Çekiç",
+            "Yeşil marubozu",
+            "Doji",
+            "Yükselişten sonra kayan yıldız"
+          ]
+        },
+        "5": {
+          "q": "Bu grafik ne gösteriyor?",
+          "explanation": "Aynı taban ve aynı tavan sürekli saygı görüyor, aradaki her şey gürültü. Hiçbir taraf kazanmıyor, yani binilecek bir trend yok.",
+          "options": [
+            "Yatay bant, fiyat destek ile direnç arasına sıkışmış",
+            "Yükseliş trendi, daha yüksek tepeler ve daha yüksek dipler",
+            "Alçalan kama",
+            "Gerçekleşmekte olan bir kırılım"
+          ]
+        },
+        "6": {
+          "q": "Fiyat eski tavanın üzerine kırıldı, sonra okla gösterilen geri çekilme o seviyeye döndü ve tuttu. Bu geri çekilme neydi?",
+          "explanation": "Geri çekilme tam olarak eskiden tavan olan seviyeye döndü, orada alıcı buldu ve trend devam etti. Bu bir geri çekilmedir. Bir dönüş olsaydı seviyeyi delip geçer ve düşmeye devam ederdi.",
+          "options": [
+            "Düşüş trendine tam bir dönüş",
+            "Geri çekilme, kırılan seviyenin yeniden test edilmesi",
+            "İkili tepe",
+            "Ölü kedi sıçraması"
+          ]
+        },
+        "7": {
+          "q": "Bu grafik ne gösteriyor?",
+          "explanation": "Düz bir taban, ona doğru bastıran alçalan tepeler, her sekmede daha erken gelen satıcılar. Taban sonunda çöktü; bu şeklin çoğu zaman yöneldiği sonuç da budur. Çoğu zaman, asla her zaman değil.",
+          "options": [
+            "Yükselen üçgen",
+            "Yükselen kanal",
+            "Desteğe yaslanan alçalan üçgen",
+            "İkili dip"
+          ]
+        },
+        "8": {
+          "q": "Bu grafik ne gösteriyor?",
+          "explanation": "Tuzak soru ve boss'taki en değerli soru. Çoğu grafik, çoğu zaman, işlem yapmaya değer hiçbir şey göstermez. Orada olmayan formasyonları görmek, yeni başlayanların kaybetme biçimidir. İşlem yok demek bir beceridir. 🎯",
+          "options": [
+            "Omuz baş omuz",
+            "İkili tepe",
+            "Yükseliş trendi",
+            "Temiz bir formasyon yok, burada işlem yapılacak bir şey yok"
+          ]
+        },
+        "9": {
+          "q": "Bu grafik ne gösteriyor?",
+          "explanation": "Fiyat zayıf bir hacimle tavanın üzerine çıktı, alıcılar peşinden koştu, sonra dosdoğru banda geri çöktü. Başarısız olan kırılım, hacim dersinin sana bir kırılıma inanmadan önce hacmi kontrol etmeni söylemesinin tam nedenidir.",
+          "options": [
+            "Boğa tuzağı, alıcıları içine çeken başarısız bir kırılım",
+            "Temiz bir yeniden testle başarılı bir kırılım",
+            "İkili dip",
+            "Çekiç dönüşü"
+          ]
+        }
+      }
+    },
+    "66": {
+      "title": "Burada Hiçbir Şeye Sahip Değilsin",
+      "desc": "Türev ürün, bir sayı üzerine yapılan bahistir",
+      "content": "Şimdiye kadar öğrendiğin her şeyin arkasında bir varlık vardı. {retail} hissesinden bir tane alırsan şirketten bir dilime sahip olursun: mağazalardan bir dilim, kârdan bir dilim, genel kurulda bir oy ve şirket temettü dağıttığında bir temettü.\n\nTürev ürün bu değildir.\n\nCFD (fark sözleşmesi), seninle bir sağlayıcı arasında, pozisyonu açtığın an ile kapattığın an arasındaki fiyat farkını takas etmek için yapılan bir anlaşmadır. Ürünün tamamı bu. {retail} fiyatı yükselirse ve sen yükselişe oynadıysan, sana farkı öderler. Düşerse, sen onlara ödersin. Kimse hisse almaz. Kimse hisse satmaz. İşlemin hiçbir yerinde hisse yoktur.\n\nVadeli işlem sözleşmesi (future), bir şeyi belirli bir tarihte belirli bir fiyattan alma ya da satma sözleşmesidir. Gerçek olanlar fiziksel varil petrol ya da ton mısırla kapanır, ama neredeyse kimse onları o kadar uzun tutmaz; bu yüzden pratikte vadeli işlemlerin çoğu da son tarihi olan bir sayı üzerine yapılan bir bahistir.\n\nBu neden göründüğünden daha önemli:\n\n• Temettü yok. Para Bebekleri yok. 15. dersteki getirilerin çoğunu sessizce oluşturan şey burada basitçe yok.\n• Oy yok, sahiplik yok, tutacak bir şey yok. \"On yıl tut, bekle\" seçeneği yok, çünkü tutacak bir şey yok.\n• Bileşik getiri yok. Bu uygulamanın geri kalanı 65 ders boyunca sana zamanın senden yana olduğunu öğretiyor. Bu odada ise zaman sana para kaybettirir. Tam olarak ne kadar olduğunu 72. derste göreceksin.\n\nZaten bildiğin her şey hâlâ önemli. Sadece artık yaptığın şey o olmuyor. 📄",
+      "quiz": {
+        "q": "{retail} üzerine bir CFD açıyorsun ve fiyat yükseliyor. Aslında neye sahipsin?",
+        "explanation": "CFD, pozisyonu açtığın andaki fiyat ile kapattığın andaki fiyat arasındaki farkı takas etmek için seninle sağlayıcı arasında yapılan bir anlaşmadır. Kimse hisse almaz, kimse satmaz ve anlaşmanın hiçbir yerinde hisse yoktur. Bu yüzden temettü yok, oy yok ve on yıl tutacak bir şey yok.",
+        "options": [
+          "Sağlayıcının kendi adına tuttuğu hisselere",
+          "Sonunda fiyat farkını takas etmeye yönelik bir sözleşmeye",
+          "Şirketin bir parçasına ve ardından gelen temettülere",
+          "Kapattığında gerçek hisseye dönüşen bir kupona"
+        ]
+      }
+    },
+    "67": {
+      "title": "Bir Arkadaştan Borç Almak",
+      "desc": "Kaldıraç aslında nedir ve kimsenin paylaşmadığı kısım",
+      "content": "Kaldıraç kulağa teknik geliyor. Değil. Kaldıraç borç almaktır.\n\nDiyelim ki {c}1,000 değerinde hisse istiyorsun ama sadece {c}200'ün var. Bir arkadaşın kalan {c}800'ü koymayı teklif ediyor. Kendi {c}200'ünle {c}1,000 değerinde hisseyi kontrol ediyorsun. İşte kaldıraç bu. Bütün fikir bu.\n\nŞimdi o arkadaşın yaptığı üç şey. Üçünü de bilmen gerek, yoksa sana bir masal satılmış demektir.\n\n1️⃣ KAZANÇ GERÇEKTEN SENİN. Hisseler %10 yükseliyor. {c}1,000'ün artık {c}1,100. Bu {c}100 kâr ve her kuruşu sende kalıyor, çünkü arkadaşına {c}800 borçlusun, fazlası değil (tek bir {cName} bile fazlası değil). Kendi {c}200'ün üzerinde {c}100, %50 kazanç demek. %10'luk bir hareket sana %50 kazandırdı. Herkesin paylaştığı kısım bu.\n\n2️⃣ YANILDIĞINDA BORÇ KÜÇÜLMEZ. Kimsenin paylaşmadığı kısım bu ve dersin tamamı bu. Hisseler bu sefer %10 düşüyor. {c}1,000'ün artık {c}900. Arkadaşına hâlâ {c}800'ün tamamını borçlusun. {c}720 değil. {c}800'ün tamamı. Yani {c}100'lük düşüşün tamamı SENİN payından çıkıyor ve {c}200'ün artık {c}100. %10'luk bir hareket sana %50 kaybettirdi.\n\nBu ikisini bir daha oku. Aynı arkadaş, aynı %10. Paran her iki yönde de beş kat hızla hareket ediyor, çünkü borç acıdan hiç pay almıyor.\n\n3️⃣ ARKADAŞ KİRA ALIR, HER GÜN, TAMAMI ÜZERİNDEN. Onun {c}800'ü üzerinden değil. Kontrol ettiğin {c}1,000'ün tamamı üzerinden. Pozisyonu tuttuğun her gece; fiyat ister yükselsin, ister düşsün, ister hiç kıpırdamasın.\n\nÜçüncünün içinde saklanan bir dördüncü şey daha var. {c}200'ün azalırsa, arkadaşın seni arayıp konuşmaz. Satar. Hemen, otomatik olarak, o an hangi fiyat varsa ondan; çünkü risk altındaki onun {c}800'ü ve senin fikrini beklemeyecek. Bunun bir adı var ve üç ders sonra onunla tanışacaksın: tasfiye (likidasyon).\n\nYani: daha büyük kazançlar, daha büyük kayıplar, her gece kira ve satış düğmesinde başkasının parmağı. Kaldıraç, biraz riski olan bedava para değildir. Bu dördü birden ekli bir borçtur ve reklamlar sana sadece ilkini gösterir. 🧠",
+      "quiz": {
+        "q": "Bir arkadaşın 800 NT koyuyor, sen 200 NT koyuyorsun ve birlikte 1,000 NT değerinde hisseyi kontrol ediyorsunuz. Hisseler %10 düşüyor. Kendi 200 NT'nin şimdi ne kadar ettiğine sürükle.",
+        "explanation": "Yanıldığında borç küçülmez. Hisseler artık 900 NT ediyor ve arkadaşına hâlâ 800 NT'nin tamamı borçlusun, yani sana kalan 100 NT. Hisselerdeki %10'luk düşüş paranın yarısını götürdü, çünkü borç acıdan hiç pay almaz. Yukarı yönde de aynı şekilde işler ve reklamların sana gösterdiği yarı da budur."
+      }
+    },
+    "68": {
+      "title": "Marj Bir Teminattır, Satın Alma Değil",
+      "desc": "Yatırdığın para harcanmaz, risk altındadır",
+      "content": "{c}100'e bir hisse aldığında, o {c}100 nakdinden çıkar ve hesabında bir hisse durur. Basit bir takas.\n\nMarj böyle çalışmaz. Kaldıraçlı bir pozisyon açtığında bir teminat yatırırsın ve bu teminat hiçbir şeyin ödemesi değildir. Kendi kayıplarına karşı bir güvence teminatıdır. Orada kilitli durur ve fiyat aleyhine hareket ettikçe pozisyon onu yer.\n\nDiyelim teminat oranı %25. 250 NT yatırıyorsun ve 1,000 NT'lik pozisyonu kontrol ediyorsun. Hesabını izle:\n\n• Fiyat yatay: 250'n hâlâ 250. Ama finansman başladı, yani sessizce daha az.\n• Fiyat %5 aşağı: pozisyon 50 NT kaybetti. Teminatın fiilen 200. Serbest nakdin kıpırdamadı. Hesabın küçüldü.\n• Fiyat %20 aşağı: pozisyon 200 NT kaybetti. Teminatın 50'ye indi. Hiçbir şey yapmadın. Hiçbir şey satmadın. Sadece izledin.\n\nBu odadaki her ekranda duran üç terim:\n\n🔒 KULLANILAN MARJ: şu anda yatırılı olan tüm teminatların.\n💰 HESAP ÖZSERMAYESİ: serbest nakdin, artı yatırılı marjın, artı ya da eksi her açık pozisyonun kâr ve zararı, eksi şimdiye kadar alınan finansman. Her şey şu an kapansa hesabının gerçekte ettiği değer.\n📊 MARJ SEVİYESİ: özsermaye bölü kullanılan marj. %100'ün üstündeysen bir tamponun var. %100'ün altında ise piyasa tamponu bitirmiş ve teminatı yemeye başlamıştır.\n\nVe herkesi şaşırtan bir kural: marj pozisyon başına değil, tüm hesabın genelinde ölçülür. Zararda olan bir pozisyon, kazançlı bir pozisyonu ayakta tutan teminatı yer. Bu yüzden \"diğer işlemim iyi gidiyor\" bir savunma değildir. 🔒",
+      "quiz": {
+        "q": "Teminat oranı %25, yani kendi paranın 250 NT'si 1,000 NT'lik pozisyonu kontrol ediyor. Sen hiçbir şey yapmazken fiyat %8 düşüyor. Bu düşüşün sana ne kadara mal olduğuna sürükle.",
+        "explanation": "Teminat hiçbir şeyin ödemesi değil, bir güvencedir ve kayıp, kontrol ettiğin 1,000 NT'nin tamamı üzerinden hesaplanır. 1,000 NT'nin %8'i 80 NT'dir. Hiçbir şey satmadın ve serbest nakdin kıpırdamadı, ama 250 NT'lik teminatının 80 NT'si yenildi ve hesabın 80 NT küçüldü. %8'i teminat üzerinden hesaplarsan 20 NT bulursun; kaldıracı zararsız gösteren hata da budur."
+      }
+    },
+    "69": {
+      "title": "Marj Çağrısı",
+      "desc": "Bir uyarı değil, bir talep",
+      "content": "Marj çağrısı, marj seviyenin %100'ün altına düştüğü andır. Basitçe söylemek gerekirse: kâr tamponun bitti ve piyasa teminatın kendisini yemeye başladı.\n\nİşte gerçekte nasıl hissettirdiği, çünkü ders kitabı versiyonu önemli kısmı atlıyor.\n\nAsla iyi bir günde gelmez. Pozisyon zaten çirkinken, kendine zaten iki kez geri döneceğini söylemişken ve sakin bir karar vermeye en az yetenekli olduğun anda gelir. Kibar bir uyarı değildir. Bir taleptir: daha fazla para yatır ya da pozisyon kapat, yoksa sağlayıcı bunu senin yerine yapar.\n\nÜç hamlen var ve sadece ikisi senin.\n\n1️⃣ Bir şeyi KAPAT. Bu anında marj serbest bırakır ve neredeyse her zaman doğru cevaptır. Aynı zamanda yanıldığını kabul etmek demektir; insanların bunu yapmamasının asıl nedeni de budur.\n2️⃣ Para EKLE. Bu hiçbir şeyi düzeltmez. Zaten kötü seçtiğin bir pozisyonda, riske atmayı planlamadığın parayla, daha uzun süre yanılmak için sana alan satın alır. Marj çağrısında nakit eklemek, kötü bir işlemin kötü bir aya dönüşme yoludur.\n3️⃣ HİÇBİR ŞEY YAPMA. O zaman üçüncü hamle sensiz gerçekleşir ve onun bir adı var.\n\nDüzenleyiciler bunu o kadar ciddiye alıyor ki yasaya bir sayı yazdılar. Avrupa, Birleşik Krallık ve Avustralya'daki firmalar, bireysel bir müşterinin marjı gerekenin %50'sine düştüğünde pozisyonlarını otomatik olarak kapatmak zorundadır. \"Kapatmalı\" değil. Zorunda. Bu kuralı yazdılar, çünkü karar insanlara bırakıldığında 3. seçeneği seçtiler ve sahip olduklarından fazlasını kaybettiler. ⚠️",
+      "quiz": {
+        "q": "Marj seviyen %80'e düştü ve marj çağrısındasın. Hangi tepki tasfiye riskini sadece ertelemek yerine gerçekten azaltır?",
+        "explanation": "Kapatmak teminatı hemen geri verir, böylece marj seviyesi anında sıçrar. Nakit eklemek sadece zaten kötü seçtiğin bir işlemde daha uzun süre yanılmak için alan satın alır. Beklemek tasfiyenin gerçekleşme yoludur. Ters yöndeki ikinci bir pozisyon da kendi teminatını ister, yani daha az değil daha fazla marj kullanır.",
+        "options": [
+          "Hesaba daha fazla nakit yatırmak",
+          "Marj seviyesinin yeniden yükselmesini beklemek",
+          "Açık pozisyonlarından birini kapatmak",
+          "Ters yönde ikinci bir pozisyon açmak"
+        ]
+      }
+    },
+    "70": {
+      "title": "Tasfiye ve Önceden Bilmen Gereken Fiyat",
+      "desc": "Hesabının sıfıra düştüğü tam fiyat",
+      "content": "Tasfiye (likidasyon), teminatın neredeyse tükendiği için sağlayıcının pozisyonlarını senin yerine kapatmasıdır. Otomatiktir. Anlıktır. Kimse fikrini sormaz, kimse haklı çıkmak üzere olup olmadığına bakmaz ve itiraz hakkı yoktur.\n\nBu modülün tamamındaki en faydalı sayı senin TASFİYE FİYATIN: bunun gerçekleştiği, gerçek para birimiyle (cinsi: {cPlural}) ifade edilen gerçek fiyat.\n\nYüzde değil. Fiyat. Çünkü \"teminatını kaybedebilirsin\" başını sallayıp unutabileceğin bir cümledir, oysa \"{tech} {c}87.40 olursa hesabın boş\" herhangi bir şeye basmadan önce grafikle karşılaştırabileceğin bir gerçektir.\n\nBu odadaki her ekran, sen onaylamadan önce onu gösterir; grafikle aynı fiyat ölçeğinde çizilmiş olarak, böylece gerçekte ne kadar uzakta olduğunu görebilirsin. Hemen fark edeceğin iki şey var ve ikisi de dersin kendisi:\n\n📏 Daha büyük bir teminat tasfiye fiyatını daha uzağa iter. Kendi paranın daha fazlası içerideyse, paran bitmeden önce fiyatın düşmesi gereken mesafe daha uzundur.\n⚡ Daha küçük bir teminat onu bugünkü fiyatın hemen yanına çeker. %10 teminatla tasfiye yaklaşık %10'luk bir hareket uzaktadır ve %10'luk bir hareket sıradan bir haftadır.\n\nSonra dürüst bir tuzak. Tasfiye fiyatı, motorun seni kapatmayı amaçladığı yerdir; çıkmanın garanti olduğu yer değil. Kötü haber gece gelirse ve piyasa o seviyenin çok altında açılırsa, piyasanın gerçekte ödediği fiyattan kapatılırsın. Bu boşluktur (gap) ve 78. ders bununla ilgili.\n\nPozisyon açmadan önce tasfiye fiyatını bil. Onu yüksek sesle söyleyemiyorsan, yapmak üzere olduğun işlemi anlamıyorsun demektir. 💀",
+      "quiz": {
+        "q": "Fiyatı 100 NT olan bir varlığın 1,000 NT'lik kısmını kontrol etmek için teminat olarak 200 NT yatırıyorsun. Fiyatı teminatının bittiği yere kadar aşağı sürükle.",
+        "explanation": "10 birim kontrol ediyorsun, yani fiyatın düştüğü her 1 NT sana 10 NT'ye mal olur. 200 NT'lik teminatın 80 NT'de biter; bu sadece %20'lik bir düşüştür."
+      }
+    },
+    "71": {
+      "title": "Geri Dönüş Yolu Daha Dik",
+      "desc": "Kayıpları geri almak neden göründüğünden zor",
+      "content": "Kayıplar ve kazançlar birbirinin zıttı gibi hissettirir. Değiller ve matematik buna yakın bile değil.\n\n%10 mu kaybettin? Geri dönmek için +%11 gerekir. Can sıkıcı, idare eder.\n%50 mi kaybettin? +%100 gerekir. Sadece başa baş gelmek için parayı İKİYE KATLAMAN gerekir.\n%75 mi kaybettin? +%300 gerekir.\n%90 mı kaybettin? +%900 gerekir.\n\nBir kez gördüğünde nedeni basit: kazanç, elinde kalan daha küçük yığın üzerinden hesaplanır. 100, 50'ye düşer ve 50'den 100'e geri çıkmak için o küçük yığının ikiye katlanması gerekir.\n\nŞimdi kaldıracı ekle ve aslında ne yaptığına dikkat et. Sadece kazançlarını hızlandırmaz. Seni tek bir öğleden sonrada bu tablonun aşağısına taşır. Bir hissede %12'lik düşüş, yani kötü ama tamamen normal bir hafta, %25 teminatla hesabına %48'lik bir darbedir. Artık başladığın yere dönmek için +%92 gerekiyor; hem de haberlere zar zor çıkan bir haftadan sonra.\n\nProfesyonellerin her şeyden önce sermayeyi korumaktan bahsetmesinin ve \"geri kazanırım\" cümlesinin trading'deki en pahalı cümle olmasının nedeni bu. Geri kazanmak, kaybetmekten matematiksel olarak her seferinde daha zordur. ⛰️",
+      "quiz": {
+        "q": "Hesabın %75 değer kaybetti. Sadece başladığın yere dönmek için buradan gereken kazanca sürükle.",
+        "explanation": "100 NT, 25 NT'ye düştü. Yeniden 100'e ulaşmak için o 25'in dört katına çıkması gerekir; bu da %300'lük bir kazançtır. Tırmanış elinde kalan daha küçük yığın üzerinden ölçülür, bu yüzden düşüşten çok daha diktir."
+      }
+    },
+    "72": {
+      "title": "Borç Paranın Kirası",
+      "desc": "Yönde haklı, işlemde yine de zararda",
+      "content": "Pozisyonu borçla aldın. Yani bedelini ödersin. Her gece.\n\nFinansman (bazı yerlerde swap ya da gecelik ücret denir) her gün alınır ve herkesi yakalayan kısım şu: borç aldığın kısım üzerinden değil, pozisyonun TAMAMI üzerinden alınır. 2,000 NT'yi kontrol etmek için 500 NT yatırırsan, 2,000 üzerinden kira ödersin.\n\nNasıl hesaplanır: bir gösterge faiz oranı, artı sağlayıcının kâr payı, bölü 365, çarpı pozisyonunun tamamı. Bu uygulamada ikisini de ekranda ayrı ayrı görürsün, çünkü parçalarına ayıramadığın bir ücreti değerlendiremezsin. Yılda yaklaşık %7.3 ile bu, gecelik olarak pozisyonunun yaklaşık %0.02'sine denk gelir.\n\nKulağa hiç gibi geliyor. Şimdi kazançlı bir işlemi nasıl yediğini izle. 🧾\n\nDOĞRU TAHMİN ETTİĞİN AMA YİNE DE KAYBETTİĞİN İŞLEM\n\n{retail} üzerine 500 NT teminatla 2,000 NT'lik bir pozisyon açıyorsun. Yükseliş bekliyorsun ve haklı çıkıyorsun: sonraki birkaç ay içinde {retail} fiyatı %2 YUKARI süzülüyor.\n\n• Kazancın: 2,000'in %2'si = 40 NT. 500 NT teminat üzerinde bu +%8. Güzel.\n• Kiran: 2,000'in %0.02'si = 0.40 NT, her gece.\n\n50. gece: 20 NT ödedin. Toplamda 20 NT kârdasın. Hâlâ kazanıyorsun.\n100. gece: 40 NT ödedin. 40 NT'lik kârın artık tam olarak sıfır ediyor. Doğru tahmin ettin ve hiçbir şey kazanmadın.\n180. gece: 72 NT ödedin. Kazancın hâlâ 40 NT. 32 NT ZARARDASIN; bu, piyasayı altı ay boyunca doğru okuduğun bir işlemde teminatının eksi %6.4'ü.\n\nBunu bir daha oku. Fiyat söylediğin şeyi yaptı. Sen yine de kaybettin.\n\nBu dersten çıkarman gereken cümle şu: kaldıraçlı bir pozisyonda haklı olmanın bir son kullanma tarihi vardır. Bu örnekte 100 gece uzakta ve kendininkini pozisyonu açmadan önce hesaplayabilirsin. Umduğun kârı gecelik kiraya böl. Fikrin o kadar gece eder.\n\nTersi de dikkate değer. Bu uygulamanın geri kalanı bileşik getiriyi öğretir; sen uyurken zamanın sessizce sana para kazandırdığı şeyi. Bu, aynı makinenin geriye doğru çalışan ve sana doğrultulmuş hâli. ⏳",
+      "quiz": {
+        "q": "Geceliği 0.40 NT finansmana mal olan 2,000 NT'lik kaldıraçlı bir pozisyon tutuyorsun. Fiyat sana 40 NT kazanç sağlayacak kadar yükseliyor, sonra hareket etmeyi bırakıyor. Kaç gece sonra bu kazanç tamamen yenmiş olur?",
+        "options": [
+          "Asla yenmez, çünkü finansman sadece borç alınan kısım üzerinden alınır",
+          "Yaklaşık 100 gece, çünkü 40 NT kazanç bölü gecelik 0.40 NT, 100 eder",
+          "Yaklaşık 20 gece, çünkü finansman 500 NT'lik teminatın üzerinden alınır",
+          "Finansman sadece bir pozisyon zararına kapatıldığında alınır"
+        ]
+      }
+    },
+    "73": {
+      "title": "Vadeli İşlemler: Saat ve Devir",
+      "desc": "Aynı maliyet, farklı bir şekilde teslim edilir",
+      "content": "Vadeli işlemler ve CFD'ler kuzendir. İkisi de kaldıraçlıdır, ikisi de marj kullanır, ikisi de seni tasfiye edebilir. Vadeli işlemleri farklı kılan iki şey var ve ilginç olan ikincisi.\n\n⏰ 1. ÜZERİNDE BİR TARİH VAR. Her vadeli işlem sözleşmesinin vadesi dolar. Mart petrolü, Haziran mısırı, Eylül endeksi. Tarih geldiğinde sözleşme kapanır ve var olmaktan çıkar. \"Tut ve geri gelmesini bekle\" menüde basitçe yok, çünkü sözleşme orada olmayacak. Bir CFD'nin vadesi asla dolmaz; bu, sonsuza dek kira aldığını hatırlayana kadar kulağa daha iyi gelir.\n\n🔄 2. MALİYET GECELİK FATURA EDİLMEZ, FİYATIN İÇİNDEDİR. İnsanların kaçırdığı kısım bu. Bir vadeli işlem genelde senden gecelik finansman ücreti almaz. Bunun yerine, o şeyi o tarihe kadar tutmanın maliyeti zaten sözleşmenin fiyatına işlenmiştir. Daha ileri tarihli sözleşmeler genellikle daha yakın tarihli olanlardan pahalıdır ve bu fark, sayının içinde duran aynı taşıma maliyetidir.\n\nPeki bir trader pozisyonu vadenin ötesinde tutmak isterse ne olur? DEVREDER (roll): vadesi dolan sözleşmeyi kapatır, bir sonrakini açar. Bir sonraki daha pahalıysa, o farkı öder. Her devirde. Bu, CFD'nin gecelik kirasının daha büyük ve daha seyrek taksitlerle tahsil edilmesidir.\n\nDürüst özet:\n\n• CFD: son tarih yok, her gece kira, hesap ekstrende kalem kalem.\n• Vadeli işlem: kesin son tarih, maliyet fiyatın içinde gizli ve her devirde ödeniyor, kolayca gözden kaçıyor.\n\nHiçbiri bedava değil. Biri faturayı sadece daha kibar sunuyor ve göremediğin bir maliyet, seni şaşırtma ihtimali en yüksek olandır. ⏳",
+      "quiz": {
+        "q": "Bir trader vadeli işlem pozisyonunu vade tarihinin ötesinde tutmak istiyor ve bir sonraki sözleşme, vadesi dolandan daha pahalı işlem görüyor. Devrettiğinde ne olur?",
+        "explanation": "Devretmek, vadesi dolmak üzere olan sözleşmeyi kapatıp bir sonrakini açmak demektir. Bir sonraki daha pahalıysa o farkı ödersin ve bunu her devirde tekrar yaparsın. Bu, bir CFD'nin sana her gece fatura ettiği aynı tutma maliyetidir; daha büyük parçalar hâlinde tahsil edilir ve hesap ekstrene yazılmak yerine fiyatın içinde gizlenir.",
+        "options": [
+          "Vadesi dolan sözleşme ile bir sonraki arasındaki farkı öder",
+          "İki sözleşme fiyatı arasındaki fark kendisine ödenir",
+          "Hiç para el değiştirmez, çünkü devir tek bir işlemdir",
+          "Pozisyon bir CFD'ye dönüşür ve vadesiz olarak devam eder"
+        ]
+      }
+    },
+    "74": {
+      "title": "Açığa Satış: Tabanı Olmayan Kayıp",
+      "desc": "Düşüş bahsinin neden doğal bir tavanı yok",
+      "content": "Bu uygulamada şimdiye kadar her şey uzun pozisyondu (long): alırsın, fiyatın yükselmesini istersin. Türev ürünler kısa pozisyon (short) açmana, yani fiyatın düşeceğine bahse girmene izin verir. Açığa satış pozisyonu açarsın, fiyat düşer, kâr edersin.\n\nAçığa satış gerçekten faydalıdır ve kötü bir şey değildir. Bir çiftçinin hasattan önce fiyatı sabitlemesi ve bir fonun portföyünü koruması bu şekilde olur. Onu anlamak piyasaları okumada seni daha iyi yapar, çünkü ilk kez her işlemin iki tarafını da görebilirsin.\n\nAma açığa satışta başka hiçbir yerde karşılığı olmayan bir aritmetik var ve onu beynine kazıman gerek.\n\n📉 ALDIĞINDA, en kötü senaryon fiyatın sıfıra gitmesidir. Yatırdığının %100'ünü kaybedersin. Korkunç, ama bu bir taban. Bir dibi var.\n📈 AÇIĞA SATTIĞINDA, fiyatın aleyhine gitmesi fiyatın YÜKSELMESİ demektir. Ve hiçbir yerde bir fiyatın ne kadar yükselebileceğini söyleyen bir kural yok. Üç katına çıkan bir hisse sana pozisyonun %200'üne mal olur. On katına çıkan bir hisse sana %900'e mal olur.\n\nUzun pozisyon kayıplarının bir tabanı var. Kısa pozisyon kayıplarının yok. Bu asimetri uyarının tamamıdır.\n\nGerçek piyasalar bunu yapar. Arada bir, yoğun şekilde açığa satılmış bir hisse roket gibi fırlar; çünkü açığa satış yapan herkes pozisyonunu kapatmak için almak zorunda kalır, bu da fiyatı daha da yükseltir, bu da daha fazlasını almaya zorlar. Buna short squeeze (açık pozisyon sıkışması) denir ve fonları batırmıştır.\n\nSeni hayatta tutan iki şey var. Birincisi, açığa satış tam olarak zarar durdurun (stop-loss) isteğe bağlı olmaktan çıktığı yerdir. İkincisi, negatif bakiye koruması: düzgün düzenlenmiş bir bireysel hesapta ve bu uygulamada hesabın sıfırın altına düşemez. Yatırdığın her şeyi kaybedebilirsin. Borçlu duruma düşemezsin. Bu koruma var, çünkü ondan önce insanlar düşüyordu. 🕳️",
+      "quiz": {
+        "q": "Kısa bir pozisyondaki en kötü senaryo, uzun bir pozisyondaki en kötü senaryodan neden temelden farklıdır?",
+        "explanation": "Almanın bir tabanı var. Bir fiyatın yapabileceği en kötü şey sıfıra inmektir, yani yatırdığını kaybedersin, fazlasını değil. Açığa satış bunun tam tersidir, çünkü kaybetmek fiyatın yükselmesi demektir ve hiçbir şey bir fiyatın ne kadar yükselebileceğini söylemez. Üç katına çıkan bir hisse açığa satış yapana pozisyonun iki katına mal olur. Bu yüzden açığa satışta stop isteğe bağlı olmaktan çıkar ve bu yüzden bu uygulama seni sıfırın altına düşüremez.",
+        "options": [
+          "Farklı değil, çünkü ikisi de yatırdığınla sınırlıdır",
+          "Bir zarar durdur, kısa pozisyonun altına da uzun pozisyondaki gibi taban koyar",
+          "Düşüşler yükselişlerden yavaştır, bu yüzden kısa pozisyon daha yavaş kaybeder",
+          "Bir fiyat sadece sıfıra kadar düşebilir, ama sınırsızca yükselebilir"
+        ]
+      }
+    },
+    "75": {
+      "title": "Oynaklık Çarpı Kaldıraç",
+      "desc": "Kripto neden burada en büyük teminatı ister",
+      "content": "İki farklı varlıkta aynı çarpan, aynı bahis değildir. Bu dersteki bütün fikir bu ve yatırman gereken teminatın neyle işlem yaptığına göre değişmesinin nedeni de bu.\n\nNormal bir günün neye benzediğini düşün:\n• Büyük bir endeks çoğu gün %1'in altında hareket eder.\n• Tek bir hisse %2 ya da %3 hareket edebilir.\n• Kripto sık sık %5 ya da %10 hareket eder ve %20'lik bir gün kriz değil, sıradan bir salıdır. 🎢\n\nŞimdi bunların her birinin arkasına küçük bir teminat koy. %10 teminatla %10'luk bir hareket seni silip süpürür. Endeks için bu yıllarda bir olan bir olaydır. Kripto için kabaca her ay. Aynı teminat. Hayatta kalma şansı tamamen farklı.\n\nDüzenleyiciler bunu hesapladı ve kurallara yazdı. ESMA Mart 2018'de Avrupa genelinde CFD kaldıracını sınırladığında tek bir sayı seçmedi. Kademelendirdi: büyük döviz çiftlerinde 30:1, altın ve büyük endekslerde 20:1, diğer emtialarda 10:1, tek tek hisselerde 5:1 ve en altta, kriptoda 2:1. İkiye bir, %50 teminat demek. Kripto için pozisyonun YARISINI gerçek parayla istediler; tüm listedeki en katı oran.\n\nBu uygulama da aynı nedenle aynı şeyi yapar ve bunu saklamak yerine ekranda söyler:\n\n💱 Forex: en küçük teminat, çünkü büyük çiftler en az hareket eder.\n🥇 Altın ve emtialar: daha büyük.\n📊 Hisseler, endeksler ve ETF'ler: daha da büyük.\n🪙 Kripto: hepsinden büyük teminat, çünkü kripto en sert hareket eder.\n\nKripto burada yasak değil ve bu bilinçli bir tercih. Onunla işlem yapabilirsin. Sadece ince bir teminatla yapamazsın, çünkü ince bir teminatla sıradan bir kripto günü, sen onun hakkında okumayı bitirmeden hesabını bitirir. Daha büyük teminat, uygulamanın kriptoya karşı tuhaflık yapması değil. Uygulamanın normal bir günün seni bitiremeyeceğinden emin olmasıdır.\n\nBilmeye değer: Birleşik Krallık düzenleyicisi bir kademeden daha ileri gitti. 2021'de bireysel müşteriler için kripto türev ürünlerini tamamen yasakladı ve tüketicilerin yaklaşık £53m tasarruf edeceğini tahmin etti. Kripto kaldıracıyla burada, sahte parayla ve kalın bir teminatla tanışabilirsin; ya da on sekiz yaşında, gerçek parayla ve hiçbir uyarı olmadan. Bu sıra daha iyi. 🌡️",
+      "quiz": {
+        "q": "Kripto bu odadaki tüm varlıklar arasında en büyük teminatı gerektiriyor. Asıl nedeni ne?",
+        "explanation": "Büyük bir endeks çoğu gün %1'in altında hareket eder. Kripto sık sık %5 ya da %10 hareket eder ve %20'lik bir gün kriz değil, sıradan bir salıdır. İnce bir teminatla %10'luk bir hareket seni silip süpürür; bu endeks için yıllarda bir, kripto için kabaca her ay olan bir olaydır. Avrupa'nın düzenleyicisi tam da bu nedenle kripto için pozisyonun yarısını gerçek parayla istedi; tüm listesindeki en katı oran.",
+        "options": [
+          "18 yaş altındakilere kripto yasak, bu yüzden teminat bir ceza",
+          "Kriptoda finansman alınmaz, bu yüzden teminat onun yerini tutar",
+          "En sert o hareket eder, bu yüzden sıradan bir gün ince bir teminatı boşaltabilir",
+          "Kripto fiyatlarını piyasa değil, uygulamanın kendisi belirler"
+        ]
+      }
+    },
+    "76": {
+      "title": "Kimsenin Reklamını Yapmadığı Sayılar",
+      "desc": "Düzenleyiciler saydığında ne buldular",
+      "content": "Bu sayıları asla bir reklamda görmeyeceksin. Firmalardan gerçek hesap verilerini talep edebilen ve sonra bulduklarını yayımlayan finansal düzenleyicilerden geliyorlar.\n\n🇪🇺 Avrupa düzenleyicisi ESMA, Mart 2018. AB ülkeleri genelinde bireysel CFD hesaplarının %74 ile %89'u arası para kaybediyor. Müşteri başına ortalama kayıplar €1,600 ile €29,000 arasında değişiyordu. ESMA bu verilere dayanarak ürünü kısıtladı.\n\n🇬🇧 Birleşik Krallık'ta FCA, Aralık 2016. Müşteri hesaplarından temsili bir örneklem üzerinde yaptığı analiz, müşterilerin %82'sinin bu ürünlerde para kaybettiğini buldu.\n\n🇦🇺 Avustralya'da ASIC, Ocak 2026'da yayımlandı; üçünün en yenisi. 2024 mali yılında bireysel CFD yatırımcılarının %68'i para kaybetti; toplamı A$458 milyondan fazla. Bunun A$73 milyonu ücretlerdi.\n\nO son satırı bir saniye düşün. Yetmiş üç milyonu kötü işlemler bile değildi. Oynamanın bedeliydi: girişteki spread (alış-satış farkı) ve 72. derste tanıştığın finansman.\n\nÜç farklı düzenleyici, üç farklı ülke, üç farklı on yılı kapsayan veriler ve cevap hep üçte iki ile onda dokuz arasında bir yere düşüyor.\n\nŞimdi en önemli kısım, çünkü bunu bir korku istatistiği olmaktan çıkaran şey bu. O insanlar aptal değildi. Tembel değildi. Çoğu işi olan yetişkinlerdi ve birçoğu bir grafiği şu anki senden daha iyi okuyordu. Ürünün nasıl kurulduğu yüzünden kaybettiler: spread yüzünden geriden başlarsın, beklerken kira ödersin ve kaldıraç, sıradan bir hareketin fikrin doğru çıkmaya fırsat bulamadan seni bitirebileceği anlamına gelir.\n\nBu bir yapıdır, bir karakter kusuru değil. Ve yapılar sadece orada olduklarını bilen insanlar tarafından yenilebilir. 📊",
+      "quiz": {
+        "q": "Avrupa, Birleşik Krallık ve Avustralya'daki düzenleyicilerin her biri bireysel CFD hesaplarının çoğunun para kaybettiğini buldu. Dürüst açıklama ne?",
+        "explanation": "Bunlar işi olan sıradan yetişkinlerdi ve birçoğu bir grafiği bugünkü senden daha iyi okuyordu. Ürünün işleyişi yüzünden kaybettiler: spread yüzünden geriden başlarsın, beklerken her gece kira ödersin ve kaldıraç, normal bir hareketin görüşün doğru çıkmaya fırsat bulamadan seni bitirebileceği anlamına gelir. Bu bir yapıdır, bir karakter kusuru değil; ve yapılar orada olduklarını bilen insanlar tarafından yenilebilir.",
+        "options": [
+          "Ürünün kurulma şekli müşterinin aleyhine çalışıyor",
+          "Kaybedenler dikkatsizdi, dikkatli trader'lar sorun yaşamaz",
+          "Rakip firmalar sayıları bir pazarlama saldırısı olarak yayımladı",
+          "Bu ölçekteki kayıplar düzenlenmemiş ülkelerden geliyor"
+        ]
+      }
+    },
+    "77": {
+      "title": "Kurallar Değişince Ne Değişti",
+      "desc": "Sorunun insanlarda değil tasarımda olduğunun kanıtı",
+      "content": "76. ders sana kayıpları verdi. Bu ders sana deneyi veriyor ve bu modüldeki en önemli şey bu.\n\nÇoğu insan, çoğu insan pervasız olduğu için kaybediyorsa, kuralları değiştirmek hiçbir şeyi değiştirmemeli. Pervasızlar pervasız kalır. Değil mi?\n\nAvustralya bunu test etti. Mart 2021'de ASIC, bireysel müşterilere hizmet veren her CFD firmasına bir dizi koruma zorunlu kıldı: kaldıraç sınırları, standart bir otomatik zorunlu kapanış kuralı, negatif bakiye koruması ve kayıt bonusları gibi teşviklerin yasaklanması. Aynı müşteriler. Aynı firmalar. Aynı piyasalar. Sadece kurallar değişti.\n\nİşte ASIC'in ilk altı ayda ölçtükleri. 🔬\n\n📉 Bireysel hesapların toplam net kayıpları %91 düştü; çeyrek başına ortalama A$372 milyondan A$33 milyona.\n📉 Çeyrek başına %51 daha az zarar eden bireysel hesap.\n📉 %87 daha az marj kaynaklı zorunlu kapanış.\n📉 %88 daha az negatif bakiye olayı.\n\nKimse altı ayda daha akıllı olmadı. Tasarım değişti ve hasarın onda dokuzu onunla birlikte kayboldu.\n\nBuradan iki şey çıkıyor ve ikisini de yanında taşımalısın.\n\nBirincisi: kaldıraçlı bir işlemde kaybettiğinde, başına gelenlerin büyük kısmı sen gelmeden önce ürünün içine yerleştirilmişti. Bu dikkatsiz olmak için bir izin değil. O şeye saygı duymak için bir neden.\n\nİkincisi, ve faydalı olan yarısı bu: işi yapan korumalar, bu modülün sana öğrettiği alışkanlıkların ta kendisi. Daha küçük bir pozisyon. Otomatik bir çıkış. Hasarın altında kesin bir taban. Bir düzenleyici o %91'i elde etmek için bunları koca bir sektöre zorla uygulatmak zorunda kaldı. Sen ise sadece seçebilirsin. 🛡️",
+      "quiz": {
+        "q": "Avustralya CFD firmalarına kaldıraç sınırlarını ve otomatik zorunlu kapanışları zorunlu kıldıktan sonra bireysel kayıplar altı ayda %91 düştü. Bu neyi gösteriyor?",
+        "explanation": "Aynı müşteriler, aynı firmalar, aynı piyasalar. Sadece kurallar değişti ve hasarın onda dokuzu da onlarla birlikte gitti. Kimse altı ayda daha akıllı olmadı. İşi yapan korumalar, bu modülün sana öğretmeye devam ettiği alışkanlıklar: daha küçük bir pozisyon, otomatik bir çıkış ve hasarın altında kesin bir taban. Bir düzenleyici bunları koca bir sektöre zorla uygulatmak zorunda kaldı. Sen ise basitçe seçebilirsin.",
+        "options": [
+          "Avustralyalı trader'lar Avrupalılardan daha disiplinli",
+          "Bir düzenleyici gözetlediğinde kaldıraç güvenli hâle gelir",
+          "Kurallar insanların işlem yapmasını durdurdu, kaybedecek bir şey kalmadı",
+          "Hasarın çoğu ürünün tasarımından geliyordu"
+        ]
+      }
+    },
+    "78": {
+      "title": "Stop'unun Üzerinden Atlayan Boşluk",
+      "desc": "Stop, çıkma talimatıdır; söz verilmiş bir fiyat değil",
+      "content": "Zarar durdur (stop-loss) emirleriyle 19. derste zaten tanıştın. İşte kaldıracın onlara yaptığı şey.\n\nZarar durdur bir talimattır: \"fiyat bu seviyeye ulaşırsa beni çıkar.\" Alacağın fiyat hakkında bir sözleşme değildir. Çık der. Tam olarak burada çık demez.\n\nÇoğu zaman bu ayrım önemli değildir, çünkü fiyatlar küçük adımlarla hareket eder ve emrin seviyenin yakınında gerçekleşir. Sonra bazen bu muazzam derecede önemli olur.\n\n📰 Piyasalar kapanır. Haber gece 11'de gelir. Piyasa kapandığından %8 daha düşük açılır ve aradaki fiyatların hiçbirinde işlem görmez. Stop'un o boşluktaydı. Açılışta tetiklenir ve piyasanın gerçekte bulunduğu yerde gerçekleşir; bu da seçtiğin seviyenin çok ötesidir.\n\nKaldıraçsızken bu kötü bir gündür. Kaldıraçlıyken hesabın tamamı olabilir, çünkü teminatın boşluktan daha inceyse boşluk tasfiye fiyatının da içinden doğrudan geçer ve motorun amaçladığı seviyenin altında kapatılırsın.\n\nBununla yapılacak üç şey, hiçbiri karmaşık değil:\n\n1️⃣ Stop'u bir garanti gibi görme. Onu bilinen tek bir zayıflığı olan çok iyi bir alışkanlık olarak gör.\n2️⃣ Piyasanın ne zaman kapalı olduğunu ve neyin planlandığını bil. Şirket sonuçları, faiz kararları ve seçimler, takvimde yeri olan boşluklardır.\n3️⃣ Pozisyonunu, bir boşluk seni bitiremeyecek büyüklükte tut. Gerçek savunma budur ve bir sonraki ders bununla ilgili. Stop seni sıradan olandan korur. Pozisyon büyüklüğü seni olağan dışı olandan korur ve insanları gerçekten silip süpüren de olağan dışı olandır.\n\nŞunu da bilmeye değer: bu uygulamada, düzgün düzenlenmiş her bireysel hesapta olduğu gibi, negatif bakiye koruması sayesinde bir boşluk seni sıfırın altına düşüremez. Hesabı kaybedebilirsin. Borçlu duruma düşemezsin. 📰",
+      "quiz": {
+        "q": "{c}90'a bir zarar durdur koyuyorsun. Gece kötü bir haber geliyor ve piyasa, arada hiç işlem görmeden {c}78'den açılıyor. Ne olur?",
+        "explanation": "Stop, çıkma talimatıdır; alacağın fiyat hakkında bir söz değildir. Piyasa {c}90 ile {c}78 arasında hiç işlem görmedi, yani satabileceğin bir {c}90 kalmamıştı. Stop'un açılışta tetiklenir ve piyasanın gerçekte bulunduğu yerde gerçekleşir. Stop'lar seni hâlâ sıradan hareketlerden korur. Bunun gibi bir sıçramaya karşı savunma stop değil, pozisyonun büyüklüğüdür.",
+        "options": [
+          "Stop'un tam koyduğun yerde, {c}90'dan gerçekleşir",
+          "Sunulan ilk fiyat olan {c}78 civarında gerçekleşir",
+          "Emir iptal edilir, çünkü fiyat onun üzerinden atladı",
+          "Sağlayıcı sana piyasanın atladığı {c}12'yi öder"
+        ]
+      }
+    },
+    "79": {
+      "title": "Önce Büyüklük, Sonra İşlem",
+      "desc": "Ne alacağına karar vermeden önce ne kaybedebileceğine karar ver",
+      "content": "İşte dayananları dayanamayanlardan ayıran şey ve neredeyse sıkıcı.\n\nYeni başlayanlar işlemi seçer, sonra ne kadar koyacaklarını hesaplar. Profesyoneller bunu tersten yapar. Önce ne kadar kaybetmeye razı olduklarına karar verirler ve pozisyonun ne kadar büyük olabileceğine onun karar vermesine izin verirler.\n\nÇoğunun kullandığı kural: tek bir işlemde hesabın %1 ile %2'sini riske at. %1 teminat değil. %1 RİSK; yani stop'un tetiklenirse gerçekte kaybedeceğin miktar.\n\nNasıl çalışır, üç adımda:\n\n1️⃣ Azami kaybını seç. 10,000 NT'lik hesap, %1 risk, yani 100 NT.\n2️⃣ Nerede yanılmış olacağını seç. Fiyat girişinden %5 düşerse çıkacaksın.\n3️⃣ Böl. %5'lik stop mesafesinde 100 NT kabul edilebilir kayıp, 2,000 NT'lik pozisyon demek. Senin büyüklüğün bu. Bir his değil. Bir hesap.\n\nStop'u değiştir, büyüklük otomatik olarak değişir. Daha sıkı bir %2'lik stop 5,000 NT kullanmana izin verir. Daha geniş bir %10'luk stop seni 1,000 NT'ye düşmeye zorlar. İşlem ne kadar riskliyse o kadar küçük olmalıdır ve aritmetik bunu senin yerine yapar, böylece ruh hâlinin yapmasına gerek kalmaz.\n\nNeden %1? Çünkü kaybeden bir seriyi atlatılabilir kılar. %1'le art arda on kayıp seni hesabının %90'ı ve kötü bir ruh hâliyle bırakır. %20'yle art arda on kayıp sana hesabının yaklaşık %11'ini bırakır ve geri dönüş yolu kalmaz; o tırmanışın ne kadar dik olduğunu da 71. dersten zaten biliyorsun.\n\nKimse piyasalarda kazananları seçerek hayatta kalmaz. Hayatta kalan herkes bunu, tek bir kaybın onları bitiremeyeceğinden emin olarak yapar. 📐",
+      "quiz": {
+        "q": "10,000 NT'lik bir hesap. Bu işlemde %1 riske atacaksın ve fiyat girişinden %5 düşerse çıkacaksın. Buna uyan pozisyon büyüklüğüne sürükle.",
+        "explanation": "10,000 NT'nin %1'i 100 NT'dir ve kaybetmeyi kabul ettiğin en fazla miktar budur. %5'lik stop, 100 NT bölü %5 demek; bu da 2,000 NT'lik bir pozisyon eder. Daha yukarı sürüklersen gösterge, karar verdiğinden fazlasını riske attığını gösterir."
+      }
+    },
+    "80": {
+      "title": "Kazanmak Neden Beceri Gibi Hissettirir",
+      "desc": "Kaldıracın sana oynadığı zihin oyunları",
+      "content": "Kaldıraç esas olarak bir matematik sorunu değildir. Matematik kolay. Bu bir kafa sorunu ve işte herkesi yakalayan üçü.\n\n🎯 1. SONUÇ YANLILIĞI: kazanmak beceri gibi hissettirir. Aşırı büyük bir pozisyon alırsın, işe yarar, bir öğleden sonrada çok kazanırsın ve beynin \"Bunda iyiyim\" diye not eder. Gerçekte olanı kaydetmedi: kötü bir risk aldın ve iyi bir sonuç elde ettin. Bunlar farklı şeylerdir ve piyasa, tahsilat yapmadan önce kötü bir karar için sana birkaç kez memnuniyetle ödeme yapar. Yeni bir trader'ın başına gelebilecek en tehlikeli şey erken ve kolay bir kazançtır.\n\n😤 2. İNTİKAM TRADING'İ: parayı geri istiyorsun, hemen. Bir kayıp yaşarsın, acıtır ve dürtü anında gelir. Böylece pozisyonu büyütürsün. Artık en büyük pozisyonunu, muhakemenin en kötü olduğu anda, iyi olduğu için değil öfkeli olduğun için seçtiğin bir işlemde açıyorsun. Piyasa zararda olduğunu bilmez ve sana hiçbir şey borçlu değildir. Bunu hissettiğinde doğru büyüklük sıfırdır. Uygulamayı kapat.\n\n🕳️ 3. KAYIPLARIN PEŞİNDEN KOŞMAK: \"Geri gelene kadar tutacağım.\" Bu sabır kılığına girmiştir, bu yüzden fark etmesi çok zordur. Sabır, önceden sakinken yaptığın bir plandır. Peşinden koşmak ise fiyat aleyhine gittikten sonra uydurduğun bir plandır ve işareti basit: çıkış noktan yer değiştirdi. Koyduğun seviyenin neden artık doğru seviye olmadığını açıklarken bulursan kendini, bu yeni bir analiz değil. Bu egonun pazarlık yapması.\n\nÜçünün de savunması aynı ve hiç gösterişli değil. Her şeye sakinken karar ver, yaz ve işlemin ortasında ortaya çıkan seni güvenilmez bir anlatıcı olarak gör. 🧠",
+      "quiz": {
+        "q": "Her zamankinden çok daha büyük bir pozisyon alıyorsun ve bir öğleden sonrada büyük bir kâr getiriyor. Bunu yorumlamanın en doğru yolu nedir?",
+        "explanation": "Beynin bunda iyi olduğunu not eder. Gerçekte olan şu: kötü bir risk aldın ve piyasa yine de tesadüfen sana ödeme yaptı; bunlar iki ayrı şeydir. Piyasa, tahsilat yapmadan önce kötü bir karar için birkaç kez ödeme yapar. Erken ve kolay bir kazanç, yeni bir trader'ın başına gelebilecek en tehlikeli şeydir; çünkü yanlış dersi öğretir ve faturasını sana sonra keser.",
+        "options": [
+          "Bu işe yarayan bir yaklaşım ve yeniden büyütülebilir",
+          "Büyüklük doğruydu, çünkü kâr bunu kanıtlıyor",
+          "Kötü bir risk aldın ve tesadüfen iyi bir sonuç elde ettin",
+          "Büyük kazançlar beceriyi gösterir, hataları gösteren kayıplardır"
+        ]
+      }
+    },
+    "81": {
+      "title": "Dürüst Soru",
+      "desc": "Bunu hiç kullanmalı mısın?",
+      "content": "Modülü bitirdin. İşte reklamların asla sormadığı soru.\n\nKaldıraç kullanmalı mısın?\n\nÇoğu insan için, çoğu zaman dürüst cevap hayır. Yeterince zeki olmadıkları için değil. Son on beş dersteki her şey yüzünden: geriden başlarsın, beklerken kira ödersin, sıradan bir hareket sen haklı çıkmadan seni bitirebilir ve gerçek hesapları sayan üç düzenleyici, insanların üçte iki ile onda dokuzunun kaybettiğini bulup durdu.\n\nBunların hiçbirine dokunmadığın bir trading versiyonu var. Bir hisse alırsın, bir şirketin bir parçasına sahip olursun, temettüler gelir, zaman aleyhine değil SENİN İÇİN çalışır ve hiçbir şey sana sormadan pozisyonunu kapatamaz. Bu uygulamanın geri kalanı bu ve bu sıkıcı seçenek değil. 14. dersteki matematiğin genelde kazandığını söylediği seçenek bu. 🌱\n\nO yüzden karar vermeden önce bilmen gerekenler şunlar.\n\nBu uygulamada hiçbir şey kaldıracın arkasında kilitli değil. Her yarışma, her lider tablosu, her XP yolu, her okul fikstürü ve her NOOB ödülü, tek bir kaldıraçlı pozisyon bile açmayan biri için tamamen açık kalır. Bu odadan uzaklaşarak hiçbir şey kaybetmezsin. Ceza yok, eksik rozet yok.\n\nVe burada hiçbir şey sana kazandığın için ödeme yapmaz. Dersleri bitirdiğin, testi geçtiğin, stop koyduğun, zarardaki bir pozisyonu kestiğin ve kendi tasfiyeni yazıya döktüğün için ödüllendirilirsin. Asla bir kâr, büyük bir pozisyon ya da şanslı bir seri için ödeme almazsın; çünkü bunlar için ödeme yapmak, adına eğitim deyip sana yanlış şeyi öğretmek olurdu.\n\nKullanırsan: küçük kullan, stop'la kullan, herhangi bir şeye basmadan önce tasfiye fiyatını bil ve asla yokluğunu hissedeceğin parayla kullanma. Kullanmazsan da makinenin işleyişini görmeyi öğrenmiş olursun; zaten bütün amaç buydu. Bu ürünlerle işlem yapan yetişkinlerin çoğu senin az önce öğrendiğini açıklayamaz. 🤔",
+      "quiz": {
+        "q": "Bu uygulamada asla kaldıraçlı pozisyon açmamaya karar veren bir öğrenci neyden vazgeçmiş olur?",
+        "explanation": "Bu uygulamada hiçbir şey kaldıracın arkasında kilitli değil. Her yarışma, her lider tablosu, her XP yolu, her okul fikstürü ve her NOOB ödülü, tek bir kaldıraçlı pozisyon bile açmayan biri için açık kalır. Ceza yok, eksik rozet yok. Ve bu odada hiçbir şey sana kazandığın için ödeme yapmaz: dersleri bitirmek, testi geçmek, stop koymak ve zarardaki pozisyonu kesmek için ödeme yapar.",
+        "options": [
+          "Hiçbir şeyden, her yol onlara açık kalır",
+          "Uygulamadaki her yarışmadan ve lider tablosundan",
+          "Bu modüldeki, kaldıraçlı işlemlerle kazanılan XP'den",
+          "Önce bir kaldıraçlı pozisyon gerektiren NOOB ödüllerinden"
+        ]
+      }
+    },
+    "82": {
+      "title": "Patlama",
+      "desc": "Beş gün, tek bir agresif plan, tek bir boş hesap",
+      "content": "Laboratuvara hoş geldin. Burada 1,000 LAB NT'lik, dışarıyla bağlantısı kesilmiş bir alıştırma hesabı alırsın. Bu senin cüzdanın değil, cüzdanına dokunamaz ve içinde kazanılan ya da kaybedilen hiçbir şey dışarı çıkmaz. Araç NOVA. NOVA uydurma, böylece kimse bizi gerçek bir çöküşü tahmin etmekle suçlayamaz. Teminat oranı %25. Finansman gecelik %0.02. Zorunlu kapanış kullanılan marjın %50'sinde. Ve sadece bu boss için pozisyon sınırları kapalı. Bilerek. Bir kereliğine.\n\nİşte açıklamak üzere olduğun hafta.\n\n📅 1. GÜN: NOVA 100'de. İyi sonuçlar, grup sohbeti hareketli. 1,000 NT'nin 800'ünü yatırıyorsun ve 3,200 NT'lik NOVA kontrol ediyorsun. Stop yok.\n\n📅 2. GÜN: NOVA 106. 192 NT kârdasın; bu tek günde hesabının +%19.2'si. Son 200 NT'ni de ekliyorsun. Pozisyon 4,000 NT. Serbest nakit: sıfır. Hâlâ stop yok.\n\n📅 3. GÜN: NOVA 101.76. Marj seviyesi %103. Hafta genelinde hâlâ kârdasın, o yüzden tutuyorsun.\n\n📅 4. GÜN: NOVA 94.64. MARJ ÇAĞRISI. Marj seviyesi %75, özsermaye 750 NT. Ekleyemezsin, çünkü eklenecek bir şey kalmadı. Tutuyorsun.\n\n📅 5. GÜN: NOVA gece %9 boşlukla düşüyor ve zorunlu kapanış seviyesinin altında, 86.12'den açılıyor. 390 NT'den TASFİYE EDİLDİN.\n\nHafta boyunca NOVA %13.9 düştü. Hesabın %61 düştü. 250 NT yatırıp stop'u 95'e koyan öğrenci aynı haftayı yaklaşık 949 NT ile, %5 kayıpla bitirdi. Ve aynı 800 NT stop'suz ama 2. gündeki ekleme olmadan haftayı 550 NT ile bitirirdi: bir marj çağrısı, ama hayatta.\n\nŞimdi değerlendirme. Az önce olanlar hakkında on soru. 10'da 8 yap, boss'u yenmiş olursun; çünkü burada geçmek enkazdan kaçmak değil, onu açıklayabilmektir. 💀",
+      "bossVictory": "Bir hesabı patlattın ve nedenini bilerek çıktın. Modülün tamamı bu. 💀",
+      "bossQuestions": {
+        "0": {
+          "q": "Beş gün boyunca NOVA yaklaşık %14 düştü. Hesabın %61 düştü. Fark neden?",
+          "options": [
+            "Uygulama kaybettiğin için ceza kesti",
+            "Teminatının yaklaşık dört katı büyüklüğünde pozisyon tutuyordun, yani her hareket hesabından dört kat büyük bir sayıya vurdu",
+            "Kaybın çoğu finansmandan kaynaklandı",
+            "NOVA sayıların gösterdiğinden daha riskli bir hisse"
+          ]
+        },
+        "1": {
+          "q": "2. gün 192 NT kârdaydın; bu tek günde hesabının %19.2'siydi. Bu sana aslında ne söylüyordu?",
+          "options": [
+            "Yorumunun doğru olduğunu ve pozisyonu büyütmen gerektiğini",
+            "Kârlı olduğu için pozisyonun iyi boyutlandırıldığını",
+            "Haklıyken kaldıracın güvenli olduğunu",
+            "Pozisyonun hesabını bir günde %19 hareket ettirecek kadar büyük olduğunu; yani aynısını ters yönde de yapacak kadar büyük olduğunu"
+          ]
+        },
+        "2": {
+          "q": "2. gün son 200 NT'ni kazançlı pozisyona ekledin. Bu sana neye mal oldu?",
+          "options": [
+            "Güvenliğinin iki yarısına birden: pozisyonu 3,200'den 4,000'e çıkardı ve bir marj çağrısına cevap verebilecek tek serbest nakdi harcadı",
+            "Hiçbir şeye, çünkü kazanana eklemek profesyonellerin bileşik büyüme yoludur",
+            "Sadece pozisyonun geri kazanacağı 200 NT'nin kendisine",
+            "Biraz finansmana, çünkü gecelik kira hafifçe arttı"
+          ]
+        },
+        "3": {
+          "q": "3. gün marj seviyen %103'e ulaştı. Bu sayı ne anlama geliyordu?",
+          "options": [
+            "%103 fonlanmıştın, yani pozisyon fazlasıyla teminatlıydı ve güvendeydi",
+            "Hesabın hafta genelinde %3 kârdaydı",
+            "Özsermayen yatırılı teminatlarını ancak karşılıyordu; yani tampon bitmişti ve bir sonraki hareket teminatın kendisini yemeye başlayacaktı",
+            "Tek başına hiçbir şey, çünkü marj seviyesi ancak %50'nin altına düştüğünde önemlidir"
+          ]
+        },
+        "4": {
+          "q": "4. gündeki marj çağrısında kapatmak 250 NT'lik bir kaybı kesinleştirecekti. Sen tuttun. Tutmak neden çoğu insanın seçtiği cevaptır?",
+          "options": [
+            "Çünkü tutmak genellikle bir marj çağrısına matematiksel olarak doğru tepkidir",
+            "Çünkü kapatmak işlemin yanlış olduğunu kabul etmek demektir, tutmak ise henüz bitmediğine inanmaya devam etmeni sağlar",
+            "Çünkü marj çağrıları genellikle bir gün içinde kendiliğinden çözülür",
+            "Çünkü sağlayıcı, kayıpları kesinleştirmemek için tutmayı önerir"
+          ]
+        },
+        "5": {
+          "q": "390 NT'den tasfiye edildin, ama zorunlu kapanış seviyesi 500 NT özsermayeydi. Neden onun altında kaldın?",
+          "options": [
+            "Sağlayıcı 110 NT tasfiye cezası kesti",
+            "NOVA gece %9 boşlukla düştü ve seviyenin altında açıldı, bu yüzden zorunlu kapanış piyasanın gerçekten sunduğu ilk fiyattan gerçekleşti",
+            "Finansman, tasfiye anında tek seferde düşüldü",
+            "Zorunlu kapanış seviyesi sadece bir tahmindir ve normalde bu kadar ıskalanır"
+          ]
+        },
+        "6": {
+          "q": "250 NT yatırıp stop'u 95'e koyan öğrenci aynı haftayı yaklaşık 949 NT ile bitirdi. Neyi doğru yaptı?",
+          "options": [
+            "Pozisyonu açmadan önce azami kaybına karar verdi ve büyüklüğe onun karar vermesine izin verdi",
+            "NOVA'nın grafiğini daha iyi okudu ve düşüşün geldiğini gördü",
+            "Daha küçük bir teminat kullanarak finansmandan kaçındı",
+            "Şanslıydı, çünkü aynı seçimler genelde kaybettirir"
+          ]
+        },
+        "7": {
+          "q": "4,000 NT'lik pozisyonun tamamı üzerinden her gece finansman ödedin. Bu işlemde ne kadar önemliydi?",
+          "options": [
+            "Kaybın çoğuydu, çünkü finansman her gece bileşik olarak büyür",
+            "Hiç, çünkü finansman sadece bir ay dayanan pozisyonlardan alınır",
+            "Sadece birkaç NT, çünkü işlem kısa sürdü. Finansmanın öldürdüğü, bir haftada patlayan pozisyon değil, aylarca hiçbir yere gitmeyen pozisyondur",
+            "Yaklaşık 192 NT, 2. günün kazancıyla aynı"
+          ]
+        },
+        "8": {
+          "q": "Buradaki her seçime izin verildi. CFD Merkezinde çoğuna izin verilmeyecek. Neden?",
+          "options": [
+            "Çünkü sınırlar uygulamanın işletilmesini ucuzlatıyor",
+            "Çünkü düzenleyiciler herhangi bir simüle işlemden önce bir alıştırma modu şart koşuyor",
+            "Çünkü 18 yaş altındakilerin bir tasfiyeyi iki kez izlemesine izin verilmiyor",
+            "Az önce tek bir pozisyona %80 teminatın ve sıfır serbest nakdin bir hesabı beş günde yok ettiğini izledin; sınırlar tam olarak bu sıralamayı imkânsız kılmak için var"
+          ]
+        },
+        "9": {
+          "q": "Buradan çıkarılacak en faydalı tek şey nedir?",
+          "options": [
+            "Açmadan önce belirlenen pozisyon büyüklüğünün, yön konusunda haklı olmaktan daha önemli olduğu",
+            "NOVA'nın seçmek için kötü bir hisse olduğu ve daha iyi bir araştırmanın hesabı kurtaracağı",
+            "Kaldıraca hiç kimsenin hiçbir koşulda dokunmaması gerektiği",
+            "Marj çağrılarının öngörülemez olduğu, yani yapabileceğin hiçbir şey olmadığı"
+          ]
+        }
+      }
+    },
+    "83": {
+      "title": "Lisans",
+      "desc": "On soru. Geçmek için sekiz doğru.",
+      "content": "Lisans, bu modülün hazırladığı sınavdır. On soru ve her biri canlı görünen bir pozisyon üzerinde bir hesaplama ya da bir karar; çünkü CFD Merkezi de tanımlarla uğraşmaz.\n\nGeçme notu 10'da 8. Günde 3 deneme hakkın var. Puanını söyleriz ama hangi soruları kaçırdığını söylemeyiz; böylece başarısız bir deneme yeniden tahmin etmek için değil, modülü yeniden okumak için bir işarettir.\n\nBurada hiçbir şey tuzak değil. Her sayı doğrudan arkanda bıraktığın derslerden geliyor. Bu onunu yapabiliyorsan, bu modülü bu ürünlerle gerçek parayla işlem yapan çoğu yetişkinden daha iyi anlıyorsun demektir. 🎫",
+      "bossVictory": "Gerçek ekrana gerçek sayılarla bakıp hayır diyebiliyorsun. Lisans budur. 🎫",
+      "bossQuestions": {
+        "0": {
+          "q": "Hesabın 1,000 NT ve başka açık pozisyon yok. 1,000 NT'nin tamamını %25 oranla teminat olarak yatırıyor ve hisse başı 200 NT'den 4,000 NT'lik {tech} hissesi kontrol ediyorsun. Zorunlu kapanış teminatının %50'sinde tetikleniyor. Kapatılman için {tech} hangi fiyattan işlem görmeli?",
+          "options": [
+            "150 NT, %25 düşüş, teminat oranıyla aynı",
+            "100 NT, %50 düşüş, zorunlu kapanış kuralıyla aynı",
+            "175 NT, %12.5 düşüş, çünkü 4,000 NT'lik pozisyonda 500 NT kaybetmek %12.5'lik bir hareket gerektirir",
+            "195 NT, %2.5 düşüş"
+          ]
+        },
+        "1": {
+          "q": "3,000 NT'lik bir pozisyonun gecelik finansmanı %0.02. Lehine %3'lük, 90 NT değerinde bir hareket bekliyorsun. Finansman onu yiyene kadar bu görüş kaç gece eder?",
+          "options": [
+            "Yaklaşık 50 gece",
+            "Yaklaşık 150 gece, çünkü 90 NT bölü gecelik 0.60 NT, 150 eder",
+            "Yaklaşık 300 gece",
+            "Asla yenmez, çünkü finansman sadece zarardaki pozisyonlara uygulanır"
+          ]
+        },
+        "2": {
+          "q": "Hesabın 5,000 NT. Bir işlemde %2 riske atacaksın ve fiyat %4 aleyhine hareket ederse çıkacaksın. Açman gereken en büyük pozisyon nedir?",
+          "options": [
+            "100 NT, riske attığın miktar",
+            "1,000 NT, hesabın beşte biri",
+            "5,000 NT, çünkü stop zaten hesabı koruyor",
+            "2,500 NT, çünkü 100 NT kabul edilebilir kayıp bölü %4 stop mesafesi büyüklüğü verir"
+          ]
+        },
+        "3": {
+          "q": "Bir pozisyon hesabını 1,000 NT'den 400 NT'ye indirdi. Sadece 1,000 NT'ye geri dönmek için buradan ne kadar getiri gerekir?",
+          "options": [
+            "%150, çünkü 400 NT'nin 1,000'e ulaşmak için kendisinin bir buçuk katı kadar büyümesi gerekir",
+            "%60, kaybettiğin yüzdeyle aynı",
+            "%100, çünkü ikiye katlamak seni her zaman geri getirir",
+            "%250, kaybettiğinin iki katı"
+          ]
+        },
+        "4": {
+          "q": "Canlı kartta şunlar yazıyor: marj seviyesi %82, serbest nakit 0, tek bir açık pozisyon ve %18 zararda. Hangi hamle tasfiye riskini gerçekten azaltır?",
+          "options": [
+            "Hesaba nakit ekle",
+            "Tut ve seviyenin toparlanmasını bekle",
+            "Bir pozisyonu kapat; bu, kullandığı marjı hemen serbest bırakır",
+            "Onu dengelemek için ters yönde ikinci bir pozisyon aç"
+          ]
+        },
+        "5": {
+          "q": "{tech} hissesini 50 NT'den 2,000 NT'lik bir pozisyonla açığa satıyorsun. Bir devralma haberi fiyatı bir gecede 150 NT'ye taşıyor. Bu kayıp, aynı büyüklükteki uzun bir pozisyonun en kötü senaryosuyla nasıl karşılaştırılır?",
+          "options": [
+            "Aynıdır, çünkü ikisi de yatırdığınla sınırlıdır",
+            "Kısa pozisyon 4,000 NT kaybeder, pozisyon değerinin iki katı; uzun bir pozisyon ise asla 2,000 NT'lik pozisyonun kendisinden fazlasını kaybedemezdi",
+            "Zarar durdur konduysa kısa pozisyon hiçbir şey kaybetmez, çünkü stop'lar garantilidir",
+            "Kısa pozisyonun kaybı daha küçüktür, çünkü fiyatlar yükseldiklerinden daha hızlı düşer"
+          ]
+        },
+        "6": {
+          "q": "Stop'un 90 NT'de duruyor. Gece bir haber geliyor ve piyasa arada hiç işlem görmeden 78 NT'den açılıyor. Ne olur ve buna karşı gerçek savunma nedir?",
+          "options": [
+            "90 NT'den gerçekleşir, çünkü stop bunu garanti eder",
+            "Emir iptal olur, çünkü fiyat seviyenin üzerinden atladı",
+            "78 NT civarında gerçekleşir ve boşluklara karşı savunma stop değil, pozisyon büyüklüğüdür",
+            "Sağlayıcı sana 90 ile 78 arasındaki farkı borçludur"
+          ]
+        },
+        "7": {
+          "q": "CFD Merkezinde neden en büyük teminat gereksinimi kriptoda?",
+          "options": [
+            "En sert o hareket eder, bu yüzden ince bir teminatı tamamen sıradan bir kripto günü bile boşaltır",
+            "Kriptoda finansman alınmaz, bu yüzden teminat onun yerini tutar",
+            "Kripto 18 yaş altındakilere yasak ve teminat bunun cezası",
+            "Kripto fiyatlarını piyasa değil, uygulama belirler"
+          ]
+        },
+        "8": {
+          "q": "Bunlardan hangisi bu modülde XP kazandırır?",
+          "options": [
+            "Kaldıraçlı bir pozisyonda %40 kazanç",
+            "Mevcut en büyük pozisyon büyüklüğünü kullanmak",
+            "Beş işlemlik bir kazanma serisi",
+            "Zarardaki bir pozisyona ekleme yapmak yerine onu kapatmak"
+          ]
+        },
+        "9": {
+          "q": "İşlem öncesi önizleme, aleyhine %10'luk bir hareketin hesabından 620 NT götüreceğini söylüyor; bu cüzdanının %62'si. Tasfiye fiyatın 88.40 ve {tech} şu anda 96.00'dan işlem görüyor. Pozisyonu açar mısın?",
+          "options": [
+            "Evet, çünkü tasfiye fiyatı güncel fiyatın güvenli şekilde altında",
+            "Evet, yön konusunda kendine güveniyorsan",
+            "Sadece riski almaya değer kılmak için iki kat pozisyonla",
+            "Hayır: yaklaşık %8'lik bir hareket pozisyonu boşaltır, %8 sıradan bir harekettir ve tek bir işlemde cüzdanın %62'si bu modüldeki her büyüklük kuralını çiğner"
+          ]
+        }
+      }
+    },
+    "84": {
+      "title": "En Kötü Senaryon, Önceden Seçilmiş",
+      "desc": "Zarar durdur, kâr al ve kimsenin seçmediği çıkış",
+      "content": "Teminatı, çağrıyı, zorunlu kapanışı, kirayı, stop'u ve boşluğu biliyorsun. Bu ders son parçayı yerine koyuyor: açacağın her pozisyon tam olarak üç yoldan biriyle biter ve bütün oyun, hangisini kimin seçtiğidir.\n\n1️⃣ SEN KAPATIRSIN. Düğmeye dokunursun ve pozisyon güncel piyasa fiyatından kapanır. Her pozisyonda, her durumda her zaman mevcuttur. Çıkışların çoğu bu olmalı.\n\n2️⃣ KOYDUĞUN BİR EMİR KAPATIR. İki türü var ve isimleri önemli, o yüzden onları doğru öğren:\n\n• ZARAR DURDUR (STOP-LOSS) EMRİ, fiyat seçtiğin bir seviyeye kadar ALEYHİNE hareket ettiğinde seni otomatik olarak çıkarır: uzun pozisyonda girişinin altında bir satış-stop, kısa pozisyonda girişinin üstünde bir alış-stop. Bu senin sakinken belirlediğin en kötü senaryondur; 80. ders sana bir şeye iyi karar verebildiğin tek zamanın bu olduğunu zaten öğretti.\n• KÂR AL (TAKE-PROFIT) EMRİ, kapatmaya yönelik bir limit emirdir: fiyat ona ulaşmak için LEHİNE hareket ettiğinde, seçtiğin hedefte seni otomatik olarak çıkarır. Bu senin \"yeter\" noktandır; açgözlülük söz almadan önce belirlenmiştir. Limit emir senin seviyende ya da daha iyisinde gerçekleşir, asla daha kötüsünde değil.\n\n3️⃣ SAĞLAYICI KAPATIR. Bu, 70. dersteki tasfiyedir. Ve işte beynine kazıman gereken şey: tasfiye bir emir türü değildir. Bir \"tasfiye işlemi\" veremezsin. Kimse veremez. Senin alet çantandaki bir araç değildir; teminatın neredeyse bittiğinde sağlayıcının kendi borcunu korumak için yaptığı şeydir, piyasa hangi fiyatı ödüyorsa ondan, sen okuldayken ya da uyurken.\n\nZarar durdur, en kötü senaryona önceden senin karar vermendir. Tasfiye ise karar vermediğinde olan şeydir.\n\nİki emrin de aynı şekilde dürüsttür ve bunu 78. dersten zaten biliyorsun: senin seviyende tetiklenirler ve piyasanın gerçekte ödediği fiyattan gerçekleşirler. Stop'unun üzerinden geçen bir boşluk seni sıçramanın öbür tarafında gerçekleştirir, bu daha kötüdür. Kâr al seviyenin içinden geçen bir boşluk da seni öbür tarafta gerçekleştirir, bu daha iyidir. Aynı gerçek, iki yöne bakıyor.\n\nBir yerleştirme kuralı var ve bu uygulama onu nedenini ekranda göstererek uygular: stop'un güncel fiyat ile tasfiye fiyatın arasında olmalı. Tasfiye fiyatının ötesindeki bir stop asla tetiklenemez, çünkü sağlayıcı seni daha önce kapatmış olurdu; bu yüzden uygulama onu reddeder ve sana nedenini söyler.\n\nHer işlemden üç çıkış kapısı. İkisinin kolunda senin adın var. Bunlardan birinden, seçtiğin bir günde, sakinken seçtiğin bir seviyede çıkmak; bu modülün tamamının sana öğretmeye çalıştığı şey bu. 🚪",
+      "quiz": {
+        "q": "Uzun pozisyonunun 180.00'a koyduğun bir zarar durdur emri ve 150.00'da bir tasfiye fiyatı var. Bu iki sayı arasındaki gerçek fark nedir?",
+        "options": [
+          "Hiçbir fark yok, aynı otomatik zorunlu kapanışın iki adı ve sağlayıcı onu her seferinde tek bir fiyattan tetikler",
+          "Zarar durdur sağlayıcının kararıdır, tasfiye fiyatı ise seninki; yani gerçekten kontrol ettiğin, ikinci tetiklenendir",
+          "180.00'daki stop, sakinken önceden senin seçtiğin en kötü senaryondur; 150.00 ise artık söz hakkın olmadığı için sağlayıcının borcunu korumak üzere seni kapattığı yerdir",
+          "Stop, piyasa ne yaparsa yapsın tam 180.00'dan gerçekleşmeyi garanti eder; tasfiye ise ne kadar uzağa gitmiş olursa olsun herhangi bir fiyattan gerçekleşebilir"
+        ]
+      }
+    }
+  },
+  "context": {
+    "ZA": {
+      "name": "Güney Afrika",
+      "cName": "rand",
+      "cPlural": "rand",
+      "exDesc": "koca Afrika kıtasının en büyük borsalarından biri",
+      "sectorList": "⛏️ Madencilik: Anglo American, Impala Platinum. Küresel emtia fiyatlarına bağlı\n🏦 Bankacılık: Standard Bank, FirstRand, Capitec. Faiz oranları yüksekken iyi giderler\n📱 Teknoloji: Naspers, Prosus. Küresel teknoloji trendlerine bağlı\n🛍️ Perakende: Shoprite, Pick n Pay. Tüketicilerin harcayacak parası olduğunda iyi giderler\n📡 Telekom: MTN, Vodacom. Daha istikrarlı, çünkü insanların her zaman mobil veriye ihtiyacı var",
+      "etfBasket": "JSE'deki en büyük 40 şirket",
+      "etfDesc": "Örneğin JSE Top 40, JSE'de işlem gören en büyük 40 şirketin listesidir; şirketler, gerçekten alınıp satılabilen hisselerinin değerine göre sıralanır.",
+      "etfList": "🇿🇦 Satrix Top 40: JSE'deki en büyük 40 şirket. Harika bir başlangıç noktası.\n🌍 Satrix MSCI World: Tek alımla 23 gelişmiş ülkeden şirketler.\n🇺🇸 Sygnia Itrix S&P 500: S&P 500 listesindeki 500 büyük ABD şirketi.\n💡 Satrix Nasdaq 100: Nasdaq'taki finans dışı en büyük 100 şirket. Teknoloji ağırlığı çok yüksek.",
+      "currencyHedge": "Bunlar dolar ya da euro cinsinden fiyatlanır. Yani rand DEĞER KAYBEDERSE (dolar başına R20, R22 olursa), küresel yatırımların rand cinsinden OTOMATİK olarak daha değerli olur!",
+      "fxQuizSetup": "Rand, dolar karşısında R18'den R22'ye değer kaybediyor",
+      "fxQuizLose": "Güney Afrika'nın durumu kötüleştiği için değer kaybeder",
+      "fxQuizGain": "Rand cinsinden YÜKSELİR, çünkü her dolar daha fazla rand alır",
+      "dcaTitle": "Rand Maliyet Ortalaması",
+      "dcaAbbrev": "RMO",
+      "food": "Wimpy burger"
+    },
+    "US": {
+      "name": "Amerika Birleşik Devletleri",
+      "cName": "dolar",
+      "cPlural": "dolar",
+      "exDesc": "açık ara dünyanın en büyük hisse senedi piyasası",
+      "sectorList": "💻 Teknoloji: Apple, Microsoft, Alphabet. İnovasyon ve küresel talep tarafından yönlendirilir\n🏦 Bankacılık: JPMorgan, Bank of America, Goldman Sachs. Faiz oranları yükseldiğinde iyi giderler\n🛍️ Perakende: Amazon, Walmart, Costco. Tüketiciler harcarken iyi giderler\n⚡ Enerji: Exxon Mobil, Chevron. Küresel petrol ve gaz fiyatlarına bağlı\n📡 Telekom: AT&T, Verizon, T-Mobile. İnsanların her zaman bağlantıya ihtiyacı var",
+      "etfBasket": "S&P 500 listesindeki 500 büyük ABD şirketi",
+      "etfDesc": "Örneğin S&P 500, bir komitenin seçtiği 500 büyük ABD şirketinin listesidir. Şirketlerin büyük, kârlı ve kolay alınıp satılır olması gerekir. Bu liste sadece en büyük 500 şirket DEĞİLDİR ve NYSE'de işlem gören şirketlerle Nasdaq'ta işlem gören şirketleri bir arada içerir.",
+      "etfList": "🇺🇸 SPY / VOO: 500 büyük ABD şirketinden oluşan S&P 500 listesini takip eder. Altın standart.\n📦 VTI: Tüm ABD borsası, tek ETF'de binlerce şirket.\n💡 QQQ: Nasdaq'taki finans dışı en büyük 100 şirket. Teknoloji ağırlığı çok yüksek.\n🌍 VT / VXUS: Tek fonda küresel ya da uluslararası şirketler.",
+      "currencyHedge": "Dolar diğer para birimleri karşısında değer kaybederse, uluslararası yatırımların dolar cinsinden otomatik olarak DAHA DEĞERLİ olur!",
+      "fxQuizSetup": "Dolar, euro ve yen karşısında ciddi şekilde değer kaybediyor",
+      "fxQuizLose": "ABD ekonomisi zorlandığı için değer kaybeder",
+      "fxQuizGain": "Dolar cinsinden YÜKSELİR, çünkü yabancı varlıkların kur değeri kazandı",
+      "dcaTitle": "Dolar Maliyet Ortalaması",
+      "dcaAbbrev": "DMO",
+      "food": "Big Mac menü"
+    },
+    "GB": {
+      "name": "Birleşik Krallık",
+      "cName": "sterlin",
+      "cPlural": "sterlin",
+      "exDesc": "dünyanın en eski ve en önemli borsalarından biri",
+      "sectorList": "⚡ Enerji: Shell, BP. Küresel petrol ve gaz devleri\n🏦 Bankacılık: HSBC, Barclays, Lloyds. Faiz oranları yüksekken iyi giderler\n🧴 Tüketim: Unilever, Diageo, Reckitt. Ev markalarının güç merkezleri\n🛍️ Perakende: Tesco, Sainsbury's. Tüketiciler harcarken iyi giderler\n📡 Telekom: Vodafone, BT Group. İnsanların her zaman bağlantıya ihtiyacı var",
+      "etfBasket": "Londra Borsası'ndaki en büyük 100 şirket",
+      "etfDesc": "Örneğin FTSE 100, Londra Borsası ana pazarındaki en büyük 100 şirketin listesidir ve her üç ayda bir yeniden kontrol edilir.",
+      "etfList": "🇬🇧 iShares Core FTSE 100: Londra Borsası'ndaki en büyük 100 şirket.\n🌍 Vanguard FTSE All-World: Tek alımla onlarca ülkeden şirketler.\n🇺🇸 iShares Core S&P 500: S&P 500 listesindeki 500 büyük ABD şirketi.\n💡 iShares Nasdaq 100: Nasdaq'taki finans dışı en büyük 100 şirket. Teknoloji ağırlığı çok yüksek.",
+      "currencyHedge": "Sterlin diğer para birimleri karşısında değer kaybederse, uluslararası yatırımların sterlin cinsinden otomatik olarak DAHA DEĞERLİ olur!",
+      "fxQuizSetup": "Sterlin, dolar ve euro karşısında ciddi şekilde değer kaybediyor",
+      "fxQuizLose": "Birleşik Krallık ekonomisi zorlandığı için değer kaybeder",
+      "fxQuizGain": "Sterlin cinsinden YÜKSELİR, çünkü yabancı varlıkların kur değeri kazandı",
+      "dcaTitle": "Sterlin Maliyet Ortalaması",
+      "dcaAbbrev": "SMO",
+      "food": "Nando's çeyrek tavuk"
+    },
+    "IN": {
+      "name": "Hindistan",
+      "cName": "rupi",
+      "cPlural": "rupi",
+      "exDesc": "işlem sayısına göre dünyanın en büyük borsalarından biri",
+      "sectorList": "💻 Teknoloji: TCS, Infosys, Wipro. Küresel BT hizmetlerinin güç merkezleri\n🏦 Bankacılık: HDFC Bank, SBI, ICICI. Faiz oranları yüksekken iyi giderler\n🛍️ Tüketim: ITC, Hindustan Unilever, DMart. Tüketiciler harcarken iyi giderler\n⚡ Enerji: Reliance, ONGC. Petrol, gaz ve rafineriye bağlı\n📡 Telekom: Airtel, Vodafone Idea. Hindistan'ın devasa mobil pazarı büyümeye devam ediyor",
+      "etfBasket": "Hindistan'ın en büyük ve en yoğun işlem gören 50 şirketi",
+      "etfDesc": "Örneğin Nifty 50, Hindistan'ın en büyük ve en yoğun işlem gören 50 şirketinin listesidir; şirketler sadece büyüklüklerine göre değil, büyüklüklerine VE ne kadar kolay alınıp satılabildiklerine göre seçilir.",
+      "etfList": "🇮🇳 Nippon India Nifty 50: Hindistan'ın en büyük, en çok işlem gören 50 şirketinden oluşan Nifty 50.\n💡 ICICI Prudential Sensex: Hindistan'ın en tanınmış 30 büyük şirketinden (blue chip) oluşan Sensex.\n📦 Kotak Nifty Next 50: Nifty 50'nin hemen altında sıralanan 50 şirket.\n🌍 Motilal Oswal Nasdaq 100: Nasdaq'taki finans dışı en büyük 100 şirket.",
+      "currencyHedge": "Rupi dolar karşısında değer kaybederse, uluslararası yatırımların rupi cinsinden otomatik olarak DAHA DEĞERLİ olur!",
+      "fxQuizSetup": "Rupi, dolar karşısında ₹82'den ₹90'a değer kaybediyor",
+      "fxQuizLose": "Hindistan ekonomisi zorlandığı için değer kaybeder",
+      "fxQuizGain": "Rupi cinsinden YÜKSELİR, çünkü her dolar daha fazla rupi alır",
+      "dcaTitle": "Rupi Maliyet Ortalaması",
+      "dcaAbbrev": "RMO",
+      "food": "Domino's pizza"
+    },
+    "JP": {
+      "name": "Japonya",
+      "cName": "yen",
+      "cPlural": "yen",
+      "exDesc": "dünyanın en büyük borsalarından biri",
+      "sectorList": "🚗 Otomotiv: Toyota, Honda, Nissan. Japonya'nın dünyaca ünlü otomobil üreticileri\n💻 Teknoloji: Sony, SoftBank, Nintendo. Oyun, eğlence ve inovasyon\n🏦 Bankacılık: MUFG, SMFG, Mizuho. Japonya'nın dev banka grupları\n🛍️ Perakende: Fast Retailing (Uniqlo), Seven & i. Küresel perakende erişimi\n📡 Telekom: NTT, KDDI, SoftBank. Devasa mobil altyapı",
+      "etfBasket": "Nikkei 225 listesindeki 225 şirket",
+      "etfDesc": "Örneğin Nikkei 225, tüm piyasayı temsil etmek üzere seçilmiş, tanınmış 225 Japon şirketinin listesidir. Fiyat ağırlıklıdır; yani fiyatı yüksek bir hisse, sadece büyük olan bir şirketten daha fazla sayılır.",
+      "etfList": "🇯🇵 Bir Nikkei 225 ETF'si: Nikkei 225 listesindeki 225 şirket. Gösterge endeks.\n📦 Bir TOPIX ETF'si: Tokyo piyasasından çok daha geniş bir dilim, binin çok üzerinde şirket.\n🌍 MAXIS All Country World: Tek fonda gelişmiş ve gelişmekte olan piyasalar.\n🇺🇸 iShares S&P 500: S&P 500 listesindeki 500 büyük ABD şirketi.",
+      "currencyHedge": "Yen diğer para birimleri karşısında değer kaybederse, uluslararası yatırımların yen cinsinden otomatik olarak DAHA DEĞERLİ olur!",
+      "fxQuizSetup": "Yen, dolar karşısında ¥130'dan ¥155'e değer kaybediyor",
+      "fxQuizLose": "Japonya ekonomisi zorlandığı için değer kaybeder",
+      "fxQuizGain": "Yen cinsinden YÜKSELİR, çünkü yabancı varlıkların kur değeri kazandı",
+      "dcaTitle": "Yen Maliyet Ortalaması",
+      "dcaAbbrev": "YMO",
+      "food": "bir kâse ramen"
+    },
+    "DE": {
+      "name": "Almanya",
+      "cName": "euro",
+      "cPlural": "euro",
+      "exDesc": "Avrupa'nın en büyük borsalarından biri",
+      "sectorList": "💻 Teknoloji: SAP, Infineon. Kurumsal yazılım ve yarı iletkenler\n🚗 Otomotiv: Volkswagen, BMW, Mercedes-Benz. Almanya'nın mühendislik gururu\n🏦 Bankacılık: Deutsche Bank, Commerzbank. Faiz oranları yükseldiğinde iyi giderler\n🏭 Sanayi: Siemens, BASF. Küresel üretim ve kimya\n📡 Telekom: Deutsche Telekom, 1&1. Almanya'nın bağlantı omurgası",
+      "etfBasket": "Frankfurt borsasındaki en büyük 40 Alman şirketi",
+      "etfDesc": "Örneğin DAX 40, Frankfurt borsasındaki en büyük 40 Alman şirketinin listesidir ve 2021'den beri listeye girebilmek için şirketlerin kârlı olması da gerekir.",
+      "etfList": "🇩🇪 iShares Core DAX: Frankfurt borsasındaki en büyük 40 Alman şirketi.\n🌍 Xtrackers MSCI World: 23 gelişmiş ülkeden şirketler.\n🇺🇸 iShares Core S&P 500: S&P 500 listesindeki 500 büyük ABD şirketi.\n🇪🇺 Bir EURO STOXX 50 ETF'si: Euro bölgesinin dört bir yanından 50 öncü büyük şirket (blue chip).",
+      "currencyHedge": "Euro diğer para birimleri karşısında değer kaybederse, uluslararası yatırımların euro cinsinden otomatik olarak DAHA DEĞERLİ olur!",
+      "fxQuizSetup": "Euro, dolar ve yen karşısında ciddi şekilde değer kaybediyor",
+      "fxQuizLose": "Avrupa ekonomisi zorlandığı için değer kaybeder",
+      "fxQuizGain": "Euro cinsinden YÜKSELİR, çünkü yabancı varlıkların kur değeri kazandı",
+      "dcaTitle": "Maliyet Ortalaması",
+      "dcaAbbrev": "MO",
+      "food": "döner kebap"
+    },
+    "CA": {
+      "name": "Kanada",
+      "cName": "Kanada doları",
+      "cPlural": "Kanada doları",
+      "exDesc": "dünyanın en büyük 10 borsasından biri",
+      "sectorList": "💻 Teknoloji: Shopify, OpenText, Constellation Software. Kanada teknoloji inovasyonu\n🏦 Bankacılık: RBC, TD, BMO, Scotiabank. Kanada'nın büyük beşlisi kaya gibi sağlam\n⚡ Enerji: Enbridge, Suncor, TC Energy. Petrol kumu ve boru hattı devleri\n🛍️ Perakende: Dollarama, Canadian Tire, Loblaw. Yerli perakende markaları\n📡 Telekom: BCE, Rogers, Telus. Kanadalıların her zaman bağlantıya ihtiyacı var",
+      "etfBasket": "her büyük sektörü kapsayan 60 büyük Kanada şirketi",
+      "etfDesc": "Örneğin S&P/TSX 60, her büyük sektör temsil edilsin diye bir komitenin seçtiği 60 büyük Kanada şirketinin listesidir; yani sadece en büyük 60 şirket değildir.",
+      "etfList": "🇨🇦 iShares S&P/TSX 60 (XIU): Her büyük sektörden 60 büyük Kanada şirketi.\n📦 Vanguard All-Equity (VEQT): Tek ETF'de Kanada, ABD ve uluslararası hisseler.\n🇺🇸 BMO S&P 500: S&P 500 listesindeki 500 büyük ABD şirketi.\n💡 Bir Nasdaq 100 ETF'si: Nasdaq'taki finans dışı en büyük 100 şirket. Teknoloji ağırlığı çok yüksek.",
+      "currencyHedge": "Kanada doları diğer para birimleri karşısında değer kaybederse, uluslararası yatırımların C$ cinsinden otomatik olarak DAHA DEĞERLİ olur!",
+      "fxQuizSetup": "Kanada doları, ABD doları karşısında ciddi şekilde değer kaybediyor",
+      "fxQuizLose": "Kanada ekonomisi zorlandığı için değer kaybeder",
+      "fxQuizGain": "Kanada doları cinsinden YÜKSELİR, çünkü yabancı varlıkların kur değeri kazandı",
+      "dcaTitle": "Dolar Maliyet Ortalaması",
+      "dcaAbbrev": "DMO",
+      "food": "Tim Hortons menü"
+    },
+    "AU": {
+      "name": "Avustralya",
+      "cName": "Avustralya doları",
+      "cPlural": "Avustralya doları",
+      "exDesc": "Güney Yarımküre'nin en büyük borsası",
+      "sectorList": "⛏️ Madencilik: BHP, Rio Tinto, Fortescue. Küresel madencilik ve kaynak devleri\n🏦 Bankacılık: CBA, Westpac, ANZ, NAB. Avustralya'nın büyük dört bankası\n🏥 Sağlık: CSL, Cochlear. Dünya standartlarında biyoteknoloji ve tıbbi cihazlar\n🛍️ Perakende: Woolworths, Coles, Wesfarmers. Market ve temel tüketim ürünleri\n💻 Teknoloji: WiseTech Global, Xero. Avustralya'da işlem gören yazılım başarı hikâyeleri",
+      "etfBasket": "ASX'teki en büyük 200 şirket",
+      "etfDesc": "Örneğin S&P/ASX 200, ASX'te işlem gören en büyük 200 şirketin listesidir; büyüklük, alınıp satılabilen hisselerin değerine göre ölçülür ve ne kadar kolay el değiştirdiklerine bakılarak elenir.",
+      "etfList": "🇦🇺 iShares Core S&P/ASX 200 (IOZ): ASX'teki en büyük 200 şirket.\n📦 Vanguard Australian Shares (VAS): Daha da geniş, yaklaşık 300 ASX şirketi.\n🌍 Vanguard MSCI International (VGS): Avustralya dışındaki gelişmiş piyasa şirketleri.\n🇺🇸 BetaShares Nasdaq 100 (NDQ): Nasdaq'taki finans dışı en büyük 100 şirket.",
+      "currencyHedge": "Avustralya doları diğer para birimleri karşısında değer kaybederse, uluslararası yatırımların A$ cinsinden otomatik olarak DAHA DEĞERLİ olur!",
+      "fxQuizSetup": "Avustralya doları, ABD doları karşısında ciddi şekilde değer kaybediyor",
+      "fxQuizLose": "Avustralya ekonomisi zorlandığı için değer kaybeder",
+      "fxQuizGain": "A$ cinsinden YÜKSELİR, çünkü yabancı varlıkların kur değeri kazandı",
+      "dcaTitle": "Dolar Maliyet Ortalaması",
+      "dcaAbbrev": "DMO",
+      "food": "etli turta"
+    },
+    "HK": {
+      "name": "Hong Kong",
+      "cName": "Hong Kong doları",
+      "cPlural": "Hong Kong doları",
+      "exDesc": "Çin ile küresel piyasalar arasındaki kapı borsa",
+      "sectorList": "💻 Teknoloji: Tencent, Xiaomi, Meituan. Hong Kong'da işlem gören Çinli teknoloji devleri\n🏦 Bankacılık: HSBC, Hang Seng Bank. Faiz oranları yükseldiğinde iyi giderler\n🏗️ Gayrimenkul: CK Asset, Sun Hung Kai. Hong Kong'da gayrimenkul kraldır\n⚡ Kamu hizmetleri: CLP, Power Assets. Yıldan yıla istikrarlı temettüler\n🛡️ Sigorta: AIA, Prudential. Asya-Pasifik sigorta liderleri",
+      "etfBasket": "Hong Kong'un en büyük ve en yoğun işlem gören şirketleri",
+      "etfDesc": "Örneğin Hang Seng Endeksi, her büyük sektörü temsil etmek üzere seçilmiş, Hong Kong'un en büyük ve en yoğun işlem gören şirketlerinin listesidir. Endeks komitesi isim ekleyip çıkardıkça listedeki şirket sayısı değişir.",
+      "etfList": "🇭🇰 Tracker Fund (2800): Hang Seng Endeksi'ni takip eder. Hong Kong'un ETF öncüsü.\n💡 Hang Seng TECH ETF: Hong Kong'da işlem gören en büyük 30 teknoloji şirketi.\n🇺🇸 Bir S&P 500 ETF'si: S&P 500 listesindeki 500 büyük ABD şirketi.\n🇨🇳 Bir Çin A hisseleri ETF'si: Şanghay ve Shenzhen'de işlem gören şirketlere erişim.",
+      "currencyHedge": "Hong Kong doları ABD dolarına sabitlenmiştir, bu yüzden ABD ağırlıklı küresel bir fon sadece kur yüzünden pek oynamaz. Ama ABD dışındaki kısım (Avrupa, Japonya, Asya'nın geri kalanı), o para birimleri güçlendiğinde HK$ cinsinden yine de değer kazanır!",
+      "fxQuizSetup": "Euro ve yen ABD doları karşısında güçleniyor ve Hong Kong doları ABD dolarına sabitlenmiş durumda",
+      "fxQuizLose": "Hong Kong ekonomisi zorlandığı için değer kaybeder",
+      "fxQuizGain": "Avrupa ve Japonya kısmı HK$ cinsinden YÜKSELİR, çünkü o para birimleri artık daha fazla Hong Kong doları alır",
+      "dcaTitle": "Dolar Maliyet Ortalaması",
+      "dcaAbbrev": "DMO",
+      "food": "bir kâse wonton erişte"
+    },
+    "CN": {
+      "name": "Çin",
+      "cName": "yuan",
+      "cPlural": "yuan",
+      "exDesc": "piyasa değerine göre dünyanın en büyük borsalarından biri",
+      "sectorList": "💻 Teknoloji: SMIC, Kingsoft Office. Şanghay'da işlem gören çip üretimi ve yazılım\n🏦 Bankacılık: ICBC, CCB, Bank of China. Varlıklara göre dünyanın en büyük bankaları arasında\n🚗 Otomotiv: SAIC Motor, Great Wall Motor. Çin'in yerli otomobil üreticileri\n🛍️ Tüketim: Kweichow Moutai, Haier, Yili. Çin genelinde herkesin bildiği markalar\n📡 Telekom: China Mobile, China Telecom. Devasa mobil ağlar",
+      "etfBasket": "Çin anakarasının en büyük ve en yoğun işlem gören 300 şirketi",
+      "etfDesc": "Örneğin CSI 300, Çin anakarasının en büyük ve en yoğun işlem gören 300 şirketinin listesidir ve sadece birini değil, HEM Şanghay HEM de Shenzhen borsasını kapsar.",
+      "etfList": "🇨🇳 Huatai-PB CSI 300 (510300): Şanghay ve Shenzhen'den 300 büyük, yoğun işlem gören şirket.\n💡 ChinaAMC SSE 50 (510050): Sadece Şanghay borsasındaki en büyük 50 şirket.\n🌍 Geniş kapsamlı bir Çin hisse fonu: CSI 300'den daha geniş kapsam.\n🇺🇸 Bir S&P 500 QDII fonu: S&P 500 listesindeki 500 büyük ABD şirketine erişim.",
+      "currencyHedge": "Yuan diğer para birimleri karşısında değer kaybederse, uluslararası yatırımların yuan cinsinden otomatik olarak DAHA DEĞERLİ olur!",
+      "fxQuizSetup": "Yuan, dolar ve euro karşısında ciddi şekilde değer kaybediyor",
+      "fxQuizLose": "Çin ekonomisi zorlandığı için değer kaybeder",
+      "fxQuizGain": "Yuan cinsinden YÜKSELİR, çünkü yabancı varlıkların kur değeri kazandı",
+      "dcaTitle": "Yuan Maliyet Ortalaması",
+      "dcaAbbrev": "YMO",
+      "food": "bir kâse erişte"
+    },
+    "FR": {
+      "name": "Fransa",
+      "cName": "euro",
+      "cPlural": "euro",
+      "exDesc": "dünyanın en ikonik lüks ve sanayi markalarından bazılarına ev sahipliği yapan borsa",
+      "sectorList": "👜 Lüks: LVMH, Hermès, Kering. Fransa küresel lüks pazarına hâkim\n⚡ Enerji: TotalEnergies, Engie. Avrupa'nın büyük enerji şirketleri\n🏦 Bankacılık: BNP Paribas, Société Générale. Faiz oranları yükseldiğinde iyi giderler\n✈️ Havacılık: Airbus, Safran. Dünya lideri uçak ve savunma\n📡 Telekom: Orange, Bouygues. Fransa'nın bağlantı omurgası",
+      "etfBasket": "CAC 40 listesindeki 40 şirket",
+      "etfDesc": "Örneğin CAC 40, bağımsız bir komitenin Paris borsasındaki en büyük 100 şirket arasından büyüklüğe VE ne kadar yoğun işlem gördüklerine göre seçtiği 40 şirketin listesidir.",
+      "etfList": "🇫🇷 Amundi CAC 40: CAC 40 listesindeki 40 şirket. Gösterge endeks.\n🌍 Bir MSCI World ETF'si: 23 gelişmiş ülkeden şirketler.\n🇺🇸 BNP Paribas Easy S&P 500: S&P 500 listesindeki 500 büyük ABD şirketi.\n🇪🇺 Bir EURO STOXX 50 ETF'si: Euro bölgesinin dört bir yanından 50 öncü büyük şirket (blue chip).",
+      "currencyHedge": "Euro diğer para birimleri karşısında değer kaybederse, uluslararası yatırımların euro cinsinden otomatik olarak DAHA DEĞERLİ olur!",
+      "fxQuizSetup": "Euro, dolar ve yen karşısında ciddi şekilde değer kaybediyor",
+      "fxQuizLose": "Avrupa ekonomisi zorlandığı için değer kaybeder",
+      "fxQuizGain": "Euro cinsinden YÜKSELİR, çünkü yabancı varlıkların kur değeri kazandı",
+      "dcaTitle": "Maliyet Ortalaması",
+      "dcaAbbrev": "MO",
+      "food": "croque-monsieur"
+    },
+    "IT": {
+      "name": "İtalya",
+      "cName": "euro",
+      "cPlural": "euro",
+      "exDesc": "Avrupa'nın en eski borsalarından biri ve ikonik İtalyan markalarının evi",
+      "sectorList": "🏎️ Otomotiv: Ferrari, Stellantis. İtalyan mühendislik mükemmelliği\n⚡ Enerji: Enel, Eni. Avrupa'nın büyük enerji ve kamu hizmeti şirketleri\n🏦 Bankacılık: UniCredit, Intesa Sanpaolo. Faiz oranları yükseldiğinde iyi giderler\n🛡️ Sigorta: Generali, Unipol. İtalya'nın sigorta devleri\n📡 Telekom: TIM, Inwit. İtalya'nın bağlantı altyapısı",
+      "etfBasket": "FTSE MIB listesindeki 40 şirket",
+      "etfDesc": "Örneğin FTSE MIB, İtalya'nın ana sektörlerini kapsayacak şekilde seçilmiş, Milano borsasındaki en büyük ve en yoğun işlem gören 40 şirketin listesidir.",
+      "etfList": "🇮🇹 Bir FTSE MIB ETF'si: FTSE MIB listesindeki 40 şirket.\n🌍 iShares Core MSCI World: 23 gelişmiş ülkeden şirketler.\n🇺🇸 Amundi S&P 500: S&P 500 listesindeki 500 büyük ABD şirketi.\n🇪🇺 Xtrackers EURO STOXX 50: Euro bölgesinin dört bir yanından 50 öncü büyük şirket (blue chip).",
+      "currencyHedge": "Euro diğer para birimleri karşısında değer kaybederse, uluslararası yatırımların euro cinsinden otomatik olarak DAHA DEĞERLİ olur!",
+      "fxQuizSetup": "Euro, dolar ve yen karşısında ciddi şekilde değer kaybediyor",
+      "fxQuizLose": "Avrupa ekonomisi zorlandığı için değer kaybeder",
+      "fxQuizGain": "Euro cinsinden YÜKSELİR, çünkü yabancı varlıkların kur değeri kazandı",
+      "dcaTitle": "Maliyet Ortalaması",
+      "dcaAbbrev": "MO",
+      "food": "margherita pizza"
+    },
+    "ES": {
+      "name": "İspanya",
+      "cName": "euro",
+      "cPlural": "euro",
+      "exDesc": "İspanya'nın ana borsası ve Latin Amerika piyasalarına açılan kapı",
+      "sectorList": "👗 Moda ve güzellik: Inditex (Zara), Puig. İspanya'nın küresel stil imparatorluğu\n🏦 Bankacılık: Santander, BBVA, CaixaBank. İspanyol bankalarının devasa küresel erişimi var\n⚡ Enerji: Iberdrola, Endesa. Avrupa'da yenilenebilir enerji liderleri\n📡 Telekom: Telefónica, Cellnex. İspanya'nın bağlantı omurgası\n🏗️ Altyapı: Ferrovial, ACS. Dünya çapında altyapı inşa ediyorlar",
+      "etfBasket": "İspanya'nın en yoğun işlem gören 35 şirketi",
+      "etfDesc": "Örneğin IBEX 35, teknik bir komitenin işlem hacmine göre seçtiği, en yoğun işlem gören 35 İspanyol hissesinin listesidir. Yani bu bir en büyükler listesi değil, en çok işlem görenler listesidir.",
+      "etfList": "🇪🇸 Bir IBEX 35 ETF'si: En yoğun işlem gören 35 İspanyol hissesi.\n🌍 iShares Core MSCI World: 23 gelişmiş ülkeden şirketler.\n🇺🇸 Vanguard S&P 500: S&P 500 listesindeki 500 büyük ABD şirketi.\n🇪🇺 Bir EURO STOXX 50 ETF'si: Euro bölgesinin dört bir yanından 50 öncü büyük şirket (blue chip).",
+      "currencyHedge": "Euro diğer para birimleri karşısında değer kaybederse, uluslararası yatırımların euro cinsinden otomatik olarak DAHA DEĞERLİ olur!",
+      "fxQuizSetup": "Euro, dolar ve yen karşısında ciddi şekilde değer kaybediyor",
+      "fxQuizLose": "Avrupa ekonomisi zorlandığı için değer kaybeder",
+      "fxQuizGain": "Euro cinsinden YÜKSELİR, çünkü yabancı varlıkların kur değeri kazandı",
+      "dcaTitle": "Maliyet Ortalaması",
+      "dcaAbbrev": "MO",
+      "food": "tapas tabağı"
+    },
+    "NL": {
+      "name": "Hollanda",
+      "cName": "euro",
+      "cPlural": "euro",
+      "exDesc": "1602'de kurulan, dünyanın en eski borsası",
+      "sectorList": "💻 Teknoloji: ASML, Adyen. ASML dünyanın en gelişmiş çiplerine güç veriyor\n⚡ Enerji: Shell, SBM Offshore. Merkezi Hollanda'da olan küresel enerji devleri\n🏦 Bankacılık: ING, ABN AMRO. Faiz oranları yükseldiğinde iyi giderler\n🍺 Tüketim: Heineken, Ahold Delhaize. Küresel yiyecek ve içecek markaları\n📡 Telekom: KPN, ülkenin borsada işlem gören en büyük bağlantı sağlayıcısı",
+      "etfBasket": "Amsterdam'da en aktif işlem gören 25 şirket",
+      "etfDesc": "Örneğin AEX, Amsterdam borsasında en aktif işlem gören 25 hissenin listesidir. Şirketleri ne kadar büyük olduklarına göre değil, ne kadar işlem gördüklerine göre sıralar.",
+      "etfList": "🇳🇱 iShares AEX: Amsterdam'da en aktif işlem gören 25 hisse.\n🌍 Vanguard FTSE All-World: Tek alımla onlarca ülkeden şirketler.\n🇺🇸 iShares Core S&P 500: S&P 500 listesindeki 500 büyük ABD şirketi.\n🇪🇺 Bir EURO STOXX 50 ETF'si: Euro bölgesinin dört bir yanından 50 öncü büyük şirket (blue chip).",
+      "currencyHedge": "Euro diğer para birimleri karşısında değer kaybederse, uluslararası yatırımların euro cinsinden otomatik olarak DAHA DEĞERLİ olur!",
+      "fxQuizSetup": "Euro, dolar ve yen karşısında ciddi şekilde değer kaybediyor",
+      "fxQuizLose": "Avrupa ekonomisi zorlandığı için değer kaybeder",
+      "fxQuizGain": "Euro cinsinden YÜKSELİR, çünkü yabancı varlıkların kur değeri kazandı",
+      "dcaTitle": "Maliyet Ortalaması",
+      "dcaAbbrev": "MO",
+      "food": "kroket"
+    },
+    "BR": {
+      "name": "Brezilya",
+      "cName": "real",
+      "cPlural": "real",
+      "exDesc": "Latin Amerika'nın en büyük borsası",
+      "sectorList": "⛏️ Madencilik: Vale, CSN. Brezilya'nın demir cevheri ve çelik devleri\n⚡ Enerji: Petrobras, Eletrobras. Büyük petrol ve elektrik şirketleri\n🏦 Bankacılık: Itaú, Bradesco, Banco do Brasil. Faiz oranları yükseldiğinde iyi giderler\n🍺 Tüketim: Ambev, JBS. Yiyecek ve içecek güç merkezleri\n📡 Telekom: Vivo, TIM Brasil. Brezilya'nın mobil ve geniş bant sağlayıcıları",
+      "etfBasket": "B3 borsasında en yoğun işlem gören şirketler",
+      "etfDesc": "Örneğin Ibovespa, B3 borsasında en yoğun işlem gören şirketlerin listesidir. Bir şirket listedeki yerini ne kadar büyük olduğuyla değil, ne kadar alınıp satıldığıyla kazanır. Bu yüzden listedeki şirket sayısı zamanla değişir.",
+      "etfList": "🇧🇷 BOVA11: B3'te en yoğun işlem gören şirketlerden oluşan Ibovespa'yı takip eder. Gösterge endeks.\n🇺🇸 IVVB11: S&P 500'ü takip eder. Yani real cinsinden fiyatlanan 500 büyük ABD şirketi.\n🌍 Küresel bir hisse ETF'si: Tek alımla gelişmiş ve gelişmekte olan piyasalar.\n💡 HASH11: Bitcoin, Ethereum ve daha fazlasını tutan bir kripto endeks fonu.",
+      "currencyHedge": "Real dolar karşısında değer kaybederse, uluslararası yatırımların R$ cinsinden otomatik olarak DAHA DEĞERLİ olur!",
+      "fxQuizSetup": "Brezilya reali, dolar karşısında R$5'ten R$6'ya değer kaybediyor",
+      "fxQuizLose": "Brezilya ekonomisi zorlandığı için değer kaybeder",
+      "fxQuizGain": "Real cinsinden YÜKSELİR, çünkü her dolar daha fazla real alır",
+      "dcaTitle": "Real Maliyet Ortalaması",
+      "dcaAbbrev": "RMO",
+      "food": "pão de queijo menü"
+    },
+    "SA_ARABIA": {
+      "name": "Suudi Arabistan",
+      "cName": "riyal",
+      "cPlural": "riyal",
+      "exDesc": "Orta Doğu'nun en büyük borsası",
+      "sectorList": "🛢️ Enerji: Saudi Aramco, SABIC. Aramco dünyanın en değerli petrol şirketi\n🏦 Bankacılık: Al Rajhi, SNB, Riyad Bank. Faiz oranları yükseldiğinde iyi giderler\n📡 Telekom: STC, Mobily. Suudi Arabistan'ın mobil ve geniş bant sağlayıcıları\n🛍️ Perakende: Jarir, Extra. Popüler tüketici perakende zincirleri\n⛏️ Malzeme: Ma'aden, Yansab. Madencilik ve petrokimya",
+      "etfBasket": "Tadawul ana pazarında işlem gören tüm şirketler",
+      "etfDesc": "TASI (Tadawul Tüm Hisseler Endeksi) hiç de bir ilk 30 ya da ilk 100 listesi değildir. Tadawul ana pazarında işlem gören her şirketi kapsar; yani bir şirket borsaya girdiğinde ya da ayrıldığında içindeki şirket sayısı değişir.",
+      "etfList": "🇸🇦 TASI'yi takip eden bir ETF: Tüm Tadawul ana pazarına geniş erişim.\n📦 Bir Suudi blue chip ETF'si: En büyük Suudi isimlerinden oluşan çok daha küçük bir sepet.\n🌍 Bir MSCI Saudi Arabia ETF'si: MSCI'ın Suudi endeksini, yani piyasanın elenmiş bir alt kümesini takip eder.\n🇺🇸 Bir S&P 500 fonu: S&P 500 listesindeki 500 büyük ABD şirketi.",
+      "currencyHedge": "Riyal ABD dolarına sabitlendiği için, başka para birimlerinde küresel yatırım yapmak o para birimleri güçlendiğinde senin işine yarar!",
+      "fxQuizSetup": "Euro ve yen gibi küresel para birimleri riyal karşısında güçleniyor",
+      "fxQuizLose": "Suudi Arabistan ekonomisi zorlandığı için değer kaybeder",
+      "fxQuizGain": "Riyal cinsinden YÜKSELİR, çünkü yabancı varlıkların kur değeri kazandı",
+      "dcaTitle": "Riyal Maliyet Ortalaması",
+      "dcaAbbrev": "RMO",
+      "food": "Al Baik menü"
+    },
+    "KR": {
+      "name": "Güney Kore",
+      "cName": "won",
+      "cPlural": "won",
+      "exDesc": "Samsung, Hyundai ve Asya'nın en yenilikçi şirketlerinden bazılarının evi",
+      "sectorList": "💻 Teknoloji: Samsung, SK Hynix, Kakao. Lider küresel teknoloji ve çip şirketleri\n🚗 Otomotiv: Hyundai, Kia. Kore'nin dünyaca ünlü otomobil üreticileri\n🏦 Bankacılık: KB Financial, Shinhan. Faiz oranları yükseldiğinde iyi giderler\n🎶 Eğlence: HYBE, CJ ENM. K-pop ve K-drama küresel kültür dalgası\n📡 Telekom: KT, LG Uplus. Güney Kore'nin ultra hızlı bağlantısı",
+      "etfBasket": "Kore'nin en büyük ve en yoğun işlem gören 200 şirketi",
+      "etfDesc": "Örneğin KOSPI 200, piyasanın her kesimi temsil edilsin diye sektör sektör seçilmiş, Kore'nin en büyük ve en yoğun işlem gören 200 şirketinin listesidir.",
+      "etfList": "🇰🇷 KODEX 200: Kore'nin en büyük, en çok işlem gören 200 şirketinden oluşan KOSPI 200'ü takip eder.\n🌍 Küresel bir hisse ETF'si: Tek alımla gelişmiş piyasa şirketleri.\n🇺🇸 TIGER Nasdaq 100: Nasdaq'taki finans dışı en büyük 100 şirket.\n💡 KODEX Samsung Group: Borsada işlem gören Samsung grup şirketlerini takip eder.",
+      "currencyHedge": "Won diğer para birimleri karşısında değer kaybederse, uluslararası yatırımların won cinsinden otomatik olarak DAHA DEĞERLİ olur!",
+      "fxQuizSetup": "Won, dolar karşısında ₩1,300'den ₩1,400'e değer kaybediyor",
+      "fxQuizLose": "Güney Kore ekonomisi zorlandığı için değer kaybeder",
+      "fxQuizGain": "Won cinsinden YÜKSELİR, çünkü her dolar daha fazla won alır",
+      "dcaTitle": "Won Maliyet Ortalaması",
+      "dcaAbbrev": "WMO",
+      "food": "bir kâse bibimbap"
+    },
+    "TW": {
+      "name": "Tayvan",
+      "cName": "Tayvan doları",
+      "cPlural": "Tayvan doları",
+      "exDesc": "dünyanın en gelişmiş çiplerinin çoğunu üreten TSMC'nin evi",
+      "sectorList": "💻 Teknoloji: TSMC, MediaTek, ASUS. Dünyanın çiplerini Tayvan üretiyor\n🏭 Üretim: Hon Hai (Foxconn), Delta. Elektronik üretim devleri\n🏦 Bankacılık: Cathay Financial, Fubon. Faiz oranları yükseldiğinde iyi giderler\n🧪 Kimya: Formosa Plastics, Nan Ya. Endüstriyel malzeme liderleri\n📡 Telekom: Chunghwa Telecom, Far EasTone. Tayvan'ın bağlantı omurgası",
+      "etfBasket": "Tayvan Borsası'ndaki en büyük 50 şirket",
+      "etfDesc": "Tayvan'ın birbirinden çok farklı iki listesi var. TAIEX, Tayvan Borsası'nda işlem gören her şirketi, yani yaklaşık bin şirketi kapsar. Popüler 0050 ETF'sinin takip ettiği Taiwan 50 ise sadece en büyük 50 şirkettir.",
+      "etfList": "🇹🇼 0050 (Yuanta Taiwan Top 50): Tayvan borsasındaki en büyük 50 şirket. Klasik.\n📦 0056 (Yuanta High Dividend): Beklenen temettü verimine göre seçilmiş Tayvan hisseleri.\n🇺🇸 00646 (Yuanta S&P 500): S&P 500 listesindeki 500 büyük ABD şirketi.\n💡 00662 (Fubon Nasdaq 100): Nasdaq'taki finans dışı en büyük 100 şirket.",
+      "currencyHedge": "Tayvan doları diğer para birimleri karşısında değer kaybederse, uluslararası yatırımların NT$ cinsinden otomatik olarak DAHA DEĞERLİ olur!",
+      "fxQuizSetup": "Tayvan doları, ABD doları karşısında NT$30'dan NT$34'e değer kaybediyor",
+      "fxQuizLose": "Tayvan ekonomisi zorlandığı için değer kaybeder",
+      "fxQuizGain": "NT$ cinsinden YÜKSELİR, çünkü yabancı varlıkların kur değeri kazandı",
+      "dcaTitle": "Dolar Maliyet Ortalaması",
+      "dcaAbbrev": "DMO",
+      "food": "dana etli erişte çorbası"
+    },
+    "SG": {
+      "name": "Singapur",
+      "cName": "Singapur doları",
+      "cPlural": "Singapur doları",
+      "exDesc": "Güneydoğu Asya'nın önde gelen finans merkezi ve borsası",
+      "sectorList": "🏦 Bankacılık: DBS, OCBC, UOB. Singapur'un kaya gibi sağlam banka üçlüsü\n✈️ Ulaşım: Singapore Airlines, SATS. Dünya standartlarında havacılık\n🏗️ Gayrimenkul: CapitaLand, City Developments. Singapur'da gayrimenkul çok büyük iş\n💻 Teknoloji: Venture Corporation, AEM. SGX'teki teknoloji şirketleri çoğunlukla elektronik üretimidir; Sea ve Grab ise ABD'de borsaya girmeyi seçti\n📡 Telekom: Singtel, StarHub. Singapur'un bağlantı sağlayıcıları",
+      "etfBasket": "Singapur Borsası'ndaki en büyük 30 şirket",
+      "etfDesc": "Örneğin Straits Times Endeksi, Singapur Borsası'ndaki, halka açıklık ve işlem testlerini de geçen en büyük 30 şirketin listesidir.",
+      "etfList": "🇸🇬 Nikko AM STI ETF: Singapur Borsası'ndaki en büyük 30 şirket. Gösterge endeks.\n📦 ABF Singapore Bond Index Fund: Tek fonda Singapur devlet tahvilleri.\n🌏 iShares MSCI Asia ex Japan: Asya piyasalarına geniş erişim.\n🇺🇸 Bir S&P 500 ETF'si: S&P 500 listesindeki 500 büyük ABD şirketi.",
+      "currencyHedge": "Singapur doları diğer para birimleri karşısında değer kaybederse, uluslararası yatırımların S$ cinsinden otomatik olarak DAHA DEĞERLİ olur!",
+      "fxQuizSetup": "Singapur doları, ABD doları karşısında ciddi şekilde değer kaybediyor",
+      "fxQuizLose": "Singapur ekonomisi zorlandığı için değer kaybeder",
+      "fxQuizGain": "S$ cinsinden YÜKSELİR, çünkü yabancı varlıkların kur değeri kazandı",
+      "dcaTitle": "Dolar Maliyet Ortalaması",
+      "dcaAbbrev": "DMO",
+      "food": "hawker centre'da (sokak yemekleri merkezi) bir öğün"
+    },
+    "CH": {
+      "name": "İsviçre",
+      "cName": "frank",
+      "cPlural": "frank",
+      "exDesc": "Avrupa'nın en değerli üç şirketi olan Nestlé, Novartis ve Roche'un evi",
+      "sectorList": "💊 İlaç: Novartis, Roche. Küresel ilaç devleri\n🍫 Tüketim: Nestlé, Lindt. Dünyanın en ikonik gıda markaları\n🏦 Bankacılık: UBS, Julius Baer. İsviçre bankacılığı efsanedir\n🏭 Sanayi: ABB, Holcim. Küresel mühendislik ve inşaat\n📡 Telekom: Swisscom, Sunrise. İsviçre'nin bağlantı sağlayıcıları",
+      "etfBasket": "İsviçre'nin en büyük ve en yoğun işlem gören 20 şirketi",
+      "etfDesc": "Örneğin Swiss Market Index (SMI), İsviçre'nin en büyük ve en yoğun işlem gören 20 şirketinin listesidir.",
+      "etfList": "🇨🇭 iShares Core SPI: Sadece büyük isimler değil, tüm İsviçre piyasası.\n💡 Bir SMI ETF'si: İsviçre'nin en büyük, en yoğun işlem gören 20 şirketi.\n🌍 UBS ETF MSCI World: 23 gelişmiş ülkeden şirketler.\n🇺🇸 iShares Core S&P 500: S&P 500 listesindeki 500 büyük ABD şirketi.",
+      "currencyHedge": "Frank diğer para birimleri karşısında değer kaybederse, uluslararası yatırımların CHF cinsinden DAHA DEĞERLİ olur. İsviçre frangı genelde çok güçlüdür!",
+      "fxQuizSetup": "İsviçre frangı, dolar ve euro karşısında ciddi şekilde değer kaybediyor",
+      "fxQuizLose": "İsviçre ekonomisi zorlandığı için değer kaybeder",
+      "fxQuizGain": "Frank cinsinden YÜKSELİR, çünkü yabancı varlıkların kur değeri kazandı",
+      "dcaTitle": "Frank Maliyet Ortalaması",
+      "dcaAbbrev": "FMO",
+      "food": "kebap"
+    },
+    "SE": {
+      "name": "İsveç",
+      "cName": "kron",
+      "cPlural": "kron",
+      "exDesc": "Ericsson, Volvo ve şaşırtıcı sayıda küresel markanın evi",
+      "sectorList": "💻 Teknoloji: Ericsson, Hexagon. İsveç teknolojide boyundan büyük işler yapıyor\n🚗 Otomotiv: Volvo, Volvo Cars. İsveç mühendislik mükemmelliği\n🏦 Bankacılık: SEB, Handelsbanken, Nordea. Faiz oranları yükseldiğinde iyi giderler\n👗 Perakende: H&M, Essity. Küresel moda ve tüketim markaları\n📡 Telekom: Telia, Tele2. İskandinav bağlantı liderleri",
+      "etfBasket": "Stockholm'de en yoğun işlem gören 30 şirket",
+      "etfDesc": "Örneğin OMXS30, Stockholm borsasında en yoğun işlem gören 30 hissenin listesidir. Şirket büyüklüğüne göre değil, işlem hareketliliğine göre sıralar.",
+      "etfList": "🇸🇪 Xact OMXS30: Stockholm'de en yoğun işlem gören 30 hisse.\n💰 Avanza Zero: Yıllık yönetim ücreti olmayan bir İsveç endeks fonu. Aynı 30 Stockholm hissesini takip eder.\n🌍 Küresel bir endeks fonu: Tek alımla onlarca ülkeden şirketler.\n🇺🇸 Bir S&P 500 fonu: S&P 500 listesindeki 500 büyük ABD şirketi.",
+      "currencyHedge": "Kron diğer para birimleri karşısında değer kaybederse, uluslararası yatırımların kr cinsinden otomatik olarak DAHA DEĞERLİ olur!",
+      "fxQuizSetup": "İsveç kronu, dolar ve euro karşısında ciddi şekilde değer kaybediyor",
+      "fxQuizLose": "İsveç ekonomisi zorlandığı için değer kaybeder",
+      "fxQuizGain": "Kron cinsinden YÜKSELİR, çünkü yabancı varlıkların kur değeri kazandı",
+      "dcaTitle": "Kron Maliyet Ortalaması",
+      "dcaAbbrev": "KMO",
+      "food": "falafel dürüm"
+    }
+  }
+}

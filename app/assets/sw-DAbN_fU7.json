@@ -1,0 +1,1846 @@
+{
+  "_meta": {
+    "lang": "sw",
+    "source": "src/constants/lessonData.js",
+    "lessons": 84,
+    "hash": {
+      "1": "d38ab2ed",
+      "2": "bf930bc6",
+      "3": "6e4e4d63",
+      "4": "5b7802cc",
+      "5": "0f9cde1d",
+      "6": "e5999569",
+      "7": "66bc9202",
+      "8": "65677cac",
+      "9": "59a1fc31",
+      "10": "03ccde2e",
+      "11": "fbb06743",
+      "12": "7713dc86",
+      "13": "38054a44",
+      "14": "cbac8395",
+      "15": "4355d5d7",
+      "16": "bee25cb0",
+      "17": "a5cba909",
+      "18": "df93ed01",
+      "19": "ad2f3ae8",
+      "20": "6363dc90",
+      "21": "65a3ab78",
+      "22": "61f1ee9c",
+      "23": "a475dd40",
+      "24": "6874af82",
+      "25": "d92ac77b",
+      "26": "e8f1b315",
+      "27": "c3b42e04",
+      "28": "c3719a16",
+      "29": "b8690fa4",
+      "30": "272435ad",
+      "31": "ebbffa78",
+      "32": "31ae442d",
+      "33": "71dbb7c6",
+      "34": "62d271e6",
+      "35": "da185960",
+      "36": "66e0a88e",
+      "37": "4a91dc0c",
+      "38": "9ec4dee7",
+      "39": "ae809a71",
+      "40": "c3b12ff9",
+      "41": "aa4153d7",
+      "42": "29941a97",
+      "43": "d87240fc",
+      "44": "87c794ce",
+      "45": "a3dd8868",
+      "46": "7873826b",
+      "47": "47503da5",
+      "48": "6d2df7b4",
+      "49": "c1055330",
+      "50": "7d4a6a8a",
+      "51": "27e927d2",
+      "52": "041c444d",
+      "53": "8fb1d4bc",
+      "54": "33ec5d94",
+      "55": "b7571fb2",
+      "56": "f20ea6ce",
+      "57": "5a1f3993",
+      "58": "561a7caf",
+      "59": "67437975",
+      "60": "6db8d44d",
+      "61": "04bbebe6",
+      "62": "b43659be",
+      "63": "a6bfefd0",
+      "64": "a2cc88e0",
+      "65": "2f12b47a",
+      "66": "4a676ede",
+      "67": "17351f96",
+      "68": "e9dda763",
+      "69": "3b1a13c3",
+      "70": "b07744de",
+      "71": "798da84a",
+      "72": "960b5a23",
+      "73": "76df64cb",
+      "74": "90735bdf",
+      "75": "b5be8d19",
+      "76": "b2c7a6ad",
+      "77": "1f3344ae",
+      "78": "e03a370e",
+      "79": "3b881962",
+      "80": "64bddadd",
+      "81": "d30753ea",
+      "82": "71620bf3",
+      "83": "989bc8a6",
+      "84": "cdd0a41d"
+    }
+  },
+  "lessons": {
+    "1": {
+      "title": "Hisa ni Nini?",
+      "desc": "Miliki kipande kidogo cha kampuni",
+      "content": "Fikiria wewe na marafiki 9 kila mmoja anachangia {c}10 ili mnunue pamoja jozi ya viatu vya {c}100. Kila mmoja wenu anamiliki 1/10 ya viatu hivyo, na hiyo kimsingi ndiyo hisa! Ukinunua hisa katika {retail}, unamiliki kipande kidogo cha kila duka, kila bidhaa, na kila {cName} wanayoingiza. Kadiri kampuni inavyokua, ndivyo kipande chako kinavyoongezeka thamani! 🔥",
+      "quiz": {
+        "q": "Wewe na marafiki 4 mnagawana gharama ya kiti cha michezo ya video cha {c}500 kwa usawa. Kila mmoja wenu anamiliki nini?",
+        "explanation": "Kumiliki hisa ni kumiliki sehemu ya kitu kizima. Walipaji watano wanaolipa sawa ni vipande vitano sawa, na kila kipande kina haki sawa na vingine.",
+        "options": [
+          "1/5 (20%) ya kiti kila mmoja",
+          "Hakuna kitu, mtu mmoja tu ndiye anaweza kukimiliki",
+          "Kiti kizima kwa pamoja bila sehemu ya mtu binafsi"
+        ]
+      }
+    },
+    "2": {
+      "title": "Kuelewa {ex}",
+      "desc": "Soko la hisa la {name}",
+      "content": "Fikiria {ex} ({exFull}) kama soko kubwa sana la mtandaoni, ila badala ya kununua viatu au simu, watu hununua na kuuza vipande vidogo (hisa) vya kampuni kama {top5}. Liko wazi kila siku ya kazi isipokuwa sikukuu za umma, na bei hubadilika siku nzima kulingana na nani ananunua na nani anauza. {ex} ni {exDesc}! 🌍",
+      "quiz": {
+        "q": "{ex} linafanana zaidi na nini?",
+        "explanation": "Soko la hisa linakutanisha watu wanaotaka kununua hisa na watu wanaotaka kuziuza. Halimiliki hisa hizo, halichagui bei, na halitakulipa riba kwa kuacha pesa humo.",
+        "options": [
+          "Soko, ambapo wamiliki wa hisa hukutana na wanunuzi",
+          "Akaunti ya akiba, ambapo pesa hukaa na kupata riba",
+          "Duka linalomiliki hisa na kukuuzia"
+        ]
+      }
+    },
+    "3": {
+      "title": "Fahali dhidi ya Dubu",
+      "desc": "Mwelekeo wa soko umefafanuliwa",
+      "content": "Kwenye masoko, wanyama ndio wanaotawala 😄\n\n🐂 Fahali (Bull) = bei zinaPANDA. Fikiria fahali akishambulia kwenda juu kwa pembe zake. Kila mtu anashinda, watu wananunua, hali ni nzuri.\n\n🐻 Dubu (Bear) = bei zinaSHUKA. Fikiria dubu akipiga kwenda chini kwa makucha yake. Watu wanaogopa, wanauza, si wakati mzuri.\n\nMtu akisema 'Mimi ni bullish kuhusu {tech}', anaamini bei itapanda. Akisema 'bearish', anaamini inaelekea kushuka. Utasikia maneno haya kila mahali kwenye fedha!",
+      "quiz": {
+        "q": "Rafiki yako anasema 'Mimi ni bearish kuhusu {telco} wiki hii.' Hiyo inamaanisha nini?",
+        "explanation": "Bearish ni kutarajia bei kushuka, bullish ni kutarajia ipande. Dubu hupiga chini, fahali hurusha juu.",
+        "options": [
+          "Anaamini bei ya {telco} itapanda",
+          "Anaamini bei ya {telco} itashuka",
+          "Anataka kununua {telco} nyingi kadiri iwezekanavyo"
+        ]
+      }
+    },
+    "4": {
+      "title": "Wakala (Broker) ni Nani?",
+      "desc": "Lango lako la kununua hisa",
+      "content": "Huwezi tu kwenda kwa {retail} na kusema 'nipe sehemu ya kampuni yenu tafadhali' 😂 Unahitaji wakala (broker): programu au huduma inayounganisha wanunuzi na wauzaji kwenye soko la hisa.\n\nFikiria wakala kama {shop}. Unataka kitu, {shop} inakuunganisha nacho. Wanashughulikia muamala na kutoza ada ndogo. Mawakala maarufu nchini {name} ni pamoja na {broker} na wengine.\n\nHiki ndicho wakala HAFANYI: kuamua hisa zipi zitapanda. Anapeleka agizo lako sokoni. Bei hubadilika kwa sababu ya kile ambacho kila mtu huko nje ananunua na kuuza, si kwa sababu wakala wako amesema hivyo.\n\nHata hivyo, mawakala hutoa maoni. Wachambuzi wao hupa hisa daraja la 'nunua', 'shikilia' au 'uza'. Maoni si amri 🤷 Wachambuzi hutofautiana waziwazi kuhusu hisa ileile, na wengi wao huishia kukosea. Soma daraja kama tathmini, si kanuni.\n\nNoobTrader inakufundisha jinsi hii inavyofanya kazi hasa, bure, kwa pesa pepe!",
+      "quiz": {
+        "q": "Kwa nini unahitaji wakala ili kununua hisa?",
+        "explanation": "Wakala ni njia yako ya kuingia sokoni, si mtabiri na si mpangaji wa bei. Anapeleka agizo mbele, na bei ni ile ambayo soko lingine liko tayari kufanyia biashara. Wachambuzi wao hutoa madaraja, lakini daraja ni maoni, si maagizo.",
+        "options": [
+          "Wanachagua hisa zitakazopanda",
+          "Wanapanga bei unayolipa kwa kila hisa",
+          "Wanapeleka agizo lako hadi kwenye soko la hisa"
+        ]
+      }
+    },
+    "5": {
+      "title": "Misingi ya Bei ya Hisa",
+      "desc": "Kwa nini bei hupanda na kushuka?",
+      "content": "Umewahi kuona jinsi viatu vya toleo maalum vinavyopanda bei vinapotoka? Jambo hilohilo hutokea kwa hisa. Yote ni kuhusu ugavi na mahitaji.\n\n📈 Watu wengi WANATAKA kununua → bei INAPANDA\n📉 Watu wengi WANATAKA kuuza → bei INASHUKA\n\n{telco} ikitangaza kuwa inapata wateja wapya milioni 10, kila mtu anataka sehemu, kwa hiyo bei inapaa. Ikiripoti hasara kubwa, watu wanauza kwa hofu na bei inashuka. Habari, matokeo, na hata mitindo ya mitandao ya kijamii inaweza kusogeza bei za hisa papo hapo!",
+      "quiz": {
+        "q": "{retail} inatangaza faida ya rekodi na mpango wa kufungua maduka mapya 50. Nini huenda kitatokea kwa bei ya hisa zake?",
+        "explanation": "Faida bora inayotarajiwa kwa kawaida humaanisha wanunuzi wengi zaidi, na wanunuzi wengi husukuma bei juu. Kutumia pesa ili kukua si sawa na kuzipoteza.",
+        "options": [
+          "Inapanda kwa sababu watu wengi zaidi wanataka kununua",
+          "Inabaki vilevile kabisa",
+          "Inaporomoka kwa sababu wanatumia pesa kwenye maduka"
+        ]
+      }
+    },
+    "6": {
+      "title": "Kusoma Chati ya Bei",
+      "desc": "Mishumaa, mistari na maana yake",
+      "content": "Chati ya bei ni kama video ya matukio muhimu ya historia ya hisa. Aina maarufu zaidi ni chati ya mishumaa (candlestick). Kila 'mshumaa' unakuonyesha mambo 4 kwa siku moja:\n\n🟢 Mshumaa wa kijani = bei ilipanda siku hiyo (ilifunguliwa chini, ikafungwa juu)\n🔴 Mshumaa mwekundu = bei ilishuka (ilifunguliwa juu, ikafungwa chini)\n📏 Mistari myembamba juu/chini = bei ya juu kabisa na ya chini kabisa ya siku\n\nUkiona mishumaa mingi ya kijani mfululizo, huo ni mwenendo imara wa kupanda. Mingi myekundu inamaanisha mwenendo wa kushuka. Kujifunza kusoma chati ni kama kujifunza kusoma ubao wa matokeo wa mchezo! 🎮",
+      "quiz": {
+        "q": "Unaona mishumaa 5 myekundu mfululizo kwenye chati. Hii inakuambia nini?",
+        "explanation": "Mshumaa mwekundu hufungwa chini ya ulipofunguliwa, kwa hiyo mitano mfululizo ni vipindi vitano vya kushuka. Rangi inakuambia mwelekeo, si ukubwa wa mabadiliko.",
+        "options": [
+          "Hisa imekuwa ikipanda kwa siku 5",
+          "Hisa imekuwa ikishuka kwa siku 5",
+          "Bei ya hisa haikubadilika"
+        ]
+      }
+    },
+    "7": {
+      "title": "Kiasi cha Biashara (Volume) na Kinachokuambia",
+      "desc": "Hisa ngapi zinafanyiwa biashara",
+      "content": "Volume = idadi ya hisa zilizonunuliwa na kuuzwa kwa siku. Ifikirie kama idadi ya watazamaji wa video ya TikTok.\n\n🔊 Volume KUBWA = watu wengi wanafanya biashara. Bei ikisogea na volume kubwa, ni ishara imara zaidi na ya kuaminika, kama video inayosambaa kweli, si kwa roboti.\n\n🔇 Volume NDOGO = watu wachache tu wanafanya biashara. Bei zinaweza kusogea kwa ajabu volume ikiwa ndogo, kama video yenye watazamaji 3 tu iliyoshirikiwa kwa bahati mbaya.\n\nKila mara angalia volume unapoona bei ikisogea sana. Inakuambia kama mabadiliko ni ya kweli au ni kelele tu!",
+      "quiz": {
+        "q": "Hisa ya {telco} inaruka 5% leo, lakini volume ni ndogo sana. Unapaswa kufikiri nini?",
+        "explanation": "Volume ni kiasi cha uhakika kilicho nyuma ya mabadiliko. Kuruka kukubwa kwa biashara ndogo sana kunaweza kufutika kwa urahisi kama kulivyotokea, kwa hiyo angalia volume kabla ya kuamini kuvunja kiwango.",
+        "options": [
+          "Hakika ni fursa kubwa, nunua sasa!",
+          "Volume ndogo kila mara inamaanisha bei itaendelea kupanda",
+          "Mabadiliko huenda si ya kuaminika, volume ndogo inayafanya yatiliwe shaka"
+        ]
+      }
+    },
+    "8": {
+      "title": "Usaidizi na Upinzani",
+      "desc": "Viwango vya bei vyenye umuhimu",
+      "content": "Fikiria bei ya hisa ni mpira unaodunda:\n\n🧱 USAIDIZI (SUPPORT) = sakafu ambayo mpira hudunda juu yake. Bei inaendelea kushuka lakini kila inapofika kiwango hiki, inadunda kurudi juu. Wanunuzi wengi hujitokeza hapa.\n\n🪟 UPINZANI (RESISTANCE) = dari ambayo mpira huigonga. Kila bei inapopanda hadi kiwango hiki, inasukumwa kurudi chini. Wauzaji wengi huchukua pesa zao hapa.\n\nWafanyabiashara hutumia viwango hivi kama ramani ya mchezo: nunua karibu na sakafu, uza karibu na dari. Bei inapovunja upinzani hatimaye, mara nyingi hupaa haraka. Inapovunja usaidizi, jiandae kwa kushuka! 💥\n\nOnyo moja la kweli: viwango hivi huchorwa na watu wanaotazama chati, si kanuni ambazo soko lazima lizitii. Hisa inaweza kuvunja 'usaidizi' moja kwa moja na kuendelea kushuka. 📉",
+      "quiz": {
+        "q": "Hisa imedunda kutoka {c}50 mara tatu bila kushuka chini yake. {c}50 inaitwaje?",
+        "explanation": "Sakafu inayoendelea kuheshimiwa ni usaidizi; dari inayoendelea kuikataa bei ni upinzani. Hakuna kati ya hivyo ni ahadi, lakini vyote vinafaa kujulikana kabla hujanunua.",
+        "options": [
+          "Kiwango cha usaidizi",
+          "Kiwango cha upinzani",
+          "Bei ya dari"
+        ]
+      }
+    },
+    "9": {
+      "title": "Mseto wa Uwekezaji",
+      "desc": "Usiweke mayai yote kwenye kikapu kimoja",
+      "content": "Fikiria unatumia bando LAKO LOTE la data kwenye programu moja ya kutiririsha. Kisha programu hiyo inazimika. Umebaki huna kitu. 😩\n\nLakini ukigawa data yako kwenye WhatsApp, YouTube, NA programu yako ya kutiririsha, moja ikizimika haiharibu raha yako yote.\n\nNdivyo ilivyo kwa uwekezaji! Ukiweka pesa ZAKO ZOTE kwenye hisa moja na ikaporomoka, unapoteza kila kitu. Lakini ukizigawa kwenye {telco} (mawasiliano), {retail} (rejareja), {tech} (teknolojia), na ETF, basi kuporomoka kwa moja hakuui portfolio yako yote. Mkakati huu wa kugawa unaitwa MSETO (DIVERSIFICATION). 💼",
+      "quiz": {
+        "q": "Una {c}500 za kuwekeza. Ni ipi kati ya hizi inayogawa hatari yako kweli?",
+        "explanation": "Maduka matano ya nguo yote hupanda na kushuka kwa sababu ileile, kwa hiyo pesa zilizogawanywa kwao hazijagawanywa karibu hata kidogo. Sekta tofauti hukumbwa na matatizo nyakati tofauti, na hicho ndicho kinachozuia tokeo moja baya lisichukue kila kitu.",
+        "options": [
+          "{c}100 kila moja kwenye maduka matano tofauti ya nguo",
+          "{c}100 kila moja kwenye sekta tano tofauti",
+          "{c}500 zote kwenye kampuni moja unayoipenda zaidi"
+        ]
+      }
+    },
+    "10": {
+      "title": "Hatari na Zawadi",
+      "desc": "Kwa nini faida kubwa = hatari kubwa",
+      "content": "Umewahi kununua sanduku la siri (mystery box)? Unaweza kupata kitu cha ajabu, au takataka kabisa. Hiyo ni hatari kubwa / zawadi kubwa.\n\nUwekezaji unafanya kazi vivyo hivyo:\n\n✅ HATARI NDOGO, ZAWADI NDOGO: Kama {retail}. Kampuni kubwa sana, iliyojiimarisha. Pesa zako huwa zinakua polepole na kwa uthabiti. Kumbuka 'ndogo', si 'hakuna'. Kampuni kubwa nazo huanguka.\n\n🎲 HATARI KUBWA, ZAWADI KUBWA: Kama kampuni ndogo changa ya uchimbaji madini. Inaweza kuongezeka mara 10, au kutoweka. Kama sanduku la siri.\n\nKabla ya kuwekeza kwenye chochote, kila mara uliza: 'Jambo baya zaidi linaloweza kutokea ni lipi?' Kama huwezi kumudu kuzipoteza, usichukue hatari hiyo!",
+      "quiz": {
+        "q": "Sarafu ambayo hakuna aliyewahi kuisikia inaahidi faida ya 500%. Ahadi kubwa hivyo inakuambia nini hasa?",
+        "explanation": "Hatari na zawadi ni ncha mbili za fimbo moja. Hakuna anayegawa 500% bure, kwa hiyo ukubwa wa ahadi hasa ni kipimo cha jinsi kiasi chote kinavyoweza kutoweka kwa urahisi. Kabla ya kuweka pesa kwenye chochote, uliza hali mbaya zaidi inaonekanaje na kama ungeweza kuistahimili.",
+        "options": [
+          "Ni bei nafuu ambayo soko lingine kwa namna fulani limeikosa",
+          "Kadiri ahadi ilivyo kubwa, ndivyo watu walio nyuma yake walivyo makini",
+          "Uwezekano wa kupoteza kila kitu ni mkubwa kama ahadi yenyewe"
+        ]
+      }
+    },
+    "11": {
+      "title": "Muda Mrefu dhidi ya Muda Mfupi",
+      "desc": "Fikra za uwekezaji dhidi ya biashara",
+      "content": "🏃 BIASHARA YA MUDA MFUPI: Kununua na kuuza ndani ya siku au wiki ili kunasa mabadiliko ya haraka ya bei. Msongo mkubwa, inahitaji muda mwingi mbele ya skrini. Kama kujaribu kutabiri nani atashinda kila mechi wakati wa mashindano.\n\n🧘 UWEKEZAJI WA MUDA MREFU: Kununua hisa na kuzishikilia kwa miaka. Unavumilia kushuka na kuacha pesa zako zikue. Kama kubashiri timu itakayoshinda msimu mzima. Huingiwi na hofu baada ya mechi moja mbaya.\n\nTafiti za akaunti halisi za uwakala zinaendelea kupata mtindo uleule: kadiri watu wanavyofanya biashara mara nyingi zaidi, ndivyo wanavyofanya vibaya zaidi gharama zikihesabiwa.\n\nNa muda ndiyo faida moja isiyoweza kununuliwa tena baadaye. Kila mwaka pesa zinapobaki zimewekezwa ni mwaka mwingine wa riba mchanganyiko kufanya kazi. ⏳",
+      "quiz": {
+        "q": "Watu wawili wananunua hisa zilezile kwa pesa zilezile. Mmoja anaingia na kutoka kila wiki, mwingine anaziacha kwa miaka kumi. Tafiti za akaunti halisi zinaendelea kupata nini?",
+        "explanation": "Kila biashara ina gharama, na gharama hiyo hutoka iwe biashara ilifanikiwa au la. Utafiti baada ya utafiti wa akaunti halisi za uwakala unapata mtindo uleule: kadiri watu wanavyofanya biashara mara nyingi zaidi, ndivyo wanavyobaki nyuma zaidi. Kuacha pesa zitulie si uvivu, ni mpango wa bei nafuu zaidi.",
+        "options": [
+          "Aliye na shughuli nyingi kwa kawaida hubaki nyuma gharama zikihesabiwa",
+          "Aliye na shughuli nyingi kwa kawaida hushinda, kwa sababu juhudi hulipwa hapa",
+          "Wanamaliza sawa, kwa sababu walishikilia hisa zilezile kabisa"
+        ]
+      }
+    },
+    "12": {
+      "title": "{dcaTitle}",
+      "desc": "Wekeza kiasi kilekile mara kwa mara",
+      "content": "Huu ni mkakati rahisi kiasi kwamba hauonekani kama mkakati, na unafuta swali gumu zaidi katika uwekezaji:\n\nWekeza kiasi KILEKILE kila mwezi, bei ziwe juu au chini. Kama kutenga {c}100 kutoka pesa zako za siku ya kuzaliwa au posho kila mwezi bila kukosa.\n\n📉 Bei zikiwa CHINI → {c}100 zako zinanunua hisa NYINGI ZAIDI\n📈 Bei zikiwa JUU → {c}100 zako zinanunua hisa CHACHE ZAIDI\n\nKadiri muda unavyopita, gharama yako ya wastani kwa kila hisa inalainika na unajikuta 'ukinunua wakati wa kushuka' bila hata kujaribu! Hii inaitwa {dcaTitle} ({dcaAbbrev}). Inaondoa hisia katika uwekezaji kwa sababu hulazimiki kamwe kuamua 'je, SASA ndio wakati sahihi?' Unajitoa tu na kuendelea! 💪\n\nUkweli mtupu: hii haitashinda kila mara kuweka kiasi kikubwa chote kwa mara moja. Inachofanya ni kukupa mpango unaoweza kuufuata kweli.",
+      "quiz": {
+        "q": "Unaweka 200 NT hisa ikiwa inagharimu 100 NT. Kisha hisa inaporomoka, na 200 NT zako zinazofuata zinaingia kwa 25 NT. Buruta hadi gharama yako ya wastani kwa kila hisa katika malipo hayo mawili.",
+        "explanation": "200 NT zako za kwanza zilinunua hisa 2 kwa 100 NT. 200 NT zako za pili zilinunua hisa 8 kwa 25 NT. Hiyo ni 400 NT kwa hisa 10, kwa hiyo 40 NT kila moja. Angalia kwamba haiko karibu hata kidogo na katikati ya bei hizo mbili: pesa zilezile zinanunua zaidi kiotomatiki vitu vikiwa nafuu, na hicho ndicho kinachoshusha wastani wako."
+      }
+    },
+    "13": {
+      "title": "Watoto wa Pesa 💸",
+      "desc": "Kulipwa kwa kushikilia hisa tu",
+      "content": "Fikiria unamiliki mashine ya kuuza vitafunio. Kila wiki, watu hununua vitafunio kutoka mashine YAKO, na unakusanya pesa, kwa sababu tu unaimiliki. Hukulazimika kufanya kitu cha ziada!\n\nHivyo ndivyo gawio (dividends) lilivyo. Tunaziita Watoto wa Pesa 🍼 kwa sababu pesa zako kweli zinazaa watoto: malipo madogo ya pesa yanayotua kwenye akaunti yako kwa sababu tu unamiliki hisa.\n\nKampuni kubwa kama {divPayers} hulipa Watoto wa Pesa mara kwa mara. Kadiri unavyoshikilia hisa nyingi, ndivyo watoto wako wanavyokuwa wakubwa!\n\n⚠️ HAYAJAHAKIKISHWA. Kampuni huamua kila mara kama italipa, na inaweza kupunguza gawio au kulisitisha kabisa biashara ikiwa ngumu. Malipo makubwa mwaka huu si ahadi ya malipo mwaka ujao.\n\nNa ukiwekeza tena watoto hao kununua hisa ZAIDI... kundi lako linalofuata linakuwa kubwa zaidi. Ni mzunguko mzuri sana 🔁",
+      "quiz": {
+        "q": "{bank} inakulipa {c}5 kwa kila hisa unayomiliki, bila wewe kuuza chochote. Malipo hayo yanaitwaje?",
+        "explanation": "Gawio ni sehemu ya faida ya kampuni inayokabidhiwa kwa watu wanaoimiliki. Programu hii inaziita Watoto wa Pesa. Unabaki na kila hisa uliyokuwa nayo, na pesa bado zinatua kwenye akaunti yako. Hata hivyo haliahidiwi, na kampuni inaweza kulipunguza au kulisitisha wakati wowote biashara ikiwa ngumu.",
+        "options": [
+          "Gawio, kipande cha faida",
+          "Riba, aina ambayo akaunti ya akiba hulipa",
+          "Bonasi ya uaminifu kwa kuwa mteja"
+        ]
+      }
+    },
+    "14": {
+      "title": "Riba Mchanganyiko",
+      "desc": "Jinsi pesa zako zinavyokua zenyewe",
+      "content": "Hii ndiyo siri yenye nguvu zaidi ya pesa utakayowahi kujifunza. Uko tayari? 👀\n\nUnawekeza {c}1,000 kwa 10% kwa mwaka:\n• Mwaka 1: {c}1,000 → {c}1,100 (umepata {c}100)\n• Mwaka 2: {c}1,100 → {c}1,210 (umepata {c}110, zaidi ya mwaka 1!)\n• Mwaka 3: {c}1,210 → {c}1,331 (umepata {c}121)\n\nSasa unapata riba juu ya RIBA yako. Mpira wa theluji unakua kila mwaka bila wewe kuongeza chochote cha ziada. Baada ya miaka 30 kwa 10%? Hizo {c}1,000 zinakuwa {c}17,449! 🤯\n\nUtaona hii ikiitwa 'maajabu ya nane ya dunia' na ikihusishwa na Einstein. Hakuna ushahidi wa kweli kwamba aliwahi kusema hivyo, lakini hesabu ndiyo sehemu muhimu, na hesabu ni ya kweli. Anza mapema, na muda utakufanyia kazi nzito.",
+      "quiz": {
+        "q": "Unaweka 2,000 NT kwa 10% kwa mwaka na huzigusi kamwe. Buruta hadi thamani yake baada ya miaka mitatu.",
+        "explanation": "Mwaka wa kwanza unaongeza 200 NT, inakuwa 2,200. Mwaka wa pili unachukua 10% ya 2,200, kwa hiyo unaongeza 220 na inakuwa 2,420. Mwaka wa tatu unaongeza 242 na inafika 2,662. Kila mwaka 10% inahesabiwa juu ya rundo kubwa zaidi, ndiyo maana kuongeza 200 mara tatu na kusimama kwenye 2,600 kunapungukiwa."
+      }
+    },
+    "15": {
+      "title": "Riba Mchanganyiko na Hisa",
+      "desc": "Kuwekeza tena Watoto wa Pesa ili kukua",
+      "content": "Unakumbuka Watoto wa Pesa (gawio)? Hapa ndipo inapovutia 🤯\n\nKawaida: Unapata {c}50 za Watoto wa Pesa → unazitumia kwa vitafunio → basi.\n\nHatua ya busara: Unapata {c}50 za Watoto wa Pesa → unanunua hisa ZAIDI → wakati ujao unapata Watoto wa Pesa WENGI ZAIDI → unanunua hisa zaidi tena → mpira wa theluji unaenda 🔝\n\nHii ni riba mchanganyiko inayotumika kwenye hisa. Piga hesabu: weka kiasi kilekile kila mwezi kwa miaka 30 kwa wastani wa faida ya 10%, na unaishia na takriban MARA SITA ya ulichoweka kweli. Karibu tano ya sita ya rundo hilo ni ukuaji: pesa ambazo hukuwahi kuzichuma, kuziokoa wala kuziweka.\n\nKwa vipindi virefu, gawio lililowekezwa tena limekuwa sehemu kubwa ya faida yote ya wawekezaji. Ndiyo hasa sababu kampuni 'zinazochosha' zinazolipa gawio zinageuka kuwa hazichoshi hata kidogo 💰",
+      "quiz": {
+        "q": "Unapata {c}80 za gawio na unatumia kila senti yake kununua hisa zaidi badala ya kuzitumia. Nini kinatokea kwenye malipo yanayofuata?",
+        "explanation": "Kila hisa ya ziada uliyonunua inalipa gawio lake yenyewe wakati ujao, kwa hiyo malipo yanakua bila wewe kuongeza pesa mpya. Hiyo ni riba mchanganyiko tena, safari hii ikiendeshwa na mapato badala ya bei.",
+        "options": [
+          "Malipo yanabaki ukubwa uleule, yanafika baadaye tu",
+          "Unapata kidogo wakati ujao, kwa sababu ulirudisha pesa",
+          "Unamiliki hisa zaidi, kwa hiyo malipo yanayofuata ni makubwa zaidi"
+        ]
+      }
+    },
+    "16": {
+      "title": "Kanuni ya 72",
+      "desc": "Njia ya haraka ya kukadiria muda wa kuongezeka mara mbili",
+      "content": "Hii ni mbinu ya mkato kwa ubongo wako 🧠\n\nUnataka kujua inachukua muda gani pesa zako kuongezeka MARA MBILI? Gawanya tu 72 kwa faida yako ya mwaka:\n\n• 72 ÷ faida ya 12% = miaka 6 kuongezeka mara mbili\n• 72 ÷ faida ya 8% = miaka 9 kuongezeka mara mbili\n• 72 ÷ faida ya 6% = miaka 12 kuongezeka mara mbili\n\nKwa hiyo ukipata 12% thabiti kwa mwaka kwenye {c}2,000, baada ya miaka 6 una {c}4,000. Subiri miaka mingine 6 na una {c}8,000. Mingine 6 na una {c}16,000! 🤯\n\nNi makadirio, si sheria, na faida halisi kamwe si namba thabiti kila mwaka. Lakini iko karibu vya kutosha kuifanya kichwani, na hiyo ndiyo hoja yote.\n\nNdiyo maana kuanza ukiwa na miaka 13 au 14 ni JAMBO KUBWA. Una mizunguko mingi zaidi ya kuongezeka mara mbili mbele yako kuliko karibu mtu mwingine yeyote!",
+      "quiz": {
+        "q": "Uwekezaji unapata 9% kwa mwaka. Tumia Kanuni ya 72 kuburuta hadi idadi ya miaka inayochukua kuongezeka mara mbili.",
+        "explanation": "Gawanya 72 kwa asilimia ya mwaka. 72 ikigawanywa kwa 9 ni 8, kwa hiyo pesa zinaongezeka takriban mara mbili baada ya miaka minane, kisha mara mbili tena miaka minane baadaye. Ni makadirio ya haraka unayoweza kufanya kichwani, si sheria kamili, kwa sababu faida halisi kamwe si namba ileile kila mwaka."
+      }
+    },
+    "17": {
+      "title": "Agizo la Soko dhidi ya Agizo la Kikomo",
+      "desc": "Njia mbili za kununua hisa",
+      "content": "Kuna njia kuu mbili za kununua hisa:\n\n⚡ AGIZO LA SOKO (MARKET ORDER): 'Nunua sasa hivi kwa bei yoyote iliyopo.' Kama kuongeza kwenye kikapu na kulipa mara moja kwenye {shop}. Unaipata papo hapo, lakini bei unayolipa kweli ni ile ambayo soko linakupa, inayoweza kutofautiana na namba uliyoiona kwenye skrini sasa hivi.\n\n🎯 AGIZO LA KIKOMO (LIMIT ORDER): 'Nunua tu bei ikishuka hadi {c}X.' Kama kuweka bidhaa kwenye orodha yako ya matamanio ya {shop} na kusubiri punguzo. Unadhibiti bei, lakini biashara huenda isitokee kabisa.\n\nMaagizo ya kikomo yanakupa udhibiti wa bei. Maagizo ya soko yanakupa uhakika kwamba yatatekelezwa. Huwezi kupata vyote viwili! 💸\n\nAgizo la kikomo linafanya kazi vivyo hivyo unapoUZA, ila kwa upande mwingine. Unamiliki hisa, unataja bei ambayo ungefurahi kuuza, na ikipanda hadi hapo programu inakuuzia. Ukinunua, unataja bei iliyo CHINI ya ilipo sasa. Ukiuza, unataja bei iliyo JUU. Wazo lilelile, upande tofauti. 🔁",
+      "quiz": {
+        "q": "{tech} inauzwa kwa {c}200. Ungefurahi kuimiliki, lakini tu kwa {c}180 au chini. Unatumia nini?",
+        "explanation": "Agizo la soko hutekelezwa mara moja kwa bei yoyote iliyopo wakati huo. Agizo la kikomo linataja bei yako na kusubiri, kwa hiyo programu inafanya kazi ya kutazama badala yako. Bei utakayokubali inapokuwa muhimu zaidi kuliko kuingia haraka, hilo ndilo unalolitaka.",
+        "options": [
+          "Ununuzi wa soko, unaotekelezwa kwa {c}200 sasa hivi",
+          "Ununuzi wa kikomo uliowekwa kwa {c}180, unaosubiri",
+          "Tazama skrini na ununue kwa mkono kwa {c}180"
+        ]
+      }
+    },
+    "18": {
+      "title": "Ada na Gharama za Biashara",
+      "desc": "Kuelewa ada za biashara",
+      "content": "Biashara nyingi zinakugharimu kidogo: wakala anachukua sehemu ndogo. Hizi zinaitwa ada za biashara au ada za uwakala.\n\n⚠️ Baadhi ya mawakala hutangaza 'kamisheni sifuri'. Bado lazima wapate pesa kwa njia fulani, kwa hiyo wanazipata mahali pengine, kwa kawaida kutoka pengo dogo kati ya bei ya kununua na bei ya kuuza, kutoka ubadilishaji wa sarafu, au kutoka riba ya pesa zilizokaa kwenye akaunti yako. Bure ni nadra kuwa bure.\n\nKwenye NoobTrader ada za kuigiza ni:\n• Hisa za {ex}: {exFee} kwa kila biashara\n• Hisa za kimataifa: 0.50%\n• ETF: 0.30%\n• Crypto: 0.60%\n• Forex: 0.05%\n• Bidhaa: 0.40%\n\nMfano: Unanunua hisa za {retail} za {c}1,000 kwa {exFee}. Ada ni {c}{feeAmt}, kwa hiyo kweli unatumia {c}{feeTotal}.\n\nAda ndogo zinajumlika HARAKA ukifanya biashara mara nyingi. Mtu anayefanya biashara 20 kwa mwezi analipa ada hiyo mara 20, na kuilipa tena wakati wa kutoka. Hiyo ni mojawapo ya sababu wawekezaji wa muda mrefu hufanya biashara kidogo: biashara chache, ada chache 🧮",
+      "quiz": {
+        "q": "Unanunua hisa za {ex} za {c}1,000 kwa ada ya {exFee}. Ada ni kiasi gani?",
+        "explanation": "Ada ni asilimia ya kiasi kilichofanyiwa biashara, kwa hiyo inakua kulingana na ukubwa wa agizo. Ihesabu kabla ya kufanya biashara, kwa sababu inatozwa tena unapouza.",
+        "options": [
+          "{c}{feeAmtX10}",
+          "{c}{feeAmtLow}",
+          "{c}{feeAmt}"
+        ]
+      }
+    },
+    "19": {
+      "title": "Maagizo ya Stop-Loss",
+      "desc": "Jilinde dhidi ya hasara kubwa",
+      "content": "Stop-loss ni kama kuweka kikomo cha kiasi uko tayari kupoteza: wavu wa usalama unaouweka mapema.\n\nMfano: Unanunua hisa za {telco} kwa {c}100 kila moja. Unaamua HUTAKI kamwe kupoteza zaidi ya 15%. Kwa hiyo unaweka stop-loss kwa {c}85.\n\n{telco} ikishuka hadi {c}85 → agizo la kuuza linatekelezwa kiotomatiki. Hulazimiki kuwa unatazama, na hulazimiki kufanya uamuzi wakati umeingiwa na hofu.\n\nHii ndiyo sehemu ambayo watu hukosea. Namba ya stop-loss KILA MARA iko chini ya bei ya leo. Lazima iwe hivyo, kwa sababu bei lazima ishuke ili kuifikia. Ukiiweka juu ya bei ya leo tayari imetimia, kwa hiyo inauza papo hapo unapoiweka, kwa bei ya leo. Huo ni mauzo, si wavu wa usalama.\n\nUsiichanganye na kikomo cha mauzo (limit sell). Vyote viwili vinauza kiotomatiki kwa bei uliyochagua. Tofauti ni mwelekeo: stop-loss inatekelezwa bei inapoSHUKA hadi namba yako, kikomo cha mauzo kinatekelezwa bei inapoPANDA hadi namba yako. Kujilinda → namba yako inakaa chini. Kutaja bei yako → namba yako inakaa juu. Jiulize unafanya lipi kabla ya kuandika. 🧭\n\n⚠️ Jambo kubwa: stop-loss inaanzisha MAUZO, haihakikishi BEI. Habari mbaya zikitokea usiku na hisa ikafunguliwa kwa {c}70 bila kuwahi kufanyiwa biashara kwa {c}85, agizo lako linatekelezwa kwa bei yoyote ambayo soko litalipa kweli. Hiyo inaweza kuwa chini sana ya kiwango ulichoweka.\n\nBila stop-loss yoyote, unaweza kushikilia ukitumaini itarudi... na kuitazama ikishuka hadi {c}20. 😬\n\nUshauri wa kitaalamu: Kila mara amua hasara yako ya juu kabisa KABLA ya kununua. Usiache hisia zifanye uamuzi huo wakati bei tayari inaporomoka! 🧘",
+      "quiz": {
+        "q": "Unanunua kwa 200 NT na unaamua huko tayari kupoteza zaidi ya 15% juu yake. Buruta hadi bei ambapo stop-loss yako inapaswa kuwa.",
+        "explanation": "15% ya 200 NT ni 30 NT, kwa hiyo njia yako ya kutoka iko 30 chini ya bei uliyonunulia, kwa 170 NT. Stop-loss inakaa chini ya bei ya leo, kwa sababu bei lazima ishuke ili kuifikia. Ukiiweka juu tayari imetimia, kwa hiyo inauza papo hapo unapoiweka, na huo ni mauzo badala ya wavu wa usalama."
+      }
+    },
+    "20": {
+      "title": "Wakati wa Kununua na Kuuza",
+      "desc": "Muda, subira, na nidhamu",
+      "content": "Kosa kubwa zaidi la wawekezaji wapya? Kununua wakati kila mtu amesisimka na kuuza wakati kila mtu ana hofu. Huo ni kinyume kabisa cha kinachofanya kazi. 🤦\n\n📱 Group chat yako inapojaa 'NUNUA HISA HII SASA!!!!' → msisimko kwa kawaida tayari umeshaingia kwenye bei. Umechelewa.\n\n😱 Kila mtu anapouza kwa hofu → wakati mwingine hiyo kweli ni fursa ya kununua kwa punguzo. Wakati mwingine bei inaendelea kushuka kwa mwaka mwingine. Hakuna anayepiga kengele chini kabisa.\n\nSiri? Kuwa na mpango KABLA ya kuwekeza:\n• Kwa nini ninanunua hii? (utafiti, si msisimko)\n• Nitauza kwa bei gani ikiPANDA? (chukua faida)\n• Nitauza kwa bei gani ikiSHUKA? (stop-loss)\n\nShikamana na mpango wako. Usiache hisia zako zitawale mkakati wako! 💪",
+      "quiz": {
+        "q": "Group chat yako yote inashabikia hisa ambayo tayari imepanda 80% mwezi huu. Hatua ya busara ni ipi?",
+        "explanation": "Kufikia wakati hisa iko kwenye kila group chat, sehemu kubwa ya kupanda tayari imeshatokea, na wanaofika wakiwa wamechelewa wananunua kutoka kwa wanaochukua faida yao. Ichunguze kampuni wewe mwenyewe. Umati kupiga kelele si sawa na umati kuwa sahihi.",
+        "options": [
+          "Nunua sasa, kabla bei haijakukimbia",
+          "Uza hisa zako nyingine na uweke zote hapa",
+          "Ichunguze kampuni wewe mwenyewe kabla ya kuamua"
+        ]
+      }
+    },
+    "21": {
+      "title": "Thamani ya Soko (Market Cap) ni Nini?",
+      "desc": "Jinsi ya kupima ukubwa wa kampuni",
+      "content": "Market cap inakuambia ukubwa halisi wa kampuni, kwa {cPlural}.\n\n📐 Fomula: Bei ya Hisa × Jumla ya Idadi ya Hisa = Market Cap\n\nMfano: Kama {retail} ina hisa bilioni 1 na kila hisa inagharimu {c}50, market cap ni {c}50 BILIONI. Hiyo ndiyo 'bei' ya kampuni nzima.\n\n🔵 Large cap: majina makubwa zaidi na yaliyojiimarisha zaidi, kama {tech} na {bank}. Hatari ndogo, kwa kawaida ukuaji wa polepole.\n🟡 Mid cap: kampuni za ukubwa wa kati. Hatari iliyosawazishwa.\n🔴 Small cap: kampuni ndogo sana. Zinaweza kukua haraka AU kuporomoka vibaya.\n\n⚠️ Mipaka si ya ulimwengu mzima. Marekani, 'large cap' kwa kawaida inamaanisha zaidi ya $10 bilioni, lakini kila soko huweka viwango vyake, kwa hiyo large cap nchini {name} si ukubwa uleule na large cap ya Marekani. Soma namba halisi, si lebo tu 🧐",
+      "quiz": {
+        "q": "Kampuni A ina hisa milioni 5 kwa {c}200 kila moja. Hisa za Kampuni B zinagharimu {c}10. Buruta hadi idadi ya hisa (kwa milioni) ambazo B inahitaji ili iwe na thamani sawa na A.",
+        "explanation": "Market cap ni bei ya hisa mara idadi ya hisa. Kampuni A ina thamani ya milioni 5 mara {c}200, ambayo ni {c}1,000 milioni. Kampuni B inahitaji kufikia jumla hiyohiyo kwa {c}10 kwa hisa, kwa hiyo inahitaji hisa milioni 100, mara ishirini zaidi. Bei ndogo ya hisa haikuambii chochote kuhusu ukubwa wa kampuni."
+      }
+    },
+    "22": {
+      "title": "Uwiano wa P/E Umefafanuliwa",
+      "desc": "Je, hisa ni ghali au nafuu?",
+      "content": "Uwiano wa P/E (Bei-kwa-Mapato) unakuambia unalipa kiasi gani kwa kila {cName} ya faida ya kampuni.\n\n📐 Fomula: Bei ya Hisa ÷ Mapato kwa Kila Hisa = Uwiano wa P/E\n\nIfikirie kama bei kwa kila kipande cha pizza 🍕\n\nKama pizza A inagharimu {c}80 kwa vipande 8 = {c}10/kipande\nKama pizza B inagharimu {c}100 kwa vipande 5 = {c}20/kipande\n\nPizza A ni nafuu zaidi kwa kila kipande. Wazo linalofanana na hisa:\n• P/E ndogo (chini ya 10) = huenda ni bei nafuu, AU soko linatarajia faida yake KUSHUKA. P/E ndogo ni swali, si jibu.\n• P/E kubwa (zaidi ya 25) = soko linatarajia ukuaji mkubwa wa baadaye. Kisha kampuni inapaswa kuutoa kweli.\n\nKila mara linganisha P/E na kampuni NYINGINE katika sekta ileile. Usilinganishe P/E ya benki na ya kampuni ya teknolojia!",
+      "quiz": {
+        "q": "Kampuni A ina P/E ya 8. Kampuni B (sekta ileile) ina P/E ya 30. Hii inaashiria nini?",
+        "explanation": "P/E ndogo inamaanisha kulipa kidogo kwa kila kipimo cha faida, jambo linaloweza kumaanisha bei nafuu au kampuni iliyo matatani. Uwiano huu unaibua swali; haulijibu.",
+        "options": [
+          "Kampuni A ni nafuu zaidi kwa kila kipimo cha faida, lakini tafuta KWA NINI kabla ya kununua",
+          "Kampuni B kila mara ndiyo uwekezaji bora zaidi kati ya hizo mbili",
+          "Uwiano wa P/E hausaidii kabisa katika maamuzi ya uwekezaji"
+        ]
+      }
+    },
+    "23": {
+      "title": "Kusoma Matokeo ya Kampuni",
+      "desc": "Mapato, faida, na kilicho muhimu",
+      "content": "Kila baada ya miezi michache, kampuni huchapisha 'ripoti yao ya shule' (kila robo mwaka katika baadhi ya masoko, mara mbili kwa mwaka katika mengine) na inasogeza bei za hisa KWA KIASI KIKUBWA. Hiki ndicho cha kuangalia:\n\n📊 MAPATO (REVENUE): Jumla ya pesa zinazoingia kutokana na mauzo. Kama kiasi ambacho duka dogo lilipata kwa jumla.\n💰 FAIDA HALISI (NET PROFIT): Kinachobaki BAADA ya kulipa gharama zote. Mapato halisi mwisho wa siku.\n📈 EPS (Mapato kwa Kila Hisa): Faida ikigawanywa kwa idadi ya hisa. Kiasi ambacho kila hisa ilichuma.\n\nIshara nzuri: Mapato JUU + Faida JUU + EPS inakua = 🟢 bei mara nyingi hupanda\nIshara mbaya: Mapato CHINI + Faida inashuka = 🔴 bei mara nyingi hushuka\n\nKuna tahadhari moja: kinachosogeza bei hasa ni matokeo ikilinganishwa na kile soko LILICHOTARAJIA. Namba nzuri sana zilizokuja chini ya matarajio bado zinaweza kushusha hisa.\n\nKampuni inaweza kuwa na mapato mengi lakini faida sifuri (gharama kubwa). Kila mara angalia VYOTE VIWILI!",
+      "quiz": {
+        "q": "{bank} inaripoti mapato yamepanda 15% lakini faida imeshuka 20% kwa sababu ya gharama kubwa zaidi. Hii ni ishara nzuri au mbaya?",
+        "explanation": "Mapato ni kilichoingia, faida ni kilichobaki. Hapa gharama zinapanda haraka kuliko mauzo, kwa hiyo kampuni inafanya biashara zaidi na kubaki na kidogo zaidi. Hilo ni onyo la kweli, lakini si anguko, na jambo linalofuata la kujua ni kwa nini gharama zilipanda.",
+        "options": [
+          "Inatia wasiwasi, kwa sababu wanauza zaidi lakini wanabaki na kidogo",
+          "Imara, kwa sababu mapato yanayopanda ndiyo muhimu hasa",
+          "Mbaya sana, kwa sababu faida inayoshuka inamaanisha kampuni inafeli"
+        ]
+      }
+    },
+    "24": {
+      "title": "Sekta na Viwanda",
+      "desc": "Aina tofauti za kampuni",
+      "content": "Soko la hisa limegawanywa katika sekta, kama idara tofauti shuleni.\n\n{sectorList}\n\nSekta tofauti hupanda na kushuka nyakati tofauti, na hiyo ndiyo hoja yote ya kuweka mseto kati yao! Benki zikiporomoka, huenda teknolojia inastawi. Portfolio yako inabaki na usawa. 🎯",
+      "quiz": {
+        "q": "Viwango vya riba nchini {name} vinapanda kwa kasi. Ni sekta gani kwa kawaida hunufaika zaidi?",
+        "explanation": "Benki hupata faida kutoka pengo kati ya wanachowatoza wakopaji na wanachowalipa wanaoweka akiba, na viwango vinavyopanda kwa kawaida hupanua pengo hilo. Kwa sekta nyingine nyingi, mikopo ghali zaidi ni gharama.",
+        "options": [
+          "Rejareja: wanunuzi hukopa kwa uhuru zaidi na kutumia ziada madukani",
+          "Benki: benki kwa kawaida hupata pengo kubwa zaidi kati ya wanachowatoza wakopaji na wanachowalipa wanaoweka akiba",
+          "Teknolojia: kukopa ili kujenga kunakuwa nafuu, kwa hiyo kampuni za programu hupanuka haraka zaidi"
+        ]
+      }
+    },
+    "25": {
+      "title": "ETF ni Nini?",
+      "desc": "Nunua kikapu kizima kwa mara moja",
+      "content": "Zamani, kuchagua nyimbo moja moja ndiyo ilikuwa njia pekee ya kutengeneza orodha ya nyimbo. Kisha Spotify ikaja na kukupa orodha zilizotengenezwa tayari, mkusanyiko wa papo hapo bila juhudi. 🎵\n\nETF (Exchange-Traded Funds, yaani mifuko inayouzwa sokoni) ni Spotify ya uwekezaji. Badala ya kuchagua hisa moja baada ya nyingine, unanunua ETF MOJA inayoshikilia kikapu kizima cha hisa hizo.\n\nETF nyingi hufuata FAHARASA (INDEX): orodha iliyochapishwa ya kampuni iliyopangwa kwa kitabu cha kanuni. {etfDesc} ETF hununua tu kilicho kwenye orodha, kwa uwiano uleule, na kujisasisha orodha inapobadilika.\n\nKwa hiyo ETF moja ya {etf} inakupa kipande kidogo cha {etfBasket} (majina kama {top5}) kwa ununuzi mmoja.\n\n⚠️ Faharasa SI moja kwa moja 'kampuni kubwa zaidi'. Baadhi ya orodha hupanga kwa ukubwa, baadhi kwa kiasi hisa inavyofanyiwa biashara, na baadhi huchaguliwa na kamati. Faharasa mbili kwenye soko moja la hisa zinaweza kushikilia kampuni tofauti kabisa. Kila mara soma orodha hiyo ni nini hasa kabla ya kuinunua.\n\nETF kwa kawaida ni nafuu zaidi, rahisi zaidi na zina mseto zaidi kuliko kuchagua hisa mwenyewe. Wasimamizi wengi wa kitaalamu wa mifuko hawawezi kuzishinda! 🤯",
+      "quiz": {
+        "q": "Unanunua kipande kimoja cha ETF ya {etf}, inayofuata {etfBasket}. Sasa unamiliki nini?",
+        "explanation": "Faharasa ni orodha iliyochapishwa, na ETF ya faharasa hununua kila kitu kilichomo kwa uwiano uleule. Kwa hiyo kipande kimoja kinashikilia kipande kidogo cha kila jina kwenye orodha, ndiyo maana ununuzi mmoja tayari umegawanywa. Si jina kubwa zaidi pekee, na si pesa zinazosubiri maagizo yako.",
+        "options": [
+          "Hisa moja katika kampuni kubwa zaidi kwenye orodha hiyo",
+          "Kipande kidogo cha kila kampuni moja kwenye orodha hiyo",
+          "Pesa ambazo mfuko unashikilia hadi utakapouambia nini cha kununua"
+        ]
+      }
+    },
+    "26": {
+      "title": "ETF za {ex}",
+      "desc": "ETF maarufu unazopaswa kujua",
+      "content": "Kuna ETF na mifuko ya faharasa mingi sana unayoweza kununua ukiwa {name}. Hizi ni baadhi ya maarufu zaidi:\n\n{etfList}\n\nFaida kubwa sana ya ETF: ADA. Mifuko mingi inayosimamiwa kikamilifu hutoza karibu 1–2% kwa mwaka, wakati mwingine zaidi. ETF pana za faharasa mara nyingi hutoza chini ya 0.2%. Kwa uwekezaji wa {c}10,000 unaoshikiliwa kwa miaka 20, pengo hilo lina thamani ya MAELFU ya {cPlural} 💸\n\nAngalia ada kabla ya kununua. Kwa kawaida imeandikwa 'TER' au 'expense ratio'. Hakuna anayeweza kukuambia ETF itakuletea faida kiasi gani, lakini ada ni namba moja UNAYOWEZA kuijua mapema.",
+      "quiz": {
+        "q": "Unawekeza 20,000 NT. Mfuko unaosimamiwa kikamilifu hutoza 2% kwa mwaka. ETF ya faharasa inayoshikilia karibu kampuni zilezile hutoza 0.2%. Buruta hadi kiasi cha ziada ambacho mfuko ghali unakuchukulia kwa mwaka mmoja.",
+        "explanation": "Pengo kati ya ada hizo mbili ni 1.8% kwa mwaka, na 1.8% ya 20,000 NT ni 360 NT. Hiyo hutoka iwe mfuko unapanda au unashuka, na hutoka tena kila mwaka. Hakuna anayeweza kukuambia mfuko utaleta faida kiasi gani, lakini ada imechapishwa kabla hujanunua, kwa kawaida imeandikwa TER au expense ratio."
+      }
+    },
+    "27": {
+      "title": "ETF za Kimataifa dhidi ya za Ndani",
+      "desc": "Kuwekeza ndani ya nchi na nje",
+      "content": "Je, uwekeze tu kwenye kampuni za {name}? Jibu fupi: Hapana! Hii ndiyo sababu:\n\n🏠 ETF ZA NDANI: Wekeza kwenye kampuni za {name}. Unazijua chapa hizo, ziko kwa {cPlural}. Lakini uchumi wa {name} ukitatizika, portfolio yako yote inaweza kushuka.\n\n🌍 ETF ZA KIMATAIFA: Wekeza kwenye kampuni za kimataifa (Marekani, Ulaya, Asia). {currencyHedge}\n\nHata hivyo, sarafu hukata pande zote mbili: sarafu yako ya ndani ikiIMARIKA, mali zilezile za nje zinakuwa na thamani ndogo zaidi nyumbani. Hiyo ndiyo biashara unayokubali kwa kumiliki vitu nje ya nchi.\n\nKushikilia za ndani na za kimataifa kunakugawa kwenye hatari mbili tofauti kwa wakati mmoja: uchumi wako mwenyewe, na sarafu yako mwenyewe. Usawa ndio kila kitu! ⚖️",
+      "quiz": {
+        "q": "{fxQuizSetup}. Hisa za nje ndani ya ETF yako ya kimataifa hazijasogea kabisa. Thamani yake kwa {cName} sasa ikoje?",
+        "explanation": "ETF ya kimataifa inashikilia vitu vilivyopangiwa bei kwa sarafu nyingine. Sarafu yako inapopoteza nguvu, pesa hizo za nje zinabadilishwa kuwa nyingi zaidi za kwako, kwa hiyo mali hiyo ina thamani zaidi nyumbani ingawa hisa zilisimama tuli. Inafanya kazi kinyume pia: sarafu imara zaidi nyumbani inapunguza kimya kimya mali hiyohiyo. Hatari ya sarafu hukata pande zote mbili.",
+        "options": [
+          "Juu, kwa sababu pesa inazoshikilia nje sasa zinanunua zaidi nyumbani",
+          "Chini, kwa sababu habari mbaya za sarafu lazima ziwe mbaya kwa pesa zako pia",
+          "Vilevile, kwa sababu hisa zilizomo hazikusogea hata kidogo"
+        ]
+      }
+    },
+    "28": {
+      "title": "Kuweka Akiba dhidi ya Kuwekeza",
+      "desc": "Kwa nini pesa zako zinahitaji kufanya kazi",
+      "content": "Vyote viwili ni vizuri. Lakini vina malengo tofauti:\n\n🏦 KUWEKA AKIBA: Weka pesa kwenye akaunti ya benki. Ni salama, unaweza kuzitoa wakati wowote. LAKINI viwango vya riba kwa kawaida ni {savings}, mara nyingi chini ya mfumuko wa bei. Pesa zako ziko 'salama' lakini zinapoteza uwezo wa kununua polepole.\n\n📈 KUWEKEZA: Weka pesa kwenye hisa, ETF au mali isiyohamishika. Hatari zaidi, na hakuna uhakika katika mwaka wowote. Miaka mingine unapoteza pesa tu. Hata hivyo, kwa vipindi virefu, hisa kihistoria zimeleta faida zaidi kuliko pesa taslimu. Soko la {name} limekuwa na wastani wa takriban {mktReturn} kwa mwaka hapo awali, na wastani wa zamani ni historia, si ahadi.\n\nKanuni ya jumla:\n• Gharama za miezi 3–6 kwenye akiba (mfuko wako wa dharura) 🚨\n• Pesa ambazo hutazihitaji kwa miaka ndizo watu huwekeza 🚀\n\nUsiwekeze pesa ambazo huenda ukazihitaji mwezi ujao. Hiyo ndiyo kazi ya akiba!",
+      "quiz": {
+        "q": "Gharama zako ni 800 NT kwa mwezi, na una 5,000 NT za akiba. Buruta hadi mfuko mdogo kabisa wa dharura ambao kanuni ya kawaida ingeacha kama pesa taslimu.",
+        "explanation": "Kanuni ya jumla ni gharama za miezi mitatu hadi sita zinazowekwa kama pesa taslimu. Miezi mitatu ya bili ya 800 NT ni 2,400 NT, na miezi sita ingekuwa 4,800 NT, kwa hiyo popote katika kiwango hicho ni kawaida. Sababu ya kuziweka kama pesa taslimu ni rahisi: kitu kikiharibika ghafla, hutaki kulazimika kuuza uwekezaji wako siku yoyote itakayotokea."
+      }
+    },
+    "29": {
+      "title": "Mfumuko wa Bei na Pesa Zako",
+      "desc": "Kwa nini pesa taslimu hupoteza thamani kadiri muda unavyopita",
+      "content": "Muulize mtu mzima bei ya {food} ilikuwa kiasi gani alipokuwa na umri wako. Ilikuwa karibu {c}{foodOld}. Sasa ni {c}{foodNew}+. Huo ni mfumuko wa bei: bei kupanda polepole kadiri muda unavyopita, maana yake kila {cName} inanunua KIDOGO kuliko ilivyokuwa.\n\nMfumuko wa bei wa {name} kwa kawaida umekuwa karibu {inflation} kwa mwaka.\n\nKwa hiyo kama akiba yako inapata 4% kwa mwaka lakini mfumuko wa bei ni 6%, kwa kweli unaPOTEZA takriban 2% ya uwezo wa kununua kila mwaka, ingawa salio lako lilipanda!\n\n💡 Uwekezaji wako unahitaji kushinda mfumuko wa bei ili kukuza utajiri wako kweli.\n• Pesa taslimu chini ya godoro: zinapoteza thamani kila mwaka 💀\n• Akiba ya benki: mara nyingi inaenda nao kwa shida\n• Hisa za {ex} (wastani wa muda mrefu): {mktReturn} kwa mwaka, ambao ni wastani wa zamani, si ahadi 🔥\n\nKuwekeza si kuhusu kutajirika tu. Ni kuhusu kutokuwa maskini zaidi! 💸",
+      "quiz": {
+        "q": "Akaunti yako ya akiba inalipa 4% kwa mwaka. Bei zinapanda 6% kwa mwaka. Buruta hadi kinachotokea kweli kwa uwezo wako wa kununua katika mwaka huo.",
+        "explanation": "Faida halisi ni riba unayopata ukitoa mfumuko wa bei unaolipa, kwa hiyo 4% dhidi ya 6% inakuja takriban hasi 2%. Namba kwenye akaunti yako inapanda huku kile inachoweza kununua kweli kikishuka, na hiyo ndiyo hila ya kimya ambayo mfumuko wa bei huifanyia akiba. Ili kujenga utajiri halisi, pesa lazima zishinde mfumuko wa bei, si kupata kitu tu."
+      }
+    },
+    "30": {
+      "title": "Hisia na Uwekezaji",
+      "desc": "Usiuze kwa hofu wala kununua kwa FOMO",
+      "content": "Soko la hisa kimsingi ni mtihani wa kudhibiti hisia. Watu wengi hufeli. 🎭\n\n😱 KUUZA KWA HOFU: Soko linashuka 20%, unachanganyikiwa, unauza kila kitu. Kisha linarudi. Ulifunga hasara yako bila sababu.\n\n🤑 KUNUNUA KWA FOMO: Kila mtu kwenye mitandao ya kijamii anashabikia sarafu fulani. Unakimbilia kuingia. Bei inaporomoka mara moja. Umebaki na mzigo.\n\nWawekezaji bora huchukulia kuporomoka kwa soko kama punguzo la bei kwenye {retail}. Wanaendelea kununua, kwa utulivu, badala ya kuingiwa na hofu. Warren Buffett aliiweka hivi: 'Ogopa wengine wanapokuwa na tamaa, na uwe na tamaa wengine wanapoogopa.'\n\nJenga mpango wako. Shikamana nao. Wewe wa baadaye atakushukuru kwa kutouza kwa hasira siku ya rangi nyekundu! 🙏",
+      "quiz": {
+        "q": "Soko linashuka 15% kwa wiki moja na group chat yako inauza kila kitu. Pesa zako zimewekezwa kwa miaka kumi ijayo. Hatua ni ipi?",
+        "explanation": "Kushuka kwa 15% kunakuwa hasara halisi siku unapouza tu. Mpango ulioandika wakati hakuna kilichokuwa kinatokea uliandikwa na toleo lako lenye akili tulivu, na kushikamana nao ndio ujuzi wote. Kusubiri mambo yaonekane tulivu kabla ya kununua tena humaanisha kununua tena kwa bei ya juu, kwa sababu utulivu huja baada ya kurudi, si kabla.",
+        "options": [
+          "Uza sasa na ununue tena mambo yakionekana tulivu zaidi",
+          "Hamishia pesa kwenye chochote ambacho chat inanunua",
+          "Endelea na mpango uliouandika ukiwa mtulivu"
+        ]
+      }
+    },
+    "31": {
+      "title": "Bosi wa Mwisho",
+      "desc": "Riba Mchanganyiko, maajabu ya 8 ya dunia",
+      "content": "'Maajabu ya nane ya dunia: anayeyaelewa, huyapata; asiyeyaelewa, huyalipa.' Utaona msemo huo ukihusishwa na Einstein kila mahali mtandaoni. Hakuna ushahidi wa kweli kwamba aliusema.\n\nHata hivyo, hesabu haiwezi kupingwa. Hili ndilo jambo muhimu zaidi utakalojifunza kuhusu pesa:\n\nMtu anayeanza akiwa na miaka 20 na kuwekeza {c}500/mwezi kwa 12% kwa mwaka anaishia na ZAIDI akiwa na miaka 65 kuliko mtu anayeanza akiwa na miaka 35 na kuwekeza {c}2,000/mwezi kwa kiwango hichohicho. Mara nne ya kiasi cha kila mwezi, na bado anamaliza nyuma.\n\nMuda. Ndio. Kila Kitu.\n\nHiyo si hila ya namba, ndiyo hoja yote ya riba mchanganyiko: kila mwaka unaosubiri unagharimu zaidi kuliko mwaka wowote utakaoongeza baadaye unavyoweza kurudisha. Wakati bora wa kuanza ulikuwa mapema zaidi. Wa pili kwa ubora ni sasa.\n\nChemsha bongo hii ni mtihani wako wa mwisho. Ipatie na utakuwa rasmi umethibitishwa na NoobTrader! 👑",
+      "bossVictory": "Riba Mchanganyiko imefunguliwa. Sasa wewe ni hatari. 🔥",
+      "quiz": {
+        "q": "{c}1,000 zilizowekezwa kwa 12% kwa mwaka kwa miaka 10 zinakua hadi ~{c}3,106. Nini kinatokea ukiongeza muda MARA MBILI hadi miaka 20?",
+        "explanation": "Kuongeza muda mara mbili hufanya mengi zaidi kuliko kuongeza tokeo mara mbili, kwa sababu ukuaji wa kila mwaka unajumlika juu ya kila kitu kilichotangulia. Ukuaji huongeza kasi badala ya kupungua.",
+        "options": [
+          "Inaongezeka zaidi ya mara tatu hadi ~{c}9,646",
+          "Inaongezeka takriban mara mbili hadi ~{c}6,200",
+          "Faida inapungua kasi kadiri unavyosubiri"
+        ]
+      }
+    },
+    "32": {
+      "title": "Majukwaa na Pochi za Crypto",
+      "desc": "Mahali crypto inapoishi hasa",
+      "content": "Kwanza, sehemu ya ukweli: majukwaa halisi ya crypto yanakuhitaji uwe na miaka 18+ karibu katika kila nchi. Ndiyo maana NoobTrader inakuruhusu kufanya mazoezi ya kila kitu kwa pesa pepe kwanza. 🎮\n\nWatu wazima wanaponunua crypto, hutumia aina mbili za mahali:\n\n🏦 MASOKO NA PROGRAMU ZA MAWAKALA (custodial): unafungua akaunti, wanakushikilia crypto yako. Rahisi, lakini unawaamini. Wakidukuliwa au wakifilisika, crypto yako inaweza kutoweka. Imetokea kwa baadhi ya majina makubwa zaidi kwenye crypto.\n\n🔑 POCHI ZA KUJISHIKILIA (self-custody): programu ambapo WEWE unashikilia funguo za siri. Hakuna anayeweza kuizuia, lakini hakuna anayeweza kukusaidia pia. Ukipoteza seed phrase yako (maneno 12 hadi 24 ya siri) crypto imepotea milele. Hakuna kubadilisha nenosiri. Hakuna huduma kwa wateja. Imepotea.\n\nWatu wa crypto husema: 'Si funguo zako, si sarafu zako.' Sasa unajua maana yake.",
+      "quiz": {
+        "q": "Inamaanisha nini soko linaposhikilia crypto yako 'kwa uangalizi' (custodially)?",
+        "explanation": "Custodial inamaanisha jukwaa linashikilia funguo, kwa hiyo sarafu zako ziko salama tu kadiri jukwaa lilivyo salama. Likidukuliwa au likifilisika, zinaweza kuondoka nalo. Hiyo ndiyo watu wanamaanisha kwa si funguo zako, si sarafu zako.",
+        "options": [
+          "Soko linakushikilia funguo",
+          "Wewe unashikilia funguo na hakuna mwingine anayeweza",
+          "Hakuna anayeweza kugusa sarafu, hata wewe",
+          "Inapata riba kiotomatiki"
+        ]
+      }
+    },
+    "33": {
+      "title": "Jinsi Kununua Crypto Kunavyofanya Kazi",
+      "desc": "Spread, ada na masoko ya 24/7",
+      "content": "Kununua crypto kunaonekana kama kununua chochote mtandaoni, lakini mambo matatu ni tofauti:\n\n1️⃣ SPREAD: bei ya kununua kila mara iko juu kidogo kuliko bei ya kuuza. Nunua crypto ya {c}100 na uiuze papo hapo, na unarudishiwa labda {c}97. Pengo hilo ndilo njia majukwaa huchuma kimya kimya.\n\n2️⃣ ADA JUU YAKE: majukwaa mengi hutoza ada kwa kila biashara pia, mara nyingi 1 hadi 2% kwa ununuzi mdogo. Ada pamoja na spread inamaanisha ununuzi mdogo unaanza ukiwa chini kwa takriban 3 hadi 5% kabla bei haijasogea kabisa.\n\n3️⃣ HAKUNA KENGELE YA KUFUNGA: masoko ya hisa hufungwa usiku na wikendi. Crypto hufanyiwa biashara 24/7, kila siku ya mwaka. Bei zinaweza kuporomoka ukiwa umelala. Hiyo ni sehemu ya sababu crypto inayumba sana kuliko hisa.\n\nKwenye NoobTrader unaweza kufanya biashara ya crypto kwa pesa pepe, 24/7, bila kupoteza senti. Unalipa ada kwa kila biashara, lakini NoobTrader haitozi spread, kwa hiyo ununuzi halisi unagharimu zaidi ya biashara ileile hapa. 📊",
+      "quiz": {
+        "q": "Unaweka 200 NT kwenye sarafu na kuiuza sekunde tano baadaye, kabla bei haijasogea kabisa. Pengo kati ya bei ya kununua na ya kuuza linagharimu 3%, na jukwaa linatoza ada ya 1% kwa kila biashara. Buruta hadi kiasi kinachorudi.",
+        "explanation": "Spread inachukua 3%, kisha ada ya 1% inatozwa wakati wa kuingia na nyingine wakati wa kutoka. Hiyo ni 5% ya 200 NT zako, kwa hiyo 10 NT zimeondoka kabla bei haijafanya chochote. Unarudishiwa 190 NT, na sasa sarafu inahitaji kupanda 5% ili tu urudi pale ulipokuwa."
+      }
+    },
+    "34": {
+      "title": "Ada za Gas Zimefafanuliwa",
+      "desc": "Kwa nini kutuma crypto kunagharimu pesa",
+      "content": "Kutuma crypto si bure. Kila muamala hulipa ada ya mtandao, mara nyingi huitwa GAS, kwa kompyuta zinazochakata na kulinda mtandao.\n\nHii ndiyo sehemu inayomshangaza kila mtu: gas hupangiwa bei kulingana na msongamano wa mtandao, SI kulingana na kiasi unachotuma. Mtandao ukiwa na shughuli nyingi, ada zinapanda ghafla.\n\n🤯 Kwenye baadhi ya mitandao, nyakati za shughuli nyingi, kutuma crypto ya {c}10 kunaweza kugharimu ZAIDI ya {c}10 kwa gas. Ungelipa zaidi kwa usafirishaji kuliko thamani ya kifurushi.\n\nMitandao mipya na mifumo ya 'layer 2' ipo hasa ili kufanya hili kuwa nafuu, kwa ada za senti chache. Yeyote anayeshughulika na crypto huangalia ada KABLA ya kubonyeza tuma.\n\nJambo moja zaidi: uhamisho wa crypto hauwezi kurudishwa. Anwani isiyo sahihi pamoja na gas iliyolipwa ni sawa na pesa kupotea, milele. Hakuna benki ya kupigia simu. ☎️❌",
+      "quiz": {
+        "q": "Ada za gas ziko juu leo. Unataka kutuma crypto ya {c}15 na gas inagharimu {c}20. Tafsiri ya busara ni ipi?",
+        "explanation": "Gas hupangiwa bei kulingana na shughuli za mtandao, si kiasi unachotuma, kwa hiyo uhamisho mdogo unaweza kugharimu zaidi ya thamani yake. Kugawanya hakusaidii pia, kwa sababu kila uhamisho hulipa ada yake. Subiri wakati tulivu zaidi au tumia mtandao nafuu zaidi.",
+        "options": [
+          "Lipa, kwa sababu ada inarudishwa ikishafika",
+          "Achana nayo, ada inagharimu zaidi ya kifurushi",
+          "Igawe mara mbili, ili kila nusu ilipe nusu ya ada",
+          "Puuza ada, gas inahusu uhamisho mkubwa tu"
+        ]
+      }
+    },
+    "35": {
+      "title": "Meme Coins na Rug Pulls",
+      "desc": "Gundua mitego kabla haijakugundua",
+      "content": "Meme coins ni crypto zilizojengwa juu ya utani na msisimko badala ya matumizi yoyote halisi. Chache ziliwatajirisha wanunuzi wa mapema, ndiyo hasa sababu maelfu ya nakala zipo. Karibu zote huishia sifuri. 📉\n\nMtego mbaya zaidi ni RUG PULL: waundaji hutengeneza sarafu, huishabikia sana, husubiri watu wamiminike, kisha hutupa akiba yao kubwa au humaliza bwawa la biashara. Bei inaporomoka ndani ya dakika. Wao wanabaki na pesa. Wewe unabaki na sarafu zisizo na thamani.\n\n🚩 ISHARA ZA HATARI za kukariri:\n• Timu isiyojulikana ambayo huwezi kuithibitisha\n• Faida 'iliyohakikishwa' (hakuna kitu kwenye masoko kilichohakikishwa)\n• Washawishi wanaolipwa kuipigia debe\n• Kikundi kidogo kinashikilia sehemu kubwa ya ugavi\n• Shinikizo la 'nunua kabla haijachelewa'\n\nKama hoja kuu ya sarafu ni kwamba watu WENGINE kuinunua kutakutajirisha WEWE, huo si uwekezaji. Huo ni mchezo wa viti vya muziki, na waundaji ndio wanaomiliki muziki. 🎵",
+      "quiz": {
+        "q": "Sarafu mpya ina timu isiyojulikana, inaahidi 100x iliyohakikishwa, na washawishi wanaolipwa wanaisukuma sana. Nini kwa kawaida hutokea baadaye?",
+        "explanation": "Timu isiyojulikana, faida iliyohakikishwa na matangazo ya kulipwa ni mpangilio wa kawaida wa rug pull. Waundaji hushikilia sehemu kubwa ya ugavi, huiuza wakati wa msisimko na kuondoka, wakiwaacha wanunuzi na sarafu ambayo hakuna anayeitaka. Hakuna kitu kwenye masoko kilichohakikishwa.",
+        "options": [
+          "Wanunuzi wanarudishiwa pesa na soko ilipozinduliwa",
+          "Bei zinatulia washawishi wakiacha kuchapisha",
+          "Timu inatupa akiba yake na bei inaporomoka",
+          "Wadhibiti wanailazimisha timu kutangaza wao ni nani"
+        ]
+      }
+    },
+    "36": {
+      "title": "Uchimbaji dhidi ya Biashara dhidi ya Staking",
+      "desc": "Michezo mitatu tofauti kabisa",
+      "content": "Njia tatu watu hujaribu kuchuma kwenye crypto, na SI mchezo mmoja:\n\n⛏️ UCHIMBAJI (MINING): kompyuta zenye nguvu hushindana kuchakata miamala na kupata sarafu mpya. Inasikika ya kufurahisha, lakini uchimbaji wa Bitcoin leo ni wa kiviwanda: maghala ya mashine maalum na bili kubwa za umeme. Simu au kompyuta yako ndogo haiwezi kushindana, na programu za 'chimba Bitcoin kwenye simu yako!' karibu kila mara ni utapeli au mashamba ya matangazo yanayokulipa karibu hakuna kitu.\n\n🥩 STAKING: kwenye baadhi ya mitandao unafunga sarafu ili kusaidia kulinda mtandao na kupata zawadi, kidogo kama riba. Ni halisi, lakini sarafu zako zinaweza kufungwa kwa muda, na BEI yake bado inaweza kuporomoka zikiwa zimefungwa.\n\n📊 BIASHARA (TRADING): kununua na kuuza ili kupata faida kutokana na mabadiliko ya bei. Hakuna vifaa vinavyohitajika, lakini ndio mchezo ambapo nidhamu ni muhimu zaidi, na ambapo wanaoanza wengi hushindwa na hisia zao wenyewe.\n\nNoobTrader inafundisha mchezo wa biashara bila hatari yoyote. Ile miwili mingine inahitaji pesa halisi hata kuanza.",
+      "quiz": {
+        "q": "Programu inasema simu yako inaweza kuchimba Bitcoin kwa faida ukiwa umelala. Ukweli unaowezekana zaidi ni upi?",
+        "explanation": "Uchimbaji ni mashindano yanayoamuliwa na vifaa maalum na umeme nafuu, na simu haina chochote kati ya hivyo. Programu zinazoahidi vinginevyo kwa kawaida zinalenga data yako, betri yako au pesa zako, na zinakulipa karibu hakuna kitu kwa hilo.",
+        "options": [
+          "Simu huchimba polepole lakini bado hupata faida",
+          "Inafanya kazi, lakini kwenye simu mpya zaidi tu",
+          "Uchimbaji kwa simu ulipigwa marufuku na mitandao",
+          "Ni shamba la matangazo linalolipa karibu hakuna kitu"
+        ]
+      }
+    },
+    "37": {
+      "title": "Usalama wa Crypto na Utapeli",
+      "desc": "Kilicho chako, kibaki chako",
+      "content": "Nguvu kuu ya crypto pia ndiyo hatari yake: miamala haiwezi kurudishwa na hakuna benki ya kurekebisha kosa. Matapeli wanapenda hilo. Hiki ndicho kifurushi chako cha ulinzi:\n\n🔐 SEED PHRASE YAKO NI TAKATIFU. Hakuna mtu halali atakayewahi KAMWE kuiomba. Si 'wafanyakazi wa huduma', si 'roboti ya uthibitishaji', hakuna mtu. Yeyote anayeomba seed phrase yako anakuibia, basi.\n\n🎣 PHISHING: tovuti na jumbe za DM bandia zinazofanana kabisa na majukwaa halisi. Herufi moja tofauti kwenye anwani ya tovuti. Kila mara andika anwani mwenyewe.\n\n🎁 UTAPELI WA ZAWADI: 'Tuma sarafu 1, upate 2!', mara nyingi ukitumia akaunti ya mtu maarufu iliyodukuliwa. Hakuna anayeongeza pesa zako mara mbili. Kamwe.\n\n💕 UTAPELI WA MAPENZI NA WA 'MSHAURI WA UWEKEZAJI': mgeni mwenye urafiki anayekushawishi polepole kuingia kwenye 'jukwaa maalum'. Jukwaa ni bandia. Kutoa pesa hakufanyi kazi kamwe.\n\nMtindo ulio chini ya kila utapeli: haraka pamoja na usiri pamoja na faida iliyohakikishwa. Ukiona hayo matatu pamoja, ondoka. 🚶",
+      "quiz": {
+        "q": "Mtu anayedai kuwa 'huduma ya jukwaa' anakutumia DM na kuomba seed phrase yako ya maneno 12 ili 'kuthibitisha pochi yako'. Unafanya nini?",
+        "explanation": "Seed phrase NDIYO pochi. Yeyote anayeishikilia anaweza kuimaliza, huduma halisi kamwe haiiombi, na hakuna sehemu yake inayopaswa kushirikiwa kamwe.",
+        "options": [
+          "Usiishiriki kamwe, kwa sababu huduma halisi kamwe haiombi seed phrase",
+          "Ishiriki, kwa kuwa wafanyakazi wa huduma waliothibitishwa wanaihitaji kukagua akaunti yako",
+          "Shiriki maneno sita ya kwanza tu, ambayo ni salama vya kutosha yenyewe",
+          "Waombe wakutumie barua pepe kutoka anwani rasmi kwanza, kisha uishiriki"
+        ]
+      }
+    },
+    "38": {
+      "title": "Bosi wa Crypto",
+      "desc": "Mashine ya muda ya Bitcoin",
+      "content": "Wakati wa hadithi ambayo kila mtu huinukuu na hakuna anayeisimulia ipasavyo.\n\nMwanzoni mwa 2017, Bitcoin moja iligharimu takriban $1,000. Mnamo Desemba 2024 ilivuka $100,000 kwa mara ya kwanza. Ununuzi wa $1,000, ulioshikiliwa njia nzima, ukawa takriban $100,000. Hiyo ni 100x. 🤯\n\nSasa sehemu ambayo msisimko huiacha: ili kukusanya hiyo 100x ilibidi uvumilie maporomoko mawili makali, moja la takriban 84% na jingine la takriban 77%, na kutazama pesa zako zikipungua kwa MIAKA mfululizo bila kuuza. Karibu hakuna aliyeweza. Watu wengi walinunua kwa bei ya juu, wakaingiwa na hofu wakati wa kuporomoka, na kuuza kwa bei ya chini.\n\nNa kwa kila Bitcoin kuna maelfu ya sarafu zilizokufa zilizoishia sifuri. Kuchagua mshindi mapema huonekana rahisi ukiangalia nyuma tu. Hiyo inaitwa upendeleo wa walionusurika (survivorship bias), na ndiyo dhana potofu ghali zaidi kwenye crypto.\n\nSomo halisi la mashine ya muda: kwa sarafu zilizonusurika, subira ilishinda kuchagua muda. Lakini unajua tu sarafu zipi zinanusurika BAADAYE, ndiyo maana mseto unashinda kuchagua shujaa mmoja, na ndiyo maana HAKUNA anayejua yajayo. Hata bosi. 🐉",
+      "bossVictory": "Moduli ya crypto imeshindwa. Sasa unajua zaidi ya watu wazima wengi. 🐉",
+      "quiz": {
+        "q": "Maelfu ya sarafu zilizinduliwa pamoja na Bitcoin, na nyingi sasa zina thamani karibu na sifuri. Kwa nini 'chagua tu Bitcoin inayofuata' kunaonekana rahisi sana ukiangalia nyuma?",
+        "explanation": "Walionusurika pekee ndio bado wanazungumzwa, kwa hiyo kuchagua washindi kunaonekana rahisi zaidi ukiangalia nyuma kuliko ilivyokuwa wakati huo. Maelfu zilizoshindwa hazikuacha alama yoyote kwenye hadithi.",
+        "options": [
+          "Kwa sababu washindi ndio pekee ambao bado wanazungumzwa, na zilizokufa zilitoweka kwenye hadithi",
+          "Kwa sababu sarafu bora zinaonekana wazi tangu mwanzo kwa yeyote anayesoma vya kutosha kuzihusu",
+          "Kwa sababu sarafu nyingi hufanikiwa mwishoni kwa yeyote mwenye subira ya kuzishikilia kwa miaka",
+          "Kwa sababu wataalamu waliitabiri Bitcoin kwa usahihi mwaka 2010 na wametabiri kila mshindi tangu hapo"
+        ]
+      }
+    },
+    "39": {
+      "title": "Blockchain HASA ni Nini?",
+      "desc": "Teknolojia iliyo chini ya yote",
+      "content": "Ondoa msisimko na blockchain ni rahisi kwa kushangaza: kitabu cha kumbukumbu kinachoshirikiwa ambacho maelfu ya kompyuta huhifadhi nakala zinazofanana.\n\nMtu anapotuma crypto, muamala huo unaingia kwenye 'block' pamoja na mamia ya mingine. Block inafungwa kwa hesabu na kuunganishwa na block iliyotangulia. Kwa hiyo: block. Mnyororo (chain). ⛓️\n\nKwa nini mtu yeyote ajali? Kwa sababu ya kile inachowezesha:\n\n✅ Hakuna anayeweza kuhariri historia kimya kimya. Kubadilisha block ya zamani kungemaanisha kurudia kila block baada yake kwenye maelfu ya kompyuta kwa wakati mmoja.\n✅ Hakuna kampuni moja wala serikali inayoiendesha. Mtandao wa kompyuta unaiendesha pamoja.\n✅ Yeyote anaweza kukagua kumbukumbu. Kila muamala wa Bitcoin uliowahi kufanywa unaonekana hadharani.\n\nHiyo ni teknolojia mpya kweli. Pia SI pesa za kimiujiza. Kumbukumbu kamili ya sarafu isiyo na thamani bado ni sarafu isiyo na thamani. Teknolojia kuwa halisi haifanyi kila sarafu iliyojengwa juu yake kuwa na thamani. 🧠",
+      "quiz": {
+        "q": "Kwa nini ni vigumu sana kubadilisha kwa siri muamala wa zamani kwenye blockchain?",
+        "explanation": "Kila block imefungwa kwa ile iliyotangulia, kwa hiyo kuandika upya ya zamani kunamaanisha kuandika upya kila block baada yake, kwenye maelfu ya kompyuta, haraka kuliko mtandao unavyoongeza mpya. Hicho ndicho kinachofanya kumbukumbu kuwa ya kudumu kivitendo.",
+        "options": [
+          "Kila block iliyofuata ingelazimika kurudiwa pia",
+          "Kila mabadiliko lazima yaidhinishwe na serikali",
+          "Kila kumbukumbu iliyo na zaidi ya mwezi mmoja hufutwa",
+          "Muundaji wa kila sarafu ana ufunguo binafsi wa kuhariri"
+        ]
+      }
+    },
+    "40": {
+      "title": "Bitcoin dhidi ya Nyingine Zote",
+      "desc": "Si sarafu zote ni mchezo mmoja",
+      "content": "'Crypto' si kitu kimoja. Tofauti ni muhimu zaidi kuliko mfanano:\n\n₿ BITCOIN: ya asili. Ugavi wake umewekewa kikomo cha sarafu milioni 21 milele, kimeandikwa kwenye msimbo, na kasi ya sarafu mpya hupungua nusu takriban kila baada ya miaka minne. (Inasikika ya kawaida? Halving ya NOOB inaazima wazo hili hasa.) Hoja yake yote ni uhaba pamoja na usalama.\n\n⟠ ETHEREUM: si sana 'dhahabu ya kidijitali', zaidi 'kompyuta ya dunia'. Inaendesha smart contracts, ambazo ni programu zinazojiendesha zenyewe. Programu nyingi za crypto zimejengwa juu yake au juu ya washindani wake.\n\n🪙 NYINGINE ZOTE: maelfu ya 'altcoins'. Chache hutatua matatizo halisi. Nyingi ni nakala, majaribio, au njia za kunyakua pesa. Takwimu kali: sarafu nyingi zilizowahi kuundwa tayari zimekufa au hazina thamani.\n\nSomo: 'crypto inapanda' inakuambia karibu hakuna kitu kuhusu sarafu yoyote MAHUSUSI. Kila moja ni dau lake lenyewe, lenye uwezekano wake. 🎲",
+      "quiz": {
+        "q": "Ugavi wa juu kabisa wa Bitcoin ni upi, na unaweza kubadilishwa kwa urahisi kiasi gani?",
+        "explanation": "Kikomo cha milioni 21 ni sehemu ya kanuni ambazo kila kompyuta kwenye mtandao huendesha. Kukipandisha kungemaanisha karibu zote kukubali kufanya kile wanachoshikilia tayari kiwe na thamani ndogo, ndiyo maana kikomo kinachukuliwa kuwa hakibadiliki.",
+        "options": [
+          "Milioni 100, na wachimbaji hupiga kura juu yake kila mwaka",
+          "Milioni 21, na kuipandisha karibu haiwezekani",
+          "Bilioni 1, na muundaji anaweza kuirekebisha",
+          "Hakuna kikomo kabisa, kwa hiyo sarafu mpya huchapishwa milele"
+        ]
+      }
+    },
+    "41": {
+      "title": "Stablecoin (Sarafu Thabiti)",
+      "desc": "Kripto inayojaribu kusimama tuli",
+      "content": "Stablecoin ni kripto iliyoundwa ili thamani yake ibaki kiasi kisichobadilika, kwa kawaida dola 1 ya Marekani hasa. Wafanyabiashara huzitumia kama mahali pa kuegesha pesa: unauza sarafu zako zinazoyumba na kununua stablecoin, na pesa yako inatulia huku ukiamua hatua inayofuata.\n\nZinabakije kwenye $1? Muundo mkuu huweka dola halisi na mali nyingine kama akiba, ili kila sarafu iwe na kitu kinachoiunga mkono. Unamwamini yeyote anayeshikilia akiba hiyo.\n\nNa hii ndiyo hadithi ya tahadhari kwako: stablecoin zinaweza KUVUNJIKA. Imeshatokea kweli. Mwaka 2022 stablecoin kubwa ya 'kialgorithimu', iliyotumia hesabu za ujanja badala ya akiba halisi, iliporomoka kutoka $1 hadi karibu sifuri ndani ya siku chache na kufuta makumi ya mabilioni ya dola. 'Thabiti' ni lengo la muundo, si hakikisho.\n\nKanuni ya jumla: kadiri mbinu inayofanya kitu kiwe 'salama' inavyokuwa ya ujanja zaidi, ndivyo unavyopaswa kuichunguza kwa makini zaidi. 🔍",
+      "quiz": {
+        "q": "Kazi kuu ya stablecoin ni ipi?",
+        "explanation": "Kazi ya stablecoin ni kusimama tuli. Ni mahali pa kuegesha pesa kati ya biashara, si kitu kinachotarajiwa kukua.",
+        "options": [
+          "Kushikilia thamani isiyobadilika, kwa kawaida $1, ili wafanyabiashara wapate mahali thabiti pa kuegesha pesa",
+          "Kukua haraka kuliko Bitcoin kwa kufuatilia soko zima la kripto",
+          "Kulipa riba moja kwa moja kwa yeyote anayeishikilia kwenye pochi",
+          "Kuficha miamala kwa kila mtu kwa kuvuruga leja ya umma"
+        ]
+      }
+    },
+    "42": {
+      "title": "Kripto, Kodi na Sheria",
+      "desc": "Ndiyo, sheria zinahusika",
+      "content": "Intaneti imejaa watu wanaoamini kripto ni pesa isiyoonekana isiyo na sheria. Mara nyingi hugundua ukweli kwa njia ngumu. 😬\n\nUhalisia katika nchi nyingi, ikiwemo Afrika Kusini:\n\n🧾 FAIDA KWA KAWAIDA HUTOZWA KODI. Ukiuza kripto kwa zaidi ya ulivyolipa, mamlaka ya kodi kwa kawaida hutaka sehemu yake, sawa na hisa.\n\n🪪 SOKO ZA KUBADILISHANA ZINAJUA WEWE NI NANI. Majukwaa halali yanahitaji uthibitisho wa kitambulisho (unaoitwa KYC, Know Your Customer, yaani Mjue Mteja Wako). Kila muamala pia hurekodiwa milele kwenye blockchain yenyewe, ambayo ni KINYUME cha kutojulikana.\n\n⚖️ WADHIBITI WANAHUSIKA. Afrika Kusini, mali za kripto zinachukuliwa rasmi kama bidhaa za kifedha, kumaanisha majukwaa yanayoziuza lazima yafuate sheria za huduma za kifedha.\n\nHakuna kati ya haya ni sababu ya kuogopa. Lakini NI sababu ya kumpuuza yeyote anayesema 'sheria hazihusu kripto'. Zinahusu, na kujifanya vinginevyo huwaingiza watu wazima kwenye matatizo makubwa kweli.",
+      "quiz": {
+        "q": "Binamu yako anasema faida ya kripto haionekani kwa mamlaka ya kodi kwa sababu kripto haijulikani mmiliki wake. Kosa ni nini hapo?",
+        "explanation": "Majukwaa halali huthibitisha wewe ni nani kabla hujaanza biashara, na kila muamala wa blockchain ni wa umma na wa kudumu, ambayo ni kinyume cha kutojulikana. Faida kwa kawaida hutozwa kodi, kwa hivyo angalia sheria za mahali unapoishi.",
+        "options": [
+          "Soko za kubadilishana hukagua kitambulisho, na rekodi ni za umma",
+          "Hakuna kosa, kripto kweli haijulikani mmiliki wake",
+          "Kripto hutozwa kodi Marekani tu na si kwingineko",
+          "Kodi huanza tu ukitoa milioni moja"
+        ]
+      }
+    },
+    "43": {
+      "title": "Kuyumba na Kanuni za Kuishi",
+      "desc": "Kwa nini kripto huyumba kwa nguvu hivi",
+      "content": "Siku mbaya kwenye soko la hisa ni 3%. Siku mbaya kwenye kripto ni 20%. Hata Bitcoin, 'mtu mzima' wa kripto, imepoteza zaidi ya 80% ya thamani yake zaidi ya mara moja na baadaye ikarudi. Sarafu ndogo mara kwa mara hupoteza 95% na hazirudi kamwe.\n\nKwa nini zinayumba hivi? Kripto hufanyiwa biashara saa 24 siku 7 bila vizuizi vya dharura, sehemu kubwa hununuliwa kwa pesa za mkopo ambazo hulazimishwa kuuzwa wakati wa anguko, na bei huendeshwa na hadithi na hisia kuliko ripoti za mapato.\n\nKwa hivyo, kanuni za kuishi ambazo kila mfanyabiashara mzoefu hurudia:\n\n1️⃣ Usiweke kamwe pesa ambayo huwezi kumudu kuipoteza yote.\n2️⃣ Panga ukubwa wa nafasi zako ili janga moja lisikufilisi.\n3️⃣ Amua njia yako ya kutoka KABLA ya kuingia, ukiwa bado mtulivu.\n4️⃣ FOMO (hofu ya kukosa) ndiyo hisia ghali zaidi katika fedha.\n\nFanya mazoezi ya zote nne kwenye NoobTrader ambako hasara ni za kuigiza. Tabia hizo ndizo zawadi halisi. 🏆",
+      "quiz": {
+        "q": "Ipi kati ya hizi ni kanuni halisi ya kuishi katika masoko yanayoyumba?",
+        "explanation": "Kutohatarisha kamwe pesa ambayo huwezi kumudu kuipoteza ndiyo kanuni moja inayokuweka mchezoni. Kuongeza maradufu baada ya hasara ndivyo akaunti zinavyoisha.",
+        "options": [
+          "Ongeza nafasi yako maradufu baada ya kila hasara ili uirudishe",
+          "Usiwekeze kamwe pesa ambayo huwezi kumudu kuipoteza yote",
+          "Kuyumba huathiri sarafu ndogo tu, kwa hivyo sarafu kubwa ziko salama",
+          "Nunua kila mara wakati kila mtu kwenye mitandao ya kijamii ananunua"
+        ]
+      }
+    },
+    "44": {
+      "title": "Mizunguko ya Mvumo na FOMO",
+      "desc": "Mtindo ulio nyuma ya kila wazimu wa soko",
+      "content": "Kripto huenda kwa mizunguko ya mvumo, na ukishaona mtindo huo huwezi kuacha kuuona:\n\n📈 Hatua ya 1: kitu halisi kinatokea. Waumini wa mwanzo hununua kimya kimya.\n🚀 Hatua ya 2: bei zinapanda. Vyombo vya habari vinagundua. Mtandao wako unajaa washindi.\n🎪 Hatua ya 3: wazimu. Madereva wa teksi wanatoa ushauri wa sarafu. Watu wanakopa ili kununua. 'Safari hii ni tofauti.'\n💥 Hatua ya 4: anguko. Waliochelewa, walionunua kwa bei ya juu zaidi, wanapoteza zaidi.\n🕳️ Hatua ya 5: ukimya. Machapisho ya washindi yanatoweka. Hakuna anayezungumzia hasara zake.\n\nMvumo wa NFT wa 2021 ulifuata hati hii hasa: vitu vya kidijitali vya kukusanya viliuzwa kwa mamilioni kileleni, na miaka michache baadaye vingi vilikuwa na thamani karibu sifuri.\n\nHila katili ya kila wazimu wa soko: hufanya wakati MBAYA ZAIDI wa kununua uhisi kama wakati wa DHARURA ZAIDI wa kununua. Inapohisi salama zaidi kujitosa, kwa sababu kila mtu mwingine ameshajitosa, faida rahisi kwa kawaida zimeshaondoka. 🎯",
+      "quiz": {
+        "q": "Katika mzunguko wa kawaida wa mvumo, mtu wa kawaida huhisi hamu kubwa zaidi ya kununua lini?",
+        "explanation": "Hamu huwa kubwa zaidi pale hadithi inaposikika zaidi, na hadithi husikika zaidi baada ya bei kuwa imeshapanda. Kila mtu kuwa ndani ndicho kinachofanya ihisi salama, na pia ndicho kinachoacha bila mtu yeyote aliyebaki wa kununua.",
+        "options": [
+          "Mapema, wakati karibu hakuna anayeizungumzia",
+          "Katikati ya anguko, wakati bei ziko chini",
+          "Karibu na kilele, wakati kila mtu mwingine ameshaingia",
+          "Haifuati mtindo wowote, hamu huja tu bila mpangilio"
+        ]
+      }
+    },
+    "45": {
+      "title": "Kusoma Mshumaa",
+      "desc": "Muundo wa mshumaa: mwili na rangi",
+      "content": "Kila mshumaa husimulia hadithi ndogo kwa namba nne tu: bei ilipofunguliwa, ya juu zaidi iliyofikia, ya chini zaidi iliyoshuka, na ilipofungwa. Mwili mnene huanzia bei ya kufungua hadi ya kufunga, na rangi inakuambia ipi ilishinda: kijani inamaanisha bei ya kufunga ilimalizikia juu ya ya kufungua, nyekundu inamaanisha wauzaji waliivuta chini yake. Hiyo ndiyo siri yote. Jifunze kusoma mshumaa mmoja vizuri na kila chati duniani itageuka kutoka ukuta wa kelele kuwa katuni. 🟢",
+      "quiz": {
+        "q": "Mshumaa huu ni wa kijani. Unakuambia nini kuhusu kipindi hicho cha biashara?",
+        "options": [
+          "Bei ilifunga chini kuliko ilivyofunguliwa",
+          "Watu wengi walinunua kuliko walivyouza, bila shaka",
+          "Bei ilifunga juu kuliko ilivyofunguliwa",
+          "Bei haikushuka kamwe katika kipindi hicho"
+        ]
+      }
+    },
+    "46": {
+      "title": "Utambi Husimulia Hadithi",
+      "desc": "Muundo wa mshumaa: juu na chini",
+      "content": "Mwili unaonyesha kipindi kilipofunguliwa na kufungwa, lakini utambi unaonyesha safari nzima: kila bei ambayo mapambano yalifikia kweli. Utambi mrefu unamaanisha vita kubwa ilitokea nje ya bei za kufungua na kufunga, na upande ulioacha utambi nyuma ndio ulioshindwa vita hiyo. Utambi mrefu chini? Wauzaji walisukuma kwa nguvu na wakarudishwa nyuma. Utambi mrefu juu? Wanunuzi walifika juu na wakakataliwa. Mwili ni kichwa cha habari, utambi ni umbea. 📏",
+      "quiz": {
+        "q": "Mistari myembamba (utambi) juu na chini ya mwili inaonyesha nini hasa?",
+        "options": [
+          "Bei ya juu zaidi na ya chini zaidi zilizofanyiwa biashara katika kipindi hicho",
+          "Bei za kufungua na kufunga za jana",
+          "Bei kamili ambapo biashara nyingi zilifanyika",
+          "Utabiri wa masafa ya kesho"
+        ]
+      }
+    },
+    "47": {
+      "title": "Doji",
+      "desc": "Mishumaa moja moja: kusita",
+      "content": "Wakati mwingine mshumaa hufunguliwa na kufungwa karibu kwa bei ileile kabisa, ukiacha mwili mdogo sana wenye utambi pande zote mbili. Huo ni doji, na unamaanisha mvutano wa kamba uliisha sare kamili: wanunuzi na wauzaji walivuta kwa nguvu kipindi kizima na hakuna upande ulioshinda. Peke yake ni kama kuinua mabega tu. Baada ya kupanda kwa nguvu unaweza kudokeza kuwa mwenendo unachoka, kwa sababu upande uliokuwa ukishinda ghafla haukuweza kusogeza bei. Ni dokezo la kuzingatia, kamwe si hakikisho. 🤝",
+      "quiz": {
+        "q": "Mshumaa unaong'aa ulifunguliwa na kufungwa karibu kwa bei ileile kabisa. Unaitwaje, na unadokeza nini?",
+        "options": [
+          "Marubozu, ishara ya msimamo kamili upande wowote",
+          "Nyundo, ishara kwamba wanunuzi walirudisha udhibiti",
+          "Pengo, ishara kwamba biashara ilisimama usiku",
+          "Doji, ishara ya kusita kati ya wanunuzi na wauzaji"
+        ]
+      }
+    },
+    "48": {
+      "title": "Nyundo",
+      "desc": "Mishumaa moja moja: kujibu mapigo",
+      "content": "Fikiria kipindi kikali: wauzaji wanaiponda bei chini, kisha wanunuzi wanaivuta yote juu kabla ya kufunga. Kinachobaki kwenye chati ni nyundo: mwili mdogo karibu na juu wenye utambi mrefu wa chini angalau mara mbili ya ukubwa wake. Baada ya kushuka, nyundo inasema wauzaji walirusha ngumi yao bora na haikugonga. Mara nyingi hiyo huashiria uwezekano wa kugeuka. Uwezekano, si ahadi, kwa hivyo ichukulie kama dokezo la kufuatilia, si amri ya kununua. 🔨",
+      "quiz": {
+        "q": "Baada ya kushuka, mshumaa unaong'aa ulichora utambi mrefu wa chini na mwili mdogo karibu na juu. Ni nini?",
+        "options": [
+          "Nyota inayoanguka, ishara kwamba wauzaji walichukua udhibiti",
+          "Nyundo, dokezo kwamba wanunuzi walijibu mapigo kwa nguvu",
+          "Doji, sare kamili",
+          "Uthibitisho kwamba mwenendo wa kushuka umekwisha"
+        ]
+      }
+    },
+    "49": {
+      "title": "Nyota Inayoanguka",
+      "desc": "Mishumaa moja moja: kukataliwa kileleni",
+      "content": "Picha ya kioo ya nyundo. Baada ya kupanda kwa nguvu, wanunuzi wanajaribu kufikia kilele kipya kimoja zaidi, wanakataliwa vikali, na bei inafunga chini karibu na ilipofunguliwa. Chati inachora mwili mdogo chini ya mshumaa wenye utambi mrefu wa juu: nyota inayoanguka. Inamaanisha wauzaji hatimaye walijitokeza kileleni kwa nguvu ya kutosha kushinda kipindi hicho. Baada ya kupanda kukubwa, kukataliwa huko mara nyingi kuna maana. Mara nyingi, si kila mara. 🌠",
+      "quiz": {
+        "q": "Baada ya kupanda kwa nguvu, mshumaa unaong'aa uliruka juu kisha ukafunga karibu na kiwango chake cha chini, ukiacha utambi mrefu wa juu. Ni nini?",
+        "options": [
+          "Nyota inayoanguka, dokezo kwamba wauzaji walijitokeza kileleni",
+          "Nyundo, dokezo kwamba wanunuzi wamerudi kuongoza",
+          "Marubozu ya kijani, nguvu tupu ya ununuzi",
+          "Hakikisho kwamba bei itaporomoka kesho"
+        ]
+      }
+    },
+    "50": {
+      "title": "Marubozu",
+      "desc": "Mishumaa moja moja: msimamo kamili",
+      "content": "Marubozu ni mwili mmoja mnene usio na utambi kabisa: bei ilifunguliwa na ikaenda upande mmoja kipindi kizima bila kugeuka nyuma hata mara moja. Hakuna mapambano, hakuna kusita, msimamo kamili kutoka upande mmoja. Marubozu ya kijani inapiga kelele za kujiamini kwa wanunuzi, nyekundu inapiga kelele za kinyume chake. Ni nadra, na ndiyo sababu hasa wafanyabiashara hukaa macho moja inapotokea. 💪",
+      "quiz": {
+        "q": "Mshumaa unaong'aa ni mwili mmoja mnene usio na utambi kabisa. Umbo hilo linakuambia nini?",
+        "options": [
+          "Hakuna aliyefanya biashara katika kipindi hicho, kwa hivyo ilibaki bapa",
+          "Soko lilifungwa mapema siku hiyo na likaikatiza",
+          "Upande mmoja ulikuwa na udhibiti tangu kufungua hadi kufunga, msimamo kamili",
+          "Wanunuzi na wauzaji walikuwa na usawa kamili tangu mwanzo hadi mwisho"
+        ]
+      }
+    },
+    "51": {
+      "title": "Bullish Engulfing (Kumeza kwa Kupanda)",
+      "desc": "Mitindo ya mishumaa miwili: wanunuzi wanashambulia",
+      "content": "Mishumaa miwili, ujumbe mmoja. Kwanza mshumaa mdogo mwekundu, kawaida tu katika mwenendo wa kushuka. Kisha mwili mkubwa wa kijani unaoumeza kabisa: katika kipindi kimoja, wanunuzi walifuta kila kitu ambacho wauzaji walifanikisha siku iliyotangulia, na zaidi. Ukitokea baada ya mwenendo wa kushuka, bullish engulfing ni mojawapo ya madokezo ya kugeuka yanayofuatiliwa zaidi kwenye chati yoyote, kwa sababu unaonyesha usawa wa nguvu ukigeuka ndani ya mshumaa mmoja. Dokezo, si mkataba. 🐂",
+      "quiz": {
+        "q": "Mwili mkubwa wa kijani unaumeza kabisa mwili mwekundu uliotangulia. Mtindo huu wa mishumaa miwili ni upi?",
+        "options": [
+          "Bearish engulfing, wauzaji walichukua udhibiti",
+          "Bullish engulfing, wanunuzi waliwazidi nguvu wauzaji",
+          "Sakafu maradufu (double bottom)",
+          "Doji mbili mfululizo"
+        ]
+      }
+    },
+    "52": {
+      "title": "Bearish Engulfing (Kumeza kwa Kushuka)",
+      "desc": "Mitindo ya mishumaa miwili: wauzaji wanashambulia",
+      "content": "Picha ya kioo ya toleo la kupanda. Kileleni mwa kupanda, mwili mkubwa mwekundu unameza mwili mzima wa kijani uliotangulia: wauzaji walifuta ununuzi wa siku iliyopita ndani ya mshumaa mmoja, pale pale ambapo kupanda kulikuwa kumeshanyooshwa sana na wanunuzi wa mwisho walikuwa na wasiwasi. Hilo huwa linawatia wasiwasi wanunuzi wengine pia. Ukiuona baada ya kupanda kwa muda mrefu, uheshimu. 🐻",
+      "quiz": {
+        "q": "Kileleni mwa kupanda, mwili mkubwa mwekundu unameza mwili mzima wa kijani uliotangulia. Jozi hii inaitwaje?",
+        "options": [
+          "Bullish engulfing, kupanda kunaendelea",
+          "Nyundo ikifuatwa na doji",
+          "Kuvunja juu ya upinzani",
+          "Bearish engulfing, wauzaji waliwazidi nguvu wanunuzi"
+        ]
+      }
+    },
+    "53": {
+      "title": "Kutambua Mwenendo wa Kupanda",
+      "desc": "Mienendo: vilele vya juu zaidi, sakafu za juu zaidi",
+      "content": "Mwenendo wa kupanda unahitaji nusu zote mbili: vilele vya juu zaidi NA sakafu za juu zaidi. Kila kilele kinashinda kilichotangulia, na kila mshuko unasimama juu zaidi kuliko uliotangulia, kwa sababu wanunuzi wanaendelea kuingia mapema zaidi kila mara. Umbo hilo la ngazi ni soko likikuambia kwamba mahitaji ndiyo yanayoongoza. Kilele kimoja cha juu zaidi peke yake hakithibitishi chochote. Mtindo ni jozi hiyo, ikijirudia. 📈",
+      "quiz": {
+        "q": "Kila kilele kinashinda kilichotangulia, na kila mshuko unasimama juu zaidi kuliko uliotangulia. Chati hii inaonyesha nini?",
+        "options": [
+          "Mwenendo wa kupanda, vilele vya juu zaidi na sakafu za juu zaidi",
+          "Mwenendo wa kushuka, vilele vya chini zaidi na sakafu za chini zaidi",
+          "Masafa, bei imekwama kati ya sakafu na dari",
+          "Kilele maradufu (double top) kikiendelea kujengeka"
+        ]
+      }
+    },
+    "54": {
+      "title": "Kutambua Mwenendo wa Kushuka",
+      "desc": "Mienendo: vilele vya chini zaidi, sakafu za chini zaidi",
+      "content": "Geuza ngazi juu chini. Vilele vya chini zaidi vinamaanisha wauzaji wanashambulia mapema zaidi katika kila kuruka juu, sakafu za chini zaidi zinamaanisha wanunuzi wanarudi nyuma zaidi katika kila kushuka. Muundo huo ukiendelea kudumu, wauzaji ndio wanaoendesha mchezo, na kupambana nao ndivyo wafanyabiashara wapya wanavyowapa pesa wale wenye subira. Mwenendo si adui yako, lakini kujifanya haupo hakika ni adui. 📉",
+      "quiz": {
+        "q": "Kila kuruka juu kunaishia chini kuliko kulikotangulia, na kila kushuka kunakwenda chini zaidi. Unatazama nini?",
+        "options": [
+          "Mwenendo wa kupanda unaopumzika kidogo tu",
+          "Masafa ya kando",
+          "Mwenendo wa kushuka, vilele vya chini zaidi na sakafu za chini zaidi",
+          "Mtindo wa bullish engulfing ukijengeka"
+        ]
+      }
+    },
+    "55": {
+      "title": "Soko la Kando",
+      "desc": "Mienendo: mchezo wa kusubiri",
+      "content": "Wakati mwingine hakuna upande unaoshinda, kwa hivyo bei inadunda tu kama mpira wa meza kati ya sakafu ileile na dari ileile kwa wiki kadhaa. Hayo ni masafa, na masoko hutumia sehemu kubwa sana ya maisha yao yakifanya hivi hasa. Haijaharibika na haichoshi, ni soko likivuta pumzi. Wafanyabiashara wenye subira hujifunza kupenda kusubiri, kwa sababu kadiri masafa yanavyodumu kwa muda mrefu, ndivyo kutoroka kwake hatimaye huwa na maana zaidi. 🏓",
+      "quiz": {
+        "q": "Kwa wiki kadhaa bei imekuwa ikidunda kati ya sakafu ileile na dari ileile. Hii inaitwaje?",
+        "options": [
+          "Mwenendo wa kupanda, inaendelea kugusa dari",
+          "Masafa, soko linaenda kando",
+          "Kichwa na mabega",
+          "Kuvunja (breakout) kunakoendelea"
+        ]
+      }
+    },
+    "56": {
+      "title": "Msaada (Support)",
+      "desc": "Msaada na upinzani: sakafu",
+      "content": "Bei inapoendelea kushuka hadi kiwango kilekile na kudunda juu kila mara, wafanyabiashara huita kiwango hicho msaada: sakafu ambapo wanunuzi wanaendelea kuamua kuwa bei ni nafuu. Kadiri inavyoshikilia mara nyingi zaidi, ndivyo watu wengi zaidi wanavyoifuatilia, na hiyo ni sehemu ya sababu inaendelea kushikilia. Lakini kumbuka sakafu imechorwa na watu, si sheria. Msaada unaweza kuvunjika na huvunjika, na unapovunjika, umati wa kudunda unakuwa umati wa hofu. 🧱",
+      "quiz": {
+        "q": "Bei imeshuka hadi kiwango kilichotiwa kivuli mara tatu, na ikadunda juu kila mara. Wafanyabiashara huita kiwango hicho nini?",
+        "options": [
+          "Upinzani, dari ambapo wauzaji hujazana",
+          "Mstari wa mwenendo, viwango lazima viwe vya mshazari",
+          "Stop-loss iliyowekwa na soko la hisa",
+          "Msaada, sakafu ambapo wanunuzi wanaendelea kuingia"
+        ]
+      }
+    },
+    "57": {
+      "title": "Upinzani (Resistance)",
+      "desc": "Msaada na upinzani: dari",
+      "content": "Upinzani ni dari: kiwango ambapo kila kupanda kunaendelea kukwama kwa sababu wauzaji wanafurahi kuchukua pesa zao hapo. Tazama chati ikigonga kichwa kwenye bei ileile mara tatu na unatazama upinzani ukifanya kazi moja kwa moja. Hapa kuna mzunguko unaostahili kukumbukwa: bei ikiwahi kupenya kwa msimamo halisi, dari ile ya zamani mara nyingi huanza kufanya kazi kama sakafu mpya. 🪟",
+      "quiz": {
+        "q": "Mipando mitatu tofauti imekwama kwenye kiwango kilichotiwa kivuli. Kiwango hicho kinaitwaje?",
+        "options": [
+          "Upinzani, dari ambapo wauzaji wanaendelea kusukuma nyuma",
+          "Msaada, sakafu iliyo chini ya bei",
+          "Kiwango cha gawio, kinachowekwa mara moja kwa mwaka",
+          "Mruko wa kiasi cha biashara, ambao hausemi chochote kuhusu bei"
+        ]
+      }
+    },
+    "58": {
+      "title": "Mistari ya Mwenendo",
+      "desc": "Mistari ya mwenendo na mifereji: mstari wenye maana",
+      "content": "Unganisha sakafu zinazopanda kwenye chati na umechora mstari wa mwenendo. Nukta zozote mbili hutengeneza mstari, lakini mguso wa tatu ndipo unapoanza kuthibitisha kuwa una maana, kwa sababu unaonyesha wanunuzi wanaendelea kulinda kiwango kilekile kinachopanda. Kila mguso wa ziada unaoheshimiwa ni ushahidi zaidi. Unabaki kuwa ushahidi, kamwe si ahadi: mstari wa mwenendo ni alama ya penseli, si ngao ya nguvu. ✏️",
+      "quiz": {
+        "q": "Mstari huu unaopanda umeguswa mara tatu tofauti. Kwa nini wafanyabiashara wanajali mstari wa mwenendo una miguso mingapi?",
+        "options": [
+          "Hawajali, kwa kuwa nukta zozote mbili hufanya mstari wa mwenendo kuwa kanuni",
+          "Miguso mitatu inamaanisha kudunda kwa nne kumehakikishwa kunafuata",
+          "Miguso zaidi hufanya mstari uwe na maana zaidi, wanunuzi wanaendelea kuulinda",
+          "Mistari ya mwenendo huhesabika kwenye chati za kila siku tu, kamwe si fupi zaidi"
+        ]
+      }
+    },
+    "59": {
+      "title": "Mifereji (Channels)",
+      "desc": "Mistari ya mwenendo na mifereji: njia",
+      "content": "Mfereji ni mwenendo wenye adabu. Bei inapanda huku ikidunda kati ya mistari miwili sambamba: sakafu ya viwango vya chini vinavyopanda na dari ya vilele vinavyopanda, vikienda juu pamoja kama kingo za njia barabarani. Wafanyabiashara hufuatilia kingo zote mbili kwa ajili ya kudunda, na hufuatilia kwa makini zaidi siku ambayo bei itatoka nje ya njia, kwa sababu kuvunja wazi nje ya mfereji mara nyingi ndipo mwendo mkubwa unaofuata unapoanzia. 🛣️",
+      "quiz": {
+        "q": "Bei inapanda huku ikidunda kati ya mistari miwili sambamba. Mtindo huu ni upi?",
+        "options": [
+          "Pembetatu, ambapo mistari miwili lazima ikutane",
+          "Mfereji unaopanda, mwenendo wa kupanda wenye njia inayoonekana",
+          "Kilele maradufu (double top)",
+          "Masafa bapa yasiyoenda popote kabisa"
+        ]
+      }
+    },
+    "60": {
+      "title": "Kilele Maradufu (Double Top)",
+      "desc": "Mitindo ya chati: umbo la M",
+      "content": "Bei inagonga dari ileile mara mbili, inashindwa mara zote mbili, na inachora M kubwa kwenye chati. Ikivunja chini ya mshuko ulio katikati (mstari wa shingo) kilele maradufu kinakamilika: dokezo la kawaida la kugeuka kuelekea kushuka. Picha yake ya kioo, W, ni sakafu maradufu (double bottom), na inaelekeza upande mwingine. Huwa inaashiria kilele, si lazima. Hakuna kitu kwenye chati ambacho ni lazima. Ⓜ️",
+      "quiz": {
+        "q": "Bei iligonga dari ileile mara mbili, ikashindwa mara zote mbili, kisha ikavunja chini ya mshuko ulio katikati. Umbo hili ni lipi?",
+        "options": [
+          "Sakafu maradufu (double bottom), dokezo la kupanda",
+          "Mfereji unaopanda",
+          "Nyundo",
+          "Kilele maradufu (double top), dokezo la kugeuka kuelekea kushuka"
+        ]
+      }
+    },
+    "61": {
+      "title": "Mitindo Inaposhindwa",
+      "desc": "Mitindo ya chati: uwezekano, si ahadi",
+      "content": "Hili ndilo somo lenye thamani kubwa zaidi katika moduli hii. Mtindo wa kitabuni ulijitokeza, kila mtu aliuona, kisha soko likafanya kinyume chake. Kila mtindo uliojifunza hushindwa wakati mwingine, na hiyo si chati ikikudanganya, ni chati ikikupa taarifa: upande uliouunga mkono umeshindwa hivi punde. Amua njia yako ya kutoka kabla ya kuingia, na mtindo ukishindwa, elewa ishara na utoke. Mitindo ni uwezekano, kamwe si ahadi. 🚪",
+      "quiz": {
+        "q": "Sakafu maradufu ya kitabuni ilijitokeza kwenye sakafu iliyotiwa kivuli... kisha bei ikaporomoka moja kwa moja kupitia hapo. Somo la kweli ni lipi?",
+        "options": [
+          "Mitindo ni uwezekano, si ahadi, na mtindo ulioshindwa ni ishara yako ya kutoka",
+          "Sakafu maradufu halisi hazishindwi kamwe, kwa hivyo uliyokuwa ukiitazama lazima ilikuwa bandia",
+          "Nunua zaidi kwa bei ya chini, kwa sababu mtindo bado utatimia hatimaye",
+          "Chati huacha kufanya kazi kabisa mara mtindo unaposhindwa kwa namna hiyo"
+        ]
+      }
+    },
+    "62": {
+      "title": "Kichwa na Mabega",
+      "desc": "Mitindo ya chati: vilele vitatu",
+      "content": "Vilele vitatu: kirefu zaidi katikati (kichwa), cha chini zaidi kila upande (mabega), na mstari chini ya mishuko miwili unaoitwa mstari wa shingo. Hujitokeza wanunuzi wanapofanikiwa kusukuma mara ya mwisho juu zaidi kisha hawawezi hata kulingana nayo katika jaribio linalofuata. Umbo peke yake ni onyo tu. Sehemu ambayo wafanyabiashara huisubiri kweli ni kuvunja kwa uthabiti chini ya mstari wa shingo, kwa sababu hapo ndipo mtindo unaacha kuwa mchoro na kuanza kuwa uamuzi. 👤",
+      "quiz": {
+        "q": "Vilele vitatu: kirefu zaidi katikati, cha chini zaidi kila upande, na sakafu inayounganisha mishuko miwili. Umbo hili maarufu ni lipi?",
+        "options": [
+          "Sakafu tatu (triple bottom), viwango vitatu sawa vya chini kabla ya kusukuma juu",
+          "Kichwa na mabega, uwezekano wa mwisho wa mwenendo wa kupanda",
+          "Pembetatu inayopanda",
+          "Nyundo tatu mfululizo, kila moja ikikataa bei za chini"
+        ]
+      }
+    },
+    "63": {
+      "title": "Kubanwa kwa Pembetatu",
+      "desc": "Mitindo ya chati: springi iliyobanwa",
+      "content": "Mabembeo yanapoendelea kupungua, sakafu za juu zaidi zikibana dhidi ya vilele vya chini zaidi, soko linajikunja kama springi. Hiyo ni pembetatu: pande zote mbili zinaishiwa nafasi, uamuzi unalazimishwa. Kubanwa huko mara nyingi huisha kwa mlipuko, na hapa ndipo kuna ujanja: mwelekeo wa mlipuko haujulikani mapema. Subiri kuvunja badala ya kukisia. Soko litakuambia, na halitozi chochote kwa taarifa hiyo. 🌀",
+      "quiz": {
+        "q": "Mabembeo yanaendelea kupungua, yakibana bei katika mkunjo mwembamba zaidi na zaidi, hadi hatimaye inalipuka nje. Mkunjo huo ulikuwa nini?",
+        "options": [
+          "Mfereji, mistari miwili sambamba ambayo haikutani kamwe",
+          "Kilele maradufu (double top)",
+          "Pembetatu, kipindi cha kutulia ambacho mara nyingi huisha kwa kuvunja",
+          "Uthibitisho kwamba bei ililazimika kuvunja kuelekea juu kutoka hapo"
+        ]
+      }
+    },
+    "64": {
+      "title": "Kiasi cha Biashara: Kigundua Uongo",
+      "desc": "Kiasi cha biashara: nani alijitokeza kweli",
+      "content": "Kiasi cha biashara (volume) ni idadi ya hisa zilizobadilisha mikono, na ndicho kigundua uongo cha chati. Kuvunja kwa kiasi kidogo sana ni mnong'ono unaowadanganya watu: biashara chache tu zilisukuma bei mahali ambapo haiwezi kubaki. Kuvunja kwa kiasi kikubwa ni umati ukipiga kura kwa pesa kweli. Mwendo uleule wa bei, maana tofauti kabisa. Kabla hujaamini mwendo wowote mkubwa, angalia nani alijitokeza kwa ajili yake. 🔊",
+      "quiz": {
+        "q": "Majaribio mawili ya kutoroka kutoka dari ileile: la kwanza kwa kiasi kidogo sana lilishindwa, la pili lilikuja na kiasi kikubwa mno na likashikilia. Kiasi cha biashara kinafanya nini hapa?",
+        "options": [
+          "Hakuna chochote, kiasi cha biashara hakijalishi kamwe katika mwendo wa bei",
+          "Kinalazimisha bei kupanda, kwa kuwa kiasi kikubwa husukuma bei juu",
+          "Kinatabiri kilele kamili cha mwendo kabla hakijatokea",
+          "Kinafanya kazi kama uthibitisho, kiasi kikubwa kinaonyesha msimamo halisi nyuma ya mwendo"
+        ]
+      }
+    },
+    "65": {
+      "title": "Mtambuzi wa Mienendo",
+      "desc": "Chati kumi, bila lebo, bila huruma",
+      "content": "Chati kumi. Bila lebo, bila mistari ya msaada, bila madokezo. Sema kila moja inaonyesha nini, kama mfanyabiashara halisi anayekodolea macho skrini halisi. Pata 8 kati ya 10 na moduli ni yako. Una majaribio 3 kwa siku, kwa hivyo punguza kasi, soma mishumaa, na kumbuka somo muhimu kuliko yote: wakati mwingine jibu la kweli ni kwamba hakuna mtindo wowote. 🕯️",
+      "bossVictory": "Moduli ya mienendo imeshindwa. Sasa wewe ndiye unasoma chati, si chati zinazokusoma wewe. 🕯️",
+      "bossQuestions": {
+        "0": {
+          "q": "Chati hii inaonyesha nini?",
+          "explanation": "Imechafuliwa makusudi. Ondoa kelele na kila kilele cha bembeo bado kinashinda kilichotangulia, na kila mshuko bado unaishia juu zaidi. Mienendo halisi huonekana hivi, si kama ngazi ya kitabuni.",
+          "options": [
+            "Mwenendo wa kushuka, vilele vya chini zaidi na sakafu za chini zaidi",
+            "Mwenendo wa kupanda, vilele vya juu zaidi na sakafu za juu zaidi",
+            "Masafa ya kando",
+            "Kilele maradufu (double top)"
+          ]
+        },
+        "1": {
+          "q": "Nini kilitokea kwenye jozi ya mishumaa inayong'aa?",
+          "explanation": "Mwili mwekundu ulimeza mwili mzima wa kijani mara tu baada ya kupanda kwa muda mrefu. Huo ni bearish engulfing ukifanya kile unachofanya hasa: kujitokeza pale wanunuzi wamenyooshwa zaidi.",
+          "options": [
+            "Bullish engulfing",
+            "Doji kileleni",
+            "Nyundo",
+            "Bearish engulfing kileleni mwa kupanda"
+          ]
+        },
+        "2": {
+          "q": "Chati hii inaonyesha nini?",
+          "explanation": "Kilele cha kati kiko wazi juu ya vile viwili vya pande zake, na mishuko inapangika kuwa mstari wa shingo. Halisi hazina ulinganifu kamwe, na hivi ndivyo zinavyoonekana kweli porini.",
+          "options": [
+            "Kichwa na mabega",
+            "Vilele vitatu (triple top) vyenye urefu sawa",
+            "Pembetatu inayopanda",
+            "Mfereji unaopanda"
+          ]
+        },
+        "3": {
+          "q": "Chati hii inaonyesha nini?",
+          "explanation": "Majaribio mawili kwenye sakafu ileile, la pili likiwa na kina kidogo kidogo, kisha msukumo juu kupitia kudunda kwa katikati. Umbo la W, lililochorwa na soko halisi badala ya kitabu.",
+          "options": [
+            "Kichwa na mabega",
+            "Pembetatu inayoshuka",
+            "Sakafu maradufu (double bottom)",
+            "Bendera ya dubu (bear flag)"
+          ]
+        },
+        "4": {
+          "q": "Mshumaa unaong'aa ni upi?",
+          "explanation": "Utambi mrefu wa juu, mwili mdogo sana uliokaa chini ya masafa yake, mara tu baada ya kupanda. Wanunuzi walijaribu kufikia kilele kipya na wakazabwa kofi chini kabla ya kufunga.",
+          "options": [
+            "Nyundo",
+            "Marubozu ya kijani",
+            "Doji",
+            "Nyota inayoanguka baada ya kupanda"
+          ]
+        },
+        "5": {
+          "q": "Chati hii inaonyesha nini?",
+          "explanation": "Sakafu ileile na dari ileile zinaendelea kuheshimiwa, na kila kitu katikati ni kelele. Hakuna upande unaoshinda, kwa hivyo hakuna mwenendo wa kufuata.",
+          "options": [
+            "Masafa, bei imefungiwa kati ya msaada na upinzani",
+            "Mwenendo wa kupanda, vilele vya juu zaidi na sakafu za juu zaidi",
+            "Kabari inayoshuka (falling wedge)",
+            "Kuvunja (breakout) kunakoendelea"
+          ]
+        },
+        "6": {
+          "q": "Bei ilivunja juu ya dari ya zamani, kisha mshuko wenye mshale ukarudi kwenye kiwango hicho na ukashikilia. Mshuko huo ulikuwa nini?",
+          "explanation": "Mshuko ulirudi hasa kwenye kiwango kilichokuwa dari zamani, ukakuta wanunuzi hapo, na mwenendo ukaendelea. Huo ni kurudi nyuma (pullback). Kugeuka kungekata kiwango hicho na kuendelea kushuka.",
+          "options": [
+            "Kugeuka kamili kuwa mwenendo wa kushuka",
+            "Kurudi nyuma (pullback), kujaribu tena kiwango kilichovunjwa",
+            "Kilele maradufu (double top)",
+            "Dead cat bounce (kudunda kwa paka aliyekufa)"
+          ]
+        },
+        "7": {
+          "q": "Chati hii inaonyesha nini?",
+          "explanation": "Sakafu bapa, vilele vya chini zaidi vikiibana kutoka juu, wauzaji wakifika mapema zaidi katika kila kudunda. Sakafu hatimaye ilikubali kuvunjika, ambayo ndiyo matokeo ambayo umbo hili mara nyingi huelekea. Mara nyingi, kamwe si kila mara.",
+          "options": [
+            "Pembetatu inayopanda",
+            "Mfereji unaopanda",
+            "Pembetatu inayoshuka ikiegemea msaada",
+            "Sakafu maradufu (double bottom)"
+          ]
+        },
+        "8": {
+          "q": "Chati hii inaonyesha nini?",
+          "explanation": "Swali la mtego, na lenye thamani kubwa zaidi kwenye boss. Chati nyingi, mara nyingi, hazionyeshi chochote kinachofaa kufanyiwa biashara. Kuona mitindo isiyokuwepo ndivyo wanaoanza wanavyopoteza. Kusema hakuna biashara ni ujuzi. 🎯",
+          "options": [
+            "Kichwa na mabega",
+            "Kilele maradufu (double top)",
+            "Mwenendo wa kupanda",
+            "Hakuna mtindo wazi, hakuna cha kufanyia biashara hapa"
+          ]
+        },
+        "9": {
+          "q": "Chati hii inaonyesha nini?",
+          "explanation": "Bei ilichungulia juu ya dari kwa kiasi dhaifu cha biashara, wanunuzi wakaifukuzia, kisha ikaporomoka moja kwa moja kurudi ndani ya masafa. Kuvunja kunakoshindwa ndiyo sababu hasa somo la kiasi cha biashara lilikuambia uangalie kiasi kabla ya kuamini kuvunja kokote.",
+          "options": [
+            "Mtego wa fahali (bull trap), kuvunja kulikoshindwa kulikowanasa wanunuzi",
+            "Kuvunja kulikofanikiwa pamoja na kujaribiwa tena kwa usafi",
+            "Sakafu maradufu (double bottom)",
+            "Kugeuka kwa nyundo"
+          ]
+        }
+      }
+    },
+    "66": {
+      "title": "Humiliki Chochote Hapa",
+      "desc": "Derivative ni dau juu ya namba",
+      "content": "Kila kitu ulichojifunza hadi sasa kilikuwa na kitu halisi nyuma yake. Nunua hisa ya {retail} na unamiliki kipande cha kampuni: kipande cha maduka, kipande cha faida, kura kwenye mkutano, na gawio wanapolipa.\n\nDerivative si hivyo.\n\nCFD (contract for difference, yaani mkataba wa tofauti ya bei) ni makubaliano kati yako na mtoa huduma ya kubadilishana tofauti ya bei kati ya unapofungua na unapofunga. Hiyo ndiyo bidhaa nzima. {retail} ikipanda na ulikuwa umeweka dau la kupanda, wanakulipa tofauti hiyo. Ikishuka, unawalipa wao. Hakuna anayenunua hisa. Hakuna anayeuza hisa. Hakuna hisa zozote mahali popote katika muamala huo.\n\nFuture (mkataba wa baadaye) ni mkataba wa kununua au kuuza kitu kwa bei iliyowekwa siku iliyowekwa. Halisi hulipwa kwa mapipa halisi ya mafuta au tani za mahindi, lakini karibu hakuna anayezishikilia muda mrefu hivyo, kwa hivyo kiutendaji futures nyingi pia ni dau juu ya namba lenye tarehe ya mwisho.\n\nKwa nini hili ni muhimu kuliko linavyosikika:\n\n• Hakuna gawio. Hakuna Watoto wa Pesa. Kile kilichojenga kimya kimya sehemu kubwa ya mapato katika somo la 15 hakipo hapa kabisa.\n• Hakuna kura, hakuna umiliki, hakuna cha kushikilia. Hakuna chaguo la \"ishikilie tu kwa miaka kumi\", kwa sababu hakuna cha kushikilia.\n• Hakuna riba mchanganyiko. Sehemu nyingine ya programu hii inatumia masomo 65 kukufundisha kwamba muda uko upande wako. Katika chumba hiki, muda unakugharimu pesa. Utaona ni kiasi gani hasa katika somo la 72.\n\nKila kitu unachokijua tayari bado ni muhimu. Kinaacha tu kuwa kile unachokifanya. 📄",
+      "quiz": {
+        "q": "Unafungua CFD juu ya {retail} na bei inapanda. Unamiliki nini hasa?",
+        "explanation": "CFD ni makubaliano kati yako na mtoa huduma ya kubadilishana tofauti kati ya bei uliyofungulia na bei utakayofungia. Hakuna anayenunua hisa, hakuna anayeuza, na hakuna hisa zozote katika mpango huo. Ndiyo sababu hakuna gawio, hakuna kura na hakuna cha kushikilia kwa miaka kumi.",
+        "options": [
+          "Hisa ambazo mtoa huduma anazishikilia kwa jina lake mwenyewe",
+          "Mkataba wa kubadilishana tofauti ya bei mwishoni",
+          "Sehemu ya kampuni, pamoja na gawio linalofuata",
+          "Vocha inayogeuka kuwa hisa halisi unapofunga"
+        ]
+      }
+    },
+    "67": {
+      "title": "Kukopa kwa Rafiki",
+      "desc": "Leverage ni nini hasa, na sehemu ambayo hakuna anayeichapisha",
+      "content": "Leverage inasikika kama kitu cha kitaalamu. Sivyo. Ni kukopa tu.\n\nTuseme unataka hisa za {c}1,000 lakini una {c}200 tu. Rafiki anajitolea kuweka {c}800 zilizobaki. Unadhibiti hisa za {c}1,000 kwa {c}200 za pesa yako mwenyewe. Hiyo ndiyo leverage. Hilo ndilo wazo zima.\n\nSasa mambo matatu ambayo rafiki huyo anafanya. Unahitaji yote matatu, la sivyo umeuziwa hadithi ya kubuni.\n\n1️⃣ FAIDA NI YAKO KWELI. Hisa zinapanda 10%. {c}1,000 zako sasa ni {c}1,100. Hiyo ni faida ya {c}100 na unaibakiza yote, kwa sababu rafiki yako anadai {c}800 na si zaidi hata kidogo (sarafu: {cName}). Kwa {c}200 zako mwenyewe, {c}100 ni faida ya 50%. Mwendo wa 10% umekupa 50%. Hii ndiyo sehemu ambayo kila mtu huichapisha.\n\n2️⃣ MKOPO HAUPUNGUI UNAPOKOSEA. Hii ndiyo sehemu ambayo hakuna anayeichapisha, na ndiyo somo zima. Badala yake hisa zinashuka 10%. {c}1,000 zako sasa ni {c}900. Bado unamdai rafiki yako {c}800 kamili. Si {c}720. {c}800 kamili. Kwa hivyo anguko lote la {c}100 linatoka kwenye sehemu YAKO, na {c}200 zako sasa ni {c}100. Mwendo wa 10% umekugharimu 50%.\n\nSoma hizo mbili tena. Rafiki yuleyule, 10% ileile. Pesa yako inasonga kwa kasi mara tano pande zote mbili, kwa sababu mkopo haubebi kamwe sehemu ya maumivu.\n\n3️⃣ RAFIKI ANATOZA KODI YA PANGO, KILA SIKU, KWA KIASI CHOTE. Si kwa {c}800 zake. Kwa {c}1,000 zote unazodhibiti. Kila usiku unaoishikilia, iwe bei ilipanda, ilishuka, au haikwenda popote kabisa.\n\nNa kuna jambo la nne lililojificha ndani ya la tatu. {c}200 zako zikikaribia kuisha, rafiki yako hakupigii simu kujadiliana. Anauza. Papo hapo, moja kwa moja, kwa bei yoyote inayopatikana, kwa sababu ni {c}800 zake zilizo hatarini na hasubiri maoni yako. Hilo lina jina, na utakutana nalo baada ya masomo matatu: liquidation (kufungwa kwa lazima).\n\nKwa hivyo: faida kubwa zaidi, hasara kubwa zaidi, kodi ya pango kila usiku, na kidole cha mtu mwingine kwenye kitufe cha kuuza. Leverage si pesa za bure zenye hatari kidogo. Ni mkopo wenye yote manne hayo, na matangazo hukuonyesha la kwanza tu. 🧠",
+      "quiz": {
+        "q": "Rafiki anaweka 800 NT, wewe unaweka 200 NT, na kwa pamoja mnadhibiti hisa za 1,000 NT. Hisa zinashuka 10%. Buruta hadi thamani ya 200 NT zako sasa.",
+        "explanation": "Mkopo haupungui unapokosea. Hisa sasa zina thamani ya 900 NT na rafiki yako bado anadai 800 NT kamili, kwa hivyo 100 NT ndizo zilizobaki kwako. Anguko la 10% la hisa limechukua nusu ya pesa yako, kwa sababu mkopo haubebi maumivu yoyote. Inafanya kazi vivyo hivyo kuelekea juu, na hiyo ndiyo nusu ambayo matangazo hukuonyesha."
+      }
+    },
+    "68": {
+      "title": "Margin ni Amana, si Ununuzi",
+      "desc": "Pesa unayoweka haitumiki, iko hatarini",
+      "content": "Unaponunua hisa kwa {c}100, hizo {c}100 zinaondoka kwenye pesa zako taslimu na hisa inakaa kwenye akaunti yako. Kubadilishana rahisi.\n\nMargin haifanyi kazi hivyo. Unapofungua nafasi yenye leverage unaweka amana, na amana hiyo si malipo ya kitu chochote. Ni amana ya dhamana dhidi ya hasara zako mwenyewe. Inakaa pale, imefungwa, na nafasi inaila kadiri bei inavyokwenda kinyume nawe.\n\nTuseme kiwango cha amana ni 25%. Unaweka 250 NT na unadhibiti mfichuo wa 1,000 NT. Tazama akaunti yako:\n\n• Bei haibadiliki: 250 zako bado ni 250. Isipokuwa gharama ya ufadhili imeanza, kwa hivyo kimya kimya ni pungufu.\n• Bei inashuka 5%: nafasi imepoteza 50 NT. Amana yako kwa ufanisi ni 200. Pesa zako huru hazijasonga. Akaunti yako ni ndogo zaidi.\n• Bei inashuka 20%: nafasi imepoteza 200 NT. Amana yako imeshuka hadi 50. Hukufanya chochote. Hukuuza chochote. Ulitazama tu.\n\nManeno matatu yaliyo kwenye kila skrini katika chumba hiki:\n\n🔒 MARGIN ILIYOTUMIKA: kila amana uliyoweka kwa sasa.\n💰 THAMANI HALISI YA AKAUNTI (EQUITY): pesa zako huru, pamoja na margin uliyoweka, pamoja au kutoa faida na hasara ya kila nafasi iliyo wazi, kutoa gharama ya ufadhili iliyotozwa hadi sasa. Thamani halisi ya akaunti yako kama kila kitu kingefungwa sasa hivi.\n📊 KIWANGO CHA MARGIN: equity ikigawanywa kwa margin iliyotumika. Juu ya 100% una kinga. Chini ya 100% soko limemaliza kinga na limeanza kula amana.\n\nNa kanuni moja inayomshangaza kila mtu: margin hupimwa kwenye akaunti yako yote, si kwa kila nafasi. Nafasi inayopata hasara inakula dhamana inayoshikilia nafasi inayoshinda. Ndiyo sababu \"biashara yangu nyingine iko sawa\" si utetezi. 🔒",
+      "quiz": {
+        "q": "Kiwango cha amana ni 25%, kwa hivyo 250 NT za pesa yako zinadhibiti mfichuo wa 1,000 NT. Bei inashuka 8% wakati hufanyi chochote kabisa. Buruta hadi kiasi ambacho anguko hilo limekugharimu.",
+        "explanation": "Amana si malipo ya kitu chochote, ni dhamana, na hasara inahesabiwa kwenye 1,000 NT zote unazodhibiti. 8% ya 1,000 NT ni 80 NT. Hukuuza chochote na pesa zako huru hazijasonga, lakini 80 NT za amana yako ya 250 NT zimeliwa na akaunti yako ni ndogo kwa 80 NT. Ukihesabu 8% kwenye amana badala yake unapata 20 NT, na hilo ndilo kosa linalofanya leverage ionekane nyepesi."
+      }
+    },
+    "69": {
+      "title": "Margin Call",
+      "desc": "Ni dai, si onyo",
+      "content": "Margin call ni wakati kiwango chako cha margin kinashuka chini ya 100%. Kwa maneno rahisi: kinga yako ya faida imekwisha na soko limeanza kula amana yenyewe.\n\nHivi ndivyo inavyohisi hasa, kwa sababu toleo la kitabuni linakosa sehemu muhimu.\n\nHaiji kamwe siku nzuri. Inakuja wakati nafasi tayari imeharibika, wakati umeshajiambia mara mbili kwamba itarudi, na wakati huna uwezo mkubwa wa kufanya uamuzi kwa utulivu. Si taarifa ya adabu. Ni dai: weka pesa zaidi, au funga nafasi, au mtoa huduma atakufanyia.\n\nUna hatua tatu na mbili tu kati yake ni zako.\n\n1️⃣ FUNGA kitu. Hii inaachilia margin papo hapo na karibu kila mara ndiyo jibu sahihi. Pia inamaanisha kukubali ulikosea, ambayo ndiyo sababu halisi watu hawafanyi hivyo.\n2️⃣ ONGEZA pesa. Hii hairekebishi chochote. Inakununulia nafasi ya kukosea kwa muda mrefu zaidi, kwenye nafasi uliyoichagua vibaya tayari, kwa pesa ambayo hukupanga kuihatarisha. Kuongeza pesa wakati wa margin call ndivyo biashara mbaya inavyogeuka kuwa mwezi mbaya.\n3️⃣ USIFANYE CHOCHOTE. Kisha hatua ya tatu inatokea bila wewe, na ina jina.\n\nWadhibiti wanalichukulia hili kwa uzito sana hadi wameandika namba kwenye sheria. Kampuni za Ulaya, Uingereza na Australia lazima zifunge moja kwa moja nafasi za mteja wa rejareja margin yake inaposhuka hadi 50% ya iliyohitajika. Si \"inapaswa\". Lazima. Waliandika kanuni hiyo kwa sababu watu walipoachiwa kujiamulia, walichagua chaguo la 3 na wakapoteza zaidi ya walichokuwa nacho. ⚠️",
+      "quiz": {
+        "q": "Kiwango chako cha margin kimeshuka hadi 80% na uko kwenye margin call. Jibu lipi linapunguza kweli hatari ya liquidation badala ya kuichelewesha tu?",
+        "explanation": "Kufunga kunarudisha amana papo hapo, kwa hivyo kiwango cha margin kinaruka juu mara moja. Kuongeza pesa kunanunua tu nafasi ya kukosea kwa muda mrefu zaidi kwenye biashara uliyoichagua vibaya tayari. Kusubiri ndivyo liquidation inavyotokea. Na nafasi ya pili upande mwingine inahitaji amana yake yenyewe, kwa hivyo inatumia margin zaidi, si kidogo.",
+        "options": [
+          "Kuweka pesa zaidi kwenye akaunti",
+          "Kusubiri kiwango cha margin kipande tena",
+          "Kufunga mojawapo ya nafasi ulizofungua",
+          "Kufungua nafasi ya pili upande mwingine"
+        ]
+      }
+    },
+    "70": {
+      "title": "Liquidation, na Bei Unayopaswa Kuijua Kwanza",
+      "desc": "Bei kamili ambapo akaunti yako inafika sifuri",
+      "content": "Liquidation ni mtoa huduma kufunga nafasi zako kwa niaba yako kwa sababu amana yako karibu imekwisha. Ni ya moja kwa moja. Ni ya papo hapo. Hakuna anayeuliza maoni yako, hakuna anayeangalia kama ulikuwa karibu kuwa sahihi, na hakuna rufaa.\n\nNamba moja yenye manufaa zaidi katika moduli hii nzima ni BEI YAKO YA LIQUIDATION: bei halisi, kwa {cPlural} halisi, ambapo hilo hutokea.\n\nSi asilimia. Bei. Kwa sababu \"unaweza kupoteza amana yako\" ni sentensi unayoweza kuitikia kwa kichwa na kuisahau, ilhali \"{tech} ikifika {c}87.40 akaunti yako iko tupu\" ni ukweli unaoweza kuuhakiki kwenye chati kabla hujabonyeza chochote.\n\nKila skrini katika chumba hiki inaionyesha kabla hujathibitisha, ikiwa imechorwa kwenye kipimo kilekile cha bei kama chati ili uone iko mbali kiasi gani hasa. Mambo mawili utayagundua mara moja, na yote mawili ndiyo somo:\n\n📏 Amana kubwa zaidi inasukuma bei ya liquidation mbali zaidi. Pesa yako zaidi ikiwa ndani inamaanisha bei ina umbali mrefu zaidi wa kushuka kabla pesa yako haijaisha.\n⚡ Amana ndogo zaidi inaivuta karibu kabisa na bei ya leo. Kwa amana ya 10%, liquidation iko takriban mwendo wa 10% mbali, na mwendo wa 10% ni wiki ya kawaida tu.\n\nKisha kuna ukweli mchungu. Bei ya liquidation ni pale injini inapokusudia kukufunga, si pale ambapo umehakikishiwa kutoka. Habari mbaya zikitokea usiku na soko likafunguliwa tena chini sana ya kiwango hicho, unafungwa kwa bei yoyote ambayo soko litalipa kweli. Hilo ndilo pengo, na somo la 78 linahusu hilo.\n\nIjue bei yako ya liquidation kabla ya kufungua. Kama huwezi kuitamka kwa sauti, huielewi biashara unayokaribia kufanya. 💀",
+      "quiz": {
+        "q": "Unaweka 200 NT kama amana ili kudhibiti 1,000 NT za mali yenye bei ya 100 NT. Buruta bei chini hadi pale amana yako inapokwisha.",
+        "explanation": "Unadhibiti vipande 10, kwa hivyo kila 1 NT bei inaposhuka inakugharimu 10 NT. Amana yako ya 200 NT inakwisha kwenye 80 NT, ambalo ni anguko la 20% tu."
+      }
+    },
+    "71": {
+      "title": "Njia ya Kurudi ni Mlima Mkali Zaidi",
+      "desc": "Kwa nini hasara ni ngumu kurekebisha kuliko zinavyoonekana",
+      "content": "Hasara na faida huhisi kama vitu vinavyopingana. Sivyo, na hesabu haziko karibu hata kidogo.\n\nUmepoteza 10%? Unahitaji +11% kurudi. Inaudhi, sawa.\nUmepoteza 50%? Unahitaji +100%. Lazima UONGEZE MARADUFU ili tu urudi pale ulipoanzia.\nUmepoteza 75%? Unahitaji +300%.\nUmepoteza 90%? Unahitaji +900%.\n\nSababu ni rahisi ukishaiona: faida inahesabiwa kwenye rundo dogo lililobaki. 100 inashuka hadi 50, na ili kupanda kutoka 50 kurudi 100 rundo hilo dogo lazima liongezeke maradufu.\n\nSasa ongeza leverage, na uone inachofanya hasa. Haifanyi tu faida zako ziwe za haraka zaidi. Inakushusha chini kwenye jedwali hilo ndani ya mchana mmoja. Anguko la 12% la hisa, ambalo ni wiki mbaya lakini ya kawaida kabisa, ni pigo la 48% kwa akaunti yako kwa amana ya 25%. Sasa unahitaji +92% ili urudi ulipoanzia, kutokana na wiki ambayo haikufika hata kwenye habari.\n\nNdiyo sababu wataalamu huzungumzia kulinda mtaji kabla ya kuzungumzia kitu kingine chochote, na ndiyo sababu \"nitazirudisha\" ndiyo sentensi ghali zaidi katika biashara. Kuzirudisha ni vigumu zaidi kihesabu kuliko kuzipoteza kulivyokuwa, kila mara bila kukosa. ⛰️",
+      "quiz": {
+        "q": "Akaunti yako imeshuka 75%. Buruta hadi faida unayohitaji kuanzia hapa ili tu urudi pale ulipoanzia.",
+        "explanation": "100 NT zilishuka hadi 25 NT. Ili kufikia 100 tena hizo 25 lazima ziongezeke mara nne, ambayo ni faida ya 300%. Kupanda kunapimwa kwenye rundo dogo lililobaki, ndiyo sababu ni mlima mkali zaidi kuliko anguko lilivyokuwa."
+      }
+    },
+    "72": {
+      "title": "Kodi ya Pango ya Pesa za Mkopo",
+      "desc": "Umepatia mwelekeo, bado uko kwenye hasara",
+      "content": "Ulikopa mfichuo huo. Kwa hivyo unaulipia. Kila usiku.\n\nGharama ya ufadhili (mahali pengine huitwa swap, au ada ya usiku) hutozwa kila siku, na hii ndiyo sehemu inayomnasa kila mtu: inatozwa kwa nafasi NZIMA, si kwa sehemu uliyokopa. Weka 500 NT kudhibiti 2,000 NT na unalipa kodi ya pango kwa 2,000.\n\nJinsi inavyohesabiwa: kiwango cha riba cha msingi, pamoja na nyongeza ya mtoa huduma, ikigawanywa kwa 365, mara nafasi yako nzima. Unaona nusu zote mbili kwenye skrini katika programu hii, kwa sababu ada usiyoweza kuitenganisha ni ada usiyoweza kuipima. Kwa takriban 7.3% kwa mwaka, hiyo ni karibu 0.02% ya nafasi yako kwa usiku.\n\nInasikika kama si kitu. Sasa itazame ikila biashara inayoshinda. 🧾\n\nBIASHARA UNAYOIPATIA NA BADO UNAPOTEZA\n\nUnafungua nafasi ya 2,000 NT juu ya {retail} kwa amana ya 500 NT. Unatarajia kupanda, na unathibitika kuwa sahihi: katika miezi michache inayofuata {retail} inapanda polepole JUU kwa 2%.\n\n• Faida yako: 2% ya 2,000 = 40 NT. Kwa amana ya 500 NT hiyo ni +8%. Safi.\n• Kodi yako ya pango: 0.02% ya 2,000 = 0.40 NT, kila usiku.\n\nUsiku wa 50: umelipa 20 NT. Uko juu kwa 20 NT kwa jumla. Bado unashinda.\nUsiku wa 100: umelipa 40 NT. Faida yako ya 40 NT sasa ina thamani ya sifuri kamili. Ulitabiri sawasawa na hujapata chochote.\nUsiku wa 180: umelipa 72 NT. Faida yako bado ni 40 NT. Uko CHINI kwa 32 NT, ambayo ni hasara ya 6.4% ya amana yako, kwenye biashara ambayo uliisoma soko sawasawa kwa miezi sita.\n\nSoma hilo tena. Bei ilifanya kile ulichosema ingefanya. Bado ulipoteza.\n\nHii ndiyo sentensi ya kuchukua kutoka somo hili: kwenye nafasi yenye leverage, kuwa sahihi kuna tarehe ya kuisha. Katika mfano huu ni usiku 100 mbele, na unaweza kuhesabu yako kabla ya kufungua. Gawanya faida unayoitarajia kwa kodi ya pango ya usiku. Hiyo ndiyo idadi ya usiku ambao maoni yako yana thamani.\n\nKinyume chake pia kinastahili kuzingatiwa. Sehemu nyingine ya programu hii inafundisha riba mchanganyiko, ambapo muda kimya kimya hukutengenezea pesa ukiwa umelala. Hii ni mashine ileile, ikienda kinyume, ikikulenga wewe. ⏳",
+      "quiz": {
+        "q": "Unashikilia nafasi ya 2,000 NT yenye leverage inayogharimu 0.40 NT kwa usiku kwa ufadhili. Bei inapanda kiasi cha kukupa faida ya 40 NT, kisha inaacha kusonga. Baada ya usiku mingapi faida hiyo inaliwa yote?",
+        "options": [
+          "Hailiwi kamwe, kwa sababu ufadhili hutozwa kwa sehemu iliyokopwa tu",
+          "Karibu usiku 100, kwa sababu faida ya 40 NT ikigawanywa kwa 0.40 NT kwa usiku ni 100",
+          "Karibu usiku 20, kwa sababu ufadhili hutozwa kwa amana yako ya 500 NT",
+          "Ufadhili hutozwa tu nafasi inapofungwa kwa hasara"
+        ]
+      }
+    },
+    "73": {
+      "title": "Futures: Saa na Kuhamisha (Roll)",
+      "desc": "Gharama ileile, inayolipwa kwa njia tofauti",
+      "content": "Futures na CFD ni binamu. Zote zina leverage, zote zinatumia margin, zote zinaweza kukufanyia liquidation. Mambo mawili yanafanya futures kuwa tofauti, na la pili ndilo la kuvutia.\n\n⏰ 1. INA TAREHE. Kila mkataba wa futures huisha muda wake. Mafuta ya Machi, mahindi ya Juni, fahirisi ya Septemba. Tarehe inapofika mkataba unalipwa na unakoma kuwepo. \"Shikilia na usubiri irudi\" haipo kabisa kwenye menyu, kwa sababu mkataba hautakuwepo. CFD haiishi muda kamwe, jambo linalosikika bora hadi ukumbuke inatoza kodi ya pango milele.\n\n🔄 2. GHARAMA IMEJENGWA NDANI YA BEI, HAITOZWI KILA USIKU. Hii ndiyo sehemu ambayo watu huikosa. Future kwa kawaida haikutozi ada ya ufadhili ya kila usiku. Badala yake, gharama ya kushikilia kitu hicho hadi tarehe hiyo tayari imeokwa ndani ya bei ya mkataba. Mikataba ya tarehe za baadaye mara nyingi hugharimu zaidi kuliko mikataba ya tarehe za karibu, na tofauti hiyo ndiyo gharama ileile ya kushikilia, ikikaa ndani ya namba.\n\nKwa hivyo nini hutokea mfanyabiashara anapotaka kuendelea na nafasi baada ya muda kuisha? Ana-ROLL (anahamisha): anafunga mkataba unaoisha, anafungua unaofuata. Na kama unaofuata ni ghali zaidi, analipa tofauti hiyo. Kila anapohamisha. Hiyo ndiyo kodi ya pango ya usiku ya CFD, ikikusanywa kwa awamu kubwa zaidi zisizo za mara kwa mara.\n\nMuhtasari wa kweli:\n\n• CFD: hakuna tarehe ya mwisho, kodi ya pango kila usiku, imeorodheshwa kwenye taarifa yako.\n• Future: tarehe ya mwisho isiyobadilika, gharama imefichwa ndani ya bei na kulipwa kila unapohamisha, rahisi kuikosa.\n\nHakuna iliyo bure. Moja tu inawasilisha bili kwa adabu zaidi, na gharama usiyoweza kuiona ndiyo inayoweza zaidi kukushtua. ⏳",
+      "quiz": {
+        "q": "Mfanyabiashara anataka kushikilia nafasi ya futures baada ya tarehe yake ya kuisha, na mkataba unaofuata unafanyiwa biashara kwa bei ghali zaidi kuliko unaoisha. Nini hutokea anapohamisha (roll)?",
+        "explanation": "Kuhamisha kunamaanisha kufunga mkataba unaokaribia kuisha na kufungua unaofuata. Kama unaofuata unagharimu zaidi, unatoa tofauti hiyo, na unafanya hivyo tena kila unapohamisha. Ni gharama ileile ya kushikilia ambayo CFD inakutoza kila usiku, ikikusanywa kwa mafungu makubwa zaidi na kufichwa ndani ya bei badala ya kuchapishwa kwenye taarifa yako.",
+        "options": [
+          "Analipa tofauti kati ya mkataba unaoisha na unaofuata",
+          "Analipwa tofauti kati ya bei za mikataba hiyo miwili",
+          "Hakuna pesa inayobadilisha mikono, kwa kuwa kuhamisha ni biashara moja tu",
+          "Nafasi inageuka kuwa CFD na inaendelea bila tarehe ya kuisha"
+        ]
+      }
+    },
+    "74": {
+      "title": "Kuuza Short: Hasara Isiyo na Sakafu",
+      "desc": "Kwa nini dau la kushuka halina kikomo cha asili",
+      "content": "Kila kitu katika programu hii hadi sasa kimekuwa long (kununua): unanunua, unataka bei ipande. Derivatives zinakuruhusu kwenda short, kumaanisha kuweka dau kwamba bei itashuka. Unafungua short, bei inashuka, unapata faida.\n\nKuuza short kuna manufaa kweli na si uovu. Ndivyo mkulima anavyofunga bei kabla ya mavuno na ndivyo mfuko unavyolinda portfolio. Kukuelewa kunakufanya usome masoko vizuri zaidi, kwa sababu kwa mara ya kwanza unaweza kuona pande zote mbili za kila biashara.\n\nLakini kuna hesabu moja katika kuuza short isiyo na mfano wake mahali pengine popote, na unahitaji kuikariri kabisa.\n\n📉 UNAPONUNUA, hali mbaya zaidi ni bei kufika sifuri. Unapoteza 100% ya ulichoweka. Inatisha, lakini ni sakafu. Kuna mwisho chini.\n📈 UNAPOUZA SHORT, bei kwenda kinyume nawe inamaanisha bei kwenda JUU. Na hakuna kanuni popote inayosema bei inaruhusiwa kupanda kiasi gani. Hisa inayoongezeka mara tatu inakugharimu 200% ya nafasi. Hisa inayopanda mara kumi inakugharimu 900%.\n\nHasara za long zina sakafu. Hasara za short hazina. Kutolingana huko ndilo onyo zima.\n\nMasoko halisi hufanya hivi. Mara kwa mara hisa iliyouzwa short kwa wingi hupaa, kwa sababu kila aliye short analazimika kununua ili kufunga, jambo linalosukuma bei juu zaidi, linalowalazimisha wengi zaidi kununua. Inaitwa short squeeze na imewahi kumaliza mifuko ya uwekezaji.\n\nMambo mawili yanakuweka hai. Kwanza, short ndipo hasa stop-loss inapoacha kuwa hiari. Pili, ulinzi dhidi ya salio hasi: kwenye akaunti ya rejareja inayodhibitiwa ipasavyo, na katika programu hii, akaunti yako haiwezi kushuka chini ya sifuri. Unaweza kupoteza kila kitu ulichoweka. Huwezi kuishia kudaiwa pesa. Ulinzi huo upo kwa sababu, kabla yake, watu walidaiwa. 🕳️",
+      "quiz": {
+        "q": "Kwa nini hali mbaya zaidi kwenye nafasi ya short ni tofauti kimsingi na hali mbaya zaidi kwenye nafasi ya long?",
+        "explanation": "Kununua kuna sakafu. Kibaya zaidi bei inachoweza kufanya ni kufika sifuri, kwa hivyo unapoteza ulichoweka na si zaidi. Kuuza short ni kinyume chake, kwa sababu kupoteza kunamaanisha bei kupanda, na hakuna kinachosema bei inaweza kupanda kiasi gani. Hisa inayoongezeka mara tatu inamgharimu muuzaji wa short mara mbili ya nafasi. Ndiyo sababu stop inaacha kuwa hiari kwenye short, na ndiyo sababu programu hii haiwezi kukushusha chini ya sifuri.",
+        "options": [
+          "Si tofauti, kwa kuwa zote zina kikomo cha ulichoweka",
+          "Stop-loss inaweka sakafu ileile chini ya short kama ya long",
+          "Kushuka ni polepole kuliko kupanda, kwa hivyo short inapoteza polepole zaidi",
+          "Bei inaweza kushuka hadi sifuri tu, lakini inaweza kupanda bila kikomo"
+        ]
+      }
+    },
+    "75": {
+      "title": "Kuyumba Mara Leverage",
+      "desc": "Kwa nini kripto inahitaji amana kubwa zaidi hapa",
+      "content": "Kizidishi kilekile kwenye mali mbili tofauti si dau lilelile. Hilo ndilo wazo zima la somo hili, na ndiyo sababu amana unayopaswa kuweka hubadilika kulingana na unachofanyia biashara.\n\nFikiria siku ya kawaida inavyoonekana:\n• Fahirisi kubwa husonga chini ya 1% siku nyingi.\n• Hisa moja inaweza kusonga 2% au 3%.\n• Kripto mara kwa mara husonga 5% au 10%, na siku ya 20% si mgogoro, ni Jumanne tu. 🎢\n\nSasa weka amana ndogo nyuma ya kila moja ya hizo. Kwa amana ya 10%, mwendo wa 10% unakufilisi. Kwa fahirisi, hilo ni tukio la mara moja katika miaka kadhaa. Kwa kripto ni takriban kila mwezi. Amana ileile. Nafasi tofauti kabisa za kuishi.\n\nWadhibiti walilitambua hili na wakaliandika kwenye kanuni. ESMA ilipoweka kikomo cha leverage ya CFD kote Ulaya mwezi Machi 2018, haikuchagua namba moja. Iliziweka kwa ngazi: 30:1 kwa jozi kuu za sarafu, 20:1 kwa dhahabu na fahirisi kuu, 10:1 kwa bidhaa nyingine, 5:1 kwa hisa moja moja, na kabisa chini, 2:1 kwa kripto. Mbili kwa moja inamaanisha amana ya 50%. Kwa kripto walidai NUSU ya nafasi kwa pesa halisi, kiwango kikali zaidi kwenye orodha nzima.\n\nProgramu hii inafanya vivyo hivyo, kwa sababu ileile, na inasema hivyo kwenye skrini badala ya kuficha:\n\n💱 Forex: amana ndogo zaidi, kwa sababu jozi kuu husonga kidogo zaidi.\n🥇 Dhahabu na bidhaa: kubwa zaidi.\n📊 Hisa, fahirisi na ETF: kubwa zaidi tena.\n🪙 Kripto: amana kubwa kuliko zote, kwa sababu kripto husonga kwa nguvu zaidi.\n\nKripto haijapigwa marufuku hapa, na hilo ni makusudi. Unaweza kuifanyia biashara. Huwezi tu kuifanyia biashara kwa amana nyembamba, kwa sababu kwa amana nyembamba siku ya kawaida ya kripto ingemaliza akaunti yako kabla hujamaliza kusoma kuihusu. Amana kubwa si programu kuwa na kinyongo na kripto. Ni programu kuhakikisha siku ya kawaida haiwezi kukuua.\n\nInafaa kujua: mdhibiti wa Uingereza alikwenda mbali zaidi ya ngazi. Mwaka 2021 alipiga marufuku kabisa derivatives za kripto kwa wateja wa rejareja, akikadiria watumiaji wangeokoa karibu £53m. Unaweza kukutana na leverage ya kripto hapa, kwa pesa za kuigiza na amana nono, au unaweza kukutana nayo ukiwa na miaka kumi na nane kwa pesa halisi bila onyo lolote. Huu ndio mpangilio bora. 🌡️",
+      "quiz": {
+        "q": "Kripto inahitaji amana kubwa kuliko mali nyingine yoyote katika chumba hiki. Sababu halisi ni ipi?",
+        "explanation": "Fahirisi kubwa husonga chini ya 1% siku nyingi. Kripto mara kwa mara husonga 5% au 10%, na siku ya 20% si mgogoro, ni Jumanne tu. Kwa amana nyembamba, mwendo wa 10% unakufilisi, jambo ambalo ni tukio la mara moja katika miaka kadhaa kwa fahirisi na takriban kila mwezi kwa kripto. Mdhibiti wa Ulaya alidai nusu ya nafasi kwa pesa halisi kwa kripto, kiwango kikali zaidi kwenye orodha yake nzima, kwa sababu hii hasa.",
+        "options": [
+          "Walio chini ya miaka 18 wamepigwa marufuku kwenye kripto, kwa hivyo amana ni adhabu",
+          "Hakuna ufadhili unaotozwa kwa kripto, kwa hivyo amana inachukua nafasi yake",
+          "Husonga kwa nguvu zaidi, kwa hivyo siku ya kawaida inaweza kumaliza amana nyembamba",
+          "Programu yenyewe ndiyo inaweka bei za kripto badala ya soko"
+        ]
+      }
+    },
+    "76": {
+      "title": "Namba Ambazo Hakuna Anayezitangaza",
+      "desc": "Wadhibiti walichokikuta walipohesabu",
+      "content": "Hutawahi kuona namba hizi kwenye tangazo. Zinatoka kwa wadhibiti wa fedha, ambao wanaweza kudai data halisi za akaunti kutoka kwa kampuni, na kisha huchapisha walichokikuta.\n\n🇪🇺 ESMA, mdhibiti wa Ulaya, Machi 2018. Katika nchi za EU, kati ya 74% na 89% ya akaunti za rejareja za CFD hupoteza pesa. Wastani wa hasara kwa kila mteja ulikuwa kati ya €1,600 na €29,000. ESMA iliweka vikwazo kwa bidhaa hiyo kwa msingi huo.\n\n🇬🇧 FCA nchini Uingereza, Desemba 2016. Uchambuzi wake wa sampuli wakilishi ya akaunti za wateja ulikuta 82% ya wateja walipoteza pesa kwenye bidhaa hizi.\n\n🇦🇺 ASIC nchini Australia, iliyochapishwa Januari 2026, ya hivi karibuni zaidi kati ya hizo tatu. Katika mwaka wa fedha wa 2024, 68% ya wawekezaji wa rejareja wa CFD walipoteza pesa, jumla ya zaidi ya A$458 milioni. Kati ya hizo, A$73 milioni zilikuwa ada.\n\nTafakari mstari huo wa mwisho kwa sekunde moja. Milioni sabini na tatu kati yake hazikuwa hata biashara mbaya. Ilikuwa gharama ya kucheza: spread (tofauti ya bei ya kununua na kuuza) wakati wa kuingia, na ufadhili uliokutana nao katika somo la 72.\n\nWadhibiti watatu tofauti, nchi tatu tofauti, data zinazochukua miongo mitatu tofauti, na jibu linaendelea kuangukia mahali fulani kati ya theluthi mbili na tisa ya kumi.\n\nSasa sehemu iliyo muhimu zaidi, kwa sababu ndiyo inayozuia hii kuwa takwimu ya kutisha tu. Watu hao hawakuwa wajinga. Hawakuwa wavivu. Wengi wao walikuwa watu wazima wenye kazi, na wengi walisoma chati vizuri kuliko wewe sasa hivi. Walipoteza kwa sababu ya jinsi bidhaa ilivyojengwa: unaanza nyuma kwa spread, unalipa kodi ya pango wakati unasubiri, na leverage inamaanisha mwendo wa kawaida unaweza kukumaliza kabla maoni yako hayajapata muda wa kuwa sahihi.\n\nHuo ni muundo, si kasoro ya tabia. Na miundo inaweza kushindwa tu na watu wanaojua ipo. 📊",
+      "quiz": {
+        "q": "Wadhibiti wa Ulaya, Uingereza na Australia kila mmoja alikuta kwamba akaunti nyingi za rejareja za CFD hupoteza pesa. Maelezo ya kweli ni yapi?",
+        "explanation": "Hao walikuwa watu wazima wa kawaida wenye kazi, na wengi wao walisoma chati vizuri kuliko wewe leo. Walipoteza kwa sababu ya jinsi bidhaa inavyofanya kazi: unaanza nyuma kwa spread, unalipa kodi ya pango kila usiku wakati unasubiri, na leverage inamaanisha mwendo wa kawaida unaweza kukumaliza kabla maoni yako hayajapata muda wa kuwa sahihi. Huo ni muundo, si kasoro ya tabia, na miundo inaweza kushindwa na watu wanaojua ipo.",
+        "options": [
+          "Jinsi bidhaa ilivyojengwa inafanya kazi dhidi ya mteja",
+          "Waliopoteza walikuwa wazembe, na wafanyabiashara makini wako salama",
+          "Kampuni pinzani zilichapisha namba hizo kama shambulio la kibiashara",
+          "Hasara za kiwango hicho hutoka nchi zisizodhibitiwa"
+        ]
+      }
+    },
+    "77": {
+      "title": "Kilichobadilika Kanuni Zilipobadilika",
+      "desc": "Uthibitisho kwamba ulikuwa muundo, si watu",
+      "content": "Somo la 76 lilikupa hasara. Somo hili linakupa jaribio, na ndilo jambo muhimu zaidi katika moduli hii.\n\nKama watu wengi wanapoteza kwa sababu watu wengi ni wazembe, basi kubadilisha kanuni hakupaswi kubadilisha chochote. Wazembe wanabaki wazembe. Sivyo?\n\nAustralia ilifanya jaribio. Mwezi Machi 2021 ASIC ililazimisha kinga kadhaa kwa kila kampuni ya CFD inayohudumia wateja wa rejareja: vikomo vya leverage, kanuni ya kawaida ya kufunga moja kwa moja, ulinzi dhidi ya salio hasi, na marufuku ya vishawishi kama bonasi za kujiunga. Wateja walewale. Kampuni zilezile. Masoko yaleyale. Kanuni tu ndizo zilizobadilika.\n\nHiki ndicho ASIC ilichopima katika miezi sita ya kwanza. 🔬\n\n📉 Jumla ya hasara halisi za akaunti za rejareja ilishuka 91%, kutoka wastani wa A$372 milioni kwa robo mwaka hadi A$33 milioni.\n📉 Akaunti za rejareja zenye hasara zilipungua 51% kwa robo mwaka.\n📉 Ufungaji wa lazima wa margin ulipungua 87%.\n📉 Matukio ya salio hasi yalipungua 88%.\n\nHakuna aliyekuwa na akili zaidi ndani ya miezi sita. Muundo ulibadilika, na tisa ya kumi ya madhara yalitoweka pamoja nao.\n\nMambo mawili yanafuata, na unapaswa kuyabeba yote.\n\nKwanza: unapopoteza kwenye biashara yenye leverage, sehemu kubwa ya kilichokupata ilikuwa imejengwa ndani ya bidhaa kabla hujafika. Hiyo si ruhusa ya kuwa mzembe. Ni sababu ya kukiheshimu kitu hicho.\n\nPili, na hii ndiyo nusu yenye manufaa: kinga zilizofanya kazi ni tabia zilezile hasa ambazo moduli hii imekuwa ikikufundisha. Nafasi ndogo zaidi. Njia ya kutoka ya moja kwa moja. Sakafu thabiti chini ya madhara. Mdhibiti alilazimika kuzilazimisha kwa sekta nzima ili kupata hiyo 91%. Wewe unaweza kuzichagua tu. 🛡️",
+      "quiz": {
+        "q": "Baada ya Australia kulazimisha vikomo vya leverage na ufungaji wa moja kwa moja kwa kampuni za CFD, hasara za rejareja zilishuka 91% ndani ya miezi sita. Hilo linaonyesha nini?",
+        "explanation": "Wateja walewale, kampuni zilezile, masoko yaleyale. Kanuni tu ndizo zilizobadilika, na tisa ya kumi ya madhara yaliondoka pamoja nazo. Hakuna aliyekuwa na akili zaidi ndani ya miezi sita. Kinga zilizofanya kazi ni tabia ambazo moduli hii inaendelea kukufundisha: nafasi ndogo zaidi, njia ya kutoka ya moja kwa moja, na sakafu thabiti chini ya madhara. Mdhibiti alilazimika kuzilazimisha kwa sekta nzima. Wewe unaweza kuzichagua tu.",
+        "options": [
+          "Wafanyabiashara wa Australia wana nidhamu zaidi kuliko wa Ulaya",
+          "Leverage inakuwa salama mara mdhibiti anapoisimamia",
+          "Kanuni ziliwazuia watu kufanya biashara, kwa hivyo hapakuwa na cha kupoteza",
+          "Sehemu kubwa ya madhara ilikuwa ikitoka kwenye muundo wa bidhaa"
+        ]
+      }
+    },
+    "78": {
+      "title": "Pengo Linaloruka Stop Yako",
+      "desc": "Stop ni agizo la kutoka, si bei iliyoahidiwa",
+      "content": "Ulishakutana na stop-loss katika somo la 19. Hiki ndicho leverage inachozifanyia.\n\nStop-loss ni agizo: \"bei ikifika kiwango hiki, nitoe.\" Si mkataba kuhusu bei utakayopata. Inasema toka. Haisemi toka hapa hasa.\n\nMara nyingi tofauti hiyo haijalishi, kwa sababu bei husonga kwa hatua ndogo na agizo lako linatekelezwa karibu na kiwango chako. Kisha wakati mwingine inajalisha mno.\n\n📰 Masoko hufungwa. Habari zinatokea saa 5 usiku. Soko linafunguliwa tena 8% chini ya lilivyofungwa, na halikuwahi kufanya biashara kwa bei yoyote iliyo katikati. Stop yako ilikuwa ndani ya pengo hilo. Inafyatuka soko linapofunguliwa na kutekelezwa popote soko lilipo kweli, ambapo ni mbali kupita kiwango ulichochagua.\n\nBila leverage, hiyo ni siku mbaya. Ukiwa na leverage, inaweza kuwa akaunti nzima, kwa sababu kama amana yako ilikuwa nyembamba kuliko pengo, pengo linapita moja kwa moja kupitia bei yako ya liquidation pia, na unafungwa chini ya kiwango ambacho injini ilikusudia.\n\nMambo matatu ya kufanya na hili, hakuna hata moja gumu:\n\n1️⃣ Usiichukulie stop kama hakikisho. Ichukulie kama tabia nzuri sana yenye udhaifu mmoja unaojulikana.\n2️⃣ Jua soko lako linafungwa lini na nini kimepangwa. Matokeo ya kampuni, maamuzi ya viwango vya riba na uchaguzi ni mapengo yaliyo kwenye kalenda.\n3️⃣ Panga ukubwa ili pengo lisiweze kukumaliza. Hii ndiyo kinga halisi, na ndilo somo linalofuata. Stop inakulinda dhidi ya ya kawaida. Ukubwa wa nafasi unakulinda dhidi ya yasiyo ya kawaida, na yasiyo ya kawaida ndiyo yanayowafilisi watu kweli.\n\nNa inafaa kujua kwamba katika programu hii, kama kwenye akaunti yoyote ya rejareja inayodhibitiwa ipasavyo, ulinzi dhidi ya salio hasi unamaanisha pengo haliwezi kukushusha chini ya sifuri. Unaweza kupoteza akaunti. Huwezi kuishia kudaiwa. 📰",
+      "quiz": {
+        "q": "Unaweka stop-loss kwenye {c}90. Usiku, habari mbaya zinatokea na soko linafunguliwa tena kwenye {c}78, bila kufanya biashara katikati. Nini kinatokea?",
+        "explanation": "Stop ni agizo la kutoka, si ahadi kuhusu bei utakayopata. Soko halikufanya biashara kati ya {c}90 na {c}78, kwa hivyo hapakuwa na {c}90 iliyobaki ya kuuzia. Stop yako inafyatuka soko linapofunguliwa na kutekelezwa popote soko lilipo kweli. Stop bado zinakulinda dhidi ya mienendo ya kawaida. Kinga dhidi ya mruko kama huu ni ukubwa wa nafasi, si stop.",
+        "options": [
+          "Stop yako inatekelezwa kwenye {c}90, hasa pale ulipoiweka",
+          "Unatekelezewa karibu na {c}78, bei ya kwanza inayopatikana",
+          "Agizo linafutwa, kwa sababu bei iliruka kiwango hicho",
+          "Mtoa huduma anakulipa {c}12 ambazo soko liliruka"
+        ]
+      }
+    },
+    "79": {
+      "title": "Ukubwa Kwanza, Kisha Biashara",
+      "desc": "Amua unachoweza kupoteza kabla ya kuamua cha kununua",
+      "content": "Hiki ndicho kinachotenganisha watu wanaodumu na wasiodumu, na karibu kinachosha.\n\nWanaoanza huchagua biashara, kisha huhesabu waweke kiasi gani. Wataalamu hufanya kinyume. Huamua kwanza wako tayari kupoteza kiasi gani, na kuacha hilo liamue nafasi inaruhusiwa kuwa kubwa kiasi gani.\n\nKanuni ambayo wengi wao hutumia: hatarisha 1% hadi 2% ya akaunti kwenye biashara yoyote moja. Si kuweka amana ya 1%. KUHATARISHA 1%, kumaanisha hicho ndicho unachopoteza kweli stop yako ikifikiwa.\n\nJinsi inavyofanya kazi, kwa hatua tatu:\n\n1️⃣ Chagua hasara yako ya juu kabisa. Akaunti ya 10,000 NT, ukihatarisha 1%, kwa hivyo 100 NT.\n2️⃣ Chagua mahali utakapokuwa umekosea. Utatoka bei ikishuka 5% kutoka uliponunua.\n3️⃣ Gawanya. Hasara inayokubalika ya 100 NT, kwa umbali wa stop wa 5%, inamaanisha nafasi ya 2,000 NT. Huo ndio ukubwa wako. Si hisia. Ni hesabu.\n\nBadilisha stop na ukubwa unabadilika wenyewe. Stop ya karibu zaidi ya 2% inakuruhusu kuendesha 5,000 NT. Stop pana zaidi ya 10% inakulazimisha kushuka hadi 1,000 NT. Kadiri biashara ilivyo hatari zaidi, ndivyo inavyopaswa kuwa ndogo zaidi, na hesabu inakufanyia hilo ili hisia zako zisilazimike kufanya hivyo.\n\nKwa nini 1%? Kwa sababu inafanya mfululizo wa kupoteza uweze kuvumilika. Hasara kumi mfululizo kwa 1% zinakuachia 90% ya akaunti yako na hisia mbaya. Hasara kumi mfululizo kwa 20% zinakuachia karibu 11% ya akaunti yako bila njia ya kurudi, na tayari unajua kutoka somo la 71 jinsi mlima huo ulivyo mkali.\n\nHakuna anayedumu kwenye masoko kwa kuchagua washindi. Kila anayedumu hufanya hivyo kwa kuhakikisha hakuna hasara moja inayoweza kumaliza. 📐",
+      "quiz": {
+        "q": "Akaunti ya 10,000 NT. Utahatarisha 1% kwenye biashara hii, na utatoka bei ikishuka 5% kutoka uliponunua. Buruta hadi ukubwa wa nafasi unaoheshimu hilo.",
+        "explanation": "1% ya 10,000 NT ni 100 NT, na hicho ndicho kiwango cha juu ulichokubali kupoteza. Stop ya 5% inamaanisha 100 NT ikigawanywa kwa 5%, ambayo ni nafasi ya 2,000 NT. Buruta juu zaidi na kisomo kinakuonyesha ukihatarisha zaidi ya ulivyoamua."
+      }
+    },
+    "80": {
+      "title": "Kwa Nini Kushinda Huhisi Kama Ujuzi",
+      "desc": "Michezo ya akili ambayo leverage inakuchezea",
+      "content": "Leverage si hasa tatizo la hesabu. Hesabu ni rahisi. Ni tatizo la akili, na haya ndiyo matatu yanayomnasa kila mtu.\n\n🎯 1. UPENDELEO WA MATOKEO: kushinda huhisi kama ujuzi. Unachukua nafasi kubwa kupita kiasi, inafanikiwa, unapata pesa nyingi ndani ya mchana mmoja, na ubongo wako unaandika \"mimi ni hodari katika hili.\" Haukurekodi kilichotokea kweli, yaani ulichukua hatari mbaya na ukapata matokeo mazuri. Hivyo ni vitu tofauti, na soko litakulipa kwa furaha kwa uamuzi mbaya mara kadhaa kabla halijadai deni lake. Jambo hatari zaidi linaloweza kumtokea mfanyabiashara mpya ni ushindi wa mapema na rahisi.\n\n😤 2. BIASHARA YA KULIPIZA KISASI: unataka kuzirudisha, sasa hivi. Unapata hasara, inauma, na hamu inakuja papo hapo. Kwa hivyo unaongeza ukubwa. Sasa unaweka nafasi yako kubwa zaidi wakati uleule ambao busara yako iko katika hali mbaya zaidi, kwenye biashara uliyoichagua kwa sababu ulikuwa na hasira badala ya kwa sababu ilikuwa nzuri. Soko halijui uko chini na halikudai chochote. Unapohisi hivi, ukubwa sahihi ni sifuri. Funga programu.\n\n🕳️ 3. KUFUKUZIA HASARA: \"nitashikilia tu hadi irudi.\" Hii imevaa kama subira, ndiyo sababu ni ngumu sana kuitambua. Subira ni mpango uliouandaa kwa utulivu mapema. Kufukuzia ni mpango ulioubuni baada ya bei kwenda kinyume nawe, na dalili ni rahisi: njia yako ya kutoka ilisogea. Ukijikuta ukieleza kwa nini kiwango ulichoweka si kiwango sahihi tena, huo si uchambuzi mpya. Huo ni majivuno yako yakijadiliana.\n\nKinga ya yote matatu ni ileile na haivutii. Amua kila kitu ukiwa mtulivu, kiandike, na umchukulie wewe anayejitokeza katikati ya biashara kama msimulizi asiyeaminika. 🧠",
+      "quiz": {
+        "q": "Unachukua nafasi kubwa zaidi kuliko kawaida na inaleta faida kubwa ndani ya mchana mmoja. Njia sahihi zaidi ya kulielewa hilo ni ipi?",
+        "explanation": "Ubongo wako unaandika kwamba wewe ni hodari katika hili. Kilichotokea kweli ni kwamba ulichukua hatari mbaya na soko likatokea kukulipa hata hivyo, na hivyo ni vitu viwili tofauti. Soko litalipa uamuzi mbaya mara kadhaa kabla halijadai deni lake. Ushindi wa mapema na rahisi ndilo jambo hatari zaidi linaloweza kumtokea mfanyabiashara mpya, kwa sababu unafundisha somo baya na kukutoza bili yake baadaye.",
+        "options": [
+          "Hii ni mbinu inayofanya kazi, na inaweza kuongezwa ukubwa tena",
+          "Ukubwa ulikuwa sahihi, kwa sababu faida inathibitisha hivyo",
+          "Ulichukua hatari mbaya na ukatokea kupata matokeo mazuri",
+          "Faida kubwa zinaonyesha ujuzi, na hasara ndizo zinazoonyesha makosa"
+        ]
+      }
+    },
+    "81": {
+      "title": "Swali la Kweli",
+      "desc": "Je, unapaswa kutumia hii kabisa?",
+      "content": "Umemaliza moduli. Hili ndilo swali ambalo matangazo hayaulizi kamwe.\n\nJe, unapaswa kutumia leverage kabisa?\n\nKwa watu wengi, mara nyingi, jibu la kweli ni hapana. Si kwa sababu hawana akili ya kutosha. Ni kwa sababu ya kila kitu katika masomo kumi na tano yaliyopita: unaanza nyuma, unalipa kodi ya pango wakati unasubiri, mwendo wa kawaida unaweza kukumaliza kabla hujathibitika kuwa sahihi, na wadhibiti watatu wakihesabu akaunti halisi waliendelea kukuta kwamba theluthi mbili hadi tisa ya kumi ya watu walipoteza.\n\nKuna aina ya biashara ambapo hugusi chochote kati ya haya kamwe. Unanunua hisa, unamiliki kipande cha kampuni, gawio linaingia, muda unafanya kazi KWA AJILI yako badala ya dhidi yako, na hakuna kitu kinachoweza kufunga nafasi yako bila kukuuliza. Hiyo ndiyo sehemu nyingine ya programu hii, na si chaguo la kuchosha. Ndilo chaguo ambalo hesabu za somo la 14 zinasema kwa kawaida hushinda. 🌱\n\nKwa hivyo hiki ndicho unachopaswa kujua kabla ya kuamua.\n\nHakuna kitu katika programu hii kilichofungiwa nyuma ya leverage. Kila mashindano, kila ubao wa viongozi, kila njia ya XP, kila mechi ya shule na kila zawadi ya NOOB inabaki wazi kabisa kwa mtu ambaye hafungui kamwe hata nafasi moja yenye leverage. Hupotezi chochote kwa kuondoka katika chumba hiki. Hakuna adhabu na hakuna beji inayokosekana.\n\nNa hakuna kitu humu kinachokulipa kwa kushinda. Unazawadiwa kwa kumaliza masomo, kwa kufaulu mtihani, kwa kuweka stop, kwa kukata nafasi inayopoteza, na kwa kuandika maelezo ya liquidation yako mwenyewe. Hulipwi kamwe kwa faida, nafasi kubwa au mfululizo wa bahati, kwa sababu kukulipa kwa hayo kungekuwa kukufundisha jambo baya huku tukiliita elimu.\n\nUkiitumia: itumie kidogo, itumie pamoja na stop, jua bei yako ya liquidation kabla hujabonyeza chochote, na kamwe usitumie pesa ambayo ungeikosa. Usipoitumia, bado umejifunza kuiona mitambo yake, na hilo ndilo lilikuwa lengo tangu mwanzo. Watu wazima wengi wanaofanya biashara ya vitu hivi hawawezi kueleza ulichojifunza hivi punde. 🤔",
+      "quiz": {
+        "q": "Mwanafunzi anapoteza nini kwa kuamua kutofungua kamwe nafasi yenye leverage katika programu hii?",
+        "explanation": "Hakuna kitu katika programu hii kilichofungiwa nyuma ya leverage. Kila mashindano, kila ubao wa viongozi, kila njia ya XP, kila mechi ya shule na kila zawadi ya NOOB inabaki wazi kwa mtu ambaye hafungui kamwe hata nafasi moja yenye leverage. Hakuna adhabu na hakuna beji inayokosekana. Na hakuna kitu katika chumba hiki kinachokulipa kwa kushinda: kinalipa kwa kumaliza masomo, kufaulu mtihani, kuweka stop na kukata nafasi inayopoteza.",
+        "options": [
+          "Hakuna chochote, kila njia inabaki wazi kwake",
+          "Kila mashindano na ubao wa viongozi katika programu",
+          "XP ya moduli hii, inayolipwa kwa biashara zenye leverage",
+          "Zawadi za NOOB, zinazohitaji nafasi moja yenye leverage kwanza"
+        ]
+      }
+    },
+    "82": {
+      "title": "Mlipuko",
+      "desc": "Siku tano, mpango mmoja wa fujo, akaunti moja tupu",
+      "content": "Karibu kwenye Maabara. Humu unapata akaunti ya mazoezi iliyotengwa ya 1,000 LAB NT. Si pochi yako, haiwezi kugusa pochi yako, na hakuna kinachoshindwa au kupotezwa ndani yake kinachotoka nje. Chombo ni NOVA. NOVA ni ya kubuni, ili mtu yeyote asituhumu kwa kutabiri anguko halisi. Kiwango cha amana 25%. Ufadhili 0.02% kwa usiku. Kufungwa kwa lazima kwenye 50% ya margin iliyotumika. Na kwa boss huyu tu, vikomo vya nafasi vimezimwa. Makusudi. Mara moja tu.\n\nHii ndiyo wiki unayokaribia kuieleza.\n\n📅 SIKU 1: NOVA iko 100. Matokeo mazuri, gumzo la kikundi lina kelele. Unaweka 800 kati ya 1,000 NT zako, ukidhibiti 3,200 NT za NOVA. Hakuna stop.\n\n📅 SIKU 2: NOVA 106. Uko juu kwa 192 NT, ambayo ni +19.2% ya akaunti yako kwa siku moja. Unaongeza 200 NT zako za mwisho. Mfichuo 4,000 NT. Pesa huru: sifuri. Bado hakuna stop.\n\n📅 SIKU 3: NOVA 101.76. Kiwango cha margin 103%. Bado uko juu kwa wiki hii, kwa hivyo unashikilia.\n\n📅 SIKU 4: NOVA 94.64. MARGIN CALL. Kiwango cha margin 75%, equity 750 NT. Huwezi kuongeza, kwa sababu hakuna kilichobaki cha kuongeza. Unashikilia.\n\n📅 SIKU 5: NOVA inaruka chini 9% usiku na kufunguliwa tena kwenye 86.12, chini ya kiwango cha kufungwa kwa lazima. LIQUIDATION kwenye 390 NT.\n\nKatika wiki hiyo NOVA ilishuka 13.9%. Akaunti yako ilishuka 61%. Mwanafunzi aliyeweka 250 NT pamoja na stop kwenye 95 alimaliza wiki ileile akiwa na karibu 949 NT, chini kwa 5%. Na zile 800 NT bila stop lakini bila kuongeza siku ya 2 zingemaliza kwenye 550 NT: margin call, lakini hai.\n\nSasa tathmini. Maswali kumi kuhusu kilichotokea hivi punde. Pata 8 kati ya 10 na umemshinda boss, kwa sababu humu kufaulu ni kuweza kueleza ajali, si kuiepuka. 💀",
+      "bossVictory": "Ulilipua akaunti na ukatoka ukijua kwa nini. Hiyo ndiyo moduli nzima. 💀",
+      "bossQuestions": {
+        "0": {
+          "q": "Katika siku tano NOVA ilishuka karibu 14%. Akaunti yako ilishuka 61%. Kwa nini tofauti hiyo?",
+          "options": [
+            "Programu ilitoza adhabu kwa kupoteza",
+            "Ulishikilia mfichuo karibu mara nne ya thamani ya amana yako, kwa hivyo kila mwendo uligonga namba kubwa mara nne kuliko akaunti yako",
+            "Ufadhili ndio uliosababisha sehemu kubwa ya hasara",
+            "NOVA ni hisa hatari zaidi kuliko namba zinavyoonyesha"
+          ]
+        },
+        "1": {
+          "q": "Siku ya 2 ulikuwa juu kwa 192 NT, ambayo ilikuwa 19.2% ya akaunti yako kwa siku moja. Hilo lilikuwa likikuambia nini hasa?",
+          "options": [
+            "Kwamba usomaji wako ulikuwa sahihi na unapaswa kuongeza ukubwa",
+            "Kwamba nafasi ilikuwa na ukubwa mzuri, kwa kuwa ilikuwa na faida",
+            "Kwamba leverage ni salama unapokuwa sahihi",
+            "Kwamba nafasi ilikuwa kubwa kiasi cha kusogeza akaunti yako 19% kwa siku, kumaanisha ilikuwa kubwa kiasi cha kufanya vivyo hivyo upande mwingine"
+          ]
+        },
+        "2": {
+          "q": "Siku ya 2 uliongeza 200 NT zako za mwisho kwenye nafasi iliyokuwa ikishinda. Hilo lilikugharimu nini?",
+          "options": [
+            "Nusu zote mbili za usalama wako: lilipandisha mfichuo kutoka 3,200 hadi 4,000, na likatumia pesa huru pekee ambazo zingeweza kujibu margin call",
+            "Hakuna chochote, kwa sababu kuongeza kwenye mshindi ndivyo wataalamu wanavyokuza pesa",
+            "Zile 200 NT zenyewe tu, ambazo nafasi ingezirudisha",
+            "Ufadhili kidogo, kwa kuwa kodi ya pango ya usiku iliongezeka kidogo"
+          ]
+        },
+        "3": {
+          "q": "Kiwango chako cha margin kilifika 103% siku ya 3. Namba hiyo ilimaanisha nini?",
+          "options": [
+            "Ulikuwa umefadhiliwa 103%, kwa hivyo nafasi ilikuwa na dhamana ya ziada na salama",
+            "Akaunti yako ilikuwa juu kwa 3% kwa wiki hiyo",
+            "Equity yako ilikuwa ikifunika amana ulizoweka kwa shida tu, kwa hivyo kinga ilikuwa imekwisha na mwendo uliofuata ungeanza kula amana yenyewe",
+            "Haikumaanisha chochote peke yake, kwa sababu kiwango cha margin hujalisha tu kikiwa chini ya 50%"
+          ]
+        },
+        "4": {
+          "q": "Kwenye margin call ya siku ya 4, kufunga kungefunga hasara ya 250 NT. Ulishikilia. Kwa nini kushikilia ndilo jibu ambalo watu wengi huchagua?",
+          "options": [
+            "Kwa sababu kushikilia kwa kawaida ndilo jibu sahihi kihesabu kwa margin call",
+            "Kwa sababu kufunga kunamaanisha kukubali biashara ilikuwa mbaya, na kushikilia kunakuruhusu kuendelea kuamini bado haijaisha",
+            "Kwa sababu margin call kwa kawaida hujitatua zenyewe ndani ya siku moja",
+            "Kwa sababu mtoa huduma anapendekeza kushikilia ili kuepuka kuthibitisha hasara"
+          ]
+        },
+        "5": {
+          "q": "Ulifanyiwa liquidation kwenye 390 NT, lakini kiwango cha kufungwa kwa lazima kilikuwa equity ya 500 NT. Kwa nini uliishia chini yake?",
+          "options": [
+            "Mtoa huduma alitoza adhabu ya liquidation ya 110 NT",
+            "NOVA iliruka chini 9% usiku na kufunguliwa tena chini ya kiwango hicho, kwa hivyo kufungwa kulitekelezwa kwa bei ya kwanza ambayo soko lilitoa kweli",
+            "Ufadhili ulikatwa kwa mkupuo mmoja wakati wa liquidation",
+            "Kiwango cha kufungwa kwa lazima ni makadirio tu na kwa kawaida hukosewa kwa kiasi hiki"
+          ]
+        },
+        "6": {
+          "q": "Mwanafunzi aliyeweka 250 NT na stop kwenye 95 alimaliza wiki ileile akiwa na karibu 949 NT. Alipatia nini?",
+          "options": [
+            "Aliamua hasara yake ya juu kabisa kabla ya kufungua, na akaacha hilo liamue ukubwa",
+            "Alisoma chati ya NOVA vizuri zaidi na akaona anguko likija",
+            "Aliepuka ufadhili kwa kutumia amana ndogo zaidi",
+            "Alibahatika, kwa sababu maamuzi hayohayo kwa kawaida hupoteza"
+          ]
+        },
+        "7": {
+          "q": "Ulilipa ufadhili kila usiku kwa mfichuo wote wa 4,000 NT. Katika biashara hii, ulijalisha kiasi gani?",
+          "options": [
+            "Ndio uliokuwa sehemu kubwa ya hasara, kwa sababu ufadhili huongezeka kila usiku",
+            "Hakuna chochote, kwa sababu ufadhili hutozwa tu kwa nafasi zinazodumu mwezi mmoja",
+            "NT chache tu, kwa sababu biashara ilikuwa fupi. Ufadhili ndio unaoua nafasi isiyoenda popote kwa miezi, si ile inayolipuka ndani ya wiki",
+            "Karibu 192 NT, sawa na faida ya siku ya 2"
+          ]
+        },
+        "8": {
+          "q": "Kila uamuzi hapa uliruhusiwa. Katika CFD Hub mengi yao hayataruhusiwa. Kwa nini?",
+          "options": [
+            "Kwa sababu vikomo vinafanya programu iwe nafuu kuendesha",
+            "Kwa sababu wadhibiti wanahitaji hali ya mazoezi kabla ya biashara yoyote ya kuigiza",
+            "Kwa sababu walio chini ya miaka 18 hawaruhusiwi kutazama liquidation mara mbili",
+            "Umeshuhudia hivi punde amana ya 80% kwenye nafasi moja na salio la pesa huru la sifuri vikiharibu akaunti ndani ya siku tano, na vikomo vipo ili kufanya mfuatano huo hasa usiwezekane"
+          ]
+        },
+        "9": {
+          "q": "Ni jambo gani moja lenye manufaa zaidi la kuchukua kutoka hapa?",
+          "options": [
+            "Kwamba ukubwa wa nafasi, unaoamuliwa kabla ya kuifungua, ni muhimu zaidi kuliko kuwa sahihi kuhusu mwelekeo",
+            "Kwamba NOVA ilikuwa hisa mbaya ya kuchagua, na utafiti bora ungeokoa akaunti",
+            "Kwamba leverage haipaswi kuguswa kamwe na mtu yeyote katika hali yoyote",
+            "Kwamba margin call haitabiriki, kwa hivyo hapakuwa na chochote ungeweza kufanya"
+          ]
+        }
+      }
+    },
+    "83": {
+      "title": "Leseni",
+      "desc": "Maswali kumi. Manane sahihi ili kufaulu.",
+      "content": "Leseni ndiyo mtihani ambao moduli hii imekuwa ikiujenga. Maswali kumi, na kila moja ni hesabu au uamuzi juu ya nafasi inayoonekana kama halisi, kwa sababu CFD Hub haishughulikii fasili pia.\n\nAlama ya kufaulu ni 8 kati ya 10. Una majaribio 3 kwa siku. Tunakuambia alama zako lakini si maswali uliyokosea, kwa hivyo jaribio lililoshindwa ni ishara ya kusoma moduli tena, si ya kukisia tena.\n\nHakuna mtego hapa. Kila namba inatoka moja kwa moja kwenye masomo yaliyo nyuma yako. Ukiweza kufanya haya kumi, unaielewa moduli hii vizuri kuliko watu wazima wengi wanaofanya biashara ya bidhaa hizi kwa pesa halisi. 🎫",
+      "bossVictory": "Unaweza kutazama skrini halisi, kwa namba halisi, na kusema hapana. Hiyo ndiyo leseni. 🎫",
+      "bossQuestions": {
+        "0": {
+          "q": "Akaunti yako ni 1,000 NT bila kitu kingine kilichofunguliwa. Unaweka 1,000 NT zote kama amana kwa kiwango cha 25%, ukidhibiti 4,000 NT za {tech} kwa 200 NT kwa hisa. Kufungwa kwa lazima kunafyatuka kwenye 50% ya amana yako. {tech} lazima ifanyiwe biashara wapi ili ufungwe?",
+          "options": [
+            "150 NT, anguko la 25%, linalolingana na kiwango cha amana",
+            "100 NT, anguko la 50%, sawa na kanuni ya kufungwa kwa lazima",
+            "175 NT, anguko la 12.5%, kwa sababu kupoteza 500 NT kwenye mfichuo wa 4,000 NT kunahitaji mwendo wa 12.5%",
+            "195 NT, anguko la 2.5%"
+          ]
+        },
+        "1": {
+          "q": "Nafasi ya 3,000 NT inagharimu 0.02% kwa usiku kwa ufadhili. Unatarajia mwendo wa 3% kwa faida yako, wenye thamani ya 90 NT. Maoni hayo yana thamani ya usiku mingapi kabla ufadhili haujayala?",
+          "options": [
+            "Karibu usiku 50",
+            "Karibu usiku 150, kwa sababu 90 NT ikigawanywa kwa 0.60 NT kwa usiku ni 150",
+            "Karibu usiku 300",
+            "Hayaliwi kamwe, kwa sababu ufadhili unahusu nafasi zinazopoteza tu"
+          ]
+        },
+        "2": {
+          "q": "Akaunti yako ni 5,000 NT. Utahatarisha 2% kwenye biashara, na utatoka bei ikisonga 4% dhidi yako. Nafasi kubwa zaidi unayopaswa kufungua ni ipi?",
+          "options": [
+            "100 NT, kiasi unachohatarisha",
+            "1,000 NT, moja ya tano ya akaunti",
+            "5,000 NT, kwa sababu stop inalinda akaunti hata hivyo",
+            "2,500 NT, kwa sababu hasara inayokubalika ya 100 NT ikigawanywa kwa umbali wa stop wa 4% inatoa ukubwa"
+          ]
+        },
+        "3": {
+          "q": "Nafasi imeshusha akaunti yako kutoka 1,000 NT hadi 400 NT. Unahitaji faida ya kiasi gani kuanzia hapa ili tu urudi kwenye 1,000 NT?",
+          "options": [
+            "150%, kwa sababu 400 NT lazima ziongezeke kwa mara moja na nusu ya zenyewe ili kufikia 1,000",
+            "60%, asilimia ileile uliyopoteza",
+            "100%, kwa sababu kuongeza maradufu hukurudisha kila mara",
+            "250%, mara mbili ya ulichopoteza"
+          ]
+        },
+        "4": {
+          "q": "Kadi ya moja kwa moja inasoma: kiwango cha margin 82%, pesa huru 0, nafasi moja iliyo wazi na chini kwa 18%. Hatua ipi inapunguza kweli hatari ya liquidation?",
+          "options": [
+            "Ongeza pesa kwenye akaunti",
+            "Shikilia na usubiri kiwango kirudi",
+            "Funga nafasi, jambo linaloachilia margin iliyokuwa ikitumia papo hapo",
+            "Fungua nafasi ya pili upande wa kinyume ili kuifuta"
+          ]
+        },
+        "5": {
+          "q": "Unauza short {tech} kwa 50 NT ukiwa na nafasi ya 2,000 NT. Ununuzi wa kampuni (takeover) unaipa bei mpya ya 150 NT usiku mmoja. Hasara hiyo inalinganishwaje na hali mbaya zaidi kwenye nafasi ya long ya ukubwa uleule?",
+          "options": [
+            "Ni sawa, kwa sababu zote zina kikomo cha ulichoweka",
+            "Short inapoteza 4,000 NT, mara mbili ya thamani ya nafasi, wakati long isingeweza kamwe kupoteza zaidi ya nafasi ya 2,000 NT yenyewe",
+            "Short haipotezi chochote kama stop-loss iliwekwa, kwa sababu stop zimehakikishwa",
+            "Hasara ya short ni ndogo zaidi, kwa sababu bei hushuka haraka kuliko zinavyopanda"
+          ]
+        },
+        "6": {
+          "q": "Stop yako iko kwenye 90 NT. Habari zinatokea usiku na soko linafunguliwa tena kwenye 78 NT bila kufanya biashara katikati hata kidogo. Nini kinatokea, na kinga halisi dhidi ya hili ni ipi?",
+          "options": [
+            "Unatekelezewa kwenye 90 NT, kwa sababu hicho ndicho stop inachohakikisha",
+            "Agizo linafutwa, kwa sababu bei iliruka kiwango chako",
+            "Unatekelezewa karibu na 78 NT, na kinga dhidi ya mapengo ni ukubwa wa nafasi, si stop",
+            "Mtoa huduma anapaswa kukulipa tofauti kati ya 90 na 78"
+          ]
+        },
+        "7": {
+          "q": "Kwa nini kripto ina sharti la amana kubwa zaidi katika CFD Hub?",
+          "options": [
+            "Husonga kwa nguvu zaidi, kwa hivyo amana nyembamba ingemalizwa na siku ya kawaida kabisa ya kripto",
+            "Kripto haitozwi ufadhili, kwa hivyo amana inachukua nafasi yake",
+            "Kripto imepigwa marufuku kwa walio chini ya miaka 18 na amana ndiyo adhabu",
+            "Bei za kripto zinawekwa na programu badala ya soko"
+          ]
+        },
+        "8": {
+          "q": "Ipi kati ya hizi inakupa XP katika moduli hii?",
+          "options": [
+            "Faida ya 40% kwenye nafasi yenye leverage",
+            "Kutumia mfichuo mkubwa zaidi unaopatikana",
+            "Mfululizo wa ushindi wa biashara tano",
+            "Kufunga nafasi inayopoteza badala ya kuiongezea"
+          ]
+        },
+        "9": {
+          "q": "Hakikisho la kabla ya biashara linasema mwendo mbaya wa 10% unaondoa 620 NT kwenye akaunti yako, ambayo ni 62% ya pochi yako. Bei yako ya liquidation ni 88.40 na {tech} inafanyiwa biashara kwa 96.00 sasa hivi. Unaifungua?",
+          "options": [
+            "Ndiyo, kwa sababu bei ya liquidation iko chini kwa usalama ya bei ya sasa",
+            "Ndiyo, kama una uhakika na mwelekeo",
+            "Tu kwa mfichuo mara mbili, ili hatari iwe na thamani ya kuichukua",
+            "Hapana: mwendo wa karibu 8% unamaliza nafasi, 8% ni mwendo wa kawaida, na 62% ya pochi kwenye biashara moja inavunja kila kanuni ya ukubwa katika moduli hii"
+          ]
+        }
+      }
+    },
+    "84": {
+      "title": "Hali Yako Mbaya Zaidi, Iliyochaguliwa Mapema",
+      "desc": "Stop-loss, take-profit, na njia ya kutoka ambayo hakuna anayeichagua",
+      "content": "Unajua amana, margin call, kufungwa kwa lazima, kodi ya pango, stop na pengo. Somo hili linaweka kipande cha mwisho mahali pake: kila nafasi utakayowahi kufungua huisha kwa njia moja tu kati ya tatu, na mchezo mzima ni nani anachagua ipi.\n\n1️⃣ WEWE UNAIFUNGA. Unagusa kitufe na nafasi inafungwa kwa bei ya sasa ya soko. Inapatikana kila wakati, kwenye kila nafasi, katika kila hali. Njia nyingi za kutoka zinapaswa kuwa hii.\n\n2️⃣ AGIZO ULILOWEKA LINAIFUNGA. Aina mbili, na majina ni muhimu, kwa hivyo yajifunze vizuri:\n\n• AGIZO LA STOP-LOSS linakufunga moja kwa moja bei inaposonga DHIDI yako hadi kiwango ulichochagua: sell-stop chini ya bei uliyoingilia kwenye long, buy-stop juu ya bei uliyoingilia kwenye short. Ni hali yako mbaya zaidi, iliyoamuliwa ukiwa mtulivu, ambayo somo la 80 tayari limekufundisha ndio wakati pekee unaoamua chochote vizuri.\n• AGIZO LA TAKE-PROFIT ni agizo la limit la kufunga: linakufunga moja kwa moja kwenye lengo ulilochagua, bei inaposonga KWA FAIDA YAKO kulifikia. Ni \"inatosha\" yako, iliyoamuliwa kabla tamaa haijapata kura. Agizo la limit hutekelezwa kwenye kiwango chako au bora zaidi, kamwe si vibaya zaidi.\n\n3️⃣ MTOA HUDUMA ANAIFUNGA. Hiyo ni liquidation, kutoka somo la 70. Na hili ndilo la kukariri: liquidation si aina ya agizo. Huwezi kuweka \"biashara ya liquidation\". Hakuna anayeweza. Si chombo katika vifaa vyako; ni kile mtoa huduma anachofanya kulinda mkopo wake amana yako inapokaribia kwisha, kwa bei yoyote ambayo soko linalipa, ukiwa shuleni au umelala.\n\nStop-loss ni wewe kuamua hali yako mbaya zaidi mapema. Liquidation ndicho kinachotokea usipofanya hivyo.\n\nMaagizo yako yote mawili ni ya kweli kwa namna ileile, na tayari unalijua kutoka somo la 78: yanafyatuka kwenye kiwango chako na kutekelezwa kwa kile ambacho soko linalipa kweli. Pengo juu ya stop yako linakutekelezea upande wa pili wa mruko, ambao ni mbaya zaidi. Pengo kupitia take-profit yako linakutekelezea upande wa pili pia, ambao ni bora zaidi. Ukweli uleule, ukielekea pande zote mbili.\n\nKanuni moja ya kuweka, na programu hii inaitekeleza ikiwa na sababu kwenye skrini: stop yako lazima ikae kati ya bei ya sasa na bei yako ya liquidation. Stop iliyo zaidi ya bei ya liquidation isingeweza kufyatuka kamwe, kwa sababu mtoa huduma angekuwa amekufunga kwanza, kwa hivyo programu inaikataa na kukuambia kwa nini.\n\nMilango mitatu ya kutoka katika kila biashara. Miwili kati yake ina jina lako kwenye kitasa. Kutoka kupitia mmoja wa hiyo, siku uliyoichagua, kwenye kiwango ulichokichagua ukiwa mtulivu, ndicho moduli hii nzima imekuwa ikikufundisha kufanya. 🚪",
+      "quiz": {
+        "q": "Nafasi yako ya long ina stop-loss uliyoiweka kwenye 180.00 na bei ya liquidation ya 150.00. Tofauti halisi kati ya namba hizo mbili ni ipi?",
+        "options": [
+          "Hakuna tofauti kabisa, ni majina mawili ya kufungwa kulekule kwa moja kwa moja, na mtoa huduma anakufyatua kwa bei moja tu kila mara",
+          "Stop-loss ni uamuzi wa mtoa huduma na bei ya liquidation ni yako, kwa hivyo unayoidhibiti kweli ndiyo inayofyatuka ya pili",
+          "Stop ya 180.00 ni hali yako mbaya zaidi, uliyoichagua wewe mapema ukiwa mtulivu; 150.00 ni pale mtoa huduma anapokufunga kulinda mkopo wake, kwa sababu huna tena sauti",
+          "Stop inahakikisha utekelezaji kwenye 180.00 hasa bila kujali soko linafanya nini, wakati liquidation inaweza kutekelezwa kwa bei yoyote kabisa, hata ikiwa imeenda mbali kiasi gani"
+        ]
+      }
+    }
+  },
+  "context": {
+    "ZA": {
+      "name": "Afrika Kusini",
+      "cName": "randi",
+      "cPlural": "randi",
+      "exDesc": "mojawapo ya masoko makubwa zaidi ya hisa katika bara zima la Afrika",
+      "sectorList": "⛏️ Uchimbaji madini: Anglo American, Impala Platinum. Yanahusiana na bei za bidhaa duniani\n🏦 Benki: Standard Bank, FirstRand, Capitec. Hufanya vizuri viwango vya riba vikiwa juu\n📱 Teknolojia: Naspers, Prosus. Zinahusiana na mitindo ya teknolojia duniani\n🛍️ Rejareja: Shoprite, Pick n Pay. Hufanya vizuri watumiaji wanapokuwa na pesa za kutumia\n📡 Mawasiliano: MTN, Vodacom. Imara zaidi, kwa sababu watu daima wanahitaji data",
+      "etfBasket": "kampuni 40 kubwa zaidi kwenye JSE",
+      "etfDesc": "JSE Top 40, kwa mfano, ni orodha ya kampuni 40 kubwa zaidi zilizoorodheshwa kwenye JSE, zilizopangwa kwa thamani ya hisa zinazopatikana kweli kwa biashara.",
+      "etfList": "🇿🇦 Satrix Top 40: Kampuni 40 kubwa zaidi kwenye JSE. Mahali pazuri pa kuanzia.\n🌍 Satrix MSCI World: Kampuni kutoka nchi 23 zilizoendelea kwa ununuzi mmoja.\n🇺🇸 Sygnia Itrix S&P 500: Kampuni kubwa 500 za Marekani kwenye orodha ya S&P 500.\n💡 Satrix Nasdaq 100: Kampuni 100 kubwa zaidi zisizo za kifedha kwenye Nasdaq. Zimeegemea sana teknolojia.",
+      "currencyHedge": "Hizi zimepangiwa bei kwa dola au yuro. Kwa hiyo randi ikiDHOOFIKA (R20 kwa dola inakuwa R22), uwekezaji wako wa kimataifa KIOTOMATIKI unakuwa na thamani zaidi kwa randi!",
+      "fxQuizSetup": "Randi inadhoofika kutoka R18 hadi R22 dhidi ya dola",
+      "fxQuizLose": "Inapoteza thamani kwa sababu Afrika Kusini inafanya vibaya zaidi",
+      "fxQuizGain": "Inapanda JUU kwa randi kwa sababu kila dola inanunua randi zaidi",
+      "dcaTitle": "Wastani wa Gharama wa Randi",
+      "dcaAbbrev": "RCA",
+      "food": "baga ya Wimpy"
+    },
+    "US": {
+      "name": "Marekani",
+      "cName": "dola",
+      "cPlural": "dola",
+      "exDesc": "soko kubwa zaidi la hisa duniani kwa tofauti kubwa",
+      "sectorList": "💻 Teknolojia: Apple, Microsoft, Alphabet. Zinaendeshwa na ubunifu na mahitaji ya dunia\n🏦 Benki: JPMorgan, Bank of America, Goldman Sachs. Hufanya vizuri viwango vya riba vinapopanda\n🛍️ Rejareja: Amazon, Walmart, Costco. Hufanya vizuri watumiaji wanapotumia pesa\n⚡ Nishati: Exxon Mobil, Chevron. Zinahusiana na bei za mafuta na gesi duniani\n📡 Mawasiliano: AT&T, Verizon, T-Mobile. Watu daima wanahitaji mawasiliano",
+      "etfBasket": "kampuni kubwa 500 za Marekani kwenye orodha ya S&P 500",
+      "etfDesc": "S&P 500, kwa mfano, ni orodha ya kampuni kubwa 500 za Marekani zilizochaguliwa na kamati. Lazima ziwe kubwa, zenye faida na rahisi kufanyiwa biashara. SI tu kampuni 500 kubwa zaidi, na inachanganya kampuni zilizoorodheshwa kwenye NYSE na zile zilizoorodheshwa kwenye Nasdaq.",
+      "etfList": "🇺🇸 SPY / VOO: Hufuata S&P 500, orodha ya kampuni kubwa 500 za Marekani. Kiwango cha dhahabu.\n📦 VTI: Soko zima la hisa la Marekani, maelfu ya kampuni katika ETF moja.\n💡 QQQ: Kampuni 100 kubwa zaidi zisizo za kifedha kwenye Nasdaq. Zimeegemea sana teknolojia.\n🌍 VT / VXUS: Kampuni za dunia nzima au za kimataifa katika mfuko mmoja.",
+      "currencyHedge": "Dola ikidhoofika dhidi ya sarafu nyingine, uwekezaji wako wa kimataifa unakuwa na thamani ZAIDI kwa dola kiotomatiki!",
+      "fxQuizSetup": "Dola inadhoofika kwa kiasi kikubwa dhidi ya yuro na yeni",
+      "fxQuizLose": "Inapoteza thamani kwa sababu uchumi wa Marekani unatatizika",
+      "fxQuizGain": "Inapanda JUU kwa dola kwa sababu mali zako za nje zimepata thamani ya sarafu",
+      "dcaTitle": "Wastani wa Gharama wa Dola",
+      "dcaAbbrev": "DCA",
+      "food": "mlo wa Big Mac"
+    },
+    "GB": {
+      "name": "Uingereza",
+      "cName": "pauni",
+      "cPlural": "pauni",
+      "exDesc": "mojawapo ya masoko ya hisa ya zamani zaidi na muhimu zaidi duniani",
+      "sectorList": "⚡ Nishati: Shell, BP. Majitu ya mafuta na gesi duniani\n🏦 Benki: HSBC, Barclays, Lloyds. Hufanya vizuri viwango vya riba vikiwa juu\n🧴 Bidhaa za matumizi: Unilever, Diageo, Reckitt. Vigogo wa chapa za nyumbani\n🛍️ Rejareja: Tesco, Sainsbury's. Hufanya vizuri watumiaji wanapotumia pesa\n📡 Mawasiliano: Vodafone, BT Group. Watu daima wanahitaji mawasiliano",
+      "etfBasket": "kampuni 100 kubwa zaidi kwenye London Stock Exchange",
+      "etfDesc": "FTSE 100, kwa mfano, ni orodha ya kampuni 100 kubwa zaidi kwenye soko kuu la London Stock Exchange, inayokaguliwa upya kila baada ya miezi mitatu.",
+      "etfList": "🇬🇧 iShares Core FTSE 100: Kampuni 100 kubwa zaidi kwenye London Stock Exchange.\n🌍 Vanguard FTSE All-World: Kampuni kutoka nchi nyingi kwa ununuzi mmoja.\n🇺🇸 iShares Core S&P 500: Kampuni kubwa 500 za Marekani kwenye orodha ya S&P 500.\n💡 iShares Nasdaq 100: Kampuni 100 kubwa zaidi zisizo za kifedha kwenye Nasdaq. Zimeegemea sana teknolojia.",
+      "currencyHedge": "Pauni ikiDHOOFIKA dhidi ya sarafu nyingine, uwekezaji wako wa kimataifa unakuwa na thamani ZAIDI kwa pauni kiotomatiki!",
+      "fxQuizSetup": "Pauni inadhoofika kwa kiasi kikubwa dhidi ya dola na yuro",
+      "fxQuizLose": "Inapoteza thamani kwa sababu uchumi wa Uingereza unatatizika",
+      "fxQuizGain": "Inapanda JUU kwa pauni kwa sababu mali zako za nje zimepata thamani ya sarafu",
+      "dcaTitle": "Wastani wa Gharama wa Pauni",
+      "dcaAbbrev": "PCA",
+      "food": "robo kuku ya Nando's"
+    },
+    "IN": {
+      "name": "India",
+      "cName": "rupia",
+      "cPlural": "rupia",
+      "exDesc": "mojawapo ya masoko makubwa zaidi ya hisa duniani kwa idadi ya biashara",
+      "sectorList": "💻 Teknolojia: TCS, Infosys, Wipro. Vigogo wa huduma za TEHAMA duniani\n🏦 Benki: HDFC Bank, SBI, ICICI. Hufanya vizuri viwango vya riba vikiwa juu\n🛍️ Bidhaa za matumizi: ITC, Hindustan Unilever, DMart. Hufanya vizuri watumiaji wanapotumia pesa\n⚡ Nishati: Reliance, ONGC. Zinahusiana na mafuta, gesi, na usafishaji\n📡 Mawasiliano: Airtel, Vodafone Idea. Soko kubwa la simu la India linaendelea kukua",
+      "etfBasket": "kampuni 50 kati ya kampuni kubwa zaidi za India zinazofanyiwa biashara zaidi",
+      "etfDesc": "Nifty 50, kwa mfano, ni orodha ya kampuni 50 kati ya kampuni kubwa zaidi za India zinazofanyiwa biashara zaidi, zilizochaguliwa kwa ukubwa NA kwa urahisi wa kununuliwa na kuuzwa, si kwa ukubwa pekee.",
+      "etfList": "🇮🇳 Nippon India Nifty 50: Nifty 50, orodha ya kampuni 50 kati ya kampuni kubwa zaidi za India zinazofanyiwa biashara zaidi.\n💡 ICICI Prudential Sensex: Sensex, orodha ya blue chips 30 zinazojulikana zaidi nchini India.\n📦 Kotak Nifty Next 50: Kampuni 50 zilizo chini tu ya Nifty 50.\n🌍 Motilal Oswal Nasdaq 100: Kampuni 100 kubwa zaidi zisizo za kifedha kwenye Nasdaq.",
+      "currencyHedge": "Rupia ikidhoofika dhidi ya dola, uwekezaji wako wa kimataifa unakuwa na thamani ZAIDI kwa rupia kiotomatiki!",
+      "fxQuizSetup": "Rupia inadhoofika kutoka ₹82 hadi ₹90 dhidi ya dola",
+      "fxQuizLose": "Inapoteza thamani kwa sababu uchumi wa India unatatizika",
+      "fxQuizGain": "Inapanda JUU kwa rupia kwa sababu kila dola inanunua rupia zaidi",
+      "dcaTitle": "Wastani wa Gharama wa Rupia",
+      "dcaAbbrev": "RCA",
+      "food": "piza ya Domino's"
+    },
+    "JP": {
+      "name": "Japani",
+      "cName": "yeni",
+      "cPlural": "yeni",
+      "exDesc": "mojawapo ya masoko makubwa zaidi ya hisa duniani",
+      "sectorList": "🚗 Magari: Toyota, Honda, Nissan. Watengenezaji magari maarufu duniani wa Japani\n💻 Teknolojia: Sony, SoftBank, Nintendo. Michezo ya video, burudani, na ubunifu\n🏦 Benki: MUFG, SMFG, Mizuho. Makundi makubwa ya benki ya Japani\n🛍️ Rejareja: Fast Retailing (Uniqlo), Seven & i. Ufikiaji wa rejareja duniani\n📡 Mawasiliano: NTT, KDDI, SoftBank. Miundombinu mikubwa ya simu",
+      "etfBasket": "kampuni 225 kwenye orodha ya Nikkei 225",
+      "etfDesc": "Nikkei 225, kwa mfano, ni orodha ya kampuni 225 za Japani zinazojulikana sana zilizochaguliwa kuwakilisha soko zima. Imepimwa kwa bei, maana yake hisa yenye bei ya juu inahesabika zaidi kuliko kampuni ambayo ni kubwa tu.",
+      "etfList": "🇯🇵 ETF ya Nikkei 225: Kampuni 225 kwenye orodha ya Nikkei 225. Kipimo cha kulinganisha.\n📦 ETF ya TOPIX: Kipande kipana zaidi cha soko la Tokyo, zaidi ya kampuni elfu moja.\n🌍 MAXIS All Country World: Masoko yaliyoendelea na yanayoibukia katika mfuko mmoja.\n🇺🇸 iShares S&P 500: Kampuni kubwa 500 za Marekani kwenye orodha ya S&P 500.",
+      "currencyHedge": "Yeni ikiDHOOFIKA dhidi ya sarafu nyingine, uwekezaji wako wa kimataifa unakuwa na thamani ZAIDI kwa yeni kiotomatiki!",
+      "fxQuizSetup": "Yeni inadhoofika kutoka ¥130 hadi ¥155 dhidi ya dola",
+      "fxQuizLose": "Inapoteza thamani kwa sababu uchumi wa Japani unatatizika",
+      "fxQuizGain": "Inapanda JUU kwa yeni kwa sababu mali zako za nje zimepata thamani ya sarafu",
+      "dcaTitle": "Wastani wa Gharama wa Yeni",
+      "dcaAbbrev": "YCA",
+      "food": "bakuli la rameni"
+    },
+    "DE": {
+      "name": "Ujerumani",
+      "cName": "yuro",
+      "cPlural": "yuro",
+      "exDesc": "mojawapo ya masoko makubwa zaidi ya hisa barani Ulaya",
+      "sectorList": "💻 Teknolojia: SAP, Infineon. Programu za biashara na semikondakta\n🚗 Magari: Volkswagen, BMW, Mercedes-Benz. Fahari ya uhandisi ya Ujerumani\n🏦 Benki: Deutsche Bank, Commerzbank. Hufanya vizuri viwango vya riba vinapopanda\n🏭 Viwanda: Siemens, BASF. Utengenezaji na kemikali duniani\n📡 Mawasiliano: Deutsche Telekom, 1&1. Uti wa mgongo wa mawasiliano wa Ujerumani",
+      "etfBasket": "kampuni 40 kubwa zaidi za Ujerumani kwenye soko la Frankfurt",
+      "etfDesc": "DAX 40, kwa mfano, ni orodha ya kampuni 40 kubwa zaidi za Ujerumani kwenye soko la Frankfurt, na tangu 2021 lazima pia ziwe na faida ili kustahili.",
+      "etfList": "🇩🇪 iShares Core DAX: Kampuni 40 kubwa zaidi za Ujerumani kwenye soko la Frankfurt.\n🌍 Xtrackers MSCI World: Kampuni kutoka nchi 23 zilizoendelea.\n🇺🇸 iShares Core S&P 500: Kampuni kubwa 500 za Marekani kwenye orodha ya S&P 500.\n🇪🇺 ETF ya EURO STOXX 50: Viongozi 50 wa blue-chip kutoka kote kwenye ukanda wa yuro.",
+      "currencyHedge": "Yuro ikiDHOOFIKA dhidi ya sarafu nyingine, uwekezaji wako wa kimataifa unakuwa na thamani ZAIDI kwa yuro kiotomatiki!",
+      "fxQuizSetup": "Yuro inadhoofika kwa kiasi kikubwa dhidi ya dola na yeni",
+      "fxQuizLose": "Inapoteza thamani kwa sababu uchumi wa Ulaya unatatizika",
+      "fxQuizGain": "Inapanda JUU kwa yuro kwa sababu mali zako za nje zimepata thamani ya sarafu",
+      "dcaTitle": "Wastani wa Gharama",
+      "dcaAbbrev": "DCA",
+      "food": "döner kebab"
+    },
+    "CA": {
+      "name": "Kanada",
+      "cName": "dola ya Kanada",
+      "cPlural": "dola za Kanada",
+      "exDesc": "mojawapo ya masoko 10 makubwa zaidi ya hisa duniani",
+      "sectorList": "💻 Teknolojia: Shopify, OpenText, Constellation Software. Ubunifu wa teknolojia wa Kanada\n🏦 Benki: RBC, TD, BMO, Scotiabank. Benki tano kubwa za Kanada ni imara kama mwamba\n⚡ Nishati: Enbridge, Suncor, TC Energy. Majitu ya mchanga wa mafuta na mabomba\n🛍️ Rejareja: Dollarama, Canadian Tire, Loblaw. Chapa za rejareja za nyumbani\n📡 Mawasiliano: BCE, Rogers, Telus. Wakanada daima wanahitaji mawasiliano",
+      "etfBasket": "kampuni kubwa 60 za Kanada zinazojumuisha kila sekta kuu",
+      "etfDesc": "S&P/TSX 60, kwa mfano, ni orodha ya kampuni kubwa 60 za Kanada zilizochaguliwa na kamati ili kila sekta kuu iwakilishwe, maana yake si tu kampuni 60 kubwa zaidi.",
+      "etfList": "🇨🇦 iShares S&P/TSX 60 (XIU): Kampuni kubwa 60 za Kanada katika kila sekta kuu.\n📦 Vanguard All-Equity (VEQT): Hisa za Kanada, Marekani na za kimataifa katika ETF moja.\n🇺🇸 BMO S&P 500: Kampuni kubwa 500 za Marekani kwenye orodha ya S&P 500.\n💡 ETF ya Nasdaq 100: Kampuni 100 kubwa zaidi zisizo za kifedha kwenye Nasdaq. Zimeegemea sana teknolojia.",
+      "currencyHedge": "Dola ya Kanada ikiDHOOFIKA dhidi ya sarafu nyingine, uwekezaji wako wa kimataifa unakuwa na thamani ZAIDI kwa C$ kiotomatiki!",
+      "fxQuizSetup": "Dola ya Kanada inadhoofika kwa kiasi kikubwa dhidi ya dola ya Marekani",
+      "fxQuizLose": "Inapoteza thamani kwa sababu uchumi wa Kanada unatatizika",
+      "fxQuizGain": "Inapanda JUU kwa dola ya Kanada kwa sababu mali zako za nje zimepata thamani ya sarafu",
+      "dcaTitle": "Wastani wa Gharama wa Dola",
+      "dcaAbbrev": "DCA",
+      "food": "mlo wa Tim Hortons"
+    },
+    "AU": {
+      "name": "Australia",
+      "cName": "dola ya Australia",
+      "cPlural": "dola za Australia",
+      "exDesc": "soko kubwa zaidi la hisa katika Nusu ya Kusini ya Dunia",
+      "sectorList": "⛏️ Uchimbaji madini: BHP, Rio Tinto, Fortescue. Majitu ya uchimbaji na rasilimali duniani\n🏦 Benki: CBA, Westpac, ANZ, NAB. Benki nne kubwa za Australia\n🏥 Afya: CSL, Cochlear. Bioteknolojia na vifaa vya matibabu vya kiwango cha dunia\n🛍️ Rejareja: Woolworths, Coles, Wesfarmers. Vyakula na bidhaa muhimu za matumizi\n💻 Teknolojia: WiseTech Global, Xero. Hadithi za mafanikio ya programu zilizoorodheshwa Australia",
+      "etfBasket": "kampuni 200 kubwa zaidi kwenye ASX",
+      "etfDesc": "S&P/ASX 200, kwa mfano, ni orodha ya kampuni 200 kubwa zaidi zilizoorodheshwa kwenye ASX, zinazopimwa kwa thamani ya hisa zinazopatikana kwa biashara na kuchujwa kwa urahisi wa kubadilisha mikono.",
+      "etfList": "🇦🇺 iShares Core S&P/ASX 200 (IOZ): Kampuni 200 kubwa zaidi kwenye ASX.\n📦 Vanguard Australian Shares (VAS): Pana zaidi, takriban kampuni 300 za ASX.\n🌍 Vanguard MSCI International (VGS): Kampuni za masoko yaliyoendelea nje ya Australia.\n🇺🇸 BetaShares Nasdaq 100 (NDQ): Kampuni 100 kubwa zaidi zisizo za kifedha kwenye Nasdaq.",
+      "currencyHedge": "Dola ya Australia ikiDHOOFIKA dhidi ya sarafu nyingine, uwekezaji wako wa kimataifa unakuwa na thamani ZAIDI kwa A$ kiotomatiki!",
+      "fxQuizSetup": "Dola ya Australia inadhoofika kwa kiasi kikubwa dhidi ya dola ya Marekani",
+      "fxQuizLose": "Inapoteza thamani kwa sababu uchumi wa Australia unatatizika",
+      "fxQuizGain": "Inapanda JUU kwa A$ kwa sababu mali zako za nje zimepata thamani ya sarafu",
+      "dcaTitle": "Wastani wa Gharama wa Dola",
+      "dcaAbbrev": "DCA",
+      "food": "pai ya nyama"
+    },
+    "HK": {
+      "name": "Hong Kong",
+      "cName": "dola ya Hong Kong",
+      "cPlural": "dola za Hong Kong",
+      "exDesc": "soko la hisa linalounganisha China na masoko ya dunia",
+      "sectorList": "💻 Teknolojia: Tencent, Xiaomi, Meituan. Majitu ya teknolojia ya China yaliyoorodheshwa HK\n🏦 Benki: HSBC, Hang Seng Bank. Hufanya vizuri viwango vya riba vinapopanda\n🏗️ Mali isiyohamishika: CK Asset, Sun Hung Kai. Mali ni mfalme Hong Kong\n⚡ Huduma za umma: CLP, Power Assets. Gawio thabiti mwaka baada ya mwaka\n🛡️ Bima: AIA, Prudential. Viongozi wa bima wa Asia-Pasifiki",
+      "etfBasket": "kampuni kubwa zaidi za Hong Kong zinazofanyiwa biashara zaidi",
+      "etfDesc": "Hang Seng Index, kwa mfano, ni orodha teule ya kampuni kubwa zaidi za Hong Kong zinazofanyiwa biashara zaidi, zilizochaguliwa kuwakilisha kila sekta kuu. Idadi ya kampuni zilizomo hubadilika kamati ya faharasa inapoongeza na kuondoa majina.",
+      "etfList": "🇭🇰 Tracker Fund (2800): Hufuata Hang Seng Index. Mwanzilishi wa ETF wa Hong Kong.\n💡 Hang Seng TECH ETF: Kampuni 30 kubwa zaidi za teknolojia zilizoorodheshwa Hong Kong.\n🇺🇸 ETF ya S&P 500: Kampuni kubwa 500 za Marekani kwenye orodha ya S&P 500.\n🇨🇳 ETF ya hisa za China A: Ufikiaji wa kampuni zilizoorodheshwa Shanghai na Shenzhen.",
+      "currencyHedge": "Dola ya HK imefungamanishwa na dola ya Marekani, kwa hiyo mfuko wa kimataifa ulioegemea Marekani karibu hausogei kwa sababu ya sarafu pekee. Lakini sehemu isiyo ya Marekani (Ulaya, Japani, Asia nyingine) bado inapanda kwa HK$ sarafu hizo zinapoimarika!",
+      "fxQuizSetup": "Yuro na yeni zinaimarika dhidi ya dola ya Marekani, na dola ya HK imefungamanishwa na dola ya Marekani",
+      "fxQuizLose": "Inapoteza thamani kwa sababu uchumi wa Hong Kong unatatizika",
+      "fxQuizGain": "Sehemu ya Ulaya na Japani inapanda JUU kwa HK$, kwa sababu sarafu hizo sasa zinanunua dola zaidi za HK",
+      "dcaTitle": "Wastani wa Gharama wa Dola",
+      "dcaAbbrev": "DCA",
+      "food": "bakuli la tambi za wonton"
+    },
+    "CN": {
+      "name": "China",
+      "cName": "yuani",
+      "cPlural": "yuani",
+      "exDesc": "mojawapo ya masoko makubwa zaidi ya hisa duniani kwa thamani ya soko",
+      "sectorList": "💻 Teknolojia: SMIC, Kingsoft Office. Utengenezaji wa chipu na programu zilizoorodheshwa Shanghai\n🏦 Benki: ICBC, CCB, Bank of China. Miongoni mwa benki kubwa zaidi duniani kwa mali\n🚗 Magari: SAIC Motor, Great Wall Motor. Watengenezaji magari wa nyumbani wa China\n🛍️ Bidhaa za matumizi: Kweichow Moutai, Haier, Yili. Majina yanayojulikana kote China\n📡 Mawasiliano: China Mobile, China Telecom. Mitandao mikubwa ya simu",
+      "etfBasket": "kampuni 300 kati ya kampuni kubwa zaidi za China bara zinazofanyiwa biashara zaidi",
+      "etfDesc": "CSI 300, kwa mfano, ni orodha ya kampuni 300 kati ya kampuni kubwa zaidi za China bara zinazofanyiwa biashara zaidi, na inajumuisha soko la Shanghai NA la Shenzhen, si moja tu kati yao.",
+      "etfList": "🇨🇳 Huatai-PB CSI 300 (510300): Kampuni kubwa 300 zinazofanyiwa biashara sana katika Shanghai na Shenzhen.\n💡 ChinaAMC SSE 50 (510050): Kampuni 50 kubwa zaidi kwenye soko la Shanghai pekee.\n🌍 Mfuko mpana wa hisa za China: Ufikiaji mpana zaidi kuliko CSI 300.\n🇺🇸 Mfuko wa S&P 500 QDII: Ufikiaji wa kampuni kubwa 500 za Marekani kwenye orodha ya S&P 500.",
+      "currencyHedge": "Yuani ikiDHOOFIKA dhidi ya sarafu nyingine, uwekezaji wako wa kimataifa unakuwa na thamani ZAIDI kwa yuani kiotomatiki!",
+      "fxQuizSetup": "Yuani inadhoofika kwa kiasi kikubwa dhidi ya dola na yuro",
+      "fxQuizLose": "Inapoteza thamani kwa sababu uchumi wa China unatatizika",
+      "fxQuizGain": "Inapanda JUU kwa yuani kwa sababu mali zako za nje zimepata thamani ya sarafu",
+      "dcaTitle": "Wastani wa Gharama wa Yuani",
+      "dcaAbbrev": "YCA",
+      "food": "bakuli la tambi"
+    },
+    "FR": {
+      "name": "Ufaransa",
+      "cName": "yuro",
+      "cPlural": "yuro",
+      "exDesc": "nyumbani kwa baadhi ya chapa maarufu zaidi duniani za anasa na viwanda",
+      "sectorList": "👜 Bidhaa za anasa: LVMH, Hermès, Kering. Ufaransa inatawala anasa duniani\n⚡ Nishati: TotalEnergies, Engie. Kampuni kubwa za nishati za Ulaya\n🏦 Benki: BNP Paribas, Société Générale. Hufanya vizuri viwango vya riba vinapopanda\n✈️ Anga: Airbus, Safran. Ndege na ulinzi vinavyoongoza duniani\n📡 Mawasiliano: Orange, Bouygues. Uti wa mgongo wa mawasiliano wa Ufaransa",
+      "etfBasket": "kampuni 40 kwenye orodha ya CAC 40",
+      "etfDesc": "CAC 40, kwa mfano, ni orodha ya kampuni 40 zilizochaguliwa na kamati huru kutoka kampuni 100 kubwa zaidi kwenye soko la Paris, kwa kuzingatia ukubwa NA kiasi zinavyofanyiwa biashara.",
+      "etfList": "🇫🇷 Amundi CAC 40: Kampuni 40 kwenye orodha ya CAC 40. Kipimo cha kulinganisha.\n🌍 ETF ya MSCI World: Kampuni kutoka nchi 23 zilizoendelea.\n🇺🇸 BNP Paribas Easy S&P 500: Kampuni kubwa 500 za Marekani kwenye orodha ya S&P 500.\n🇪🇺 ETF ya EURO STOXX 50: Viongozi 50 wa blue-chip kutoka kote kwenye ukanda wa yuro.",
+      "currencyHedge": "Yuro ikiDHOOFIKA dhidi ya sarafu nyingine, uwekezaji wako wa kimataifa unakuwa na thamani ZAIDI kwa yuro kiotomatiki!",
+      "fxQuizSetup": "Yuro inadhoofika kwa kiasi kikubwa dhidi ya dola na yeni",
+      "fxQuizLose": "Inapoteza thamani kwa sababu uchumi wa Ulaya unatatizika",
+      "fxQuizGain": "Inapanda JUU kwa yuro kwa sababu mali zako za nje zimepata thamani ya sarafu",
+      "dcaTitle": "Wastani wa Gharama",
+      "dcaAbbrev": "DCA",
+      "food": "croque-monsieur"
+    },
+    "IT": {
+      "name": "Italia",
+      "cName": "yuro",
+      "cPlural": "yuro",
+      "exDesc": "mojawapo ya masoko ya hisa ya zamani zaidi barani Ulaya, nyumbani kwa chapa maarufu za Italia",
+      "sectorList": "🏎️ Magari: Ferrari, Stellantis. Ubora wa uhandisi wa Italia\n⚡ Nishati: Enel, Eni. Kampuni kubwa za nishati na huduma za Ulaya\n🏦 Benki: UniCredit, Intesa Sanpaolo. Hufanya vizuri viwango vya riba vinapopanda\n🛡️ Bima: Generali, Unipol. Majitu ya bima ya Italia\n📡 Mawasiliano: TIM, Inwit. Miundombinu ya mawasiliano ya Italia",
+      "etfBasket": "kampuni 40 kwenye orodha ya FTSE MIB",
+      "etfDesc": "FTSE MIB, kwa mfano, ni orodha ya kampuni 40 kati ya kampuni kubwa zaidi zinazofanyiwa biashara zaidi kwenye soko la Milan, zilizochaguliwa kujumuisha sekta kuu za Italia.",
+      "etfList": "🇮🇹 ETF ya FTSE MIB: Kampuni 40 kwenye orodha ya FTSE MIB.\n🌍 iShares Core MSCI World: Kampuni kutoka nchi 23 zilizoendelea.\n🇺🇸 Amundi S&P 500: Kampuni kubwa 500 za Marekani kwenye orodha ya S&P 500.\n🇪🇺 Xtrackers EURO STOXX 50: Viongozi 50 wa blue-chip kutoka kote kwenye ukanda wa yuro.",
+      "currencyHedge": "Yuro ikiDHOOFIKA dhidi ya sarafu nyingine, uwekezaji wako wa kimataifa unakuwa na thamani ZAIDI kwa yuro kiotomatiki!",
+      "fxQuizSetup": "Yuro inadhoofika kwa kiasi kikubwa dhidi ya dola na yeni",
+      "fxQuizLose": "Inapoteza thamani kwa sababu uchumi wa Ulaya unatatizika",
+      "fxQuizGain": "Inapanda JUU kwa yuro kwa sababu mali zako za nje zimepata thamani ya sarafu",
+      "dcaTitle": "Wastani wa Gharama",
+      "dcaAbbrev": "DCA",
+      "food": "piza ya margherita"
+    },
+    "ES": {
+      "name": "Hispania",
+      "cName": "yuro",
+      "cPlural": "yuro",
+      "exDesc": "soko kuu la hisa la Hispania na lango la masoko ya Amerika Kusini",
+      "sectorList": "👗 Mitindo na urembo: Inditex (Zara), Puig. Himaya ya mitindo ya Hispania duniani\n🏦 Benki: Santander, BBVA, CaixaBank. Benki za Hispania zina ufikiaji mkubwa duniani\n⚡ Nishati: Iberdrola, Endesa. Viongozi wa nishati jadidifu barani Ulaya\n📡 Mawasiliano: Telefónica, Cellnex. Uti wa mgongo wa mawasiliano wa Hispania\n🏗️ Miundombinu: Ferrovial, ACS. Wanajenga miundombinu duniani kote",
+      "etfBasket": "kampuni 35 zinazofanyiwa biashara zaidi nchini Hispania",
+      "etfDesc": "IBEX 35, kwa mfano, ni orodha ya hisa 35 za Hispania zinazofanyiwa biashara zaidi, zilizochaguliwa na kamati ya kiufundi kwa kiasi cha biashara. Kwa hiyo ni orodha ya zinazofanyiwa biashara zaidi, si orodha ya kubwa zaidi.",
+      "etfList": "🇪🇸 ETF ya IBEX 35: Hisa 35 za Hispania zinazofanyiwa biashara zaidi.\n🌍 iShares Core MSCI World: Kampuni kutoka nchi 23 zilizoendelea.\n🇺🇸 Vanguard S&P 500: Kampuni kubwa 500 za Marekani kwenye orodha ya S&P 500.\n🇪🇺 ETF ya EURO STOXX 50: Viongozi 50 wa blue-chip kutoka kote kwenye ukanda wa yuro.",
+      "currencyHedge": "Yuro ikiDHOOFIKA dhidi ya sarafu nyingine, uwekezaji wako wa kimataifa unakuwa na thamani ZAIDI kwa yuro kiotomatiki!",
+      "fxQuizSetup": "Yuro inadhoofika kwa kiasi kikubwa dhidi ya dola na yeni",
+      "fxQuizLose": "Inapoteza thamani kwa sababu uchumi wa Ulaya unatatizika",
+      "fxQuizGain": "Inapanda JUU kwa yuro kwa sababu mali zako za nje zimepata thamani ya sarafu",
+      "dcaTitle": "Wastani wa Gharama",
+      "dcaAbbrev": "DCA",
+      "food": "sahani ya tapas"
+    },
+    "NL": {
+      "name": "Uholanzi",
+      "cName": "yuro",
+      "cPlural": "yuro",
+      "exDesc": "soko la hisa la zamani zaidi duniani, lililoanzishwa mwaka 1602",
+      "sectorList": "💻 Teknolojia: ASML, Adyen. ASML inawezesha chipu za kisasa zaidi duniani\n⚡ Nishati: Shell, SBM Offshore. Majitu ya nishati duniani yenye makao makuu NL\n🏦 Benki: ING, ABN AMRO. Hufanya vizuri viwango vya riba vinapopanda\n🍺 Bidhaa za matumizi: Heineken, Ahold Delhaize. Chapa za vyakula na vinywaji duniani\n📡 Mawasiliano: KPN, mtoa huduma mkubwa zaidi wa mawasiliano aliyeorodheshwa nchini",
+      "etfBasket": "kampuni 25 zinazofanyiwa biashara kwa wingi zaidi Amsterdam",
+      "etfDesc": "AEX, kwa mfano, ni orodha ya hisa 25 zinazofanyiwa biashara kwa wingi zaidi kwenye soko la Amsterdam. Inapanga kampuni kwa kiasi zinavyofanyiwa biashara, si kwa ukubwa wake.",
+      "etfList": "🇳🇱 iShares AEX: Hisa 25 zinazofanyiwa biashara kwa wingi zaidi Amsterdam.\n🌍 Vanguard FTSE All-World: Kampuni kutoka nchi nyingi kwa ununuzi mmoja.\n🇺🇸 iShares Core S&P 500: Kampuni kubwa 500 za Marekani kwenye orodha ya S&P 500.\n🇪🇺 ETF ya EURO STOXX 50: Viongozi 50 wa blue-chip kutoka kote kwenye ukanda wa yuro.",
+      "currencyHedge": "Yuro ikiDHOOFIKA dhidi ya sarafu nyingine, uwekezaji wako wa kimataifa unakuwa na thamani ZAIDI kwa yuro kiotomatiki!",
+      "fxQuizSetup": "Yuro inadhoofika kwa kiasi kikubwa dhidi ya dola na yeni",
+      "fxQuizLose": "Inapoteza thamani kwa sababu uchumi wa Ulaya unatatizika",
+      "fxQuizGain": "Inapanda JUU kwa yuro kwa sababu mali zako za nje zimepata thamani ya sarafu",
+      "dcaTitle": "Wastani wa Gharama",
+      "dcaAbbrev": "DCA",
+      "food": "kroket"
+    },
+    "BR": {
+      "name": "Brazili",
+      "cName": "reali",
+      "cPlural": "reali",
+      "exDesc": "soko kubwa zaidi la hisa katika Amerika Kusini",
+      "sectorList": "⛏️ Uchimbaji madini: Vale, CSN. Majitu ya chuma ghafi na chuma cha pua ya Brazili\n⚡ Nishati: Petrobras, Eletrobras. Kampuni kubwa za mafuta na umeme\n🏦 Benki: Itaú, Bradesco, Banco do Brasil. Hufanya vizuri viwango vya riba vinapopanda\n🍺 Bidhaa za matumizi: Ambev, JBS. Vigogo wa vyakula na vinywaji\n📡 Mawasiliano: Vivo, TIM Brasil. Watoa huduma za simu na intaneti ya kasi wa Brazili",
+      "etfBasket": "kampuni zinazofanyiwa biashara zaidi kwenye soko la B3",
+      "etfDesc": "Ibovespa, kwa mfano, ni orodha ya kampuni zinazofanyiwa biashara zaidi kwenye soko la B3. Kampuni inapata nafasi yake kwa kiasi inavyonunuliwa na kuuzwa, si kwa ukubwa wake. Kwa hiyo idadi ya kampuni kwenye orodha hubadilika kadiri muda unavyopita.",
+      "etfList": "🇧🇷 BOVA11: Hufuata Ibovespa, kampuni za B3 zinazofanyiwa biashara zaidi. Kipimo cha kulinganisha.\n🇺🇸 IVVB11: Hufuata S&P 500. Yaani kampuni kubwa 500 za Marekani, zilizopangiwa bei kwa reali.\n🌍 ETF ya hisa za dunia: Masoko yaliyoendelea na yanayoibukia kwa ununuzi mmoja.\n💡 HASH11: Mfuko wa faharasa ya crypto unaoshikilia Bitcoin, Ethereum na zaidi.",
+      "currencyHedge": "Reali ikidhoofika dhidi ya dola, uwekezaji wako wa kimataifa unakuwa na thamani ZAIDI kwa R$ kiotomatiki!",
+      "fxQuizSetup": "Reali ya Brazili inadhoofika kutoka R$5 hadi R$6 dhidi ya dola",
+      "fxQuizLose": "Inapoteza thamani kwa sababu uchumi wa Brazili unatatizika",
+      "fxQuizGain": "Inapanda JUU kwa reali kwa sababu kila dola inanunua reali zaidi",
+      "dcaTitle": "Wastani wa Gharama wa Reali",
+      "dcaAbbrev": "RCA",
+      "food": "mlo wa pão de queijo"
+    },
+    "SA_ARABIA": {
+      "name": "Saudia",
+      "cName": "riyali",
+      "cPlural": "riyali",
+      "exDesc": "soko kubwa zaidi la hisa katika Mashariki ya Kati",
+      "sectorList": "🛢️ Nishati: Saudi Aramco, SABIC. Aramco ni kampuni ya mafuta yenye thamani kubwa zaidi duniani\n🏦 Benki: Al Rajhi, SNB, Riyad Bank. Hufanya vizuri viwango vya riba vinapopanda\n📡 Mawasiliano: STC, Mobily. Watoa huduma za simu na intaneti ya kasi wa Saudia\n🛍️ Rejareja: Jarir, Extra. Minyororo maarufu ya maduka ya rejareja\n⛏️ Malighafi: Ma'aden, Yansab. Uchimbaji madini na kemikali za petroli",
+      "etfBasket": "kila kampuni iliyoorodheshwa kwenye soko kuu la Tadawul",
+      "etfDesc": "TASI (Tadawul All Share Index) si orodha ya 30 bora wala 100 bora hata kidogo. Inajumuisha kila kampuni iliyoorodheshwa kwenye soko kuu la Tadawul, kwa hiyo idadi ya kampuni zilizomo hubadilika kila kampuni inapoorodheshwa au kuondoka.",
+      "etfList": "🇸🇦 ETF inayofuata TASI: Mguso mpana wa soko zima kuu la Tadawul.\n📦 ETF ya blue-chip za Saudi: Kikapu kidogo zaidi cha majina makubwa zaidi ya Saudi.\n🌍 ETF ya MSCI Saudi Arabia: Hufuata faharasa ya Saudi ya MSCI, sehemu iliyochujwa ya soko.\n🇺🇸 Mfuko wa S&P 500: Kampuni kubwa 500 za Marekani kwenye orodha ya S&P 500.",
+      "currencyHedge": "Kwa kuwa riyali imefungamanishwa na dola ya Marekani, kuwekeza duniani kwa sarafu nyingine kunakunufaisha sarafu hizo zinapoimarika!",
+      "fxQuizSetup": "Sarafu za dunia kama yuro na yeni zinaimarika dhidi ya riyali",
+      "fxQuizLose": "Inapoteza thamani kwa sababu uchumi wa Saudia unatatizika",
+      "fxQuizGain": "Inapanda JUU kwa riyali kwa sababu mali zako za nje zimepata thamani ya sarafu",
+      "dcaTitle": "Wastani wa Gharama wa Riyali",
+      "dcaAbbrev": "RCA",
+      "food": "mlo wa Al Baik"
+    },
+    "KR": {
+      "name": "Korea Kusini",
+      "cName": "won",
+      "cPlural": "won",
+      "exDesc": "nyumbani kwa Samsung, Hyundai, na baadhi ya kampuni bunifu zaidi za Asia",
+      "sectorList": "💻 Teknolojia: Samsung, SK Hynix, Kakao. Teknolojia na chipu zinazoongoza duniani\n🚗 Magari: Hyundai, Kia. Watengenezaji magari maarufu duniani wa Korea\n🏦 Benki: KB Financial, Shinhan. Hufanya vizuri viwango vya riba vinapopanda\n🎶 Burudani: HYBE, CJ ENM. Wimbi la kitamaduni la K-pop na K-drama duniani\n📡 Mawasiliano: KT, LG Uplus. Mawasiliano ya kasi ya juu sana ya Korea Kusini",
+      "etfBasket": "kampuni 200 kati ya kampuni kubwa zaidi za Korea zinazofanyiwa biashara zaidi",
+      "etfDesc": "KOSPI 200, kwa mfano, ni orodha ya kampuni 200 kati ya kampuni kubwa zaidi za Korea zinazofanyiwa biashara zaidi, zilizochaguliwa sekta kwa sekta ili kila sehemu ya soko iwakilishwe.",
+      "etfList": "🇰🇷 KODEX 200: Hufuata KOSPI 200, orodha ya kampuni 200 kati ya kampuni kubwa zaidi za Korea zinazofanyiwa biashara zaidi.\n🌍 ETF ya hisa za dunia: Kampuni za masoko yaliyoendelea kwa ununuzi mmoja.\n🇺🇸 TIGER Nasdaq 100: Kampuni 100 kubwa zaidi zisizo za kifedha kwenye Nasdaq.\n💡 KODEX Samsung Group: Hufuata kampuni tanzu za Samsung zilizoorodheshwa.",
+      "currencyHedge": "Won ikiDHOOFIKA dhidi ya sarafu nyingine, uwekezaji wako wa kimataifa unakuwa na thamani ZAIDI kwa won kiotomatiki!",
+      "fxQuizSetup": "Won inadhoofika kutoka ₩1,300 hadi ₩1,400 dhidi ya dola",
+      "fxQuizLose": "Inapoteza thamani kwa sababu uchumi wa Korea Kusini unatatizika",
+      "fxQuizGain": "Inapanda JUU kwa won kwa sababu kila dola inanunua won zaidi",
+      "dcaTitle": "Wastani wa Gharama wa Won",
+      "dcaAbbrev": "WCA",
+      "food": "bakuli la bibimbap"
+    },
+    "TW": {
+      "name": "Taiwan",
+      "cName": "dola ya Taiwan",
+      "cPlural": "dola za Taiwan",
+      "exDesc": "nyumbani kwa TSMC, kampuni inayotengeneza chipu nyingi za kisasa zaidi duniani",
+      "sectorList": "💻 Teknolojia: TSMC, MediaTek, ASUS. Taiwan inatengeneza chipu za dunia\n🏭 Utengenezaji: Hon Hai (Foxconn), Delta. Majitu ya utengenezaji wa vifaa vya elektroniki\n🏦 Benki: Cathay Financial, Fubon. Hufanya vizuri viwango vya riba vinapopanda\n🧪 Kemikali: Formosa Plastics, Nan Ya. Viongozi wa malighafi za viwandani\n📡 Mawasiliano: Chunghwa Telecom, Far EasTone. Uti wa mgongo wa mawasiliano wa Taiwan",
+      "etfBasket": "kampuni 50 kubwa zaidi kwenye Taiwan Stock Exchange",
+      "etfDesc": "Taiwan ina orodha mbili tofauti sana. TAIEX inajumuisha kila kampuni iliyoorodheshwa kwenye Taiwan Stock Exchange, takriban elfu moja. Taiwan 50, ambayo ETF maarufu ya 0050 hufuata, ni kampuni 50 kubwa zaidi tu.",
+      "etfList": "🇹🇼 0050 (Yuanta Taiwan Top 50): Kampuni 50 kubwa zaidi kwenye soko la Taiwan. Ya asili.\n📦 0056 (Yuanta High Dividend): Hisa za Taiwan zilizochaguliwa kwa mavuno ya gawio yanayotarajiwa.\n🇺🇸 00646 (Yuanta S&P 500): Kampuni kubwa 500 za Marekani kwenye orodha ya S&P 500.\n💡 00662 (Fubon Nasdaq 100): Kampuni 100 kubwa zaidi zisizo za kifedha kwenye Nasdaq.",
+      "currencyHedge": "Dola ya Taiwan ikiDHOOFIKA dhidi ya sarafu nyingine, uwekezaji wako wa kimataifa unakuwa na thamani ZAIDI kwa NT$ kiotomatiki!",
+      "fxQuizSetup": "Dola ya Taiwan inadhoofika kutoka NT$30 hadi NT$34 dhidi ya dola ya Marekani",
+      "fxQuizLose": "Inapoteza thamani kwa sababu uchumi wa Taiwan unatatizika",
+      "fxQuizGain": "Inapanda JUU kwa NT$ kwa sababu mali zako za nje zimepata thamani ya sarafu",
+      "dcaTitle": "Wastani wa Gharama wa Dola",
+      "dcaAbbrev": "DCA",
+      "food": "supu ya tambi na nyama ya ng'ombe"
+    },
+    "SG": {
+      "name": "Singapore",
+      "cName": "dola ya Singapore",
+      "cPlural": "dola za Singapore",
+      "exDesc": "kitovu kikuu cha fedha na soko la hisa la Asia ya Kusini-Mashariki",
+      "sectorList": "🏦 Benki: DBS, OCBC, UOB. Benki tatu imara kama mwamba za Singapore\n✈️ Usafiri: Singapore Airlines, SATS. Usafiri wa anga wa kiwango cha dunia\n🏗️ Mali isiyohamishika: CapitaLand, City Developments. Mali ni jambo kubwa Singapore\n💻 Teknolojia: Venture Corporation, AEM. Teknolojia iliyoorodheshwa SGX kwa kiasi kikubwa ni utengenezaji wa vifaa vya elektroniki; Sea na Grab zilichagua kuorodheshwa Marekani badala yake\n📡 Mawasiliano: Singtel, StarHub. Watoa huduma za mawasiliano wa Singapore",
+      "etfBasket": "kampuni 30 kubwa zaidi kwenye Singapore Exchange",
+      "etfDesc": "Straits Times Index, kwa mfano, ni orodha ya kampuni 30 kubwa zaidi kwenye Singapore Exchange ambazo pia zinapita vipimo vyake vya hisa huru (free-float) na biashara.",
+      "etfList": "🇸🇬 Nikko AM STI ETF: Kampuni 30 kubwa zaidi kwenye Singapore Exchange. Kipimo cha kulinganisha.\n📦 ABF Singapore Bond Index Fund: Hati fungani za serikali ya Singapore katika mfuko mmoja.\n🌏 iShares MSCI Asia ex Japan: Ufikiaji mpana wa masoko ya Asia.\n🇺🇸 ETF ya S&P 500: Kampuni kubwa 500 za Marekani kwenye orodha ya S&P 500.",
+      "currencyHedge": "Dola ya Singapore ikiDHOOFIKA dhidi ya sarafu nyingine, uwekezaji wako wa kimataifa unakuwa na thamani ZAIDI kwa S$ kiotomatiki!",
+      "fxQuizSetup": "Dola ya Singapore inadhoofika kwa kiasi kikubwa dhidi ya dola ya Marekani",
+      "fxQuizLose": "Inapoteza thamani kwa sababu uchumi wa Singapore unatatizika",
+      "fxQuizGain": "Inapanda JUU kwa S$ kwa sababu mali zako za nje zimepata thamani ya sarafu",
+      "dcaTitle": "Wastani wa Gharama wa Dola",
+      "dcaAbbrev": "DCA",
+      "food": "mlo wa kituo cha vibanda vya chakula (hawker centre)"
+    },
+    "CH": {
+      "name": "Uswisi",
+      "cName": "faranga",
+      "cPlural": "faranga",
+      "exDesc": "nyumbani kwa Nestlé, Novartis na Roche, kampuni tatu kati ya zenye thamani kubwa zaidi barani Ulaya",
+      "sectorList": "💊 Dawa: Novartis, Roche. Vigogo wa dawa duniani\n🍫 Bidhaa za matumizi: Nestlé, Lindt. Chapa za vyakula maarufu zaidi duniani\n🏦 Benki: UBS, Julius Baer. Benki za Uswisi ni maarufu sana\n🏭 Viwanda: ABB, Holcim. Uhandisi na ujenzi duniani\n📡 Mawasiliano: Swisscom, Sunrise. Watoa huduma za mawasiliano wa Uswisi",
+      "etfBasket": "kampuni 20 kubwa zaidi za Uswisi zinazofanyiwa biashara zaidi",
+      "etfDesc": "Swiss Market Index, kwa mfano, ni orodha ya kampuni 20 kubwa zaidi za Uswisi zinazofanyiwa biashara zaidi.",
+      "etfList": "🇨🇭 iShares Core SPI: Soko zima la Uswisi, si majina makubwa tu.\n💡 ETF ya SMI: Kampuni 20 kubwa zaidi za Uswisi zinazofanyiwa biashara zaidi.\n🌍 UBS ETF MSCI World: Kampuni kutoka nchi 23 zilizoendelea.\n🇺🇸 iShares Core S&P 500: Kampuni kubwa 500 za Marekani kwenye orodha ya S&P 500.",
+      "currencyHedge": "Faranga ikidhoofika dhidi ya sarafu nyingine, uwekezaji wako wa kimataifa unakuwa na thamani ZAIDI kwa CHF. Faranga ya Uswisi kwa kawaida ni imara sana!",
+      "fxQuizSetup": "Faranga ya Uswisi inadhoofika kwa kiasi kikubwa dhidi ya dola na yuro",
+      "fxQuizLose": "Inapoteza thamani kwa sababu uchumi wa Uswisi unatatizika",
+      "fxQuizGain": "Inapanda JUU kwa faranga kwa sababu mali zako za nje zimepata thamani ya sarafu",
+      "dcaTitle": "Wastani wa Gharama wa Faranga",
+      "dcaAbbrev": "FCA",
+      "food": "kebab"
+    },
+    "SE": {
+      "name": "Uswidi",
+      "cName": "krona",
+      "cPlural": "krona",
+      "exDesc": "nyumbani kwa Ericsson, Volvo na idadi ya kushangaza ya chapa za dunia",
+      "sectorList": "💻 Teknolojia: Ericsson, Hexagon. Uswidi inafanya makubwa kuliko ukubwa wake katika teknolojia\n🚗 Magari: Volvo, Volvo Cars. Ubora wa uhandisi wa Uswidi\n🏦 Benki: SEB, Handelsbanken, Nordea. Hufanya vizuri viwango vya riba vinapopanda\n👗 Rejareja: H&M, Essity. Chapa za mitindo na bidhaa za matumizi duniani\n📡 Mawasiliano: Telia, Tele2. Viongozi wa mawasiliano wa Nordiki",
+      "etfBasket": "kampuni 30 zinazofanyiwa biashara zaidi Stockholm",
+      "etfDesc": "OMXS30, kwa mfano, ni orodha ya hisa 30 zinazofanyiwa biashara zaidi kwenye soko la Stockholm. Inapanga kwa shughuli za biashara, si kwa ukubwa wa kampuni.",
+      "etfList": "🇸🇪 Xact OMXS30: Hisa 30 zinazofanyiwa biashara zaidi Stockholm.\n💰 Avanza Zero: Mfuko wa faharasa wa Uswidi usio na ada ya usimamizi ya mwaka. Unafuata hisa zilezile 30 za Stockholm.\n🌍 Mfuko wa faharasa wa dunia: Kampuni kutoka nchi nyingi kwa ununuzi mmoja.\n🇺🇸 Mfuko wa S&P 500: Kampuni kubwa 500 za Marekani kwenye orodha ya S&P 500.",
+      "currencyHedge": "Krona ikidhoofika dhidi ya sarafu nyingine, uwekezaji wako wa kimataifa unakuwa na thamani ZAIDI kwa kr kiotomatiki!",
+      "fxQuizSetup": "Krona ya Uswidi inadhoofika kwa kiasi kikubwa dhidi ya dola na yuro",
+      "fxQuizLose": "Inapoteza thamani kwa sababu uchumi wa Uswidi unatatizika",
+      "fxQuizGain": "Inapanda JUU kwa krona kwa sababu mali zako za nje zimepata thamani ya sarafu",
+      "dcaTitle": "Wastani wa Gharama wa Krona",
+      "dcaAbbrev": "KCA",
+      "food": "falafel ya kufungwa (wrap)"
+    }
+  }
+}

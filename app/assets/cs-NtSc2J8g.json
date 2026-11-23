@@ -1,0 +1,1846 @@
+{
+  "_meta": {
+    "lang": "cs",
+    "source": "src/constants/lessonData.js",
+    "lessons": 84,
+    "hash": {
+      "1": "d38ab2ed",
+      "2": "bf930bc6",
+      "3": "6e4e4d63",
+      "4": "5b7802cc",
+      "5": "0f9cde1d",
+      "6": "e5999569",
+      "7": "66bc9202",
+      "8": "65677cac",
+      "9": "59a1fc31",
+      "10": "03ccde2e",
+      "11": "fbb06743",
+      "12": "7713dc86",
+      "13": "38054a44",
+      "14": "cbac8395",
+      "15": "4355d5d7",
+      "16": "bee25cb0",
+      "17": "a5cba909",
+      "18": "df93ed01",
+      "19": "ad2f3ae8",
+      "20": "6363dc90",
+      "21": "65a3ab78",
+      "22": "61f1ee9c",
+      "23": "a475dd40",
+      "24": "6874af82",
+      "25": "d92ac77b",
+      "26": "e8f1b315",
+      "27": "c3b42e04",
+      "28": "c3719a16",
+      "29": "b8690fa4",
+      "30": "272435ad",
+      "31": "ebbffa78",
+      "32": "31ae442d",
+      "33": "71dbb7c6",
+      "34": "62d271e6",
+      "35": "da185960",
+      "36": "66e0a88e",
+      "37": "4a91dc0c",
+      "38": "9ec4dee7",
+      "39": "ae809a71",
+      "40": "c3b12ff9",
+      "41": "aa4153d7",
+      "42": "29941a97",
+      "43": "d87240fc",
+      "44": "87c794ce",
+      "45": "a3dd8868",
+      "46": "7873826b",
+      "47": "47503da5",
+      "48": "6d2df7b4",
+      "49": "c1055330",
+      "50": "7d4a6a8a",
+      "51": "27e927d2",
+      "52": "041c444d",
+      "53": "8fb1d4bc",
+      "54": "33ec5d94",
+      "55": "b7571fb2",
+      "56": "f20ea6ce",
+      "57": "5a1f3993",
+      "58": "561a7caf",
+      "59": "67437975",
+      "60": "6db8d44d",
+      "61": "04bbebe6",
+      "62": "b43659be",
+      "63": "a6bfefd0",
+      "64": "a2cc88e0",
+      "65": "2f12b47a",
+      "66": "4a676ede",
+      "67": "17351f96",
+      "68": "e9dda763",
+      "69": "3b1a13c3",
+      "70": "b07744de",
+      "71": "798da84a",
+      "72": "960b5a23",
+      "73": "76df64cb",
+      "74": "90735bdf",
+      "75": "b5be8d19",
+      "76": "b2c7a6ad",
+      "77": "1f3344ae",
+      "78": "e03a370e",
+      "79": "3b881962",
+      "80": "64bddadd",
+      "81": "d30753ea",
+      "82": "71620bf3",
+      "83": "989bc8a6",
+      "84": "cdd0a41d"
+    }
+  },
+  "lessons": {
+    "1": {
+      "title": "Co je to akcie?",
+      "desc": "Vlastni malý kousek firmy",
+      "content": "Představ si, že se ty a 9 kamarádů složíte každý {c}10 a koupíte spolu tenisky za {c}100. Každý z vás vlastní 1/10 těch tenisek, a to je v podstatě akcie! Když koupíš akcii firmy {retail}, vlastníš malý kousek každého obchodu, každého produktu a každé vydělané peněžní jednotky (měna: {cName}). Čím víc firma roste, tím víc má tvůj kousek hodnotu! 🔥",
+      "quiz": {
+        "q": "Ty a 4 kamarádi si rovným dílem rozdělíte cenu herní židle za {c}500. Co každý z vás vlastní?",
+        "explanation": "Vlastnit akcii znamená vlastnit zlomek celku. Pět lidí, kteří zaplatili stejně, znamená pět stejných dílů, a každý díl má stejná práva jako ostatní.",
+        "options": [
+          "Každý 1/5 (20 %) židle",
+          "Nic, vlastnit ji může jen jeden člověk",
+          "Celou židli dohromady, bez podílu jednotlivce"
+        ]
+      }
+    },
+    "2": {
+      "title": "Burza {ex} v kostce",
+      "desc": "Burza – {name}",
+      "content": "Představ si burzu {ex} ({exFull}) jako obří online tržiště, jen tu lidé místo tenisek nebo mobilů kupují a prodávají malé kousky (akcie) firem jako {top5}. Je otevřená každý pracovní den kromě státních svátků a ceny se mění celý den podle toho, kdo kupuje a kdo prodává. {ex} je {exDesc}! 🌍",
+      "quiz": {
+        "q": "Čemu se burza {ex} nejvíc podobá?",
+        "explanation": "Burza spojuje lidi, kteří chtějí akcie koupit, s lidmi, kteří je chtějí prodat. Akcie nevlastní, cenu nevybírá a za peníze, které tam necháš, ti nebude platit úroky.",
+        "options": [
+          "Tržišti, kde se majitelé akcií setkávají s kupci",
+          "Spořicímu účtu, kde peníze leží a vydělávají úroky",
+          "Obchodu, který akcie vlastní a prodává ti je"
+        ]
+      }
+    },
+    "3": {
+      "title": "Býci vs medvědi",
+      "desc": "Směry trhu rozluštěné",
+      "content": "Na trzích vládnou zvířata 😄\n\n🐂 Býk = ceny jdou NAHORU. Představ si býka, který útočí rohy směrem vzhůru. Všichni vyhrávají, lidé nakupují, skvělá nálada.\n\n🐻 Medvěd = ceny jdou DOLŮ. Představ si medvěda, který máchne tlapou dolů. Lidé mají strach, prodávají, nic moc období.\n\nKdyž někdo řekne „jsem na {tech} býčí“, myslí si, že cena půjde nahoru. Když řekne „medvědí“, myslí si, že míří dolů. Tahle slova uslyšíš ve financích všude!",
+      "quiz": {
+        "q": "Kamarád říká: „Na {telco} jsem tenhle týden medvědí.“ Co to znamená?",
+        "explanation": "Medvědí znamená čekat pokles ceny, býčí znamená čekat růst. Medvěd máchne dolů, býk vyhodí nahoru.",
+        "options": [
+          "Myslí si, že cena {telco} půjde nahoru",
+          "Myslí si, že cena {telco} půjde dolů",
+          "Chce koupit co nejvíc akcií {telco}"
+        ]
+      }
+    },
+    "4": {
+      "title": "Kdo je broker?",
+      "desc": "Tvoje brána k nákupu akcií",
+      "content": "Nemůžeš jen tak přijít do {retail} a říct „dejte mi prosím kus vaší firmy“ 😂 Potřebuješ brokera: aplikaci nebo službu, která na burze propojuje kupující a prodávající.\n\nBroker funguje podobně jako {shop}. Něco chceš a {shop} tě s tím propojí. Vyřídí transakci a účtuje si malý poplatek. Mezi oblíbené brokery (země: {name}) patří {broker} a další.\n\nCo broker NEDĚLÁ: nerozhoduje, které akcie porostou. Tvůj příkaz jen předá na trh. Cena se hýbe podle toho, co kupují a prodávají všichni ostatní, ne proto, že to řekl tvůj broker.\n\nBrokeři ale zveřejňují názory. Jejich analytici hodnotí akcie jako „koupit“, „držet“ nebo „prodat“. Názor není příkaz 🤷 Analytici se o úplně stejné akcii otevřeně přou a spousta z nich se nakonec mýlí. Ber hodnocení jako recenzi, ne jako pravidlo.\n\nNoobTrader tě přesně tohle naučí, zdarma a s virtuálními penězi!",
+      "quiz": {
+        "q": "Proč k nákupu akcií potřebuješ brokera?",
+        "explanation": "Broker je tvoje cesta na burzu, ne věštec a ne ten, kdo určuje cenu. Příkaz předá dál a cena je taková, za jakou je ochotný obchodovat zbytek trhu. Jeho analytici zveřejňují hodnocení, ale hodnocení je názor, ne pokyn.",
+        "options": [
+          "Vybírá akcie, které porostou",
+          "Určuje cenu, kterou za každou akcii zaplatíš",
+          "Předává tvůj příkaz dál na burzu"
+        ]
+      }
+    },
+    "5": {
+      "title": "Základy ceny akcií",
+      "desc": "Proč ceny rostou a klesají?",
+      "content": "Všiml sis, jak limitované tenisky vyletí v ceně, když vyjdou? S akciemi se děje totéž. Jde o nabídku a poptávku.\n\n📈 Hodně lidí CHCE koupit → cena jde NAHORU\n📉 Hodně lidí CHCE prodat → cena jde DOLŮ\n\nKdyž {telco} oznámí, že získá 10 milionů nových zákazníků, každý chce kousek, a cena vystřelí. Když ohlásí velkou ztrátu, lidé v panice prodávají a cena padá. Zprávy, výsledky a dokonce i trendy na sociálních sítích dokážou ceny akcií pohnout okamžitě!",
+      "quiz": {
+        "q": "{retail} oznámí rekordní zisky a plánuje otevřít 50 nových obchodů. Co se nejspíš stane s cenou jejích akcií?",
+        "explanation": "Lepší očekávané zisky obvykle znamenají víc kupujících a víc kupujících tlačí cenu nahoru. Utrácet peníze za růst není totéž co je vyhazovat.",
+        "options": [
+          "Vzroste, protože víc lidí chce kupovat",
+          "Zůstane úplně stejná",
+          "Spadne, protože utrácí peníze za obchody"
+        ]
+      }
+    },
+    "6": {
+      "title": "Jak číst cenový graf",
+      "desc": "Svíčky, čáry a co znamenají",
+      "content": "Cenový graf je jako sestřih nejlepších momentů z historie akcie. Nejoblíbenější typ je svíčkový graf. Každá „svíčka“ ti ukáže 4 věci za jeden den:\n\n🟢 Zelená svíčka = cena ten den šla NAHORU (otevřela níž, zavřela výš)\n🔴 Červená svíčka = cena šla DOLŮ (otevřela výš, zavřela níž)\n📏 Tenké čárky nad/pod = nejvyšší a nejnižší cena dne\n\nKdyž vidíš hodně zelených svíček za sebou, je to silný rostoucí trend. Hodně červených znamená klesající trend. Naučit se číst grafy je jako naučit se číst skóre ve hře! 🎮",
+      "quiz": {
+        "q": "Na grafu vidíš 5 červených svíček za sebou. Co ti to říká?",
+        "explanation": "Červená svíčka zavře níž, než otevřela, takže pět za sebou je pět obchodních seancí poklesu. Barva ti řekne směr, ne velikost pohybu.",
+        "options": [
+          "Akcie 5 dní rostla",
+          "Akcie 5 dní klesala",
+          "Cena akcie se nezměnila"
+        ]
+      }
+    },
+    "7": {
+      "title": "Objem a co ti říká",
+      "desc": "Kolik akcií se obchoduje",
+      "content": "Objem = kolik akcií se za den koupilo a prodalo. Ber to jako zhlédnutí videa na TikToku.\n\n🔊 VYSOKÝ objem = obchoduje hodně lidí. Když se cena pohne při vysokém objemu, je to silnější a spolehlivější signál, jako když se video stane virálním doopravdy, ne kvůli botům.\n\n🔇 NÍZKÝ objem = obchoduje jen pár lidí. Při nízkém objemu se ceny můžou hýbat divně, jako video se 3 zhlédnutími, které někdo omylem sdílel.\n\nKdyž uvidíš velký cenový pohyb, vždycky zkontroluj objem. Řekne ti, jestli je pohyb skutečný, nebo jen šum!",
+      "quiz": {
+        "q": "Akcie {telco} dnes vyskočí o 5 %, ale objem je velmi nízký. Co by sis měl myslet?",
+        "explanation": "Objem ukazuje, kolik přesvědčení za pohybem stojí. Velký skok při minimálním obchodování se může vrátit stejně snadno, jak přišel, takže než uvěříš průlomu, zkontroluj objem.",
+        "options": [
+          "Je to jasně obří příležitost, kupuj hned!",
+          "Nízký objem vždycky znamená, že cena poroste dál",
+          "Pohyb nemusí být spolehlivý, nízký objem je podezřelý"
+        ]
+      }
+    },
+    "8": {
+      "title": "Podpora a rezistence",
+      "desc": "Cenové úrovně, na kterých záleží",
+      "content": "Představ si, že cena akcie je skákací míček:\n\n🧱 PODPORA = podlaha, od které se míček odráží. Cena pořád klesá, ale pokaždé, když na tuhle úroveň narazí, odrazí se nahoru. Objeví se tu hodně kupujících.\n\n🪟 REZISTENCE = strop, do kterého míček narazí. Pokaždé, když cena vystoupá na tuhle úroveň, srazí ji to zpátky dolů. Hodně prodávajících tu vybírá zisk.\n\nObchodníci používají tyhle úrovně jako herní mapu: kupuj blízko podlahy, prodávej blízko stropu. Když cena konečně prorazí rezistenci, často rychle vystřelí. Když prorazí podporu, připrav se na pád! 💥\n\nJedno upřímné varování: tyhle úrovně kreslí lidé, kteří se dívají na grafy, nejsou to pravidla, která trh musí dodržovat. Akcie může „podporou“ prolétnout a padat dál. 📉",
+      "quiz": {
+        "q": "Akcie se třikrát odrazila od {c}50 a nikdy pod ni neklesla. Jak se {c}50 říká?",
+        "explanation": "Podlaha, kterou cena pořád respektuje, je podpora; strop, od kterého se cena pořád odráží, je rezistence. Ani jedno není slib, ale obojí stojí za to znát, než nakoupíš.",
+        "options": [
+          "Úroveň podpory",
+          "Úroveň rezistence",
+          "Stropní cena"
+        ]
+      }
+    },
+    "9": {
+      "title": "Diverzifikace",
+      "desc": "Nedávej všechna vejce do jednoho košíku",
+      "content": "Představ si, že VŠECHNA svoje data provalíš na jednu streamovací aplikaci. Pak ta aplikace spadne. Zůstaneš s ničím. 😩\n\nAle když data rozložíš mezi WhatsApp, YouTube A svou streamovací aplikaci, výpadek jedné ti celou náladu nezkazí.\n\nS investováním je to stejné! Když dáš VŠECHNY peníze do jedné akcie a ta spadne, přijdeš o všechno. Ale když je rozložíš mezi {telco} (telekomunikace), {retail} (maloobchod), {tech} (technologie) a ETF, pád jedné nezničí celé tvoje portfolio. Téhle strategii rozložení se říká DIVERZIFIKACE. 💼",
+      "quiz": {
+        "q": "Máš {c}500 na investování. Která z možností opravdu rozloží tvoje riziko?",
+        "explanation": "Pět obchodů s oblečením roste a padá kvůli stejné věci, takže peníze rozložené mezi ně jsou rozložené jen naoko. Různá odvětví mají potíže v různých chvílích, a právě to zabrání, aby jeden špatný výsledek vzal všechno.",
+        "options": [
+          "Po {c}100 do pěti různých obchodů s oblečením",
+          "Po {c}100 do pěti různých odvětví",
+          "Celých {c}500 do jedné firmy, která se ti líbí nejvíc"
+        ]
+      }
+    },
+    "10": {
+      "title": "Riziko a odměna",
+      "desc": "Proč větší zisky = větší riziko",
+      "content": "Kupoval sis někdy mystery box? Můžeš dostat něco úžasného, nebo totální šrot. To je vysoké riziko / vysoká odměna.\n\nInvestování funguje stejně:\n\n✅ NIŽŠÍ RIZIKO, NIŽŠÍ ODMĚNA: Třeba {retail}. Obří, zavedená firma. Tvoje peníze obvykle rostou pomalu a stabilně. Pozor, „nižší“, ne „žádné“. Velké firmy padají taky.\n\n🎲 VYSOKÉ RIZIKO, VYSOKÁ ODMĚNA: Třeba malá začínající těžařská firma. Může vyrůst 10×, nebo zmizet. Jako ten mystery box.\n\nNež do čehokoli investuješ, vždycky se zeptej: „Co nejhoršího se může stát?“ Když si nemůžeš dovolit o to přijít, neriskuj!",
+      "quiz": {
+        "q": "Mince, o které nikdo neslyšel, slibuje výnos 500 %. Co ti takhle velký slib doopravdy říká?",
+        "explanation": "Riziko a odměna jsou dva konce téže hole. Nikdo nerozdává 500 % jen tak, takže velikost slibu ve skutečnosti měří, jak snadno může zmizet celá částka. Než do čehokoli vložíš peníze, zeptej se, jak vypadá nejhorší případ a jestli bys s ním dokázal žít.",
+        "options": [
+          "Je to výhodná koupě, kterou zbytek trhu nějak přehlédl",
+          "Čím větší slib, tím serióznější lidé za ním stojí",
+          "Šance, že přijdeš o všechno, je stejně velká jako ten slib"
+        ]
+      }
+    },
+    "11": {
+      "title": "Dlouhodobě vs krátkodobě",
+      "desc": "Myšlení investora vs tradera",
+      "content": "🏃 KRÁTKODOBÉ OBCHODOVÁNÍ: Nakupování a prodávání během dnů nebo týdnů, abys chytil rychlé pohyby cen. Hodně stresu, hodně času u obrazovky. Jako snažit se tipnout vítěze každého zápasu turnaje.\n\n🧘 DLOUHODOBÉ INVESTOVÁNÍ: Koupíš akcie a držíš je roky. Propady přečkáš a necháš peníze růst. Jako vsadit na tým, který vyhraje celou sezónu. Po jednom špatném zápase nepanikaříš.\n\nStudie skutečných brokerských účtů pořád nacházejí stejný vzorec: čím častěji lidé obchodují, tím hůř po započtení nákladů obvykle dopadnou.\n\nA čas je jediná výhoda, kterou si později nekoupíš zpátky. Každý rok, kdy peníze zůstanou investované, je další rok, kdy pracuje složené úročení. ⏳",
+      "quiz": {
+        "q": "Dva lidé koupí stejné akcie za stejné peníze. Jeden každý týden nakupuje a prodává, druhý je deset let nechá být. Co studie skutečných účtů pořád zjišťují?",
+        "explanation": "Každý obchod něco stojí a ten náklad se strhne, ať obchod vyšel, nebo ne. Studie za studií skutečných brokerských účtů nachází stejný vzorec: čím častěji lidé obchodují, tím víc nakonec zaostávají. Nechat peníze být není lenost, je to levnější plán.",
+        "options": [
+          "Ten aktivní po započtení nákladů obvykle zaostane",
+          "Ten aktivní obvykle vyhraje, protože snaha se tu vyplácí",
+          "Skončí nastejno, protože drželi úplně stejné akcie"
+        ]
+      }
+    },
+    "12": {
+      "title": "{dcaTitle}",
+      "desc": "Investuj pravidelně stejnou částku",
+      "content": "Tady je strategie tak jednoduchá, že ani nepůsobí jako strategie, a smaže tu nejtěžší otázku v investování:\n\nInvestuj KAŽDÝ měsíc STEJNOU částku, ať ceny rostou, nebo klesají. Třeba si každý měsíc odlož {c}100 z peněz k narozeninám nebo z kapesného.\n\n📉 Když jsou ceny NÍZKO → za tvých {c}100 koupíš VÍC akcií\n📈 Když jsou ceny VYSOKO → za tvých {c}100 koupíš MÍŇ akcií\n\nČasem se tvoje průměrná cena za akcii vyrovná a ty automaticky „nakupuješ propady“, aniž by ses snažil! Tomuhle se říká: {dcaTitle} ({dcaAbbrev}). Odstraňuje z investování emoce, protože nikdy nemusíš řešit „je TEĎ ta správná chvíle?“ Prostě se zavážeš a jedeš! 💪\n\nNa rovinu: tohle nebude vždycky lepší než vložit celou částku najednou. Zato z toho vznikne plán, kterého se dokážeš opravdu držet.",
+      "quiz": {
+        "q": "Vložíš 200 NT, když akcie stojí 100 NT. Pak akcie spadne a tvých dalších 200 NT jde dovnitř za 25 NT. Posuň na svou průměrnou cenu za akcii z obou plateb.",
+        "explanation": "Za prvních 200 NT jsi koupil 2 akcie po 100 NT. Za druhých 200 NT jsi koupil 8 akcií po 25 NT. To je 400 NT za 10 akcií, tedy 40 NT za kus. Všimni si, že to není ani zdaleka v polovině mezi oběma cenami: stejné peníze automaticky koupí víc, když je něco levné, a právě to stáhne tvůj průměr dolů."
+      }
+    },
+    "13": {
+      "title": "Penízková miminka 💸",
+      "desc": "Peníze jen za to, že držíš akcie",
+      "content": "Představ si, že vlastníš automat na svačiny. Každý týden si lidé z TVÉHO automatu kupují svačiny a ty vybíráš peníze, jen protože ho vlastníš. Nemusel jsi dělat nic navíc!\n\nPřesně to jsou dividendy. Říkáme jim Penízková miminka 🍼, protože tvoje peníze doslova mají miminka: malé hotovostní platby, které ti přistanou na účtu jen proto, že vlastníš akcie.\n\nVelké firmy jako {divPayers} vyplácejí Penízková miminka pravidelně. Čím víc akcií držíš, tím větší miminka!\n\n⚠️ NEJSOU zaručená. Firma pokaždé rozhoduje, jestli zaplatí, a když se obchodu nedaří, může dividendu snížit nebo úplně zrušit. Velká výplata letos není slib výplaty příští rok.\n\nA když ta miminka znovu investuješ do DALŠÍCH akcií... další várka je ještě větší. Krásný koloběh 🔁",
+      "quiz": {
+        "q": "{bank} ti zaplatí {c}5 za každou akcii, kterou vlastníš, aniž bys cokoli prodal. Jak se té platbě říká?",
+        "explanation": "Dividenda je část zisku firmy předaná lidem, kteří ji vlastní. Tahle aplikace jim říká Penízková miminka. Všechny akcie ti zůstanou a peníze ti stejně přistanou na účtu. Zaručené to ale není a firma ji může snížit nebo zrušit, kdykoli se obchodu nedaří.",
+        "options": [
+          "Dividenda, kousek zisku",
+          "Úrok, jaký platí spořicí účet",
+          "Věrnostní bonus za to, že jsi zákazník"
+        ]
+      }
+    },
+    "14": {
+      "title": "Složené úročení",
+      "desc": "Jak tvoje peníze rostou samy",
+      "content": "Tohle je nejsilnější peněžní tajemství, jaké se kdy naučíš. Připraven? 👀\n\nInvestuješ {c}1,000 s výnosem 10 % ročně:\n• Rok 1: {c}1,000 → {c}1,100 (vyděláno {c}100)\n• Rok 2: {c}1,100 → {c}1,210 (vyděláno {c}110, víc než v roce 1!)\n• Rok 3: {c}1,210 → {c}1,331 (vyděláno {c}121)\n\nTeď vyděláváš úroky ze svých ÚROKŮ. Sněhová koule je každý rok větší, aniž bys cokoli přidával. Po 30 letech při 10 %? Z těch {c}1,000 je {c}17,449! 🤯\n\nUvidíš, že se tomu říká „osmý div světa“ a připisuje se to Einsteinovi. Neexistuje žádný skutečný důkaz, že to kdy řekl, ale důležitá je matematika, a ta je skutečná. Začni brzy a čas za tebe udělá tu těžkou práci.",
+      "quiz": {
+        "q": "Vložíš 2,000 NT s výnosem 10 % ročně a nikdy na ně nesáhneš. Posuň na hodnotu po třech letech.",
+        "explanation": "První rok přidá 200 NT, takže máš 2,200. Druhý rok se počítá 10 % z 2,200, přidá tedy 220 a máš 2,420. Třetí rok přidá 242 a skončíš na 2,662. Každý rok se 10 % počítá z větší hromádky, a proto třikrát přičíst 200 a skončit na 2,600 nestačí."
+      }
+    },
+    "15": {
+      "title": "Složené úročení a akcie",
+      "desc": "Reinvestování Penízkových miminek pro růst",
+      "content": "Pamatuješ si Penízková miminka (dividendy)? Teď to začne být zajímavé 🤯\n\nBěžně: Vyděláš {c}50 v Penízkových miminkách → utratíš je za svačiny → konec.\n\nChytrý tah: Vyděláš {c}50 v Penízkových miminkách → koupíš DALŠÍ akcie → příště dostaneš VÍC Penízkových miminek → koupíš ještě víc akcií → sněhová koule letí 🔝\n\nTohle je složené úročení použité na akcie. Spočítej si to: vkládej stejnou částku každý měsíc po 30 let při průměrném výnosu 10 % a skončíš zhruba s ŠESTINÁSOBKEM toho, co jsi skutečně vložil. Asi pět šestin té hromady je růst: peníze, které jsi nikdy nevydělal, neušetřil ani nevložil.\n\nZa dlouhá období tvořily reinvestované dividendy velkou část celkových výnosů investorů. Právě proto se „nudné“ firmy vyplácející dividendy ukážou jako vůbec ne nudné 💰",
+      "quiz": {
+        "q": "Vyděláš {c}80 na dividendách a do posledního drobného je použiješ na nákup dalších akcií, místo abys je utratil. Co se stane při další výplatě?",
+        "explanation": "Každá akcie, kterou jsi dokoupil, příště vyplatí vlastní dividendu, takže výplata roste, aniž bys přidal nové peníze. Zase je to složené úročení, tentokrát poháněné příjmem, ne cenou.",
+        "options": [
+          "Výplata bude stejně velká, jen přijde později",
+          "Příště dostaneš méně, protože jsi peníze vrátil",
+          "Vlastníš víc akcií, takže další výplata bude větší"
+        ]
+      }
+    },
+    "16": {
+      "title": "Pravidlo 72",
+      "desc": "Rychlý odhad doby zdvojnásobení",
+      "content": "Tady je cheat kód pro tvůj mozek 🧠\n\nChceš vědět, jak dlouho trvá ZDVOJNÁSOBIT peníze? Prostě vyděl 72 svým ročním výnosem:\n\n• 72 ÷ 12% výnos = 6 let do zdvojnásobení\n• 72 ÷ 8% výnos = 9 let do zdvojnásobení\n• 72 ÷ 6% výnos = 12 let do zdvojnásobení\n\nKdyž tedy vyděláváš stabilních 12 % ročně z {c}2,000, za 6 let máš {c}4,000. Počkej dalších 6 let a máš {c}8,000. Dalších 6 a máš {c}16,000! 🤯\n\nJe to přibližný odhad, ne zákon, a skutečné výnosy nikdy nejsou každý rok stejné číslo. Ale je to dost přesné na to, abys to spočítal z hlavy, a o to přesně jde.\n\nProto je začít ve 13 nebo 14 OBROVSKÁ věc. Máš před sebou víc cyklů zdvojnásobení než skoro kdokoli jiný!",
+      "quiz": {
+        "q": "Investice vydělává 9 % ročně. Pomocí pravidla 72 posuň na počet let, za který se zdvojnásobí.",
+        "explanation": "Vyděl 72 ročním procentem. 72 děleno 9 je 8, takže se peníze zhruba za osm let zdvojnásobí a za dalších osm let znovu. Je to rychlý odhad z hlavy, ne přesný zákon, protože skutečné výnosy nejsou nikdy každý rok stejné číslo."
+      }
+    },
+    "17": {
+      "title": "Tržní vs limitní příkaz",
+      "desc": "Dva způsoby, jak koupit akcie",
+      "content": "Akcii můžeš koupit dvěma hlavními způsoby:\n\n⚡ TRŽNÍ PŘÍKAZ: „Kup hned, za jakoukoli aktuální cenu.“ Jako přidat do košíku a hned zaplatit na {shop}. Dostaneš to okamžitě, ale cena, kterou skutečně zaplatíš, je taková, jakou ti dá trh, a může se lišit od čísla, které jsi právě viděl na obrazovce.\n\n🎯 LIMITNÍ PŘÍKAZ: „Kup, jen když cena klesne na {c}X.“ Jako dát si věc na {shop} do seznamu přání a čekat na slevu. Cenu máš pod kontrolou, ale obchod se nemusí uskutečnit vůbec.\n\nLimitní příkazy ti dávají kontrolu nad cenou. Tržní příkazy ti dávají jistotu, že se provedou. Obojí mít nemůžeš! 💸\n\nLimitní příkaz funguje stejně i při PRODEJI, jen opačným směrem. Akcii vlastníš, určíš cenu, za kterou bys ji rád prodal, a když na ni vystoupá, aplikace ji prodá za tebe. Při nákupu zadáváš cenu POD aktuální úrovní. Při prodeji zadáváš cenu NAD ní. Stejný princip, opačná strana. 🔁",
+      "quiz": {
+        "q": "{tech} se obchoduje za {c}200. Rád bys ji vlastnil, ale jen za {c}180 nebo méně. Co použiješ?",
+        "explanation": "Tržní příkaz se provede hned, za jakoukoli aktuální cenu. Limitní příkaz určí tvou cenu a čeká, takže hlídání dělá aplikace místo tebe. Když ti víc záleží na ceně, kterou přijmeš, než na rychlém vstupu, chceš právě tenhle.",
+        "options": [
+          "Tržní nákup, který se provede hned za {c}200",
+          "Limitní nákup nastavený na {c}180, který čeká",
+          "Sledovat obrazovku a koupit ručně za {c}180"
+        ]
+      }
+    },
+    "18": {
+      "title": "Poplatky a náklady obchodování",
+      "desc": "Jak fungují poplatky za obchody",
+      "content": "Většina obchodů tě trochu stojí: broker si vezme malý díl. Říká se jim poplatky za obchody nebo brokerské poplatky.\n\n⚠️ Někteří brokeři inzerují „nulovou provizi“. Nějak ale vydělávat musí, takže vydělávají jinde, obvykle na malém rozdílu mezi nákupní a prodejní cenou, na převodu měn nebo na úrocích z hotovosti, která ti leží na účtu. Zadarmo je málokdy zadarmo.\n\nSimulované poplatky v aplikaci NoobTrader:\n• Akcie na {ex}: {exFee} za obchod\n• Globální akcie: 0.50%\n• ETF: 0.30%\n• Krypto: 0.60%\n• Forex: 0.05%\n• Komodity: 0.40%\n\nPříklad: Koupíš akcie {retail} za {c}1,000 s poplatkem {exFee}. Poplatek je {c}{feeAmt}, takže ve skutečnosti utratíš {c}{feeTotal}.\n\nMalé poplatky se sčítají RYCHLE, když obchoduješ často. Kdo udělá 20 obchodů měsíčně, zaplatí poplatek 20krát, a znovu při prodeji. To je jeden z důvodů, proč dlouhodobí investoři obchodují méně: méně obchodů, méně poplatků 🧮",
+      "quiz": {
+        "q": "Koupíš akcie na {ex} za {c}1,000 s poplatkem {exFee}. Kolik je poplatek?",
+        "explanation": "Poplatek je procento z obchodované částky, takže roste s velikostí příkazu. Spočítej si ho dřív, než obchoduješ, protože se účtuje znovu i při prodeji.",
+        "options": [
+          "{c}{feeAmtX10}",
+          "{c}{feeAmtLow}",
+          "{c}{feeAmt}"
+        ]
+      }
+    },
+    "19": {
+      "title": "Příkazy stop-loss",
+      "desc": "Chraň se před velkými ztrátami",
+      "content": "Stop-loss je jako stanovit si limit, kolik jsi ochotný ztratit: záchranná síť, kterou si nastavíš předem.\n\nPříklad: Koupíš akcie {telco} po {c}100. Rozhodneš se, že NIKDY nechceš ztratit víc než 15 %. Nastavíš si tedy stop-loss na {c}85.\n\nKdyž {telco} klesne na {c}85 → automaticky se spustí prodejní příkaz. Nemusíš to sledovat a nemusíš se rozhodovat v panice.\n\nTady lidé chybují. Číslo stop-lossu je VŽDYCKY pod dnešní cenou. Musí být, protože cena k němu musí klesnout. Dej ho nad dnešní cenu a podmínka už platí, takže prodá v tu vteřinu, kdy ho nastavíš, za dnešní cenu. To je prodej, ne záchranná síť.\n\nNepleť si ho s limitním prodejem. Oba prodávají automaticky za cenu, kterou sis vybral. Rozdíl je ve směru: stop-loss se spustí, když cena KLESNE na tvé číslo, limitní prodej, když na tvé číslo VZROSTE. Chráníš se → tvé číslo jde pod. Určuješ si cenu → tvé číslo jde nad. Než něco napíšeš, zeptej se, co z toho děláš. 🧭\n\n⚠️ Důležité: stop-loss spustí PRODEJ, nezaručí CENU. Když přes noc přijde špatná zpráva a akcie otevře na {c}70, aniž by se kdy obchodovala za {c}85, tvůj příkaz se provede za tolik, kolik trh skutečně zaplatí. To může být hluboko pod úrovní, kterou jsi nastavil.\n\nBez jakéhokoli stop-lossu bys ji možná držel v naději, že se vzpamatuje... a díval se, jak spadne na {c}20. 😬\n\nProfi tip: O své maximální ztrátě vždycky rozhodni DŘÍV, než koupíš. Nenech o tom rozhodovat emoce, když cena už padá! 🧘",
+      "quiz": {
+        "q": "Koupíš za 200 NT a rozhodneš se, že na tom nechceš ztratit víc než 15 %. Posuň na cenu, kam patří tvůj stop-loss.",
+        "explanation": "15 % z 200 NT je 30 NT, takže tvůj výstup leží 30 pod nákupní cenou, na 170 NT. Stop-loss patří pod dnešní cenu, protože cena k němu musí klesnout. Dej ho nad a podmínka už platí, takže prodá v okamžiku, kdy ho nastavíš, a to je prodej, ne záchranná síť."
+      }
+    },
+    "20": {
+      "title": "Kdy koupit a prodat",
+      "desc": "Načasování, trpělivost a disciplína",
+      "content": "Největší chyba nových investorů? Kupovat, když jsou všichni nadšení, a prodávat, když všichni panikaří. To je doslova opak toho, co funguje. 🤦\n\n📱 Když ti skupinový chat spamuje „KUP TUHLE AKCII HNED!!!!“ → hype už je obvykle v ceně. Jdeš pozdě.\n\n😱 Když všichni v panice prodávají → někdy je to vlastně šance koupit se slevou. Někdy cena padá ještě další rok. Nikdo na dně nezazvoní.\n\nTajemství? Měj plán DŘÍV, než investuješ:\n• Proč tohle kupuju? (průzkum, ne hype)\n• Za jakou cenu prodám, když to půjde NAHORU? (vybrání zisku)\n• Za jakou cenu prodám, když to půjde DOLŮ? (stop-loss)\n\nDrž se svého plánu. Nenech pocity převzít tvou strategii! 💪",
+      "quiz": {
+        "q": "Celý tvůj skupinový chat hypuje akcii, která je tento měsíc už o 80 % nahoře. Jaký je chytrý tah?",
+        "explanation": "Než se akcie dostane do každého skupinového chatu, většina pohybu už proběhla a ti, kdo přicházejí pozdě, kupují od těch, kdo vybírají zisk. Prověř si firmu sám. Hlasitý dav není totéž co dav, který má pravdu.",
+        "options": [
+          "Koupit hned, než ti cena uteče",
+          "Prodat ostatní akcie a dát všechno sem",
+          "Prověřit si firmu sám, než se rozhodneš"
+        ]
+      }
+    },
+    "21": {
+      "title": "Co je tržní kapitalizace?",
+      "desc": "Jak měřit velikost firmy",
+      "content": "Tržní kapitalizace ti řekne, jak velká firma doopravdy je, vyjádřeno v penězích: kolik {cPlural} stojí celá.\n\n📐 Vzorec: Cena akcie × Celkový počet akcií = Tržní kapitalizace\n\nPříklad: Když má {retail} 1 miliardu akcií a každá stojí {c}50, tržní kapitalizace je {c}50 MILIARD. To je „cenovka“ celé firmy.\n\n🔵 Large cap (velké firmy): ta největší, nejzavedenější jména, jako {tech} a {bank}. Nižší riziko, obvykle pomalejší růst.\n🟡 Mid cap (střední firmy): středně velké firmy. Vyvážené riziko.\n🔴 Small cap (malé firmy): drobné firmy. Můžou rychle růst, NEBO tvrdě spadnout.\n\n⚠️ Hranice nejsou univerzální. V USA „large cap“ obvykle znamená něco nad $10 miliard, ale každý trh si stanoví vlastní pásma, takže large cap v zemi {name} není stejně velká firma jako large cap v USA. Čti skutečné číslo, ne jen nálepku 🧐",
+      "quiz": {
+        "q": "Firma A má 5 milionů akcií po {c}200. Akcie firmy B stojí {c}10. Posuň na počet milionů akcií, které B potřebuje, aby měla stejnou hodnotu jako A.",
+        "explanation": "Tržní kapitalizace je cena akcie krát počet akcií. Firma A má hodnotu 5 milionů krát {c}200, tedy {c}1,000 milionů. Firma B musí dosáhnout stejného součtu při {c}10 za akcii, takže potřebuje 100 milionů akcií, dvacetkrát víc. Nízká cena akcie ti o velikosti firmy neřekne vůbec nic."
+      }
+    },
+    "22": {
+      "title": "Ukazatel P/E vysvětlený",
+      "desc": "Je akcie drahá, nebo levná?",
+      "content": "Ukazatel P/E (cena k zisku, Price-to-Earnings) ti řekne, kolik platíš za každou jednotku zisku firmy (třeba za 1 {cName} zisku).\n\n📐 Vzorec: Cena akcie ÷ Zisk na akcii = P/E\n\nBer to jako cenu za kousek pizzy 🍕\n\nKdyž pizza A stojí {c}80 za 8 kousků = {c}10/kousek\nKdyž pizza B stojí {c}100 za 5 kousků = {c}20/kousek\n\nPizza A je levnější za kousek. U akcií je to podobné:\n• Nízké P/E (pod 10) = možná výhodná koupě, NEBO trh čeká, že zisky KLESNOU. Nízké P/E je otázka, ne odpověď.\n• Vysoké P/E (nad 25) = trh čeká velký budoucí růst. Firma ho pak musí skutečně dodat.\n\nVždycky porovnávej P/E s JINÝMI firmami ze stejného odvětví. Neporovnávej P/E banky s technologickou firmou!",
+      "quiz": {
+        "q": "Firma A má P/E 8. Firma B (stejné odvětví) má P/E 30. Co to naznačuje?",
+        "explanation": "Nižší P/E znamená, že za každou jednotku zisku platíš méně, což může znamenat výhodnou koupi, nebo firmu v potížích. Ukazatel otázku položí; neodpoví na ni.",
+        "options": [
+          "Firma A je levnější za jednotku zisku, ale než koupíš, zjisti PROČ",
+          "Firma B je z těch dvou vždycky lepší investice",
+          "Ukazatel P/E při investičních rozhodnutích vůbec nepomáhá"
+        ]
+      }
+    },
+    "23": {
+      "title": "Jak číst výsledky firmy",
+      "desc": "Tržby, zisk a na čem záleží",
+      "content": "Každých pár měsíců firmy zveřejňují své „vysvědčení“ (na některých trzích každé čtvrtletí, jinde dvakrát ročně) a to hýbe cenami akcií HODNĚ. Na tohle se dívej:\n\n📊 TRŽBY: Všechny peníze, které přijdou z prodeje. Jako kolik celkem utržil malý obchod.\n💰 ČISTÝ ZISK: Co zbude PO zaplacení všech výdajů. Skutečný výdělek na konci dne.\n📈 EPS (zisk na akcii): Zisk vydělený počtem akcií. Kolik vydělala každá akcie.\n\nDobré znamení: Tržby NAHORU + Zisk NAHORU + rostoucí EPS = 🟢 cena často roste\nŠpatné znamení: Tržby DOLŮ + klesající zisk = 🔴 cena často padá\n\nJeden háček: cenou doopravdy hýbe výsledek ve srovnání s tím, co trh OČEKÁVAL. Skvělá čísla, která přišla pod očekáváním, můžou akcii pořád poslat dolů.\n\nFirma může mít obří tržby a nulový zisk (vysoké náklady). Vždycky kontroluj OBOJÍ!",
+      "quiz": {
+        "q": "{bank} hlásí tržby vyšší o 15 %, ale zisk nižší o 20 % kvůli vyšším nákladům. Je to dobré, nebo špatné znamení?",
+        "explanation": "Tržby jsou to, co přišlo, zisk je to, co zůstalo. Náklady tu rostou rychleji než prodeje, takže firma dělá víc obchodů a nechává si z nich méně. To je skutečné varování, ale ne kolaps, a dál je potřeba zjistit, proč náklady vzrostly.",
+        "options": [
+          "Znepokojivé, protože prodávají víc, ale nechají si z toho méně",
+          "Silné, protože rostoucí tržby jsou to, na čem doopravdy záleží",
+          "Hrozné, protože klesající zisk znamená, že firma krachuje"
+        ]
+      }
+    },
+    "24": {
+      "title": "Sektory a odvětví",
+      "desc": "Různé typy firem",
+      "content": "Akciový trh je rozdělený do sektorů, jako různé předmětové sekce ve škole.\n\n{sectorList}\n\nRůzné sektory rostou a padají v různých chvílích, a právě proto se mezi ně diverzifikuje! Když se zhroutí bankovnictví, technologie možná zrovna vzkvétají. Tvoje portfolio zůstane vyvážené. 🎯",
+      "quiz": {
+        "q": "Úrokové sazby (země: {name}) prudce vzrostou. Kterému sektoru to obvykle nejvíc prospěje?",
+        "explanation": "Banky vydělávají na rozdílu mezi tím, co účtují dlužníkům, a tím, co platí střadatelům, a rostoucí sazby ho obvykle zvětšují. Pro většinu ostatních sektorů je dražší půjčování náklad.",
+        "options": [
+          "Maloobchod: zákazníci si půjčují volněji a navíc utrácejí v obchodech",
+          "Bankovnictví: banky obvykle vydělají na větším rozdílu mezi úroky od dlužníků a pro střadatele",
+          "Technologie: půjčky na rozvoj zlevní, takže softwarové firmy rostou rychleji"
+        ]
+      }
+    },
+    "25": {
+      "title": "Co je ETF?",
+      "desc": "Kup celý koš najednou",
+      "content": "Dřív se playlist dal poskládat jen tak, že sis vybíral písničky jednu po druhé. Pak přišel Spotify a dal ti hotové playlisty, okamžitou sbírku bez námahy. 🎵\n\nETF (burzovně obchodované fondy) jsou Spotify investování. Místo vybírání akcií jednu po druhé koupíš JEDNO ETF, které drží celý jejich koš.\n\nVětšina ETF sleduje INDEX: zveřejněný seznam firem sestavený podle pravidel. {etfDesc} ETF prostě koupí to, co je na seznamu, ve stejném poměru, a když se seznam změní, samo se upraví.\n\nJedno ETF {etf} ti tak jediným nákupem dá malý kousek z: {etfBasket} (jména jako {top5}).\n\n⚠️ Index NENÍ automaticky „ty největší firmy“. Některé seznamy řadí podle velikosti, některé podle toho, jak moc se akcie obchoduje, a některé vybírá komise. Dva indexy na stejné burze můžou obsahovat úplně jiné firmy. Než si ho koupíš, vždycky si přečti, co ten seznam doopravdy je.\n\nETF bývají levnější, jednodušší a líp diverzifikovaná než vlastní vybírání akcií. Spousta profesionálních správců fondů je nedokáže porazit! 🤯",
+      "quiz": {
+        "q": "Koupíš jeden podíl ETF {etf}, které sleduje: {etfBasket}. Co teď vlastníš?",
+        "explanation": "Index je zveřejněný seznam a indexové ETF koupí všechno, co na něm je, ve stejném poměru. Jeden podíl tedy drží drobný kousek každého jména na seznamu, a proto je už jediný nákup rozložený. Není to jen největší jméno a nejsou to peníze, které čekají na tvoje pokyny.",
+        "options": [
+          "Jednu akcii největší firmy na tom seznamu",
+          "Malý kousek každé jednotlivé firmy na tom seznamu",
+          "Hotovost, kterou fond drží, dokud mu neřekneš, co koupit"
+        ]
+      }
+    },
+    "26": {
+      "title": "ETF na {ex}",
+      "desc": "Oblíbená ETF, která bys měl znát",
+      "content": "ETF a indexových fondů, které můžeš koupit (země: {name}), je spousta. Tady jsou některé z nejoblíbenějších:\n\n{etfList}\n\nObrovská výhoda ETF: POPLATKY. Mnoho aktivně řízených fondů si účtuje zhruba 1–2 % ročně, někdy i víc. Široká indexová ETF často méně než 0.2%. U investice {c}10,000 držené 20 let má ten rozdíl hodnotu TISÍCŮ {cPlural} 💸\n\nNež koupíš, zkontroluj poplatek. Obvykle je označený „TER“ nebo „nákladovost“ (expense ratio). Nikdo ti neřekne, jaký výnos ETF bude mít, ale poplatek je jedno číslo, které předem znát MŮŽEŠ.",
+      "quiz": {
+        "q": "Investuješ 20,000 NT. Aktivně řízený fond si účtuje 2 % ročně. Indexové ETF s velmi podobnými firmami si účtuje 0.2%. Posuň na částku, kterou ti ten dražší vezme navíc za jediný rok.",
+        "explanation": "Rozdíl mezi oběma poplatky je 1.8% ročně a 1.8% z 20,000 NT je 360 NT. To se strhne, ať fond roste, nebo padá, a strhne se znovu každý rok. Nikdo ti neřekne, jaký výnos fond bude mít, ale poplatek je napsaný dřív, než koupíš, obvykle jako TER nebo nákladovost."
+      }
+    },
+    "27": {
+      "title": "Globální vs domácí ETF",
+      "desc": "Investování doma i za hranicemi",
+      "content": "Měl bys investovat jen do firem ze země {name}? Krátká odpověď: Ne! Tady je proč:\n\n🏠 DOMÁCÍ ETF: Investují do firem ze země {name}. Značky znáš a ceny vidíš rovnou v domácí měně (kolik {cPlural} to stojí, tolik platíš). Ale když se domácí ekonomice (země: {name}) nedaří, může spadnout celé tvoje portfolio.\n\n🌍 GLOBÁLNÍ ETF: Investují do zahraničních firem (USA, Evropa, Asie). {currencyHedge}\n\nMěna ale funguje oběma směry: když tvoje domácí měna POSÍLÍ, stejné zahraniční investice mají doma menší hodnotu. To je obchod, který přijímáš, když vlastníš věci v zahraničí.\n\nKdyž držíš domácí i globální, rozložíš se mezi dvě různá rizika najednou: vlastní ekonomiku a vlastní měnu. Rovnováha je všechno! ⚖️",
+      "quiz": {
+        "q": "{fxQuizSetup}. Zahraniční akcie ve tvém globálním ETF se vůbec nepohnuly. Jakou má teď hodnotu po přepočtu na domácí měnu ({cName})?",
+        "explanation": "Globální ETF drží věci oceněné v jiné měně. Když tvoje vlastní měna oslabí, ty zahraniční peníze se přepočtou na víc tvých peněz, takže investice má doma vyšší hodnotu, i když akcie stály na místě. Funguje to i obráceně: silnější domácí měna stejnou investici potichu zmenší. Měnové riziko funguje oběma směry.",
+        "options": [
+          "Vyšší, protože peníze, které drží v zahraničí, se teď doma přepočtou na víc",
+          "Nižší, protože špatná zpráva o měně musí být špatná i pro tvoje peníze",
+          "Stejnou, protože akcie v něm se nepohnuly ani o kousek"
+        ]
+      }
+    },
+    "28": {
+      "title": "Spoření vs investování",
+      "desc": "Proč tvoje peníze musí pracovat",
+      "content": "Obojí je dobré. Ale slouží k různým účelům:\n\n🏦 SPOŘENÍ: Dáš peníze na bankovní účet. Jsou v bezpečí a můžeš k nim kdykoli. ALE úrokové sazby jsou obvykle {savings}, často méně než inflace. Tvoje peníze jsou „v bezpečí“, ale pomalu ztrácejí kupní sílu.\n\n📈 INVESTOVÁNÍ: Dáš peníze do akcií, ETF nebo nemovitostí. Větší riziko a žádná záruka v kterémkoli roce. Některé roky prostě o peníze přijdeš. Za dlouhá období ale akcie historicky vynesly víc než hotovost. Trh (země: {name}) v minulosti vynášel v průměru zhruba {mktReturn} ročně, a minulé průměry jsou historie, ne slib.\n\nZlaté pravidlo:\n• 3–6 měsíců výdajů na spořicím účtu (tvoje nouzová rezerva) 🚨\n• Investují se peníze, které nebudeš roky potřebovat 🚀\n\nNeinvestuj peníze, které můžeš potřebovat příští měsíc. Na to je spoření!",
+      "quiz": {
+        "q": "Tvoje výdaje jsou 800 NT měsíčně a máš našetřeno 5,000 NT. Posuň na nejmenší nouzovou rezervu, kterou by obvyklé pravidlo nechalo v hotovosti.",
+        "explanation": "Obvyklé pravidlo je držet v hotovosti tři až šest měsíců výdajů. Tři měsíce při 800 NT jsou 2,400 NT a šest měsíců by bylo 4,800 NT, takže cokoli v tomhle rozmezí je normální. Důvod držet ji v hotovosti je jednoduchý: když se nečekaně něco pokazí, nechceš být nucený prodat investice v den, kdy se to zrovna stane."
+      }
+    },
+    "29": {
+      "title": "Inflace a tvoje peníze",
+      "desc": "Proč hotovost časem ztrácí hodnotu",
+      "content": "Zeptej se dospělého, jaká byla cena za {food}, když byl v tvém věku. Bylo to zhruba {c}{foodOld}. Teď je to {c}{foodNew}+. To je inflace: ceny časem pomalu rostou, takže každá jednotka měny ({cName}) koupí MÉNĚ než dřív.\n\nInflace (země: {name}) se obvykle pohybovala kolem {inflation} ročně.\n\nKdyž ti tedy úspory vydělávají 4 % ročně, ale inflace je 6 %, ve skutečnosti každý rok PŘICHÁZÍŠ asi o 2 % kupní síly, i když se tvůj zůstatek zvýšil!\n\n💡 Tvoje investice musí porazit inflaci, aby tvoje bohatství opravdu rostlo.\n• Hotovost pod matrací: každý rok ztrácí hodnotu 💀\n• Bankovní spoření: často sotva drží krok\n• Akcie na {ex} (dlouhodobý průměr): {mktReturn} ročně, což je minulý průměr, ne slib 🔥\n\nInvestování není jen o zbohatnutí. Je o tom nezchudnout! 💸",
+      "quiz": {
+        "q": "Tvůj spořicí účet platí 4 % ročně. Ceny rostou o 6 % ročně. Posuň na to, co se za ten rok doopravdy děje s tvou kupní silou.",
+        "explanation": "Reálný výnos je úrok, který vyděláš, minus inflace, kterou platíš, takže 4 % proti 6 % vychází zhruba na minus 2 %. Číslo na účtu roste, zatímco to, co za něj skutečně koupíš, klesá, a to je ten tichý trik, který inflace hraje na úspory. Aby vznikalo skutečné bohatství, peníze musí inflaci porazit, ne jen něco vydělat."
+      }
+    },
+    "30": {
+      "title": "Emoce a investování",
+      "desc": "Žádné panické prodeje ani FOMO nákupy",
+      "content": "Akciový trh je v podstatě test ovládání emocí. Většina lidí v něm neobstojí. 🎭\n\n😱 PANICKÝ PRODEJ: Trh spadne o 20 %, vyšilíš a prodáš všechno. Pak se vzpamatuje. Ztrátu sis zafixoval úplně zbytečně.\n\n🤑 FOMO NÁKUP: Všichni na sociálních sítích hypují nějakou minci. Naskočíš. Cena hned spadne. Zůstal jsi s tím v rukou ty.\n\nNejlepší investoři berou krach trhu jako výprodej v {retail}. Klidně dál nakupují, místo aby panikařili. Warren Buffett to řekl takhle: „Buď opatrný, když jsou ostatní chamtiví, a chamtivý, když se ostatní bojí.“\n\nPostav si plán. Drž se ho. Tvoje budoucí já ti poděkuje, že jsi v červený den v afektu neprodal! 🙏",
+      "quiz": {
+        "q": "Trh za jeden týden spadne o 15 % a tvůj skupinový chat prodává všechno. Tvoje peníze jsou investované na dalších deset let. Jaký je tah?",
+        "explanation": "Pokles o 15 % se stane skutečnou ztrátou až v den, kdy do něj prodáš. Plán, který jsi napsal, když se nic nedělo, psala tvoje verze s chladnou hlavou, a držet se ho je celé to umění. Čekat se zpětným nákupem, až to bude vypadat klidně, znamená koupit dráž, protože klid přichází až po zotavení, ne před ním.",
+        "options": [
+          "Prodat hned a koupit zpátky, až to bude vypadat klidněji",
+          "Přesunout peníze do toho, co kupuje chat",
+          "Pokračovat podle plánu, který sis v klidu sepsal"
+        ]
+      }
+    },
+    "31": {
+      "title": "Finální boss",
+      "desc": "Složené úročení, 8. div světa",
+      "content": "„Osmý div světa: kdo mu rozumí, vydělává na něm; kdo ne, platí ho.“ Tenhle citát uvidíš na internetu všude připisovaný Einsteinovi. Neexistuje žádný skutečný důkaz, že to řekl.\n\nMatematika je ale nepopiratelná. Tady je to nejdůležitější, co se o penězích naučíš:\n\nKdo začne ve 20 a investuje {c}500 měsíčně s výnosem 12 % ročně, bude mít v 65 VÍC než ten, kdo začne ve 35 a investuje {c}2,000 měsíčně se stejným výnosem. Čtyřnásobek měsíční částky, a stejně skončí za ním.\n\nČas. Je. Všechno.\n\nTo není trik s čísly, to je celá podstata složeného úročení: každý rok čekání stojí víc, než kolik dokáže dohnat jakýkoli rok přidaný později. Nejlepší chvíle začít byla dřív. Druhá nejlepší je teď.\n\nTenhle kvíz je tvůj finální test. Zvládni ho a jsi oficiálně certifikovaný NoobTrader! 👑",
+      "bossVictory": "Složené úročení odemčeno. Teď jsi nebezpečný. 🔥",
+      "quiz": {
+        "q": "{c}1,000 investovaných s výnosem 12 % ročně na 10 let vyroste na ~{c}3,106. Co se stane, když dobu ZDVOJNÁSOBÍŠ na 20 let?",
+        "explanation": "Zdvojnásobení doby udělá mnohem víc než zdvojnásobení výsledku, protože růst každého roku se skládá na všem, co bylo předtím. Růst se zrychluje, ne zpomaluje.",
+        "options": [
+          "Víc než ztrojnásobí se na ~{c}9,646",
+          "Zhruba se zdvojnásobí na ~{c}6,200",
+          "Čím déle čekáš, tím víc výnos zpomaluje"
+        ]
+      }
+    },
+    "32": {
+      "title": "Kryptoplatformy a peněženky",
+      "desc": "Kde krypto doopravdy žije",
+      "content": "Nejdřív upřímně: skutečné kryptoplatformy skoro ve všech zemích vyžadují věk 18+. Proto si v aplikaci NoobTrader můžeš celou věc nejdřív vyzkoušet s virtuálními penězi. 🎮\n\nKdyž dospělí kupují krypto, používají dva druhy míst:\n\n🏦 BURZY A BROKERSKÉ APLIKACE (custodial, správa třetí stranou): založíš si účet a oni drží krypto za tebe. Snadné, ale musíš jim věřit. Když je hacknou nebo zkrachují, tvoje krypto může zmizet. Stalo se to i některým z největších jmen v kryptu.\n\n🔑 PENĚŽENKY S VLASTNÍ ÚSCHOVOU (self-custody): aplikace, kde tajné klíče držíš TY. Nikdo ji nemůže zmrazit, ale nikdo ti ani nepomůže. Ztratíš seed frázi (12 až 24 tajných slov) a krypto je navždy pryč. Žádný reset hesla. Žádná zákaznická podpora. Pryč.\n\nKryptoví lidé říkají: „Not your keys, not your coins“ (nejsou tvoje klíče, nejsou tvoje mince). Teď víš, co to znamená.",
+      "quiz": {
+        "q": "Co znamená, když burza drží tvoje krypto „custodial“, tedy ve správě?",
+        "explanation": "Custodial znamená, že klíče drží platforma, takže tvoje mince jsou vždycky jen tak bezpečné, jak bezpečná je platforma. Když ji hacknou nebo zkrachuje, můžou zmizet s ní. Právě to znamená „nejsou tvoje klíče, nejsou tvoje mince“.",
+        "options": [
+          "Klíče drží burza za tebe",
+          "Klíče držíš ty a nikdo jiný nemůže",
+          "Na mince nemůže nikdo sáhnout, ani ty",
+          "Automaticky vydělává úroky"
+        ]
+      }
+    },
+    "33": {
+      "title": "Jak funguje nákup krypta",
+      "desc": "Spready, poplatky a trh nonstop",
+      "content": "Nákup krypta vypadá jako nákup čehokoli online, ale tři věci jsou jinak:\n\n1️⃣ SPREAD: nákupní cena je vždycky o něco vyšší než prodejní. Kup krypto za {c}100, hned ho prodej a dostaneš zpátky třeba {c}97. Na tomhle rozdílu platformy potichu vydělávají.\n\n2️⃣ POPLATKY NAVÍC: většina platforem si účtuje i poplatek za obchod, u malých nákupů často 1 až 2 %. Poplatky plus spread znamenají, že malý nákup začíná zhruba 3 až 5 % v minusu, ještě než se cena vůbec pohne.\n\n3️⃣ ŽÁDNÝ KONEC OBCHODOVÁNÍ: akciové burzy jsou v noci a o víkendech zavřené. Krypto se obchoduje 24/7, každý den v roce. Ceny můžou spadnout, zatímco spíš. To je jeden z důvodů, proč je krypto o tolik volatilnější než akcie.\n\nV aplikaci NoobTrader můžeš obchodovat krypto s virtuálními penězi, 24/7, a nepřijdeš ani o drobák. Za každý obchod platíš poplatek, ale NoobTrader si neúčtuje spread, takže skutečný nákup stojí víc než stejný obchod tady. 📊",
+      "quiz": {
+        "q": "Vložíš 200 NT do mince a prodáš ji o pět vteřin později, než se cena vůbec pohne. Rozdíl mezi nákupní a prodejní cenou stojí 3 % a platforma si účtuje poplatek 1 % za každý obchod. Posuň na částku, která se ti vrátí.",
+        "explanation": "Spread vezme 3 %, pak přijde poplatek 1 % při vstupu a další při výstupu. To je 5 % z tvých 200 NT, takže 10 NT je pryč, ještě než cena cokoli udělá. Dostaneš zpátky 190 NT a mince teď musí vzrůst o 5 %, jen abys byl na nule."
+      }
+    },
+    "34": {
+      "title": "Poplatky za gas vysvětlené",
+      "desc": "Proč posílání krypta stojí peníze",
+      "content": "Posílání krypta není zadarmo. Každá transakce platí síťový poplatek, často nazývaný GAS, počítačům, které síť zpracovávají a zabezpečují.\n\nTady je to, co překvapí každého: gas se počítá podle provozu v síti, NE podle toho, kolik posíláš. Když je síť vytížená, poplatky vyletí.\n\n🤯 Na některých sítích může v rušných chvílích poslání krypta za {c}10 stát na gasu VÍC než {c}10. Za doručení bys zaplatil víc, než má balík hodnotu.\n\nNovější sítě a systémy „layer 2“ existují hlavně proto, aby to zlevnily, s poplatky v řádu centů. Kdo s kryptem pracuje, zkontroluje poplatek DŘÍV, než klikne na odeslat.\n\nJeště jedna věc: kryptopřevody nejdou vrátit. Špatná adresa plus zaplacený gas rovná se peníze pryč, natrvalo. Žádná banka, které bys zavolal. ☎️❌",
+      "quiz": {
+        "q": "Poplatky za gas jsou dnes vysoké. Chceš poslat krypto za {c}15 a gas stojí {c}20. Jak to chytře vyhodnotíš?",
+        "explanation": "Gas se počítá podle toho, jak vytížená je síť, ne podle toho, kolik posíláš, takže malý převod může stát víc, než má hodnotu. Rozdělení taky nepomůže, protože každý převod platí vlastní poplatek. Počkej na klidnější dobu nebo použij levnější síť.",
+        "options": [
+          "Zaplatit, protože poplatek se po doručení vrátí",
+          "Vynechat to, poplatek stojí víc než balík",
+          "Rozdělit to na dvě, ať každá půlka platí půl poplatku",
+          "Poplatek ignorovat, gas se týká jen velkých převodů"
+        ]
+      }
+    },
+    "35": {
+      "title": "Meme coiny a rug pully",
+      "desc": "Odhal pasti dřív, než odhalí ony tebe",
+      "content": "Meme coiny jsou kryptoměny postavené na vtipech a hypu místo na jakémkoli skutečném využití. Pár z nich udělalo z prvních kupců boháče, a právě proto existují tisíce napodobenin. Skoro všechny skončí na nule. 📉\n\nNejzákeřnější past je RUG PULL (podtržení koberečku): tvůrci vytvoří minci, pořádně ji nahypují, počkají, až se lidé nahrnou, a pak vysypou svou obří zásobu nebo vysají obchodní pool. Cena se za pár minut zhroutí. Peníze zůstanou jim. Tobě zůstanou bezcenné mince.\n\n🚩 VAROVNÉ SIGNÁLY k zapamatování:\n• Anonymní tým, který nemůžeš ověřit\n• „Zaručené“ výnosy (na trzích není nic zaručené)\n• Influenceři placení za propagaci\n• Malá skupina drží většinu zásoby\n• Tlak „kup, než bude pozdě“\n\nKdyž hlavní lákadlo mince je, že TEBE udělá bohatým to, že ji koupí JINÍ lidé, není to investování. Je to hra na židličky a hudbu vlastní tvůrci. 🎵",
+      "quiz": {
+        "q": "Nová mince má anonymní tým, slibuje zaručených 100× a placení influenceři ji tvrdě tlačí. Co se obvykle stane dál?",
+        "explanation": "Anonymní tým, zaručený výnos a placená propagace jsou standardní příprava rug pullu. Tvůrci drží většinu zásoby, prodají ji do hypu a odejdou, a kupcům zůstane mince, kterou nikdo nechce. Na trzích není nic zaručené.",
+        "options": [
+          "Kupcům peníze vrátí burza, na které mince vznikla",
+          "Ceny se ustálí, jakmile influenceři přestanou postovat",
+          "Tým vysype svou zásobu a cena se zhroutí",
+          "Regulátoři donutí tým zveřejnit, kdo jsou"
+        ]
+      }
+    },
+    "36": {
+      "title": "Těžba vs obchodování vs staking",
+      "desc": "Tři úplně jiné hry",
+      "content": "Tři způsoby, jak se lidé snaží v kryptu vydělat, a NEJSOU to stejné hry:\n\n⛏️ TĚŽBA: výkonné počítače závodí ve zpracování transakcí a vydělávají nové mince. Zní to zábavně, ale těžba Bitcoinu je dnes průmyslová: haly plné specializovaných strojů a obří účty za elektřinu. Tvůj mobil ani notebook nemají šanci a aplikace typu „těž Bitcoin na mobilu!“ jsou skoro vždycky podvody nebo reklamní farmy, které ti nezaplatí skoro nic.\n\n🥩 STAKING: na některých sítích zamkneš mince, abys pomohl síť zabezpečit, a dostáváš odměny, trochu jako úrok. Skutečné, ale tvoje mince můžou být chvíli zamčené a jejich CENA může spadnout, i když jsou zamčené.\n\n📊 OBCHODOVÁNÍ: nakupování a prodávání, abys vydělal na pohybech cen. Nepotřebuješ žádný hardware, ale je to hra, kde nejvíc záleží na disciplíně a kde většina začátečníků prohraje se svými vlastními emocemi.\n\nNoobTrader tě učí obchodní hru s nulovým rizikem. Ty další dvě potřebují už na začátek skutečné peníze.",
+      "quiz": {
+        "q": "Aplikace tvrdí, že tvůj mobil může ve spánku ziskově těžit Bitcoin. Co je nejspíš pravda?",
+        "explanation": "Těžba je závod, který rozhoduje specializovaný hardware a levná elektřina, a mobil nemá ani jedno. Aplikace, které slibují opak, obvykle jdou po tvých datech, baterii nebo penězích a zaplatí ti za to skoro nic.",
+        "options": [
+          "Mobily těží pomalu, ale pořád vydělávají",
+          "Funguje to, ale jen na nejnovějších mobilech",
+          "Těžbu na mobilech sítě zakázaly",
+          "Je to reklamní farma, která neplatí skoro nic"
+        ]
+      }
+    },
+    "37": {
+      "title": "Bezpečnost krypta a podvody",
+      "desc": "Ať to tvoje zůstane tvoje",
+      "content": "Superschopnost krypta je zároveň jeho nebezpečí: transakce nejdou vrátit a neexistuje banka, která by chybu napravila. Podvodníci to milují. Tady je tvoje obranná výbava:\n\n🔐 TVOJE SEED FRÁZE JE SVATÁ. Nikdo legitimní si o ni NIKDY neřekne. Žádný „support“, žádný „ověřovací bot“, nikdo. Kdo chce tvoji seed frázi, okrádá tě, tečka.\n\n🎣 PHISHING: falešné weby a DM, které vypadají přesně jako skutečné platformy. Jedno písmeno ve webové adrese jinak. Adresu vždycky piš sám.\n\n🎁 PODVODY S GIVEAWAYI: „Pošli 1 minci, dostaneš 2 zpátky!“, často z hacknutého účtu nějaké celebrity. Nikdo ti peníze nezdvojnásobí. Nikdy.\n\n💕 ROMANCE SCAMY A PODVODY S „INVESTIČNÍM MENTOREM“: přátelský cizinec, který tě pomalu přemluví na „speciální platformu“. Platforma je falešná. Výběry nikdy nefungují.\n\nVzorec pod každým podvodem: naléhavost plus tajnost plus zaručený zisk. Uvidíš ty tři pohromadě a odejdi. 🚶",
+      "quiz": {
+        "q": "Někdo, kdo se vydává za „podporu platformy“, ti napíše DM a chce tvoji 12slovnou seed frázi, aby „ověřil tvou peněženku“. Co uděláš?",
+        "explanation": "Seed fráze JE peněženka. Kdokoli ji má, může ji vybrat, skutečná podpora o ni nikdy nežádá a žádná její část se nikdy nesmí sdílet.",
+        "options": [
+          "Nikdy ji nesdílet, protože skutečná podpora o seed frázi nikdy nežádá",
+          "Sdílet ji, protože ověřená podpora ji potřebuje ke kontrole účtu",
+          "Sdílet jen prvních šest slov, což je samo o sobě dost bezpečné",
+          "Požádat je, ať napíšou z oficiální adresy, a pak ji sdílet"
+        ]
+      }
+    },
+    "38": {
+      "title": "Kryptoboss",
+      "desc": "Bitcoinový stroj času",
+      "content": "Čas na příběh, který všichni citují a nikdo pořádně nevypráví.\n\nNa začátku roku 2017 stál jeden Bitcoin asi $1,000. V prosinci 2024 poprvé překonal $100,000. Nákup za $1,000, držený celou dobu, se proměnil zhruba ve $100,000. To je 100×. 🤯\n\nA teď to, co hype vynechává: abys těch 100× získal, musel jsi přečkat dva brutální krachy, jeden asi o 84 % a druhý asi o 77 %, a celé ROKY se dívat, jak se ti peníze zmenšují, aniž bys prodal. Skoro nikdo to nezvládl. Většina lidí koupila draze, v krachu zpanikařila a prodala levně.\n\nA na každý Bitcoin připadají tisíce mrtvých mincí, které skončily na nule. Vybrat vítěze předem vypadá snadno jen zpětně. Tomu se říká survivorship bias (zkreslení přeživších) a je to nejdražší iluze v kryptu.\n\nSkutečná lekce stroje času: u mincí, které přežily, trpělivost porazila načasování. Které mince přežijí, ale zjistíš až POTOM, a proto diverzifikace poráží hrdinské sázky a proto budoucnost NIKDO nezná. Ani boss ne. 🐉",
+      "bossVictory": "Kryptomodul pokořen. Teď víš víc než většina dospělých. 🐉",
+      "quiz": {
+        "q": "Spolu s Bitcoinem vznikly tisíce mincí a většina z nich má dnes hodnotu skoro nula. Proč „prostě vyber další Bitcoin“ vypadá zpětně tak snadno?",
+        "explanation": "Mluví se jen o přeživších, takže vybírání vítězů vypadá zpětně mnohem snazší, než jaké bylo v té době. Tisíce těch, které selhaly, v příběhu nezanechaly žádnou stopu.",
+        "options": [
+          "Protože o vítězích se jako o jediných pořád mluví a ty mrtvé z příběhu zmizely",
+          "Protože nejlepší mince jsou od začátku jasné každému, kdo si o nich dost načte",
+          "Protože většina mincí nakonec vyjde každému, kdo je trpělivě drží roky",
+          "Protože experti správně tipli Bitcoin už v roce 2010 a od té doby i každého vítěze"
+        ]
+      }
+    },
+    "39": {
+      "title": "Co je to vlastně blockchain?",
+      "desc": "Technologie pod tím vším",
+      "content": "Když odstraníš hype, blockchain je překvapivě jednoduchý: sdílená účetní kniha, jejíž identické kopie drží tisíce počítačů.\n\nKdyž někdo pošle krypto, ta transakce jde do „bloku“ se stovkami dalších. Blok se zapečetí matematikou a připojí k předchozímu bloku. Proto: block. Chain (blok, řetěz). ⛓️\n\nProč to někoho zajímá? Kvůli tomu, co to umožňuje:\n\n✅ Nikdo nemůže potichu upravit historii. Změnit starý blok by znamenalo přepočítat každý blok po něm na tisících počítačů najednou.\n✅ Neřídí to žádná jedna firma ani vláda. Síť počítačů to řídí společně.\n✅ Záznam může zkontrolovat kdokoli. Každá bitcoinová transakce, která kdy proběhla, je veřejně vidět.\n\nTo je opravdu nová technologie. Zároveň to NEJSOU kouzelné peníze. Dokonalý záznam bezcenné mince je pořád bezcenná mince. To, že je technologie skutečná, nedělá hodnotnou každou minci, která na ní stojí. 🧠",
+      "quiz": {
+        "q": "Proč je tak těžké potají změnit starou transakci na blockchainu?",
+        "explanation": "Každý blok je zapečetěný k tomu předchozímu, takže přepsat starý znamená přepsat každý blok po něm, na tisících počítačů, rychleji, než síť přidává nové. Právě díky tomu je záznam prakticky trvalý.",
+        "options": [
+          "Každý pozdější blok by se musel přepočítat taky",
+          "Každou změnu musí schválit vláda",
+          "Každý záznam starší než měsíc se smaže",
+          "Tvůrce každé mince má soukromý klíč k úpravám"
+        ]
+      }
+    },
+    "40": {
+      "title": "Bitcoin vs všechno ostatní",
+      "desc": "Ne všechny mince hrají stejnou hru",
+      "content": "„Krypto“ není jedna věc. Rozdíly jsou důležitější než podobnosti:\n\n₿ BITCOIN: ten původní. Jeho zásoba je navždy omezená na 21 milionů mincí, zapsaná v kódu, a tempo nových mincí se zhruba každé čtyři roky půlí. (Zní povědomě? Halving NOOB si bere přesně tenhle nápad.) Celé jeho lákadlo je vzácnost plus bezpečnost.\n\n⟠ ETHEREUM: méně „digitální zlato“, víc „světový počítač“. Spouští chytré kontrakty, což jsou programy, které se provádějí automaticky. Většina kryptoaplikací je postavená na něm nebo na jeho konkurentech.\n\n🪙 VŠECHNO OSTATNÍ: tisíce „altcoinů“. Pár jich řeší skutečné problémy. Většina jsou kopie, experimenty nebo snaha rychle zbohatnout. Brutální statistika: většina mincí, které kdy vznikly, je už mrtvá nebo bezcenná.\n\nLekce: „krypto roste“ ti neřekne skoro nic o žádné KONKRÉTNÍ minci. Každá je samostatná sázka s vlastními šancemi. 🎲",
+      "quiz": {
+        "q": "Jaká je maximální zásoba Bitcoinu a jak snadno se dá změnit?",
+        "explanation": "Strop 21 milionů je součástí pravidel, která spouští každý počítač v síti. Zvýšit ho by znamenalo, že by skoro všichni souhlasili se snížením hodnoty toho, co už drží, a proto se strop bere jako pevný.",
+        "options": [
+          "100 milionů a těžaři o ní každý rok hlasují",
+          "21 milionů a zvýšit ji je skoro nemožné",
+          "1 miliarda a tvůrce ji může upravit",
+          "Žádný strop, takže nové mince přibývají navždy"
+        ]
+      }
+    },
+    "41": {
+      "title": "Stablecoiny",
+      "desc": "Krypto, které se snaží stát na místě",
+      "content": "Stablecoin je kryptoměna navržená tak, aby měla vždy pevnou hodnotu, obvykle přesně 1 americký dolar. Tradeři ho používají jako parkoviště: prodáš své kolísavé mince za stablecoin a tvoje peníze stojí v klidu, zatímco se rozhoduješ o dalším kroku.\n\nJak se drží na $1? Hlavní model drží v rezervě skutečné dolary a aktiva, takže každá mince je něčím krytá. Věříš tomu, kdo tyhle rezervy spravuje.\n\nA tady je tvůj varovný příběh: stablecoiny se můžou ROZBÍT. Opravdu se to stalo. V roce 2022 se velký „algoritmický“ stablecoin, který místo skutečných rezerv používal chytrou matematiku, během pár dní zhroutil z $1 skoro na nulu a vypařily se desítky miliard dolarů. „Stabilní“ je cíl návrhu, ne záruka.\n\nPravidlo palce: čím chytřejší je mechanismus, který má něco držet „v bezpečí“, tím pečlivěji by ses na něj měl/a podívat. 🔍",
+      "quiz": {
+        "q": "Jaký je hlavní úkol stablecoinu?",
+        "explanation": "Úkolem stablecoinu je stát na místě. Je to parkoviště mezi obchody, ne něco, od čeho se čeká růst.",
+        "options": [
+          "Držet pevnou hodnotu, obvykle $1, aby tradeři měli stabilní parkoviště",
+          "Růst rychleji než Bitcoin tím, že sleduje celý kryptotrh",
+          "Automaticky vyplácet úrok každému, kdo ho drží v peněžence",
+          "Skrýt transakce přede všemi zamícháním veřejné účetní knihy"
+        ]
+      }
+    },
+    "42": {
+      "title": "Krypto, daně a zákon",
+      "desc": "Ano, pravidla platí",
+      "content": "Internet je plný lidí, kteří věří, že krypto jsou neviditelné peníze bez pravidel. Obvykle na to přijdou tvrdě. 😬\n\nRealita ve většině zemí, včetně Jihoafrické republiky:\n\n🧾 ZISKY JSOU OBVYKLE ZDANITELNÉ. Prodáš krypto dráž, než jsi ho koupil/a, a finanční úřad většinou chce svůj podíl, stejně jako u akcií.\n\n🪪 BURZY VĚDÍ, KDO JSI. Legitimní platformy vyžadují ověření totožnosti (tzv. KYC, Know Your Customer – poznej svého zákazníka). Každá transakce je navíc natrvalo zapsaná přímo v blockchainu, což je PRAVÝ OPAK anonymity.\n\n⚖️ REGULÁTOŘI JSOU VE HŘE. V Jihoafrické republice jsou kryptoaktiva oficiálně považována za finanční produkty, takže platformy, které je prodávají, musí dodržovat pravidla pro finanční služby.\n\nNic z toho není důvod k panice. JE to ale důvod ignorovat každého, kdo říká, že „na krypto se pravidla nevztahují“. Vztahují, a předstírat opak dostává dospělé do opravdu vážných problémů.",
+      "quiz": {
+        "q": "Tvůj bratranec tvrdí, že zisky z krypta jsou pro finanční úřad neviditelné, protože krypto je anonymní. Co je na tom špatně?",
+        "explanation": "Legitimní platformy ověří, kdo jsi, než můžeš obchodovat, a každá transakce na blockchainu je veřejná a trvalá, což je opak anonymity. Zisky jsou obvykle zdanitelné, tak si zjisti pravidla tam, kde žiješ.",
+        "options": [
+          "Burzy kontrolují totožnost a záznamy jsou veřejné",
+          "Nic, krypto je opravdu anonymní",
+          "Krypto se daní v Americe a nikde jinde",
+          "Daň začíná, až vybereš milion"
+        ]
+      }
+    },
+    "43": {
+      "title": "Volatilita a pravidla přežití",
+      "desc": "Proč krypto tak divoce kolísá",
+      "content": "Špatný den na akciovém trhu jsou 3%. Špatný den v kryptu je 20%. I Bitcoin, „dospělák“ mezi kryptem, víckrát ztratil přes 80% hodnoty a později se zotavil. Menší mince běžně ztratí 95% a už se nikdy nevrátí.\n\nProč tak divoce? Krypto se obchoduje 24/7 bez obchodních pojistek (circuit breakers), velká část se kupuje za půjčené peníze, které se při propadech nuceně prodávají, a ceny se řídí spíš příběhem a emocemi než finančními výsledky.\n\nTakže pravidla přežití, která opakuje každý zkušený trader:\n\n1️⃣ Nikdy nevkládej peníze, o které si nemůžeš dovolit úplně přijít.\n2️⃣ Nastav velikost pozic tak, aby tě jedna katastrofa nemohla vymazat.\n3️⃣ O svém výstupu rozhodni DŘÍV, než vstoupíš, dokud jsi v klidu.\n4️⃣ FOMO je nejdražší pocit ve financích.\n\nVšechny čtyři si procvič v NoobTrader, kde jsou ztráty jen naoko. Skutečnou cenou jsou ty návyky. 🏆",
+      "quiz": {
+        "q": "Které z těchto je skutečné pravidlo přežití na volatilních trzích?",
+        "explanation": "Nikdy neriskovat peníze, o které si nemůžeš dovolit přijít, je jediné pravidlo, které tě udrží ve hře. Zdvojování po ztrátě je přesně to, čím účty končí.",
+        "options": [
+          "Po každé ztrátě zdvojnásob pozici, abys to vyhrál/a zpátky",
+          "Nikdy neinvestuj peníze, o které si nemůžeš dovolit úplně přijít",
+          "Volatilita se týká jen malých mincí, takže velké mince jsou bezpečné",
+          "Vždycky kupuj, když na sociálních sítích kupují všichni"
+        ]
+      }
+    },
+    "44": {
+      "title": "Hype cykly a FOMO",
+      "desc": "Vzorec za každou mánií",
+      "content": "Krypto se pohybuje v hype cyklech, a jakmile ten vzorec jednou uvidíš, už ho neodvidíš:\n\n📈 Fáze 1: stane se něco skutečného. První věřící potichu nakupují.\n🚀 Fáze 2: ceny rostou. Média si všimnou. Tvůj feed se plní vítězi.\n🎪 Fáze 3: mánie. Taxikáři dávají tipy na mince. Lidi si půjčují, aby mohli kupovat. „Tentokrát je to jiné.“\n💥 Fáze 4: krach. Opozdilci, kteří koupili nejdráž, ztratí nejvíc.\n🕳️ Fáze 5: ticho. Příspěvky vítězů zmizí. O svých ztrátách nikdo nemluví.\n\nBoom NFT v roce 2021 jel přesně podle tohohle scénáře: digitální sběratelské předměty se na vrcholu prodávaly za miliony a o pár let později většina neměla skoro žádnou hodnotu.\n\nKrutý trik každé mánie: kvůli ní ti NEJHORŠÍ chvíle ke koupi připadá jako NEJNALÉHAVĚJŠÍ. Když ti naskočit připadá nejbezpečnější, protože už to udělali všichni ostatní, snadné zisky jsou obvykle pryč. 🎯",
+      "quiz": {
+        "q": "Kdy v klasickém hype cyklu cítí průměrný člověk nejsilnější nutkání koupit?",
+        "explanation": "Nutkání je nejhlasitější, když je nejhlasitější příběh, a příběh je nejhlasitější, až když cena už vyletěla. To, že jsou všichni uvnitř, dává pocit bezpečí, a zároveň to znamená, že už nezbývá nikdo, kdo by kupoval.",
+        "options": [
+          "Na začátku, kdy o tom skoro nikdo nemluví",
+          "V půlce propadu, kdy jsou ceny nízko",
+          "Blízko vrcholu, kdy už jsou všichni ostatní uvnitř",
+          "Nemá to žádný vzorec, nutkání je náhodné"
+        ]
+      }
+    },
+    "45": {
+      "title": "Jak číst svíčku",
+      "desc": "Anatomie svíčky: tělo a barva",
+      "content": "Každá svíčka vypráví malý příběh pomocí pouhých čtyř čísel: kde cena otevřela, kam nejvýš vystoupala, kam nejníž klesla a kde zavřela. Plné tělo vede od otevření k zavření a barva ti řekne, kdo vyhrál: zelená znamená, že závěr skončil nad otevřením, červená, že ji prodávající stáhli pod něj. To je celý trik. Nauč se pořádně přečíst jednu svíčku a každý graf na světě se z hradby šumu promění v komiks. 🟢",
+      "quiz": {
+        "q": "Tahle svíčka je zelená. Co ti říká o daném obchodním období?",
+        "options": [
+          "Cena zavřela níž, než otevřela",
+          "Víc lidí koupilo, než prodalo, zaručeně",
+          "Cena zavřela výš, než otevřela",
+          "Cena během období vůbec neklesla"
+        ]
+      }
+    },
+    "46": {
+      "title": "Knoty vyprávějí",
+      "desc": "Anatomie svíčky: maxima a minima",
+      "content": "Tělo ukazuje, kde období otevřelo a zavřelo, ale knoty ukazují celou cestu: každou cenu, na kterou se boj skutečně dostal. Dlouhý knot znamená, že se za otevřením a zavřením odehrála velká bitva, a strana, která po sobě knot nechala, tu bitvu prohrála. Dlouhý knot dole? Prodávající tlačili silně a byli zatlačeni zpátky. Dlouhý knot nahoře? Kupující se natáhli vysoko a byli odmítnuti. Tělo je titulek, knoty jsou drby. 📏",
+      "quiz": {
+        "q": "Co vlastně ukazují tenké čáry (knoty) nad tělem a pod ním?",
+        "options": [
+          "Nejvyšší a nejnižší ceny, za které se během období obchodovalo",
+          "Včerejší otevření a zavření",
+          "Přesné ceny, za které proběhlo nejvíc obchodů",
+          "Předpověď zítřejšího rozpětí"
+        ]
+      }
+    },
+    "47": {
+      "title": "Doji",
+      "desc": "Jednotlivé svíčky: nerozhodnost",
+      "content": "Někdy svíčka otevře a zavře skoro přesně na stejné ceně a zůstane po ní malinké tělo s knoty na obou stranách. To je doji a znamená, že přetahovaná skončila nerozhodně: kupující i prodávající celou seanci silně táhli a nikdo nevyhrál. Sama o sobě je to jen pokrčení ramen. Po silném růstu ale může naznačit, že trend dochází dech, protože strana, která vyhrávala, najednou nedokázala cenou pohnout. Stopa, kterou stojí za to si zapamatovat, nikdy záruka. 🤝",
+      "quiz": {
+        "q": "Zvýrazněná svíčka otevřela a zavřela skoro přesně na stejné ceně. Jak se jmenuje a co naznačuje?",
+        "options": [
+          "Marubozu, známka naprostého přesvědčení jedním směrem",
+          "Kladivo, známka, že kupující převzali kontrolu zpátky",
+          "Gap (mezera), známka, že se přes noc přestalo obchodovat",
+          "Doji, známka nerozhodnosti mezi kupujícími a prodávajícími"
+        ]
+      }
+    },
+    "48": {
+      "title": "Kladivo",
+      "desc": "Jednotlivé svíčky: protiútok",
+      "content": "Představ si drsnou seanci: prodávající srazí cenu dolů a kupující ji před zavřením vytáhnou úplně zpátky. Na grafu po tom zůstane kladivo: malé tělo nahoře s dlouhým spodním knotem, který je aspoň dvakrát delší. Po poklesu kladivo říká, že prodávající zkusili svůj nejlepší úder a ten nesedl. Často to označuje možný obrat. Možný, ne slíbený, takže ho ber jako stopu ke sledování, ne jako příkaz ke koupi. 🔨",
+      "quiz": {
+        "q": "Po poklesu vykreslila zvýrazněná svíčka dlouhý spodní knot a malé tělo nahoře. Co to je?",
+        "options": [
+          "Padající hvězda, známka, že převzali vládu prodávající",
+          "Kladivo, náznak, že kupující tvrdě vrátili úder",
+          "Doji, dokonalá remíza",
+          "Důkaz, že sestupný trend skončil"
+        ]
+      }
+    },
+    "49": {
+      "title": "Padající hvězda",
+      "desc": "Jednotlivé svíčky: odmítnutí na vrcholu",
+      "content": "Zrcadlový obraz kladiva. Po silném růstu se kupující natáhnou po dalším novém maximu, jsou tvrdě odmítnuti a cena zavře zpátky dole, blízko místa, kde otevřela. Graf vykreslí malé tělo dole na svíčce s dlouhým horním knotem: padající hvězdu. Znamená to, že se na vrcholu konečně objevili prodávající s dost velkou silou, aby seanci vyhráli. Po velkém růstu takové odmítnutí často má váhu. Často, ne vždy. 🌠",
+      "quiz": {
+        "q": "Po silném růstu zvýrazněná svíčka vystřelila nahoru a pak zavřela blízko svého minima, takže zůstal dlouhý horní knot. Co to je?",
+        "options": [
+          "Padající hvězda, náznak, že se na vrcholu objevili prodávající",
+          "Kladivo, náznak, že kupující zase velí",
+          "Zelené marubozu, čistá kupní síla",
+          "Záruka, že cena zítra spadne"
+        ]
+      }
+    },
+    "50": {
+      "title": "Marubozu",
+      "desc": "Jednotlivé svíčky: naprosté přesvědčení",
+      "content": "Marubozu je jedno plné tělo úplně bez knotů: cena otevřela a celou seanci pochodovala jedním směrem, aniž by se jedinkrát ohlédla. Žádný boj, žádné váhání, naprosté přesvědčení jedné strany. Zelené marubozu křičí o sebevědomí kupujících, červené křičí o opaku. Jsou vzácná, a právě proto tradeři zbystří, když se nějaké objeví. 💪",
+      "quiz": {
+        "q": "Zvýrazněná svíčka je jedno plné tělo úplně bez knotů. Co ti ten tvar říká?",
+        "options": [
+          "Během období nikdo neobchodoval, takže zůstala na místě",
+          "Trh ten den zavřel dřív a useknul ji",
+          "Jedna strana měla kontrolu od otevření do zavření, naprosté přesvědčení",
+          "Kupující a prodávající byli celou dobu dokonale vyrovnaní"
+        ]
+      }
+    },
+    "51": {
+      "title": "Býčí pohlcení",
+      "desc": "Vzory ze dvou svíček: útok kupujících",
+      "content": "Dvě svíčky, jedna zpráva. Nejdřív malá červená svíčka, v sestupném trendu nic neobvyklého. Pak velké zelené tělo, které ji úplně spolkne: kupující během jedné seance smazali všechno, co prodávající den předtím dokázali, a ještě něco navíc. Když se objeví po sestupném trendu, je býčí pohlcení (bullish engulfing) jednou z nejsledovanějších stop obratu na jakémkoli grafu, protože ukazuje, jak se poměr sil otočí v jediné svíčce. Stopa, ne smlouva. 🐂",
+      "quiz": {
+        "q": "Velké zelené tělo úplně spolkne červené tělo před ním. Jak se tenhle vzor ze dvou svíček jmenuje?",
+        "options": [
+          "Medvědí pohlcení, prodávající převzali kontrolu",
+          "Býčí pohlcení, kupující přemohli prodávající",
+          "Dvojité dno",
+          "Dvě doji za sebou"
+        ]
+      }
+    },
+    "52": {
+      "title": "Medvědí pohlcení",
+      "desc": "Vzory ze dvou svíček: útok prodávajících",
+      "content": "Zrcadlový obraz býčí verze. Na vrcholu růstu velké červené tělo spolkne celé zelené tělo před ním: prodávající v jediné svíčce smazali nákupy z předchozího dne, přesně tam, kde byl růst už přetažený a poslední kupující byli nervózní. To obvykle znervózní i zbytek kupujících. Když ho uvidíš po dlouhé rally, respektuj ho. 🐻",
+      "quiz": {
+        "q": "Na vrcholu růstu velké červené tělo spolkne celé zelené tělo před ním. Jak se tahle dvojice jmenuje?",
+        "options": [
+          "Býčí pohlcení, růst pokračuje",
+          "Kladivo, po kterém následuje doji",
+          "Průraz nad rezistencí",
+          "Medvědí pohlcení, prodávající přemohli kupující"
+        ]
+      }
+    },
+    "53": {
+      "title": "Jak poznat vzestupný trend",
+      "desc": "Trendy: vyšší maxima, vyšší minima",
+      "content": "Vzestupný trend potřebuje obě poloviny: vyšší maxima A vyšší minima. Každý vrchol překoná ten minulý a každý pokles se zastaví výš než ten předchozí, protože kupující pokaždé naskakují dřív. Tenhle tvar schodiště ti říká, že velí poptávka. Jedno vyšší maximum samo o sobě nic nedokazuje. Vzorec je ta dvojice, která se opakuje. 📈",
+      "quiz": {
+        "q": "Každý vrchol překoná ten minulý a každý pokles se zastaví výš než ten předchozí. Co tenhle graf ukazuje?",
+        "options": [
+          "Vzestupný trend, vyšší maxima a vyšší minima",
+          "Sestupný trend, nižší maxima a nižší minima",
+          "Pásmo, cena uvízlá mezi podlahou a stropem",
+          "Vznikající dvojitý vrchol"
+        ]
+      }
+    },
+    "54": {
+      "title": "Jak poznat sestupný trend",
+      "desc": "Trendy: nižší maxima, nižší minima",
+      "content": "Otoč schodiště vzhůru nohama. Nižší maxima znamenají, že prodávající útočí při každém odrazu dřív, nižší minima znamenají, že kupující při každém poklesu ustupují dál. Dokud ta struktura drží, celou show řídí prodávající, a bojovat proti tomu je způsob, jak noví tradeři darují peníze těm trpělivým. Trend není tvůj nepřítel, ale předstírat, že tam není, rozhodně je. 📉",
+      "quiz": {
+        "q": "Každý odraz skončí níž než ten minulý a každý pokles jde hlouběji. Na co se díváš?",
+        "options": [
+          "Vzestupný trend, který si jen vydechuje",
+          "Pásmo do strany",
+          "Sestupný trend, nižší maxima a nižší minima",
+          "Vznikající vzor býčího pohlcení"
+        ]
+      }
+    },
+    "55": {
+      "title": "Trh do strany",
+      "desc": "Trendy: hra na čekanou",
+      "content": "Někdy nevyhrává ani jedna strana, takže cena jen týdny poskakuje jako pingpongový míček mezi stejnou podlahou a stejným stropem. To je pásmo (range) a trhy tímhle tráví obrovskou část svého života. Není to rozbité a není to nuda, je to trh, který nabírá dech. Trpěliví tradeři se naučí čekání milovat, protože čím déle pásmo drží, tím významnější obvykle bývá konečný únik. 🏓",
+      "quiz": {
+        "q": "Cena už týdny poskakuje mezi stejnou podlahou a stejným stropem. Jak se tomu říká?",
+        "options": [
+          "Vzestupný trend, pořád se dotýká stropu",
+          "Pásmo, trh se pohybuje do strany",
+          "Hlava a ramena",
+          "Probíhající průraz"
+        ]
+      }
+    },
+    "56": {
+      "title": "Podpora",
+      "desc": "Podpora a rezistence: podlaha",
+      "content": "Když cena opakovaně padá na stejnou úroveň a pokaždé se odrazí, tradeři té úrovni říkají podpora: podlaha, kde kupující znovu a znovu usoudí, že cena je výhodná. Čím víckrát vydrží, tím víc lidí ji sleduje, a to je zčásti důvod, proč drží dál. Ale pamatuj, že podlahu kreslí lidi, ne zákon. Podpora se může prolomit a taky se prolamuje, a když se to stane, dav, který čekal na odraz, se změní v dav v panice. 🧱",
+      "quiz": {
+        "q": "Cena třikrát spadla do vyznačené úrovně a pokaždé se odrazila. Jak tradeři té úrovni říkají?",
+        "options": [
+          "Rezistence, strop, kde se hrnou prodávající",
+          "Trendová linie, úrovně musí být šikmé",
+          "Stop-loss nastavený burzou",
+          "Podpora, podlaha, kde kupující pořád naskakují"
+        ]
+      }
+    },
+    "57": {
+      "title": "Rezistence",
+      "desc": "Podpora a rezistence: strop",
+      "content": "Rezistence je strop: úroveň, kde se každá rally zasekne, protože prodávající tam rádi vybírají zisky. Když vidíš, jak graf třikrát narazí hlavou do stejné ceny, sleduješ rezistenci v akci v reálném čase. A tady je zvrat, který stojí za zapamatování: pokud cena někdy prorazí se skutečným přesvědčením, starý strop často začne fungovat jako nová podlaha. 🪟",
+      "quiz": {
+        "q": "Tři samostatné rally se zasekly na vyznačené úrovni. Jak se ta úroveň jmenuje?",
+        "options": [
+          "Rezistence, strop, kde prodávající pořád tlačí zpátky",
+          "Podpora, podlaha, která leží pod cenou",
+          "Dividendová úroveň, která se stanovuje jednou ročně",
+          "Skok objemu, který o ceně nic neříká"
+        ]
+      }
+    },
+    "58": {
+      "title": "Trendové linie",
+      "desc": "Trendové linie a kanály: čára, na které záleží",
+      "content": "Spoj rostoucí minima na grafu a máš nakreslenou trendovou linii. Dva body udělají čáru vždycky, ale třetí dotyk je chvíle, kdy začíná dokazovat, že na ní záleží, protože ukazuje, že kupující pořád brání stejnou stoupající úroveň. Každý další respektovaný dotyk je další důkaz. Zůstává to ale důkaz, nikdy slib: trendová linie je čára tužkou, ne silové pole. ✏️",
+      "quiz": {
+        "q": "Této stoupající čáry se cena dotkla třikrát. Proč tradery zajímá, kolik dotyků trendová linie má?",
+        "options": [
+          "Nezajímá, protože z libovolných dvou bodů je trendová linie pravidlem",
+          "Tři dotyky znamenají, že čtvrtý odraz je zaručený",
+          "Víc dotyků dělá čáru významnější, kupující ji pořád brání",
+          "Trendové linie platí jen na denních grafech, nikdy na kratších"
+        ]
+      }
+    },
+    "59": {
+      "title": "Kanály",
+      "desc": "Trendové linie a kanály: jízdní pruh",
+      "content": "Kanál je trend se slušným vychováním. Cena stoupá a přitom se odráží mezi dvěma rovnoběžnými čarami: podlahou z rostoucích minim a stropem z rostoucích maxim, které jdou společně nahoru jako okraje jízdního pruhu. Tradeři sledují oba okraje kvůli odrazům a ještě pozorněji sledují den, kdy cena z pruhu vyjede, protože čistý průraz z kanálu je často místo, kde začíná další velký pohyb. 🛣️",
+      "quiz": {
+        "q": "Cena stoupá a přitom se odráží mezi dvěma rovnoběžnými čarami. Co je to za vzor?",
+        "options": [
+          "Trojúhelník, kde se ty dvě čáry musí setkat",
+          "Rostoucí kanál, vzestupný trend s viditelným pruhem",
+          "Dvojitý vrchol",
+          "Ploché pásmo, které nikam nevede"
+        ]
+      }
+    },
+    "60": {
+      "title": "Dvojitý vrchol",
+      "desc": "Grafické vzory: tvar M",
+      "content": "Cena dvakrát narazí do stejného stropu, pokaždé neuspěje a nakreslí na graf velké M. Prolom se pod pokles uprostřed (linii krku) a dvojitý vrchol je hotový: klasická medvědí stopa obratu. Jeho zrcadlový obraz, W, je dvojité dno a ukazuje opačným směrem. Obvykle označuje vrchol, ale nemusí. Na grafu nemusí nic. Ⓜ️",
+      "quiz": {
+        "q": "Cena dvakrát narazila do stejného stropu, pokaždé neuspěla a pak se prolomila pod pokles uprostřed. Co je to za tvar?",
+        "options": [
+          "Dvojité dno, býčí stopa",
+          "Rostoucí kanál",
+          "Kladivo",
+          "Dvojitý vrchol, medvědí stopa obratu"
+        ]
+      }
+    },
+    "61": {
+      "title": "Když vzory selžou",
+      "desc": "Grafické vzory: pravděpodobnosti, ne sliby",
+      "content": "Tohle je nejcennější lekce celého modulu. Vytvořil se učebnicový vzor, všichni ho viděli, a pak trh udělal pravý opak. Každý vzor, který ses naučil/a, někdy selže, a to ti graf nelže, to ti graf dává informaci: strana, na kterou jsi vsadil/a, právě prohrála. O výstupu rozhodni dřív, než vstoupíš, a když vzor selže, pochop náznak a vystup. Vzory jsou pravděpodobnosti, nikdy sliby. 🚪",
+      "quiz": {
+        "q": "Na vyznačené podlaze se vytvořilo učebnicové dvojité dno... a pak jím cena propadla rovnou skrz. Jaké je upřímné poučení?",
+        "options": [
+          "Vzory jsou pravděpodobnosti, ne sliby, a selhaný vzor je tvůj signál vystoupit",
+          "Skutečná dvojitá dna nikdy neselžou, takže to, na které ses díval/a, muselo být falešné",
+          "Přikup za nižší cenu, protože vzor se nakonec stejně naplní",
+          "Grafy přestanou úplně fungovat, jakmile ti vzor takhle selže"
+        ]
+      }
+    },
+    "62": {
+      "title": "Hlava a ramena",
+      "desc": "Grafické vzory: tři vrcholy",
+      "content": "Tři vrcholy: vyšší uprostřed (hlava), nižší na každé straně (ramena) a čára pod oběma poklesy, které se říká linie krku. Vzniká, když kupující zvládnou jeden poslední, vyšší výpad a při dalším pokusu už ho nedokážou ani vyrovnat. Samotný tvar je jen varování. Na co tradeři doopravdy čekají, je rozhodný průraz pod linii krku, protože právě tehdy vzor přestává být kresbou a začíná být rozhodnutím. 👤",
+      "quiz": {
+        "q": "Tři vrcholy: vyšší uprostřed, nižší na každé straně a podlaha spojující oba poklesy. Co je to za klasický tvar?",
+        "options": [
+          "Trojité dno, tři stejná minima před výpadem nahoru",
+          "Hlava a ramena, možný konec vzestupného trendu",
+          "Vzestupný trojúhelník",
+          "Tři kladiva za sebou, každé odmítá nižší ceny"
+        ]
+      }
+    },
+    "63": {
+      "title": "Stlačení v trojúhelníku",
+      "desc": "Grafické vzory: stlačená pružina",
+      "content": "Když se výkyvy pořád zmenšují a vyšší minima tlačí proti nižším maximům, trh se stlačuje jako pružina. To je trojúhelník: oběma stranám dochází místo a rozhodnutí se blíží. Stlačení často končí výbuchem, a tady je háček: směr výbuchu předem neznáš. Počkej na průraz, místo abys ho hádal/a. Trh ti to řekne a za tu informaci si nic neúčtuje. 🌀",
+      "quiz": {
+        "q": "Výkyvy se pořád zmenšují a stlačují cenu do čím dál těsnější pružiny, až nakonec vybuchne ven. Co ta pružina byla?",
+        "options": [
+          "Kanál, dvě rovnoběžné čáry, které se nikdy nesetkají",
+          "Dvojitý vrchol",
+          "Trojúhelník, konsolidace, která často končí průrazem",
+          "Důkaz, že cena odsud musela prorazit nahoru"
+        ]
+      }
+    },
+    "64": {
+      "title": "Objem: detektor lži",
+      "desc": "Objem: kdo se doopravdy ukázal",
+      "content": "Objem je počet akcií, které změnily majitele, a je to detektor lži mezi grafy. Průraz při malém objemu je šepot, který lidi napálí: hrstka obchodů posunula cenu někam, kde nemůže zůstat. Průraz při velkém objemu je dav, který skutečně hlasuje penězi. Stejný pohyb ceny, úplně jiný význam. Než uvěříš jakémukoli velkému pohybu, zkontroluj, kdo se na něj ukázal. 🔊",
+      "quiz": {
+        "q": "Dva pokusy o únik ze stejného stropu: první při malém objemu selhal, druhý přišel s obrovským objemem a vydržel. Co tu dělá objem?",
+        "options": [
+          "Vůbec nic, objem na pohyb ceny nikdy nemá vliv",
+          "Tlačí cenu nahoru, protože vysoký objem zvedá ceny",
+          "Předpovídá přesný vrchol pohybu dřív, než nastane",
+          "Slouží jako potvrzení, velký objem ukazuje skutečné přesvědčení za pohybem"
+        ]
+      }
+    },
+    "65": {
+      "title": "Rozpoznávač trendů",
+      "desc": "Deset grafů, žádné popisky, žádné slitování",
+      "content": "Deset grafů. Žádné popisky, žádné pomocné čáry, žádné nápovědy. Řekni, co každý z nich ukazuje, přesně jako skutečný trader, který zírá na skutečnou obrazovku. Dej 8 z 10 a modul je tvůj. Máš 3 pokusy denně, tak zpomal, čti svíčky a pamatuj si tu nejdůležitější lekci ze všech: někdy je upřímná odpověď, že tam žádný vzor není. 🕯️",
+      "bossVictory": "Modul trendů dobyt. Teď čteš grafy ty, ne grafy tebe. 🕯️",
+      "bossQuestions": {
+        "0": {
+          "q": "Co tenhle graf ukazuje?",
+          "explanation": "Schválně neuspořádaný. Odfiltruj šum a každé maximum výkyvu pořád překonává to minulé a každý pokles pořád končí výš. Takhle vypadají skutečné trendy, ne jako učebnicové schodiště.",
+          "options": [
+            "Sestupný trend, nižší maxima a nižší minima",
+            "Vzestupný trend, vyšší maxima a vyšší minima",
+            "Pásmo do strany",
+            "Dvojitý vrchol"
+          ]
+        },
+        "1": {
+          "q": "Co se stalo u zvýrazněné dvojice svíček?",
+          "explanation": "Červené tělo spolklo celé zelené tělo hned po dlouhém růstu. To je medvědí pohlcení, které dělá přesně to, co dělá: objeví se tam, kde jsou kupující nejvíc přetažení.",
+          "options": [
+            "Býčí pohlcení",
+            "Doji na vrcholu",
+            "Kladivo",
+            "Medvědí pohlcení na vrcholu rally"
+          ]
+        },
+        "2": {
+          "q": "Co tenhle graf ukazuje?",
+          "explanation": "Prostřední vrchol jasně převyšuje oba vrcholy po stranách a poklesy se řadí do linie krku. Skutečné vzory nejsou nikdy symetrické a takhle doopravdy vypadají v divočině.",
+          "options": [
+            "Hlava a ramena",
+            "Trojitý vrchol se třemi stejnými vrcholy",
+            "Vzestupný trojúhelník",
+            "Rostoucí kanál"
+          ]
+        },
+        "3": {
+          "q": "Co tenhle graf ukazuje?",
+          "explanation": "Dva pokusy o stejnou podlahu, druhý o něco mělčí, pak výpad nahoru přes prostřední odraz. Tvar W, nakreslený skutečným trhem, ne učebnicí.",
+          "options": [
+            "Hlava a ramena",
+            "Sestupný trojúhelník",
+            "Dvojité dno",
+            "Medvědí vlajka"
+          ]
+        },
+        "4": {
+          "q": "Co je zvýrazněná svíčka?",
+          "explanation": "Dlouhý horní knot, malinké tělo zaparkované dole v rozpětí, hned po rally. Kupující se natáhli po novém maximu a před zavřením dostali facku zpátky dolů.",
+          "options": [
+            "Kladivo",
+            "Zelené marubozu",
+            "Doji",
+            "Padající hvězda po růstu"
+          ]
+        },
+        "5": {
+          "q": "Co tenhle graf ukazuje?",
+          "explanation": "Stejná podlaha a stejný strop se pořád respektují a všechno mezi nimi je šum. Žádná strana nevyhrává, takže tu není žádný trend, na kterém by se dalo svézt.",
+          "options": [
+            "Pásmo, cena uzavřená mezi podporou a rezistencí",
+            "Vzestupný trend, vyšší maxima a vyšší minima",
+            "Klesající klín",
+            "Probíhající průraz"
+          ]
+        },
+        "6": {
+          "q": "Cena prorazila nad starý strop a pak se pokles označený šipkou vrátil na tuto úroveň a udržel se. Co byl ten pokles?",
+          "explanation": "Pokles se vrátil přesně na úroveň, která dřív bývala stropem, našel tam kupující a trend pokračoval. To je pullback (korekce). Obrat by úrovní prořízl a padal dál.",
+          "options": [
+            "Úplný obrat do sestupného trendu",
+            "Pullback, opětovný test prolomené úrovně",
+            "Dvojitý vrchol",
+            "Odraz mrtvé kočky"
+          ]
+        },
+        "7": {
+          "q": "Co tenhle graf ukazuje?",
+          "explanation": "Plochá podlaha, nižší maxima, která na ni tlačí, prodávající přicházejí při každém odrazu dřív. Podlaha nakonec povolila, což je výsledek, ke kterému tenhle tvar často směřuje. Často, nikdy vždy.",
+          "options": [
+            "Vzestupný trojúhelník",
+            "Rostoucí kanál",
+            "Sestupný trojúhelník opřený o podporu",
+            "Dvojité dno"
+          ]
+        },
+        "8": {
+          "q": "Co tenhle graf ukazuje?",
+          "explanation": "Chyták, a ta nejcennější otázka v celém boss kvízu. Většina grafů většinu času neukazuje nic, s čím by stálo za to obchodovat. Vidět vzory, které tam nejsou, je způsob, jak začátečníci prodělávají. Říct „žádný obchod“ je dovednost. 🎯",
+          "options": [
+            "Hlava a ramena",
+            "Dvojitý vrchol",
+            "Vzestupný trend",
+            "Žádný čistý vzor, není tu s čím obchodovat"
+          ]
+        },
+        "9": {
+          "q": "Co tenhle graf ukazuje?",
+          "explanation": "Cena vykoukla nad strop při slabém objemu, kupující se za ní hnali a pak se zhroutila rovnou zpátky do pásma. Právě kvůli průrazu, který selže, ti lekce o objemu říkala, abys objem zkontroloval/a, než nějakému uvěříš.",
+          "options": [
+            "Býčí past, selhaný průraz, který vtáhl kupující",
+            "Úspěšný průraz s čistým opětovným testem",
+            "Dvojité dno",
+            "Obrat typu kladivo"
+          ]
+        }
+      }
+    },
+    "66": {
+      "title": "Tady nevlastníš nic",
+      "desc": "Derivát je sázka na číslo",
+      "content": "Za vším, co ses zatím naučil/a, stála nějaká skutečná věc. Kup si akcii {retail} a vlastníš kousek firmy: kousek obchodů, kousek zisků, hlas na valné hromadě a dividendu, když ji vyplácejí.\n\nDerivát tohle není.\n\nCFD (contract for difference, rozdílová smlouva) je dohoda mezi tebou a poskytovatelem, že si vyměníte rozdíl v ceně mezi okamžikem, kdy pozici otevřeš, a okamžikem, kdy ji zavřeš. To je celý produkt. Když {retail} vzroste a ty jsi sázel/a na růst, zaplatí ti rozdíl. Když klesne, platíš ty jim. Nikdo nekupuje akcii. Nikdo neprodává akcii. V celé transakci nikde žádné akcie neexistují.\n\nFutures (termínový kontrakt) je smlouva, že něco koupíš nebo prodáš za pevnou cenu k pevnému datu. Skutečné kontrakty se vypořádávají ve skutečných barelech ropy nebo tunách kukuřice, ale skoro nikdo je nedrží tak dlouho, takže v praxi je většina futures taky sázka na číslo, jen s termínem navíc.\n\nProč na tom záleží víc, než to zní:\n\n• Žádné dividendy. Žádná „peněžní miminka“. To, co v lekci 15 potichu vytvořilo většinu výnosů, tady prostě není.\n• Žádný hlas, žádné vlastnictví, nic k držení. Neexistuje možnost „prostě to držet deset let“, protože tu není nic, co bys držel/a.\n• Žádné složené úročení. Zbytek téhle aplikace ti 65 lekcí vysvětluje, že čas je na tvé straně. V téhle místnosti tě čas stojí peníze. Kolik přesně, uvidíš v lekci 72.\n\nVšechno, co už víš, pořád platí. Jen to přestává být tím, co děláš. 📄",
+      "quiz": {
+        "q": "Otevřeš CFD na {retail} a cena vzroste. Co vlastně vlastníš?",
+        "explanation": "CFD je dohoda mezi tebou a poskytovatelem, že si vyměníte rozdíl mezi cenou při otevření a cenou při zavření. Nikdo nekupuje akcii, nikdo ji neprodává a v celém obchodu žádná neexistuje. Proto tu není žádná dividenda, žádný hlas a nic, co bys mohl/a držet deset let.",
+        "options": [
+          "Akcie, které poskytovatel drží svým jménem",
+          "Smlouvu, že si na konci vyměníte rozdíl v ceně",
+          "Část firmy a dividendy, které z ní plynou",
+          "Poukaz, který se při zavření promění ve skutečné akcie"
+        ]
+      }
+    },
+    "67": {
+      "title": "Půjčka od kamaráda",
+      "desc": "Co je páka doopravdy, a ta část, kterou nikdo nesdílí",
+      "content": "Páka zní technicky. Ale není. Je to půjčka.\n\nŘekněme, že chceš akcie za {c}1,000, ale máš jen {c}200. Kamarád ti nabídne, že dá zbylých {c}800. Ovládáš akcie za {c}1,000 s {c}200 vlastních peněz. To je páka. To je celá myšlenka.\n\nTeď tři věci, které ten kamarád dělá. Potřebuješ znát všechny tři, jinak ti prodali pohádku.\n\n1️⃣ ZISK JE OPRAVDU TVŮJ. Akcie vzrostou o 10%. Tvých {c}1,000 je teď {c}1,100. To je {c}100 zisku a necháš si z něj každý halíř, protože kamarádovi dlužíš {c}800 a ani o haléř víc (měna: {cName}). Na tvých vlastních {c}200 je {c}100 zisk 50%. Pohyb o 10% ti vydělal 50%. Tohle je ta část, kterou sdílí každý.\n\n2️⃣ PŮJČKA SE NEZMENŠÍ, KDYŽ SE MÝLÍŠ. Tohle je ta část, kterou nesdílí nikdo, a je to celá lekce. Akcie místo toho klesnou o 10%. Tvých {c}1,000 je teď {c}900. Kamarádovi pořád dlužíš celých {c}800. Ne {c}720. Celých {c}800. Takže celý pokles o {c}100 jde z TVÉHO podílu a z tvých {c}200 je teď {c}100. Pohyb o 10% tě stál 50%.\n\nPřečti si ty dva body znovu. Stejný kamarád, stejných 10%. Tvoje peníze se pohybují pětkrát rychleji oběma směry, protože půjčka nikdy nenese ani kousek bolesti.\n\n3️⃣ KAMARÁD SI ÚČTUJE NÁJEM, DENNĚ, Z CELÉ ČÁSTKY. Ne z jeho {c}800. Z celých {c}1,000, které ovládáš. Každou noc, kdy pozici držíš, ať cena šla nahoru, dolů, nebo nikam.\n\nA ve třetím bodě se skrývá ještě čtvrtý. Když ti tvých {c}200 dochází, kamarád ti nezavolá, aby to probral. Prodá. Okamžitě, automaticky, za jakoukoli dostupnou cenu, protože v sázce je jeho {c}800 a na tvůj názor čekat nebude. Má to jméno a potkáš ho za tři lekce: likvidace.\n\nTakže: větší zisky, větší ztráty, nájem každou noc a cizí prst na tlačítku prodeje. Páka nejsou peníze zadarmo s trochou rizika navíc. Je to půjčka se všemi čtyřmi věcmi navíc, a reklamy ti vždycky ukážou jen tu první. 🧠",
+      "quiz": {
+        "q": "Kamarád dá 800 NT, ty dáš 200 NT a společně ovládáte akcie za 1,000 NT. Akcie klesnou o 10%. Přetáhni na to, kolik teď mají hodnotu tvých vlastních 200 NT.",
+        "explanation": "Půjčka se nezmenší, když se mýlíš. Akcie mají teď hodnotu 900 NT a kamarádovi pořád dlužíš celých 800 NT, takže tobě zbývá 100 NT. Pokles akcií o 10% ti vzal polovinu peněz, protože půjčka nenese žádnou bolest. Stejně to funguje i směrem nahoru, a to je ta polovina, kterou ti ukazují reklamy."
+      }
+    },
+    "68": {
+      "title": "Marže je záloha, ne nákup",
+      "desc": "Peníze, které složíš, nejsou utracené, jsou v sázce",
+      "content": "Když koupíš akcii za {c}100, těch {c}100 zmizí z tvé hotovosti a na účtu ti leží akcie. Jednoduchá výměna.\n\nMarže takhle nefunguje. Když otevřeš pozici s pákou, složíš vklad, a ten vklad není platba za nic. Je to jistina proti tvým vlastním ztrátám. Leží tam, zamčená, a pozice ji ujídá, jak se cena hýbe proti tobě.\n\nŘekněme, že sazba vkladu je 25%. Složíš 250 NT a ovládáš expozici 1,000 NT. Sleduj svůj účet:\n\n• Cena beze změny: tvých 250 je pořád 250. Až na to, že začalo financování, takže je to potichu méně.\n• Cena dolů o 5%: pozice ztratila 50 NT. Tvůj vklad je fakticky 200. Tvoje volná hotovost se nepohnula. Tvůj účet je menší.\n• Cena dolů o 20%: pozice ztratila 200 NT. Tvůj vklad klesl na 50. Nic jsi neudělal/a. Nic jsi neprodal/a. Jen ses díval/a.\n\nTři pojmy, které jsou v téhle místnosti na každé obrazovce:\n\n🔒 POUŽITÁ MARŽE: všechny vklady, které máš právě složené.\n💰 KAPITÁL ÚČTU: tvoje volná hotovost plus tvoje složená marže, plus nebo minus zisk a ztráta každé otevřené pozice, minus dosud naúčtované financování. Kolik tvůj účet doopravdy má, kdyby se teď všechno zavřelo.\n📊 ÚROVEŇ MARŽE: kapitál vydělený použitou marží. Nad 100% máš polštář. Pod 100% trh polštář spotřeboval a začal ukusovat vklad.\n\nA jedno pravidlo, které překvapí každého: marže se měří přes celý účet, ne po jednotlivých pozicích. Ztrátová pozice ujídá jistinu, která drží nad vodou tu ziskovou. Proto „můj druhý obchod je v pohodě“ není obhajoba. 🔒",
+      "quiz": {
+        "q": "Sazba vkladu je 25%, takže 250 NT tvých vlastních peněz ovládá expozici 1,000 NT. Cena klesne o 8%, zatímco ty neděláš vůbec nic. Přetáhni na to, kolik tě ten pokles stál.",
+        "explanation": "Vklad není platba za nic, je to jistina, a ztráta se počítá z celých 1,000 NT, které ovládáš. 8% z 1,000 NT je 80 NT. Nic jsi neprodal/a a tvoje volná hotovost se nepohnula, ale 80 NT z tvého vkladu 250 NT je pryč a tvůj účet je o 80 NT menší. Když spočítáš 8% z vkladu, vyjde ti 20 NT, a to je přesně ta chyba, kvůli které páka vypadá neškodně."
+      }
+    },
+    "69": {
+      "title": "Margin call",
+      "desc": "Požadavek, ne varování",
+      "content": "Margin call je okamžik, kdy tvoje úroveň marže klesne pod 100%. Jednoduše řečeno: tvůj ziskový polštář je pryč a trh začal ujídat samotný vklad.\n\nTakhle to doopravdy vypadá, protože učebnicová verze vynechává to důležité.\n\nNikdy nepřijde v dobrý den. Přijde, když už pozice vypadá ošklivě, když sis už dvakrát řekl/a, že se to vrátí, a když jsi nejméně schopný/á se v klidu rozhodnout. Není to zdvořilé upozornění. Je to požadavek: vlož víc peněz, nebo zavři pozice, jinak to poskytovatel udělá za tebe.\n\nMáš tři tahy a jen dva z nich jsou tvoje.\n\n1️⃣ ZAVŘÍT něco. Tím okamžitě uvolníš marži a je to skoro vždycky správná odpověď. Znamená to taky přiznat, že ses mýlil/a, a to je skutečný důvod, proč to lidi nedělají.\n2️⃣ PŘIDAT peníze. Tohle nic nespraví. Kupuješ si tím prostor mýlit se déle, u pozice, kterou jsi už zvolil/a špatně, s penězi, které jsi riskovat neplánoval/a. Přidávání hotovosti při margin callu je způsob, jak se ze špatného obchodu stane špatný měsíc.\n3️⃣ NEDĚLAT NIC. Pak třetí tah proběhne bez tebe, a ten má jméno.\n\nRegulátoři to berou tak vážně, že zapsali číslo přímo do zákona. Firmy v Evropě, Velké Británii a Austrálii musí automaticky zavřít pozice retailového klienta, když jeho marže klesne na 50% požadované výše. Ne „měly by“. Musí. To pravidlo napsali, protože když se lidi měli rozhodnout sami, zvolili možnost 3 a přišli o víc, než měli. ⚠️",
+      "quiz": {
+        "q": "Tvoje úroveň marže klesla na 80% a jsi v margin callu. Která reakce opravdu snižuje riziko likvidace, místo aby ji jen oddálila?",
+        "explanation": "Zavření ti hned vrátí vklad, takže úroveň marže okamžitě vyskočí. Přidání hotovosti ti jen kupuje prostor mýlit se déle u obchodu, který jsi už zvolil/a špatně. Čekáním k likvidaci dochází. A druhá pozice opačným směrem potřebuje vlastní vklad, takže spotřebuje víc marže, ne méně.",
+        "options": [
+          "Vložit na účet další hotovost",
+          "Počkat, až se úroveň marže zase zvedne",
+          "Zavřít jednu z pozic, které máš otevřené",
+          "Otevřít druhou pozici opačným směrem"
+        ]
+      }
+    },
+    "70": {
+      "title": "Likvidace a cena, kterou bys měl/a znát předem",
+      "desc": "Přesná cena, při které tvůj účet spadne na nulu",
+      "content": "Likvidace znamená, že poskytovatel zavře tvoje pozice za tebe, protože ti skoro došel vklad. Je automatická. Je okamžitá. Nikdo se tě neptá na názor, nikdo nekontroluje, jestli ses zrovna nechystal/a mít pravdu, a odvolat se nedá.\n\nNejužitečnější číslo celého tohohle modulu je tvoje LIKVIDAČNÍ CENA: skutečná cena, vyjádřená přímo v penězích (měna: {cPlural}), při které se to stane.\n\nNe procento. Cena. Protože „můžeš přijít o vklad“ je věta, nad kterou kývneš a zapomeneš, zatímco „{tech} na {c}87.40 a tvůj účet je prázdný“ je fakt, který si můžeš ověřit na grafu dřív, než cokoli zmáčkneš.\n\nKaždá obrazovka v téhle místnosti ti ji ukáže před potvrzením, zakreslenou na stejné cenové škále jako graf, abys viděl/a, jak daleko doopravdy je. Dvou věcí si všimneš hned, a obě jsou tou lekcí:\n\n📏 Větší vklad posune likvidační cenu dál. Víc vlastních peněz znamená, že cena musí spadnout níž, než ti peníze dojdou.\n⚡ Menší vklad ji přitáhne těsně k dnešní ceně. Při vkladu 10% je likvidace zhruba 10% pohybu daleko, a pohyb o 10% je obyčejný týden.\n\nA pak upřímný háček. Likvidační cena je místo, kde tě systém zamýšlí zavřít, ne místo, kde máš zaručený výstup. Pokud přes noc přijde špatná zpráva a trh otevře hluboko pod touhle úrovní, zavřou tě za cenu, kterou trh skutečně zaplatí. To je gap (cenová mezera) a o něm je lekce 78.\n\nZnej svou likvidační cenu dřív, než otevřeš. Pokud ji nedokážeš říct nahlas, nerozumíš obchodu, který se chystáš udělat. 💀",
+      "quiz": {
+        "q": "Složíš vklad 200 NT, abys ovládal/a 1,000 NT aktiva s cenou 100 NT. Přetáhni cenu dolů tam, kde je tvůj vklad pryč.",
+        "explanation": "Ovládáš 10 kusů, takže každý 1 NT poklesu ceny tě stojí 10 NT. Tvůj vklad 200 NT je pryč při 80 NT, což je pokles jen o 20%."
+      }
+    },
+    "71": {
+      "title": "Cesta zpátky je strmější",
+      "desc": "Proč se ztráty vracejí hůř, než to vypadá",
+      "content": "Ztráty a zisky působí jako protiklady. Nejsou, a matematika k tomu nemá ani zdaleka blízko.\n\nZtratíš 10%? Potřebuješ +11%, aby ses vrátil/a. Otravné, ale budiž.\nZtratíš 50%? Potřebuješ +100%. Musíš peníze ZDVOJNÁSOBIT, jen abys byl/a na nule.\nZtratíš 75%? Potřebuješ +300%.\nZtratíš 90%? Potřebuješ +900%.\n\nDůvod je jednoduchý, jakmile ho uvidíš: zisk se počítá z menší hromádky, která ti zbyla. Ze 100 se stane 50, a aby ses z 50 dostal/a zpátky na 100, musí se ta menší hromádka zdvojnásobit.\n\nTeď přidej páku a všimni si, co doopravdy dělá. Nezrychluje jen tvoje zisky. Posune tě po té tabulce dolů za jediné odpoledne. Pokles akcie o 12%, což je špatný, ale úplně normální týden, je při vkladu 25% zásah 48% do tvého účtu. Teď potřebuješ +92%, abys byl/a tam, kde jsi začal/a, a to po týdnu, o kterém se zprávy skoro nezmínily.\n\nProto profesionálové mluví o ochraně kapitálu dřív než o čemkoli jiném a proto je „vydělám si to zpátky“ nejdražší věta v obchodování. Vydělat si to zpátky je matematicky těžší, než bylo o to přijít, pokaždé. ⛰️",
+      "quiz": {
+        "q": "Tvůj účet je dole o 75%. Přetáhni na zisk, který odsud potřebuješ, jen aby ses vrátil/a tam, kde jsi začal/a.",
+        "explanation": "100 NT kleslo na 25 NT. Aby se znovu dostalo na 100, musí se těch 25 zčtyřnásobit, což je zisk 300%. Stoupání se měří z menší hromádky, která ti zbyla, a proto je o tolik strmější, než byl pád."
+      }
+    },
+    "72": {
+      "title": "Nájem za půjčené peníze",
+      "desc": "Správně odhadnutý směr, a stejně ztráta",
+      "content": "Expozici sis půjčil/a. Takže za ni platíš. Každou noc.\n\nFinancování (někde se mu říká swap nebo noční poplatek) se účtuje denně, a tady je ta část, která zaskočí každého: účtuje se z CELÉ pozice, ne z části, kterou sis půjčil/a. Slož 500 NT, abys ovládal/a 2,000 NT, a platíš nájem z 2,000.\n\nJak se počítá: referenční úroková sazba plus přirážka poskytovatele, vydělené 365, krát celá tvoje pozice. V téhle aplikaci vidíš na obrazovce obě složky, protože poplatek, který nedokážeš rozložit, nedokážeš ani posoudit. Při zhruba 7.3% ročně to vychází asi na 0.02% tvé pozice za noc.\n\nZní to jako nic. Teď sleduj, jak to sežere vítězný obchod. 🧾\n\nOBCHOD, VE KTERÉM MÁŠ PRAVDU A STEJNĚ PROHRAJEŠ\n\nOtevřeš pozici 2,000 NT na {retail} s vkladem 500 NT. Sázíš na růst a ukáže se, že máš pravdu: během několika dalších měsíců {retail} pomalu vzroste o 2%.\n\n• Tvůj zisk: 2% z 2,000 = 40 NT. Na vklad 500 NT je to +8%. Pěkné.\n• Tvůj nájem: 0.02% z 2,000 = 0.40 NT, každou noc.\n\nNoc 50: zaplatil/a jsi 20 NT. Celkově jsi v plusu 20 NT. Pořád vyhráváš.\nNoc 100: zaplatil/a jsi 40 NT. Tvých 40 NT zisku má teď hodnotu přesně nula. Odhadl/a jsi to správně a nevydělal/a jsi nic.\nNoc 180: zaplatil/a jsi 72 NT. Tvůj zisk je pořád 40 NT. Jsi v MÍNUSU 32 NT, což je minus 6.4% tvého vkladu, u obchodu, ve kterém jsi šest měsíců četl/a trh správně.\n\nPřečti si to znovu. Cena udělala přesně to, co jsi říkal/a. A stejně jsi prodělal/a.\n\nTohle je věta, kterou si z lekce odnes: u pozice s pákou má mít pravdu datum spotřeby. V tomhle příkladu je to 100 nocí, a to svoje si můžeš spočítat dřív, než otevřeš. Vyděl zisk, ve který doufáš, nočním nájmem. Tolik nocí má tvůj názor hodnotu.\n\nVšimni si i opaku. Zbytek téhle aplikace učí složené úročení, kdy ti čas potichu vydělává, zatímco spíš. Tohle je ten samý stroj, puštěný pozpátku a namířený na tebe. ⏳",
+      "quiz": {
+        "q": "Držíš pozici s pákou za 2,000 NT, která tě stojí 0.40 NT za noc na financování. Cena vzroste tak, že máš zisk 40 NT, a pak se přestane hýbat. Po kolika nocích je ten zisk úplně sežraný?",
+        "options": [
+          "Nikdy, protože financování se účtuje jen z půjčené části",
+          "Asi po 100 nocích, protože 40 NT zisku děleno 0.40 NT za noc je 100",
+          "Asi po 20 nocích, protože financování se účtuje z tvého vkladu 500 NT",
+          "Financování se účtuje jen tehdy, když se pozice zavře se ztrátou"
+        ]
+      }
+    },
+    "73": {
+      "title": "Futures: hodiny a rolování",
+      "desc": "Stejný náklad, jen jinak doručený",
+      "content": "Futures a CFD jsou bratranci. Obojí je s pákou, obojí používá marži, obojí tě může zlikvidovat. Futures odlišují dvě věci, a ta druhá je ta zajímavá.\n\n⏰ 1. MAJÍ DATUM. Každý futures kontrakt vyprší. Březnová ropa, červnová kukuřice, zářijový index. Když datum nastane, kontrakt se vypořádá a přestane existovat. „Držet a čekat, až se to vrátí“ prostě není v nabídce, protože kontrakt tu už nebude. CFD nikdy nevyprší, což zní lépe, dokud si nevzpomeneš, že si navždy účtuje nájem.\n\n🔄 2. NÁKLAD JE ZAPEČENÝ V CENĚ, NE ÚČTOVANÝ KAŽDOU NOC. Tohle lidem uniká. Futures ti obvykle neúčtují noční poplatek za financování. Místo toho je náklad na držení té věci až do data už zapečený v ceně kontraktu. Kontrakty na pozdější data často stojí víc než kontrakty na dřívější data, a ten rozdíl je ten samý náklad na držení, schovaný uvnitř čísla.\n\nCo se tedy stane, když chce trader držet pozici i po vypršení? ROLUJE: zavře vypršující kontrakt a otevře další. A pokud je ten další dražší, zaplatí ten rozdíl. Při každém rolování. To je noční nájem CFD, vybíraný ve větších a méně častých splátkách.\n\nUpřímné shrnutí:\n\n• CFD: žádný termín, nájem každou noc, rozepsaný na tvém výpisu.\n• Futures: pevný termín, náklad schovaný v ceně a placený při každém rolování, snadno přehlédnutelný.\n\nNic z toho není zadarmo. Jedno z nich jen předkládá účet zdvořileji, a náklad, který nevidíš, tě nejspíš překvapí nejvíc. ⏳",
+      "quiz": {
+        "q": "Trader chce držet futures pozici i po datu vypršení a další kontrakt se obchoduje dráž než ten vypršující. Co se stane, když roluje?",
+        "explanation": "Rolovat znamená zavřít kontrakt, který brzy vyprší, a otevřít další. Pokud ten další stojí víc, zaplatíš ten rozdíl, a to znovu při každém rolování. Je to ten samý náklad na držení, který ti CFD účtuje každou noc, jen vybíraný ve větších dávkách a schovaný v ceně místo vytištění na výpisu.",
+        "options": [
+          "Zaplatí rozdíl mezi vypršujícím a dalším kontraktem",
+          "Dostanou zaplacený rozdíl mezi cenami obou kontraktů",
+          "Žádné peníze se nepřesunou, protože rolování je jediný obchod",
+          "Z pozice se stane CFD a poběží dál bez data vypršení"
+        ]
+      }
+    },
+    "74": {
+      "title": "Short: ztráta bez dna",
+      "desc": "Proč sázka na pokles nemá přirozený strop",
+      "content": "Všechno v téhle aplikaci bylo zatím long: koupíš a chceš, aby cena šla nahoru. Deriváty ti umožní jít short, což znamená sázet na pokles ceny. Otevřeš short, cena klesne, vyděláš.\n\nShortování je opravdu užitečné a není zlé. Takhle si farmář zajistí cenu před sklizní a takhle fond chrání portfolio. Když mu rozumíš, líp čteš trhy, protože poprvé vidíš obě strany každého obchodu.\n\nV shortování je ale jeden kus aritmetiky, který jinde nemá obdobu, a ten si musíš vrýt do paměti.\n\n📉 KDYŽ KUPUJEŠ, nejhorší případ je pád ceny na nulu. Přijdeš o 100% toho, co jsi vložil/a. Hrozné, ale je to podlaha. Existuje dno.\n📈 KDYŽ SHORTUJEŠ, pohyb ceny proti tobě znamená, že cena jde NAHORU. A nikde neexistuje pravidlo, jak vysoko cena smí jít. Akcie, která se ztrojnásobí, tě stojí 200% pozice. Akcie, která vzroste desetkrát, tě stojí 900%.\n\nZtráty u longu mají podlahu. Ztráty u shortu ne. Tahle asymetrie je celé varování.\n\nSkutečné trhy tohle dělají. Čas od času silně shortovaná akcie vystřelí, protože každý, kdo je short, je nucen nakoupit, aby pozici zavřel, což tlačí cenu výš, což nutí nakupovat další. Říká se tomu short squeeze a už to položilo celé fondy.\n\nNaživu tě udrží dvě věci. Zaprvé, short je přesně místo, kde stop-loss přestává být volitelný. Zadruhé, ochrana proti zápornému zůstatku: na pořádně regulovaném retailovém účtu, a v téhle aplikaci, nemůže tvůj účet spadnout pod nulu. Můžeš přijít o všechno, co jsi vložil/a. Nemůžeš skončit tak, že budeš dlužit. Ta ochrana existuje, protože předtím lidi dlužili. 🕳️",
+      "quiz": {
+        "q": "Proč se nejhorší případ u short pozice zásadně liší od nejhoršího případu u long pozice?",
+        "explanation": "Nákup má podlahu. Nejhorší, co cena může udělat, je spadnout na nulu, takže přijdeš o to, co jsi vložil/a, a o nic víc. U shortu je to naopak, protože prohrávat znamená, že cena jde nahoru, a nic neříká, jak vysoko smí jít. Akcie, která se ztrojnásobí, stojí short sellera dvojnásobek pozice. Proto stop u shortu přestává být volitelný a proto tě tahle aplikace nemůže dostat pod nulu.",
+        "options": [
+          "Neliší se, obojí je omezené tím, co jsi vložil/a",
+          "Stop-loss dá shortu stejnou podlahu jako longu",
+          "Poklesy jsou pomalejší než růsty, takže short ztrácí pomaleji",
+          "Cena může spadnout jen na nulu, ale růst může bez omezení"
+        ]
+      }
+    },
+    "75": {
+      "title": "Volatilita krát páka",
+      "desc": "Proč krypto potřebuje největší vklad",
+      "content": "Stejný násobek na dvou různých aktivech není stejná sázka. To je celá myšlenka téhle lekce, a proto se vklad, který musíš složit, mění podle toho, s čím obchoduješ.\n\nZamysli se, jak vypadá normální den:\n• Velký index se většinou pohne o méně než 1%.\n• Jednotlivá akcie se může pohnout o 2% nebo 3%.\n• Krypto se běžně pohne o 5% nebo 10%, a den s 20% není krize, je to úterý. 🎢\n\nTeď za každé z nich dej malý vklad. Při vkladu 10% tě pohyb o 10% vymaže. U indexu je to událost jednou za několik let. U krypta zhruba jednou za měsíc. Stejný vklad. Úplně jiné šance na přežití.\n\nRegulátoři na to přišli a zapsali to do pravidel. Když ESMA v březnu 2018 omezila páku u CFD v celé Evropě, nezvolila jedno číslo. Rozdělila je do stupňů: 30:1 na hlavní měnové páry, 20:1 na zlato a hlavní indexy, 10:1 na ostatní komodity, 5:1 na jednotlivé akcie a úplně dole 2:1 na krypto. Dva ku jedné znamená vklad 50%. U krypta požadovali POLOVINU pozice ve skutečných penězích, nejpřísnější sazbu na celém seznamu.\n\nTahle aplikace dělá totéž, ze stejného důvodu, a místo aby to schovávala, říká to na obrazovce:\n\n💱 Forex: nejmenší vklad, protože hlavní páry se hýbou nejméně.\n🥇 Zlato a komodity: větší.\n📊 Akcie, indexy a ETF: ještě větší.\n🪙 Krypto: největší vklad ze všech, protože krypto se hýbe nejprudčeji.\n\nKrypto tu není zakázané, a to záměrně. Můžeš s ním obchodovat. Jen ne s tenkým vkladem, protože s tenkým vkladem by ti obyčejný kryptodenní pohyb ukončil účet dřív, než bys o tom stihl/a dočíst. Větší vklad není tím, že by aplikace měla něco proti kryptu. Je to aplikace, která se stará o to, aby tě normální den nemohl zabít.\n\nDobré vědět: britský regulátor šel dál než ke stupni. V roce 2021 úplně zakázal kryptoderiváty pro retailové zákazníky a odhadl, že spotřebitelé tím ušetří kolem £53m. S kryptopákou se můžeš potkat tady, s hracími penězi a tlustým vkladem, nebo v osmnácti se skutečnými penězi a bez jakéhokoli varování. Tohle je lepší pořadí. 🌡️",
+      "quiz": {
+        "q": "Krypto vyžaduje největší vklad ze všech aktiv v téhle místnosti. Jaký je skutečný důvod?",
+        "explanation": "Velký index se většinou pohne o méně než 1%. Krypto se běžně pohne o 5% nebo 10%, a den s 20% není krize, je to úterý. S tenkým vkladem tě pohyb o 10% vymaže, což je u indexu událost jednou za několik let a u krypta zhruba jednou za měsíc. Evropský regulátor u krypta požadoval polovinu pozice ve skutečných penězích, nejpřísnější sazbu na celém svém seznamu, a to právě z tohoto důvodu.",
+        "options": [
+          "Lidé pod 18 let mají krypto zakázané, takže vklad je trest",
+          "U krypta se neúčtuje financování, takže ho vklad nahrazuje",
+          "Hýbe se nejprudčeji, takže obyčejný den vyprázdní tenký vklad",
+          "Ceny krypta určuje sama aplikace, a ne trh"
+        ]
+      }
+    },
+    "76": {
+      "title": "Čísla, která nikdo neinzeruje",
+      "desc": "Co regulátoři zjistili, když počítali",
+      "content": "Tahle čísla v reklamě nikdy neuvidíš. Pocházejí od finančních regulátorů, kteří si můžou od firem vyžádat skutečná data z účtů a pak zveřejní, co zjistili.\n\n🇪🇺 ESMA, evropský regulátor, březen 2018. V zemích EU přichází o peníze 74% až 89% retailových CFD účtů. Průměrné ztráty na klienta se pohybovaly od €1,600 do €29,000. ESMA na základě toho produkt omezila.\n\n🇬🇧 FCA ve Velké Británii, prosinec 2016. Její analýza reprezentativního vzorku klientských účtů zjistila, že na těchto produktech přišlo o peníze 82% klientů.\n\n🇦🇺 ASIC v Austrálii, zveřejněno v lednu 2026, nejnovější z těch tří. Ve finančním roce 2024 přišlo o peníze 68% retailových CFD investorů, celkem víc než A$458 million. Z toho A$73 million byly poplatky.\n\nZastav se u toho posledního řádku na vteřinu. Třiasedmdesát milionů z toho nebyly ani špatné obchody. Byla to cena za hraní: spread při vstupu a financování, se kterým ses seznámil/a v lekci 72.\n\nTři různí regulátoři, tři různé země, data ze tří různých desetiletí, a odpověď pořád přistává někde mezi dvěma třetinami a devíti desetinami.\n\nTeď ta nejdůležitější část, protože právě ona dělá z téhle statistiky víc než strašák. Ti lidé nebyli hloupí. Nebyli líní. Byli to většinou dospělí s prací a spousta z nich čte graf líp, než ho právě teď čteš ty. Prodělali kvůli tomu, jak je produkt postavený: začínáš pozadu o spread, platíš nájem, zatímco čekáš, a páka znamená, že tě obyčejný pohyb může vyřídit dřív, než tvůj názor stihne mít pravdu.\n\nTo je struktura, ne charakterová vada. A struktury můžou porazit jen lidi, kteří vědí, že tam jsou. 📊",
+      "quiz": {
+        "q": "Regulátoři v Evropě, Velké Británii a Austrálii shodně zjistili, že většina retailových CFD účtů přichází o peníze. Jaké je upřímné vysvětlení?",
+        "explanation": "Byli to obyčejní dospělí s prací a spousta z nich čte graf líp, než ho dnes čteš ty. Prodělali kvůli tomu, jak produkt funguje: začínáš pozadu o spread, každou noc platíš nájem, zatímco čekáš, a páka znamená, že tě normální pohyb může vyřídit dřív, než tvůj názor stihne mít pravdu. To je struktura, ne charakterová vada, a struktury můžou porazit lidi, kteří vědí, že tam jsou.",
+        "options": [
+          "Způsob, jakým je produkt postavený, pracuje proti zákazníkovi",
+          "Ti, kdo prodělali, byli neopatrní, a opatrní tradeři jsou v pohodě",
+          "Konkurenční firmy zveřejnily čísla jako marketingový útok",
+          "Ztráty takového rozsahu pocházejí z neregulovaných zemí"
+        ]
+      }
+    },
+    "77": {
+      "title": "Co se změnilo, když se změnila pravidla",
+      "desc": "Důkaz, že to byl návrh produktu, ne lidi",
+      "content": "Lekce 76 ti ukázala ztráty. Tahle lekce ti ukáže experiment, a je to ta nejdůležitější věc v celém modulu.\n\nPokud většina lidí prodělává, protože většina lidí je lehkomyslná, pak by změna pravidel neměla nic změnit. Lehkomyslní zůstanou lehkomyslní. Ne?\n\nAustrálie to otestovala. V březnu 2021 ASIC vnutila každé CFD firmě, která obsluhuje retailové klienty, sadu ochran: limity páky, standardní pravidlo automatického uzavření, ochranu proti zápornému zůstatku a zákaz lákadel, jako jsou bonusy za registraci. Stejní zákazníci. Stejné firmy. Stejné trhy. Změnila se jen pravidla.\n\nTohle ASIC naměřila za prvních šest měsíců. 🔬\n\n📉 Souhrnné čisté ztráty retailových účtů klesly o 91%, z průměrných A$372 million za čtvrtletí na A$33 million.\n📉 O 51% méně ztrátových retailových účtů za čtvrtletí.\n📉 O 87% méně uzavření kvůli marži.\n📉 O 88% méně případů záporného zůstatku.\n\nZa šest měsíců nikdo nezchytrál. Změnil se návrh produktu a devět desetin škod zmizelo s ním.\n\nPlynou z toho dvě věci a měl/a by sis odnést obě.\n\nZaprvé: když prohraješ na obchodu s pákou, spousta toho, co se ti stalo, byla do produktu zabudovaná dřív, než jsi přišel/přišla. To není povolení být neopatrný/á. Je to důvod mít před tím respekt.\n\nZadruhé, a tohle je ta užitečná polovina: ochrany, které odvedly tu práci, jsou přesně ty návyky, které tě tenhle modul učí. Menší pozice. Automatický výstup. Pevná podlaha pod škodou. Regulátor je musel vnutit celému odvětví, aby dosáhl těch 91%. Ty si je můžeš prostě vybrat. 🛡️",
+      "quiz": {
+        "q": "Poté, co Austrálie vnutila CFD firmám limity páky a automatická uzavření, klesly retailové ztráty za šest měsíců o 91%. Co to ukazuje?",
+        "explanation": "Stejní zákazníci, stejné firmy, stejné trhy. Změnila se jen pravidla a devět desetin škod odešlo s nimi. Za šest měsíců nikdo nezchytrál. Ochrany, které odvedly tu práci, jsou návyky, které tě tenhle modul pořád učí: menší pozice, automatický výstup a pevná podlaha pod škodou. Regulátor je musel vnutit celému odvětví. Ty si je můžeš prostě vybrat.",
+        "options": [
+          "Australští tradeři jsou disciplinovanější než ti evropští",
+          "Páka se stane bezpečnou, jakmile na ni dohlíží regulátor",
+          "Pravidla lidem zabránila obchodovat, takže nebylo o co přijít",
+          "Většina škod pocházela z návrhu samotného produktu"
+        ]
+      }
+    },
+    "78": {
+      "title": "Gap, který přeskočí tvůj stop",
+      "desc": "Stop je pokyn k odchodu, ne slíbená cena",
+      "content": "Se stop-lossy ses už setkal/a v lekci 19. Tady je, co s nimi udělá páka.\n\nStop-loss je pokyn: „pokud cena dosáhne téhle úrovně, dostaň mě ven.“ Není to smlouva o ceně, kterou dostaneš. Říká odejdi. Neříká odejdi přesně tady.\n\nVětšinou na tom rozdílu nezáleží, protože ceny se hýbou po malých krocích a tvůj pokyn se provede blízko tvé úrovně. A pak na tom někdy záleží obrovsky.\n\n📰 Trhy zavírají. Ve 23:00 přijde zpráva. Trh otevře o 8% níž, než zavřel, a za žádnou z cen mezi tím se nikdy neobchodovalo. Tvůj stop byl v té mezeře. Spustí se při otevření a provede se tam, kde trh skutečně je, což je hodně za úrovní, kterou sis zvolil/a.\n\nBez páky je to špatný den. S pákou to může být celý účet, protože pokud byl tvůj vklad tenčí než gap, gap projde rovnou i přes tvou likvidační cenu a zavřou tě pod úrovní, kterou systém zamýšlel.\n\nTři věci, které s tím udělat, žádná z nich složitá:\n\n1️⃣ Neber stop jako záruku. Ber ho jako velmi dobrý návyk s jednou známou slabinou.\n2️⃣ Věz, kdy je tvůj trh zavřený a co je naplánované. Výsledky firem, rozhodnutí o úrokových sazbách a volby jsou gapy se zápisem v diáři.\n3️⃣ Nastav velikost tak, aby tě gap nemohl vyřídit. To je skutečná obrana a o ní je další lekce. Stop tě chrání před obyčejným. Velikost pozice tě chrání před neobvyklým, a právě to neobvyklé lidi doopravdy vyčistí.\n\nA je dobré vědět, že v téhle aplikaci, stejně jako na každém pořádně regulovaném retailovém účtu, znamená ochrana proti zápornému zůstatku, že tě gap nemůže dostat pod nulu. Můžeš přijít o účet. Nemůžeš skončit s dluhem. 📰",
+      "quiz": {
+        "q": "Nastavíš stop-loss na {c}90. Přes noc přijde špatná zpráva a trh otevře na {c}78, aniž by se mezi tím obchodovalo. Co se stane?",
+        "explanation": "Stop je pokyn k odchodu, ne slib ohledně ceny, kterou dostaneš. Mezi {c}90 a {c}78 se nikdy neobchodovalo, takže žádná cena {c}90, za kterou by se dalo prodat, nezbyla. Tvůj stop se spustí při otevření a provede se tam, kde trh skutečně je. Před obyčejnými pohyby tě stopy chrání dál. Obranou proti takovému skoku je velikost pozice, ne stop.",
+        "options": [
+          "Tvůj stop se provede na {c}90, přesně tam, kde jsi ho nastavil/a",
+          "Provede se ti to blízko {c}78, za první nabízenou cenu",
+          "Pokyn se zruší, protože cena ho přeskočila",
+          "Poskytovatel ti zaplatí {c}12, které trh přeskočil"
+        ]
+      }
+    },
+    "79": {
+      "title": "Nejdřív velikost, pak obchod",
+      "desc": "Rozhodni, o kolik můžeš přijít, dřív než rozhodneš, co koupit",
+      "content": "Tohle je věc, která odděluje ty, kdo vydrží, od těch, kdo ne, a je skoro nudná.\n\nZačátečníci si vyberou obchod a pak vymýšlejí, kolik do něj dát. Profesionálové to dělají obráceně. Nejdřív rozhodnou, o kolik jsou ochotní přijít, a podle toho určí, jak velká smí pozice být.\n\nPravidlo, které většina z nich používá: riskuj 1% až 2% účtu na jeden obchod. Ne vlož 1%. RISKUJ 1%, tedy tolik skutečně ztratíš, když se spustí tvůj stop.\n\nJak to funguje, ve třech krocích:\n\n1️⃣ Zvol maximální ztrátu. Účet 10,000 NT, riziko 1%, takže 100 NT.\n2️⃣ Zvol, kde se mýlíš. Vystoupíš, pokud cena klesne o 5% od tvého vstupu.\n3️⃣ Vyděl. 100 NT přijatelné ztráty při vzdálenosti stopu 5% znamená pozici 2,000 NT. To je tvoje velikost. Ne pocit. Výpočet.\n\nZměň stop a velikost se automaticky změní. Těsnější stop 2% ti dovolí 5,000 NT. Širší stop 10% tě stlačí na 1,000 NT. Čím rizikovější obchod, tím menší musí být, a aritmetika to udělá za tebe, takže to nemusí dělat tvoje nálada.\n\nProč 1%? Protože díky tomu se dá přežít série ztrát. Deset ztrát v řadě při 1% ti nechá 90% účtu a špatnou náladu. Deset ztrát v řadě při 20% ti nechá asi 11% účtu a žádnou cestu zpátky, a z lekce 71 už víš, jak strmé to stoupání je.\n\nNikdo nepřežije na trzích tím, že vybírá vítěze. Každý, kdo přežije, to dokáže tím, že zajistí, aby ho žádná jednotlivá ztráta nemohla vyřídit. 📐",
+      "quiz": {
+        "q": "Účet 10,000 NT. Na tomhle obchodu budeš riskovat 1% a vystoupíš, pokud cena klesne o 5% od tvého vstupu. Přetáhni na velikost pozice, která to respektuje.",
+        "explanation": "1% z 10,000 NT je 100 NT, a to je nejvíc, o co jsi souhlasil/a přijít. Stop 5% znamená 100 NT děleno 5%, což je pozice 2,000 NT. Přetáhni výš a ukazatel ti ukáže, že riskuješ víc, než jsi rozhodl/a."
+      }
+    },
+    "80": {
+      "title": "Proč výhra působí jako dovednost",
+      "desc": "Psychologické hry, které s tebou páka hraje",
+      "content": "Páka není hlavně matematický problém. Matematika je snadná. Je to problém v hlavě, a tady jsou tři, které dostanou každého.\n\n🎯 1. ZKRESLENÍ VÝSLEDKEM: výhra působí jako dovednost. Vezmeš si šíleně přerostlou pozici, vyjde to, za odpoledne vyděláš hodně a tvůj mozek si zapíše „jsem v tom dobrý/á“. Nezapsal si, co se doopravdy stalo, totiž že jsi podstoupil/a špatné riziko a dostal/a dobrý výsledek. To jsou dvě různé věci, a trh ti za špatné rozhodnutí rád několikrát zaplatí, než si to vybere zpátky. Nejnebezpečnější věc, která se novému traderovi může stát, je brzká, snadná výhra.\n\n😤 2. OBCHODOVÁNÍ Z POMSTY: chceš to zpátky, hned. Utrpíš ztrátu, štípe to a nutkání přijde okamžitě. Tak zvětšíš pozici. Teď otvíráš svou největší pozici přesně ve chvíli, kdy je tvůj úsudek nejhorší, u obchodu, který sis vybral/a, protože jsi byl/a naštvaný/á, a ne proto, že byl dobrý. Trh neví, že jsi v mínusu, a nic ti nedluží. Když tohle cítíš, správná velikost je nula. Zavři aplikaci.\n\n🕳️ 3. HONĚNÍ ZTRÁT: „Jen to podržím, dokud se to nevrátí.“ Tohle se převléká za trpělivost, a proto je tak těžké to odhalit. Trpělivost je plán, který sis v klidu udělal/a předem. Honění je plán, který sis vymyslel/a, až když cena šla proti tobě, a poznávací znamení je jednoduché: tvůj výstup se posunul. Pokud zjistíš, že si vysvětluješ, proč úroveň, kterou jsi nastavil/a, už není ta správná, není to nová analýza. To vyjednává tvoje ego.\n\nObrana proti všem třem je stejná a není nijak oslnivá. Rozhodni všechno, dokud jsi v klidu, zapiš si to a ber verzi sebe, která se objeví uprostřed obchodu, jako nespolehlivého vypravěče. 🧠",
+      "quiz": {
+        "q": "Vezmeš si mnohem větší pozici než obvykle a ta za jedno odpoledne vydělá velký zisk. Jak se to dá vyložit nejpřesněji?",
+        "explanation": "Tvůj mozek si zapíše, že jsi v tom dobrý/á. Ve skutečnosti se stalo to, že jsi podstoupil/a špatné riziko a trh ti náhodou stejně zaplatil, a to jsou dvě oddělené věci. Trh za špatné rozhodnutí zaplatí několikrát, než si to vybere zpátky. Brzká, snadná výhra je nejnebezpečnější věc, která se novému traderovi může stát, protože tě naučí špatnou lekci a účet ti pošle později.",
+        "options": [
+          "Tohle je přístup, který funguje, a dá se zase zvětšit",
+          "Velikost byla správná, protože to dokazuje zisk",
+          "Podstoupil/a jsi špatné riziko a náhodou dostal/a dobrý výsledek",
+          "Velké zisky ukazují dovednost a chyby ukazují až ztráty"
+        ]
+      }
+    },
+    "81": {
+      "title": "Upřímná otázka",
+      "desc": "Měl/a bys to vůbec používat?",
+      "content": "Dokončil/a jsi modul. Tady je otázka, kterou reklamy nikdy nepoloží.\n\nMěl/a bys páku vůbec používat?\n\nPro většinu lidí je většinu času upřímná odpověď ne. Ne proto, že by nebyli dost chytří. Kvůli všemu z posledních patnácti lekcí: začínáš pozadu, platíš nájem, zatímco čekáš, obyčejný pohyb tě může vyřídit dřív, než se ukáže, že máš pravdu, a tři regulátoři, kteří počítali skutečné účty, opakovaně zjistili, že prodělaly dvě třetiny až devět desetin lidí.\n\nExistuje verze obchodování, ve které se ničeho z toho nikdy nedotkneš. Koupíš akcii, vlastníš kousek firmy, přicházejí dividendy, čas pracuje PRO tebe místo proti tobě a nic nemůže nikdy zavřít tvou pozici, aniž by se zeptalo. To je zbytek téhle aplikace, a není to nudná možnost. Je to možnost, o které matematika z lekce 14 říká, že obvykle vyhrává. 🌱\n\nTakže tady je, co bys měl/a vědět, než se rozhodneš.\n\nNic v téhle aplikaci není zamčené za pákou. Každá soutěž, každý žebříček, každá cesta k XP, každý školní zápas a každá odměna NOOB zůstávají úplně otevřené někomu, kdo nikdy neotevře jedinou pozici s pákou. Odchodem z téhle místnosti nic neztratíš. Žádný trest a žádný chybějící odznak.\n\nA nic tady tě neodměňuje za výhry. Odměnu dostaneš za dokončení lekcí, za složení testu, za nastavení stopu, za uzavření ztrátové pozice a za sepsání rozboru vlastní likvidace. Nikdy tě nezaplatíme za zisk, velkou pozici nebo šťastnou sérii, protože odměňovat tě za ně by znamenalo učit tě špatnou věc a nazývat to vzděláním.\n\nPokud ji používáš: používej ji v malém, se stopem, znej svou likvidační cenu dřív, než cokoli zmáčkneš, a nikdy s penězi, které by ti chyběly. Pokud ji nepoužíváš, stejně ses naučil/a vidět ten mechanismus, a o to šlo vždycky. Většina dospělých, kteří s tímhle obchodují, neumí vysvětlit, co ses právě naučil/a. 🤔",
+      "quiz": {
+        "q": "Čeho se vzdává ten, kdo se rozhodne v téhle aplikaci nikdy neotevřít pozici s pákou?",
+        "explanation": "Nic v téhle aplikaci není zamčené za pákou. Každá soutěž, každý žebříček, každá cesta k XP, každý školní zápas a každá odměna NOOB zůstávají otevřené někomu, kdo nikdy neotevře jedinou pozici s pákou. Žádný trest a žádný chybějící odznak. A nic v téhle místnosti tě neodměňuje za výhry: odměna je za dokončení lekcí, složení testu, nastavení stopu a uzavření ztrátové pozice.",
+        "options": [
+          "Vůbec ničeho, každá cesta mu zůstává otevřená",
+          "Všech soutěží a žebříčků v aplikaci",
+          "XP v tomhle modulu, které se vyplácí za obchody s pákou",
+          "Odměn NOOB, které nejdřív vyžadují jednu pozici s pákou"
+        ]
+      }
+    },
+    "82": {
+      "title": "Krach účtu",
+      "desc": "Pět dní, jeden agresivní plán, jeden prázdný účet",
+      "content": "Vítej v Laboratoři. Tady dostaneš oddělený cvičný účet s 1,000 LAB NT. Není to tvoje peněženka, nemůže se tvé peněženky dotknout a nic, co se v něm vyhraje nebo prohraje, z něj neodejde. Nástrojem je NOVA. NOVA je vymyšlená, takže nás nikdo nemůže obvinit, že předpovídáme skutečný krach. Sazba vkladu 25%. Financování 0.02% za noc. Uzavření při 50% použité marže. A jen pro tenhle boss kvíz jsou limity pozic vypnuté. Schválně. Jednou.\n\nTady je týden, který se chystáš vysvětlit.\n\n📅 DEN 1: NOVA na 100. Dobré výsledky, skupinový chat hučí. Složíš 800 z tvých 1,000 NT a ovládáš NOVA za 3,200 NT. Bez stopu.\n\n📅 DEN 2: NOVA 106. Jsi v plusu 192 NT, což je +19.2% tvého účtu za jeden den. Přidáš svých posledních 200 NT. Expozice 4,000 NT. Volná hotovost: nula. Pořád bez stopu.\n\n📅 DEN 3: NOVA 101.76. Úroveň marže 103%. Za týden jsi pořád v plusu, tak držíš.\n\n📅 DEN 4: NOVA 94.64. MARGIN CALL. Úroveň marže 75%, kapitál 750 NT. Přidat nemůžeš, protože už není co přidat. Držíš.\n\n📅 DEN 5: NOVA přes noc spadne s gapem o 9% a otevře na 86.12, pod úrovní uzavření. ZLIKVIDOVÁNO při 390 NT.\n\nZa týden NOVA klesla o 13.9%. Tvůj účet klesl o 61%. Student, který složil 250 NT se stopem na 95, skončil stejný týden zhruba na 949 NT, v mínusu 5%. A stejných 800 NT bez stopu, ale bez přidání ve dni 2, by skončilo na 550 NT: margin call, ale naživu.\n\nTeď rozbor. Deset otázek o tom, co se právě stalo. Dej 8 z 10 a bosse jsi porazil/a, protože tady je úspěch umět vysvětlit tu trosku, ne se jí vyhnout. 💀",
+      "bossVictory": "Zničil/a sis účet a odešel/odešla jsi s tím, že víš proč. To je celý modul. 💀",
+      "bossQuestions": {
+        "0": {
+          "q": "Během pěti dnů NOVA klesla asi o 14%. Tvůj účet klesl o 61%. Proč ten rozdíl?",
+          "options": [
+            "Aplikace si účtovala pokutu za prohru",
+            "Držel/a jsi asi čtyřikrát větší expozici, než kolik měl tvůj vklad, takže každý pohyb zasáhl číslo čtyřikrát větší než tvůj účet",
+            "Většinu ztráty tvořilo financování",
+            "NOVA je rizikovější akcie, než naznačují čísla"
+          ]
+        },
+        "1": {
+          "q": "Ve dni 2 jsi byl/a v plusu 192 NT, což bylo 19.2% tvého účtu za jediný den. Co ti to doopravdy říkalo?",
+          "options": [
+            "Že tvůj odhad byl správný a měl/a bys pozici zvětšit",
+            "Že pozice měla dobrou velikost, protože byla zisková",
+            "Že páka je bezpečná, když máš pravdu",
+            "Že pozice byla dost velká na to, aby pohnula tvým účtem o 19% za den, což znamená, že byla dost velká, aby udělala totéž opačným směrem"
+          ]
+        },
+        "2": {
+          "q": "Ve dni 2 jsi do vítězné pozice přidal/a svých posledních 200 NT. Co tě to stálo?",
+          "options": [
+            "Obě poloviny tvé ochrany: zvýšilo to expozici z 3,200 na 4,000 a utratilo to jedinou volnou hotovost, která mohla odpovědět na margin call",
+            "Nic, protože přidávání k vítězi je způsob, jak profesionálové zhodnocují",
+            "Jen těch 200 NT samotných, které by pozice vydělala zpátky",
+            "Trochu financování, protože noční nájem mírně vzrostl"
+          ]
+        },
+        "3": {
+          "q": "Ve dni 3 tvoje úroveň marže dosáhla 103%. Co to číslo znamenalo?",
+          "options": [
+            "Byl/a jsi financovaný/á na 103%, takže pozice byla nadměrně zajištěná a bezpečná",
+            "Tvůj účet byl za týden v plusu 3%",
+            "Tvůj kapitál sotva pokrýval tvoje složené vklady, takže polštář byl pryč a další pohyb by začal ujídat samotný vklad",
+            "Samo o sobě nic, protože úroveň marže je důležitá až pod 50%"
+          ]
+        },
+        "4": {
+          "q": "Při margin callu ve dni 4 by zavření zafixovalo ztrátu 250 NT. Držel/a jsi. Proč je držení odpověď, kterou volí většina lidí?",
+          "options": [
+            "Protože držení je obvykle matematicky správná reakce na margin call",
+            "Protože zavřít znamená přiznat, že obchod byl špatný, a držení ti dovolí dál věřit, že ještě není konec",
+            "Protože margin cally se obvykle vyřeší samy do jednoho dne",
+            "Protože poskytovatel doporučuje držet, aby se ztráty nezrealizovaly"
+          ]
+        },
+        "5": {
+          "q": "Zlikvidovali tě při 390 NT, ale úroveň uzavření byla 500 NT kapitálu. Proč jsi skončil/a pod ní?",
+          "options": [
+            "Poskytovatel si účtoval likvidační pokutu 110 NT",
+            "NOVA přes noc spadla s gapem o 9% a otevřela pod tou úrovní, takže uzavření se provedlo za první cenu, kterou trh skutečně nabídl",
+            "Financování se strhlo najednou v okamžiku likvidace",
+            "Úroveň uzavření je jen odhad a obvykle se o tolik mine"
+          ]
+        },
+        "6": {
+          "q": "Student, který složil 250 NT a nastavil stop na 95, skončil stejný týden zhruba na 949 NT. Co udělal správně?",
+          "options": [
+            "Rozhodl o své maximální ztrátě dřív, než otevřel, a podle toho určil velikost",
+            "Líp přečetl graf NOVA a pokles viděl předem",
+            "Vyhnul se financování tím, že použil menší vklad",
+            "Měl štěstí, protože stejná rozhodnutí obvykle prohrávají"
+          ]
+        },
+        "7": {
+          "q": "Každou noc jsi platil/a financování z celé expozice 4,000 NT. Jak moc na tom u tohohle obchodu záleželo?",
+          "options": [
+            "Tvořilo většinu ztráty, protože financování se každou noc skládá",
+            "Vůbec ne, protože financování se účtuje jen u pozic, které přežijí měsíc",
+            "Jen pár NT, protože obchod byl krátký. Financování zabíjí pozici, která se měsíce nikam nehne, ne tu, která vybuchne za týden",
+            "Asi 192 NT, stejně jako zisk ve dni 2"
+          ]
+        },
+        "8": {
+          "q": "Každá volba tady byla povolená. V CFD Hubu většina z nich povolená nebude. Proč?",
+          "options": [
+            "Protože limity zlevňují provoz aplikace",
+            "Protože regulátoři vyžadují cvičný režim před jakýmkoli simulovaným obchodováním",
+            "Protože lidé pod 18 let nesmějí sledovat likvidaci dvakrát",
+            "Právě jsi viděl/a, jak vklad 80% v jedné pozici a nulová volná hotovost zničily účet za pět dní, a limity existují proto, aby přesně tenhle sled událostí nebyl možný"
+          ]
+        },
+        "9": {
+          "q": "Jaká je ta nejužitečnější věc, kterou si z toho odnést?",
+          "options": [
+            "Že velikost pozice, rozhodnutá dřív, než ji otevřeš, záleží víc než to, jestli máš pravdu ohledně směru",
+            "Že NOVA byla špatná volba akcie a lepší průzkum by účet zachránil",
+            "Že na páku by nikdo neměl za žádných okolností ani sáhnout",
+            "Že margin cally jsou nepředvídatelné, takže se nedalo nic dělat"
+          ]
+        }
+      }
+    },
+    "83": {
+      "title": "Licence",
+      "desc": "Deset otázek. Osm správně na úspěch.",
+      "content": "Licence je zkouška, ke které tenhle modul celou dobu směřoval. Deset otázek, a každá je výpočet nebo rozhodnutí u pozice, která vypadá jako živá, protože ani CFD Hub se nezabývá definicemi.\n\nHranice úspěchu je 8 z 10. Máš 3 pokusy denně. Řekneme ti skóre, ale ne, které otázky jsi pokazil/a, takže neúspěšný pokus je signál znovu si přečíst modul, ne znovu hádat.\n\nNic tady není chyták. Každé číslo pochází přímo z lekcí, které máš za sebou. Pokud zvládneš těchhle deset, rozumíš tomuhle modulu líp než většina dospělých, kteří s těmito produkty obchodují doopravdy. 🎫",
+      "bossVictory": "Umíš se podívat na skutečnou obrazovku, ve skutečných číslech, a říct ne. To je ta licence. 🎫",
+      "bossQuestions": {
+        "0": {
+          "q": "Tvůj účet má 1,000 NT a nic jiného otevřeného. Složíš celých 1,000 NT jako vklad při sazbě 25% a ovládáš 4,000 NT v {tech} za 200 NT za akcii. Uzavření se spustí při 50% tvého vkladu. Kde se musí {tech} obchodovat, aby tě uzavřeli?",
+          "options": [
+            "150 NT, pokles o 25%, odpovídá sazbě vkladu",
+            "100 NT, pokles o 50%, stejně jako pravidlo uzavření",
+            "175 NT, pokles o 12.5%, protože ztráta 500 NT na expozici 4,000 NT vyžaduje pohyb o 12.5%",
+            "195 NT, pokles o 2.5%"
+          ]
+        },
+        "1": {
+          "q": "Pozice 3,000 NT stojí 0.02% za noc na financování. Očekáváš pohyb o 3% ve svůj prospěch, v hodnotě 90 NT. Kolik nocí má ten názor hodnotu, než ho financování sežere?",
+          "options": [
+            "Asi 50 nocí",
+            "Asi 150 nocí, protože 90 NT děleno 0.60 NT za noc je 150",
+            "Asi 300 nocí",
+            "Nikdy ho nesežere, protože financování se týká jen ztrátových pozic"
+          ]
+        },
+        "2": {
+          "q": "Tvůj účet má 5,000 NT. Na obchodu budeš riskovat 2% a vystoupíš, pokud se cena pohne o 4% proti tobě. Jakou největší pozici bys měl/a otevřít?",
+          "options": [
+            "100 NT, částku, kterou riskuješ",
+            "1,000 NT, pětinu účtu",
+            "5,000 NT, protože stop účet stejně ochrání",
+            "2,500 NT, protože 100 NT přijatelné ztráty děleno vzdáleností stopu 4% dává velikost"
+          ]
+        },
+        "3": {
+          "q": "Pozice ti srazila účet z 1,000 NT na 400 NT. Jaký výnos odsud potřebuješ, jen aby ses vrátil/a na 1,000 NT?",
+          "options": [
+            "150%, protože 400 NT musí vyrůst o jedenapůlnásobek sebe sama, aby dosáhlo 1,000",
+            "60%, stejné procento, jaké jsi ztratil/a",
+            "100%, protože zdvojnásobení tě vždycky vrátí zpátky",
+            "250%, dvojnásobek toho, co jsi ztratil/a"
+          ]
+        },
+        "4": {
+          "q": "Živá karta ukazuje: úroveň marže 82%, volná hotovost 0, jedna pozice otevřená a v mínusu 18%. Který tah opravdu snižuje riziko likvidace?",
+          "options": [
+            "Přidat na účet hotovost",
+            "Držet a čekat, až se úroveň zotaví",
+            "Zavřít pozici, což okamžitě uvolní marži, kterou používala",
+            "Otevřít druhou pozici opačným směrem, aby ji vyrovnala"
+          ]
+        },
+        "5": {
+          "q": "Shortuješ {tech} na 50 NT s pozicí 2,000 NT. Převzetí firmy ji přes noc přecení na 150 NT. Jak se ta ztráta srovnává s nejhorším případem u long pozice stejné velikosti?",
+          "options": [
+            "Je stejná, protože obojí je omezené tím, co jsi vložil/a",
+            "Short ztratí 4,000 NT, dvojnásobek hodnoty pozice, zatímco long by nikdy nemohl ztratit víc než samotnou pozici 2,000 NT",
+            "Short neztratí nic, pokud byl nastavený stop-loss, protože stopy jsou zaručené",
+            "Ztráta shortu je menší, protože ceny padají rychleji, než rostou"
+          ]
+        },
+        "6": {
+          "q": "Tvůj stop leží na 90 NT. Přes noc přijde zpráva a trh otevře na 78 NT, aniž by se mezi tím vůbec obchodovalo. Co se stane a jaká je proti tomu skutečná obrana?",
+          "options": [
+            "Provede se ti to na 90 NT, protože to stop zaručuje",
+            "Pokyn se zruší, protože cena tvou úroveň přeskočila",
+            "Provede se ti to blízko 78 NT, a obranou proti gapům je velikost pozice, ne stop",
+            "Poskytovatel ti dluží rozdíl mezi 90 a 78"
+          ]
+        },
+        "7": {
+          "q": "Proč má krypto v CFD Hubu nejvyšší požadavek na vklad?",
+          "options": [
+            "Hýbe se nejprudčeji, takže tenký vklad by vyprázdnil úplně obyčejný kryptoden",
+            "U krypta se neúčtuje financování, takže ho vklad nahrazuje",
+            "Krypto je pro lidi pod 18 let zakázané a vklad je trest",
+            "Ceny krypta určuje aplikace, a ne trh"
+          ]
+        },
+        "8": {
+          "q": "Co z toho ti v tomhle modulu vydělá XP?",
+          "options": [
+            "Zisk 40% na pozici s pákou",
+            "Použití největší dostupné expozice",
+            "Série pěti vítězných obchodů za sebou",
+            "Zavření ztrátové pozice místo přidávání do ní"
+          ]
+        },
+        "9": {
+          "q": "Náhled před obchodem říká, že nepříznivý pohyb o 10% ti z účtu vezme 620 NT, což je 62% tvé peněženky. Tvoje likvidační cena je 88.40 a {tech} se právě obchoduje za 96.00. Otevřeš to?",
+          "options": [
+            "Ano, protože likvidační cena je bezpečně pod aktuální cenou",
+            "Ano, pokud si jsi jistý/á směrem",
+            "Jen s dvojnásobnou expozicí, aby to riziko stálo za to",
+            "Ne: zhruba 8% pohyb vyprázdní pozici, 8% je obyčejný pohyb a 62% peněženky na jeden obchod porušuje každé pravidlo velikosti z tohohle modulu"
+          ]
+        }
+      }
+    },
+    "84": {
+      "title": "Tvůj nejhorší případ, zvolený předem",
+      "desc": "Stop-loss, take-profit a výstup, který nikdo nevolí",
+      "content": "Znáš vklad, margin call, uzavření, nájem, stop i gap. Tahle lekce dává na místo poslední dílek: každá pozice, kterou kdy otevřeš, skončí přesně jedním ze tří způsobů, a celá hra je o tom, kdo vybere který.\n\n1️⃣ ZAVŘEŠ JI TY. Ťukneš na tlačítko a pozice se zavře za aktuální tržní cenu. Vždycky dostupné, u každé pozice, v každém stavu. Většina výstupů by měla být právě tahle.\n\n2️⃣ ZAVŘE JI POKYN, KTERÝ SIS NASTAVIL/A. Dva druhy, a na názvech záleží, tak se je nauč pořádně:\n\n• POKYN STOP-LOSS tě automaticky zavře, když se cena pohne PROTI tobě na úroveň, kterou sis zvolil/a: sell-stop pod tvým vstupem u longu, buy-stop nad tvým vstupem u shortu. Je to tvůj nejhorší případ, rozhodnutý, dokud jsi byl/a v klidu, a lekce 80 tě už naučila, že to je jediná chvíle, kdy se rozhoduješ dobře.\n• POKYN TAKE-PROFIT je limitní pokyn k zavření: automaticky tě zavře na cíli, který sis zvolil/a, když se cena pohne VE TVŮJ PROSPĚCH a dosáhne ho. Je to tvoje „stačí“, rozhodnuté dřív, než chamtivost dostala hlas. Limitní pokyn se provede na tvé úrovni nebo lépe, nikdy hůř.\n\n3️⃣ ZAVŘE JI POSKYTOVATEL. To je likvidace z lekce 70. A tohle si vryj do paměti: likvidace není typ pokynu. Nemůžeš zadat „likvidační obchod“. Nikdo nemůže. Není to nástroj v tvé výbavě; je to to, co dělá poskytovatel, aby ochránil svou půjčku, když ti skoro došel vklad, za jakoukoli cenu, kterou trh zrovna platí, zatímco jsi ve škole nebo spíš.\n\nStop-loss je tvoje rozhodnutí o nejhorším případu předem. Likvidace je to, co se stane, když ses nerozhodl/a.\n\nOba tvoje pokyny jsou upřímné stejným způsobem, a ty to už víš z lekce 78: spustí se na tvé úrovni a provedou se za to, co trh skutečně platí. Gap přes tvůj stop tě provede na druhé straně skoku, což je horší. Gap přes tvůj take-profit tě provede taky na druhé straně, což je lepší. Stejný fakt, otočený oběma směry.\n\nJedno pravidlo umístění, a tahle aplikace ho vynucuje i s důvodem na obrazovce: tvůj stop musí ležet mezi aktuální cenou a tvou likvidační cenou. Stop za likvidační cenou by se nikdy nemohl spustit, protože poskytovatel by tě zavřel dřív, takže ho aplikace odmítne a řekne ti proč.\n\nTři dveře ven z každého obchodu. Na klice dvou z nich je tvoje jméno. Odejít jedněmi z nich, v den, který sis vybral/a, na úrovni, kterou sis v klidu zvolil/a, je to, co tě celý tenhle modul učil. 🚪",
+      "quiz": {
+        "q": "Tvoje long pozice má stop-loss, který sis nastavil/a na 180.00, a likvidační cenu 150.00. Jaký je skutečný rozdíl mezi těmi dvěma čísly?",
+        "options": [
+          "Vůbec žádný, jsou to dva názvy pro stejné automatické uzavření a poskytovatel ho pokaždé spustí za jedinou cenu",
+          "Stop-loss je rozhodnutí poskytovatele a likvidační cena je tvoje, takže ta, kterou opravdu ovládáš, se spustí jako druhá",
+          "Stop na 180.00 je tvůj nejhorší případ, zvolený tebou předem v klidu; 150.00 je místo, kde tě poskytovatel zavře, aby ochránil svou půjčku, protože už nemáš slovo",
+          "Stop zaručuje provedení přesně na 180.00, ať trh dělá cokoli, zatímco likvidace se může provést za jakoukoli cenu, ať cena utekla jakkoli daleko"
+        ]
+      }
+    }
+  },
+  "context": {
+    "ZA": {
+      "name": "Jihoafrická republika",
+      "cName": "rand",
+      "cPlural": "randů",
+      "exDesc": "jedna z největších burz na celém africkém kontinentu",
+      "sectorList": "⛏️ Těžba: Anglo American, Impala Platinum. Navázané na světové ceny komodit\n🏦 Bankovnictví: Standard Bank, FirstRand, Capitec. Daří se jim, když jsou úrokové sazby vyšší\n📱 Technologie: Naspers, Prosus. Navázané na světové technologické trendy\n🛍️ Maloobchod: Shoprite, Pick n Pay. Daří se jim, když mají zákazníci peníze na utrácení\n📡 Telekomunikace: MTN, Vodacom. Stabilnější, protože lidé data potřebují vždycky",
+      "etfBasket": "40 největších firem na JSE",
+      "etfDesc": "Například JSE Top 40 je seznam 40 největších firem kotovaných na JSE, seřazených podle hodnoty akcií, které jsou skutečně k dispozici k obchodování.",
+      "etfList": "🇿🇦 Satrix Top 40: 40 největších firem na JSE. Skvělý začátek.\n🌍 Satrix MSCI World: Firmy z 23 vyspělých zemí jedním nákupem.\n🇺🇸 Sygnia Itrix S&P 500: 500 velkých amerických firem ze seznamu S&P 500.\n💡 Satrix Nasdaq 100: 100 největších nefinančních firem na Nasdaqu. Hodně technologií.",
+      "currencyHedge": "Ty jsou oceněné v dolarech nebo eurech. Takže když rand OSLABÍ (z R20 za dolar je R22), tvoje globální investice mají v randech AUTOMATICKY vyšší hodnotu!",
+      "fxQuizSetup": "Rand oslabí vůči dolaru z R18 na R22",
+      "fxQuizLose": "Ztratí hodnotu, protože Jihoafrické republice se daří hůř",
+      "fxQuizGain": "V randech VZROSTE, protože za každý dolar dostaneš víc randů",
+      "dcaTitle": "Průměrování nákladů v randech",
+      "dcaAbbrev": "RCA",
+      "food": "burger Wimpy"
+    },
+    "US": {
+      "name": "Spojené státy",
+      "cName": "dolar",
+      "cPlural": "dolarů",
+      "exDesc": "s velkým náskokem největší akciový trh na světě",
+      "sectorList": "💻 Technologie: Apple, Microsoft, Alphabet. Poháněné inovacemi a celosvětovou poptávkou\n🏦 Bankovnictví: JPMorgan, Bank of America, Goldman Sachs. Daří se jim, když úrokové sazby rostou\n🛍️ Maloobchod: Amazon, Walmart, Costco. Daří se jim, když zákazníci utrácejí\n⚡ Energetika: Exxon Mobil, Chevron. Navázané na světové ceny ropy a plynu\n📡 Telekomunikace: AT&T, Verizon, T-Mobile. Lidé připojení potřebují vždycky",
+      "etfBasket": "500 velkých amerických firem ze seznamu S&P 500",
+      "etfDesc": "Například S&P 500 je seznam 500 velkých amerických firem, které vybírá komise. Musí být velké, ziskové a snadno obchodovatelné. NENÍ to prostě 500 největších a kombinuje firmy kotované na NYSE s firmami kotovanými na Nasdaqu.",
+      "etfList": "🇺🇸 SPY / VOO: Sledují S&P 500, seznam 500 velkých amerických firem. Zlatý standard.\n📦 VTI: Celý americký akciový trh, tisíce firem v jednom ETF.\n💡 QQQ: 100 největších nefinančních firem na Nasdaqu. Hodně technologií.\n🌍 VT / VXUS: Globální nebo mezinárodní firmy v jediném fondu.",
+      "currencyHedge": "Když dolar oslabí vůči jiným měnám, tvoje mezinárodní investice mají v dolarech automaticky VYŠŠÍ hodnotu!",
+      "fxQuizSetup": "Dolar výrazně oslabí vůči euru a jenu",
+      "fxQuizLose": "Ztratí hodnotu, protože americká ekonomika má potíže",
+      "fxQuizGain": "V dolarech VZROSTE, protože tvoje zahraniční investice získaly na hodnotě měny",
+      "dcaTitle": "Průměrování nákladů v dolarech",
+      "dcaAbbrev": "DCA",
+      "food": "menu Big Mac"
+    },
+    "GB": {
+      "name": "Spojené království",
+      "cName": "libra",
+      "cPlural": "liber",
+      "exDesc": "jedna z nejstarších a nejdůležitějších burz na světě",
+      "sectorList": "⚡ Energetika: Shell, BP. Světoví giganti v ropě a plynu\n🏦 Bankovnictví: HSBC, Barclays, Lloyds. Daří se jim, když jsou úrokové sazby vyšší\n🧴 Spotřební zboží: Unilever, Diageo, Reckitt. Velmoci značek pro domácnost\n🛍️ Maloobchod: Tesco, Sainsbury's. Daří se jim, když zákazníci utrácejí\n📡 Telekomunikace: Vodafone, BT Group. Lidé připojení potřebují vždycky",
+      "etfBasket": "100 největších firem na Londýnské burze",
+      "etfDesc": "Například FTSE 100 je seznam 100 největších firem na hlavním trhu Londýnské burzy, který se přezkoumává každé tři měsíce.",
+      "etfList": "🇬🇧 iShares Core FTSE 100: 100 největších firem na Londýnské burze.\n🌍 Vanguard FTSE All-World: Firmy z desítek zemí jedním nákupem.\n🇺🇸 iShares Core S&P 500: 500 velkých amerických firem ze seznamu S&P 500.\n💡 iShares Nasdaq 100: 100 největších nefinančních firem na Nasdaqu. Hodně technologií.",
+      "currencyHedge": "Když libra oslabí vůči jiným měnám, tvoje mezinárodní investice mají v librách automaticky VYŠŠÍ hodnotu!",
+      "fxQuizSetup": "Libra výrazně oslabí vůči dolaru a euru",
+      "fxQuizLose": "Ztratí hodnotu, protože britská ekonomika má potíže",
+      "fxQuizGain": "V librách VZROSTE, protože tvoje zahraniční investice získaly na hodnotě měny",
+      "dcaTitle": "Průměrování nákladů v librách",
+      "dcaAbbrev": "PCA",
+      "food": "kuřecí čtvrtku z Nando's"
+    },
+    "IN": {
+      "name": "Indie",
+      "cName": "rupie",
+      "cPlural": "rupií",
+      "exDesc": "jedna z největších burz na světě podle počtu obchodů",
+      "sectorList": "💻 Technologie: TCS, Infosys, Wipro. Světové velmoci IT služeb\n🏦 Bankovnictví: HDFC Bank, SBI, ICICI. Daří se jim, když jsou úrokové sazby vyšší\n🛍️ Spotřební zboží: ITC, Hindustan Unilever, DMart. Daří se jim, když zákazníci utrácejí\n⚡ Energetika: Reliance, ONGC. Navázané na ropu, plyn a rafinace\n📡 Telekomunikace: Airtel, Vodafone Idea. Obří indický mobilní trh pořád roste",
+      "etfBasket": "50 největších a nejvíc obchodovaných indických firem",
+      "etfDesc": "Například Nifty 50 je seznam 50 největších a nejvíc obchodovaných indických firem, vybraných podle velikosti A podle toho, jak snadno se dají koupit a prodat, ne jen podle velikosti.",
+      "etfList": "🇮🇳 Nippon India Nifty 50: Nifty 50, seznam 50 největších a nejvíc obchodovaných indických firem.\n💡 ICICI Prudential Sensex: Sensex, seznam 30 nejznámějších indických blue chips.\n📦 Kotak Nifty Next 50: 50 firem, které jsou v pořadí hned za Nifty 50.\n🌍 Motilal Oswal Nasdaq 100: 100 největších nefinančních firem na Nasdaqu.",
+      "currencyHedge": "Když rupie oslabí vůči dolaru, tvoje mezinárodní investice mají v rupiích automaticky VYŠŠÍ hodnotu!",
+      "fxQuizSetup": "Rupie oslabí vůči dolaru z ₹82 na ₹90",
+      "fxQuizLose": "Ztratí hodnotu, protože indická ekonomika má potíže",
+      "fxQuizGain": "V rupiích VZROSTE, protože za každý dolar dostaneš víc rupií",
+      "dcaTitle": "Průměrování nákladů v rupiích",
+      "dcaAbbrev": "RCA",
+      "food": "pizzu z Domino's"
+    },
+    "JP": {
+      "name": "Japonsko",
+      "cName": "jen",
+      "cPlural": "jenů",
+      "exDesc": "jedna z největších burz na světě",
+      "sectorList": "🚗 Automobilový průmysl: Toyota, Honda, Nissan. Světově proslulé japonské automobilky\n💻 Technologie: Sony, SoftBank, Nintendo. Hry, zábava a inovace\n🏦 Bankovnictví: MUFG, SMFG, Mizuho. Japonské megabankovní skupiny\n🛍️ Maloobchod: Fast Retailing (Uniqlo), Seven & i. Globální dosah maloobchodu\n📡 Telekomunikace: NTT, KDDI, SoftBank. Obří mobilní infrastruktura",
+      "etfBasket": "225 firem ze seznamu Nikkei 225",
+      "etfDesc": "Například Nikkei 225 je seznam 225 známých japonských firem vybraných tak, aby reprezentovaly celý trh. Je vážený cenou, což znamená, že akcie s vysokou cenou má větší váhu než firma, která je prostě velká.",
+      "etfList": "🇯🇵 ETF na Nikkei 225: 225 firem ze seznamu Nikkei 225. Měřítko trhu.\n📦 ETF na TOPIX: Mnohem širší výsek tokijského trhu, výrazně přes tisíc firem.\n🌍 MAXIS All Country World: Vyspělé i rozvíjející se trhy v jednom fondu.\n🇺🇸 iShares S&P 500: 500 velkých amerických firem ze seznamu S&P 500.",
+      "currencyHedge": "Když jen oslabí vůči jiným měnám, tvoje mezinárodní investice mají v jenech automaticky VYŠŠÍ hodnotu!",
+      "fxQuizSetup": "Jen oslabí vůči dolaru z ¥130 na ¥155",
+      "fxQuizLose": "Ztratí hodnotu, protože japonská ekonomika má potíže",
+      "fxQuizGain": "V jenech VZROSTE, protože tvoje zahraniční investice získaly na hodnotě měny",
+      "dcaTitle": "Průměrování nákladů v jenech",
+      "dcaAbbrev": "YCA",
+      "food": "misku ramenu"
+    },
+    "DE": {
+      "name": "Německo",
+      "cName": "euro",
+      "cPlural": "eur",
+      "exDesc": "jedna z největších burz v Evropě",
+      "sectorList": "💻 Technologie: SAP, Infineon. Podnikový software a polovodiče\n🚗 Automobilový průmysl: Volkswagen, BMW, Mercedes-Benz. Pýcha německého inženýrství\n🏦 Bankovnictví: Deutsche Bank, Commerzbank. Daří se jim, když úrokové sazby rostou\n🏭 Průmysl: Siemens, BASF. Globální výroba a chemie\n📡 Telekomunikace: Deutsche Telekom, 1&1. Páteř německého připojení",
+      "etfBasket": "40 největších německých firem na frankfurtské burze",
+      "etfDesc": "Například DAX 40 je seznam 40 největších německých firem na frankfurtské burze a od roku 2021 musí být navíc ziskové, aby se do něj dostaly.",
+      "etfList": "🇩🇪 iShares Core DAX: 40 největších německých firem na frankfurtské burze.\n🌍 Xtrackers MSCI World: Firmy z 23 vyspělých zemí.\n🇺🇸 iShares Core S&P 500: 500 velkých amerických firem ze seznamu S&P 500.\n🇪🇺 ETF na EURO STOXX 50: 50 předních blue-chip firem z celé eurozóny.",
+      "currencyHedge": "Když euro oslabí vůči jiným měnám, tvoje mezinárodní investice mají v eurech automaticky VYŠŠÍ hodnotu!",
+      "fxQuizSetup": "Euro výrazně oslabí vůči dolaru a jenu",
+      "fxQuizLose": "Ztratí hodnotu, protože evropská ekonomika má potíže",
+      "fxQuizGain": "V eurech VZROSTE, protože tvoje zahraniční investice získaly na hodnotě měny",
+      "dcaTitle": "Průměrování nákladů",
+      "dcaAbbrev": "DCA",
+      "food": "döner kebab"
+    },
+    "CA": {
+      "name": "Kanada",
+      "cName": "kanadský dolar",
+      "cPlural": "kanadských dolarů",
+      "exDesc": "jedna z 10 největších burz na světě",
+      "sectorList": "💻 Technologie: Shopify, OpenText, Constellation Software. Kanadské technologické inovace\n🏦 Bankovnictví: RBC, TD, BMO, Scotiabank. Kanadská velká pětka je pevná jako skála\n⚡ Energetika: Enbridge, Suncor, TC Energy. Giganti ropných písků a ropovodů\n🛍️ Maloobchod: Dollarama, Canadian Tire, Loblaw. Domácí maloobchodní značky\n📡 Telekomunikace: BCE, Rogers, Telus. Kanaďané připojení potřebují vždycky",
+      "etfBasket": "60 velkých kanadských firem ze všech hlavních odvětví",
+      "etfDesc": "Například S&P/TSX 60 je seznam 60 velkých kanadských firem, které vybírá komise tak, aby bylo zastoupeno každé hlavní odvětví, takže to není prostě 60 největších.",
+      "etfList": "🇨🇦 iShares S&P/TSX 60 (XIU): 60 velkých kanadských firem ze všech hlavních odvětví.\n📦 Vanguard All-Equity (VEQT): Kanadské, americké a mezinárodní akcie v jednom ETF.\n🇺🇸 BMO S&P 500: 500 velkých amerických firem ze seznamu S&P 500.\n💡 ETF na Nasdaq 100: 100 největších nefinančních firem na Nasdaqu. Hodně technologií.",
+      "currencyHedge": "Když kanadský dolar oslabí vůči jiným měnám, tvoje mezinárodní investice mají v C$ automaticky VYŠŠÍ hodnotu!",
+      "fxQuizSetup": "Kanadský dolar výrazně oslabí vůči americkému dolaru",
+      "fxQuizLose": "Ztratí hodnotu, protože kanadská ekonomika má potíže",
+      "fxQuizGain": "V kanadských dolarech VZROSTE, protože tvoje zahraniční investice získaly na hodnotě měny",
+      "dcaTitle": "Průměrování nákladů v dolarech",
+      "dcaAbbrev": "DCA",
+      "food": "menu z Tim Hortons"
+    },
+    "AU": {
+      "name": "Austrálie",
+      "cName": "australský dolar",
+      "cPlural": "australských dolarů",
+      "exDesc": "největší burza na jižní polokouli",
+      "sectorList": "⛏️ Těžba: BHP, Rio Tinto, Fortescue. Světoví giganti těžby a surovin\n🏦 Bankovnictví: CBA, Westpac, ANZ, NAB. Australská velká čtyřka bank\n🏥 Zdravotnictví: CSL, Cochlear. Biotechnologie a zdravotnické prostředky světové třídy\n🛍️ Maloobchod: Woolworths, Coles, Wesfarmers. Potraviny a zboží denní potřeby\n💻 Technologie: WiseTech Global, Xero. Úspěšné softwarové firmy kotované v Austrálii",
+      "etfBasket": "200 největších firem na ASX",
+      "etfDesc": "Například S&P/ASX 200 je seznam 200 největších firem kotovaných na ASX, měřených podle hodnoty akcií dostupných k obchodování a prověřených podle toho, jak snadno mění majitele.",
+      "etfList": "🇦🇺 iShares Core S&P/ASX 200 (IOZ): 200 největších firem na ASX.\n📦 Vanguard Australian Shares (VAS): Ještě širší, asi 300 firem z ASX.\n🌍 Vanguard MSCI International (VGS): Firmy z vyspělých trhů mimo Austrálii.\n🇺🇸 BetaShares Nasdaq 100 (NDQ): 100 největších nefinančních firem na Nasdaqu.",
+      "currencyHedge": "Když australský dolar oslabí vůči jiným měnám, tvoje mezinárodní investice mají v A$ automaticky VYŠŠÍ hodnotu!",
+      "fxQuizSetup": "Australský dolar výrazně oslabí vůči americkému dolaru",
+      "fxQuizLose": "Ztratí hodnotu, protože australská ekonomika má potíže",
+      "fxQuizGain": "V A$ VZROSTE, protože tvoje zahraniční investice získaly na hodnotě měny",
+      "dcaTitle": "Průměrování nákladů v dolarech",
+      "dcaAbbrev": "DCA",
+      "food": "masový koláč"
+    },
+    "HK": {
+      "name": "Hongkong",
+      "cName": "hongkongský dolar",
+      "cPlural": "hongkongských dolarů",
+      "exDesc": "burza, která je bránou mezi Čínou a světovými trhy",
+      "sectorList": "💻 Technologie: Tencent, Xiaomi, Meituan. Čínští technologičtí giganti kotovaní v HK\n🏦 Bankovnictví: HSBC, Hang Seng Bank. Daří se jim, když úrokové sazby rostou\n🏗️ Nemovitosti: CK Asset, Sun Hung Kai. Nemovitosti jsou v Hongkongu králem\n⚡ Energetika a služby: CLP, Power Assets. Stabilní dividendy rok co rok\n🛡️ Pojišťovnictví: AIA, Prudential. Lídři pojišťovnictví v Asii a Tichomoří",
+      "etfBasket": "největší a nejvíc obchodované hongkongské firmy",
+      "etfDesc": "Například Hang Seng Index je vybraný seznam největších a nejvíc obchodovaných hongkongských firem, sestavený tak, aby reprezentoval každé hlavní odvětví. Počet firem v něm se mění, jak indexová komise přidává a odebírá jména.",
+      "etfList": "🇭🇰 Tracker Fund (2800): Sleduje Hang Seng Index. Hongkongský průkopník ETF.\n💡 Hang Seng TECH ETF: 30 největších technologických firem kotovaných v Hongkongu.\n🇺🇸 ETF na S&P 500: 500 velkých amerických firem ze seznamu S&P 500.\n🇨🇳 ETF na čínské A-akcie: Přístup k firmám kotovaným v Šanghaji a Šen-čenu.",
+      "currencyHedge": "Hongkongský dolar je pevně navázaný na americký dolar, takže globální fond s velkým podílem USA se kvůli samotné měně skoro nehne. Ale neamerická část (Evropa, Japonsko, zbytek Asie) v HK$ pořád roste, když tyto měny posílí!",
+      "fxQuizSetup": "Euro a jen posílí vůči americkému dolaru a hongkongský dolar je na americký dolar pevně navázaný",
+      "fxQuizLose": "Ztratí hodnotu, protože hongkongská ekonomika má potíže",
+      "fxQuizGain": "Evropská a japonská část v HK$ VZROSTE, protože za tyto měny teď dostaneš víc hongkongských dolarů",
+      "dcaTitle": "Průměrování nákladů v dolarech",
+      "dcaAbbrev": "DCA",
+      "food": "misku wonton nudlí"
+    },
+    "CN": {
+      "name": "Čína",
+      "cName": "jüan",
+      "cPlural": "jüanů",
+      "exDesc": "jedna z největších burz na světě podle tržní kapitalizace",
+      "sectorList": "💻 Technologie: SMIC, Kingsoft Office. Výroba čipů a software kotované v Šanghaji\n🏦 Bankovnictví: ICBC, CCB, Bank of China. Mezi největšími bankami světa podle aktiv\n🚗 Automobilový průmysl: SAIC Motor, Great Wall Motor. Domácí čínské automobilky\n🛍️ Spotřební zboží: Kweichow Moutai, Haier, Yili. Známá jména po celé Číně\n📡 Telekomunikace: China Mobile, China Telecom. Obří mobilní sítě",
+      "etfBasket": "300 největších a nejvíc obchodovaných firem z pevninské Číny",
+      "etfDesc": "Například CSI 300 je seznam 300 největších a nejvíc obchodovaných firem z pevninské Číny a pokrývá OBĚ burzy, šanghajskou i šenčenskou, ne jen jednu z nich.",
+      "etfList": "🇨🇳 Huatai-PB CSI 300 (510300): 300 velkých, hodně obchodovaných firem ze Šanghaje a Šen-čenu.\n💡 ChinaAMC SSE 50 (510050): 50 největších firem jen na šanghajské burze.\n🌍 Široký fond čínských akcií: Širší pokrytí než CSI 300.\n🇺🇸 Fond QDII na S&P 500: Přístup k 500 velkým americkým firmám ze seznamu S&P 500.",
+      "currencyHedge": "Když jüan oslabí vůči jiným měnám, tvoje mezinárodní investice mají v jüanech automaticky VYŠŠÍ hodnotu!",
+      "fxQuizSetup": "Jüan výrazně oslabí vůči dolaru a euru",
+      "fxQuizLose": "Ztratí hodnotu, protože čínská ekonomika má potíže",
+      "fxQuizGain": "V jüanech VZROSTE, protože tvoje zahraniční investice získaly na hodnotě měny",
+      "dcaTitle": "Průměrování nákladů v jüanech",
+      "dcaAbbrev": "YCA",
+      "food": "misku nudlí"
+    },
+    "FR": {
+      "name": "Francie",
+      "cName": "euro",
+      "cPlural": "eur",
+      "exDesc": "domov některých z nejikoničtějších luxusních a průmyslových značek světa",
+      "sectorList": "👜 Luxus: LVMH, Hermès, Kering. Francie vládne světovému luxusu\n⚡ Energetika: TotalEnergies, Engie. Velké evropské energetické firmy\n🏦 Bankovnictví: BNP Paribas, Société Générale. Daří se jim, když úrokové sazby rostou\n✈️ Letectví: Airbus, Safran. Světoví lídři v letadlech a obraně\n📡 Telekomunikace: Orange, Bouygues. Páteř francouzského připojení",
+      "etfBasket": "40 firem ze seznamu CAC 40",
+      "etfDesc": "Například CAC 40 je seznam 40 firem, které vybírá nezávislá komise ze 100 největších na pařížské burze, podle velikosti A podle toho, jak hodně se obchodují.",
+      "etfList": "🇫🇷 Amundi CAC 40: 40 firem ze seznamu CAC 40. Měřítko trhu.\n🌍 ETF na MSCI World: Firmy z 23 vyspělých zemí.\n🇺🇸 BNP Paribas Easy S&P 500: 500 velkých amerických firem ze seznamu S&P 500.\n🇪🇺 ETF na EURO STOXX 50: 50 předních blue-chip firem z celé eurozóny.",
+      "currencyHedge": "Když euro oslabí vůči jiným měnám, tvoje mezinárodní investice mají v eurech automaticky VYŠŠÍ hodnotu!",
+      "fxQuizSetup": "Euro výrazně oslabí vůči dolaru a jenu",
+      "fxQuizLose": "Ztratí hodnotu, protože evropská ekonomika má potíže",
+      "fxQuizGain": "V eurech VZROSTE, protože tvoje zahraniční investice získaly na hodnotě měny",
+      "dcaTitle": "Průměrování nákladů",
+      "dcaAbbrev": "DCA",
+      "food": "croque-monsieur"
+    },
+    "IT": {
+      "name": "Itálie",
+      "cName": "euro",
+      "cPlural": "eur",
+      "exDesc": "jedna z nejstarších burz v Evropě, domov ikonických italských značek",
+      "sectorList": "🏎️ Automobilový průmysl: Ferrari, Stellantis. Špička italského inženýrství\n⚡ Energetika: Enel, Eni. Velké evropské energetické a distribuční firmy\n🏦 Bankovnictví: UniCredit, Intesa Sanpaolo. Daří se jim, když úrokové sazby rostou\n🛡️ Pojišťovnictví: Generali, Unipol. Italští pojišťovací giganti\n📡 Telekomunikace: TIM, Inwit. Italská infrastruktura připojení",
+      "etfBasket": "40 firem ze seznamu FTSE MIB",
+      "etfDesc": "Například FTSE MIB je seznam 40 největších a nejvíc obchodovaných firem na milánské burze, vybraných tak, aby pokryly hlavní italská odvětví.",
+      "etfList": "🇮🇹 ETF na FTSE MIB: 40 firem ze seznamu FTSE MIB.\n🌍 iShares Core MSCI World: Firmy z 23 vyspělých zemí.\n🇺🇸 Amundi S&P 500: 500 velkých amerických firem ze seznamu S&P 500.\n🇪🇺 Xtrackers EURO STOXX 50: 50 předních blue-chip firem z celé eurozóny.",
+      "currencyHedge": "Když euro oslabí vůči jiným měnám, tvoje mezinárodní investice mají v eurech automaticky VYŠŠÍ hodnotu!",
+      "fxQuizSetup": "Euro výrazně oslabí vůči dolaru a jenu",
+      "fxQuizLose": "Ztratí hodnotu, protože evropská ekonomika má potíže",
+      "fxQuizGain": "V eurech VZROSTE, protože tvoje zahraniční investice získaly na hodnotě měny",
+      "dcaTitle": "Průměrování nákladů",
+      "dcaAbbrev": "DCA",
+      "food": "pizzu margherita"
+    },
+    "ES": {
+      "name": "Španělsko",
+      "cName": "euro",
+      "cPlural": "eur",
+      "exDesc": "hlavní španělská burza a brána na latinskoamerické trhy",
+      "sectorList": "👗 Móda a kosmetika: Inditex (Zara), Puig. Španělské světové impérium stylu\n🏦 Bankovnictví: Santander, BBVA, CaixaBank. Španělské banky mají obrovský globální dosah\n⚡ Energetika: Iberdrola, Endesa. Evropští lídři v obnovitelné energii\n📡 Telekomunikace: Telefónica, Cellnex. Páteř španělského připojení\n🏗️ Infrastruktura: Ferrovial, ACS. Stavějí infrastrukturu po celém světě",
+      "etfBasket": "35 nejvíc obchodovaných firem ve Španělsku",
+      "etfDesc": "Například IBEX 35 je seznam 35 nejvíc obchodovaných španělských akcií, které vybírá technická komise podle objemu obchodů. Je to tedy seznam nejobchodovanějších, ne největších.",
+      "etfList": "🇪🇸 ETF na IBEX 35: 35 nejvíc obchodovaných španělských akcií.\n🌍 iShares Core MSCI World: Firmy z 23 vyspělých zemí.\n🇺🇸 Vanguard S&P 500: 500 velkých amerických firem ze seznamu S&P 500.\n🇪🇺 ETF na EURO STOXX 50: 50 předních blue-chip firem z celé eurozóny.",
+      "currencyHedge": "Když euro oslabí vůči jiným měnám, tvoje mezinárodní investice mají v eurech automaticky VYŠŠÍ hodnotu!",
+      "fxQuizSetup": "Euro výrazně oslabí vůči dolaru a jenu",
+      "fxQuizLose": "Ztratí hodnotu, protože evropská ekonomika má potíže",
+      "fxQuizGain": "V eurech VZROSTE, protože tvoje zahraniční investice získaly na hodnotě měny",
+      "dcaTitle": "Průměrování nákladů",
+      "dcaAbbrev": "DCA",
+      "food": "talíř tapas"
+    },
+    "NL": {
+      "name": "Nizozemsko",
+      "cName": "euro",
+      "cPlural": "eur",
+      "exDesc": "nejstarší burza na světě, založená v roce 1602",
+      "sectorList": "💻 Technologie: ASML, Adyen. ASML pohání nejpokročilejší čipy světa\n⚡ Energetika: Shell, SBM Offshore. Světoví energetičtí giganti se sídlem v NL\n🏦 Bankovnictví: ING, ABN AMRO. Daří se jim, když úrokové sazby rostou\n🍺 Spotřební zboží: Heineken, Ahold Delhaize. Světové značky jídla a nápojů\n📡 Telekomunikace: KPN, největší kotovaný poskytovatel připojení v zemi",
+      "etfBasket": "25 nejaktivněji obchodovaných firem v Amsterdamu",
+      "etfDesc": "Například AEX je seznam 25 nejaktivněji obchodovaných akcií na amsterdamské burze. Řadí firmy podle toho, jak moc se obchodují, ne podle toho, jak jsou velké.",
+      "etfList": "🇳🇱 iShares AEX: 25 nejaktivněji obchodovaných akcií v Amsterdamu.\n🌍 Vanguard FTSE All-World: Firmy z desítek zemí jedním nákupem.\n🇺🇸 iShares Core S&P 500: 500 velkých amerických firem ze seznamu S&P 500.\n🇪🇺 ETF na EURO STOXX 50: 50 předních blue-chip firem z celé eurozóny.",
+      "currencyHedge": "Když euro oslabí vůči jiným měnám, tvoje mezinárodní investice mají v eurech automaticky VYŠŠÍ hodnotu!",
+      "fxQuizSetup": "Euro výrazně oslabí vůči dolaru a jenu",
+      "fxQuizLose": "Ztratí hodnotu, protože evropská ekonomika má potíže",
+      "fxQuizGain": "V eurech VZROSTE, protože tvoje zahraniční investice získaly na hodnotě měny",
+      "dcaTitle": "Průměrování nákladů",
+      "dcaAbbrev": "DCA",
+      "food": "kroketu"
+    },
+    "BR": {
+      "name": "Brazílie",
+      "cName": "real",
+      "cPlural": "realů",
+      "exDesc": "největší burza v Latinské Americe",
+      "sectorList": "⛏️ Těžba: Vale, CSN. Brazilští giganti železné rudy a oceli\n⚡ Energetika: Petrobras, Eletrobras. Velké ropné a energetické firmy\n🏦 Bankovnictví: Itaú, Bradesco, Banco do Brasil. Daří se jim, když úrokové sazby rostou\n🍺 Spotřební zboží: Ambev, JBS. Velmoci jídla a nápojů\n📡 Telekomunikace: Vivo, TIM Brasil. Brazilští poskytovatelé mobilního a širokopásmového připojení",
+      "etfBasket": "nejvíc obchodované firmy na burze B3",
+      "etfDesc": "Například Ibovespa je seznam nejvíc obchodovaných firem na burze B3. Firma si místo vyslouží tím, jak moc se kupuje a prodává, ne tím, jak je velká. Počet firem na seznamu se proto časem mění.",
+      "etfList": "🇧🇷 BOVA11: Sleduje Ibovespu, nejvíc obchodované firmy na B3. Měřítko trhu.\n🇺🇸 IVVB11: Sleduje S&P 500. To je 500 velkých amerických firem, oceněných v realech.\n🌍 Globální akciové ETF: Vyspělé i rozvíjející se trhy jedním nákupem.\n💡 HASH11: Indexový kryptofond, který drží Bitcoin, Ethereum a další.",
+      "currencyHedge": "Když real oslabí vůči dolaru, tvoje mezinárodní investice mají v R$ automaticky VYŠŠÍ hodnotu!",
+      "fxQuizSetup": "Brazilský real oslabí vůči dolaru z R$5 na R$6",
+      "fxQuizLose": "Ztratí hodnotu, protože brazilská ekonomika má potíže",
+      "fxQuizGain": "V realech VZROSTE, protože za každý dolar dostaneš víc realů",
+      "dcaTitle": "Průměrování nákladů v realech",
+      "dcaAbbrev": "RCA",
+      "food": "menu s pão de queijo"
+    },
+    "SA_ARABIA": {
+      "name": "Saúdská Arábie",
+      "cName": "rijál",
+      "cPlural": "rijálů",
+      "exDesc": "největší burza na Blízkém východě",
+      "sectorList": "🛢️ Energetika: Saudi Aramco, SABIC. Aramco je nejhodnotnější ropná firma světa\n🏦 Bankovnictví: Al Rajhi, SNB, Riyad Bank. Daří se jim, když úrokové sazby rostou\n📡 Telekomunikace: STC, Mobily. Saúdští poskytovatelé mobilního a širokopásmového připojení\n🛍️ Maloobchod: Jarir, Extra. Oblíbené maloobchodní řetězce\n⛏️ Suroviny: Ma'aden, Yansab. Těžba a petrochemie",
+      "etfBasket": "každá firma kotovaná na hlavním trhu Tadawul",
+      "etfDesc": "TASI (Tadawul All Share Index) vůbec není seznam top 30 nebo top 100. Pokrývá každou firmu kotovanou na hlavním trhu Tadawul, takže počet firem v něm se mění, kdykoli firma na burzu vstoupí nebo z ní odejde.",
+      "etfList": "🇸🇦 ETF sledující TASI: Široká expozice vůči celému hlavnímu trhu Tadawul.\n📦 Saúdské blue-chip ETF: Mnohem menší koš největších saúdských jmen.\n🌍 ETF na MSCI Saudi Arabia: Sleduje saúdský index MSCI, prověřenou podmnožinu trhu.\n🇺🇸 Fond na S&P 500: 500 velkých amerických firem ze seznamu S&P 500.",
+      "currencyHedge": "Protože je rijál pevně navázaný na americký dolar, globální investice v jiných měnách ti pomůžou, když tyto měny posílí!",
+      "fxQuizSetup": "Světové měny jako euro a jen posílí vůči rijálu",
+      "fxQuizLose": "Ztratí hodnotu, protože saúdská ekonomika má potíže",
+      "fxQuizGain": "V rijálech VZROSTE, protože tvoje zahraniční investice získaly na hodnotě měny",
+      "dcaTitle": "Průměrování nákladů v rijálech",
+      "dcaAbbrev": "RCA",
+      "food": "menu z Al Baik"
+    },
+    "KR": {
+      "name": "Jižní Korea",
+      "cName": "won",
+      "cPlural": "wonů",
+      "exDesc": "domov Samsungu, Hyundai a některých z nejinovativnějších firem Asie",
+      "sectorList": "💻 Technologie: Samsung, SK Hynix, Kakao. Přední světové technologie a čipy\n🚗 Automobilový průmysl: Hyundai, Kia. Světově proslulé korejské automobilky\n🏦 Bankovnictví: KB Financial, Shinhan. Daří se jim, když úrokové sazby rostou\n🎶 Zábava: HYBE, CJ ENM. Globální kulturní vlna K-popu a K-dramat\n📡 Telekomunikace: KT, LG Uplus. Ultrarychlé jihokorejské připojení",
+      "etfBasket": "200 největších a nejvíc obchodovaných korejských firem",
+      "etfDesc": "Například KOSPI 200 je seznam 200 největších a nejvíc obchodovaných korejských firem, vybíraných odvětví po odvětví tak, aby byla zastoupena každá část trhu.",
+      "etfList": "🇰🇷 KODEX 200: Sleduje KOSPI 200, seznam 200 největších a nejvíc obchodovaných korejských firem.\n🌍 Globální akciové ETF: Firmy z vyspělých trhů jedním nákupem.\n🇺🇸 TIGER Nasdaq 100: 100 největších nefinančních firem na Nasdaqu.\n💡 KODEX Samsung Group: Sleduje kotované firmy skupiny Samsung.",
+      "currencyHedge": "Když won oslabí vůči jiným měnám, tvoje mezinárodní investice mají ve wonech automaticky VYŠŠÍ hodnotu!",
+      "fxQuizSetup": "Won oslabí vůči dolaru z ₩1,300 na ₩1,400",
+      "fxQuizLose": "Ztratí hodnotu, protože jihokorejská ekonomika má potíže",
+      "fxQuizGain": "Ve wonech VZROSTE, protože za každý dolar dostaneš víc wonů",
+      "dcaTitle": "Průměrování nákladů ve wonech",
+      "dcaAbbrev": "WCA",
+      "food": "misku bibimbapu"
+    },
+    "TW": {
+      "name": "Tchaj-wan",
+      "cName": "tchajwanský dolar",
+      "cPlural": "tchajwanských dolarů",
+      "exDesc": "domov TSMC, firmy, která vyrábí většinu nejpokročilejších čipů světa",
+      "sectorList": "💻 Technologie: TSMC, MediaTek, ASUS. Tchaj-wan vyrábí čipy pro celý svět\n🏭 Výroba: Hon Hai (Foxconn), Delta. Giganti výroby elektroniky\n🏦 Bankovnictví: Cathay Financial, Fubon. Daří se jim, když úrokové sazby rostou\n🧪 Chemie: Formosa Plastics, Nan Ya. Lídři v průmyslových materiálech\n📡 Telekomunikace: Chunghwa Telecom, Far EasTone. Páteř tchajwanského připojení",
+      "etfBasket": "50 největších firem na Tchajwanské burze",
+      "etfDesc": "Tchaj-wan má dva velmi odlišné seznamy. TAIEX pokrývá každou firmu kotovanou na Tchajwanské burze, kolem tisícovky. Taiwan 50, který sleduje oblíbené ETF 0050, je jen 50 největších.",
+      "etfList": "🇹🇼 0050 (Yuanta Taiwan Top 50): 50 největších firem na tchajwanské burze. Klasika.\n📦 0056 (Yuanta High Dividend): Tchajwanské akcie vybrané podle očekávaného dividendového výnosu.\n🇺🇸 00646 (Yuanta S&P 500): 500 velkých amerických firem ze seznamu S&P 500.\n💡 00662 (Fubon Nasdaq 100): 100 největších nefinančních firem na Nasdaqu.",
+      "currencyHedge": "Když tchajwanský dolar oslabí vůči jiným měnám, tvoje mezinárodní investice mají v NT$ automaticky VYŠŠÍ hodnotu!",
+      "fxQuizSetup": "Tchajwanský dolar oslabí vůči americkému dolaru z NT$30 na NT$34",
+      "fxQuizLose": "Ztratí hodnotu, protože tchajwanská ekonomika má potíže",
+      "fxQuizGain": "V NT$ VZROSTE, protože tvoje zahraniční investice získaly na hodnotě měny",
+      "dcaTitle": "Průměrování nákladů v dolarech",
+      "dcaAbbrev": "DCA",
+      "food": "hovězí nudlovou polévku"
+    },
+    "SG": {
+      "name": "Singapur",
+      "cName": "singapurský dolar",
+      "cPlural": "singapurských dolarů",
+      "exDesc": "přední finanční centrum a burza jihovýchodní Asie",
+      "sectorList": "🏦 Bankovnictví: DBS, OCBC, UOB. Singapurské bankovní trio pevné jako skála\n✈️ Doprava: Singapore Airlines, SATS. Letectví světové třídy\n🏗️ Nemovitosti: CapitaLand, City Developments. Nemovitosti jsou v Singapuru obří byznys\n💻 Technologie: Venture Corporation, AEM. Technologie na SGX jsou hlavně výroba elektroniky; Sea a Grab se místo toho rozhodly pro kotaci v USA\n📡 Telekomunikace: Singtel, StarHub. Singapurští poskytovatelé připojení",
+      "etfBasket": "30 největších firem na Singapurské burze",
+      "etfDesc": "Například Straits Times Index je seznam 30 největších firem na Singapurské burze, které navíc splní její testy volně obchodovatelných akcií a obchodování.",
+      "etfList": "🇸🇬 Nikko AM STI ETF: 30 největších firem na Singapurské burze. Měřítko trhu.\n📦 ABF Singapore Bond Index Fund: Singapurské státní dluhopisy v jednom fondu.\n🌏 iShares MSCI Asia ex Japan: Široký přístup k asijským trhům.\n🇺🇸 ETF na S&P 500: 500 velkých amerických firem ze seznamu S&P 500.",
+      "currencyHedge": "Když singapurský dolar oslabí vůči jiným měnám, tvoje mezinárodní investice mají v S$ automaticky VYŠŠÍ hodnotu!",
+      "fxQuizSetup": "Singapurský dolar výrazně oslabí vůči americkému dolaru",
+      "fxQuizLose": "Ztratí hodnotu, protože singapurská ekonomika má potíže",
+      "fxQuizGain": "V S$ VZROSTE, protože tvoje zahraniční investice získaly na hodnotě měny",
+      "dcaTitle": "Průměrování nákladů v dolarech",
+      "dcaAbbrev": "DCA",
+      "food": "jídlo z hawker centra"
+    },
+    "CH": {
+      "name": "Švýcarsko",
+      "cName": "frank",
+      "cPlural": "franků",
+      "exDesc": "domov firem Nestlé, Novartis a Roche, tří z nejhodnotnějších firem Evropy",
+      "sectorList": "💊 Farmacie: Novartis, Roche. Světové farmaceutické velmoci\n🍫 Spotřební zboží: Nestlé, Lindt. Nejikoničtější potravinové značky světa\n🏦 Bankovnictví: UBS, Julius Baer. Švýcarské bankovnictví je legendární\n🏭 Průmysl: ABB, Holcim. Globální strojírenství a stavebnictví\n📡 Telekomunikace: Swisscom, Sunrise. Švýcarští poskytovatelé připojení",
+      "etfBasket": "20 největších a nejvíc obchodovaných švýcarských firem",
+      "etfDesc": "Například Swiss Market Index je seznam 20 největších a nejvíc obchodovaných švýcarských firem.",
+      "etfList": "🇨🇭 iShares Core SPI: Celý švýcarský trh, ne jen velká jména.\n💡 ETF na SMI: 20 největších a nejvíc obchodovaných švýcarských firem.\n🌍 UBS ETF MSCI World: Firmy z 23 vyspělých zemí.\n🇺🇸 iShares Core S&P 500: 500 velkých amerických firem ze seznamu S&P 500.",
+      "currencyHedge": "Když frank oslabí vůči jiným měnám, tvoje mezinárodní investice mají v CHF VYŠŠÍ hodnotu. Švýcarský frank bývá ale obvykle velmi silný!",
+      "fxQuizSetup": "Švýcarský frank výrazně oslabí vůči dolaru a euru",
+      "fxQuizLose": "Ztratí hodnotu, protože švýcarská ekonomika má potíže",
+      "fxQuizGain": "Ve francích VZROSTE, protože tvoje zahraniční investice získaly na hodnotě měny",
+      "dcaTitle": "Průměrování nákladů ve francích",
+      "dcaAbbrev": "FCA",
+      "food": "kebab"
+    },
+    "SE": {
+      "name": "Švédsko",
+      "cName": "koruna",
+      "cPlural": "korun",
+      "exDesc": "domov firem Ericsson, Volvo a překvapivě mnoha světových značek",
+      "sectorList": "💻 Technologie: Ericsson, Hexagon. Švédsko je v technologiích silnější, než by odpovídalo jeho velikosti\n🚗 Automobilový průmysl: Volvo, Volvo Cars. Špička švédského inženýrství\n🏦 Bankovnictví: SEB, Handelsbanken, Nordea. Daří se jim, když úrokové sazby rostou\n👗 Maloobchod: H&M, Essity. Světové módní a spotřebitelské značky\n📡 Telekomunikace: Telia, Tele2. Severští lídři v připojení",
+      "etfBasket": "30 nejvíc obchodovaných firem ve Stockholmu",
+      "etfDesc": "Například OMXS30 je seznam 30 nejvíc obchodovaných akcií na stockholmské burze. Řadí podle obchodní aktivity, ne podle velikosti firmy.",
+      "etfList": "🇸🇪 Xact OMXS30: 30 nejvíc obchodovaných akcií ve Stockholmu.\n💰 Avanza Zero: Švédský indexový fond bez ročního poplatku za správu. Sleduje stejných 30 stockholmských akcií.\n🌍 Globální indexový fond: Firmy z desítek zemí jedním nákupem.\n🇺🇸 Fond na S&P 500: 500 velkých amerických firem ze seznamu S&P 500.",
+      "currencyHedge": "Když švédská koruna oslabí vůči jiným měnám, tvoje mezinárodní investice mají v kr automaticky VYŠŠÍ hodnotu!",
+      "fxQuizSetup": "Švédská koruna výrazně oslabí vůči dolaru a euru",
+      "fxQuizLose": "Ztratí hodnotu, protože švédská ekonomika má potíže",
+      "fxQuizGain": "V korunách VZROSTE, protože tvoje zahraniční investice získaly na hodnotě měny",
+      "dcaTitle": "Průměrování nákladů v korunách",
+      "dcaAbbrev": "KCA",
+      "food": "wrap s falafelem"
+    }
+  }
+}

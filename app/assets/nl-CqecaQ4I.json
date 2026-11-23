@@ -1,0 +1,1846 @@
+{
+  "_meta": {
+    "lang": "nl",
+    "source": "src/constants/lessonData.js",
+    "lessons": 84,
+    "hash": {
+      "1": "d38ab2ed",
+      "2": "bf930bc6",
+      "3": "6e4e4d63",
+      "4": "5b7802cc",
+      "5": "0f9cde1d",
+      "6": "e5999569",
+      "7": "66bc9202",
+      "8": "65677cac",
+      "9": "59a1fc31",
+      "10": "03ccde2e",
+      "11": "fbb06743",
+      "12": "7713dc86",
+      "13": "38054a44",
+      "14": "cbac8395",
+      "15": "4355d5d7",
+      "16": "bee25cb0",
+      "17": "a5cba909",
+      "18": "df93ed01",
+      "19": "ad2f3ae8",
+      "20": "6363dc90",
+      "21": "65a3ab78",
+      "22": "61f1ee9c",
+      "23": "a475dd40",
+      "24": "6874af82",
+      "25": "d92ac77b",
+      "26": "e8f1b315",
+      "27": "c3b42e04",
+      "28": "c3719a16",
+      "29": "b8690fa4",
+      "30": "272435ad",
+      "31": "ebbffa78",
+      "32": "31ae442d",
+      "33": "71dbb7c6",
+      "34": "62d271e6",
+      "35": "da185960",
+      "36": "66e0a88e",
+      "37": "4a91dc0c",
+      "38": "9ec4dee7",
+      "39": "ae809a71",
+      "40": "c3b12ff9",
+      "41": "aa4153d7",
+      "42": "29941a97",
+      "43": "d87240fc",
+      "44": "87c794ce",
+      "45": "a3dd8868",
+      "46": "7873826b",
+      "47": "47503da5",
+      "48": "6d2df7b4",
+      "49": "c1055330",
+      "50": "7d4a6a8a",
+      "51": "27e927d2",
+      "52": "041c444d",
+      "53": "8fb1d4bc",
+      "54": "33ec5d94",
+      "55": "b7571fb2",
+      "56": "f20ea6ce",
+      "57": "5a1f3993",
+      "58": "561a7caf",
+      "59": "67437975",
+      "60": "6db8d44d",
+      "61": "04bbebe6",
+      "62": "b43659be",
+      "63": "a6bfefd0",
+      "64": "a2cc88e0",
+      "65": "2f12b47a",
+      "66": "4a676ede",
+      "67": "17351f96",
+      "68": "e9dda763",
+      "69": "3b1a13c3",
+      "70": "b07744de",
+      "71": "798da84a",
+      "72": "960b5a23",
+      "73": "76df64cb",
+      "74": "90735bdf",
+      "75": "b5be8d19",
+      "76": "b2c7a6ad",
+      "77": "1f3344ae",
+      "78": "e03a370e",
+      "79": "3b881962",
+      "80": "64bddadd",
+      "81": "d30753ea",
+      "82": "71620bf3",
+      "83": "989bc8a6",
+      "84": "cdd0a41d"
+    }
+  },
+  "lessons": {
+    "1": {
+      "title": "Wat is een aandeel?",
+      "desc": "Bezit een klein stukje van een bedrijf",
+      "content": "Stel je voor: jij en 9 vrienden leggen allemaal {c}10 in om samen een paar sneakers van {c}100 te kopen. Ieder van jullie bezit 1/10 van die sneakers, en dat is eigenlijk precies een aandeel! Als je een aandeel {retail} koopt, bezit je een piepklein stukje van elke winkel, elk product en elke {cName} die ze verdienen. Hoe groter het bedrijf groeit, hoe meer jouw stukje waard is! 🔥",
+      "quiz": {
+        "q": "Jij en 4 vrienden betalen samen, in gelijke delen, een gamestoel van {c}500. Wat bezit ieder van jullie?",
+        "explanation": "Een aandeel bezitten betekent dat je een deel van het geheel bezit. Vijf mensen die evenveel betalen, krijgen vijf gelijke stukken, en elk stuk heeft dezelfde rechten als de andere.",
+        "options": [
+          "Ieder 1/5 (20%) van de stoel",
+          "Niets, maar één persoon kan hem bezitten",
+          "Samen de hele stoel, zonder eigen deel per persoon"
+        ]
+      }
+    },
+    "2": {
+      "title": "De {ex} uitgelegd",
+      "desc": "De effectenbeurs van {name}",
+      "content": "Zie de {ex} ({exFull}) als een gigantische online marktplaats, alleen kopen en verkopen mensen hier geen sneakers of telefoons, maar piepkleine stukjes (aandelen) van bedrijven zoals {top5}. Hij is elke werkdag open, behalve op feestdagen, en de koersen veranderen de hele dag, afhankelijk van wie er koopt en wie er verkoopt. De {ex} is {exDesc}! 🌍",
+      "quiz": {
+        "q": "Waar lijkt de {ex} het meest op?",
+        "explanation": "Een beurs brengt mensen die aandelen willen kopen samen met mensen die ze willen verkopen. De beurs bezit de aandelen niet, bepaalt de prijs niet en betaalt je geen rente als je er geld laat staan.",
+        "options": [
+          "Een marktplaats, waar bezitters van aandelen kopers ontmoeten",
+          "Een spaarrekening, waar geld staat en rente oplevert",
+          "Een winkel die de aandelen bezit en ze aan jou verkoopt"
+        ]
+      }
+    },
+    "3": {
+      "title": "Stieren vs beren",
+      "desc": "Marktrichtingen ontcijferd",
+      "content": "Op de beurs hebben dieren de touwtjes in handen 😄\n\n🐂 Bull (stier) = koersen gaan OMHOOG. Denk aan een stier die met zijn hoorns omhoog stoot. Iedereen wint, mensen kopen, goede vibes.\n\n🐻 Bear (beer) = koersen gaan OMLAAG. Denk aan een beer die met zijn klauw naar beneden slaat. Mensen zijn bang, ze verkopen, geen fijne tijd.\n\nAls iemand zegt 'Ik ben bullish op {tech}', denkt diegene dat de koers gaat stijgen. Zegt iemand 'bearish', dan denkt diegene dat de koers gaat dalen. Je hoort deze woorden overal in de financiële wereld!",
+      "quiz": {
+        "q": "Je vriend zegt: 'Ik ben deze week bearish op {telco}.' Wat betekent dat?",
+        "explanation": "Bearish betekent dat je verwacht dat de koers daalt, bullish dat je verwacht dat hij stijgt. Een beer slaat naar beneden, een stier stoot omhoog.",
+        "options": [
+          "Hij denkt dat de koers van {telco} gaat stijgen",
+          "Hij denkt dat de koers van {telco} gaat dalen",
+          "Hij wil zoveel mogelijk {telco} kopen"
+        ]
+      }
+    },
+    "4": {
+      "title": "Wat is een broker?",
+      "desc": "Jouw toegang tot het kopen van aandelen",
+      "content": "Je kunt niet zomaar naar {retail} lopen en zeggen 'geef me alsjeblieft een stukje van jullie bedrijf' 😂 Je hebt een broker nodig: een app of dienst die kopers en verkopers op de beurs met elkaar verbindt.\n\nZie een broker als {shop}. Jij wilt iets hebben, {shop} brengt je erbij. Zij regelen de transactie en rekenen een kleine vergoeding. Bekende brokers in {name} zijn onder andere {broker}.\n\nDit doet een broker NIET: bepalen welke aandelen stijgen. Hij geeft je order door aan de markt. De koers beweegt door wat iedereen daarbuiten koopt en verkoopt, niet omdat je broker dat zegt.\n\nBrokers publiceren wel meningen. Hun analisten geven aandelen het advies 'kopen', 'houden' of 'verkopen'. Een mening is geen bevel 🤷 Analisten zijn het openlijk met elkaar oneens over precies hetzelfde aandeel, en heel wat van hen zitten ernaast. Lees een advies als een review, niet als een regel.\n\nNoobTrader leert je precies hoe dit werkt, gratis, met virtueel geld!",
+      "quiz": {
+        "q": "Waarom heb je een broker nodig om aandelen te kopen?",
+        "explanation": "Een broker is je toegang tot de beurs, geen waarzegger en geen prijsbepaler. Hij geeft de order door, en de prijs is wat de rest van de markt bereid is te betalen of te vragen. Hun analisten publiceren adviezen, maar een advies is een mening, geen opdracht.",
+        "options": [
+          "Hij kiest de aandelen uit die gaan stijgen",
+          "Hij bepaalt de prijs die je per aandeel betaalt",
+          "Hij geeft je order door aan de beurs"
+        ]
+      }
+    },
+    "5": {
+      "title": "Basis van de aandelenkoers",
+      "desc": "Waarom gaan koersen omhoog en omlaag?",
+      "content": "Ooit gemerkt hoe limited-edition sneakers in prijs omhoogschieten zodra ze uitkomen? Met aandelen gebeurt hetzelfde. Het draait allemaal om vraag en aanbod.\n\n📈 Veel mensen WILLEN kopen → koers gaat OMHOOG\n📉 Veel mensen WILLEN verkopen → koers gaat OMLAAG\n\nAls {telco} aankondigt dat ze 10 miljoen nieuwe klanten krijgen, wil iedereen een stukje, dus de koers schiet omhoog. Als ze een groot verlies melden, verkopen mensen in paniek en daalt de koers. Nieuws, resultaten en zelfs trends op social media kunnen aandelenkoersen in een oogwenk laten bewegen!",
+      "quiz": {
+        "q": "{retail} meldt recordwinsten en wil 50 nieuwe winkels openen. Wat gebeurt er waarschijnlijk met de aandelenkoers?",
+        "explanation": "Betere verwachte winsten betekenen meestal meer kopers, en meer kopers duwen de koers omhoog. Geld uitgeven om te groeien is niet hetzelfde als geld verspillen.",
+        "options": [
+          "Hij stijgt, omdat meer mensen willen kopen",
+          "Hij blijft precies hetzelfde",
+          "Hij crasht, omdat ze geld aan winkels uitgeven"
+        ]
+      }
+    },
+    "6": {
+      "title": "Een koersgrafiek lezen",
+      "desc": "Candles, lijnen en wat ze betekenen",
+      "content": "Een koersgrafiek is als een samenvatting met hoogtepunten van de geschiedenis van een aandeel. Het populairste type is een candlestick-grafiek. Elke 'candle' (kaars) laat je 4 dingen zien voor één dag:\n\n🟢 Groene candle = koers ging die dag OMHOOG (lager geopend, hoger gesloten)\n🔴 Rode candle = koers ging OMLAAG (hoger geopend, lager gesloten)\n📏 De dunne lijntjes boven/onder = de hoogste en laagste koers van de dag\n\nZie je veel groene candles achter elkaar, dan is dat een sterke stijgende trend. Veel rood betekent een dalende trend. Grafieken leren lezen is net als leren een scorebord van een game te lezen! 🎮",
+      "quiz": {
+        "q": "Je ziet 5 rode candlesticks achter elkaar in een grafiek. Wat vertelt dit je?",
+        "explanation": "Een rode candle sluit lager dan hij opende, dus vijf op een rij zijn vijf handelsdagen van daling. De kleur vertelt je de richting, niet hoe groot de beweging is.",
+        "options": [
+          "Het aandeel is 5 dagen lang gestegen",
+          "Het aandeel is 5 dagen lang gedaald",
+          "De aandelenkoers is niet veranderd"
+        ]
+      }
+    },
+    "7": {
+      "title": "Volume en wat het je vertelt",
+      "desc": "Hoeveel aandelen er verhandeld worden",
+      "content": "Volume = hoeveel aandelen er op een dag gekocht en verkocht zijn. Zie het als het aantal views van een TikTok-video.\n\n🔊 HOOG volume = veel mensen handelen. Beweegt de koers bij hoog volume, dan is dat een sterker, betrouwbaarder signaal, zoals een video die echt viraal gaat, niet door bots.\n\n🔇 LAAG volume = maar een paar mensen handelen. Bij laag volume kunnen koersen raar bewegen, zoals een video met maar 3 views die per ongeluk gedeeld wordt.\n\nCheck altijd het volume als je een grote koersbeweging ziet. Het vertelt je of de beweging echt is of gewoon ruis!",
+      "quiz": {
+        "q": "Het aandeel {telco} springt vandaag 5% omhoog, maar het volume is heel laag. Wat moet je denken?",
+        "explanation": "Volume laat zien hoeveel overtuiging er achter een beweging zit. Een grote sprong bij heel weinig handel kan net zo makkelijk weer verdwijnen als hij kwam, dus check het volume voordat je in een uitbraak gelooft.",
+        "options": [
+          "Dit is zeker een enorme kans, nu kopen!",
+          "Laag volume betekent altijd dat de koers blijft stijgen",
+          "De beweging is misschien niet betrouwbaar, laag volume maakt het verdacht"
+        ]
+      }
+    },
+    "8": {
+      "title": "Steun en weerstand",
+      "desc": "Koersniveaus die ertoe doen",
+      "content": "Stel je voor dat de koers van een aandeel een stuiterbal is:\n\n🧱 STEUN = de vloer waar de bal op terugstuitert. De koers blijft dalen, maar elke keer dat hij dit niveau raakt, stuitert hij weer omhoog. Hier komen veel kopers op af.\n\n🪟 WEERSTAND = het plafond waar de bal tegenaan knalt. Elke keer dat de koers tot dit niveau stijgt, wordt hij weer omlaag geduwd. Hier verzilveren veel verkopers hun winst.\n\nTraders gebruiken deze niveaus als een kaart in een game: koop dicht bij de vloer, verkoop dicht bij het plafond. Breekt de koers eindelijk door de weerstand, dan schiet hij vaak snel omhoog. Breekt hij door de steun, zet je dan schrap voor een daling! 💥\n\nEén eerlijke waarschuwing: deze niveaus worden getekend door mensen die naar grafieken kijken, het zijn geen regels waar de markt zich aan moet houden. Een aandeel kan dwars door 'steun' heen knallen en gewoon verder dalen. 📉",
+      "quiz": {
+        "q": "Een aandeel is drie keer teruggestuiterd op {c}50 zonder eronder te zakken. Hoe heet {c}50?",
+        "explanation": "Een vloer die steeds standhoudt, is steun; een plafond dat de koers steeds terugduwt, is weerstand. Geen van beide is een belofte, maar het is goed om ze allebei te kennen voordat je koopt.",
+        "options": [
+          "Een steunniveau",
+          "Een weerstandsniveau",
+          "De plafondprijs"
+        ]
+      }
+    },
+    "9": {
+      "title": "Spreiding",
+      "desc": "Leg niet al je eieren in één mand",
+      "content": "Stel je voor dat je AL je mobiele data aan één streaming-app besteedt. Dan ligt die app plat. Je zit met niks. 😩\n\nMaar als je je data verdeelt over WhatsApp, YouTube ÉN je streaming-app, dan verpest één app die plat ligt niet meteen je hele dag.\n\nZo werkt beleggen ook! Als je AL je geld in één aandeel stopt en dat crasht, verlies je alles. Maar als je het verdeelt over {telco} (telecom), {retail} (retail), {tech} (tech) en een ETF, dan maakt een crash in één ervan niet je hele portfolio kapot. Deze strategie van verdelen heet SPREIDING (diversificatie). 💼",
+      "quiz": {
+        "q": "Je hebt {c}500 om te beleggen. Welke keuze spreidt je risico echt?",
+        "explanation": "Vijf kledingwinkels stijgen en dalen allemaal door hetzelfde, dus geld dat je daarover verdeelt, is nauwelijks gespreid. Verschillende sectoren krijgen op verschillende momenten problemen, en precies dat voorkomt dat één slecht resultaat alles meesleept.",
+        "options": [
+          "Elk {c}100 in vijf verschillende kledingwinkels",
+          "Elk {c}100 in vijf verschillende sectoren",
+          "Alle {c}500 in het ene bedrijf dat je het leukst vindt"
+        ]
+      }
+    },
+    "10": {
+      "title": "Risico en rendement",
+      "desc": "Waarom grotere winst = groter risico",
+      "content": "Ooit een mystery box gekocht? Je krijgt misschien iets geweldigs, of complete troep. Dat is hoog risico / hoog rendement.\n\nBeleggen werkt precies zo:\n\n✅ LAGER RISICO, LAGER RENDEMENT: Zoals {retail}. Enorm bedrijf, goed gevestigd. Je geld groeit meestal langzaam en gestaag. Let op: 'lager', niet 'geen'. Grote bedrijven kunnen ook dalen.\n\n🎲 HOOG RISICO, HOOG RENDEMENT: Zoals een piepklein startend mijnbouwbedrijf. Het kan 10x zo veel waard worden, of verdwijnen. Net als de mystery box.\n\nVraag jezelf altijd af voordat je ergens in belegt: 'Wat is het ergste dat kan gebeuren?' Als je het niet kunt missen, neem het risico dan niet!",
+      "quiz": {
+        "q": "Een munt waar niemand van gehoord heeft, belooft 500% rendement. Wat vertelt zo'n grote belofte je eigenlijk?",
+        "explanation": "Risico en rendement zijn twee kanten van dezelfde medaille. Niemand deelt zomaar 500% uit, dus de grootte van de belofte zegt eigenlijk hoe makkelijk het hele bedrag kan verdwijnen. Vraag jezelf af, voordat je ergens geld in stopt, hoe het ergste geval eruitziet en of je daarmee kunt leven.",
+        "options": [
+          "Het is een koopje dat de rest van de markt op een of andere manier gemist heeft",
+          "Hoe groter de belofte, hoe serieuzer de mensen erachter",
+          "De kans dat je alles kwijtraakt, is net zo groot als de belofte"
+        ]
+      }
+    },
+    "11": {
+      "title": "Lange vs korte termijn",
+      "desc": "Beleggen vs traden: de mindset",
+      "content": "🏃 KORTETERMIJNHANDEL (TRADEN): Kopen en verkopen binnen dagen of weken om snelle koersbewegingen te pakken. Veel stress, je moet veel naar een scherm kijken. Alsof je bij een toernooi elke wedstrijd probeert te voorspellen wie wint.\n\n🧘 LANGETERMIJNBELEGGEN: Aandelen kopen en ze jarenlang houden. Je zit de dips uit en laat je geld groeien. Alsof je wedt op welk team het hele seizoen wint. Je raakt niet in paniek na één slechte wedstrijd.\n\nOnderzoeken naar echte beleggingsrekeningen vinden steeds hetzelfde patroon: hoe vaker mensen handelen, hoe slechter ze het meestal doen als je de kosten meetelt.\n\nEn tijd is het enige voordeel dat je later niet meer kunt terugkopen. Elk jaar dat je geld belegd blijft, is weer een jaar waarin rente-op-rente zijn werk doet. ⏳",
+      "quiz": {
+        "q": "Twee mensen kopen dezelfde aandelen met hetzelfde geld. De een handelt elke week in en uit, de ander laat het tien jaar met rust. Wat vinden onderzoeken naar echte rekeningen steeds weer?",
+        "explanation": "Elke transactie kost iets, en die kosten gaan eraf of de transactie nu goed uitpakte of niet. Onderzoek na onderzoek naar echte beleggingsrekeningen vindt hetzelfde patroon: hoe vaker mensen handelen, hoe verder ze achterop raken. Je geld met rust laten is geen luiheid, het is het goedkopere plan.",
+        "options": [
+          "De drukke handelaar eindigt meestal achter als je de kosten meetelt",
+          "De drukke handelaar wint meestal, want moeite wordt hier beloond",
+          "Ze eindigen gelijk, want ze hadden precies dezelfde aandelen"
+        ]
+      }
+    },
+    "12": {
+      "title": "{dcaTitle}",
+      "desc": "Regelmatig hetzelfde bedrag beleggen",
+      "content": "Hier is een strategie die zo simpel is dat het nauwelijks een strategie lijkt, en ze schrapt de moeilijkste vraag in beleggen:\n\nBeleg elke maand HETZELFDE bedrag, of de koersen nu hoog of laag staan. Bijvoorbeeld elke maand {c}100 opzijzetten van je verjaardagsgeld of zakgeld.\n\n📉 Als koersen LAAG zijn → koop je met je {c}100 MEER aandelen\n📈 Als koersen HOOG zijn → koop je met je {c}100 MINDER aandelen\n\nNa verloop van tijd middelt je gemiddelde prijs per aandeel uit en 'koop je de dip' automatisch, zonder er moeite voor te doen! Dit heet {dcaTitle} ({dcaAbbrev}). Het haalt emotie uit beleggen, omdat je nooit hoeft te beslissen 'is NU het juiste moment?' Je zet het gewoon in gang en gaat! 💪\n\nEerlijk gezegd: dit verslaat niet altijd het in één keer inleggen van een groot bedrag. Wat het wel doet, is je een plan geven dat je echt kunt volhouden.",
+      "quiz": {
+        "q": "Je legt 200 NT in als het aandeel 100 NT kost. Daarna crasht het aandeel en gaan je volgende 200 NT erin tegen 25 NT. Sleep naar je gemiddelde prijs per aandeel over de twee betalingen.",
+        "explanation": "Met je eerste 200 NT kocht je 2 aandelen van 100 NT. Met je tweede 200 NT kocht je 8 aandelen van 25 NT. Dat is 400 NT voor 10 aandelen, dus 40 NT per stuk. Zie je dat het lang niet halverwege de twee koersen ligt? Hetzelfde bedrag koopt automatisch meer als alles goedkoop is, en dat trekt je gemiddelde omlaag."
+      }
+    },
+    "13": {
+      "title": "Geldbaby's 💸",
+      "desc": "Betaald krijgen alleen omdat je aandelen hebt",
+      "content": "Stel je voor dat je een snoepautomaat hebt. Elke week kopen mensen snacks uit JOUW automaat, en jij krijgt het geld, alleen omdat hij van jou is. Je hoefde er niks extra's voor te doen!\n\nDat zijn dividenden. Wij noemen ze Geldbaby's 🍼 omdat je geld letterlijk baby's krijgt: kleine geldbedragen die op je rekening landen, gewoon omdat je aandelen bezit.\n\nGrote bedrijven zoals {divPayers} betalen regelmatig Geldbaby's uit. Hoe meer aandelen je hebt, hoe groter je baby's!\n\n⚠️ Ze zijn NIET gegarandeerd. Een bedrijf beslist elke keer opnieuw of het uitbetaalt, en het kan het dividend verlagen of helemaal stoppen als het zakelijk tegenzit. Een grote uitkering dit jaar is geen belofte voor volgend jaar.\n\nEn als je die baby's herbelegt om MEER aandelen te kopen... wordt je volgende lading nog groter. Het is een prachtige cirkel 🔁",
+      "quiz": {
+        "q": "{bank} betaalt je {c}5 voor elk aandeel dat je hebt, zonder dat je iets verkoopt. Hoe heet die betaling?",
+        "explanation": "Een dividend is een deel van de winst van het bedrijf dat wordt uitgedeeld aan de mensen die het bezitten. Deze app noemt ze Geldbaby's. Je houdt al je aandelen, en het geld landt toch op je rekening. Het is wel geen belofte: een bedrijf kan het verlagen of stoppen zodra het zakelijk tegenzit.",
+        "options": [
+          "Een dividend, een stukje van de winst",
+          "Rente, zoals een spaarrekening die betaalt",
+          "Een loyaliteitsbonus omdat je klant bent"
+        ]
+      }
+    },
+    "14": {
+      "title": "Rente-op-rente",
+      "desc": "Hoe je geld vanzelf groeit",
+      "content": "Hier komt het krachtigste geldgeheim dat je ooit zult leren. Klaar? 👀\n\nJe belegt {c}1,000 tegen 10% per jaar:\n• Jaar 1: {c}1,000 → {c}1,100 ({c}100 verdiend)\n• Jaar 2: {c}1,100 → {c}1,210 ({c}110 verdiend, meer dan jaar 1!)\n• Jaar 3: {c}1,210 → {c}1,331 ({c}121 verdiend)\n\nJe verdient nu rente over je RENTE. De sneeuwbal wordt elk jaar groter zonder dat je er iets bij doet. Na 30 jaar tegen 10%? Dan is die {c}1,000 {c}17,449 geworden! 🤯\n\nJe ziet dit soms 'het achtste wereldwonder' genoemd worden, toegeschreven aan Einstein. Er is geen echt bewijs dat hij dat ooit gezegd heeft, maar het gaat om de wiskunde, en die klopt echt. Begin vroeg, en de tijd doet het zware werk voor je.",
+      "quiz": {
+        "q": "Je legt 2,000 NT in tegen 10% per jaar en raakt het nooit aan. Sleep naar wat het na drie jaar waard is.",
+        "explanation": "Jaar één voegt 200 NT toe, dat maakt 2,200. Jaar twee neemt 10% van 2,200, dus komt er 220 bij en wordt het 2,420. Jaar drie voegt 242 toe en komt uit op 2,662. Elk jaar wordt de 10% berekend over een grotere stapel, en daarom kom je tekort als je drie keer 200 optelt en bij 2,600 stopt."
+      }
+    },
+    "15": {
+      "title": "Rente-op-rente en aandelen",
+      "desc": "Geldbaby's herbeleggen voor groei",
+      "content": "Weet je de Geldbaby's (dividenden) nog? Nu wordt het interessant 🤯\n\nNormaal: Je verdient {c}50 aan Geldbaby's → geeft het uit aan snacks → klaar.\n\nSlimme zet: Je verdient {c}50 aan Geldbaby's → koopt MEER aandelen → de volgende keer krijg je MEER Geldbaby's → koopt nog meer aandelen → de sneeuwbal gaat 🔝\n\nDit is rente-op-rente toegepast op aandelen. Reken het maar na: leg 30 jaar lang elke maand hetzelfde bedrag in tegen een gemiddeld rendement van 10%, en je eindigt met ongeveer ZES KEER wat je zelf hebt ingelegd. Zo'n vijf zesde van die stapel is groei: geld dat je nooit verdiend, gespaard of gestort hebt.\n\nOver lange periodes vormden herbelegde dividenden een flink deel van het totale rendement van beleggers. Precies daarom blijken 'saaie' dividendbetalers helemaal niet saai te zijn 💰",
+      "quiz": {
+        "q": "Je krijgt {c}80 aan dividend en gebruikt elke cent om meer aandelen te kopen in plaats van het uit te geven. Wat gebeurt er bij de volgende uitkering?",
+        "explanation": "Elk extra aandeel dat je kocht, betaalt de volgende keer zijn eigen dividend, dus de uitkering groeit zonder dat je nieuw geld toevoegt. Dat is weer rente-op-rente, maar deze keer draait het op het inkomen in plaats van op de koers.",
+        "options": [
+          "De uitkering blijft even groot, hij komt alleen later",
+          "Je krijgt de volgende keer minder, omdat je het geld teruggaf",
+          "Je hebt meer aandelen, dus de volgende uitkering is groter"
+        ]
+      }
+    },
+    "16": {
+      "title": "De regel van 72",
+      "desc": "Snel schatten hoelang verdubbelen duurt",
+      "content": "Hier is een cheatcode voor je brein 🧠\n\nWil je weten hoelang het duurt om je geld te VERDUBBELEN? Deel 72 gewoon door je jaarlijkse rendement:\n\n• 72 ÷ 12% rendement = 6 jaar om te verdubbelen\n• 72 ÷ 8% rendement = 9 jaar om te verdubbelen\n• 72 ÷ 6% rendement = 12 jaar om te verdubbelen\n\nAls je dus elk jaar een vast rendement van 12% haalt op {c}2,000, heb je na 6 jaar {c}4,000. Wacht nog 6 jaar en je hebt {c}8,000. Nog eens 6 en je hebt {c}16,000! 🤯\n\nHet is een benadering, geen wet, en echte rendementen zijn nooit elk jaar hetzelfde getal. Maar het komt dicht genoeg in de buurt om uit je hoofd te doen, en daar gaat het nou net om.\n\nDaarom is beginnen op je 13e of 14e ENORM. Je hebt meer verdubbelingsrondes voor je dan bijna ieder ander!",
+      "quiz": {
+        "q": "Een belegging levert 9% per jaar op. Gebruik de regel van 72 en sleep naar het aantal jaren dat verdubbelen duurt.",
+        "explanation": "Deel 72 door het jaarlijkse percentage. 72 gedeeld door 9 is 8, dus het geld verdubbelt ongeveer in acht jaar, en acht jaar daarna verdubbelt het opnieuw. Het is een snelle schatting die je uit je hoofd kunt maken, geen exacte wet, want echte rendementen zijn nooit elk jaar hetzelfde getal."
+      }
+    },
+    "17": {
+      "title": "Marktorders vs limietorders",
+      "desc": "Twee manieren om aandelen te kopen",
+      "content": "Er zijn twee hoofdmanieren om een aandeel te kopen:\n\n⚡ MARKTORDER: 'Koop nu meteen, tegen welke koers dan ook.' Zoals iets in je winkelmandje stoppen en meteen afrekenen bij {shop}. Je hebt het direct, maar de prijs die je echt betaalt, is wat de markt je geeft, en die kan afwijken van het getal dat je net op je scherm zag.\n\n🎯 LIMIETORDER: 'Koop alleen als de koers zakt tot {c}X.' Zoals een product op je verlanglijstje bij {shop} zetten en wachten op de uitverkoop. Jij bepaalt de prijs, maar het kan zijn dat de transactie helemaal nooit doorgaat.\n\nLimietorders geven je controle over de prijs. Marktorders geven je zekerheid dat ze worden uitgevoerd. Allebei tegelijk kan niet! 💸\n\nEen limietorder werkt hetzelfde als je VERKOOPT, alleen de andere kant op. Je hebt het aandeel, je noemt de prijs waarvoor je graag zou verkopen, en als de koers zo hoog stijgt, verkoopt de app voor je. Bij kopen noem je een prijs ONDER de huidige koers. Bij verkopen noem je een prijs ERBOVEN. Zelfde idee, andere kant. 🔁",
+      "quiz": {
+        "q": "{tech} noteert {c}200. Je zou het graag hebben, maar alleen voor {c}180 of minder. Wat gebruik je?",
+        "explanation": "Een marktorder wordt meteen uitgevoerd tegen de koers van dat moment. Een limietorder noemt jouw prijs en wacht, zodat de app voor je oplet in plaats van jij. Als de prijs die je accepteert belangrijker is dan snel instappen, is dit degene die je wilt.",
+        "options": [
+          "Een marktorder om te kopen, nu meteen uitgevoerd tegen {c}200",
+          "Een limietorder om te kopen op {c}180, die wacht",
+          "Naar het scherm kijken en zelf kopen bij {c}180"
+        ]
+      }
+    },
+    "18": {
+      "title": "Transactiekosten",
+      "desc": "Transactiekosten begrijpen",
+      "content": "De meeste transacties kosten je een klein beetje: de broker neemt een klein deel. Dit heten transactiekosten of brokerkosten.\n\n⚠️ Sommige brokers adverteren met 'geen commissie'. Ze moeten toch op een of andere manier geld verdienen, dus doen ze dat ergens anders: meestal via het kleine verschil tussen de koop- en verkoopprijs, via valutawissel of via rente op het geld dat op je rekening staat. Gratis is zelden gratis.\n\nIn NoobTrader zijn de gesimuleerde kosten:\n• {ex}-aandelen: {exFee} per transactie\n• Wereldwijde aandelen: 0.50%\n• ETF's: 0.30%\n• Crypto: 0.60%\n• Forex: 0.05%\n• Grondstoffen: 0.40%\n\nVoorbeeld: Je koopt voor {c}1,000 aan aandelen {retail} tegen {exFee}. De kosten zijn {c}{feeAmt}, dus je geeft eigenlijk {c}{feeTotal} uit.\n\nKleine kosten tellen SNEL op als je vaak handelt. Iemand die 20 transacties per maand doet, betaalt die kosten 20 keer, en betaalt ze opnieuw bij het verkopen. Dat is een van de redenen waarom langetermijnbeleggers minder handelen: minder transacties, minder kosten 🧮",
+      "quiz": {
+        "q": "Je koopt voor {c}1,000 aan {ex}-aandelen met {exFee} kosten. Hoeveel zijn de kosten?",
+        "explanation": "De kosten zijn een percentage van het verhandelde bedrag, dus ze groeien mee met de grootte van de order. Reken het uit voordat je handelt, want ze worden opnieuw gerekend als je verkoopt.",
+        "options": [
+          "{c}{feeAmtX10}",
+          "{c}{feeAmtLow}",
+          "{c}{feeAmt}"
+        ]
+      }
+    },
+    "19": {
+      "title": "Stop-lossorders",
+      "desc": "Bescherm jezelf tegen grote verliezen",
+      "content": "Een stop-loss is alsof je een grens stelt aan hoeveel je bereid bent te verliezen: een vangnet dat je van tevoren klaarzet.\n\nVoorbeeld: Je koopt aandelen {telco} voor {c}100 per stuk. Je besluit dat je NOOIT meer dan 15% wilt verliezen. Dus zet je een stop-loss op {c}85.\n\nAls {telco} zakt tot {c}85 → wordt er automatisch een verkooporder geplaatst. Je hoeft niet te kijken, en je hoeft de beslissing niet te nemen terwijl je in paniek bent.\n\nDit is het deel dat mensen fout doen. Een stop-loss staat ALTIJD onder de koers van vandaag. Dat moet wel, want de koers moet dalen om hem te bereiken. Zet je hem boven de koers van vandaag, dan is hij al bereikt, dus verkoopt hij meteen zodra je hem instelt, tegen de koers van vandaag. Dat is een verkoop, geen vangnet.\n\nHaal hem niet door elkaar met een limietorder om te verkopen. Allebei verkopen ze automatisch tegen een prijs die jij kiest. Het verschil is de richting: een stop-loss gaat af als de koers DAALT tot jouw getal, een limietverkoop gaat af als de koers STIJGT tot jouw getal. Jezelf beschermen → je getal gaat eronder. Je prijs noemen → je getal gaat erboven. Vraag jezelf af wat je aan het doen bent voordat je typt. 🧭\n\n⚠️ Belangrijk: een stop-loss zet een VERKOOP in gang, maar garandeert geen PRIJS. Als er 's nachts slecht nieuws komt en het aandeel opent op {c}70 zonder ooit op {c}85 verhandeld te zijn, wordt je order uitgevoerd tegen wat de markt dan echt betaalt. Dat kan ver onder het niveau liggen dat je instelde.\n\nZonder stop-loss blijf je misschien hopen dat hij herstelt... en zie je hem zakken tot {c}20. 😬\n\nProtip: Bepaal altijd je maximale verlies VOORDAT je koopt. Laat emotie die beslissing niet nemen als de koers al aan het kelderen is! 🧘",
+      "quiz": {
+        "q": "Je koopt tegen 200 NT en besluit dat je er niet meer dan 15% op wilt verliezen. Sleep naar de prijs waar je stop-loss hoort.",
+        "explanation": "15% van 200 NT is 30 NT, dus je uitstap ligt 30 onder je aankoopprijs, op 170 NT. Een stop-loss staat onder de koers van vandaag, want de koers moet dalen om hem te bereiken. Zet je hem erboven, dan is hij al bereikt, dus verkoopt hij zodra je hem instelt, en dat is een verkoop in plaats van een vangnet."
+      }
+    },
+    "20": {
+      "title": "Wanneer kopen en verkopen",
+      "desc": "Timing, geduld en discipline",
+      "content": "De grootste fout van nieuwe beleggers? Kopen als iedereen gehypet is en verkopen als iedereen in paniek is. Dat is letterlijk het tegenovergestelde van wat werkt. 🤦\n\n📱 Als je groepsapp vol staat met 'KOOP DIT AANDEEL NU!!!!' → zit de hype meestal al in de koers verwerkt. Je bent te laat.\n\n😱 Als iedereen in paniek verkoopt → is dat soms juist een kans om met korting te kopen. Soms blijft de koers nog een jaar dalen. Niemand luidt een bel als de bodem bereikt is.\n\nHet geheim? Heb een plan VOORDAT je belegt:\n• Waarom koop ik dit? (onderzoek, geen hype)\n• Tegen welke prijs verkoop ik als het STIJGT? (winst nemen)\n• Tegen welke prijs verkoop ik als het DAALT? (stop-loss)\n\nHoud je aan je plan. Laat je gevoelens je strategie niet overnemen! 💪",
+      "quiz": {
+        "q": "Je hele groepsapp hypet een aandeel dat deze maand al 80% gestegen is. Wat is de slimme zet?",
+        "explanation": "Tegen de tijd dat een aandeel in elke groepsapp opduikt, is het grootste deel van de beweging al gebeurd, en de mensen die laat instappen, kopen van de mensen die hun winst pakken. Bekijk het bedrijf zelf. Een luide menigte is niet hetzelfde als een menigte die gelijk heeft.",
+        "options": [
+          "Nu kopen, voordat de koers je ontloopt",
+          "Je andere aandelen verkopen en alles hierin stoppen",
+          "Het bedrijf zelf bekijken voordat je beslist"
+        ]
+      }
+    },
+    "21": {
+      "title": "Wat is marktwaarde?",
+      "desc": "Hoe je de grootte van een bedrijf meet",
+      "content": "Marktwaarde (market cap) vertelt je hoe groot een bedrijf echt is, in {cPlural}.\n\n📐 Formule: Aandelenkoers × Totaal aantal aandelen = Marktwaarde\n\nVoorbeeld: Als {retail} 1 miljard aandelen heeft en elk aandeel {c}50 kost, is de marktwaarde {c}50 MILJARD. Dat is het 'prijskaartje' van het hele bedrijf.\n\n🔵 Large cap: de grootste, meest gevestigde namen, zoals {tech} en {bank}. Lager risico, meestal langzamere groei.\n🟡 Mid cap: middelgrote bedrijven. Evenwichtig risico.\n🔴 Small cap: piepkleine bedrijven. Kunnen snel groeien OF hard crashen.\n\n⚠️ De grenzen zijn niet overal hetzelfde. In de VS betekent 'large cap' meestal ergens boven de $10 miljard, maar elke markt stelt zijn eigen grenzen, dus een large cap in {name} is niet even groot als een large cap in de VS. Kijk naar het echte getal, niet alleen naar het label 🧐",
+      "quiz": {
+        "q": "Bedrijf A heeft 5 miljoen aandelen van {c}200 per stuk. De aandelen van bedrijf B kosten {c}10. Sleep naar hoeveel miljoen aandelen B nodig heeft om evenveel waard te zijn als A.",
+        "explanation": "Marktwaarde is de aandelenkoers maal het aantal aandelen. Bedrijf A is 5 miljoen keer {c}200 waard, dus {c}1,000 miljoen. Bedrijf B moet datzelfde totaal halen met {c}10 per aandeel, dus heeft het 100 miljoen aandelen nodig, twintig keer zoveel. Een lage aandelenkoers zegt niets over hoe groot een bedrijf is."
+      }
+    },
+    "22": {
+      "title": "De K/W-verhouding uitgelegd",
+      "desc": "Is een aandeel duur of goedkoop?",
+      "content": "De K/W-verhouding (koers-winstverhouding, P/E ratio) vertelt je hoeveel je betaalt voor elke {cName} winst van een bedrijf.\n\n📐 Formule: Aandelenkoers ÷ Winst per aandeel = K/W-verhouding\n\nZie het als de prijs per pizzapunt 🍕\n\nAls pizza A {c}80 kost voor 8 punten = {c}10/punt\nAls pizza B {c}100 kost voor 5 punten = {c}20/punt\n\nPizza A is goedkoper per punt. Met aandelen werkt het ongeveer zo:\n• Lage K/W (onder 10) = misschien een koopje, OF de markt verwacht dat de winst gaat DALEN. Een lage K/W is een vraag, geen antwoord.\n• Hoge K/W (boven 25) = de markt verwacht flinke groei in de toekomst. Het bedrijf moet die dan ook echt waarmaken.\n\nVergelijk de K/W altijd met ANDERE bedrijven in dezelfde sector. Vergelijk de K/W van een bank niet met die van een techbedrijf!",
+      "quiz": {
+        "q": "Bedrijf A heeft een K/W van 8. Bedrijf B (zelfde sector) heeft een K/W van 30. Wat suggereert dit?",
+        "explanation": "Een lagere K/W betekent dat je minder betaalt voor elke eenheid winst, wat kan wijzen op een koopje of op een bedrijf in de problemen. De verhouding roept de vraag op; ze beantwoordt hem niet.",
+        "options": [
+          "Bedrijf A is goedkoper per eenheid winst, maar zoek uit WAAROM voordat je koopt",
+          "Bedrijf B is altijd de betere belegging van de twee",
+          "De K/W-verhouding helpt helemaal niet bij beleggingsbeslissingen"
+        ]
+      }
+    },
+    "23": {
+      "title": "Bedrijfsresultaten lezen",
+      "desc": "Omzet, winst en wat ertoe doet",
+      "content": "Om de paar maanden publiceren bedrijven hun 'rapport' (in sommige markten elk kwartaal, in andere twee keer per jaar) en dat laat aandelenkoersen FLINK bewegen. Hier moet je op letten:\n\n📊 OMZET: Al het geld dat binnenkomt uit verkoop. Zoals hoeveel een kleine winkel in totaal binnenhaalde.\n💰 NETTOWINST: Wat er overblijft NA het betalen van alle kosten. Wat er aan het eind van de dag echt overblijft.\n📈 WPA (winst per aandeel, EPS): Winst gedeeld door het aantal aandelen. Hoeveel elk aandeel verdiende.\n\nGoede signalen: Omzet OMHOOG + Winst OMHOOG + WPA groeit = 🟢 koers stijgt vaak\nSlechte signalen: Omzet OMLAAG + Winst daalt = 🔴 koers daalt vaak\n\nEén addertje: wat de koers echt laat bewegen, is het resultaat vergeleken met wat de markt VERWACHTTE. Geweldige cijfers die lager uitvielen dan verwacht, kunnen een aandeel toch laten dalen.\n\nEen bedrijf kan veel omzet hebben maar nul winst (hoge kosten). Check altijd ALLEBEI!",
+      "quiz": {
+        "q": "{bank} meldt 15% meer omzet, maar 20% minder winst door hogere kosten. Is dit een goed of slecht teken?",
+        "explanation": "Omzet is wat er binnenkwam, winst is wat er bleef. De kosten stijgen hier sneller dan de verkoop, dus het bedrijf doet meer zaken en houdt er minder aan over. Dat is een echte waarschuwing, maar geen ineenstorting, en het volgende wat je wilt weten, is waarom de kosten stegen.",
+        "options": [
+          "Zorgwekkend, want ze verkopen meer maar houden er minder aan over",
+          "Sterk, want stijgende omzet is waar het echt om draait",
+          "Vreselijk, want dalende winst betekent dat het bedrijf failliet gaat"
+        ]
+      }
+    },
+    "24": {
+      "title": "Sectoren en branches",
+      "desc": "Verschillende soorten bedrijven",
+      "content": "De aandelenmarkt is opgedeeld in sectoren, net als verschillende afdelingen op een school.\n\n{sectorList}\n\nVerschillende sectoren stijgen en dalen op verschillende momenten, en daarom heeft spreiden over sectoren juist zin! Als de banken crashen, boomt tech misschien. Je portfolio blijft in balans. 🎯",
+      "quiz": {
+        "q": "De rente in {name} stijgt flink. Welke sector profiteert daar meestal het meest van?",
+        "explanation": "Banken verdienen aan het verschil tussen wat ze leners rekenen en wat ze spaarders betalen, en een stijgende rente maakt dat verschil meestal groter. Voor de meeste andere sectoren is duurder lenen een kostenpost.",
+        "options": [
+          "Retail: shoppers lenen makkelijker en geven het extra geld uit in de winkelstraat",
+          "Banken: banken verdienen meestal een groter verschil tussen wat ze leners rekenen en spaarders betalen",
+          "Technologie: lenen om te bouwen wordt goedkoper, dus softwarebedrijven groeien sneller"
+        ]
+      }
+    },
+    "25": {
+      "title": "Wat is een ETF?",
+      "desc": "Koop in één keer een hele mand",
+      "content": "Vroeger kon je alleen een playlist maken door losse nummers uit te kiezen. Toen kwam Spotify met kant-en-klare playlists, een directe verzameling zonder moeite. 🎵\n\nETF's (Exchange-Traded Funds, beursgenoteerde fondsen) zijn de Spotify van het beleggen. In plaats van aandelen een voor een uit te kiezen, koop je ÉÉN ETF die een hele mand ervan bevat.\n\nDe meeste ETF's volgen een INDEX: een gepubliceerde lijst van bedrijven, samengesteld volgens vaste regels. {etfDesc} De ETF koopt gewoon wat er op de lijst staat, in dezelfde verhoudingen, en past zich aan als de lijst verandert.\n\nMet één {etf}-ETF krijg je dus in één aankoop een piepklein stukje van {etfBasket} (namen zoals {top5}).\n\n⚠️ Een index is NIET automatisch 'de grootste bedrijven'. Sommige lijsten rangschikken op grootte, sommige op hoeveel een aandeel verhandeld wordt, en sommige worden door een commissie gekozen. Twee indexen op dezelfde beurs kunnen totaal verschillende bedrijven bevatten. Lees altijd wat de lijst echt is voordat je hem koopt.\n\nETF's zijn meestal goedkoper, makkelijker en beter gespreid dan zelf aandelen uitkiezen. Heel wat professionele fondsbeheerders kunnen ze niet verslaan! 🤯",
+      "quiz": {
+        "q": "Je koopt één stuk van de {etf}-ETF, die {etfBasket} volgt. Wat bezit je nu?",
+        "explanation": "Een index is een gepubliceerde lijst, en een index-ETF koopt alles wat erop staat in dezelfde verhoudingen. Eén stuk bevat dus een snippertje van elke naam op de lijst, en daarom is één aankoop al gespreid. Het is niet alleen de grootste naam, en het is geen geld dat op jouw instructies wacht.",
+        "options": [
+          "Eén aandeel in het grootste bedrijf op die lijst",
+          "Een klein stukje van elk bedrijf op die lijst",
+          "Geld dat het fonds vasthoudt tot jij zegt wat het moet kopen"
+        ]
+      }
+    },
+    "26": {
+      "title": "{ex}-ETF's",
+      "desc": "Populaire ETF's die je moet kennen",
+      "content": "Er zijn heel veel ETF's en indexfondsen die je vanuit {name} kunt kopen. Dit zijn een paar van de populairste:\n\n{etfList}\n\nHet enorme voordeel van ETF's: KOSTEN. Veel actief beheerde fondsen rekenen ergens rond de 1–2% per jaar, soms meer. Brede index-ETF's rekenen vaak minder dan 0.2%. Op een belegging van {c}10,000 die je 20 jaar aanhoudt, is dat verschil DUIZENDEN {cPlural} waard 💸\n\nCheck de kosten voordat je koopt. Meestal staat er 'TER' of 'lopende kosten' bij. Niemand kan je vertellen wat een ETF gaat opleveren, maar de kosten zijn één getal dat je WEL van tevoren kunt weten.",
+      "quiz": {
+        "q": "Je belegt 20,000 NT. Een actief beheerd fonds rekent 2% per jaar. Een index-ETF met grotendeels dezelfde bedrijven rekent 0.2%. Sleep naar hoeveel meer het dure fonds je in één jaar kost.",
+        "explanation": "Het verschil tussen de twee kosten is 1.8% per jaar, en 1.8% van 20,000 NT is 360 NT. Dat gaat eraf of het fonds nu stijgt of daalt, en het gaat er elk jaar opnieuw af. Niemand kan je vertellen wat een fonds gaat opleveren, maar de kosten staan al vermeld voordat je koopt, meestal als TER of lopende kosten."
+      }
+    },
+    "27": {
+      "title": "Wereldwijde vs lokale ETF's",
+      "desc": "Lokaal beleggen en verder",
+      "content": "Moet je alleen beleggen in bedrijven uit {name}? Kort antwoord: Nee! Daarom:\n\n🏠 LOKALE ETF's: Beleggen in bedrijven uit {name}. Je kent de merken, ze zijn in {cPlural}. Maar als de economie van {name} het moeilijk heeft, kan je hele portfolio dalen.\n\n🌍 WERELDWIJDE ETF's: Beleggen in internationale bedrijven (VS, Europa, Azië). {currencyHedge}\n\nValuta werkt wel twee kanten op: als je eigen munt STERKER wordt, zijn dezelfde buitenlandse beleggingen thuis minder waard. Dat is de ruil die je accepteert als je dingen in het buitenland bezit.\n\nAls je zowel lokaal als wereldwijd belegt, spreid je je over twee verschillende risico's tegelijk: je eigen economie en je eigen munt. Balans is alles! ⚖️",
+      "quiz": {
+        "q": "{fxQuizSetup}. De buitenlandse aandelen in je wereldwijde ETF zijn helemaal niet bewogen. Wat is hij nu waard, uitgedrukt in {cName}?",
+        "explanation": "Een wereldwijde ETF bevat dingen die in een andere munt geprijsd zijn. Als je eigen munt terrein verliest, levert dat buitenlandse geld bij het terugwisselen meer van jouw munt op, dus is de belegging thuis meer waard, ook al stonden de aandelen stil. Het werkt ook andersom: een sterkere munt thuis laat dezelfde belegging ongemerkt krimpen. Valutarisico werkt twee kanten op.",
+        "options": [
+          "Meer, want het geld dat hij in het buitenland heeft, levert thuis nu meer op",
+          "Minder, want slecht valutanieuws moet ook slecht zijn voor jouw geld",
+          "Hetzelfde, want de aandelen erin zijn geen centimeter bewogen"
+        ]
+      }
+    },
+    "28": {
+      "title": "Sparen vs beleggen",
+      "desc": "Waarom je geld moet werken",
+      "content": "Allebei goed. Maar ze hebben een ander doel:\n\n🏦 SPAREN: Geld op een bankrekening zetten. Het is veilig, je kunt er altijd bij. MAAR de rente is meestal {savings}, vaak minder dan de inflatie. Je geld is 'veilig', maar verliest langzaam koopkracht.\n\n📈 BELEGGEN: Geld in aandelen, ETF's of vastgoed stoppen. Meer risico, en geen garantie in welk jaar dan ook. Sommige jaren verlies je gewoon geld. Over lange periodes hebben aandelen historisch wel meer opgeleverd dan spaargeld. De markt van {name} leverde in het verleden gemiddeld ongeveer {mktReturn} per jaar op, en gemiddelden uit het verleden zijn geschiedenis, geen belofte.\n\nVuistregel:\n• 3–6 maanden aan uitgaven op je spaarrekening (je noodfonds) 🚨\n• Geld dat je jarenlang niet nodig hebt, is wat mensen beleggen 🚀\n\nBeleg geen geld dat je volgende maand misschien nodig hebt. Daar is sparen voor!",
+      "quiz": {
+        "q": "Je uitgaven zijn 800 NT per maand en je hebt 5,000 NT gespaard. Sleep naar het kleinste noodfonds dat je volgens de gebruikelijke vuistregel als spaargeld aanhoudt.",
+        "explanation": "De vuistregel is drie tot zes maanden aan uitgaven als spaargeld aanhouden. Drie maanden van 800 NT is 2,400 NT, en zes maanden zou 4,800 NT zijn, dus alles daartussen is normaal. De reden om het als spaargeld aan te houden is simpel: als er onverwacht iets kapotgaat, wil je niet gedwongen worden om je beleggingen te verkopen op welke dag dat ook gebeurt."
+      }
+    },
+    "29": {
+      "title": "Inflatie en je geld",
+      "desc": "Waarom geld na verloop van tijd minder waard wordt",
+      "content": "Vraag een volwassene wat een {food} kostte toen die zo oud was als jij. Dat was ergens rond {c}{foodOld}. Nu is het {c}{foodNew}+. Dat is inflatie: prijzen die na verloop van tijd langzaam stijgen, waardoor je met elke {cName} MINDER kunt kopen dan vroeger.\n\nDe inflatie in {name} lag meestal rond {inflation} per jaar.\n\nAls je spaargeld dus 4% per jaar oplevert maar de inflatie 6% is, VERLIES je eigenlijk elk jaar ongeveer 2% koopkracht, ook al is je saldo gestegen!\n\n💡 Je beleggingen moeten de inflatie verslaan om je vermogen echt te laten groeien.\n• Geld onder je matras: elk jaar minder waard 💀\n• Spaarrekening: houdt het vaak maar net bij\n• {ex}-aandelen (langetermijngemiddelde): {mktReturn} per jaar, en dat is een gemiddelde uit het verleden, geen belofte 🔥\n\nBij beleggen gaat het niet alleen om rijk worden. Het gaat erom dat je niet armer wordt! 💸",
+      "quiz": {
+        "q": "Je spaarrekening levert 4% per jaar op. Prijzen stijgen 6% per jaar. Sleep naar wat er in dat jaar echt met je koopkracht gebeurt.",
+        "explanation": "Reëel rendement is de rente die je krijgt min de inflatie die je betaalt, dus 4% tegenover 6% komt uit op ongeveer min 2%. Het getal op je rekening gaat omhoog terwijl wat je er echt mee kunt kopen omlaag gaat, en dat is het stille trucje dat inflatie met spaargeld uithaalt. Om echt vermogen op te bouwen, moet geld de inflatie verslaan, niet alleen iets opleveren."
+      }
+    },
+    "30": {
+      "title": "Emoties en beleggen",
+      "desc": "Niet in paniek verkopen of uit FOMO kopen",
+      "content": "De aandelenmarkt is eigenlijk een test van emotionele controle. De meeste mensen zakken ervoor. 🎭\n\n😱 PANIEKVERKOOP: De markt daalt 20%, je flipt en verkoopt alles. Daarna herstelt hij. Je hebt je verlies voor niks vastgezet.\n\n🤑 FOMO-AANKOOP: Iedereen op social media hypet een munt. Je stapt snel in. De koers crasht meteen. Jij blijft met de brokken zitten.\n\nDe beste beleggers behandelen een beurscrash als uitverkoop bij {retail}. Ze blijven rustig kopen in plaats van in paniek te raken. Warren Buffett zei het zo: 'Wees angstig als anderen hebberig zijn, en hebberig als anderen angstig zijn.'\n\nMaak je plan. Houd je eraan. Je toekomstige zelf zal je dankbaar zijn dat je op een rode dag niet uit woede alles verkocht hebt! 🙏",
+      "quiz": {
+        "q": "De markt daalt in één week 15% en je groepsapp verkoopt alles. Je geld staat de komende tien jaar belegd. Wat doe je?",
+        "explanation": "Een daling van 15% wordt pas een echt verlies op de dag dat je erin verkoopt. Het plan dat je schreef toen er niks aan de hand was, is geschreven door de nuchtere versie van jou, en je daaraan houden is precies de hele kunst. Wachten tot alles rustig lijkt voordat je terugkoopt, betekent hoger terugkopen, want de rust komt pas na het herstel, niet ervoor.",
+        "options": [
+          "Nu verkopen en terugkopen zodra alles rustiger lijkt",
+          "Het geld verplaatsen naar wat de groepsapp in plaats daarvan koopt",
+          "Doorgaan met het plan dat je in alle rust hebt opgeschreven"
+        ]
+      }
+    },
+    "31": {
+      "title": "De eindbaas",
+      "desc": "Rente-op-rente, het 8e wereldwonder",
+      "content": "'Het achtste wereldwonder: wie het begrijpt, verdient eraan; wie het niet begrijpt, betaalt ervoor.' Je ziet die uitspraak online overal toegeschreven aan Einstein. Er is geen echt bewijs dat hij het gezegd heeft.\n\nDe wiskunde is echter onweerlegbaar. Dit is het belangrijkste wat je ooit over geld zult leren:\n\nIemand die op zijn 20e begint en {c}500/maand belegt tegen 12% per jaar, heeft op zijn 65e MEER dan iemand die op zijn 35e begint en {c}2,000/maand belegt tegen hetzelfde rendement. Vier keer het maandbedrag, en toch eindigt die tweede persoon achter.\n\nTijd. Is. Alles.\n\nDat is geen truc met getallen, het is precies waar rente-op-rente om draait: elk jaar dat je wacht, kost meer dan elk jaar dat je later toevoegt kan terugwinnen. Het beste moment om te beginnen was eerder. Het op één na beste is nu.\n\nDeze quiz is je laatste test. Haal hem en je bent officieel NoobTrader-gecertificeerd! 👑",
+      "bossVictory": "Rente-op-rente ontgrendeld. Je bent nu gevaarlijk. 🔥",
+      "quiz": {
+        "q": "{c}1,000 belegd tegen 12% per jaar groeit in 10 jaar tot ~{c}3,106. Wat gebeurt er als je de tijd VERDUBBELT naar 20 jaar?",
+        "explanation": "De tijd verdubbelen doet veel meer dan het resultaat verdubbelen, want de groei van elk jaar bouwt voort op alles wat ervoor kwam. De groei versnelt in plaats van dat hij vertraagt.",
+        "options": [
+          "Het wordt meer dan drie keer zoveel: ~{c}9,646",
+          "Het wordt ongeveer twee keer zoveel: ~{c}6,200",
+          "Het rendement vertraagt hoe langer je wacht"
+        ]
+      }
+    },
+    "32": {
+      "title": "Cryptoplatforms en wallets",
+      "desc": "Waar crypto eigenlijk bewaard wordt",
+      "content": "Eerst het eerlijke deel: voor echte cryptoplatforms moet je in bijna elk land 18+ zijn. Daarom laat NoobTrader je eerst alles oefenen met virtueel geld. 🎮\n\nAls volwassenen crypto kopen, gebruiken ze twee soorten plekken:\n\n🏦 EXCHANGES EN BROKER-APPS (custodial, in bewaring): je maakt een account aan en zij bewaren je crypto voor je. Makkelijk, maar je vertrouwt op hen. Als ze gehackt worden of failliet gaan, kan je crypto verdwijnen. Dat is al gebeurd bij een paar van de grootste namen in crypto.\n\n🔑 SELF-CUSTODY WALLETS (zelf bewaren): een app waarin JIJ de geheime sleutels hebt. Niemand kan hem bevriezen, maar niemand kan je ook helpen. Raak je je seedphrase kwijt (de 12 tot 24 geheime woorden), dan is de crypto voor altijd weg. Geen wachtwoordreset. Geen klantenservice. Weg.\n\nCryptomensen zeggen: 'Not your keys, not your coins' (niet jouw sleutels, niet jouw munten). Nu weet je wat dat betekent.",
+      "quiz": {
+        "q": "Wat betekent het als een exchange je crypto 'custodial' (in bewaring) heeft?",
+        "explanation": "Custodial betekent dat het platform de sleutels beheert, dus je munten zijn nooit veiliger dan het platform zelf. Als het gehackt wordt of omvalt, kunnen ze mee verdwijnen. Dat bedoelen mensen met niet jouw sleutels, niet jouw munten.",
+        "options": [
+          "De exchange beheert de sleutels voor je",
+          "Jij hebt de sleutels en niemand anders kan erbij",
+          "Niemand kan aan de munten komen, zelfs jij niet",
+          "Het levert automatisch rente op"
+        ]
+      }
+    },
+    "33": {
+      "title": "Zo werkt crypto kopen",
+      "desc": "Spreads, kosten en markten die 24/7 open zijn",
+      "content": "Crypto kopen lijkt op online iets kopen, maar drie dingen zijn anders:\n\n1️⃣ DE SPREAD: de koopprijs is altijd iets hoger dan de verkoopprijs. Koop voor {c}100 aan crypto en verkoop het meteen, en je krijgt misschien {c}97 terug. Met dat verschil verdienen platforms stilletjes geld.\n\n2️⃣ KOSTEN BOVENOP: de meeste platforms rekenen ook kosten per transactie, vaak 1 tot 2% bij kleine aankopen. Kosten plus spread betekent dat een kleine aankoop al zo'n 3 tot 5% in de min begint voordat de koers ook maar beweegt.\n\n3️⃣ GEEN SLOTBEL: aandelenbeurzen sluiten 's nachts en in het weekend. Crypto wordt 24/7 verhandeld, elke dag van het jaar. Koersen kunnen crashen terwijl jij slaapt. Dat is een deel van de reden waarom crypto zoveel volatieler is dan aandelen.\n\nIn NoobTrader kun je 24/7 crypto verhandelen met virtueel geld, zonder een cent te verliezen. Je betaalt kosten bij elke transactie, maar NoobTrader rekent geen spread, dus een echte aankoop kost meer dan dezelfde transactie hier. 📊",
+      "quiz": {
+        "q": "Je stopt 200 NT in een munt en verkoopt hem vijf seconden later, voordat de koers ook maar bewogen heeft. Het verschil tussen koop- en verkoopprijs kost 3%, en het platform rekent 1% kosten per transactie. Sleep naar het bedrag dat terugkomt.",
+        "explanation": "De spread neemt 3%, daarna komt er 1% kosten bij het instappen en nog eens 1% bij het uitstappen. Dat is 5% van je 200 NT, dus 10 NT is weg voordat de koers iets gedaan heeft. Je krijgt 190 NT terug, en de munt moet nu 5% stijgen om je alleen al quitte te laten spelen."
+      }
+    },
+    "34": {
+      "title": "Gaskosten uitgelegd",
+      "desc": "Waarom crypto versturen geld kost",
+      "content": "Crypto versturen is niet gratis. Elke transactie betaalt netwerkkosten, vaak GAS genoemd, aan de computers die het netwerk verwerken en beveiligen.\n\nDit is het deel dat iedereen verrast: gas wordt geprijsd op basis van drukte op het netwerk, NIET op basis van hoeveel je verstuurt. Als het netwerk druk is, schieten de kosten omhoog.\n\n🤯 Op sommige netwerken kan het op drukke momenten MEER dan {c}10 aan gas kosten om {c}10 aan crypto te versturen. Je betaalt dan meer voor de bezorging dan het pakketje waard is.\n\nNieuwere netwerken en 'layer 2'-systemen bestaan vooral om dit goedkoper te maken, met kosten van een paar cent. Iedereen die met crypto werkt, checkt de kosten VOORDAT je op verzenden drukt.\n\nNog één ding: cryptotransacties kun je niet terugdraaien. Verkeerd adres plus betaald gas is geld kwijt, voorgoed. Er is geen bank om te bellen. ☎️❌",
+      "quiz": {
+        "q": "De gaskosten zijn vandaag hoog. Je wilt {c}15 aan crypto versturen en het gas kost {c}20. Wat is de slimme conclusie?",
+        "explanation": "Gas wordt geprijsd op basis van hoe druk het netwerk is, niet op hoeveel je verstuurt, dus een kleine overboeking kan meer kosten dan hij waard is. Opsplitsen helpt ook niet, want elke overboeking betaalt zijn eigen kosten. Wacht op een rustiger moment of gebruik een goedkoper netwerk.",
+        "options": [
+          "Betalen, want de kosten worden terugbetaald zodra het aankomt",
+          "Niet doen, de kosten zijn hoger dan het pakketje waard is",
+          "Het in tweeën splitsen, zodat elke helft de helft van de kosten betaalt",
+          "De kosten negeren, gas geldt alleen voor grote overboekingen"
+        ]
+      }
+    },
+    "35": {
+      "title": "Memecoins en rug pulls",
+      "desc": "Zie de valkuilen voordat ze jou zien",
+      "content": "Memecoins zijn crypto's die gebouwd zijn op grappen en hype in plaats van op echt nut. Een paar maakten vroege kopers rijk, en precies daarom bestaan er duizenden na-apers. Bijna allemaal gaan ze naar nul. 📉\n\nDe gemeenste valkuil is de RUG PULL (het kleed onder je voeten wegtrekken): makers maken een munt, hypen hem flink, wachten tot mensen massaal instappen, en dumpen dan hun enorme voorraad of halen de handelspool leeg. De koers stort binnen minuten in. Zij houden het geld. Jij houdt de waardeloze munten.\n\n🚩 RODE VLAGGEN om te onthouden:\n• Anoniem team dat je niet kunt controleren\n• 'Gegarandeerd' rendement (niets op de markten is gegarandeerd)\n• Influencers die betaald worden om hem te pushen\n• Een piepkleine groep heeft het grootste deel van de voorraad\n• Druk om te 'kopen voordat het te laat is'\n\nAls de belangrijkste pitch van een munt is dat ANDERE mensen die hem kopen JOU rijk zullen maken, dan is dat geen beleggen. Dat is stoelendans, en de makers hebben de muziek in handen. 🎵",
+      "quiz": {
+        "q": "Een nieuwe munt heeft een anoniem team, belooft een gegarandeerde 100x en betaalde influencers pushen hem hard. Wat gebeurt er meestal daarna?",
+        "explanation": "Een anoniem team, een gegarandeerd rendement en betaalde promotie zijn de standaardopzet van een rug pull. De makers hebben het grootste deel van de voorraad, verkopen die in de hype en verdwijnen, en laten kopers achter met een munt die niemand wil. Niets op de markten is gegarandeerd.",
+        "options": [
+          "Kopers krijgen hun geld terug van de exchange waar hij gelanceerd werd",
+          "De koers stabiliseert zodra de influencers stoppen met posten",
+          "Het team dumpt zijn voorraad en de koers stort in",
+          "Toezichthouders dwingen het team te laten zien wie ze zijn"
+        ]
+      }
+    },
+    "36": {
+      "title": "Minen vs traden vs staken",
+      "desc": "Drie heel verschillende spellen",
+      "content": "Drie manieren waarop mensen proberen te verdienen met crypto, en het is NIET hetzelfde spel:\n\n⛏️ MINEN: krachtige computers racen om transacties te verwerken en nieuwe munten te verdienen. Klinkt leuk, maar Bitcoin-minen is tegenwoordig industrieel: loodsen vol gespecialiseerde machines en gigantische stroomrekeningen. Je telefoon of laptop kan niet meekomen, en apps met 'mine Bitcoin op je telefoon!' zijn bijna altijd scams of advertentiefabrieken die je bijna niks betalen.\n\n🥩 STAKEN: op sommige netwerken zet je munten vast om het netwerk te helpen beveiligen en verdien je beloningen, een beetje zoals rente. Echt, maar je munten kunnen een tijdje vastzitten, en hun KOERS kan nog steeds crashen terwijl ze vastzitten.\n\n📊 TRADEN: kopen en verkopen om te verdienen aan koersbewegingen. Geen hardware nodig, maar het is het spel waarin discipline het meest telt, en waarin de meeste beginners verliezen van hun eigen emoties.\n\nNoobTrader leert je het tradingspel zonder enig risico. Voor de andere twee heb je echt geld nodig om zelfs maar te beginnen.",
+      "quiz": {
+        "q": "Een app zegt dat je telefoon winstgevend Bitcoin kan minen terwijl je slaapt. Wat is waarschijnlijk de waarheid?",
+        "explanation": "Minen is een race die beslist wordt door gespecialiseerde hardware en goedkope stroom, en een telefoon heeft geen van beide. Apps die iets anders beloven, zijn meestal uit op je data, je batterij of je geld, en betalen je er bijna niks voor.",
+        "options": [
+          "Telefoons minen langzaam, maar maken toch winst",
+          "Het werkt, maar alleen op de nieuwste telefoons",
+          "Minen op telefoons is verboden door de netwerken",
+          "Het is een advertentiefabriek die bijna niks betaalt"
+        ]
+      }
+    },
+    "37": {
+      "title": "Cryptobeveiliging en scams",
+      "desc": "Houd wat van jou is, van jou",
+      "content": "De superkracht van crypto is ook het gevaar ervan: transacties zijn onomkeerbaar en er is geen bank die een fout kan herstellen. Oplichters zijn daar dol op. Dit is je verdedigingskit:\n\n🔐 JE SEEDPHRASE IS HEILIG. Niemand die te vertrouwen is, zal er OOIT om vragen. Geen 'supportmedewerkers', geen 'verificatiebot', niemand. Iedereen die om je seedphrase vraagt, besteelt je, punt.\n\n🎣 PHISHING: nepwebsites en DM's die er precies uitzien als echte platforms. Eén letter anders in het webadres. Typ het adres altijd zelf.\n\n🎁 GIVEAWAY-SCAMS: 'Stuur 1 munt, krijg er 2 terug!', vaak via het gehackte account van een beroemdheid. Niemand verdubbelt je geld. Nooit.\n\n💕 LIEFDES- EN 'BELEGGINGSMENTOR'-SCAMS: een vriendelijke onbekende die je langzaam overhaalt naar een 'speciaal platform'. Het platform is nep. Opnames werken nooit.\n\nHet patroon achter elke scam: haast plus geheimhouding plus gegarandeerde winst. Zie je die drie samen, loop dan weg. 🚶",
+      "quiz": {
+        "q": "Iemand die zegt 'platformsupport' te zijn, stuurt je een DM en vraagt om je seedphrase van 12 woorden om 'je wallet te verifiëren'. Wat doe je?",
+        "explanation": "De seedphrase IS de wallet. Iedereen die hem heeft, kan hem leeghalen, echte support vraagt er nooit om, en geen enkel deel ervan mag je ooit delen.",
+        "options": [
+          "Nooit delen, want echte support vraagt nooit om een seedphrase",
+          "Delen, want geverifieerde supportmedewerkers hebben hem nodig om je account te checken",
+          "Alleen de eerste zes woorden delen, dat is op zich veilig genoeg",
+          "Vragen of ze je eerst vanaf het officiële adres mailen, en hem dan delen"
+        ]
+      }
+    },
+    "38": {
+      "title": "De cryptobaas",
+      "desc": "De Bitcoin-tijdmachine",
+      "content": "Tijd voor het verhaal dat iedereen aanhaalt en niemand goed vertelt.\n\nBegin 2017 kostte één Bitcoin ongeveer $1,000. In december 2024 ging hij voor het eerst over de $100,000. Een aankoop van $1,000 die je de hele tijd vasthield, werd ongeveer $100,000. Dat is een 100x. 🤯\n\nNu het deel dat de hype weglaat: om die 100x binnen te halen, moest je twee keiharde crashes uitzitten, één van ongeveer 84% en een andere van ongeveer 77%, en JARENLANG toekijken hoe je geld kromp zonder te verkopen. Bijna niemand lukte dat. De meeste mensen kochten hoog, raakten in paniek tijdens de crash en verkochten laag.\n\nEn voor elke Bitcoin zijn er duizenden dode munten die naar nul gingen. De winnaar van tevoren kiezen lijkt alleen achteraf makkelijk. Dat heet survivorship bias (overlevingsbias), en het is de duurste illusie in crypto.\n\nDe echte les van de tijdmachine: bij de munten die overleefden, won geduld het van timing. Maar je ontdekt pas ACHTERAF welke munten overleven, en daarom wint spreiding het van heldenkeuzes, en daarom weet NIEMAND wat de toekomst brengt. Zelfs de baas niet. 🐉",
+      "bossVictory": "Cryptomodule veroverd. Je weet nu meer dan de meeste volwassenen. 🐉",
+      "quiz": {
+        "q": "Duizenden munten werden tegelijk met Bitcoin gelanceerd, en de meeste zijn nu bijna niks meer waard. Waarom lijkt \"kies gewoon de volgende Bitcoin\" zo makkelijk als je terugkijkt?",
+        "explanation": "Alleen over de overlevers wordt nog gepraat, dus winnaars kiezen lijkt achteraf veel makkelijker dan het destijds was. De duizenden die mislukten, lieten geen spoor achter in het verhaal.",
+        "options": [
+          "Omdat de winnaars de enige zijn waar iemand het nog over heeft, en de munten die stierven uit het verhaal verdwenen",
+          "Omdat de beste munten vanaf het begin duidelijk zijn voor iedereen die er genoeg over leest",
+          "Omdat de meeste munten uiteindelijk goed uitpakken voor iedereen die geduldig genoeg is om ze jaren vast te houden",
+          "Omdat de experts Bitcoin al in 2010 correct voorspelden en sindsdien elke winnaar hebben voorspeld"
+        ]
+      }
+    },
+    "39": {
+      "title": "Wat IS een blockchain eigenlijk?",
+      "desc": "De techniek onder alles",
+      "content": "Haal de hype weg en een blockchain is verrassend simpel: een gedeeld logboek waarvan duizenden computers identieke kopieën bijhouden.\n\nAls iemand crypto verstuurt, gaat die transactie samen met honderden andere in een 'blok'. Het blok wordt met wiskunde verzegeld en vastgeketend aan het vorige blok. Vandaar: block. Chain (blok, ketting). ⛓️\n\nWaarom maakt iemand zich daar druk om? Om wat het mogelijk maakt:\n\n✅ Niemand kan stiekem de geschiedenis aanpassen. Een oud blok veranderen zou betekenen dat je elk blok erna opnieuw moet doen, op duizenden computers tegelijk.\n✅ Geen enkel bedrijf of geen enkele overheid beheert het. Het netwerk van computers beheert het samen.\n✅ Iedereen kan het logboek controleren. Elke Bitcoin-transactie die ooit gedaan is, is openbaar zichtbaar.\n\nDat is echt nieuwe technologie. Het is ook GEEN toverdrankgeld. Een perfect logboek van een waardeloze munt is nog steeds een waardeloze munt. Dat de techniek echt is, maakt niet elke munt die erop gebouwd is waardevol. 🧠",
+      "quiz": {
+        "q": "Waarom is het zo moeilijk om stiekem een oude transactie op een blockchain te veranderen?",
+        "explanation": "Elk blok is verzegeld aan het blok ervoor, dus een oud blok herschrijven betekent elk blok erna herschrijven, op duizenden computers, sneller dan het netwerk nieuwe blokken toevoegt. Dat maakt het logboek in de praktijk permanent.",
+        "options": [
+          "Elk later blok zou ook opnieuw gedaan moeten worden",
+          "Elke wijziging moet door een overheid goedgekeurd worden",
+          "Elk record ouder dan een maand wordt gewist",
+          "De maker van elke munt heeft een privé-bewerkingssleutel"
+        ]
+      }
+    },
+    "40": {
+      "title": "Bitcoin vs al het andere",
+      "desc": "Niet alle munten spelen hetzelfde spel",
+      "content": "'Crypto' is niet één ding. De verschillen zijn belangrijker dan de overeenkomsten:\n\n₿ BITCOIN: het origineel. Het aanbod is voor altijd beperkt tot 21 miljoen munten, vastgelegd in de code, en het tempo van nieuwe munten halveert ongeveer elke vier jaar. (Klinkt bekend? De halvering van NOOB leent precies dit idee.) De hele pitch is schaarste plus veiligheid.\n\n⟠ ETHEREUM: minder 'digitaal goud', meer 'wereldcomputer'. Het draait smart contracts, programma's die automatisch worden uitgevoerd. De meeste crypto-apps zijn erop gebouwd, of op die van concurrenten.\n\n🪙 AL HET ANDERE: duizenden 'altcoins'. Een paar lossen echte problemen op. De meeste zijn kopieën, experimenten of graaiprojecten. De keiharde statistiek: de meerderheid van alle munten die ooit gemaakt zijn, is al dood of waardeloos.\n\nLes: 'crypto gaat omhoog' zegt je bijna niks over een SPECIFIEKE munt. Elke munt is een eigen gok, met eigen kansen. 🎲",
+      "quiz": {
+        "q": "Wat is het maximale aanbod van Bitcoin, en hoe makkelijk kan dat veranderd worden?",
+        "explanation": "De grens van 21 miljoen is onderdeel van de regels die elke computer in het netwerk draait. Hem verhogen zou betekenen dat bijna allemaal akkoord gaan om wat ze al hebben minder waard te maken, en daarom wordt de grens als vast beschouwd.",
+        "options": [
+          "100 miljoen, en de miners stemmen er elk jaar over",
+          "21 miljoen, en verhogen is bijna onmogelijk",
+          "1 miljard, en de maker kan het aanpassen",
+          "Geen grens, dus er worden eeuwig nieuwe munten bijgemaakt"
+        ]
+      }
+    },
+    "41": {
+      "title": "Stablecoins",
+      "desc": "Crypto die probeert stil te staan",
+      "content": "Een stablecoin is een crypto die zo is ontworpen dat hij altijd een vast bedrag waard is, meestal precies 1 Amerikaanse dollar. Traders gebruiken ze als parkeerplek: je verkoopt je beweeglijke coins voor een stablecoin, en je geld staat stil terwijl je je volgende zet bedenkt.\n\nHoe blijven ze op $1? Bij het belangrijkste ontwerp worden echte dollars en bezittingen in reserve gehouden, zodat elke coin ergens door gedekt is. Je vertrouwt dus op degene die die reserves beheert.\n\nEn hier is je waarschuwingsverhaal: stablecoins kunnen BREKEN. Dat is echt gebeurd. In 2022 stortte een grote 'algoritmische' stablecoin, die slimme wiskunde gebruikte in plaats van echte reserves, binnen een paar dagen in van $1 naar bijna nul, en er verdwenen tientallen miljarden dollars. 'Stabiel' is een ontwerpdoel, geen garantie.\n\nVuistregel: hoe slimmer het mechanisme dat iets 'veilig' moet houden, hoe kritischer je ernaar moet kijken. 🔍",
+      "quiz": {
+        "q": "Wat is de belangrijkste taak van een stablecoin?",
+        "explanation": "De taak van een stablecoin is stilstaan. Het is een parkeerplek tussen trades door, niet iets waarvan je verwacht dat het groeit.",
+        "options": [
+          "Een vaste waarde houden, meestal $1, zodat traders een stabiele parkeerplek hebben",
+          "Sneller groeien dan Bitcoin door de hele cryptomarkt te volgen",
+          "Automatisch rente uitkeren aan iedereen die hem in een wallet heeft",
+          "Transacties voor iedereen verbergen door het openbare grootboek te versleutelen"
+        ]
+      }
+    },
+    "42": {
+      "title": "Crypto, belasting & de wet",
+      "desc": "Ja, de regels gelden ook hier",
+      "content": "Het internet zit vol mensen die denken dat crypto onzichtbaar geld is zonder regels. Meestal komen ze er op de harde manier achter dat dat niet klopt. 😬\n\nDe werkelijkheid in de meeste landen, ook in Zuid-Afrika:\n\n🧾 WINST IS MEESTAL BELAST. Verkoop je crypto voor meer dan je ervoor betaalde, dan wil de belastingdienst over het algemeen zijn deel, net als bij aandelen.\n\n🪪 EXCHANGES WETEN WIE JE BENT. Betrouwbare platforms eisen dat je je identiteit verifieert (dat heet KYC, Know Your Customer). Elke transactie wordt bovendien voor altijd vastgelegd op de blockchain zelf, en dat is het TEGENOVERGESTELDE van anoniem.\n\n⚖️ TOEZICHTHOUDERS ZIJN BETROKKEN. In Zuid-Afrika worden cryptobezittingen officieel behandeld als financiële producten, wat betekent dat de platforms die ze verkopen zich aan de regels voor financiële dienstverlening moeten houden.\n\nNiets hiervan is een reden om in paniek te raken. Het IS wel een reden om iedereen te negeren die zegt 'de regels gelden niet voor crypto'. Dat doen ze wel, en doen alsof het anders is brengt volwassenen in echt serieuze problemen.",
+      "quiz": {
+        "q": "Je neef zegt dat cryptowinst onzichtbaar is voor de belastingdienst, omdat crypto anoniem is. Wat klopt daar niet aan?",
+        "explanation": "Betrouwbare platforms controleren wie je bent voordat je mag handelen, en elke blockchaintransactie is openbaar en permanent, het tegenovergestelde van anoniem. Winst is over het algemeen belast, dus check de regels waar jij woont.",
+        "options": [
+          "Exchanges controleren je ID en de gegevens zijn openbaar",
+          "Niets, crypto is echt anoniem",
+          "Crypto wordt alleen in Amerika belast en nergens anders",
+          "Belasting begint pas als je een miljoen opneemt"
+        ]
+      }
+    },
+    "43": {
+      "title": "Volatiliteit & overlevingsregels",
+      "desc": "Waarom crypto zo hard schommelt",
+      "content": "Een slechte dag op de aandelenmarkt is 3%. Een slechte dag in crypto is 20%. Zelfs Bitcoin, de 'volwassene' van crypto, heeft meer dan eens meer dan 80% van zijn waarde verloren en is daarna weer hersteld. Kleinere coins verliezen regelmatig 95% en komen nooit meer terug.\n\nWaarom zo wild? Crypto wordt 24/7 verhandeld zonder noodremmen, veel ervan wordt gekocht met geleend geld dat bij een crash gedwongen wordt verkocht, en koersen draaien meer op verhalen en emotie dan op kwartaalcijfers.\n\nDus de overlevingsregels, die elke ervaren trader herhaalt:\n\n1️⃣ Stop er nooit geld in dat je niet helemaal kunt missen.\n2️⃣ Maak je posities zo groot dat één ramp je niet kan wegvagen.\n3️⃣ Bepaal je uitstap VOORDAT je instapt, terwijl je nog rustig bent.\n4️⃣ FOMO is het duurste gevoel in de financiële wereld.\n\nOefen alle vier in NoobTrader, waar de verliezen nep zijn. De gewoontes zijn de echte prijs. 🏆",
+      "quiz": {
+        "q": "Welke van deze is een echte overlevingsregel voor volatiele markten?",
+        "explanation": "Nooit geld riskeren dat je niet kunt missen is dé regel die je in het spel houdt. Na een verlies je inzet verdubbelen is hoe accounts eindigen.",
+        "options": [
+          "Verdubbel je positie na elk verlies om het terug te winnen",
+          "Investeer nooit geld dat je niet helemaal kunt missen",
+          "Volatiliteit raakt alleen kleine coins, dus grote coins zijn veilig",
+          "Koop altijd als iedereen op social media aan het kopen is"
+        ]
+      }
+    },
+    "44": {
+      "title": "Hypecycli & FOMO",
+      "desc": "Het patroon achter elke manie",
+      "content": "Crypto beweegt in hypecycli, en zodra je het patroon ziet, kun je het nooit meer niet zien:\n\n📈 Fase 1: er gebeurt iets echts. Vroege gelovigen kopen stilletjes.\n🚀 Fase 2: de koersen stijgen. De media merken het op. Je feed loopt vol met winnaars.\n🎪 Fase 3: manie. Taxichauffeurs geven coin-tips. Mensen lenen geld om te kopen. 'Deze keer is het anders.'\n💥 Fase 4: de crash. Laatkomers, die het duurst kochten, verliezen het meest.\n🕳️ Fase 5: stilte. De posts van de winnaars verdwijnen. Niemand praat over zijn verliezen.\n\nDe NFT-hype van 2021 volgde precies dit script: digitale verzamelobjecten die op de top voor miljoenen werden verkocht, en een paar jaar later waren de meeste bijna niets meer waard.\n\nDe gemene truc van elke manie: hij laat het SLECHTSTE moment om te kopen voelen als het DRINGENDSTE moment om te kopen. Wanneer instappen het veiligst voelt, omdat iedereen al binnen is, is de makkelijke winst meestal al weg. 🎯",
+      "quiz": {
+        "q": "Wanneer voelt de gemiddelde persoon in een klassieke hypecyclus de sterkste drang om te kopen?",
+        "explanation": "De drang is het luidst als het verhaal het luidst is, en het verhaal is het luidst nadat de koers al flink is gestegen. Dat iedereen erin zit, zorgt dat het veilig voelt, en het zorgt er ook voor dat er niemand meer over is om te kopen.",
+        "options": [
+          "In het begin, als bijna niemand erover praat",
+          "Halverwege de crash, als de koersen laag zijn",
+          "Vlak bij de top, als iedereen al binnen is",
+          "Er zit geen patroon in, de drang is willekeurig"
+        ]
+      }
+    },
+    "45": {
+      "title": "Een candle lezen",
+      "desc": "Anatomie van een candle: body en kleur",
+      "content": "Elke candle vertelt een klein verhaal met maar vier getallen: waar de koers opende, het hoogste punt dat hij bereikte, het laagste punt waar hij zakte en waar hij sloot. De dikke body loopt van opening tot slot, en de kleur vertelt je wie er won: groen betekent dat het slot boven de opening eindigde, rood betekent dat de verkopers hem eronder trokken. Dat is de hele truc. Leer één candle goed lezen en elke grafiek ter wereld verandert van een muur van ruis in een stripverhaal. 🟢",
+      "quiz": {
+        "q": "Deze candle is groen. Wat vertelt hij je over die handelsperiode?",
+        "options": [
+          "De koers sloot lager dan hij opende",
+          "Er werd gegarandeerd meer gekocht dan verkocht",
+          "De koers sloot hoger dan hij opende",
+          "De koers is tijdens de periode nooit gedaald"
+        ]
+      }
+    },
+    "46": {
+      "title": "Wicks vertellen verhalen",
+      "desc": "Anatomie van een candle: hoogtes en laagtes",
+      "content": "De body laat zien waar de periode opende en sloot, maar de wicks laten de hele reis zien: elke koers die het gevecht echt heeft bereikt. Een lange wick betekent dat er voorbij de opening en het slot een flinke strijd is geweest, en de kant die de wick achterliet, verloor die strijd. Lange wick onderaan? Verkopers duwden hard en werden teruggeslagen. Lange wick bovenaan? Kopers reikten hoog en werden afgewezen. De body is de kop, de wicks zijn de roddels. 📏",
+      "quiz": {
+        "q": "Wat laten de dunne lijntjes (de wicks) boven en onder de body eigenlijk zien?",
+        "options": [
+          "De hoogste en laagste koersen die in de periode zijn verhandeld",
+          "De opening en het slot van gisteren",
+          "De precieze koersen waarop de meeste trades plaatsvonden",
+          "Een voorspelling van de bandbreedte van morgen"
+        ]
+      }
+    },
+    "47": {
+      "title": "De doji",
+      "desc": "Losse candles: besluiteloosheid",
+      "content": "Soms opent en sluit een candle op bijna precies dezelfde koers, met een piepkleine body en aan beide kanten wicks. Dat is een doji, en het betekent dat het touwtrekken in een gelijkspel eindigde: kopers en verkopers trokken de hele sessie hard en geen van beide won. Op zichzelf is het gewoon een schouderophaal. Na een sterke stijging kan het erop wijzen dat de trend moe wordt, omdat de kant die aan het winnen was de koers ineens niet meer kon bewegen. Een aanwijzing om te onthouden, nooit een garantie. 🤝",
+      "quiz": {
+        "q": "De oplichtende candle opende en sloot op bijna precies dezelfde koers. Hoe heet hij en waar wijst hij op?",
+        "options": [
+          "Een marubozu, een teken van totale overtuiging in één richting",
+          "Een hammer, een teken dat kopers de controle terugpakten",
+          "Een gap, een teken dat de handel 's nachts stillag",
+          "Een doji, een teken van besluiteloosheid tussen kopers en verkopers"
+        ]
+      }
+    },
+    "48": {
+      "title": "De hammer",
+      "desc": "Losse candles: het tegenoffensief",
+      "content": "Stel je een keiharde sessie voor: verkopers rammen de koers omlaag, en dan trekken kopers hem vóór het slot helemaal terug. Wat er op de grafiek overblijft is een hammer: een kleine body bovenaan met een lange onderste wick die minstens twee keer zo groot is. Na een daling zegt een hammer dat de verkopers hun beste stoot probeerden en dat die niet raak was. Dat markeert vaak een mogelijke ommekeer. Mogelijk, niet beloofd, dus zie het als een aanwijzing om in de gaten te houden, niet als een koopopdracht. 🔨",
+      "quiz": {
+        "q": "Na een daling liet de oplichtende candle een lange onderste wick en een kleine body bovenaan zien. Wat is het?",
+        "options": [
+          "Een shooting star, een teken dat verkopers het overnamen",
+          "Een hammer, een hint dat kopers hard terugvochten",
+          "Een doji, een perfect gelijkspel",
+          "Bewijs dat de neerwaartse trend voorbij is"
+        ]
+      }
+    },
+    "49": {
+      "title": "De shooting star",
+      "desc": "Losse candles: afwijzing aan de top",
+      "content": "Het spiegelbeeld van de hammer. Na een sterke stijging grijpen kopers naar nog één nieuwe top, worden hard afgewezen, en de koers sluit weer omlaag, vlak bij waar hij opende. De grafiek toont een kleine body onderaan de candle met een lange bovenste wick: een shooting star. Het betekent dat de verkopers eindelijk aan de top opdoken, met genoeg kracht om de sessie te winnen. Na een grote stijging doet die afwijzing er vaak toe. Vaak, niet altijd. 🌠",
+      "quiz": {
+        "q": "Na een sterke stijging schoot de oplichtende candle omhoog en sloot hij vlak bij zijn laagste punt, met een lange bovenste wick. Wat is het?",
+        "options": [
+          "Een shooting star, een hint dat verkopers aan de top opdoken",
+          "Een hammer, een hint dat kopers weer de baas zijn",
+          "Een groene marubozu, pure koopkracht",
+          "Een garantie dat de koers morgen crasht"
+        ]
+      }
+    },
+    "50": {
+      "title": "De marubozu",
+      "desc": "Losse candles: totale overtuiging",
+      "content": "Een marubozu is één dikke body zonder wicks: de koers opende en marcheerde de hele sessie in één richting zonder ooit om te kijken. Geen gevecht, geen aarzeling, totale overtuiging van één kant. Een groene marubozu schreeuwt vertrouwen van kopers, een rode schreeuwt het tegenovergestelde. Ze zijn zeldzaam, en juist daarom veren traders op als er een verschijnt. 💪",
+      "quiz": {
+        "q": "De oplichtende candle is één dikke body zonder wicks. Wat vertelt die vorm je?",
+        "options": [
+          "Niemand handelde in die periode, dus bleef hij vlak",
+          "De markt sloot die dag vroeg en brak hem af",
+          "Eén kant had de controle van opening tot slot, totale overtuiging",
+          "Kopers en verkopers waren de hele tijd perfect in balans"
+        ]
+      }
+    },
+    "51": {
+      "title": "Bullish engulfing",
+      "desc": "Patronen van twee candles: kopers slaan toe",
+      "content": "Twee candles, één boodschap. Eerst een kleine rode candle, business as usual in een neerwaartse trend. Dan een grote groene body die hem helemaal opslokt: in één sessie wisten kopers alles uit wat de verkopers de dag ervoor bereikten, en nog meer. Verschijnt hij na een neerwaartse trend, dan is de bullish engulfing een van de best gevolgde aanwijzingen voor een ommekeer op elke grafiek, omdat hij laat zien dat de machtsverhouding in één candle omslaat. Aanwijzing, geen contract. 🐂",
+      "quiz": {
+        "q": "De grote groene body slokt de rode body ervoor helemaal op. Welk patroon van twee candles is dit?",
+        "options": [
+          "Een bearish engulfing, verkopers namen de controle over",
+          "Een bullish engulfing, kopers overweldigden de verkopers",
+          "Een double bottom",
+          "Twee doji's achter elkaar"
+        ]
+      }
+    },
+    "52": {
+      "title": "Bearish engulfing",
+      "desc": "Patronen van twee candles: verkopers slaan toe",
+      "content": "Het spiegelbeeld van de bullish versie. Aan de top van een stijging slokt een grote rode body de hele groene body ervoor op: verkopers wisten de aankopen van de vorige dag in één candle uit, precies waar de stijging al uitgerekt was en de laatste kopers zenuwachtig waren. Dat maakt de rest van de kopers meestal ook zenuwachtig. Zie je hem na een lange rally, neem hem dan serieus. 🐻",
+      "quiz": {
+        "q": "Aan de top van een stijging slokt de grote rode body de hele groene body ervoor op. Hoe heet dit paar?",
+        "options": [
+          "Een bullish engulfing, de stijging gaat door",
+          "Een hammer gevolgd door een doji",
+          "Een uitbraak boven de weerstand",
+          "Een bearish engulfing, verkopers overweldigden de kopers"
+        ]
+      }
+    },
+    "53": {
+      "title": "Een opwaartse trend herkennen",
+      "desc": "Trends: hogere toppen, hogere bodems",
+      "content": "Een opwaartse trend heeft beide helften nodig: hogere toppen ÉN hogere bodems. Elke piek verslaat de vorige, en elke dip stopt hoger dan de vorige, omdat kopers telkens eerder instappen. Die trapvorm is de markt die je vertelt dat de vraag de baas is. Eén hogere top op zichzelf bewijst niets. Het patroon is het paar, steeds opnieuw. 📈",
+      "quiz": {
+        "q": "Elke piek verslaat de vorige, en elke dip stopt hoger dan de vorige. Wat laat deze grafiek zien?",
+        "options": [
+          "Een opwaartse trend, hogere toppen en hogere bodems",
+          "Een neerwaartse trend, lagere toppen en lagere bodems",
+          "Een range, de koers zit vast tussen een vloer en een plafond",
+          "Een double top in wording"
+        ]
+      }
+    },
+    "54": {
+      "title": "Een neerwaartse trend herkennen",
+      "desc": "Trends: lagere toppen, lagere bodems",
+      "content": "Draai de trap ondersteboven. Lagere toppen betekenen dat verkopers bij elke opleving eerder toeslaan, lagere bodems betekenen dat kopers bij elke daling verder terugtrekken. Zolang die structuur standhoudt, hebben de verkopers de touwtjes in handen, en ertegenin gaan is hoe nieuwe traders geld doneren aan geduldige traders. De trend is niet je vijand, maar doen alsof hij er niet is, is dat zeker wel. 📉",
+      "quiz": {
+        "q": "Elke opleving piekt lager dan de vorige, en elke daling gaat dieper. Waar kijk je naar?",
+        "options": [
+          "Een opwaartse trend die even op adem komt",
+          "Een zijwaartse range",
+          "Een neerwaartse trend, lagere toppen en lagere bodems",
+          "Een bullish engulfing-patroon in wording"
+        ]
+      }
+    },
+    "55": {
+      "title": "De zijwaartse markt",
+      "desc": "Trends: het wachtspel",
+      "content": "Soms wint geen van beide kanten, dus pingpongt de koers wekenlang tussen dezelfde vloer en hetzelfde plafond. Dat is een range, en markten brengen een enorm deel van hun leven precies zo door. Hij is niet kapot en niet saai, het is de markt die op adem komt. Geduldige traders leren van het wachten te houden, want hoe langer een range standhoudt, hoe betekenisvoller de uiteindelijke ontsnapping meestal is. 🏓",
+      "quiz": {
+        "q": "De koers stuitert al weken tussen dezelfde vloer en hetzelfde plafond. Hoe heet dit?",
+        "options": [
+          "Een opwaartse trend, hij raakt steeds het plafond",
+          "Een range, de markt beweegt zijwaarts",
+          "Een head and shoulders",
+          "Een uitbraak in wording"
+        ]
+      }
+    },
+    "56": {
+      "title": "Steun",
+      "desc": "Steun & weerstand: de vloer",
+      "content": "Als de koers steeds naar hetzelfde niveau zakt en elke keer terugveert, noemen traders dat niveau steun: een vloer waar kopers steeds besluiten dat de koers een koopje is. Hoe vaker hij standhoudt, hoe meer mensen hem in de gaten houden, en dat is deels waarom hij blijft standhouden. Maar onthoud dat de vloer door mensen is getekend, niet door de wet. Steun kan breken en doet dat ook, en als dat gebeurt, wordt de stuiter-groep de paniek-groep. 🧱",
+      "quiz": {
+        "q": "De koers is drie keer in het gearceerde niveau gezakt en is elke keer teruggeveerd. Hoe noemen traders dat niveau?",
+        "options": [
+          "Weerstand, een plafond waar verkopers massaal instappen",
+          "Een trendlijn, niveaus moeten diagonaal zijn",
+          "Een stop-loss die door de beurs is ingesteld",
+          "Steun, een vloer waar kopers steeds instappen"
+        ]
+      }
+    },
+    "57": {
+      "title": "Weerstand",
+      "desc": "Steun & weerstand: het plafond",
+      "content": "Weerstand is het plafond: een niveau waar elke rally steeds vastloopt, omdat verkopers daar graag hun winst pakken. Zie je een grafiek drie keer met zijn hoofd tegen dezelfde koers stoten, dan zie je weerstand live aan het werk. Hier is de twist die je moet onthouden: als de koers er ooit met echte overtuiging doorheen breekt, gaat dat oude plafond vaak werken als een nieuwe vloer. 🪟",
+      "quiz": {
+        "q": "Drie aparte rally's zijn vastgelopen op het gearceerde niveau. Hoe heet dat niveau?",
+        "options": [
+          "Weerstand, een plafond waar verkopers steeds terugduwen",
+          "Steun, een vloer die onder de koers ligt",
+          "Het dividendniveau, dat één keer per jaar wordt vastgesteld",
+          "Een volumepiek, die niets zegt over de koers"
+        ]
+      }
+    },
+    "58": {
+      "title": "Trendlijnen",
+      "desc": "Trendlijnen & kanalen: de lijn die telt",
+      "content": "Verbind de stijgende bodems op een grafiek en je hebt een trendlijn getekend. Door elke twee punten kun je een lijn trekken, maar bij de derde aanraking begint hij te bewijzen dat hij ertoe doet, omdat dat laat zien dat kopers hetzelfde stijgende niveau blijven verdedigen. Elke extra gerespecteerde aanraking is meer bewijs. Het blijft bewijs, nooit een belofte: een trendlijn is een potloodstreep, geen krachtveld. ✏️",
+      "quiz": {
+        "q": "Deze stijgende lijn is drie aparte keren geraakt. Waarom vinden traders het belangrijk hoe vaak een trendlijn is geraakt?",
+        "options": [
+          "Dat vinden ze niet, want elke twee punten maken een trendlijn tot een regel",
+          "Drie aanrakingen betekenen dat een vierde stuiter gegarandeerd volgt",
+          "Meer aanrakingen maken de lijn betekenisvoller, kopers blijven hem verdedigen",
+          "Trendlijnen tellen alleen op daggrafieken, nooit op kortere"
+        ]
+      }
+    },
+    "59": {
+      "title": "Kanalen",
+      "desc": "Trendlijnen & kanalen: de rijstrook",
+      "content": "Een kanaal is een trend met manieren. De koers stijgt terwijl hij stuitert tussen twee evenwijdige lijnen: een vloer van stijgende bodems en een plafond van stijgende toppen, die samen omhoog bewegen als de randen van een rijstrook. Traders letten op beide randen voor stuiters, en ze letten nog beter op de dag dat de koers de rijstrook verlaat, want een duidelijke uitbraak uit een kanaal is vaak waar de volgende grote beweging begint. 🛣️",
+      "quiz": {
+        "q": "De koers stijgt terwijl hij stuitert tussen twee evenwijdige lijnen. Welk patroon is dit?",
+        "options": [
+          "Een driehoek, waarbij de twee lijnen elkaar moeten raken",
+          "Een stijgend kanaal, een opwaartse trend met een zichtbare rijstrook",
+          "Een double top",
+          "Een vlakke range die helemaal nergens heen gaat"
+        ]
+      }
+    },
+    "60": {
+      "title": "De double top",
+      "desc": "Grafiekpatronen: de M-vorm",
+      "content": "De koers knalt twee keer tegen hetzelfde plafond, faalt beide keren en tekent een grote M op de grafiek. Breekt hij onder de dip in het midden (de neklijn), dan is de double top compleet: een klassieke bearish aanwijzing voor een ommekeer. Het spiegelbeeld, de W, is de double bottom, en die wijst de andere kant op. Markeert vaak een top, hoeft niet. Niets op een grafiek hoeft. Ⓜ️",
+      "quiz": {
+        "q": "De koers knalde twee keer tegen hetzelfde plafond, faalde beide keren en brak toen onder de dip in het midden. Welke vorm is dit?",
+        "options": [
+          "Een double bottom, een bullish aanwijzing",
+          "Een stijgend kanaal",
+          "Een hammer",
+          "Een double top, een bearish aanwijzing voor een ommekeer"
+        ]
+      }
+    },
+    "61": {
+      "title": "Als patronen falen",
+      "desc": "Grafiekpatronen: kansen, geen beloftes",
+      "content": "Dit is de waardevolste les van de module. Er vormde zich een schoolvoorbeeld van een patroon, iedereen zag het, en toen deed de markt het tegenovergestelde. Elk patroon dat je hebt geleerd faalt af en toe, en dat is niet de grafiek die tegen je liegt, het is de grafiek die je informatie geeft: de kant waar jij op inzette, heeft net verloren. Bepaal je uitstap voordat je instapt, en als een patroon faalt, snap de hint en stap uit. Patronen zijn kansen, nooit beloftes. 🚪",
+      "quiz": {
+        "q": "Er vormde zich een schoolvoorbeeld van een double bottom op de gearceerde vloer... en toen crashte de koers er dwars doorheen. Wat is de eerlijke les?",
+        "options": [
+          "Patronen zijn kansen, geen beloftes, en een gefaald patroon is je signaal om uit te stappen",
+          "Echte double bottoms falen nooit, dus degene waar je naar keek moet nep zijn geweest",
+          "Koop meer tegen de lagere koers, want het patroon komt uiteindelijk toch nog uit",
+          "Grafieken werken helemaal niet meer zodra een patroon zo bij je heeft gefaald"
+        ]
+      }
+    },
+    "62": {
+      "title": "Head & shoulders",
+      "desc": "Grafiekpatronen: drie pieken",
+      "content": "Drie pieken: een hogere in het midden (het hoofd), een lagere aan beide kanten (de schouders) en een lijn onder de twee dips die de neklijn heet. Het ontstaat als kopers nog één laatste, hogere duw voor elkaar krijgen en die bij de volgende poging niet eens kunnen evenaren. De vorm alleen is maar een waarschuwing. Waar traders echt op wachten, is een duidelijke breuk onder de neklijn, want dan is het patroon geen tekening meer maar een beslissing. 👤",
+      "quiz": {
+        "q": "Drie pieken: een hogere in het midden, een lagere aan beide kanten en een vloer die de twee dips verbindt. Wat is deze klassieke vorm?",
+        "options": [
+          "Een triple bottom, drie gelijke bodems vóór een duw omhoog",
+          "Een head and shoulders, een mogelijk einde van de opwaartse trend",
+          "Een stijgende driehoek",
+          "Drie hammers achter elkaar, die elk lagere koersen afwijzen"
+        ]
+      }
+    },
+    "63": {
+      "title": "De driehoek-squeeze",
+      "desc": "Grafiekpatronen: de opgespannen veer",
+      "content": "Als de schommelingen steeds kleiner worden, met hogere bodems die tegen lagere toppen aandrukken, windt de markt zich op als een veer. Dat is een driehoek: beide kanten raken door hun ruimte heen en er wordt een beslissing afgedwongen. De squeeze eindigt vaak met een uitbarsting, en hier zit het addertje: de richting van die uitbarsting weet je niet van tevoren. Wacht op de uitbraak in plaats van ernaar te gokken. De markt vertelt het je, en rekent niets voor die informatie. 🌀",
+      "quiz": {
+        "q": "De schommelingen worden steeds kleiner en persen de koers in een steeds strakkere spiraal, tot hij eindelijk uitbreekt. Wat was die spiraal?",
+        "options": [
+          "Een kanaal, twee evenwijdige lijnen die elkaar nooit raken",
+          "Een double top",
+          "Een driehoek, een consolidatie die vaak eindigt in een uitbraak",
+          "Bewijs dat de koers vanaf hier wel omhoog moest uitbreken"
+        ]
+      }
+    },
+    "64": {
+      "title": "Volume: de leugendetector",
+      "desc": "Volume: wie er echt kwam opdagen",
+      "content": "Volume is hoeveel aandelen er van eigenaar wisselden, en het is de leugendetector van grafieken. Een uitbraak op piepklein volume is een fluistering die mensen voor de gek houdt: een handjevol trades duwde de koers ergens heen waar hij niet kan blijven. Een uitbraak op zwaar volume is een menigte die echt met geld stemt. Dezelfde koersbeweging, een compleet andere betekenis. Voordat je een grote beweging gelooft, check wie er voor kwam opdagen. 🔊",
+      "quiz": {
+        "q": "Twee ontsnappingspogingen uit hetzelfde plafond: de eerste, op piepklein volume, mislukte, de tweede kwam met enorm volume en hield stand. Wat doet het volume hier?",
+        "options": [
+          "Helemaal niets, volume doet er nooit toe bij een koersbeweging",
+          "De koers omhoog dwingen, want hoog volume duwt koersen hoger",
+          "De precieze top van de beweging voorspellen voordat die er is",
+          "Het werkt als bevestiging, groot volume laat echte overtuiging achter de beweging zien"
+        ]
+      }
+    },
+    "65": {
+      "title": "De trendherkenner",
+      "desc": "Tien grafieken, geen labels, geen genade",
+      "content": "Tien grafieken. Geen labels, geen hulplijnen, geen hints. Zeg wat elke grafiek laat zien, precies zoals een echte trader die naar een echt scherm staart. Haal 8 van de 10 en de module is van jou. Je krijgt 3 pogingen per dag, dus doe rustig aan, lees de candles en onthoud de belangrijkste les van allemaal: soms is het eerlijke antwoord dat er helemaal geen patroon is. 🕯️",
+      "bossVictory": "Trendmodule veroverd. Jij leest nu de grafieken, de grafieken lezen jou niet. 🕯️",
+      "bossQuestions": {
+        "0": {
+          "q": "Wat laat deze grafiek zien?",
+          "explanation": "Expres rommelig. Haal de ruis weg en elke swingtop verslaat nog steeds de vorige, en elke dip bodemt nog steeds hoger uit. Echte trends zien er zo uit, niet als een trap uit een schoolboek.",
+          "options": [
+            "Een neerwaartse trend, lagere toppen en lagere bodems",
+            "Een opwaartse trend, hogere toppen en hogere bodems",
+            "Een zijwaartse range",
+            "Een double top"
+          ]
+        },
+        "1": {
+          "q": "Wat gebeurde er bij het oplichtende paar candles?",
+          "explanation": "De rode body slokte de hele groene body op, vlak na een lange stijging. Dat is de bearish engulfing die precies doet wat hij doet: verschijnen waar kopers het meest zijn uitgerekt.",
+          "options": [
+            "Een bullish engulfing",
+            "Een doji aan de top",
+            "Een hammer",
+            "Een bearish engulfing aan de top van een rally"
+          ]
+        },
+        "2": {
+          "q": "Wat laat deze grafiek zien?",
+          "explanation": "De middelste piek staat duidelijk boven de twee aan weerszijden, en de dips vormen samen een neklijn. Echte exemplaren zijn nooit symmetrisch, en zo zien ze er in het wild echt uit.",
+          "options": [
+            "Een head and shoulders",
+            "Een triple top met drie gelijke pieken",
+            "Een stijgende driehoek",
+            "Een stijgend kanaal"
+          ]
+        },
+        "3": {
+          "q": "Wat laat deze grafiek zien?",
+          "explanation": "Twee keer een test van dezelfde vloer, de tweede iets minder diep, en dan een duw omhoog door de stuiter in het midden. De W-vorm, getekend door een echte markt in plaats van een schoolboek.",
+          "options": [
+            "Een head and shoulders",
+            "Een dalende driehoek",
+            "Een double bottom",
+            "Een bear flag"
+          ]
+        },
+        "4": {
+          "q": "Wat is de oplichtende candle?",
+          "explanation": "Lange bovenste wick, piepkleine body onderaan de bandbreedte, direct na een rally. Kopers grepen naar een nieuwe top en werden vóór het slot hard teruggeslagen.",
+          "options": [
+            "Een hammer",
+            "Een groene marubozu",
+            "Een doji",
+            "Een shooting star na een stijging"
+          ]
+        },
+        "5": {
+          "q": "Wat laat deze grafiek zien?",
+          "explanation": "Dezelfde vloer en hetzelfde plafond worden steeds gerespecteerd, en alles daartussen is ruis. Geen enkele kant wint, dus er is geen trend om op mee te liften.",
+          "options": [
+            "Een range, de koers zit klem tussen steun en weerstand",
+            "Een opwaartse trend, hogere toppen en hogere bodems",
+            "Een dalende wig",
+            "Een uitbraak in wording"
+          ]
+        },
+        "6": {
+          "q": "De koers brak uit boven het oude plafond, daarna kwam de dip bij de pijl terug naar dat niveau en hield stand. Wat was die dip?",
+          "explanation": "De dip keerde precies terug naar het niveau dat vroeger het plafond was, vond daar kopers, en de trend ging verder. Dat is een pullback. Een ommekeer zou dwars door het niveau zijn gesneden en zijn blijven dalen.",
+          "options": [
+            "Een volledige ommekeer naar een neerwaartse trend",
+            "Een pullback, een hertest van het doorbroken niveau",
+            "Een double top",
+            "Een dead cat bounce"
+          ]
+        },
+        "7": {
+          "q": "Wat laat deze grafiek zien?",
+          "explanation": "Vlakke vloer, lagere toppen die erop drukken, verkopers die bij elke opleving eerder komen. De vloer bezweek uiteindelijk, en dat is de uitkomst waar deze vorm vaak naar neigt. Vaak, nooit altijd.",
+          "options": [
+            "Een stijgende driehoek",
+            "Een stijgend kanaal",
+            "Een dalende driehoek die op steun leunt",
+            "Een double bottom"
+          ]
+        },
+        "8": {
+          "q": "Wat laat deze grafiek zien?",
+          "explanation": "De strikvraag, en de waardevolste van de boss. De meeste grafieken laten meestal niets zien dat het verhandelen waard is. Patronen zien die er niet zijn, is hoe beginners verliezen. Nee zeggen tegen een trade is een vaardigheid. 🎯",
+          "options": [
+            "Een head and shoulders",
+            "Een double top",
+            "Een opwaartse trend",
+            "Geen duidelijk patroon, hier valt niets te handelen"
+          ]
+        },
+        "9": {
+          "q": "Wat laat deze grafiek zien?",
+          "explanation": "De koers piepte op zwak volume boven het plafond uit, kopers renden erachteraan, en toen stortte hij meteen terug in de range. De uitbraak die faalt, is precies waarom de volumeles je vertelde eerst het volume te checken voordat je er een gelooft.",
+          "options": [
+            "Een bull trap, een mislukte uitbraak die kopers naar binnen zoog",
+            "Een geslaagde uitbraak met een nette hertest",
+            "Een double bottom",
+            "Een hammer-ommekeer"
+          ]
+        }
+      }
+    },
+    "66": {
+      "title": "Hier bezit je niets",
+      "desc": "Een derivaat is een weddenschap op een getal",
+      "content": "Achter alles wat je tot nu toe hebt geleerd zat iets echts. Koop een aandeel {retail} en je bezit een stukje van het bedrijf: een stukje van de winkels, een stukje van de winst, een stem op de vergadering en dividend als ze dat uitkeren.\n\nEen derivaat is dat niet.\n\nEen CFD (contract for difference) is een afspraak tussen jou en een aanbieder om het prijsverschil te verrekenen tussen het moment dat je opent en het moment dat je sluit. Dat is het hele product. Gaat {retail} omhoog en wedde je op omhoog, dan betalen zij jou het verschil. Gaat het omlaag, dan betaal jij hen. Niemand koopt een aandeel. Niemand verkoopt een aandeel. Er bestaan nergens in de transactie aandelen.\n\nEen future is een contract om iets te kopen of te verkopen tegen een vaste prijs op een vaste datum. Echte futures worden afgewikkeld in echte vaten olie of tonnen maïs, maar bijna niemand houdt ze zo lang vast, dus in de praktijk zijn de meeste futures ook een weddenschap op een getal, met een deadline eraan vast.\n\nWaarom dit belangrijker is dan het klinkt:\n\n• Geen dividend. Geen Money Babies. Het ding dat in les 15 stilletjes het grootste deel van het rendement opbouwde, is hier gewoon niet.\n• Geen stem, geen eigendom, niets om vast te houden. De optie \"gewoon tien jaar vasthouden\" bestaat niet, want er is niets om vast te houden.\n• Geen rente-op-rente. De rest van deze app besteedt 65 lessen aan je leren dat tijd aan jouw kant staat. In deze ruimte kost tijd je geld. In les 72 zie je precies hoeveel.\n\nAlles wat je al weet blijft belangrijk. Het is alleen niet meer waar je mee bezig bent. 📄",
+      "quiz": {
+        "q": "Je opent een CFD op {retail} en de prijs stijgt. Wat bezit je eigenlijk?",
+        "explanation": "Een CFD is een afspraak tussen jou en de aanbieder om het verschil te verrekenen tussen de prijs bij openen en de prijs bij sluiten. Niemand koopt een aandeel, niemand verkoopt er een, en er bestaan er nergens in de deal. Daarom is er geen dividend, geen stem en niets om tien jaar vast te houden.",
+        "options": [
+          "Aandelen die de aanbieder op zijn eigen naam aanhoudt",
+          "Een contract om aan het eind het prijsverschil te verrekenen",
+          "Een deel van het bedrijf, en het dividend dat daarbij hoort",
+          "Een tegoedbon die bij sluiten in echte aandelen verandert"
+        ]
+      }
+    },
+    "67": {
+      "title": "Lenen van een vriend",
+      "desc": "Wat hefboom echt is, en het deel dat niemand post",
+      "content": "Hefboom (leverage) klinkt technisch. Dat is het niet. Het is lenen.\n\nStel, je wilt voor {c}1,000 aan aandelen, maar je hebt maar {c}200. Een vriend biedt aan de andere {c}800 in te leggen. Je beheert {c}1,000 aan aandelen met {c}200 van je eigen geld. Dat is hefboom. Dat is het hele idee.\n\nNu de drie dingen die die vriend doet. Je moet ze alle drie kennen, anders is je een sprookje verkocht.\n\n1️⃣ DE WINST IS ECHT VAN JOU. De aandelen stijgen 10%. Je {c}1,000 is nu {c}1,100. Dat is {c}100 winst en je houdt elke cent, want je vriend krijgt {c}800 terug en geen {cName} meer. Op je eigen {c}200 is {c}100 een winst van 50%. Een beweging van 10% leverde jou 50% op. Dit is het deel waar iedereen over post.\n\n2️⃣ DE LENING KRIMPT NIET ALS JE ERNAAST ZIT. Dit is het deel waar niemand over post, en het is de hele les. De aandelen dalen in plaats daarvan 10%. Je {c}1,000 is nu {c}900. Je bent je vriend nog steeds de volle {c}800 schuldig. Niet {c}720. De volle {c}800. Dus de hele daling van {c}100 gaat van JOUW deel af, en je {c}200 is nu {c}100. Een beweging van 10% kostte je 50%.\n\nLees die twee nog eens. Dezelfde vriend, dezelfde 10%. Jouw geld beweegt vijf keer zo snel, in beide richtingen, omdat de lening nooit een deel van de pijn draagt.\n\n3️⃣ DE VRIEND REKENT HUUR, ELKE DAG, OVER HET GEHEEL. Niet over zijn {c}800. Over de volle {c}1,000 die jij beheert. Elke nacht dat je het aanhoudt, of de prijs nu omhoog ging, omlaag of nergens heen.\n\nEn in het derde zit een vierde ding verstopt. Als je {c}200 bijna op is, belt je vriend je niet om het te bespreken. Hij verkoopt. Meteen, automatisch, tegen elke prijs die er is, want het is zijn {c}800 die op het spel staat en hij wacht niet op jouw mening. Dat heeft een naam, en die leer je over drie lessen kennen: liquidatie.\n\nDus: grotere winsten, grotere verliezen, elke nacht huur, en iemand anders met zijn vinger op de verkoopknop. Hefboom is geen gratis geld met een beetje risico eraan. Het is een lening met alle vier die dingen eraan, en de reclames laten je altijd alleen het eerste zien. 🧠",
+      "quiz": {
+        "q": "Een vriend legt 800 NT in, jij legt 200 NT in, en samen beheren jullie 1,000 NT aan aandelen. De aandelen dalen 10%. Sleep naar wat jouw eigen 200 NT nu waard is.",
+        "explanation": "De lening krimpt niet als je ernaast zit. De aandelen zijn nu 900 NT waard en je vriend krijgt nog steeds de volle 800 NT, dus er blijft 100 NT voor jou over. Een daling van 10% in de aandelen kostte de helft van je geld, omdat de lening niets van de pijn draagt. Omhoog werkt het precies zo, en dat is de helft die de reclames je laten zien."
+      }
+    },
+    "68": {
+      "title": "Margin is een storting, geen aankoop",
+      "desc": "Het geld dat je inlegt is niet uitgegeven, het staat op het spel",
+      "content": "Als je een aandeel koopt voor {c}100, is die {c}100 weg uit je cash en staat er een aandeel op je rekening. Simpele ruil.\n\nMargin werkt niet zo. Als je een positie met hefboom opent, stort je een borg, en die storting is geen betaling voor iets. Het is een waarborgsom tegen je eigen verliezen. Hij staat daar, vergrendeld, en de positie eet hem op als de prijs tegen je in beweegt.\n\nStel, het stortingspercentage is 25%. Je stort 250 NT en je beheert 1,000 NT aan blootstelling. Let op je rekening:\n\n• Prijs gelijk: je 250 is nog steeds 250. Behalve dat de financiering is begonnen, dus stilletjes is het minder.\n• Prijs 5% omlaag: de positie heeft 50 NT verloren. Je storting is in feite 200. Je vrije cash is niet veranderd. Je rekening is kleiner.\n• Prijs 20% omlaag: de positie heeft 200 NT verloren. Je storting is gezakt tot 50. Je hebt niets gedaan. Je hebt niets verkocht. Je hebt toegekeken.\n\nDrie begrippen die op elk scherm in deze ruimte staan:\n\n🔒 GEBRUIKTE MARGIN: elke storting die je op dit moment hebt staan.\n💰 EIGEN VERMOGEN: je vrije cash, plus je gestorte margin, plus of min de winst en het verlies van elke open positie, min de financiering die tot nu toe is berekend. Wat je rekening echt waard is als alles nu meteen zou sluiten.\n📊 MARGINNIVEAU: eigen vermogen gedeeld door gebruikte margin. Boven 100% heb je een buffer. Onder 100% heeft de markt de buffer opgemaakt en is hij aan de storting begonnen.\n\nEn één regel die iedereen verrast: margin wordt gemeten over je hele rekening, niet per positie. Een verliezende positie eet het onderpand op dat een winnende overeind houdt. Daarom is \"mijn andere trade gaat prima\" geen verdediging. 🔒",
+      "quiz": {
+        "q": "Het stortingspercentage is 25%, dus 250 NT van je eigen geld beheert 1,000 NT aan blootstelling. De prijs daalt 8% terwijl jij helemaal niets doet. Sleep naar hoeveel die daling je heeft gekost.",
+        "explanation": "Een storting is geen betaling voor iets, het is onderpand, en het verlies wordt berekend over de hele 1,000 NT die je beheert. 8% van 1,000 NT is 80 NT. Je hebt niets verkocht en je vrije cash is niet veranderd, maar 80 NT van je storting van 250 NT is opgegeten en je rekening is 80 NT kleiner. Reken je de 8% over de storting uit, dan kom je op 20 NT, en dat is de fout waardoor hefboom mild lijkt."
+      }
+    },
+    "69": {
+      "title": "De margin call",
+      "desc": "Een eis, geen waarschuwing",
+      "content": "Een margin call is het moment dat je marginniveau onder 100% zakt. Gewoon gezegd: je winstbuffer is op en de markt is begonnen je storting zelf op te eten.\n\nZo voelt het echt, want de schoolboekversie mist het belangrijke deel.\n\nHet komt nooit op een goede dag. Het komt als de positie er al lelijk voor staat, als je jezelf al twee keer hebt wijsgemaakt dat hij wel terugkomt, en als je het minst in staat bent een rustige beslissing te nemen. Het is geen beleefde waarschuwing vooraf. Het is een eis: stort meer geld, of sluit posities, of de aanbieder doet het voor je.\n\nJe hebt drie zetten en maar twee daarvan zijn van jou.\n\n1️⃣ SLUIT iets. Dat maakt meteen margin vrij en het is bijna altijd het juiste antwoord. Het betekent ook toegeven dat je ernaast zat, en dat is de echte reden dat mensen het niet doen.\n2️⃣ STORT geld bij. Dat lost niets op. Het koopt je ruimte om langer fout te zitten, op een positie die je al slecht hebt gekozen, met geld dat je niet van plan was te riskeren. Cash bijstorten bij een margin call is hoe een slechte trade een slechte maand wordt.\n3️⃣ DOE NIETS. Dan gebeurt de derde zet zonder jou, en die heeft een naam.\n\nToezichthouders nemen dit zo serieus dat ze er een getal voor in de wet hebben gezet. Bedrijven in Europa, het VK en Australië moeten de posities van een particuliere klant automatisch sluiten als diens margin daalt tot 50% van wat vereist was. Niet \"zouden moeten\". Moeten. Ze schreven die regel omdat mensen die het zelf mochten beslissen voor optie 3 kozen en meer verloren dan ze hadden. ⚠️",
+      "quiz": {
+        "q": "Je marginniveau is gedaald tot 80% en je zit in een margin call. Welke reactie verkleint echt het risico op liquidatie in plaats van het alleen uit te stellen?",
+        "explanation": "Sluiten geeft de storting meteen terug, dus het marginniveau springt direct omhoog. Cash bijstorten koopt alleen ruimte om langer fout te zitten op een trade die je al slecht koos. Wachten is hoe liquidatie gebeurt. En een tweede positie in de andere richting heeft zijn eigen storting nodig, dus die gebruikt meer margin, niet minder.",
+        "options": [
+          "Meer cash op de rekening storten",
+          "Wachten tot het marginniveau weer stijgt",
+          "Een van de posities sluiten die je open hebt",
+          "Een tweede positie openen in de andere richting"
+        ]
+      }
+    },
+    "70": {
+      "title": "Liquidatie, en de prijs die je eerst moet kennen",
+      "desc": "De precieze prijs waarbij je rekening op nul komt",
+      "content": "Liquidatie is de aanbieder die je posities voor je sluit omdat je storting bijna op is. Het gaat automatisch. Het gaat meteen. Niemand vraagt je mening, niemand checkt of je net gelijk zou krijgen, en er is geen beroep mogelijk.\n\nHet allernuttigste getal in deze hele module is je LIQUIDATIEPRIJS: de echte prijs, in echte {cPlural}, waarop dat gebeurt.\n\nGeen percentage. Een prijs. Want \"je kunt je storting kwijtraken\" is een zin waar je op knikt en die je vergeet, terwijl \"{tech} op {c}87.40 en je rekening is leeg\" een feit is dat je tegen de grafiek kunt checken voordat je ergens op drukt.\n\nElk scherm in deze ruimte laat hem zien voordat je bevestigt, getekend op dezelfde prijsschaal als de grafiek, zodat je kunt zien hoe ver weg hij echt is. Twee dingen vallen je meteen op, en allebei zijn ze de les:\n\n📏 Een grotere storting duwt de liquidatieprijs verder weg. Meer eigen geld erin betekent dat de prijs verder moet zakken voordat je geld op is.\n⚡ Een kleinere storting trekt hem vlak naast de prijs van vandaag. Bij een storting van 10% ligt liquidatie ongeveer een beweging van 10% verderop, en een beweging van 10% is een gewone week.\n\nDan het eerlijke addertje. De liquidatieprijs is waar het systeem je wil sluiten, niet waar je gegarandeerd uitstapt. Komt er 's nachts slecht nieuws en opent de markt ver onder dat niveau, dan word je gesloten tegen wat de markt echt betaalt. Dat is de gap, en daar gaat les 78 over.\n\nKen je liquidatieprijs voordat je opent. Als je hem niet hardop kunt zeggen, begrijp je de trade niet die je op het punt staat te doen. 💀",
+      "quiz": {
+        "q": "Je stort 200 NT om 1,000 NT te beheren van een bezitting met een prijs van 100 NT. Sleep de prijs omlaag naar waar je storting op is.",
+        "explanation": "Je beheert 10 eenheden, dus elke 1 NT die de prijs daalt kost je 10 NT. Je storting van 200 NT is op bij 80 NT, en dat is een daling van maar 20%."
+      }
+    },
+    "71": {
+      "title": "De weg terug is steiler",
+      "desc": "Waarom verliezen moeilijker terug te draaien zijn dan ze lijken",
+      "content": "Verliezen en winsten voelen als tegenpolen. Dat zijn ze niet, en de wiskunde zit er ver naast.\n\n10% verlies? Je hebt +11% nodig om terug te komen. Vervelend, maar oké.\n50% verlies? Je hebt +100% nodig. Je moet VERDUBBELEN om alleen al quitte te spelen.\n75% verlies? Je hebt +300% nodig.\n90% verlies? Je hebt +900% nodig.\n\nDe reden is simpel als je hem eenmaal ziet: de winst wordt berekend over het kleinere stapeltje dat je nog over hebt. 100 zakt naar 50, en om van 50 terug naar 100 te klimmen moet dat kleinere stapeltje verdubbelen.\n\nVoeg nu hefboom toe, en let op wat het echt doet. Het maakt je winsten niet alleen sneller. Het schuift je in één middag die tabel af. Een daling van 12% in een aandeel, een slechte maar heel normale week, is bij een storting van 25% een klap van 48% voor je rekening. Je hebt nu +92% nodig om terug te zijn waar je begon, na een week die nauwelijks het nieuws haalde.\n\nDaarom praten professionals eerst over het beschermen van kapitaal voordat ze over iets anders praten, en daarom is \"ik verdien het wel terug\" de duurste zin in trading. Het terugverdienen is rekenkundig moeilijker dan het verliezen was, elke keer weer. ⛰️",
+      "quiz": {
+        "q": "Je rekening staat 75% lager. Sleep naar de winst die je vanaf hier nodig hebt om alleen al terug te komen waar je begon.",
+        "explanation": "100 NT zakte naar 25 NT. Om weer 100 te halen moet die 25 verviervoudigen, en dat is een winst van 300%. De klim wordt gemeten over het kleinere stapeltje dat je nog over hebt, en daarom is hij zoveel steiler dan de val."
+      }
+    },
+    "72": {
+      "title": "De huur op geleend geld",
+      "desc": "Gelijk over de richting, toch verlies op de trade",
+      "content": "Je hebt de blootstelling geleend. Dus betaal je ervoor. Elke nacht.\n\nFinanciering (op sommige plekken heet het een swap of een overnight fee) wordt dagelijks berekend, en hier is het deel waar iedereen in trapt: het wordt berekend over de VOLLEDIGE positie, niet over het deel dat je leende. Stort 500 NT om 2,000 NT te beheren en je betaalt huur over 2,000.\n\nZo wordt het berekend: een referentierente, plus de opslag van de aanbieder, gedeeld door 365, keer je volledige positie. In deze app zie je beide helften op het scherm, want een kostenpost die je niet kunt uitsplitsen, kun je niet beoordelen. Bij ongeveer 7.3% per jaar komt dat neer op zo'n 0.02% van je positie per nacht.\n\nKlinkt als niks. Kijk nu hoe het een winnende trade opeet. 🧾\n\nDE TRADE DIE JE GOED HEBT EN TOCH VERLIEST\n\nJe opent een positie van 2,000 NT op {retail} met een storting van 500 NT. Je bent bullish, en je blijkt gelijk te hebben: de komende maanden kruipt {retail} 2% OMHOOG.\n\n• Je winst: 2% van 2,000 = 40 NT. Op een storting van 500 NT is dat +8%. Lekker.\n• Je huur: 0.02% van 2,000 = 0.40 NT, elke nacht.\n\nNacht 50: je hebt 20 NT betaald. Je staat in totaal 20 NT op winst. Nog steeds aan het winnen.\nNacht 100: je hebt 40 NT betaald. Je 40 NT winst is nu precies nul waard. Je had het goed en je hebt niets verdiend.\nNacht 180: je hebt 72 NT betaald. Je winst is nog steeds 40 NT. Je staat 32 NT IN DE MIN, min 6.4% van je storting, op een trade waarbij je de markt zes maanden lang goed las.\n\nLees dat nog eens. De prijs deed wat jij zei dat hij zou doen. Je verloor toch.\n\nDat is de zin om uit deze les mee te nemen: bij een positie met hefboom heeft gelijk hebben een houdbaarheidsdatum. In dit voorbeeld ligt die 100 nachten verderop, en je kunt de jouwe uitrekenen voordat je opent. Deel de winst waarop je hoopt door de huur per nacht. Zoveel nachten is je mening waard.\n\nHet omgekeerde is ook de moeite waard om op te merken. De rest van deze app leert je rente-op-rente, waarbij tijd je stilletjes geld oplevert terwijl je slaapt. Dit is dezelfde machine, achteruit draaiend, op jou gericht. ⏳",
+      "quiz": {
+        "q": "Je hebt een positie met hefboom van 2,000 NT die 0.40 NT per nacht aan financiering kost. De prijs stijgt genoeg voor een winst van 40 NT en beweegt daarna niet meer. Na hoeveel nachten is die winst helemaal opgegeten?",
+        "options": [
+          "Hij wordt nooit opgegeten, want financiering wordt alleen over het geleende deel berekend",
+          "Na ongeveer 100 nachten, want 40 NT winst gedeeld door 0.40 NT per nacht is 100",
+          "Na ongeveer 20 nachten, want financiering wordt over je storting van 500 NT berekend",
+          "Financiering wordt alleen berekend als een positie met verlies wordt gesloten"
+        ]
+      }
+    },
+    "73": {
+      "title": "Futures: de klok en de roll",
+      "desc": "Dezelfde kosten, op een andere manier geleverd",
+      "content": "Futures en CFD's zijn familie. Allebei met hefboom, allebei met margin, allebei kunnen ze je liquideren. Twee dingen maken futures anders, en het tweede is het interessante.\n\n⏰ 1. ER STAAT EEN DATUM OP. Elk futurescontract loopt af. Olie voor maart, maïs voor juni, een index voor september. Als de datum komt, wordt het contract afgewikkeld en bestaat het niet meer. \"Vasthouden en wachten tot hij terugkomt\" staat gewoon niet op het menu, want het contract is er dan niet meer. Een CFD loopt nooit af, wat beter klinkt tot je bedenkt dat hij voor altijd huur rekent.\n\n🔄 2. DE KOSTEN ZITTEN IN DE PRIJS, NIET IN EEN NACHTELIJKE REKENING. Dit is het deel dat mensen missen. Een future rekent meestal geen nachtelijke financieringskosten. In plaats daarvan zitten de kosten om het ding tot die datum aan te houden al in de prijs van het contract verwerkt. Contracten voor latere datums kosten vaak meer dan contracten voor eerdere datums, en dat verschil is dezelfde aanhoudkost, verstopt in het getal.\n\nDus wat gebeurt er als een trader de positie na de afloopdatum wil aanhouden? Hij ROLT: het aflopende contract sluiten, het volgende openen. En als het volgende duurder is, betaalt hij dat verschil. Bij elke roll. Dat is de nachtelijke huur van de CFD, geïnd in grotere, minder frequente termijnen.\n\nDe eerlijke samenvatting:\n\n• CFD: geen deadline, elke nacht huur, gespecificeerd op je overzicht.\n• Future: harde deadline, kosten verstopt in de prijs en betaald bij elke roll, makkelijk te missen.\n\nGeen van beide is gratis. Eentje presenteert de rekening alleen wat beleefder, en een kostenpost die je niet ziet, is degene die je het meest zal verrassen. ⏳",
+      "quiz": {
+        "q": "Een trader wil een futurespositie na de afloopdatum aanhouden, en het volgende contract noteert duurder dan het aflopende. Wat gebeurt er als hij rolt?",
+        "explanation": "Rollen betekent het contract sluiten dat bijna afloopt en het volgende openen. Kost het volgende meer, dan betaal je dat verschil, en dat doe je bij elke roll opnieuw. Het zijn dezelfde aanhoudkosten die een CFD je elke nacht rekent, geïnd in grotere brokken en verstopt in de prijs in plaats van afgedrukt op je overzicht.",
+        "options": [
+          "Hij betaalt het verschil tussen het aflopende contract en het volgende",
+          "Hij krijgt het verschil tussen de twee contractprijzen uitbetaald",
+          "Er wisselt geen geld van eigenaar, want rollen is één enkele trade",
+          "De positie wordt een CFD en loopt door zonder afloopdatum"
+        ]
+      }
+    },
+    "74": {
+      "title": "Short gaan: het verlies zonder bodem",
+      "desc": "Waarom de weddenschap op daling geen natuurlijk plafond heeft",
+      "content": "Alles in deze app was tot nu toe long: je koopt, je wilt dat de prijs stijgt. Met derivaten kun je short gaan, wat betekent dat je wedt dat de prijs daalt. Je opent een short, de prijs zakt, je maakt winst.\n\nShorten is echt nuttig en het is niet slecht. Zo legt een boer een prijs vast vóór de oogst en zo beschermt een fonds een portefeuille. Het begrijpen maakt je beter in het lezen van markten, want voor het eerst zie je beide kanten van elke trade.\n\nMaar er zit één stukje rekenwerk in shorten dat nergens anders een tegenhanger heeft, en dat moet erin gebrand zitten.\n\n📉 ALS JE KOOPT, is je slechtste scenario dat de prijs naar nul gaat. Je verliest 100% van wat je erin stopte. Vreselijk, maar het is een bodem. Er is een onderkant.\n📈 ALS JE SHORT GAAT, betekent een prijs die tegen je in gaat een prijs die STIJGT. En nergens staat een regel hoe hoog een prijs mag gaan. Een aandeel dat verdrievoudigt kost je 200% van de positie. Een aandeel dat tien keer zo duur wordt kost je 900%.\n\nLong-verliezen hebben een bodem. Short-verliezen niet. Die asymmetrie is de hele waarschuwing.\n\nEchte markten doen dit. Af en toe schiet een zwaar geshort aandeel omhoog, omdat iedereen die short zit gedwongen wordt te kopen om te sluiten, wat de prijs verder opdrijft, wat er nog meer dwingt te kopen. Dat heet een short squeeze en er zijn fondsen aan ten onder gegaan.\n\nTwee dingen houden je in leven. Ten eerste: bij een short is een stop-loss precies niet meer optioneel. Ten tweede: bescherming tegen een negatief saldo. Op een goed gereguleerde particuliere rekening, en in deze app, kan je rekening niet onder nul gaan. Je kunt alles verliezen wat je erin stopte. Je kunt niet eindigen met een schuld. Die bescherming bestaat omdat mensen dat vroeger wel overkwam. 🕳️",
+      "quiz": {
+        "q": "Waarom is het slechtste scenario bij een shortpositie van een ander soort dan het slechtste scenario bij een longpositie?",
+        "explanation": "Kopen heeft een bodem. Het ergste wat een prijs kan doen is nul bereiken, dus je verliest wat je erin stopte en niet meer. Shorten is andersom, want verliezen betekent dat de prijs stijgt, en niets zegt hoe hoog een prijs mag gaan. Een aandeel dat verdrievoudigt kost een shortseller twee keer de positie. Daarom is een stop bij een short niet meer optioneel, en daarom kan deze app je niet onder nul brengen.",
+        "options": [
+          "Het is niet anders, want allebei zijn begrensd tot wat je erin stopte",
+          "Een stop-loss legt onder een short dezelfde bodem als onder een long",
+          "Dalingen gaan langzamer dan stijgingen, dus een short verliest langzamer",
+          "Een prijs kan maar tot nul dalen, maar kan onbeperkt stijgen"
+        ]
+      }
+    },
+    "75": {
+      "title": "Volatiliteit keer hefboom",
+      "desc": "Waarom crypto hier de grootste storting nodig heeft",
+      "content": "Dezelfde vermenigvuldiger op twee verschillende bezittingen is niet dezelfde weddenschap. Dat is het hele idee van deze les, en daarom verandert de storting die je moet doen afhankelijk van wat je verhandelt.\n\nDenk na over hoe een normale dag eruitziet:\n• Een grote index beweegt op de meeste dagen minder dan 1%.\n• Een los aandeel beweegt misschien 2% of 3%.\n• Crypto beweegt regelmatig 5% of 10%, en een dag van 20% is geen crisis, het is een dinsdag. 🎢\n\nZet nu achter elk daarvan een kleine storting. Bij een storting van 10% vaagt een beweging van 10% je weg. Voor de index is dat iets wat eens in de paar jaar gebeurt. Voor crypto ongeveer elke maand. Dezelfde storting. Totaal andere overlevingskansen.\n\nToezichthouders hadden dit door en zetten het in de regels. Toen ESMA in maart 2018 de CFD-hefboom in heel Europa begrensde, koos het niet één getal. Het maakte niveaus: 30:1 op de belangrijkste valutaparen, 20:1 op goud en grote indices, 10:1 op andere grondstoffen, 5:1 op losse aandelen, en helemaal onderaan 2:1 op crypto. Twee op één betekent een storting van 50%. Voor crypto eisten ze de HELFT van de positie in echt geld, het strengste percentage op de hele lijst.\n\nDeze app doet hetzelfde, om dezelfde reden, en zegt dat op het scherm in plaats van het te verstoppen:\n\n💱 Forex: de kleinste storting, omdat de belangrijkste paren het minst bewegen.\n🥇 Goud en grondstoffen: groter.\n📊 Aandelen, indices en ETF's: nog groter.\n🪙 Crypto: de grootste storting van allemaal, omdat crypto het hardst beweegt.\n\nCrypto is hier niet verboden, en dat is bewust. Je kunt het verhandelen. Je kunt het alleen niet met een dunne storting verhandelen, want met een dunne storting zou een gewone cryptodag je rekening beëindigen voordat je erover uitgelezen was. De grotere storting is niet de app die moeilijk doet over crypto. Het is de app die ervoor zorgt dat een normale dag je niet kan uitschakelen.\n\nGoed om te weten: de Britse toezichthouder ging verder dan een niveau. In 2021 verbood hij cryptoderivaten volledig voor particuliere klanten, met een geschatte besparing voor consumenten van zo'n £53m. Je kunt crypto met hefboom hier leren kennen, met nepgeld en een dikke storting, of je leert het kennen op je achttiende met echt geld en helemaal geen waarschuwing. Dit is de betere volgorde. 🌡️",
+      "quiz": {
+        "q": "Crypto vereist de grootste storting van alle bezittingen in deze ruimte. Wat is de echte reden?",
+        "explanation": "Een grote index beweegt op de meeste dagen minder dan 1%. Crypto beweegt regelmatig 5% of 10%, en een dag van 20% is geen crisis, het is een dinsdag. Met een dunne storting vaagt een beweging van 10% je weg, en dat is voor de index iets van eens in de paar jaar en voor crypto ongeveer elke maand. De Europese toezichthouder eiste voor crypto de helft van de positie in echt geld, het strengste percentage op zijn hele lijst, precies om deze reden.",
+        "options": [
+          "Onder-18's mogen geen crypto, dus de storting is een straf",
+          "Op crypto wordt geen financiering gerekend, dus de storting vervangt die",
+          "Het beweegt het hardst, dus een gewone dag kan een dunne storting leegmaken",
+          "De app bepaalt de cryptoprijzen zelf in plaats van de markt"
+        ]
+      }
+    },
+    "76": {
+      "title": "De cijfers die niemand adverteert",
+      "desc": "Wat toezichthouders vonden toen ze gingen tellen",
+      "content": "Deze cijfers zie je nooit in een reclame. Ze komen van financiële toezichthouders, die de echte rekeninggegevens bij de bedrijven kunnen opvragen en daarna publiceren wat ze vonden.\n\n🇪🇺 ESMA, de Europese toezichthouder, maart 2018. In de EU-landen verliest tussen 74% en 89% van de particuliere CFD-rekeningen geld. Gemiddelde verliezen per klant lagen tussen €1,600 en €29,000. Op basis daarvan beperkte ESMA het product.\n\n🇬🇧 De FCA in het VK, december 2016. Uit haar analyse van een representatieve steekproef van klantrekeningen bleek dat 82% van de klanten geld verloor op deze producten.\n\n🇦🇺 ASIC in Australië, gepubliceerd in januari 2026, de meest recente van de drie. In het boekjaar 2024 verloor 68% van de particuliere CFD-beleggers geld, samen meer dan A$458 miljoen. Daarvan was A$73 miljoen kosten.\n\nLaat die laatste regel even bezinken. Drieënzeventig miljoen daarvan waren niet eens slechte trades. Het waren de kosten van het meespelen: de spread bij het instappen, en de financiering die je in les 72 leerde kennen.\n\nDrie verschillende toezichthouders, drie verschillende landen, gegevens uit drie verschillende decennia, en het antwoord komt steeds uit ergens tussen twee derde en negen tiende.\n\nNu het belangrijkste deel, want dat is wat voorkomt dat dit een bangmakerij-statistiek wordt. Die mensen waren niet dom. Ze waren niet lui. Het waren vooral volwassenen met een baan, en genoeg van hen lezen een grafiek beter dan jij nu. Ze verloren door hoe het product in elkaar zit: je begint met een achterstand door de spread, je betaalt huur terwijl je wacht, en hefboom betekent dat een gewone beweging je kan uitschakelen voordat je mening de tijd heeft gehad om gelijk te krijgen.\n\nDat is een structuur, geen karakterfout. En structuren kunnen alleen verslagen worden door mensen die weten dat ze er zijn. 📊",
+      "quiz": {
+        "q": "Toezichthouders in Europa, het VK en Australië ontdekten allemaal dat de meeste particuliere CFD-rekeningen geld verliezen. Wat is de eerlijke verklaring?",
+        "explanation": "Dat waren gewone volwassenen met een baan, en genoeg van hen lezen een grafiek beter dan jij vandaag. Ze verloren door hoe het product werkt: je begint met een achterstand door de spread, je betaalt elke nacht huur terwijl je wacht, en hefboom betekent dat een normale beweging je kan uitschakelen voordat je visie de tijd heeft gehad om uit te komen. Dat is een structuur, geen karakterfout, en structuren kunnen verslagen worden door mensen die weten dat ze er zijn.",
+        "options": [
+          "De manier waarop het product is gebouwd werkt tegen de klant",
+          "De mensen die verloren waren slordig, en voorzichtige traders zitten goed",
+          "Concurrerende bedrijven publiceerden de cijfers als marketingaanval",
+          "Verliezen op die schaal komen uit ongereguleerde landen"
+        ]
+      }
+    },
+    "77": {
+      "title": "Wat er veranderde toen de regels veranderden",
+      "desc": "Bewijs dat het aan het ontwerp lag, niet aan de mensen",
+      "content": "Les 76 gaf je de verliezen. Deze les geeft je het experiment, en het is het belangrijkste in deze module.\n\nAls de meeste mensen verliezen omdat de meeste mensen roekeloos zijn, dan zou het veranderen van de regels niets moeten veranderen. Roekeloze mensen blijven roekeloos. Toch?\n\nAustralië deed de test. In maart 2021 legde ASIC elk CFD-bedrijf met particuliere klanten een set beschermingen op: hefboomlimieten, een standaardregel voor automatisch sluiten, bescherming tegen een negatief saldo en een verbod op lokkertjes zoals aanmeldbonussen. Dezelfde klanten. Dezelfde bedrijven. Dezelfde markten. Alleen de regels veranderden.\n\nDit mat ASIC in de eerste zes maanden. 🔬\n\n📉 De totale nettoverliezen van particuliere rekeningen daalden met 91%, van gemiddeld A$372 miljoen per kwartaal naar A$33 miljoen.\n📉 51% minder verliesgevende particuliere rekeningen per kwartaal.\n📉 87% minder gedwongen sluitingen door margin.\n📉 88% minder gevallen van een negatief saldo.\n\nNiemand werd in zes maanden slimmer. Het ontwerp veranderde, en negen tiende van de schade verdween mee.\n\nDaar volgen twee dingen uit, en je moet ze allebei onthouden.\n\nTen eerste: als je verliest op een trade met hefboom, zat veel van wat je overkwam al in het product ingebouwd voordat jij er was. Dat is geen vrijbrief om slordig te zijn. Het is een reden om het ding te respecteren.\n\nTen tweede, en dit is de nuttige helft: de beschermingen die het werk deden, zijn precies de gewoontes die deze module je heeft geleerd. Een kleinere positie. Een automatische uitstap. Een harde bodem onder de schade. Een toezichthouder moest die een hele sector opleggen om die 91% te halen. Jij kunt er gewoon voor kiezen. 🛡️",
+      "quiz": {
+        "q": "Nadat Australië CFD-bedrijven hefboomlimieten en automatisch sluiten had opgelegd, daalden de verliezen van particulieren in zes maanden met 91%. Wat laat dat zien?",
+        "explanation": "Dezelfde klanten, dezelfde bedrijven, dezelfde markten. Alleen de regels veranderden, en negen tiende van de schade ging mee. Niemand werd in zes maanden slimmer. De beschermingen die het werk deden, zijn de gewoontes die deze module je steeds leert: een kleinere positie, een automatische uitstap en een harde bodem onder de schade. Een toezichthouder moest die een hele sector opleggen. Jij kunt er gewoon voor kiezen.",
+        "options": [
+          "Australische traders zijn gedisciplineerder dan Europese",
+          "Hefboom wordt veilig zodra een toezichthouder erop let",
+          "Door de regels stopten mensen met handelen, dus viel er niets te verliezen",
+          "Het grootste deel van de schade kwam van het ontwerp van het product"
+        ]
+      }
+    },
+    "78": {
+      "title": "De gap die over je stop springt",
+      "desc": "Een stop is een opdracht om eruit te gaan, geen beloofde prijs",
+      "content": "Stop-losses heb je al leren kennen in les 19. Dit is wat hefboom ermee doet.\n\nEen stop-loss is een opdracht: \"als de prijs dit niveau bereikt, haal me eruit.\" Het is geen contract over de prijs die je krijgt. Het zegt: ga eruit. Het zegt niet: ga eruit op precies dit punt.\n\nMeestal maakt dat verschil niet uit, want prijzen bewegen in kleine stapjes en je order wordt dicht bij je niveau uitgevoerd. Maar soms maakt het enorm veel uit.\n\n📰 Markten sluiten. Om 23.00 uur komt er nieuws. De markt opent 8% lager dan hij sloot, en er is nooit gehandeld op een van de prijzen daartussen. Je stop zat in die gap. Hij gaat af bij de heropening en wordt uitgevoerd waar de markt echt staat, en dat is een flink stuk voorbij het niveau dat jij koos.\n\nZonder hefboom is dat een slechte dag. Met hefboom kan het de hele rekening zijn, want als je storting dunner was dan de gap, gaat de gap ook dwars door je liquidatieprijs, en word je gesloten onder het niveau dat het systeem van plan was.\n\nDrie dingen om hiermee te doen, geen van alle ingewikkeld:\n\n1️⃣ Zie een stop niet als een garantie. Zie hem als een heel goede gewoonte met één bekende zwakte.\n2️⃣ Weet wanneer je markt dicht is en wat er gepland staat. Bedrijfscijfers, rentebesluiten en verkiezingen zijn gaps met een agenda-afspraak.\n3️⃣ Kies je grootte zo dat een gap je niet kan uitschakelen. Dit is de echte verdediging, en het is de volgende les. Een stop beschermt je tegen het gewone. Positiegrootte beschermt je tegen het ongewone, en het ongewone is wat mensen echt leegveegt.\n\nEn goed om te weten: in deze app, net als op elke goed gereguleerde particuliere rekening, betekent bescherming tegen een negatief saldo dat een gap je niet onder nul kan brengen. Je kunt de rekening verliezen. Je kunt niet eindigen met een schuld. 📰",
+      "quiz": {
+        "q": "Je zet een stop-loss op {c}90. 's Nachts komt er slecht nieuws en de markt opent op {c}78, zonder dat er daartussen is gehandeld. Wat gebeurt er?",
+        "explanation": "Een stop is een opdracht om eruit te gaan, geen belofte over de prijs die je krijgt. De markt heeft nooit tussen {c}90 en {c}78 gehandeld, dus er was geen {c}90 meer om tegen te verkopen. Je stop gaat af bij de heropening en wordt uitgevoerd waar de markt echt staat. Stops beschermen je nog steeds tegen gewone bewegingen. De verdediging tegen een sprong als deze is de grootte van de positie, niet de stop.",
+        "options": [
+          "Je stop wordt uitgevoerd op {c}90, precies waar je hem zette",
+          "Je wordt uitgevoerd rond {c}78, de eerste prijs die er is",
+          "De order wordt geannuleerd, omdat de prijs eroverheen sprong",
+          "De aanbieder betaalt je de {c}12 die de markt oversloeg"
+        ]
+      }
+    },
+    "79": {
+      "title": "Eerst de grootte, dan de trade",
+      "desc": "Bepaal wat je kunt verliezen voordat je bepaalt wat je koopt",
+      "content": "Dit is wat mensen die het volhouden onderscheidt van mensen die dat niet doen, en het is bijna saai.\n\nBeginners kiezen de trade en bedenken daarna hoeveel ze erin stoppen. Professionals doen het andersom. Ze bepalen eerst wat ze bereid zijn te verliezen, en laten dat bepalen hoe groot de positie mag zijn.\n\nDe regel die de meesten gebruiken: riskeer 1% tot 2% van de rekening op één trade. Niet 1% storten. 1% RISKEREN, dus dat is wat je echt verliest als je stop wordt geraakt.\n\nZo werkt het, in drie stappen:\n\n1️⃣ Kies je maximale verlies. Rekening van 10,000 NT, 1% risico, dus 100 NT.\n2️⃣ Kies waar je ongelijk hebt. Je stapt uit als de prijs 5% onder je instap zakt.\n3️⃣ Deel. 100 NT acceptabel verlies, bij een stopafstand van 5%, betekent een positie van 2,000 NT. Dat is je grootte. Geen gevoel. Een berekening.\n\nVerander de stop en de grootte verandert automatisch mee. Met een krappere stop van 2% kun je 5,000 NT aan. Een ruimere stop van 10% dwingt je terug naar 1,000 NT. Hoe riskanter de trade, hoe kleiner hij moet zijn, en het rekenwerk regelt dat voor je, zodat je humeur dat niet hoeft te doen.\n\nWaarom 1%? Omdat het een reeks verliezen overleefbaar maakt. Tien verliezen op rij bij 1% laat je 90% van je rekening over en een slecht humeur. Tien verliezen op rij bij 20% laat je zo'n 11% van je rekening over en geen weg terug, en je weet uit les 71 al hoe steil die klim is.\n\nNiemand overleeft markten door winnaars te kiezen. Iedereen die overleeft, doet dat door ervoor te zorgen dat geen enkel verlies hem kan uitschakelen. 📐",
+      "quiz": {
+        "q": "Een rekening van 10,000 NT. Je riskeert 1% op deze trade en je stapt uit als de prijs 5% onder je instap zakt. Sleep naar de positiegrootte die daarbij past.",
+        "explanation": "1% van 10,000 NT is 100 NT, en dat is het meeste dat je hebt afgesproken te verliezen. Een stop van 5% betekent 100 NT gedeeld door 5%, en dat is een positie van 2,000 NT. Sleep je hoger, dan laat de uitlezing zien dat je meer riskeert dan je had besloten."
+      }
+    },
+    "80": {
+      "title": "Waarom winnen voelt als talent",
+      "desc": "De psychologische spelletjes die hefboom met je speelt",
+      "content": "Hefboom is niet vooral een rekenprobleem. Het rekenwerk is makkelijk. Het is een hoofdprobleem, en dit zijn de drie waar iedereen in trapt.\n\n🎯 1. UITKOMSTBIAS: winnen voelt als talent. Je neemt een veel te grote positie, het werkt, je verdient veel in één middag, en je brein noteert \"ik ben hier goed in.\" Het noteerde niet wat er echt gebeurde, namelijk dat je een slecht risico nam en een goed resultaat kreeg. Dat zijn verschillende dingen, en de markt betaalt je met plezier een paar keer voor een slechte beslissing voordat hij komt innen. Het gevaarlijkste wat een nieuwe trader kan overkomen is een vroege, makkelijke winst.\n\n😤 2. WRAAKTRADEN: je wilt het terug, nu. Je lijdt een verlies, het doet pijn, en de drang is er meteen. Dus ga je groter. Je zet nu je grootste positie neer op precies het moment dat je oordeel het slechtst is, op een trade die je koos omdat je boos was en niet omdat hij goed was. De markt weet niet dat je in de min staat en is je niets verschuldigd. Als je dit voelt, is de juiste grootte nul. Sluit de app.\n\n🕳️ 3. VERLIEZEN NAJAGEN: \"ik houd hem gewoon vast tot hij terugkomt.\" Deze vermomt zich als geduld, en daarom is hij zo moeilijk te herkennen. Geduld is een plan dat je vooraf rustig hebt gemaakt. Najagen is een plan dat je verzon nadat de prijs tegen je in ging, en het teken is simpel: je uitstap is verschoven. Als je merkt dat je uitlegt waarom het niveau dat je had ingesteld niet meer het juiste niveau is, dan is dat geen nieuwe analyse. Dan is dat je ego dat aan het onderhandelen is.\n\nDe verdediging tegen alle drie is dezelfde, en niet glamoureus. Beslis alles terwijl je rustig bent, schrijf het op, en behandel de versie van jou die midden in een trade opduikt als een onbetrouwbare verteller. 🧠",
+      "quiz": {
+        "q": "Je neemt een veel grotere positie dan normaal en die maakt in één middag een flinke winst. Wat is de meest accurate manier om dat te lezen?",
+        "explanation": "Je brein noteert dat je hier goed in bent. Wat er echt gebeurde, is dat je een slecht risico nam en dat de markt je toevallig toch betaalde, en dat zijn twee verschillende dingen. De markt betaalt een slechte beslissing een paar keer voordat hij komt innen. Een vroege, makkelijke winst is het gevaarlijkste wat een nieuwe trader kan overkomen, omdat hij de verkeerde les leert en je er later de rekening voor stuurt.",
+        "options": [
+          "Dit is een aanpak die werkt, en hij kan opnieuw groter worden ingezet",
+          "De grootte was goed, want de winst bewijst dat",
+          "Je nam een slecht risico en kreeg toevallig een goed resultaat",
+          "Grote winsten laten talent zien, en verliezen laten fouten zien"
+        ]
+      }
+    },
+    "81": {
+      "title": "De eerlijke vraag",
+      "desc": "Moet je dit überhaupt gebruiken?",
+      "content": "Je hebt de module afgerond. Hier is de vraag die de reclames nooit stellen.\n\nMoet je überhaupt hefboom gebruiken?\n\nVoor de meeste mensen, meestal, is het eerlijke antwoord nee. Niet omdat ze niet slim genoeg zijn. Maar vanwege alles in de afgelopen vijftien lessen: je begint met een achterstand, je betaalt huur terwijl je wacht, een gewone beweging kan je uitschakelen voordat je gelijk krijgt, en drie toezichthouders die echte rekeningen telden, vonden steeds dat twee derde tot negen tiende van de mensen verloor.\n\nEr is een versie van traden waarbij je hier nooit aankomt. Je koopt een aandeel, je bezit een stukje van een bedrijf, er komt dividend binnen, tijd werkt VOOR je in plaats van tegen je, en niets kan ooit je positie sluiten zonder het te vragen. Dat is de rest van deze app, en het is niet de saaie optie. Het is de optie waarvan de wiskunde in les 14 zegt dat hij meestal wint. 🌱\n\nDus dit moet je weten voordat je beslist.\n\nNiets in deze app zit achter hefboom op slot. Elke wedstrijd, elk klassement, elke XP-route, elke schoolwedstrijd en elke NOOB-beloning blijft helemaal open voor iemand die nooit één positie met hefboom opent. Je verliest niets als je deze ruimte uitloopt. Er is geen straf en geen ontbrekende badge.\n\nEn niets hierbinnen betaalt je voor winnen. Je wordt beloond voor het afronden van de lessen, voor het halen van de toets, voor het instellen van een stop, voor het afkappen van een verliezer en voor het uitschrijven van je eigen liquidatie. Je wordt nooit betaald voor winst, een grote positie of een geluksreeks, want je daarvoor betalen zou je het verkeerde leren en het onderwijs noemen.\n\nAls je het gebruikt: gebruik het klein, gebruik het met een stop, ken je liquidatieprijs voordat je ergens op drukt, en nooit met geld dat je zou missen. Als je het niet gebruikt, heb je toch geleerd de machinerie te zien, en daar ging het altijd om. De meeste volwassenen die hierin handelen, kunnen niet uitleggen wat jij net hebt geleerd. 🤔",
+      "quiz": {
+        "q": "Wat geeft een leerling op door te besluiten nooit een positie met hefboom te openen in deze app?",
+        "explanation": "Niets in deze app zit achter hefboom op slot. Elke wedstrijd, elk klassement, elke XP-route, elke schoolwedstrijd en elke NOOB-beloning blijft open voor iemand die nooit één positie met hefboom opent. Er is geen straf en geen ontbrekende badge. En niets in deze ruimte betaalt je voor winnen: het betaalt voor het afronden van de lessen, het halen van de toets, het instellen van een stop en het afkappen van een verliezer.",
+        "options": [
+          "Helemaal niets, elke route blijft voor hen open",
+          "Elke wedstrijd en elk klassement in de app",
+          "De XP in deze module, die op trades met hefboom uitbetaalt",
+          "NOOB-beloningen, die eerst één positie met hefboom vereisen"
+        ]
+      }
+    },
+    "82": {
+      "title": "De blow-up",
+      "desc": "Vijf dagen, één agressief plan, één lege rekening",
+      "content": "Welkom in het Lab. Hier krijg je een afgeschermde oefenrekening van 1,000 LAB NT. Het is niet je wallet, hij kan niet aan je wallet komen, en niets wat erin gewonnen of verloren wordt, komt eruit. Het instrument is NOVA. NOVA is verzonnen, zodat niemand ons ervan kan beschuldigen een echte crash te voorspellen. Stortingspercentage 25%. Financiering 0.02% per nacht. Gedwongen sluiting bij 50% van de gebruikte margin. En alleen voor deze boss staan de positielimieten uit. Expres. Eén keer.\n\nDit is de week die je zo gaat uitleggen.\n\n📅 DAG 1: NOVA op 100. Goede cijfers, de groepschat gaat los. Je stort 800 van je 1,000 NT en beheert 3,200 NT aan NOVA. Geen stop.\n\n📅 DAG 2: NOVA 106. Je staat 192 NT op winst, +19.2% van je rekening in één dag. Je voegt je laatste 200 NT toe. Blootstelling 4,000 NT. Vrije cash: nul. Nog steeds geen stop.\n\n📅 DAG 3: NOVA 101.76. Marginniveau 103%. Je staat over de week nog op winst, dus je houdt vast.\n\n📅 DAG 4: NOVA 94.64. MARGIN CALL. Marginniveau 75%, eigen vermogen 750 NT. Je kunt niets bijstorten, want er is niets meer om bij te storten. Je houdt vast.\n\n📅 DAG 5: NOVA opent na een nachtelijke gap van 9% lager op 86.12, onder het sluitingsniveau. GELIQUIDEERD op 390 NT.\n\nOver de week daalde NOVA 13.9%. Je rekening daalde 61%. De leerling die 250 NT stortte met een stop op 95 eindigde dezelfde week op ongeveer 949 NT, 5% lager. En dezelfde 800 NT zonder stop maar zonder bijstorten op dag 2 zou zijn geëindigd op 550 NT: een margin call, maar nog in leven.\n\nNu de nabespreking. Tien vragen over wat er net gebeurde. Haal 8 van de 10 en je hebt de boss verslagen, want hierbinnen is slagen: het wrak kunnen uitleggen, niet het vermijden. 💀",
+      "bossVictory": "Je hebt een rekening opgeblazen en liep weg terwijl je wist waarom. Dat is de hele module. 💀",
+      "bossQuestions": {
+        "0": {
+          "q": "Over de vijf dagen daalde NOVA ongeveer 14%. Je rekening daalde 61%. Waarom het verschil?",
+          "options": [
+            "De app rekende een boete voor verliezen",
+            "Je had ongeveer vier keer zoveel blootstelling als je storting waard was, dus elke beweging raakte een bedrag vier keer zo groot als je rekening",
+            "Financiering was goed voor het grootste deel van het verlies",
+            "NOVA is een riskanter aandeel dan de cijfers doen vermoeden"
+          ]
+        },
+        "1": {
+          "q": "Op dag 2 stond je 192 NT op winst, 19.2% van je rekening in één dag. Wat vertelde dat je eigenlijk?",
+          "options": [
+            "Dat je inschatting klopte en je groter moest gaan",
+            "Dat de positie goed van grootte was, want hij was winstgevend",
+            "Dat hefboom veilig is als je gelijk hebt",
+            "Dat de positie groot genoeg was om je rekening 19% op een dag te bewegen, dus ook groot genoeg om hetzelfde in de andere richting te doen"
+          ]
+        },
+        "2": {
+          "q": "Op dag 2 voegde je je laatste 200 NT toe aan de winnende positie. Wat kostte je dat?",
+          "options": [
+            "Beide helften van je veiligheid: het verhoogde de blootstelling van 3,200 naar 4,000, en het gebruikte de enige vrije cash waarmee je een margin call had kunnen beantwoorden",
+            "Niets, want bijkopen in een winnaar is hoe professionals hun rendement laten groeien",
+            "Alleen die 200 NT zelf, die de positie wel had terugverdiend",
+            "Een beetje financiering, omdat de huur per nacht iets steeg"
+          ]
+        },
+        "3": {
+          "q": "Je marginniveau bereikte op dag 3 103%. Wat betekende dat getal?",
+          "options": [
+            "Je was voor 103% gefinancierd, dus de positie had extra onderpand en was veilig",
+            "Je rekening stond over de week 3% hoger",
+            "Je eigen vermogen dekte je gestorte borg maar net, dus de buffer was weg en de volgende beweging zou de storting zelf gaan opeten",
+            "Op zichzelf niets, want het marginniveau doet er pas toe als het onder 50% zakt"
+          ]
+        },
+        "4": {
+          "q": "Bij de margin call op dag 4 zou sluiten een verlies van 250 NT hebben vastgezet. Je hield vast. Waarom is vasthouden het antwoord dat de meeste mensen kiezen?",
+          "options": [
+            "Omdat vasthouden meestal de wiskundig juiste reactie op een margin call is",
+            "Omdat sluiten betekent toegeven dat de trade fout was, en vasthouden je laat blijven geloven dat het nog niet voorbij is",
+            "Omdat margin calls zich meestal binnen een dag vanzelf oplossen",
+            "Omdat de aanbieder vasthouden aanraadt om verliezen niet definitief te maken"
+          ]
+        },
+        "5": {
+          "q": "Je werd geliquideerd op 390 NT, maar het sluitingsniveau lag op 500 NT eigen vermogen. Waarom eindigde je eronder?",
+          "options": [
+            "De aanbieder rekende een liquidatieboete van 110 NT",
+            "NOVA opende na een nachtelijke gap van 9% onder het niveau, dus de sluiting werd uitgevoerd op de eerste prijs die de markt echt bood",
+            "Financiering werd in één keer afgeschreven op het moment van liquidatie",
+            "Het sluitingsniveau is maar een schatting en wordt normaal zoveel gemist"
+          ]
+        },
+        "6": {
+          "q": "De leerling die 250 NT stortte en een stop op 95 zette, eindigde dezelfde week op ongeveer 949 NT. Wat deed die goed?",
+          "options": [
+            "Die bepaalde het maximale verlies vóór het openen, en liet dat de grootte bepalen",
+            "Die las de grafiek van NOVA beter en zag de daling aankomen",
+            "Die vermeed financiering door een kleinere storting te gebruiken",
+            "Die had geluk, want dezelfde keuzes verliezen meestal"
+          ]
+        },
+        "7": {
+          "q": "Je betaalde elke nacht financiering over de volle 4,000 NT aan blootstelling. Hoeveel maakte dat bij deze trade uit?",
+          "options": [
+            "Het was het grootste deel van het verlies, want financiering stapelt zich elke nacht op",
+            "Niets, want financiering wordt alleen berekend op posities die een maand overleven",
+            "Maar een paar NT, want de trade was kort. Financiering sloopt de positie die maandenlang nergens heen gaat, niet degene die in een week ontploft",
+            "Ongeveer 192 NT, hetzelfde als de winst op dag 2"
+          ]
+        },
+        "8": {
+          "q": "Elke keuze hier was toegestaan. In de CFD Hub zullen de meeste dat niet zijn. Waarom?",
+          "options": [
+            "Omdat de limieten de app goedkoper maken om te draaien",
+            "Omdat toezichthouders een oefenmodus eisen vóór elke gesimuleerde trade",
+            "Omdat onder-18's niet twee keer naar een liquidatie mogen kijken",
+            "Je zag net hoe een storting van 80% op één positie en een vrije cash van nul een rekening in vijf dagen verwoestten, en de limieten bestaan om precies die reeks onmogelijk te maken"
+          ]
+        },
+        "9": {
+          "q": "Wat is het allernuttigste om hieruit mee te nemen?",
+          "options": [
+            "Dat de grootte van de positie, bepaald voordat je opent, belangrijker is dan gelijk hebben over de richting",
+            "Dat NOVA een slecht aandeel was om te kiezen, en beter onderzoek de rekening had gered",
+            "Dat niemand ooit, onder geen enkele omstandigheid, hefboom zou moeten aanraken",
+            "Dat margin calls onvoorspelbaar zijn, dus je had niets kunnen doen"
+          ]
+        }
+      }
+    },
+    "83": {
+      "title": "Het rijbewijs",
+      "desc": "Tien vragen. Acht goed om te slagen.",
+      "content": "Het rijbewijs is het examen waar deze module naartoe heeft gewerkt. Tien vragen, en elke vraag is een berekening of een beslissing over een positie die er echt uitziet, want de CFD Hub doet ook niet aan definities.\n\nSlagen met 8 van de 10. Je krijgt 3 pogingen per dag. We vertellen je je score, maar niet welke vragen je fout had, dus een mislukte poging is een signaal om de module opnieuw te lezen, niet om opnieuw te gokken.\n\nNiets hierin is een strikvraag. Elk getal komt rechtstreeks uit de lessen achter je. Als je deze tien kunt, begrijp je deze module beter dan de meeste volwassenen die echt in deze producten handelen. 🎫",
+      "bossVictory": "Je kunt naar het echte scherm kijken, in echte getallen, en nee zeggen. Dat is het rijbewijs. 🎫",
+      "bossQuestions": {
+        "0": {
+          "q": "Je rekening is 1,000 NT en je hebt verder niets open. Je stort de hele 1,000 NT als borg bij een percentage van 25% en beheert 4,000 NT aan {tech} op 200 NT per aandeel. De gedwongen sluiting volgt bij 50% van je storting. Waar moet {tech} noteren voordat je wordt gesloten?",
+          "options": [
+            "150 NT, een daling van 25%, gelijk aan het stortingspercentage",
+            "100 NT, een daling van 50%, hetzelfde als de sluitingsregel",
+            "175 NT, een daling van 12.5%, want 500 NT verliezen op 4,000 NT aan blootstelling vraagt een beweging van 12.5%",
+            "195 NT, een daling van 2.5%"
+          ]
+        },
+        "1": {
+          "q": "Een positie van 3,000 NT kost 0.02% per nacht aan financiering. Je verwacht een beweging van 3% in je voordeel, goed voor 90 NT. Hoeveel nachten is die visie waard voordat de financiering hem heeft opgegeten?",
+          "options": [
+            "Ongeveer 50 nachten",
+            "Ongeveer 150 nachten, want 90 NT gedeeld door 0.60 NT per nacht is 150",
+            "Ongeveer 300 nachten",
+            "Hij wordt nooit opgegeten, want financiering geldt alleen voor verliezende posities"
+          ]
+        },
+        "2": {
+          "q": "Je rekening is 5,000 NT. Je riskeert 2% op een trade en je stapt uit als de prijs 4% tegen je in beweegt. Wat is de grootste positie die je zou moeten openen?",
+          "options": [
+            "100 NT, het bedrag dat je riskeert",
+            "1,000 NT, een vijfde van de rekening",
+            "5,000 NT, want de stop beschermt de rekening toch",
+            "2,500 NT, want 100 NT acceptabel verlies gedeeld door een stopafstand van 4% geeft de grootte"
+          ]
+        },
+        "3": {
+          "q": "Een positie heeft je rekening van 1,000 NT naar 400 NT gebracht. Welk rendement heb je vanaf hier nodig om alleen al terug te komen op 1,000 NT?",
+          "options": [
+            "150%, want 400 NT moet met anderhalf keer zichzelf groeien om 1,000 te halen",
+            "60%, hetzelfde percentage dat je verloor",
+            "100%, want verdubbelen brengt je altijd terug",
+            "250%, twee keer wat je verloor"
+          ]
+        },
+        "4": {
+          "q": "De live kaart toont: marginniveau 82%, vrije cash 0, één positie open en 18% in de min. Welke zet verkleint echt het risico op liquidatie?",
+          "options": [
+            "Cash op de rekening bijstorten",
+            "Vasthouden en wachten tot het niveau herstelt",
+            "Een positie sluiten, wat de margin die hij gebruikte meteen vrijmaakt",
+            "Een tweede positie in de tegenovergestelde richting openen om hem op te heffen"
+          ]
+        },
+        "5": {
+          "q": "Je gaat short op {tech} op 50 NT met een positie van 2,000 NT. Door een overname noteert hij 's nachts ineens 150 NT. Hoe verhoudt dat verlies zich tot het slechtste scenario bij een longpositie van dezelfde grootte?",
+          "options": [
+            "Het is hetzelfde, want allebei zijn begrensd tot wat je erin stopte",
+            "De short verliest 4,000 NT, twee keer de waarde van de positie, terwijl een long nooit meer kan verliezen dan de positie van 2,000 NT zelf",
+            "De short verliest niets als er een stop-loss stond, want stops zijn gegarandeerd",
+            "Het verlies van de short is kleiner, want prijzen dalen sneller dan ze stijgen"
+          ]
+        },
+        "6": {
+          "q": "Je stop staat op 90 NT. 's Nachts komt er nieuws en de markt opent op 78 NT zonder dat er daartussen is gehandeld. Wat gebeurt er, en wat is de echte verdediging hiertegen?",
+          "options": [
+            "Je wordt uitgevoerd op 90 NT, want dat garandeert een stop",
+            "De order vervalt, omdat de prijs over je niveau sprong",
+            "Je wordt uitgevoerd rond 78 NT, en de verdediging tegen gaps is positiegrootte, niet de stop",
+            "De aanbieder is je het verschil tussen 90 en 78 schuldig"
+          ]
+        },
+        "7": {
+          "q": "Waarom heeft crypto in de CFD Hub de grootste stortingseis?",
+          "options": [
+            "Het beweegt het hardst, dus een dunne storting zou door een volkomen gewone cryptodag worden leeggemaakt",
+            "Op crypto wordt geen financiering gerekend, dus de storting vervangt die",
+            "Crypto is verboden voor onder-18's en de storting is de straf",
+            "Cryptoprijzen worden door de app bepaald in plaats van door de markt"
+          ]
+        },
+        "8": {
+          "q": "Welke van deze levert XP op in deze module?",
+          "options": [
+            "Een winst van 40% op een positie met hefboom",
+            "De grootst mogelijke blootstelling gebruiken",
+            "Een winstreeks van vijf trades",
+            "Een verliezende positie sluiten in plaats van erbij te kopen"
+          ]
+        },
+        "9": {
+          "q": "De preview vóór de trade zegt dat een ongunstige beweging van 10% 620 NT van je rekening haalt, 62% van je wallet. Je liquidatieprijs is 88.40 en {tech} noteert nu 96.00. Open je hem?",
+          "options": [
+            "Ja, want de liquidatieprijs ligt veilig onder de huidige prijs",
+            "Ja, als je zeker bent van de richting",
+            "Alleen met dubbele blootstelling, zodat het risico de moeite waard is",
+            "Nee: een beweging van ongeveer 8% maakt de positie leeg, 8% is een gewone beweging, en 62% van een wallet op één trade breekt elke groottesregel in deze module"
+          ]
+        }
+      }
+    },
+    "84": {
+      "title": "Je slechtste scenario, vooraf gekozen",
+      "desc": "Stop-loss, take-profit en de uitgang die niemand kiest",
+      "content": "Je kent de storting, de call, de gedwongen sluiting, de huur, de stop en de gap. Deze les zet het laatste stukje op zijn plek: elke positie die je ooit opent, eindigt op precies één van drie manieren, en het hele spel draait om wie kiest welke.\n\n1️⃣ JIJ SLUIT HEM. Je tikt op de knop en de positie sluit tegen de huidige marktprijs. Altijd beschikbaar, bij elke positie, in elke situatie. De meeste uitstappen zouden deze moeten zijn.\n\n2️⃣ EEN ORDER DIE JIJ INSTELDE SLUIT HEM. Twee soorten, en de namen doen ertoe, dus leer ze goed:\n\n• Een STOP-LOSS-ORDER sluit je automatisch als de prijs TEGEN je in beweegt naar een niveau dat jij koos: een sell-stop onder je instap bij een long, een buy-stop boven je instap bij een short. Het is je slechtste scenario, bepaald terwijl je rustig was, en les 80 heeft je al geleerd dat dat het enige moment is waarop je iets goed beslist.\n• Een TAKE-PROFIT-ORDER is een limietorder om te sluiten: hij sluit je automatisch op het doel dat jij koos, als de prijs IN JE VOORDEEL beweegt en het bereikt. Het is jouw \"genoeg\", bepaald voordat hebzucht mocht meestemmen. Een limietorder wordt uitgevoerd op jouw niveau of beter, nooit slechter.\n\n3️⃣ DE AANBIEDER SLUIT HEM. Dat is liquidatie, uit les 70. En dit moet erin gebrand zitten: liquidatie is geen ordertype. Je kunt geen \"liquidatietrade\" plaatsen. Niemand kan dat. Het is geen gereedschap in je kist; het is wat de aanbieder doet om zijn lening te beschermen als je storting bijna op is, tegen elke prijs die de markt betaalt, terwijl jij op school zit of slaapt.\n\nEen stop-loss is jij die vooraf je slechtste scenario bepaalt. Liquidatie is wat er gebeurt als je dat niet deed.\n\nAllebei je orders zijn op dezelfde manier eerlijk, en dat weet je al uit les 78: ze gaan af op jouw niveau en worden uitgevoerd tegen wat de markt echt betaalt. Een gap over je stop voert je uit aan de andere kant van de sprong, en dat is slechter. Een gap door je take-profit voert je ook uit aan de andere kant, en dat is beter. Hetzelfde feit, in beide richtingen.\n\nEén plaatsingsregel, en deze app dwingt hem af met de reden op het scherm: je stop moet tussen de huidige prijs en je liquidatieprijs liggen. Een stop voorbij de liquidatieprijs zou nooit kunnen afgaan, omdat de aanbieder je dan al had gesloten, dus de app weigert hem en vertelt je waarom.\n\nDrie deuren uit elke trade. Op twee daarvan staat jouw naam op de klink. Door een van die twee naar buiten lopen, op een dag die jij koos, op een niveau dat jij rustig koos, is waar deze hele module je naartoe heeft geleerd. 🚪",
+      "quiz": {
+        "q": "Je longpositie heeft een stop-loss die je op 180.00 zette en een liquidatieprijs van 150.00. Wat is het echte verschil tussen die twee getallen?",
+        "options": [
+          "Helemaal niets, het zijn twee namen voor dezelfde automatische sluiting, en de aanbieder voert die elke keer op één vaste prijs uit",
+          "De stop-loss is de beslissing van de aanbieder en de liquidatieprijs die van jou, dus degene die jij echt beheerst is degene die als tweede afgaat",
+          "De stop op 180.00 is je slechtste scenario, vooraf door jou gekozen terwijl je rustig was; 150.00 is waar de aanbieder je sluit om zijn lening te beschermen, omdat jij dan niets meer te zeggen hebt",
+          "De stop garandeert een uitvoering op precies 180.00 wat de markt ook doet, terwijl liquidatie op elke willekeurige prijs kan worden uitgevoerd, hoe ver die ook is doorgeschoten"
+        ]
+      }
+    }
+  },
+  "context": {
+    "ZA": {
+      "name": "Zuid-Afrika",
+      "cName": "rand",
+      "cPlural": "rand",
+      "exDesc": "een van de grootste effectenbeurzen van het hele Afrikaanse continent",
+      "sectorList": "⛏️ Mijnbouw: Anglo American, Impala Platinum. Gekoppeld aan wereldwijde grondstofprijzen\n🏦 Banken: Standard Bank, FirstRand, Capitec. Doen het goed als de rente hoger is\n📱 Technologie: Naspers, Prosus. Gekoppeld aan wereldwijde techtrends\n🛍️ Retail: Shoprite, Pick n Pay. Doen het goed als consumenten geld te besteden hebben\n📡 Telecom: MTN, Vodacom. Stabieler, want mensen hebben altijd data nodig",
+      "etfBasket": "de 40 grootste bedrijven op de JSE",
+      "etfDesc": "De JSE Top 40 is bijvoorbeeld een lijst van de 40 grootste bedrijven die op de JSE genoteerd staan, gerangschikt op de waarde van de aandelen die echt verhandeld kunnen worden.",
+      "etfList": "🇿🇦 Satrix Top 40: De 40 grootste bedrijven op de JSE. Prima startpunt.\n🌍 Satrix MSCI World: Bedrijven uit 23 ontwikkelde landen in één aankoop.\n🇺🇸 Sygnia Itrix S&P 500: De 500 grote Amerikaanse bedrijven op de S&P 500-lijst.\n💡 Satrix Nasdaq 100: De 100 grootste niet-financiële bedrijven op de Nasdaq. Heel techzwaar.",
+      "currencyHedge": "Die zijn geprijsd in dollars of euro's. Dus als de rand ZWAKKER wordt (R20 per dollar wordt R22), zijn je wereldwijde beleggingen AUTOMATISCH meer waard in rand!",
+      "fxQuizSetup": "De rand verzwakt van R18 naar R22 ten opzichte van de dollar",
+      "fxQuizLose": "Hij verliest waarde omdat het slechter gaat met Zuid-Afrika",
+      "fxQuizGain": "Hij stijgt in rand, omdat je voor elke dollar meer rand krijgt",
+      "dcaTitle": "Periodiek beleggen in rand",
+      "dcaAbbrev": "RCA",
+      "food": "Wimpy-burger"
+    },
+    "US": {
+      "name": "de Verenigde Staten",
+      "cName": "dollar",
+      "cPlural": "dollars",
+      "exDesc": "met afstand de grootste aandelenmarkt ter wereld",
+      "sectorList": "💻 Technologie: Apple, Microsoft, Alphabet. Gedreven door innovatie en wereldwijde vraag\n🏦 Banken: JPMorgan, Bank of America, Goldman Sachs. Doen het goed als de rente stijgt\n🛍️ Retail: Amazon, Walmart, Costco. Doen het goed als consumenten geld uitgeven\n⚡ Energie: Exxon Mobil, Chevron. Gekoppeld aan wereldwijde olie- en gasprijzen\n📡 Telecom: AT&T, Verizon, T-Mobile. Mensen hebben altijd verbinding nodig",
+      "etfBasket": "de 500 grote Amerikaanse bedrijven op de S&P 500-lijst",
+      "etfDesc": "De S&P 500 is bijvoorbeeld een lijst van 500 grote Amerikaanse bedrijven, gekozen door een commissie. Ze moeten groot, winstgevend en makkelijk verhandelbaar zijn. Het zijn NIET gewoon de 500 grootste, en de lijst mengt bedrijven die op de NYSE genoteerd staan met bedrijven op de Nasdaq.",
+      "etfList": "🇺🇸 SPY / VOO: Volgen de S&P 500, een lijst van 500 grote Amerikaanse bedrijven. De gouden standaard.\n📦 VTI: De hele Amerikaanse aandelenmarkt, duizenden bedrijven in één ETF.\n💡 QQQ: De 100 grootste niet-financiële bedrijven op de Nasdaq. Heel techzwaar.\n🌍 VT / VXUS: Wereldwijde of internationale bedrijven in één fonds.",
+      "currencyHedge": "Als de dollar zwakker wordt ten opzichte van andere munten, worden je internationale beleggingen automatisch MEER waard in dollars!",
+      "fxQuizSetup": "De dollar verzwakt flink ten opzichte van de euro en de yen",
+      "fxQuizLose": "Hij verliest waarde omdat de Amerikaanse economie het moeilijk heeft",
+      "fxQuizGain": "Hij stijgt in dollars, omdat je buitenlandse beleggingen valutawaarde hebben gewonnen",
+      "dcaTitle": "Periodiek beleggen in dollars",
+      "dcaAbbrev": "DCA",
+      "food": "Big Mac-menu"
+    },
+    "GB": {
+      "name": "het Verenigd Koninkrijk",
+      "cName": "pond",
+      "cPlural": "pond",
+      "exDesc": "een van de oudste en belangrijkste effectenbeurzen ter wereld",
+      "sectorList": "⚡ Energie: Shell, BP. Wereldwijde olie- en gasreuzen\n🏦 Banken: HSBC, Barclays, Lloyds. Doen het goed als de rente hoger is\n🧴 Consument: Unilever, Diageo, Reckitt. Krachtpatsers met bekende huishoudmerken\n🛍️ Retail: Tesco, Sainsbury's. Doen het goed als consumenten geld uitgeven\n📡 Telecom: Vodafone, BT Group. Mensen hebben altijd verbinding nodig",
+      "etfBasket": "de 100 grootste bedrijven op de London Stock Exchange",
+      "etfDesc": "De FTSE 100 is bijvoorbeeld een lijst van de 100 grootste bedrijven op de hoofdmarkt van de London Stock Exchange, die elke drie maanden opnieuw wordt gecontroleerd.",
+      "etfList": "🇬🇧 iShares Core FTSE 100: De 100 grootste bedrijven op de London Stock Exchange.\n🌍 Vanguard FTSE All-World: Bedrijven uit tientallen landen in één aankoop.\n🇺🇸 iShares Core S&P 500: De 500 grote Amerikaanse bedrijven op de S&P 500-lijst.\n💡 iShares Nasdaq 100: De 100 grootste niet-financiële bedrijven op de Nasdaq. Heel techzwaar.",
+      "currencyHedge": "Als het pond zwakker wordt ten opzichte van andere munten, worden je internationale beleggingen automatisch MEER waard in ponden!",
+      "fxQuizSetup": "Het pond verzwakt flink ten opzichte van de dollar en de euro",
+      "fxQuizLose": "Hij verliest waarde omdat de Britse economie het moeilijk heeft",
+      "fxQuizGain": "Hij stijgt in ponden, omdat je buitenlandse beleggingen valutawaarde hebben gewonnen",
+      "dcaTitle": "Periodiek beleggen in ponden",
+      "dcaAbbrev": "PCA",
+      "food": "kwart kip bij Nando's"
+    },
+    "IN": {
+      "name": "India",
+      "cName": "roepie",
+      "cPlural": "roepies",
+      "exDesc": "een van de grootste effectenbeurzen ter wereld als je kijkt naar het aantal transacties",
+      "sectorList": "💻 Technologie: TCS, Infosys, Wipro. Wereldwijde krachtpatsers in IT-diensten\n🏦 Banken: HDFC Bank, SBI, ICICI. Doen het goed als de rente hoger is\n🛍️ Consument: ITC, Hindustan Unilever, DMart. Doen het goed als consumenten geld uitgeven\n⚡ Energie: Reliance, ONGC. Gekoppeld aan olie, gas en raffinage\n📡 Telecom: Airtel, Vodafone Idea. De enorme mobiele markt van India blijft groeien",
+      "etfBasket": "50 van de grootste en meest verhandelde bedrijven van India",
+      "etfDesc": "De Nifty 50 is bijvoorbeeld een lijst van 50 van de grootste en meest verhandelde bedrijven van India, gekozen op grootte ÉN op hoe makkelijk ze gekocht en verkocht kunnen worden, niet alleen op grootte.",
+      "etfList": "🇮🇳 Nippon India Nifty 50: De Nifty 50, een lijst van 50 van de grootste, meest verhandelde bedrijven van India.\n💡 ICICI Prudential Sensex: De Sensex, een lijst van 30 van de bekendste blue chips van India.\n📦 Kotak Nifty Next 50: De 50 bedrijven die net onder de Nifty 50 staan.\n🌍 Motilal Oswal Nasdaq 100: De 100 grootste niet-financiële bedrijven op de Nasdaq.",
+      "currencyHedge": "Als de roepie zwakker wordt ten opzichte van de dollar, worden je internationale beleggingen automatisch MEER waard in roepies!",
+      "fxQuizSetup": "De roepie verzwakt van ₹82 naar ₹90 ten opzichte van de dollar",
+      "fxQuizLose": "Hij verliest waarde omdat de economie van India het moeilijk heeft",
+      "fxQuizGain": "Hij stijgt in roepies, omdat je voor elke dollar meer roepies krijgt",
+      "dcaTitle": "Periodiek beleggen in roepies",
+      "dcaAbbrev": "RCA",
+      "food": "Domino's-pizza"
+    },
+    "JP": {
+      "name": "Japan",
+      "cName": "yen",
+      "cPlural": "yen",
+      "exDesc": "een van de grootste effectenbeurzen ter wereld",
+      "sectorList": "🚗 Auto-industrie: Toyota, Honda, Nissan. De wereldberoemde autobouwers van Japan\n💻 Technologie: Sony, SoftBank, Nintendo. Gaming, entertainment en innovatie\n🏦 Banken: MUFG, SMFG, Mizuho. De megabankgroepen van Japan\n🛍️ Retail: Fast Retailing (Uniqlo), Seven & i. Wereldwijd bereik in retail\n📡 Telecom: NTT, KDDI, SoftBank. Enorme mobiele infrastructuur",
+      "etfBasket": "de 225 bedrijven op de Nikkei 225-lijst",
+      "etfDesc": "De Nikkei 225 is bijvoorbeeld een lijst van 225 bekende Japanse bedrijven die gekozen zijn om de hele markt te vertegenwoordigen. Hij is prijsgewogen, wat betekent dat een aandeel met een hoge koers zwaarder telt dan een bedrijf dat gewoon groot is.",
+      "etfList": "🇯🇵 Een Nikkei 225-ETF: De 225 bedrijven op de Nikkei 225-lijst. De maatstaf.\n📦 Een TOPIX-ETF: Een veel breder deel van de markt in Tokio, ruim meer dan duizend bedrijven.\n🌍 MAXIS All Country World: Ontwikkelde en opkomende markten in één fonds.\n🇺🇸 iShares S&P 500: De 500 grote Amerikaanse bedrijven op de S&P 500-lijst.",
+      "currencyHedge": "Als de yen zwakker wordt ten opzichte van andere munten, worden je internationale beleggingen automatisch MEER waard in yen!",
+      "fxQuizSetup": "De yen verzwakt van ¥130 naar ¥155 ten opzichte van de dollar",
+      "fxQuizLose": "Hij verliest waarde omdat de economie van Japan het moeilijk heeft",
+      "fxQuizGain": "Hij stijgt in yen, omdat je buitenlandse beleggingen valutawaarde hebben gewonnen",
+      "dcaTitle": "Periodiek beleggen in yen",
+      "dcaAbbrev": "YCA",
+      "food": "kom ramen"
+    },
+    "DE": {
+      "name": "Duitsland",
+      "cName": "euro",
+      "cPlural": "euro's",
+      "exDesc": "een van de grootste effectenbeurzen van Europa",
+      "sectorList": "💻 Technologie: SAP, Infineon. Bedrijfssoftware en halfgeleiders\n🚗 Auto-industrie: Volkswagen, BMW, Mercedes-Benz. De trots van de Duitse techniek\n🏦 Banken: Deutsche Bank, Commerzbank. Doen het goed als de rente stijgt\n🏭 Industrie: Siemens, BASF. Wereldwijde productie en chemie\n📡 Telecom: Deutsche Telekom, 1&1. De ruggengraat van de Duitse verbindingen",
+      "etfBasket": "de 40 grootste Duitse bedrijven op de beurs van Frankfurt",
+      "etfDesc": "De DAX 40 is bijvoorbeeld een lijst van de 40 grootste Duitse bedrijven op de beurs van Frankfurt, en sinds 2021 moeten ze ook winstgevend zijn om erop te komen.",
+      "etfList": "🇩🇪 iShares Core DAX: De 40 grootste Duitse bedrijven op de beurs van Frankfurt.\n🌍 Xtrackers MSCI World: Bedrijven uit 23 ontwikkelde landen.\n🇺🇸 iShares Core S&P 500: De 500 grote Amerikaanse bedrijven op de S&P 500-lijst.\n🇪🇺 Een EURO STOXX 50-ETF: 50 toonaangevende blue chips uit de hele eurozone.",
+      "currencyHedge": "Als de euro zwakker wordt ten opzichte van andere munten, worden je internationale beleggingen automatisch MEER waard in euro's!",
+      "fxQuizSetup": "De euro verzwakt flink ten opzichte van de dollar en de yen",
+      "fxQuizLose": "Hij verliest waarde omdat de Europese economie het moeilijk heeft",
+      "fxQuizGain": "Hij stijgt in euro's, omdat je buitenlandse beleggingen valutawaarde hebben gewonnen",
+      "dcaTitle": "Periodiek beleggen",
+      "dcaAbbrev": "DCA",
+      "food": "döner kebab"
+    },
+    "CA": {
+      "name": "Canada",
+      "cName": "Canadese dollar",
+      "cPlural": "Canadese dollars",
+      "exDesc": "een van de 10 grootste effectenbeurzen ter wereld",
+      "sectorList": "💻 Technologie: Shopify, OpenText, Constellation Software. Canadese tech-innovatie\n🏦 Banken: RBC, TD, BMO, Scotiabank. De grote vijf van Canada zijn ijzersterk\n⚡ Energie: Enbridge, Suncor, TC Energy. Reuzen in oliezand en pijpleidingen\n🛍️ Retail: Dollarama, Canadian Tire, Loblaw. Retailmerken van eigen bodem\n📡 Telecom: BCE, Rogers, Telus. Canadezen hebben altijd verbinding nodig",
+      "etfBasket": "60 grote Canadese bedrijven uit elke belangrijke sector",
+      "etfDesc": "De S&P/TSX 60 is bijvoorbeeld een lijst van 60 grote Canadese bedrijven, gekozen door een commissie zodat elke belangrijke sector vertegenwoordigd is. Het zijn dus niet gewoon de 60 grootste.",
+      "etfList": "🇨🇦 iShares S&P/TSX 60 (XIU): 60 grote Canadese bedrijven uit elke belangrijke sector.\n📦 Vanguard All-Equity (VEQT): Canadese, Amerikaanse en internationale aandelen in één ETF.\n🇺🇸 BMO S&P 500: De 500 grote Amerikaanse bedrijven op de S&P 500-lijst.\n💡 Een Nasdaq 100-ETF: De 100 grootste niet-financiële bedrijven op de Nasdaq. Heel techzwaar.",
+      "currencyHedge": "Als de Canadese dollar zwakker wordt ten opzichte van andere munten, worden je internationale beleggingen automatisch MEER waard in C$!",
+      "fxQuizSetup": "De Canadese dollar verzwakt flink ten opzichte van de Amerikaanse dollar",
+      "fxQuizLose": "Hij verliest waarde omdat de economie van Canada het moeilijk heeft",
+      "fxQuizGain": "Hij stijgt in Canadese dollars, omdat je buitenlandse beleggingen valutawaarde hebben gewonnen",
+      "dcaTitle": "Periodiek beleggen in dollars",
+      "dcaAbbrev": "DCA",
+      "food": "Tim Hortons-menu"
+    },
+    "AU": {
+      "name": "Australië",
+      "cName": "Australische dollar",
+      "cPlural": "Australische dollars",
+      "exDesc": "de grootste effectenbeurs van het zuidelijk halfrond",
+      "sectorList": "⛏️ Mijnbouw: BHP, Rio Tinto, Fortescue. Wereldwijde reuzen in mijnbouw en grondstoffen\n🏦 Banken: CBA, Westpac, ANZ, NAB. De grote vier banken van Australië\n🏥 Gezondheidszorg: CSL, Cochlear. Biotech en medische apparatuur van wereldklasse\n🛍️ Retail: Woolworths, Coles, Wesfarmers. Boodschappen en dagelijkse consumentengoederen\n💻 Technologie: WiseTech Global, Xero. Succesvolle softwarebedrijven met een notering in Australië",
+      "etfBasket": "de 200 grootste bedrijven op de ASX",
+      "etfDesc": "De S&P/ASX 200 is bijvoorbeeld een lijst van de 200 grootste bedrijven die op de ASX genoteerd staan, gemeten naar de waarde van de aandelen die verhandeld kunnen worden en gescreend op hoe makkelijk ze van eigenaar wisselen.",
+      "etfList": "🇦🇺 iShares Core S&P/ASX 200 (IOZ): De 200 grootste bedrijven op de ASX.\n📦 Vanguard Australian Shares (VAS): Nog breder, ongeveer 300 ASX-bedrijven.\n🌍 Vanguard MSCI International (VGS): Bedrijven uit ontwikkelde markten buiten Australië.\n🇺🇸 BetaShares Nasdaq 100 (NDQ): De 100 grootste niet-financiële bedrijven op de Nasdaq.",
+      "currencyHedge": "Als de Australische dollar zwakker wordt ten opzichte van andere munten, worden je internationale beleggingen automatisch MEER waard in A$!",
+      "fxQuizSetup": "De Australische dollar verzwakt flink ten opzichte van de Amerikaanse dollar",
+      "fxQuizLose": "Hij verliest waarde omdat de economie van Australië het moeilijk heeft",
+      "fxQuizGain": "Hij stijgt in A$, omdat je buitenlandse beleggingen valutawaarde hebben gewonnen",
+      "dcaTitle": "Periodiek beleggen in dollars",
+      "dcaAbbrev": "DCA",
+      "food": "meat pie (vleespastei)"
+    },
+    "HK": {
+      "name": "Hongkong",
+      "cName": "Hongkongse dollar",
+      "cPlural": "Hongkongse dollars",
+      "exDesc": "de toegangspoort tussen China en de wereldwijde markten",
+      "sectorList": "💻 Technologie: Tencent, Xiaomi, Meituan. Chinese techreuzen met een notering in HK\n🏦 Banken: HSBC, Hang Seng Bank. Doen het goed als de rente stijgt\n🏗️ Vastgoed: CK Asset, Sun Hung Kai. Vastgoed is koning in Hongkong\n⚡ Nutsbedrijven: CLP, Power Assets. Jaar na jaar stabiel dividend\n🛡️ Verzekeringen: AIA, Prudential. Toonaangevende verzekeraars in Azië en de Stille Oceaan",
+      "etfBasket": "de grootste en meest verhandelde bedrijven van Hongkong",
+      "etfDesc": "De Hang Seng Index is bijvoorbeeld een geselecteerde lijst van de grootste en meest verhandelde bedrijven van Hongkong, gekozen om elke belangrijke sector te vertegenwoordigen. Het aantal bedrijven op de lijst verandert als de indexcommissie namen toevoegt of verwijdert.",
+      "etfList": "🇭🇰 Tracker Fund (2800): Volgt de Hang Seng Index. De ETF-pionier van Hongkong.\n💡 Hang Seng TECH ETF: De 30 grootste techbedrijven met een notering in Hongkong.\n🇺🇸 Een S&P 500-ETF: De 500 grote Amerikaanse bedrijven op de S&P 500-lijst.\n🇨🇳 Een ETF in Chinese A-aandelen: Toegang tot bedrijven die in Shanghai en Shenzhen genoteerd staan.",
+      "currencyHedge": "De HK-dollar is gekoppeld aan de Amerikaanse dollar, dus een wereldwijd fonds met veel VS beweegt nauwelijks door valuta alleen. Maar het niet-Amerikaanse deel (Europa, Japan, de rest van Azië) stijgt nog steeds in HK$ als die munten sterker worden!",
+      "fxQuizSetup": "De euro en de yen worden sterker ten opzichte van de Amerikaanse dollar, en de HK-dollar is gekoppeld aan de Amerikaanse dollar",
+      "fxQuizLose": "Hij verliest waarde omdat de economie van Hongkong het moeilijk heeft",
+      "fxQuizGain": "Het Europese en Japanse deel stijgt in HK$, omdat je met die munten nu meer HK-dollars krijgt",
+      "dcaTitle": "Periodiek beleggen in dollars",
+      "dcaAbbrev": "DCA",
+      "food": "kom wontonnoedels"
+    },
+    "CN": {
+      "name": "China",
+      "cName": "yuan",
+      "cPlural": "yuan",
+      "exDesc": "een van de grootste effectenbeurzen ter wereld qua marktwaarde",
+      "sectorList": "💻 Technologie: SMIC, Kingsoft Office. Chipproductie en software met een notering in Shanghai\n🏦 Banken: ICBC, CCB, Bank of China. Qua bezittingen bij de grootste banken ter wereld\n🚗 Auto-industrie: SAIC Motor, Great Wall Motor. De autobouwers van eigen bodem van China\n🛍️ Consument: Kweichow Moutai, Haier, Yili. Bekende namen in heel China\n📡 Telecom: China Mobile, China Telecom. Enorme mobiele netwerken",
+      "etfBasket": "300 van de grootste, meest verhandelde bedrijven van het Chinese vasteland",
+      "etfDesc": "De CSI 300 is bijvoorbeeld een lijst van 300 van de grootste en meest verhandelde bedrijven van het Chinese vasteland, en hij omvat ZOWEL de beurs van Shanghai als die van Shenzhen, niet maar één van de twee.",
+      "etfList": "🇨🇳 Huatai-PB CSI 300 (510300): 300 grote, veel verhandelde bedrijven uit Shanghai en Shenzhen.\n💡 ChinaAMC SSE 50 (510050): De 50 grootste bedrijven op alleen de beurs van Shanghai.\n🌍 Een breed Chinees aandelenfonds: Bredere dekking dan de CSI 300.\n🇺🇸 Een S&P 500 QDII-fonds: Toegang tot de 500 grote Amerikaanse bedrijven op de S&P 500-lijst.",
+      "currencyHedge": "Als de yuan zwakker wordt ten opzichte van andere munten, worden je internationale beleggingen automatisch MEER waard in yuan!",
+      "fxQuizSetup": "De yuan verzwakt flink ten opzichte van de dollar en de euro",
+      "fxQuizLose": "Hij verliest waarde omdat de economie van China het moeilijk heeft",
+      "fxQuizGain": "Hij stijgt in yuan, omdat je buitenlandse beleggingen valutawaarde hebben gewonnen",
+      "dcaTitle": "Periodiek beleggen in yuan",
+      "dcaAbbrev": "YCA",
+      "food": "kom noedels"
+    },
+    "FR": {
+      "name": "Frankrijk",
+      "cName": "euro",
+      "cPlural": "euro's",
+      "exDesc": "de thuisbasis van een paar van de meest iconische luxe- en industriemerken ter wereld",
+      "sectorList": "👜 Luxe: LVMH, Hermès, Kering. Frankrijk domineert de wereldwijde luxemarkt\n⚡ Energie: TotalEnergies, Engie. Grote Europese energiebedrijven\n🏦 Banken: BNP Paribas, Société Générale. Doen het goed als de rente stijgt\n✈️ Lucht- en ruimtevaart: Airbus, Safran. Wereldtop in vliegtuigen en defensie\n📡 Telecom: Orange, Bouygues. De ruggengraat van de Franse verbindingen",
+      "etfBasket": "de 40 bedrijven op de CAC 40-lijst",
+      "etfDesc": "De CAC 40 is bijvoorbeeld een lijst van 40 bedrijven die een onafhankelijke commissie kiest uit de 100 grootste op de beurs van Parijs, op basis van grootte ÉN van hoeveel ze verhandeld worden.",
+      "etfList": "🇫🇷 Amundi CAC 40: De 40 bedrijven op de CAC 40-lijst. De maatstaf.\n🌍 Een MSCI World-ETF: Bedrijven uit 23 ontwikkelde landen.\n🇺🇸 BNP Paribas Easy S&P 500: De 500 grote Amerikaanse bedrijven op de S&P 500-lijst.\n🇪🇺 Een EURO STOXX 50-ETF: 50 toonaangevende blue chips uit de hele eurozone.",
+      "currencyHedge": "Als de euro zwakker wordt ten opzichte van andere munten, worden je internationale beleggingen automatisch MEER waard in euro's!",
+      "fxQuizSetup": "De euro verzwakt flink ten opzichte van de dollar en de yen",
+      "fxQuizLose": "Hij verliest waarde omdat de Europese economie het moeilijk heeft",
+      "fxQuizGain": "Hij stijgt in euro's, omdat je buitenlandse beleggingen valutawaarde hebben gewonnen",
+      "dcaTitle": "Periodiek beleggen",
+      "dcaAbbrev": "DCA",
+      "food": "croque-monsieur"
+    },
+    "IT": {
+      "name": "Italië",
+      "cName": "euro",
+      "cPlural": "euro's",
+      "exDesc": "een van de oudste effectenbeurzen van Europa, de thuisbasis van iconische Italiaanse merken",
+      "sectorList": "🏎️ Auto-industrie: Ferrari, Stellantis. Italiaans topvakmanschap in techniek\n⚡ Energie: Enel, Eni. Grote Europese energie- en nutsbedrijven\n🏦 Banken: UniCredit, Intesa Sanpaolo. Doen het goed als de rente stijgt\n🛡️ Verzekeringen: Generali, Unipol. De verzekeringsreuzen van Italië\n📡 Telecom: TIM, Inwit. De verbindingsinfrastructuur van Italië",
+      "etfBasket": "de 40 bedrijven op de FTSE MIB-lijst",
+      "etfDesc": "De FTSE MIB is bijvoorbeeld een lijst van 40 van de grootste en meest verhandelde bedrijven op de beurs van Milaan, gekozen om de belangrijkste sectoren van Italië te dekken.",
+      "etfList": "🇮🇹 Een FTSE MIB-ETF: De 40 bedrijven op de FTSE MIB-lijst.\n🌍 iShares Core MSCI World: Bedrijven uit 23 ontwikkelde landen.\n🇺🇸 Amundi S&P 500: De 500 grote Amerikaanse bedrijven op de S&P 500-lijst.\n🇪🇺 Xtrackers EURO STOXX 50: 50 toonaangevende blue chips uit de hele eurozone.",
+      "currencyHedge": "Als de euro zwakker wordt ten opzichte van andere munten, worden je internationale beleggingen automatisch MEER waard in euro's!",
+      "fxQuizSetup": "De euro verzwakt flink ten opzichte van de dollar en de yen",
+      "fxQuizLose": "Hij verliest waarde omdat de Europese economie het moeilijk heeft",
+      "fxQuizGain": "Hij stijgt in euro's, omdat je buitenlandse beleggingen valutawaarde hebben gewonnen",
+      "dcaTitle": "Periodiek beleggen",
+      "dcaAbbrev": "DCA",
+      "food": "pizza margherita"
+    },
+    "ES": {
+      "name": "Spanje",
+      "cName": "euro",
+      "cPlural": "euro's",
+      "exDesc": "de belangrijkste effectenbeurs van Spanje en de toegangspoort tot Latijns-Amerikaanse markten",
+      "sectorList": "👗 Mode en beauty: Inditex (Zara), Puig. Het wereldwijde stijlimperium van Spanje\n🏦 Banken: Santander, BBVA, CaixaBank. Spaanse banken hebben een enorm wereldwijd bereik\n⚡ Energie: Iberdrola, Endesa. Koplopers in duurzame energie in Europa\n📡 Telecom: Telefónica, Cellnex. De ruggengraat van de Spaanse verbindingen\n🏗️ Infrastructuur: Ferrovial, ACS. Bouwen wereldwijd aan infrastructuur",
+      "etfBasket": "de 35 meest verhandelde bedrijven van Spanje",
+      "etfDesc": "De IBEX 35 is bijvoorbeeld een lijst van de 35 meest verhandelde Spaanse aandelen, gekozen door een technische commissie op basis van handelsvolume. Het is dus een lijst van de meest verhandelde, niet van de grootste.",
+      "etfList": "🇪🇸 Een IBEX 35-ETF: De 35 meest verhandelde Spaanse aandelen.\n🌍 iShares Core MSCI World: Bedrijven uit 23 ontwikkelde landen.\n🇺🇸 Vanguard S&P 500: De 500 grote Amerikaanse bedrijven op de S&P 500-lijst.\n🇪🇺 Een EURO STOXX 50-ETF: 50 toonaangevende blue chips uit de hele eurozone.",
+      "currencyHedge": "Als de euro zwakker wordt ten opzichte van andere munten, worden je internationale beleggingen automatisch MEER waard in euro's!",
+      "fxQuizSetup": "De euro verzwakt flink ten opzichte van de dollar en de yen",
+      "fxQuizLose": "Hij verliest waarde omdat de Europese economie het moeilijk heeft",
+      "fxQuizGain": "Hij stijgt in euro's, omdat je buitenlandse beleggingen valutawaarde hebben gewonnen",
+      "dcaTitle": "Periodiek beleggen",
+      "dcaAbbrev": "DCA",
+      "food": "bordje tapas"
+    },
+    "NL": {
+      "name": "Nederland",
+      "cName": "euro",
+      "cPlural": "euro's",
+      "exDesc": "de oudste effectenbeurs ter wereld, opgericht in 1602",
+      "sectorList": "💻 Technologie: ASML, Adyen. ASML maakt de meest geavanceerde chips ter wereld mogelijk\n⚡ Energie: Shell, SBM Offshore. Wereldwijde energiereuzen met hoofdkantoor in NL\n🏦 Banken: ING, ABN AMRO. Doen het goed als de rente stijgt\n🍺 Consument: Heineken, Ahold Delhaize. Wereldwijde merken in eten en drinken\n📡 Telecom: KPN, de grootste beursgenoteerde verbindingsaanbieder van het land",
+      "etfBasket": "de 25 meest actief verhandelde bedrijven in Amsterdam",
+      "etfDesc": "De AEX is bijvoorbeeld een lijst van de 25 meest actief verhandelde aandelen op de beurs van Amsterdam. Hij rangschikt bedrijven op hoeveel ze verhandeld worden, niet op hoe groot ze zijn.",
+      "etfList": "🇳🇱 iShares AEX: De 25 meest actief verhandelde aandelen in Amsterdam.\n🌍 Vanguard FTSE All-World: Bedrijven uit tientallen landen in één aankoop.\n🇺🇸 iShares Core S&P 500: De 500 grote Amerikaanse bedrijven op de S&P 500-lijst.\n🇪🇺 Een EURO STOXX 50-ETF: 50 toonaangevende blue chips uit de hele eurozone.",
+      "currencyHedge": "Als de euro zwakker wordt ten opzichte van andere munten, worden je internationale beleggingen automatisch MEER waard in euro's!",
+      "fxQuizSetup": "De euro verzwakt flink ten opzichte van de dollar en de yen",
+      "fxQuizLose": "Hij verliest waarde omdat de Europese economie het moeilijk heeft",
+      "fxQuizGain": "Hij stijgt in euro's, omdat je buitenlandse beleggingen valutawaarde hebben gewonnen",
+      "dcaTitle": "Periodiek beleggen",
+      "dcaAbbrev": "DCA",
+      "food": "kroket"
+    },
+    "BR": {
+      "name": "Brazilië",
+      "cName": "real",
+      "cPlural": "reais",
+      "exDesc": "de grootste effectenbeurs van Latijns-Amerika",
+      "sectorList": "⛏️ Mijnbouw: Vale, CSN. De ijzererts- en staalreuzen van Brazilië\n⚡ Energie: Petrobras, Eletrobras. Grote olie- en energiebedrijven\n🏦 Banken: Itaú, Bradesco, Banco do Brasil. Doen het goed als de rente stijgt\n🍺 Consument: Ambev, JBS. Krachtpatsers in eten en drinken\n📡 Telecom: Vivo, TIM Brasil. De mobiele en breedbandaanbieders van Brazilië",
+      "etfBasket": "de meest verhandelde bedrijven op de B3-beurs",
+      "etfDesc": "De Ibovespa is bijvoorbeeld een lijst van de meest verhandelde bedrijven op de B3-beurs. Een bedrijf verdient zijn plek door hoeveel het gekocht en verkocht wordt, niet door hoe groot het is. Het aantal bedrijven op de lijst verandert dus in de loop van de tijd.",
+      "etfList": "🇧🇷 BOVA11: Volgt de Ibovespa, de meest verhandelde bedrijven van B3. De maatstaf.\n🇺🇸 IVVB11: Volgt de S&P 500. Dat zijn 500 grote Amerikaanse bedrijven, geprijsd in reais.\n🌍 Een wereldwijde aandelen-ETF: Ontwikkelde en opkomende markten in één aankoop.\n💡 HASH11: Een crypto-indexfonds met Bitcoin, Ethereum en meer.",
+      "currencyHedge": "Als de real zwakker wordt ten opzichte van de dollar, worden je internationale beleggingen automatisch MEER waard in R$!",
+      "fxQuizSetup": "De Braziliaanse real verzwakt van R$5 naar R$6 ten opzichte van de dollar",
+      "fxQuizLose": "Hij verliest waarde omdat de economie van Brazilië het moeilijk heeft",
+      "fxQuizGain": "Hij stijgt in reais, omdat je voor elke dollar meer reais krijgt",
+      "dcaTitle": "Periodiek beleggen in reais",
+      "dcaAbbrev": "RCA",
+      "food": "pão de queijo-menu"
+    },
+    "SA_ARABIA": {
+      "name": "Saudi-Arabië",
+      "cName": "riyal",
+      "cPlural": "riyal",
+      "exDesc": "de grootste effectenbeurs van het Midden-Oosten",
+      "sectorList": "🛢️ Energie: Saudi Aramco, SABIC. Aramco is het waardevolste oliebedrijf ter wereld\n🏦 Banken: Al Rajhi, SNB, Riyad Bank. Doen het goed als de rente stijgt\n📡 Telecom: STC, Mobily. De mobiele en breedbandaanbieders van Saudi-Arabië\n🛍️ Retail: Jarir, Extra. Populaire winkelketens voor consumenten\n⛏️ Grondstoffen: Ma'aden, Yansab. Mijnbouw en petrochemie",
+      "etfBasket": "elk bedrijf dat op de hoofdmarkt van Tadawul genoteerd staat",
+      "etfDesc": "De TASI (Tadawul All Share Index) is helemaal geen top 30- of top 100-lijst. Hij omvat elk bedrijf dat op de hoofdmarkt van Tadawul genoteerd staat, dus het aantal bedrijven erin verandert telkens als een bedrijf naar de beurs gaat of vertrekt.",
+      "etfList": "🇸🇦 Een ETF die de TASI volgt: Brede blootstelling aan de hele hoofdmarkt van Tadawul.\n📦 Een Saudische blue-chip-ETF: Een veel kleinere mand met de grootste Saudische namen.\n🌍 Een MSCI Saudi Arabia-ETF: Volgt de Saudische index van MSCI, een gescreende selectie van de markt.\n🇺🇸 Een S&P 500-fonds: De 500 grote Amerikaanse bedrijven op de S&P 500-lijst.",
+      "currencyHedge": "Omdat de riyal gekoppeld is aan de Amerikaanse dollar, heb je voordeel van wereldwijd beleggen in andere munten als die munten sterker worden!",
+      "fxQuizSetup": "Wereldwijde munten zoals de euro en de yen worden sterker ten opzichte van de riyal",
+      "fxQuizLose": "Hij verliest waarde omdat de economie van Saudi-Arabië het moeilijk heeft",
+      "fxQuizGain": "Hij stijgt in riyal, omdat je buitenlandse beleggingen valutawaarde hebben gewonnen",
+      "dcaTitle": "Periodiek beleggen in riyal",
+      "dcaAbbrev": "RCA",
+      "food": "maaltijd bij Al Baik"
+    },
+    "KR": {
+      "name": "Zuid-Korea",
+      "cName": "won",
+      "cPlural": "won",
+      "exDesc": "de thuisbasis van Samsung, Hyundai en een paar van de meest innovatieve bedrijven van Azië",
+      "sectorList": "💻 Technologie: Samsung, SK Hynix, Kakao. Wereldtop in tech en chips\n🚗 Auto-industrie: Hyundai, Kia. De wereldberoemde autobouwers van Korea\n🏦 Banken: KB Financial, Shinhan. Doen het goed als de rente stijgt\n🎶 Entertainment: HYBE, CJ ENM. De wereldwijde culturele golf van K-pop en K-drama\n📡 Telecom: KT, LG Uplus. De ultrasnelle verbindingen van Zuid-Korea",
+      "etfBasket": "200 van de grootste en meest verhandelde bedrijven van Korea",
+      "etfDesc": "De KOSPI 200 is bijvoorbeeld een lijst van 200 van de grootste en meest verhandelde bedrijven van Korea, sector voor sector gekozen zodat elk deel van de markt vertegenwoordigd is.",
+      "etfList": "🇰🇷 KODEX 200: Volgt de KOSPI 200, een lijst van 200 van de grootste, meest verhandelde bedrijven van Korea.\n🌍 Een wereldwijde aandelen-ETF: Bedrijven uit ontwikkelde markten in één aankoop.\n🇺🇸 TIGER Nasdaq 100: De 100 grootste niet-financiële bedrijven op de Nasdaq.\n💡 KODEX Samsung Group: Volgt de beursgenoteerde bedrijven van de Samsung-groep.",
+      "currencyHedge": "Als de won zwakker wordt ten opzichte van andere munten, worden je internationale beleggingen automatisch MEER waard in won!",
+      "fxQuizSetup": "De won verzwakt van ₩1,300 naar ₩1,400 ten opzichte van de dollar",
+      "fxQuizLose": "Hij verliest waarde omdat de economie van Zuid-Korea het moeilijk heeft",
+      "fxQuizGain": "Hij stijgt in won, omdat je voor elke dollar meer won krijgt",
+      "dcaTitle": "Periodiek beleggen in won",
+      "dcaAbbrev": "WCA",
+      "food": "kom bibimbap"
+    },
+    "TW": {
+      "name": "Taiwan",
+      "cName": "Taiwanese dollar",
+      "cPlural": "Taiwanese dollars",
+      "exDesc": "de thuisbasis van TSMC, het bedrijf dat de meeste van 's werelds meest geavanceerde chips maakt",
+      "sectorList": "💻 Technologie: TSMC, MediaTek, ASUS. Taiwan maakt de chips van de wereld\n🏭 Productie: Hon Hai (Foxconn), Delta. Reuzen in elektronicaproductie\n🏦 Banken: Cathay Financial, Fubon. Doen het goed als de rente stijgt\n🧪 Chemie: Formosa Plastics, Nan Ya. Koplopers in industriële materialen\n📡 Telecom: Chunghwa Telecom, Far EasTone. De ruggengraat van de Taiwanese verbindingen",
+      "etfBasket": "de 50 grootste bedrijven op de Taiwan Stock Exchange",
+      "etfDesc": "Taiwan heeft twee heel verschillende lijsten. De TAIEX omvat elk bedrijf dat op de Taiwan Stock Exchange genoteerd staat, zo'n duizend in totaal. De Taiwan 50, die de populaire 0050-ETF volgt, bevat alleen de 50 grootste.",
+      "etfList": "🇹🇼 0050 (Yuanta Taiwan Top 50): De 50 grootste bedrijven op de Taiwanese beurs. De klassieker.\n📦 0056 (Yuanta High Dividend): Taiwanese aandelen gekozen op hun verwachte dividendrendement.\n🇺🇸 00646 (Yuanta S&P 500): De 500 grote Amerikaanse bedrijven op de S&P 500-lijst.\n💡 00662 (Fubon Nasdaq 100): De 100 grootste niet-financiële bedrijven op de Nasdaq.",
+      "currencyHedge": "Als de Taiwanese dollar zwakker wordt ten opzichte van andere munten, worden je internationale beleggingen automatisch MEER waard in NT$!",
+      "fxQuizSetup": "De Taiwanese dollar verzwakt van NT$30 naar NT$34 ten opzichte van de Amerikaanse dollar",
+      "fxQuizLose": "Hij verliest waarde omdat de economie van Taiwan het moeilijk heeft",
+      "fxQuizGain": "Hij stijgt in NT$, omdat je buitenlandse beleggingen valutawaarde hebben gewonnen",
+      "dcaTitle": "Periodiek beleggen in dollars",
+      "dcaAbbrev": "DCA",
+      "food": "kom noedelsoep met rundvlees"
+    },
+    "SG": {
+      "name": "Singapore",
+      "cName": "Singaporese dollar",
+      "cPlural": "Singaporese dollars",
+      "exDesc": "het belangrijkste financiële centrum en de belangrijkste effectenbeurs van Zuidoost-Azië",
+      "sectorList": "🏦 Banken: DBS, OCBC, UOB. Het ijzersterke banktrio van Singapore\n✈️ Vervoer: Singapore Airlines, SATS. Luchtvaart van wereldklasse\n🏗️ Vastgoed: CapitaLand, City Developments. Vastgoed is enorm groot in Singapore\n💻 Technologie: Venture Corporation, AEM. Tech op de SGX is vooral elektronicaproductie; Sea en Grab kozen voor een notering in de VS\n📡 Telecom: Singtel, StarHub. De verbindingsaanbieders van Singapore",
+      "etfBasket": "de 30 grootste bedrijven op de Singapore Exchange",
+      "etfDesc": "De Straits Times Index is bijvoorbeeld een lijst van de 30 grootste bedrijven op de Singapore Exchange die ook slagen voor de tests op free float en handel.",
+      "etfList": "🇸🇬 Nikko AM STI ETF: De 30 grootste bedrijven op de Singapore Exchange. De maatstaf.\n📦 ABF Singapore Bond Index Fund: Singaporese staatsobligaties in één fonds.\n🌏 iShares MSCI Asia ex Japan: Brede toegang tot Aziatische markten.\n🇺🇸 Een S&P 500-ETF: De 500 grote Amerikaanse bedrijven op de S&P 500-lijst.",
+      "currencyHedge": "Als de Singaporese dollar zwakker wordt ten opzichte van andere munten, worden je internationale beleggingen automatisch MEER waard in S$!",
+      "fxQuizSetup": "De Singaporese dollar verzwakt flink ten opzichte van de Amerikaanse dollar",
+      "fxQuizLose": "Hij verliest waarde omdat de economie van Singapore het moeilijk heeft",
+      "fxQuizGain": "Hij stijgt in S$, omdat je buitenlandse beleggingen valutawaarde hebben gewonnen",
+      "dcaTitle": "Periodiek beleggen in dollars",
+      "dcaAbbrev": "DCA",
+      "food": "maaltijd in een hawker centre"
+    },
+    "CH": {
+      "name": "Zwitserland",
+      "cName": "frank",
+      "cPlural": "frank",
+      "exDesc": "de thuisbasis van Nestlé, Novartis en Roche, drie van de waardevolste bedrijven van Europa",
+      "sectorList": "💊 Farma: Novartis, Roche. Wereldwijde farmaceutische krachtpatsers\n🍫 Consument: Nestlé, Lindt. De meest iconische voedingsmerken ter wereld\n🏦 Banken: UBS, Julius Baer. Het Zwitserse bankwezen is legendarisch\n🏭 Industrie: ABB, Holcim. Wereldwijde techniek en bouw\n📡 Telecom: Swisscom, Sunrise. Zwitserse verbindingsaanbieders",
+      "etfBasket": "de 20 grootste en meest verhandelde Zwitserse bedrijven",
+      "etfDesc": "De Swiss Market Index is bijvoorbeeld een lijst van de 20 grootste en meest verhandelde Zwitserse bedrijven.",
+      "etfList": "🇨🇭 iShares Core SPI: De hele Zwitserse markt, niet alleen de grote namen.\n💡 Een SMI-ETF: De 20 grootste, meest verhandelde Zwitserse bedrijven.\n🌍 UBS ETF MSCI World: Bedrijven uit 23 ontwikkelde landen.\n🇺🇸 iShares Core S&P 500: De 500 grote Amerikaanse bedrijven op de S&P 500-lijst.",
+      "currencyHedge": "Als de frank zwakker wordt ten opzichte van andere munten, worden je internationale beleggingen MEER waard in CHF. De Zwitserse frank is meestal heel sterk!",
+      "fxQuizSetup": "De Zwitserse frank verzwakt flink ten opzichte van de dollar en de euro",
+      "fxQuizLose": "Hij verliest waarde omdat de economie van Zwitserland het moeilijk heeft",
+      "fxQuizGain": "Hij stijgt in franken, omdat je buitenlandse beleggingen valutawaarde hebben gewonnen",
+      "dcaTitle": "Periodiek beleggen in franken",
+      "dcaAbbrev": "FCA",
+      "food": "kebab"
+    },
+    "SE": {
+      "name": "Zweden",
+      "cName": "kroon",
+      "cPlural": "kronen",
+      "exDesc": "de thuisbasis van Ericsson, Volvo en een verrassend groot aantal wereldmerken",
+      "sectorList": "💻 Technologie: Ericsson, Hexagon. Zweden presteert in tech boven zijn gewicht\n🚗 Auto-industrie: Volvo, Volvo Cars. Zweeds topvakmanschap in techniek\n🏦 Banken: SEB, Handelsbanken, Nordea. Doen het goed als de rente stijgt\n👗 Retail: H&M, Essity. Wereldwijde mode- en consumentenmerken\n📡 Telecom: Telia, Tele2. Noordse koplopers in verbindingen",
+      "etfBasket": "de 30 meest verhandelde bedrijven in Stockholm",
+      "etfDesc": "De OMXS30 is bijvoorbeeld een lijst van de 30 meest verhandelde aandelen op de beurs van Stockholm. Hij rangschikt op handelsactiviteit, niet op de grootte van het bedrijf.",
+      "etfList": "🇸🇪 Xact OMXS30: De 30 meest verhandelde aandelen in Stockholm.\n💰 Avanza Zero: Een Zweeds indexfonds zonder jaarlijkse beheerkosten. Het volgt dezelfde 30 aandelen uit Stockholm.\n🌍 Een wereldwijd indexfonds: Bedrijven uit tientallen landen in één aankoop.\n🇺🇸 Een S&P 500-fonds: De 500 grote Amerikaanse bedrijven op de S&P 500-lijst.",
+      "currencyHedge": "Als de kroon zwakker wordt ten opzichte van andere munten, worden je internationale beleggingen automatisch MEER waard in kr!",
+      "fxQuizSetup": "De Zweedse kroon verzwakt flink ten opzichte van de dollar en de euro",
+      "fxQuizLose": "Hij verliest waarde omdat de economie van Zweden het moeilijk heeft",
+      "fxQuizGain": "Hij stijgt in kronen, omdat je buitenlandse beleggingen valutawaarde hebben gewonnen",
+      "dcaTitle": "Periodiek beleggen in kronen",
+      "dcaAbbrev": "KCA",
+      "food": "falafelwrap"
+    }
+  }
+}

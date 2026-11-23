@@ -1,0 +1,1846 @@
+{
+  "_meta": {
+    "lang": "da",
+    "source": "src/constants/lessonData.js",
+    "lessons": 84,
+    "hash": {
+      "1": "d38ab2ed",
+      "2": "bf930bc6",
+      "3": "6e4e4d63",
+      "4": "5b7802cc",
+      "5": "0f9cde1d",
+      "6": "e5999569",
+      "7": "66bc9202",
+      "8": "65677cac",
+      "9": "59a1fc31",
+      "10": "03ccde2e",
+      "11": "fbb06743",
+      "12": "7713dc86",
+      "13": "38054a44",
+      "14": "cbac8395",
+      "15": "4355d5d7",
+      "16": "bee25cb0",
+      "17": "a5cba909",
+      "18": "df93ed01",
+      "19": "ad2f3ae8",
+      "20": "6363dc90",
+      "21": "65a3ab78",
+      "22": "61f1ee9c",
+      "23": "a475dd40",
+      "24": "6874af82",
+      "25": "d92ac77b",
+      "26": "e8f1b315",
+      "27": "c3b42e04",
+      "28": "c3719a16",
+      "29": "b8690fa4",
+      "30": "272435ad",
+      "31": "ebbffa78",
+      "32": "31ae442d",
+      "33": "71dbb7c6",
+      "34": "62d271e6",
+      "35": "da185960",
+      "36": "66e0a88e",
+      "37": "4a91dc0c",
+      "38": "9ec4dee7",
+      "39": "ae809a71",
+      "40": "c3b12ff9",
+      "41": "aa4153d7",
+      "42": "29941a97",
+      "43": "d87240fc",
+      "44": "87c794ce",
+      "45": "a3dd8868",
+      "46": "7873826b",
+      "47": "47503da5",
+      "48": "6d2df7b4",
+      "49": "c1055330",
+      "50": "7d4a6a8a",
+      "51": "27e927d2",
+      "52": "041c444d",
+      "53": "8fb1d4bc",
+      "54": "33ec5d94",
+      "55": "b7571fb2",
+      "56": "f20ea6ce",
+      "57": "5a1f3993",
+      "58": "561a7caf",
+      "59": "67437975",
+      "60": "6db8d44d",
+      "61": "04bbebe6",
+      "62": "b43659be",
+      "63": "a6bfefd0",
+      "64": "a2cc88e0",
+      "65": "2f12b47a",
+      "66": "4a676ede",
+      "67": "17351f96",
+      "68": "e9dda763",
+      "69": "3b1a13c3",
+      "70": "b07744de",
+      "71": "798da84a",
+      "72": "960b5a23",
+      "73": "76df64cb",
+      "74": "90735bdf",
+      "75": "b5be8d19",
+      "76": "b2c7a6ad",
+      "77": "1f3344ae",
+      "78": "e03a370e",
+      "79": "3b881962",
+      "80": "64bddadd",
+      "81": "d30753ea",
+      "82": "71620bf3",
+      "83": "989bc8a6",
+      "84": "cdd0a41d"
+    }
+  },
+  "lessons": {
+    "1": {
+      "title": "Hvad er en aktie?",
+      "desc": "Ej et lillebitte stykke af et firma",
+      "content": "Forestil dig, at du og 9 venner hver lægger {c}10 for at købe et par sneakers til {c}100 sammen. I ejer hver 1/10 af de sneakers, og det er stort set det, en aktie er! Når du køber en aktie i {retail}, ejer du en lillebitte bid af hver butik, hvert produkt og hver {cName}, de tjener. Jo mere firmaet vokser, jo mere er din bid værd! 🔥",
+      "quiz": {
+        "q": "Du og 4 venner deler prisen på en gamerstol til {c}500 ligeligt. Hvad ejer I hver især?",
+        "explanation": "At eje en aktie betyder at eje en brøkdel af det hele. Fem, der betaler lige meget, giver fem lige store bidder, og hver bid giver de samme rettigheder som de andre.",
+        "options": [
+          "1/5 (20%) af stolen hver",
+          "Ingenting, kun én person kan eje den",
+          "Hele stolen sammen, uden nogen individuel andel"
+        ]
+      }
+    },
+    "2": {
+      "title": "{ex} forklaret",
+      "desc": "Børsen i {name}",
+      "content": "Tænk på {ex} ({exFull}) som en kæmpe online markedsplads, bare hvor folk i stedet for at købe sneakers eller telefoner køber og sælger små stykker (aktier) af firmaer som {top5}. Den har åbent alle hverdage undtagen helligdage, og priserne ændrer sig hele dagen alt efter, hvem der køber, og hvem der sælger. {ex} er {exDesc}! 🌍",
+      "quiz": {
+        "q": "Hvad minder {ex} mest om?",
+        "explanation": "En børs matcher folk, der vil købe aktier, med folk, der vil sælge dem. Den ejer ikke aktierne, den bestemmer ikke prisen, og den giver dig ikke renter for at lade penge stå der.",
+        "options": [
+          "En markedsplads, hvor ejere af aktier møder købere",
+          "En opsparingskonto, hvor pengene står og giver renter",
+          "En butik, der ejer aktierne og sælger dem til dig"
+        ]
+      }
+    },
+    "3": {
+      "title": "Tyre mod bjørne",
+      "desc": "Markedets retninger afkodet",
+      "content": "På markederne er det dyrene, der bestemmer 😄\n\n🐂 Tyr = priserne stiger. Forestil dig en tyr, der stanger opad med hornene. Alle vinder, folk køber, god stemning.\n\n🐻 Bjørn = priserne falder. Forestil dig en bjørn, der slår nedad med poten. Folk er bange, sælger, ikke et fedt tidspunkt.\n\nNår nogen siger 'Jeg er bullish på {tech}', tror de, at prisen vil stige. Når de siger 'bearish', tror de, den er på vej ned. Du kommer til at høre de ord overalt i finansverdenen!",
+      "quiz": {
+        "q": "Din ven siger 'Jeg er bearish på {telco} i denne uge.' Hvad betyder det?",
+        "explanation": "Bearish betyder, at man forventer, at prisen falder, bullish betyder, at man forventer, at den stiger. En bjørn slår nedad, en tyr kaster opad.",
+        "options": [
+          "De tror, at {telco}s pris vil stige",
+          "De tror, at {telco}s pris vil falde",
+          "De vil købe så meget {telco} som muligt"
+        ]
+      }
+    },
+    "4": {
+      "title": "Hvad er en mægler?",
+      "desc": "Din indgang til at købe aktier",
+      "content": "Du kan ikke bare gå hen til {retail} og sige 'giv mig lidt af jeres firma, tak' 😂 Du skal bruge en mægler (broker): en app eller tjeneste, der forbinder købere og sælgere på børsen.\n\nTænk på en mægler som {shop}. Du vil have noget, og {shop} forbinder dig med det. De klarer handlen og tager et lille gebyr. Populære mæglere i {name} er blandt andre {broker}.\n\nDet her gør en mægler IKKE: bestemmer, hvilke aktier der stiger. De sender din ordre videre til markedet. Prisen bevæger sig på grund af, hvad alle derude køber og sælger, ikke fordi din mægler sagde det.\n\nMæglere udgiver dog meninger. Deres analytikere vurderer aktier som 'køb', 'hold' eller 'sælg'. En mening er ikke en ordre 🤷 Analytikere er åbent uenige med hinanden om præcis den samme aktie, og rigtig mange af dem tager fejl. Læs en vurdering som en anmeldelse, ikke som en regel.\n\nNoobTrader lærer dig præcis, hvordan det fungerer, gratis og med virtuelle penge!",
+      "quiz": {
+        "q": "Hvorfor har du brug for en mægler for at købe aktier?",
+        "explanation": "En mægler er din vej ind på børsen, ikke en spåkone og ikke en, der sætter prisen. De sender ordren videre, og prisen er det, resten af markedet er villig til at handle til. Deres analytikere udgiver vurderinger, men en vurdering er en mening, ikke en instruks.",
+        "options": [
+          "De vælger de aktier, der kommer til at stige",
+          "De bestemmer prisen, du betaler for hver aktie",
+          "De sender din ordre videre til børsen"
+        ]
+      }
+    },
+    "5": {
+      "title": "Aktiekurser – det basale",
+      "desc": "Hvorfor stiger og falder priserne?",
+      "content": "Har du lagt mærke til, hvordan limited edition-sneakers stiger voldsomt i pris, når de udkommer? Det samme sker med aktier. Det handler om udbud og efterspørgsel.\n\n📈 Mange VIL købe → prisen STIGER\n📉 Mange VIL sælge → prisen FALDER\n\nHvis {telco} annoncerer, at de får 10 millioner nye kunder, vil alle have en bid, så prisen skyder i vejret. Hvis de melder om et stort underskud, går folk i panik og sælger, og prisen falder. Nyheder, regnskaber og endda trends på sociale medier kan flytte aktiekurser på et øjeblik!",
+      "quiz": {
+        "q": "{retail} melder om rekordoverskud og planlægger at åbne 50 nye butikker. Hvad sker der sandsynligvis med aktiekursen?",
+        "explanation": "Bedre forventet overskud betyder som regel flere købere, og flere købere presser prisen op. At bruge penge på at vokse er ikke det samme som at spilde dem.",
+        "options": [
+          "Den stiger, fordi flere vil købe",
+          "Den forbliver præcis den samme",
+          "Den styrtdykker, fordi de bruger penge på butikker"
+        ]
+      }
+    },
+    "6": {
+      "title": "Sådan læser du en kursgraf",
+      "desc": "Lys, linjer og hvad de betyder",
+      "content": "En kursgraf er som et highlight-klip af en akties historie. Den mest populære type er en candlestick-graf (lysestagegraf). Hvert 'lys' viser dig 4 ting for én dag:\n\n🟢 Grønt lys = prisen STEG den dag (åbnede lavere, lukkede højere)\n🔴 Rødt lys = prisen FALDT (åbnede højere, lukkede lavere)\n📏 De tynde streger over/under = dagens højeste og laveste pris\n\nSer du mange grønne lys i træk, er det en stærk optrend. Mange røde betyder en nedtrend. At lære at læse grafer er som at lære at læse en resultattavle i et spil! 🎮",
+      "quiz": {
+        "q": "Du ser 5 røde lys i træk på en graf. Hvad fortæller det dig?",
+        "explanation": "Et rødt lys lukker under det niveau, hvor det åbnede, så fem i træk er fem handelsdage med fald. Farven fortæller dig retningen, ikke hvor stor bevægelsen er.",
+        "options": [
+          "Aktien er steget i 5 dage",
+          "Aktien er faldet i 5 dage",
+          "Aktiekursen ændrede sig ikke"
+        ]
+      }
+    },
+    "7": {
+      "title": "Volumen og hvad den fortæller",
+      "desc": "Hvor mange aktier der handles",
+      "content": "Volumen = hvor mange aktier der blev købt og solgt på en dag. Tænk på det som visninger på en TikTok-video.\n\n🔊 HØJ volumen = mange handler. Hvis prisen bevæger sig med høj volumen, er det et stærkere og mere pålideligt signal, som en video, der går viralt for alvor og ikke på grund af bots.\n\n🔇 LAV volumen = kun få handler. Priserne kan bevæge sig mærkeligt ved lav volumen, som en video med kun 3 visninger, der bliver delt ved en fejl.\n\nTjek altid volumen, når du ser en stor kursbevægelse. Den fortæller dig, om bevægelsen er ægte eller bare støj!",
+      "quiz": {
+        "q": "{telco}s aktie hopper 5% i dag, men volumen er meget lav. Hvad skal du tænke?",
+        "explanation": "Volumen viser, hvor meget overbevisning der ligger bag en bevægelse. Et stort hop på meget lidt handel kan forsvinde lige så let, som det kom, så tjek volumen, før du tror på et udbrud.",
+        "options": [
+          "Det er helt sikkert en kæmpe mulighed, køb nu!",
+          "Lav volumen betyder altid, at prisen fortsætter op",
+          "Bevægelsen er måske ikke pålidelig, lav volumen gør den mistænkelig"
+        ]
+      }
+    },
+    "8": {
+      "title": "Support og modstand",
+      "desc": "Prisniveauer, der betyder noget",
+      "content": "Forestil dig, at prisen på en aktie er en hoppebold:\n\n🧱 SUPPORT = gulvet, bolden hopper op fra. Prisen bliver ved med at falde, men hver gang den rammer dette niveau, hopper den op igen. Mange købere dukker op her.\n\n🪟 MODSTAND = loftet, bolden rammer. Hver gang prisen stiger op til dette niveau, bliver den skubbet ned igen. Mange sælgere tager deres gevinst her.\n\nTradere bruger disse niveauer som et kort i et spil: køb tæt på gulvet, sælg tæt på loftet. Når prisen endelig bryder gennem modstanden, skyder den ofte hurtigt op. Når den bryder supporten, så gør dig klar til et fald! 💥\n\nEn ærlig advarsel: disse niveauer er tegnet af folk, der kigger på grafer, ikke regler, som markedet skal adlyde. En aktie kan brase lige igennem 'support' og fortsætte. 📉",
+      "quiz": {
+        "q": "En aktie er hoppet op fra {c}50 tre gange uden at komme under. Hvad kaldes {c}50?",
+        "explanation": "Et gulv, der bliver ved med at holde, er support; et loft, der bliver ved med at afvise prisen, er modstand. Ingen af dem er et løfte, men begge er værd at kende, før du køber.",
+        "options": [
+          "Et supportniveau",
+          "Et modstandsniveau",
+          "Loftprisen"
+        ]
+      }
+    },
+    "9": {
+      "title": "Spredning",
+      "desc": "Læg ikke alle æg i én kurv",
+      "content": "Forestil dig, at du bruger HELE din data på én streamingapp. Så går den app ned. Du sidder tilbage med ingenting. 😩\n\nMen hvis du fordeler din data på WhatsApp, YouTube OG din streamingapp, ødelægger det ikke hele din stemning, at én af dem går ned.\n\nDet samme gælder investering! Hvis du lægger ALLE dine penge i én aktie, og den styrtdykker, mister du det hele. Men hvis du fordeler dem på {telco} (telekom), {retail} (detailhandel), {tech} (tech) og en ETF, så slår et styrtdyk i én ikke hele din portefølje ihjel. Denne strategi med at sprede pengene kaldes SPREDNING (diversificering). 💼",
+      "quiz": {
+        "q": "Du har {c}500 at investere. Hvilken af disse spreder faktisk din risiko?",
+        "explanation": "Fem tøjbutikker stiger og falder alle på det samme, så penge fordelt på dem er næsten slet ikke spredt. Forskellige brancher får problemer på forskellige tidspunkter, og det er det, der forhindrer ét dårligt resultat i at tage det hele med sig.",
+        "options": [
+          "{c}100 i hver af fem forskellige tøjbutikker",
+          "{c}100 i hver af fem forskellige brancher",
+          "Alle {c}500 i det ene firma, du bedst kan lide"
+        ]
+      }
+    },
+    "10": {
+      "title": "Risiko og afkast",
+      "desc": "Hvorfor større gevinst = større risiko",
+      "content": "Har du nogensinde købt en mystery box? Du kan få noget fantastisk eller det rene skrald. Det er høj risiko / højt afkast.\n\nInvestering fungerer på samme måde:\n\n✅ LAVERE RISIKO, LAVERE AFKAST: Som {retail}. Kæmpe firma, veletableret. Dine penge vokser typisk langsomt og stabilt. Bemærk 'lavere', ikke 'ingen'. Store firmaer falder også.\n\n🎲 HØJ RISIKO, HØJT AFKAST: Som et lillebitte nystartet mineselskab. Det kan blive 10x værd eller forsvinde. Ligesom mystery boxen.\n\nFør du investerer i noget som helst, så spørg altid: 'Hvad er det værste, der kan ske?' Hvis du ikke har råd til at miste pengene, så tag ikke risikoen!",
+      "quiz": {
+        "q": "En coin, som ingen har hørt om, lover 500% afkast. Hvad fortæller et så stort løfte dig egentlig?",
+        "explanation": "Risiko og afkast er to ender af den samme pind. Ingen deler 500% ud for ingenting, så løftets størrelse er i virkeligheden et mål for, hvor let hele beløbet kan forsvinde. Før du sætter penge i noget, så spørg, hvordan det værste tilfælde ser ud, og om du kan leve med det.",
+        "options": [
+          "Det er et kup, som resten af markedet på en eller anden måde har overset",
+          "Jo større løftet er, jo mere seriøse er folkene bag det",
+          "Risikoen for at miste det hele er lige så stor som løftet"
+        ]
+      }
+    },
+    "11": {
+      "title": "Lang sigt vs. kort sigt",
+      "desc": "Investor- vs. trader-tankegang",
+      "content": "🏃 KORTSIGTET TRADING: At købe og sælge inden for dage eller uger for at fange hurtige kursbevægelser. Meget stress og masser af skærmtid. Som at prøve at forudsige, hvem der vinder hver kamp i en turnering.\n\n🧘 LANGSIGTET INVESTERING: At købe aktier og beholde dem i årevis. Du rider dykkene af og lader dine penge vokse. Som at satse på, hvilket hold der vinder hele sæsonen. Du går ikke i panik efter én dårlig kamp.\n\nUndersøgelser af rigtige investeringskonti finder igen og igen det samme mønster: jo oftere folk handler, jo dårligere klarer de sig typisk, når omkostningerne er regnet med.\n\nOg tid er den ene fordel, som ikke kan købes tilbage senere. Hvert år, pengene forbliver investeret, er endnu et år, hvor renters rente arbejder. ⏳",
+      "quiz": {
+        "q": "To personer køber de samme aktier for de samme penge. Den ene handler ind og ud hver uge, den anden lader dem være i ti år. Hvad finder undersøgelser af rigtige konti igen og igen?",
+        "explanation": "Hver handel koster noget, og den omkostning bliver trukket, uanset om handlen virkede eller ej. Undersøgelse efter undersøgelse af rigtige investeringskonti finder det samme mønster: jo oftere folk handler, jo længere bagud ender de. At lade pengene være er ikke dovenskab, det er den billigere plan.",
+        "options": [
+          "Den travle ender som regel bagud, når omkostningerne er regnet med",
+          "Den travle vinder som regel, fordi indsats bliver belønnet her",
+          "De ender lige, fordi de havde præcis de samme aktier"
+        ]
+      }
+    },
+    "12": {
+      "title": "{dcaTitle}",
+      "desc": "Investér det samme beløb regelmæssigt",
+      "content": "Her er en strategi, der er så enkel, at den knap føles som en, og den sletter det sværeste spørgsmål inden for investering:\n\nInvestér det SAMME beløb hver måned, uanset om priserne er oppe eller nede. Som at sætte {c}100 til side fra dine fødselsdagspenge eller lommepenge hver eneste måned.\n\n📉 Når priserne er LAVE → køber dine {c}100 FLERE aktier\n📈 Når priserne er HØJE → køber dine {c}100 FÆRRE aktier\n\nMed tiden udjævnes din gennemsnitspris pr. aktie, og du 'køber dykket' automatisk uden overhovedet at prøve! Det kaldes {dcaTitle} ({dcaAbbrev}). Det fjerner følelserne fra investering, fordi du aldrig skal beslutte 'er det NU, det rigtige tidspunkt er?' Du forpligter dig bare og kører! 💪\n\nLige ud af posen: det slår ikke altid at sætte et engangsbeløb ind på én gang. Det, det gør, er at give dig en plan, du faktisk kan holde fast i.",
+      "quiz": {
+        "q": "Du sætter 200 NT ind, når aktien koster 100 NT. Så styrtdykker aktien, og dine næste 200 NT går ind til 25 NT. Træk til din gennemsnitspris pr. aktie for de to indbetalinger.",
+        "explanation": "Dine første 200 NT købte 2 aktier til 100 NT. Dine næste 200 NT købte 8 aktier til 25 NT. Det er 400 NT for 10 aktier, altså 40 NT stykket. Bemærk, at det slet ikke ligger midt imellem de to priser: de samme penge køber automatisk mere, når tingene er billige, og det er det, der trækker dit gennemsnit ned."
+      }
+    },
+    "13": {
+      "title": "Pengebabyer 💸",
+      "desc": "Få penge bare for at eje aktier",
+      "content": "Forestil dig, at du ejer en automat. Hver uge køber folk snacks fra DIN automat, og du samler pengene ind, bare fordi du ejer den. Du behøvede ikke gøre noget ekstra!\n\nDet er, hvad udbytte er. Vi kalder det Pengebabyer 🍼, fordi dine penge bogstaveligt talt får babyer: små kontantbetalinger, der lander på din konto, bare fordi du ejer aktier.\n\nStore firmaer som {divPayers} betaler Pengebabyer regelmæssigt. Jo flere aktier du har, jo større bliver dine babyer!\n\n⚠️ De er IKKE garanteret. Et firma beslutter hver gang, om det vil betale, og det kan skære udbyttet ned eller stoppe det helt, når forretningen går trægt. En stor udbetaling i år er ikke et løfte om en næste år.\n\nOg hvis du geninvesterer de babyer i FLERE aktier... bliver din næste omgang endnu større. Det er en smuk cyklus 🔁",
+      "quiz": {
+        "q": "{bank} betaler dig {c}5 for hver aktie, du ejer, uden at du sælger noget. Hvad kaldes den betaling?",
+        "explanation": "Et udbytte er en del af firmaets overskud, som bliver delt ud til dem, der ejer det. Denne app kalder dem Pengebabyer. Du beholder alle de aktier, du havde, og pengene lander alligevel på din konto. Det er dog ikke lovet, og et firma kan skære det ned eller stoppe det, når forretningen går trægt.",
+        "options": [
+          "Et udbytte, en bid af overskuddet",
+          "Renter, den slags en opsparingskonto giver",
+          "En loyalitetsbonus for at være kunde"
+        ]
+      }
+    },
+    "14": {
+      "title": "Renters rente",
+      "desc": "Sådan vokser dine penge af sig selv",
+      "content": "Her er den mest kraftfulde pengehemmelighed, du nogensinde vil lære. Klar? 👀\n\nDu investerer {c}1,000 til 10% om året:\n• År 1: {c}1,000 → {c}1,100 (tjent {c}100)\n• År 2: {c}1,100 → {c}1,210 (tjent {c}110, mere end år 1!)\n• År 3: {c}1,210 → {c}1,331 (tjent {c}121)\n\nNu tjener du renter af dine RENTER. Snebolden bliver større hvert år, uden at du lægger noget ekstra til. Efter 30 år til 10%? Så er de {c}1,000 blevet til {c}17,449! 🤯\n\nDu vil se det kaldt 'verdens ottende vidunder' og tilskrevet Einstein. Der er intet reelt bevis for, at han nogensinde sagde det, men det er matematikken, der betyder noget, og matematikken er ægte. Start tidligt, så klarer tiden det tunge arbejde for dig.",
+      "quiz": {
+        "q": "Du sætter 2,000 NT ind til 10% om året og rører dem aldrig. Træk til, hvad de er værd efter tre år.",
+        "explanation": "År et lægger 200 NT til, hvilket giver 2,200. År to tager 10% af 2,200, så det lægger 220 til og giver 2,420. År tre lægger 242 til og lander på 2,662. Hvert år bliver de 10% regnet af en større bunke, og derfor kommer man til kort, hvis man lægger 200 til tre gange og stopper ved 2,600."
+      }
+    },
+    "15": {
+      "title": "Renters rente og aktier",
+      "desc": "Geninvestér Pengebabyer for vækst",
+      "content": "Kan du huske Pengebabyer (udbytte)? Det er her, det bliver spændende 🤯\n\nNormalt: Du tjener {c}50 i Pengebabyer → bruger dem på snacks → færdig.\n\nSmart træk: Du tjener {c}50 i Pengebabyer → køber FLERE aktier → næste gang får du FLERE Pengebabyer → køber endnu flere aktier → snebolden går 🔝\n\nDet er renters rente brugt på aktier. Regn på det: sæt det samme beløb ind hver måned i 30 år med et gennemsnitligt afkast på 10%, og du ender med cirka SEKS GANGE så meget, som du faktisk har betalt ind. Omkring fem sjettedele af den bunke er vækst: penge, du aldrig har tjent, sparet op eller sat ind.\n\nOver lange perioder har geninvesteret udbytte udgjort en stor del af investorernes samlede afkast. Og det er præcis derfor, 'kedelige' udbyttebetalere slet ikke er så kedelige 💰",
+      "quiz": {
+        "q": "Du tjener {c}80 i udbytte og bruger hver eneste krone af det på at købe flere aktier i stedet for at bruge det. Hvad sker der ved næste udbetaling?",
+        "explanation": "Hver ekstra aktie, du købte, betaler sit eget udbytte næste gang, så udbetalingen vokser, uden at du lægger nye penge til. Det er renters rente igen, denne gang drevet af indtægten i stedet for af prisen.",
+        "options": [
+          "Udbetalingen er lige så stor, den kommer bare senere",
+          "Du får mindre næste gang, fordi du gav pengene tilbage",
+          "Du ejer flere aktier, så næste udbetaling bliver større"
+        ]
+      }
+    },
+    "16": {
+      "title": "72-reglen",
+      "desc": "Hurtig måde at anslå fordoblingstid",
+      "content": "Her er en snydekode til din hjerne 🧠\n\nVil du vide, hvor lang tid det tager at FORDOBLE dine penge? Del bare 72 med dit årlige afkast:\n\n• 72 ÷ 12% afkast = 6 år til fordobling\n• 72 ÷ 8% afkast = 9 år til fordobling\n• 72 ÷ 6% afkast = 12 år til fordobling\n\nSå hvis du tjener stabile 12% om året på {c}2,000, har du {c}4,000 om 6 år. Vent 6 år mere, og du har {c}8,000. 6 år mere, og du har {c}16,000! 🤯\n\nDet er en tilnærmelse, ikke en lov, og rigtige afkast er aldrig det samme stabile tal hvert år. Men det er tæt nok på til at regne i hovedet, og det er hele pointen.\n\nDerfor er det KÆMPE at starte som 13- eller 14-årig. Du har flere fordoblingscyklusser foran dig end næsten alle andre!",
+      "quiz": {
+        "q": "En investering giver 9% om året. Brug 72-reglen og træk til, hvor mange år det tager at fordoble den.",
+        "explanation": "Del 72 med den årlige procent. 72 delt med 9 er 8, så pengene fordobles cirka på otte år og fordobles så igen otte år efter. Det er et hurtigt overslag, du kan lave i hovedet, ikke en præcis lov, for rigtige afkast er aldrig det samme tal hvert år."
+      }
+    },
+    "17": {
+      "title": "Markedsordrer vs. limit",
+      "desc": "To måder at købe aktier på",
+      "content": "Der er to hovedmåder at købe en aktie på:\n\n⚡ MARKEDSORDRE: 'Køb lige nu til den pris, der er.' Som at lægge noget i kurven og gå direkte til kassen på {shop}. Du får den med det samme, men prisen, du faktisk betaler, er det, markedet giver dig, og den kan være en anden end det tal, du lige så på skærmen.\n\n🎯 LIMITORDRE: 'Køb kun, hvis prisen falder til {c}X.' Som at sætte en vare på din ønskeliste på {shop} og vente på udsalg. Du styrer prisen, men handlen sker måske slet ikke.\n\nLimitordrer giver dig kontrol over prisen. Markedsordrer giver dig sikkerhed for, at den bliver gennemført. Du kan ikke få begge dele! 💸\n\nEn limitordre fungerer på samme måde, når du SÆLGER, bare den anden vej. Du ejer aktien, du vælger den pris, du gerne vil sælge til, og hvis den stiger så langt, sælger appen for dig. Når du køber, vælger du en pris UNDER den nuværende. Når du sælger, vælger du en pris OVER. Samme idé, modsat side. 🔁",
+      "quiz": {
+        "q": "{tech} handles til {c}200. Du vil gerne eje den, men kun til {c}180 eller mindre. Hvad bruger du?",
+        "explanation": "En markedsordre bliver gennemført med det samme til den pris, der tilfældigvis er. En limitordre angiver din pris og venter, så appen holder øje i stedet for dig. Når den pris, du vil acceptere, betyder mere end at komme hurtigt ind, er det den, du skal bruge.",
+        "options": [
+          "Et markedskøb, der gennemføres til {c}200 lige nu",
+          "Et limitkøb sat til {c}180, som venter",
+          "Hold øje med skærmen og køb manuelt til {c}180"
+        ]
+      }
+    },
+    "18": {
+      "title": "Handelsgebyrer og omkostninger",
+      "desc": "Forstå handelsgebyrer",
+      "content": "De fleste handler koster dig en lille smule: mægleren tager en lille bid. Det kaldes handelsgebyrer eller kurtage.\n\n⚠️ Nogle mæglere reklamerer med 'nul kurtage'. De skal stadig tjene penge på en eller anden måde, så de tjener dem andre steder, som regel på den lille forskel mellem købs- og salgsprisen, på valutaveksling eller på renter af de kontanter, der står på din konto. Gratis er sjældent gratis.\n\nI NoobTrader er de simulerede gebyrer:\n• {ex}-aktier: {exFee} pr. handel\n• Globale aktier: 0.50%\n• ETF'er: 0.30%\n• Krypto: 0.60%\n• Valuta (forex): 0.05%\n• Råvarer: 0.40%\n\nEksempel: Du køber {retail}-aktier for {c}1,000 med {exFee}. Gebyret er {c}{feeAmt}, så du bruger faktisk {c}{feeTotal}.\n\nSmå gebyrer løber HURTIGT op, hvis du handler tit. En, der laver 20 handler om måneden, betaler det gebyr 20 gange og betaler det igen på vej ud. Det er en af grundene til, at langsigtede investorer handler mindre: færre handler, færre gebyrer 🧮",
+      "quiz": {
+        "q": "Du køber {ex}-aktier for {c}1,000 med et gebyr på {exFee}. Hvor stort er gebyret?",
+        "explanation": "Gebyret er en procentdel af det handlede beløb, så det vokser med ordrens størrelse. Regn det ud, før du handler, for det bliver opkrævet igen, når du sælger.",
+        "options": [
+          "{c}{feeAmtX10}",
+          "{c}{feeAmtLow}",
+          "{c}{feeAmt}"
+        ]
+      }
+    },
+    "19": {
+      "title": "Stop-loss-ordrer",
+      "desc": "Beskyt dig mod store tab",
+      "content": "En stop-loss er som at sætte en grænse for, hvor meget du er villig til at tabe: et sikkerhedsnet, du sætter op på forhånd.\n\nEksempel: Du køber {telco}-aktier til {c}100 stykket. Du beslutter, at du ALDRIG vil tabe mere end 15%. Så du sætter en stop-loss på {c}85.\n\nHvis {telco} falder til {c}85 → udløses en salgsordre automatisk. Du behøver ikke holde øje, og du behøver ikke tage beslutningen, mens du er i panik.\n\nHer er den del, folk misforstår. Et stop-loss-tal ligger ALTID under dagens pris. Det skal det, for prisen skal falde for at nå det. Sætter du det over dagens pris, er det allerede opfyldt, så den sælger i det sekund, du sætter den, til dagens pris. Det er et salg, ikke et sikkerhedsnet.\n\nBland det ikke sammen med et limitsalg. Begge sælger automatisk til en pris, du har valgt. Forskellen er retningen: en stop-loss udløses, når prisen FALDER til dit tal, et limitsalg udløses, når den STIGER til dit tal. Beskytter du dig selv → dit tal ligger under. Vælger du din pris → dit tal ligger over. Spørg dig selv, hvilken af dem du laver, før du taster. 🧭\n\n⚠️ Vigtigt: en stop-loss udløser et SALG, den garanterer ikke en PRIS. Hvis dårlige nyheder rammer i løbet af natten, og aktien åbner på {c}70 uden nogensinde at blive handlet til {c}85, bliver din ordre gennemført til det, markedet faktisk vil betale. Det kan være et godt stykke under det niveau, du satte.\n\nUden nogen stop-loss overhovedet holder du måske fast i håb om, at den kommer igen... og ser den falde til {c}20. 😬\n\nProtip: Beslut altid dit maksimale tab, FØR du køber. Lad ikke følelserne tage den beslutning, når prisen allerede styrtdykker! 🧘",
+      "quiz": {
+        "q": "Du køber til 200 NT og beslutter, at du ikke vil tabe mere end 15% på den. Træk til den pris, din stop-loss hører hjemme på.",
+        "explanation": "15% af 200 NT er 30 NT, så din udgang ligger 30 under din købspris, på 170 NT. En stop-loss ligger under dagens pris, fordi prisen skal falde for at nå den. Sætter du den over, er den allerede opfyldt, så den sælger i det øjeblik, du sætter den, og så er det et salg i stedet for et sikkerhedsnet."
+      }
+    },
+    "20": {
+      "title": "Hvornår du skal købe og sælge",
+      "desc": "Timing, tålmodighed og disciplin",
+      "content": "Den største fejl, nye investorer begår? At købe, når alle er hypede, og sælge, når alle er i panik. Det er bogstaveligt talt det modsatte af det, der virker. 🤦\n\n📱 Når din gruppechat spammer 'KØB DENNE AKTIE NU!!!!' → er hypen som regel allerede med i prisen. Du er for sent ude.\n\n😱 Når alle sælger i panik → er det nogle gange faktisk en chance for at købe billigt. Nogle gange bliver prisen ved med at falde i et år mere. Ingen ringer med en klokke, når bunden er nået.\n\nHemmeligheden? Hav en plan, FØR du investerer:\n• Hvorfor køber jeg det her? (research, ikke hype)\n• Hvilken pris sælger jeg til, hvis den STIGER? (tag gevinst)\n• Hvilken pris sælger jeg til, hvis den FALDER? (stop-loss)\n\nHold dig til din plan. Lad ikke dine følelser overtage din strategi! 💪",
+      "quiz": {
+        "q": "Hele din gruppechat hyper en aktie, der allerede er steget 80% denne måned. Hvad er det smarte træk?",
+        "explanation": "Når en aktie er i alle gruppechats, er det meste af bevægelsen allerede sket, og dem, der kommer sent, køber af dem, der tager deres gevinst. Kig selv på firmaet. At en flok er højlydt, er ikke det samme som, at den har ret.",
+        "options": [
+          "Køb nu, før prisen løber fra dig",
+          "Sælg dine andre aktier og læg det hele her",
+          "Tjek selv firmaet, før du beslutter dig"
+        ]
+      }
+    },
+    "21": {
+      "title": "Hvad er markedsværdi?",
+      "desc": "Sådan måler du et firmas størrelse",
+      "content": "Markedsværdi (market cap) fortæller dig, hvor stort et firma faktisk er, i {cPlural}.\n\n📐 Formel: Aktiekurs × Samlet antal aktier = Markedsværdi\n\nEksempel: Hvis {retail} har 1 milliard aktier, og hver aktie koster {c}50, er markedsværdien {c}50 MILLIARDER. Det er 'prismærket' på hele firmaet.\n\n🔵 Large cap: de største og mest etablerede navne, som {tech} og {bank}. Lavere risiko, som regel langsommere vækst.\n🟡 Mid cap: mellemstore firmaer. Balanceret risiko.\n🔴 Small cap: små firmaer. Kan vokse hurtigt ELLER styrte hårdt.\n\n⚠️ Grænserne er ikke universelle. I USA betyder 'large cap' som regel et sted over $10 milliarder, men hvert marked sætter sine egne grænser, så en large cap i {name} er ikke lige så stor som en large cap i USA. Læs det faktiske tal, ikke bare etiketten 🧐",
+      "quiz": {
+        "q": "Firma A har 5 millioner aktier til {c}200 stykket. Firma B's aktier koster {c}10. Træk til, hvor mange millioner aktier B skal have for at være lige så meget værd som A.",
+        "explanation": "Markedsværdi er aktiekursen gange antallet af aktier. Firma A er værd 5 millioner gange {c}200, hvilket er {c}1,000 millioner. Firma B skal nå den samme sum til {c}10 pr. aktie, så det skal have 100 millioner aktier, tyve gange så mange. En lav aktiekurs siger intet om, hvor stort et firma er."
+      }
+    },
+    "22": {
+      "title": "P/E-tallet forklaret",
+      "desc": "Er en aktie dyr eller billig?",
+      "content": "P/E-tallet (kurs i forhold til indtjening, Price-to-Earnings) fortæller dig, hvor meget du betaler for hver {cName} af et firmas overskud.\n\n📐 Formel: Aktiekurs ÷ Indtjening pr. aktie = P/E-tal\n\nTænk på det som prisen pr. pizzastykke 🍕\n\nHvis pizza A koster {c}80 for 8 stykker = {c}10/stykke\nHvis pizza B koster {c}100 for 5 stykker = {c}20/stykke\n\nPizza A er billigere pr. stykke. Samme idé med aktier:\n• Lavt P/E (under 10) = måske et kup, ELLER markedet forventer, at overskuddet FALDER. Et lavt P/E er et spørgsmål, ikke et svar.\n• Højt P/E (over 25) = markedet forventer stor fremtidig vækst. Firmaet skal så faktisk levere den.\n\nSammenlign altid P/E med ANDRE firmaer i samme branche. Sammenlign ikke en banks P/E med et techfirmas!",
+      "quiz": {
+        "q": "Firma A har et P/E på 8. Firma B (samme branche) har et P/E på 30. Hvad tyder det på?",
+        "explanation": "Et lavere P/E betyder, at man betaler mindre for hver enhed overskud, hvilket kan betyde et kup eller et firma i problemer. Tallet rejser spørgsmålet; det besvarer det ikke.",
+        "options": [
+          "Firma A er billigere pr. enhed overskud, men find ud af HVORFOR, før du køber",
+          "Firma B er altid den bedste investering af de to",
+          "P/E-tallet hjælper slet ikke med investeringsbeslutninger"
+        ]
+      }
+    },
+    "23": {
+      "title": "Sådan læser du et regnskab",
+      "desc": "Omsætning, overskud og hvad der betyder noget",
+      "content": "Med få måneders mellemrum udgiver firmaer deres 'karakterbog' (hvert kvartal på nogle markeder, to gange om året på andre), og den flytter aktiekurserne VOLDSOMT. Her er, hvad du skal kigge efter:\n\n📊 OMSÆTNING: De samlede penge, der kommer ind fra salg. Som hvor meget en lille butik tog ind i alt.\n💰 NETTOOVERSKUD: Det, der er tilbage EFTER alle udgifter er betalt. Det, der reelt er tjent ved dagens slutning.\n📈 EPS (indtjening pr. aktie): Overskuddet delt med antallet af aktier. Hvor meget hver aktie tjente.\n\nGode tegn: Omsætning OP + overskud OP + voksende EPS = 🟢 kursen stiger ofte\nDårlige tegn: Omsætning NED + faldende overskud = 🔴 kursen falder ofte\n\nÉn hage: det, der virkelig flytter kursen, er resultatet i forhold til det, markedet FORVENTEDE. Flotte tal, der lå under forventningerne, kan stadig sende en aktie ned.\n\nEt firma kan have masser af omsætning, men nul overskud (høje omkostninger). Tjek altid BEGGE!",
+      "quiz": {
+        "q": "{bank} melder om 15% højere omsætning, men 20% lavere overskud på grund af højere omkostninger. Er det et godt eller dårligt tegn?",
+        "explanation": "Omsætning er det, der kom ind, overskud er det, der blev tilbage. Her stiger omkostningerne hurtigere end salget, så firmaet laver flere forretninger og beholder mindre af dem. Det er et reelt advarselstegn, men det er ikke et sammenbrud, og det næste, du skal finde ud af, er, hvorfor omkostningerne steg.",
+        "options": [
+          "Bekymrende, fordi de sælger mere, men beholder mindre af det",
+          "Stærkt, fordi stigende omsætning er det, der virkelig tæller",
+          "Forfærdeligt, fordi faldende overskud betyder, at firmaet går ned"
+        ]
+      }
+    },
+    "24": {
+      "title": "Sektorer og brancher",
+      "desc": "Forskellige typer firmaer",
+      "content": "Aktiemarkedet er delt op i sektorer, ligesom forskellige afdelinger på en skole.\n\n{sectorList}\n\nForskellige sektorer stiger og falder på forskellige tidspunkter, og det er hele pointen med at sprede sig på tværs af dem! Hvis bankerne styrtdykker, boomer tech måske. Din portefølje forbliver i balance. 🎯",
+      "quiz": {
+        "q": "Renten i {name} stiger kraftigt. Hvilken sektor har som regel mest gavn af det?",
+        "explanation": "Banker tjener på forskellen mellem det, de tager fra låntagere, og det, de betaler til opsparere, og stigende renter gør som regel den forskel større. For de fleste andre sektorer er dyrere lån en omkostning.",
+        "options": [
+          "Detailhandel: kunderne låner mere frit og bruger de ekstra penge i butikkerne",
+          "Bank: bankerne tjener som regel en større forskel mellem det, låntagere betaler, og det, opsparere får",
+          "Teknologi: det bliver billigere at låne for at bygge, så softwarefirmaer vokser hurtigere"
+        ]
+      }
+    },
+    "25": {
+      "title": "Hvad er en ETF?",
+      "desc": "Køb en hel kurv på én gang",
+      "content": "Engang var det at vælge sange én efter én den eneste måde at lave en playliste på. Så kom Spotify og gav dig færdige playlister, en øjeblikkelig samling uden besvær. 🎵\n\nETF'er (børshandlede fonde, Exchange-Traded Funds) er investeringens Spotify. I stedet for at vælge aktier én efter én køber du ÉN ETF, der rummer en hel kurv af dem.\n\nDe fleste ETF'er følger et INDEKS: en offentliggjort liste over firmaer, sat sammen efter en regelbog. {etfDesc} ETF'en køber simpelthen det, der står på listen, i de samme forhold, og opdaterer sig selv, når listen ændrer sig.\n\nSå én {etf}-ETF giver dig en lillebitte bid af {etfBasket} (navne som {top5}) i ét enkelt køb.\n\n⚠️ Et indeks er IKKE automatisk 'de største firmaer'. Nogle lister rangerer efter størrelse, nogle efter hvor meget en aktie handles, og nogle udvælges af et udvalg. To indeks på den samme børs kan rumme helt forskellige firmaer. Læs altid, hvad listen faktisk er, før du køber den.\n\nETF'er er som regel billigere, nemmere og mere spredte end at vælge aktier selv. Masser af professionelle fondsforvaltere kan ikke slå dem! 🤯",
+      "quiz": {
+        "q": "Du køber én andel i {etf}-ETF'en, som følger {etfBasket}. Hvad ejer du nu?",
+        "explanation": "Et indeks er en offentliggjort liste, og en indeks-ETF køber alt på den i de samme forhold. Én andel rummer derfor en lille smule af hvert navn på listen, og derfor er et enkelt køb allerede spredt. Det er ikke kun det største navn, og det er ikke kontanter, der venter på dine instrukser.",
+        "options": [
+          "Én aktie i det største firma på den liste",
+          "En lille bid af hvert eneste firma på den liste",
+          "Kontanter, som fonden holder, indtil du siger, hvad den skal købe"
+        ]
+      }
+    },
+    "26": {
+      "title": "ETF'er på {ex}",
+      "desc": "Populære ETF'er, du bør kende",
+      "content": "Der er masser af ETF'er og indeksfonde, du kan købe fra {name}. Her er nogle af de mest populære:\n\n{etfList}\n\nDen kæmpe fordel ved ETF'er: GEBYRER. Mange aktivt forvaltede fonde tager et sted omkring 1–2% om året, nogle gange mere. Brede indeks-ETF'er tager ofte under 0.2%. På en investering på {c}10,000, der holdes i 20 år, er den forskel TUSINDVIS af {cPlural} værd 💸\n\nTjek gebyret, før du køber. Det hedder som regel 'TER' eller 'omkostningsprocent'. Ingen kan fortælle dig, hvad en ETF vil give i afkast, men gebyret er ét tal, du KAN kende på forhånd.",
+      "quiz": {
+        "q": "Du investerer 20,000 NT. En aktivt forvaltet fond tager 2% om året. En indeks-ETF med stort set de samme firmaer tager 0.2%. Træk til, hvor meget mere den dyre tager fra dig på et enkelt år.",
+        "explanation": "Forskellen mellem de to gebyrer er 1.8% om året, og 1.8% af 20,000 NT er 360 NT. Det bliver trukket, uanset om fonden stiger eller falder, og det bliver trukket igen hvert eneste år. Ingen kan fortælle dig, hvad en fond vil give i afkast, men gebyret står der, før du køber, som regel kaldet TER eller omkostningsprocent."
+      }
+    },
+    "27": {
+      "title": "Globale vs. lokale ETF'er",
+      "desc": "Investér lokalt og ud over grænserne",
+      "content": "Skal du kun investere i firmaer fra {name}? Kort svar: Nej! Her er hvorfor:\n\n🏠 LOKALE ETF'er: Investerer i firmaer fra {name}. Du kender mærkerne, og de er i {cPlural}. Men hvis økonomien i {name} får det svært, kan hele din portefølje falde.\n\n🌍 GLOBALE ETF'er: Investerer i internationale firmaer (USA, Europa, Asien). {currencyHedge}\n\nValuta virker dog begge veje: hvis din lokale valuta bliver STÆRKERE, er de samme udenlandske beholdninger mindre værd herhjemme. Det er prisen, du accepterer for at eje ting i udlandet.\n\nAt have både lokale og globale fordeler dig på to forskellige risici på én gang: din egen økonomi og din egen valuta. Balance er alt! ⚖️",
+      "quiz": {
+        "q": "{fxQuizSetup}. De udenlandske aktier i din globale ETF har slet ikke bevæget sig. Hvad er den værd målt i {cName} nu?",
+        "explanation": "En global ETF rummer ting, der er prissat i en anden valuta. Når din egen valuta taber terræn, bliver de udenlandske penge vekslet tilbage til flere af dine, så beholdningen er mere værd herhjemme, selvom aktierne stod stille. Det virker også den anden vej: en stærkere valuta herhjemme får stille og roligt den samme beholdning til at skrumpe. Valutarisiko virker begge veje.",
+        "options": [
+          "Op, fordi de penge, den har i udlandet, nu køber mere herhjemme",
+          "Ned, fordi dårlige valutanyheder også må være dårlige for dine penge",
+          "Uændret, fordi aktierne i den ikke flyttede sig en millimeter"
+        ]
+      }
+    },
+    "28": {
+      "title": "Opsparing vs. investering",
+      "desc": "Hvorfor dine penge skal arbejde",
+      "content": "Begge dele er godt. Men de har forskellige formål:\n\n🏦 OPSPARING: Sæt penge på en bankkonto. Det er sikkert, og du kan få fat i dem når som helst. MEN renten er som regel {savings}, ofte mindre end inflationen. Dine penge er 'sikre', men mister langsomt købekraft.\n\n📈 INVESTERING: Sæt penge i aktier, ETF'er eller ejendomme. Mere risiko og ingen garanti i et givet år. Nogle år taber du simpelthen penge. Over lange perioder har aktier dog historisk givet mere end kontanter. Markedet i {name} har tidligere givet cirka {mktReturn} om året i gennemsnit, og tidligere gennemsnit er historie, ikke et løfte.\n\nTommelfingerregel:\n• 3–6 måneders udgifter på opsparing (din nødbuffer) 🚨\n• Penge, du ikke får brug for i årevis, er dem, folk investerer 🚀\n\nInvestér ikke penge, du måske får brug for næste måned. Det er det, opsparing er til!",
+      "quiz": {
+        "q": "Dine udgifter er 800 NT om måneden, og du har sparet 5,000 NT op. Træk til den mindste nødbuffer, som den almindelige tommelfingerregel ville efterlade i kontanter.",
+        "explanation": "Tommelfingerreglen er tre til seks måneders udgifter i kontanter. Tre måneder af en regning på 800 NT er 2,400 NT, og seks måneder ville være 4,800 NT, så alt i det spænd er normalt. Grunden til at have dem i kontanter er enkel: når noget uventet går i stykker, vil du ikke tvinges til at sælge dine investeringer på den dag, det lige sker."
+      }
+    },
+    "29": {
+      "title": "Inflation og dine penge",
+      "desc": "Hvorfor kontanter mister værdi over tid",
+      "content": "Spørg en voksen, hvad {food} kostede, da de var på din alder. Det var et sted omkring {c}{foodOld}. Nu er det {c}{foodNew}+. Det er inflation: priserne stiger langsomt over tid, så hver {cName} køber MINDRE end før.\n\nInflationen i {name} har som regel ligget omkring {inflation} om året.\n\nSå hvis din opsparing giver 4% om året, men inflationen er 6%, TABER du faktisk omkring 2% af din købekraft hvert år, selvom din saldo steg!\n\n💡 Dine investeringer skal slå inflationen for faktisk at øge din formue.\n• Kontanter under madrassen: mister værdi hvert år 💀\n• Bankopsparing: følger ofte kun lige med\n• {ex}-aktier (langsigtet gennemsnit): {mktReturn} om året, hvilket er et tidligere gennemsnit, ikke et løfte 🔥\n\nAt investere handler ikke kun om at blive rig. Det handler om ikke at blive fattigere! 💸",
+      "quiz": {
+        "q": "Din opsparingskonto giver 4% om året. Priserne stiger 6% om året. Træk til, hvad der reelt sker med din købekraft i løbet af det år.",
+        "explanation": "Realafkastet er den rente, du tjener, minus den inflation, du betaler, så 4% mod 6% giver cirka minus 2%. Tallet på din konto stiger, mens det, du faktisk kan købe for det, falder, og det er det stille trick, inflationen spiller på opsparing. For at opbygge reel formue skal pengene slå inflationen, ikke bare tjene et eller andet."
+      }
+    },
+    "30": {
+      "title": "Følelser og investering",
+      "desc": "Ingen paniksalg eller FOMO-køb",
+      "content": "Aktiemarkedet er dybest set en test i at styre sine følelser. De fleste dumper. 🎭\n\n😱 PANIKSALG: Markedet falder 20%, du flipper ud og sælger alt. Så kommer det igen. Du låste dit tab fast uden grund.\n\n🤑 FOMO-KØB: Alle på sociale medier hyper en coin. Du skynder dig ind. Prisen styrtdykker med det samme. Du sidder tilbage med aben.\n\nDe bedste investorer behandler et markedskrak som et udsalg hos {retail}. De bliver ved med at købe, roligt, i stedet for at gå i panik. Warren Buffett sagde det sådan her: 'Vær bange, når andre er grådige, og grådig, når andre er bange.'\n\nLav din plan. Hold dig til den. Dit fremtidige jeg vil takke dig for ikke at raseri-sælge på en rød dag! 🙏",
+      "quiz": {
+        "q": "Markedet falder 15% på én uge, og din gruppechat sælger alt. Dine penge er investeret de næste ti år. Hvad er det rigtige træk?",
+        "explanation": "Et fald på 15% bliver først et reelt tab den dag, du sælger. Den plan, du skrev, da der ikke skete noget, blev skrevet af den klartænkende udgave af dig, og at holde fast i den er hele kunsten. At vente, til det ser roligt ud, før du køber tilbage, betyder at købe tilbage højere, for roen kommer efter genopretningen, ikke før.",
+        "options": [
+          "Sælg nu og køb ind igen, når det hele ser roligere ud",
+          "Flyt pengene over i det, chatten køber i stedet",
+          "Fortsæt med den plan, du skrev ned, mens du var rolig"
+        ]
+      }
+    },
+    "31": {
+      "title": "Slutbossen",
+      "desc": "Renters rente, verdens 8. vidunder",
+      "content": "'Verdens ottende vidunder: den, der forstår det, tjener på det; den, der ikke gør, betaler for det.' Du vil se den sætning tilskrevet Einstein overalt på nettet. Der er intet reelt bevis for, at han sagde det.\n\nMatematikken er dog ikke til at komme uden om. Her er det vigtigste, du vil lære om penge:\n\nEn, der starter som 20-årig og investerer {c}500/måned til 12% om året, ender med MERE som 65-årig end en, der starter som 35-årig og investerer {c}2,000/måned til samme rente. Fire gange det månedlige beløb, og de ender stadig bagud.\n\nTid. Er. Alt.\n\nDet er ikke et talmæssigt trick, det er hele pointen med renters rente: hvert år, du venter, koster mere, end noget år, du lægger til senere, kan vinde tilbage. Det bedste tidspunkt at starte var tidligere. Det næstbedste er nu.\n\nDenne quiz er din sidste test. Klarer du den, er du officielt NoobTrader-certificeret! 👑",
+      "bossVictory": "Renters rente låst op. Nu er du farlig. 🔥",
+      "quiz": {
+        "q": "{c}1,000 investeret til 12% om året i 10 år vokser til ~{c}3,106. Hvad sker der, hvis du FORDOBLER tiden til 20 år?",
+        "explanation": "At fordoble tiden gør langt mere end at fordoble resultatet, fordi hvert års vækst forrentes oven på alt det, der kom før. Væksten bliver hurtigere i stedet for langsommere.",
+        "options": [
+          "Det mere end tredobles til ~{c}9,646",
+          "Det cirka fordobles til ~{c}6,200",
+          "Afkastet bliver langsommere, jo længere du venter"
+        ]
+      }
+    },
+    "32": {
+      "title": "Kryptoplatforme og wallets",
+      "desc": "Hvor krypto faktisk bor",
+      "content": "Først den ærlige del: rigtige kryptoplatforme kræver, at du er 18+ i næsten alle lande. Derfor lader NoobTrader dig øve det hele med virtuelle penge først. 🎮\n\nNår voksne køber krypto, bruger de to slags steder:\n\n🏦 BØRSER OG MÆGLERAPPS (custodial): du opretter en konto, og de opbevarer din krypto for dig. Nemt, men du stoler på dem. Hvis de bliver hacket eller går konkurs, kan din krypto forsvinde. Det er sket for nogle af de største navne i krypto.\n\n🔑 SELF-CUSTODY WALLETS: en app, hvor DU har de hemmelige nøgler. Ingen kan fryse den, men ingen kan hjælpe dig heller. Mister du din seed phrase (de 12 til 24 hemmelige ord), er kryptoen væk for altid. Ingen nulstilling af adgangskode. Ingen kundeservice. Væk.\n\nKryptofolk siger: 'Not your keys, not your coins' (ikke dine nøgler, ikke dine coins). Nu ved du, hvad det betyder.",
+      "quiz": {
+        "q": "Hvad betyder det, når en børs opbevarer din krypto 'custodial'?",
+        "explanation": "Custodial betyder, at platformen har nøglerne, så dine coins er aldrig mere sikre, end platformen er. Hvis den bliver hacket eller går ned, kan de forsvinde med den. Det er det, folk mener med ikke dine nøgler, ikke dine coins.",
+        "options": [
+          "Børsen har nøglerne for dig",
+          "Du har nøglerne, og ingen andre kan få dem",
+          "Ingen kan røre dine coins, ikke engang dig",
+          "Den giver automatisk renter"
+        ]
+      }
+    },
+    "33": {
+      "title": "Sådan fungerer det at købe krypto",
+      "desc": "Spreads, gebyrer og markeder døgnet rundt",
+      "content": "At købe krypto ligner at købe hvad som helst online, men tre ting er anderledes:\n\n1️⃣ SPREADET: købsprisen er altid lidt højere end salgsprisen. Køb krypto for {c}100 og sælg den med det samme, så får du måske {c}97 tilbage. Den forskel er den måde, platformene stille og roligt tjener på.\n\n2️⃣ GEBYRER OVENI: de fleste platforme tager også et gebyr pr. handel, ofte 1 til 2% for små køb. Gebyrer plus spread betyder, at et lille køb starter omkring 3 til 5% i minus, før prisen overhovedet har flyttet sig.\n\n3️⃣ INGEN LUKKEKLOKKE: aktiebørser lukker om natten og i weekenden. Krypto handles døgnet rundt (24/7), hver dag året rundt. Priserne kan styrtdykke, mens du sover. Det er en del af grunden til, at krypto er så meget mere svingende end aktier.\n\nI NoobTrader kan du handle krypto med virtuelle penge, 24/7, uden at miste en krone. Du betaler et gebyr på hver handel, men NoobTrader tager ikke noget spread, så et rigtigt køb koster mere end den samme handel her. 📊",
+      "quiz": {
+        "q": "Du sætter 200 NT i en coin og sælger den fem sekunder senere, før prisen overhovedet har flyttet sig. Forskellen mellem købs- og salgsprisen koster 3%, og platformen tager et gebyr på 1% på hver handel. Træk til det beløb, du får tilbage.",
+        "explanation": "Spreadet tager 3%, så lander et gebyr på 1% på vej ind og et til på vej ud. Det er 5% af dine 200 NT, så 10 NT er væk, før prisen har gjort noget som helst. Du får 190 NT tilbage, og coinen skal nu stige 5% bare for at få dig i nul."
+      }
+    },
+    "34": {
+      "title": "Gasgebyrer forklaret",
+      "desc": "Hvorfor det koster penge at sende krypto",
+      "content": "Det er ikke gratis at sende krypto. Hver transaktion betaler et netværksgebyr, ofte kaldet GAS, til de computere, der behandler og sikrer netværket.\n\nHer er den del, der overrasker alle: gas prissættes efter trafikken på netværket, IKKE efter hvor meget du sender. Når netværket har travlt, stiger gebyrerne voldsomt.\n\n🤯 På nogle netværk kan det på travle tidspunkter koste MERE end {c}10 i gas at sende krypto for {c}10. Du ville betale mere for leveringen, end pakken er værd.\n\nNyere netværk og 'layer 2'-systemer findes mest for at gøre det billigere, med gebyrer på få øre. Alle, der har med krypto at gøre, tjekker gebyret, FØR de trykker send.\n\nOg én ting til: kryptooverførsler kan ikke fortrydes. Forkert adresse plus betalt gas er lig med penge, der er væk, permanent. Der er ingen bank at ringe til. ☎️❌",
+      "quiz": {
+        "q": "Gasgebyrerne er høje i dag. Du vil sende krypto for {c}15, og gas koster {c}20. Hvad er den smarte vurdering?",
+        "explanation": "Gas prissættes efter, hvor travlt netværket har, ikke efter hvor meget du sender, så en lille overførsel kan koste mere, end den er værd. At dele den op hjælper heller ikke, for hver overførsel betaler sit eget gebyr. Vent på et roligere tidspunkt, eller brug et billigere netværk.",
+        "options": [
+          "Betal det, for gebyret bliver refunderet, når den lander",
+          "Lad være, gebyret koster mere end pakken",
+          "Del den i to, så hver halvdel betaler halvt gebyr",
+          "Ignorer gebyret, gas gælder kun for store overførsler"
+        ]
+      }
+    },
+    "35": {
+      "title": "Memecoins og rug pulls",
+      "desc": "Spot fælderne, før de spotter dig",
+      "content": "Memecoins er kryptovalutaer bygget på jokes og hype i stedet for nogen reel brug. Nogle få gjorde de tidlige købere rige, og det er præcis derfor, der findes tusindvis af kopier. Næsten alle ender på nul. 📉\n\nDen grimmeste fælde er RUG PULL: skaberne laver en coin, hyper den voldsomt, venter på, at folk strømmer til, og dumper så deres kæmpe beholdning eller tømmer handelspuljen. Prisen kollapser på få minutter. De beholder pengene. Du beholder de værdiløse coins.\n\n🚩 RØDE FLAG, du skal huske:\n• Anonymt team, du ikke kan tjekke\n• 'Garanteret' afkast (intet på markederne er garanteret)\n• Influencere, der bliver betalt for at reklamere for den\n• En lille gruppe ejer det meste af udbuddet\n• Pres for at 'købe, før det er for sent'\n\nHvis en coins vigtigste salgsargument er, at ANDRE folks køb vil gøre DIG rig, så er det ikke investering. Det er en omgang stoleleg, og skaberne ejer musikken. 🎵",
+      "quiz": {
+        "q": "En ny coin har et anonymt team, lover garanteret 100x, og betalte influencere presser hårdt på. Hvad sker der som regel bagefter?",
+        "explanation": "Et anonymt team, et garanteret afkast og betalt promovering er den klassiske opskrift på et rug pull. Skaberne ejer det meste af udbuddet, sælger det ind i hypen og går deres vej og efterlader køberne med en coin, ingen vil have. Intet på markederne er garanteret.",
+        "options": [
+          "Køberne får pengene tilbage fra den børs, den blev lanceret på",
+          "Prisen stabiliserer sig, når influencerne stopper med at poste",
+          "Teamet dumper sin beholdning, og prisen kollapser",
+          "Myndighederne tvinger teamet til at oplyse, hvem de er"
+        ]
+      }
+    },
+    "36": {
+      "title": "Mining vs. trading vs. staking",
+      "desc": "Tre meget forskellige spil",
+      "content": "Tre måder, folk prøver at tjene penge på i krypto, og det er IKKE det samme spil:\n\n⛏️ MINING: kraftige computere kæmper om at behandle transaktioner og tjene nye coins. Lyder sjovt, men Bitcoin-mining i dag er industri: lagerhaller fulde af specialmaskiner og kæmpe elregninger. Din telefon eller bærbare kan ikke konkurrere, og 'min Bitcoin på din telefon!'-apps er næsten altid svindel eller reklamefarme, der betaler dig næsten ingenting.\n\n🥩 STAKING: på nogle netværk låser du coins for at hjælpe med at sikre netværket og får belønninger, lidt ligesom renter. Det er ægte, men dine coins kan være låst i et stykke tid, og deres PRIS kan stadig styrtdykke, mens de er låst.\n\n📊 TRADING: at købe og sælge for at tjene på kursbevægelser. Intet udstyr nødvendigt, men det er spillet, hvor disciplin betyder mest, og hvor de fleste begyndere taber til deres egne følelser.\n\nNoobTrader lærer dig trading-spillet helt uden risiko. De to andre kræver rigtige penge bare for at komme i gang.",
+      "quiz": {
+        "q": "En app siger, at din telefon kan mine Bitcoin med overskud, mens du sover. Hvad er den mest sandsynlige sandhed?",
+        "explanation": "Mining er et kapløb, der afgøres af specialudstyr og billig strøm, og en telefon har ingen af delene. Apps, der lover noget andet, er som regel ude efter dine data, dit batteri eller dine penge og betaler dig næsten ingenting for det.",
+        "options": [
+          "Telefoner miner langsomt, men giver stadig overskud",
+          "Det virker, men kun på de nyeste telefoner",
+          "Mining på telefoner er blevet forbudt af netværkene",
+          "Det er en reklamefarm, der betaler næsten ingenting"
+        ]
+      }
+    },
+    "37": {
+      "title": "Kryptosikkerhed og svindel",
+      "desc": "Behold det, der er dit",
+      "content": "Kryptos superkraft er også dens fare: transaktioner kan ikke fortrydes, og der er ingen bank til at rette en fejl. Det elsker svindlere. Her er dit forsvarskit:\n\n🔐 DIN SEED PHRASE ER HELLIG. Ingen seriøs aktør vil NOGENSINDE bede om den. Ikke 'supportmedarbejdere', ikke en 'verificeringsbot', ingen. Alle, der beder om din seed phrase, stjæler fra dig, punktum.\n\n🎣 PHISHING: falske hjemmesider og DM'er, der ligner rigtige platforme til forveksling. Ét bogstav forkert i webadressen. Skriv altid adressen selv.\n\n🎁 GIVEAWAY-SVINDEL: 'Send 1 coin, få 2 tilbage!', ofte via en kendis' hackede konto. Ingen fordobler dine penge. Nogensinde.\n\n💕 ROMANCE- OG 'INVESTERINGSMENTOR'-SVINDEL: en venlig fremmed, der langsomt overtaler dig til en 'særlig platform'. Platformen er falsk. Udbetalingerne virker aldrig.\n\nMønsteret bag al svindel: hastværk plus hemmelighed plus garanteret gevinst. Ser du de tre sammen, så gå din vej. 🚶",
+      "quiz": {
+        "q": "En, der påstår at være 'platformsupport', skriver til dig i en DM og beder om din seed phrase på 12 ord for at 'verificere din wallet'. Hvad gør du?",
+        "explanation": "Seed phrasen ER din wallet. Alle, der har den, kan tømme den, rigtig support beder aldrig om den, og ingen del af den må nogensinde deles.",
+        "options": [
+          "Del den aldrig, for rigtig support beder aldrig om en seed phrase",
+          "Del den, da verificerede supportmedarbejdere skal bruge den til at tjekke din konto",
+          "Del kun de første seks ord, det er sikkert nok i sig selv",
+          "Bed dem om at maile dig fra den officielle adresse først, og del den så"
+        ]
+      }
+    },
+    "38": {
+      "title": "Kryptobossen",
+      "desc": "Bitcoin-tidsmaskinen",
+      "content": "Tid til historien, som alle citerer, og ingen fortæller ordentligt.\n\nI starten af 2017 kostede én Bitcoin omkring $1,000. I december 2024 passerede den $100,000 for første gang. Et køb for $1,000, der blev holdt hele vejen, blev til omkring $100,000. Det er 100x. 🤯\n\nNu den del, som hypen udelader: for at hente de 100x skulle du sidde igennem to brutale krak, et på omkring 84% og et andet på omkring 77%, og se dine penge skrumpe i ÅREVIS ad gangen uden at sælge. Næsten ingen klarede det. De fleste købte højt, gik i panik under krakket og solgte lavt.\n\nOg for hver Bitcoin er der tusindvis af døde coins, der endte på nul. At vælge vinderen på forhånd ser kun nemt ud bagudrettet. Det kaldes survivorship bias (overlevelsesbias), og det er den dyreste illusion i krypto.\n\nTidsmaskinens rigtige lektie: for de coins, der overlevede, slog tålmodighed timing. Men du finder først ud af, hvilke coins der overlever, BAGEFTER, og derfor slår spredning heltevalg, og derfor ved INGEN, hvad fremtiden bringer. Ikke engang bossen. 🐉",
+      "bossVictory": "Kryptomodulet er erobret. Du ved nu mere end de fleste voksne. 🐉",
+      "quiz": {
+        "q": "Tusindvis af coins blev lanceret samtidig med Bitcoin, og de fleste er nu næsten intet værd. Hvorfor ser \"vælg bare den næste Bitcoin\" så nemt ud, når man kigger bagud?",
+        "explanation": "Det er kun de overlevende, man stadig taler om, så det ser langt nemmere ud at vælge vindere bagudrettet, end det var dengang. De tusindvis, der fejlede, efterlod intet spor i historien.",
+        "options": [
+          "Fordi vinderne er de eneste, nogen stadig taler om, og dem, der døde, forsvandt fra historien",
+          "Fordi de bedste coins er indlysende fra starten for alle, der læser nok om dem",
+          "Fordi de fleste coins ender godt for alle, der er tålmodige nok til at beholde dem i årevis",
+          "Fordi eksperterne korrekt forudsagde Bitcoin tilbage i 2010 og har forudsagt alle vindere siden"
+        ]
+      }
+    },
+    "39": {
+      "title": "Hvad ER en blockchain egentlig?",
+      "desc": "Teknologien under det hele",
+      "content": "Fjern hypen, og en blockchain er overraskende simpel: en fælles regnskabsbog, som tusindvis af computere holder identiske kopier af.\n\nNår nogen sender krypto, havner transaktionen i en 'blok' sammen med hundredvis af andre. Blokken forsegles med matematik og kædes sammen med den forrige blok. Derfor: blok. Kæde. ⛓️\n\nHvorfor er det interessant? På grund af det, det gør muligt:\n\n✅ Ingen kan i al stilhed redigere historien. At ændre en gammel blok ville betyde, at man skulle lave alle blokke efter den om på tusindvis af computere på én gang.\n✅ Intet enkelt firma eller nogen regering styrer den. Netværket af computere styrer den sammen.\n✅ Alle kan tjekke registret. Hver eneste Bitcoin-transaktion, der nogensinde er lavet, er offentligt synlig.\n\nDet er ægte ny teknologi. Det er også IKKE magiske penge. Et perfekt register over en værdiløs coin er stadig en værdiløs coin. At teknologien er ægte, gør ikke alle coins bygget på den værdifulde. 🧠",
+      "quiz": {
+        "q": "Hvorfor er det så svært i hemmelighed at ændre en gammel transaktion på en blockchain?",
+        "explanation": "Hver blok er forseglet til den foregående, så at omskrive en gammel blok betyder at omskrive alle blokke efter den, på tusindvis af computere, hurtigere end netværket tilføjer nye. Det er det, der gør registret praktisk talt permanent.",
+        "options": [
+          "Alle senere blokke skulle også laves om",
+          "Hver ændring skal godkendes af en regering",
+          "Alle registreringer ældre end en måned slettes",
+          "Hver coins skaber har en privat redigeringsnøgle"
+        ]
+      }
+    },
+    "40": {
+      "title": "Bitcoin vs. alt det andet",
+      "desc": "Ikke alle coins er det samme spil",
+      "content": "'Krypto' er ikke én ting. Forskellene betyder mere end lighederne:\n\n₿ BITCOIN: den originale. Udbuddet er begrænset til 21 millioner coins for altid, skrevet ind i koden, og tempoet for nye coins halveres cirka hvert fjerde år. (Lyder det bekendt? NOOBs halvering låner præcis den idé.) Hele dens salgsargument er knaphed plus sikkerhed.\n\n⟠ ETHEREUM: mindre 'digitalt guld', mere 'verdenscomputer'. Den kører smart contracts, som er programmer, der kører automatisk. De fleste kryptoapps er bygget på den eller dens konkurrenter.\n\n🪙 ALT DET ANDET: tusindvis af 'altcoins'. Nogle få løser rigtige problemer. De fleste er kopier, eksperimenter eller forsøg på hurtige penge. Den brutale statistik: størstedelen af alle coins, der nogensinde er lavet, er allerede døde eller værdiløse.\n\nLektie: 'krypto stiger' siger dig næsten intet om en BESTEMT coin. Hver enkelt er sit eget væddemål med sine egne odds. 🎲",
+      "quiz": {
+        "q": "Hvad er Bitcoins maksimale udbud, og hvor nemt kan det ændres?",
+        "explanation": "Grænsen på 21 millioner er en del af de regler, som hver computer på netværket kører. At hæve den ville kræve, at næsten alle blev enige om at gøre det, de allerede ejer, mindre værd, og derfor bliver grænsen betragtet som fast.",
+        "options": [
+          "100 millioner, og minerne stemmer om det hvert år",
+          "21 millioner, og at hæve det er næsten umuligt",
+          "1 milliard, og skaberen kan justere det",
+          "Ingen grænse overhovedet, så nye coins trykkes for evigt"
+        ]
+      }
+    },
+    "41": {
+      "title": "Stablecoins",
+      "desc": "Krypto, der prøver at stå stille",
+      "content": "En stablecoin er en krypto, der er designet til altid at være et fast beløb værd, som regel præcis 1 amerikansk dollar. Tradere bruger dem som en parkeringsplads: sælg dine svingende coins til en stablecoin, så står dine penge stille, mens du beslutter dit næste træk.\n\nHvordan bliver de på $1? Det mest almindelige design holder rigtige dollars og aktiver i reserve, så hver coin er dækket af noget. Du stoler altså på den, der passer på de reserver.\n\nOg her er din advarselshistorie: stablecoins kan GÅ I STYKKER. Det er virkelig sket. I 2022 kollapsede en stor 'algoritmisk' stablecoin, der brugte smart matematik i stedet for rigtige reserver, fra $1 til næsten nul på få dage og fik titusindvis af milliarder dollars til at fordampe. 'Stabil' er et designmål, ikke en garanti.\n\nTommelfingerregel: jo smartere mekanismen, der skal holde noget 'sikkert', er, jo grundigere skal du kigge på den. 🔍",
+      "quiz": {
+        "q": "Hvad er en stablecoins vigtigste opgave?",
+        "explanation": "En stablecoins opgave er at stå stille. Den er en parkeringsplads mellem handler, ikke noget, man forventer vokser.",
+        "options": [
+          "At holde en fast værdi, som regel $1, så tradere har en stabil parkeringsplads",
+          "At vokse hurtigere end Bitcoin ved at følge hele kryptomarkedet",
+          "At betale renter automatisk til alle, der har den i en wallet",
+          "At skjule transaktioner for alle ved at kode den offentlige hovedbog"
+        ]
+      }
+    },
+    "42": {
+      "title": "Krypto, skat og loven",
+      "desc": "Ja, reglerne gælder også her",
+      "content": "Internettet er fyldt med folk, der tror, at krypto er usynlige penge uden regler. De plejer at finde ud af det på den hårde måde. 😬\n\nVirkeligheden i de fleste lande, også Sydafrika:\n\n🧾 GEVINSTER ER SOM REGEL SKATTEPLIGTIGE. Sælger du krypto for mere, end du gav, vil skattemyndighederne som regel have deres del, præcis som med aktier.\n\n🪪 BØRSERNE VED, HVEM DU ER. Seriøse platforme kræver ID-verificering (kaldet KYC, Know Your Customer). Hver transaktion bliver også gemt permanent på selve blockchainen, hvilket er det MODSATTE af anonymt.\n\n⚖️ MYNDIGHEDERNE ER MED. I Sydafrika behandles kryptoaktiver officielt som finansielle produkter, hvilket betyder, at platformene, der sælger dem, skal følge reglerne for finansielle tjenester.\n\nIntet af det her er en grund til panik. Men det ER en grund til at ignorere alle, der siger 'reglerne gælder ikke for krypto'. Det gør de, og at lade som om andet bringer voksne i virkelig alvorlige problemer.",
+      "quiz": {
+        "q": "Din fætter siger, at kryptogevinster er usynlige for skattemyndighederne, fordi krypto er anonymt. Hvad er der galt med det?",
+        "explanation": "Seriøse platforme tjekker, hvem du er, før du kan handle, og hver blockchain-transaktion er offentlig og permanent, hvilket er det modsatte af anonymt. Gevinster er som regel skattepligtige, så tjek reglerne der, hvor du bor.",
+        "options": [
+          "Børser tjekker ID, og registreringerne er offentlige",
+          "Ingenting, krypto er virkelig anonymt",
+          "Krypto beskattes i USA og ingen andre steder",
+          "Skat starter først, når du hæver en million"
+        ]
+      }
+    },
+    "43": {
+      "title": "Volatilitet og overlevelsesregler",
+      "desc": "Hvorfor krypto svinger så voldsomt",
+      "content": "En dårlig dag på aktiemarkedet er 3%. En dårlig dag i krypto er 20%. Selv Bitcoin, kryptoverdenens 'voksne', har tabt over 80% af sin værdi mere end én gang og senere hentet det igen. Mindre coins taber jævnligt 95% og kommer aldrig tilbage.\n\nHvorfor så vildt? Krypto handles 24/7 uden nødbremser, meget af det er købt for lånte penge, der bliver tvangssolgt under krak, og priserne drives mere af historier og følelser end af regnskaber.\n\nSå her er overlevelsesreglerne, som alle erfarne tradere gentager:\n\n1️⃣ Sæt aldrig penge ind, som du ikke har råd til at tabe helt.\n2️⃣ Gør dine positioner så store, at én katastrofe ikke kan udslette dig.\n3️⃣ Beslut din exit, FØR du går ind, mens du er rolig.\n4️⃣ FOMO er den dyreste følelse i finansverdenen.\n\nØv alle fire i NoobTrader, hvor tabene er på skrømt. Vanerne er den rigtige præmie. 🏆",
+      "quiz": {
+        "q": "Hvilken af disse er en rigtig overlevelsesregel på volatile markeder?",
+        "explanation": "Aldrig at risikere penge, du ikke har råd til at tabe, er den ene regel, der holder dig med i spillet. At fordoble efter et tab er sådan, konti ender.",
+        "options": [
+          "Fordobl din position efter hvert tab for at vinde det tilbage",
+          "Investér aldrig penge, du ikke har råd til at tabe helt",
+          "Volatilitet rammer kun små coins, så store coins er sikre",
+          "Køb altid, når alle på sociale medier køber"
+        ]
+      }
+    },
+    "44": {
+      "title": "Hypecyklusser og FOMO",
+      "desc": "Mønsteret bag enhver mani",
+      "content": "Krypto kører i hypecyklusser, og når du først har set mønsteret, kan du aldrig glemme det:\n\n📈 Fase 1: noget ægte sker. De tidlige troende køber stille og roligt.\n🚀 Fase 2: priserne stiger. Medierne opdager det. Dit feed fyldes med vindere.\n🎪 Fase 3: mani. Taxichauffører giver coin-tips. Folk låner for at købe. 'Denne gang er det anderledes.'\n💥 Fase 4: krakket. De sene, der købte dyrest, taber mest.\n🕳️ Fase 5: stilhed. Vindernes opslag forsvinder. Ingen taler om deres tab.\n\nNFT-boomet i 2021 fulgte præcis dette manuskript: digitale samleobjekter, der blev solgt for millioner på toppen, og et par år senere var de fleste næsten intet værd.\n\nDet grusomme trick ved enhver mani: den får det VÆRSTE tidspunkt at købe på til at føles som det mest PRESSERENDE. Når det føles sikrest at hoppe med, fordi alle andre allerede har gjort det, er de nemme gevinster som regel væk. 🎯",
+      "quiz": {
+        "q": "Hvornår føler den gennemsnitlige person den stærkeste trang til at købe i en klassisk hypecyklus?",
+        "explanation": "Trangen er højest, når historien er højest, og historien er højest, efter prisen allerede er steget. At alle er med, er det, der får det til at føles sikkert, og det er også det, der betyder, at der ikke er nogen tilbage til at købe.",
+        "options": [
+          "Tidligt, mens næsten ingen taler om det",
+          "Halvvejs nede i krakket, når priserne er lave",
+          "Nær toppen, når alle andre allerede er med",
+          "Der er intet mønster, trangen er tilfældig"
+        ]
+      }
+    },
+    "45": {
+      "title": "Sådan læser du et lys",
+      "desc": "Lysets anatomi: krop og farve",
+      "content": "Hvert lys fortæller en lille historie med kun fire tal: hvor prisen åbnede, det højeste den nåede, det laveste den faldt til, og hvor den lukkede. Den massive krop går fra åbning til lukning, og farven fortæller dig, hvem der vandt: grøn betyder, at lukkekursen endte over åbningen, rød betyder, at sælgerne trak den under. Det er hele tricket. Lær at læse ét lys ordentligt, og hvert eneste diagram i verden forvandles fra en mur af støj til en tegneserie. 🟢",
+      "quiz": {
+        "q": "Dette lys er grønt. Hvad fortæller det dig om den handelsperiode?",
+        "options": [
+          "Prisen lukkede lavere, end den åbnede",
+          "Flere købte, end der solgte, helt garanteret",
+          "Prisen lukkede højere, end den åbnede",
+          "Prisen faldt aldrig i løbet af perioden"
+        ]
+      }
+    },
+    "46": {
+      "title": "Vægerne fortæller historier",
+      "desc": "Lysets anatomi: toppe og bunde",
+      "content": "Kroppen viser, hvor perioden åbnede og lukkede, men vægerne viser hele rejsen: hver pris, kampen faktisk nåede. En lang væge betyder, at der var en stor kamp uden for åbning og lukning, og den side, der efterlod vægen, tabte den kamp. Lang væge nedad? Sælgerne pressede hårdt og blev slået tilbage. Lang væge opad? Køberne nåede højt og blev afvist. Kroppen er overskriften, vægerne er sladderen. 📏",
+      "quiz": {
+        "q": "Hvad viser de tynde streger (vægerne) over og under kroppen egentlig?",
+        "options": [
+          "De højeste og laveste priser, der blev handlet i perioden",
+          "Gårsdagens åbning og lukning",
+          "De præcise priser, hvor flest handler skete",
+          "En prognose for morgendagens udsving"
+        ]
+      }
+    },
+    "47": {
+      "title": "Dojien",
+      "desc": "Enkeltlys: ubeslutsomhed",
+      "content": "Nogle gange åbner og lukker et lys til næsten præcis samme pris, så der er en lillebitte krop med væger på begge sider. Det er en doji, og den betyder, at tovtrækningen endte uafgjort: køberne og sælgerne trak hårdt hele sessionen, og ingen af siderne vandt. Alene er den bare et skuldertræk. Efter en stærk stigning kan den antyde, at trenden er ved at blive træt, fordi den side, der vandt, pludselig ikke kunne flytte prisen. Et fingerpeg værd at notere, aldrig en garanti. 🤝",
+      "quiz": {
+        "q": "Det lysende lys åbnede og lukkede til næsten præcis samme pris. Hvad hedder det, og hvad antyder det?",
+        "options": [
+          "En marubozu, et tegn på total overbevisning den ene eller anden vej",
+          "En hammer, et tegn på at køberne tog kontrollen tilbage",
+          "Et gap, et tegn på at handlen holdt pause natten over",
+          "En doji, et tegn på ubeslutsomhed mellem købere og sælgere"
+        ]
+      }
+    },
+    "48": {
+      "title": "Hammeren",
+      "desc": "Enkeltlys: modangrebet",
+      "content": "Forestil dig en brutal session: sælgerne banker prisen ned, og så trækker køberne den hele vejen tilbage før lukning. Det, der står tilbage på diagrammet, er en hammer: en lille krop nær toppen med en lang nedre væge, der er mindst dobbelt så lang. Efter et fald siger en hammer, at sælgerne prøvede deres hårdeste slag, og det ramte ikke. Det markerer ofte en mulig vending. Mulig, ikke lovet, så se det som et fingerpeg at holde øje med, ikke en ordre om at købe. 🔨",
+      "quiz": {
+        "q": "Efter et fald dannede det lysende lys en lang nedre væge og en lille krop nær toppen. Hvad er det?",
+        "options": [
+          "Et stjerneskud, et tegn på at sælgerne tog over",
+          "En hammer, et fingerpeg om at køberne kæmpede hårdt tilbage",
+          "En doji, perfekt uafgjort",
+          "Bevis på at den nedadgående trend er slut"
+        ]
+      }
+    },
+    "49": {
+      "title": "Stjerneskuddet",
+      "desc": "Enkeltlys: afvisning på toppen",
+      "content": "Hammerens spejlbillede. Efter en stærk stigning rækker køberne ud efter endnu en ny top, bliver afvist hårdt, og prisen lukker igen nede tæt på, hvor den åbnede. Diagrammet viser en lille krop i bunden af lyset med en lang øvre væge: et stjerneskud. Det betyder, at sælgerne endelig dukkede op på toppen med nok kraft til at vinde sessionen. Efter en stor stigning betyder den afvisning ofte noget. Ofte, ikke altid. 🌠",
+      "quiz": {
+        "q": "Efter en stærk stigning skød det lysende lys op og lukkede så nær sin bund og efterlod en lang øvre væge. Hvad er det?",
+        "options": [
+          "Et stjerneskud, et fingerpeg om at sælgerne dukkede op på toppen",
+          "En hammer, et fingerpeg om at køberne har styr på det igen",
+          "En grøn marubozu, ren købekraft",
+          "En garanti for at prisen styrtdykker i morgen"
+        ]
+      }
+    },
+    "50": {
+      "title": "Marubozuen",
+      "desc": "Enkeltlys: total overbevisning",
+      "content": "En marubozu er én massiv krop helt uden væger: prisen åbnede og marcherede i én retning hele sessionen uden nogensinde at se sig tilbage. Ingen kamp, ingen tøven, total overbevisning fra én side. En grøn marubozu skriger købertillid, en rød skriger det modsatte. De er sjældne, og det er præcis derfor, tradere spidser ører, når én dukker op. 💪",
+      "quiz": {
+        "q": "Det lysende lys er én massiv krop helt uden væger. Hvad fortæller den form dig?",
+        "options": [
+          "Ingen handlede i den periode, så den stod helt fladt",
+          "Markedet lukkede tidligt den dag og afbrød det",
+          "Én side havde kontrollen fra åbning til lukning, total overbevisning",
+          "Købere og sælgere var i perfekt balance hele vejen igennem"
+        ]
+      }
+    },
+    "51": {
+      "title": "Bullish engulfing",
+      "desc": "Mønstre med to lys: køberne slår til",
+      "content": "To lys, ét budskab. Først et lille rødt lys, helt normalt i en nedadgående trend. Så en stor grøn krop, der fuldstændig opsluger det: på én session slettede køberne alt, hvad sælgerne nåede dagen før, og lidt til. Når den lander efter en nedadgående trend, er bullish engulfing et af de mest overvågede vendingstegn på ethvert diagram, fordi den viser magtbalancen vende i ét enkelt lys. Fingerpeg, ikke kontrakt. 🐂",
+      "quiz": {
+        "q": "Den store grønne krop opsluger fuldstændig den røde krop før den. Hvad er dette mønster med to lys?",
+        "options": [
+          "En bearish engulfing, sælgerne tog kontrollen",
+          "En bullish engulfing, køberne overmandede sælgerne",
+          "En dobbeltbund",
+          "To dojier i træk"
+        ]
+      }
+    },
+    "52": {
+      "title": "Bearish engulfing",
+      "desc": "Mønstre med to lys: sælgerne slår til",
+      "content": "Spejlbilledet af den bullish udgave. På toppen af en stigning opsluger en stor rød krop hele den grønne krop før den: sælgerne udslettede den foregående dags køb i ét lys, præcis hvor stigningen allerede var strakt, og de seneste købere var nervøse. Det plejer også at gøre resten af køberne nervøse. Når du ser den efter en lang stigning, så tag den alvorligt. 🐻",
+      "quiz": {
+        "q": "På toppen af en stigning opsluger den store røde krop hele den grønne krop før den. Hvad hedder dette par?",
+        "options": [
+          "En bullish engulfing, stigningen fortsætter",
+          "En hammer efterfulgt af en doji",
+          "Et udbrud over modstanden",
+          "En bearish engulfing, sælgerne overmandede køberne"
+        ]
+      }
+    },
+    "53": {
+      "title": "Sådan spotter du en optrend",
+      "desc": "Trends: højere toppe, højere bunde",
+      "content": "En optrend kræver begge halvdele: højere toppe OG højere bunde. Hver top slår den forrige, og hvert dyk stopper højere end det før, fordi køberne træder til tidligere og tidligere hver gang. Den trappeform er markedet, der fortæller dig, at efterspørgslen bestemmer. Én højere top alene beviser intet. Mønsteret er parret, der gentager sig. 📈",
+      "quiz": {
+        "q": "Hver top slår den forrige, og hvert dyk stopper højere end det før. Hvad viser dette diagram?",
+        "options": [
+          "En optrend, højere toppe og højere bunde",
+          "En nedtrend, lavere toppe og lavere bunde",
+          "En range, prisen fanget mellem et gulv og et loft",
+          "En dobbelttop, der er ved at blive dannet"
+        ]
+      }
+    },
+    "54": {
+      "title": "Sådan spotter du en nedtrend",
+      "desc": "Trends: lavere toppe, lavere bunde",
+      "content": "Vend trappen på hovedet. Lavere toppe betyder, at sælgerne angriber tidligere ved hvert opsving, lavere bunde betyder, at køberne trækker sig længere tilbage ved hvert fald. Så længe den struktur holder, er det sælgerne, der styrer showet, og at kæmpe imod er sådan, nye tradere forærer penge til de tålmodige. Trenden er ikke din fjende, men at lade som om den ikke er der, er det helt sikkert. 📉",
+      "quiz": {
+        "q": "Hvert opsving topper lavere end det forrige, og hvert fald skærer dybere. Hvad kigger du på?",
+        "options": [
+          "En optrend, der bare tager en pause",
+          "En sidelæns range",
+          "En nedtrend, lavere toppe og lavere bunde",
+          "Et bullish engulfing-mønster, der er ved at dannes"
+        ]
+      }
+    },
+    "55": {
+      "title": "Det sidelæns marked",
+      "desc": "Trends: ventespillet",
+      "content": "Nogle gange vinder ingen af siderne, så prisen bare hopper frem og tilbage mellem det samme gulv og det samme loft i ugevis. Det er en range, og markeder bruger enormt meget af deres liv på præcis det. Det er ikke i stykker, og det er ikke kedeligt, det er markedet, der trækker vejret. Tålmodige tradere lærer at elske ventetiden, for jo længere en range holder, jo mere betydningsfuld plejer den endelige flugt at være. 🏓",
+      "quiz": {
+        "q": "I ugevis har prisen hoppet mellem det samme gulv og det samme loft. Hvad kaldes det?",
+        "options": [
+          "En optrend, den bliver ved med at røre loftet",
+          "En range, markedet bevæger sig sidelæns",
+          "Et hoved og skuldre",
+          "Et udbrud, der er i gang"
+        ]
+      }
+    },
+    "56": {
+      "title": "Støtte",
+      "desc": "Støtte og modstand: gulvet",
+      "content": "Når prisen bliver ved med at falde til det samme niveau og hopper op igen hver eneste gang, kalder tradere det niveau støtte: et gulv, hvor køberne bliver ved med at synes, prisen er et kup. Jo flere gange det holder, jo flere holder øje med det, hvilket er en del af grunden til, at det bliver ved med at holde. Men husk, at gulvet er tegnet af mennesker, ikke af loven. Støtte kan bryde, og det gør den, og når det sker, bliver hop-flokken til panik-flokken. 🧱",
+      "quiz": {
+        "q": "Prisen er faldet ned til det skraverede niveau tre gange og er hoppet op igen hver eneste gang. Hvad kalder tradere det niveau?",
+        "options": [
+          "Modstand, et loft hvor sælgerne vælter ind",
+          "En trendlinje, niveauer skal være diagonale",
+          "Et stop-loss, som børsen har sat",
+          "Støtte, et gulv hvor køberne bliver ved med at træde til"
+        ]
+      }
+    },
+    "57": {
+      "title": "Modstand",
+      "desc": "Støtte og modstand: loftet",
+      "content": "Modstand er loftet: et niveau, hvor hver stigning går i stå, fordi sælgerne gerne vil cashe ud der. Se et diagram banke hovedet mod den samme pris tre gange, og du ser modstand virke i realtid. Her er twistet, der er værd at huske: hvis prisen nogensinde slår igennem med ægte overbevisning, begynder det gamle loft ofte at fungere som et nyt gulv. 🪟",
+      "quiz": {
+        "q": "Tre separate stigninger er gået i stå ved det skraverede niveau. Hvad kaldes det niveau?",
+        "options": [
+          "Modstand, et loft hvor sælgerne bliver ved med at presse tilbage",
+          "Støtte, et gulv der ligger under prisen",
+          "Udbytteniveauet, som fastsættes én gang om året",
+          "En volumentop, som intet siger om prisen"
+        ]
+      }
+    },
+    "58": {
+      "title": "Trendlinjer",
+      "desc": "Trendlinjer og kanaler: linjen, der betyder noget",
+      "content": "Forbind de stigende bunde på et diagram, og du har tegnet en trendlinje. Alle to punkter kan danne en linje, men den tredje berøring er der, hvor den begynder at bevise, at den betyder noget, fordi den viser, at køberne bliver ved med at forsvare det samme stigende niveau. Hver ekstra respekteret berøring er mere bevis. Den forbliver bevis, aldrig et løfte: en trendlinje er en blyantstreg, ikke et kraftfelt. ✏️",
+      "quiz": {
+        "q": "Denne stigende linje er blevet rørt tre separate gange. Hvorfor går tradere op i, hvor mange berøringer en trendlinje har?",
+        "options": [
+          "Det gør de ikke, for alle to punkter gør en trendlinje til en regel",
+          "Tre berøringer betyder, at et fjerde hop er garanteret som det næste",
+          "Flere berøringer gør linjen mere betydningsfuld, køberne bliver ved med at forsvare den",
+          "Trendlinjer tæller kun på dagsdiagrammer, aldrig på kortere"
+        ]
+      }
+    },
+    "59": {
+      "title": "Kanaler",
+      "desc": "Trendlinjer og kanaler: vognbanen",
+      "content": "En kanal er en trend med god opførsel. Prisen stiger, mens den hopper mellem to parallelle linjer: et gulv af stigende bunde og et loft af stigende toppe, der bevæger sig op sammen som siderne af en vognbane. Tradere holder øje med begge kanter for at se hop, og de holder endnu skarpere øje med den dag, prisen forlader vognbanen, for et rent brud ud af en kanal er ofte der, hvor den næste store bevægelse starter. 🛣️",
+      "quiz": {
+        "q": "Prisen stiger, mens den hopper mellem to parallelle linjer. Hvad er dette mønster?",
+        "options": [
+          "En trekant, hvor de to linjer skal mødes",
+          "En stigende kanal, en optrend med en synlig vognbane",
+          "En dobbelttop",
+          "En flad range, der slet ikke går nogen steder"
+        ]
+      }
+    },
+    "60": {
+      "title": "Dobbelttoppen",
+      "desc": "Diagrammønstre: M-formen",
+      "content": "Prisen brager ind i det samme loft to gange, fejler begge gange og tegner et stort M på diagrammet. Bryder den under dykket i midten (halslinjen), er dobbelttoppen fuldendt: et klassisk bearish vendingstegn. Dens spejlbillede, W'et, er dobbeltbunden, og den peger den anden vej. Den plejer at markere en top, men behøver ikke. Intet på et diagram behøver. Ⓜ️",
+      "quiz": {
+        "q": "Prisen bragede ind i det samme loft to gange, fejlede begge gange og brød så under dykket i midten. Hvad er denne form?",
+        "options": [
+          "En dobbeltbund, et bullish fingerpeg",
+          "En stigende kanal",
+          "En hammer",
+          "En dobbelttop, et bearish vendingstegn"
+        ]
+      }
+    },
+    "61": {
+      "title": "Når mønstre fejler",
+      "desc": "Diagrammønstre: sandsynligheder, ikke løfter",
+      "content": "Dette er den mest værdifulde lektion i modulet. Et lærebogsmønster blev dannet, alle så det, og så gjorde markedet det modsatte. Hvert mønster, du har lært, fejler en gang imellem, og det er ikke diagrammet, der lyver for dig, det er diagrammet, der giver dig information: den side, du satsede på, tabte lige. Beslut din exit, før du går ind, og når et mønster fejler, så tag hintet og kom ud. Mønstre er sandsynligheder, aldrig løfter. 🚪",
+      "quiz": {
+        "q": "En lærebogsdobbeltbund blev dannet ved det skraverede gulv... og så styrtede prisen lige igennem den. Hvad er den ærlige lektie?",
+        "options": [
+          "Mønstre er sandsynligheder, ikke løfter, og et fejlet mønster er dit signal til at komme ud",
+          "Ægte dobbeltbunde fejler aldrig, så den, du kiggede på, må have været falsk",
+          "Køb mere til den lavere pris, for mønsteret skal nok udspille sig på et tidspunkt",
+          "Diagrammer holder helt op med at virke, når et mønster har fejlet for dig på den måde"
+        ]
+      }
+    },
+    "62": {
+      "title": "Hoved og skuldre",
+      "desc": "Diagrammønstre: tre toppe",
+      "content": "Tre toppe: en højere i midten (hovedet), en lavere på hver side (skuldrene) og en linje under de to dyk, der kaldes halslinjen. Den dannes, når køberne klarer ét sidste, højere skub og så ikke engang kan matche det i næste forsøg. Formen alene er kun en advarsel. Det, tradere faktisk venter på, er et klart brud under halslinjen, for det er der, mønsteret holder op med at være en tegning og begynder at være en beslutning. 👤",
+      "quiz": {
+        "q": "Tre toppe: en højere i midten, en lavere på hver side og et gulv, der forbinder de to dyk. Hvad er denne klassiske form?",
+        "options": [
+          "En tredobbelt bund, tre lige lave bunde før et skub opad",
+          "Et hoved og skuldre, en mulig afslutning på optrenden",
+          "En stigende trekant",
+          "Tre hammere i træk, der hver især afviser lavere priser"
+        ]
+      }
+    },
+    "63": {
+      "title": "Trekantsklemmen",
+      "desc": "Diagrammønstre: den spændte fjeder",
+      "content": "Når udsvingene bliver ved med at skrumpe, med højere bunde, der presser op mod lavere toppe, spænder markedet sig op som en fjeder. Det er en trekant: begge sider er ved at løbe tør for plads, og en beslutning bliver tvunget frem. Klemmen ender ofte med et udbrud, og her er fælden: retningen på udbruddet kendes ikke på forhånd. Vent på bruddet i stedet for at gætte det. Markedet skal nok fortælle dig det, og det tager ikke noget for informationen. 🌀",
+      "quiz": {
+        "q": "Udsvingene bliver ved med at skrumpe og klemmer prisen ind i en strammere og strammere spiral, indtil den endelig bryder ud. Hvad var spiralen?",
+        "options": [
+          "En kanal, to parallelle linjer der aldrig nogensinde mødes",
+          "En dobbelttop",
+          "En trekant, en konsolidering der ofte ender med et udbrud",
+          "Bevis på at prisen var nødt til at bryde opad herfra"
+        ]
+      }
+    },
+    "64": {
+      "title": "Volumen: løgnedetektoren",
+      "desc": "Volumen: hvem der faktisk dukkede op",
+      "content": "Volumen er, hvor mange aktier der skiftede hænder, og det er diagrammernes løgnedetektor. Et udbrud på lille volumen er en hvisken, der narrer folk: en håndfuld handler skubbede prisen et sted hen, hvor den ikke kan blive. Et udbrud på stor volumen er en hel flok, der faktisk stemmer med penge. Samme prisbevægelse, helt forskellig betydning. Før du tror på en stor bevægelse, så tjek, hvem der dukkede op til den. 🔊",
+      "quiz": {
+        "q": "To flugtforsøg fra det samme loft: det første på lille volumen fejlede, det andet kom med enorm volumen og holdt. Hvad gør volumen her?",
+        "options": [
+          "Ingenting, volumen betyder aldrig noget for en prisbevægelse",
+          "Tvinger prisen op, da høj volumen skubber priserne højere",
+          "Forudsiger bevægelsens præcise top, før den sker",
+          "Fungerer som bekræftelse, stor volumen viser ægte overbevisning bag bevægelsen"
+        ]
+      }
+    },
+    "65": {
+      "title": "Trendgenkenderen",
+      "desc": "Ti diagrammer, ingen etiketter, ingen nåde",
+      "content": "Ti diagrammer. Ingen etiketter, ingen hjælpelinjer, ingen hints. Sig, hvad hvert enkelt viser, præcis som en rigtig trader, der stirrer på en rigtig skærm. Få 8 ud af 10, og modulet er dit. Du får 3 forsøg om dagen, så sæt farten ned, læs lysene, og husk den vigtigste lektie af dem alle: nogle gange er det ærlige svar, at der slet ikke er noget mønster. 🕯️",
+      "bossVictory": "Trendmodulet er erobret. Nu er det dig, der læser diagrammerne, ikke diagrammerne, der læser dig. 🕯️",
+      "bossQuestions": {
+        "0": {
+          "q": "Hvad viser dette diagram?",
+          "explanation": "Rodet med vilje. Fjern støjen, og hver svingtop slår stadig den forrige, og hvert dyk bunder stadig ud højere. Ægte trends ser sådan her ud, ikke som en trappe fra lærebogen.",
+          "options": [
+            "En nedtrend, lavere toppe og lavere bunde",
+            "En optrend, højere toppe og højere bunde",
+            "En sidelæns range",
+            "En dobbelttop"
+          ]
+        },
+        "1": {
+          "q": "Hvad skete der ved det lysende par af lys?",
+          "explanation": "Den røde krop opslugte hele den grønne krop lige efter en lang stigning. Det er bearish engulfing, der gør præcis det, den gør: dukker op, hvor køberne er mest strakt.",
+          "options": [
+            "En bullish engulfing",
+            "En doji på toppen",
+            "En hammer",
+            "En bearish engulfing på toppen af en stigning"
+          ]
+        },
+        "2": {
+          "q": "Hvad viser dette diagram?",
+          "explanation": "Den midterste top står tydeligt over de to på hver side, og dykkene ligger på linje som en halslinje. Ægte udgaver er aldrig symmetriske, og sådan her ser de faktisk ud i naturen.",
+          "options": [
+            "Et hoved og skuldre",
+            "En tredobbelt top med tre lige høje toppe",
+            "En stigende trekant",
+            "En stigende kanal"
+          ]
+        },
+        "3": {
+          "q": "Hvad viser dette diagram?",
+          "explanation": "To forsøg ned mod det samme gulv, det andet en smule mindre dybt, og så et skub op gennem hoppet i midten. W-formen, tegnet af et rigtigt marked i stedet for en lærebog.",
+          "options": [
+            "Et hoved og skuldre",
+            "En faldende trekant",
+            "En dobbeltbund",
+            "Et bear flag"
+          ]
+        },
+        "4": {
+          "q": "Hvad er det lysende lys?",
+          "explanation": "Lang øvre væge, lillebitte krop parkeret i bunden af udsvinget, lige efter en stigning. Køberne rakte ud efter en ny top og blev slået tilbage ned før lukning.",
+          "options": [
+            "En hammer",
+            "En grøn marubozu",
+            "En doji",
+            "Et stjerneskud efter en stigning"
+          ]
+        },
+        "5": {
+          "q": "Hvad viser dette diagram?",
+          "explanation": "Det samme gulv og det samme loft bliver ved med at blive respekteret, og alt derimellem er støj. Ingen side vinder, så der er ingen trend at ride på.",
+          "options": [
+            "En range, prisen er fanget mellem støtte og modstand",
+            "En optrend, højere toppe og højere bunde",
+            "En faldende kile",
+            "Et udbrud, der er i gang"
+          ]
+        },
+        "6": {
+          "q": "Prisen brød ud over det gamle loft, og så kom dykket ved pilen tilbage til det niveau og holdt. Hvad var dykket?",
+          "explanation": "Dykket vendte præcis tilbage til det niveau, der før var loftet, fandt købere der, og trenden fortsatte. Det er et pullback. En vending ville have skåret gennem niveauet og være blevet ved med at falde.",
+          "options": [
+            "En fuld vending til en nedtrend",
+            "Et pullback, en gentest af det brudte niveau",
+            "En dobbelttop",
+            "Et dead cat bounce"
+          ]
+        },
+        "7": {
+          "q": "Hvad viser dette diagram?",
+          "explanation": "Fladt gulv, lavere toppe der presser ned på det, sælgere der dukker op tidligere ved hvert hop. Gulvet gav til sidst efter, hvilket er det udfald, denne form ofte hælder mod. Ofte, aldrig altid.",
+          "options": [
+            "En stigende trekant",
+            "En stigende kanal",
+            "En faldende trekant, der læner sig op ad støtten",
+            "En dobbeltbund"
+          ]
+        },
+        "8": {
+          "q": "Hvad viser dette diagram?",
+          "explanation": "Fældespørgsmålet, og det mest værdifulde i bossen. De fleste diagrammer viser det meste af tiden intet, der er værd at handle på. At se mønstre, der ikke er der, er sådan, begyndere taber. At sige nej til en handel er en færdighed. 🎯",
+          "options": [
+            "Et hoved og skuldre",
+            "En dobbelttop",
+            "En optrend",
+            "Intet rent mønster, der er intet at handle på her"
+          ]
+        },
+        "9": {
+          "q": "Hvad viser dette diagram?",
+          "explanation": "Prisen stak op over loftet på svag volumen, køberne jagtede den, og så kollapsede den lige tilbage i rangen. Det fejlede udbrud er præcis grunden til, at volumenlektionen sagde, at du skal tjekke volumen, før du tror på et.",
+          "options": [
+            "En tyrefælde, et fejlet udbrud der suger købere ind",
+            "Et vellykket udbrud med en ren gentest",
+            "En dobbeltbund",
+            "En hammer-vending"
+          ]
+        }
+      }
+    },
+    "66": {
+      "title": "Her ejer du ingenting",
+      "desc": "Et derivat er et væddemål på et tal",
+      "content": "Alt, hvad du har lært indtil nu, havde noget bag sig. Køb en aktie i {retail}, og du ejer en bid af selskabet: en bid af butikkerne, en bid af overskuddet, en stemme på generalforsamlingen og udbytte, når de udbetaler det.\n\nEt derivat er ikke det.\n\nEn CFD (contract for difference, en differencekontrakt) er en aftale mellem dig og en udbyder om at bytte forskellen i en kurs mellem det tidspunkt, du åbner, og det tidspunkt, du lukker. Det er hele produktet. Hvis {retail} stiger, og du satsede på op, betaler de dig forskellen. Hvis den falder, betaler du dem. Ingen køber en aktie. Ingen sælger en aktie. Der findes ingen aktier nogen steder i handlen.\n\nEn future er en kontrakt om at købe eller sælge noget til en fast pris på en fast dato. Ægte futures afregnes i rigtige tønder olie eller tons majs, men næsten ingen beholder dem så længe, så i praksis er de fleste futures også et væddemål på et tal med en deadline sat på.\n\nHvorfor det betyder mere, end det lyder som:\n\n• Intet udbytte. Ingen Pengeunger. Det, der i stilhed byggede det meste af afkastet i lektion 15, er der simpelthen ikke her.\n• Ingen stemme, intet ejerskab, intet at holde på. Der er ingen \"bare behold den i ti år\"-mulighed, for der er intet at beholde.\n• Ingen renters rente. Resten af denne app bruger 65 lektioner på at lære dig, at tiden er på din side. I dette rum koster tiden dig penge. Du får at se præcis hvor meget i lektion 72.\n\nAlt, hvad du allerede ved, betyder stadig noget. Det er bare ikke længere det, du laver. 📄",
+      "quiz": {
+        "q": "Du åbner en CFD på {retail}, og kursen stiger. Hvad ejer du egentlig?",
+        "explanation": "En CFD er en aftale mellem dig og udbyderen om at bytte forskellen mellem kursen, da du åbnede, og kursen, når du lukker. Ingen køber en aktie, ingen sælger en, og der findes ingen nogen steder i aftalen. Derfor er der intet udbytte, ingen stemme og intet at beholde i ti år.",
+        "options": [
+          "Aktier, som udbyderen har i sit eget navn",
+          "En kontrakt om at bytte kursforskellen til sidst",
+          "En del af selskabet og det udbytte, der følger med",
+          "En voucher, der bliver til rigtige aktier, når du lukker"
+        ]
+      }
+    },
+    "67": {
+      "title": "At låne af en ven",
+      "desc": "Hvad gearing egentlig er, og den del ingen poster",
+      "content": "Gearing lyder teknisk. Det er det ikke. Det er at låne.\n\nLad os sige, du vil have aktier for {c}1,000, men du har kun {c}200. En ven tilbyder at lægge de andre {c}800. Du styrer aktier for {c}1,000 med {c}200 af dine egne penge. Det er gearing. Det er hele idéen.\n\nNu de tre ting, den ven gør. Du skal kende alle tre, ellers har du fået solgt et eventyr.\n\n1️⃣ GEVINSTEN ER VIRKELIG DIN. Aktierne stiger 10%. Dine {c}1,000 er nu {c}1,100. Det er {c}100 i gevinst, og du beholder hver eneste øre, for din ven skal have {c}800 og ikke én {cName} mere. På dine egne {c}200 er {c}100 en gevinst på 50%. En bevægelse på 10% gav dig 50%. Det er den del, alle poster om.\n\n2️⃣ LÅNET SKRUMPER IKKE, NÅR DU TAGER FEJL. Det er den del, ingen poster om, og det er hele lektionen. Aktierne falder i stedet 10%. Dine {c}1,000 er nu {c}900. Du skylder stadig din ven de fulde {c}800. Ikke {c}720. De fulde {c}800. Så hele faldet på {c}100 kommer ud af DIN del, og dine {c}200 er nu {c}100. En bevægelse på 10% kostede dig 50%.\n\nLæs de to igen. Samme ven, samme 10%. Dine penge bevæger sig fem gange så hurtigt i begge retninger, fordi lånet aldrig tager sin del af smerten.\n\n3️⃣ VENNEN TAGER HUSLEJE, HVER DAG, AF DET HELE. Ikke af deres {c}800. Af hele de {c}1,000, du styrer. Hver nat du beholder den, uanset om kursen gik op, ned eller ingen steder.\n\nOg der gemmer sig en fjerde ting inde i den tredje. Hvis dine {c}200 er ved at slippe op, ringer din ven ikke til dig for at snakke om det. De sælger. Med det samme, automatisk, til den pris der er, fordi det er deres {c}800, der er på spil, og de venter ikke på din mening. Det har et navn, og du møder det om tre lektioner: likvidation.\n\nAltså: større gevinster, større tab, husleje hver nat og en andens finger på sælg-knappen. Gearing er ikke gratis penge med lidt risiko på. Det er et lån med alle fire ting på, og reklamerne viser dig kun den første. 🧠",
+      "quiz": {
+        "q": "En ven lægger 800 NT, du lægger 200 NT, og sammen styrer I aktier for 1,000 NT. Aktierne falder 10%. Træk til det, dine egne 200 NT er værd nu.",
+        "explanation": "Lånet skrumper ikke, når du tager fejl. Aktierne er nu 900 NT værd, og din ven skal stadig have de fulde 800 NT, så 100 NT er det, der er tilbage til dig. Et fald på 10% i aktierne tog halvdelen af dine penge, fordi lånet ikke tager noget af smerten. Det virker på samme måde opad, og det er den halvdel, reklamerne viser dig."
+      }
+    },
+    "68": {
+      "title": "Margin er et depositum, ikke et køb",
+      "desc": "De penge, du lægger, er ikke brugt, de er på spil",
+      "content": "Når du køber en aktie for {c}100, er de {c}100 væk fra dine kontanter, og der ligger en aktie på din konto. Et simpelt bytte.\n\nMargin virker ikke sådan. Når du åbner en gearet position, lægger du et depositum, og det depositum er ikke betaling for noget. Det er en sikkerhed mod dine egne tab. Det ligger der, låst, og positionen spiser af det, når kursen bevæger sig imod dig.\n\nLad os sige, depositumsatsen er 25%. Du lægger 250 NT og styrer en eksponering på 1,000 NT. Hold øje med din konto:\n\n• Kursen står stille: dine 250 er stadig 250. Bortset fra at finansieringen er gået i gang, så det er stille og roligt mindre.\n• Kursen falder 5%: positionen har tabt 50 NT. Dit depositum er reelt 200. Dine frie kontanter har ikke rørt sig. Din konto er mindre.\n• Kursen falder 20%: positionen har tabt 200 NT. Dit depositum er nede på 50. Du gjorde ingenting. Du solgte ikke noget. Du kiggede bare på.\n\nTre begreber, der står på hver skærm i dette rum:\n\n🔒 BRUGT MARGIN: alle de depositummer, du har stillet lige nu.\n💰 EGENKAPITAL: dine frie kontanter plus din stillede margin plus eller minus gevinst og tab på hver åben position minus den finansiering, der er trukket indtil nu. Det, din konto faktisk er værd, hvis alt blev lukket lige nu.\n📊 MARGINNIVEAU: egenkapital divideret med brugt margin. Over 100% har du en buffer. Under 100% har markedet brugt bufferen op og er begyndt på depositummet.\n\nOg én regel, der overrasker alle: margin måles på hele din konto, ikke pr. position. En tabende position spiser af den sikkerhed, der holder en vindende oppe. Derfor er \"min anden handel går fint\" ikke et forsvar. 🔒",
+      "quiz": {
+        "q": "Depositumsatsen er 25%, så 250 NT af dine egne penge styrer en eksponering på 1,000 NT. Kursen falder 8%, mens du ikke gør noget som helst. Træk til, hvor meget det fald har kostet dig.",
+        "explanation": "Et depositum er ikke betaling for noget, det er sikkerhed, og tabet regnes ud på hele de 1,000 NT, du styrer. 8% af 1,000 NT er 80 NT. Du solgte ikke noget, og dine frie kontanter har ikke rørt sig, men 80 NT af dit depositum på 250 NT er spist, og din konto er 80 NT mindre. Regner du i stedet de 8% ud på depositummet, får du 20 NT, og det er den fejl, der får gearing til at se mild ud."
+      }
+    },
+    "69": {
+      "title": "Margin call",
+      "desc": "Et krav, ikke en advarsel",
+      "content": "Et margin call er det øjeblik, dit marginniveau falder under 100%. Sagt ligeud: din gevinstbuffer er brugt op, og markedet er begyndt at spise af selve depositummet.\n\nSådan føles det faktisk, for lærebogsversionen overser den vigtige del.\n\nDet kommer aldrig på en god dag. Det kommer, når positionen allerede ser grim ud, når du allerede to gange har sagt til dig selv, at den nok kommer tilbage, og når du er mindst i stand til at træffe en rolig beslutning. Det er ikke en høflig besked. Det er et krav: sæt flere penge ind, eller luk positioner, ellers gør udbyderen det for dig.\n\nDu har tre træk, og kun to af dem er dine.\n\n1️⃣ LUK noget. Det frigør margin med det samme, og det er næsten altid det rigtige svar. Det betyder også, at du indrømmer, at du tog fejl, og det er den egentlige grund til, at folk ikke gør det.\n2️⃣ SÆT penge ind. Det løser ingenting. Det køber dig plads til at tage fejl i længere tid, på en position du allerede valgte dårligt, med penge du ikke havde planlagt at risikere. At sætte kontanter ind ved et margin call er sådan, en dårlig handel bliver til en dårlig måned.\n3️⃣ GØR INGENTING. Så sker det tredje træk uden dig, og det har et navn.\n\nMyndighederne tager det så alvorligt, at de har skrevet et tal ind i loven. Firmaer i Europa, Storbritannien og Australien skal automatisk lukke en privatkundes positioner, når deres margin falder til 50% af det krævede. Ikke \"bør\". Skal. De skrev den regel, fordi folk, der fik lov at bestemme selv, valgte mulighed 3 og tabte mere, end de havde. ⚠️",
+      "quiz": {
+        "q": "Dit marginniveau er faldet til 80%, og du er i et margin call. Hvilken reaktion mindsker faktisk risikoen for likvidation i stedet for bare at udskyde den?",
+        "explanation": "At lukke giver dig depositummet tilbage med det samme, så marginniveauet springer op med det samme. At sætte kontanter ind køber kun plads til at tage fejl i længere tid på en handel, du allerede valgte dårligt. At vente er sådan, likvidation sker. Og en ekstra position i den modsatte retning kræver sit eget depositum, så den bruger mere margin, ikke mindre.",
+        "options": [
+          "At sætte flere kontanter ind på kontoen",
+          "At vente på, at marginniveauet stiger igen",
+          "At lukke en af de positioner, du har åbne",
+          "At åbne en ekstra position i den modsatte retning"
+        ]
+      }
+    },
+    "70": {
+      "title": "Likvidation, og den kurs du bør kende først",
+      "desc": "Den præcise kurs, hvor din konto rammer nul",
+      "content": "Likvidation er, når udbyderen lukker dine positioner for dig, fordi dit depositum næsten er brugt op. Det er automatisk. Det sker med det samme. Ingen spørger om din mening, ingen tjekker, om du var lige ved at få ret, og der er ingen klagemulighed.\n\nDet allermest nyttige tal i hele dette modul er din LIKVIDATIONSKURS: den faktiske kurs, i faktiske {cPlural}, hvor det sker.\n\nIkke en procentsats. En kurs. For \"du kan miste dit depositum\" er en sætning, du kan nikke til og glemme, mens \"{tech} på {c}87.40, og din konto er tom\" er et faktum, du kan tjekke mod diagrammet, før du trykker på noget.\n\nHver skærm i dette rum viser den, før du bekræfter, tegnet på samme kursskala som diagrammet, så du kan se, hvor langt væk den egentlig er. To ting, du lægger mærke til med det samme, og begge er lektionen:\n\n📏 Et større depositum skubber likvidationskursen længere væk. Flere af dine egne penge betyder, at kursen skal falde længere, før dine penge slipper op.\n⚡ Et mindre depositum trækker den helt op ved siden af dagens kurs. Ved et depositum på 10% er likvidation cirka en bevægelse på 10% væk, og en bevægelse på 10% er en helt almindelig uge.\n\nSå er der den ærlige hage. Likvidationskursen er der, hvor systemet har tænkt sig at lukke dig, ikke der, hvor du er garanteret at komme ud. Hvis dårlige nyheder lander natten over, og markedet åbner langt under det niveau, bliver du lukket til den pris, markedet faktisk vil betale. Det er et gap, og lektion 78 handler om det.\n\nKend din likvidationskurs, før du åbner. Hvis du ikke kan sige den højt, forstår du ikke den handel, du er ved at lave. 💀",
+      "quiz": {
+        "q": "Du lægger 200 NT i depositum for at styre 1,000 NT af et aktiv, der koster 100 NT. Træk kursen ned til det sted, hvor dit depositum er væk.",
+        "explanation": "Du styrer 10 enheder, så hver 1 NT, kursen falder, koster dig 10 NT. Dit depositum på 200 NT er væk ved 80 NT, hvilket kun er et fald på 20%."
+      }
+    },
+    "71": {
+      "title": "Vejen tilbage er stejlere",
+      "desc": "Hvorfor tab er sværere at hente, end de ser ud",
+      "content": "Tab og gevinster føles som modsætninger. Det er de ikke, og matematikken er ikke engang tæt på.\n\nTaber du 10%? Så skal du have +11% for at komme tilbage. Irriterende, men okay.\nTaber du 50%? Så skal du have +100%. Du skal FORDOBLE bare for at gå i nul.\nTaber du 75%? Så skal du have +300%.\nTaber du 90%? Så skal du have +900%.\n\nGrunden er enkel, når du først ser den: gevinsten regnes ud på den mindre bunke, du har tilbage. 100 falder til 50, og for at klatre fra 50 tilbage til 100 skal den mindre bunke fordobles.\n\nTilføj nu gearing, og læg mærke til, hvad det egentlig gør. Det gør ikke bare dine gevinster hurtigere. Det flytter dig ned ad den tabel på en enkelt eftermiddag. Et fald på 12% i en aktie, som er en dårlig, men helt normal uge, er et slag på 48% for din konto ved et depositum på 25%. Nu skal du have +92% for at være tilbage, hvor du startede, efter en uge, der knap nok kom i nyhederne.\n\nDerfor taler professionelle om at beskytte kapitalen, før de taler om noget andet, og derfor er \"jeg skal nok hente det igen\" den dyreste sætning i trading. At hente det igen er regnemæssigt sværere, end det var at tabe det, hver eneste gang. ⛰️",
+      "quiz": {
+        "q": "Din konto er nede 75%. Træk til den gevinst, du har brug for herfra, bare for at komme tilbage til, hvor du startede.",
+        "explanation": "100 NT faldt til 25 NT. For at nå 100 igen skal de 25 firedobles, hvilket er en gevinst på 300%. Klatringen måles på den mindre bunke, du har tilbage, og derfor er den så meget stejlere, end faldet var."
+      }
+    },
+    "72": {
+      "title": "Husleje på lånte penge",
+      "desc": "Ret om retningen, men stadig i minus på handlen",
+      "content": "Du lånte eksponeringen. Så du betaler for den. Hver nat.\n\nFinansiering (nogle steder kaldet en swap eller et overnatningsgebyr) trækkes dagligt, og her er den del, der fanger alle: den trækkes af HELE positionen, ikke af den del, du lånte. Læg 500 NT for at styre 2,000 NT, og du betaler husleje af 2,000.\n\nSådan regnes den ud: en referencerente plus udbyderens tillæg, divideret med 365, gange hele din position. Du ser begge halvdele på skærmen i denne app, for et gebyr, du ikke kan dele op, er et gebyr, du ikke kan vurdere. Ved cirka 7.3% om året bliver det til omkring 0.02% af din position pr. nat.\n\nLyder som ingenting. Se nu, hvordan det æder en vindende handel. 🧾\n\nHANDLEN, DU HAR RET I OG ALLIGEVEL TABER\n\nDu åbner en position på 2,000 NT i {retail} med et depositum på 500 NT. Du tror på stigning, og du får ret: over de næste par måneder glider {retail} 2% OP.\n\n• Din gevinst: 2% af 2,000 = 40 NT. På et depositum på 500 NT er det +8%. Fedt.\n• Din husleje: 0.02% af 2,000 = 0.40 NT, hver nat.\n\nNat 50: du har betalt 20 NT. Du er samlet 20 NT oppe. Vinder stadig.\nNat 100: du har betalt 40 NT. Din gevinst på 40 NT er nu præcis nul værd. Du havde ret og har tjent ingenting.\nNat 180: du har betalt 72 NT. Din gevinst er stadig 40 NT. Du er 32 NT i MINUS, hvilket er minus 6.4% af dit depositum, på en handel hvor du læste markedet rigtigt i seks måneder.\n\nLæs det igen. Kursen gjorde, hvad du sagde, den ville. Du tabte alligevel.\n\nDet er sætningen, du skal tage med fra denne lektion: på en gearet position har det at have ret en udløbsdato. I dette eksempel er den 100 nætter væk, og du kan regne din egen ud, før du åbner. Divider den gevinst, du håber på, med huslejen pr. nat. Så mange nætter er din mening værd.\n\nDet modsatte er også værd at bemærke. Resten af denne app lærer dig om renters rente, hvor tiden stille og roligt tjener penge til dig, mens du sover. Det her er den samme maskine, der kører baglæns, rettet mod dig. ⏳",
+      "quiz": {
+        "q": "Du har en gearet position på 2,000 NT, der koster 0.40 NT pr. nat i finansiering. Kursen stiger nok til at give dig en gevinst på 40 NT og står så stille. Efter hvor mange nætter er den gevinst helt ædt op?",
+        "options": [
+          "Den bliver aldrig ædt op, fordi finansiering kun trækkes af den lånte del",
+          "Cirka 100 nætter, fordi 40 NT i gevinst divideret med 0.40 NT pr. nat er 100",
+          "Cirka 20 nætter, fordi finansiering trækkes af dit depositum på 500 NT",
+          "Finansiering trækkes kun, når en position lukkes med tab"
+        ]
+      }
+    },
+    "73": {
+      "title": "Futures: uret og rollover",
+      "desc": "Samme omkostning, leveret på en anden måde",
+      "content": "Futures og CFD'er er fætre. Begge er gearede, begge bruger margin, begge kan likvidere dig. To ting gør futures anderledes, og den anden er den interessante.\n\n⏰ 1. DER STÅR EN DATO PÅ. Hver futureskontrakt udløber. Marts-olie, juni-majs, september-indeks. Når datoen kommer, afregnes kontrakten og holder op med at eksistere. \"Behold den og vent på, at den kommer tilbage\" er simpelthen ikke på menuen, for kontrakten er der ikke. En CFD udløber aldrig, hvilket lyder bedre, indtil du husker, at den tager husleje for evigt.\n\n🔄 2. OMKOSTNINGEN ER BYGGET IND I PRISEN, IKKE OPKRÆVET HVER NAT. Det er den del, folk overser. En future opkræver som regel ikke et finansieringsgebyr hver nat. I stedet er omkostningen ved at holde tingen frem til datoen allerede bagt ind i kontraktens pris. Kontrakter med senere datoer koster ofte mere end kontrakter med tidligere datoer, og den forskel er den samme bæreomkostning, der ligger gemt inde i tallet.\n\nSå hvad sker der, når en trader vil beholde positionen efter udløb? De RULLER: lukker den udløbende kontrakt og åbner den næste. Og hvis den næste er dyrere, betaler de forskellen. Ved hver rollover. Det er CFD'ens husleje pr. nat, opkrævet i større, sjældnere rater.\n\nDen ærlige opsummering:\n\n• CFD: ingen deadline, husleje hver nat, specificeret på din kontoudskrift.\n• Future: hård deadline, omkostningen gemt i prisen og betalt ved hver rollover, nem at overse.\n\nIngen af dem er gratis. Den ene præsenterer bare regningen mere høfligt, og en omkostning, du ikke kan se, er den, der mest sandsynligt overrasker dig. ⏳",
+      "quiz": {
+        "q": "En trader vil beholde en futuresposition efter udløbsdatoen, og den næste kontrakt handles dyrere end den, der udløber. Hvad sker der, når de ruller?",
+        "explanation": "At rulle betyder at lukke den kontrakt, der er ved at udløbe, og åbne den næste. Hvis den næste koster mere, betaler du den forskel, og det gør du igen ved hver rollover. Det er den samme holdeomkostning, som en CFD opkræver hver nat, bare samlet i større klumper og gemt i prisen i stedet for at stå på din kontoudskrift.",
+        "options": [
+          "De betaler forskellen mellem den udløbende kontrakt og den næste",
+          "De får udbetalt forskellen mellem de to kontraktpriser",
+          "Ingen penge skifter hænder, da en rollover er én enkelt handel",
+          "Positionen bliver til en CFD og kører videre uden udløbsdato"
+        ]
+      }
+    },
+    "74": {
+      "title": "At gå short: tabet uden bund",
+      "desc": "Hvorfor væddemålet på fald ikke har noget naturligt loft",
+      "content": "Alt i denne app har indtil nu været long: du køber, du vil have kursen til at stige. Derivater lader dig gå short, hvilket betyder at satse på, at kursen falder. Du åbner en short, kursen falder, du tjener.\n\nShorting er virkelig nyttigt, og det er ikke ondt. Det er sådan, en landmand låser en pris fast før høsten, og sådan en fond beskytter en portefølje. At forstå det gør dig bedre til at læse markeder, for for første gang kan du se begge sider af hver handel.\n\nMen der er ét stykke regnestykke i shorting, som ikke findes nogen andre steder, og det skal brændes ind.\n\n📉 NÅR DU KØBER, er dit værste scenarie, at kursen går til nul. Du taber 100% af det, du satte ind. Forfærdeligt, men det er et gulv. Der er en bund.\n📈 NÅR DU SHORTER, betyder det, at kursen går imod dig, at kursen går OP. Og der er ingen regel nogen steder, der siger, hvor højt en kurs må gå. En aktie, der tredobles, koster dig 200% af positionen. En aktie, der stiger til ti gange, koster dig 900%.\n\nTab på long har et gulv. Tab på short har ikke. Den asymmetri er hele advarslen.\n\nRigtige markeder gør det her. En gang imellem eksploderer en aktie, som mange er short i, fordi alle, der er short, er tvunget til at købe for at lukke, hvilket skubber kursen højere, hvilket tvinger flere af dem til at købe. Det kaldes et short squeeze, og det har lukket fonde.\n\nTo ting holder dig i live. For det første er en short præcis der, hvor et stop-loss holder op med at være valgfrit. For det andet beskyttelse mod negativ saldo: på en ordentligt reguleret privatkonto, og i denne app, kan din konto ikke gå under nul. Du kan tabe alt, hvad du satte ind. Du kan ikke ende med at skylde penge. Den beskyttelse findes, fordi folk gjorde det, før den kom. 🕳️",
+      "quiz": {
+        "q": "Hvorfor er det værste scenarie på en short position en helt anden slags end det værste scenarie på en long position?",
+        "explanation": "At købe har et gulv. Det værste, en kurs kan gøre, er at nå nul, så du taber det, du satte ind, og ikke mere. Shorting er omvendt, for at tabe betyder, at kursen stiger, og intet siger, hvor højt en kurs må gå. En aktie, der tredobles, koster en short-sælger to gange positionen. Derfor holder et stop op med at være valgfrit på en short, og derfor kan denne app ikke tage dig under nul.",
+        "options": [
+          "Det er ikke anderledes, da begge er begrænset til det, du satte ind",
+          "Et stop-loss sætter det samme gulv under en short som under en long",
+          "Fald er langsommere end stigninger, så en short taber langsommere",
+          "En kurs kan kun falde til nul, men den kan stige uden grænse"
+        ]
+      }
+    },
+    "75": {
+      "title": "Volatilitet gange gearing",
+      "desc": "Hvorfor krypto kræver det største depositum her",
+      "content": "Den samme gearing på to forskellige aktiver er ikke det samme væddemål. Det er hele idéen i denne lektion, og det er derfor, det depositum, du skal lægge, ændrer sig alt efter, hvad du handler.\n\nTænk over, hvordan en normal dag ser ud:\n• Et stort indeks bevæger sig under 1% de fleste dage.\n• En enkelt aktie bevæger sig måske 2% eller 3%.\n• Krypto bevæger sig jævnligt 5% eller 10%, og en dag med 20% er ikke en krise, det er en tirsdag. 🎢\n\nSæt nu et lille depositum bag hver af dem. Ved et depositum på 10% udsletter en bevægelse på 10% dig. For indekset er det noget, der sker med års mellemrum. For krypto sker det cirka hver måned. Samme depositum. Helt forskellige chancer for at overleve.\n\nMyndighederne regnede det ud og skrev det ind i reglerne. Da ESMA begrænsede gearingen på CFD'er i hele Europa i marts 2018, valgte de ikke ét tal. De lavede trin: 30:1 på store valutapar, 20:1 på guld og store indeks, 10:1 på andre råvarer, 5:1 på enkeltaktier og helt i bunden 2:1 på krypto. To til én betyder et depositum på 50%. For krypto krævede de HALVDELEN af positionen i rigtige penge, den strengeste sats på hele listen.\n\nDenne app gør det samme, af samme grund, og siger det på skærmen i stedet for at skjule det:\n\n💱 Valuta: det mindste depositum, fordi store valutapar bevæger sig mindst.\n🥇 Guld og råvarer: større.\n📊 Aktier, indeks og ETF'er: endnu større.\n🪙 Krypto: det største depositum af alle, fordi krypto bevæger sig voldsomst.\n\nKrypto er ikke forbudt her, og det er med vilje. Du kan handle det. Du kan bare ikke handle det med et tyndt depositum, for med et tyndt depositum ville en helt almindelig kryptodag lukke din konto, før du var færdig med at læse om det. Det større depositum er ikke appen, der er sær omkring krypto. Det er appen, der sørger for, at en normal dag ikke kan slå dig ihjel.\n\nVærd at vide: den britiske myndighed gik længere end et trin. I 2021 forbød den kryptoderivater for privatkunder helt og anslog, at forbrugerne ville spare omkring £53m. Du kan møde kryptogearing her, med legepenge og et fedt depositum, eller du kan møde den som 18-årig med rigtige penge og ingen advarsel overhovedet. Det her er den bedste rækkefølge. 🌡️",
+      "quiz": {
+        "q": "Krypto kræver det største depositum af alle aktiver i dette rum. Hvad er den egentlige grund?",
+        "explanation": "Et stort indeks bevæger sig under 1% de fleste dage. Krypto bevæger sig jævnligt 5% eller 10%, og en dag med 20% er ikke en krise, det er en tirsdag. Med et tyndt depositum udsletter en bevægelse på 10% dig, hvilket sker med års mellemrum for indekset og cirka hver måned for krypto. Europas myndighed krævede halvdelen af positionen i rigtige penge for krypto, den strengeste sats på hele listen, præcis af den grund.",
+        "options": [
+          "Under 18-årige har forbud mod krypto, så depositummet er en straf",
+          "Der trækkes ingen finansiering på krypto, så depositummet erstatter den",
+          "Den bevæger sig voldsomst, så en almindelig dag kan tømme et tyndt depositum",
+          "Appen sætter selv kryptokurserne i stedet for markedet"
+        ]
+      }
+    },
+    "76": {
+      "title": "Tallene, ingen reklamerer med",
+      "desc": "Hvad myndighederne fandt, da de talte efter",
+      "content": "Du kommer aldrig til at se disse tal i en reklame. De kommer fra finansielle tilsynsmyndigheder, som kan kræve de faktiske kontodata fra firmaerne og derefter offentliggør, hvad de fandt.\n\n🇪🇺 ESMA, den europæiske myndighed, marts 2018. På tværs af EU-landene taber mellem 74% og 89% af privatkunders CFD-konti penge. De gennemsnitlige tab pr. kunde lå fra €1,600 til €29,000. ESMA begrænsede produktet på baggrund af det.\n\n🇬🇧 FCA i Storbritannien, december 2016. Dens analyse af et repræsentativt udsnit af kundekonti viste, at 82% af kunderne tabte penge på disse produkter.\n\n🇦🇺 ASIC i Australien, offentliggjort januar 2026, den nyeste af de tre. I regnskabsåret 2024 tabte 68% af private CFD-investorer penge, i alt mere end A$458 million. Af det var A$73 million gebyrer.\n\nTænk lige over den sidste linje et øjeblik. 73 millioner af det var ikke engang dårlige handler. Det var prisen for at spille: spreadet på vej ind og den finansiering, du mødte i lektion 72.\n\nTre forskellige myndigheder, tre forskellige lande, data fra tre forskellige årtier, og svaret lander igen og igen et sted mellem to tredjedele og ni tiendedele.\n\nNu den del, der betyder mest, for det er den, der forhindrer det her i at være en skræmmestatistik. De mennesker var ikke dumme. De var ikke dovne. De var for det meste voksne med job, og mange af dem læser et diagram bedre, end du gør lige nu. De tabte på grund af den måde, produktet er bygget på: du starter bagud med spreadet, du betaler husleje, mens du venter, og gearing betyder, at en almindelig bevægelse kan lukke dig, før din mening har nået at få ret.\n\nDet er en struktur, ikke en karakterbrist. Og strukturer kan kun slås af folk, der ved, at de er der. 📊",
+      "quiz": {
+        "q": "Myndigheder i Europa, Storbritannien og Australien fandt hver især, at de fleste private CFD-konti taber penge. Hvad er den ærlige forklaring?",
+        "explanation": "Det var almindelige voksne med job, og mange af dem læser et diagram bedre, end du gør i dag. De tabte på grund af den måde, produktet virker på: du starter bagud med spreadet, du betaler husleje hver nat, mens du venter, og gearing betyder, at en normal bevægelse kan lukke dig, før din vurdering har nået at få ret. Det er en struktur, ikke en karakterbrist, og strukturer kan slås af folk, der ved, at de er der.",
+        "options": [
+          "Den måde, produktet er bygget på, arbejder imod kunden",
+          "Dem, der tabte, var uforsigtige, og forsigtige tradere klarer sig fint",
+          "Konkurrerende firmaer offentliggjorde tallene som et marketingangreb",
+          "Tab i den størrelse kommer fra uregulerede lande"
+        ]
+      }
+    },
+    "77": {
+      "title": "Hvad der skete, da reglerne ændrede sig",
+      "desc": "Bevis på, at det var designet, ikke folkene",
+      "content": "Lektion 76 gav dig tabene. Denne lektion giver dig eksperimentet, og det er det vigtigste i hele dette modul.\n\nHvis de fleste taber, fordi de fleste er hensynsløse, så burde det ikke ændre noget at ændre reglerne. De hensynsløse forbliver hensynsløse. Ikke?\n\nAustralien lavede testen. I marts 2021 tvang ASIC en række beskyttelser ned over alle CFD-firmaer med privatkunder: lofter over gearing, en standardregel for automatisk lukning, beskyttelse mod negativ saldo og et forbud mod lokkemidler som tilmeldingsbonusser. Samme kunder. Samme firmaer. Samme markeder. Kun reglerne ændrede sig.\n\nHer er, hvad ASIC målte i de første seks måneder. 🔬\n\n📉 Privatkontiernes samlede nettotab faldt 91%, fra i gennemsnit A$372 million pr. kvartal til A$33 million.\n📉 51% færre private konti med tab pr. kvartal.\n📉 87% færre tvangslukninger på grund af margin.\n📉 88% færre tilfælde af negativ saldo.\n\nIngen blev klogere på seks måneder. Designet ændrede sig, og ni tiendedele af skaden forsvandt med det.\n\nTo ting følger af det, og du skal tage begge med dig.\n\nFor det første: når du taber på en gearet handel, var meget af det, der skete for dig, bygget ind i produktet, før du kom. Det er ikke en tilladelse til at være uforsigtig. Det er en grund til at have respekt for tingen.\n\nFor det andet, og det er den nyttige halvdel: de beskyttelser, der gjorde arbejdet, er præcis de vaner, dette modul har lært dig. En mindre position. En automatisk exit. Et hårdt gulv under skaden. En myndighed måtte tvinge dem ned over en hel branche for at få de 91%. Du kan bare vælge dem. 🛡️",
+      "quiz": {
+        "q": "Efter at Australien tvang lofter over gearing og automatiske lukninger ned over CFD-firmaerne, faldt privatkundernes tab 91% på seks måneder. Hvad viser det?",
+        "explanation": "Samme kunder, samme firmaer, samme markeder. Kun reglerne ændrede sig, og ni tiendedele af skaden forsvandt med dem. Ingen blev klogere på seks måneder. De beskyttelser, der gjorde arbejdet, er de vaner, dette modul bliver ved med at lære dig: en mindre position, en automatisk exit og et hårdt gulv under skaden. En myndighed måtte tvinge dem ned over en hel branche. Du kan helt enkelt vælge dem.",
+        "options": [
+          "Australske tradere er mere disciplinerede end europæiske",
+          "Gearing bliver sikkert, så snart en myndighed holder øje med det",
+          "Reglerne fik folk til at holde op med at handle, så der var intet at tabe",
+          "Det meste af skaden kom fra den måde, produktet var designet på"
+        ]
+      }
+    },
+    "78": {
+      "title": "Gappet, der springer over dit stop",
+      "desc": "Et stop er en instruks om at forlade, ikke en lovet pris",
+      "content": "Du har allerede mødt stop-loss i lektion 19. Her er, hvad gearing gør ved dem.\n\nEt stop-loss er en instruks: \"hvis kursen når dette niveau, så få mig ud.\" Det er ikke en kontrakt om den pris, du får. Det siger: forlad. Det siger ikke: forlad præcis her.\n\nDet meste af tiden betyder den forskel ikke noget, for kurserne bevæger sig i små skridt, og din ordre bliver udført tæt på dit niveau. Men en gang imellem betyder det enormt meget.\n\n📰 Markeder lukker. Nyheder lander kl. 23. Markedet åbner 8% lavere, end det lukkede, og der blev aldrig handlet til nogen af kurserne derimellem. Dit stop lå i det gap. Det udløses ved åbningen og udføres der, hvor markedet faktisk er, hvilket er et godt stykke forbi det niveau, du valgte.\n\nUden gearing er det en dårlig dag. Med gearing kan det være hele kontoen, for hvis dit depositum var tyndere end gappet, går gappet også lige igennem din likvidationskurs, og du bliver lukket under det niveau, systemet havde tænkt sig.\n\nTre ting at gøre med det her, og ingen af dem er komplicerede:\n\n1️⃣ Se ikke et stop som en garanti. Se det som en rigtig god vane med én kendt svaghed.\n2️⃣ Vid, hvornår dit marked er lukket, og hvad der er planlagt. Regnskaber, rentebeslutninger og valg er gaps med en aftale i kalenderen.\n3️⃣ Vælg en størrelse, så et gap ikke kan lukke dig. Det er det rigtige forsvar, og det er næste lektion. Et stop beskytter dig mod det almindelige. Positionsstørrelsen beskytter dig mod det usædvanlige, og det usædvanlige er det, der faktisk tømmer folk.\n\nOg det er værd at vide, at i denne app, som på enhver ordentligt reguleret privatkonto, betyder beskyttelse mod negativ saldo, at et gap ikke kan tage dig under nul. Du kan miste kontoen. Du kan ikke ende med at skylde. 📰",
+      "quiz": {
+        "q": "Du sætter et stop-loss på {c}90. Natten over lander dårlige nyheder, og markedet åbner på {c}78 uden at have handlet derimellem. Hvad sker der?",
+        "explanation": "Et stop er en instruks om at forlade, ikke et løfte om den pris, du får. Markedet handlede aldrig mellem {c}90 og {c}78, så der var ingen {c}90 tilbage at sælge til. Dit stop udløses ved åbningen og udføres der, hvor markedet faktisk er. Stop beskytter dig stadig mod almindelige bevægelser. Forsvaret mod et spring som dette er positionens størrelse, ikke stoppet.",
+        "options": [
+          "Dit stop udføres på {c}90, præcis hvor du satte det",
+          "Du bliver udført tæt på {c}78, den første pris der tilbydes",
+          "Ordren annulleres, fordi kursen sprang over den",
+          "Udbyderen betaler dig de {c}12, markedet sprang over"
+        ]
+      }
+    },
+    "79": {
+      "title": "Størrelsen først, så handlen",
+      "desc": "Beslut, hvad du kan tabe, før du beslutter, hvad du køber",
+      "content": "Her er det, der adskiller dem, der holder, fra dem, der ikke gør, og det er næsten kedeligt.\n\nBegyndere vælger handlen og regner så ud, hvor meget de skal sætte ind. Professionelle gør det baglæns. De beslutter først, hvad de er villige til at tabe, og lader det afgøre, hvor stor positionen må være.\n\nReglen, de fleste bruger: risikér 1% til 2% af kontoen på en enkelt handel. Ikke indsæt 1%. RISIKÉR 1%, altså det, du faktisk taber, hvis dit stop bliver ramt.\n\nSådan virker det, i tre trin:\n\n1️⃣ Vælg dit maksimale tab. En konto på 10,000 NT, du risikerer 1%, altså 100 NT.\n2️⃣ Vælg, hvor du tager fejl. Du går ud, hvis kursen falder 5% fra din indgang.\n3️⃣ Divider. 100 NT acceptabelt tab ved en stopafstand på 5% betyder en position på 2,000 NT. Det er din størrelse. Ikke en følelse. En udregning.\n\nÆndr stoppet, og størrelsen ændrer sig automatisk. Et strammere stop på 2% lader dig køre 5,000 NT. Et bredere stop på 10% tvinger dig ned på 1,000 NT. Jo mere risikabel handlen er, jo mindre skal den være, og regnestykket gør det for dig, så dit humør ikke behøver.\n\nHvorfor 1%? Fordi det gør en tabsrække til at overleve. Ti tab i træk ved 1% efterlader dig med 90% af din konto og dårligt humør. Ti tab i træk ved 20% efterlader dig med cirka 11% af din konto og ingen vej tilbage, og du ved allerede fra lektion 71, hvor stejl den klatring er.\n\nIngen overlever markederne ved at vælge vindere. Alle, der overlever, gør det ved at sørge for, at intet enkelt tab kan lukke dem. 📐",
+      "quiz": {
+        "q": "En konto på 10,000 NT. Du risikerer 1% på denne handel, og du går ud, hvis kursen falder 5% fra din indgang. Træk til den positionsstørrelse, der overholder det.",
+        "explanation": "1% af 10,000 NT er 100 NT, og det er det mest, du har aftalt at tabe. Et stop på 5% betyder 100 NT divideret med 5%, hvilket er en position på 2,000 NT. Træk højere, og visningen viser, at du risikerer mere, end du besluttede."
+      }
+    },
+    "80": {
+      "title": "Hvorfor sejr føles som evner",
+      "desc": "De psykologiske tricks, gearing spiller på dig",
+      "content": "Gearing er ikke primært et matematikproblem. Matematikken er nem. Det er et hovedproblem, og her er de tre, der fanger alle.\n\n🎯 1. UDFALDSBIAS: at vinde føles som evner. Du tager en vildt for stor position, den virker, du tjener en masse på en eftermiddag, og din hjerne noterer \"jeg er god til det her.\" Den noterede ikke, hvad der faktisk skete, nemlig at du tog en dårlig risiko og fik et godt resultat. Det er to forskellige ting, og markedet betaler dig gladeligt for en dårlig beslutning flere gange, før det kræver regningen ind. Det farligste, der kan ske for en ny trader, er en tidlig, nem sejr.\n\n😤 2. HÆVNHANDEL: du vil have det tilbage, nu. Du tager et tab, det svier, og trangen kommer med det samme. Så du skruer op. Nu sætter du din største position på, præcis når din dømmekraft er dårligst, på en handel du valgte, fordi du var vred, og ikke fordi den var god. Markedet ved ikke, at du er i minus, og det skylder dig ingenting. Når du føler det her, er den rigtige størrelse nul. Luk appen.\n\n🕳️ 3. AT JAGTE TAB: \"jeg beholder den bare, til den kommer tilbage.\" Den her er klædt ud som tålmodighed, og derfor er den så svær at opdage. Tålmodighed er en plan, du lavede i ro og mag på forhånd. At jagte er en plan, du fandt på, efter kursen gik imod dig, og afsløringen er enkel: din exit flyttede sig. Hvis du opdager, at du forklarer, hvorfor det niveau, du satte, ikke længere er det rigtige niveau, er det ikke ny analyse. Det er dit ego, der forhandler.\n\nForsvaret mod alle tre er det samme, og det er ikke glamourøst. Beslut alt, mens du er rolig, skriv det ned, og behandl den udgave af dig, der dukker op midt i en handel, som en upålidelig fortæller. 🧠",
+      "quiz": {
+        "q": "Du tager en meget større position end normalt, og den giver en stor gevinst på én eftermiddag. Hvad er den mest præcise måde at læse det på?",
+        "explanation": "Din hjerne noterer, at du er god til det her. Det, der faktisk skete, er, at du tog en dårlig risiko, og markedet tilfældigvis betalte dig alligevel, og det er to forskellige ting. Markedet betaler en dårlig beslutning flere gange, før det kræver regningen ind. En tidlig, nem sejr er det farligste, der kan ske for en ny trader, fordi den lærer dig den forkerte lektie og sender dig regningen senere.",
+        "options": [
+          "Det er en metode, der virker, og den kan skrues op igen",
+          "Størrelsen var rigtig, for gevinsten beviser det",
+          "Du tog en dårlig risiko og fik tilfældigvis et godt resultat",
+          "Store gevinster viser evner, og det er tab, der viser fejl"
+        ]
+      }
+    },
+    "81": {
+      "title": "Det ærlige spørgsmål",
+      "desc": "Skal du overhovedet bruge det her?",
+      "content": "Du har gennemført modulet. Her er det spørgsmål, reklamerne aldrig stiller.\n\nSkal du overhovedet bruge gearing?\n\nFor de fleste, det meste af tiden, er det ærlige svar nej. Ikke fordi de ikke er kloge nok. Men på grund af alt i de sidste femten lektioner: du starter bagud, du betaler husleje, mens du venter, en almindelig bevægelse kan lukke dig, før du får ret, og tre myndigheder, der talte rigtige konti, fandt igen og igen, at mellem to tredjedele og ni tiendedele af folk tabte.\n\nDer findes en udgave af trading, hvor du aldrig rører noget af det her. Du køber en aktie, du ejer en bid af et selskab, udbyttet lander, tiden arbejder FOR dig i stedet for imod dig, og intet kan nogensinde lukke din position uden at spørge. Det er resten af denne app, og det er ikke den kedelige mulighed. Det er den mulighed, som matematikken i lektion 14 siger, plejer at vinde. 🌱\n\nSå her er, hvad du bør vide, før du beslutter dig.\n\nIntet i denne app er låst bag gearing. Hver konkurrence, hver rangliste, hver XP-vej, hver skolekamp og hver NOOB-belønning er helt åben for en, der aldrig åbner en eneste gearet position. Du mister ingenting ved at gå ud af dette rum. Der er ingen straf og intet manglende badge.\n\nOg intet herinde betaler dig for at vinde. Du bliver belønnet for at gennemføre lektionerne, for at bestå testen, for at sætte et stop, for at skære en taber fra og for at skrive din egen likvidation op. Du bliver aldrig betalt for en gevinst, en stor position eller en heldig stime, for at betale dig for dem ville være at lære dig det forkerte og kalde det undervisning.\n\nHvis du bruger det: brug det småt, brug det med et stop, kend din likvidationskurs, før du trykker på noget, og aldrig med penge, du ville savne. Hvis du ikke bruger det, har du stadig lært at se maskineriet, og det var hele tiden pointen. De fleste voksne, der handler med det her, kan ikke forklare det, du lige har lært. 🤔",
+      "quiz": {
+        "q": "Hvad giver en elev afkald på ved at beslutte aldrig at åbne en gearet position i denne app?",
+        "explanation": "Intet i denne app er låst bag gearing. Hver konkurrence, hver rangliste, hver XP-vej, hver skolekamp og hver NOOB-belønning er åben for en, der aldrig åbner en eneste gearet position. Der er ingen straf og intet manglende badge. Og intet i dette rum betaler dig for at vinde: det betaler for at gennemføre lektionerne, bestå testen, sætte et stop og skære en taber fra.",
+        "options": [
+          "Ingenting overhovedet, alle veje er stadig åbne for dem",
+          "Alle konkurrencer og ranglister i appen",
+          "XP i dette modul, som betales for gearede handler",
+          "NOOB-belønninger, som kræver én gearet position først"
+        ]
+      }
+    },
+    "82": {
+      "title": "Nedsmeltningen",
+      "desc": "Fem dage, én aggressiv plan, én tom konto",
+      "content": "Velkommen til Lab. Herinde får du en afgrænset øvekonto på 1,000 LAB NT. Det er ikke din tegnebog, den kan ikke røre din tegnebog, og intet, der vindes eller tabes herinde, forlader den. Instrumentet er NOVA. NOVA er opdigtet, så ingen kan beskylde os for at forudsige et rigtigt krak. Depositumsats 25%. Finansiering 0.02% pr. nat. Lukning ved 50% af brugt margin. Og kun til denne boss er positionsloftet slået fra. Med vilje. Én gang.\n\nHer er den uge, du skal til at forklare.\n\n📅 DAG 1: NOVA på 100. Gode resultater, gruppechatten larmer. Du lægger 800 af dine 1,000 NT og styrer NOVA for 3,200 NT. Intet stop.\n\n📅 DAG 2: NOVA 106. Du er 192 NT oppe, hvilket er +19.2% af din konto på én dag. Du lægger dine sidste 200 NT. Eksponering 4,000 NT. Frie kontanter: nul. Stadig intet stop.\n\n📅 DAG 3: NOVA 101.76. Marginniveau 103%. Du er stadig oppe på ugen, så du beholder.\n\n📅 DAG 4: NOVA 94.64. MARGIN CALL. Marginniveau 75%, egenkapital 750 NT. Du kan ikke sætte mere ind, for der er intet tilbage at sætte ind. Du beholder.\n\n📅 DAG 5: NOVA gapper 9% ned natten over og åbner på 86.12, under lukkeniveauet. LIKVIDERET ved 390 NT.\n\nI løbet af ugen faldt NOVA 13.9%. Din konto faldt 61%. Eleven, der lagde 250 NT med et stop på 95, sluttede samme uge på cirka 949 NT, ned 5%. Og de samme 800 NT uden stop, men uden tilkøbet på dag 2, ville være endt på 550 NT: et margin call, men i live.\n\nNu kommer gennemgangen. Ti spørgsmål om, hvad der lige skete. Få 8 af 10, og du har slået bossen, for herinde handler det om at kunne forklare vraget, ikke om at undgå det. 💀",
+      "bossVictory": "Du sprængte en konto og gik derfra med viden om hvorfor. Det er hele modulet. 💀",
+      "bossQuestions": {
+        "0": {
+          "q": "I løbet af de fem dage faldt NOVA cirka 14%. Din konto faldt 61%. Hvorfor forskellen?",
+          "options": [
+            "Appen gav en straf for at tabe",
+            "Du havde cirka fire gange så stor eksponering, som dit depositum var værd, så hver bevægelse ramte et tal fire gange større end din konto",
+            "Finansieringen stod for det meste af tabet",
+            "NOVA er en mere risikabel aktie, end tallene antyder"
+          ]
+        },
+        "1": {
+          "q": "På dag 2 var du 192 NT oppe, hvilket var 19.2% af din konto på en enkelt dag. Hvad fortalte det dig egentlig?",
+          "options": [
+            "At din vurdering var rigtig, og at du skulle skrue op",
+            "At positionen havde en god størrelse, siden den gav gevinst",
+            "At gearing er sikkert, når du har ret",
+            "At positionen var stor nok til at flytte din konto 19% på en dag, hvilket betyder, at den var stor nok til at gøre det samme i den anden retning"
+          ]
+        },
+        "2": {
+          "q": "På dag 2 lagde du dine sidste 200 NT i den vindende position. Hvad kostede det dig?",
+          "options": [
+            "Begge halvdele af din sikkerhed: det hævede eksponeringen fra 3,200 til 4,000, og det brugte de eneste frie kontanter, der kunne have svaret på et margin call",
+            "Ingenting, for at købe mere af en vinder er sådan, professionelle får renters rente",
+            "Kun selve de 200 NT, som positionen ville have vundet tilbage",
+            "Lidt finansiering, da huslejen pr. nat steg en smule"
+          ]
+        },
+        "3": {
+          "q": "Dit marginniveau ramte 103% på dag 3. Hvad betød det tal?",
+          "options": [
+            "Du var 103% finansieret, så positionen var oversikret og sikker",
+            "Din konto var 3% oppe på ugen",
+            "Din egenkapital dækkede lige akkurat dine stillede depositummer, så bufferen var væk, og den næste bevægelse ville begynde at spise af selve depositummet",
+            "Ingenting i sig selv, for marginniveau betyder kun noget, når det er under 50%"
+          ]
+        },
+        "4": {
+          "q": "Ved margin call'et på dag 4 ville en lukning have låst et tab på 250 NT fast. Du beholdt. Hvorfor er det at beholde det svar, de fleste vælger?",
+          "options": [
+            "Fordi at beholde som regel er det matematisk rigtige svar på et margin call",
+            "Fordi at lukke betyder at indrømme, at handlen var forkert, og at beholde lader dig blive ved med at tro, at det ikke er slut endnu",
+            "Fordi margin calls som regel løser sig selv inden for en dag",
+            "Fordi udbyderen anbefaler at beholde for at undgå at realisere tab"
+          ]
+        },
+        "5": {
+          "q": "Du blev likvideret ved 390 NT, men lukkeniveauet var 500 NT i egenkapital. Hvorfor endte du under det?",
+          "options": [
+            "Udbyderen opkrævede en likvidationsstraf på 110 NT",
+            "NOVA gappede 9% ned natten over og åbnede under niveauet, så lukningen blev udført til den første pris, markedet faktisk tilbød",
+            "Finansieringen blev trukket i én klump i likvidationsøjeblikket",
+            "Lukkeniveauet er kun et skøn og bliver normalt ramt så meget ved siden af"
+          ]
+        },
+        "6": {
+          "q": "Eleven, der lagde 250 NT og satte et stop på 95, sluttede samme uge på cirka 949 NT. Hvad gjorde de rigtigt?",
+          "options": [
+            "De besluttede deres maksimale tab, før de åbnede, og lod det afgøre størrelsen",
+            "De læste NOVAs diagram bedre og så faldet komme",
+            "De undgik finansiering ved at bruge et mindre depositum",
+            "De var heldige, for de samme valg taber som regel"
+          ]
+        },
+        "7": {
+          "q": "Du betalte finansiering hver nat på hele eksponeringen på 4,000 NT. Hvor meget betød det på denne handel?",
+          "options": [
+            "Det var det meste af tabet, fordi finansiering vokser med renters rente hver nat",
+            "Ingenting, fordi finansiering kun trækkes på positioner, der overlever en måned",
+            "Kun nogle få NT, fordi handlen var kort. Finansiering er det, der slår den position ihjel, der ikke rykker sig i månedsvis, ikke den, der sprænger på en uge",
+            "Cirka 192 NT, det samme som gevinsten på dag 2"
+          ]
+        },
+        "8": {
+          "q": "Alle valg her var tilladt. I CFD Hub vil de fleste af dem ikke være det. Hvorfor?",
+          "options": [
+            "Fordi loftet gør appen billigere at drive",
+            "Fordi myndighederne kræver en øvetilstand før enhver simuleret handel",
+            "Fordi under 18-årige ikke må se en likvidation to gange",
+            "Du har lige set et depositum på 80% i én position og nul frie kontanter ødelægge en konto på fem dage, og lofterne findes for at gøre præcis det forløb umuligt"
+          ]
+        },
+        "9": {
+          "q": "Hvad er den allermest nyttige ting at tage med herfra?",
+          "options": [
+            "At positionens størrelse, besluttet før du åbner den, betyder mere end at have ret om retningen",
+            "At NOVA var en dårlig aktie at vælge, og at bedre research ville have reddet kontoen",
+            "At gearing aldrig bør røres af nogen under nogen omstændigheder",
+            "At margin calls er uforudsigelige, så der var intet, du kunne have gjort"
+          ]
+        }
+      }
+    },
+    "83": {
+      "title": "Licensen",
+      "desc": "Ti spørgsmål. Otte rigtige for at bestå.",
+      "content": "Licensen er den eksamen, dette modul har bygget op til. Ti spørgsmål, og hvert eneste er en udregning eller en beslutning om en position, der ligner en rigtig, for CFD Hub handler heller ikke med definitioner.\n\nDu skal have 8 af 10 for at bestå. Du får 3 forsøg om dagen. Vi fortæller dig din score, men ikke hvilke spørgsmål du fik forkert, så et forsøg, der fejler, er et signal til at læse modulet igen, ikke til at gætte igen.\n\nIntet her er et trick. Hvert tal kommer direkte fra lektionerne bag dig. Hvis du kan klare disse ti, forstår du dette modul bedre end de fleste voksne, der handler disse produkter i virkeligheden. 🎫",
+      "bossVictory": "Du kan kigge på den rigtige skærm, med rigtige tal, og sige nej. Det er licensen. 🎫",
+      "bossQuestions": {
+        "0": {
+          "q": "Din konto er på 1,000 NT, og du har intet andet åbent. Du stiller hele de 1,000 NT som depositum ved en sats på 25% og styrer {tech} for 4,000 NT til 200 NT pr. aktie. Lukningen udløses ved 50% af dit depositum. Hvor skal {tech} handle, for at du bliver lukket?",
+          "options": [
+            "150 NT, et fald på 25%, svarende til depositumsatsen",
+            "100 NT, et fald på 50%, det samme som lukkereglen",
+            "175 NT, et fald på 12.5%, fordi det kræver en bevægelse på 12.5% at tabe 500 NT på en eksponering på 4,000 NT",
+            "195 NT, et fald på 2.5%"
+          ]
+        },
+        "1": {
+          "q": "En position på 3,000 NT koster 0.02% pr. nat i finansiering. Du forventer en bevægelse på 3% i din favør, til en værdi af 90 NT. Hvor mange nætter er den vurdering værd, før finansieringen har ædt den?",
+          "options": [
+            "Cirka 50 nætter",
+            "Cirka 150 nætter, fordi 90 NT divideret med 0.60 NT pr. nat er 150",
+            "Cirka 300 nætter",
+            "Den bliver aldrig ædt, fordi finansiering kun gælder tabende positioner"
+          ]
+        },
+        "2": {
+          "q": "Din konto er på 5,000 NT. Du risikerer 2% på en handel, og du går ud, hvis kursen bevæger sig 4% imod dig. Hvad er den største position, du bør åbne?",
+          "options": [
+            "100 NT, det beløb du risikerer",
+            "1,000 NT, en femtedel af kontoen",
+            "5,000 NT, fordi stoppet alligevel beskytter kontoen",
+            "2,500 NT, fordi 100 NT acceptabelt tab divideret med en stopafstand på 4% giver størrelsen"
+          ]
+        },
+        "3": {
+          "q": "En position har taget din konto fra 1,000 NT til 400 NT. Hvilket afkast skal du have herfra bare for at komme tilbage til 1,000 NT?",
+          "options": [
+            "150%, fordi 400 NT skal vokse med halvanden gang sig selv for at nå 1,000",
+            "60%, den samme procentsats som du tabte",
+            "100%, fordi en fordobling altid bringer dig tilbage",
+            "250%, to gange det du tabte"
+          ]
+        },
+        "4": {
+          "q": "Live-kortet viser: marginniveau 82%, frie kontanter 0, én position åben og ned 18%. Hvilket træk mindsker faktisk risikoen for likvidation?",
+          "options": [
+            "Sæt kontanter ind på kontoen",
+            "Behold og vent på, at niveauet kommer sig",
+            "Luk en position, hvilket med det samme frigør den margin, den brugte",
+            "Åbn en ekstra position i den modsatte retning for at udligne den"
+          ]
+        },
+        "5": {
+          "q": "Du shorter {tech} til 50 NT med en position på 2,000 NT. Et opkøb sætter kursen til 150 NT natten over. Hvordan er det tab sammenlignet med det værste scenarie på en long position af samme størrelse?",
+          "options": [
+            "Det er det samme, fordi begge er begrænset til det, du satte ind",
+            "Shorten taber 4,000 NT, to gange positionens værdi, mens en long aldrig kunne tabe mere end selve positionen på 2,000 NT",
+            "Shorten taber ingenting, hvis der var sat et stop-loss, fordi stop er garanterede",
+            "Shortens tab er mindre, fordi kurser falder hurtigere, end de stiger"
+          ]
+        },
+        "6": {
+          "q": "Dit stop ligger på 90 NT. Natten over lander nyheder, og markedet åbner på 78 NT uden nogensinde at handle derimellem. Hvad sker der, og hvad er det rigtige forsvar mod det?",
+          "options": [
+            "Du bliver udført på 90 NT, fordi det er, hvad et stop garanterer",
+            "Ordren annulleres, fordi kursen sprang over dit niveau",
+            "Du bliver udført tæt på 78 NT, og forsvaret mod gaps er positionsstørrelsen, ikke stoppet",
+            "Udbyderen skylder dig forskellen mellem 90 og 78"
+          ]
+        },
+        "7": {
+          "q": "Hvorfor har krypto det største depositumkrav i CFD Hub?",
+          "options": [
+            "Den bevæger sig voldsomst, så et tyndt depositum ville blive tømt af en helt almindelig kryptodag",
+            "Der trækkes ingen finansiering på krypto, så depositummet erstatter den",
+            "Krypto er forbudt for under 18-årige, og depositummet er straffen",
+            "Kryptokurser sættes af appen i stedet for af markedet"
+          ]
+        },
+        "8": {
+          "q": "Hvilken af disse giver XP i dette modul?",
+          "options": [
+            "En gevinst på 40% på en gearet position",
+            "At bruge den største eksponering, der er til rådighed",
+            "En stime på fem vindende handler i træk",
+            "At lukke en tabende position i stedet for at købe mere af den"
+          ]
+        },
+        "9": {
+          "q": "Forhåndsvisningen før handlen siger, at en bevægelse på 10% imod dig tager 620 NT fra din konto, hvilket er 62% af din tegnebog. Din likvidationskurs er 88.40, og {tech} handler på 96.00 lige nu. Åbner du den?",
+          "options": [
+            "Ja, fordi likvidationskursen ligger trygt under den nuværende kurs",
+            "Ja, hvis du er sikker på retningen",
+            "Kun med dobbelt så stor eksponering, så risikoen er værd at tage",
+            "Nej: en bevægelse på cirka 8% tømmer positionen, 8% er en almindelig bevægelse, og 62% af en tegnebog på én handel bryder hver eneste størrelsesregel i dette modul"
+          ]
+        }
+      }
+    },
+    "84": {
+      "title": "Dit værste scenarie, valgt på forhånd",
+      "desc": "Stop-loss, take-profit og den exit, ingen vælger",
+      "content": "Du kender depositummet, margin call'et, lukningen, huslejen, stoppet og gappet. Denne lektion sætter den sidste brik på plads: hver position, du nogensinde åbner, ender på præcis én af tre måder, og hele spillet handler om, hvem der vælger hvilken.\n\n1️⃣ DU LUKKER DEN. Du trykker på knappen, og positionen lukkes til den aktuelle markedskurs. Altid muligt, på hver position, i enhver tilstand. De fleste exits bør være denne.\n\n2️⃣ EN ORDRE, DU HAR SAT, LUKKER DEN. To slags, og navnene betyder noget, så lær dem ordentligt:\n\n• En STOP-LOSS-ORDRE lukker dig automatisk, når kursen bevæger sig IMOD dig til et niveau, du har valgt: en sælg-stop under din indgang på en long, en køb-stop over din indgang på en short. Det er dit værste scenarie, besluttet mens du var rolig, og lektion 80 har allerede lært dig, at det er det eneste tidspunkt, du beslutter noget godt.\n• En TAKE-PROFIT-ORDRE er en limitordre om at lukke: den lukker dig automatisk ved det mål, du har valgt, når kursen bevæger sig I DIN FAVØR og når det. Det er dit \"nok\", besluttet før grådigheden fik en stemme. En limitordre udføres på dit niveau eller bedre, aldrig dårligere.\n\n3️⃣ UDBYDEREN LUKKER DEN. Det er likvidation, fra lektion 70. Og her er det, du skal brænde ind: likvidation er ikke en ordretype. Du kan ikke placere en \"likvidationshandel\". Det kan ingen. Det er ikke et værktøj i din kasse; det er det, udbyderen gør for at beskytte sit lån, når dit depositum næsten er brugt op, til den pris markedet betaler, mens du er i skole eller sover.\n\nEt stop-loss er dig, der beslutter dit værste scenarie på forhånd. Likvidation er det, der sker, når du ikke gjorde det.\n\nBegge dine ordrer er ærlige på samme måde, og det ved du allerede fra lektion 78: de udløses på dit niveau og udføres til det, markedet faktisk betaler. Et gap over dit stop udfører dig på den anden side af springet, hvilket er dårligere. Et gap gennem din take-profit udfører dig også på den anden side, hvilket er bedre. Samme faktum, der vender begge veje.\n\nÉn placeringsregel, og denne app håndhæver den med grunden på skærmen: dit stop skal ligge mellem den aktuelle kurs og din likvidationskurs. Et stop ud over likvidationskursen kunne aldrig blive udløst, fordi udbyderen ville have lukket dig først, så appen afviser det og fortæller dig hvorfor.\n\nTre døre ud af hver handel. To af dem har dit navn på håndtaget. At gå ud gennem en af dem, på en dag du valgte, ved et niveau du valgte, mens du var rolig, er det, hele dette modul har lært dig at gøre. 🚪",
+      "quiz": {
+        "q": "Din long position har et stop-loss, du har sat på 180.00, og en likvidationskurs på 150.00. Hvad er den egentlige forskel på de to tal?",
+        "options": [
+          "Ingen overhovedet, det er to navne for den samme automatiske lukning, og udbyderen udløser den til én og samme kurs hver gang",
+          "Stop-loss'et er udbyderens beslutning, og likvidationskursen er din, så den, du faktisk styrer, er den, der udløses som nummer to",
+          "Stoppet på 180.00 er dit værste scenarie, valgt af dig på forhånd mens du var rolig; 150.00 er der, hvor udbyderen lukker dig for at beskytte sit lån, fordi du ikke længere har noget at sige",
+          "Stoppet garanterer en udførelse på præcis 180.00, uanset hvad markedet gør, mens likvidation kan udføres til en hvilken som helst kurs, uanset hvor langt den er løbet"
+        ]
+      }
+    }
+  },
+  "context": {
+    "ZA": {
+      "name": "Sydafrika",
+      "cName": "rand",
+      "cPlural": "rand",
+      "exDesc": "en af de største børser på hele det afrikanske kontinent",
+      "sectorList": "⛏️ Minedrift: Anglo American, Impala Platinum. Hænger sammen med de globale råvarepriser\n🏦 Bank: Standard Bank, FirstRand, Capitec. Klarer sig godt, når renten er højere\n📱 Teknologi: Naspers, Prosus. Hænger sammen med globale tech-trends\n🛍️ Detailhandel: Shoprite, Pick n Pay. Klarer sig godt, når forbrugerne har penge at bruge\n📡 Telekom: MTN, Vodacom. Mere stabile, fordi folk altid har brug for data",
+      "etfBasket": "de 40 største firmaer på JSE",
+      "etfDesc": "JSE Top 40 er for eksempel en liste over de 40 største firmaer noteret på JSE, rangeret efter værdien af de aktier, der faktisk er tilgængelige for handel.",
+      "etfList": "🇿🇦 Satrix Top 40: De 40 største firmaer på JSE. Et godt sted at starte.\n🌍 Satrix MSCI World: Firmaer fra 23 udviklede lande i ét køb.\n🇺🇸 Sygnia Itrix S&P 500: De 500 store amerikanske firmaer på S&P 500-listen.\n💡 Satrix Nasdaq 100: De 100 største ikke-finansielle firmaer på Nasdaq. Meget tech-tung.",
+      "currencyHedge": "De er prissat i dollars eller euro. Så hvis randen bliver SVAGERE (R20 pr. dollar bliver til R22), er dine globale investeringer AUTOMATISK mere værd i rand!",
+      "fxQuizSetup": "Randen svækkes fra R18 til R22 over for dollaren",
+      "fxQuizLose": "Den mister værdi, fordi det går dårligere for Sydafrika",
+      "fxQuizGain": "Den STIGER målt i rand, fordi hver dollar køber flere rand",
+      "dcaTitle": "Gennemsnitskøb i rand",
+      "dcaAbbrev": "RCA",
+      "food": "en Wimpy-burger"
+    },
+    "US": {
+      "name": "USA",
+      "cName": "dollar",
+      "cPlural": "dollars",
+      "exDesc": "verdens største aktiemarked med stor afstand",
+      "sectorList": "💻 Teknologi: Apple, Microsoft, Alphabet. Drevet af innovation og global efterspørgsel\n🏦 Bank: JPMorgan, Bank of America, Goldman Sachs. Klarer sig godt, når renten stiger\n🛍️ Detailhandel: Amazon, Walmart, Costco. Klarer sig godt, når forbrugerne bruger penge\n⚡ Energi: Exxon Mobil, Chevron. Hænger sammen med de globale olie- og gaspriser\n📡 Telekom: AT&T, Verizon, T-Mobile. Folk har altid brug for forbindelse",
+      "etfBasket": "de 500 store amerikanske firmaer på S&P 500-listen",
+      "etfDesc": "S&P 500 er for eksempel en liste over 500 store amerikanske firmaer, udvalgt af et udvalg. De skal være store, give overskud og være nemme at handle. Det er IKKE bare de 500 største, og listen blander firmaer noteret på NYSE med firmaer noteret på Nasdaq.",
+      "etfList": "🇺🇸 SPY / VOO: Følger S&P 500, en liste over 500 store amerikanske firmaer. Guldstandarden.\n📦 VTI: Hele det amerikanske aktiemarked, tusindvis af firmaer i én ETF.\n💡 QQQ: De 100 største ikke-finansielle firmaer på Nasdaq. Meget tech-tung.\n🌍 VT / VXUS: Globale eller internationale firmaer i én enkelt fond.",
+      "currencyHedge": "Hvis dollaren svækkes over for andre valutaer, bliver dine internationale investeringer automatisk MERE værd målt i dollars!",
+      "fxQuizSetup": "Dollaren svækkes markant over for euroen og yenen",
+      "fxQuizLose": "Den mister værdi, fordi den amerikanske økonomi har det svært",
+      "fxQuizGain": "Den STIGER målt i dollars, fordi dine udenlandske beholdninger er steget i valutaværdi",
+      "dcaTitle": "Gennemsnitskøb i dollars",
+      "dcaAbbrev": "DCA",
+      "food": "en Big Mac-menu"
+    },
+    "GB": {
+      "name": "Storbritannien",
+      "cName": "pund",
+      "cPlural": "pund",
+      "exDesc": "en af de ældste og vigtigste børser i verden",
+      "sectorList": "⚡ Energi: Shell, BP. Globale olie- og gasgiganter\n🏦 Bank: HSBC, Barclays, Lloyds. Klarer sig godt, når renten er højere\n🧴 Forbrugsvarer: Unilever, Diageo, Reckitt. Kraftcentre for husholdningsmærker\n🛍️ Detailhandel: Tesco, Sainsbury's. Klarer sig godt, når forbrugerne bruger penge\n📡 Telekom: Vodafone, BT Group. Folk har altid brug for forbindelse",
+      "etfBasket": "de 100 største firmaer på London Stock Exchange",
+      "etfDesc": "FTSE 100 er for eksempel en liste over de 100 største firmaer på London Stock Exchanges hovedmarked, som bliver tjekket igen hver tredje måned.",
+      "etfList": "🇬🇧 iShares Core FTSE 100: De 100 største firmaer på London Stock Exchange.\n🌍 Vanguard FTSE All-World: Firmaer fra snesevis af lande i ét køb.\n🇺🇸 iShares Core S&P 500: De 500 store amerikanske firmaer på S&P 500-listen.\n💡 iShares Nasdaq 100: De 100 største ikke-finansielle firmaer på Nasdaq. Meget tech-tung.",
+      "currencyHedge": "Hvis pundet svækkes over for andre valutaer, bliver dine internationale investeringer automatisk MERE værd målt i pund!",
+      "fxQuizSetup": "Pundet svækkes markant over for dollaren og euroen",
+      "fxQuizLose": "Den mister værdi, fordi den britiske økonomi har det svært",
+      "fxQuizGain": "Den STIGER målt i pund, fordi dine udenlandske beholdninger er steget i valutaværdi",
+      "dcaTitle": "Gennemsnitskøb i pund",
+      "dcaAbbrev": "PCA",
+      "food": "en kvart kylling fra Nando's"
+    },
+    "IN": {
+      "name": "Indien",
+      "cName": "rupee",
+      "cPlural": "rupees",
+      "exDesc": "en af de største børser i verden målt på antal handler",
+      "sectorList": "💻 Teknologi: TCS, Infosys, Wipro. Globale kraftcentre inden for IT-services\n🏦 Bank: HDFC Bank, SBI, ICICI. Klarer sig godt, når renten er højere\n🛍️ Forbrugsvarer: ITC, Hindustan Unilever, DMart. Klarer sig godt, når forbrugerne bruger penge\n⚡ Energi: Reliance, ONGC. Hænger sammen med olie, gas og raffinering\n📡 Telekom: Airtel, Vodafone Idea. Indiens kæmpe mobilmarked bliver ved med at vokse",
+      "etfBasket": "50 af Indiens største og mest handlede firmaer",
+      "etfDesc": "Nifty 50 er for eksempel en liste over 50 af Indiens største og mest handlede firmaer, udvalgt efter størrelse OG efter hvor nemt de kan købes og sælges, ikke kun efter størrelse.",
+      "etfList": "🇮🇳 Nippon India Nifty 50: Nifty 50, en liste over 50 af Indiens største og mest handlede firmaer.\n💡 ICICI Prudential Sensex: Sensex, en liste over 30 af Indiens mest kendte blue chips.\n📦 Kotak Nifty Next 50: De 50 firmaer, der rangerer lige under Nifty 50.\n🌍 Motilal Oswal Nasdaq 100: De 100 største ikke-finansielle firmaer på Nasdaq.",
+      "currencyHedge": "Hvis rupeen svækkes over for dollaren, bliver dine internationale investeringer automatisk MERE værd målt i rupees!",
+      "fxQuizSetup": "Rupeen svækkes fra ₹82 til ₹90 over for dollaren",
+      "fxQuizLose": "Den mister værdi, fordi Indiens økonomi har det svært",
+      "fxQuizGain": "Den STIGER målt i rupees, fordi hver dollar køber flere rupees",
+      "dcaTitle": "Gennemsnitskøb i rupees",
+      "dcaAbbrev": "RCA",
+      "food": "en Domino's-pizza"
+    },
+    "JP": {
+      "name": "Japan",
+      "cName": "yen",
+      "cPlural": "yen",
+      "exDesc": "en af de største børser i verden",
+      "sectorList": "🚗 Bilindustri: Toyota, Honda, Nissan. Japans verdensberømte bilproducenter\n💻 Teknologi: Sony, SoftBank, Nintendo. Gaming, underholdning og innovation\n🏦 Bank: MUFG, SMFG, Mizuho. Japans megabankkoncerner\n🛍️ Detailhandel: Fast Retailing (Uniqlo), Seven & i. Global rækkevidde i detailhandlen\n📡 Telekom: NTT, KDDI, SoftBank. Kæmpe mobil infrastruktur",
+      "etfBasket": "de 225 firmaer på Nikkei 225-listen",
+      "etfDesc": "Nikkei 225 er for eksempel en liste over 225 velkendte japanske firmaer, udvalgt til at repræsentere hele markedet. Den er prisvægtet, hvilket betyder, at en aktie med en høj pris tæller mere end et firma, der bare er stort.",
+      "etfList": "🇯🇵 En Nikkei 225-ETF: De 225 firmaer på Nikkei 225-listen. Benchmarket.\n📦 En TOPIX-ETF: En langt bredere bid af Tokyo-markedet, et godt stykke over tusind firmaer.\n🌍 MAXIS All Country World: Udviklede markeder og vækstmarkeder i én fond.\n🇺🇸 iShares S&P 500: De 500 store amerikanske firmaer på S&P 500-listen.",
+      "currencyHedge": "Hvis yenen svækkes over for andre valutaer, bliver dine internationale investeringer automatisk MERE værd målt i yen!",
+      "fxQuizSetup": "Yenen svækkes fra ¥130 til ¥155 over for dollaren",
+      "fxQuizLose": "Den mister værdi, fordi Japans økonomi har det svært",
+      "fxQuizGain": "Den STIGER målt i yen, fordi dine udenlandske beholdninger er steget i valutaværdi",
+      "dcaTitle": "Gennemsnitskøb i yen",
+      "dcaAbbrev": "YCA",
+      "food": "en skål ramen"
+    },
+    "DE": {
+      "name": "Tyskland",
+      "cName": "euro",
+      "cPlural": "euro",
+      "exDesc": "en af de største børser i Europa",
+      "sectorList": "💻 Teknologi: SAP, Infineon. Virksomhedssoftware og halvledere\n🚗 Bilindustri: Volkswagen, BMW, Mercedes-Benz. Tysklands ingeniørstolthed\n🏦 Bank: Deutsche Bank, Commerzbank. Klarer sig godt, når renten stiger\n🏭 Industri: Siemens, BASF. Global produktion og kemikalier\n📡 Telekom: Deutsche Telekom, 1&1. Rygraden i Tysklands forbindelser",
+      "etfBasket": "de 40 største tyske firmaer på børsen i Frankfurt",
+      "etfDesc": "DAX 40 er for eksempel en liste over de 40 største tyske firmaer på børsen i Frankfurt, og siden 2021 skal de også give overskud for at komme med.",
+      "etfList": "🇩🇪 iShares Core DAX: De 40 største tyske firmaer på børsen i Frankfurt.\n🌍 Xtrackers MSCI World: Firmaer fra 23 udviklede lande.\n🇺🇸 iShares Core S&P 500: De 500 store amerikanske firmaer på S&P 500-listen.\n🇪🇺 En EURO STOXX 50-ETF: 50 førende blue chips fra hele eurozonen.",
+      "currencyHedge": "Hvis euroen svækkes over for andre valutaer, bliver dine internationale investeringer automatisk MERE værd målt i euro!",
+      "fxQuizSetup": "Euroen svækkes markant over for dollaren og yenen",
+      "fxQuizLose": "Den mister værdi, fordi Europas økonomi har det svært",
+      "fxQuizGain": "Den STIGER målt i euro, fordi dine udenlandske beholdninger er steget i valutaværdi",
+      "dcaTitle": "Gennemsnitskøb",
+      "dcaAbbrev": "DCA",
+      "food": "en döner kebab"
+    },
+    "CA": {
+      "name": "Canada",
+      "cName": "canadisk dollar",
+      "cPlural": "canadiske dollars",
+      "exDesc": "en af de 10 største børser i verden",
+      "sectorList": "💻 Teknologi: Shopify, OpenText, Constellation Software. Canadisk tech-innovation\n🏦 Bank: RBC, TD, BMO, Scotiabank. Canadas fem store er bundsolide\n⚡ Energi: Enbridge, Suncor, TC Energy. Giganter inden for oliesand og rørledninger\n🛍️ Detailhandel: Dollarama, Canadian Tire, Loblaw. Hjemmedyrkede detailmærker\n📡 Telekom: BCE, Rogers, Telus. Canadiere har altid brug for forbindelse",
+      "etfBasket": "60 store canadiske firmaer, der dækker alle større brancher",
+      "etfDesc": "S&P/TSX 60 er for eksempel en liste over 60 store canadiske firmaer, udvalgt af et udvalg, så alle større brancher er repræsenteret, hvilket betyder, at det ikke bare er de 60 største.",
+      "etfList": "🇨🇦 iShares S&P/TSX 60 (XIU): 60 store canadiske firmaer på tværs af alle større brancher.\n📦 Vanguard All-Equity (VEQT): Canadiske, amerikanske og internationale aktier i én ETF.\n🇺🇸 BMO S&P 500: De 500 store amerikanske firmaer på S&P 500-listen.\n💡 En Nasdaq 100-ETF: De 100 største ikke-finansielle firmaer på Nasdaq. Meget tech-tung.",
+      "currencyHedge": "Hvis den canadiske dollar svækkes over for andre valutaer, bliver dine internationale investeringer automatisk MERE værd målt i C$!",
+      "fxQuizSetup": "Den canadiske dollar svækkes markant over for den amerikanske dollar",
+      "fxQuizLose": "Den mister værdi, fordi Canadas økonomi har det svært",
+      "fxQuizGain": "Den STIGER målt i canadiske dollars, fordi dine udenlandske beholdninger er steget i valutaværdi",
+      "dcaTitle": "Gennemsnitskøb i dollars",
+      "dcaAbbrev": "DCA",
+      "food": "en Tim Hortons-menu"
+    },
+    "AU": {
+      "name": "Australien",
+      "cName": "australsk dollar",
+      "cPlural": "australske dollars",
+      "exDesc": "den største børs på den sydlige halvkugle",
+      "sectorList": "⛏️ Minedrift: BHP, Rio Tinto, Fortescue. Globale giganter inden for minedrift og råstoffer\n🏦 Bank: CBA, Westpac, ANZ, NAB. Australiens fire store banker\n🏥 Sundhed: CSL, Cochlear. Bioteknologi og medicinsk udstyr i verdensklasse\n🛍️ Detailhandel: Woolworths, Coles, Wesfarmers. Dagligvarer og basale forbrugsvarer\n💻 Teknologi: WiseTech Global, Xero. Succeshistorier inden for software noteret i Australien",
+      "etfBasket": "de 200 største firmaer på ASX",
+      "etfDesc": "S&P/ASX 200 er for eksempel en liste over de 200 største firmaer noteret på ASX, målt på værdien af de aktier, der er tilgængelige for handel, og tjekket for, hvor nemt de skifter ejer.",
+      "etfList": "🇦🇺 iShares Core S&P/ASX 200 (IOZ): De 200 største firmaer på ASX.\n📦 Vanguard Australian Shares (VAS): Endnu bredere, omkring 300 ASX-firmaer.\n🌍 Vanguard MSCI International (VGS): Firmaer fra udviklede markeder uden for Australien.\n🇺🇸 BetaShares Nasdaq 100 (NDQ): De 100 største ikke-finansielle firmaer på Nasdaq.",
+      "currencyHedge": "Hvis den australske dollar svækkes over for andre valutaer, bliver dine internationale investeringer automatisk MERE værd målt i A$!",
+      "fxQuizSetup": "Den australske dollar svækkes markant over for den amerikanske dollar",
+      "fxQuizLose": "Den mister værdi, fordi Australiens økonomi har det svært",
+      "fxQuizGain": "Den STIGER målt i A$, fordi dine udenlandske beholdninger er steget i valutaværdi",
+      "dcaTitle": "Gennemsnitskøb i dollars",
+      "dcaAbbrev": "DCA",
+      "food": "en kødtærte"
+    },
+    "HK": {
+      "name": "Hongkong",
+      "cName": "hongkongdollar",
+      "cPlural": "hongkongdollars",
+      "exDesc": "børsen, der er porten mellem Kina og de globale markeder",
+      "sectorList": "💻 Teknologi: Tencent, Xiaomi, Meituan. Kinesiske tech-giganter noteret i Hongkong\n🏦 Bank: HSBC, Hang Seng Bank. Klarer sig godt, når renten stiger\n🏗️ Ejendomme: CK Asset, Sun Hung Kai. Ejendomme er konge i Hongkong\n⚡ Forsyning: CLP, Power Assets. Stabilt udbytte år efter år\n🛡️ Forsikring: AIA, Prudential. Førende forsikringsselskaber i Asien og Stillehavsområdet",
+      "etfBasket": "Hongkongs største og mest handlede firmaer",
+      "etfDesc": "Hang Seng Index er for eksempel en udvalgt liste over Hongkongs største og mest handlede firmaer, valgt så alle større brancher er repræsenteret. Antallet af firmaer på den ændrer sig, når indeksudvalget tilføjer og fjerner navne.",
+      "etfList": "🇭🇰 Tracker Fund (2800): Følger Hang Seng Index. Hongkongs ETF-pioner.\n💡 Hang Seng TECH ETF: De 30 største tech-firmaer noteret i Hongkong.\n🇺🇸 En S&P 500-ETF: De 500 store amerikanske firmaer på S&P 500-listen.\n🇨🇳 En ETF med kinesiske A-aktier: Adgang til firmaer noteret i Shanghai og Shenzhen.",
+      "currencyHedge": "Hongkongdollaren er knyttet til den amerikanske dollar, så en global fond med mange amerikanske aktier flytter sig næsten ikke på grund af valuta alene. Men den ikke-amerikanske del (Europa, Japan, resten af Asien) stiger stadig målt i HK$, når de valutaer bliver stærkere!",
+      "fxQuizSetup": "Euroen og yenen styrkes over for den amerikanske dollar, og hongkongdollaren er knyttet til den amerikanske dollar",
+      "fxQuizLose": "Den mister værdi, fordi Hongkongs økonomi har det svært",
+      "fxQuizGain": "Den europæiske og japanske del STIGER målt i HK$, fordi de valutaer nu køber flere hongkongdollars",
+      "dcaTitle": "Gennemsnitskøb i dollars",
+      "dcaAbbrev": "DCA",
+      "food": "en skål wontonnudler"
+    },
+    "CN": {
+      "name": "Kina",
+      "cName": "yuan",
+      "cPlural": "yuan",
+      "exDesc": "en af de største børser i verden målt på markedsværdi",
+      "sectorList": "💻 Teknologi: SMIC, Kingsoft Office. Chipproduktion og software noteret i Shanghai\n🏦 Bank: ICBC, CCB, Bank of China. Blandt verdens største banker målt på aktiver\n🚗 Bilindustri: SAIC Motor, Great Wall Motor. Kinas hjemmedyrkede bilproducenter\n🛍️ Forbrugsvarer: Kweichow Moutai, Haier, Yili. Kendte navne i hele Kina\n📡 Telekom: China Mobile, China Telecom. Kæmpe mobilnetværk",
+      "etfBasket": "300 af de største og mest handlede firmaer på det kinesiske fastland",
+      "etfDesc": "CSI 300 er for eksempel en liste over 300 af de største og mest handlede firmaer på det kinesiske fastland, og den dækker BÅDE børsen i Shanghai og børsen i Shenzhen, ikke kun den ene af dem.",
+      "etfList": "🇨🇳 Huatai-PB CSI 300 (510300): 300 store, meget handlede firmaer i Shanghai og Shenzhen.\n💡 ChinaAMC SSE 50 (510050): De 50 største firmaer på børsen i Shanghai alene.\n🌍 En bred kinesisk aktiefond: Bredere dækning end CSI 300.\n🇺🇸 En S&P 500 QDII-fond: Adgang til de 500 store amerikanske firmaer på S&P 500-listen.",
+      "currencyHedge": "Hvis yuanen svækkes over for andre valutaer, bliver dine internationale investeringer automatisk MERE værd målt i yuan!",
+      "fxQuizSetup": "Yuanen svækkes markant over for dollaren og euroen",
+      "fxQuizLose": "Den mister værdi, fordi Kinas økonomi har det svært",
+      "fxQuizGain": "Den STIGER målt i yuan, fordi dine udenlandske beholdninger er steget i valutaværdi",
+      "dcaTitle": "Gennemsnitskøb i yuan",
+      "dcaAbbrev": "YCA",
+      "food": "en skål nudler"
+    },
+    "FR": {
+      "name": "Frankrig",
+      "cName": "euro",
+      "cPlural": "euro",
+      "exDesc": "hjemsted for nogle af verdens mest ikoniske luksus- og industrimærker",
+      "sectorList": "👜 Luksus: LVMH, Hermès, Kering. Frankrig dominerer den globale luksusbranche\n⚡ Energi: TotalEnergies, Engie. Store europæiske energiselskaber\n🏦 Bank: BNP Paribas, Société Générale. Klarer sig godt, når renten stiger\n✈️ Luftfart: Airbus, Safran. Førende i verden inden for fly og forsvar\n📡 Telekom: Orange, Bouygues. Rygraden i Frankrigs forbindelser",
+      "etfBasket": "de 40 firmaer på CAC 40-listen",
+      "etfDesc": "CAC 40 er for eksempel en liste over 40 firmaer, som et uafhængigt udvalg vælger blandt de 100 største på børsen i Paris, ud fra størrelse OG hvor meget de handles.",
+      "etfList": "🇫🇷 Amundi CAC 40: De 40 firmaer på CAC 40-listen. Benchmarket.\n🌍 En MSCI World-ETF: Firmaer fra 23 udviklede lande.\n🇺🇸 BNP Paribas Easy S&P 500: De 500 store amerikanske firmaer på S&P 500-listen.\n🇪🇺 En EURO STOXX 50-ETF: 50 førende blue chips fra hele eurozonen.",
+      "currencyHedge": "Hvis euroen svækkes over for andre valutaer, bliver dine internationale investeringer automatisk MERE værd målt i euro!",
+      "fxQuizSetup": "Euroen svækkes markant over for dollaren og yenen",
+      "fxQuizLose": "Den mister værdi, fordi Europas økonomi har det svært",
+      "fxQuizGain": "Den STIGER målt i euro, fordi dine udenlandske beholdninger er steget i valutaværdi",
+      "dcaTitle": "Gennemsnitskøb",
+      "dcaAbbrev": "DCA",
+      "food": "en croque-monsieur"
+    },
+    "IT": {
+      "name": "Italien",
+      "cName": "euro",
+      "cPlural": "euro",
+      "exDesc": "en af Europas ældste børser og hjemsted for ikoniske italienske mærker",
+      "sectorList": "🏎️ Bilindustri: Ferrari, Stellantis. Italiensk ingeniørkunst i topklasse\n⚡ Energi: Enel, Eni. Store europæiske energi- og forsyningsselskaber\n🏦 Bank: UniCredit, Intesa Sanpaolo. Klarer sig godt, når renten stiger\n🛡️ Forsikring: Generali, Unipol. Italiens forsikringsgiganter\n📡 Telekom: TIM, Inwit. Italiens forbindelsesinfrastruktur",
+      "etfBasket": "de 40 firmaer på FTSE MIB-listen",
+      "etfDesc": "FTSE MIB er for eksempel en liste over 40 af de største og mest handlede firmaer på børsen i Milano, udvalgt så de dækker Italiens vigtigste brancher.",
+      "etfList": "🇮🇹 En FTSE MIB-ETF: De 40 firmaer på FTSE MIB-listen.\n🌍 iShares Core MSCI World: Firmaer fra 23 udviklede lande.\n🇺🇸 Amundi S&P 500: De 500 store amerikanske firmaer på S&P 500-listen.\n🇪🇺 Xtrackers EURO STOXX 50: 50 førende blue chips fra hele eurozonen.",
+      "currencyHedge": "Hvis euroen svækkes over for andre valutaer, bliver dine internationale investeringer automatisk MERE værd målt i euro!",
+      "fxQuizSetup": "Euroen svækkes markant over for dollaren og yenen",
+      "fxQuizLose": "Den mister værdi, fordi Europas økonomi har det svært",
+      "fxQuizGain": "Den STIGER målt i euro, fordi dine udenlandske beholdninger er steget i valutaværdi",
+      "dcaTitle": "Gennemsnitskøb",
+      "dcaAbbrev": "DCA",
+      "food": "en pizza margherita"
+    },
+    "ES": {
+      "name": "Spanien",
+      "cName": "euro",
+      "cPlural": "euro",
+      "exDesc": "Spaniens vigtigste børs og porten til de latinamerikanske markeder",
+      "sectorList": "👗 Mode og skønhed: Inditex (Zara), Puig. Spaniens globale stilimperium\n🏦 Bank: Santander, BBVA, CaixaBank. Spaniens banker har en kæmpe global rækkevidde\n⚡ Energi: Iberdrola, Endesa. Førende inden for vedvarende energi i Europa\n📡 Telekom: Telefónica, Cellnex. Rygraden i Spaniens forbindelser\n🏗️ Infrastruktur: Ferrovial, ACS. Bygger infrastruktur over hele verden",
+      "etfBasket": "de 35 mest handlede firmaer i Spanien",
+      "etfDesc": "IBEX 35 er for eksempel en liste over de 35 mest handlede spanske aktier, udvalgt af et teknisk udvalg ud fra handelsvolumen. Så det er en liste over de mest handlede, ikke over de største.",
+      "etfList": "🇪🇸 En IBEX 35-ETF: De 35 mest handlede spanske aktier.\n🌍 iShares Core MSCI World: Firmaer fra 23 udviklede lande.\n🇺🇸 Vanguard S&P 500: De 500 store amerikanske firmaer på S&P 500-listen.\n🇪🇺 En EURO STOXX 50-ETF: 50 førende blue chips fra hele eurozonen.",
+      "currencyHedge": "Hvis euroen svækkes over for andre valutaer, bliver dine internationale investeringer automatisk MERE værd målt i euro!",
+      "fxQuizSetup": "Euroen svækkes markant over for dollaren og yenen",
+      "fxQuizLose": "Den mister værdi, fordi Europas økonomi har det svært",
+      "fxQuizGain": "Den STIGER målt i euro, fordi dine udenlandske beholdninger er steget i valutaværdi",
+      "dcaTitle": "Gennemsnitskøb",
+      "dcaAbbrev": "DCA",
+      "food": "en tapastallerken"
+    },
+    "NL": {
+      "name": "Holland",
+      "cName": "euro",
+      "cPlural": "euro",
+      "exDesc": "verdens ældste børs, grundlagt i 1602",
+      "sectorList": "💻 Teknologi: ASML, Adyen. ASML driver verdens mest avancerede chips\n⚡ Energi: Shell, SBM Offshore. Globale energigiganter med hovedkontor i Holland\n🏦 Bank: ING, ABN AMRO. Klarer sig godt, når renten stiger\n🍺 Forbrugsvarer: Heineken, Ahold Delhaize. Globale mad- og drikkevaremærker\n📡 Telekom: KPN, landets største børsnoterede udbyder af forbindelser",
+      "etfBasket": "de 25 mest aktivt handlede firmaer i Amsterdam",
+      "etfDesc": "AEX er for eksempel en liste over de 25 mest aktivt handlede aktier på børsen i Amsterdam. Den rangerer firmaer efter, hvor meget de handles, ikke efter hvor store de er.",
+      "etfList": "🇳🇱 iShares AEX: De 25 mest aktivt handlede aktier i Amsterdam.\n🌍 Vanguard FTSE All-World: Firmaer fra snesevis af lande i ét køb.\n🇺🇸 iShares Core S&P 500: De 500 store amerikanske firmaer på S&P 500-listen.\n🇪🇺 En EURO STOXX 50-ETF: 50 førende blue chips fra hele eurozonen.",
+      "currencyHedge": "Hvis euroen svækkes over for andre valutaer, bliver dine internationale investeringer automatisk MERE værd målt i euro!",
+      "fxQuizSetup": "Euroen svækkes markant over for dollaren og yenen",
+      "fxQuizLose": "Den mister værdi, fordi Europas økonomi har det svært",
+      "fxQuizGain": "Den STIGER målt i euro, fordi dine udenlandske beholdninger er steget i valutaværdi",
+      "dcaTitle": "Gennemsnitskøb",
+      "dcaAbbrev": "DCA",
+      "food": "en kroket"
+    },
+    "BR": {
+      "name": "Brasilien",
+      "cName": "real",
+      "cPlural": "reais",
+      "exDesc": "den største børs i Latinamerika",
+      "sectorList": "⛏️ Minedrift: Vale, CSN. Brasiliens giganter inden for jernmalm og stål\n⚡ Energi: Petrobras, Eletrobras. Store olie- og elselskaber\n🏦 Bank: Itaú, Bradesco, Banco do Brasil. Klarer sig godt, når renten stiger\n🍺 Forbrugsvarer: Ambev, JBS. Kraftcentre inden for mad og drikkevarer\n📡 Telekom: Vivo, TIM Brasil. Brasiliens udbydere af mobil og bredbånd",
+      "etfBasket": "de mest handlede firmaer på børsen B3",
+      "etfDesc": "Ibovespa er for eksempel en liste over de mest handlede firmaer på børsen B3. Et firma fortjener sin plads ud fra, hvor meget det købes og sælges, ikke hvor stort det er. Så antallet af firmaer på listen ændrer sig over tid.",
+      "etfList": "🇧🇷 BOVA11: Følger Ibovespa, B3's mest handlede firmaer. Benchmarket.\n🇺🇸 IVVB11: Følger S&P 500. Det er 500 store amerikanske firmaer, prissat i reais.\n🌍 En global aktie-ETF: Udviklede markeder og vækstmarkeder i ét køb.\n💡 HASH11: En kryptoindeksfond med Bitcoin, Ethereum og mere.",
+      "currencyHedge": "Hvis realen svækkes over for dollaren, bliver dine internationale investeringer automatisk MERE værd målt i R$!",
+      "fxQuizSetup": "Den brasilianske real svækkes fra R$5 til R$6 over for dollaren",
+      "fxQuizLose": "Den mister værdi, fordi Brasiliens økonomi har det svært",
+      "fxQuizGain": "Den STIGER målt i reais, fordi hver dollar køber flere reais",
+      "dcaTitle": "Gennemsnitskøb i reais",
+      "dcaAbbrev": "RCA",
+      "food": "en pão de queijo-menu"
+    },
+    "SA_ARABIA": {
+      "name": "Saudi-Arabien",
+      "cName": "riyal",
+      "cPlural": "riyal",
+      "exDesc": "den største børs i Mellemøsten",
+      "sectorList": "🛢️ Energi: Saudi Aramco, SABIC. Aramco er verdens mest værdifulde olieselskab\n🏦 Bank: Al Rajhi, SNB, Riyad Bank. Klarer sig godt, når renten stiger\n📡 Telekom: STC, Mobily. Saudi-Arabiens udbydere af mobil og bredbånd\n🛍️ Detailhandel: Jarir, Extra. Populære detailkæder\n⛏️ Materialer: Ma'aden, Yansab. Minedrift og petrokemi",
+      "etfBasket": "alle firmaer noteret på Tadawuls hovedmarked",
+      "etfDesc": "TASI (Tadawul All Share Index) er slet ikke en top 30- eller top 100-liste. Den dækker alle firmaer noteret på Tadawuls hovedmarked, så antallet af firmaer i den ændrer sig, hver gang et firma bliver noteret eller forsvinder.",
+      "etfList": "🇸🇦 En ETF, der følger TASI: Bred eksponering mod hele Tadawuls hovedmarked.\n📦 En saudisk blue chip-ETF: En meget mindre kurv med de største saudiske navne.\n🌍 En MSCI Saudi Arabia-ETF: Følger MSCI's saudiske indeks, et udvalgt udsnit af markedet.\n🇺🇸 En S&P 500-fond: De 500 store amerikanske firmaer på S&P 500-listen.",
+      "currencyHedge": "Da riyalen er knyttet til den amerikanske dollar, har du gavn af at investere globalt i andre valutaer, når de valutaer bliver stærkere!",
+      "fxQuizSetup": "Globale valutaer som euroen og yenen styrkes over for riyalen",
+      "fxQuizLose": "Den mister værdi, fordi Saudi-Arabiens økonomi har det svært",
+      "fxQuizGain": "Den STIGER målt i riyal, fordi dine udenlandske beholdninger er steget i valutaværdi",
+      "dcaTitle": "Gennemsnitskøb i riyal",
+      "dcaAbbrev": "RCA",
+      "food": "et Al Baik-måltid"
+    },
+    "KR": {
+      "name": "Sydkorea",
+      "cName": "won",
+      "cPlural": "won",
+      "exDesc": "hjemsted for Samsung, Hyundai og nogle af Asiens mest innovative firmaer",
+      "sectorList": "💻 Teknologi: Samsung, SK Hynix, Kakao. Førende global tech og chips\n🚗 Bilindustri: Hyundai, Kia. Koreas verdensberømte bilproducenter\n🏦 Bank: KB Financial, Shinhan. Klarer sig godt, når renten stiger\n🎶 Underholdning: HYBE, CJ ENM. K-pop og K-drama som global kulturbølge\n📡 Telekom: KT, LG Uplus. Sydkoreas lynhurtige forbindelser",
+      "etfBasket": "200 af Koreas største og mest handlede firmaer",
+      "etfDesc": "KOSPI 200 er for eksempel en liste over 200 af Koreas største og mest handlede firmaer, udvalgt branche for branche, så alle dele af markedet er repræsenteret.",
+      "etfList": "🇰🇷 KODEX 200: Følger KOSPI 200, en liste over 200 af Koreas største og mest handlede firmaer.\n🌍 En global aktie-ETF: Firmaer fra udviklede markeder i ét køb.\n🇺🇸 TIGER Nasdaq 100: De 100 største ikke-finansielle firmaer på Nasdaq.\n💡 KODEX Samsung Group: Følger de børsnoterede Samsung-selskaber.",
+      "currencyHedge": "Hvis wonen svækkes over for andre valutaer, bliver dine internationale investeringer automatisk MERE værd målt i won!",
+      "fxQuizSetup": "Wonen svækkes fra ₩1,300 til ₩1,400 over for dollaren",
+      "fxQuizLose": "Den mister værdi, fordi Sydkoreas økonomi har det svært",
+      "fxQuizGain": "Den STIGER målt i won, fordi hver dollar køber flere won",
+      "dcaTitle": "Gennemsnitskøb i won",
+      "dcaAbbrev": "WCA",
+      "food": "en skål bibimbap"
+    },
+    "TW": {
+      "name": "Taiwan",
+      "cName": "taiwandollar",
+      "cPlural": "taiwandollars",
+      "exDesc": "hjemsted for TSMC, firmaet, der laver de fleste af verdens mest avancerede chips",
+      "sectorList": "💻 Teknologi: TSMC, MediaTek, ASUS. Taiwan laver verdens chips\n🏭 Produktion: Hon Hai (Foxconn), Delta. Giganter inden for elektronikproduktion\n🏦 Bank: Cathay Financial, Fubon. Klarer sig godt, når renten stiger\n🧪 Kemikalier: Formosa Plastics, Nan Ya. Førende inden for industrimaterialer\n📡 Telekom: Chunghwa Telecom, Far EasTone. Rygraden i Taiwans forbindelser",
+      "etfBasket": "de 50 største firmaer på Taiwan Stock Exchange",
+      "etfDesc": "Taiwan har to meget forskellige lister. TAIEX dækker alle firmaer noteret på Taiwan Stock Exchange, omkring tusind af dem. Taiwan 50, som den populære 0050-ETF følger, er kun de 50 største.",
+      "etfList": "🇹🇼 0050 (Yuanta Taiwan Top 50): De 50 største firmaer på børsen i Taiwan. Klassikeren.\n📦 0056 (Yuanta High Dividend): Taiwanske aktier udvalgt efter deres forventede udbytte.\n🇺🇸 00646 (Yuanta S&P 500): De 500 store amerikanske firmaer på S&P 500-listen.\n💡 00662 (Fubon Nasdaq 100): De 100 største ikke-finansielle firmaer på Nasdaq.",
+      "currencyHedge": "Hvis taiwandollaren svækkes over for andre valutaer, bliver dine internationale investeringer automatisk MERE værd målt i NT$!",
+      "fxQuizSetup": "Taiwandollaren svækkes fra NT$30 til NT$34 over for den amerikanske dollar",
+      "fxQuizLose": "Den mister værdi, fordi Taiwans økonomi har det svært",
+      "fxQuizGain": "Den STIGER målt i NT$, fordi dine udenlandske beholdninger er steget i valutaværdi",
+      "dcaTitle": "Gennemsnitskøb i dollars",
+      "dcaAbbrev": "DCA",
+      "food": "en oksekødsnudelsuppe"
+    },
+    "SG": {
+      "name": "Singapore",
+      "cName": "singaporedollar",
+      "cPlural": "singaporedollars",
+      "exDesc": "Sydøstasiens førende finanscenter og børs",
+      "sectorList": "🏦 Bank: DBS, OCBC, UOB. Singapores bundsolide banktrio\n✈️ Transport: Singapore Airlines, SATS. Luftfart i verdensklasse\n🏗️ Ejendomme: CapitaLand, City Developments. Ejendomme fylder enormt i Singapore\n💻 Teknologi: Venture Corporation, AEM. Tech noteret på SGX er mest elektronikproduktion; Sea og Grab valgte i stedet at blive noteret i USA\n📡 Telekom: Singtel, StarHub. Singapores udbydere af forbindelser",
+      "etfBasket": "de 30 største firmaer på Singapore Exchange",
+      "etfDesc": "Straits Times Index er for eksempel en liste over de 30 største firmaer på Singapore Exchange, som også består børsens test for free float og handel.",
+      "etfList": "🇸🇬 Nikko AM STI ETF: De 30 største firmaer på Singapore Exchange. Benchmarket.\n📦 ABF Singapore Bond Index Fund: Singaporeanske statsobligationer i én fond.\n🌏 iShares MSCI Asia ex Japan: Bred adgang til de asiatiske markeder.\n🇺🇸 En S&P 500-ETF: De 500 store amerikanske firmaer på S&P 500-listen.",
+      "currencyHedge": "Hvis singaporedollaren svækkes over for andre valutaer, bliver dine internationale investeringer automatisk MERE værd målt i S$!",
+      "fxQuizSetup": "Singaporedollaren svækkes markant over for den amerikanske dollar",
+      "fxQuizLose": "Den mister værdi, fordi Singapores økonomi har det svært",
+      "fxQuizGain": "Den STIGER målt i S$, fordi dine udenlandske beholdninger er steget i valutaværdi",
+      "dcaTitle": "Gennemsnitskøb i dollars",
+      "dcaAbbrev": "DCA",
+      "food": "et måltid i et hawker centre"
+    },
+    "CH": {
+      "name": "Schweiz",
+      "cName": "franc",
+      "cPlural": "franc",
+      "exDesc": "hjemsted for Nestlé, Novartis og Roche, tre af Europas mest værdifulde firmaer",
+      "sectorList": "💊 Medicinal: Novartis, Roche. Globale kraftcentre inden for medicin\n🍫 Forbrugsvarer: Nestlé, Lindt. Verdens mest ikoniske fødevaremærker\n🏦 Bank: UBS, Julius Baer. Schweizisk bankvæsen er legendarisk\n🏭 Industri: ABB, Holcim. Global ingeniørkunst og byggeri\n📡 Telekom: Swisscom, Sunrise. Schweiziske udbydere af forbindelser",
+      "etfBasket": "de 20 største og mest handlede schweiziske firmaer",
+      "etfDesc": "Swiss Market Index er for eksempel en liste over de 20 største og mest handlede schweiziske firmaer.",
+      "etfList": "🇨🇭 iShares Core SPI: Hele det schweiziske marked, ikke kun de store navne.\n💡 En SMI-ETF: De 20 største og mest handlede schweiziske firmaer.\n🌍 UBS ETF MSCI World: Firmaer fra 23 udviklede lande.\n🇺🇸 iShares Core S&P 500: De 500 store amerikanske firmaer på S&P 500-listen.",
+      "currencyHedge": "Hvis francen svækkes over for andre valutaer, bliver dine internationale investeringer MERE værd målt i CHF. Den schweiziske franc er som regel meget stærk!",
+      "fxQuizSetup": "Den schweiziske franc svækkes markant over for dollaren og euroen",
+      "fxQuizLose": "Den mister værdi, fordi Schweiz' økonomi har det svært",
+      "fxQuizGain": "Den STIGER målt i franc, fordi dine udenlandske beholdninger er steget i valutaværdi",
+      "dcaTitle": "Gennemsnitskøb i franc",
+      "dcaAbbrev": "FCA",
+      "food": "en kebab"
+    },
+    "SE": {
+      "name": "Sverige",
+      "cName": "svensk krone",
+      "cPlural": "svenske kroner",
+      "exDesc": "hjemsted for Ericsson, Volvo og et overraskende stort antal globale mærker",
+      "sectorList": "💻 Teknologi: Ericsson, Hexagon. Sverige slår over sin vægtklasse inden for tech\n🚗 Bilindustri: Volvo, Volvo Cars. Svensk ingeniørkunst i topklasse\n🏦 Bank: SEB, Handelsbanken, Nordea. Klarer sig godt, når renten stiger\n👗 Detailhandel: H&M, Essity. Globale mode- og forbrugermærker\n📡 Telekom: Telia, Tele2. Førende inden for forbindelser i Norden",
+      "etfBasket": "de 30 mest handlede firmaer i Stockholm",
+      "etfDesc": "OMXS30 er for eksempel en liste over de 30 mest handlede aktier på børsen i Stockholm. Den rangerer efter handelsaktivitet, ikke efter firmaets størrelse.",
+      "etfList": "🇸🇪 Xact OMXS30: De 30 mest handlede aktier i Stockholm.\n💰 Avanza Zero: En svensk indeksfond uden årligt forvaltningsgebyr. Den følger de samme 30 aktier i Stockholm.\n🌍 En global indeksfond: Firmaer fra snesevis af lande i ét køb.\n🇺🇸 En S&P 500-fond: De 500 store amerikanske firmaer på S&P 500-listen.",
+      "currencyHedge": "Hvis den svenske krone svækkes over for andre valutaer, bliver dine internationale investeringer automatisk MERE værd målt i kr!",
+      "fxQuizSetup": "Den svenske krone svækkes markant over for dollaren og euroen",
+      "fxQuizLose": "Den mister værdi, fordi Sveriges økonomi har det svært",
+      "fxQuizGain": "Den STIGER målt i svenske kroner, fordi dine udenlandske beholdninger er steget i valutaværdi",
+      "dcaTitle": "Gennemsnitskøb i svenske kroner",
+      "dcaAbbrev": "KCA",
+      "food": "en falafelrulle"
+    }
+  }
+}

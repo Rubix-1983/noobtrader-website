@@ -1,0 +1,1846 @@
+{
+  "_meta": {
+    "lang": "vi",
+    "source": "src/constants/lessonData.js",
+    "lessons": 84,
+    "hash": {
+      "1": "d38ab2ed",
+      "2": "bf930bc6",
+      "3": "6e4e4d63",
+      "4": "5b7802cc",
+      "5": "0f9cde1d",
+      "6": "e5999569",
+      "7": "66bc9202",
+      "8": "65677cac",
+      "9": "59a1fc31",
+      "10": "03ccde2e",
+      "11": "fbb06743",
+      "12": "7713dc86",
+      "13": "38054a44",
+      "14": "cbac8395",
+      "15": "4355d5d7",
+      "16": "bee25cb0",
+      "17": "a5cba909",
+      "18": "df93ed01",
+      "19": "ad2f3ae8",
+      "20": "6363dc90",
+      "21": "65a3ab78",
+      "22": "61f1ee9c",
+      "23": "a475dd40",
+      "24": "6874af82",
+      "25": "d92ac77b",
+      "26": "e8f1b315",
+      "27": "c3b42e04",
+      "28": "c3719a16",
+      "29": "b8690fa4",
+      "30": "272435ad",
+      "31": "ebbffa78",
+      "32": "31ae442d",
+      "33": "71dbb7c6",
+      "34": "62d271e6",
+      "35": "da185960",
+      "36": "66e0a88e",
+      "37": "4a91dc0c",
+      "38": "9ec4dee7",
+      "39": "ae809a71",
+      "40": "c3b12ff9",
+      "41": "aa4153d7",
+      "42": "29941a97",
+      "43": "d87240fc",
+      "44": "87c794ce",
+      "45": "a3dd8868",
+      "46": "7873826b",
+      "47": "47503da5",
+      "48": "6d2df7b4",
+      "49": "c1055330",
+      "50": "7d4a6a8a",
+      "51": "27e927d2",
+      "52": "041c444d",
+      "53": "8fb1d4bc",
+      "54": "33ec5d94",
+      "55": "b7571fb2",
+      "56": "f20ea6ce",
+      "57": "5a1f3993",
+      "58": "561a7caf",
+      "59": "67437975",
+      "60": "6db8d44d",
+      "61": "04bbebe6",
+      "62": "b43659be",
+      "63": "a6bfefd0",
+      "64": "a2cc88e0",
+      "65": "2f12b47a",
+      "66": "4a676ede",
+      "67": "17351f96",
+      "68": "e9dda763",
+      "69": "3b1a13c3",
+      "70": "b07744de",
+      "71": "798da84a",
+      "72": "960b5a23",
+      "73": "76df64cb",
+      "74": "90735bdf",
+      "75": "b5be8d19",
+      "76": "b2c7a6ad",
+      "77": "1f3344ae",
+      "78": "e03a370e",
+      "79": "3b881962",
+      "80": "64bddadd",
+      "81": "d30753ea",
+      "82": "71620bf3",
+      "83": "989bc8a6",
+      "84": "cdd0a41d"
+    }
+  },
+  "lessons": {
+    "1": {
+      "title": "Cổ phiếu là gì?",
+      "desc": "Sở hữu một mảnh nhỏ của công ty",
+      "content": "Hãy tưởng tượng bạn và 9 người bạn mỗi người góp {c}10 để cùng mua một đôi sneaker giá {c}100. Mỗi người sở hữu 1/10 đôi giày đó, và về cơ bản đó chính là cổ phiếu! Khi bạn mua một cổ phiếu của {retail}, bạn sở hữu một lát nhỏ của mọi cửa hàng, mọi sản phẩm và từng đồng tiền ({cName}) mà họ kiếm được. Công ty càng lớn mạnh, lát của bạn càng có giá trị! 🔥",
+      "quiz": {
+        "q": "Bạn và 4 người bạn chia đều tiền mua một chiếc ghế gaming giá {c}500. Mỗi người sở hữu gì?",
+        "explanation": "Sở hữu cổ phiếu nghĩa là sở hữu một phần của cả tổng thể. Năm người góp bằng nhau thì có năm phần bằng nhau, và phần nào cũng mang quyền lợi như những phần còn lại.",
+        "options": [
+          "Mỗi người 1/5 (20%) chiếc ghế",
+          "Không gì cả, chỉ một người được sở hữu nó",
+          "Cả chiếc ghế chung, không ai có phần riêng"
+        ]
+      }
+    },
+    "2": {
+      "title": "Giải thích về {ex}",
+      "desc": "Sàn chứng khoán của {name}",
+      "content": "Hãy nghĩ về {ex} ({exFull}) như một chợ online khổng lồ, chỉ khác là thay vì mua sneaker hay điện thoại, mọi người mua bán những mảnh nhỏ (cổ phiếu) của các công ty như {top5}. Sàn mở cửa mọi ngày trong tuần trừ ngày lễ, và giá thay đổi cả ngày tùy theo ai đang mua và ai đang bán. {ex} là {exDesc}! 🌍",
+      "quiz": {
+        "q": "{ex} giống với thứ gì nhất?",
+        "explanation": "Sàn giao dịch kết nối những người muốn mua cổ phiếu với những người muốn bán. Sàn không sở hữu cổ phiếu, không quyết định giá và cũng không trả lãi cho bạn khi để tiền ở đó.",
+        "options": [
+          "Một khu chợ, nơi người có cổ phiếu gặp người mua",
+          "Một tài khoản tiết kiệm, nơi tiền nằm yên và sinh lãi",
+          "Một cửa hàng sở hữu cổ phiếu rồi bán lại cho bạn"
+        ]
+      }
+    },
+    "3": {
+      "title": "Bò và Gấu",
+      "desc": "Giải mã xu hướng thị trường",
+      "content": "Trên thị trường, các con vật nắm quyền điều hành 😄\n\n🐂 Bò (Bull) = giá đang TĂNG. Hãy tưởng tượng con bò húc sừng lên trên. Ai cũng thắng, mọi người đang mua, không khí tích cực.\n\n🐻 Gấu (Bear) = giá đang GIẢM. Hãy tưởng tượng con gấu vả móng xuống dưới. Mọi người sợ hãi, bán ra, không phải lúc vui vẻ gì.\n\nKhi ai đó nói 'Mình đang lạc quan (bullish) về {tech}', nghĩa là họ nghĩ giá sẽ tăng. Khi họ nói 'bi quan (bearish)', họ nghĩ giá sẽ đi xuống. Bạn sẽ nghe những từ này ở khắp nơi trong giới tài chính!",
+      "quiz": {
+        "q": "Bạn của bạn nói 'Tuần này mình bearish với {telco}.' Câu đó nghĩa là gì?",
+        "explanation": "Bearish là kỳ vọng giá giảm, bullish là kỳ vọng giá tăng. Gấu vả xuống, bò hất lên.",
+        "options": [
+          "Họ nghĩ giá {telco} sẽ tăng",
+          "Họ nghĩ giá {telco} sẽ giảm",
+          "Họ muốn mua càng nhiều {telco} càng tốt"
+        ]
+      }
+    },
+    "4": {
+      "title": "Công ty môi giới là gì?",
+      "desc": "Cánh cửa để bạn mua cổ phiếu",
+      "content": "Bạn không thể cứ thế bước tới {retail} và nói 'cho mình xin một ít công ty của bạn nhé' 😂 Bạn cần một công ty môi giới (broker): một app hoặc dịch vụ kết nối người mua và người bán trên sàn chứng khoán.\n\nHãy nghĩ về broker giống như {shop}. Bạn muốn thứ gì đó, {shop} kết nối bạn với nó. Họ xử lý giao dịch và thu một khoản phí nhỏ. Các broker phổ biến ở {name} gồm {broker} và nhiều nơi khác.\n\nĐây là điều broker KHÔNG làm: quyết định cổ phiếu nào sẽ tăng. Họ chuyển lệnh của bạn ra thị trường. Giá thay đổi vì những gì mọi người ngoài kia đang mua và bán, chứ không phải vì broker của bạn bảo thế.\n\nTuy vậy, broker có đưa ra nhận định. Các chuyên viên phân tích của họ xếp hạng cổ phiếu là 'mua', 'giữ' hoặc 'bán'. Nhận định không phải mệnh lệnh 🤷 Các chuyên viên phân tích công khai bất đồng với nhau về cùng một cổ phiếu, và rất nhiều người hóa ra đã sai. Hãy đọc xếp hạng như đọc một bài review, chứ không phải một quy tắc.\n\nNoobTrader dạy bạn chính xác cách mọi thứ vận hành, miễn phí, bằng tiền ảo!",
+      "quiz": {
+        "q": "Vì sao bạn cần công ty môi giới để mua cổ phiếu?",
+        "explanation": "Broker là con đường đưa bạn vào sàn, không phải thầy bói và cũng không phải người định giá. Họ chuyển lệnh đi, còn giá là mức mà phần còn lại của thị trường sẵn sàng giao dịch. Các chuyên viên phân tích của họ có đưa ra xếp hạng, nhưng xếp hạng chỉ là ý kiến, không phải chỉ thị.",
+        "options": [
+          "Họ chọn những cổ phiếu sắp tăng giá",
+          "Họ đặt ra giá bạn trả cho mỗi cổ phiếu",
+          "Họ chuyển lệnh của bạn tới sàn giao dịch"
+        ]
+      }
+    },
+    "5": {
+      "title": "Cơ bản về giá cổ phiếu",
+      "desc": "Vì sao giá lên rồi lại xuống?",
+      "content": "Bạn có để ý sneaker phiên bản giới hạn tăng giá vọt khi vừa ra mắt không? Cổ phiếu cũng y như vậy. Tất cả là chuyện cung và cầu.\n\n📈 Nhiều người MUỐN mua → giá TĂNG\n📉 Nhiều người MUỐN bán → giá GIẢM\n\nNếu {telco} thông báo sắp có thêm 10 triệu khách hàng mới, ai cũng muốn có một phần, nên giá tăng vọt. Nếu họ báo lỗ lớn, mọi người hoảng loạn bán tháo và giá lao dốc. Tin tức, kết quả kinh doanh, thậm chí cả trend trên mạng xã hội đều có thể làm giá cổ phiếu thay đổi ngay lập tức!",
+      "quiz": {
+        "q": "{retail} công bố lợi nhuận kỷ lục và dự định mở thêm 50 cửa hàng mới. Giá cổ phiếu của họ nhiều khả năng sẽ ra sao?",
+        "explanation": "Lợi nhuận kỳ vọng tốt hơn thường kéo theo nhiều người mua hơn, và nhiều người mua hơn sẽ đẩy giá lên. Chi tiền để phát triển không giống với phung phí tiền.",
+        "options": [
+          "Tăng lên vì nhiều người muốn mua hơn",
+          "Giữ nguyên y như cũ",
+          "Lao dốc vì họ tiêu tiền vào cửa hàng"
+        ]
+      }
+    },
+    "6": {
+      "title": "Đọc biểu đồ giá",
+      "desc": "Nến, đường và ý nghĩa của chúng",
+      "content": "Biểu đồ giá giống như một đoạn highlight về lịch sử của cổ phiếu. Loại phổ biến nhất là biểu đồ nến. Mỗi 'cây nến' cho bạn biết 4 điều trong một ngày:\n\n🟢 Nến xanh = giá TĂNG trong ngày đó (mở cửa thấp hơn, đóng cửa cao hơn)\n🔴 Nến đỏ = giá GIẢM (mở cửa cao hơn, đóng cửa thấp hơn)\n📏 Những đường mảnh phía trên/dưới = giá cao nhất và thấp nhất trong ngày\n\nNếu bạn thấy nhiều nến xanh liên tiếp, đó là xu hướng tăng mạnh. Nhiều nến đỏ nghĩa là xu hướng giảm. Học đọc biểu đồ cũng giống như học đọc bảng tỉ số trong game vậy! 🎮",
+      "quiz": {
+        "q": "Bạn thấy 5 cây nến đỏ liên tiếp trên biểu đồ. Điều này cho bạn biết gì?",
+        "explanation": "Nến đỏ đóng cửa thấp hơn giá mở cửa, nên năm cây liên tiếp là năm phiên giảm giá. Màu sắc cho biết hướng đi, không cho biết mức độ biến động.",
+        "options": [
+          "Cổ phiếu đã tăng giá suốt 5 ngày",
+          "Cổ phiếu đã giảm giá suốt 5 ngày",
+          "Giá cổ phiếu không hề thay đổi"
+        ]
+      }
+    },
+    "7": {
+      "title": "Khối lượng & điều nó cho biết",
+      "desc": "Có bao nhiêu cổ phiếu đang được giao dịch",
+      "content": "Khối lượng (volume) = số cổ phiếu được mua và bán trong một ngày. Hãy nghĩ nó giống như lượt xem của một video TikTok.\n\n🔊 Khối lượng CAO = nhiều người đang giao dịch. Nếu giá biến động kèm khối lượng cao, đó là tín hiệu mạnh và đáng tin hơn, như một video viral thật sự chứ không phải nhờ bot.\n\n🔇 Khối lượng THẤP = chỉ vài người giao dịch. Khi khối lượng thấp, giá có thể chạy rất kỳ quặc, như một video chỉ có 3 lượt xem lại bị chia sẻ nhầm.\n\nLuôn kiểm tra khối lượng khi thấy giá biến động mạnh. Nó cho bạn biết biến động đó là thật hay chỉ là nhiễu!",
+      "quiz": {
+        "q": "Cổ phiếu {telco} tăng vọt 5% hôm nay, nhưng khối lượng rất thấp. Bạn nên nghĩ gì?",
+        "explanation": "Khối lượng thể hiện mức độ quyết tâm đằng sau một biến động. Một cú tăng lớn với rất ít giao dịch có thể bị xóa sạch dễ dàng như lúc nó xảy ra, nên hãy kiểm tra khối lượng trước khi tin vào một cú bứt phá.",
+        "options": [
+          "Chắc chắn là cơ hội lớn, mua ngay!",
+          "Khối lượng thấp luôn có nghĩa là giá sẽ tiếp tục tăng",
+          "Biến động này có thể không đáng tin, khối lượng thấp khiến nó đáng ngờ"
+        ]
+      }
+    },
+    "8": {
+      "title": "Hỗ trợ & Kháng cự",
+      "desc": "Những mức giá quan trọng",
+      "content": "Hãy tưởng tượng giá cổ phiếu là một quả bóng nảy:\n\n🧱 HỖ TRỢ = cái sàn mà quả bóng nảy lên. Giá cứ giảm, nhưng mỗi lần chạm mức này, nó lại bật lên. Rất nhiều người mua xuất hiện ở đây.\n\n🪟 KHÁNG CỰ = cái trần mà quả bóng đập vào. Mỗi lần giá tăng lên mức này, nó lại bị đẩy xuống. Rất nhiều người bán chốt lời ở đây.\n\nTrader dùng những mức này như bản đồ game: mua gần sàn, bán gần trần. Khi giá cuối cùng phá vỡ kháng cự, nó thường vọt lên rất nhanh. Khi nó thủng hỗ trợ, hãy chuẩn bị tinh thần cho một cú giảm! 💥\n\nMột lời cảnh báo thật lòng: những mức này do con người vẽ ra khi nhìn biểu đồ, chứ không phải quy tắc mà thị trường buộc phải tuân theo. Một cổ phiếu hoàn toàn có thể xuyên thủng 'hỗ trợ' và tiếp tục rơi. 📉",
+      "quiz": {
+        "q": "Một cổ phiếu đã bật lên từ mức {c}50 ba lần mà không xuống thấp hơn. Mức {c}50 được gọi là gì?",
+        "explanation": "Cái sàn liên tục được giữ vững là hỗ trợ; cái trần liên tục đẩy giá xuống là kháng cự. Không mức nào là lời hứa, nhưng cả hai đều đáng biết trước khi bạn mua.",
+        "options": [
+          "Một mức hỗ trợ",
+          "Một mức kháng cự",
+          "Giá trần"
+        ]
+      }
+    },
+    "9": {
+      "title": "Đa dạng hóa",
+      "desc": "Đừng bỏ hết trứng vào một giỏ",
+      "content": "Hãy tưởng tượng bạn dùng HẾT gói data cho một app xem phim. Rồi app đó bị sập. Bạn chẳng còn gì cả. 😩\n\nNhưng nếu bạn chia data cho WhatsApp, YouTube VÀ app xem phim, thì một app sập cũng không phá hỏng cả ngày của bạn.\n\nĐầu tư cũng vậy! Nếu bạn dồn HẾT tiền vào một cổ phiếu và nó lao dốc, bạn mất tất cả. Nhưng nếu bạn chia ra cho {telco} (viễn thông), {retail} (bán lẻ), {tech} (công nghệ) và một quỹ ETF, thì một cổ phiếu lao dốc cũng không giết chết cả danh mục của bạn. Chiến lược chia nhỏ này được gọi là ĐA DẠNG HÓA. 💼",
+      "quiz": {
+        "q": "Bạn có {c}500 để đầu tư. Cách nào thực sự phân tán rủi ro cho bạn?",
+        "explanation": "Năm cửa hàng quần áo đều lên xuống theo cùng một yếu tố, nên chia tiền vào chúng gần như chẳng phân tán được gì. Các ngành khác nhau gặp khó khăn vào những thời điểm khác nhau, và chính điều đó ngăn một kết quả tệ cuốn trôi tất cả.",
+        "options": [
+          "Mỗi cửa hàng {c}100, vào năm cửa hàng quần áo khác nhau",
+          "Mỗi ngành {c}100, vào năm ngành khác nhau",
+          "Dồn cả {c}500 vào một công ty bạn thích nhất"
+        ]
+      }
+    },
+    "10": {
+      "title": "Rủi ro & Lợi nhuận",
+      "desc": "Vì sao lãi lớn hơn = rủi ro lớn hơn",
+      "content": "Bạn đã bao giờ mua hộp mù chưa? Bạn có thể nhận được thứ cực xịn, hoặc toàn đồ bỏ. Đó là rủi ro cao / lợi nhuận cao.\n\nĐầu tư cũng hoạt động y như vậy:\n\n✅ RỦI RO THẤP HƠN, LỢI NHUẬN THẤP HƠN: Như {retail}. Công ty khổng lồ, đã vững vàng. Tiền của bạn thường tăng chậm và đều. Lưu ý là 'thấp hơn', không phải 'không có'. Công ty lớn cũng có thể đi xuống.\n\n🎲 RỦI RO CAO, LỢI NHUẬN CAO: Như một startup khai khoáng tí hon. Nó có thể tăng gấp 10 lần, hoặc biến mất. Giống hệt hộp mù.\n\nTrước khi đầu tư vào bất cứ thứ gì, luôn tự hỏi: 'Điều tệ nhất có thể xảy ra là gì?' Nếu bạn không thể chấp nhận mất số tiền đó, đừng mạo hiểm!",
+      "quiz": {
+        "q": "Một đồng coin chưa ai nghe tên hứa hẹn lợi nhuận 500%. Một lời hứa lớn như thế thực sự cho bạn biết điều gì?",
+        "explanation": "Rủi ro và lợi nhuận là hai đầu của cùng một cây gậy. Chẳng ai cho không 500%, nên độ lớn của lời hứa thực chất đo xem toàn bộ số tiền có thể bốc hơi dễ đến mức nào. Trước khi bỏ tiền vào bất cứ thứ gì, hãy hỏi trường hợp tệ nhất trông ra sao và liệu bạn có chịu nổi không.",
+        "options": [
+          "Đó là món hời mà phần còn lại của thị trường lỡ bỏ qua",
+          "Lời hứa càng lớn, những người đứng sau càng nghiêm túc",
+          "Khả năng mất trắng cũng lớn y như lời hứa"
+        ]
+      }
+    },
+    "11": {
+      "title": "Dài hạn và Ngắn hạn",
+      "desc": "Tư duy đầu tư và tư duy giao dịch",
+      "content": "🏃 GIAO DỊCH NGẮN HẠN: Mua và bán trong vài ngày hoặc vài tuần để bắt những biến động giá nhanh. Căng thẳng cao, cần dán mắt vào màn hình rất nhiều. Giống như cố đoán ai thắng từng trận trong một giải đấu.\n\n🧘 ĐẦU TƯ DÀI HẠN: Mua cổ phiếu và giữ chúng trong nhiều năm. Bạn vượt qua những lần giảm giá và để tiền tự lớn lên. Giống như đặt cược đội nào vô địch cả mùa giải. Bạn không hoảng loạn chỉ sau một trận thua.\n\nCác nghiên cứu trên tài khoản môi giới thật liên tục cho thấy cùng một quy luật: người ta giao dịch càng thường xuyên thì kết quả càng tệ sau khi trừ chi phí.\n\nVà thời gian là lợi thế duy nhất không thể mua lại sau này. Mỗi năm tiền còn được đầu tư là thêm một năm lãi kép làm việc cho bạn. ⏳",
+      "quiz": {
+        "q": "Hai người mua cùng một loại cổ phiếu với số tiền như nhau. Một người mua ra bán vào mỗi tuần, người kia để yên suốt mười năm. Các nghiên cứu trên tài khoản thật liên tục cho thấy điều gì?",
+        "explanation": "Mỗi giao dịch đều tốn một khoản, và khoản đó bị trừ dù giao dịch thành công hay không. Nghiên cứu này nối tiếp nghiên cứu khác trên tài khoản môi giới thật đều thấy cùng một quy luật: người ta giao dịch càng nhiều thì về đích càng tụt lại phía sau. Để tiền yên không phải lười biếng, đó là kế hoạch rẻ hơn.",
+        "options": [
+          "Người bận rộn thường tụt lại phía sau sau khi trừ chi phí",
+          "Người bận rộn thường thắng, vì nỗ lực được đền đáp ở đây",
+          "Hai người hòa nhau, vì họ giữ đúng cùng một loại cổ phiếu"
+        ]
+      }
+    },
+    "12": {
+      "title": "{dcaTitle}",
+      "desc": "Đầu tư cùng một khoản tiền đều đặn",
+      "content": "Đây là một chiến lược đơn giản đến mức gần như không giống chiến lược, và nó xóa bỏ câu hỏi khó nhất trong đầu tư:\n\nĐầu tư CÙNG một khoản tiền mỗi tháng, dù giá đang lên hay xuống. Giống như để dành {c}100 từ tiền mừng sinh nhật hoặc tiền tiêu vặt mỗi tháng.\n\n📉 Khi giá THẤP → {c}100 của bạn mua được NHIỀU cổ phiếu hơn\n📈 Khi giá CAO → {c}100 của bạn mua được ÍT cổ phiếu hơn\n\nTheo thời gian, giá vốn trung bình mỗi cổ phiếu của bạn được làm mượt và bạn tự động 'mua lúc giá giảm' mà không cần cố gắng! Cách này được gọi là {dcaTitle} ({dcaAbbrev}). Nó loại bỏ cảm xúc khỏi việc đầu tư vì bạn không bao giờ phải quyết định 'BÂY GIỜ có phải lúc thích hợp không?' Bạn chỉ cần cam kết và làm thôi! 💪\n\nNói thật: cách này không phải lúc nào cũng thắng việc bỏ cả một cục tiền vào cùng lúc. Điều nó làm được là tạo ra một kế hoạch bạn thực sự theo được.",
+      "quiz": {
+        "q": "Bạn bỏ vào 200 NT khi cổ phiếu có giá 100 NT. Sau đó cổ phiếu lao dốc, và 200 NT tiếp theo của bạn được mua ở giá 25 NT. Kéo tới giá vốn trung bình mỗi cổ phiếu của bạn qua hai lần mua.",
+        "explanation": "200 NT đầu tiên mua được 2 cổ phiếu giá 100 NT. 200 NT thứ hai mua được 8 cổ phiếu giá 25 NT. Tổng cộng là 400 NT cho 10 cổ phiếu, tức 40 NT mỗi cổ phiếu. Để ý rằng con số này không hề nằm giữa hai mức giá: cùng một số tiền tự động mua được nhiều hơn khi mọi thứ rẻ, và chính điều đó kéo giá trung bình của bạn xuống."
+      }
+    },
+    "13": {
+      "title": "Tiền đẻ ra tiền 💸",
+      "desc": "Được trả tiền chỉ vì nắm giữ cổ phiếu",
+      "content": "Hãy tưởng tượng bạn sở hữu một máy bán hàng tự động. Mỗi tuần, mọi người mua đồ ăn vặt từ máy CỦA BẠN, và bạn thu tiền, chỉ vì sở hữu nó. Bạn chẳng phải làm thêm gì cả!\n\nĐó chính là cổ tức. Chúng mình gọi chúng là Tiền đẻ ra tiền 🍼 vì tiền của bạn thật sự sinh ra tiền con: những khoản tiền nhỏ rơi vào tài khoản của bạn chỉ vì bạn sở hữu cổ phiếu.\n\nCác công ty lớn như {divPayers} trả Tiền đẻ ra tiền đều đặn. Bạn giữ càng nhiều cổ phiếu, tiền con của bạn càng lớn!\n\n⚠️ Chúng KHÔNG được đảm bảo. Công ty quyết định mỗi lần có trả hay không, và có thể cắt giảm hoặc ngừng hẳn cổ tức khi làm ăn khó khăn. Một khoản chi trả lớn năm nay không phải lời hứa cho năm sau.\n\nVà nếu bạn tái đầu tư số tiền con đó để mua THÊM cổ phiếu... đợt tiếp theo của bạn còn lớn hơn nữa. Một vòng lặp tuyệt đẹp 🔁",
+      "quiz": {
+        "q": "{bank} trả cho bạn {c}5 cho mỗi cổ phiếu bạn sở hữu, mà bạn không cần bán gì cả. Khoản tiền đó được gọi là gì?",
+        "explanation": "Cổ tức là một phần lợi nhuận của công ty được chia cho những người sở hữu nó. App này gọi chúng là Tiền đẻ ra tiền. Bạn vẫn giữ nguyên mọi cổ phiếu mình có, và tiền vẫn rơi vào tài khoản. Tuy nhiên nó không được hứa trước, và công ty có thể cắt giảm hoặc ngừng trả bất cứ khi nào làm ăn khó khăn.",
+        "options": [
+          "Cổ tức, một phần của lợi nhuận",
+          "Tiền lãi, loại mà tài khoản tiết kiệm trả",
+          "Tiền thưởng thân thiết vì là khách hàng"
+        ]
+      }
+    },
+    "14": {
+      "title": "Lãi kép",
+      "desc": "Cách tiền của bạn tự lớn lên",
+      "content": "Đây là bí mật về tiền mạnh nhất mà bạn từng học. Sẵn sàng chưa? 👀\n\nBạn đầu tư {c}1,000 với lãi 10% mỗi năm:\n• Năm 1: {c}1,000 → {c}1,100 (kiếm được {c}100)\n• Năm 2: {c}1,100 → {c}1,210 (kiếm được {c}110, nhiều hơn năm 1!)\n• Năm 3: {c}1,210 → {c}1,331 (kiếm được {c}121)\n\nGiờ bạn đang kiếm lãi trên chính TIỀN LÃI của mình. Quả cầu tuyết lớn dần mỗi năm mà bạn không cần bỏ thêm gì. Sau 30 năm với 10%? {c}1,000 đó trở thành {c}17,449! 🤯\n\nBạn sẽ thấy người ta gọi điều này là 'kỳ quan thứ tám của thế giới' và gán câu nói đó cho Einstein. Chẳng có bằng chứng thật nào cho thấy ông từng nói vậy, nhưng phần toán học mới là phần quan trọng, và phần toán học là thật. Hãy bắt đầu sớm, và thời gian sẽ gánh phần việc nặng cho bạn.",
+      "quiz": {
+        "q": "Bạn bỏ vào 2,000 NT với lãi 10% mỗi năm và không bao giờ đụng tới. Kéo tới giá trị của nó sau ba năm.",
+        "explanation": "Năm thứ nhất thêm 200 NT, thành 2,200. Năm thứ hai lấy 10% của 2,200, nên thêm 220 và thành 2,420. Năm thứ ba thêm 242 và đạt 2,662. Mỗi năm 10% được tính trên một đống tiền lớn hơn, đó là lý do cộng 200 ba lần rồi dừng ở 2,600 sẽ bị thiếu."
+      }
+    },
+    "15": {
+      "title": "Lãi kép & Cổ phiếu",
+      "desc": "Tái đầu tư Tiền đẻ ra tiền để tăng trưởng",
+      "content": "Còn nhớ Tiền đẻ ra tiền (cổ tức) không? Giờ mới tới phần thú vị 🤯\n\nThông thường: Bạn nhận {c}50 Tiền đẻ ra tiền → tiêu vào đồ ăn vặt → hết.\n\nCách thông minh: Bạn nhận {c}50 Tiền đẻ ra tiền → mua THÊM cổ phiếu → lần sau bạn nhận NHIỀU Tiền đẻ ra tiền hơn → mua thêm cổ phiếu nữa → quả cầu tuyết lăn 🔝\n\nĐây là lãi kép áp dụng cho cổ phiếu. Thử tính xem: bỏ vào cùng một khoản mỗi tháng trong 30 năm với lợi nhuận trung bình 10%, và bạn sẽ có khoảng GẤP SÁU LẦN số tiền bạn thực sự bỏ vào. Khoảng năm phần sáu đống tiền đó là phần tăng trưởng: tiền bạn chưa từng làm ra, để dành hay gửi vào.\n\nTrong những khoảng thời gian dài, cổ tức được tái đầu tư đã chiếm một phần lớn trong tổng lợi nhuận của nhà đầu tư. Đó chính là lý do những công ty trả cổ tức 'nhàm chán' hóa ra chẳng nhàm chán chút nào 💰",
+      "quiz": {
+        "q": "Bạn nhận {c}80 cổ tức và dùng từng đồng để mua thêm cổ phiếu thay vì tiêu. Điều gì xảy ra ở lần chi trả tiếp theo?",
+        "explanation": "Mỗi cổ phiếu bạn mua thêm sẽ tự trả cổ tức vào lần sau, nên khoản chi trả lớn lên mà bạn không cần bỏ thêm tiền mới. Đó lại là lãi kép, lần này chạy bằng thu nhập chứ không phải bằng giá.",
+        "options": [
+          "Khoản chi trả vẫn y như cũ, chỉ đến muộn hơn",
+          "Lần sau bạn nhận ít hơn, vì bạn đã trả lại tiền",
+          "Bạn sở hữu nhiều cổ phiếu hơn, nên lần chi trả tới lớn hơn"
+        ]
+      }
+    },
+    "16": {
+      "title": "Quy tắc 72",
+      "desc": "Cách nhanh để ước tính thời gian nhân đôi",
+      "content": "Đây là một mã gian lận cho não bộ của bạn 🧠\n\nMuốn biết mất bao lâu để NHÂN ĐÔI số tiền? Chỉ cần lấy 72 chia cho lợi nhuận hằng năm:\n\n• 72 ÷ lợi nhuận 12% = 6 năm để nhân đôi\n• 72 ÷ lợi nhuận 8% = 9 năm để nhân đôi\n• 72 ÷ lợi nhuận 6% = 12 năm để nhân đôi\n\nVậy nếu bạn kiếm đều 12% mỗi năm trên {c}2,000, sau 6 năm bạn có {c}4,000. Chờ thêm 6 năm nữa bạn có {c}8,000. Thêm 6 năm nữa và bạn có {c}16,000! 🤯\n\nĐây là phép ước lượng, không phải định luật, và lợi nhuận thực tế không bao giờ là một con số đều đặn mỗi năm. Nhưng nó đủ gần để tính nhẩm trong đầu, và đó mới là mục đích chính.\n\nĐây là lý do bắt đầu từ 13 hay 14 tuổi là CỰC KỲ lợi thế. Bạn có nhiều chu kỳ nhân đôi phía trước hơn gần như bất kỳ ai khác!",
+      "quiz": {
+        "q": "Một khoản đầu tư sinh lời 9% mỗi năm. Dùng Quy tắc 72 để kéo tới số năm cần để nhân đôi.",
+        "explanation": "Lấy 72 chia cho phần trăm mỗi năm. 72 chia 9 là 8, nên tiền gần như nhân đôi sau tám năm, rồi lại nhân đôi tám năm sau đó. Đây là phép ước tính nhanh có thể nhẩm trong đầu, không phải định luật chính xác, vì lợi nhuận thực tế không bao giờ giống nhau mỗi năm."
+      }
+    },
+    "17": {
+      "title": "Lệnh thị trường và Lệnh giới hạn",
+      "desc": "Hai cách mua cổ phiếu",
+      "content": "Có hai cách chính để mua một cổ phiếu:\n\n⚡ LỆNH THỊ TRƯỜNG: 'Mua ngay bây giờ với bất kỳ giá nào đang có.' Giống như thêm vào giỏ hàng và thanh toán luôn trên {shop}. Bạn có nó ngay lập tức, nhưng giá bạn thực sự trả là bất kỳ mức nào thị trường đưa ra, có thể khác với con số bạn vừa thấy trên màn hình.\n\n🎯 LỆNH GIỚI HẠN: 'Chỉ mua nếu giá giảm xuống {c}X.' Giống như thêm món đồ vào danh sách yêu thích trên {shop} và chờ giảm giá. Bạn kiểm soát được giá, nhưng giao dịch có thể không bao giờ xảy ra.\n\nLệnh giới hạn cho bạn quyền kiểm soát giá. Lệnh thị trường cho bạn sự chắc chắn là lệnh sẽ khớp. Bạn không thể có cả hai! 💸\n\nLệnh giới hạn cũng hoạt động y như vậy khi bạn BÁN, chỉ là theo chiều ngược lại. Bạn sở hữu cổ phiếu, bạn chọn mức giá bạn vui lòng bán, và nếu giá leo tới đó, app sẽ bán giúp bạn. Khi mua, bạn chọn mức giá THẤP HƠN giá hiện tại. Khi bán, bạn chọn mức giá CAO HƠN. Cùng một ý tưởng, ngược phía. 🔁",
+      "quiz": {
+        "q": "{tech} đang giao dịch ở {c}200. Bạn rất muốn sở hữu nó, nhưng chỉ ở mức {c}180 hoặc thấp hơn. Bạn dùng cách nào?",
+        "explanation": "Lệnh thị trường khớp ngay lập tức ở bất kỳ mức giá nào đang có. Lệnh giới hạn ghi rõ giá của bạn và chờ, nên app canh giá thay cho bạn. Khi mức giá bạn chấp nhận quan trọng hơn việc vào lệnh thật nhanh, đó là lựa chọn bạn cần.",
+        "options": [
+          "Lệnh mua thị trường, khớp ở {c}200 ngay bây giờ",
+          "Lệnh mua giới hạn đặt ở {c}180, sẽ chờ",
+          "Canh màn hình và tự tay mua ở {c}180"
+        ]
+      }
+    },
+    "18": {
+      "title": "Phí & chi phí giao dịch",
+      "desc": "Hiểu về phí giao dịch",
+      "content": "Hầu hết các giao dịch đều tốn của bạn một chút: công ty môi giới lấy một khoản nhỏ. Đây được gọi là phí giao dịch hoặc phí môi giới.\n\n⚠️ Một số broker quảng cáo 'miễn hoa hồng'. Họ vẫn phải kiếm tiền bằng cách nào đó, nên họ kiếm ở chỗ khác, thường là từ khoảng chênh nhỏ giữa giá mua và giá bán, từ chuyển đổi tiền tệ, hoặc từ tiền lãi trên số tiền mặt nằm trong tài khoản của bạn. Miễn phí hiếm khi thật sự miễn phí.\n\nTrong NoobTrader, phí mô phỏng là:\n• Cổ phiếu {ex}: {exFee} mỗi giao dịch\n• Cổ phiếu quốc tế: 0.50%\n• ETF: 0.30%\n• Crypto: 0.60%\n• Ngoại hối: 0.05%\n• Hàng hóa: 0.40%\n\nVí dụ: Bạn mua {c}1,000 cổ phiếu {retail} với phí {exFee}. Phí là {c}{feeAmt}, nên bạn thực sự chi {c}{feeTotal}.\n\nPhí nhỏ cộng dồn RẤT NHANH nếu bạn giao dịch thường xuyên. Ai đó giao dịch 20 lần mỗi tháng sẽ trả khoản phí đó 20 lần, và trả thêm lần nữa khi bán ra. Đó là một trong những lý do nhà đầu tư dài hạn giao dịch ít hơn: ít giao dịch hơn, ít phí hơn 🧮",
+      "quiz": {
+        "q": "Bạn mua {c}1,000 cổ phiếu {ex} với phí {exFee}. Phí là bao nhiêu?",
+        "explanation": "Phí là một tỉ lệ phần trăm của số tiền giao dịch, nên nó lớn lên theo quy mô lệnh. Hãy tính trước khi giao dịch, vì bạn sẽ bị tính phí lần nữa khi bán.",
+        "options": [
+          "{c}{feeAmtX10}",
+          "{c}{feeAmtLow}",
+          "{c}{feeAmt}"
+        ]
+      }
+    },
+    "19": {
+      "title": "Lệnh cắt lỗ",
+      "desc": "Bảo vệ bản thân khỏi những khoản lỗ lớn",
+      "content": "Lệnh cắt lỗ (stop-loss) giống như đặt giới hạn cho số tiền bạn sẵn sàng mất: một tấm lưới an toàn bạn giăng sẵn từ trước.\n\nVí dụ: Bạn mua cổ phiếu {telco} giá {c}100 mỗi cổ phiếu. Bạn quyết định KHÔNG BAO GIỜ muốn lỗ quá 15%. Vậy bạn đặt lệnh cắt lỗ ở {c}85.\n\nNếu {telco} giảm xuống {c}85 → một lệnh bán tự động được kích hoạt. Bạn không cần ngồi canh, và cũng không phải ra quyết định trong lúc đang hoảng loạn.\n\nĐây là phần mọi người hay hiểu sai. Mức cắt lỗ LUÔN nằm dưới giá hôm nay. Phải như vậy, vì giá phải giảm mới chạm tới nó. Đặt nó trên giá hôm nay thì điều kiện đã đúng sẵn, nên nó bán ngay giây bạn đặt, ở giá hôm nay. Đó là một lần bán, không phải tấm lưới an toàn.\n\nĐừng nhầm nó với lệnh bán giới hạn. Cả hai đều tự động bán ở mức giá bạn chọn. Điểm khác biệt là hướng đi: lệnh cắt lỗ kích hoạt khi giá GIẢM xuống số của bạn, lệnh bán giới hạn kích hoạt khi giá TĂNG lên số của bạn. Bảo vệ bản thân → số của bạn nằm dưới. Chọn mức giá mong muốn → số của bạn nằm trên. Hãy tự hỏi mình đang làm việc nào trước khi gõ. 🧭\n\n⚠️ Điều quan trọng: lệnh cắt lỗ kích hoạt một lần BÁN, nó không đảm bảo một mức GIÁ. Nếu tin xấu ập đến qua đêm và cổ phiếu mở cửa ở {c}70 mà chưa từng giao dịch ở {c}85, lệnh của bạn sẽ khớp ở bất kỳ mức nào thị trường thực sự trả. Mức đó có thể thấp hơn nhiều so với mức bạn đặt.\n\nKhông có lệnh cắt lỗ nào, bạn có thể cứ ôm cổ phiếu hy vọng nó hồi lại... và nhìn nó rơi xuống {c}20. 😬\n\nMẹo hay: Luôn quyết định mức lỗ tối đa TRƯỚC khi mua. Đừng để cảm xúc đưa ra quyết định đó khi giá đã đang lao dốc! 🧘",
+      "quiz": {
+        "q": "Bạn mua ở giá 200 NT và quyết định không chấp nhận lỗ quá 15%. Kéo tới mức giá nên đặt lệnh cắt lỗ.",
+        "explanation": "15% của 200 NT là 30 NT, nên điểm thoát của bạn nằm thấp hơn giá mua 30, ở mức 170 NT. Lệnh cắt lỗ nằm dưới giá hôm nay, vì giá phải giảm mới chạm tới nó. Đặt nó ở trên thì điều kiện đã đúng sẵn, nên nó bán ngay khi bạn đặt, và đó là một lần bán chứ không phải tấm lưới an toàn."
+      }
+    },
+    "20": {
+      "title": "Khi nào nên Mua & Bán",
+      "desc": "Thời điểm, kiên nhẫn và kỷ luật",
+      "content": "Sai lầm lớn nhất của nhà đầu tư mới? Mua khi ai cũng đang hype và bán khi ai cũng đang hoảng loạn. Đó đúng là ngược hoàn toàn với cách hiệu quả. 🤦\n\n📱 Khi nhóm chat của bạn spam 'MUA CỔ PHIẾU NÀY NGAY!!!!' → độ hype thường đã nằm sẵn trong giá rồi. Bạn đến muộn.\n\n😱 Khi ai cũng bán tháo trong hoảng loạn → đôi khi đó thật sự là cơ hội mua giá rẻ. Đôi khi giá còn tiếp tục rơi thêm một năm nữa. Chẳng ai rung chuông báo khi chạm đáy cả.\n\nBí quyết là gì? Hãy có kế hoạch TRƯỚC khi đầu tư:\n• Vì sao mình mua cái này? (nghiên cứu, không phải hype)\n• Mình sẽ bán ở giá nào nếu nó TĂNG? (chốt lời)\n• Mình sẽ bán ở giá nào nếu nó GIẢM? (cắt lỗ)\n\nBám sát kế hoạch. Đừng để cảm xúc lấn át chiến lược của bạn! 💪",
+      "quiz": {
+        "q": "Cả nhóm chat của bạn đang hype một cổ phiếu đã tăng 80% trong tháng này. Nước đi thông minh là gì?",
+        "explanation": "Khi một cổ phiếu xuất hiện trong mọi nhóm chat, phần lớn đợt tăng đã diễn ra rồi, và những người đến muộn đang mua lại từ những người đang chốt lời. Hãy tự tìm hiểu về công ty. Đám đông ồn ào không có nghĩa là đám đông đúng.",
+        "options": [
+          "Mua ngay, trước khi giá chạy mất",
+          "Bán các cổ phiếu khác và dồn hết vào đây",
+          "Tự tìm hiểu về công ty trước khi quyết định"
+        ]
+      }
+    },
+    "21": {
+      "title": "Vốn hóa thị trường là gì?",
+      "desc": "Cách đo quy mô công ty",
+      "content": "Vốn hóa thị trường (market cap) cho bạn biết một công ty thực sự lớn cỡ nào, tính bằng tiền (đơn vị: {cPlural}).\n\n📐 Công thức: Giá cổ phiếu × Tổng số cổ phiếu = Vốn hóa thị trường\n\nVí dụ: Nếu {retail} có 1 tỷ cổ phiếu và mỗi cổ phiếu giá {c}50, vốn hóa thị trường là {c}50 TỶ. Đó là 'nhãn giá' của cả công ty.\n\n🔵 Vốn hóa lớn: những cái tên lớn nhất, vững vàng nhất, như {tech} và {bank}. Rủi ro thấp hơn, thường tăng trưởng chậm hơn.\n🟡 Vốn hóa vừa: các công ty quy mô trung bình. Rủi ro cân bằng.\n🔴 Vốn hóa nhỏ: các công ty tí hon. Có thể tăng nhanh HOẶC sụp mạnh.\n\n⚠️ Các ngưỡng phân loại không giống nhau ở mọi nơi. Ở Mỹ, 'vốn hóa lớn' thường là trên khoảng $10 tỷ, nhưng mỗi thị trường tự đặt ngưỡng riêng, nên một công ty vốn hóa lớn ở {name} không có cùng quy mô với một công ty vốn hóa lớn ở Mỹ. Hãy đọc con số thực tế, đừng chỉ nhìn nhãn 🧐",
+      "quiz": {
+        "q": "Công ty A có 5 triệu cổ phiếu, mỗi cổ phiếu giá {c}200. Cổ phiếu của Công ty B giá {c}10. Kéo tới số triệu cổ phiếu B cần có để đáng giá ngang A.",
+        "explanation": "Vốn hóa thị trường là giá cổ phiếu nhân với số cổ phiếu. Công ty A có giá trị 5 triệu nhân {c}200, tức {c}1,000 triệu. Công ty B phải đạt cùng tổng đó với giá {c}10 mỗi cổ phiếu, nên cần 100 triệu cổ phiếu, gấp hai mươi lần. Giá cổ phiếu thấp chẳng nói lên gì về quy mô của công ty."
+      }
+    },
+    "22": {
+      "title": "Giải thích chỉ số P/E",
+      "desc": "Cổ phiếu đắt hay rẻ?",
+      "content": "Chỉ số P/E (Giá trên Lợi nhuận) cho bạn biết bạn đang trả bao nhiêu cho mỗi đồng lợi nhuận ({cName}) của công ty.\n\n📐 Công thức: Giá cổ phiếu ÷ Lợi nhuận trên mỗi cổ phiếu = Chỉ số P/E\n\nHãy nghĩ nó giống như giá mỗi miếng pizza 🍕\n\nNếu pizza A giá {c}80 cho 8 miếng = {c}10/miếng\nNếu pizza B giá {c}100 cho 5 miếng = {c}20/miếng\n\nPizza A rẻ hơn tính theo mỗi miếng. Với cổ phiếu cũng tương tự:\n• P/E thấp (dưới 10) = có thể là món hời, HOẶC thị trường dự đoán lợi nhuận của nó sẽ GIẢM. P/E thấp là một câu hỏi, không phải câu trả lời.\n• P/E cao (trên 25) = thị trường kỳ vọng tăng trưởng lớn trong tương lai. Khi đó công ty phải thực sự làm được điều đó.\n\nLuôn so sánh P/E với các công ty KHÁC trong cùng ngành. Đừng so P/E của một ngân hàng với P/E của một công ty công nghệ!",
+      "quiz": {
+        "q": "Công ty A có P/E là 8. Công ty B (cùng ngành) có P/E là 30. Điều này gợi ý gì?",
+        "explanation": "P/E thấp hơn nghĩa là trả ít hơn cho mỗi đơn vị lợi nhuận, điều này có thể là món hời hoặc là một công ty đang gặp rắc rối. Chỉ số này đặt ra câu hỏi; nó không trả lời câu hỏi đó.",
+        "options": [
+          "Công ty A rẻ hơn tính trên mỗi đơn vị lợi nhuận, nhưng hãy tìm hiểu VÌ SAO trước khi mua",
+          "Công ty B luôn là khoản đầu tư tốt hơn trong hai công ty",
+          "Chỉ số P/E hoàn toàn không giúp ích gì cho quyết định đầu tư"
+        ]
+      }
+    },
+    "23": {
+      "title": "Đọc kết quả kinh doanh",
+      "desc": "Doanh thu, lợi nhuận và điều gì quan trọng",
+      "content": "Cứ vài tháng, các công ty lại công bố 'bảng điểm' của mình (mỗi quý ở một số thị trường, mỗi nửa năm ở những thị trường khác) và nó làm giá cổ phiếu biến động MẠNH. Đây là những thứ cần xem:\n\n📊 DOANH THU: Tổng số tiền thu về từ bán hàng. Giống như một cửa hàng nhỏ thu được tổng cộng bao nhiêu.\n💰 LỢI NHUẬN RÒNG: Phần còn lại SAU KHI trả hết mọi chi phí. Số tiền thực sự giữ lại được vào cuối ngày.\n📈 EPS (Lợi nhuận trên mỗi cổ phiếu): Lợi nhuận chia cho số cổ phiếu. Mỗi cổ phiếu kiếm được bao nhiêu.\n\nDấu hiệu tốt: Doanh thu TĂNG + Lợi nhuận TĂNG + EPS tăng trưởng = 🟢 giá thường tăng\nDấu hiệu xấu: Doanh thu GIẢM + Lợi nhuận đi xuống = 🔴 giá thường giảm\n\nMột điểm cần lưu ý: thứ thực sự làm giá biến động là kết quả so với những gì thị trường KỲ VỌNG. Những con số tuyệt vời nhưng thấp hơn kỳ vọng vẫn có thể khiến cổ phiếu giảm.\n\nMột công ty có thể có rất nhiều doanh thu nhưng lợi nhuận bằng không (chi phí cao). Luôn kiểm tra CẢ HAI!",
+      "quiz": {
+        "q": "{bank} báo cáo doanh thu tăng 15% nhưng lợi nhuận giảm 20% do chi phí cao hơn. Đây là dấu hiệu tốt hay xấu?",
+        "explanation": "Doanh thu là tiền đi vào, lợi nhuận là tiền ở lại. Ở đây chi phí đang tăng nhanh hơn doanh số, nên công ty làm ăn nhiều hơn nhưng giữ lại được ít hơn. Đó là một lời cảnh báo thật, nhưng không phải sụp đổ, và điều tiếp theo cần tìm hiểu là vì sao chi phí tăng.",
+        "options": [
+          "Đáng lo, vì họ bán nhiều hơn nhưng giữ lại ít hơn",
+          "Rất tốt, vì doanh thu tăng mới là điều thực sự quan trọng",
+          "Tệ hại, vì lợi nhuận giảm nghĩa là công ty đang thất bại"
+        ]
+      }
+    },
+    "24": {
+      "title": "Lĩnh vực & Ngành",
+      "desc": "Các loại công ty khác nhau",
+      "content": "Thị trường chứng khoán được chia thành các lĩnh vực, giống như các tổ bộ môn khác nhau trong trường học.\n\n{sectorList}\n\nCác lĩnh vực khác nhau tăng giảm vào những thời điểm khác nhau, và đó chính là lý do để đa dạng hóa qua nhiều lĩnh vực! Nếu ngân hàng sụp, có thể công nghệ đang bùng nổ. Danh mục của bạn vẫn cân bằng. 🎯",
+      "quiz": {
+        "q": "Lãi suất ở {name} tăng mạnh. Lĩnh vực nào thường hưởng lợi nhiều nhất?",
+        "explanation": "Ngân hàng kiếm tiền từ khoảng chênh giữa lãi họ thu từ người vay và lãi họ trả cho người gửi tiết kiệm, và lãi suất tăng thường nới rộng khoảng chênh này. Với hầu hết các lĩnh vực khác, vay tiền đắt hơn là một khoản chi phí.",
+        "options": [
+          "Bán lẻ: người mua sắm vay tiền thoải mái hơn và tiêu phần dư ở các khu mua sắm",
+          "Ngân hàng: ngân hàng thường hưởng khoảng chênh rộng hơn giữa lãi thu từ người vay và lãi trả cho người gửi",
+          "Công nghệ: vay tiền để xây dựng rẻ hơn, nên các công ty phần mềm mở rộng nhanh hơn"
+        ]
+      }
+    },
+    "25": {
+      "title": "ETF là gì?",
+      "desc": "Mua cả một giỏ chỉ trong một lần",
+      "content": "Ngày xưa, chọn từng bài hát là cách duy nhất để tạo một playlist. Rồi Spotify xuất hiện và cho bạn những playlist làm sẵn, một bộ sưu tập tức thì mà chẳng tốn công. 🎵\n\nETF (Quỹ hoán đổi danh mục, Exchange-Traded Fund) chính là Spotify của đầu tư. Thay vì chọn từng cổ phiếu một, bạn mua MỘT ETF nắm giữ cả một giỏ cổ phiếu.\n\nHầu hết các ETF đều mô phỏng một CHỈ SỐ: một danh sách công ty được công bố, lập ra theo một bộ quy tắc. {etfDesc} ETF chỉ đơn giản là mua những gì có trong danh sách, theo đúng tỷ trọng, và tự cập nhật khi danh sách thay đổi.\n\nVậy nên một ETF {etf} trao cho bạn một lát nhỏ của {etfBasket} (những cái tên như {top5}) chỉ trong một lần mua.\n\n⚠️ Một chỉ số KHÔNG tự động là 'những công ty lớn nhất'. Có danh sách xếp hạng theo quy mô, có danh sách theo mức độ giao dịch sôi động của cổ phiếu, và có danh sách do một hội đồng lựa chọn. Hai chỉ số trên cùng một sàn có thể chứa những công ty hoàn toàn khác nhau. Luôn đọc xem danh sách thực sự là gì trước khi mua.\n\nETF thường rẻ hơn, dễ hơn và đa dạng hơn so với tự chọn cổ phiếu. Rất nhiều nhà quản lý quỹ chuyên nghiệp còn không thắng nổi chúng! 🤯",
+      "quiz": {
+        "q": "Bạn mua một chứng chỉ quỹ ETF {etf}, quỹ mô phỏng {etfBasket}. Giờ bạn sở hữu gì?",
+        "explanation": "Chỉ số là một danh sách được công bố, và ETF chỉ số mua mọi thứ trong đó theo đúng tỷ trọng. Vì vậy một chứng chỉ quỹ chứa một mảnh nhỏ của mọi cái tên trong danh sách, đó là lý do chỉ một lần mua đã được phân tán sẵn. Nó không chỉ là cái tên lớn nhất, và cũng không phải tiền mặt nằm chờ bạn ra lệnh.",
+        "options": [
+          "Một cổ phiếu của công ty lớn nhất trong danh sách đó",
+          "Một lát nhỏ của từng công ty trong danh sách đó",
+          "Tiền mặt quỹ đang giữ cho tới khi bạn bảo nó mua gì"
+        ]
+      }
+    },
+    "26": {
+      "title": "Các ETF trên {ex}",
+      "desc": "Những ETF phổ biến bạn nên biết",
+      "content": "Có vô số ETF và quỹ chỉ số bạn có thể mua từ {name}. Đây là một số cái tên phổ biến nhất:\n\n{etfList}\n\nLợi thế cực lớn của ETF: PHÍ. Nhiều quỹ quản lý chủ động thu khoảng 1–2% mỗi năm, đôi khi còn hơn. Các ETF chỉ số rộng thường thu dưới 0.2%. Với khoản đầu tư {c}10,000 giữ trong 20 năm, khoảng chênh đó đáng giá HÀNG NGHÌN (đơn vị: {cPlural}) 💸\n\nKiểm tra phí trước khi mua. Nó thường được ghi là 'TER' hoặc 'tỷ lệ chi phí' (expense ratio). Không ai có thể nói trước một ETF sẽ sinh lời bao nhiêu, nhưng phí là một con số bạn CÓ THỂ biết trước.",
+      "quiz": {
+        "q": "Bạn đầu tư 20,000 NT. Một quỹ quản lý chủ động thu 2% mỗi năm. Một ETF chỉ số nắm giữ gần như cùng các công ty đó thu 0.2%. Kéo tới số tiền mà quỹ đắt hơn lấy thêm của bạn chỉ trong một năm.",
+        "explanation": "Khoảng chênh giữa hai mức phí là 1.8% mỗi năm, và 1.8% của 20,000 NT là 360 NT. Khoản đó bị trừ dù quỹ tăng hay giảm, và lại bị trừ tiếp mỗi năm. Không ai có thể nói trước một quỹ sẽ sinh lời bao nhiêu, nhưng phí được ghi rõ trước khi bạn mua, thường với nhãn TER hoặc tỷ lệ chi phí."
+      }
+    },
+    "27": {
+      "title": "ETF quốc tế và ETF trong nước",
+      "desc": "Đầu tư trong nước và xa hơn nữa",
+      "content": "Bạn có nên chỉ đầu tư vào các công ty ở {name} không? Trả lời ngắn gọn: Không! Đây là lý do:\n\n🏠 ETF TRONG NƯỚC: Đầu tư vào các công ty của {name}. Bạn biết các thương hiệu, chúng được định giá bằng tiền trong nước ({cPlural}). Nhưng nếu kinh tế {name} gặp khó, cả danh mục của bạn có thể đi xuống.\n\n🌍 ETF QUỐC TẾ: Đầu tư vào các công ty nước ngoài (Mỹ, châu Âu, châu Á). {currencyHedge}\n\nTuy vậy, tiền tệ có tác động hai chiều: nếu đồng tiền trong nước của bạn MẠNH LÊN, cùng những khoản nắm giữ ở nước ngoài đó sẽ có giá trị thấp hơn khi quy về trong nước. Đó là cái giá bạn chấp nhận khi sở hữu tài sản ở nước ngoài.\n\nNắm giữ cả trong nước lẫn quốc tế giúp bạn phân tán qua hai loại rủi ro khác nhau cùng lúc: nền kinh tế của chính bạn, và đồng tiền của chính bạn. Cân bằng là tất cả! ⚖️",
+      "quiz": {
+        "q": "{fxQuizSetup}. Các cổ phiếu nước ngoài trong ETF quốc tế của bạn hoàn toàn không thay đổi giá. Giờ nó đáng giá bao nhiêu khi tính theo tiền trong nước ({cName})?",
+        "explanation": "ETF quốc tế nắm giữ những tài sản được định giá bằng một đồng tiền khác. Khi đồng tiền của bạn mất giá, số tiền nước ngoài đó quy đổi về được nhiều tiền trong nước hơn, nên khoản nắm giữ có giá trị cao hơn ở trong nước dù cổ phiếu đứng yên. Điều ngược lại cũng đúng: đồng tiền trong nước mạnh lên sẽ lặng lẽ thu nhỏ cùng khoản nắm giữ đó. Rủi ro tiền tệ có tác động hai chiều.",
+        "options": [
+          "Tăng, vì số tiền nó giữ ở nước ngoài giờ đổi về được nhiều hơn",
+          "Giảm, vì tin xấu về tiền tệ thì chắc chắn cũng xấu cho tiền của bạn",
+          "Đứng yên, vì cổ phiếu bên trong không hề nhúc nhích"
+        ]
+      }
+    },
+    "28": {
+      "title": "Tiết kiệm và Đầu tư",
+      "desc": "Vì sao tiền của bạn cần làm việc",
+      "content": "Cả hai đều tốt. Nhưng chúng phục vụ những mục đích khác nhau:\n\n🏦 TIẾT KIỆM: Gửi tiền vào tài khoản ngân hàng. An toàn, bạn có thể rút bất cứ lúc nào. NHƯNG lãi suất thường chỉ {savings}, thường thấp hơn lạm phát. Tiền của bạn 'an toàn' nhưng đang dần mất sức mua.\n\n📈 ĐẦU TƯ: Bỏ tiền vào cổ phiếu, ETF hoặc bất động sản. Rủi ro hơn, và không có gì đảm bảo trong bất kỳ năm nào. Có những năm bạn đơn giản là mất tiền. Tuy nhiên, trong những khoảng thời gian dài, cổ phiếu trong lịch sử đã sinh lời nhiều hơn tiền mặt. Thị trường của {name} trước đây trung bình đạt khoảng {mktReturn} mỗi năm, và mức trung bình trong quá khứ là lịch sử, không phải lời hứa.\n\nNguyên tắc chung:\n• 3–6 tháng chi tiêu để trong tiết kiệm (quỹ khẩn cấp của bạn) 🚨\n• Tiền bạn sẽ không cần đến trong nhiều năm là tiền người ta đem đầu tư 🚀\n\nĐừng đầu tư số tiền bạn có thể cần vào tháng sau. Tiết kiệm sinh ra là để lo việc đó!",
+      "quiz": {
+        "q": "Chi tiêu của bạn là 800 NT mỗi tháng, và bạn đã để dành được 5,000 NT. Kéo tới quỹ khẩn cấp nhỏ nhất mà nguyên tắc chung thường dùng sẽ để lại bằng tiền mặt.",
+        "explanation": "Nguyên tắc chung là giữ ba đến sáu tháng chi tiêu bằng tiền mặt. Ba tháng với hóa đơn 800 NT là 2,400 NT, còn sáu tháng sẽ là 4,800 NT, nên bất kỳ mức nào trong khoảng đó đều bình thường. Lý do giữ bằng tiền mặt rất đơn giản: khi có thứ gì đó bất ngờ hỏng, bạn không muốn bị buộc phải bán khoản đầu tư vào đúng ngày đó, dù giá lúc đó thế nào."
+      }
+    },
+    "29": {
+      "title": "Lạm phát & Tiền của bạn",
+      "desc": "Vì sao tiền mặt mất giá theo thời gian",
+      "content": "Hãy hỏi một người lớn xem hồi họ bằng tuổi bạn, một {food} giá bao nhiêu. Lúc đó nó vào khoảng {c}{foodOld}. Giờ thì {c}{foodNew}+. Đó là lạm phát: giá cả tăng dần theo thời gian, nghĩa là mỗi đồng tiền ({cName}) mua được ÍT hơn trước.\n\nLạm phát của {name} thường ở mức khoảng {inflation} mỗi năm.\n\nVậy nếu tiền tiết kiệm của bạn sinh lời 4% mỗi năm nhưng lạm phát là 6%, bạn thực ra đang MẤT khoảng 2% sức mua mỗi năm, dù số dư vẫn tăng lên!\n\n💡 Khoản đầu tư của bạn cần thắng lạm phát thì mới thực sự làm bạn giàu lên.\n• Tiền mặt dưới nệm: mất giá mỗi năm 💀\n• Tiền gửi tiết kiệm ngân hàng: thường chỉ vừa đủ theo kịp\n• Cổ phiếu {ex} (trung bình dài hạn): {mktReturn} mỗi năm, đây là mức trung bình trong quá khứ, không phải lời hứa 🔥\n\nĐầu tư không chỉ là để làm giàu. Mà còn là để không bị nghèo đi! 💸",
+      "quiz": {
+        "q": "Tài khoản tiết kiệm của bạn trả lãi 4% mỗi năm. Giá cả đang tăng 6% mỗi năm. Kéo tới điều thực sự đang xảy ra với sức mua của bạn trong năm đó.",
+        "explanation": "Lợi nhuận thực là tiền lãi bạn nhận được trừ đi lạm phát bạn phải chịu, nên 4% so với 6% cho ra khoảng âm 2%. Con số trong tài khoản tăng lên trong khi lượng hàng nó thực sự mua được lại giảm đi, và đó là trò lừa thầm lặng mà lạm phát chơi với tiền tiết kiệm. Để thực sự giàu lên, tiền phải thắng lạm phát, chứ không chỉ sinh lời một chút."
+      }
+    },
+    "30": {
+      "title": "Cảm xúc & Đầu tư",
+      "desc": "Đừng bán tháo vì hoảng loạn hay mua vì FOMO",
+      "content": "Thị trường chứng khoán về cơ bản là một bài kiểm tra khả năng kiểm soát cảm xúc. Hầu hết mọi người đều trượt. 🎭\n\n😱 BÁN THÁO VÌ HOẢNG LOẠN: Thị trường giảm 20%, bạn phát hoảng, bán sạch. Rồi nó hồi phục. Bạn đã chốt lỗ chẳng vì lý do gì.\n\n🤑 MUA VÌ FOMO: Ai trên mạng xã hội cũng đang hype một đồng coin. Bạn lao vào. Giá lập tức sụp. Bạn là người ôm hàng cuối cùng.\n\nNhững nhà đầu tư giỏi nhất coi một đợt sập thị trường như đợt giảm giá ở {retail}. Họ tiếp tục mua, bình tĩnh, thay vì hoảng loạn. Warren Buffett từng nói thế này: 'Hãy sợ hãi khi người khác tham lam, và tham lam khi người khác sợ hãi.'\n\nXây dựng kế hoạch. Bám sát nó. Bạn của tương lai sẽ cảm ơn bạn vì đã không bán tháo trong cơn tức giận vào một ngày toàn màu đỏ! 🙏",
+      "quiz": {
+        "q": "Thị trường giảm 15% trong một tuần và nhóm chat của bạn đang bán sạch mọi thứ. Tiền của bạn được đầu tư cho mười năm tới. Nước đi là gì?",
+        "explanation": "Mức giảm 15% chỉ trở thành khoản lỗ thật vào ngày bạn bán ra. Kế hoạch bạn viết khi mọi thứ yên ả được viết bởi phiên bản tỉnh táo của bạn, và bám sát nó chính là toàn bộ kỹ năng. Chờ mọi thứ trông yên ổn rồi mới mua lại nghĩa là mua lại ở giá cao hơn, vì sự yên ổn chỉ xuất hiện sau khi thị trường hồi phục, chứ không phải trước đó.",
+        "options": [
+          "Bán ngay và mua lại khi mọi thứ trông yên ổn hơn",
+          "Chuyển tiền sang thứ mà nhóm chat đang mua",
+          "Tiếp tục theo kế hoạch bạn đã viết khi còn bình tĩnh"
+        ]
+      }
+    },
+    "31": {
+      "title": "Trùm Cuối",
+      "desc": "Lãi kép, kỳ quan thứ 8 của thế giới",
+      "content": "'Kỳ quan thứ tám của thế giới: ai hiểu nó thì kiếm được nó; ai không hiểu thì phải trả cho nó.' Bạn sẽ thấy câu này được gán cho Einstein ở khắp nơi trên mạng. Chẳng có bằng chứng thật nào cho thấy ông từng nói vậy.\n\nTuy nhiên, phần toán học thì không thể chối cãi. Đây là điều quan trọng nhất bạn sẽ học về tiền:\n\nMột người bắt đầu từ năm 20 tuổi và đầu tư {c}500/tháng với lãi 12% mỗi năm sẽ có NHIỀU hơn ở tuổi 65 so với một người bắt đầu từ năm 35 tuổi và đầu tư {c}2,000/tháng với cùng mức lãi. Gấp bốn lần số tiền hằng tháng, mà vẫn về đích sau.\n\nThời. Gian. Là. Tất. Cả.\n\nĐó không phải trò ảo thuật của những con số, mà chính là toàn bộ ý nghĩa của lãi kép: mỗi năm bạn chần chừ tốn kém hơn bất kỳ năm nào bạn thêm vào sau này có thể bù lại. Thời điểm tốt nhất để bắt đầu là sớm hơn. Thời điểm tốt thứ hai là ngay bây giờ.\n\nCâu đố này là bài kiểm tra cuối cùng của bạn. Làm đúng là bạn chính thức được NoobTrader chứng nhận! 👑",
+      "bossVictory": "Đã mở khóa Lãi kép. Giờ bạn nguy hiểm rồi đấy. 🔥",
+      "quiz": {
+        "q": "{c}1,000 đầu tư với lãi 12% mỗi năm trong 10 năm tăng lên ~{c}3,106. Điều gì xảy ra nếu bạn NHÂN ĐÔI thời gian lên 20 năm?",
+        "explanation": "Nhân đôi thời gian làm được nhiều hơn hẳn việc nhân đôi kết quả, vì phần tăng trưởng mỗi năm được tính lãi kép trên tất cả những gì có trước đó. Tăng trưởng nhanh dần lên chứ không chậm lại.",
+        "options": [
+          "Tăng hơn gấp ba lên ~{c}9,646",
+          "Gần như gấp đôi lên ~{c}6,200",
+          "Lợi nhuận chậm lại khi bạn chờ càng lâu"
+        ]
+      }
+    },
+    "32": {
+      "title": "Nền tảng & Ví Crypto",
+      "desc": "Crypto thực sự nằm ở đâu",
+      "content": "Trước hết, phần thật lòng: các nền tảng crypto thật yêu cầu bạn phải từ 18 tuổi trở lên ở gần như mọi quốc gia. Đó là lý do NoobTrader cho bạn luyện tập toàn bộ bằng tiền ảo trước. 🎮\n\nKhi người lớn mua crypto, họ dùng hai loại nơi chốn:\n\n🏦 SÀN GIAO DỊCH & APP MÔI GIỚI (lưu ký): bạn tạo tài khoản, họ giữ crypto giúp bạn. Dễ dàng, nhưng bạn đang đặt niềm tin vào họ. Nếu họ bị hack hoặc phá sản, crypto của bạn có thể biến mất. Điều này đã xảy ra với một số cái tên lớn nhất trong giới crypto.\n\n🔑 VÍ TỰ LƯU KÝ: một app mà CHÍNH BẠN giữ các khóa bí mật. Không ai có thể đóng băng nó, nhưng cũng không ai có thể giúp bạn. Mất cụm từ khôi phục (seed phrase, 12 đến 24 từ bí mật) là crypto mất vĩnh viễn. Không có đặt lại mật khẩu. Không có hỗ trợ khách hàng. Mất hẳn.\n\nDân crypto hay nói: 'Không phải khóa của bạn, không phải coin của bạn.' Giờ bạn đã hiểu câu đó nghĩa là gì.",
+      "quiz": {
+        "q": "Khi một sàn giao dịch giữ crypto của bạn theo hình thức 'lưu ký', điều đó nghĩa là gì?",
+        "explanation": "Lưu ký nghĩa là nền tảng giữ các khóa, nên coin của bạn chỉ an toàn bằng đúng mức an toàn của nền tảng. Nếu nó bị hack hoặc sụp đổ, coin của bạn có thể mất theo. Đó là ý nghĩa của câu không phải khóa của bạn, không phải coin của bạn.",
+        "options": [
+          "Sàn giao dịch giữ các khóa thay cho bạn",
+          "Bạn giữ các khóa và không ai khác giữ được",
+          "Không ai đụng được vào coin, kể cả bạn",
+          "Nó tự động sinh lãi"
+        ]
+      }
+    },
+    "33": {
+      "title": "Mua crypto hoạt động thế nào",
+      "desc": "Chênh lệch giá, phí và thị trường 24/7",
+      "content": "Mua crypto trông giống như mua bất cứ thứ gì online, nhưng có ba điểm khác biệt:\n\n1️⃣ CHÊNH LỆCH GIÁ (SPREAD): giá mua luôn cao hơn giá bán một chút. Mua {c}100 crypto rồi bán ngay lập tức, bạn có thể chỉ nhận lại khoảng {c}97. Khoảng chênh đó là cách các nền tảng lặng lẽ kiếm tiền.\n\n2️⃣ PHÍ CỘNG THÊM: hầu hết các nền tảng còn thu phí cho mỗi giao dịch, thường từ 1 đến 2% với các lệnh mua nhỏ. Phí cộng chênh lệch giá nghĩa là một lần mua nhỏ đã lỗ sẵn khoảng 3 đến 5% trước khi giá kịp nhúc nhích.\n\n3️⃣ KHÔNG CÓ GIỜ ĐÓNG CỬA: sàn chứng khoán đóng cửa vào ban đêm và cuối tuần. Crypto giao dịch 24/7, mọi ngày trong năm. Giá có thể sập trong lúc bạn ngủ. Đó là một phần lý do crypto biến động mạnh hơn cổ phiếu rất nhiều.\n\nTrong NoobTrader, bạn có thể giao dịch crypto bằng tiền ảo, 24/7, mà không mất một xu. Bạn trả phí cho mỗi giao dịch, nhưng NoobTrader không tính chênh lệch giá, nên một lần mua thật sẽ tốn hơn cùng giao dịch đó ở đây. 📊",
+      "quiz": {
+        "q": "Bạn bỏ 200 NT vào một đồng coin và bán nó năm giây sau, trước khi giá kịp thay đổi. Khoảng chênh giữa giá mua và giá bán tốn 3%, và nền tảng thu phí 1% cho mỗi giao dịch. Kéo tới số tiền bạn nhận lại.",
+        "explanation": "Chênh lệch giá lấy 3%, rồi phí 1% bị tính khi mua vào và thêm 1% nữa khi bán ra. Tổng cộng là 5% của 200 NT, nên 10 NT đã mất trước khi giá kịp làm gì. Bạn nhận lại 190 NT, và giờ đồng coin phải tăng 5% chỉ để bạn hòa vốn."
+      }
+    },
+    "34": {
+      "title": "Giải thích phí gas",
+      "desc": "Vì sao gửi crypto lại tốn tiền",
+      "content": "Gửi crypto không miễn phí. Mỗi giao dịch đều phải trả một khoản phí mạng, thường được gọi là GAS, cho những máy tính xử lý và bảo mật mạng lưới.\n\nĐây là phần khiến ai cũng bất ngờ: gas được định giá theo lưu lượng mạng, KHÔNG phải theo số tiền bạn gửi. Khi mạng đông đúc, phí tăng vọt.\n\n🤯 Trên một số mạng, vào giờ cao điểm, gửi {c}10 crypto có thể tốn phí gas NHIỀU hơn {c}10. Bạn sẽ trả tiền ship đắt hơn cả giá trị món hàng.\n\nCác mạng mới hơn và các hệ thống 'layer 2' ra đời chủ yếu để làm việc này rẻ hơn, với mức phí chỉ vài xu. Bất kỳ ai làm việc với crypto đều kiểm tra phí TRƯỚC khi bấm gửi.\n\nMột điều nữa: chuyển crypto không thể đảo ngược. Sai địa chỉ cộng phí gas đã trả nghĩa là tiền mất, vĩnh viễn. Không có ngân hàng nào để gọi. ☎️❌",
+      "quiz": {
+        "q": "Hôm nay phí gas cao. Bạn muốn gửi {c}15 crypto và phí gas là {c}20. Cách nhìn thông minh là gì?",
+        "explanation": "Gas được định giá theo mức độ đông đúc của mạng, không theo số tiền bạn gửi, nên một lần chuyển nhỏ có thể tốn hơn cả giá trị của nó. Chia nhỏ ra cũng chẳng giúp được gì, vì mỗi lần chuyển đều trả phí riêng. Hãy chờ lúc mạng vắng hơn hoặc dùng một mạng rẻ hơn.",
+        "options": [
+          "Cứ trả, vì phí sẽ được hoàn lại khi tiền tới nơi",
+          "Bỏ qua, phí còn đắt hơn cả món hàng",
+          "Chia làm hai, để mỗi nửa chỉ trả một nửa phí",
+          "Kệ phí đi, gas chỉ áp dụng cho các lần chuyển lớn"
+        ]
+      }
+    },
+    "35": {
+      "title": "Meme Coin & Rug Pull",
+      "desc": "Nhận ra bẫy trước khi bẫy nhận ra bạn",
+      "content": "Meme coin là những đồng crypto được tạo ra từ trò đùa và sự hype thay vì bất kỳ công dụng thực tế nào. Một vài đồng đã làm những người mua sớm trở nên giàu có, và đó chính là lý do có hàng nghìn đồng bắt chước. Gần như tất cả đều về số không. 📉\n\nCái bẫy tồi tệ nhất là RUG PULL (giật thảm): những người tạo ra đồng coin, hype nó thật mạnh, chờ mọi người đổ tiền vào, rồi xả toàn bộ kho coin khổng lồ của họ hoặc rút cạn quỹ giao dịch. Giá sụp trong vài phút. Họ giữ tiền. Bạn giữ những đồng coin vô giá trị.\n\n🚩 DẤU HIỆU CẢNH BÁO cần nhớ:\n• Đội ngũ ẩn danh mà bạn không thể xác minh\n• Lợi nhuận 'được đảm bảo' (trên thị trường chẳng có gì được đảm bảo)\n• Influencer được trả tiền để quảng bá\n• Một nhóm nhỏ nắm phần lớn nguồn cung\n• Áp lực phải 'mua trước khi quá muộn'\n\nNếu điểm bán hàng chính của một đồng coin là việc NGƯỜI KHÁC mua nó sẽ làm BẠN giàu, thì đó không phải đầu tư. Đó là trò chơi giành ghế, và những người tạo ra coin nắm quyền bật nhạc. 🎵",
+      "quiz": {
+        "q": "Một đồng coin mới có đội ngũ ẩn danh, hứa hẹn tăng 100x được đảm bảo, và các influencer được trả tiền đang ra sức quảng bá. Điều gì thường xảy ra tiếp theo?",
+        "explanation": "Đội ngũ ẩn danh, lợi nhuận được đảm bảo và quảng cáo trả tiền là kịch bản rug pull tiêu chuẩn. Những người tạo ra coin nắm phần lớn nguồn cung, bán nó ra giữa cơn hype rồi bỏ đi, để lại cho người mua một đồng coin chẳng ai thèm. Trên thị trường chẳng có gì được đảm bảo.",
+        "options": [
+          "Người mua được sàn phát hành hoàn tiền",
+          "Giá ổn định lại khi influencer ngừng đăng bài",
+          "Đội ngũ xả kho coin và giá sụp đổ",
+          "Cơ quan quản lý buộc đội ngũ công khai danh tính"
+        ]
+      }
+    },
+    "36": {
+      "title": "Đào coin, Giao dịch và Staking",
+      "desc": "Ba trò chơi rất khác nhau",
+      "content": "Ba cách người ta cố kiếm tiền trong crypto, và chúng KHÔNG phải cùng một trò chơi:\n\n⛏️ ĐÀO COIN (MINING): những máy tính mạnh chạy đua để xử lý giao dịch và nhận coin mới. Nghe thì vui, nhưng đào Bitcoin ngày nay là cả một ngành công nghiệp: những nhà kho đầy máy chuyên dụng và hóa đơn tiền điện khổng lồ. Điện thoại hay laptop của bạn không thể cạnh tranh, và những app 'đào Bitcoin trên điện thoại!' gần như luôn là lừa đảo hoặc trại quảng cáo trả cho bạn gần như chẳng được gì.\n\n🥩 STAKING: trên một số mạng, bạn khóa coin lại để giúp bảo mật mạng lưới và nhận phần thưởng, hơi giống tiền lãi. Có thật, nhưng coin của bạn có thể bị khóa một thời gian, và GIÁ của chúng vẫn có thể sập trong lúc bị khóa.\n\n📊 GIAO DỊCH: mua và bán để kiếm lời từ biến động giá. Không cần phần cứng, nhưng đây là trò chơi mà kỷ luật quan trọng nhất, và là nơi hầu hết người mới thua chính cảm xúc của mình.\n\nNoobTrader dạy trò chơi giao dịch với rủi ro bằng không. Hai trò còn lại cần tiền thật mới bắt đầu được.",
+      "quiz": {
+        "q": "Một app nói rằng điện thoại của bạn có thể đào Bitcoin có lãi trong lúc bạn ngủ. Sự thật nhiều khả năng nhất là gì?",
+        "explanation": "Đào coin là cuộc đua được quyết định bởi phần cứng chuyên dụng và tiền điện rẻ, và điện thoại chẳng có thứ nào. Những app hứa hẹn ngược lại thường nhắm vào dữ liệu, pin hoặc tiền của bạn, và trả cho bạn gần như chẳng được gì.",
+        "options": [
+          "Điện thoại đào chậm nhưng vẫn có lãi",
+          "Nó hoạt động, nhưng chỉ trên điện thoại đời mới nhất",
+          "Việc đào bằng điện thoại đã bị các mạng cấm",
+          "Đó là trại quảng cáo trả gần như chẳng được gì"
+        ]
+      }
+    },
+    "37": {
+      "title": "Bảo mật & Lừa đảo Crypto",
+      "desc": "Giữ chặt những gì là của bạn",
+      "content": "Siêu năng lực của crypto cũng chính là mối nguy của nó: giao dịch không thể đảo ngược và không có ngân hàng nào để sửa sai. Kẻ lừa đảo rất thích điều đó. Đây là bộ đồ nghề phòng thủ của bạn:\n\n🔐 CỤM TỪ KHÔI PHỤC LÀ BẤT KHẢ XÂM PHẠM. Không ai đàng hoàng sẽ BAO GIỜ hỏi nó. Không phải 'nhân viên hỗ trợ', không phải 'bot xác minh', không ai cả. Bất kỳ ai hỏi cụm từ khôi phục của bạn đều đang ăn cắp của bạn, chấm hết.\n\n🎣 LỪA ĐẢO GIẢ MẠO (PHISHING): các trang web và tin nhắn giả trông y hệt nền tảng thật. Lệch một chữ cái trong địa chỉ web. Luôn tự gõ địa chỉ.\n\n🎁 LỪA ĐẢO TẶNG QUÀ: 'Gửi 1 coin, nhận lại 2!', thường dùng tài khoản bị hack của người nổi tiếng. Không ai nhân đôi tiền cho bạn. Không bao giờ.\n\n💕 LỪA ĐẢO TÌNH CẢM & 'NGƯỜI HƯỚNG DẪN ĐẦU TƯ': một người lạ thân thiện từ từ dụ bạn vào một 'nền tảng đặc biệt'. Nền tảng đó là giả. Rút tiền không bao giờ thành công.\n\nKhuôn mẫu đằng sau mọi vụ lừa đảo: gấp gáp cộng bí mật cộng lợi nhuận được đảm bảo. Thấy cả ba thứ đó cùng nhau thì bỏ đi ngay. 🚶",
+      "quiz": {
+        "q": "Ai đó tự nhận là 'hỗ trợ nền tảng' nhắn tin cho bạn và hỏi cụm từ khôi phục 12 từ để 'xác minh ví của bạn'. Bạn làm gì?",
+        "explanation": "Cụm từ khôi phục CHÍNH LÀ cái ví. Bất kỳ ai nắm giữ nó đều có thể rút sạch ví, hỗ trợ thật không bao giờ hỏi nó, và không phần nào của nó được phép chia sẻ.",
+        "options": [
+          "Không bao giờ chia sẻ, vì hỗ trợ thật không bao giờ hỏi cụm từ khôi phục",
+          "Chia sẻ, vì nhân viên hỗ trợ đã xác minh cần nó để kiểm tra tài khoản",
+          "Chỉ chia sẻ sáu từ đầu, như vậy là đủ an toàn",
+          "Bảo họ gửi email từ địa chỉ chính thức trước, rồi mới chia sẻ"
+        ]
+      }
+    },
+    "38": {
+      "title": "Trùm Crypto",
+      "desc": "Cỗ máy thời gian Bitcoin",
+      "content": "Đến lúc kể câu chuyện mà ai cũng trích dẫn nhưng chẳng ai kể cho đúng.\n\nĐầu năm 2017, một Bitcoin có giá khoảng $1,000. Vào tháng 12 năm 2024, nó lần đầu tiên vượt mốc $100,000. Một lần mua $1,000, giữ suốt chặng đường, đã thành khoảng $100,000. Đó là tăng 100x. 🤯\n\nGiờ là phần mà cơn hype bỏ qua: để thu được 100x đó, bạn phải ngồi chịu đựng hai đợt sập khủng khiếp, một đợt khoảng 84% và một đợt khoảng 77%, và nhìn tiền của mình teo lại suốt NHIỀU NĂM liền mà không bán. Gần như không ai làm được. Hầu hết mọi người mua giá cao, hoảng loạn khi sập, rồi bán giá thấp.\n\nVà cứ mỗi Bitcoin lại có hàng nghìn đồng coin chết đã về số không. Chọn người thắng từ trước chỉ trông dễ khi nhìn lại. Đó gọi là thiên kiến kẻ sống sót, và đó là ảo tưởng đắt giá nhất trong crypto.\n\nBài học thật sự của cỗ máy thời gian: với những đồng coin sống sót, kiên nhẫn thắng canh thời điểm. Nhưng bạn chỉ biết đồng coin nào sống sót SAU KHI mọi chuyện đã rồi, đó là lý do đa dạng hóa thắng việc đặt cược anh hùng, và vì sao KHÔNG AI biết trước tương lai. Kể cả trùm cũng không. 🐉",
+      "bossVictory": "Đã chinh phục học phần Crypto. Giờ bạn biết nhiều hơn hầu hết người lớn rồi. 🐉",
+      "quiz": {
+        "q": "Hàng nghìn đồng coin đã ra đời cùng thời với Bitcoin, và hầu hết giờ gần như chẳng còn giá trị gì. Vì sao \"cứ chọn Bitcoin tiếp theo là được\" lại trông dễ đến vậy khi nhìn lại?",
+        "explanation": "Chỉ những kẻ sống sót còn được nhắc đến, nên việc chọn người thắng khi nhìn lại trông dễ hơn nhiều so với lúc đó. Hàng nghìn đồng thất bại không để lại dấu vết nào trong câu chuyện.",
+        "options": [
+          "Vì những đồng thắng là những đồng duy nhất người ta còn nhắc đến, còn những đồng đã chết biến mất khỏi câu chuyện",
+          "Vì những đồng coin tốt nhất đã hiển nhiên ngay từ đầu với bất kỳ ai chịu đọc đủ về chúng",
+          "Vì hầu hết các đồng coin cuối cùng đều thành công với ai đủ kiên nhẫn giữ chúng nhiều năm",
+          "Vì các chuyên gia đã dự đoán đúng Bitcoin từ năm 2010 và đã dự đoán đúng mọi đồng thắng kể từ đó"
+        ]
+      }
+    },
+    "39": {
+      "title": "Blockchain THỰC SỰ là gì?",
+      "desc": "Công nghệ nằm bên dưới tất cả",
+      "content": "Gạt bỏ cơn hype đi, blockchain đơn giản đến bất ngờ: một cuốn sổ ghi chép chung mà hàng nghìn máy tính cùng giữ những bản sao giống hệt nhau.\n\nKhi ai đó gửi crypto, giao dịch đó được đưa vào một 'khối' (block) cùng hàng trăm giao dịch khác. Khối được niêm phong bằng toán học và nối vào khối trước đó. Vì vậy mới có tên: khối. Chuỗi. ⛓️\n\nVì sao ai cũng quan tâm? Vì những gì nó làm được:\n\n✅ Không ai có thể lặng lẽ sửa lịch sử. Thay đổi một khối cũ đồng nghĩa với việc làm lại mọi khối sau nó trên hàng nghìn máy tính cùng lúc.\n✅ Không công ty hay chính phủ nào điều hành nó. Mạng lưới máy tính cùng nhau vận hành nó.\n✅ Ai cũng có thể kiểm tra sổ ghi chép. Mọi giao dịch Bitcoin từng được thực hiện đều được công khai.\n\nĐó thực sự là công nghệ mới. Nhưng nó KHÔNG phải tiền ma thuật. Một bản ghi hoàn hảo về một đồng coin vô giá trị vẫn là một đồng coin vô giá trị. Công nghệ có thật không làm cho mọi đồng coin xây dựng trên nó trở nên có giá trị. 🧠",
+      "quiz": {
+        "q": "Vì sao lại rất khó để bí mật thay đổi một giao dịch cũ trên blockchain?",
+        "explanation": "Mỗi khối được niêm phong gắn với khối trước nó, nên viết lại một khối cũ đồng nghĩa với việc viết lại mọi khối sau nó, trên hàng nghìn máy tính, nhanh hơn tốc độ mạng lưới thêm khối mới. Đó là điều khiến sổ ghi chép gần như vĩnh viễn.",
+        "options": [
+          "Mọi khối phía sau cũng sẽ phải làm lại",
+          "Mỗi thay đổi phải được chính phủ phê duyệt",
+          "Mọi bản ghi cũ hơn một tháng đều bị xóa",
+          "Người tạo ra mỗi đồng coin giữ một khóa sửa riêng"
+        ]
+      }
+    },
+    "40": {
+      "title": "Bitcoin và Phần còn lại",
+      "desc": "Không phải đồng coin nào cũng là cùng một trò chơi",
+      "content": "'Crypto' không phải một thứ duy nhất. Những điểm khác biệt quan trọng hơn những điểm giống nhau:\n\n₿ BITCOIN: đồng tiên phong. Nguồn cung của nó bị giới hạn ở 21 triệu coin mãi mãi, được viết sẵn trong mã nguồn, và tốc độ tạo coin mới giảm một nửa khoảng mỗi bốn năm. (Nghe quen không? Cơ chế halving của NOOB mượn đúng ý tưởng này.) Toàn bộ điểm hấp dẫn của nó là sự khan hiếm cộng bảo mật.\n\n⟠ ETHEREUM: ít giống 'vàng kỹ thuật số' hơn, giống 'máy tính thế giới' hơn. Nó chạy các hợp đồng thông minh, tức là những chương trình tự động thực thi. Hầu hết các app crypto được xây dựng trên nó hoặc trên các đối thủ của nó.\n\n🪙 MỌI THỨ CÒN LẠI: hàng nghìn 'altcoin'. Một vài đồng giải quyết vấn đề thật. Hầu hết là bản sao, thử nghiệm hoặc chiêu hốt tiền. Thống kê phũ phàng: phần lớn các đồng coin từng được tạo ra đã chết hoặc vô giá trị.\n\nBài học: 'crypto đang tăng' gần như chẳng nói lên gì về bất kỳ đồng coin CỤ THỂ nào. Mỗi đồng là một vụ đặt cược riêng, với tỷ lệ cược riêng. 🎲",
+      "quiz": {
+        "q": "Nguồn cung tối đa của Bitcoin là bao nhiêu, và thay đổi nó dễ đến mức nào?",
+        "explanation": "Mức trần 21 triệu là một phần của bộ quy tắc mà mọi máy tính trong mạng lưới đều chạy. Nâng nó lên đồng nghĩa với việc gần như tất cả các máy phải đồng ý làm cho thứ họ đang nắm giữ mất giá, đó là lý do mức trần được coi là cố định.",
+        "options": [
+          "100 triệu, và các thợ đào bỏ phiếu về nó mỗi năm",
+          "21 triệu, và nâng nó lên gần như là bất khả thi",
+          "1 tỷ, và người tạo ra nó có thể điều chỉnh",
+          "Không có giới hạn, nên coin mới được in ra mãi mãi"
+        ]
+      }
+    },
+    "41": {
+      "title": "Stablecoin",
+      "desc": "Crypto cố gắng đứng yên",
+      "content": "Stablecoin là một loại crypto được thiết kế để luôn có giá trị cố định, thường đúng bằng 1 đô la Mỹ. Trader dùng chúng như một bãi đỗ xe: bán các đồng coin biến động mạnh sang stablecoin, và tiền của bạn đứng yên trong lúc bạn tính nước đi tiếp theo.\n\nLàm sao chúng giữ được mức $1? Cách thiết kế phổ biến nhất là giữ đô la thật và tài sản làm dự trữ, để mỗi đồng coin đều được bảo chứng bằng một thứ gì đó. Bạn đang đặt niềm tin vào người nắm giữ khoản dự trữ đó.\n\nVà đây là câu chuyện cảnh báo dành cho bạn: stablecoin có thể SỤP ĐỔ. Chuyện này đã thực sự xảy ra. Năm 2022, một stablecoin 'thuật toán' lớn, dùng toán học khéo léo thay vì dự trữ thật, đã rơi từ $1 xuống gần bằng 0 chỉ trong vài ngày và thổi bay hàng chục tỷ đô la. 'Ổn định' là mục tiêu thiết kế, không phải lời bảo đảm.\n\nQuy tắc ngón tay cái: cơ chế giữ cho một thứ 'an toàn' càng khéo léo, bạn càng phải soi kỹ nó. 🔍",
+      "quiz": {
+        "q": "Nhiệm vụ chính của một stablecoin là gì?",
+        "explanation": "Nhiệm vụ của stablecoin là đứng yên. Nó là bãi đỗ giữa các giao dịch, không phải thứ được kỳ vọng sẽ tăng giá.",
+        "options": [
+          "Giữ một giá trị cố định, thường là $1, để trader có chỗ đỗ ổn định",
+          "Tăng nhanh hơn Bitcoin nhờ bám theo toàn bộ thị trường crypto",
+          "Tự động trả lãi cho bất kỳ ai giữ nó trong ví",
+          "Che giấu giao dịch khỏi mọi người bằng cách xáo trộn sổ cái công khai"
+        ]
+      }
+    },
+    "42": {
+      "title": "Crypto, Thuế & Pháp luật",
+      "desc": "Đúng vậy, luật vẫn áp dụng",
+      "content": "Trên mạng đầy người tin rằng crypto là tiền vô hình, chẳng có luật lệ gì. Họ thường phải học bài học này theo cách đau đớn. 😬\n\nThực tế ở hầu hết các quốc gia, kể cả Nam Phi:\n\n🧾 LỢI NHUẬN THƯỜNG PHẢI CHỊU THUẾ. Bán crypto với giá cao hơn giá bạn đã mua, và cơ quan thuế thường muốn phần của họ, giống hệt như với cổ phiếu.\n\n🪪 SÀN GIAO DỊCH BIẾT BẠN LÀ AI. Các nền tảng hợp pháp yêu cầu xác minh danh tính (gọi là KYC, Know Your Customer - Hiểu khách hàng của bạn). Mỗi giao dịch cũng được ghi lại vĩnh viễn trên chính blockchain, tức là hoàn toàn NGƯỢC LẠI với ẩn danh.\n\n⚖️ CƠ QUAN QUẢN LÝ CÓ VÀO CUỘC. Ở Nam Phi, tài sản crypto được chính thức coi là sản phẩm tài chính, nghĩa là các nền tảng bán chúng phải tuân theo quy định về dịch vụ tài chính.\n\nKhông điều nào trong số này là lý do để hoảng loạn. Nhưng nó LÀ lý do để phớt lờ bất kỳ ai nói 'luật không áp dụng cho crypto'. Luật có áp dụng, và giả vờ như không đã khiến nhiều người lớn gặp rắc rối thực sự nghiêm trọng.",
+      "quiz": {
+        "q": "Anh họ bạn nói lợi nhuận từ crypto là vô hình với cơ quan thuế vì crypto ẩn danh. Điều đó sai ở đâu?",
+        "explanation": "Các nền tảng hợp pháp xác minh bạn là ai trước khi bạn được giao dịch, và mọi giao dịch blockchain đều công khai và vĩnh viễn, tức là ngược lại với ẩn danh. Lợi nhuận thường phải chịu thuế, nên hãy kiểm tra quy định nơi bạn sống.",
+        "options": [
+          "Sàn kiểm tra danh tính, và hồ sơ là công khai",
+          "Chẳng sai gì, crypto thực sự ẩn danh",
+          "Crypto chỉ bị đánh thuế ở Mỹ, nơi khác thì không",
+          "Thuế chỉ bắt đầu khi bạn rút một triệu"
+        ]
+      }
+    },
+    "43": {
+      "title": "Biến động & Quy tắc sinh tồn",
+      "desc": "Vì sao crypto dao động dữ dội",
+      "content": "Một ngày tệ trên thị trường chứng khoán là giảm 3%. Một ngày tệ trong crypto là 20%. Ngay cả Bitcoin, 'người lớn' của crypto, cũng đã hơn một lần mất hơn 80% giá trị rồi sau đó mới hồi phục. Những đồng coin nhỏ hơn thường xuyên mất 95% và không bao giờ quay lại.\n\nVì sao lại hoang dã đến vậy? Crypto giao dịch 24/7 mà không có cơ chế ngắt mạch, phần lớn được mua bằng tiền vay và bị buộc bán tháo khi thị trường sập, và giá chạy theo câu chuyện và cảm xúc nhiều hơn là báo cáo lợi nhuận.\n\nVậy nên đây là các quy tắc sinh tồn mà mọi trader có kinh nghiệm đều nhắc đi nhắc lại:\n\n1️⃣ Đừng bao giờ bỏ vào số tiền mà bạn không chịu nổi nếu mất sạch.\n2️⃣ Chia quy mô vị thế sao cho một thảm họa không thể quét sạch bạn.\n3️⃣ Quyết định điểm thoát TRƯỚC khi vào lệnh, lúc bạn còn bình tĩnh.\n4️⃣ FOMO là cảm xúc đắt đỏ nhất trong tài chính.\n\nHãy luyện cả bốn quy tắc trong NoobTrader, nơi thua lỗ chỉ là giả. Thói quen mới là phần thưởng thật. 🏆",
+      "quiz": {
+        "q": "Đâu là một quy tắc sinh tồn thực sự cho các thị trường biến động mạnh?",
+        "explanation": "Không bao giờ mạo hiểm số tiền bạn không chịu nổi nếu mất là quy tắc duy nhất giữ bạn ở lại cuộc chơi. Gấp đôi vị thế sau khi thua là cách các tài khoản kết thúc.",
+        "options": [
+          "Gấp đôi vị thế sau mỗi lần thua để gỡ lại",
+          "Không bao giờ đầu tư số tiền bạn không chịu nổi nếu mất sạch",
+          "Biến động chỉ ảnh hưởng coin nhỏ, nên coin lớn là an toàn",
+          "Luôn mua khi mọi người trên mạng xã hội đều đang mua"
+        ]
+      }
+    },
+    "44": {
+      "title": "Chu kỳ cường điệu & FOMO",
+      "desc": "Khuôn mẫu đằng sau mọi cơn sốt",
+      "content": "Crypto vận hành theo các chu kỳ cường điệu (hype cycle), và một khi đã nhìn ra khuôn mẫu thì bạn không thể không thấy nó nữa:\n\n📈 Giai đoạn 1: có điều gì đó thực sự xảy ra. Những người tin sớm lặng lẽ mua vào.\n🚀 Giai đoạn 2: giá tăng. Truyền thông để ý. Bảng tin của bạn tràn ngập người thắng.\n🎪 Giai đoạn 3: cơn sốt. Tài xế taxi mách coin cho bạn. Người ta vay tiền để mua. 'Lần này sẽ khác.'\n💥 Giai đoạn 4: sụp đổ. Những người đến muộn, mua ở giá cao nhất, mất nhiều nhất.\n🕳️ Giai đoạn 5: im lặng. Bài đăng của người thắng biến mất. Không ai nói về khoản lỗ của mình.\n\nCơn sốt NFT năm 2021 đã diễn đúng kịch bản này: đồ sưu tầm kỹ thuật số được bán với giá hàng triệu ở đỉnh, và vài năm sau phần lớn gần như chẳng còn giá trị gì.\n\nMánh khóe tàn nhẫn của mọi cơn sốt: nó khiến thời điểm TỆ NHẤT để mua lại có cảm giác là thời điểm GẤP GÁP NHẤT để mua. Khi cảm thấy an toàn nhất để lao vào, vì ai cũng đã vào rồi, thì khoản lời dễ dàng thường đã hết. 🎯",
+      "quiz": {
+        "q": "Trong một chu kỳ cường điệu điển hình, khi nào người bình thường cảm thấy thôi thúc mua mạnh nhất?",
+        "explanation": "Thôi thúc lớn nhất khi câu chuyện ồn ào nhất, và câu chuyện ồn ào nhất khi giá đã tăng xong. Việc ai cũng đã vào khiến nó có vẻ an toàn, và đó cũng là điều khiến chẳng còn ai để mua tiếp.",
+        "options": [
+          "Từ sớm, khi gần như chưa ai nói về nó",
+          "Giữa đợt sụp đổ, khi giá đang thấp",
+          "Gần đỉnh, khi mọi người khác đều đã vào",
+          "Không theo khuôn mẫu nào, thôi thúc là ngẫu nhiên"
+        ]
+      }
+    },
+    "45": {
+      "title": "Đọc một cây nến",
+      "desc": "Cấu tạo nến: thân và màu",
+      "content": "Mỗi cây nến kể một câu chuyện nhỏ chỉ với bốn con số: giá mở cửa ở đâu, cao nhất đạt bao nhiêu, thấp nhất rơi đến đâu, và đóng cửa ở đâu. Phần thân đặc chạy từ giá mở đến giá đóng, và màu sắc cho bạn biết bên nào thắng: xanh nghĩa là giá đóng cửa cao hơn giá mở cửa, đỏ nghĩa là phe bán đã kéo nó xuống thấp hơn. Bí quyết chỉ có vậy. Học đọc đúng một cây nến và mọi biểu đồ trên thế giới sẽ biến từ một bức tường hỗn loạn thành một mẩu truyện tranh. 🟢",
+      "quiz": {
+        "q": "Cây nến này màu xanh. Nó cho bạn biết gì về phiên giao dịch đó?",
+        "options": [
+          "Giá đóng cửa thấp hơn giá mở cửa",
+          "Chắc chắn có nhiều người mua hơn người bán",
+          "Giá đóng cửa cao hơn giá mở cửa",
+          "Giá chưa từng giảm trong suốt phiên"
+        ]
+      }
+    },
+    "46": {
+      "title": "Râu nến biết kể chuyện",
+      "desc": "Cấu tạo nến: đỉnh và đáy",
+      "content": "Thân nến cho thấy phiên mở và đóng ở đâu, nhưng râu nến cho thấy cả hành trình: mọi mức giá mà cuộc chiến thực sự chạm tới. Râu dài nghĩa là đã có một trận đánh lớn vượt ra ngoài giá mở và giá đóng, và bên để lại cái râu đó là bên thua trận. Râu dài bên dưới? Phe bán ép mạnh và bị đẩy lùi. Râu dài bên trên? Phe mua vươn cao và bị từ chối. Thân nến là tiêu đề, râu nến là chuyện hậu trường. 📏",
+      "quiz": {
+        "q": "Những đường mảnh (râu nến) phía trên và phía dưới thân nến thực sự cho thấy điều gì?",
+        "options": [
+          "Giá cao nhất và thấp nhất được giao dịch trong phiên",
+          "Giá mở và giá đóng của hôm qua",
+          "Chính xác các mức giá có nhiều giao dịch nhất",
+          "Dự báo biên độ giá của ngày mai"
+        ]
+      }
+    },
+    "47": {
+      "title": "Nến Doji",
+      "desc": "Nến đơn: sự do dự",
+      "content": "Đôi khi một cây nến mở và đóng ở gần như đúng cùng một mức giá, để lại thân nến rất nhỏ với râu ở hai bên. Đó là doji, và nó có nghĩa là trận kéo co kết thúc với tỉ số hòa: phe mua và phe bán giằng co cả phiên mà không bên nào thắng. Tự nó chỉ là một cái nhún vai. Nhưng sau một đợt chạy mạnh, nó có thể ám chỉ xu hướng đang mệt mỏi, vì bên đang thắng bỗng không đẩy nổi giá nữa. Một manh mối đáng ghi nhận, không bao giờ là lời bảo đảm. 🤝",
+      "quiz": {
+        "q": "Cây nến phát sáng mở và đóng ở gần như đúng cùng một mức giá. Nó tên là gì, và nó đang ám chỉ điều gì?",
+        "options": [
+          "Một nến marubozu, dấu hiệu quyết tâm tuyệt đối theo một hướng",
+          "Một nến búa, dấu hiệu phe mua đã giành lại quyền kiểm soát",
+          "Một khoảng trống giá, dấu hiệu giao dịch tạm dừng qua đêm",
+          "Một nến doji, dấu hiệu do dự giữa phe mua và phe bán"
+        ]
+      }
+    },
+    "48": {
+      "title": "Nến búa",
+      "desc": "Nến đơn: cú phản đòn",
+      "content": "Hãy hình dung một phiên khốc liệt: phe bán đập giá xuống, rồi phe mua kéo nó lên lại hết trước giờ đóng cửa. Thứ còn lại trên biểu đồ là một cây nến búa (hammer): thân nhỏ gần phía trên với râu dưới dài ít nhất gấp đôi thân. Sau một đợt trượt dốc, nến búa nói rằng phe bán đã tung cú đấm mạnh nhất mà không trúng. Điều đó thường đánh dấu một khả năng đảo chiều. Là khả năng, không phải lời hứa, nên hãy coi nó là manh mối để theo dõi, không phải lệnh mua. 🔨",
+      "quiz": {
+        "q": "Sau một đợt trượt dốc, cây nến phát sáng có râu dưới dài và thân nhỏ gần phía trên. Đó là gì?",
+        "options": [
+          "Một nến sao băng, dấu hiệu phe bán đã chiếm thế",
+          "Một nến búa, gợi ý phe mua đã phản công mạnh",
+          "Một nến doji, hòa hoàn hảo",
+          "Bằng chứng xu hướng giảm đã kết thúc"
+        ]
+      }
+    },
+    "49": {
+      "title": "Nến sao băng",
+      "desc": "Nến đơn: bị từ chối ở đỉnh",
+      "content": "Hình ảnh phản chiếu của nến búa. Sau một đợt leo mạnh, phe mua với tới thêm một đỉnh mới, bị từ chối thẳng thừng, và giá đóng cửa quay về gần chỗ đã mở. Biểu đồ in ra một thân nhỏ ở đáy cây nến với râu trên dài: một nến sao băng (shooting star). Nó có nghĩa là phe bán cuối cùng đã xuất hiện ở đỉnh với đủ sức mạnh để thắng phiên. Sau một đợt tăng lớn, sự từ chối đó thường có ý nghĩa. Thường thôi, không phải luôn luôn. 🌠",
+      "quiz": {
+        "q": "Sau một đợt leo mạnh, cây nến phát sáng vọt lên rồi đóng cửa gần mức thấp nhất, để lại râu trên dài. Đó là gì?",
+        "options": [
+          "Một nến sao băng, gợi ý phe bán đã xuất hiện ở đỉnh",
+          "Một nến búa, gợi ý phe mua đã trở lại nắm quyền",
+          "Một nến marubozu xanh, sức mua thuần túy",
+          "Lời bảo đảm giá sẽ sập vào ngày mai"
+        ]
+      }
+    },
+    "50": {
+      "title": "Nến Marubozu",
+      "desc": "Nến đơn: quyết tâm tuyệt đối",
+      "content": "Marubozu là một thân nến đặc không có chút râu nào: giá mở cửa rồi tiến thẳng theo một hướng suốt cả phiên mà không hề ngoái lại. Không giằng co, không do dự, quyết tâm tuyệt đối từ một phía. Marubozu xanh hét lên sự tự tin của phe mua, marubozu đỏ thì hét điều ngược lại. Chúng hiếm gặp, và đó chính là lý do trader phải chú ý khi một cây xuất hiện. 💪",
+      "quiz": {
+        "q": "Cây nến phát sáng là một thân đặc không có chút râu nào. Hình dạng đó cho bạn biết điều gì?",
+        "options": [
+          "Không ai giao dịch trong phiên đó, nên giá đứng yên",
+          "Thị trường đóng cửa sớm hôm đó nên phiên bị cắt ngắn",
+          "Một bên kiểm soát từ lúc mở đến lúc đóng, quyết tâm tuyệt đối",
+          "Phe mua và phe bán cân bằng hoàn hảo suốt cả phiên"
+        ]
+      }
+    },
+    "51": {
+      "title": "Nhấn chìm tăng",
+      "desc": "Mô hình hai nến: phe mua tấn công",
+      "content": "Hai cây nến, một thông điệp. Đầu tiên là một nến đỏ nhỏ, chuyện bình thường trong xu hướng giảm. Rồi một thân xanh lớn nuốt trọn nó: chỉ trong một phiên, phe mua đã xóa sạch mọi thứ phe bán làm được hôm trước, và còn hơn thế. Xuất hiện sau một xu hướng giảm, mô hình nhấn chìm tăng (bullish engulfing) là một trong những manh mối đảo chiều được theo dõi nhiều nhất trên mọi biểu đồ, vì nó cho thấy cán cân quyền lực lật ngược chỉ trong một cây nến. Manh mối, không phải hợp đồng. 🐂",
+      "quiz": {
+        "q": "Thân xanh lớn nuốt trọn thân đỏ trước nó. Mô hình hai nến này là gì?",
+        "options": [
+          "Nhấn chìm giảm, phe bán đã nắm quyền",
+          "Nhấn chìm tăng, phe mua áp đảo phe bán",
+          "Một mô hình hai đáy",
+          "Hai nến doji liên tiếp"
+        ]
+      }
+    },
+    "52": {
+      "title": "Nhấn chìm giảm",
+      "desc": "Mô hình hai nến: phe bán tấn công",
+      "content": "Hình ảnh phản chiếu của phiên bản tăng. Ở đỉnh một đợt leo, một thân đỏ lớn nuốt trọn thân xanh trước nó: phe bán xóa sạch lực mua của ngày hôm trước chỉ trong một cây nến, đúng lúc đợt leo đã bị kéo căng và những người mua sau cùng đang lo lắng. Điều đó thường khiến những người mua còn lại cũng lo lắng theo. Khi bạn thấy nó sau một đợt tăng dài, hãy tôn trọng nó. 🐻",
+      "quiz": {
+        "q": "Ở đỉnh một đợt leo, thân đỏ lớn nuốt trọn thân xanh trước nó. Cặp nến này gọi là gì?",
+        "options": [
+          "Nhấn chìm tăng, đợt leo sẽ tiếp tục",
+          "Một nến búa theo sau là một nến doji",
+          "Một cú bứt phá qua kháng cự",
+          "Nhấn chìm giảm, phe bán áp đảo phe mua"
+        ]
+      }
+    },
+    "53": {
+      "title": "Nhận diện xu hướng tăng",
+      "desc": "Xu hướng: đỉnh cao hơn, đáy cao hơn",
+      "content": "Một xu hướng tăng cần đủ cả hai nửa: đỉnh cao hơn VÀ đáy cao hơn. Mỗi đỉnh vượt qua đỉnh trước, và mỗi lần giảm dừng lại ở mức cao hơn lần trước, vì phe mua liên tục nhảy vào sớm hơn mỗi lần. Hình bậc thang đó là thị trường đang nói với bạn rằng cầu đang nắm quyền. Một đỉnh cao hơn đơn lẻ chẳng chứng minh được gì. Khuôn mẫu là cả cặp, lặp đi lặp lại. 📈",
+      "quiz": {
+        "q": "Mỗi đỉnh vượt qua đỉnh trước, và mỗi lần giảm dừng lại cao hơn lần trước. Biểu đồ này đang cho thấy gì?",
+        "options": [
+          "Một xu hướng tăng, đỉnh cao hơn và đáy cao hơn",
+          "Một xu hướng giảm, đỉnh thấp hơn và đáy thấp hơn",
+          "Một vùng đi ngang, giá kẹt giữa sàn và trần",
+          "Một mô hình hai đỉnh đang hình thành"
+        ]
+      }
+    },
+    "54": {
+      "title": "Nhận diện xu hướng giảm",
+      "desc": "Xu hướng: đỉnh thấp hơn, đáy thấp hơn",
+      "content": "Lật ngược cái bậc thang. Đỉnh thấp hơn nghĩa là phe bán tấn công sớm hơn ở mỗi lần hồi, đáy thấp hơn nghĩa là phe mua rút lui xa hơn ở mỗi lần giảm. Chừng nào cấu trúc đó còn giữ, phe bán đang điều khiển cuộc chơi, và chống lại nó là cách trader mới tặng tiền cho những trader kiên nhẫn. Xu hướng không phải kẻ thù của bạn, nhưng giả vờ như nó không tồn tại thì chắc chắn là. 📉",
+      "quiz": {
+        "q": "Mỗi lần hồi đều đạt đỉnh thấp hơn lần trước, và mỗi lần giảm lại sâu hơn. Bạn đang nhìn thấy gì?",
+        "options": [
+          "Một xu hướng tăng đang tạm nghỉ lấy hơi",
+          "Một vùng đi ngang",
+          "Một xu hướng giảm, đỉnh thấp hơn và đáy thấp hơn",
+          "Một mô hình nhấn chìm tăng đang hình thành"
+        ]
+      }
+    },
+    "55": {
+      "title": "Thị trường đi ngang",
+      "desc": "Xu hướng: trò chơi chờ đợi",
+      "content": "Đôi khi chẳng bên nào thắng, nên giá cứ nảy qua nảy lại giữa cùng một mức sàn và cùng một mức trần trong nhiều tuần. Đó là một vùng đi ngang (range), và thị trường dành rất nhiều thời gian để làm đúng điều này. Nó không hỏng và cũng không nhàm chán, đó là thị trường đang lấy hơi. Trader kiên nhẫn học cách yêu sự chờ đợi, vì vùng đi ngang giữ càng lâu thì cú thoát ra cuối cùng thường càng có ý nghĩa. 🏓",
+      "quiz": {
+        "q": "Suốt nhiều tuần, giá cứ nảy giữa cùng một mức sàn và cùng một mức trần. Điều này gọi là gì?",
+        "options": [
+          "Một xu hướng tăng, giá liên tục chạm trần",
+          "Một vùng đi ngang, thị trường đang di chuyển ngang",
+          "Một mô hình vai đầu vai",
+          "Một cú bứt phá đang diễn ra"
+        ]
+      }
+    },
+    "56": {
+      "title": "Hỗ trợ",
+      "desc": "Hỗ trợ & kháng cự: mức sàn",
+      "content": "Khi giá liên tục giảm về cùng một mức và lần nào cũng bật lên, trader gọi mức đó là hỗ trợ: một mức sàn nơi phe mua cứ quyết định rằng giá đang rẻ. Mức đó giữ được càng nhiều lần thì càng nhiều người theo dõi nó, và đó một phần là lý do nó tiếp tục giữ. Nhưng nhớ rằng mức sàn do con người vẽ ra, không phải định luật. Hỗ trợ có thể bị phá và vẫn thường bị phá, và khi điều đó xảy ra, đám đông bắt đáy sẽ biến thành đám đông hoảng loạn. 🧱",
+      "quiz": {
+        "q": "Giá đã giảm vào vùng tô màu ba lần, và lần nào cũng bật lên. Trader gọi mức đó là gì?",
+        "options": [
+          "Kháng cự, một mức trần nơi phe bán ồ ạt vào",
+          "Một đường xu hướng, các mức phải nằm chéo",
+          "Một lệnh cắt lỗ do sàn giao dịch đặt",
+          "Hỗ trợ, một mức sàn nơi phe mua liên tục nhảy vào"
+        ]
+      }
+    },
+    "57": {
+      "title": "Kháng cự",
+      "desc": "Hỗ trợ & kháng cự: mức trần",
+      "content": "Kháng cự là mức trần: một mức mà mọi đợt tăng đều chững lại vì phe bán vui vẻ chốt lời ở đó. Xem một biểu đồ đập đầu vào cùng một mức giá ba lần là bạn đang xem kháng cự hoạt động theo thời gian thực. Đây là điểm bất ngờ đáng nhớ: nếu giá có lúc xuyên thủng nó với quyết tâm thực sự, mức trần cũ đó thường bắt đầu đóng vai trò như một mức sàn mới. 🪟",
+      "quiz": {
+        "q": "Ba đợt tăng riêng biệt đều chững lại ở vùng tô màu. Mức đó gọi là gì?",
+        "options": [
+          "Kháng cự, một mức trần nơi phe bán liên tục đẩy lùi",
+          "Hỗ trợ, một mức sàn nằm bên dưới giá",
+          "Mức cổ tức, được ấn định mỗi năm một lần",
+          "Một đợt khối lượng tăng vọt, không nói gì về giá"
+        ]
+      }
+    },
+    "58": {
+      "title": "Đường xu hướng",
+      "desc": "Đường xu hướng & kênh giá: đường kẻ quan trọng",
+      "content": "Nối các đáy đang đi lên trên biểu đồ là bạn đã vẽ được một đường xu hướng. Hai điểm bất kỳ đều tạo thành một đường thẳng, nhưng lần chạm thứ ba mới là lúc nó bắt đầu chứng minh mình quan trọng, vì nó cho thấy phe mua liên tục bảo vệ cùng một mức đang đi lên. Mỗi lần chạm được tôn trọng thêm là thêm bằng chứng. Nó vẫn chỉ là bằng chứng, không bao giờ là lời hứa: đường xu hướng là nét bút chì, không phải trường lực. ✏️",
+      "quiz": {
+        "q": "Đường đi lên này đã được chạm ba lần riêng biệt. Vì sao trader quan tâm một đường xu hướng có bao nhiêu lần chạm?",
+        "options": [
+          "Họ không quan tâm, vì hai điểm bất kỳ đã đủ thành một đường xu hướng",
+          "Ba lần chạm nghĩa là lần bật thứ tư chắc chắn sẽ đến",
+          "Càng nhiều lần chạm thì đường càng có ý nghĩa, phe mua liên tục bảo vệ nó",
+          "Đường xu hướng chỉ tính trên biểu đồ ngày, không bao giờ trên khung ngắn hơn"
+        ]
+      }
+    },
+    "59": {
+      "title": "Kênh giá",
+      "desc": "Đường xu hướng & kênh giá: làn đường",
+      "content": "Kênh giá là một xu hướng có phép lịch sự. Giá leo lên trong khi nảy giữa hai đường song song: một sàn gồm các đáy đi lên và một trần gồm các đỉnh đi lên, cùng di chuyển lên như hai mép của một làn đường. Trader theo dõi cả hai mép để chờ cú bật, và họ còn theo dõi kỹ hơn ngày giá rời khỏi làn, vì một cú phá vỡ dứt khoát ra khỏi kênh thường là nơi đợt di chuyển lớn tiếp theo bắt đầu. 🛣️",
+      "quiz": {
+        "q": "Giá đang leo lên trong khi nảy giữa hai đường song song. Đây là mô hình gì?",
+        "options": [
+          "Một tam giác, nơi hai đường phải gặp nhau",
+          "Một kênh tăng, xu hướng tăng với làn đường rõ ràng",
+          "Một mô hình hai đỉnh",
+          "Một vùng đi ngang phẳng chẳng đi về đâu cả"
+        ]
+      }
+    },
+    "60": {
+      "title": "Mô hình hai đỉnh",
+      "desc": "Mô hình biểu đồ: hình chữ M",
+      "content": "Giá đâm vào cùng một mức trần hai lần, thất bại cả hai, và vẽ một chữ M lớn trên biểu đồ. Phá xuống dưới đáy ở giữa (đường viền cổ) là mô hình hai đỉnh hoàn tất: một manh mối đảo chiều giảm kinh điển. Hình ảnh phản chiếu của nó, chữ W, là mô hình hai đáy, và nó chỉ theo hướng ngược lại. Thường đánh dấu một đỉnh, nhưng không bắt buộc. Chẳng có gì trên biểu đồ là bắt buộc. Ⓜ️",
+      "quiz": {
+        "q": "Giá đâm vào cùng một mức trần hai lần, thất bại cả hai, rồi phá xuống dưới đáy ở giữa. Đây là hình gì?",
+        "options": [
+          "Một mô hình hai đáy, manh mối tăng giá",
+          "Một kênh tăng",
+          "Một nến búa",
+          "Một mô hình hai đỉnh, manh mối đảo chiều giảm"
+        ]
+      }
+    },
+    "61": {
+      "title": "Khi mô hình thất bại",
+      "desc": "Mô hình biểu đồ: xác suất, không phải lời hứa",
+      "content": "Đây là bài học giá trị nhất trong học phần này. Một mô hình chuẩn sách giáo khoa đã hình thành, ai cũng thấy, và rồi thị trường làm điều ngược lại. Mọi mô hình bạn đã học đều có lúc thất bại, và đó không phải biểu đồ nói dối bạn, mà là biểu đồ đang trao cho bạn thông tin: phe bạn đặt cược vừa thua. Hãy quyết định điểm thoát trước khi vào lệnh, và khi mô hình thất bại, hãy hiểu ý và thoát ra. Mô hình là xác suất, không bao giờ là lời hứa. 🚪",
+      "quiz": {
+        "q": "Một mô hình hai đáy chuẩn sách giáo khoa hình thành ở vùng sàn tô màu... rồi giá sập xuyên thẳng qua nó. Bài học thật lòng là gì?",
+        "options": [
+          "Mô hình là xác suất, không phải lời hứa, và mô hình thất bại là tín hiệu để bạn thoát ra",
+          "Mô hình hai đáy thật không bao giờ thất bại, nên cái bạn thấy hẳn là mô hình giả",
+          "Mua thêm ở giá thấp hơn, vì sớm muộn gì mô hình cũng sẽ diễn ra đúng như vậy",
+          "Biểu đồ hoàn toàn mất tác dụng một khi một mô hình đã thất bại với bạn như thế"
+        ]
+      }
+    },
+    "62": {
+      "title": "Vai đầu vai",
+      "desc": "Mô hình biểu đồ: ba đỉnh",
+      "content": "Ba đỉnh: một đỉnh cao hơn ở giữa (cái đầu), một đỉnh thấp hơn ở mỗi bên (hai vai), và một đường dưới hai đáy gọi là đường viền cổ. Nó hình thành khi phe mua xoay xở được một cú đẩy cuối cùng lên cao hơn rồi ở lần thử sau thậm chí không bằng được mức đó. Riêng hình dạng chỉ là một lời cảnh báo. Điều trader thực sự chờ đợi là một cú phá vỡ dứt khoát xuống dưới đường viền cổ, vì đó là lúc mô hình thôi là một hình vẽ và trở thành một quyết định. 👤",
+      "quiz": {
+        "q": "Ba đỉnh: một đỉnh cao hơn ở giữa, một đỉnh thấp hơn ở mỗi bên, và một mức sàn nối hai đáy. Hình dạng kinh điển này là gì?",
+        "options": [
+          "Một mô hình ba đáy, ba đáy bằng nhau trước cú đẩy lên",
+          "Một mô hình vai đầu vai, có thể là kết thúc của xu hướng tăng",
+          "Một tam giác tăng",
+          "Ba nến búa liên tiếp, mỗi cây đều từ chối giá thấp hơn"
+        ]
+      }
+    },
+    "63": {
+      "title": "Tam giác nén chặt",
+      "desc": "Mô hình biểu đồ: chiếc lò xo bị nén",
+      "content": "Khi các nhịp dao động cứ thu hẹp dần, đáy cao hơn ép lên các đỉnh thấp hơn, thị trường đang bị nén lại như một chiếc lò xo. Đó là một tam giác: cả hai phía đều cạn dần chỗ, một quyết định đang bị ép phải đưa ra. Sự nén chặt thường kết thúc bằng một cú bùng nổ, và đây là điểm mấu chốt: hướng của cú bùng nổ không thể biết trước. Hãy chờ cú phá vỡ thay vì đoán nó. Thị trường sẽ cho bạn biết, và nó chẳng tính phí gì cho thông tin đó. 🌀",
+      "quiz": {
+        "q": "Các nhịp dao động cứ thu hẹp, ép giá vào một vùng nén ngày càng chặt, cho đến khi cuối cùng bùng ra. Vùng nén đó là gì?",
+        "options": [
+          "Một kênh giá, hai đường song song không bao giờ gặp nhau",
+          "Một mô hình hai đỉnh",
+          "Một tam giác, một giai đoạn tích lũy thường kết thúc bằng cú bứt phá",
+          "Bằng chứng giá buộc phải phá lên từ đây"
+        ]
+      }
+    },
+    "64": {
+      "title": "Khối lượng: Máy phát hiện nói dối",
+      "desc": "Khối lượng: ai thực sự có mặt",
+      "content": "Khối lượng là số cổ phiếu đã được sang tay, và nó là máy phát hiện nói dối của biểu đồ. Một cú bứt phá với khối lượng nhỏ xíu là lời thì thầm đánh lừa người ta: chỉ một nhúm giao dịch đẩy giá đến chỗ nó không thể trụ lại. Một cú bứt phá với khối lượng lớn là cả đám đông thực sự bỏ phiếu bằng tiền. Cùng một biến động giá, ý nghĩa hoàn toàn khác. Trước khi tin bất kỳ biến động lớn nào, hãy kiểm tra xem ai đã có mặt. 🔊",
+      "quiz": {
+        "q": "Hai lần thử thoát khỏi cùng một mức trần: lần đầu với khối lượng nhỏ xíu đã thất bại, lần hai đi kèm khối lượng khổng lồ và giữ vững. Khối lượng đang đóng vai trò gì ở đây?",
+        "options": [
+          "Chẳng gì cả, khối lượng không bao giờ quan trọng với biến động giá",
+          "Ép giá đi lên, vì khối lượng cao đẩy giá cao hơn",
+          "Dự đoán chính xác đỉnh của đợt tăng trước khi nó xảy ra",
+          "Đóng vai trò xác nhận, khối lượng lớn cho thấy quyết tâm thật đằng sau biến động"
+        ]
+      }
+    },
+    "65": {
+      "title": "Bậc thầy nhận diện xu hướng",
+      "desc": "Mười biểu đồ, không nhãn, không khoan nhượng",
+      "content": "Mười biểu đồ. Không nhãn, không đường hỗ trợ vẽ sẵn, không gợi ý. Hãy nói mỗi biểu đồ đang cho thấy gì, đúng như một trader thật đang nhìn chằm chằm vào màn hình thật. Đạt 8 trên 10 là học phần này thuộc về bạn. Bạn có 3 lượt thử mỗi ngày, nên hãy chậm lại, đọc từng cây nến, và nhớ bài học quan trọng nhất: đôi khi câu trả lời thật lòng là chẳng có mô hình nào cả. 🕯️",
+      "bossVictory": "Đã chinh phục học phần xu hướng. Giờ bạn đọc biểu đồ, chứ biểu đồ không đọc được bạn. 🕯️",
+      "bossQuestions": {
+        "0": {
+          "q": "Biểu đồ này đang cho thấy gì?",
+          "explanation": "Lộn xộn là cố ý. Loại bỏ nhiễu đi thì mỗi đỉnh dao động vẫn vượt đỉnh trước, và mỗi lần giảm vẫn chạm đáy ở mức cao hơn. Xu hướng thật trông như thế này, chứ không như bậc thang trong sách giáo khoa.",
+          "options": [
+            "Một xu hướng giảm, đỉnh thấp hơn và đáy thấp hơn",
+            "Một xu hướng tăng, đỉnh cao hơn và đáy cao hơn",
+            "Một vùng đi ngang",
+            "Một mô hình hai đỉnh"
+          ]
+        },
+        "1": {
+          "q": "Điều gì đã xảy ra ở cặp nến phát sáng?",
+          "explanation": "Thân đỏ nuốt trọn toàn bộ thân xanh ngay sau một đợt leo dài. Đó là nhấn chìm giảm đang làm đúng việc của nó: xuất hiện khi phe mua bị kéo căng nhất.",
+          "options": [
+            "Một mô hình nhấn chìm tăng",
+            "Một nến doji ở đỉnh",
+            "Một nến búa",
+            "Một mô hình nhấn chìm giảm ở đỉnh một đợt tăng"
+          ]
+        },
+        "2": {
+          "q": "Biểu đồ này đang cho thấy gì?",
+          "explanation": "Đỉnh giữa nhô hẳn lên trên hai đỉnh ở hai bên, và các đáy thẳng hàng tạo thành đường viền cổ. Mô hình thật không bao giờ cân đối, và đây là cách chúng thực sự trông ngoài đời.",
+          "options": [
+            "Một mô hình vai đầu vai",
+            "Một mô hình ba đỉnh với ba đỉnh bằng nhau",
+            "Một tam giác tăng",
+            "Một kênh tăng"
+          ]
+        },
+        "3": {
+          "q": "Biểu đồ này đang cho thấy gì?",
+          "explanation": "Hai lần thăm dò xuống cùng một mức sàn, lần thứ hai nông hơn một chút, rồi một cú đẩy lên xuyên qua mức hồi ở giữa. Hình chữ W, được vẽ bởi một thị trường thật chứ không phải sách giáo khoa.",
+          "options": [
+            "Một mô hình vai đầu vai",
+            "Một tam giác giảm",
+            "Một mô hình hai đáy",
+            "Một mô hình cờ giảm"
+          ]
+        },
+        "4": {
+          "q": "Cây nến phát sáng là gì?",
+          "explanation": "Râu trên dài, thân nhỏ xíu nằm ở đáy biên độ, ngay sau một đợt tăng. Phe mua với tới một đỉnh mới và bị tát ngược xuống trước giờ đóng cửa.",
+          "options": [
+            "Một nến búa",
+            "Một nến marubozu xanh",
+            "Một nến doji",
+            "Một nến sao băng sau một đợt leo"
+          ]
+        },
+        "5": {
+          "q": "Biểu đồ này đang cho thấy gì?",
+          "explanation": "Cùng một mức sàn và cùng một mức trần liên tục được tôn trọng, và mọi thứ ở giữa chỉ là nhiễu. Không bên nào thắng, nên chẳng có xu hướng nào để cưỡi.",
+          "options": [
+            "Một vùng đi ngang, giá bị đóng khung giữa hỗ trợ và kháng cự",
+            "Một xu hướng tăng, đỉnh cao hơn và đáy cao hơn",
+            "Một mô hình nêm giảm",
+            "Một cú bứt phá đang diễn ra"
+          ]
+        },
+        "6": {
+          "q": "Giá đã bứt phá lên trên mức trần cũ, rồi nhịp giảm có mũi tên quay về đúng mức đó và giữ vững. Nhịp giảm đó là gì?",
+          "explanation": "Nhịp giảm quay về đúng mức từng là trần, tìm thấy phe mua ở đó, và xu hướng tiếp tục. Đó là một nhịp điều chỉnh (pullback). Một cú đảo chiều sẽ cắt xuyên qua mức đó và tiếp tục rơi.",
+          "options": [
+            "Một cú đảo chiều hoàn toàn sang xu hướng giảm",
+            "Một nhịp điều chỉnh, kiểm định lại mức vừa bị phá",
+            "Một mô hình hai đỉnh",
+            "Một cú hồi mèo chết"
+          ]
+        },
+        "7": {
+          "q": "Biểu đồ này đang cho thấy gì?",
+          "explanation": "Sàn phẳng, các đỉnh thấp dần ép xuống nó, phe bán đến sớm hơn ở mỗi lần hồi. Cuối cùng mức sàn đã sụp, đó là kết cục mà hình dạng này thường nghiêng về. Thường thôi, không bao giờ là luôn luôn.",
+          "options": [
+            "Một tam giác tăng",
+            "Một kênh tăng",
+            "Một tam giác giảm tựa trên hỗ trợ",
+            "Một mô hình hai đáy"
+          ]
+        },
+        "8": {
+          "q": "Biểu đồ này đang cho thấy gì?",
+          "explanation": "Câu hỏi bẫy, và là câu giá trị nhất trong bài trùm. Hầu hết biểu đồ, hầu hết thời gian, chẳng cho thấy gì đáng để giao dịch. Nhìn thấy mô hình không hề tồn tại là cách người mới thua lỗ. Biết nói không giao dịch là một kỹ năng. 🎯",
+          "options": [
+            "Một mô hình vai đầu vai",
+            "Một mô hình hai đỉnh",
+            "Một xu hướng tăng",
+            "Không có mô hình rõ ràng, chẳng có gì để giao dịch ở đây"
+          ]
+        },
+        "9": {
+          "q": "Biểu đồ này đang cho thấy gì?",
+          "explanation": "Giá nhô lên trên mức trần với khối lượng yếu ớt, phe mua đuổi theo, rồi nó sập thẳng về lại vùng đi ngang. Cú bứt phá thất bại chính là lý do bài học về khối lượng dặn bạn kiểm tra khối lượng trước khi tin vào một cú bứt phá.",
+          "options": [
+            "Một bẫy tăng giá, cú bứt phá thất bại hút phe mua vào",
+            "Một cú bứt phá thành công với lần kiểm định lại gọn gàng",
+            "Một mô hình hai đáy",
+            "Một cú đảo chiều nến búa"
+          ]
+        }
+      }
+    },
+    "66": {
+      "title": "Ở đây bạn chẳng sở hữu gì",
+      "desc": "Phái sinh là một cú cược vào một con số",
+      "content": "Mọi thứ bạn học từ trước đến giờ đều có một thứ thật đứng sau. Mua một cổ phiếu của {retail} là bạn sở hữu một phần công ty: một phần cửa hàng, một phần lợi nhuận, một lá phiếu tại đại hội cổ đông, và cổ tức khi công ty chi trả.\n\nPhái sinh thì không như vậy.\n\nCFD (hợp đồng chênh lệch) là một thỏa thuận giữa bạn và nhà cung cấp để trao đổi phần chênh lệch giá giữa lúc bạn mở và lúc bạn đóng vị thế. Toàn bộ sản phẩm chỉ có vậy. Nếu {retail} tăng và bạn cược tăng, họ trả bạn phần chênh lệch. Nếu nó giảm, bạn trả họ. Không ai mua cổ phiếu nào. Không ai bán cổ phiếu nào. Không hề có cổ phiếu nào trong toàn bộ giao dịch.\n\nHợp đồng tương lai là hợp đồng mua hoặc bán một thứ gì đó ở mức giá định sẵn vào một ngày định sẵn. Hợp đồng thật được thanh toán bằng những thùng dầu hay những tấn ngô thật, nhưng gần như chẳng ai giữ chúng lâu đến thế, nên trên thực tế phần lớn hợp đồng tương lai cũng là một cú cược vào một con số kèm theo hạn chót.\n\nVì sao điều này quan trọng hơn bạn tưởng:\n\n• Không có cổ tức. Không có Money Babies. Thứ đã âm thầm tạo nên phần lớn lợi nhuận trong bài 15 đơn giản là không có ở đây.\n• Không có lá phiếu, không có quyền sở hữu, không có gì để nắm giữ. Không có lựa chọn “cứ giữ nó mười năm”, vì chẳng có gì để giữ cả.\n• Không có lãi kép. Phần còn lại của ứng dụng này dành 65 bài học để dạy bạn rằng thời gian đứng về phía bạn. Trong căn phòng này, thời gian khiến bạn tốn tiền. Bạn sẽ thấy chính xác là bao nhiêu ở bài 72.\n\nMọi thứ bạn đã biết vẫn quan trọng. Chỉ là nó không còn là thứ bạn đang làm nữa. 📄",
+      "quiz": {
+        "q": "Bạn mở một CFD trên {retail} và giá tăng. Thực ra bạn đang sở hữu gì?",
+        "explanation": "CFD là thỏa thuận giữa bạn và nhà cung cấp để trao đổi phần chênh lệch giữa giá lúc bạn mở và giá lúc bạn đóng. Không ai mua cổ phiếu, không ai bán cổ phiếu, và chẳng có cổ phiếu nào trong thỏa thuận. Đó là lý do không có cổ tức, không có lá phiếu và không có gì để giữ trong mười năm.",
+        "options": [
+          "Cổ phiếu mà nhà cung cấp đang đứng tên giữ hộ",
+          "Một hợp đồng trao đổi phần chênh lệch giá khi kết thúc",
+          "Một phần công ty, cùng với cổ tức đi kèm",
+          "Một phiếu sẽ đổi thành cổ phiếu thật khi bạn đóng vị thế"
+        ]
+      }
+    },
+    "67": {
+      "title": "Vay tiền của một người bạn",
+      "desc": "Đòn bẩy thực sự là gì, và phần không ai đăng lên mạng",
+      "content": "Đòn bẩy nghe có vẻ kỹ thuật. Thực ra không. Nó là đi vay.\n\nGiả sử bạn muốn mua {c}1,000 cổ phiếu nhưng chỉ có {c}200. Một người bạn đề nghị góp {c}800 còn lại. Bạn kiểm soát {c}1,000 cổ phiếu chỉ với {c}200 tiền của mình. Đó là đòn bẩy. Toàn bộ ý tưởng chỉ có vậy.\n\nGiờ đến ba việc người bạn đó làm. Bạn cần biết cả ba, nếu không là bạn đang bị bán cho một câu chuyện cổ tích.\n\n1️⃣ PHẦN LỜI THỰC SỰ LÀ CỦA BẠN. Cổ phiếu tăng 10%. {c}1,000 của bạn giờ là {c}1,100. Đó là {c}100 lợi nhuận và bạn giữ từng xu, vì bạn chỉ nợ người bạn {c}800, không hơn một {cName} nào. Trên {c}200 của riêng bạn, {c}100 là lời 50%. Biến động 10% khiến bạn lời 50%. Đây là phần ai cũng đăng lên mạng.\n\n2️⃣ KHOẢN VAY KHÔNG NHỎ LẠI KHI BẠN SAI. Đây là phần không ai đăng, và nó là toàn bộ bài học. Lần này cổ phiếu giảm 10%. {c}1,000 của bạn giờ là {c}900. Bạn vẫn nợ người bạn trọn {c}800. Không phải {c}720. Trọn {c}800. Vậy nên toàn bộ {c}100 bị mất đều trừ vào phần CỦA BẠN, và {c}200 của bạn giờ chỉ còn {c}100. Biến động 10% khiến bạn mất 50%.\n\nĐọc lại hai đoạn đó. Cùng một người bạn, cùng 10%. Tiền của bạn chạy nhanh gấp năm lần theo cả hai chiều, vì khoản vay không bao giờ gánh chung nỗi đau.\n\n3️⃣ NGƯỜI BẠN THU TIỀN THUÊ, HẰNG NGÀY, TRÊN TOÀN BỘ. Không phải trên {c}800 của họ. Mà trên trọn {c}1,000 bạn đang kiểm soát. Mỗi đêm bạn giữ vị thế, bất kể giá tăng, giảm hay đứng im.\n\nVà có một điều thứ tư ẩn trong điều thứ ba. Nếu {c}200 của bạn cạn dần, người bạn sẽ không gọi điện để bàn bạc. Họ bán. Ngay lập tức, tự động, ở bất kỳ mức giá nào đang có, vì {c}800 của họ đang gặp rủi ro và họ không chờ ý kiến của bạn. Điều đó có tên gọi, và bạn sẽ gặp nó sau ba bài nữa: thanh lý.\n\nVậy là: lời lớn hơn, lỗ lớn hơn, tiền thuê mỗi đêm, và ngón tay người khác đặt trên nút bán. Đòn bẩy không phải tiền miễn phí kèm chút rủi ro. Nó là một khoản vay kèm cả bốn điều đó, và quảng cáo chỉ cho bạn thấy điều đầu tiên. 🧠",
+      "quiz": {
+        "q": "Một người bạn góp 800 NT, bạn góp 200 NT, và cùng nhau hai bạn kiểm soát 1,000 NT cổ phiếu. Cổ phiếu giảm 10%. Kéo đến giá trị hiện tại của 200 NT của riêng bạn.",
+        "explanation": "Khoản vay không nhỏ lại khi bạn sai. Cổ phiếu giờ trị giá 900 NT và người bạn vẫn được nợ trọn 800 NT, nên phần còn lại cho bạn là 100 NT. Cổ phiếu giảm 10% đã lấy đi một nửa số tiền của bạn, vì khoản vay không gánh chút đau nào. Chiều đi lên cũng y như vậy, và đó là nửa mà quảng cáo cho bạn thấy."
+      }
+    },
+    "68": {
+      "title": "Ký quỹ là tiền đặt cọc, không phải tiền mua",
+      "desc": "Số tiền bạn đặt xuống không bị tiêu, nó đang bị đặt cược",
+      "content": "Khi bạn mua một cổ phiếu giá {c}100, {c}100 đó rời khỏi tiền mặt của bạn và một cổ phiếu nằm trong tài khoản. Một cuộc trao đổi đơn giản.\n\nKý quỹ (margin) không hoạt động như vậy. Khi bạn mở một vị thế có đòn bẩy, bạn đặt xuống một khoản cọc, và khoản cọc đó không phải là tiền trả cho thứ gì cả. Nó là tiền bảo đảm cho chính những khoản lỗ của bạn. Nó nằm đó, bị khóa, và vị thế sẽ ăn dần vào nó khi giá đi ngược bạn.\n\nGiả sử tỷ lệ ký quỹ là 25%. Bạn đặt xuống 250 NT và kiểm soát 1,000 NT giá trị vị thế. Hãy theo dõi tài khoản của bạn:\n\n• Giá đứng im: 250 của bạn vẫn là 250. Trừ việc phí tài trợ đã bắt đầu tính, nên nó đang âm thầm ít đi.\n• Giá giảm 5%: vị thế đã lỗ 50 NT. Khoản cọc của bạn thực chất còn 200. Tiền mặt tự do không hề nhúc nhích. Nhưng tài khoản của bạn đã nhỏ đi.\n• Giá giảm 20%: vị thế đã lỗ 200 NT. Khoản cọc của bạn chỉ còn 50. Bạn chẳng làm gì. Bạn không bán gì cả. Bạn chỉ ngồi xem.\n\nBa thuật ngữ có mặt trên mọi màn hình trong căn phòng này:\n\n🔒 KÝ QUỸ ĐÃ DÙNG: mọi khoản cọc bạn đang đặt.\n💰 VỐN CHỦ SỞ HỮU TÀI KHOẢN: tiền mặt tự do của bạn, cộng ký quỹ đang đặt, cộng hoặc trừ lãi lỗ của mọi vị thế đang mở, trừ phí tài trợ đã bị tính đến giờ. Đó là giá trị thực của tài khoản nếu mọi thứ được đóng ngay lúc này.\n📊 MỨC KÝ QUỸ: vốn chủ sở hữu chia cho ký quỹ đã dùng. Trên 100% là bạn còn một tấm đệm. Dưới 100% là thị trường đã ăn hết tấm đệm và bắt đầu ăn vào khoản cọc.\n\nVà một quy tắc khiến ai cũng bất ngờ: ký quỹ được tính trên toàn bộ tài khoản, không phải từng vị thế. Một vị thế đang lỗ sẽ ăn vào tài sản bảo đảm đang đỡ cho một vị thế đang lời. Đó là lý do “lệnh kia của tôi vẫn ổn” không phải là lời bào chữa. 🔒",
+      "quiz": {
+        "q": "Tỷ lệ ký quỹ là 25%, nên 250 NT tiền của bạn kiểm soát 1,000 NT giá trị vị thế. Giá giảm 8% trong khi bạn chẳng làm gì cả. Kéo đến số tiền mà đợt giảm đó đã khiến bạn mất.",
+        "explanation": "Khoản cọc không phải tiền trả cho thứ gì, nó là tài sản bảo đảm, và khoản lỗ được tính trên toàn bộ 1,000 NT bạn kiểm soát. 8% của 1,000 NT là 80 NT. Bạn không bán gì và tiền mặt tự do không nhúc nhích, nhưng 80 NT trong khoản cọc 250 NT đã bị ăn mất và tài khoản của bạn nhỏ đi 80 NT. Nếu tính 8% trên khoản cọc thì bạn ra 20 NT, và đó là sai lầm khiến đòn bẩy trông có vẻ nhẹ nhàng."
+      }
+    },
+    "69": {
+      "title": "Lệnh gọi ký quỹ",
+      "desc": "Một yêu cầu, không phải lời cảnh báo",
+      "content": "Lệnh gọi ký quỹ (margin call) là thời điểm mức ký quỹ của bạn rơi xuống dưới 100%. Nói đơn giản: tấm đệm lợi nhuận của bạn đã hết và thị trường bắt đầu ăn vào chính khoản cọc.\n\nĐây là cảm giác thực sự khi nó xảy ra, vì phiên bản sách giáo khoa bỏ qua phần quan trọng.\n\nNó không bao giờ đến vào một ngày đẹp trời. Nó đến khi vị thế đã xấu xí, khi bạn đã tự nhủ hai lần rằng giá sẽ quay lại, và khi bạn kém khả năng đưa ra quyết định bình tĩnh nhất. Nó không phải một lời nhắc lịch sự. Nó là một yêu cầu: nạp thêm tiền, hoặc đóng vị thế, hoặc nhà cung cấp sẽ làm thay bạn.\n\nBạn có ba nước đi và chỉ hai trong số đó là của bạn.\n\n1️⃣ ĐÓNG một vị thế. Việc này giải phóng ký quỹ ngay lập tức và gần như luôn là câu trả lời đúng. Nó cũng đồng nghĩa với việc thừa nhận bạn đã sai, và đó mới là lý do thực sự khiến người ta không làm.\n2️⃣ NẠP THÊM tiền. Việc này chẳng sửa được gì. Nó chỉ mua cho bạn thêm chỗ để sai lâu hơn, trên một vị thế bạn đã chọn tệ, bằng số tiền bạn vốn không định mạo hiểm. Nạp tiền khi bị gọi ký quỹ là cách một giao dịch tệ biến thành một tháng tệ.\n3️⃣ KHÔNG LÀM GÌ. Khi đó nước đi thứ ba sẽ xảy ra mà không cần bạn, và nó có tên gọi.\n\nCác cơ quan quản lý coi trọng điều này đến mức họ viết hẳn một con số vào luật. Các công ty ở châu Âu, Anh và Úc bắt buộc phải tự động đóng vị thế của khách hàng nhỏ lẻ khi ký quỹ của họ rơi xuống 50% mức yêu cầu. Không phải “nên”. Mà là “phải”. Họ viết quy định đó vì khi người ta được tự quyết, họ đã chọn phương án 3 và mất nhiều hơn số tiền họ có. ⚠️",
+      "quiz": {
+        "q": "Mức ký quỹ của bạn đã rơi xuống 80% và bạn đang bị gọi ký quỹ. Cách phản ứng nào thực sự giảm rủi ro bị thanh lý thay vì chỉ trì hoãn nó?",
+        "explanation": "Đóng vị thế trả lại khoản cọc ngay lập tức, nên mức ký quỹ nhảy lên tức thì. Nạp thêm tiền chỉ mua thêm chỗ để sai lâu hơn trên một giao dịch bạn đã chọn tệ. Chờ đợi là cách thanh lý xảy ra. Còn mở vị thế thứ hai theo chiều ngược lại cần khoản cọc riêng, nên nó dùng nhiều ký quỹ hơn chứ không ít đi.",
+        "options": [
+          "Nạp thêm tiền mặt vào tài khoản",
+          "Chờ mức ký quỹ tự tăng trở lại",
+          "Đóng một trong các vị thế đang mở",
+          "Mở vị thế thứ hai theo chiều ngược lại"
+        ]
+      }
+    },
+    "70": {
+      "title": "Thanh lý, và mức giá bạn nên biết trước",
+      "desc": "Mức giá chính xác khiến tài khoản bạn về 0",
+      "content": "Thanh lý là khi nhà cung cấp đóng vị thế thay bạn vì khoản cọc của bạn gần như đã cạn. Nó tự động. Nó tức thì. Không ai hỏi ý kiến bạn, không ai kiểm tra xem bạn có sắp đúng hay không, và không có quyền khiếu nại.\n\nCon số hữu ích nhất trong toàn bộ học phần này là GIÁ THANH LÝ của bạn: mức giá thực tế, tính bằng tiền thật (đơn vị: {cPlural}), mà tại đó điều này xảy ra.\n\nKhông phải phần trăm. Mà là một mức giá. Vì “bạn có thể mất khoản cọc” là câu bạn có thể gật đầu rồi quên, còn “{tech} ở {c}87.40 là tài khoản bạn trống trơn” là một sự thật bạn có thể đối chiếu với biểu đồ trước khi bấm bất cứ nút nào.\n\nMọi màn hình trong căn phòng này đều hiển thị nó trước khi bạn xác nhận, được vẽ trên cùng thang giá với biểu đồ để bạn thấy nó thực sự cách bao xa. Bạn sẽ nhận ra ngay hai điều, và cả hai chính là bài học:\n\n📏 Khoản cọc lớn hơn đẩy giá thanh lý ra xa hơn. Càng bỏ nhiều tiền của mình vào thì giá càng phải giảm xa hơn trước khi tiền của bạn cạn.\n⚡ Khoản cọc nhỏ hơn kéo nó sát ngay cạnh giá hôm nay. Với khoản cọc 10%, thanh lý chỉ cách khoảng một biến động 10%, và biến động 10% chỉ là một tuần bình thường.\n\nRồi đến điểm mấu chốt thật lòng. Giá thanh lý là nơi hệ thống định đóng vị thế của bạn, không phải nơi bạn chắc chắn được thoát ra. Nếu tin xấu ập đến qua đêm và thị trường mở cửa lại thấp hơn mức đó rất xa, bạn sẽ bị đóng ở bất kỳ mức giá nào thị trường thực sự trả. Đó là khoảng trống giá (gap), và bài 78 nói về nó.\n\nHãy biết giá thanh lý của bạn trước khi mở vị thế. Nếu bạn không thể nói to nó ra, bạn chưa hiểu giao dịch mình sắp thực hiện. 💀",
+      "quiz": {
+        "q": "Bạn đặt 200 NT làm khoản cọc để kiểm soát 1,000 NT của một tài sản có giá 100 NT. Kéo giá xuống đến mức khoản cọc của bạn mất sạch.",
+        "explanation": "Bạn kiểm soát 10 đơn vị, nên mỗi 1 NT giá giảm khiến bạn mất 10 NT. Khoản cọc 200 NT của bạn mất sạch ở mức 80 NT, tức là chỉ giảm 20%."
+      }
+    },
+    "71": {
+      "title": "Đường về dốc hơn",
+      "desc": "Vì sao lỗ khó gỡ hơn vẻ ngoài của nó",
+      "content": "Lỗ và lời có cảm giác như hai mặt đối lập. Thực ra không phải, và phép toán chênh nhau rất xa.\n\nLỗ 10%? Bạn cần +11% để gỡ lại. Khó chịu, nhưng ổn.\nLỗ 50%? Bạn cần +100%. Bạn phải NHÂN ĐÔI chỉ để hòa vốn.\nLỗ 75%? Bạn cần +300%.\nLỗ 90%? Bạn cần +900%.\n\nLý do rất đơn giản khi bạn nhìn ra: phần lời được tính trên đống tiền nhỏ hơn mà bạn còn lại. 100 giảm còn 50, và để leo từ 50 về lại 100 thì đống tiền nhỏ hơn đó phải nhân đôi.\n\nGiờ thêm đòn bẩy vào, và để ý xem nó thực sự làm gì. Nó không chỉ khiến bạn lời nhanh hơn. Nó đẩy bạn xuống bảng trên chỉ trong một buổi chiều. Một cổ phiếu giảm 12%, một tuần tệ nhưng hoàn toàn bình thường, là cú đánh 48% vào tài khoản của bạn với khoản cọc 25%. Giờ bạn cần +92% để quay về điểm xuất phát, từ một tuần mà báo chí còn chẳng buồn đưa tin.\n\nĐây là lý do dân chuyên nghiệp nói về bảo vệ vốn trước mọi thứ khác, và vì sao “tôi sẽ gỡ lại” là câu nói đắt giá nhất trong giao dịch. Gỡ lại luôn khó hơn về mặt số học so với lúc mất, lần nào cũng vậy. ⛰️",
+      "quiz": {
+        "q": "Tài khoản của bạn đang giảm 75%. Kéo đến mức lời bạn cần từ đây chỉ để quay về điểm xuất phát.",
+        "explanation": "100 NT giảm còn 25 NT. Để về lại 100 thì 25 đó phải nhân bốn, tức là lời 300%. Đường leo được tính trên đống tiền nhỏ hơn mà bạn còn lại, đó là lý do nó dốc hơn nhiều so với lúc rơi."
+      }
+    },
+    "72": {
+      "title": "Tiền thuê cho tiền đi vay",
+      "desc": "Đoán đúng hướng mà vẫn lỗ giao dịch",
+      "content": "Bạn đi vay giá trị vị thế. Nên bạn phải trả tiền cho nó. Mỗi đêm.\n\nPhí tài trợ (có nơi gọi là phí swap, hay phí qua đêm) được tính hằng ngày, và đây là phần khiến ai cũng bị bất ngờ: nó được tính trên TOÀN BỘ vị thế, không phải trên phần bạn vay. Đặt xuống 500 NT để kiểm soát 2,000 NT là bạn trả tiền thuê trên 2,000.\n\nCách tính: một lãi suất tham chiếu, cộng phần cộng thêm của nhà cung cấp, chia cho 365, nhân với toàn bộ vị thế. Bạn thấy cả hai phần trên màn hình trong ứng dụng này, vì một khoản phí bạn không tách ra được là khoản phí bạn không đánh giá được. Ở mức khoảng 7.3% một năm, con số đó vào khoảng 0.02% vị thế mỗi đêm.\n\nNghe như chẳng đáng gì. Giờ hãy xem nó ăn mòn một giao dịch thắng. 🧾\n\nGIAO DỊCH BẠN ĐOÁN ĐÚNG MÀ VẪN LỖ\n\nBạn mở một vị thế 2,000 NT trên {retail} với khoản cọc 500 NT. Bạn kỳ vọng tăng, và hóa ra bạn đúng: trong vài tháng tiếp theo {retail} nhích LÊN 2%.\n\n• Phần lời của bạn: 2% của 2,000 = 40 NT. Trên khoản cọc 500 NT đó là +8%. Tuyệt.\n• Tiền thuê của bạn: 0.02% của 2,000 = 0.40 NT, mỗi đêm.\n\nĐêm thứ 50: bạn đã trả 20 NT. Tổng cộng bạn vẫn lời 20 NT. Vẫn đang thắng.\nĐêm thứ 100: bạn đã trả 40 NT. 40 NT lợi nhuận của bạn giờ đúng bằng 0. Bạn đoán đúng mà chẳng kiếm được gì.\nĐêm thứ 180: bạn đã trả 72 NT. Phần lời vẫn là 40 NT. Bạn đang LỖ 32 NT, tức là âm 6.4% khoản cọc, trên một giao dịch mà bạn đã đọc đúng thị trường suốt sáu tháng.\n\nĐọc lại lần nữa. Giá đã đi đúng như bạn nói. Bạn vẫn lỗ.\n\nĐó là câu cần mang theo từ bài học này: với vị thế có đòn bẩy, việc đoán đúng có hạn sử dụng. Trong ví dụ này nó là 100 đêm, và bạn có thể tính hạn của mình trước khi mở vị thế. Lấy mức lời bạn đang hy vọng chia cho tiền thuê mỗi đêm. Đó là số đêm mà nhận định của bạn còn giá trị.\n\nĐiều ngược lại cũng đáng để ý. Phần còn lại của ứng dụng này dạy lãi kép, nơi thời gian âm thầm kiếm tiền cho bạn trong lúc bạn ngủ. Đây chính là cỗ máy đó, chạy ngược, và chĩa thẳng vào bạn. ⏳",
+      "quiz": {
+        "q": "Bạn giữ một vị thế có đòn bẩy 2,000 NT, tốn 0.40 NT phí tài trợ mỗi đêm. Giá tăng đủ để bạn lời 40 NT, rồi đứng im. Sau bao nhiêu đêm thì khoản lời đó bị ăn hết?",
+        "options": [
+          "Không bao giờ bị ăn hết, vì phí tài trợ chỉ tính trên phần đi vay",
+          "Khoảng 100 đêm, vì 40 NT lời chia cho 0.40 NT mỗi đêm là 100",
+          "Khoảng 20 đêm, vì phí tài trợ được tính trên khoản cọc 500 NT của bạn",
+          "Phí tài trợ chỉ bị tính khi vị thế được đóng trong trạng thái lỗ"
+        ]
+      }
+    },
+    "73": {
+      "title": "Hợp đồng tương lai: Đồng hồ và việc cuộn hợp đồng",
+      "desc": "Cùng một chi phí, chỉ thu theo cách khác",
+      "content": "Hợp đồng tương lai và CFD là anh em họ. Cả hai đều có đòn bẩy, đều dùng ký quỹ, đều có thể thanh lý bạn. Có hai điều khiến hợp đồng tương lai khác biệt, và điều thứ hai mới thú vị.\n\n⏰ 1. NÓ CÓ NGÀY HẾT HẠN. Mọi hợp đồng tương lai đều đáo hạn. Dầu tháng Ba, ngô tháng Sáu, chỉ số tháng Chín. Khi đến ngày, hợp đồng được thanh toán và không còn tồn tại. “Giữ và chờ giá quay lại” đơn giản là không có trong thực đơn, vì hợp đồng sẽ không còn ở đó. CFD không bao giờ đáo hạn, nghe có vẻ tốt hơn cho đến khi bạn nhớ ra nó thu tiền thuê mãi mãi.\n\n🔄 2. CHI PHÍ NẰM SẴN TRONG GIÁ, KHÔNG TÍNH THEO ĐÊM. Đây là phần người ta hay bỏ sót. Hợp đồng tương lai thường không tính phí tài trợ qua đêm. Thay vào đó, chi phí nắm giữ thứ đó đến ngày đáo hạn đã được tính sẵn vào giá hợp đồng. Hợp đồng kỳ hạn xa thường đắt hơn hợp đồng kỳ hạn gần, và khoảng chênh đó chính là chi phí nắm giữ, nằm ngay trong con số.\n\nVậy điều gì xảy ra khi trader muốn giữ vị thế qua ngày đáo hạn? Họ CUỘN (roll): đóng hợp đồng sắp đáo hạn, mở hợp đồng kế tiếp. Và nếu hợp đồng kế tiếp đắt hơn, họ trả phần chênh lệch đó. Mỗi lần cuộn. Đó chính là tiền thuê mỗi đêm của CFD, chỉ được thu theo từng đợt lớn hơn và thưa hơn.\n\nTóm tắt thật lòng:\n\n• CFD: không có hạn chót, tiền thuê mỗi đêm, ghi rõ từng dòng trong sao kê.\n• Hợp đồng tương lai: hạn chót cứng, chi phí ẩn trong giá và được trả mỗi lần cuộn, dễ bỏ sót.\n\nKhông cái nào miễn phí. Chỉ là một cái đưa hóa đơn lịch sự hơn, và chi phí bạn không nhìn thấy mới là thứ dễ khiến bạn bất ngờ nhất. ⏳",
+      "quiz": {
+        "q": "Một trader muốn giữ vị thế hợp đồng tương lai qua ngày đáo hạn, và hợp đồng kế tiếp đang giao dịch đắt hơn hợp đồng sắp đáo hạn. Điều gì xảy ra khi họ cuộn hợp đồng?",
+        "explanation": "Cuộn hợp đồng nghĩa là đóng hợp đồng sắp đáo hạn và mở hợp đồng kế tiếp. Nếu hợp đồng kế tiếp đắt hơn, bạn phải trả phần chênh lệch đó, và lặp lại ở mỗi lần cuộn. Đó cũng chính là chi phí nắm giữ mà CFD tính bạn mỗi đêm, chỉ là được thu theo từng cục lớn hơn và ẩn trong giá thay vì in trên sao kê.",
+        "options": [
+          "Họ trả phần chênh giữa hợp đồng sắp đáo hạn và hợp đồng kế tiếp",
+          "Họ được nhận phần chênh giữa giá của hai hợp đồng",
+          "Không có tiền nào đổi chủ, vì cuộn hợp đồng chỉ là một giao dịch",
+          "Vị thế biến thành CFD và chạy tiếp không có ngày đáo hạn"
+        ]
+      }
+    },
+    "74": {
+      "title": "Bán khống: Khoản lỗ không có đáy",
+      "desc": "Vì sao cú cược giảm giá không có giới hạn tự nhiên",
+      "content": "Mọi thứ trong ứng dụng này cho đến giờ đều là vị thế mua (long): bạn mua, bạn muốn giá tăng. Phái sinh cho phép bạn bán khống (short), tức là cược giá giảm. Bạn mở vị thế bán, giá giảm, bạn có lời.\n\nBán khống thực sự hữu ích và không hề xấu xa. Đó là cách người nông dân chốt giá trước mùa thu hoạch và cách một quỹ bảo vệ danh mục. Hiểu nó giúp bạn đọc thị trường tốt hơn, vì lần đầu tiên bạn thấy được cả hai phía của mọi giao dịch.\n\nNhưng có một phép tính trong bán khống không có gì tương đương ở bất kỳ đâu khác, và bạn cần khắc sâu nó vào đầu.\n\n📉 KHI BẠN MUA, kịch bản tệ nhất là giá về 0. Bạn mất 100% số tiền đã bỏ vào. Kinh khủng, nhưng đó là một cái sàn. Có đáy.\n📈 KHI BẠN BÁN KHỐNG, giá đi ngược bạn nghĩa là giá đi LÊN. Và chẳng có quy định nào nói giá được phép lên cao đến đâu. Một cổ phiếu tăng gấp ba khiến bạn mất 200% vị thế. Một cổ phiếu tăng gấp mười khiến bạn mất 900%.\n\nLỗ của vị thế mua có sàn. Lỗ của vị thế bán khống thì không. Sự bất cân xứng đó chính là toàn bộ lời cảnh báo.\n\nThị trường thật có xảy ra chuyện này. Thỉnh thoảng một cổ phiếu bị bán khống nặng bỗng tăng vọt, vì tất cả những người bán khống buộc phải mua vào để đóng vị thế, đẩy giá cao hơn nữa, lại buộc thêm nhiều người phải mua. Nó gọi là short squeeze (ép bán khống) và nó đã khiến nhiều quỹ sụp đổ.\n\nCó hai thứ giữ cho bạn sống sót. Thứ nhất, bán khống chính là chỗ mà lệnh cắt lỗ không còn là tùy chọn. Thứ hai, bảo vệ số dư âm: trên một tài khoản nhỏ lẻ được quản lý đúng chuẩn, và trong ứng dụng này, tài khoản của bạn không thể xuống dưới 0. Bạn có thể mất mọi thứ đã bỏ vào. Bạn không thể rơi vào cảnh mắc nợ. Sự bảo vệ đó tồn tại vì trước khi có nó, người ta đã từng mắc nợ. 🕳️",
+      "quiz": {
+        "q": "Vì sao kịch bản tệ nhất của vị thế bán khống khác về bản chất so với kịch bản tệ nhất của vị thế mua?",
+        "explanation": "Mua có sàn. Tệ nhất là giá về 0, nên bạn mất số tiền đã bỏ vào và không hơn. Bán khống thì ngược lại, vì thua nghĩa là giá đi lên, và chẳng có gì nói giá được lên cao đến đâu. Một cổ phiếu tăng gấp ba khiến người bán khống mất gấp đôi vị thế. Đó là lý do lệnh cắt lỗ không còn là tùy chọn khi bán khống, và vì sao ứng dụng này không thể đưa bạn xuống dưới 0.",
+        "options": [
+          "Không khác gì, vì cả hai đều giới hạn ở số tiền bạn bỏ vào",
+          "Lệnh cắt lỗ đặt cùng một cái sàn cho vị thế bán khống như vị thế mua",
+          "Giá giảm chậm hơn giá tăng, nên bán khống lỗ chậm hơn",
+          "Giá chỉ có thể giảm về 0, nhưng có thể tăng không giới hạn"
+        ]
+      }
+    },
+    "75": {
+      "title": "Biến động nhân đòn bẩy",
+      "desc": "Vì sao crypto cần khoản cọc lớn nhất ở đây",
+      "content": "Cùng một hệ số nhân trên hai tài sản khác nhau không phải là cùng một cú cược. Đó là toàn bộ ý tưởng của bài học này, và là lý do khoản cọc bạn phải đặt thay đổi tùy theo thứ bạn giao dịch.\n\nHãy nghĩ xem một ngày bình thường trông thế nào:\n• Một chỉ số lớn biến động dưới 1% vào hầu hết các ngày.\n• Một cổ phiếu riêng lẻ có thể biến động 2% hoặc 3%.\n• Crypto thường xuyên biến động 5% hoặc 10%, và một ngày 20% không phải khủng hoảng, nó chỉ là một ngày thứ Ba. 🎢\n\nGiờ đặt một khoản cọc nhỏ sau mỗi thứ đó. Với khoản cọc 10%, một biến động 10% sẽ quét sạch bạn. Với chỉ số, đó là chuyện vài năm mới có một lần. Với crypto, nó xảy ra khoảng mỗi tháng. Cùng khoản cọc. Cơ hội sống sót hoàn toàn khác.\n\nCác cơ quan quản lý đã tính ra điều này và đưa nó vào quy định. Khi ESMA giới hạn đòn bẩy CFD trên toàn châu Âu vào tháng 3 năm 2018, họ không chọn một con số duy nhất. Họ chia bậc: 30:1 cho các cặp tiền tệ chính, 20:1 cho vàng và các chỉ số lớn, 10:1 cho các hàng hóa khác, 5:1 cho cổ phiếu riêng lẻ, và ở tận cùng, 2:1 cho crypto. Hai ăn một nghĩa là khoản cọc 50%. Với crypto, họ yêu cầu MỘT NỬA vị thế bằng tiền thật, mức nghiêm ngặt nhất trong cả danh sách.\n\nỨng dụng này làm điều tương tự, vì cùng lý do đó, và nói rõ trên màn hình thay vì giấu đi:\n\n💱 Forex: khoản cọc nhỏ nhất, vì các cặp tiền chính biến động ít nhất.\n🥇 Vàng và hàng hóa: lớn hơn.\n📊 Cổ phiếu, chỉ số và ETF: lớn hơn nữa.\n🪙 Crypto: khoản cọc lớn nhất, vì crypto biến động dữ dội nhất.\n\nCrypto không bị cấm ở đây, và đó là chủ ý. Bạn có thể giao dịch nó. Chỉ là bạn không thể giao dịch với khoản cọc mỏng, vì với khoản cọc mỏng, một ngày crypto bình thường sẽ xóa sổ tài khoản của bạn trước khi bạn đọc xong tin về nó. Khoản cọc lớn hơn không phải ứng dụng làm khó crypto. Đó là ứng dụng đảm bảo một ngày bình thường không thể giết bạn.\n\nĐáng biết thêm: cơ quan quản lý Anh còn đi xa hơn việc chia bậc. Năm 2021, họ cấm hoàn toàn phái sinh crypto cho khách hàng nhỏ lẻ, ước tính người tiêu dùng sẽ tiết kiệm được khoảng £53m. Bạn có thể làm quen với đòn bẩy crypto ở đây, bằng tiền giả và khoản cọc dày, hoặc gặp nó lần đầu năm mười tám tuổi bằng tiền thật mà không có chút cảnh báo nào. Thứ tự này tốt hơn. 🌡️",
+      "quiz": {
+        "q": "Crypto đòi hỏi khoản cọc lớn nhất trong mọi tài sản ở căn phòng này. Lý do thực sự là gì?",
+        "explanation": "Một chỉ số lớn biến động dưới 1% vào hầu hết các ngày. Crypto thường xuyên biến động 5% hoặc 10%, và một ngày 20% không phải khủng hoảng, nó chỉ là một ngày thứ Ba. Với khoản cọc mỏng, biến động 10% sẽ quét sạch bạn, chuyện vài năm mới có một lần với chỉ số nhưng xảy ra khoảng mỗi tháng với crypto. Cơ quan quản lý châu Âu yêu cầu một nửa vị thế bằng tiền thật cho crypto, mức nghiêm ngặt nhất trong cả danh sách của họ, chính vì lý do này.",
+        "options": [
+          "Người dưới 18 tuổi bị cấm chơi crypto, nên khoản cọc là một hình phạt",
+          "Crypto không bị tính phí tài trợ, nên khoản cọc thay cho phí đó",
+          "Nó biến động dữ dội nhất, nên một ngày bình thường có thể rút cạn khoản cọc mỏng",
+          "Ứng dụng tự đặt giá crypto thay vì để thị trường quyết định"
+        ]
+      }
+    },
+    "76": {
+      "title": "Những con số không ai quảng cáo",
+      "desc": "Điều cơ quan quản lý phát hiện khi họ đếm",
+      "content": "Bạn sẽ không bao giờ thấy những con số này trong quảng cáo. Chúng đến từ các cơ quan quản lý tài chính, những người có quyền yêu cầu các công ty cung cấp dữ liệu tài khoản thật, rồi công bố những gì họ tìm thấy.\n\n🇪🇺 ESMA, cơ quan quản lý châu Âu, tháng 3 năm 2018. Trên khắp các nước EU, từ 74% đến 89% tài khoản CFD nhỏ lẻ bị lỗ. Mức lỗ trung bình mỗi khách hàng dao động từ €1,600 đến €29,000. ESMA đã hạn chế sản phẩm này dựa trên đó.\n\n🇬🇧 FCA ở Anh, tháng 12 năm 2016. Phân tích của họ trên một mẫu đại diện các tài khoản khách hàng cho thấy 82% khách hàng bị lỗ với các sản phẩm này.\n\n🇦🇺 ASIC ở Úc, công bố tháng 1 năm 2026, mới nhất trong ba báo cáo. Trong năm tài chính 2024, 68% nhà đầu tư CFD nhỏ lẻ bị lỗ, tổng cộng hơn A$458 million. Trong đó, A$73 million là phí.\n\nHãy ngẫm dòng cuối đó một giây. Bảy mươi ba triệu trong số đó thậm chí không phải do giao dịch tệ. Đó là chi phí để được chơi: chênh lệch giá mua bán (spread) lúc vào lệnh, và phí tài trợ bạn đã gặp ở bài 72.\n\nBa cơ quan quản lý khác nhau, ba quốc gia khác nhau, dữ liệu trải qua ba thập kỷ khác nhau, và câu trả lời cứ rơi vào khoảng từ hai phần ba đến chín phần mười.\n\nGiờ đến phần quan trọng nhất, vì nó là thứ khiến đây không phải một con số dọa dẫm. Những người đó không ngu ngốc. Họ không lười biếng. Phần lớn họ là người lớn có công việc, và nhiều người trong số họ đọc biểu đồ giỏi hơn bạn lúc này. Họ thua vì cách sản phẩm được xây dựng: bạn bắt đầu đã bị tụt lại một khoảng spread, bạn trả tiền thuê trong lúc chờ, và đòn bẩy nghĩa là một biến động bình thường có thể kết liễu bạn trước khi nhận định của bạn kịp đúng.\n\nĐó là một cấu trúc, không phải khuyết điểm tính cách. Và cấu trúc chỉ có thể bị đánh bại bởi những người biết nó tồn tại. 📊",
+      "quiz": {
+        "q": "Các cơ quan quản lý ở châu Âu, Anh và Úc đều phát hiện phần lớn tài khoản CFD nhỏ lẻ bị lỗ. Lời giải thích thật lòng là gì?",
+        "explanation": "Họ là những người lớn bình thường có công việc, và nhiều người đọc biểu đồ giỏi hơn bạn hôm nay. Họ thua vì cách sản phẩm vận hành: bạn bắt đầu đã bị tụt lại một khoảng spread, bạn trả tiền thuê mỗi đêm trong lúc chờ, và đòn bẩy nghĩa là một biến động bình thường có thể kết liễu bạn trước khi nhận định của bạn kịp đúng. Đó là một cấu trúc, không phải khuyết điểm tính cách, và cấu trúc có thể bị đánh bại bởi những người biết nó tồn tại.",
+        "options": [
+          "Cách sản phẩm được xây dựng đi ngược lợi ích của khách hàng",
+          "Những người thua lỗ đã bất cẩn, còn trader cẩn thận thì ổn",
+          "Các công ty đối thủ công bố số liệu để tấn công marketing",
+          "Thua lỗ ở quy mô đó đến từ các quốc gia không được quản lý"
+        ]
+      }
+    },
+    "77": {
+      "title": "Điều gì thay đổi khi luật thay đổi",
+      "desc": "Bằng chứng lỗi nằm ở thiết kế, không phải con người",
+      "content": "Bài 76 cho bạn thấy các khoản lỗ. Bài này cho bạn thấy thí nghiệm, và đây là điều quan trọng nhất trong học phần này.\n\nNếu phần lớn người ta thua vì phần lớn người ta liều lĩnh, thì thay đổi luật lẽ ra chẳng thay đổi được gì. Người liều vẫn liều. Đúng không?\n\nÚc đã làm bài kiểm tra. Vào tháng 3 năm 2021, ASIC buộc mọi công ty CFD phục vụ khách hàng nhỏ lẻ áp dụng một loạt biện pháp bảo vệ: giới hạn đòn bẩy, quy tắc tự động đóng vị thế chuẩn, bảo vệ số dư âm, và cấm các hình thức dụ dỗ như thưởng đăng ký. Cùng khách hàng. Cùng công ty. Cùng thị trường. Chỉ có luật thay đổi.\n\nĐây là những gì ASIC đo được trong sáu tháng đầu. 🔬\n\n📉 Tổng lỗ ròng của các tài khoản nhỏ lẻ giảm 91%, từ trung bình A$372 million mỗi quý xuống A$33 million.\n📉 Số tài khoản nhỏ lẻ thua lỗ mỗi quý ít hơn 51%.\n📉 Số lần bị đóng vị thế do ký quỹ ít hơn 87%.\n📉 Số trường hợp số dư âm ít hơn 88%.\n\nKhông ai thông minh lên trong sáu tháng. Thiết kế đã thay đổi, và chín phần mười thiệt hại biến mất theo.\n\nTừ đó rút ra hai điều, và bạn nên mang theo cả hai.\n\nThứ nhất: khi bạn lỗ trong một giao dịch có đòn bẩy, phần lớn những gì xảy ra với bạn đã được cài sẵn trong sản phẩm trước khi bạn đến. Đó không phải giấy phép để bất cẩn. Đó là lý do để tôn trọng nó.\n\nThứ hai, và đây là nửa hữu ích: những biện pháp bảo vệ tạo nên hiệu quả chính là những thói quen mà học phần này đã dạy bạn. Vị thế nhỏ hơn. Điểm thoát tự động. Một cái sàn cứng cho thiệt hại. Một cơ quan quản lý đã phải ép cả một ngành áp dụng chúng để có được con số 91% đó. Còn bạn thì chỉ cần tự chọn chúng. 🛡️",
+      "quiz": {
+        "q": "Sau khi Úc buộc các công ty CFD áp dụng giới hạn đòn bẩy và tự động đóng vị thế, lỗ của khách hàng nhỏ lẻ giảm 91% trong sáu tháng. Điều đó cho thấy gì?",
+        "explanation": "Cùng khách hàng, cùng công ty, cùng thị trường. Chỉ có luật thay đổi, và chín phần mười thiệt hại biến mất theo. Không ai thông minh lên trong sáu tháng. Những biện pháp bảo vệ tạo nên hiệu quả chính là những thói quen học phần này liên tục dạy bạn: vị thế nhỏ hơn, điểm thoát tự động, và một cái sàn cứng cho thiệt hại. Một cơ quan quản lý đã phải ép cả một ngành áp dụng chúng. Còn bạn chỉ cần tự chọn chúng.",
+        "options": [
+          "Trader Úc kỷ luật hơn trader châu Âu",
+          "Đòn bẩy trở nên an toàn khi có cơ quan quản lý giám sát",
+          "Luật khiến người ta ngừng giao dịch, nên chẳng còn gì để lỗ",
+          "Phần lớn thiệt hại đến từ chính thiết kế của sản phẩm"
+        ]
+      }
+    },
+    "78": {
+      "title": "Khoảng trống giá nhảy qua lệnh dừng",
+      "desc": "Lệnh dừng là chỉ thị rời đi, không phải mức giá được hứa",
+      "content": "Bạn đã gặp lệnh cắt lỗ ở bài 19. Đây là điều đòn bẩy làm với chúng.\n\nLệnh cắt lỗ là một chỉ thị: “nếu giá chạm mức này, cho tôi thoát ra.” Nó không phải hợp đồng về mức giá bạn sẽ nhận được. Nó nói hãy rời đi. Nó không nói hãy rời đi đúng tại đây.\n\nPhần lớn thời gian sự khác biệt đó không quan trọng, vì giá di chuyển từng bước nhỏ và lệnh của bạn được khớp gần mức bạn đặt. Nhưng có những lúc nó cực kỳ quan trọng.\n\n📰 Thị trường đóng cửa. Tin tức ập đến lúc 11 giờ đêm. Thị trường mở cửa lại thấp hơn 8% so với lúc đóng, và chưa từng giao dịch ở bất kỳ mức giá nào ở giữa. Lệnh dừng của bạn nằm trong khoảng trống đó. Nó kích hoạt lúc mở cửa và khớp ở bất cứ đâu thị trường thực sự đang ở, tức là vượt xa mức bạn đã chọn.\n\nKhông có đòn bẩy, đó là một ngày tệ. Có đòn bẩy, nó có thể là cả tài khoản, vì nếu khoản cọc của bạn mỏng hơn khoảng trống, khoảng trống sẽ xuyên thẳng qua cả giá thanh lý của bạn, và bạn bị đóng vị thế dưới mức hệ thống dự định.\n\nBa điều nên làm với kiến thức này, chẳng có điều nào phức tạp:\n\n1️⃣ Đừng coi lệnh dừng là lời bảo đảm. Hãy coi nó là một thói quen rất tốt với một điểm yếu đã biết.\n2️⃣ Biết khi nào thị trường của bạn đóng cửa và có sự kiện gì đã lên lịch. Kết quả kinh doanh, quyết định lãi suất và bầu cử là những khoảng trống giá có sẵn trong lịch.\n3️⃣ Chọn quy mô sao cho một khoản trống giá không thể kết liễu bạn. Đây là phòng tuyến thực sự, và nó là bài học tiếp theo. Lệnh dừng bảo vệ bạn khỏi những điều bình thường. Quy mô vị thế bảo vệ bạn khỏi những điều bất thường, và chính điều bất thường mới là thứ thực sự quét sạch người ta.\n\nVà cũng nên biết rằng trong ứng dụng này, như trên mọi tài khoản nhỏ lẻ được quản lý đúng chuẩn, bảo vệ số dư âm nghĩa là một khoảng trống giá không thể đưa bạn xuống dưới 0. Bạn có thể mất cả tài khoản. Bạn không thể rơi vào cảnh mắc nợ. 📰",
+      "quiz": {
+        "q": "Bạn đặt lệnh cắt lỗ ở {c}90. Qua đêm, tin xấu ập đến và thị trường mở cửa lại ở {c}78, chưa từng giao dịch ở mức nào ở giữa. Điều gì xảy ra?",
+        "explanation": "Lệnh dừng là chỉ thị rời đi, không phải lời hứa về mức giá bạn nhận được. Thị trường chưa từng giao dịch giữa {c}90 và {c}78, nên chẳng còn mức {c}90 nào để bán. Lệnh dừng của bạn kích hoạt lúc mở cửa và khớp ở bất cứ đâu thị trường thực sự đang ở. Lệnh dừng vẫn bảo vệ bạn khỏi những biến động bình thường. Phòng tuyến trước một cú nhảy như thế này là quy mô vị thế, không phải lệnh dừng.",
+        "options": [
+          "Lệnh dừng của bạn khớp ở {c}90, đúng chỗ bạn đặt",
+          "Bạn được khớp gần {c}78, mức giá đầu tiên có sẵn",
+          "Lệnh bị hủy, vì giá đã nhảy qua nó",
+          "Nhà cung cấp trả bạn {c}12 mà thị trường đã nhảy qua"
+        ]
+      }
+    },
+    "79": {
+      "title": "Quy mô trước, giao dịch sau",
+      "desc": "Quyết định mức có thể mất trước khi quyết định mua gì",
+      "content": "Đây là điều phân biệt những người trụ được lâu với những người không trụ được, và nó gần như nhàm chán.\n\nNgười mới chọn giao dịch trước, rồi mới tính bỏ vào bao nhiêu. Dân chuyên nghiệp làm ngược lại. Họ quyết định mức sẵn sàng mất trước, rồi để điều đó quyết định vị thế được phép lớn đến đâu.\n\nQuy tắc phần lớn họ dùng: rủi ro 1% đến 2% tài khoản cho mỗi giao dịch. Không phải đặt cọc 1%. Mà là RỦI RO 1%, tức là số tiền bạn thực sự mất nếu lệnh dừng bị chạm.\n\nCách làm, trong ba bước:\n\n1️⃣ Chọn mức lỗ tối đa. Tài khoản 10,000 NT, rủi ro 1%, vậy là 100 NT.\n2️⃣ Chọn điểm bạn sai. Bạn sẽ thoát nếu giá giảm 5% so với điểm vào.\n3️⃣ Chia ra. 100 NT mức lỗ chấp nhận được, với khoảng cách dừng 5%, nghĩa là vị thế 2,000 NT. Đó là quy mô của bạn. Không phải cảm giác. Mà là một phép tính.\n\nThay đổi lệnh dừng thì quy mô tự động thay đổi. Lệnh dừng chặt hơn ở 2% cho phép bạn chạy 5,000 NT. Lệnh dừng rộng hơn ở 10% buộc bạn giảm xuống 1,000 NT. Giao dịch càng rủi ro thì phải càng nhỏ, và phép toán làm việc đó thay bạn để tâm trạng của bạn không phải làm.\n\nVì sao là 1%? Vì nó khiến một chuỗi thua có thể sống sót được. Mười lần thua liên tiếp ở mức 1% để lại cho bạn 90% tài khoản và một tâm trạng tệ. Mười lần thua liên tiếp ở mức 20% chỉ để lại khoảng 11% tài khoản và không có đường quay về, và bạn đã biết từ bài 71 con dốc đó gắt đến mức nào.\n\nKhông ai sống sót trên thị trường nhờ chọn được cổ phiếu thắng. Mọi người sống sót đều làm được điều đó bằng cách đảm bảo không một khoản lỗ đơn lẻ nào có thể kết liễu họ. 📐",
+      "quiz": {
+        "q": "Một tài khoản 10,000 NT. Bạn sẽ rủi ro 1% cho giao dịch này, và sẽ thoát nếu giá giảm 5% so với điểm vào. Kéo đến quy mô vị thế tôn trọng điều đó.",
+        "explanation": "1% của 10,000 NT là 100 NT, và đó là mức tối đa bạn đã đồng ý mất. Lệnh dừng 5% nghĩa là 100 NT chia cho 5%, tức là vị thế 2,000 NT. Kéo cao hơn và màn hình sẽ cho thấy bạn đang rủi ro nhiều hơn mức đã quyết định."
+      }
+    },
+    "80": {
+      "title": "Vì sao thắng có cảm giác như tài năng",
+      "desc": "Những trò chơi tâm lý đòn bẩy giở với bạn",
+      "content": "Đòn bẩy chủ yếu không phải bài toán số học. Phép toán thì dễ. Nó là bài toán tâm lý, và đây là ba cái bẫy khiến ai cũng sập.\n\n🎯 1. THIÊN KIẾN KẾT QUẢ: thắng có cảm giác như tài năng. Bạn mở một vị thế quá khổ, nó thành công, bạn kiếm bộn trong một buổi chiều, và não bạn ghi lại “mình giỏi khoản này.” Nó không ghi lại điều thực sự đã xảy ra, đó là bạn đã chấp nhận một rủi ro tệ và nhận được một kết quả tốt. Đó là hai chuyện khác nhau, và thị trường sẵn lòng trả tiền cho một quyết định tệ vài lần trước khi đến đòi nợ. Điều nguy hiểm nhất có thể xảy ra với một trader mới là một chiến thắng sớm và dễ dàng.\n\n😤 2. GIAO DỊCH TRẢ THÙ: bạn muốn gỡ lại, ngay bây giờ. Bạn lỗ một khoản, nó nhói đau, và thôi thúc đến ngay lập tức. Thế là bạn tăng quy mô. Giờ bạn đang mở vị thế lớn nhất đúng vào lúc khả năng phán đoán của bạn tệ nhất, trên một giao dịch bạn chọn vì tức giận chứ không phải vì nó tốt. Thị trường không biết bạn đang lỗ và chẳng nợ bạn gì cả. Khi bạn cảm thấy điều này, quy mô đúng là bằng 0. Hãy đóng ứng dụng.\n\n🕳️ 3. ĐUỔI THEO KHOẢN LỖ: “mình cứ giữ cho đến khi giá quay lại.” Cái bẫy này đội lốt sự kiên nhẫn, đó là lý do nó rất khó nhận ra. Kiên nhẫn là một kế hoạch bạn lập ra trước đó một cách bình tĩnh. Đuổi theo khoản lỗ là một kế hoạch bạn bịa ra sau khi giá đi ngược bạn, và dấu hiệu nhận biết rất đơn giản: điểm thoát của bạn đã bị dời đi. Nếu bạn thấy mình đang giải thích vì sao mức bạn đặt không còn là mức đúng nữa, đó không phải phân tích mới. Đó là cái tôi của bạn đang mặc cả.\n\nCách phòng thủ cho cả ba đều giống nhau và chẳng hào nhoáng gì. Quyết định mọi thứ khi bạn còn bình tĩnh, viết nó ra, và coi phiên bản của bạn xuất hiện giữa giao dịch là một người kể chuyện không đáng tin. 🧠",
+      "quiz": {
+        "q": "Bạn mở một vị thế lớn hơn nhiều so với bình thường và nó mang về khoản lời lớn chỉ trong một buổi chiều. Cách hiểu chính xác nhất về điều đó là gì?",
+        "explanation": "Não bạn ghi lại rằng bạn giỏi khoản này. Điều thực sự đã xảy ra là bạn chấp nhận một rủi ro tệ và thị trường tình cờ vẫn trả tiền cho bạn, và đó là hai chuyện riêng biệt. Thị trường sẽ trả tiền cho một quyết định tệ vài lần trước khi đến đòi nợ. Một chiến thắng sớm và dễ dàng là điều nguy hiểm nhất có thể xảy ra với một trader mới, vì nó dạy sai bài học rồi tính tiền bạn sau.",
+        "options": [
+          "Đây là một cách làm hiệu quả, và có thể tăng quy mô lần nữa",
+          "Quy mô là đúng, vì khoản lời đã chứng minh điều đó",
+          "Bạn đã chấp nhận một rủi ro tệ và tình cờ có kết quả tốt",
+          "Lời lớn cho thấy tài năng, còn lỗ mới cho thấy sai lầm"
+        ]
+      }
+    },
+    "81": {
+      "title": "Câu hỏi thật lòng",
+      "desc": "Bạn có nên dùng thứ này không?",
+      "content": "Bạn đã hoàn thành học phần. Đây là câu hỏi mà quảng cáo không bao giờ hỏi.\n\nBạn có nên dùng đòn bẩy không?\n\nVới phần lớn mọi người, trong phần lớn thời gian, câu trả lời thật lòng là không. Không phải vì họ không đủ thông minh. Mà vì mọi thứ trong mười lăm bài học vừa qua: bạn bắt đầu đã bị tụt lại, bạn trả tiền thuê trong lúc chờ, một biến động bình thường có thể kết liễu bạn trước khi bạn được chứng minh là đúng, và ba cơ quan quản lý đếm các tài khoản thật đều phát hiện từ hai phần ba đến chín phần mười số người bị lỗ.\n\nCó một kiểu giao dịch mà bạn không bao giờ phải động đến những thứ này. Bạn mua một cổ phiếu, bạn sở hữu một phần công ty, cổ tức đổ về, thời gian làm việc CHO bạn thay vì chống lại bạn, và không gì có thể đóng vị thế của bạn mà không hỏi ý bạn. Đó là phần còn lại của ứng dụng này, và nó không phải lựa chọn nhàm chán. Nó là lựa chọn mà phép toán trong bài 14 nói thường sẽ thắng. 🌱\n\nVậy đây là điều bạn nên biết trước khi quyết định.\n\nKhông có gì trong ứng dụng này bị khóa sau đòn bẩy. Mọi cuộc thi, mọi bảng xếp hạng, mọi con đường kiếm XP, mọi trận đấu giữa các trường và mọi phần thưởng NOOB đều hoàn toàn mở với người chưa bao giờ mở một vị thế có đòn bẩy nào. Bạn chẳng mất gì khi bước ra khỏi căn phòng này. Không có hình phạt và không thiếu huy hiệu nào.\n\nVà không có gì ở đây trả thưởng cho bạn vì thắng. Bạn được thưởng khi hoàn thành các bài học, khi vượt qua bài kiểm tra, khi đặt lệnh dừng, khi cắt một vị thế lỗ, và khi tự viết lại phân tích về lần bị thanh lý của mình. Bạn không bao giờ được trả thưởng cho lợi nhuận, vị thế lớn hay một chuỗi may mắn, vì trả thưởng cho những thứ đó là dạy bạn điều sai trong khi gọi nó là giáo dục.\n\nNếu bạn dùng nó: dùng nhỏ thôi, dùng kèm lệnh dừng, biết giá thanh lý trước khi bấm bất cứ nút nào, và đừng bao giờ dùng số tiền mà bạn sẽ tiếc. Nếu bạn không dùng nó, bạn vẫn đã học được cách nhìn thấy cỗ máy, và đó luôn là mục đích. Phần lớn người lớn giao dịch những thứ này không thể giải thích những gì bạn vừa học. 🤔",
+      "quiz": {
+        "q": "Một người học sẽ mất gì khi quyết định không bao giờ mở vị thế có đòn bẩy trong ứng dụng này?",
+        "explanation": "Không có gì trong ứng dụng này bị khóa sau đòn bẩy. Mọi cuộc thi, mọi bảng xếp hạng, mọi con đường kiếm XP, mọi trận đấu giữa các trường và mọi phần thưởng NOOB đều mở với người chưa bao giờ mở một vị thế có đòn bẩy nào. Không có hình phạt và không thiếu huy hiệu nào. Và không có gì trong căn phòng này trả thưởng cho bạn vì thắng: nó trả thưởng cho việc hoàn thành bài học, vượt qua bài kiểm tra, đặt lệnh dừng và cắt vị thế lỗ.",
+        "options": [
+          "Chẳng mất gì cả, mọi con đường đều mở với họ",
+          "Mọi cuộc thi và bảng xếp hạng trong ứng dụng",
+          "XP trong học phần này, vốn được trả cho giao dịch đòn bẩy",
+          "Phần thưởng NOOB, vốn cần mở một vị thế đòn bẩy trước"
+        ]
+      }
+    },
+    "82": {
+      "title": "Cú cháy tài khoản",
+      "desc": "Năm ngày, một kế hoạch liều lĩnh, một tài khoản trống rỗng",
+      "content": "Chào mừng đến Phòng thí nghiệm. Ở đây bạn nhận một tài khoản luyện tập tách biệt 1,000 LAB NT. Nó không phải ví của bạn, không thể động vào ví của bạn, và không có gì thắng hay thua bên trong nó lọt ra ngoài. Công cụ giao dịch là NOVA. NOVA là hư cấu, để không ai có thể buộc tội chúng tôi dự đoán một vụ sập thật. Tỷ lệ ký quỹ 25%. Phí tài trợ 0.02% mỗi đêm. Đóng vị thế ở mức 50% ký quỹ đã dùng. Và chỉ riêng bài trùm này, giới hạn vị thế bị tắt. Cố ý. Một lần duy nhất.\n\nĐây là tuần mà bạn sắp phải giải thích.\n\n📅 NGÀY 1: NOVA ở 100. Kết quả kinh doanh tốt, nhóm chat ầm ĩ. Bạn đặt xuống 800 trong 1,000 NT, kiểm soát 3,200 NT NOVA. Không có lệnh dừng.\n\n📅 NGÀY 2: NOVA 106. Bạn đang lời 192 NT, tức là +19.2% tài khoản trong một ngày. Bạn bỏ thêm 200 NT cuối cùng. Giá trị vị thế 4,000 NT. Tiền mặt tự do: bằng 0. Vẫn không có lệnh dừng.\n\n📅 NGÀY 3: NOVA 101.76. Mức ký quỹ 103%. Tính cả tuần bạn vẫn đang lời, nên bạn giữ.\n\n📅 NGÀY 4: NOVA 94.64. GỌI KÝ QUỸ. Mức ký quỹ 75%, vốn chủ sở hữu 750 NT. Bạn không thể nạp thêm, vì chẳng còn gì để nạp. Bạn giữ.\n\n📅 NGÀY 5: NOVA mở cửa giảm 9% qua đêm ở mức 86.12, dưới mức đóng vị thế. BỊ THANH LÝ ở 390 NT.\n\nTrong cả tuần NOVA giảm 13.9%. Tài khoản của bạn giảm 61%. Người học đặt xuống 250 NT với lệnh dừng ở 95 kết thúc cùng tuần đó với khoảng 949 NT, giảm 5%. Còn cùng 800 NT không có lệnh dừng nhưng không bỏ thêm ở ngày 2 thì sẽ kết thúc ở 550 NT: bị gọi ký quỹ, nhưng vẫn sống.\n\nGiờ đến phần mổ xẻ. Mười câu hỏi về điều vừa xảy ra. Đạt 8 trên 10 là bạn đã đánh bại trùm, vì ở đây điểm đậu là giải thích được đống đổ nát, chứ không phải né được nó. 💀",
+      "bossVictory": "Bạn đã cháy một tài khoản và bước ra mà hiểu vì sao. Đó là toàn bộ học phần. 💀",
+      "bossQuestions": {
+        "0": {
+          "q": "Trong năm ngày NOVA giảm khoảng 14%. Tài khoản của bạn giảm 61%. Vì sao lại chênh lệch như vậy?",
+          "options": [
+            "Ứng dụng phạt tiền vì bạn thua",
+            "Bạn nắm giữ giá trị vị thế gấp khoảng bốn lần khoản cọc, nên mọi biến động đều đánh vào một con số lớn gấp bốn lần tài khoản của bạn",
+            "Phí tài trợ chiếm phần lớn khoản lỗ",
+            "NOVA là cổ phiếu rủi ro hơn những gì con số cho thấy"
+          ]
+        },
+        "1": {
+          "q": "Vào ngày 2 bạn đang lời 192 NT, tức là 19.2% tài khoản chỉ trong một ngày. Điều đó thực sự đang nói với bạn gì?",
+          "options": [
+            "Rằng nhận định của bạn đúng và bạn nên tăng quy mô",
+            "Rằng vị thế có quy mô hợp lý, vì nó đang có lời",
+            "Rằng đòn bẩy an toàn khi bạn đúng",
+            "Rằng vị thế đủ lớn để làm tài khoản bạn biến động 19% trong một ngày, nghĩa là nó cũng đủ lớn để làm điều tương tự theo chiều ngược lại"
+          ]
+        },
+        "2": {
+          "q": "Vào ngày 2 bạn bỏ thêm 200 NT cuối cùng vào vị thế đang thắng. Điều đó khiến bạn mất gì?",
+          "options": [
+            "Cả hai lớp an toàn: nó nâng giá trị vị thế từ 3,200 lên 4,000, và tiêu mất khoản tiền mặt tự do duy nhất có thể đáp ứng một lệnh gọi ký quỹ",
+            "Chẳng mất gì, vì nhồi thêm vào vị thế thắng là cách dân chuyên nghiệp tạo lãi kép",
+            "Chỉ 200 NT đó thôi, số tiền mà vị thế lẽ ra sẽ kiếm lại",
+            "Một chút phí tài trợ, vì tiền thuê mỗi đêm tăng nhẹ"
+          ]
+        },
+        "3": {
+          "q": "Mức ký quỹ của bạn chạm 103% vào ngày 3. Con số đó có nghĩa là gì?",
+          "options": [
+            "Bạn được tài trợ 103%, nên vị thế được bảo đảm dư thừa và an toàn",
+            "Tài khoản của bạn tăng 3% trong tuần",
+            "Vốn chủ sở hữu của bạn chỉ vừa đủ bù các khoản cọc đã đặt, nên tấm đệm đã hết và biến động tiếp theo sẽ bắt đầu ăn vào chính khoản cọc",
+            "Tự nó chẳng có ý nghĩa gì, vì mức ký quỹ chỉ quan trọng khi xuống dưới 50%"
+          ]
+        },
+        "4": {
+          "q": "Khi bị gọi ký quỹ ở ngày 4, đóng vị thế sẽ chốt khoản lỗ 250 NT. Bạn đã giữ. Vì sao giữ lại là đáp án mà phần lớn mọi người chọn?",
+          "options": [
+            "Vì giữ lại thường là phản ứng đúng về mặt toán học trước lệnh gọi ký quỹ",
+            "Vì đóng vị thế nghĩa là thừa nhận giao dịch đã sai, còn giữ lại cho phép bạn tiếp tục tin rằng mọi chuyện chưa kết thúc",
+            "Vì lệnh gọi ký quỹ thường tự được giải quyết trong vòng một ngày",
+            "Vì nhà cung cấp khuyên nên giữ để tránh hiện thực hóa khoản lỗ"
+          ]
+        },
+        "5": {
+          "q": "Bạn bị thanh lý ở 390 NT, nhưng mức đóng vị thế là 500 NT vốn chủ sở hữu. Vì sao bạn lại rơi xuống dưới mức đó?",
+          "options": [
+            "Nhà cung cấp tính phí phạt thanh lý 110 NT",
+            "NOVA mở cửa giảm 9% qua đêm và mở lại dưới mức đó, nên lệnh đóng vị thế khớp ở mức giá đầu tiên thị trường thực sự đưa ra",
+            "Phí tài trợ bị trừ một lần ngay lúc thanh lý",
+            "Mức đóng vị thế chỉ là ước tính và bình thường vẫn bị lệch nhiều như vậy"
+          ]
+        },
+        "6": {
+          "q": "Người học đặt xuống 250 NT và đặt lệnh dừng ở 95 đã kết thúc cùng tuần đó với khoảng 949 NT. Họ đã làm đúng điều gì?",
+          "options": [
+            "Họ quyết định mức lỗ tối đa trước khi mở vị thế, và để điều đó quyết định quy mô",
+            "Họ đọc biểu đồ NOVA giỏi hơn và thấy trước đợt giảm",
+            "Họ tránh được phí tài trợ nhờ dùng khoản cọc nhỏ hơn",
+            "Họ gặp may, vì những lựa chọn tương tự thường thua"
+          ]
+        },
+        "7": {
+          "q": "Bạn trả phí tài trợ mỗi đêm trên toàn bộ 4,000 NT giá trị vị thế. Trong giao dịch này, nó quan trọng đến mức nào?",
+          "options": [
+            "Nó chiếm phần lớn khoản lỗ, vì phí tài trợ cộng dồn mỗi đêm",
+            "Chẳng đáng gì, vì phí tài trợ chỉ tính cho các vị thế tồn tại quá một tháng",
+            "Chỉ vài NT, vì giao dịch ngắn. Phí tài trợ là thứ giết chết vị thế đi ngang hàng tháng trời, không phải vị thế cháy trong một tuần",
+            "Khoảng 192 NT, bằng đúng khoản lời ở ngày 2"
+          ]
+        },
+        "8": {
+          "q": "Mọi lựa chọn ở đây đều được phép. Trong CFD Hub, phần lớn chúng sẽ không được phép. Vì sao?",
+          "options": [
+            "Vì các giới hạn giúp ứng dụng vận hành rẻ hơn",
+            "Vì cơ quan quản lý yêu cầu có chế độ luyện tập trước mọi giao dịch mô phỏng",
+            "Vì người dưới 18 tuổi không được xem thanh lý hai lần",
+            "Bạn vừa chứng kiến khoản cọc 80% cho một vị thế và tiền mặt tự do bằng 0 phá hủy một tài khoản trong năm ngày, và các giới hạn tồn tại để khiến đúng chuỗi sự việc đó không thể xảy ra"
+          ]
+        },
+        "9": {
+          "q": "Điều hữu ích nhất cần rút ra từ đây là gì?",
+          "options": [
+            "Rằng quy mô vị thế, được quyết định trước khi mở, quan trọng hơn việc đoán đúng hướng",
+            "Rằng NOVA là cổ phiếu tệ để chọn, và nghiên cứu kỹ hơn lẽ ra đã cứu được tài khoản",
+            "Rằng không ai nên động đến đòn bẩy trong bất kỳ hoàn cảnh nào",
+            "Rằng lệnh gọi ký quỹ không thể đoán trước, nên bạn chẳng thể làm gì được"
+          ]
+        }
+      }
+    },
+    "83": {
+      "title": "Giấy phép",
+      "desc": "Mười câu hỏi. Đúng tám câu để đậu.",
+      "content": "Giấy phép là bài thi mà học phần này đã chuẩn bị cho bạn. Mười câu hỏi, và câu nào cũng là một phép tính hoặc một quyết định trên một vị thế trông như thật, vì CFD Hub cũng chẳng làm việc với định nghĩa suông.\n\nĐiểm đậu là 8 trên 10. Bạn có 3 lượt thử mỗi ngày. Chúng tôi cho bạn biết điểm nhưng không cho biết bạn sai câu nào, nên một lần trượt là tín hiệu để đọc lại học phần, không phải để đoán lại.\n\nKhông có gì ở đây là mẹo. Mọi con số đều lấy thẳng từ các bài học bạn đã qua. Nếu bạn làm được mười câu này, bạn hiểu học phần này hơn phần lớn người lớn đang giao dịch các sản phẩm này bằng tiền thật. 🎫",
+      "bossVictory": "Bạn có thể nhìn vào màn hình thật, với con số thật, và nói không. Đó chính là giấy phép. 🎫",
+      "bossQuestions": {
+        "0": {
+          "q": "Tài khoản của bạn có 1,000 NT và không có gì khác đang mở. Bạn đặt toàn bộ 1,000 NT làm khoản cọc với tỷ lệ 25%, kiểm soát 4,000 NT {tech} ở giá 200 NT một cổ phiếu. Lệnh đóng vị thế kích hoạt ở mức 50% khoản cọc. {tech} phải giao dịch ở đâu thì bạn bị đóng vị thế?",
+          "options": [
+            "150 NT, giảm 25%, khớp với tỷ lệ ký quỹ",
+            "100 NT, giảm 50%, giống quy tắc đóng vị thế",
+            "175 NT, giảm 12.5%, vì mất 500 NT trên 4,000 NT giá trị vị thế cần một biến động 12.5%",
+            "195 NT, giảm 2.5%"
+          ]
+        },
+        "1": {
+          "q": "Một vị thế 3,000 NT tốn 0.02% phí tài trợ mỗi đêm. Bạn kỳ vọng giá đi 3% theo hướng có lợi, trị giá 90 NT. Nhận định đó còn giá trị bao nhiêu đêm trước khi phí tài trợ ăn hết nó?",
+          "options": [
+            "Khoảng 50 đêm",
+            "Khoảng 150 đêm, vì 90 NT chia cho 0.60 NT mỗi đêm là 150",
+            "Khoảng 300 đêm",
+            "Không bao giờ bị ăn hết, vì phí tài trợ chỉ áp dụng cho vị thế đang lỗ"
+          ]
+        },
+        "2": {
+          "q": "Tài khoản của bạn có 5,000 NT. Bạn sẽ rủi ro 2% cho một giao dịch, và sẽ thoát nếu giá đi ngược bạn 4%. Vị thế lớn nhất bạn nên mở là bao nhiêu?",
+          "options": [
+            "100 NT, số tiền bạn đang rủi ro",
+            "1,000 NT, một phần năm tài khoản",
+            "5,000 NT, vì dù sao lệnh dừng cũng bảo vệ tài khoản",
+            "2,500 NT, vì 100 NT mức lỗ chấp nhận được chia cho khoảng cách dừng 4% cho ra quy mô"
+          ]
+        },
+        "3": {
+          "q": "Một vị thế đã đưa tài khoản của bạn từ 1,000 NT xuống 400 NT. Bạn cần mức lợi nhuận bao nhiêu từ đây chỉ để quay về 1,000 NT?",
+          "options": [
+            "150%, vì 400 NT phải tăng thêm một lần rưỡi chính nó để đạt 1,000",
+            "60%, đúng bằng tỷ lệ bạn đã mất",
+            "100%, vì nhân đôi luôn đưa bạn về lại",
+            "250%, gấp đôi số bạn đã mất"
+          ]
+        },
+        "4": {
+          "q": "Thẻ trực tiếp hiển thị: mức ký quỹ 82%, tiền mặt tự do 0, một vị thế đang mở và lỗ 18%. Nước đi nào thực sự giảm rủi ro bị thanh lý?",
+          "options": [
+            "Nạp thêm tiền mặt vào tài khoản",
+            "Giữ và chờ mức ký quỹ hồi phục",
+            "Đóng một vị thế, giải phóng ngay phần ký quỹ nó đang dùng",
+            "Mở vị thế thứ hai theo chiều ngược lại để triệt tiêu nó"
+          ]
+        },
+        "5": {
+          "q": "Bạn bán khống {tech} ở 50 NT với vị thế 2,000 NT. Một thương vụ thâu tóm định giá lại nó qua đêm ở 150 NT. Khoản lỗ đó so với kịch bản tệ nhất của vị thế mua cùng quy mô thì thế nào?",
+          "options": [
+            "Như nhau, vì cả hai đều giới hạn ở số tiền bạn bỏ vào",
+            "Vị thế bán khống lỗ 4,000 NT, gấp đôi giá trị vị thế, trong khi vị thế mua không bao giờ lỗ quá chính 2,000 NT của vị thế",
+            "Vị thế bán khống chẳng lỗ gì nếu đã đặt lệnh cắt lỗ, vì lệnh dừng được bảo đảm",
+            "Khoản lỗ của vị thế bán khống nhỏ hơn, vì giá giảm nhanh hơn tăng"
+          ]
+        },
+        "6": {
+          "q": "Lệnh dừng của bạn nằm ở 90 NT. Tin tức ập đến qua đêm và thị trường mở cửa lại ở 78 NT mà chưa từng giao dịch ở mức nào ở giữa. Điều gì xảy ra, và phòng tuyến thực sự trước điều này là gì?",
+          "options": [
+            "Bạn được khớp ở 90 NT, vì đó là điều lệnh dừng bảo đảm",
+            "Lệnh bị hủy, vì giá đã nhảy qua mức của bạn",
+            "Bạn được khớp gần 78 NT, và phòng tuyến trước khoảng trống giá là quy mô vị thế, không phải lệnh dừng",
+            "Nhà cung cấp nợ bạn phần chênh lệch giữa 90 và 78"
+          ]
+        },
+        "7": {
+          "q": "Vì sao crypto có yêu cầu khoản cọc lớn nhất trong CFD Hub?",
+          "options": [
+            "Nó biến động dữ dội nhất, nên một khoản cọc mỏng sẽ bị rút cạn bởi một ngày crypto hoàn toàn bình thường",
+            "Crypto không bị tính phí tài trợ, nên khoản cọc thay cho phí đó",
+            "Crypto bị cấm với người dưới 18 tuổi và khoản cọc là hình phạt",
+            "Giá crypto do ứng dụng đặt chứ không phải thị trường"
+          ]
+        },
+        "8": {
+          "q": "Điều nào sau đây giúp bạn kiếm XP trong học phần này?",
+          "options": [
+            "Lời 40% trên một vị thế có đòn bẩy",
+            "Dùng mức giá trị vị thế lớn nhất có thể",
+            "Chuỗi năm giao dịch thắng liên tiếp",
+            "Đóng một vị thế đang lỗ thay vì nhồi thêm vào"
+          ]
+        },
+        "9": {
+          "q": "Bản xem trước giao dịch cho biết một biến động bất lợi 10% sẽ lấy đi 620 NT khỏi tài khoản, tức là 62% ví của bạn. Giá thanh lý của bạn là 88.40 và {tech} đang giao dịch ở 96.00. Bạn có mở vị thế không?",
+          "options": [
+            "Có, vì giá thanh lý nằm an toàn bên dưới giá hiện tại",
+            "Có, nếu bạn tự tin vào hướng đi",
+            "Chỉ khi gấp đôi giá trị vị thế, để rủi ro đáng bỏ ra",
+            "Không: biến động khoảng 8% là rút cạn vị thế, 8% là một biến động bình thường, và 62% ví cho một giao dịch phá vỡ mọi quy tắc quy mô trong học phần này"
+          ]
+        }
+      }
+    },
+    "84": {
+      "title": "Kịch bản tệ nhất, được chọn từ trước",
+      "desc": "Cắt lỗ, chốt lời, và lối thoát không ai chọn",
+      "content": "Bạn đã biết về khoản cọc, lệnh gọi ký quỹ, việc đóng vị thế bắt buộc, tiền thuê, lệnh dừng và khoảng trống giá. Bài học này đặt mảnh ghép cuối cùng vào chỗ: mọi vị thế bạn từng mở đều kết thúc theo đúng một trong ba cách, và toàn bộ cuộc chơi là ai được chọn cách nào.\n\n1️⃣ BẠN ĐÓNG NÓ. Bạn chạm nút và vị thế được đóng ở giá thị trường hiện tại. Luôn có sẵn, trên mọi vị thế, ở mọi trạng thái. Phần lớn các lần thoát nên là cách này.\n\n2️⃣ MỘT LỆNH BẠN ĐẶT SẼ ĐÓNG NÓ. Có hai loại, và tên gọi rất quan trọng, nên hãy học cho đúng:\n\n• LỆNH CẮT LỖ (stop-loss) tự động đóng vị thế khi giá đi NGƯỢC bạn đến mức bạn đã chọn: lệnh dừng bán dưới điểm vào với vị thế mua, lệnh dừng mua trên điểm vào với vị thế bán khống. Đó là kịch bản tệ nhất của bạn, được quyết định khi bạn còn bình tĩnh, mà bài 80 đã dạy bạn là lúc duy nhất bạn quyết định tốt.\n• LỆNH CHỐT LỜI (take-profit) là một lệnh giới hạn để đóng vị thế: nó tự động đóng ở mục tiêu bạn đã chọn, khi giá đi THEO HƯỚNG CÓ LỢI cho bạn để chạm đến đó. Đó là mức “đủ rồi” của bạn, được quyết định trước khi lòng tham kịp lên tiếng. Lệnh giới hạn khớp ở mức của bạn hoặc tốt hơn, không bao giờ tệ hơn.\n\n3️⃣ NHÀ CUNG CẤP ĐÓNG NÓ. Đó là thanh lý, từ bài 70. Và đây là điều cần khắc sâu: thanh lý không phải một loại lệnh. Bạn không thể đặt một “lệnh thanh lý”. Không ai có thể. Nó không phải công cụ trong bộ đồ nghề của bạn; nó là việc nhà cung cấp làm để bảo vệ khoản vay của họ khi khoản cọc của bạn gần cạn, ở bất kỳ mức giá nào thị trường đang trả, trong lúc bạn đang ở trường hay đang ngủ.\n\nLệnh cắt lỗ là bạn quyết định kịch bản tệ nhất từ trước. Thanh lý là điều xảy ra khi bạn không làm vậy.\n\nCả hai lệnh của bạn đều trung thực theo cùng một cách, và bạn đã biết điều đó từ bài 78: chúng kích hoạt ở mức của bạn và khớp ở mức thị trường thực sự trả. Một khoảng trống giá nhảy qua lệnh dừng sẽ khớp bạn ở phía bên kia cú nhảy, tức là tệ hơn. Một khoảng trống giá xuyên qua lệnh chốt lời cũng khớp bạn ở phía bên kia, tức là tốt hơn. Cùng một sự thật, nhìn theo cả hai hướng.\n\nMột quy tắc đặt lệnh, và ứng dụng này áp dụng nó kèm lý do trên màn hình: lệnh dừng của bạn phải nằm giữa giá hiện tại và giá thanh lý. Một lệnh dừng nằm bên kia giá thanh lý sẽ không bao giờ kích hoạt được, vì nhà cung cấp đã đóng vị thế của bạn trước, nên ứng dụng từ chối nó và cho bạn biết lý do.\n\nBa cánh cửa thoát khỏi mọi giao dịch. Hai trong số đó có tên bạn trên tay nắm. Bước ra qua một trong hai cánh cửa đó, vào ngày bạn chọn, ở mức bạn đã chọn khi bình tĩnh, chính là điều mà cả học phần này đã dạy bạn làm. 🚪",
+      "quiz": {
+        "q": "Vị thế mua của bạn có lệnh cắt lỗ bạn đặt ở 180.00 và giá thanh lý là 150.00. Khác biệt thực sự giữa hai con số đó là gì?",
+        "options": [
+          "Chẳng khác gì cả, chúng là hai tên gọi của cùng một lệnh đóng vị thế tự động, và nhà cung cấp kích hoạt nó ở một mức giá duy nhất mỗi lần",
+          "Lệnh cắt lỗ là quyết định của nhà cung cấp còn giá thanh lý là của bạn, nên cái bạn thực sự kiểm soát là cái kích hoạt sau",
+          "Lệnh dừng ở 180.00 là kịch bản tệ nhất của bạn, do bạn chọn từ trước khi còn bình tĩnh; 150.00 là nơi nhà cung cấp đóng vị thế của bạn để bảo vệ khoản vay của họ, vì bạn không còn quyền lên tiếng",
+          "Lệnh dừng bảo đảm khớp đúng 180.00 bất kể thị trường ra sao, còn thanh lý có thể khớp ở bất kỳ mức giá nào, dù giá đã chạy xa đến đâu"
+        ]
+      }
+    }
+  },
+  "context": {
+    "ZA": {
+      "name": "Nam Phi",
+      "cName": "rand",
+      "cPlural": "rand",
+      "exDesc": "một trong những sàn chứng khoán lớn nhất trên toàn châu Phi",
+      "sectorList": "⛏️ Khai khoáng: Anglo American, Impala Platinum. Gắn với giá hàng hóa toàn cầu\n🏦 Ngân hàng: Standard Bank, FirstRand, Capitec. Làm ăn tốt khi lãi suất cao hơn\n📱 Công nghệ: Naspers, Prosus. Gắn với xu hướng công nghệ toàn cầu\n🛍️ Bán lẻ: Shoprite, Pick n Pay. Làm ăn tốt khi người tiêu dùng có tiền để chi tiêu\n📡 Viễn thông: MTN, Vodacom. Ổn định hơn, vì người ta lúc nào cũng cần data",
+      "etfBasket": "40 công ty lớn nhất trên sàn JSE",
+      "etfDesc": "Ví dụ, JSE Top 40 là danh sách 40 công ty niêm yết lớn nhất trên sàn JSE, xếp hạng theo giá trị số cổ phiếu thực sự có thể giao dịch.",
+      "etfList": "🇿🇦 Satrix Top 40: 40 công ty lớn nhất trên sàn JSE. Điểm khởi đầu tuyệt vời.\n🌍 Satrix MSCI World: Các công ty từ 23 quốc gia phát triển chỉ trong một lần mua.\n🇺🇸 Sygnia Itrix S&P 500: 500 công ty lớn của Mỹ trong danh sách S&P 500.\n💡 Satrix Nasdaq 100: 100 công ty phi tài chính lớn nhất trên Nasdaq. Rất nặng về công nghệ.",
+      "currencyHedge": "Những khoản này được định giá bằng đô la hoặc euro. Vì vậy nếu đồng rand MẤT GIÁ (R20 đổi một đô la thành R22), các khoản đầu tư quốc tế của bạn TỰ ĐỘNG có giá trị cao hơn khi tính bằng rand!",
+      "fxQuizSetup": "Đồng rand mất giá từ R18 xuống R22 so với đô la Mỹ",
+      "fxQuizLose": "Nó mất giá vì Nam Phi đang làm ăn tệ hơn",
+      "fxQuizGain": "Nó TĂNG khi tính bằng rand vì mỗi đô la đổi được nhiều rand hơn",
+      "dcaTitle": "Bình quân giá bằng rand",
+      "dcaAbbrev": "RCA",
+      "food": "chiếc burger Wimpy"
+    },
+    "US": {
+      "name": "Mỹ",
+      "cName": "đô la Mỹ",
+      "cPlural": "đô la Mỹ",
+      "exDesc": "thị trường cổ phiếu lớn nhất thế giới, bỏ xa phần còn lại",
+      "sectorList": "💻 Công nghệ: Apple, Microsoft, Alphabet. Được thúc đẩy bởi đổi mới và nhu cầu toàn cầu\n🏦 Ngân hàng: JPMorgan, Bank of America, Goldman Sachs. Làm ăn tốt khi lãi suất tăng\n🛍️ Bán lẻ: Amazon, Walmart, Costco. Làm ăn tốt khi người tiêu dùng chi tiêu\n⚡ Năng lượng: Exxon Mobil, Chevron. Gắn với giá dầu khí toàn cầu\n📡 Viễn thông: AT&T, Verizon, T-Mobile. Người ta lúc nào cũng cần kết nối",
+      "etfBasket": "500 công ty lớn của Mỹ trong danh sách S&P 500",
+      "etfDesc": "Ví dụ, S&P 500 là danh sách 500 công ty lớn của Mỹ do một hội đồng lựa chọn. Chúng phải lớn, có lãi và dễ giao dịch. Nó KHÔNG đơn giản là 500 công ty lớn nhất, và nó gồm cả công ty niêm yết trên NYSE lẫn công ty niêm yết trên Nasdaq.",
+      "etfList": "🇺🇸 SPY / VOO: Mô phỏng S&P 500, danh sách 500 công ty lớn của Mỹ. Tiêu chuẩn vàng.\n📦 VTI: Toàn bộ thị trường chứng khoán Mỹ, hàng nghìn công ty trong một ETF.\n💡 QQQ: 100 công ty phi tài chính lớn nhất trên Nasdaq. Rất nặng về công nghệ.\n🌍 VT / VXUS: Các công ty toàn cầu hoặc quốc tế trong một quỹ duy nhất.",
+      "currencyHedge": "Nếu đồng đô la mất giá so với các đồng tiền khác, các khoản đầu tư quốc tế của bạn tự động có giá trị CAO HƠN khi tính bằng đô la!",
+      "fxQuizSetup": "Đồng đô la mất giá đáng kể so với đồng euro và đồng yên",
+      "fxQuizLose": "Nó mất giá vì kinh tế Mỹ đang gặp khó khăn",
+      "fxQuizGain": "Nó TĂNG khi tính bằng đô la vì các khoản nắm giữ ở nước ngoài của bạn được lợi về tỷ giá",
+      "dcaTitle": "Bình quân giá bằng đô la",
+      "dcaAbbrev": "DCA",
+      "food": "suất combo Big Mac"
+    },
+    "GB": {
+      "name": "Anh",
+      "cName": "bảng Anh",
+      "cPlural": "bảng Anh",
+      "exDesc": "một trong những sàn chứng khoán lâu đời và quan trọng nhất thế giới",
+      "sectorList": "⚡ Năng lượng: Shell, BP. Những gã khổng lồ dầu khí toàn cầu\n🏦 Ngân hàng: HSBC, Barclays, Lloyds. Làm ăn tốt khi lãi suất cao hơn\n🧴 Tiêu dùng: Unilever, Diageo, Reckitt. Những cường quốc thương hiệu gia dụng\n🛍️ Bán lẻ: Tesco, Sainsbury's. Làm ăn tốt khi người tiêu dùng chi tiêu\n📡 Viễn thông: Vodafone, BT Group. Người ta lúc nào cũng cần kết nối",
+      "etfBasket": "100 công ty lớn nhất trên Sở giao dịch chứng khoán London",
+      "etfDesc": "Ví dụ, FTSE 100 là danh sách 100 công ty lớn nhất trên thị trường chính của Sở giao dịch chứng khoán London, được xét lại mỗi ba tháng.",
+      "etfList": "🇬🇧 iShares Core FTSE 100: 100 công ty lớn nhất trên Sở giao dịch chứng khoán London.\n🌍 Vanguard FTSE All-World: Các công ty từ hàng chục quốc gia chỉ trong một lần mua.\n🇺🇸 iShares Core S&P 500: 500 công ty lớn của Mỹ trong danh sách S&P 500.\n💡 iShares Nasdaq 100: 100 công ty phi tài chính lớn nhất trên Nasdaq. Rất nặng về công nghệ.",
+      "currencyHedge": "Nếu đồng bảng Anh mất giá so với các đồng tiền khác, các khoản đầu tư quốc tế của bạn tự động có giá trị CAO HƠN khi tính bằng bảng Anh!",
+      "fxQuizSetup": "Đồng bảng Anh mất giá đáng kể so với đô la Mỹ và euro",
+      "fxQuizLose": "Nó mất giá vì kinh tế Anh đang gặp khó khăn",
+      "fxQuizGain": "Nó TĂNG khi tính bằng bảng Anh vì các khoản nắm giữ ở nước ngoài của bạn được lợi về tỷ giá",
+      "dcaTitle": "Bình quân giá bằng bảng Anh",
+      "dcaAbbrev": "PCA",
+      "food": "phần gà quarter Nando's"
+    },
+    "IN": {
+      "name": "Ấn Độ",
+      "cName": "rupee",
+      "cPlural": "rupee",
+      "exDesc": "một trong những sàn chứng khoán lớn nhất thế giới tính theo số lượng giao dịch",
+      "sectorList": "💻 Công nghệ: TCS, Infosys, Wipro. Những cường quốc dịch vụ IT toàn cầu\n🏦 Ngân hàng: HDFC Bank, SBI, ICICI. Làm ăn tốt khi lãi suất cao hơn\n🛍️ Tiêu dùng: ITC, Hindustan Unilever, DMart. Làm ăn tốt khi người tiêu dùng chi tiêu\n⚡ Năng lượng: Reliance, ONGC. Gắn với dầu, khí đốt và lọc dầu\n📡 Viễn thông: Airtel, Vodafone Idea. Thị trường di động khổng lồ của Ấn Độ tiếp tục lớn mạnh",
+      "etfBasket": "50 trong số những công ty lớn nhất và được giao dịch sôi động nhất Ấn Độ",
+      "etfDesc": "Ví dụ, Nifty 50 là danh sách 50 trong số những công ty lớn nhất và được giao dịch sôi động nhất Ấn Độ, được chọn theo quy mô VÀ theo mức độ dễ mua bán, chứ không chỉ theo quy mô.",
+      "etfList": "🇮🇳 Nippon India Nifty 50: Nifty 50, danh sách 50 trong số những công ty lớn nhất, giao dịch nhiều nhất Ấn Độ.\n💡 ICICI Prudential Sensex: Sensex, danh sách 30 công ty blue-chip nổi tiếng nhất Ấn Độ.\n📦 Kotak Nifty Next 50: 50 công ty xếp hạng ngay sau Nifty 50.\n🌍 Motilal Oswal Nasdaq 100: 100 công ty phi tài chính lớn nhất trên Nasdaq.",
+      "currencyHedge": "Nếu đồng rupee mất giá so với đô la Mỹ, các khoản đầu tư quốc tế của bạn tự động có giá trị CAO HƠN khi tính bằng rupee!",
+      "fxQuizSetup": "Đồng rupee mất giá từ ₹82 xuống ₹90 so với đô la Mỹ",
+      "fxQuizLose": "Nó mất giá vì kinh tế Ấn Độ đang gặp khó khăn",
+      "fxQuizGain": "Nó TĂNG khi tính bằng rupee vì mỗi đô la đổi được nhiều rupee hơn",
+      "dcaTitle": "Bình quân giá bằng rupee",
+      "dcaAbbrev": "RCA",
+      "food": "chiếc pizza Domino's"
+    },
+    "JP": {
+      "name": "Nhật Bản",
+      "cName": "yên",
+      "cPlural": "yên",
+      "exDesc": "một trong những sàn chứng khoán lớn nhất thế giới",
+      "sectorList": "🚗 Ô tô: Toyota, Honda, Nissan. Những hãng xe nổi tiếng thế giới của Nhật Bản\n💻 Công nghệ: Sony, SoftBank, Nintendo. Game, giải trí và đổi mới\n🏦 Ngân hàng: MUFG, SMFG, Mizuho. Các tập đoàn ngân hàng khổng lồ của Nhật Bản\n🛍️ Bán lẻ: Fast Retailing (Uniqlo), Seven & i. Tầm vóc bán lẻ toàn cầu\n📡 Viễn thông: NTT, KDDI, SoftBank. Hạ tầng di động khổng lồ",
+      "etfBasket": "225 công ty trong danh sách Nikkei 225",
+      "etfDesc": "Ví dụ, Nikkei 225 là danh sách 225 công ty Nhật Bản nổi tiếng được chọn để đại diện cho toàn bộ thị trường. Nó được tính theo trọng số giá, nghĩa là một cổ phiếu có giá cao được tính nặng hơn một công ty chỉ đơn giản là lớn.",
+      "etfList": "🇯🇵 Một ETF Nikkei 225: 225 công ty trong danh sách Nikkei 225. Chỉ số chuẩn.\n📦 Một ETF TOPIX: Một lát cắt rộng hơn nhiều của thị trường Tokyo, hơn một nghìn công ty.\n🌍 MAXIS All Country World: Thị trường phát triển và mới nổi trong một quỹ.\n🇺🇸 iShares S&P 500: 500 công ty lớn của Mỹ trong danh sách S&P 500.",
+      "currencyHedge": "Nếu đồng yên mất giá so với các đồng tiền khác, các khoản đầu tư quốc tế của bạn tự động có giá trị CAO HƠN khi tính bằng yên!",
+      "fxQuizSetup": "Đồng yên mất giá từ ¥130 xuống ¥155 so với đô la Mỹ",
+      "fxQuizLose": "Nó mất giá vì kinh tế Nhật Bản đang gặp khó khăn",
+      "fxQuizGain": "Nó TĂNG khi tính bằng yên vì các khoản nắm giữ ở nước ngoài của bạn được lợi về tỷ giá",
+      "dcaTitle": "Bình quân giá bằng yên",
+      "dcaAbbrev": "YCA",
+      "food": "bát ramen"
+    },
+    "DE": {
+      "name": "Đức",
+      "cName": "euro",
+      "cPlural": "euro",
+      "exDesc": "một trong những sàn chứng khoán lớn nhất châu Âu",
+      "sectorList": "💻 Công nghệ: SAP, Infineon. Phần mềm doanh nghiệp và chất bán dẫn\n🚗 Ô tô: Volkswagen, BMW, Mercedes-Benz. Niềm tự hào kỹ thuật của Đức\n🏦 Ngân hàng: Deutsche Bank, Commerzbank. Làm ăn tốt khi lãi suất tăng\n🏭 Công nghiệp: Siemens, BASF. Sản xuất và hóa chất toàn cầu\n📡 Viễn thông: Deutsche Telekom, 1&1. Xương sống kết nối của Đức",
+      "etfBasket": "40 công ty Đức lớn nhất trên sàn Frankfurt",
+      "etfDesc": "Ví dụ, DAX 40 là danh sách 40 công ty Đức lớn nhất trên sàn Frankfurt, và từ năm 2021 các công ty này còn phải có lãi mới đủ điều kiện.",
+      "etfList": "🇩🇪 iShares Core DAX: 40 công ty Đức lớn nhất trên sàn Frankfurt.\n🌍 Xtrackers MSCI World: Các công ty từ 23 quốc gia phát triển.\n🇺🇸 iShares Core S&P 500: 500 công ty lớn của Mỹ trong danh sách S&P 500.\n🇪🇺 Một ETF EURO STOXX 50: 50 công ty blue-chip hàng đầu khắp khu vực đồng euro.",
+      "currencyHedge": "Nếu đồng euro mất giá so với các đồng tiền khác, các khoản đầu tư quốc tế của bạn tự động có giá trị CAO HƠN khi tính bằng euro!",
+      "fxQuizSetup": "Đồng euro mất giá đáng kể so với đô la Mỹ và đồng yên",
+      "fxQuizLose": "Nó mất giá vì kinh tế châu Âu đang gặp khó khăn",
+      "fxQuizGain": "Nó TĂNG khi tính bằng euro vì các khoản nắm giữ ở nước ngoài của bạn được lợi về tỷ giá",
+      "dcaTitle": "Bình quân giá vốn",
+      "dcaAbbrev": "DCA",
+      "food": "chiếc bánh döner kebab"
+    },
+    "CA": {
+      "name": "Canada",
+      "cName": "đô la Canada",
+      "cPlural": "đô la Canada",
+      "exDesc": "một trong 10 sàn chứng khoán lớn nhất thế giới",
+      "sectorList": "💻 Công nghệ: Shopify, OpenText, Constellation Software. Đổi mới công nghệ của Canada\n🏦 Ngân hàng: RBC, TD, BMO, Scotiabank. Năm ngân hàng lớn của Canada vững như bàn thạch\n⚡ Năng lượng: Enbridge, Suncor, TC Energy. Những gã khổng lồ về cát dầu và đường ống\n🛍️ Bán lẻ: Dollarama, Canadian Tire, Loblaw. Các thương hiệu bán lẻ nội địa\n📡 Viễn thông: BCE, Rogers, Telus. Người Canada lúc nào cũng cần kết nối",
+      "etfBasket": "60 công ty lớn của Canada thuộc mọi ngành chính",
+      "etfDesc": "Ví dụ, S&P/TSX 60 là danh sách 60 công ty lớn của Canada do một hội đồng lựa chọn sao cho mọi ngành chính đều có đại diện, nghĩa là nó không đơn giản là 60 công ty lớn nhất.",
+      "etfList": "🇨🇦 iShares S&P/TSX 60 (XIU): 60 công ty lớn của Canada thuộc mọi ngành chính.\n📦 Vanguard All-Equity (VEQT): Cổ phiếu Canada, Mỹ và quốc tế trong một ETF.\n🇺🇸 BMO S&P 500: 500 công ty lớn của Mỹ trong danh sách S&P 500.\n💡 Một ETF Nasdaq 100: 100 công ty phi tài chính lớn nhất trên Nasdaq. Rất nặng về công nghệ.",
+      "currencyHedge": "Nếu đồng đô la Canada mất giá so với các đồng tiền khác, các khoản đầu tư quốc tế của bạn tự động có giá trị CAO HƠN khi tính bằng C$!",
+      "fxQuizSetup": "Đồng đô la Canada mất giá đáng kể so với đô la Mỹ",
+      "fxQuizLose": "Nó mất giá vì kinh tế Canada đang gặp khó khăn",
+      "fxQuizGain": "Nó TĂNG khi tính bằng đô la Canada vì các khoản nắm giữ ở nước ngoài của bạn được lợi về tỷ giá",
+      "dcaTitle": "Bình quân giá bằng đô la",
+      "dcaAbbrev": "DCA",
+      "food": "suất combo Tim Hortons"
+    },
+    "AU": {
+      "name": "Úc",
+      "cName": "đô la Úc",
+      "cPlural": "đô la Úc",
+      "exDesc": "sàn chứng khoán lớn nhất Nam Bán cầu",
+      "sectorList": "⛏️ Khai khoáng: BHP, Rio Tinto, Fortescue. Những gã khổng lồ khai khoáng và tài nguyên toàn cầu\n🏦 Ngân hàng: CBA, Westpac, ANZ, NAB. Bốn ngân hàng lớn của Úc\n🏥 Y tế: CSL, Cochlear. Công nghệ sinh học và thiết bị y tế đẳng cấp thế giới\n🛍️ Bán lẻ: Woolworths, Coles, Wesfarmers. Thực phẩm và hàng tiêu dùng thiết yếu\n💻 Công nghệ: WiseTech Global, Xero. Những câu chuyện thành công về phần mềm niêm yết tại Úc",
+      "etfBasket": "200 công ty lớn nhất trên sàn ASX",
+      "etfDesc": "Ví dụ, S&P/ASX 200 là danh sách 200 công ty niêm yết lớn nhất trên sàn ASX, đo bằng giá trị số cổ phiếu có thể giao dịch và được sàng lọc theo mức độ dễ mua bán.",
+      "etfList": "🇦🇺 iShares Core S&P/ASX 200 (IOZ): 200 công ty lớn nhất trên sàn ASX.\n📦 Vanguard Australian Shares (VAS): Rộng hơn nữa, khoảng 300 công ty trên ASX.\n🌍 Vanguard MSCI International (VGS): Các công ty ở thị trường phát triển ngoài nước Úc.\n🇺🇸 BetaShares Nasdaq 100 (NDQ): 100 công ty phi tài chính lớn nhất trên Nasdaq.",
+      "currencyHedge": "Nếu đồng đô la Úc mất giá so với các đồng tiền khác, các khoản đầu tư quốc tế của bạn tự động có giá trị CAO HƠN khi tính bằng A$!",
+      "fxQuizSetup": "Đồng đô la Úc mất giá đáng kể so với đô la Mỹ",
+      "fxQuizLose": "Nó mất giá vì kinh tế Úc đang gặp khó khăn",
+      "fxQuizGain": "Nó TĂNG khi tính bằng A$ vì các khoản nắm giữ ở nước ngoài của bạn được lợi về tỷ giá",
+      "dcaTitle": "Bình quân giá bằng đô la",
+      "dcaAbbrev": "DCA",
+      "food": "chiếc bánh nướng nhân thịt"
+    },
+    "HK": {
+      "name": "Hồng Kông",
+      "cName": "đô la Hồng Kông",
+      "cPlural": "đô la Hồng Kông",
+      "exDesc": "sàn chứng khoán cửa ngõ giữa Trung Quốc và các thị trường toàn cầu",
+      "sectorList": "💻 Công nghệ: Tencent, Xiaomi, Meituan. Những gã khổng lồ công nghệ Trung Quốc niêm yết tại Hồng Kông\n🏦 Ngân hàng: HSBC, Hang Seng Bank. Làm ăn tốt khi lãi suất tăng\n🏗️ Bất động sản: CK Asset, Sun Hung Kai. Bất động sản là vua ở Hồng Kông\n⚡ Tiện ích: CLP, Power Assets. Cổ tức ổn định năm này qua năm khác\n🛡️ Bảo hiểm: AIA, Prudential. Những công ty bảo hiểm dẫn đầu châu Á - Thái Bình Dương",
+      "etfBasket": "những công ty lớn nhất và được giao dịch sôi động nhất Hồng Kông",
+      "etfDesc": "Ví dụ, chỉ số Hang Seng là danh sách chọn lọc những công ty lớn nhất và được giao dịch sôi động nhất Hồng Kông, được chọn để đại diện cho mọi ngành chính. Số công ty trong danh sách thay đổi khi hội đồng chỉ số thêm vào và loại bỏ các cái tên.",
+      "etfList": "🇭🇰 Tracker Fund (2800): Mô phỏng chỉ số Hang Seng. ETF tiên phong của Hồng Kông.\n💡 Hang Seng TECH ETF: 30 công ty công nghệ lớn nhất niêm yết tại Hồng Kông.\n🇺🇸 Một ETF S&P 500: 500 công ty lớn của Mỹ trong danh sách S&P 500.\n🇨🇳 Một ETF cổ phiếu A Trung Quốc: Tiếp cận các công ty niêm yết tại Thượng Hải và Thâm Quyến.",
+      "currencyHedge": "Đô la Hồng Kông được neo vào đô la Mỹ, nên một quỹ toàn cầu nặng về Mỹ hầu như không biến động chỉ vì tỷ giá. Nhưng phần ngoài Mỹ (châu Âu, Nhật Bản, phần còn lại của châu Á) vẫn tăng giá trị khi tính bằng HK$ lúc các đồng tiền đó mạnh lên!",
+      "fxQuizSetup": "Đồng euro và đồng yên mạnh lên so với đô la Mỹ, và đô la Hồng Kông được neo vào đô la Mỹ",
+      "fxQuizLose": "Nó mất giá vì kinh tế Hồng Kông đang gặp khó khăn",
+      "fxQuizGain": "Phần châu Âu và Nhật Bản TĂNG khi tính bằng HK$, vì các đồng tiền đó giờ đổi được nhiều đô la Hồng Kông hơn",
+      "dcaTitle": "Bình quân giá bằng đô la",
+      "dcaAbbrev": "DCA",
+      "food": "bát mì hoành thánh"
+    },
+    "CN": {
+      "name": "Trung Quốc",
+      "cName": "nhân dân tệ",
+      "cPlural": "nhân dân tệ",
+      "exDesc": "một trong những sàn chứng khoán lớn nhất thế giới tính theo vốn hóa thị trường",
+      "sectorList": "💻 Công nghệ: SMIC, Kingsoft Office. Sản xuất chip và phần mềm niêm yết tại Thượng Hải\n🏦 Ngân hàng: ICBC, CCB, Bank of China. Nằm trong số những ngân hàng lớn nhất thế giới tính theo tài sản\n🚗 Ô tô: SAIC Motor, Great Wall Motor. Những hãng xe nội địa của Trung Quốc\n🛍️ Tiêu dùng: Kweichow Moutai, Haier, Yili. Những cái tên quen thuộc khắp Trung Quốc\n📡 Viễn thông: China Mobile, China Telecom. Mạng di động khổng lồ",
+      "etfBasket": "300 trong số những công ty lớn nhất, được giao dịch sôi động nhất ở Trung Quốc đại lục",
+      "etfDesc": "Ví dụ, CSI 300 là danh sách 300 trong số những công ty lớn nhất và được giao dịch sôi động nhất ở Trung Quốc đại lục, và nó bao gồm CẢ sàn Thượng Hải lẫn sàn Thâm Quyến, chứ không chỉ một trong hai.",
+      "etfList": "🇨🇳 Huatai-PB CSI 300 (510300): 300 công ty lớn, được giao dịch sôi động trên cả Thượng Hải và Thâm Quyến.\n💡 ChinaAMC SSE 50 (510050): 50 công ty lớn nhất chỉ riêng trên sàn Thượng Hải.\n🌍 Một quỹ cổ phiếu Trung Quốc diện rộng: Phạm vi rộng hơn CSI 300.\n🇺🇸 Một quỹ QDII S&P 500: Tiếp cận 500 công ty lớn của Mỹ trong danh sách S&P 500.",
+      "currencyHedge": "Nếu đồng nhân dân tệ mất giá so với các đồng tiền khác, các khoản đầu tư quốc tế của bạn tự động có giá trị CAO HƠN khi tính bằng nhân dân tệ!",
+      "fxQuizSetup": "Đồng nhân dân tệ mất giá đáng kể so với đô la Mỹ và euro",
+      "fxQuizLose": "Nó mất giá vì kinh tế Trung Quốc đang gặp khó khăn",
+      "fxQuizGain": "Nó TĂNG khi tính bằng nhân dân tệ vì các khoản nắm giữ ở nước ngoài của bạn được lợi về tỷ giá",
+      "dcaTitle": "Bình quân giá bằng nhân dân tệ",
+      "dcaAbbrev": "YCA",
+      "food": "bát mì"
+    },
+    "FR": {
+      "name": "Pháp",
+      "cName": "euro",
+      "cPlural": "euro",
+      "exDesc": "quê hương của một số thương hiệu xa xỉ và công nghiệp mang tính biểu tượng nhất thế giới",
+      "sectorList": "👜 Xa xỉ: LVMH, Hermès, Kering. Pháp thống trị ngành hàng xa xỉ toàn cầu\n⚡ Năng lượng: TotalEnergies, Engie. Các công ty năng lượng lớn của châu Âu\n🏦 Ngân hàng: BNP Paribas, Société Générale. Làm ăn tốt khi lãi suất tăng\n✈️ Hàng không vũ trụ: Airbus, Safran. Máy bay và quốc phòng hàng đầu thế giới\n📡 Viễn thông: Orange, Bouygues. Xương sống kết nối của Pháp",
+      "etfBasket": "40 công ty trong danh sách CAC 40",
+      "etfDesc": "Ví dụ, CAC 40 là danh sách 40 công ty do một hội đồng độc lập chọn ra từ 100 công ty lớn nhất trên sàn Paris, dựa trên quy mô VÀ mức độ giao dịch sôi động.",
+      "etfList": "🇫🇷 Amundi CAC 40: 40 công ty trong danh sách CAC 40. Chỉ số chuẩn.\n🌍 Một ETF MSCI World: Các công ty từ 23 quốc gia phát triển.\n🇺🇸 BNP Paribas Easy S&P 500: 500 công ty lớn của Mỹ trong danh sách S&P 500.\n🇪🇺 Một ETF EURO STOXX 50: 50 công ty blue-chip hàng đầu khắp khu vực đồng euro.",
+      "currencyHedge": "Nếu đồng euro mất giá so với các đồng tiền khác, các khoản đầu tư quốc tế của bạn tự động có giá trị CAO HƠN khi tính bằng euro!",
+      "fxQuizSetup": "Đồng euro mất giá đáng kể so với đô la Mỹ và đồng yên",
+      "fxQuizLose": "Nó mất giá vì kinh tế châu Âu đang gặp khó khăn",
+      "fxQuizGain": "Nó TĂNG khi tính bằng euro vì các khoản nắm giữ ở nước ngoài của bạn được lợi về tỷ giá",
+      "dcaTitle": "Bình quân giá vốn",
+      "dcaAbbrev": "DCA",
+      "food": "chiếc bánh croque-monsieur"
+    },
+    "IT": {
+      "name": "Ý",
+      "cName": "euro",
+      "cPlural": "euro",
+      "exDesc": "một trong những sàn chứng khoán lâu đời nhất châu Âu, quê hương của những thương hiệu Ý mang tính biểu tượng",
+      "sectorList": "🏎️ Ô tô: Ferrari, Stellantis. Tinh hoa kỹ thuật Ý\n⚡ Năng lượng: Enel, Eni. Các công ty năng lượng và tiện ích lớn của châu Âu\n🏦 Ngân hàng: UniCredit, Intesa Sanpaolo. Làm ăn tốt khi lãi suất tăng\n🛡️ Bảo hiểm: Generali, Unipol. Những gã khổng lồ bảo hiểm của Ý\n📡 Viễn thông: TIM, Inwit. Hạ tầng kết nối của Ý",
+      "etfBasket": "40 công ty trong danh sách FTSE MIB",
+      "etfDesc": "Ví dụ, FTSE MIB là danh sách 40 trong số những công ty lớn nhất và được giao dịch sôi động nhất trên sàn Milan, được chọn để bao quát các ngành chính của Ý.",
+      "etfList": "🇮🇹 Một ETF FTSE MIB: 40 công ty trong danh sách FTSE MIB.\n🌍 iShares Core MSCI World: Các công ty từ 23 quốc gia phát triển.\n🇺🇸 Amundi S&P 500: 500 công ty lớn của Mỹ trong danh sách S&P 500.\n🇪🇺 Xtrackers EURO STOXX 50: 50 công ty blue-chip hàng đầu khắp khu vực đồng euro.",
+      "currencyHedge": "Nếu đồng euro mất giá so với các đồng tiền khác, các khoản đầu tư quốc tế của bạn tự động có giá trị CAO HƠN khi tính bằng euro!",
+      "fxQuizSetup": "Đồng euro mất giá đáng kể so với đô la Mỹ và đồng yên",
+      "fxQuizLose": "Nó mất giá vì kinh tế châu Âu đang gặp khó khăn",
+      "fxQuizGain": "Nó TĂNG khi tính bằng euro vì các khoản nắm giữ ở nước ngoài của bạn được lợi về tỷ giá",
+      "dcaTitle": "Bình quân giá vốn",
+      "dcaAbbrev": "DCA",
+      "food": "chiếc pizza margherita"
+    },
+    "ES": {
+      "name": "Tây Ban Nha",
+      "cName": "euro",
+      "cPlural": "euro",
+      "exDesc": "sàn chứng khoán chính của Tây Ban Nha và cửa ngõ vào các thị trường Mỹ Latinh",
+      "sectorList": "👗 Thời trang & làm đẹp: Inditex (Zara), Puig. Đế chế phong cách toàn cầu của Tây Ban Nha\n🏦 Ngân hàng: Santander, BBVA, CaixaBank. Các ngân hàng Tây Ban Nha có tầm vóc toàn cầu khổng lồ\n⚡ Năng lượng: Iberdrola, Endesa. Những công ty dẫn đầu về năng lượng tái tạo ở châu Âu\n📡 Viễn thông: Telefónica, Cellnex. Xương sống kết nối của Tây Ban Nha\n🏗️ Hạ tầng: Ferrovial, ACS. Xây dựng hạ tầng khắp thế giới",
+      "etfBasket": "35 công ty được giao dịch sôi động nhất ở Tây Ban Nha",
+      "etfDesc": "Ví dụ, IBEX 35 là danh sách 35 cổ phiếu Tây Ban Nha được giao dịch sôi động nhất, do một hội đồng kỹ thuật lựa chọn dựa trên khối lượng giao dịch. Vì vậy đây là danh sách giao dịch nhiều nhất, không phải danh sách lớn nhất.",
+      "etfList": "🇪🇸 Một ETF IBEX 35: 35 cổ phiếu Tây Ban Nha được giao dịch sôi động nhất.\n🌍 iShares Core MSCI World: Các công ty từ 23 quốc gia phát triển.\n🇺🇸 Vanguard S&P 500: 500 công ty lớn của Mỹ trong danh sách S&P 500.\n🇪🇺 Một ETF EURO STOXX 50: 50 công ty blue-chip hàng đầu khắp khu vực đồng euro.",
+      "currencyHedge": "Nếu đồng euro mất giá so với các đồng tiền khác, các khoản đầu tư quốc tế của bạn tự động có giá trị CAO HƠN khi tính bằng euro!",
+      "fxQuizSetup": "Đồng euro mất giá đáng kể so với đô la Mỹ và đồng yên",
+      "fxQuizLose": "Nó mất giá vì kinh tế châu Âu đang gặp khó khăn",
+      "fxQuizGain": "Nó TĂNG khi tính bằng euro vì các khoản nắm giữ ở nước ngoài của bạn được lợi về tỷ giá",
+      "dcaTitle": "Bình quân giá vốn",
+      "dcaAbbrev": "DCA",
+      "food": "đĩa tapas"
+    },
+    "NL": {
+      "name": "Hà Lan",
+      "cName": "euro",
+      "cPlural": "euro",
+      "exDesc": "sàn chứng khoán lâu đời nhất thế giới, thành lập năm 1602",
+      "sectorList": "💻 Công nghệ: ASML, Adyen. ASML là động lực đằng sau những con chip tiên tiến nhất thế giới\n⚡ Năng lượng: Shell, SBM Offshore. Những gã khổng lồ năng lượng toàn cầu đặt trụ sở tại Hà Lan\n🏦 Ngân hàng: ING, ABN AMRO. Làm ăn tốt khi lãi suất tăng\n🍺 Tiêu dùng: Heineken, Ahold Delhaize. Các thương hiệu thực phẩm và đồ uống toàn cầu\n📡 Viễn thông: KPN, nhà cung cấp kết nối niêm yết lớn nhất cả nước",
+      "etfBasket": "25 công ty được giao dịch sôi động nhất ở Amsterdam",
+      "etfDesc": "Ví dụ, AEX là danh sách 25 cổ phiếu được giao dịch sôi động nhất trên sàn Amsterdam. Nó xếp hạng các công ty theo mức độ được giao dịch, không phải theo quy mô.",
+      "etfList": "🇳🇱 iShares AEX: 25 cổ phiếu được giao dịch sôi động nhất ở Amsterdam.\n🌍 Vanguard FTSE All-World: Các công ty từ hàng chục quốc gia chỉ trong một lần mua.\n🇺🇸 iShares Core S&P 500: 500 công ty lớn của Mỹ trong danh sách S&P 500.\n🇪🇺 Một ETF EURO STOXX 50: 50 công ty blue-chip hàng đầu khắp khu vực đồng euro.",
+      "currencyHedge": "Nếu đồng euro mất giá so với các đồng tiền khác, các khoản đầu tư quốc tế của bạn tự động có giá trị CAO HƠN khi tính bằng euro!",
+      "fxQuizSetup": "Đồng euro mất giá đáng kể so với đô la Mỹ và đồng yên",
+      "fxQuizLose": "Nó mất giá vì kinh tế châu Âu đang gặp khó khăn",
+      "fxQuizGain": "Nó TĂNG khi tính bằng euro vì các khoản nắm giữ ở nước ngoài của bạn được lợi về tỷ giá",
+      "dcaTitle": "Bình quân giá vốn",
+      "dcaAbbrev": "DCA",
+      "food": "chiếc bánh kroket"
+    },
+    "BR": {
+      "name": "Brazil",
+      "cName": "real",
+      "cPlural": "real",
+      "exDesc": "sàn chứng khoán lớn nhất Mỹ Latinh",
+      "sectorList": "⛏️ Khai khoáng: Vale, CSN. Những gã khổng lồ quặng sắt và thép của Brazil\n⚡ Năng lượng: Petrobras, Eletrobras. Các công ty dầu khí và điện lực lớn\n🏦 Ngân hàng: Itaú, Bradesco, Banco do Brasil. Làm ăn tốt khi lãi suất tăng\n🍺 Tiêu dùng: Ambev, JBS. Những cường quốc thực phẩm và đồ uống\n📡 Viễn thông: Vivo, TIM Brasil. Các nhà cung cấp di động và băng thông rộng của Brazil",
+      "etfBasket": "những công ty được giao dịch sôi động nhất trên sàn B3",
+      "etfDesc": "Ví dụ, Ibovespa là danh sách những công ty được giao dịch sôi động nhất trên sàn B3. Một công ty giành được chỗ trong danh sách nhờ mức độ được mua bán, không phải nhờ quy mô. Vì vậy số công ty trong danh sách thay đổi theo thời gian.",
+      "etfList": "🇧🇷 BOVA11: Mô phỏng Ibovespa, những công ty được giao dịch sôi động nhất trên B3. Chỉ số chuẩn.\n🇺🇸 IVVB11: Mô phỏng S&P 500. Tức là 500 công ty lớn của Mỹ, được định giá bằng real.\n🌍 Một ETF cổ phiếu toàn cầu: Thị trường phát triển và mới nổi chỉ trong một lần mua.\n💡 HASH11: Một quỹ chỉ số crypto nắm giữ Bitcoin, Ethereum và nhiều đồng khác.",
+      "currencyHedge": "Nếu đồng real mất giá so với đô la Mỹ, các khoản đầu tư quốc tế của bạn tự động có giá trị CAO HƠN khi tính bằng R$!",
+      "fxQuizSetup": "Đồng real Brazil mất giá từ R$5 xuống R$6 so với đô la Mỹ",
+      "fxQuizLose": "Nó mất giá vì kinh tế Brazil đang gặp khó khăn",
+      "fxQuizGain": "Nó TĂNG khi tính bằng real vì mỗi đô la đổi được nhiều real hơn",
+      "dcaTitle": "Bình quân giá bằng real",
+      "dcaAbbrev": "RCA",
+      "food": "suất combo bánh pão de queijo"
+    },
+    "SA_ARABIA": {
+      "name": "Ả Rập Xê Út",
+      "cName": "riyal",
+      "cPlural": "riyal",
+      "exDesc": "sàn chứng khoán lớn nhất Trung Đông",
+      "sectorList": "🛢️ Năng lượng: Saudi Aramco, SABIC. Aramco là công ty dầu mỏ giá trị nhất thế giới\n🏦 Ngân hàng: Al Rajhi, SNB, Riyad Bank. Làm ăn tốt khi lãi suất tăng\n📡 Viễn thông: STC, Mobily. Các nhà cung cấp di động và băng thông rộng của Ả Rập Xê Út\n🛍️ Bán lẻ: Jarir, Extra. Các chuỗi bán lẻ tiêu dùng được ưa chuộng\n⛏️ Vật liệu: Ma'aden, Yansab. Khai khoáng và hóa dầu",
+      "etfBasket": "mọi công ty niêm yết trên thị trường chính của Tadawul",
+      "etfDesc": "TASI (Tadawul All Share Index) hoàn toàn không phải danh sách top 30 hay top 100. Nó bao gồm mọi công ty niêm yết trên thị trường chính của Tadawul, nên số công ty trong đó thay đổi mỗi khi có công ty niêm yết hoặc rời sàn.",
+      "etfList": "🇸🇦 Một ETF mô phỏng TASI: Tiếp cận rộng toàn bộ thị trường chính của Tadawul.\n📦 Một ETF blue-chip Ả Rập Xê Út: Một giỏ nhỏ hơn nhiều gồm những cái tên lớn nhất của Ả Rập Xê Út.\n🌍 Một ETF MSCI Saudi Arabia: Mô phỏng chỉ số Ả Rập Xê Út của MSCI, một phần thị trường đã qua sàng lọc.\n🇺🇸 Một quỹ S&P 500: 500 công ty lớn của Mỹ trong danh sách S&P 500.",
+      "currencyHedge": "Vì đồng riyal được neo vào đô la Mỹ, đầu tư toàn cầu bằng các đồng tiền khác sẽ có lợi cho bạn khi các đồng tiền đó mạnh lên!",
+      "fxQuizSetup": "Các đồng tiền toàn cầu như euro và yên mạnh lên so với đồng riyal",
+      "fxQuizLose": "Nó mất giá vì kinh tế Ả Rập Xê Út đang gặp khó khăn",
+      "fxQuizGain": "Nó TĂNG khi tính bằng riyal vì các khoản nắm giữ ở nước ngoài của bạn được lợi về tỷ giá",
+      "dcaTitle": "Bình quân giá bằng riyal",
+      "dcaAbbrev": "RCA",
+      "food": "suất ăn Al Baik"
+    },
+    "KR": {
+      "name": "Hàn Quốc",
+      "cName": "won",
+      "cPlural": "won",
+      "exDesc": "quê hương của Samsung, Hyundai và một số công ty sáng tạo nhất châu Á",
+      "sectorList": "💻 Công nghệ: Samsung, SK Hynix, Kakao. Dẫn đầu thế giới về công nghệ và chip\n🚗 Ô tô: Hyundai, Kia. Những hãng xe nổi tiếng thế giới của Hàn Quốc\n🏦 Ngân hàng: KB Financial, Shinhan. Làm ăn tốt khi lãi suất tăng\n🎶 Giải trí: HYBE, CJ ENM. Làn sóng văn hóa K-pop và K-drama toàn cầu\n📡 Viễn thông: KT, LG Uplus. Kết nối siêu nhanh của Hàn Quốc",
+      "etfBasket": "200 trong số những công ty lớn nhất và được giao dịch sôi động nhất Hàn Quốc",
+      "etfDesc": "Ví dụ, KOSPI 200 là danh sách 200 trong số những công ty lớn nhất và được giao dịch sôi động nhất Hàn Quốc, được chọn theo từng ngành để mọi phần của thị trường đều có đại diện.",
+      "etfList": "🇰🇷 KODEX 200: Mô phỏng KOSPI 200, danh sách 200 trong số những công ty lớn nhất, giao dịch nhiều nhất Hàn Quốc.\n🌍 Một ETF cổ phiếu toàn cầu: Các công ty ở thị trường phát triển chỉ trong một lần mua.\n🇺🇸 TIGER Nasdaq 100: 100 công ty phi tài chính lớn nhất trên Nasdaq.\n💡 KODEX Samsung Group: Mô phỏng các công ty con niêm yết của Samsung.",
+      "currencyHedge": "Nếu đồng won mất giá so với các đồng tiền khác, các khoản đầu tư quốc tế của bạn tự động có giá trị CAO HƠN khi tính bằng won!",
+      "fxQuizSetup": "Đồng won mất giá từ ₩1,300 xuống ₩1,400 so với đô la Mỹ",
+      "fxQuizLose": "Nó mất giá vì kinh tế Hàn Quốc đang gặp khó khăn",
+      "fxQuizGain": "Nó TĂNG khi tính bằng won vì mỗi đô la đổi được nhiều won hơn",
+      "dcaTitle": "Bình quân giá bằng won",
+      "dcaAbbrev": "WCA",
+      "food": "bát bibimbap"
+    },
+    "TW": {
+      "name": "Đài Loan",
+      "cName": "Đài tệ",
+      "cPlural": "Đài tệ",
+      "exDesc": "quê hương của TSMC, công ty sản xuất phần lớn những con chip tiên tiến nhất thế giới",
+      "sectorList": "💻 Công nghệ: TSMC, MediaTek, ASUS. Đài Loan sản xuất chip cho cả thế giới\n🏭 Sản xuất: Hon Hai (Foxconn), Delta. Những gã khổng lồ sản xuất điện tử\n🏦 Ngân hàng: Cathay Financial, Fubon. Làm ăn tốt khi lãi suất tăng\n🧪 Hóa chất: Formosa Plastics, Nan Ya. Dẫn đầu về vật liệu công nghiệp\n📡 Viễn thông: Chunghwa Telecom, Far EasTone. Xương sống kết nối của Đài Loan",
+      "etfBasket": "50 công ty lớn nhất trên Sở giao dịch chứng khoán Đài Loan",
+      "etfDesc": "Đài Loan có hai danh sách rất khác nhau. TAIEX bao gồm mọi công ty niêm yết trên Sở giao dịch chứng khoán Đài Loan, khoảng một nghìn công ty. Taiwan 50, chỉ số mà ETF 0050 nổi tiếng mô phỏng, chỉ gồm 50 công ty lớn nhất.",
+      "etfList": "🇹🇼 0050 (Yuanta Taiwan Top 50): 50 công ty lớn nhất trên sàn Đài Loan. Kinh điển.\n📦 0056 (Yuanta High Dividend): Cổ phiếu Đài Loan được chọn theo tỷ suất cổ tức dự kiến.\n🇺🇸 00646 (Yuanta S&P 500): 500 công ty lớn của Mỹ trong danh sách S&P 500.\n💡 00662 (Fubon Nasdaq 100): 100 công ty phi tài chính lớn nhất trên Nasdaq.",
+      "currencyHedge": "Nếu Đài tệ mất giá so với các đồng tiền khác, các khoản đầu tư quốc tế của bạn tự động có giá trị CAO HƠN khi tính bằng NT$!",
+      "fxQuizSetup": "Đài tệ mất giá từ NT$30 xuống NT$34 so với đô la Mỹ",
+      "fxQuizLose": "Nó mất giá vì kinh tế Đài Loan đang gặp khó khăn",
+      "fxQuizGain": "Nó TĂNG khi tính bằng NT$ vì các khoản nắm giữ ở nước ngoài của bạn được lợi về tỷ giá",
+      "dcaTitle": "Bình quân giá bằng đô la",
+      "dcaAbbrev": "DCA",
+      "food": "bát mì bò"
+    },
+    "SG": {
+      "name": "Singapore",
+      "cName": "đô la Singapore",
+      "cPlural": "đô la Singapore",
+      "exDesc": "trung tâm tài chính và sàn chứng khoán hàng đầu Đông Nam Á",
+      "sectorList": "🏦 Ngân hàng: DBS, OCBC, UOB. Bộ ba ngân hàng vững như bàn thạch của Singapore\n✈️ Vận tải: Singapore Airlines, SATS. Hàng không đẳng cấp thế giới\n🏗️ Bất động sản: CapitaLand, City Developments. Bất động sản cực kỳ lớn ở Singapore\n💻 Công nghệ: Venture Corporation, AEM. Cổ phiếu công nghệ trên SGX chủ yếu là sản xuất điện tử; Sea và Grab đã chọn niêm yết ở Mỹ\n📡 Viễn thông: Singtel, StarHub. Các nhà cung cấp kết nối của Singapore",
+      "etfBasket": "30 công ty lớn nhất trên Sở giao dịch Singapore",
+      "etfDesc": "Ví dụ, Straits Times Index là danh sách 30 công ty lớn nhất trên Sở giao dịch Singapore đồng thời vượt qua các bài kiểm tra về tỷ lệ cổ phiếu tự do chuyển nhượng và thanh khoản.",
+      "etfList": "🇸🇬 Nikko AM STI ETF: 30 công ty lớn nhất trên Sở giao dịch Singapore. Chỉ số chuẩn.\n📦 ABF Singapore Bond Index Fund: Trái phiếu chính phủ Singapore trong một quỹ.\n🌏 iShares MSCI Asia ex Japan: Tiếp cận rộng các thị trường châu Á.\n🇺🇸 Một ETF S&P 500: 500 công ty lớn của Mỹ trong danh sách S&P 500.",
+      "currencyHedge": "Nếu đồng đô la Singapore mất giá so với các đồng tiền khác, các khoản đầu tư quốc tế của bạn tự động có giá trị CAO HƠN khi tính bằng S$!",
+      "fxQuizSetup": "Đồng đô la Singapore mất giá đáng kể so với đô la Mỹ",
+      "fxQuizLose": "Nó mất giá vì kinh tế Singapore đang gặp khó khăn",
+      "fxQuizGain": "Nó TĂNG khi tính bằng S$ vì các khoản nắm giữ ở nước ngoài của bạn được lợi về tỷ giá",
+      "dcaTitle": "Bình quân giá bằng đô la",
+      "dcaAbbrev": "DCA",
+      "food": "suất ăn ở hawker centre"
+    },
+    "CH": {
+      "name": "Thụy Sĩ",
+      "cName": "franc",
+      "cPlural": "franc",
+      "exDesc": "quê hương của Nestlé, Novartis và Roche, ba trong số những công ty giá trị nhất châu Âu",
+      "sectorList": "💊 Dược phẩm: Novartis, Roche. Những cường quốc dược phẩm toàn cầu\n🍫 Tiêu dùng: Nestlé, Lindt. Những thương hiệu thực phẩm mang tính biểu tượng nhất thế giới\n🏦 Ngân hàng: UBS, Julius Baer. Ngành ngân hàng Thụy Sĩ là huyền thoại\n🏭 Công nghiệp: ABB, Holcim. Kỹ thuật và xây dựng toàn cầu\n📡 Viễn thông: Swisscom, Sunrise. Các nhà cung cấp kết nối của Thụy Sĩ",
+      "etfBasket": "20 công ty Thụy Sĩ lớn nhất và được giao dịch sôi động nhất",
+      "etfDesc": "Ví dụ, Swiss Market Index là danh sách 20 công ty Thụy Sĩ lớn nhất và được giao dịch sôi động nhất.",
+      "etfList": "🇨🇭 iShares Core SPI: Toàn bộ thị trường Thụy Sĩ, không chỉ những cái tên lớn.\n💡 Một ETF SMI: 20 công ty Thụy Sĩ lớn nhất, được giao dịch sôi động nhất.\n🌍 UBS ETF MSCI World: Các công ty từ 23 quốc gia phát triển.\n🇺🇸 iShares Core S&P 500: 500 công ty lớn của Mỹ trong danh sách S&P 500.",
+      "currencyHedge": "Nếu đồng franc mất giá so với các đồng tiền khác, các khoản đầu tư quốc tế của bạn có giá trị CAO HƠN khi tính bằng CHF. Đồng franc Thụy Sĩ thường rất mạnh!",
+      "fxQuizSetup": "Đồng franc Thụy Sĩ mất giá đáng kể so với đô la Mỹ và euro",
+      "fxQuizLose": "Nó mất giá vì kinh tế Thụy Sĩ đang gặp khó khăn",
+      "fxQuizGain": "Nó TĂNG khi tính bằng franc vì các khoản nắm giữ ở nước ngoài của bạn được lợi về tỷ giá",
+      "dcaTitle": "Bình quân giá bằng franc",
+      "dcaAbbrev": "FCA",
+      "food": "chiếc bánh kebab"
+    },
+    "SE": {
+      "name": "Thụy Điển",
+      "cName": "krona",
+      "cPlural": "krona",
+      "exDesc": "quê hương của Ericsson, Volvo và một số lượng thương hiệu toàn cầu đáng ngạc nhiên",
+      "sectorList": "💻 Công nghệ: Ericsson, Hexagon. Thụy Điển mạnh vượt tầm vóc trong lĩnh vực công nghệ\n🚗 Ô tô: Volvo, Volvo Cars. Tinh hoa kỹ thuật Thụy Điển\n🏦 Ngân hàng: SEB, Handelsbanken, Nordea. Làm ăn tốt khi lãi suất tăng\n👗 Bán lẻ: H&M, Essity. Các thương hiệu thời trang và tiêu dùng toàn cầu\n📡 Viễn thông: Telia, Tele2. Dẫn đầu về kết nối ở Bắc Âu",
+      "etfBasket": "30 công ty được giao dịch sôi động nhất ở Stockholm",
+      "etfDesc": "Ví dụ, OMXS30 là danh sách 30 cổ phiếu được giao dịch sôi động nhất trên sàn Stockholm. Nó xếp hạng theo hoạt động giao dịch, không phải theo quy mô công ty.",
+      "etfList": "🇸🇪 Xact OMXS30: 30 cổ phiếu được giao dịch sôi động nhất ở Stockholm.\n💰 Avanza Zero: Một quỹ chỉ số Thụy Điển không thu phí quản lý hằng năm. Nó theo cùng 30 cổ phiếu Stockholm đó.\n🌍 Một quỹ chỉ số toàn cầu: Các công ty từ hàng chục quốc gia chỉ trong một lần mua.\n🇺🇸 Một quỹ S&P 500: 500 công ty lớn của Mỹ trong danh sách S&P 500.",
+      "currencyHedge": "Nếu đồng krona mất giá so với các đồng tiền khác, các khoản đầu tư quốc tế của bạn tự động có giá trị CAO HƠN khi tính bằng kr!",
+      "fxQuizSetup": "Đồng krona Thụy Điển mất giá đáng kể so với đô la Mỹ và euro",
+      "fxQuizLose": "Nó mất giá vì kinh tế Thụy Điển đang gặp khó khăn",
+      "fxQuizGain": "Nó TĂNG khi tính bằng krona vì các khoản nắm giữ ở nước ngoài của bạn được lợi về tỷ giá",
+      "dcaTitle": "Bình quân giá bằng krona",
+      "dcaAbbrev": "KCA",
+      "food": "cuốn falafel"
+    }
+  }
+}

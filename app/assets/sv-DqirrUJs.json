@@ -1,0 +1,1846 @@
+{
+  "_meta": {
+    "lang": "sv",
+    "source": "src/constants/lessonData.js",
+    "lessons": 84,
+    "hash": {
+      "1": "d38ab2ed",
+      "2": "bf930bc6",
+      "3": "6e4e4d63",
+      "4": "5b7802cc",
+      "5": "0f9cde1d",
+      "6": "e5999569",
+      "7": "66bc9202",
+      "8": "65677cac",
+      "9": "59a1fc31",
+      "10": "03ccde2e",
+      "11": "fbb06743",
+      "12": "7713dc86",
+      "13": "38054a44",
+      "14": "cbac8395",
+      "15": "4355d5d7",
+      "16": "bee25cb0",
+      "17": "a5cba909",
+      "18": "df93ed01",
+      "19": "ad2f3ae8",
+      "20": "6363dc90",
+      "21": "65a3ab78",
+      "22": "61f1ee9c",
+      "23": "a475dd40",
+      "24": "6874af82",
+      "25": "d92ac77b",
+      "26": "e8f1b315",
+      "27": "c3b42e04",
+      "28": "c3719a16",
+      "29": "b8690fa4",
+      "30": "272435ad",
+      "31": "ebbffa78",
+      "32": "31ae442d",
+      "33": "71dbb7c6",
+      "34": "62d271e6",
+      "35": "da185960",
+      "36": "66e0a88e",
+      "37": "4a91dc0c",
+      "38": "9ec4dee7",
+      "39": "ae809a71",
+      "40": "c3b12ff9",
+      "41": "aa4153d7",
+      "42": "29941a97",
+      "43": "d87240fc",
+      "44": "87c794ce",
+      "45": "a3dd8868",
+      "46": "7873826b",
+      "47": "47503da5",
+      "48": "6d2df7b4",
+      "49": "c1055330",
+      "50": "7d4a6a8a",
+      "51": "27e927d2",
+      "52": "041c444d",
+      "53": "8fb1d4bc",
+      "54": "33ec5d94",
+      "55": "b7571fb2",
+      "56": "f20ea6ce",
+      "57": "5a1f3993",
+      "58": "561a7caf",
+      "59": "67437975",
+      "60": "6db8d44d",
+      "61": "04bbebe6",
+      "62": "b43659be",
+      "63": "a6bfefd0",
+      "64": "a2cc88e0",
+      "65": "2f12b47a",
+      "66": "4a676ede",
+      "67": "17351f96",
+      "68": "e9dda763",
+      "69": "3b1a13c3",
+      "70": "b07744de",
+      "71": "798da84a",
+      "72": "960b5a23",
+      "73": "76df64cb",
+      "74": "90735bdf",
+      "75": "b5be8d19",
+      "76": "b2c7a6ad",
+      "77": "1f3344ae",
+      "78": "e03a370e",
+      "79": "3b881962",
+      "80": "64bddadd",
+      "81": "d30753ea",
+      "82": "71620bf3",
+      "83": "989bc8a6",
+      "84": "cdd0a41d"
+    }
+  },
+  "lessons": {
+    "1": {
+      "title": "Vad är en aktie?",
+      "desc": "Äg en liten bit av ett bolag",
+      "content": "Tänk dig att du och 9 kompisar lägger {c}10 var för att köpa ett par sneakers för {c}100 tillsammans. Ni äger 1/10 av sneakersen var, och det är i princip vad en aktie är! När du köper en aktie i {retail} äger du en liten bit av varje butik, varje produkt och varje {cName} de tjänar. Ju mer bolaget växer, desto mer är din bit värd! 🔥",
+      "quiz": {
+        "q": "Du och 4 kompisar delar lika på kostnaden för en gamingstol för {c}500. Vad äger ni var?",
+        "explanation": "Att äga en aktie betyder att äga en del av helheten. Fem som betalar lika mycket betyder fem lika stora delar, och varje del har samma rättigheter som de andra.",
+        "options": [
+          "1/5 (20%) av stolen var",
+          "Ingenting, bara en person kan äga den",
+          "Hela stolen tillsammans, utan någon egen andel"
+        ]
+      }
+    },
+    "2": {
+      "title": "{ex} förklarad",
+      "desc": "Börsen i {name}",
+      "content": "Se {ex} ({exFull}) som en gigantisk marknadsplats på nätet, fast i stället för att köpa sneakers eller mobiler köper och säljer folk små bitar (aktier) av bolag som {top5}. Den har öppet varje vardag utom helgdagar, och priserna ändras hela dagen beroende på vem som köper och vem som säljer. {ex} är {exDesc}! 🌍",
+      "quiz": {
+        "q": "Vad liknar {ex} mest?",
+        "explanation": "En börs matchar dem som vill köpa aktier med dem som vill sälja. Den äger inte aktierna, den bestämmer inte priset och den ger dig ingen ränta för att du låter pengar ligga där.",
+        "options": [
+          "En marknadsplats där aktieägare möter köpare",
+          "Ett sparkonto där pengar ligger och ger ränta",
+          "En butik som äger aktierna och säljer dem till dig"
+        ]
+      }
+    },
+    "3": {
+      "title": "Tjurar mot björnar",
+      "desc": "Marknadens riktningar förklarade",
+      "content": "På marknaden är det djuren som styr 😄\n\n🐂 Tjur = priserna går UPPÅT. Tänk dig en tjur som stångar uppåt med hornen. Alla vinner, folk köper, bra vibbar.\n\n🐻 Björn = priserna går NEDÅT. Tänk dig en björn som slår nedåt med tassen. Folk är rädda och säljer, inte så kul läge.\n\nNär någon säger 'jag är positiv (bullish) till {tech}' tror de att priset kommer att stiga. När de säger 'negativ (bearish)' tror de att det är på väg ner. Du kommer att höra de här orden överallt inom finans!",
+      "quiz": {
+        "q": "Din kompis säger 'jag är bearish på {telco} den här veckan.' Vad betyder det?",
+        "explanation": "Bearish betyder att man väntar sig att priset faller, bullish att man väntar sig att det stiger. En björn slår nedåt, en tjur kastar uppåt.",
+        "options": [
+          "Kompisen tror att {telco}s pris kommer att stiga",
+          "Kompisen tror att {telco}s pris kommer att falla",
+          "Kompisen vill köpa så mycket {telco} som möjligt"
+        ]
+      }
+    },
+    "4": {
+      "title": "Vad är en mäklare?",
+      "desc": "Din väg in till att köpa aktier",
+      "content": "Du kan inte bara gå fram till {retail} och säga 'ge mig lite av ert bolag, tack' 😂 Du behöver en mäklare (broker): en app eller tjänst som kopplar ihop köpare och säljare på börsen.\n\nSe en mäklare som {shop}. Du vill ha något, {shop} kopplar dig till det. De sköter affären och tar en liten avgift. Populära mäklare i {name} är bland annat {broker}.\n\nDet här gör en mäklare INTE: bestämmer vilka aktier som stiger. Den skickar vidare din order till marknaden. Priset rör sig på grund av vad alla där ute köper och säljer, inte för att din mäklare sa det.\n\nMäklare publicerar däremot åsikter. Deras analytiker sätter betyg som 'köp', 'behåll' eller 'sälj' på aktier. En åsikt är ingen order 🤷 Analytiker är öppet oense med varandra om exakt samma aktie, och många av dem har fel. Läs ett betyg som en recension, inte som en regel.\n\nNoobTrader lär dig exakt hur det här funkar, gratis, med virtuella pengar!",
+      "quiz": {
+        "q": "Varför behöver du en mäklare för att köpa aktier?",
+        "explanation": "En mäklare är din väg in på börsen, inte en spåkvinna och inte den som sätter priset. Den skickar vidare ordern, och priset blir det som resten av marknaden är villig att handla till. Analytikerna publicerar betyg, men ett betyg är en åsikt, inte en instruktion.",
+        "options": [
+          "Den väljer ut aktierna som kommer att stiga",
+          "Den bestämmer priset du betalar för varje aktie",
+          "Den skickar vidare din order till börsen"
+        ]
+      }
+    },
+    "5": {
+      "title": "Grunderna i aktiepriser",
+      "desc": "Varför går priserna upp och ner?",
+      "content": "Har du märkt hur limited edition-sneakers rusar i pris när de släpps? Samma sak händer med aktier. Allt handlar om utbud och efterfrågan.\n\n📈 Många VILL köpa → priset går UPP\n📉 Många VILL sälja → priset går NER\n\nOm {telco} meddelar att de får 10 miljoner nya kunder vill alla ha en bit, så priset skjuter i höjden. Om de redovisar en stor förlust paniksäljer folk och priset faller. Nyheter, rapporter och till och med trender på sociala medier kan flytta aktiepriser på ett ögonblick!",
+      "quiz": {
+        "q": "{retail} meddelar rekordvinst och planerar att öppna 50 nya butiker. Vad händer troligen med aktiepriset?",
+        "explanation": "Bättre förväntade vinster betyder oftast fler köpare, och fler köpare trycker upp priset. Att lägga pengar på att växa är inte samma sak som att slösa bort dem.",
+        "options": [
+          "Det går upp eftersom fler vill köpa",
+          "Det står exakt still",
+          "Det rasar för att de lägger pengar på butiker"
+        ]
+      }
+    },
+    "6": {
+      "title": "Läsa ett prisdiagram",
+      "desc": "Ljus, linjer och vad de betyder",
+      "content": "Ett prisdiagram är som ett highlight-klipp av en akties historia. Den populäraste typen är ett candlestick-diagram (ljusdiagram). Varje 'ljus' visar dig 4 saker för en dag:\n\n🟢 Grönt ljus = priset gick UPP den dagen (öppnade lägre, stängde högre)\n🔴 Rött ljus = priset gick NER (öppnade högre, stängde lägre)\n📏 De tunna strecken ovanför/under = dagens högsta och lägsta pris\n\nSer du många gröna ljus i rad är det en stark upptrend. Många röda betyder en nedtrend. Att lära sig läsa diagram är som att lära sig läsa resultattavlan i ett spel! 🎮",
+      "quiz": {
+        "q": "Du ser 5 röda ljus i rad i ett diagram. Vad säger det dig?",
+        "explanation": "Ett rött ljus stänger under där det öppnade, så fem i rad är fem handelsdagar av fall. Färgen visar riktningen, inte hur stor rörelsen är.",
+        "options": [
+          "Aktien har stigit i 5 dagar",
+          "Aktien har fallit i 5 dagar",
+          "Aktiepriset ändrades inte"
+        ]
+      }
+    },
+    "7": {
+      "title": "Volym och vad den säger",
+      "desc": "Hur många aktier som handlas",
+      "content": "Volym = hur många aktier som köptes och såldes under en dag. Se det som visningar på en TikTok-video.\n\n🔊 HÖG volym = många handlar. Rör sig priset med hög volym är det en starkare och mer pålitlig signal, som en video som går viral på riktigt, inte genom bottar.\n\n🔇 LÅG volym = bara några få handlar. Priser kan röra sig konstigt vid låg volym, som en video med bara 3 visningar som delats av misstag.\n\nKolla alltid volymen när du ser en stor prisrörelse. Den visar om rörelsen är äkta eller bara brus!",
+      "quiz": {
+        "q": "{telco}s aktie hoppar 5% idag, men volymen är väldigt låg. Vad bör du tänka?",
+        "explanation": "Volymen visar hur mycket övertygelse som ligger bakom en rörelse. Ett stort hopp med väldigt lite handel kan försvinna lika lätt som det kom, så kolla volymen innan du tror på ett utbrott.",
+        "options": [
+          "Det är garanterat ett jättetillfälle, köp nu!",
+          "Låg volym betyder alltid att priset fortsätter stiga",
+          "Rörelsen kanske inte är pålitlig, låg volym gör den misstänkt"
+        ]
+      }
+    },
+    "8": {
+      "title": "Stöd och motstånd",
+      "desc": "Prisnivåer som spelar roll",
+      "content": "Tänk dig att priset på en aktie är en studsboll:\n\n🧱 STÖD = golvet bollen studsar mot. Priset fortsätter falla, men varje gång det når den här nivån studsar det upp igen. Många köpare dyker upp här.\n\n🪟 MOTSTÅND = taket bollen slår i. Varje gång priset stiger till den här nivån trycks det ner igen. Många säljare tar hem vinsten här.\n\nTraders använder de här nivåerna som en spelkarta: köp nära golvet, sälj nära taket. När priset till slut bryter igenom motståndet skjuter det ofta i höjden snabbt. När det bryter stödet, gör dig redo för ett fall! 💥\n\nEn ärlig varning: de här nivåerna ritas av människor som tittar på diagram, de är inga regler som marknaden måste följa. En aktie kan dundra rakt igenom 'stödet' och fortsätta nedåt. 📉",
+      "quiz": {
+        "q": "En aktie har studsat på {c}50 tre gånger utan att gå under. Vad kallas {c}50?",
+        "explanation": "Ett golv som fortsätter att hålla är ett stöd; ett tak som fortsätter att stöta tillbaka priset är ett motstånd. Inget av dem är ett löfte, men båda är bra att känna till innan du köper.",
+        "options": [
+          "En stödnivå",
+          "En motståndsnivå",
+          "Takpriset"
+        ]
+      }
+    },
+    "9": {
+      "title": "Diversifiering",
+      "desc": "Lägg inte alla ägg i samma korg",
+      "content": "Tänk dig att du lägger HELA din surfmängd på en enda streamingapp. Sedan går appen ner. Du står där utan någonting. 😩\n\nMen om du sprider din surf mellan WhatsApp, YouTube OCH din streamingapp förstör inte en app som kraschar hela din vibe.\n\nSamma sak med investeringar! Lägger du ALLA dina pengar i en aktie och den rasar förlorar du allt. Men sprider du dem mellan {telco} (telekom), {retail} (detaljhandel), {tech} (teknik) och en ETF, så sänker inte ett ras i en av dem hela din portfölj. Den här strategin att sprida ut kallas DIVERSIFIERING. 💼",
+      "quiz": {
+        "q": "Du har {c}500 att investera. Vilket alternativ sprider faktiskt din risk?",
+        "explanation": "Fem klädbutiker stiger och faller på samma sak, så pengar som sprids mellan dem är knappt spridda alls. Olika branscher får problem vid olika tidpunkter, och det är det som hindrar ett dåligt resultat från att ta allt med sig.",
+        "options": [
+          "{c}100 var i fem olika klädbutiker",
+          "{c}100 var i fem olika branscher",
+          "Alla {c}500 i det bolag du gillar mest"
+        ]
+      }
+    },
+    "10": {
+      "title": "Risk och avkastning",
+      "desc": "Varför större vinster = större risk",
+      "content": "Har du någon gång köpt en mystery box? Du kan få något otroligt, eller rent skräp. Det är hög risk / hög avkastning.\n\nInvesteringar funkar på samma sätt:\n\n✅ LÄGRE RISK, LÄGRE AVKASTNING: Som {retail}. Jättebolag, väletablerat. Dina pengar brukar växa långsamt och stadigt. Notera 'lägre', inte 'ingen'. Stora bolag faller också.\n\n🎲 HÖG RISK, HÖG AVKASTNING: Som ett litet nystartat gruvbolag. Det kan bli 10 gånger så mycket värt, eller försvinna. Precis som mystery boxen.\n\nInnan du investerar i något, fråga alltid: 'Vad är det värsta som kan hända?' Har du inte råd att förlora pengarna, ta inte risken!",
+      "quiz": {
+        "q": "Ett mynt som ingen har hört talas om lovar 500% avkastning. Vad säger ett så stort löfte egentligen?",
+        "explanation": "Risk och avkastning är två ändar av samma pinne. Ingen delar ut 500% för ingenting, så löftets storlek är egentligen ett mått på hur lätt hela summan kan försvinna. Innan du sätter in pengar i något, fråga dig hur det värsta läget ser ut och om du skulle klara av det.",
+        "options": [
+          "Det är ett fynd som resten av marknaden på något sätt har missat",
+          "Ju större löftet är, desto seriösare är folket bakom det",
+          "Risken att förlora allt är lika stor som löftet"
+        ]
+      }
+    },
+    "11": {
+      "title": "Lång sikt mot kort sikt",
+      "desc": "Att investera eller att trada",
+      "content": "🏃 KORTSIKTIG TRADING: Köpa och sälja inom dagar eller veckor för att fånga snabba prisrörelser. Mycket stress och massor av skärmtid. Som att försöka gissa vem som vinner varje match under en turnering.\n\n🧘 LÅNGSIKTIGT INVESTERANDE: Köpa aktier och behålla dem i flera år. Du rider ut dipparna och låter pengarna växa. Som att satsa på vilket lag som vinner hela säsongen. Du får inte panik efter en dålig match.\n\nStudier av riktiga mäklarkonton hittar hela tiden samma mönster: ju oftare folk handlar, desto sämre brukar det gå när kostnaderna räknas in.\n\nOch tid är den enda fördelen som inte går att köpa tillbaka senare. Varje år pengarna ligger investerade är ett år till där ränta-på-ränta jobbar. ⏳",
+      "quiz": {
+        "q": "Två personer köper samma aktier för samma summa. Den ena handlar in och ut varje vecka, den andra låter dem ligga i tio år. Vad visar studier av riktiga konton gång på gång?",
+        "explanation": "Varje affär kostar något, och den kostnaden dras oavsett om affären gick bra eller inte. Studie efter studie av riktiga mäklarkonton hittar samma mönster: ju oftare folk handlar, desto längre efter hamnar de. Att låta pengarna vara är inte lathet, det är den billigare planen.",
+        "options": [
+          "Den aktiva hamnar oftast efter när kostnaderna räknas in",
+          "Den aktiva vinner oftast, eftersom ansträngning belönas här",
+          "De slutar lika, eftersom de hade exakt samma aktier"
+        ]
+      }
+    },
+    "12": {
+      "title": "{dcaTitle}",
+      "desc": "Investera samma summa regelbundet",
+      "content": "Här är en strategi som är så enkel att den knappt känns som en, och den raderar den svåraste frågan inom investeringar:\n\nInvestera SAMMA summa varje månad, oavsett om priserna är uppe eller nere. Som att lägga undan {c}100 av dina födelsedagspengar eller din veckopeng varenda månad.\n\n📉 När priserna är LÅGA → köper dina {c}100 FLER aktier\n📈 När priserna är HÖGA → köper dina {c}100 FÄRRE aktier\n\nMed tiden jämnas ditt genomsnittliga pris per aktie ut och du 'köper dippen' automatiskt utan att ens försöka! Det här kallas {dcaTitle} ({dcaAbbrev}). Det tar bort känslorna från investerandet eftersom du aldrig behöver avgöra 'är det rätt läge NU?' Du bestämmer dig bara och kör! 💪\n\nRaka besked: det här slår inte alltid att sätta in en klumpsumma på en gång. Det det gör är att ge dig en plan du faktiskt kan hålla fast vid.",
+      "quiz": {
+        "q": "Du sätter in 200 NT när aktien kostar 100 NT. Sedan rasar aktien, och dina nästa 200 NT går in till 25 NT. Dra till ditt genomsnittliga pris per aktie för de två insättningarna.",
+        "explanation": "Dina första 200 NT köpte 2 aktier för 100 NT. Dina andra 200 NT köpte 8 aktier för 25 NT. Det blir 400 NT för 10 aktier, alltså 40 NT styck. Lägg märke till att det inte alls ligger mittemellan de två priserna: samma summa köper automatiskt mer när det är billigt, och det är det som drar ner ditt genomsnitt."
+      }
+    },
+    "13": {
+      "title": "Pengaungar 💸",
+      "desc": "Få betalt bara för att du äger aktier",
+      "content": "Tänk dig att du äger en varuautomat. Varje vecka köper folk snacks ur DIN automat och du samlar in pengarna, bara för att du äger den. Du behövde inte göra något extra!\n\nDet är vad utdelningar är. Vi kallar dem Pengaungar 🍼 eftersom dina pengar bokstavligen får ungar: små utbetalningar som landar på ditt konto bara för att du äger aktier.\n\nStora bolag som {divPayers} betalar ut Pengaungar regelbundet. Ju fler aktier du har, desto större ungar!\n\n⚠️ De är INTE garanterade. Ett bolag bestämmer varje gång om det ska betala, och det kan sänka utdelningen eller sluta helt när affärerna går trögt. En stor utbetalning i år är inget löfte om en nästa år.\n\nOch om du återinvesterar ungarna för att köpa FLER aktier... blir nästa kull ännu större. Det är en vacker cirkel 🔁",
+      "quiz": {
+        "q": "{bank} betalar dig {c}5 för varje aktie du äger, utan att du säljer något. Vad kallas den utbetalningen?",
+        "explanation": "En utdelning är en del av bolagets vinst som lämnas till dem som äger det. Den här appen kallar dem Pengaungar. Du behåller alla aktier du hade, och pengarna landar ändå på ditt konto. Den är dock inte utlovad, och ett bolag kan sänka den eller sluta när som helst när affärerna går trögt.",
+        "options": [
+          "En utdelning, en del av vinsten",
+          "Ränta, den sort ett sparkonto ger",
+          "En lojalitetsbonus för att du är kund"
+        ]
+      }
+    },
+    "14": {
+      "title": "Ränta på ränta",
+      "desc": "Hur dina pengar växer av sig själva",
+      "content": "Här är den mäktigaste pengahemligheten du någonsin kommer att lära dig. Redo? 👀\n\nDu investerar {c}1,000 med 10% per år:\n• År 1: {c}1,000 → {c}1,100 (tjänade {c}100)\n• År 2: {c}1,100 → {c}1,210 (tjänade {c}110, mer än år 1!)\n• År 3: {c}1,210 → {c}1,331 (tjänade {c}121)\n\nNu tjänar du ränta på din RÄNTA. Snöbollen blir större varje år utan att du lägger till något extra. Efter 30 år med 10%? Då har {c}1,000 blivit {c}17,449! 🤯\n\nDu kommer att se det kallas 'världens åttonde underverk' och tillskrivas Einstein. Det finns inga riktiga bevis för att han någonsin sa det, men det är matten som spelar roll, och matten är äkta. Börja tidigt, så gör tiden det tunga jobbet åt dig.",
+      "quiz": {
+        "q": "Du sätter in 2,000 NT med 10% om året och rör dem aldrig. Dra till vad de är värda efter tre år.",
+        "explanation": "År ett lägger till 200 NT, vilket blir 2,200. År två tar 10% av 2,200, alltså läggs 220 till och det blir 2,420. År tre lägger till 242 och landar på 2,662. Varje år räknas de 10% på en större hög, och därför räcker det inte att lägga till 200 tre gånger och stanna på 2,600."
+      }
+    },
+    "15": {
+      "title": "Ränta på ränta och aktier",
+      "desc": "Återinvestera Pengaungar för tillväxt",
+      "content": "Minns du Pengaungar (utdelningar)? Nu blir det intressant 🤯\n\nVanligt: Du får {c}50 i Pengaungar → lägger dem på snacks → klart.\n\nSmart drag: Du får {c}50 i Pengaungar → köper FLER aktier → nästa gång får du FLER Pengaungar → köper ännu fler aktier → snöbollen drar iväg 🔝\n\nDet här är ränta-på-ränta använt på aktier. Räkna på det: sätt in samma summa varje månad i 30 år med 10% genomsnittlig avkastning, så slutar du med ungefär SEX GÅNGER så mycket som du faktiskt betalade in. Runt fem sjättedelar av högen är tillväxt: pengar du aldrig tjänade, sparade eller satte in.\n\nÖver långa perioder har återinvesterade utdelningar stått för en stor del av investerares totala avkastning. Det är precis därför 'tråkiga' utdelningsbolag visar sig inte vara tråkiga alls 💰",
+      "quiz": {
+        "q": "Du får {c}80 i utdelning och använder alltihop till att köpa fler aktier i stället för att spendera det. Vad händer vid nästa utbetalning?",
+        "explanation": "Varje extra aktie du köpte ger sin egen utdelning nästa gång, så utbetalningen växer utan att du lägger till nya pengar. Det är ränta-på-ränta igen, den här gången driven av inkomsten i stället för av priset.",
+        "options": [
+          "Utbetalningen är lika stor, den kommer bara senare",
+          "Du får mindre nästa gång, eftersom du lämnade tillbaka pengarna",
+          "Du äger fler aktier, så nästa utbetalning blir större"
+        ]
+      }
+    },
+    "16": {
+      "title": "72-regeln",
+      "desc": "Snabbt sätt att räkna ut fördubblingstiden",
+      "content": "Här är en fuskkod för hjärnan 🧠\n\nVill du veta hur lång tid det tar att FÖRDUBBLA dina pengar? Dela bara 72 med din årliga avkastning:\n\n• 72 ÷ 12% avkastning = 6 år till fördubbling\n• 72 ÷ 8% avkastning = 9 år till fördubbling\n• 72 ÷ 6% avkastning = 12 år till fördubbling\n\nSå om du tjänar stadiga 12% per år på {c}2,000 har du {c}4,000 efter 6 år. Vänta 6 år till så har du {c}8,000. Ytterligare 6 så har du {c}16,000! 🤯\n\nDet är en uppskattning, inte en lag, och verklig avkastning är aldrig samma siffra varje år. Men den är tillräckligt nära för att räkna i huvudet, och det är hela poängen.\n\nDet är därför det är ENORMT att börja vid 13 eller 14. Du har fler fördubblingar framför dig än nästan alla andra!",
+      "quiz": {
+        "q": "En investering ger 9% om året. Använd 72-regeln och dra till hur många år det tar att fördubbla den.",
+        "explanation": "Dela 72 med den årliga procentsatsen. 72 delat med 9 är 8, så pengarna fördubblas ungefär på åtta år, och sedan igen åtta år senare. Det är en snabb uppskattning du kan göra i huvudet, ingen exakt lag, eftersom verklig avkastning aldrig är samma siffra varje år."
+      }
+    },
+    "17": {
+      "title": "Marknadsorder mot limitorder",
+      "desc": "Två sätt att köpa aktier",
+      "content": "Det finns två huvudsätt att köpa en aktie:\n\n⚡ MARKNADSORDER: 'Köp direkt till vad priset än är.' Som att lägga i varukorgen och gå till kassan direkt på {shop}. Du får den på en gång, men priset du faktiskt betalar är det marknaden ger dig, och det kan skilja sig från siffran du nyss såg på skärmen.\n\n🎯 LIMITORDER: 'Köp bara om priset faller till {c}X.' Som att lägga en grej på din önskelista på {shop} och vänta på rea. Du styr priset, men affären kanske aldrig blir av.\n\nLimitorder ger dig koll på priset. Marknadsorder ger dig säkerhet att den går igenom. Du kan inte få båda! 💸\n\nEn limitorder funkar på samma sätt när du SÄLJER, bara åt andra hållet. Du äger aktien, du anger priset du skulle vara nöjd med att sälja för, och om den stiger så långt säljer appen åt dig. När du köper anger du ett pris UNDER det nuvarande. När du säljer anger du ett pris ÖVER. Samma idé, motsatt sida. 🔁",
+      "quiz": {
+        "q": "{tech} handlas för {c}200. Du skulle gärna äga den, men bara för {c}180 eller mindre. Vad använder du?",
+        "explanation": "En marknadsorder går igenom direkt till vad priset än råkar vara. En limitorder anger ditt pris och väntar, så appen håller koll i stället för dig. När priset du accepterar betyder mer än att komma in snabbt är det den du vill ha.",
+        "options": [
+          "Ett marknadsköp, som går igenom för {c}200 direkt",
+          "Ett limitköp på {c}180, som väntar",
+          "Bevaka skärmen och köp manuellt för {c}180"
+        ]
+      }
+    },
+    "18": {
+      "title": "Avgifter och kostnader",
+      "desc": "Förstå handelsavgifter",
+      "content": "De flesta affärer kostar dig lite: mäklaren tar en liten del. Det kallas handelsavgifter eller courtage.\n\n⚠️ Vissa mäklare gör reklam för 'noll courtage'. De måste ändå tjäna pengar på något sätt, så de gör det någon annanstans, oftast på den lilla skillnaden mellan köp- och säljpriset, på valutaväxling eller på ränta på pengarna som ligger på ditt konto. Gratis är sällan gratis.\n\nI NoobTrader är de simulerade avgifterna:\n• {ex}-aktier: {exFee} per affär\n• Globala aktier: 0.50%\n• ETF:er: 0.30%\n• Krypto: 0.60%\n• Valutor: 0.05%\n• Råvaror: 0.40%\n\nExempel: Du köper {retail}-aktier för {c}1,000 med {exFee}. Avgiften är {c}{feeAmt}, så du lägger faktiskt {c}{feeTotal}.\n\nSmå avgifter växer SNABBT om du handlar ofta. Den som gör 20 affärer i månaden betalar avgiften 20 gånger, och betalar den igen när hen säljer. Det är ett av skälen till att långsiktiga investerare handlar mindre: färre affärer, färre avgifter 🧮",
+      "quiz": {
+        "q": "Du köper {ex}-aktier för {c}1,000 med en avgift på {exFee}. Hur stor är avgiften?",
+        "explanation": "Avgiften är en procentandel av beloppet du handlar för, så den växer med orderns storlek. Räkna ut den innan du handlar, för den tas ut igen när du säljer.",
+        "options": [
+          "{c}{feeAmtX10}",
+          "{c}{feeAmtLow}",
+          "{c}{feeAmt}"
+        ]
+      }
+    },
+    "19": {
+      "title": "Stop loss-order",
+      "desc": "Skydda dig mot stora förluster",
+      "content": "En stop loss är som att sätta en gräns för hur mycket du är villig att förlora: ett skyddsnät du ställer in i förväg.\n\nExempel: Du köper {telco}-aktier för {c}100 styck. Du bestämmer att du ALDRIG vill förlora mer än 15%. Så du sätter en stop loss på {c}85.\n\nOm {telco} faller till {c}85 → skickas en säljorder automatiskt. Du behöver inte sitta och titta, och du behöver inte fatta beslutet mitt i panik.\n\nHär är det folk får fel. En stop loss ligger ALLTID under dagens pris. Det måste den, för priset måste falla för att nå den. Sätter du den över dagens pris är villkoret redan uppfyllt, så den säljer i samma sekund du ställer in den, till dagens pris. Det är en försäljning, inte ett skyddsnät.\n\nBlanda inte ihop den med en limitsälj. Båda säljer automatiskt till ett pris du valt. Skillnaden är riktningen: en stop loss utlöses när priset FALLER till din siffra, en limitsälj utlöses när det STIGER till din siffra. Skydda dig → din siffra hamnar under. Ange ditt pris → din siffra hamnar över. Fråga dig vilken du gör innan du skriver. 🧭\n\n⚠️ Viktigt: en stop loss utlöser en FÖRSÄLJNING, den garanterar inget PRIS. Om dåliga nyheter kommer under natten och aktien öppnar på {c}70 utan att någonsin ha handlats för {c}85, går din order igenom till vad marknaden faktiskt betalar. Det kan vara långt under nivån du satte.\n\nUtan någon stop loss alls kanske du håller kvar och hoppas att den återhämtar sig... och ser den falla till {c}20. 😬\n\nProffstips: Bestäm alltid din maxförlust INNAN du köper. Låt inte känslorna fatta det beslutet när priset redan rasar! 🧘",
+      "quiz": {
+        "q": "Du köper för 200 NT och bestämmer att du inte vill förlora mer än 15% på det. Dra till priset där din stop loss ska ligga.",
+        "explanation": "15% av 200 NT är 30 NT, så din utgång ligger 30 under där du köpte, på 170 NT. En stop loss ligger under dagens pris, eftersom priset måste falla för att nå den. Sätter du den över är villkoret redan uppfyllt, så den säljer i samma ögonblick du ställer in den, och det är en försäljning snarare än ett skyddsnät."
+      }
+    },
+    "20": {
+      "title": "När ska man köpa och sälja?",
+      "desc": "Timing, tålamod och disciplin",
+      "content": "Det största misstaget nya investerare gör? Köper när alla är hypade och säljer när alla får panik. Det är bokstavligen motsatsen till det som funkar. 🤦\n\n📱 När gruppchatten spammar 'KÖP DEN HÄR AKTIEN NU!!!!' → är hypen oftast redan inräknad i priset. Du är sen.\n\n😱 När alla säljer i panik → är det ibland faktiskt ett tillfälle att köpa till rabatt. Ibland fortsätter priset att falla ett år till. Ingen ringer i en klocka när botten är nådd.\n\nHemligheten? Ha en plan INNAN du investerar:\n• Varför köper jag det här? (research, inte hype)\n• Till vilket pris säljer jag om det går UPP? (ta vinst)\n• Till vilket pris säljer jag om det går NER? (stop loss)\n\nHåll dig till planen. Låt inte känslorna ta över din strategi! 💪",
+      "quiz": {
+        "q": "Hela din gruppchatt hypar en aktie som redan har stigit 80% den här månaden. Vad är det smarta draget?",
+        "explanation": "När en aktie finns i varenda gruppchatt har det mesta av rörelsen redan hänt, och de som kommer sent köper av dem som tar hem sin vinst. Kolla bolaget själv. Att en grupp låter mycket är inte samma sak som att den har rätt.",
+        "options": [
+          "Köp nu, innan priset drar iväg från dig",
+          "Sälj dina andra aktier och lägg allt här",
+          "Kolla upp bolaget själv innan du bestämmer dig"
+        ]
+      }
+    },
+    "21": {
+      "title": "Vad är börsvärde?",
+      "desc": "Så mäter du ett bolags storlek",
+      "content": "Börsvärdet (market cap) visar hur stort ett bolag faktiskt är, i {cPlural}.\n\n📐 Formel: Aktiepris × Totalt antal aktier = Börsvärde\n\nExempel: Om {retail} har 1 miljard aktier och varje aktie kostar {c}50 är börsvärdet {c}50 MILJARDER. Det är 'prislappen' på hela bolaget.\n\n🔵 Large cap: de största och mest etablerade namnen, som {tech} och {bank}. Lägre risk, oftast långsammare tillväxt.\n🟡 Mid cap: medelstora bolag. Balanserad risk.\n🔴 Small cap: små bolag. Kan växa snabbt ELLER krascha hårt.\n\n⚠️ Gränserna är inte universella. I USA betyder 'large cap' oftast någonstans över $10 miljarder, men varje marknad sätter sina egna gränser, så ett large cap-bolag i {name} är inte lika stort som ett large cap-bolag i USA. Läs den faktiska siffran, inte bara etiketten 🧐",
+      "quiz": {
+        "q": "Bolag A har 5 miljoner aktier för {c}200 styck. Bolag B:s aktier kostar {c}10. Dra till hur många miljoner aktier B behöver för att vara värt lika mycket som A.",
+        "explanation": "Börsvärdet är aktiepriset gånger antalet aktier. Bolag A är värt 5 miljoner gånger {c}200, vilket är {c}1,000 miljoner. Bolag B måste nå samma summa med {c}10 per aktie, så det behöver 100 miljoner aktier, tjugo gånger så många. Ett lågt aktiepris säger ingenting om hur stort ett bolag är."
+      }
+    },
+    "22": {
+      "title": "P/E-talet förklarat",
+      "desc": "Är en aktie dyr eller billig?",
+      "content": "P/E-talet (pris/vinst) visar hur mycket du betalar för varje {cName} av ett bolags vinst.\n\n📐 Formel: Aktiepris ÷ Vinst per aktie = P/E-tal\n\nSe det som pris per pizzabit 🍕\n\nOm pizza A kostar {c}80 för 8 bitar = {c}10/bit\nOm pizza B kostar {c}100 för 5 bitar = {c}20/bit\n\nPizza A är billigare per bit. Samma tanke med aktier:\n• Lågt P/E (under 10) = kanske ett fynd, ELLER så väntar sig marknaden att vinsten ska FALLA. Ett lågt P/E är en fråga, inte ett svar.\n• Högt P/E (över 25) = marknaden väntar sig stor framtida tillväxt. Bolaget måste sedan faktiskt leverera den.\n\nJämför alltid P/E med ANDRA bolag i samma bransch. Jämför inte en banks P/E med ett techbolags!",
+      "quiz": {
+        "q": "Bolag A har ett P/E på 8. Bolag B (samma bransch) har ett P/E på 30. Vad tyder det på?",
+        "explanation": "Ett lägre P/E betyder att du betalar mindre för varje enhet vinst, vilket kan betyda ett fynd eller ett bolag med problem. Talet väcker frågan; det besvarar den inte.",
+        "options": [
+          "Bolag A är billigare per enhet vinst, men ta reda på VARFÖR innan du köper",
+          "Bolag B är alltid den bättre investeringen av de två",
+          "P/E-talet hjälper inte alls med investeringsbeslut"
+        ]
+      }
+    },
+    "23": {
+      "title": "Läsa bolagsrapporter",
+      "desc": "Intäkter, vinst och vad som spelar roll",
+      "content": "Med några månaders mellanrum publicerar bolag sitt 'betyg' (varje kvartal på vissa marknader, två gånger om året på andra) och det flyttar aktiepriserna RÄTT MYCKET. Det här ska du kolla efter:\n\n📊 INTÄKTER: Alla pengar som kommer in från försäljning. Som hur mycket en liten butik drog in totalt.\n💰 NETTOVINST: Det som blir kvar EFTER att alla kostnader är betalda. Det man faktiskt har kvar i slutet av dagen.\n📈 EPS (vinst per aktie): Vinsten delad med antalet aktier. Hur mycket varje aktie tjänade.\n\nBra tecken: Intäkter UPP + Vinst UPP + växande EPS = 🟢 priset stiger ofta\nDåliga tecken: Intäkter NER + fallande vinst = 🔴 priset faller ofta\n\nEn hake: det som verkligen flyttar priset är resultatet jämfört med vad marknaden FÖRVÄNTADE sig. Grymma siffror som kom in under förväntningarna kan ändå skicka ner en aktie.\n\nEtt bolag kan ha massor av intäkter men noll vinst (höga kostnader). Kolla alltid BÅDA!",
+      "quiz": {
+        "q": "{bank} redovisar intäkter som är 15% högre men en vinst som är 20% lägre på grund av högre kostnader. Är det ett bra eller dåligt tecken?",
+        "explanation": "Intäkter är det som kom in, vinst är det som blev kvar. Här ökar kostnaderna snabbare än försäljningen, så bolaget gör mer affärer och behåller mindre av dem. Det är en verklig varningssignal, men ingen kollaps, och nästa sak att ta reda på är varför kostnaderna steg.",
+        "options": [
+          "Oroande, eftersom de säljer mer men behåller mindre av det",
+          "Starkt, eftersom stigande intäkter är det som verkligen räknas",
+          "Katastrof, eftersom fallande vinst betyder att bolaget går under"
+        ]
+      }
+    },
+    "24": {
+      "title": "Sektorer och branscher",
+      "desc": "Olika sorters bolag",
+      "content": "Aktiemarknaden är indelad i sektorer, som olika ämnen i skolan.\n\n{sectorList}\n\nOlika sektorer stiger och faller vid olika tidpunkter, och det är hela poängen med att sprida sig mellan dem! Om bankerna rasar kanske tech går som tåget. Din portfölj håller balansen. 🎯",
+      "quiz": {
+        "q": "Räntorna i {name} stiger kraftigt. Vilken sektor brukar tjäna mest på det?",
+        "explanation": "Banker tjänar på skillnaden mellan vad de tar av låntagare och vad de betalar sparare, och stigande räntor brukar göra den skillnaden större. För de flesta andra sektorer är dyrare lån en kostnad.",
+        "options": [
+          "Detaljhandel: kunderna lånar mer fritt och spenderar extrapengarna i butikerna",
+          "Bank: bankerna får oftast en större skillnad mellan vad de tar av låntagare och betalar sparare",
+          "Teknik: det blir billigare att låna för att bygga, så mjukvarubolag växer snabbare"
+        ]
+      }
+    },
+    "25": {
+      "title": "Vad är en ETF?",
+      "desc": "Köp en hel korg på en gång",
+      "content": "Förr var det enda sättet att bygga en spellista att välja låtar en och en. Sedan kom Spotify och gav dig färdiga spellistor, en direkt samling utan ansträngning. 🎵\n\nETF:er (börshandlade fonder) är investeringsvärldens Spotify. I stället för att välja aktier en och en köper du EN ETF som innehåller en hel korg av dem.\n\nDe flesta ETF:er följer ett INDEX: en publicerad lista över bolag som sätts ihop enligt en regelbok. {etfDesc} ETF:en köper helt enkelt det som står på listan, i samma proportioner, och uppdaterar sig själv när listan ändras.\n\nSå en {etf}-ETF ger dig en liten bit av {etfBasket} (namn som {top5}) i ett enda köp.\n\n⚠️ Ett index är INTE automatiskt 'de största bolagen'. Vissa listor rangordnar efter storlek, vissa efter hur mycket en aktie handlas, och vissa väljs av en kommitté. Två index på samma börs kan innehålla helt olika bolag. Läs alltid vad listan faktiskt är innan du köper den.\n\nETF:er är oftast billigare, enklare och mer diversifierade än att välja aktier själv. Många proffsiga fondförvaltare lyckas inte slå dem! 🤯",
+      "quiz": {
+        "q": "Du köper en andel i {etf}-ETF:en, som följer {etfBasket}. Vad äger du nu?",
+        "explanation": "Ett index är en publicerad lista, och en index-ETF köper allt på den i samma proportioner. En andel innehåller alltså en liten bit av varje namn på listan, och därför är ett enda köp redan spritt. Det är inte bara det största namnet, och det är inte pengar som väntar på dina instruktioner.",
+        "options": [
+          "En aktie i det största bolaget på den listan",
+          "En liten bit av varenda bolag på den listan",
+          "Pengar som fonden håller tills du säger vad den ska köpa"
+        ]
+      }
+    },
+    "26": {
+      "title": "ETF:er på {ex}",
+      "desc": "Populära ETF:er du bör känna till",
+      "content": "Det finns massor av ETF:er och indexfonder du kan köpa från {name}. Här är några av de populäraste:\n\n{etfList}\n\nDen enorma fördelen med ETF:er: AVGIFTERNA. Många aktivt förvaltade fonder tar runt 1–2% om året, ibland mer. Breda index-ETF:er tar ofta under 0.2%. På en investering på {c}10,000 som ligger i 20 år är den skillnaden värd TUSENTALS {cPlural} 💸\n\nKolla avgiften innan du köper. Den kallas oftast 'TER' eller 'förvaltningsavgift'. Ingen kan säga vad en ETF kommer att ge, men avgiften är en siffra du KAN veta i förväg.",
+      "quiz": {
+        "q": "Du investerar 20,000 NT. En aktivt förvaltad fond tar 2% om året. En index-ETF med ungefär samma bolag tar 0.2%. Dra till hur mycket mer den dyra tar från dig under ett enda år.",
+        "explanation": "Skillnaden mellan de två avgifterna är 1.8% om året, och 1.8% av 20,000 NT är 360 NT. Den dras oavsett om fonden går upp eller ner, och den dras igen varenda år. Ingen kan säga vad en fond kommer att ge, men avgiften står angiven innan du köper, oftast som TER eller förvaltningsavgift."
+      }
+    },
+    "27": {
+      "title": "Globala mot lokala ETF:er",
+      "desc": "Investera hemma och utomlands",
+      "content": "Ska du bara investera i bolag från {name}? Kort svar: Nej! Här är varför:\n\n🏠 LOKALA ETF:er: Investerar i bolag från {name}. Du känner igen varumärkena, och de är i {cPlural}. Men om ekonomin i {name} får problem kan hela din portfölj falla.\n\n🌍 GLOBALA ETF:er: Investerar i internationella bolag (USA, Europa, Asien). {currencyHedge}\n\nValutan slår dock åt båda håll: om din lokala valuta STÄRKS blir samma utländska innehav mindre värt hemma. Det är priset du accepterar för att äga saker utomlands.\n\nAtt ha både lokalt och globalt sprider dig över två olika risker på en gång: din egen ekonomi och din egen valuta. Balans är allt! ⚖️",
+      "quiz": {
+        "q": "{fxQuizSetup}. De utländska aktierna i din globala ETF har inte rört sig alls. Vad är den värd nu i din hemvaluta ({cName})?",
+        "explanation": "En global ETF innehåller saker som prissätts i en annan valuta. När din egen valuta tappar mark växlas de utländska pengarna tillbaka till mer av din, så innehavet är värt mer hemma trots att aktierna stod still. Det funkar åt andra hållet också: en starkare valuta hemma krymper tyst samma innehav. Valutarisk slår åt båda håll.",
+        "options": [
+          "Mer, eftersom pengarna den har utomlands nu räcker till mer hemma",
+          "Mindre, eftersom dåliga valutanyheter måste vara dåliga för dina pengar också",
+          "Lika mycket, eftersom aktierna i den inte rörde sig en millimeter"
+        ]
+      }
+    },
+    "28": {
+      "title": "Spara mot investera",
+      "desc": "Varför dina pengar behöver jobba",
+      "content": "Båda är bra. Men de fyller olika syften:\n\n🏦 SPARA: Sätt in pengar på ett bankkonto. Det är säkert och du kommer åt dem när som helst. MEN räntan är oftast {savings}, ofta lägre än inflationen. Dina pengar är 'säkra' men tappar sakta i köpkraft.\n\n📈 INVESTERA: Sätt in pengar i aktier, ETF:er eller fastigheter. Mer risk, och ingen garanti något enskilt år. Vissa år förlorar du helt enkelt pengar. Över långa perioder har aktier dock historiskt gett mer än kontanter. Marknaden i {name} har i genomsnitt gett ungefär {mktReturn} om året tidigare, och historiska genomsnitt är historia, inget löfte.\n\nTumregel:\n• 3–6 månaders utgifter på sparkontot (din buffert) 🚨\n• Pengar du inte behöver på flera år är det folk investerar 🚀\n\nInvestera inte pengar du kanske behöver nästa månad. Det är det sparandet är till för!",
+      "quiz": {
+        "q": "Dina utgifter är 800 NT i månaden, och du har sparat ihop 5,000 NT. Dra till den minsta buffert som den vanliga tumregeln skulle lämna kvar i kontanter.",
+        "explanation": "Tumregeln är tre till sex månaders utgifter i kontanter. Tre månader av en kostnad på 800 NT är 2,400 NT, och sex månader skulle vara 4,800 NT, så var som helst i det spannet är normalt. Skälet att ha den i kontanter är enkelt: när något oväntat går sönder vill du inte bli tvungen att sälja dina investeringar just den dagen."
+      }
+    },
+    "29": {
+      "title": "Inflation och dina pengar",
+      "desc": "Varför kontanter tappar värde",
+      "content": "Fråga en vuxen vad en {food} kostade när de var i din ålder. Det var någonstans runt {c}{foodOld}. Nu är det {c}{foodNew}+. Det är inflation: priserna stiger sakta över tid, vilket betyder att varje {cName} räcker till MINDRE än förut.\n\nInflationen i {name} har oftast legat runt {inflation} per år.\n\nSå om ditt sparande ger 4% per år men inflationen är 6% FÖRLORAR du faktiskt ungefär 2% av köpkraften varje år, trots att ditt saldo gick upp!\n\n💡 Dina investeringar behöver slå inflationen för att din förmögenhet faktiskt ska växa.\n• Kontanter under madrassen: tappar värde varje år 💀\n• Bankspar: hänger ofta knappt med\n• {ex}-aktier (långsiktigt genomsnitt): {mktReturn} per år, vilket är ett historiskt genomsnitt, inget löfte 🔥\n\nAtt investera handlar inte bara om att bli rik. Det handlar om att inte bli fattigare! 💸",
+      "quiz": {
+        "q": "Ditt sparkonto ger 4% om året. Priserna stiger 6% om året. Dra till vad som egentligen händer med din köpkraft under det året.",
+        "explanation": "Real avkastning är räntan du får minus inflationen du betalar, så 4% mot 6% blir ungefär minus 2%. Siffran på ditt konto går upp medan det den faktiskt räcker till går ner, och det är det tysta trick inflationen spelar med sparpengar. För att bygga verklig förmögenhet måste pengarna slå inflationen, inte bara tjäna något."
+      }
+    },
+    "30": {
+      "title": "Känslor och investeringar",
+      "desc": "Paniksälj inte och FOMO-köp inte",
+      "content": "Aktiemarknaden är i princip ett test i känslokontroll. De flesta misslyckas. 🎭\n\n😱 PANIKSÄLJ: Marknaden faller 20%, du flippar ut och säljer allt. Sedan återhämtar den sig. Du låste in din förlust helt i onödan.\n\n🤑 FOMO-KÖP: Alla på sociala medier hypar ett mynt. Du rusar in. Priset rasar direkt. Du sitter kvar med skägget i brevlådan.\n\nDe bästa investerarna ser ett börsras som en rea hos {retail}. De fortsätter köpa, lugnt, i stället för att få panik. Warren Buffett sa det så här: 'Var rädd när andra är giriga, och girig när andra är rädda.'\n\nBygg din plan. Håll dig till den. Ditt framtida jag kommer att tacka dig för att du inte argsålde en röd dag! 🙏",
+      "quiz": {
+        "q": "Marknaden faller 15% på en vecka och din gruppchatt säljer allt. Dina pengar är investerade för de kommande tio åren. Vad gör du?",
+        "explanation": "Ett fall på 15% blir bara en verklig förlust den dag du säljer mitt i det. Planen du skrev när inget hände skrevs av den klartänkta versionen av dig, och att hålla fast vid den är hela konsten. Att vänta tills allt ser lugnt ut innan du köper tillbaka betyder att köpa tillbaka dyrare, eftersom lugnet kommer efter återhämtningen, inte före.",
+        "options": [
+          "Sälj nu och köp tillbaka när allt ser lugnare ut",
+          "Flytta pengarna till det som chatten köper i stället",
+          "Fortsätt med planen du skrev ner när du var lugn"
+        ]
+      }
+    },
+    "31": {
+      "title": "Slutbossen",
+      "desc": "Ränta på ränta, världens 8:e underverk",
+      "content": "'Världens åttonde underverk: den som förstår det tjänar på det; den som inte gör det betalar för det.' Du kommer att se det citatet tillskrivas Einstein överallt på nätet. Det finns inga riktiga bevis för att han sa det.\n\nMatten går däremot inte att förneka. Här är det viktigaste du kommer att lära dig om pengar:\n\nNågon som börjar vid 20 och investerar {c}500/månad med 12% om året har MER vid 65 än någon som börjar vid 35 och investerar {c}2,000/månad med samma avkastning. Fyra gånger så mycket per månad, och ändå hamnar den andra efter.\n\nTid. Är. Allt.\n\nDet är inget sifferknep, det är hela poängen med ränta-på-ränta: varje år du väntar kostar mer än något år du lägger till senare kan vinna tillbaka. Det bästa tillfället att börja var tidigare. Det näst bästa är nu.\n\nDet här quizet är ditt sluttest. Klara det så är du officiellt NoobTrader-certifierad! 👑",
+      "bossVictory": "Ränta på ränta upplåst. Nu är du farlig. 🔥",
+      "quiz": {
+        "q": "{c}1,000 investerade med 12% per år i 10 år växer till ~{c}3,106. Vad händer om du FÖRDUBBLAR tiden till 20 år?",
+        "explanation": "Att fördubbla tiden gör mycket mer än att fördubbla resultatet, eftersom varje års tillväxt växer vidare på allt som kom före. Tillväxten går snabbare i stället för att bromsa in.",
+        "options": [
+          "Det mer än tredubblas till ~{c}9,646",
+          "Det ungefär fördubblas till ~{c}6,200",
+          "Avkastningen bromsar in ju längre du väntar"
+        ]
+      }
+    },
+    "32": {
+      "title": "Kryptoplattformar och wallets",
+      "desc": "Var krypto faktiskt finns",
+      "content": "Först den ärliga delen: riktiga kryptoplattformar kräver att du är 18+ i nästan alla länder. Därför låter NoobTrader dig öva på allt med virtuella pengar först. 🎮\n\nNär vuxna köper krypto använder de två sorters ställen:\n\n🏦 KRYPTOBÖRSER OCH MÄKLARAPPAR (förvaltade): du skapar ett konto och de förvarar din krypto åt dig. Enkelt, men du litar på dem. Om de blir hackade eller går i konkurs kan din krypto försvinna. Det har hänt några av de största namnen inom krypto.\n\n🔑 EGENFÖRVALTADE WALLETS: en app där DU har de hemliga nycklarna. Ingen kan frysa den, men ingen kan hjälpa dig heller. Tappar du din seed phrase (de 12 till 24 hemliga orden) är kryptot borta för alltid. Ingen lösenordsåterställning. Ingen kundtjänst. Borta.\n\nKryptofolk säger: 'Not your keys, not your coins' (inte dina nycklar, inte dina mynt). Nu vet du vad det betyder.",
+      "quiz": {
+        "q": "Vad betyder det när en kryptobörs förvarar din krypto 'förvaltat' (custodial)?",
+        "explanation": "Förvaltat betyder att plattformen har nycklarna, så dina mynt är aldrig säkrare än plattformen. Om den hackas eller går under kan de försvinna med den. Det är det folk menar med inte dina nycklar, inte dina mynt.",
+        "options": [
+          "Börsen har nycklarna åt dig",
+          "Du har nycklarna och ingen annan kan",
+          "Ingen kan röra mynten, inte ens du",
+          "Den ger ränta automatiskt"
+        ]
+      }
+    },
+    "33": {
+      "title": "Så funkar det att köpa krypto",
+      "desc": "Spread, avgifter och marknader dygnet runt",
+      "content": "Att köpa krypto ser ut som att köpa vad som helst på nätet, men tre saker är annorlunda:\n\n1️⃣ SPREADEN: köppriset är alltid lite högre än säljpriset. Köp krypto för {c}100 och sälj direkt, så får du kanske tillbaka {c}97. Den skillnaden är hur plattformar tyst tjänar pengar.\n\n2️⃣ AVGIFTER OVANPÅ: de flesta plattformar tar dessutom en avgift per affär, ofta 1 till 2% för små köp. Avgifter plus spread betyder att ett litet köp börjar runt 3 till 5% back innan priset ens har rört sig.\n\n3️⃣ INGEN STÄNGNINGSKLOCKA: börser stänger på natten och på helger. Krypto handlas dygnet runt, alla dagar om året. Priser kan rasa medan du sover. Det är en del av varför krypto är så mycket mer volatilt än aktier.\n\nI NoobTrader kan du handla krypto med virtuella pengar, dygnet runt, utan att förlora ett öre. Du betalar en avgift på varje affär, men NoobTrader tar ingen spread, så ett riktigt köp kostar mer än samma affär här. 📊",
+      "quiz": {
+        "q": "Du lägger 200 NT i ett mynt och säljer det fem sekunder senare, innan priset har rört sig alls. Skillnaden mellan köp- och säljpriset kostar 3%, och plattformen tar en avgift på 1% på varje affär. Dra till beloppet som kommer tillbaka.",
+        "explanation": "Spreaden tar 3%, sedan tas en avgift på 1% på vägen in och en till på vägen ut. Det är 5% av dina 200 NT, så 10 NT är borta innan priset har gjort något. Du får tillbaka 190 NT, och myntet måste nu stiga 5% bara för att du ska gå jämnt ut."
+      }
+    },
+    "34": {
+      "title": "Gasavgifter förklarade",
+      "desc": "Varför det kostar att skicka krypto",
+      "content": "Att skicka krypto är inte gratis. Varje transaktion betalar en nätverksavgift, ofta kallad GAS, till datorerna som behandlar och säkrar nätverket.\n\nHär är det som överraskar alla: gas prissätts efter trafiken i nätverket, INTE efter hur mycket du skickar. När nätverket är upptaget rusar avgifterna.\n\n🤯 På vissa nätverk kan det vid hög belastning kosta MER än {c}10 i gas att skicka krypto för {c}10. Du skulle betala mer för frakten än paketet är värt.\n\nNyare nätverk och 'layer 2'-system finns mest för att göra det här billigare, med avgifter på några ören. Alla som håller på med krypto kollar avgiften INNAN de trycker på skicka.\n\nEn sak till: kryptoöverföringar går inte att ångra. Fel adress plus betald gas blir pengar som är borta, för alltid. Det finns ingen bank att ringa. ☎️❌",
+      "quiz": {
+        "q": "Gasavgifterna är höga idag. Du vill skicka krypto för {c}15 och gasen kostar {c}20. Hur ska du tänka?",
+        "explanation": "Gas prissätts efter hur upptaget nätverket är, inte efter hur mycket du skickar, så en liten överföring kan kosta mer än den är värd. Att dela upp den hjälper inte heller, eftersom varje överföring betalar sin egen avgift. Vänta på en lugnare stund eller använd ett billigare nätverk.",
+        "options": [
+          "Betala, eftersom avgiften återbetalas när den kommit fram",
+          "Strunta i det, avgiften kostar mer än paketet",
+          "Dela den i två, så att varje halva betalar halva avgiften",
+          "Ignorera avgiften, gas gäller bara stora överföringar"
+        ]
+      }
+    },
+    "35": {
+      "title": "Memecoins och rug pulls",
+      "desc": "Upptäck fällorna innan de upptäcker dig",
+      "content": "Memecoins är kryptovalutor byggda på skämt och hype i stället för någon verklig användning. Några gjorde tidiga köpare rika, och det är precis därför det finns tusentals kopior. Nästan alla går till noll. 📉\n\nDen elakaste fällan är RUG PULL: skaparna gör ett mynt, hypar det hårt, väntar på att folk ska strömma in, och dumpar sedan sitt enorma lager eller tömmer handelspoolen. Priset kollapsar på några minuter. De behåller pengarna. Du behåller de värdelösa mynten.\n\n🚩 VARNINGSFLAGGOR att lära sig utantill:\n• Anonymt team som du inte kan kontrollera\n• 'Garanterad' avkastning (ingenting på marknaden är garanterat)\n• Influencers som får betalt för att hypa det\n• En liten grupp äger det mesta av utbudet\n• Press att 'köpa innan det är för sent'\n\nOm ett mynts främsta argument är att ANDRA som köper det ska göra DIG rik, så är det inte investering. Det är hela havet stormar, och skaparna äger musiken. 🎵",
+      "quiz": {
+        "q": "Ett nytt mynt har ett anonymt team, lovar garanterat 100x och betalda influencers pushar det hårt. Vad händer oftast sedan?",
+        "explanation": "Ett anonymt team, garanterad avkastning och betald marknadsföring är det klassiska upplägget för en rug pull. Skaparna äger det mesta av utbudet, säljer det mitt i hypen och går därifrån, och lämnar köparna med ett mynt som ingen vill ha. Ingenting på marknaden är garanterat.",
+        "options": [
+          "Köparna får pengarna tillbaka av börsen där det lanserades",
+          "Priset stabiliseras när influencerna slutar posta",
+          "Teamet dumpar sitt lager och priset kollapsar",
+          "Myndigheter tvingar teamet att berätta vilka de är"
+        ]
+      }
+    },
+    "36": {
+      "title": "Mining, trading och staking",
+      "desc": "Tre väldigt olika spel",
+      "content": "Tre sätt folk försöker tjäna pengar på krypto, och de är INTE samma spel:\n\n⛏️ MINING: kraftfulla datorer tävlar om att behandla transaktioner och får nya mynt. Låter kul, men Bitcoin-mining idag är industriellt: lagerlokaler fulla av specialmaskiner och enorma elräkningar. Din mobil eller laptop har ingen chans, och appar som säger 'mina Bitcoin på mobilen!' är nästan alltid bluffar eller annonsfarmer som betalar dig nästan ingenting.\n\n🥩 STAKING: på vissa nätverk låser du in mynt för att hjälpa till att säkra nätverket och får belöningar, lite som ränta. Det är på riktigt, men dina mynt kan vara låsta ett tag, och deras PRIS kan ändå rasa medan de är låsta.\n\n📊 TRADING: köpa och sälja för att tjäna på prisrörelser. Ingen hårdvara behövs, men det är spelet där disciplin betyder mest, och där de flesta nybörjare förlorar mot sina egna känslor.\n\nNoobTrader lär dig tradingspelet helt utan risk. De andra två kräver riktiga pengar för att ens komma igång.",
+      "quiz": {
+        "q": "En app säger att din mobil kan mina Bitcoin med vinst medan du sover. Vad är troligast sant?",
+        "explanation": "Mining är ett race som avgörs av specialhårdvara och billig el, och en mobil har inget av det. Appar som lovar något annat är oftast ute efter din data, ditt batteri eller dina pengar, och betalar dig nästan ingenting för det.",
+        "options": [
+          "Mobiler minar långsamt men går ändå med vinst",
+          "Det funkar, men bara på de nyaste mobilerna",
+          "Mobilmining har förbjudits av nätverken",
+          "Det är en annonsfarm som betalar nästan inget"
+        ]
+      }
+    },
+    "37": {
+      "title": "Kryptosäkerhet och bluffar",
+      "desc": "Behåll det som är ditt",
+      "content": "Kryptos superkraft är också dess fara: transaktioner går inte att ångra och det finns ingen bank som kan rätta till ett misstag. Det älskar bedragare. Här är ditt försvarskit:\n\n🔐 DIN SEED PHRASE ÄR HELIG. Ingen seriös aktör kommer NÅGONSIN att be om den. Inte 'supportpersonal', inte en 'verifieringsbot', ingen. Den som ber om din seed phrase stjäl från dig, punkt slut.\n\n🎣 NÄTFISKE: falska webbplatser och DM som ser exakt ut som riktiga plattformar. En bokstav fel i webbadressen. Skriv alltid in adressen själv.\n\n🎁 GIVEAWAY-BLUFFAR: 'Skicka 1 mynt, få 2 tillbaka!', ofta via en kändis hackade konto. Ingen dubblar dina pengar. Aldrig.\n\n💕 ROMANS- OCH 'INVESTERINGSMENTOR'-BLUFFAR: en vänlig främling som sakta pratar in dig på en 'speciell plattform'. Plattformen är falsk. Uttagen funkar aldrig.\n\nMönstret bakom varje bluff: brådska plus hemlighetsmakeri plus garanterad vinst. Ser du de tre tillsammans, gå därifrån. 🚶",
+      "quiz": {
+        "q": "Någon som säger sig vara 'plattformssupport' skickar ett DM och ber om din seed phrase på 12 ord för att 'verifiera din wallet'. Vad gör du?",
+        "explanation": "Seed phrasen ÄR din wallet. Den som har den kan tömma den, riktig support ber aldrig om den, och ingen del av den ska någonsin delas.",
+        "options": [
+          "Dela den aldrig, eftersom riktig support aldrig ber om en seed phrase",
+          "Dela den, eftersom verifierad supportpersonal behöver den för att kolla ditt konto",
+          "Dela bara de första sex orden, det är säkert nog i sig",
+          "Be dem mejla dig från den officiella adressen först, och dela den sedan"
+        ]
+      }
+    },
+    "38": {
+      "title": "Kryptobossen",
+      "desc": "Bitcoin-tidsmaskinen",
+      "content": "Dags för historien som alla citerar och ingen berättar ordentligt.\n\nI början av 2017 kostade en Bitcoin ungefär $1,000. I december 2024 passerade den $100,000 för första gången. Ett köp för $1,000 som behölls hela vägen blev ungefär $100,000. Det är 100x. 🤯\n\nNu kommer delen som hypen hoppar över: för att få de där 100x var du tvungen att sitta igenom två brutala ras, ett på ungefär 84% och ett till på ungefär 77%, och se dina pengar krympa i FLERA ÅR i taget utan att sälja. Nästan ingen klarade det. De flesta köpte dyrt, fick panik i raset och sålde billigt.\n\nOch för varje Bitcoin finns det tusentals döda mynt som gick till noll. Att välja vinnaren i förväg ser bara enkelt ut i backspegeln. Det kallas överlevnadsbias, och det är den dyraste illusionen inom krypto.\n\nDen verkliga läxan från tidsmaskinen: för mynten som överlevde slog tålamod timing. Men du får bara veta vilka mynt som överlever EFTERÅT, och det är därför diversifiering slår hjältechansningar, och därför INGEN vet hur framtiden blir. Inte ens bossen. 🐉",
+      "bossVictory": "Kryptomodulen besegrad. Nu kan du mer än de flesta vuxna. 🐉",
+      "quiz": {
+        "q": "Tusentals mynt lanserades samtidigt som Bitcoin, och de flesta är nu värda nästan ingenting. Varför ser \"välj bara nästa Bitcoin\" så enkelt ut när man tittar bakåt?",
+        "explanation": "Bara överlevarna pratas det fortfarande om, så att välja vinnare ser mycket enklare ut i backspegeln än det var då. De tusentals som misslyckades lämnade inga spår i berättelsen.",
+        "options": [
+          "För att vinnarna är de enda som någon fortfarande pratar om, och de som dog försvann ur berättelsen",
+          "För att de bästa mynten är uppenbara från allra första början för alla som läser tillräckligt om dem",
+          "För att de flesta mynt till slut går bra för den som har tålamod att behålla dem i flera år",
+          "För att experterna förutsåg Bitcoin redan 2010 och har pekat ut varje vinnare sedan dess"
+        ]
+      }
+    },
+    "39": {
+      "title": "Vad ÄR en blockkedja egentligen?",
+      "desc": "Tekniken under alltihop",
+      "content": "Skala bort hypen så är en blockkedja förvånansvärt enkel: en gemensam liggare som tusentals datorer har identiska kopior av.\n\nNär någon skickar krypto hamnar transaktionen i ett 'block' tillsammans med hundratals andra. Blocket förseglas med matte och kedjas ihop med blocket före. Därav: block. Kedja. ⛓️\n\nVarför bryr sig någon? På grund av vad den gör möjligt:\n\n✅ Ingen kan i smyg ändra historiken. Att ändra ett gammalt block skulle betyda att göra om varje block efter det på tusentals datorer samtidigt.\n✅ Inget enskilt företag eller land styr den. Nätverket av datorer styr den tillsammans.\n✅ Vem som helst kan kontrollera liggaren. Varenda Bitcoin-transaktion som någonsin gjorts är offentligt synlig.\n\nDet är genuint ny teknik. Det är också INTE magiska pengar. En perfekt liggare över ett värdelöst mynt är fortfarande ett värdelöst mynt. Att tekniken är äkta gör inte varje mynt som byggs på den värdefullt. 🧠",
+      "quiz": {
+        "q": "Varför är det så svårt att i hemlighet ändra en gammal transaktion i en blockkedja?",
+        "explanation": "Varje block är förseglat till blocket före, så att skriva om ett gammalt betyder att skriva om varje block efter det, på tusentals datorer, snabbare än nätverket lägger till nya. Det är det som gör liggaren i praktiken permanent.",
+        "options": [
+          "Varje senare block skulle också behöva göras om",
+          "Varje ändring måste godkännas av en regering",
+          "Alla poster som är äldre än en månad raderas",
+          "Varje mynts skapare har en privat redigeringsnyckel"
+        ]
+      }
+    },
+    "40": {
+      "title": "Bitcoin mot allt annat",
+      "desc": "Alla mynt är inte samma spel",
+      "content": "'Krypto' är inte en enda sak. Skillnaderna betyder mer än likheterna:\n\n₿ BITCOIN: originalet. Utbudet är begränsat till 21 miljoner mynt för alltid, inskrivet i koden, och takten för nya mynt halveras ungefär vart fjärde år. (Låter det bekant? NOOBs halvering lånar exakt den idén.) Hela grejen är knapphet plus säkerhet.\n\n⟠ ETHEREUM: mindre 'digitalt guld', mer 'världsdator'. Den kör smarta kontrakt, alltså program som körs automatiskt. De flesta kryptoappar är byggda på den eller dess konkurrenter.\n\n🪙 ALLT ANNAT: tusentals 'altcoins'. Några löser verkliga problem. De flesta är kopior, experiment eller sätt att håva in pengar. Den brutala statistiken: majoriteten av alla mynt som någonsin skapats är redan döda eller värdelösa.\n\nLäxa: 'krypto går upp' säger nästan ingenting om något SPECIFIKT mynt. Vart och ett är sin egen chansning, med sina egna odds. 🎲",
+      "quiz": {
+        "q": "Vilket är Bitcoins maximala utbud, och hur lätt kan det ändras?",
+        "explanation": "Taket på 21 miljoner är en del av reglerna som varje dator i nätverket kör. Att höja det skulle kräva att nästan alla gick med på att göra det de redan äger mindre värt, och därför ses taket som fast.",
+        "options": [
+          "100 miljoner, och minarna röstar om det varje år",
+          "21 miljoner, och att höja det är nästan omöjligt",
+          "1 miljard, och skaparen kan justera det",
+          "Inget tak alls, så nya mynt trycks för alltid"
+        ]
+      }
+    },
+    "41": {
+      "title": "Stablecoins",
+      "desc": "Krypto som försöker stå still",
+      "content": "En stablecoin är en kryptovaluta som är gjord för att alltid vara värd ett fast belopp, oftast exakt 1 amerikansk dollar. Traders använder dem som en parkeringsplats: sälj dina svängiga mynt mot en stablecoin, så står dina pengar still medan du bestämmer nästa drag.\n\nHur håller de sig på $1? Den vanligaste modellen håller riktiga dollar och tillgångar i reserv, så att varje mynt backas upp av något. Du litar alltså på den som förvaltar reserverna.\n\nOch här kommer varningshistorien: stablecoins kan GÅ SÖNDER. Det har faktiskt hänt. 2022 kollapsade en stor 'algoritmisk' stablecoin, som använde smart matematik i stället för riktiga reserver, från $1 till nästan noll på några dagar och raderade tiotals miljarder dollar. 'Stabil' är ett designmål, inte en garanti.\n\nTumregel: ju smartare mekanismen som ska hålla något 'säkert' är, desto noggrannare ska du granska den. 🔍",
+      "quiz": {
+        "q": "Vad är en stablecoins huvuduppgift?",
+        "explanation": "En stablecoins uppgift är att stå still. Den är en parkeringsplats mellan affärer, inte något som förväntas växa.",
+        "options": [
+          "Att hålla ett fast värde, oftast $1, så att traders har en stabil parkeringsplats",
+          "Att växa snabbare än Bitcoin genom att följa hela kryptomarknaden",
+          "Att automatiskt betala ränta till alla som har den i en wallet",
+          "Att dölja transaktioner för alla genom att kryptera den publika liggaren"
+        ]
+      }
+    },
+    "42": {
+      "title": "Krypto, skatt och lagen",
+      "desc": "Ja, reglerna gäller",
+      "content": "Internet är fullt av folk som tror att krypto är osynliga pengar utan regler. De brukar få lära sig den hårda vägen. 😬\n\nVerkligheten i de flesta länder, även i Sydafrika:\n\n🧾 VINSTER ÄR OFTAST SKATTEPLIKTIGA. Säljer du krypto för mer än du betalade vill skattemyndigheten i regel ha sin del, precis som med aktier.\n\n🪪 BÖRSERNA VET VEM DU ÄR. Seriösa plattformar kräver ID-kontroll (kallas KYC, Know Your Customer, alltså \"känn din kund\"). Varje transaktion sparas dessutom för alltid på själva blockkedjan, vilket är MOTSATSEN till anonymt.\n\n⚖️ MYNDIGHETERNA ÄR INBLANDADE. I Sydafrika räknas kryptotillgångar officiellt som finansiella produkter, vilket betyder att plattformarna som säljer dem måste följa reglerna för finansiella tjänster.\n\nInget av detta är ett skäl att få panik. Men det ÄR ett skäl att strunta i alla som säger 'reglerna gäller inte för krypto'. Det gör de, och att låtsas något annat har satt vuxna i riktigt allvarliga problem.",
+      "quiz": {
+        "q": "Din kusin säger att kryptovinster är osynliga för skattemyndigheten eftersom krypto är anonymt. Vad är fel med det?",
+        "explanation": "Seriösa plattformar kontrollerar vem du är innan du får handla, och varje transaktion på blockkedjan är offentlig och permanent, vilket är motsatsen till anonymt. Vinster är i regel skattepliktiga, så kolla reglerna där du bor.",
+        "options": [
+          "Börserna kontrollerar ID, och uppgifterna är offentliga",
+          "Inget, krypto är verkligen anonymt",
+          "Krypto beskattas i USA och ingen annanstans",
+          "Skatt gäller först när du tar ut en miljon"
+        ]
+      }
+    },
+    "43": {
+      "title": "Volatilitet och överlevnadsregler",
+      "desc": "Varför krypto svänger så hårt",
+      "content": "En dålig dag på aktiemarknaden är 3%. En dålig dag i krypto är 20%. Till och med Bitcoin, kryptovärldens 'vuxna', har tappat över 80% av sitt värde mer än en gång och sedan återhämtat sig. Mindre mynt tappar rutinmässigt 95% och kommer aldrig tillbaka.\n\nVarför så vilt? Krypto handlas dygnet runt, 24/7, utan handelsstopp, mycket köps med lånade pengar som tvångssäljs i krascher, och priserna drivs mer av berättelser och känslor än av kvartalsrapporter.\n\nSå här är överlevnadsreglerna som alla erfarna traders upprepar:\n\n1️⃣ Sätt aldrig in pengar du inte har råd att förlora helt.\n2️⃣ Anpassa storleken på dina positioner så att en katastrof inte kan sänka dig.\n3️⃣ Bestäm din exit INNAN du går in, medan du är lugn.\n4️⃣ FOMO är den dyraste känslan inom finans.\n\nÖva på alla fyra i NoobTrader, där förlusterna är på låtsas. Vanorna är det riktiga priset. 🏆",
+      "quiz": {
+        "q": "Vilken av dessa är en riktig överlevnadsregel för volatila marknader?",
+        "explanation": "Att aldrig riskera pengar du inte har råd att förlora är den enda regeln som håller dig kvar i spelet. Att dubbla upp efter en förlust är hur konton tar slut.",
+        "options": [
+          "Dubbla din position efter varje förlust för att vinna tillbaka den",
+          "Investera aldrig pengar du inte har råd att förlora helt",
+          "Volatilitet påverkar bara små mynt, så stora mynt är säkra",
+          "Köp alltid när alla på sociala medier köper"
+        ]
+      }
+    },
+    "44": {
+      "title": "Hypecykler och FOMO",
+      "desc": "Mönstret bakom varje mani",
+      "content": "Krypto går i hypecykler, och när du väl ser mönstret kan du aldrig sluta se det:\n\n📈 Fas 1: något verkligt händer. De tidiga troende köper i tysthet.\n🚀 Fas 2: priserna stiger. Media märker det. Ditt flöde fylls med vinnare.\n🎪 Fas 3: mani. Taxichaufförer ger mynttips. Folk lånar för att köpa. 'Den här gången är det annorlunda.'\n💥 Fas 4: kraschen. De som kom sist, och köpte dyrast, förlorar mest.\n🕳️ Fas 5: tystnad. Vinnarnas inlägg försvinner. Ingen pratar om sina förluster.\n\nNFT-boomen 2021 följde exakt det här manuset: digitala samlarobjekt såldes för miljoner på toppen, och ett par år senare var de flesta värda nästan ingenting.\n\nDet grymma tricket med varje mani: den får den SÄMSTA tiden att köpa att kännas som den mest BRÅDSKANDE. När det känns säkrast att hoppa på, för att alla andra redan har gjort det, är de lätta vinsterna oftast borta. 🎯",
+      "quiz": {
+        "q": "När i en klassisk hypecykel känner den genomsnittliga personen det starkaste suget att köpa?",
+        "explanation": "Suget är starkast när berättelsen hörs mest, och berättelsen hörs mest efter att priset redan har rusat. Att alla är med är det som får det att kännas säkert, och det är också det som gör att ingen finns kvar som kan köpa.",
+        "options": [
+          "Tidigt, medan nästan ingen pratar om det",
+          "Halvvägs ner i kraschen, när priserna är låga",
+          "Nära toppen, när alla andra redan är med",
+          "Det följer inget mönster, suget är slumpmässigt"
+        ]
+      }
+    },
+    "45": {
+      "title": "Läsa ett ljus",
+      "desc": "Ljusets anatomi: kropp och färg",
+      "content": "Varje ljus berättar en liten historia med bara fyra siffror: var priset öppnade, det högsta det nådde, det lägsta det föll till och var det stängde. Den fyllda kroppen går från öppning till stängning, och färgen visar vem som vann: grönt betyder att stängningen hamnade över öppningen, rött betyder att säljarna drog ner den under. Det är hela tricket. Lär dig läsa ett ljus ordentligt så förvandlas varje diagram i världen från en vägg av brus till en serietidning. 🟢",
+      "quiz": {
+        "q": "Det här ljuset är grönt. Vad berättar det om den handelsperioden?",
+        "options": [
+          "Priset stängde lägre än det öppnade",
+          "Fler köpte än sålde, garanterat",
+          "Priset stängde högre än det öppnade",
+          "Priset sjönk aldrig under perioden"
+        ]
+      }
+    },
+    "46": {
+      "title": "Vekarna berättar",
+      "desc": "Ljusets anatomi: toppar och bottnar",
+      "content": "Kroppen visar var perioden öppnade och stängde, men vekarna visar hela resan: varje pris som striden faktiskt nådde. En lång veke betyder att en stor strid pågick utanför öppningen och stängningen, och sidan som lämnade veken efter sig förlorade den striden. Lång veke nedåt? Säljarna tryckte på hårt och slogs tillbaka. Lång veke uppåt? Köparna sträckte sig högt och blev avvisade. Kroppen är rubriken, vekarna är skvallret. 📏",
+      "quiz": {
+        "q": "Vad visar egentligen de tunna strecken (vekarna) ovanför och under kroppen?",
+        "options": [
+          "De högsta och lägsta priserna som handlades under perioden",
+          "Gårdagens öppning och stängning",
+          "De exakta priserna där flest affärer gjordes",
+          "En prognos för morgondagens spann"
+        ]
+      }
+    },
+    "47": {
+      "title": "Dojin",
+      "desc": "Enskilda ljus: obeslutsamhet",
+      "content": "Ibland öppnar och stänger ett ljus på nästan exakt samma pris, och kvar blir en pytteliten kropp med vekar på båda sidor. Det är en doji, och den betyder att dragkampen slutade oavgjort: köpare och säljare drog hårt hela dagen och ingen sida vann. Ensam är den bara en axelryckning. Efter en stark rörelse kan den antyda att trenden börjar bli trött, eftersom sidan som vann plötsligt inte kunde flytta priset. En ledtråd värd att notera, aldrig en garanti. 🤝",
+      "quiz": {
+        "q": "Det lysande ljuset öppnade och stängde på nästan exakt samma pris. Vad kallas det, och vad antyder det?",
+        "options": [
+          "En marubozu, ett tecken på total övertygelse åt ena hållet",
+          "En hammare, ett tecken på att köparna tog tillbaka kontrollen",
+          "Ett gap, ett tecken på att handeln pausade över natten",
+          "En doji, ett tecken på obeslutsamhet mellan köpare och säljare"
+        ]
+      }
+    },
+    "48": {
+      "title": "Hammaren",
+      "desc": "Enskilda ljus: motattacken",
+      "content": "Föreställ dig en brutal handelsdag: säljarna pressar ner priset hårt, sedan drar köparna tillbaka det hela vägen före stängning. Det som blir kvar på diagrammet är en hammare: en liten kropp nära toppen med en lång nedre veke som är minst dubbelt så lång. Efter en nedgång säger en hammare att säljarna slog sitt bästa slag och att det inte tog. Det markerar ofta en möjlig vändning. Möjlig, inte lovad, så se den som en ledtråd att bevaka, inte en order att köpa. 🔨",
+      "quiz": {
+        "q": "Efter en nedgång bildade det lysande ljuset en lång nedre veke och en liten kropp nära toppen. Vad är det?",
+        "options": [
+          "Ett stjärnfall, ett tecken på att säljarna tog över",
+          "En hammare, en antydan om att köparna slog tillbaka hårt",
+          "En doji, helt oavgjort",
+          "Ett bevis på att nedtrenden är över"
+        ]
+      }
+    },
+    "49": {
+      "title": "Stjärnfallet",
+      "desc": "Enskilda ljus: avvisning på toppen",
+      "content": "Hammarens spegelbild. Efter en stark uppgång sträcker sig köparna efter ännu en ny topp, blir hårt avvisade, och priset stänger tillbaka nere nära där det öppnade. Diagrammet visar en liten kropp längst ner i ljuset med en lång övre veke: ett stjärnfall (shooting star). Det betyder att säljarna äntligen dök upp på toppen med tillräcklig kraft för att vinna dagen. Efter en stor uppgång spelar den avvisningen ofta roll. Ofta, inte alltid. 🌠",
+      "quiz": {
+        "q": "Efter en stark uppgång sköt det lysande ljuset uppåt och stängde sedan nära sin botten, med en lång övre veke kvar. Vad är det?",
+        "options": [
+          "Ett stjärnfall, en antydan om att säljarna dök upp på toppen",
+          "En hammare, en antydan om att köparna är tillbaka vid makten",
+          "En grön marubozu, ren köpkraft",
+          "En garanti för att priset kraschar i morgon"
+        ]
+      }
+    },
+    "50": {
+      "title": "Marubozun",
+      "desc": "Enskilda ljus: total övertygelse",
+      "content": "En marubozu är en enda fylld kropp helt utan vekar: priset öppnade och marscherade åt ett håll hela dagen utan att någonsin se sig om. Ingen strid, ingen tvekan, total övertygelse från ena sidan. En grön marubozu skriker köparnas självförtroende, en röd skriker motsatsen. De är sällsynta, och det är just därför traders spetsar öronen när en dyker upp. 💪",
+      "quiz": {
+        "q": "Det lysande ljuset är en enda fylld kropp helt utan vekar. Vad säger den formen dig?",
+        "options": [
+          "Ingen handlade under perioden, så den förblev platt",
+          "Marknaden stängde tidigt den dagen och kortade den",
+          "En sida hade kontrollen från öppning till stängning, total övertygelse",
+          "Köpare och säljare var i perfekt balans hela vägen"
+        ]
+      }
+    },
+    "51": {
+      "title": "Bullish engulfing",
+      "desc": "Mönster med två ljus: köparna slår till",
+      "content": "Två ljus, ett budskap. Först ett litet rött ljus, business as usual i en nedtrend. Sedan en stor grön kropp som helt sväljer det: på en enda dag raderade köparna allt säljarna lyckades med dagen innan, och lite till. När det dyker upp efter en nedtrend är bullish engulfing (uppslukande köpmönster) en av de mest bevakade vändningsledtrådarna i alla diagram, eftersom det visar maktbalansen vända i ett enda ljus. Ledtråd, inte kontrakt. 🐂",
+      "quiz": {
+        "q": "Den stora gröna kroppen sväljer helt den röda kroppen före den. Vilket mönster med två ljus är det här?",
+        "options": [
+          "En bearish engulfing, säljarna tog kontrollen",
+          "En bullish engulfing, köparna körde över säljarna",
+          "En dubbelbotten",
+          "Två dojis i rad"
+        ]
+      }
+    },
+    "52": {
+      "title": "Bearish engulfing",
+      "desc": "Mönster med två ljus: säljarna slår till",
+      "content": "Spegelbilden av den bullish versionen. På toppen av en uppgång sväljer en stor röd kropp hela den gröna kroppen före den: säljarna raderade föregående dags köp i ett enda ljus, precis där uppgången redan var utsträckt och de senaste köparna var nervösa. Det brukar göra resten av köparna nervösa också. När du ser den efter ett långt rally, ta den på allvar. 🐻",
+      "quiz": {
+        "q": "På toppen av en uppgång sväljer den stora röda kroppen hela den gröna kroppen före den. Vad kallas det här paret?",
+        "options": [
+          "En bullish engulfing, uppgången fortsätter",
+          "En hammare följd av en doji",
+          "Ett utbrott över motståndet",
+          "En bearish engulfing, säljarna körde över köparna"
+        ]
+      }
+    },
+    "53": {
+      "title": "Hitta en upptrend",
+      "desc": "Trender: högre toppar, högre bottnar",
+      "content": "En upptrend behöver båda halvorna: högre toppar OCH högre bottnar. Varje topp slår den förra, och varje dipp stannar högre än den innan, eftersom köparna kliver in tidigare varje gång. Den trappformen är marknadens sätt att säga att efterfrågan bestämmer. En enda högre topp bevisar ingenting. Mönstret är paret, om och om igen. 📈",
+      "quiz": {
+        "q": "Varje topp slår den förra, och varje dipp stannar högre än den innan. Vad visar det här diagrammet?",
+        "options": [
+          "En upptrend, högre toppar och högre bottnar",
+          "En nedtrend, lägre toppar och lägre bottnar",
+          "En sidledsrörelse, priset fast mellan ett golv och ett tak",
+          "En dubbeltopp som håller på att bildas"
+        ]
+      }
+    },
+    "54": {
+      "title": "Hitta en nedtrend",
+      "desc": "Trender: lägre toppar, lägre bottnar",
+      "content": "Vänd trappan upp och ner. Lägre toppar betyder att säljarna attackerar tidigare vid varje studs, lägre bottnar betyder att köparna backar längre vid varje fall. Så länge den strukturen håller är det säljarna som styr, och att slåss mot den är hur nya traders skänker pengar till tålmodiga. Trenden är inte din fiende, men att låtsas att den inte finns är det definitivt. 📉",
+      "quiz": {
+        "q": "Varje studs toppar lägre än den förra, och varje fall går djupare. Vad är det du tittar på?",
+        "options": [
+          "En upptrend som bara hämtar andan",
+          "En sidledsrörelse",
+          "En nedtrend, lägre toppar och lägre bottnar",
+          "Ett bullish engulfing-mönster som bildas"
+        ]
+      }
+    },
+    "55": {
+      "title": "Sidledsmarknaden",
+      "desc": "Trender: väntans spel",
+      "content": "Ibland vinner ingen sida, så priset studsar bara fram och tillbaka mellan samma golv och samma tak i veckor. Det kallas en sidledsrörelse (range), och marknader tillbringar en enorm del av sitt liv med att göra precis detta. Den är inte trasig och inte tråkig, det är marknaden som hämtar andan. Tålmodiga traders lär sig älska väntan, för ju längre en sidledsrörelse håller, desto mer betydelsefullt brukar det slutliga utbrottet bli. 🏓",
+      "quiz": {
+        "q": "I veckor har priset studsat mellan samma golv och samma tak. Vad kallas det?",
+        "options": [
+          "En upptrend, den fortsätter röra vid taket",
+          "En sidledsrörelse, marknaden rör sig i sidled",
+          "En huvud och axlar-formation",
+          "Ett utbrott som pågår"
+        ]
+      }
+    },
+    "56": {
+      "title": "Stöd",
+      "desc": "Stöd och motstånd: golvet",
+      "content": "När priset hela tiden faller till samma nivå och studsar varenda gång kallar traders den nivån för stöd: ett golv där köparna gång på gång bestämmer att priset är ett fynd. Ju fler gånger det håller, desto fler bevakar det, vilket delvis är varför det fortsätter hålla. Men kom ihåg att golvet är ritat av människor, inte av lagen. Stöd kan brytas och bryts också, och när det händer blir studsgänget till paniksällskapet. 🧱",
+      "quiz": {
+        "q": "Priset har fallit ner i den skuggade nivån tre gånger och studsat varenda gång. Vad kallar traders den nivån?",
+        "options": [
+          "Motstånd, ett tak där säljarna vräker sig in",
+          "En trendlinje, nivåer måste vara diagonala",
+          "En stop loss som börsen har satt",
+          "Stöd, ett golv där köparna hela tiden kliver in"
+        ]
+      }
+    },
+    "57": {
+      "title": "Motstånd",
+      "desc": "Stöd och motstånd: taket",
+      "content": "Motstånd är taket: en nivå där varje rally stannar upp eftersom säljarna gärna tar hem vinsten där. Se ett diagram slå huvudet i samma pris tre gånger, så ser du motstånd jobba i realtid. Här är twisten att komma ihåg: om priset någon gång slår igenom med riktig övertygelse börjar det gamla taket ofta fungera som ett nytt golv. 🪟",
+      "quiz": {
+        "q": "Tre separata rallyn har stannat vid den skuggade nivån. Vad kallas den nivån?",
+        "options": [
+          "Motstånd, ett tak där säljarna hela tiden trycker tillbaka",
+          "Stöd, ett golv som ligger under priset",
+          "Utdelningsnivån, som bestäms en gång om året",
+          "En volymtopp, som inte säger något om priset"
+        ]
+      }
+    },
+    "58": {
+      "title": "Trendlinjer",
+      "desc": "Trendlinjer och kanaler: linjen som räknas",
+      "content": "Dra en linje mellan de stigande bottnarna i ett diagram så har du ritat en trendlinje. Två punkter blir alltid en linje, men vid den tredje beröringen börjar den bevisa att den spelar roll, eftersom den visar att köparna fortsätter försvara samma stigande nivå. Varje extra respekterad beröring är mer bevis. Det förblir bevis, aldrig ett löfte: en trendlinje är ett blyertsstreck, inte ett kraftfält. ✏️",
+      "quiz": {
+        "q": "Den här stigande linjen har berörts tre separata gånger. Varför bryr sig traders om hur många beröringar en trendlinje har?",
+        "options": [
+          "Det gör de inte, eftersom två valfria punkter gör en trendlinje till en regel",
+          "Tre beröringar betyder att en fjärde studs är garanterad härnäst",
+          "Fler beröringar gör linjen mer betydelsefull, köparna fortsätter försvara den",
+          "Trendlinjer räknas bara på dagsdiagram, aldrig på kortare"
+        ]
+      }
+    },
+    "59": {
+      "title": "Kanaler",
+      "desc": "Trendlinjer och kanaler: filen",
+      "content": "En kanal är en trend med hyfs. Priset klättrar medan det studsar mellan två parallella linjer: ett golv av stigande bottnar och ett tak av stigande toppar, som rör sig uppåt tillsammans som kanterna på en fil. Traders bevakar båda kanterna för studsar, och de bevakar ännu hårdare den dag priset lämnar filen, för ett rent utbrott ur en kanal är ofta där nästa stora rörelse börjar. 🛣️",
+      "quiz": {
+        "q": "Priset klättrar medan det studsar mellan två parallella linjer. Vilket mönster är det här?",
+        "options": [
+          "En triangel, där de två linjerna måste mötas",
+          "En stigande kanal, en upptrend med en synlig fil",
+          "En dubbeltopp",
+          "En platt sidledsrörelse som inte leder någonstans alls"
+        ]
+      }
+    },
+    "60": {
+      "title": "Dubbeltoppen",
+      "desc": "Diagrammönster: M-formen",
+      "content": "Priset slår i samma tak två gånger, misslyckas båda gångerna och ritar ett stort M i diagrammet. Bryts dippen i mitten (halslinjen) är dubbeltoppen klar: en klassisk ledtråd om vändning nedåt. Spegelbilden, W:et, är dubbelbottnen, och den pekar åt andra hållet. Brukar markera en topp, måste inte. Inget i ett diagram måste. Ⓜ️",
+      "quiz": {
+        "q": "Priset slog i samma tak två gånger, misslyckades båda gångerna och bröt sedan under dippen i mitten. Vilken form är det?",
+        "options": [
+          "En dubbelbotten, en positiv ledtråd",
+          "En stigande kanal",
+          "En hammare",
+          "En dubbeltopp, en ledtråd om vändning nedåt"
+        ]
+      }
+    },
+    "61": {
+      "title": "När mönster misslyckas",
+      "desc": "Diagrammönster: sannolikheter, inte löften",
+      "content": "Det här är modulens mest värdefulla lektion. Ett mönster som i läroboken bildades, alla såg det, och sedan gjorde marknaden tvärtom. Varje mönster du har lärt dig misslyckas ibland, och det är inte diagrammet som ljuger för dig, det är diagrammet som ger dig information: sidan du satsade på förlorade just. Bestäm din exit innan du går in, och när ett mönster misslyckas, ta vinken och kliv ur. Mönster är sannolikheter, aldrig löften. 🚪",
+      "quiz": {
+        "q": "En dubbelbotten precis som i läroboken bildades vid det skuggade golvet... sedan kraschade priset rakt igenom den. Vad är den ärliga lärdomen?",
+        "options": [
+          "Mönster är sannolikheter, inte löften, och ett misslyckat mönster är din signal att kliva ur",
+          "Riktiga dubbelbottnar misslyckas aldrig, så den du tittade på måste ha varit falsk",
+          "Köp mer till det lägre priset, för mönstret kommer ändå att slå in till slut",
+          "Diagram slutar fungera helt när ett mönster har misslyckats för dig på det sättet"
+        ]
+      }
+    },
+    "62": {
+      "title": "Huvud och axlar",
+      "desc": "Diagrammönster: tre toppar",
+      "content": "Tre toppar: en högre i mitten (huvudet), en lägre på varje sida (axlarna) och en linje under de två dipparna som kallas halslinjen. Den bildas när köparna klarar en sista, högre stöt och sedan inte ens kan matcha den vid nästa försök. Formen i sig är bara en varning. Det traders egentligen väntar på är ett tydligt brott under halslinjen, för det är då mönstret slutar vara en teckning och blir ett beslut. 👤",
+      "quiz": {
+        "q": "Tre toppar: en högre i mitten, en lägre på varje sida och ett golv som förbinder de två dipparna. Vilken klassisk form är det?",
+        "options": [
+          "En trippelbotten, tre lika låga bottnar före en stöt uppåt",
+          "En huvud och axlar-formation, ett möjligt slut på upptrenden",
+          "En stigande triangel",
+          "Tre hammare i rad, där var och en avvisar lägre priser"
+        ]
+      }
+    },
+    "63": {
+      "title": "Triangelpressen",
+      "desc": "Diagrammönster: den spända fjädern",
+      "content": "När svängningarna blir allt mindre, med högre bottnar som trycker upp mot lägre toppar, spänns marknaden som en fjäder. Det är en triangel: båda sidor får slut på utrymme, och ett beslut tvingas fram. Pressen slutar ofta med en explosion, och här är haken: åt vilket håll explosionen går vet man inte i förväg. Vänta på brottet i stället för att gissa. Marknaden kommer att berätta det för dig, och den tar inte betalt för informationen. 🌀",
+      "quiz": {
+        "q": "Svängningarna blir allt mindre och pressar ihop priset i en allt tightare spiral, tills det till slut bryter ut. Vad var spiralen?",
+        "options": [
+          "En kanal, två parallella linjer som aldrig möts",
+          "En dubbeltopp",
+          "En triangel, en konsolidering som ofta slutar i ett utbrott",
+          "Ett bevis på att priset härifrån måste bryta uppåt"
+        ]
+      }
+    },
+    "64": {
+      "title": "Volym: lögndetektorn",
+      "desc": "Volym: vem som faktiskt dök upp",
+      "content": "Volym är hur många aktier som bytte ägare, och den är diagrammens lögndetektor. Ett utbrott på pytteliten volym är en viskning som lurar folk: en handfull affärer knuffade priset någonstans där det inte kan stanna. Ett utbrott på tung volym är en folkmassa som faktiskt röstar med pengar. Samma prisrörelse, helt olika betydelse. Innan du tror på en stor rörelse, kolla vilka som dök upp för den. 🔊",
+      "quiz": {
+        "q": "Två utbrottsförsök från samma tak: det första på pytteliten volym misslyckades, det andra kom med enorm volym och höll. Vad gör volymen här?",
+        "options": [
+          "Ingenting alls, volym spelar aldrig någon roll för en prisrörelse",
+          "Tvingar upp priset, eftersom hög volym trycker priserna högre",
+          "Förutspår rörelsens exakta topp innan den inträffar",
+          "Fungerar som bekräftelse, stor volym visar verklig övertygelse bakom rörelsen"
+        ]
+      }
+    },
+    "65": {
+      "title": "Trendspanaren",
+      "desc": "Tio diagram, inga etiketter, ingen nåd",
+      "content": "Tio diagram. Inga etiketter, inga hjälplinjer, inga ledtrådar. Säg vad vart och ett visar, precis som en riktig trader som stirrar på en riktig skärm. Få 8 av 10 så är modulen din. Du har 3 försök per dag, så ta det lugnt, läs ljusen och kom ihåg den viktigaste lärdomen av alla: ibland är det ärliga svaret att det inte finns något mönster alls. 🕯️",
+      "bossVictory": "Trendmodulen besegrad. Nu läser du diagrammen, diagrammen läser inte dig. 🕯️",
+      "bossQuestions": {
+        "0": {
+          "q": "Vad visar det här diagrammet?",
+          "explanation": "Rörigt med flit. Skala bort bruset så slår varje toppsväng fortfarande den förra, och varje dipp bottnar fortfarande högre. Riktiga trender ser ut så här, inte som en trappa i en lärobok.",
+          "options": [
+            "En nedtrend, lägre toppar och lägre bottnar",
+            "En upptrend, högre toppar och högre bottnar",
+            "En sidledsrörelse",
+            "En dubbeltopp"
+          ]
+        },
+        "1": {
+          "q": "Vad hände vid det lysande ljusparet?",
+          "explanation": "Den röda kroppen svalde hela den gröna kroppen direkt efter en lång uppgång. Det är bearish engulfing som gör exakt det den gör: dyker upp där köparna är som mest utsträckta.",
+          "options": [
+            "En bullish engulfing",
+            "En doji på toppen",
+            "En hammare",
+            "En bearish engulfing på toppen av ett rally"
+          ]
+        },
+        "2": {
+          "q": "Vad visar det här diagrammet?",
+          "explanation": "Mittoppen står tydligt över de två på var sida, och dipparna bildar en halslinje. Riktiga sådana är aldrig symmetriska, och så här ser de faktiskt ut i verkligheten.",
+          "options": [
+            "En huvud och axlar-formation",
+            "En trippeltopp med tre lika höga toppar",
+            "En stigande triangel",
+            "En stigande kanal"
+          ]
+        },
+        "3": {
+          "q": "Vad visar det här diagrammet?",
+          "explanation": "Två försök ner mot samma golv, det andra lite grundare, sedan en stöt uppåt genom studsen i mitten. W-formen, ritad av en riktig marknad snarare än en lärobok.",
+          "options": [
+            "En huvud och axlar-formation",
+            "En fallande triangel",
+            "En dubbelbotten",
+            "En björnflagga"
+          ]
+        },
+        "4": {
+          "q": "Vad är det lysande ljuset?",
+          "explanation": "Lång övre veke, pytteliten kropp parkerad längst ner i spannet, direkt efter ett rally. Köparna sträckte sig efter en ny topp och blev nerslagna före stängning.",
+          "options": [
+            "En hammare",
+            "En grön marubozu",
+            "En doji",
+            "Ett stjärnfall efter en uppgång"
+          ]
+        },
+        "5": {
+          "q": "Vad visar det här diagrammet?",
+          "explanation": "Samma golv och samma tak respekteras gång på gång, och allt däremellan är brus. Ingen sida vinner, så det finns ingen trend att rida på.",
+          "options": [
+            "En sidledsrörelse, priset instängt mellan stöd och motstånd",
+            "En upptrend, högre toppar och högre bottnar",
+            "En fallande kil",
+            "Ett utbrott som pågår"
+          ]
+        },
+        "6": {
+          "q": "Priset bröt ut över det gamla taket, sedan kom den markerade dippen tillbaka till den nivån och höll. Vad var dippen?",
+          "explanation": "Dippen återvände exakt till nivån som tidigare var taket, hittade köpare där, och trenden fortsatte. Det är en rekyl. En vändning hade skurit rakt igenom nivån och fortsatt falla.",
+          "options": [
+            "En fullständig vändning till en nedtrend",
+            "En rekyl, ett återtest av den brutna nivån",
+            "En dubbeltopp",
+            "En dead cat bounce (död katt-studs)"
+          ]
+        },
+        "7": {
+          "q": "Vad visar det här diagrammet?",
+          "explanation": "Platt golv, lägre toppar som trycker ner mot det, säljare som kommer tidigare vid varje studs. Golvet gav till slut vika, vilket är utfallet den här formen ofta lutar åt. Ofta, aldrig alltid.",
+          "options": [
+            "En stigande triangel",
+            "En stigande kanal",
+            "En fallande triangel som lutar sig mot stödet",
+            "En dubbelbotten"
+          ]
+        },
+        "8": {
+          "q": "Vad visar det här diagrammet?",
+          "explanation": "Fällfrågan, och den mest värdefulla i bossen. De flesta diagram visar för det mesta ingenting värt att handla på. Att se mönster som inte finns är hur nybörjare förlorar. Att säga ingen affär är en färdighet. 🎯",
+          "options": [
+            "En huvud och axlar-formation",
+            "En dubbeltopp",
+            "En upptrend",
+            "Inget tydligt mönster, det finns inget att handla på här"
+          ]
+        },
+        "9": {
+          "q": "Vad visar det här diagrammet?",
+          "explanation": "Priset stack upp över taket på svag volym, köparna jagade det, sedan rasade det rakt tillbaka in i sidledsrörelsen. Utbrottet som misslyckas är precis varför volymlektionen sa åt dig att kolla volymen innan du tror på ett.",
+          "options": [
+            "En tjurfälla, ett misslyckat utbrott som sög in köpare",
+            "Ett lyckat utbrott med ett rent återtest",
+            "En dubbelbotten",
+            "En hammarvändning"
+          ]
+        }
+      }
+    },
+    "66": {
+      "title": "Här äger du ingenting",
+      "desc": "Ett derivat är ett vad om ett tal",
+      "content": "Allt du har lärt dig hittills har haft något bakom sig. Köp en aktie i {retail} så äger du en bit av företaget: en bit av butikerna, en bit av vinsten, en röst på stämman och en utdelning när de betalar ut en.\n\nEtt derivat är inte det.\n\nEn CFD (contract for difference, differenskontrakt) är en överenskommelse mellan dig och en leverantör om att byta skillnaden i ett pris mellan när du öppnar och när du stänger. Det är hela produkten. Om {retail} går upp och du satsade på uppgång betalar de dig skillnaden. Om det går ner betalar du dem. Ingen köper en aktie. Ingen säljer en aktie. Det finns inga aktier någonstans i affären.\n\nEn termin (future) är ett kontrakt om att köpa eller sälja något till ett bestämt pris på ett bestämt datum. Riktiga terminer avräknas i faktiska fat olja eller ton majs, men nästan ingen behåller dem så länge, så i praktiken är de flesta terminer också ett vad om ett tal, med en deadline.\n\nVarför det här spelar större roll än det låter:\n\n• Inga utdelningar. Inga Pengaungar. Det som i tysthet byggde upp största delen av avkastningen i lektion 15 finns helt enkelt inte här.\n• Ingen röst, inget ägande, inget att behålla. Det finns inget alternativ som heter ”behåll den bara i tio år”, eftersom det inte finns något att behålla.\n• Ingen ränta-på-ränta. Resten av appen ägnar 65 lektioner åt att lära dig att tiden är på din sida. I det här rummet kostar tiden dig pengar. Du får se exakt hur mycket i lektion 72.\n\nAllt du redan kan spelar fortfarande roll. Det är bara inte längre det du håller på med. 📄",
+      "quiz": {
+        "q": "Du öppnar en CFD på {retail} och priset stiger. Vad äger du egentligen?",
+        "explanation": "En CFD är en överenskommelse mellan dig och leverantören om att byta skillnaden mellan priset när du öppnade och priset när du stänger. Ingen köper en aktie, ingen säljer en, och det finns inga någonstans i affären. Det är därför det inte finns någon utdelning, ingen röst och inget att behålla i tio år.",
+        "options": [
+          "Aktier som leverantören håller i sitt eget namn",
+          "Ett kontrakt om att byta prisskillnaden i slutet",
+          "En del av företaget, och utdelningarna som följer med",
+          "En kupong som blir riktiga aktier när du stänger"
+        ]
+      }
+    },
+    "67": {
+      "title": "Låna av en kompis",
+      "desc": "Vad hävstång egentligen är, och delen ingen lägger upp",
+      "content": "Hävstång låter tekniskt. Det är det inte. Det är att låna.\n\nSäg att du vill ha aktier för {c}1,000 men bara har {c}200. En kompis erbjuder sig att lägga in de andra {c}800. Du styr aktier för {c}1,000 med {c}200 av dina egna pengar. Det är hävstång. Det är hela idén.\n\nNu de tre saker som kompisen gör. Du behöver alla tre, annars har du blivit såld en saga.\n\n1️⃣ UPPSIDAN ÄR VERKLIGEN DIN. Aktierna går upp 10%. Dina {c}1,000 är nu {c}1,100. Det är {c}100 i vinst och du behåller varenda öre, eftersom din kompis ska ha tillbaka {c}800 och inte ett öre mer (valuta: {cName}). På dina egna {c}200 är {c}100 en vinst på 50%. En rörelse på 10% gav dig 50%. Det här är delen alla lägger upp.\n\n2️⃣ LÅNET KRYMPER INTE NÄR DU HAR FEL. Det här är delen ingen lägger upp, och det är hela lektionen. Aktierna faller 10% i stället. Dina {c}1,000 är nu {c}900. Du är fortfarande skyldig din kompis hela {c}800. Inte {c}720. Hela {c}800. Så hela fallet på {c}100 tas från DIN del, och dina {c}200 är nu {c}100. En rörelse på 10% kostade dig 50%.\n\nLäs de två igen. Samma kompis, samma 10%. Dina pengar rör sig fem gånger så snabbt åt båda hållen, eftersom lånet aldrig tar någon del av smärtan.\n\n3️⃣ KOMPISEN TAR UT HYRA, VARJE DAG, PÅ ALLTIHOP. Inte på sina {c}800. På hela {c}1,000 som du styr. Varje natt du behåller den, oavsett om priset gick upp, ner eller ingenstans alls.\n\nOch det finns en fjärde sak gömd i den tredje. Om dina {c}200 börjar ta slut ringer din kompis inte för att prata igenom det. Hen säljer. Direkt, automatiskt, till vilket pris som helst som finns, eftersom det är hens {c}800 som står på spel och hen väntar inte på din åsikt. Det har ett namn, och du möter det om tre lektioner: likvidation.\n\nAlltså: större vinster, större förluster, hyra varje natt och någon annans finger på säljknappen. Hävstång är inte gratis pengar med lite risk. Det är ett lån med alla fyra av de där sakerna, och reklamen visar dig bara den första. 🧠",
+      "quiz": {
+        "q": "En kompis lägger in 800 NT, du lägger in 200 NT, och tillsammans styr ni aktier för 1,000 NT. Aktierna faller 10%. Dra till vad dina egna 200 NT är värda nu.",
+        "explanation": "Lånet krymper inte när du har fel. Aktierna är nu värda 900 NT och din kompis ska fortfarande ha hela 800 NT, så 100 NT är det som blir kvar åt dig. Ett fall på 10% i aktierna tog halva dina pengar, eftersom lånet inte tar något av smärtan. Det fungerar likadant uppåt, och det är den halvan reklamen visar dig."
+      }
+    },
+    "68": {
+      "title": "Marginal är en insättning, inte ett köp",
+      "desc": "Pengarna du lägger in är inte förbrukade, de står på spel",
+      "content": "När du köper en aktie för {c}100 försvinner de {c}100 från dina kontanter och en aktie ligger på ditt konto. Ett enkelt byte.\n\nMarginal fungerar inte så. När du öppnar en position med hävstång lägger du in en insättning, och den insättningen är ingen betalning för något. Den är en säkerhet mot dina egna förluster. Den ligger där, låst, och positionen äter upp den när priset rör sig mot dig.\n\nSäg att insättningskravet är 25%. Du lägger in 250 NT och styr en exponering på 1,000 NT. Titta på ditt konto:\n\n• Priset oförändrat: dina 250 är fortfarande 250. Fast finansieringen har börjat, så de är i tysthet lite mindre.\n• Priset ner 5%: positionen har förlorat 50 NT. Din insättning är i praktiken 200. Dina fria kontanter har inte rört sig. Ditt konto är mindre.\n• Priset ner 20%: positionen har förlorat 200 NT. Din insättning är nere på 50. Du gjorde ingenting. Du sålde ingenting. Du tittade på.\n\nTre begrepp som finns på varje skärm i det här rummet:\n\n🔒 ANVÄND MARGINAL: alla insättningar du har ute just nu.\n💰 KONTOTS EGET KAPITAL: dina fria kontanter, plus din insatta marginal, plus eller minus varje öppen positions vinst och förlust, minus den finansiering som dragits hittills. Vad ditt konto faktiskt är värt om allt stängdes just nu.\n📊 MARGINALNIVÅ: eget kapital delat med använd marginal. Över 100% har du en buffert. Under 100% har marknaden ätit upp bufferten och börjat på insättningen.\n\nOch en regel som överraskar alla: marginalen mäts över hela ditt konto, inte per position. En förlorande position äter upp säkerheten som håller uppe en vinnande. Det är därför ”min andra trade går bra” inte är något försvar. 🔒",
+      "quiz": {
+        "q": "Insättningskravet är 25%, så 250 NT av dina egna pengar styr en exponering på 1,000 NT. Priset faller 8% medan du inte gör någonting alls. Dra till hur mycket fallet har kostat dig.",
+        "explanation": "En insättning är ingen betalning för något, den är en säkerhet, och förlusten räknas på hela 1,000 NT som du styr. 8% av 1,000 NT är 80 NT. Du sålde ingenting och dina fria kontanter har inte rört sig, men 80 NT av din insättning på 250 NT har ätits upp och ditt konto är 80 NT mindre. Räknar du ut 8% på insättningen i stället får du 20 NT, och det är misstaget som får hävstång att se harmlös ut."
+      }
+    },
+    "69": {
+      "title": "Marginalanropet",
+      "desc": "Ett krav, inte en varning",
+      "content": "Ett marginalanrop (margin call) är ögonblicket när din marginalnivå sjunker under 100%. Enkelt uttryckt: din vinstbuffert är slut och marknaden har börjat äta av själva insättningen.\n\nSå här känns det faktiskt, för läroboksversionen missar det viktiga.\n\nDet kommer aldrig en bra dag. Det kommer när positionen redan ser ful ut, när du redan har sagt till dig själv två gånger att den kommer tillbaka, och när du är som sämst på att fatta ett lugnt beslut. Det är ingen artig förvarning. Det är ett krav: sätt in mer pengar, eller stäng positioner, annars gör leverantören det åt dig.\n\nDu har tre drag och bara två av dem är dina.\n\n1️⃣ STÄNG något. Det frigör marginal direkt och är nästan alltid rätt svar. Det betyder också att erkänna att du hade fel, och det är den verkliga anledningen till att folk inte gör det.\n2️⃣ SÄTT IN pengar. Det löser ingenting. Det köper dig utrymme att ha fel längre, på en position du redan valde dåligt, med pengar du inte hade tänkt riskera. Att sätta in kontanter vid ett marginalanrop är hur en dålig trade blir en dålig månad.\n3️⃣ GÖR INGENTING. Då sker det tredje draget utan dig, och det har ett namn.\n\nMyndigheterna tar det här så allvarligt att de skrev in en siffra i lagen. Företag i Europa, Storbritannien och Australien måste automatiskt stänga en privatkunds positioner när marginalen faller till 50% av det som krävdes. Inte ”bör”. Måste. De skrev den regeln eftersom folk som fick bestämma själva valde alternativ 3 och förlorade mer än de hade. ⚠️",
+      "quiz": {
+        "q": "Din marginalnivå har fallit till 80% och du har fått ett marginalanrop. Vilket svar minskar faktiskt risken för likvidation i stället för att bara skjuta upp den?",
+        "explanation": "Att stänga ger tillbaka insättningen direkt, så marginalnivån hoppar upp på en gång. Att sätta in kontanter köper bara utrymme att ha fel längre på en trade du redan valde dåligt. Att vänta är hur likvidation händer. Och en andra position åt andra hållet behöver en egen insättning, så den använder mer marginal, inte mindre.",
+        "options": [
+          "Sätta in mer kontanter på kontot",
+          "Vänta på att marginalnivån ska klättra tillbaka",
+          "Stänga en av positionerna du har öppna",
+          "Öppna en andra position åt andra hållet"
+        ]
+      }
+    },
+    "70": {
+      "title": "Likvidation, och priset du ska kunna först",
+      "desc": "Det exakta priset där ditt konto når noll",
+      "content": "Likvidation är när leverantören stänger dina positioner åt dig eftersom din insättning nästan är slut. Det sker automatiskt. Det sker direkt. Ingen frågar efter din åsikt, ingen kollar om du var på väg att få rätt, och det går inte att överklaga.\n\nDen allra mest användbara siffran i hela den här modulen är ditt LIKVIDATIONSPRIS: det faktiska priset, i faktiska {cPlural}, där det händer.\n\nInte en procentsats. Ett pris. För ”du kan förlora din insättning” är en mening du kan nicka åt och glömma, medan ”{tech} på {c}87.40 och ditt konto är tomt” är ett faktum du kan jämföra med diagrammet innan du trycker på något.\n\nVarje skärm i det här rummet visar det innan du bekräftar, ritat på samma prisskala som diagrammet så att du ser hur långt bort det verkligen är. Två saker märker du direkt, och båda är lektionen:\n\n📏 En större insättning skjuter likvidationspriset längre bort. Mer av dina egna pengar betyder att priset har längre att falla innan dina pengar tar slut.\n⚡ En mindre insättning drar det ända fram till dagens pris. Vid en insättning på 10% ligger likvidationen ungefär en rörelse på 10% bort, och en rörelse på 10% är en helt vanlig vecka.\n\nSedan den ärliga haken. Likvidationspriset är där motorn tänker stänga dig, inte där du garanterat kommer ut. Om dåliga nyheter kommer över natten och marknaden öppnar långt under den nivån stängs du till det pris marknaden faktiskt betalar. Det är gapet, och lektion 78 handlar om det.\n\nKänn till ditt likvidationspris innan du öppnar. Om du inte kan säga det högt förstår du inte affären du är på väg att göra. 💀",
+      "quiz": {
+        "q": "Du lägger in 200 NT som insättning för att styra 1,000 NT av en tillgång som kostar 100 NT. Dra ner priset till där din insättning är borta.",
+        "explanation": "Du styr 10 enheter, så varje 1 NT som priset faller kostar dig 10 NT. Din insättning på 200 NT är borta vid 80 NT, vilket är ett fall på bara 20%."
+      }
+    },
+    "71": {
+      "title": "Vägen tillbaka är brantare",
+      "desc": "Varför förluster är svårare att reparera än de ser ut",
+      "content": "Förluster och vinster känns som motsatser. Det är de inte, och matematiken är inte ens i närheten.\n\nTappar du 10%? Då behöver du +11% för att komma tillbaka. Irriterande, men okej.\nTappar du 50%? Då behöver du +100%. Du måste DUBBLA bara för att gå jämnt ut.\nTappar du 75%? Då behöver du +300%.\nTappar du 90%? Då behöver du +900%.\n\nSkälet är enkelt när du väl ser det: vinsten räknas på den mindre hög du har kvar. 100 faller till 50, och för att klättra från 50 tillbaka till 100 måste den mindre högen dubblas.\n\nLägg nu till hävstång, och se vad den egentligen gör. Den gör inte bara dina vinster snabbare. Den flyttar dig ner i tabellen på en enda eftermiddag. Ett fall på 12% i en aktie, vilket är en dålig men helt normal vecka, är en smäll på 48% för ditt konto vid en insättning på 25%. Nu behöver du +92% för att vara tillbaka där du började, efter en vecka som knappt kom med i nyheterna.\n\nDet är därför proffs pratar om att skydda kapitalet innan de pratar om något annat, och varför ”jag tar igen det” är den dyraste meningen inom trading. Att ta igen det är matematiskt svårare än det var att förlora det, varenda gång. ⛰️",
+      "quiz": {
+        "q": "Ditt konto är ner 75%. Dra till vinsten du behöver härifrån bara för att komma tillbaka till där du började.",
+        "explanation": "100 NT föll till 25 NT. För att nå 100 igen måste de 25 fyrdubblas, vilket är en vinst på 300%. Klättringen mäts på den mindre hög du har kvar, och det är därför den är så mycket brantare än fallet var."
+      }
+    },
+    "72": {
+      "title": "Hyran på lånade pengar",
+      "desc": "Rätt om riktningen, ändå minus på affären",
+      "content": "Du lånade exponeringen. Så du betalar för den. Varje natt.\n\nFinansiering (på vissa ställen kallad swap eller nattavgift) tas ut dagligen, och här är delen som får alla: den tas ut på HELA positionen, inte på delen du lånade. Lägg in 500 NT för att styra 2,000 NT så betalar du hyra på 2,000.\n\nSå räknas den ut: en referensränta, plus leverantörens påslag, delat med 365, gånger hela din position. Du ser båda delarna på skärmen i den här appen, för en avgift du inte kan dela upp är en avgift du inte kan bedöma. Vid ungefär 7.3% per år blir det runt 0.02% av din position per natt.\n\nLåter som ingenting. Se nu hur den äter upp en vinnande trade. 🧾\n\nAFFÄREN DU HAR RÄTT OM OCH ÄNDÅ FÖRLORAR\n\nDu öppnar en position på 2,000 NT i {retail} med en insättning på 500 NT. Du tror på uppgång, och du visar dig ha rätt: under de kommande månaderna glider {retail} UPP 2%.\n\n• Din vinst: 2% av 2,000 = 40 NT. På en insättning på 500 NT är det +8%. Snyggt.\n• Din hyra: 0.02% av 2,000 = 0.40 NT, varje natt.\n\nNatt 50: du har betalat 20 NT. Du är plus 20 NT totalt. Vinner fortfarande.\nNatt 100: du har betalat 40 NT. Din vinst på 40 NT är nu värd exakt noll. Du hade rätt och har inte tjänat någonting.\nNatt 180: du har betalat 72 NT. Din vinst är fortfarande 40 NT. Du är MINUS 32 NT, vilket är minus 6.4% av din insättning, på en affär där du läste marknaden rätt i sex månader.\n\nLäs det igen. Priset gjorde det du sa att det skulle göra. Du förlorade ändå.\n\nDet är meningen att ta med sig från den här lektionen: på en position med hävstång har det att ha rätt ett bäst före-datum. I det här exemplet ligger det 100 nätter bort, och du kan räkna ut ditt eget innan du öppnar. Dela vinsten du hoppas på med nattens hyra. Så många nätter är din åsikt värd.\n\nMotsatsen är också värd att lägga märke till. Resten av appen lär ut ränta-på-ränta, där tiden i tysthet tjänar pengar åt dig medan du sover. Det här är samma maskin, fast den går baklänges och är riktad mot dig. ⏳",
+      "quiz": {
+        "q": "Du har en position med hävstång på 2,000 NT som kostar 0.40 NT per natt i finansiering. Priset stiger tillräckligt för att ge dig en vinst på 40 NT och står sedan still. Efter hur många nätter är vinsten helt uppäten?",
+        "options": [
+          "Den äts aldrig upp, eftersom finansiering bara tas ut på den lånade delen",
+          "Ungefär 100 nätter, eftersom 40 NT i vinst delat med 0.40 NT per natt är 100",
+          "Ungefär 20 nätter, eftersom finansiering tas ut på din insättning på 500 NT",
+          "Finansiering tas bara ut när en position stängs med förlust"
+        ]
+      }
+    },
+    "73": {
+      "title": "Terminer: klockan och rullningen",
+      "desc": "Samma kostnad, levererad på ett annat sätt",
+      "content": "Terminer och CFD:er är kusiner. Båda har hävstång, båda använder marginal, båda kan likvidera dig. Två saker gör terminer annorlunda, och den andra är den intressanta.\n\n⏰ 1. DET STÅR ETT DATUM PÅ DEN. Varje terminskontrakt löper ut. Marsolja, junimajs, septemberindex. När datumet kommer avräknas kontraktet och upphör att finnas. ”Behåll den och vänta på att den kommer tillbaka” finns helt enkelt inte på menyn, eftersom kontraktet inte kommer att finnas kvar. En CFD löper aldrig ut, vilket låter bättre tills du kommer ihåg att den tar ut hyra för evigt.\n\n🔄 2. KOSTNADEN ÄR INBAKAD I PRISET, INTE FAKTURERAD VARJE NATT. Det här är delen folk missar. En termin tar oftast inte ut någon nattlig finansieringsavgift. I stället är kostnaden för att hålla tillgången fram till det datumet redan inbakad i kontraktets pris. Kontrakt för senare datum kostar ofta mer än kontrakt för tidigare datum, och det gapet är samma hållkostnad, gömd inuti siffran.\n\nSå vad händer när en trader vill behålla positionen efter förfall? Hen RULLAR: stänger kontraktet som löper ut och öppnar nästa. Och om nästa är dyrare betalar hen den skillnaden. Vid varje rullning. Det är CFD:ns nattliga hyra, inkasserad i större och mer sällsynta delbetalningar.\n\nDen ärliga sammanfattningen:\n\n• CFD: ingen deadline, hyra varje natt, specificerad på ditt kontoutdrag.\n• Termin: hård deadline, kostnaden gömd i priset och betald vid varje rullning, lätt att missa.\n\nIngen av dem är gratis. Den ena presenterar bara notan artigare, och en kostnad du inte kan se är den som mest sannolikt överraskar dig. ⏳",
+      "quiz": {
+        "q": "En trader vill behålla en terminsposition efter förfallodagen, och nästa kontrakt handlas dyrare än det som löper ut. Vad händer när hen rullar?",
+        "explanation": "Att rulla betyder att stänga kontraktet som snart löper ut och öppna nästa. Om nästa kostar mer lämnar du över den skillnaden, och du gör det igen vid varje rullning. Det är samma hållkostnad som en CFD fakturerar dig för varje natt, inkasserad i större klumpar och gömd i priset i stället för tryckt på ditt kontoutdrag.",
+        "options": [
+          "Hen betalar gapet mellan kontraktet som löper ut och nästa",
+          "Hen får gapet mellan de två kontraktspriserna utbetalt",
+          "Inga pengar byter ägare, eftersom rullning är en enda affär",
+          "Positionen blir en CFD och fortsätter utan förfallodag"
+        ]
+      }
+    },
+    "74": {
+      "title": "Gå kort: förlusten utan golv",
+      "desc": "Varför vadet på nedgång saknar ett naturligt tak",
+      "content": "Allt i appen hittills har varit långt: du köper, du vill att priset ska gå upp. Derivat låter dig gå kort, vilket betyder att satsa på att priset faller. Du öppnar en kort position, priset sjunker, du tjänar pengar.\n\nAtt gå kort (blankning) är verkligen användbart och det är inte ont. Det är så en bonde låser ett pris före skörden och så en fond skyddar en portfölj. Att förstå det gör dig bättre på att läsa marknader, eftersom du för första gången kan se båda sidor av varje affär.\n\nMen det finns en bit matematik i att gå kort som inte har någon motsvarighet någon annanstans, och den måste du bränna fast.\n\n📉 NÄR DU KÖPER är ditt värsta scenario att priset går till noll. Du förlorar 100% av det du satte in. Fruktansvärt, men det är ett golv. Det finns en botten.\n📈 NÄR DU GÅR KORT betyder att priset går emot dig att priset går UPP. Och det finns ingen regel någonstans som säger hur högt ett pris får gå. En aktie som tredubblas kostar dig 200% av positionen. En aktie som går upp tio gånger kostar dig 900%.\n\nLånga förluster har ett golv. Korta förluster har det inte. Den asymmetrin är hela varningen.\n\nRiktiga marknader gör så här. Då och då rusar en hårt blankad aktie, eftersom alla som är korta tvingas köpa för att stänga, vilket trycker priset högre, vilket tvingar fler av dem att köpa. Det kallas en short squeeze och har fått fonder att gå under.\n\nTvå saker håller dig vid liv. För det första är en kort position precis där en stop-loss slutar vara valfri. För det andra skydd mot negativt saldo: på ett ordentligt reglerat privatkonto, och i den här appen, kan ditt konto inte gå under noll. Du kan förlora allt du satte in. Du kan inte bli skyldig pengar. Det skyddet finns eftersom folk blev det innan det fanns. 🕳️",
+      "quiz": {
+        "q": "Varför är det värsta scenariot för en kort position av ett annat slag än det värsta scenariot för en lång position?",
+        "explanation": "Att köpa har ett golv. Det värsta ett pris kan göra är att nå noll, så du förlorar det du satte in och inte mer. Att gå kort är tvärtom, eftersom att förlora betyder att priset går upp, och inget säger hur högt ett pris får gå. En aktie som tredubblas kostar den som blankar två gånger positionen. Det är därför en stop slutar vara valfri på en kort position, och varför den här appen inte kan ta dig under noll.",
+        "options": [
+          "Det är ingen skillnad, eftersom båda är begränsade till det du satte in",
+          "En stop-loss sätter samma golv under en kort position som under en lång",
+          "Fall går långsammare än uppgångar, så en kort position förlorar långsammare",
+          "Ett pris kan bara falla till noll, men det kan stiga utan gräns"
+        ]
+      }
+    },
+    "75": {
+      "title": "Volatilitet gånger hävstång",
+      "desc": "Varför krypto kräver den största insättningen här",
+      "content": "Samma multiplikator på två olika tillgångar är inte samma vad. Det är hela idén i den här lektionen, och det är därför insättningen du måste lägga in ändras beroende på vad du handlar.\n\nTänk på hur en vanlig dag ser ut:\n• Ett stort index rör sig under 1% de flesta dagar.\n• En enskild aktie kan röra sig 2% eller 3%.\n• Krypto rör sig rutinmässigt 5% eller 10%, och en dag på 20% är ingen kris, det är en tisdag. 🎢\n\nSätt nu en liten insättning bakom var och en av dem. Vid en insättning på 10% sänker en rörelse på 10% dig helt. För indexet är det något som händer en gång på flera år. För krypto ungefär en gång i månaden. Samma insättning. Helt olika chanser att överleva.\n\nMyndigheterna räknade ut det här och skrev in det i reglerna. När ESMA begränsade CFD-hävstången i hela Europa i mars 2018 valde de inte en enda siffra. De delade upp den i nivåer: 30:1 på stora valutapar, 20:1 på guld och stora index, 10:1 på andra råvaror, 5:1 på enskilda aktier, och längst ner, 2:1 på krypto. Två mot ett betyder en insättning på 50%. För krypto krävde de HALVA positionen i riktiga pengar, den strängaste nivån på hela listan.\n\nDen här appen gör samma sak, av samma skäl, och säger det på skärmen i stället för att gömma det:\n\n💱 Valuta: den minsta insättningen, eftersom stora valutapar rör sig minst.\n🥇 Guld och råvaror: större.\n📊 Aktier, index och ETF:er: ännu större.\n🪙 Krypto: den största insättningen av alla, eftersom krypto rör sig hårdast.\n\nKrypto är inte förbjudet här, och det är med flit. Du kan handla det. Du kan bara inte handla det med en tunn insättning, för med en tunn insättning skulle en vanlig kryptodag tömma ditt konto innan du hunnit läsa klart om det. Den större insättningen är inte appen som är konstig kring krypto. Det är appen som ser till att en vanlig dag inte kan knäcka dig.\n\nBra att veta: den brittiska myndigheten gick längre än en nivå. 2021 förbjöd den kryptoderivat för privatkunder helt och hållet, och uppskattade att konsumenterna skulle spara runt £53m. Du kan möta kryptohävstång här, med låtsaspengar och en fet insättning, eller så kan du möta den när du är arton med riktiga pengar och utan någon varning alls. Det här är den bättre ordningen. 🌡️",
+      "quiz": {
+        "q": "Krypto kräver den största insättningen av alla tillgångar i det här rummet. Vad är den egentliga anledningen?",
+        "explanation": "Ett stort index rör sig under 1% de flesta dagar. Krypto rör sig rutinmässigt 5% eller 10%, och en dag på 20% är ingen kris, det är en tisdag. Med en tunn insättning sänker en rörelse på 10% dig helt, vilket händer en gång på flera år för indexet och ungefär varje månad för krypto. Europas myndighet krävde halva positionen i riktiga pengar för krypto, den strängaste nivån på hela listan, av exakt det skälet.",
+        "options": [
+          "Personer under 18 är förbjudna att handla krypto, så insättningen är ett straff",
+          "Ingen finansiering tas ut på krypto, så insättningen ersätter den",
+          "Det rör sig hårdast, så en vanlig dag kan tömma en tunn insättning",
+          "Appen sätter kryptopriserna själv i stället för att marknaden gör det"
+        ]
+      }
+    },
+    "76": {
+      "title": "Siffrorna ingen gör reklam för",
+      "desc": "Vad myndigheterna hittade när de räknade",
+      "content": "Du kommer aldrig att se de här siffrorna i en annons. De kommer från finansmyndigheter, som kan kräva ut den faktiska kontodatan från företagen och sedan publicerar vad de hittade.\n\n🇪🇺 ESMA, den europeiska myndigheten, mars 2018. I EU-länderna förlorar mellan 74% och 89% av privatkundernas CFD-konton pengar. Den genomsnittliga förlusten per kund låg mellan €1,600 och €29,000. ESMA begränsade produkten utifrån det.\n\n🇬🇧 FCA i Storbritannien, december 2016. Dess analys av ett representativt urval av kundkonton visade att 82% av kunderna förlorade pengar på de här produkterna.\n\n🇦🇺 ASIC i Australien, publicerat i januari 2026, den senaste av de tre. Under räkenskapsåret 2024 förlorade 68% av privatkunderna som investerade i CFD:er pengar, totalt mer än A$458 miljoner. Av det var A$73 miljoner avgifter.\n\nStanna vid den sista raden en sekund. Sjuttiotre miljoner av det var inte ens dåliga affärer. Det var kostnaden för att spela: spreaden på vägen in, och finansieringen du mötte i lektion 72.\n\nTre olika myndigheter, tre olika länder, data som spänner över tre olika decennier, och svaret landar hela tiden någonstans mellan två tredjedelar och nio tiondelar.\n\nNu delen som betyder mest, för det är den som gör att det här inte bara blir en skrämselsiffra. De här människorna var inte dumma. De var inte lata. De var mest vuxna med jobb, och många av dem läser ett diagram bättre än du gör just nu. De förlorade på grund av hur produkten är byggd: du börjar på efterkälken med spreaden, du betalar hyra medan du väntar, och hävstång betyder att en vanlig rörelse kan knäcka dig innan din åsikt hunnit få rätt.\n\nDet är en struktur, inte ett karaktärsfel. Och strukturer kan bara slås av folk som vet att de finns där. 📊",
+      "quiz": {
+        "q": "Myndigheter i Europa, Storbritannien och Australien kom var och en fram till att de flesta privatkunders CFD-konton förlorar pengar. Vad är den ärliga förklaringen?",
+        "explanation": "Det var vanliga vuxna med jobb, och många av dem läser ett diagram bättre än du gör i dag. De förlorade på grund av hur produkten fungerar: du börjar på efterkälken med spreaden, du betalar hyra varje natt medan du väntar, och hävstång betyder att en normal rörelse kan knäcka dig innan din bedömning hunnit få rätt. Det är en struktur, inte ett karaktärsfel, och strukturer kan slås av folk som vet att de finns där.",
+        "options": [
+          "Sättet produkten är byggd på motarbetar kunden",
+          "De som förlorade var slarviga, och noggranna traders klarar sig",
+          "Konkurrerande företag publicerade siffrorna som en marknadsföringsattack",
+          "Förluster i den skalan kommer från oreglerade länder"
+        ]
+      }
+    },
+    "77": {
+      "title": "Vad som hände när reglerna ändrades",
+      "desc": "Bevis på att det var designen, inte människorna",
+      "content": "Lektion 76 gav dig förlusterna. Den här lektionen ger dig experimentet, och det är det viktigaste i hela modulen.\n\nOm de flesta förlorar för att de flesta är vårdslösa borde det inte ändra något att ändra reglerna. De vårdslösa förblir vårdslösa. Eller hur?\n\nAustralien gjorde testet. I mars 2021 tvingade ASIC på varje CFD-företag med privatkunder ett paket med skydd: tak för hävstång, en standardregel för automatisk stängning, skydd mot negativt saldo och ett förbud mot lockbeten som registreringsbonusar. Samma kunder. Samma företag. Samma marknader. Bara reglerna ändrades.\n\nHär är vad ASIC mätte under de första sex månaderna. 🔬\n\n📉 Privatkontonas sammanlagda nettoförluster föll med 91%, från i snitt A$372 miljoner per kvartal till A$33 miljoner.\n📉 51% färre förlustbringande privatkonton per kvartal.\n📉 87% färre tvångsstängningar på grund av marginal.\n📉 88% färre fall av negativt saldo.\n\nIngen blev smartare på sex månader. Designen ändrades, och nio tiondelar av skadan försvann med den.\n\nTvå saker följer av det, och du ska bära med dig båda.\n\nFör det första: när du förlorar på en trade med hävstång var mycket av det som hände dig inbyggt i produkten innan du ens kom dit. Det är ingen ursäkt för att vara slarvig. Det är ett skäl att respektera saken.\n\nFör det andra, och det här är den användbara halvan: skydden som gjorde jobbet är exakt de vanor som den här modulen har lärt dig. En mindre position. En automatisk exit. Ett hårt golv under skadan. En myndighet var tvungen att tvinga på en hel bransch dem för att få de där 91%. Du kan bara välja dem. 🛡️",
+      "quiz": {
+        "q": "Efter att Australien tvingat på CFD-företag tak för hävstång och automatiska stängningar föll privatkundernas förluster med 91% på sex månader. Vad visar det?",
+        "explanation": "Samma kunder, samma företag, samma marknader. Bara reglerna ändrades, och nio tiondelar av skadan försvann med dem. Ingen blev smartare på sex månader. Skydden som gjorde jobbet är de vanor den här modulen hela tiden lär dig: en mindre position, en automatisk exit och ett hårt golv under skadan. En myndighet var tvungen att tvinga på en hel bransch dem. Du kan helt enkelt välja dem.",
+        "options": [
+          "Australiska traders är mer disciplinerade än europeiska",
+          "Hävstång blir säker så fort en myndighet vakar över den",
+          "Reglerna stoppade folk från att handla, så det fanns inget att förlora",
+          "Det mesta av skadan kom från hur produkten var designad"
+        ]
+      }
+    },
+    "78": {
+      "title": "Gapet som hoppar över din stop",
+      "desc": "En stop är en instruktion att lämna, inte ett utlovat pris",
+      "content": "Du har redan mött stop-loss i lektion 19. Här är vad hävstång gör med dem.\n\nEn stop-loss är en instruktion: ”om priset når den här nivån, ta mig ut.” Det är inget kontrakt om vilket pris du får. Den säger lämna. Den säger inte lämna exakt här.\n\nFör det mesta spelar den skillnaden ingen roll, eftersom priser rör sig i små steg och din order fylls nära din nivå. Men ibland spelar den enormt stor roll.\n\n📰 Marknader stänger. Nyheter kommer klockan 23. Marknaden öppnar 8% lägre än den stängde, och den handlades aldrig på något av priserna däremellan. Din stop låg i det gapet. Den utlöses vid öppningen och fylls där marknaden faktiskt är, vilket är en bra bit förbi nivån du valde.\n\nUtan hävstång är det en dålig dag. Med hävstång kan det vara hela kontot, för om din insättning var tunnare än gapet går gapet rakt igenom ditt likvidationspris också, och du stängs ut under den nivå motorn hade tänkt.\n\nTre saker att göra med det här, ingen av dem komplicerad:\n\n1️⃣ Behandla inte en stop som en garanti. Behandla den som en väldigt bra vana med en känd svaghet.\n2️⃣ Vet när din marknad är stängd och vad som är inplanerat. Bolagsrapporter, räntebesked och val är gap med en anteckning i kalendern.\n3️⃣ Anpassa storleken så att ett gap inte kan knäcka dig. Det är det verkliga försvaret, och det är nästa lektion. En stop skyddar dig mot det vanliga. Positionsstorlek skyddar dig mot det ovanliga, och det ovanliga är det som faktiskt rensar ut folk.\n\nOch det är värt att veta att i den här appen, som på alla ordentligt reglerade privatkonton, betyder skydd mot negativt saldo att ett gap inte kan ta dig under noll. Du kan förlora kontot. Du kan inte bli skyldig. 📰",
+      "quiz": {
+        "q": "Du sätter en stop-loss på {c}90. Över natten kommer dåliga nyheter och marknaden öppnar på {c}78, utan att ha handlats däremellan. Vad händer?",
+        "explanation": "En stop är en instruktion att lämna, inte ett löfte om vilket pris du får. Marknaden handlades aldrig mellan {c}90 och {c}78, så det fanns inget {c}90 kvar att sälja till. Din stop utlöses vid öppningen och fylls där marknaden faktiskt är. Stoppar skyddar dig fortfarande mot vanliga rörelser. Försvaret mot ett hopp som det här är positionens storlek, inte stoppen.",
+        "options": [
+          "Din stop fylls på {c}90, exakt där du satte den",
+          "Du fylls nära {c}78, det första pris som erbjuds",
+          "Ordern annulleras, eftersom priset hoppade över den",
+          "Leverantören betalar dig de {c}12 som marknaden hoppade över"
+        ]
+      }
+    },
+    "79": {
+      "title": "Storleken först, sedan affären",
+      "desc": "Bestäm vad du kan förlora innan du bestämmer vad du köper",
+      "content": "Här är det som skiljer dem som håller i längden från dem som inte gör det, och det är nästan tråkigt.\n\nNybörjare väljer affären och räknar sedan ut hur mycket de ska lägga in. Proffs gör det baklänges. De bestämmer först vad de är villiga att förlora, och låter det avgöra hur stor positionen får vara.\n\nRegeln de flesta använder: riskera 1% till 2% av kontot på en enskild affär. Inte sätt in 1%. RISKERA 1%, alltså det du faktiskt förlorar om din stop slår till.\n\nSå här fungerar det, i tre steg:\n\n1️⃣ Välj din maxförlust. Ett konto på 10,000 NT, 1% risk, alltså 100 NT.\n2️⃣ Välj var du har fel. Du kliver ur om priset faller 5% från din ingång.\n3️⃣ Dela. 100 NT acceptabel förlust, med ett stopavstånd på 5%, betyder en position på 2,000 NT. Det är din storlek. Ingen känsla. En uträkning.\n\nÄndra stoppen så ändras storleken automatiskt. En snävare stop på 2% låter dig köra 5,000 NT. En bredare stop på 10% tvingar ner dig till 1,000 NT. Ju riskablare affären är, desto mindre måste den vara, och matematiken gör det åt dig så att ditt humör inte behöver.\n\nVarför 1%? För att det gör en förlustsvit överlevbar. Tio förluster i rad på 1% lämnar dig med 90% av kontot och dåligt humör. Tio förluster i rad på 20% lämnar dig med ungefär 11% av kontot och ingen väg tillbaka, och du vet redan från lektion 71 hur brant den klättringen är.\n\nIngen överlever marknaderna genom att välja vinnare. Alla som överlever gör det genom att se till att ingen enskild förlust kan knäcka dem. 📐",
+      "quiz": {
+        "q": "Ett konto på 10,000 NT. Du riskerar 1% på den här affären, och du kliver ur om priset faller 5% från din ingång. Dra till den positionsstorlek som respekterar det.",
+        "explanation": "1% av 10,000 NT är 100 NT, och det är det mesta du gick med på att förlora. En stop på 5% betyder 100 NT delat med 5%, vilket är en position på 2,000 NT. Dra högre så visar avläsningen att du riskerar mer än du bestämde."
+      }
+    },
+    "80": {
+      "title": "Varför vinster känns som skicklighet",
+      "desc": "Huvudspelen som hävstång spelar med dig",
+      "content": "Hävstång är inte i första hand ett matteproblem. Matten är enkel. Det är ett huvudproblem, och här är de tre som får alla.\n\n🎯 1. UTFALLSBIAS: att vinna känns som skicklighet. Du tar en vansinnigt överdimensionerad position, den fungerar, du tjänar mycket på en eftermiddag, och din hjärna antecknar ”jag är bra på det här.” Den antecknade inte vad som faktiskt hände, nämligen att du tog en dålig risk och fick ett bra resultat. Det är olika saker, och marknaden betalar dig gärna för ett dåligt beslut flera gånger innan den kräver in skulden. Det farligaste som kan hända en ny trader är en tidig, lätt vinst.\n\n😤 2. HÄMNDTRADING: du vill ha tillbaka det, nu. Du gör en förlust, det svider, och suget kommer direkt. Så du ökar storleken. Nu tar du din största position precis när ditt omdöme är som sämst, på en affär du valde för att du var arg och inte för att den var bra. Marknaden vet inte att du är minus och är inte skyldig dig något. När du känner så här är rätt storlek noll. Stäng appen.\n\n🕳️ 3. JAGA FÖRLUSTER: ”jag behåller den bara tills den kommer tillbaka.” Den här är förklädd till tålamod, och det är därför den är så svår att upptäcka. Tålamod är en plan du gjorde i lugn och ro i förväg. Att jaga är en plan du hittade på efter att priset gått emot dig, och avslöjandet är enkelt: din exit flyttade sig. Om du märker att du förklarar varför nivån du satte inte längre är rätt nivå är det ingen ny analys. Det är ditt ego som förhandlar.\n\nFörsvaret mot alla tre är detsamma och helt oglamoröst. Bestäm allt medan du är lugn, skriv ner det, och behandla den version av dig som dyker upp mitt i en trade som en opålitlig berättare. 🧠",
+      "quiz": {
+        "q": "Du tar en mycket större position än vanligt och den ger en stor vinst på en eftermiddag. Vad är det mest korrekta sättet att tolka det?",
+        "explanation": "Din hjärna antecknar att du är bra på det här. Vad som faktiskt hände är att du tog en dålig risk och att marknaden råkade betala dig ändå, och det är två olika saker. Marknaden betalar ett dåligt beslut flera gånger innan den kräver in skulden. En tidig, lätt vinst är det farligaste som kan hända en ny trader, eftersom den lär ut fel läxa och skickar notan senare.",
+        "options": [
+          "Det här är en metod som fungerar, och den kan skalas upp igen",
+          "Storleken var rätt, för vinsten bevisar det",
+          "Du tog en dålig risk och råkade få ett bra resultat",
+          "Stora vinster visar skicklighet, och det är förluster som visar misstag"
+        ]
+      }
+    },
+    "81": {
+      "title": "Den ärliga frågan",
+      "desc": "Ska du använda det här över huvud taget?",
+      "content": "Du har gått klart modulen. Här är frågan reklamen aldrig ställer.\n\nSka du använda hävstång över huvud taget?\n\nFör de flesta, för det mesta, är det ärliga svaret nej. Inte för att de inte är smarta nog. Utan på grund av allt i de senaste femton lektionerna: du börjar på efterkälken, du betalar hyra medan du väntar, en vanlig rörelse kan knäcka dig innan du får rätt, och tre myndigheter som räknade riktiga konton kom gång på gång fram till att två tredjedelar till nio tiondelar av folk förlorade.\n\nDet finns en version av trading där du aldrig rör något av det här. Du köper en aktie, du äger en bit av ett företag, utdelningar ramlar in, tiden jobbar FÖR dig i stället för emot dig, och ingenting kan någonsin stänga din position utan att fråga. Det är resten av den här appen, och det är inte det tråkiga alternativet. Det är alternativet som matematiken i lektion 14 säger oftast vinner. 🌱\n\nSå här är vad du ska veta innan du bestämmer dig.\n\nIngenting i appen är låst bakom hävstång. Varje tävling, varje topplista, varje XP-väg, varje skolmatch och varje NOOB-belöning är helt öppen för den som aldrig öppnar en enda position med hävstång. Du förlorar ingenting på att gå ifrån det här rummet. Det finns inget straff och inget saknat märke.\n\nOch ingenting här inne betalar dig för att vinna. Du belönas för att gå klart lektionerna, för att klara provet, för att sätta en stop, för att stänga en förlorare och för att skriva en genomgång av din egen likvidation. Du får aldrig betalt för en vinst, en stor position eller en lyckosam svit, för att betala dig för det skulle vara att lära dig fel sak och kalla det utbildning.\n\nOm du använder det: använd det i liten skala, använd det med en stop, känn till ditt likvidationspris innan du trycker på något, och aldrig med pengar du skulle sakna. Om du inte använder det har du ändå lärt dig se maskineriet, och det var alltid poängen. De flesta vuxna som handlar med de här grejerna kan inte förklara det du just har lärt dig. 🤔",
+      "quiz": {
+        "q": "Vad ger en elev upp genom att bestämma sig för att aldrig öppna en position med hävstång i den här appen?",
+        "explanation": "Ingenting i appen är låst bakom hävstång. Varje tävling, varje topplista, varje XP-väg, varje skolmatch och varje NOOB-belöning är öppen för den som aldrig öppnar en enda position med hävstång. Det finns inget straff och inget saknat märke. Och ingenting i det här rummet betalar dig för att vinna: det betalar för att gå klart lektionerna, klara provet, sätta en stop och stänga en förlorare.",
+        "options": [
+          "Ingenting alls, varje väg förblir öppen för hen",
+          "Varje tävling och topplista i appen",
+          "XP:n i den här modulen, som betalas ut för affärer med hävstång",
+          "NOOB-belöningar, som kräver en position med hävstång först"
+        ]
+      }
+    },
+    "82": {
+      "title": "Kraschen",
+      "desc": "Fem dagar, en aggressiv plan, ett tomt konto",
+      "content": "Välkommen till Labbet. Här inne får du ett avskilt övningskonto på 1,000 LAB NT. Det är inte din wallet, det kan inte röra din wallet, och inget som vinns eller förloras här inne lämnar det. Instrumentet heter NOVA. NOVA är påhittat, så ingen kan anklaga oss för att förutspå en riktig krasch. Insättningskrav 25%. Finansiering 0.02% per natt. Stängning vid 50% av använd marginal. Och bara för den här bossen är positionstaken avstängda. Med flit. En gång.\n\nHär är veckan du snart ska förklara.\n\n📅 DAG 1: NOVA på 100. Bra rapport, gruppchatten går varm. Du lägger in 800 av dina 1,000 NT och styr NOVA för 3,200 NT. Ingen stop.\n\n📅 DAG 2: NOVA 106. Du är plus 192 NT, vilket är +19.2% av ditt konto på en dag. Du lägger till dina sista 200 NT. Exponering 4,000 NT. Fria kontanter: noll. Fortfarande ingen stop.\n\n📅 DAG 3: NOVA 101.76. Marginalnivå 103%. Du är fortfarande plus för veckan, så du behåller.\n\n📅 DAG 4: NOVA 94.64. MARGINALANROP. Marginalnivå 75%, eget kapital 750 NT. Du kan inte sätta in mer, för det finns inget kvar att sätta in. Du behåller.\n\n📅 DAG 5: NOVA gappar ner 9% över natten och öppnar på 86.12, under stängningsnivån. LIKVIDERAD vid 390 NT.\n\nUnder veckan föll NOVA 13.9%. Ditt konto föll 61%. Eleven som lade in 250 NT med en stop på 95 avslutade samma vecka på ungefär 949 NT, ner 5%. Och samma 800 NT utan stop men utan påfyllningen dag 2 hade slutat på 550 NT: ett marginalanrop, men vid liv.\n\nNu genomgången. Tio frågor om vad som just hände. Få 8 av 10 så har du besegrat bossen, för här inne är godkänt att kunna förklara vraket, inte att undvika det. 💀",
+      "bossVictory": "Du kraschade ett konto och gick därifrån med vetskap om varför. Det är hela modulen. 💀",
+      "bossQuestions": {
+        "0": {
+          "q": "Under de fem dagarna föll NOVA ungefär 14%. Ditt konto föll 61%. Varför skillnaden?",
+          "options": [
+            "Appen tog ut en straffavgift för att du förlorade",
+            "Du hade ungefär fyra gånger så stor exponering som din insättning var värd, så varje rörelse slog mot ett belopp fyra gånger större än ditt konto",
+            "Finansieringen stod för det mesta av förlusten",
+            "NOVA är en riskablare aktie än siffrorna antyder"
+          ]
+        },
+        "1": {
+          "q": "Dag 2 var du plus 192 NT, vilket var 19.2% av ditt konto på en enda dag. Vad sa det dig egentligen?",
+          "options": [
+            "Att din bedömning var rätt och att du borde öka storleken",
+            "Att positionen hade en bra storlek, eftersom den var lönsam",
+            "Att hävstång är säker när du har rätt",
+            "Att positionen var stor nog att flytta ditt konto 19% på en dag, vilket betyder att den var stor nog att göra samma sak åt andra hållet"
+          ]
+        },
+        "2": {
+          "q": "Dag 2 lade du till dina sista 200 NT i den vinnande positionen. Vad kostade det dig?",
+          "options": [
+            "Båda halvorna av din säkerhet: den höjde exponeringen från 3,200 till 4,000, och den gjorde av med de enda fria kontanterna som kunde ha mött ett marginalanrop",
+            "Ingenting, eftersom att fylla på en vinnare är hur proffs får ränta-på-ränta",
+            "Bara själva 200 NT, som positionen skulle ha vunnit tillbaka",
+            "Lite finansiering, eftersom nattens hyra växte en aning"
+          ]
+        },
+        "3": {
+          "q": "Din marginalnivå nådde 103% dag 3. Vad betydde den siffran?",
+          "options": [
+            "Du var finansierad till 103%, så positionen var översäkrad och trygg",
+            "Ditt konto var plus 3% för veckan",
+            "Ditt eget kapital täckte knappt dina insatta insättningar, så bufferten var borta och nästa rörelse skulle börja äta av själva insättningen",
+            "Ingenting i sig, eftersom marginalnivån bara spelar roll när den är under 50%"
+          ]
+        },
+        "4": {
+          "q": "Vid marginalanropet dag 4 hade en stängning låst in en förlust på 250 NT. Du behöll. Varför är det att behålla som de flesta väljer?",
+          "options": [
+            "För att behålla oftast är det matematiskt korrekta svaret på ett marginalanrop",
+            "För att stänga betyder att erkänna att affären var fel, och att behålla låter dig fortsätta tro att det inte är över än",
+            "För att marginalanrop oftast löser sig själva inom en dag",
+            "För att leverantören rekommenderar att behålla för att undvika att realisera förluster"
+          ]
+        },
+        "5": {
+          "q": "Du likviderades vid 390 NT, men stängningsnivån var 500 NT i eget kapital. Varför hamnade du under den?",
+          "options": [
+            "Leverantören tog ut en likvidationsavgift på 110 NT",
+            "NOVA gappade ner 9% över natten och öppnade under nivån, så stängningen fylldes till det första pris marknaden faktiskt erbjöd",
+            "Finansieringen drogs i en klump i samma ögonblick som likvidationen",
+            "Stängningsnivån är bara en uppskattning och missas normalt med så här mycket"
+          ]
+        },
+        "6": {
+          "q": "Eleven som lade in 250 NT och satte en stop på 95 avslutade samma vecka på ungefär 949 NT. Vad gjorde hen rätt?",
+          "options": [
+            "Hen bestämde sin maxförlust innan hen öppnade, och lät det avgöra storleken",
+            "Hen läste NOVA:s diagram bättre och såg fallet komma",
+            "Hen undvek finansiering genom att använda en mindre insättning",
+            "Hen hade tur, eftersom samma val oftast förlorar"
+          ]
+        },
+        "7": {
+          "q": "Du betalade finansiering varje natt på hela exponeringen på 4,000 NT. Hur mycket spelade den roll i den här affären?",
+          "options": [
+            "Den var det mesta av förlusten, eftersom finansiering växer varje natt",
+            "Ingenting, eftersom finansiering bara tas ut på positioner som överlever en månad",
+            "Bara några få NT, eftersom affären var kort. Finansiering är det som tar död på positionen som står still i månader, inte den som kraschar på en vecka",
+            "Ungefär 192 NT, samma som vinsten dag 2"
+          ]
+        },
+        "8": {
+          "q": "Alla val här var tillåtna. I CFD-hubben kommer de flesta av dem inte att vara det. Varför?",
+          "options": [
+            "För att taken gör appen billigare att driva",
+            "För att myndigheterna kräver ett övningsläge före all simulerad handel",
+            "För att personer under 18 inte får se en likvidation två gånger",
+            "Du såg just en insättning på 80% i en enda position och noll fria kontanter förstöra ett konto på fem dagar, och taken finns för att göra exakt den följden omöjlig"
+          ]
+        },
+        "9": {
+          "q": "Vad är den enskilt mest användbara saken att ta med sig från det här?",
+          "options": [
+            "Att positionens storlek, bestämd innan du öppnar den, betyder mer än att ha rätt om riktningen",
+            "Att NOVA var en dålig aktie att välja, och att bättre research hade räddat kontot",
+            "Att hävstång aldrig ska röras av någon under några omständigheter",
+            "Att marginalanrop är oförutsägbara, så det fanns inget du kunde ha gjort"
+          ]
+        }
+      }
+    },
+    "83": {
+      "title": "Licensen",
+      "desc": "Tio frågor. Åtta rätt för godkänt.",
+      "content": "Licensen är provet som den här modulen har byggt upp till. Tio frågor, och varenda en är en uträkning eller ett beslut om en position som ser skarp ut, för CFD-hubben sysslar inte med definitioner heller.\n\nGodkänt vid 8 av 10. Du har 3 försök per dag. Vi berättar ditt resultat men inte vilka frågor du missade, så ett misslyckat försök är en signal att läsa om modulen, inte att gissa om.\n\nInget här är ett trick. Varje siffra kommer direkt från lektionerna bakom dig. Klarar du de här tio förstår du den här modulen bättre än de flesta vuxna som handlar med de här produkterna på riktigt. 🎫",
+      "bossVictory": "Du kan titta på den riktiga skärmen, i riktiga siffror, och säga nej. Det är licensen. 🎫",
+      "bossQuestions": {
+        "0": {
+          "q": "Ditt konto är 1,000 NT och inget annat är öppet. Du lägger in hela 1,000 NT som insättning med ett krav på 25%, och styr 4,000 NT av {tech} för 200 NT per aktie. Stängningen sker vid 50% av din insättning. Var måste {tech} handlas för att du ska stängas ut?",
+          "options": [
+            "150 NT, ett fall på 25%, samma som insättningskravet",
+            "100 NT, ett fall på 50%, samma som stängningsregeln",
+            "175 NT, ett fall på 12.5%, eftersom det krävs en rörelse på 12.5% för att förlora 500 NT på en exponering på 4,000 NT",
+            "195 NT, ett fall på 2.5%"
+          ]
+        },
+        "1": {
+          "q": "En position på 3,000 NT kostar 0.02% per natt i finansiering. Du förväntar dig en rörelse på 3% till din fördel, värd 90 NT. Hur många nätter är den bedömningen värd innan finansieringen har ätit upp den?",
+          "options": [
+            "Ungefär 50 nätter",
+            "Ungefär 150 nätter, eftersom 90 NT delat med 0.60 NT per natt är 150",
+            "Ungefär 300 nätter",
+            "Den äts aldrig upp, eftersom finansiering bara gäller förlorande positioner"
+          ]
+        },
+        "2": {
+          "q": "Ditt konto är 5,000 NT. Du riskerar 2% på en affär, och du kliver ur om priset rör sig 4% emot dig. Vilken är den största position du bör öppna?",
+          "options": [
+            "100 NT, beloppet du riskerar",
+            "1,000 NT, en femtedel av kontot",
+            "5,000 NT, eftersom stoppen ändå skyddar kontot",
+            "2,500 NT, eftersom 100 NT acceptabel förlust delat med ett stopavstånd på 4% ger storleken"
+          ]
+        },
+        "3": {
+          "q": "En position har tagit ditt konto från 1,000 NT till 400 NT. Vilken avkastning behöver du härifrån bara för att komma tillbaka till 1,000 NT?",
+          "options": [
+            "150%, eftersom 400 NT måste växa med en och en halv gång sig själv för att nå 1,000",
+            "60%, samma procentsats som du förlorade",
+            "100%, eftersom en fördubbling alltid tar dig tillbaka",
+            "250%, dubbelt så mycket som du förlorade"
+          ]
+        },
+        "4": {
+          "q": "Livekortet visar: marginalnivå 82%, fria kontanter 0, en position öppen och ner 18%. Vilket drag minskar faktiskt risken för likvidation?",
+          "options": [
+            "Sätta in kontanter på kontot",
+            "Behålla och vänta på att nivån återhämtar sig",
+            "Stänga en position, vilket frigör marginalen den använde direkt",
+            "Öppna en andra position åt motsatt håll för att ta ut den"
+          ]
+        },
+        "5": {
+          "q": "Du går kort i {tech} på 50 NT med en position på 2,000 NT. Ett uppköpsbud prissätter om den över natten till 150 NT. Hur står sig den förlusten mot det värsta scenariot för en lång position av samma storlek?",
+          "options": [
+            "Den är densamma, eftersom båda är begränsade till det du satte in",
+            "Den korta positionen förlorar 4,000 NT, två gånger positionens värde, medan en lång aldrig kunde förlora mer än själva positionen på 2,000 NT",
+            "Den korta positionen förlorar ingenting om en stop-loss var satt, eftersom stoppar är garanterade",
+            "Den korta positionens förlust är mindre, eftersom priser faller snabbare än de stiger"
+          ]
+        },
+        "6": {
+          "q": "Din stop ligger på 90 NT. Nyheter kommer över natten och marknaden öppnar på 78 NT utan att någonsin ha handlats däremellan. Vad händer, och vad är det verkliga försvaret mot det här?",
+          "options": [
+            "Du fylls på 90 NT, eftersom det är vad en stop garanterar",
+            "Ordern annulleras, eftersom priset hoppade över din nivå",
+            "Du fylls nära 78 NT, och försvaret mot gap är positionsstorlek, inte stoppen",
+            "Leverantören är skyldig dig skillnaden mellan 90 och 78"
+          ]
+        },
+        "7": {
+          "q": "Varför har krypto det största insättningskravet i CFD-hubben?",
+          "options": [
+            "Det rör sig hårdast, så en tunn insättning skulle tömmas av en helt vanlig kryptodag",
+            "Ingen finansiering tas ut på krypto, så insättningen ersätter den",
+            "Krypto är förbjudet för personer under 18 och insättningen är straffet",
+            "Kryptopriserna sätts av appen i stället för av marknaden"
+          ]
+        },
+        "8": {
+          "q": "Vilket av de här ger XP i den här modulen?",
+          "options": [
+            "En vinst på 40% på en position med hävstång",
+            "Att använda den största tillgängliga exponeringen",
+            "En vinstsvit på fem affärer",
+            "Att stänga en förlorande position i stället för att fylla på den"
+          ]
+        },
+        "9": {
+          "q": "Förhandsvisningen före affären säger att en rörelse på 10% emot dig tar 620 NT från ditt konto, vilket är 62% av din wallet. Ditt likvidationspris är 88.40 och {tech} handlas på 96.00 just nu. Öppnar du den?",
+          "options": [
+            "Ja, eftersom likvidationspriset ligger tryggt under det nuvarande priset",
+            "Ja, om du är säker på riktningen",
+            "Bara med dubbel exponering, så att risken blir värd att ta",
+            "Nej: en rörelse på ungefär 8% tömmer positionen, 8% är en vanlig rörelse, och 62% av en wallet på en enda affär bryter mot varje storleksregel i den här modulen"
+          ]
+        }
+      }
+    },
+    "84": {
+      "title": "Ditt värsta scenario, valt i förväg",
+      "desc": "Stop-loss, take-profit och exiten ingen väljer",
+      "content": "Du kan insättningen, anropet, stängningen, hyran, stoppen och gapet. Den här lektionen sätter den sista biten på plats: varje position du någonsin öppnar slutar på exakt ett av tre sätt, och hela spelet handlar om vem som väljer vilket.\n\n1️⃣ DU STÄNGER DEN. Du trycker på knappen och positionen stängs till aktuellt marknadspris. Alltid tillgängligt, på varje position, i varje läge. De flesta exits borde vara den här.\n\n2️⃣ EN ORDER DU HAR SATT STÄNGER DEN. Två sorter, och namnen spelar roll, så lär dig dem ordentligt:\n\n• En STOP-LOSS-ORDER stänger dig automatiskt när priset rör sig EMOT dig till en nivå du valt: en säljstopp under din ingång på en lång position, en köpstopp över din ingång på en kort. Det är ditt värsta scenario, bestämt medan du var lugn, och lektion 80 har redan lärt dig att det är den enda gången du bestämmer något bra.\n• En TAKE-PROFIT-ORDER är en limitorder för att stänga: den stänger dig automatiskt vid målet du valt, när priset rör sig TILL DIN FÖRDEL och når dit. Det är ditt ”nu räcker det”, bestämt innan girigheten fick rösta. En limitorder fylls på din nivå eller bättre, aldrig sämre.\n\n3️⃣ LEVERANTÖREN STÄNGER DEN. Det är likvidation, från lektion 70. Och här är det du ska bränna fast: likvidation är ingen ordertyp. Du kan inte lägga en ”likvidationsaffär”. Ingen kan. Det är inget verktyg i din låda; det är vad leverantören gör för att skydda sitt lån när din insättning nästan är slut, till vilket pris marknaden än betalar, medan du sitter i skolan eller sover.\n\nEn stop-loss är du som bestämmer ditt värsta scenario i förväg. Likvidation är vad som händer när du inte gjorde det.\n\nBåda dina ordrar är ärliga på samma sätt, och det vet du redan från lektion 78: de utlöses på din nivå och fylls till det marknaden faktiskt betalar. Ett gap över din stop fyller dig på andra sidan hoppet, vilket är sämre. Ett gap genom din take-profit fyller dig också på andra sidan, vilket är bättre. Samma faktum, åt båda hållen.\n\nEn placeringsregel, och den här appen upprätthåller den med skälet på skärmen: din stop måste ligga mellan det aktuella priset och ditt likvidationspris. En stop bortom likvidationspriset skulle aldrig kunna utlösas, eftersom leverantören skulle ha stängt dig först, så appen vägrar den och berättar varför.\n\nTre dörrar ut ur varje affär. Två av dem har ditt namn på handtaget. Att gå ut genom en av dem, en dag du valt, på en nivå du valt medan du var lugn, är det som hela den här modulen har lärt dig att göra. 🚪",
+      "quiz": {
+        "q": "Din långa position har en stop-loss som du satt på 180.00 och ett likvidationspris på 150.00. Vad är den verkliga skillnaden mellan de två siffrorna?",
+        "options": [
+          "Ingen alls, de är två namn på samma automatiska stängning, och leverantören utlöser den på ett och samma pris varje gång",
+          "Stop-lossen är leverantörens beslut och likvidationspriset är ditt, så den du faktiskt styr är den som utlöses som nummer två",
+          "Stoppen på 180.00 är ditt värsta scenario, valt av dig i förväg medan du var lugn; 150.00 är där leverantören stänger dig för att skydda sitt lån, eftersom du inte längre har något att säga till om",
+          "Stoppen garanterar ett utförande på exakt 180.00 vad marknaden än gör, medan likvidation kan fyllas på vilket pris som helst, hur långt det än har rört sig"
+        ]
+      }
+    }
+  },
+  "context": {
+    "ZA": {
+      "name": "Sydafrika",
+      "cName": "rand",
+      "cPlural": "rand",
+      "exDesc": "en av de största börserna på hela den afrikanska kontinenten",
+      "sectorList": "⛏️ Gruvdrift: Anglo American, Impala Platinum. Kopplade till globala råvarupriser\n🏦 Bank: Standard Bank, FirstRand, Capitec. Går bra när räntorna är högre\n📱 Teknik: Naspers, Prosus. Kopplade till globala tekniktrender\n🛍️ Detaljhandel: Shoprite, Pick n Pay. Går bra när konsumenterna har pengar att spendera\n📡 Telekom: MTN, Vodacom. Stabilare, eftersom folk alltid behöver data",
+      "etfBasket": "de 40 största bolagen på JSE",
+      "etfDesc": "JSE Top 40 är till exempel en lista över de 40 största bolagen noterade på JSE, rangordnade efter värdet på de aktier som faktiskt finns tillgängliga för handel.",
+      "etfList": "🇿🇦 Satrix Top 40: De 40 största bolagen på JSE. En bra startpunkt.\n🌍 Satrix MSCI World: Bolag från 23 utvecklade länder i ett enda köp.\n🇺🇸 Sygnia Itrix S&P 500: De 500 stora amerikanska bolagen på S&P 500-listan.\n💡 Satrix Nasdaq 100: De 100 största icke-finansiella bolagen på Nasdaq. Väldigt techtungt.",
+      "currencyHedge": "De prissätts i dollar eller euro. Så om randen FÖRSVAGAS (R20 per dollar blir R22) blir dina globala investeringar AUTOMATISKT värda mer i rand!",
+      "fxQuizSetup": "Randen försvagas från R18 till R22 mot dollarn",
+      "fxQuizLose": "Den tappar värde eftersom det går sämre för Sydafrika",
+      "fxQuizGain": "Den STIGER räknat i rand eftersom varje dollar räcker till fler rand",
+      "dcaTitle": "Månadssparande i rand",
+      "dcaAbbrev": "RCA",
+      "food": "Wimpy-burgare"
+    },
+    "US": {
+      "name": "USA",
+      "cName": "dollar",
+      "cPlural": "dollar",
+      "exDesc": "världens överlägset största aktiemarknad",
+      "sectorList": "💻 Teknik: Apple, Microsoft, Alphabet. Drivs av innovation och global efterfrågan\n🏦 Bank: JPMorgan, Bank of America, Goldman Sachs. Går bra när räntorna stiger\n🛍️ Detaljhandel: Amazon, Walmart, Costco. Går bra när konsumenterna spenderar\n⚡ Energi: Exxon Mobil, Chevron. Kopplade till globala olje- och gaspriser\n📡 Telekom: AT&T, Verizon, T-Mobile. Folk behöver alltid uppkoppling",
+      "etfBasket": "de 500 stora amerikanska bolagen på S&P 500-listan",
+      "etfDesc": "S&P 500 är till exempel en lista över 500 stora amerikanska bolag som väljs ut av en kommitté. De måste vara stora, lönsamma och lätta att handla. Det är INTE bara de 500 största, och listan blandar bolag noterade på NYSE med bolag noterade på Nasdaq.",
+      "etfList": "🇺🇸 SPY / VOO: Följer S&P 500, en lista över 500 stora amerikanska bolag. Guldstandarden.\n📦 VTI: Hela den amerikanska aktiemarknaden, tusentals bolag i en ETF.\n💡 QQQ: De 100 största icke-finansiella bolagen på Nasdaq. Väldigt techtungt.\n🌍 VT / VXUS: Globala eller internationella bolag i en enda fond.",
+      "currencyHedge": "Om dollarn försvagas mot andra valutor blir dina internationella investeringar automatiskt värda MER räknat i dollar!",
+      "fxQuizSetup": "Dollarn försvagas kraftigt mot euron och yenen",
+      "fxQuizLose": "Den tappar värde eftersom den amerikanska ekonomin har det tufft",
+      "fxQuizGain": "Den STIGER räknat i dollar eftersom dina utländska innehav fått ett valutalyft",
+      "dcaTitle": "Månadssparande i dollar",
+      "dcaAbbrev": "DCA",
+      "food": "Big Mac-meny"
+    },
+    "GB": {
+      "name": "Storbritannien",
+      "cName": "pund",
+      "cPlural": "pund",
+      "exDesc": "en av de äldsta och viktigaste börserna i världen",
+      "sectorList": "⚡ Energi: Shell, BP. Globala olje- och gasjättar\n🏦 Bank: HSBC, Barclays, Lloyds. Går bra när räntorna är högre\n🧴 Konsument: Unilever, Diageo, Reckitt. Tunga namn inom hushållsvarumärken\n🛍️ Detaljhandel: Tesco, Sainsbury's. Går bra när konsumenterna spenderar\n📡 Telekom: Vodafone, BT Group. Folk behöver alltid uppkoppling",
+      "etfBasket": "de 100 största bolagen på Londonbörsen",
+      "etfDesc": "FTSE 100 är till exempel en lista över de 100 största bolagen på Londonbörsens huvudmarknad, som ses över var tredje månad.",
+      "etfList": "🇬🇧 iShares Core FTSE 100: De 100 största bolagen på Londonbörsen.\n🌍 Vanguard FTSE All-World: Bolag från dussintals länder i ett enda köp.\n🇺🇸 iShares Core S&P 500: De 500 stora amerikanska bolagen på S&P 500-listan.\n💡 iShares Nasdaq 100: De 100 största icke-finansiella bolagen på Nasdaq. Väldigt techtungt.",
+      "currencyHedge": "Om pundet försvagas mot andra valutor blir dina internationella investeringar automatiskt värda MER räknat i pund!",
+      "fxQuizSetup": "Pundet försvagas kraftigt mot dollarn och euron",
+      "fxQuizLose": "Den tappar värde eftersom den brittiska ekonomin har det tufft",
+      "fxQuizGain": "Den STIGER räknat i pund eftersom dina utländska innehav fått ett valutalyft",
+      "dcaTitle": "Månadssparande i pund",
+      "dcaAbbrev": "PCA",
+      "food": "kvartskyckling på Nando's"
+    },
+    "IN": {
+      "name": "Indien",
+      "cName": "rupie",
+      "cPlural": "rupier",
+      "exDesc": "en av de största börserna i världen sett till antal affärer",
+      "sectorList": "💻 Teknik: TCS, Infosys, Wipro. Globala kraftpaket inom IT-tjänster\n🏦 Bank: HDFC Bank, SBI, ICICI. Går bra när räntorna är högre\n🛍️ Konsument: ITC, Hindustan Unilever, DMart. Går bra när konsumenterna spenderar\n⚡ Energi: Reliance, ONGC. Kopplade till olja, gas och raffinering\n📡 Telekom: Airtel, Vodafone Idea. Indiens enorma mobilmarknad fortsätter att växa",
+      "etfBasket": "50 av Indiens största och mest handlade bolag",
+      "etfDesc": "Nifty 50 är till exempel en lista över 50 av Indiens största och mest handlade bolag, utvalda efter storlek OCH efter hur lätt de går att köpa och sälja, inte bara efter storlek.",
+      "etfList": "🇮🇳 Nippon India Nifty 50: Nifty 50, en lista över 50 av Indiens största och mest handlade bolag.\n💡 ICICI Prudential Sensex: Sensex, en lista över 30 av Indiens mest kända blue chips.\n📦 Kotak Nifty Next 50: De 50 bolagen som rankas precis under Nifty 50.\n🌍 Motilal Oswal Nasdaq 100: De 100 största icke-finansiella bolagen på Nasdaq.",
+      "currencyHedge": "Om rupien försvagas mot dollarn blir dina internationella investeringar automatiskt värda MER räknat i rupier!",
+      "fxQuizSetup": "Rupien försvagas från ₹82 till ₹90 mot dollarn",
+      "fxQuizLose": "Den tappar värde eftersom Indiens ekonomi har det tufft",
+      "fxQuizGain": "Den STIGER räknat i rupier eftersom varje dollar räcker till fler rupier",
+      "dcaTitle": "Månadssparande i rupier",
+      "dcaAbbrev": "RCA",
+      "food": "Domino's-pizza"
+    },
+    "JP": {
+      "name": "Japan",
+      "cName": "yen",
+      "cPlural": "yen",
+      "exDesc": "en av de största börserna i världen",
+      "sectorList": "🚗 Fordon: Toyota, Honda, Nissan. Japans världsberömda biltillverkare\n💻 Teknik: Sony, SoftBank, Nintendo. Gaming, underhållning och innovation\n🏦 Bank: MUFG, SMFG, Mizuho. Japans megabankgrupper\n🛍️ Detaljhandel: Fast Retailing (Uniqlo), Seven & i. Global räckvidd inom handel\n📡 Telekom: NTT, KDDI, SoftBank. Enorm mobilinfrastruktur",
+      "etfBasket": "de 225 bolagen på Nikkei 225-listan",
+      "etfDesc": "Nikkei 225 är till exempel en lista över 225 välkända japanska bolag som valts ut för att representera hela marknaden. Den är prisviktad, vilket betyder att en aktie med högt pris väger tyngre än ett bolag som bara är stort.",
+      "etfList": "🇯🇵 En Nikkei 225-ETF: De 225 bolagen på Nikkei 225-listan. Riktmärket.\n📦 En TOPIX-ETF: En mycket bredare del av Tokyomarknaden, långt över tusen bolag.\n🌍 MAXIS All Country World: Utvecklade marknader och tillväxtmarknader i en fond.\n🇺🇸 iShares S&P 500: De 500 stora amerikanska bolagen på S&P 500-listan.",
+      "currencyHedge": "Om yenen försvagas mot andra valutor blir dina internationella investeringar automatiskt värda MER räknat i yen!",
+      "fxQuizSetup": "Yenen försvagas från ¥130 till ¥155 mot dollarn",
+      "fxQuizLose": "Den tappar värde eftersom Japans ekonomi har det tufft",
+      "fxQuizGain": "Den STIGER räknat i yen eftersom dina utländska innehav fått ett valutalyft",
+      "dcaTitle": "Månadssparande i yen",
+      "dcaAbbrev": "YCA",
+      "food": "ramenskål"
+    },
+    "DE": {
+      "name": "Tyskland",
+      "cName": "euro",
+      "cPlural": "euro",
+      "exDesc": "en av de största börserna i Europa",
+      "sectorList": "💻 Teknik: SAP, Infineon. Affärsmjukvara och halvledare\n🚗 Fordon: Volkswagen, BMW, Mercedes-Benz. Tysklands ingenjörsstolthet\n🏦 Bank: Deutsche Bank, Commerzbank. Går bra när räntorna stiger\n🏭 Industri: Siemens, BASF. Global tillverkning och kemi\n📡 Telekom: Deutsche Telekom, 1&1. Ryggraden i Tysklands uppkoppling",
+      "etfBasket": "de 40 största tyska bolagen på Frankfurtbörsen",
+      "etfDesc": "DAX 40 är till exempel en lista över de 40 största tyska bolagen på Frankfurtbörsen, och sedan 2021 måste de dessutom vara lönsamma för att få vara med.",
+      "etfList": "🇩🇪 iShares Core DAX: De 40 största tyska bolagen på Frankfurtbörsen.\n🌍 Xtrackers MSCI World: Bolag från 23 utvecklade länder.\n🇺🇸 iShares Core S&P 500: De 500 stora amerikanska bolagen på S&P 500-listan.\n🇪🇺 En EURO STOXX 50-ETF: 50 ledande blue chips från hela euroområdet.",
+      "currencyHedge": "Om euron försvagas mot andra valutor blir dina internationella investeringar automatiskt värda MER räknat i euro!",
+      "fxQuizSetup": "Euron försvagas kraftigt mot dollarn och yenen",
+      "fxQuizLose": "Den tappar värde eftersom Europas ekonomi har det tufft",
+      "fxQuizGain": "Den STIGER räknat i euro eftersom dina utländska innehav fått ett valutalyft",
+      "dcaTitle": "Månadssparande i euro",
+      "dcaAbbrev": "DCA",
+      "food": "döner kebab"
+    },
+    "CA": {
+      "name": "Kanada",
+      "cName": "kanadensisk dollar",
+      "cPlural": "kanadensiska dollar",
+      "exDesc": "en av världens 10 största börser",
+      "sectorList": "💻 Teknik: Shopify, OpenText, Constellation Software. Kanadensisk teknikinnovation\n🏦 Bank: RBC, TD, BMO, Scotiabank. Kanadas fem stora banker är bergsäkra\n⚡ Energi: Enbridge, Suncor, TC Energy. Jättar inom oljesand och pipelines\n🛍️ Detaljhandel: Dollarama, Canadian Tire, Loblaw. Inhemska handelsvarumärken\n📡 Telekom: BCE, Rogers, Telus. Kanadensare behöver alltid uppkoppling",
+      "etfBasket": "60 stora kanadensiska bolag från alla viktiga branscher",
+      "etfDesc": "S&P/TSX 60 är till exempel en lista över 60 stora kanadensiska bolag som väljs ut av en kommitté så att alla viktiga branscher finns med, vilket betyder att det inte bara är de 60 största.",
+      "etfList": "🇨🇦 iShares S&P/TSX 60 (XIU): 60 stora kanadensiska bolag från alla viktiga branscher.\n📦 Vanguard All-Equity (VEQT): Kanadensiska, amerikanska och internationella aktier i en ETF.\n🇺🇸 BMO S&P 500: De 500 stora amerikanska bolagen på S&P 500-listan.\n💡 En Nasdaq 100-ETF: De 100 största icke-finansiella bolagen på Nasdaq. Väldigt techtungt.",
+      "currencyHedge": "Om den kanadensiska dollarn försvagas mot andra valutor blir dina internationella investeringar automatiskt värda MER räknat i C$!",
+      "fxQuizSetup": "Den kanadensiska dollarn försvagas kraftigt mot den amerikanska dollarn",
+      "fxQuizLose": "Den tappar värde eftersom Kanadas ekonomi har det tufft",
+      "fxQuizGain": "Den STIGER räknat i kanadensiska dollar eftersom dina utländska innehav fått ett valutalyft",
+      "dcaTitle": "Månadssparande i dollar",
+      "dcaAbbrev": "DCA",
+      "food": "Tim Hortons-meny"
+    },
+    "AU": {
+      "name": "Australien",
+      "cName": "australisk dollar",
+      "cPlural": "australiska dollar",
+      "exDesc": "den största börsen på södra halvklotet",
+      "sectorList": "⛏️ Gruvdrift: BHP, Rio Tinto, Fortescue. Globala jättar inom gruvor och råvaror\n🏦 Bank: CBA, Westpac, ANZ, NAB. Australiens fyra stora banker\n🏥 Hälsovård: CSL, Cochlear. Bioteknik och medicinteknik i världsklass\n🛍️ Detaljhandel: Woolworths, Coles, Wesfarmers. Livsmedel och dagligvaror\n💻 Teknik: WiseTech Global, Xero. Mjukvarusuccéer noterade i Australien",
+      "etfBasket": "de 200 största bolagen på ASX",
+      "etfDesc": "S&P/ASX 200 är till exempel en lista över de 200 största bolagen noterade på ASX, mätt efter värdet på aktierna som finns tillgängliga för handel och kontrollerade för hur lätt de byter ägare.",
+      "etfList": "🇦🇺 iShares Core S&P/ASX 200 (IOZ): De 200 största bolagen på ASX.\n📦 Vanguard Australian Shares (VAS): Ännu bredare, runt 300 ASX-bolag.\n🌍 Vanguard MSCI International (VGS): Bolag från utvecklade marknader utanför Australien.\n🇺🇸 BetaShares Nasdaq 100 (NDQ): De 100 största icke-finansiella bolagen på Nasdaq.",
+      "currencyHedge": "Om den australiska dollarn försvagas mot andra valutor blir dina internationella investeringar automatiskt värda MER räknat i A$!",
+      "fxQuizSetup": "Den australiska dollarn försvagas kraftigt mot den amerikanska dollarn",
+      "fxQuizLose": "Den tappar värde eftersom Australiens ekonomi har det tufft",
+      "fxQuizGain": "Den STIGER räknat i A$ eftersom dina utländska innehav fått ett valutalyft",
+      "dcaTitle": "Månadssparande i dollar",
+      "dcaAbbrev": "DCA",
+      "food": "köttpaj"
+    },
+    "HK": {
+      "name": "Hongkong",
+      "cName": "Hongkongdollar",
+      "cPlural": "Hongkongdollar",
+      "exDesc": "porten mellan Kina och de globala marknaderna",
+      "sectorList": "💻 Teknik: Tencent, Xiaomi, Meituan. Kinesiska techjättar noterade i Hongkong\n🏦 Bank: HSBC, Hang Seng Bank. Går bra när räntorna stiger\n🏗️ Fastigheter: CK Asset, Sun Hung Kai. Fastigheter är kung i Hongkong\n⚡ Kraftbolag: CLP, Power Assets. Stabila utdelningar år efter år\n🛡️ Försäkring: AIA, Prudential. Ledande försäkringsbolag i Asien och Stillahavsregionen",
+      "etfBasket": "Hongkongs största och mest handlade bolag",
+      "etfDesc": "Hang Seng Index är till exempel en utvald lista över Hongkongs största och mest handlade bolag, valda för att representera alla viktiga branscher. Antalet bolag på den ändras när indexkommittén lägger till och tar bort namn.",
+      "etfList": "🇭🇰 Tracker Fund (2800): Följer Hang Seng Index. Hongkongs ETF-pionjär.\n💡 Hang Seng TECH ETF: De 30 största techbolagen noterade i Hongkong.\n🇺🇸 En S&P 500-ETF: De 500 stora amerikanska bolagen på S&P 500-listan.\n🇨🇳 En ETF för kinesiska A-aktier: Tillgång till bolag noterade i Shanghai och Shenzhen.",
+      "currencyHedge": "Hongkongdollarn är knuten till den amerikanska dollarn, så en global fond med mycket USA rör sig knappt av valutan ensam. Men delen utanför USA (Europa, Japan, resten av Asien) blir ändå värd mer räknat i HK$ när de valutorna stärks!",
+      "fxQuizSetup": "Euron och yenen stärks mot den amerikanska dollarn, och Hongkongdollarn är knuten till den amerikanska dollarn",
+      "fxQuizLose": "Den tappar värde eftersom Hongkongs ekonomi har det tufft",
+      "fxQuizGain": "Den europeiska och japanska delen STIGER räknat i HK$, eftersom de valutorna nu räcker till fler Hongkongdollar",
+      "dcaTitle": "Månadssparande i dollar",
+      "dcaAbbrev": "DCA",
+      "food": "wontonnudelskål"
+    },
+    "CN": {
+      "name": "Kina",
+      "cName": "yuan",
+      "cPlural": "yuan",
+      "exDesc": "en av de största börserna i världen sett till börsvärde",
+      "sectorList": "💻 Teknik: SMIC, Kingsoft Office. Chiptillverkning och mjukvara noterade i Shanghai\n🏦 Bank: ICBC, CCB, Bank of China. Bland världens största banker sett till tillgångar\n🚗 Fordon: SAIC Motor, Great Wall Motor. Kinas inhemska biltillverkare\n🛍️ Konsument: Kweichow Moutai, Haier, Yili. Välkända namn i hela Kina\n📡 Telekom: China Mobile, China Telecom. Enorma mobilnät",
+      "etfBasket": "300 av de största och mest handlade bolagen på det kinesiska fastlandet",
+      "etfDesc": "CSI 300 är till exempel en lista över 300 av de största och mest handlade bolagen på det kinesiska fastlandet, och den täcker BÅDE Shanghai- och Shenzhenbörsen, inte bara en av dem.",
+      "etfList": "🇨🇳 Huatai-PB CSI 300 (510300): 300 stora, flitigt handlade bolag i Shanghai och Shenzhen.\n💡 ChinaAMC SSE 50 (510050): De 50 största bolagen på enbart Shanghaibörsen.\n🌍 En bred kinesisk aktiefond: Bredare täckning än CSI 300.\n🇺🇸 En S&P 500 QDII-fond: Tillgång till de 500 stora amerikanska bolagen på S&P 500-listan.",
+      "currencyHedge": "Om yuanen försvagas mot andra valutor blir dina internationella investeringar automatiskt värda MER räknat i yuan!",
+      "fxQuizSetup": "Yuanen försvagas kraftigt mot dollarn och euron",
+      "fxQuizLose": "Den tappar värde eftersom Kinas ekonomi har det tufft",
+      "fxQuizGain": "Den STIGER räknat i yuan eftersom dina utländska innehav fått ett valutalyft",
+      "dcaTitle": "Månadssparande i yuan",
+      "dcaAbbrev": "YCA",
+      "food": "nudelskål"
+    },
+    "FR": {
+      "name": "Frankrike",
+      "cName": "euro",
+      "cPlural": "euro",
+      "exDesc": "hemmabas för några av världens mest ikoniska lyx- och industrivarumärken",
+      "sectorList": "👜 Lyx: LVMH, Hermès, Kering. Frankrike dominerar den globala lyxmarknaden\n⚡ Energi: TotalEnergies, Engie. Stora europeiska energibolag\n🏦 Bank: BNP Paribas, Société Générale. Går bra när räntorna stiger\n✈️ Flyg och rymd: Airbus, Safran. Världsledande inom flygplan och försvar\n📡 Telekom: Orange, Bouygues. Ryggraden i Frankrikes uppkoppling",
+      "etfBasket": "de 40 bolagen på CAC 40-listan",
+      "etfDesc": "CAC 40 är till exempel en lista över 40 bolag som en oberoende kommitté väljer ut bland de 100 största på Parisbörsen, utifrån storlek OCH hur mycket de handlas.",
+      "etfList": "🇫🇷 Amundi CAC 40: De 40 bolagen på CAC 40-listan. Riktmärket.\n🌍 En MSCI World-ETF: Bolag från 23 utvecklade länder.\n🇺🇸 BNP Paribas Easy S&P 500: De 500 stora amerikanska bolagen på S&P 500-listan.\n🇪🇺 En EURO STOXX 50-ETF: 50 ledande blue chips från hela euroområdet.",
+      "currencyHedge": "Om euron försvagas mot andra valutor blir dina internationella investeringar automatiskt värda MER räknat i euro!",
+      "fxQuizSetup": "Euron försvagas kraftigt mot dollarn och yenen",
+      "fxQuizLose": "Den tappar värde eftersom Europas ekonomi har det tufft",
+      "fxQuizGain": "Den STIGER räknat i euro eftersom dina utländska innehav fått ett valutalyft",
+      "dcaTitle": "Månadssparande i euro",
+      "dcaAbbrev": "DCA",
+      "food": "croque-monsieur"
+    },
+    "IT": {
+      "name": "Italien",
+      "cName": "euro",
+      "cPlural": "euro",
+      "exDesc": "en av Europas äldsta börser, med ikoniska italienska varumärken",
+      "sectorList": "🏎️ Fordon: Ferrari, Stellantis. Italiensk ingenjörskonst i toppklass\n⚡ Energi: Enel, Eni. Stora europeiska energi- och kraftbolag\n🏦 Bank: UniCredit, Intesa Sanpaolo. Går bra när räntorna stiger\n🛡️ Försäkring: Generali, Unipol. Italiens försäkringsjättar\n📡 Telekom: TIM, Inwit. Italiens infrastruktur för uppkoppling",
+      "etfBasket": "de 40 bolagen på FTSE MIB-listan",
+      "etfDesc": "FTSE MIB är till exempel en lista över 40 av de största och mest handlade bolagen på Milanobörsen, utvalda för att täcka Italiens viktigaste branscher.",
+      "etfList": "🇮🇹 En FTSE MIB-ETF: De 40 bolagen på FTSE MIB-listan.\n🌍 iShares Core MSCI World: Bolag från 23 utvecklade länder.\n🇺🇸 Amundi S&P 500: De 500 stora amerikanska bolagen på S&P 500-listan.\n🇪🇺 Xtrackers EURO STOXX 50: 50 ledande blue chips från hela euroområdet.",
+      "currencyHedge": "Om euron försvagas mot andra valutor blir dina internationella investeringar automatiskt värda MER räknat i euro!",
+      "fxQuizSetup": "Euron försvagas kraftigt mot dollarn och yenen",
+      "fxQuizLose": "Den tappar värde eftersom Europas ekonomi har det tufft",
+      "fxQuizGain": "Den STIGER räknat i euro eftersom dina utländska innehav fått ett valutalyft",
+      "dcaTitle": "Månadssparande i euro",
+      "dcaAbbrev": "DCA",
+      "food": "pizza margherita"
+    },
+    "ES": {
+      "name": "Spanien",
+      "cName": "euro",
+      "cPlural": "euro",
+      "exDesc": "Spaniens största börs och porten till de latinamerikanska marknaderna",
+      "sectorList": "👗 Mode och skönhet: Inditex (Zara), Puig. Spaniens globala stilimperium\n🏦 Bank: Santander, BBVA, CaixaBank. Spaniens banker har enorm global räckvidd\n⚡ Energi: Iberdrola, Endesa. Ledande inom förnybar energi i Europa\n📡 Telekom: Telefónica, Cellnex. Ryggraden i Spaniens uppkoppling\n🏗️ Infrastruktur: Ferrovial, ACS. Bygger infrastruktur över hela världen",
+      "etfBasket": "de 35 mest handlade bolagen i Spanien",
+      "etfDesc": "IBEX 35 är till exempel en lista över de 35 mest handlade spanska aktierna, utvalda av en teknisk kommitté utifrån handelsvolym. Det är alltså en lista över de mest handlade, inte de största.",
+      "etfList": "🇪🇸 En IBEX 35-ETF: De 35 mest handlade spanska aktierna.\n🌍 iShares Core MSCI World: Bolag från 23 utvecklade länder.\n🇺🇸 Vanguard S&P 500: De 500 stora amerikanska bolagen på S&P 500-listan.\n🇪🇺 En EURO STOXX 50-ETF: 50 ledande blue chips från hela euroområdet.",
+      "currencyHedge": "Om euron försvagas mot andra valutor blir dina internationella investeringar automatiskt värda MER räknat i euro!",
+      "fxQuizSetup": "Euron försvagas kraftigt mot dollarn och yenen",
+      "fxQuizLose": "Den tappar värde eftersom Europas ekonomi har det tufft",
+      "fxQuizGain": "Den STIGER räknat i euro eftersom dina utländska innehav fått ett valutalyft",
+      "dcaTitle": "Månadssparande i euro",
+      "dcaAbbrev": "DCA",
+      "food": "tapastallrik"
+    },
+    "NL": {
+      "name": "Nederländerna",
+      "cName": "euro",
+      "cPlural": "euro",
+      "exDesc": "världens äldsta börs, grundad 1602",
+      "sectorList": "💻 Teknik: ASML, Adyen. ASML driver världens mest avancerade chip\n⚡ Energi: Shell, SBM Offshore. Globala energijättar med huvudkontor i Nederländerna\n🏦 Bank: ING, ABN AMRO. Går bra när räntorna stiger\n🍺 Konsument: Heineken, Ahold Delhaize. Globala varumärken inom mat och dryck\n📡 Telekom: KPN, landets största börsnoterade leverantör av uppkoppling",
+      "etfBasket": "de 25 mest aktivt handlade bolagen i Amsterdam",
+      "etfDesc": "AEX är till exempel en lista över de 25 mest aktivt handlade aktierna på Amsterdambörsen. Den rangordnar bolag efter hur mycket de handlas, inte efter hur stora de är.",
+      "etfList": "🇳🇱 iShares AEX: De 25 mest aktivt handlade aktierna i Amsterdam.\n🌍 Vanguard FTSE All-World: Bolag från dussintals länder i ett enda köp.\n🇺🇸 iShares Core S&P 500: De 500 stora amerikanska bolagen på S&P 500-listan.\n🇪🇺 En EURO STOXX 50-ETF: 50 ledande blue chips från hela euroområdet.",
+      "currencyHedge": "Om euron försvagas mot andra valutor blir dina internationella investeringar automatiskt värda MER räknat i euro!",
+      "fxQuizSetup": "Euron försvagas kraftigt mot dollarn och yenen",
+      "fxQuizLose": "Den tappar värde eftersom Europas ekonomi har det tufft",
+      "fxQuizGain": "Den STIGER räknat i euro eftersom dina utländska innehav fått ett valutalyft",
+      "dcaTitle": "Månadssparande i euro",
+      "dcaAbbrev": "DCA",
+      "food": "kroket"
+    },
+    "BR": {
+      "name": "Brasilien",
+      "cName": "real",
+      "cPlural": "real",
+      "exDesc": "den största börsen i Latinamerika",
+      "sectorList": "⛏️ Gruvdrift: Vale, CSN. Brasiliens jättar inom järnmalm och stål\n⚡ Energi: Petrobras, Eletrobras. Stora olje- och kraftbolag\n🏦 Bank: Itaú, Bradesco, Banco do Brasil. Går bra när räntorna stiger\n🍺 Konsument: Ambev, JBS. Kraftpaket inom mat och dryck\n📡 Telekom: Vivo, TIM Brasil. Brasiliens leverantörer av mobil och bredband",
+      "etfBasket": "de mest handlade bolagen på börsen B3",
+      "etfDesc": "Ibovespa är till exempel en lista över de mest handlade bolagen på börsen B3. Ett bolag förtjänar sin plats genom hur mycket det köps och säljs, inte genom hur stort det är. Därför ändras antalet bolag på listan över tid.",
+      "etfList": "🇧🇷 BOVA11: Följer Ibovespa, de mest handlade bolagen på B3. Riktmärket.\n🇺🇸 IVVB11: Följer S&P 500. Det är 500 stora amerikanska bolag, prissatta i real.\n🌍 En global aktie-ETF: Utvecklade marknader och tillväxtmarknader i ett enda köp.\n💡 HASH11: En kryptoindexfond med Bitcoin, Ethereum och mer.",
+      "currencyHedge": "Om realen försvagas mot dollarn blir dina internationella investeringar automatiskt värda MER räknat i R$!",
+      "fxQuizSetup": "Den brasilianska realen försvagas från R$5 till R$6 mot dollarn",
+      "fxQuizLose": "Den tappar värde eftersom Brasiliens ekonomi har det tufft",
+      "fxQuizGain": "Den STIGER räknat i real eftersom varje dollar räcker till fler real",
+      "dcaTitle": "Månadssparande i real",
+      "dcaAbbrev": "RCA",
+      "food": "pão de queijo-meny"
+    },
+    "SA_ARABIA": {
+      "name": "Saudiarabien",
+      "cName": "riyal",
+      "cPlural": "riyal",
+      "exDesc": "den största börsen i Mellanöstern",
+      "sectorList": "🛢️ Energi: Saudi Aramco, SABIC. Aramco är världens mest värdefulla oljebolag\n🏦 Bank: Al Rajhi, SNB, Riyad Bank. Går bra när räntorna stiger\n📡 Telekom: STC, Mobily. Saudiarabiens leverantörer av mobil och bredband\n🛍️ Detaljhandel: Jarir, Extra. Populära butikskedjor\n⛏️ Material: Ma'aden, Yansab. Gruvdrift och petrokemi",
+      "etfBasket": "alla bolag noterade på Tadawuls huvudmarknad",
+      "etfDesc": "TASI (Tadawul All Share Index) är inte alls en topp 30- eller topp 100-lista. Det täcker alla bolag noterade på Tadawuls huvudmarknad, så antalet bolag i det ändras varje gång ett bolag noteras eller lämnar börsen.",
+      "etfList": "🇸🇦 En ETF som följer TASI: Bred exponering mot hela Tadawuls huvudmarknad.\n📦 En saudisk blue chip-ETF: En mycket mindre korg med de största saudiska namnen.\n🌍 En MSCI Saudi Arabia-ETF: Följer MSCI:s saudiska index, ett urval av marknaden.\n🇺🇸 En S&P 500-fond: De 500 stora amerikanska bolagen på S&P 500-listan.",
+      "currencyHedge": "Eftersom riyalen är knuten till den amerikanska dollarn tjänar du på att investera globalt i andra valutor när de valutorna stärks!",
+      "fxQuizSetup": "Globala valutor som euron och yenen stärks mot riyalen",
+      "fxQuizLose": "Den tappar värde eftersom Saudiarabiens ekonomi har det tufft",
+      "fxQuizGain": "Den STIGER räknat i riyal eftersom dina utländska innehav fått ett valutalyft",
+      "dcaTitle": "Månadssparande i riyal",
+      "dcaAbbrev": "RCA",
+      "food": "Al Baik-måltid"
+    },
+    "KR": {
+      "name": "Sydkorea",
+      "cName": "won",
+      "cPlural": "won",
+      "exDesc": "hemmabas för Samsung, Hyundai och några av Asiens mest innovativa bolag",
+      "sectorList": "💻 Teknik: Samsung, SK Hynix, Kakao. Ledande inom global teknik och chip\n🚗 Fordon: Hyundai, Kia. Koreas världsberömda biltillverkare\n🏦 Bank: KB Financial, Shinhan. Går bra när räntorna stiger\n🎶 Underhållning: HYBE, CJ ENM. Den globala kulturvågen med K-pop och K-drama\n📡 Telekom: KT, LG Uplus. Sydkoreas ultrasnabba uppkoppling",
+      "etfBasket": "200 av Koreas största och mest handlade bolag",
+      "etfDesc": "KOSPI 200 är till exempel en lista över 200 av Koreas största och mest handlade bolag, utvalda bransch för bransch så att alla delar av marknaden finns med.",
+      "etfList": "🇰🇷 KODEX 200: Följer KOSPI 200, en lista över 200 av Koreas största och mest handlade bolag.\n🌍 En global aktie-ETF: Bolag från utvecklade marknader i ett enda köp.\n🇺🇸 TIGER Nasdaq 100: De 100 största icke-finansiella bolagen på Nasdaq.\n💡 KODEX Samsung Group: Följer de börsnoterade bolagen i Samsungkoncernen.",
+      "currencyHedge": "Om wonen försvagas mot andra valutor blir dina internationella investeringar automatiskt värda MER räknat i won!",
+      "fxQuizSetup": "Wonen försvagas från ₩1,300 till ₩1,400 mot dollarn",
+      "fxQuizLose": "Den tappar värde eftersom Sydkoreas ekonomi har det tufft",
+      "fxQuizGain": "Den STIGER räknat i won eftersom varje dollar räcker till fler won",
+      "dcaTitle": "Månadssparande i won",
+      "dcaAbbrev": "WCA",
+      "food": "bibimbapskål"
+    },
+    "TW": {
+      "name": "Taiwan",
+      "cName": "taiwanesisk dollar",
+      "cPlural": "taiwanesiska dollar",
+      "exDesc": "hemmabas för TSMC, bolaget som tillverkar de flesta av världens mest avancerade chip",
+      "sectorList": "💻 Teknik: TSMC, MediaTek, ASUS. Taiwan tillverkar världens chip\n🏭 Tillverkning: Hon Hai (Foxconn), Delta. Jättar inom elektroniktillverkning\n🏦 Bank: Cathay Financial, Fubon. Går bra när räntorna stiger\n🧪 Kemi: Formosa Plastics, Nan Ya. Ledande inom industrimaterial\n📡 Telekom: Chunghwa Telecom, Far EasTone. Ryggraden i Taiwans uppkoppling",
+      "etfBasket": "de 50 största bolagen på Taiwanbörsen",
+      "etfDesc": "Taiwan har två väldigt olika listor. TAIEX täcker alla bolag noterade på Taiwanbörsen, runt tusen stycken. Taiwan 50, som den populära ETF:en 0050 följer, är bara de 50 största.",
+      "etfList": "🇹🇼 0050 (Yuanta Taiwan Top 50): De 50 största bolagen på Taiwanbörsen. Klassikern.\n📦 0056 (Yuanta High Dividend): Taiwanesiska aktier utvalda efter förväntad direktavkastning.\n🇺🇸 00646 (Yuanta S&P 500): De 500 stora amerikanska bolagen på S&P 500-listan.\n💡 00662 (Fubon Nasdaq 100): De 100 största icke-finansiella bolagen på Nasdaq.",
+      "currencyHedge": "Om den taiwanesiska dollarn försvagas mot andra valutor blir dina internationella investeringar automatiskt värda MER räknat i NT$!",
+      "fxQuizSetup": "Den taiwanesiska dollarn försvagas från NT$30 till NT$34 mot den amerikanska dollarn",
+      "fxQuizLose": "Den tappar värde eftersom Taiwans ekonomi har det tufft",
+      "fxQuizGain": "Den STIGER räknat i NT$ eftersom dina utländska innehav fått ett valutalyft",
+      "dcaTitle": "Månadssparande i dollar",
+      "dcaAbbrev": "DCA",
+      "food": "nudelsoppa med nötkött"
+    },
+    "SG": {
+      "name": "Singapore",
+      "cName": "singaporiansk dollar",
+      "cPlural": "singaporianska dollar",
+      "exDesc": "Sydostasiens ledande finanscentrum och börs",
+      "sectorList": "🏦 Bank: DBS, OCBC, UOB. Singapores bergsäkra banktrio\n✈️ Transport: Singapore Airlines, SATS. Flyg i världsklass\n🏗️ Fastigheter: CapitaLand, City Developments. Fastigheter är enormt i Singapore\n💻 Teknik: Venture Corporation, AEM. Tech på SGX är mest elektroniktillverkning; Sea och Grab valde att noteras i USA i stället\n📡 Telekom: Singtel, StarHub. Singapores leverantörer av uppkoppling",
+      "etfBasket": "de 30 största bolagen på Singaporebörsen",
+      "etfDesc": "Straits Times Index är till exempel en lista över de 30 största bolagen på Singaporebörsen som också klarar dess krav på free float och handel.",
+      "etfList": "🇸🇬 Nikko AM STI ETF: De 30 största bolagen på Singaporebörsen. Riktmärket.\n📦 ABF Singapore Bond Index Fund: Singaporianska statsobligationer i en fond.\n🌏 iShares MSCI Asia ex Japan: Bred tillgång till asiatiska marknader.\n🇺🇸 En S&P 500-ETF: De 500 stora amerikanska bolagen på S&P 500-listan.",
+      "currencyHedge": "Om den singaporianska dollarn försvagas mot andra valutor blir dina internationella investeringar automatiskt värda MER räknat i S$!",
+      "fxQuizSetup": "Den singaporianska dollarn försvagas kraftigt mot den amerikanska dollarn",
+      "fxQuizLose": "Den tappar värde eftersom Singapores ekonomi har det tufft",
+      "fxQuizGain": "Den STIGER räknat i S$ eftersom dina utländska innehav fått ett valutalyft",
+      "dcaTitle": "Månadssparande i dollar",
+      "dcaAbbrev": "DCA",
+      "food": "måltid på ett hawker centre"
+    },
+    "CH": {
+      "name": "Schweiz",
+      "cName": "franc",
+      "cPlural": "franc",
+      "exDesc": "hemmabas för Nestlé, Novartis och Roche, tre av Europas mest värdefulla bolag",
+      "sectorList": "💊 Läkemedel: Novartis, Roche. Globala läkemedelsjättar\n🍫 Konsument: Nestlé, Lindt. Världens mest ikoniska matvarumärken\n🏦 Bank: UBS, Julius Baer. Schweiziska banker är legendariska\n🏭 Industri: ABB, Holcim. Global ingenjörskonst och byggande\n📡 Telekom: Swisscom, Sunrise. Schweiziska leverantörer av uppkoppling",
+      "etfBasket": "de 20 största och mest handlade schweiziska bolagen",
+      "etfDesc": "Swiss Market Index är till exempel en lista över de 20 största och mest handlade schweiziska bolagen.",
+      "etfList": "🇨🇭 iShares Core SPI: Hela den schweiziska marknaden, inte bara de stora namnen.\n💡 En SMI-ETF: De 20 största och mest handlade schweiziska bolagen.\n🌍 UBS ETF MSCI World: Bolag från 23 utvecklade länder.\n🇺🇸 iShares Core S&P 500: De 500 stora amerikanska bolagen på S&P 500-listan.",
+      "currencyHedge": "Om francen försvagas mot andra valutor blir dina internationella investeringar värda MER räknat i CHF. Schweizerfrancen är oftast väldigt stark!",
+      "fxQuizSetup": "Schweizerfrancen försvagas kraftigt mot dollarn och euron",
+      "fxQuizLose": "Den tappar värde eftersom Schweiz ekonomi har det tufft",
+      "fxQuizGain": "Den STIGER räknat i franc eftersom dina utländska innehav fått ett valutalyft",
+      "dcaTitle": "Månadssparande i franc",
+      "dcaAbbrev": "FCA",
+      "food": "kebab"
+    },
+    "SE": {
+      "name": "Sverige",
+      "cName": "krona",
+      "cPlural": "kronor",
+      "exDesc": "hemmabas för Ericsson, Volvo och förvånansvärt många globala varumärken",
+      "sectorList": "💻 Teknik: Ericsson, Hexagon. Sverige slår över sin vikt inom tech\n🚗 Fordon: Volvo, Volvo Cars. Svensk ingenjörskonst i toppklass\n🏦 Bank: SEB, Handelsbanken, Nordea. Går bra när räntorna stiger\n👗 Detaljhandel: H&M, Essity. Globala mode- och konsumentvarumärken\n📡 Telekom: Telia, Tele2. Ledande inom nordisk uppkoppling",
+      "etfBasket": "de 30 mest handlade bolagen i Stockholm",
+      "etfDesc": "OMXS30 är till exempel en lista över de 30 mest handlade aktierna på Stockholmsbörsen. Den rangordnar efter handelsaktivitet, inte efter bolagens storlek.",
+      "etfList": "🇸🇪 Xact OMXS30: De 30 mest handlade aktierna i Stockholm.\n💰 Avanza Zero: En svensk indexfond utan årlig förvaltningsavgift. Den följer samma 30 Stockholmsaktier.\n🌍 En global indexfond: Bolag från dussintals länder i ett enda köp.\n🇺🇸 En S&P 500-fond: De 500 stora amerikanska bolagen på S&P 500-listan.",
+      "currencyHedge": "Om kronan försvagas mot andra valutor blir dina internationella investeringar automatiskt värda MER räknat i kr!",
+      "fxQuizSetup": "Den svenska kronan försvagas kraftigt mot dollarn och euron",
+      "fxQuizLose": "Den tappar värde eftersom Sveriges ekonomi har det tufft",
+      "fxQuizGain": "Den STIGER räknat i kronor eftersom dina utländska innehav fått ett valutalyft",
+      "dcaTitle": "Månadssparande i kronor",
+      "dcaAbbrev": "KCA",
+      "food": "falafelrulle"
+    }
+  }
+}
