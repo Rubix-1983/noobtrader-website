@@ -73,7 +73,7 @@
     <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" /></noscript>
 
     <title>NoobTrader</title>
-    <script type="module" crossorigin src="./assets/index-CknYtfa_.js"></script>
+    <script type="module" crossorigin src="./assets/index-BBV8Nl4Z.js"></script>
     <link rel="modulepreload" crossorigin href="./assets/react-CRB3T2We.js">
     <link rel="modulepreload" crossorigin href="./assets/supabase-BiHzSKx7.js">
     <link rel="stylesheet" crossorigin href="./assets/index-OTriKTl0.css">
@@ -84,6 +84,19 @@
       margin: 0; padding: 0;
       width: 100%; height: 100%;
       background: #0a0f1a;
+    }
+    /* On a touch screen the app's words are not selectable: a long press on a
+       price or a label opened Android's Copy / Select all bar, which made the
+       app feel like a web page (AppDadz review, Nov 2026, usability point 10;
+       founder approved 27 Nov 2026). Typing boxes stay selectable, and so does
+       anything marked data-selectable or given its own user-select (invite
+       links). A mouse can still select: copying a ticker on a computer is
+       useful and costs nothing. */
+    @media (pointer: coarse) {
+      body { -webkit-user-select: none; user-select: none; -webkit-touch-callout: none; }
+      input, textarea, [contenteditable="true"], [data-selectable], [data-selectable] * {
+        -webkit-user-select: text; user-select: text; -webkit-touch-callout: default;
+      }
     }
   </style>
   <body>
