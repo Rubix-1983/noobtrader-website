@@ -1214,12 +1214,27 @@
     .hero2 .hero-buttons { justify-content: flex-start; margin-bottom: 0; }
     .hero2-draw { display: block; margin-top: 22px; }
     .hero2-visual { perspective: 900px; position: relative; }
+    /* Shape Shifter (fx.js): a canvas over the whole hero, behind the words.
+       It only shows once fx.js has drawn a frame and set .fx-on. Where it
+       stays off (reduced motion, no WebGL, a slow device), the stickman card
+       is the picture. */
+    .hero2-fx { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; opacity: 0; transition: opacity 0.8s ease; }
+    .hero2.fx-on .hero2-fx { opacity: 1; }
+    .hero2.fx-on .hero2-card { opacity: 0; visibility: hidden; transition: opacity 0.5s ease, visibility 0s 0.5s; }
+    .hero2.fx-on .hero2-visual { cursor: pointer; }
+    /* The card must never flash up before the animation that takes its place
+       (founder, 28 Nov 2026: "check the animation does remove the 3 steps to
+       sign up as it pops up and should not", "this should not show"). While
+       fx.js is still to start, <html> has the class fx-wait (the script at the
+       end of <head> sets it) and the card is kept out of sight. It fades in
+       only where the animation turns out to stay off. */
+    .fx-wait .hero2-card { opacity: 0; }
     .hero2-card {
       background: #fff; border-radius: 24px; padding: 8px;
       transform: rotate(2deg);
       box-shadow: 0 30px 70px -20px rgba(139,78,249,0.45);
       position: relative; will-change: transform;
-      transition: transform 0.15s ease-out;
+      transition: transform 0.15s ease-out, opacity 0.5s ease;
     }
     .hero2-card img { display: block; width: 100%; height: auto; border-radius: 18px; }
     .hero2-badge {
@@ -1253,7 +1268,7 @@
       gap: 24px; margin-bottom: 36px;
     }
     .feat-head .section-desc { margin-bottom: 0; }
-    .mascot { flex: none; display: flex; align-items: center; }
+    .mascot { flex: none; display: flex; align-items: center; position: relative; z-index: 3; }
     .mascot-logo {
       flex: none; width: 64px; height: 64px; object-fit: contain;
       animation: logoOpenClose 2.6s ease-in-out infinite; transform-origin: center;
@@ -1266,6 +1281,31 @@
       50%      { transform: scale(1.12); opacity: 1; }
     }
     @media (max-width: 820px) { .mascot { display: none; } }
+    /* The 3D mascot (fx.js): a canvas over the stickman and the logo, much bigger
+       than their box so a jump, a prop held over his head and bursts of dots all
+       have room. They may pass over the cards below and the dark band above,
+       which is why .mascot has a z-index. It shows only once fx.js has drawn a
+       frame and set .fx-on; until then, and wherever it stays off, the drawn
+       stickman and the logo picture are the mascot. */
+    .mascot-fx {
+      position: absolute; top: -190px; left: -200px; width: calc(100% + 330px); height: calc(100% + 300px);
+      max-width: none; pointer-events: none; opacity: 0; transition: opacity 0.5s ease;
+    }
+    /* That canvas reaches past the page's right edge on a narrow window. The band
+       clips it there (sideways only: up and down it stays free), so the page
+       never becomes wider than the window. Where a browser cannot clip one way
+       only (Safari before 16), the canvas simply stops at the mascot's own edge. */
+    .band-light { overflow-x: clip; }
+    @supports not (overflow-x: clip) { .mascot-fx { width: calc(100% + 200px); } }
+    .mascot.fx-on { cursor: pointer; }
+    .mascot.fx-on .mascot-fx { opacity: 1; }
+    .mascot.fx-on .mascot-logo, .mascot.fx-on .mascot-svg { opacity: 0; visibility: hidden; transition: opacity 0.4s ease, visibility 0s 0.4s; }
+    /* The logo's looping animation is what sets its opacity, so a transition
+       cannot fade it out: a one-shot animation takes the loop's place instead.
+       The arm's wave simply stops; nothing keeps moving while it is hidden. */
+    .mascot.fx-on .mascot-logo { animation: mascotOut 0.4s ease forwards; }
+    .mascot.fx-on .mascot-arm { animation: none; }
+    @keyframes mascotOut { from { opacity: 1; } to { opacity: 0; } }
 
     /* Sticker cards. --sk carries each card's accent shadow. */
     .sticker-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 26px; }
@@ -1291,6 +1331,42 @@
     .sticker-body h3 { font-size: 17px; margin: 0 0 4px; }
     .sticker-body p { font-size: 14px; margin: 0; }
 
+    /* Sticker cards, the wow layer (founder, 28 Nov 2026: "that can be much
+       cooler and more wow factor"). Same pictures and sticker look; the cards
+       now flip up into place, a band of their own colour sweeps across, and
+       under a mouse they lean in 3D with a light that follows the pointer. */
+    .sticker-card { position: relative; transition: transform 0.15s ease-out, opacity 0.6s ease, box-shadow 0.25s ease; }
+    .sticker-card.visible { animation: stickerIn 0.85s cubic-bezier(0.2, 0.9, 0.3, 1.15) backwards; transition-delay: 0s; }
+    .sticker-card.visible.anim-delay-1 { animation-delay: 0.14s; }
+    .sticker-card.visible.anim-delay-2 { animation-delay: 0.28s; }
+    @keyframes stickerIn {
+      from { opacity: 0; transform: perspective(900px) translateY(70px) rotateX(-32deg) scale(0.88); }
+      55%  { opacity: 1; }
+      to   { opacity: 1; transform: perspective(900px) translateY(0) rotateX(0) scale(1); }
+    }
+    .sticker-card::before, .sticker-card::after { content: ''; position: absolute; inset: 0; pointer-events: none; z-index: 1; }
+    .sticker-card::before {
+      background: linear-gradient(105deg, transparent 38%, var(--sk, #20C4FB) 50%, transparent 62%);
+      opacity: 0; transform: translateX(-110%);
+    }
+    .sticker-card.visible::before { animation: stickerSweep 1.1s ease-out 0.5s backwards; }
+    .sticker-card.visible.anim-delay-1::before { animation-delay: 0.64s; }
+    .sticker-card.visible.anim-delay-2::before { animation-delay: 0.78s; }
+    @keyframes stickerSweep {
+      from { opacity: 0.3; transform: translateX(-110%); }
+      to   { opacity: 0.3; transform: translateX(110%); }
+    }
+    .sticker-card::after {
+      background: radial-gradient(360px circle at var(--mx, 50%) var(--my, 50%), var(--sk, #20C4FB), transparent 62%);
+      opacity: 0; transition: opacity 0.3s ease;
+    }
+    .sticker-img { transition: transform 0.25s ease-out; }
+    @media (hover: hover) and (pointer: fine) {
+      .sticker-card:hover { box-shadow: 14px 14px 0 var(--sk, #20C4FB), 0 30px 60px -20px var(--sk, #20C4FB); z-index: 2; }
+      .sticker-card:hover::after { opacity: 0.16; }
+      .sticker-card:hover .sticker-img { transform: scale(1.045) translate(calc(var(--px, 0) * -6px), calc(var(--py, 0) * -6px)); }
+    }
+
     /* How-it-works steps as stickers (reuses .step-card + .step-num). */
     .band-light .step-card {
       background: #fff; border: 2px solid #111a3a; border-radius: 20px;
@@ -1315,10 +1391,47 @@
       .mascot-logo, .mascot-arm { animation: none; }
       #ntInstall:not([hidden]), #ntInstall2:not([hidden]) { animation: none; }
       .sticker-card, .band-light .step-card, .hero2-card { transition: none; }
+      .sticker-card.visible, .sticker-card.visible::before { animation: none; }
+      .sticker-img { transition: none; }
+      /* No rule for the two fx.js canvases here, on purpose. fx.js never starts
+         under reduced motion and stops if it is switched on later; both canvases
+         are invisible unless fx.js has set .fx-on. A display:none here once left
+         the page with neither the animation nor its fallback picture. */
     }
   </style>
   <!-- NOOB Power, its own code section (founder, 19 Aug). Kept out of this
        file so the machinery here stays byte-stable. -->
+  <!-- The top picture. fx.js draws a 3D animation where the "Start in three
+       taps" card is, and that card must not flash up first (founder, 28 Nov
+       2026: "check the animation does remove the 3 steps to sign up as it pops
+       up and should not", "this should not show"). So on a visit where the
+       animation is going to start, <html> gets the class fx-wait before the
+       page is first drawn, and the CSS keeps the card out of sight. These are
+       the same checks fx.js makes: change both together. fx.js takes the class
+       off the moment it knows (it has drawn, or it will not start). The timer
+       is the safety net for fx.js never running at all: six seconds after the
+       page has loaded the class goes, and the card is the picture again. -->
+  <script>
+    (function () {
+      try {
+        var root = document.documentElement, query = window.location.search;
+        if (/[?&]fx=off\b/.test(query) || !window.WebGLRenderingContext || !window.requestAnimationFrame || !window.Float32Array) return;
+        if (!/[?&]fx=force\b/.test(query)) {
+          if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+          if (window.matchMedia('(forced-colors: active)').matches) return;
+          if (navigator.connection && navigator.connection.saveData) return;
+          if (navigator.deviceMemory && navigator.deviceMemory < 2) return;
+        }
+        root.classList.add('fx-wait');
+        window.addEventListener('load', function () {
+          window.setTimeout(function () { root.classList.remove('fx-wait'); }, 6000);
+        });
+      } catch (err) {
+        // The card simply shows, as it did before there was an animation.
+        if (window.console) window.console.warn('[NoobTrader] the top picture is not held back:', err);
+      }
+    })();
+  </script>
 </head>
 <body>
 
@@ -1343,6 +1456,7 @@
   <!-- ═══ HERO (redesign) ═══ -->
   <div class="hero2" id="hero">
     <div class="hero2-glow" id="heroGlow"></div>
+    <canvas class="hero2-fx" id="heroFx" aria-hidden="true"></canvas>
     <div class="hero2-grid">
       <div>
         <h1 class="hero2-title">Trade like<br>a legend.<br><span class="gradient-text">Risk nothing.</span></h1>
@@ -1395,8 +1509,11 @@
       </div>
       <!-- The stickman and the mark he shows off: his eyes follow the cursor,
            the logo opens and closes in time with his wave. Decoration only,
-           so it is hidden from assistive tech and from small screens. -->
+           so it is hidden from assistive tech and from small screens.
+           fx.js builds both again in 3D dots on the canvas, where it can run;
+           the picture and the drawing below are what shows everywhere else. -->
       <div class="mascot" aria-hidden="true">
+        <canvas class="mascot-fx" id="mascotFx"></canvas>
         <img class="mascot-logo" src="./logo.png" alt="" decoding="async">
         <svg class="mascot-svg" viewBox="0 0 200 330" id="mascotSvg">
           <g stroke="#111a3a" stroke-width="9" stroke-linecap="round" fill="none">
@@ -1792,6 +1909,7 @@
       if (!fine || still) return;
 
       var TILT = 5; // founder preference: 4-6 of the handoff's 0-20 range
+      var STICKER_TILT = 10; // the picture cards lean further (founder, 28 Nov 2026: "more wow factor")
 
       // The stickman's eyes follow the cursor; he grins when it comes close.
       var svg = document.getElementById('mascotSvg');
@@ -1800,6 +1918,7 @@
       var mouth = document.getElementById('mascotMouth');
       var onEyes = function (e) {
         if (!svg || !eyeL || !eyeR) return;
+        if (svg.parentNode.classList.contains('fx-on')) return;   // the 3D mascot is showing instead
         var rect = svg.getBoundingClientRect();
         if (!rect.width) return;
         var move = function (g, cx, cy) {
@@ -1826,7 +1945,14 @@
           var r = el.getBoundingClientRect();
           var dx = (e.clientX - (r.left + r.width / 2)) / r.width;
           var dy = (e.clientY - (r.top + r.height / 2)) / r.height;
-          el.style.transform = 'perspective(700px) translate(-3px,-3px) rotateY(' + (dx * TILT * 0.7) + 'deg) rotateX(' + (-dy * TILT * 0.7) + 'deg)';
+          var sticker = el.classList.contains('sticker-card');
+          var tilt = sticker ? STICKER_TILT : TILT * 0.7;
+          el.style.transform = 'perspective(700px) translate(' + (sticker ? '-6px,-6px' : '-3px,-3px') + ') rotateY(' + (dx * tilt) + 'deg) rotateX(' + (-dy * tilt) + 'deg)';
+          if (sticker) {
+            // The light follows the pointer and the picture slides a little against it.
+            el.style.setProperty('--mx', ((dx + 0.5) * 100) + '%'); el.style.setProperty('--my', ((dy + 0.5) * 100) + '%');
+            el.style.setProperty('--px', dx * 2); el.style.setProperty('--py', dy * 2);
+          }
         });
         el.addEventListener('mouseleave', function () { el.style.transform = ''; });
       });
@@ -1852,6 +1978,8 @@
       }
     })();
   </script>
+
+  <script src="./fx.js" defer></script>
 
 </body>
 </html>
