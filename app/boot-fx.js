@@ -16,8 +16,10 @@
  * A plain script, not part of the React bundle, so the dots are already moving
  * while the app's JavaScript downloads. index.html holds the cover (#nt-boot)
  * and loads this file straight after it; the Android app runs the same page.
- * The website loads the same file (website/boot-fx.js, kept identical by a
- * test) with data-auto-done on its cover: the page's load event is its signal.
+ * A cover with data-auto-done (no app to say it is ready) finishes on the
+ * page's own load event. The website used to load this file that way; since
+ * 28 Nov 2026 it has no loading cover (founder: "it is meant to be a
+ * animation on the website not on loading into the website").
  * The app calls window.__ntBoot.done() once it is past its start-up check
  * (src/utils/bootFx.js); the cover then waits until the two shapes are built
  * (never past MAX_HOLD_MS), fades out and frees the graphics memory.

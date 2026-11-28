@@ -1212,7 +1212,6 @@
     .hero2-sub strong { color: #fff; }
     .hero2-micro { font-size: 13px; color: var(--text-dim); margin: 14px 0 0; }
     .hero2 .hero-buttons { justify-content: flex-start; margin-bottom: 0; }
-    .hero2-draw { display: block; margin-top: 22px; }
     .hero2-visual { perspective: 900px; position: relative; }
     /* Shape Shifter (fx.js): a canvas over the whole hero, behind the words.
        It only shows once fx.js has drawn a frame and set .fx-on. Where it
@@ -1227,7 +1226,7 @@
        1. On an Android phone the browser flashes its own see-through blue over
           the box a tap lands in, when that box shows a hand cursor. The top
           animation's box does (a tap skips to the next shape), and so does the
-          3D stickman's (a tap replays him). Safari paints its grey flash only
+          3D stickman's (a tap moves him on to his next move). Safari paints its grey flash only
           on a small box: here that is the stickman's, on an iPad.
        2. On a computer two or three quick clicks select text. Nothing in the
           animation's box can be selected, so the browser picked the next text
@@ -1235,7 +1234,9 @@
        3. Each picture is bigger than its box. Three clicks on a shape's top or
           bottom edge still selected the "10,000", and skipped nothing.
        So, while an animation runs, its box can be neither flashed nor
-       selected, two quick taps there are two taps, not a zoom of the page, and
+       selected, two quick taps there are two taps, not a zoom of the page, a
+       sideways finger drag reaches fx.js (which spins the shape with it) while
+       an up-or-down one still scrolls the page (pan-y), and
        the box's reach is stretched to its picture with the pseudo-elements
        below, which carry the click, the hand cursor and those rules with them.
        The top shape: fx.js measures how far it sticks out of its box, top and
@@ -1254,7 +1255,7 @@
        at about 900 px wide. Change his size, the places his routine uses or a
        prop, and these numbers have to be measured again. */
     .hero2-visual, .mascot { -webkit-tap-highlight-color: transparent; }
-    .hero2.fx-on .hero2-visual, .mascot.fx-on { -webkit-user-select: none; user-select: none; touch-action: manipulation; }
+    .hero2.fx-on .hero2-visual, .mascot.fx-on { -webkit-user-select: none; user-select: none; touch-action: pan-y pinch-zoom; }
     .hero2.fx-on .hero2-visual::after { content: ''; position: absolute; left: 0; right: 0; top: calc(-1 * var(--fx-over, 0px)); bottom: calc(-1 * var(--fx-over, 0px)); }
     .mascot.fx-on::before, .mascot.fx-on::after { content: ''; position: absolute; right: -80px; }
     .mascot.fx-on::before { top: -96px; bottom: 83px; left: calc(-32px - var(--fx-shift, 0px)); }
@@ -1408,6 +1409,19 @@
       .sticker-card:hover .sticker-img { transform: scale(1.045) translate(calc(var(--px, 0) * -6px), calc(var(--py, 0) * -6px)); }
     }
 
+    /* The cards' dancers (fx.js startCards; founder, 28 Nov 2026: "in the
+       cards we need the same type of stick man too if the card is selected").
+       fx.js wraps each picture in .card-stage and lays a canvas over it; the
+       picture stays underneath and shows again whenever the animation stops.
+       .card-box is where he stands (his drawing is 200 by 330), .card-logo
+       where his small logo goes. */
+    .card-stage { position: relative; -webkit-tap-highlight-color: transparent; }
+    .card-fx { position: absolute; inset: 0; width: 100%; height: 100%; display: block; opacity: 0; pointer-events: none; transition: opacity 0.4s ease; }
+    .card-box { position: absolute; bottom: 3%; left: 50%; height: 66%; aspect-ratio: 200 / 330; transform: translateX(-50%); pointer-events: none; }
+    .card-logo { position: absolute; left: 31%; top: 50%; width: 9%; aspect-ratio: 1; pointer-events: none; }
+    .card-stage.fx-on { background: #fff; background: radial-gradient(ellipse 70% 80% at 50% 90%, color-mix(in srgb, var(--sk, #20C4FB) 16%, #fff), #fff 72%); cursor: pointer; -webkit-user-select: none; user-select: none; }
+    .card-stage.fx-on .card-fx { opacity: 1; }
+    .card-stage.fx-on .sticker-img { visibility: hidden; }
     /* How-it-works steps as stickers (reuses .step-card + .step-num). */
     .band-light .step-card {
       background: #fff; border: 2px solid #111a3a; border-radius: 20px;
@@ -1473,17 +1487,8 @@
       }
     })();
   </script>
-  <!-- The loading animation (boot-fx.js): the NT logo and the name in glowing
-       dots over the page while it loads, as in the web app (founder, 28 Nov
-       2026: "I want the dots logo only in web app please and website on loading"). -->
-  <style>
-    #nt-boot { position: fixed; inset: 0; z-index: 2147483000; background: #0a0f1a; opacity: 1; transition: opacity 380ms ease; pointer-events: none; }
-    #nt-boot canvas { display: block; width: 100%; height: 100%; }
-  </style>
 </head>
 <body>
-  <div id="nt-boot" data-auto-done aria-hidden="true"><canvas></canvas></div>
-  <script src="./boot-fx.js"></script>
 
   <!-- ═══ NAVBAR ═══ -->
   <nav class="navbar" id="navbar">
@@ -1522,15 +1527,6 @@
           </a>
         </div>
         <p class="hero2-micro">Free to play, on any phone or laptop. No app store, no download, no card.</p>
-        <svg class="hero2-draw" width="220" height="36" viewBox="0 0 220 36" fill="none" aria-hidden="true">
-          <defs>
-            <linearGradient id="heroDrawGrad" x1="0" y1="0" x2="1" y2="0">
-              <stop offset="0" stop-color="#20C4FB"/><stop offset="1" stop-color="#8B4EF9"/>
-            </linearGradient>
-          </defs>
-          <path class="nt-line" pathLength="1" d="M4 28 C 60 30, 120 8, 196 14 M186 6 L 198 14 L 185 22"
-                stroke="url(#heroDrawGrad)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
       </div>
       <div class="hero2-visual">
         <div class="hero2-card" id="heroCard">

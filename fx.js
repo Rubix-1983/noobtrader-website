@@ -570,6 +570,21 @@
   var HERO_BURST = 0.62;          // how far the dots fly between two shapes
   var HERO_SWELL = 0.14;          // how much bigger the shape grows under a pointer
   var HERO_TURN_X = 1.15, HERO_TURN_Y = 0.6;   // furthest turn toward the pointer, in radians
+  // A finger (founder, 28 Nov 2026: "on the phone the reaction to the touch and
+  // moving is not great"). A mouse turns the shape by hovering; a finger cannot
+  // hover, so it spins the shape by dragging sideways, like a globe: the dot
+  // under the finger follows it. Let go while moving and it keeps spinning,
+  // slows, and settles facing front. An up-or-down drag still scrolls the page.
+  var DRAG_TURN = 1;              // radians of spin per shape-radius of finger travel
+  var SPIN_MAX = 14;              // fastest fling, radians a second
+  // After a lift the spin is a damped spring toward the full turn it would
+  // coast into, so it slows and stops facing front in one smooth movement.
+  var SPIN_DAMP = 3;              // how fast a fling slows (per second)
+  var SPIN_PULL = SPIN_DAMP * SPIN_DAMP / 4;   // the spring's pull home: just enough not to swing past
+  var FLING_STALE_MS = 90;        // a finger that stopped this long before lifting flings nothing
+  var TAP_SLOP_PX = 10;           // a press that moved further is a drag, not a tap
+  var POP = 0.07;                 // the shape jumps this much bigger the moment it is touched or clicked
+  var QUEUED_HOLD_SECONDS = 0.45; // a tap while a shape is changing: the next one is held only this long
 
   function hero(logo) {
     var host = document.getElementById('hero'), cv = document.getElementById('heroFx');
@@ -683,43 +698,98 @@
       visual.style.setProperty('--fx-over', Math.max(0, Math.ceil(halfPx * (1 + HERO_SWELL) - v.height / 2)) + 'px');
     }
 
-    // Pointer: turn toward it; swell when it is over the shape; a click on the
-    // picture column moves to the next shape.
+    // Pointer: a mouse turns the shape toward it and swells it when it is over
+    // the shape; a finger spins it by dragging (above). A click or a tap on the
+    // picture column moves to the next shape, with a pop the moment it lands.
     var targetX = 0, targetY = 0, turnX = 0, turnY = 0, inside = false, near = false, swell = 0, clicked = false;
+    var spin = 0, spinVel = 0, spinHome = 0, finger = null, fingerX = 0, fingerAt = 0, travel = 0, pop = 0, grabbed = false, tapTouch = false;
     function onMove(e) {
+      if (e.pointerType === 'touch') return;   // a finger is handled below
       var r = host.getBoundingClientRect(), dx = e.clientX - r.left - centreX, dy = e.clientY - r.top - centreY;
       targetX = clamp1(dx / (heroW * 0.5)); targetY = clamp1(dy / (heroH * 0.5));
       inside = true; near = Math.sqrt(dx * dx + dy * dy) < halfPx * 1.4;
     }
-    function away() { inside = false; near = false; }
-    function onClick() { clicked = true; }
+    function away(e) { if (e && e.pointerType === 'touch') return; inside = false; near = false; }
+    // A mouse pops the shape as it presses. A finger may be starting a page
+    // scroll, so it pops the shape only once it is known: a tap (on its click)
+    // or a sideways drag (past TAP_SLOP_PX). Until then nothing moves under it:
+    // the idle sway is folded into the spin where it stands.
+    function onDown(e) {
+      travel = 0; tapTouch = e.pointerType === 'touch';
+      if (!tapTouch) { pop = 1; return; }
+      if (finger !== null) return;
+      finger = e.pointerId; fingerX = e.clientX; fingerAt = e.timeStamp || 0; spinVel = 0; grabbed = false;
+      spin += turnX * HERO_TURN_X; turnX = 0;
+    }
+    function onFingerMove(e) {
+      if (e.pointerId !== finger) return;
+      var step = e.clientX - fingerX, at = e.timeStamp || 0, angle = step / Math.max(1, halfPx) * DRAG_TURN;
+      travel += Math.abs(step); spin += angle;
+      if (!grabbed && travel > TAP_SLOP_PX) { grabbed = true; pop = 1; }
+      if (at > fingerAt) spinVel = spinVel * 0.5 + angle / ((at - fingerAt) / 1000) * 0.5;
+      fingerX = e.clientX; fingerAt = at;
+    }
+    function onLift(e) {
+      if (e.pointerId !== finger) return;
+      finger = null;
+      // A scroll took the finger over (cancel), or it stopped before lifting: no fling.
+      if (e.type === 'pointercancel' || (e.timeStamp || 0) - fingerAt > FLING_STALE_MS) spinVel = 0;
+      spinVel = Math.max(-SPIN_MAX, Math.min(SPIN_MAX, spinVel));
+      spinHome = Math.round((spin + spinVel / SPIN_DAMP) / TAU) * TAU;   // where it would coast to
+    }
+    function onClick() {
+      if (travel > TAP_SLOP_PX) { travel = 0; return; }   // the end of a spin, not a tap
+      clicked = true;
+      if (tapTouch) pop = 1;
+    }
     host.addEventListener('pointermove', onMove, { passive: true });
     host.addEventListener('pointerleave', away);
     host.addEventListener('pointercancel', away);
+    visual.addEventListener('pointerdown', onDown, { passive: true });
+    visual.addEventListener('pointermove', onFingerMove, { passive: true });
+    visual.addEventListener('pointerup', onLift);
+    visual.addEventListener('pointercancel', onLift);
     visual.addEventListener('click', onClick);
+    // The spin when no finger holds it: a fling coasts, slows and stops at the
+    // full turn it was heading for (spinHome), so the shape ends facing front.
+    function coast(dt) {
+      if (finger !== null || (spin === 0 && spinVel === 0)) return;
+      spinVel += ((spinHome - spin) * SPIN_PULL - SPIN_DAMP * spinVel) * dt;
+      spin += spinVel * dt;
+      if (Math.abs(spin - spinHome) < 1e-3 && Math.abs(spinVel) < 1e-2) { spin = 0; spinVel = 0; spinHome = 0; }
+    }
 
-    var from = CLOUD, to = 0, phaseStart = -HOLD_SECONDS, waiting = true;
+    var from = CLOUD, to = 0, phaseStart = -HOLD_SECONDS, waiting = true, queued = false;
     function tick(time, dt) {
       // A first frame is on screen and the card is hidden under fx-on: the
       // page's "still waiting" mark can go.
       if (waiting && F.shown) { waiting = false; doneWaiting(); }
-      var ax = targetX, ay = targetY;
-      if (!inside) { ax = Math.sin(time * 0.45) * 0.5; ay = Math.sin(time * 0.6 + 1) * 0.28; }
+      var ax = targetX, ay = targetY, held = finger !== null, holding = held && grabbed;
+      // While a finger holds the shape, its own idle sway stops (the finger turns it).
+      if (held) { ax = 0; ay = 0; } else if (!inside) { ax = Math.sin(time * 0.45) * 0.5; ay = Math.sin(time * 0.6 + 1) * 0.28; }
       var k = Math.min(1, dt * 5);
-      turnX += (ax - turnX) * k; turnY += (ay - turnY) * k; swell += ((near ? 1 : 0) - swell) * Math.min(1, dt * 4);
+      turnX += (ax - turnX) * k; turnY += (ay - turnY) * k;
+      swell += ((near || holding ? 1 : 0) - swell) * Math.min(1, dt * (holding ? 8 : 4));
+      coast(dt);
+      pop *= Math.exp(-7 * dt);
 
       var elapsed = time - phaseStart;
-      if (clicked) { clicked = false; if (elapsed < HOLD_SECONDS) { phaseStart = time - HOLD_SECONDS; elapsed = HOLD_SECONDS; } }
+      if (clicked) {
+        clicked = false;
+        if (elapsed < HOLD_SECONDS) { phaseStart = time - HOLD_SECONDS; elapsed = HOLD_SECONDS; }
+        else queued = true;   // mid-change: the next shape is shown only briefly
+      }
       if (elapsed > HOLD_SECONDS + MORPH_SECONDS) {
         from = to; to = (to + 1) % LOOP; if (!posBuf[to]) to = 0;   // not built yet: back to the start
         phaseStart = time; elapsed = 0;
+        if (queued) { queued = false; phaseStart = time - (HOLD_SECONDS - QUEUED_HOLD_SECONDS); }
       }
       var progress = elapsed < HOLD_SECONDS ? 0 : (elapsed - HOLD_SECONDS) / MORPH_SECONDS;
 
       dots.from = posBuf[from]; dots.to = posBuf[to]; dots.tintFrom = tints[from]; dots.tintTo = tints[to];
       dots.progress = progress;
       dots.gain = gains[from] + (gains[to] - gains[from]) * Math.min(1, progress * 1.3);
-      F.scale = baseScale * (1 + HERO_SWELL * swell); F.turnX = turnX * HERO_TURN_X; F.turnY = turnY * HERO_TURN_Y;
+      F.scale = baseScale * (1 + HERO_SWELL * swell) * (1 + POP * pop); F.turnX = turnX * HERO_TURN_X + spin; F.turnY = turnY * HERO_TURN_Y;
     }
 
     // `?fx-shape=7` opens on that shape in the list (0 is the first): for testing.
@@ -731,6 +801,10 @@
       host.removeEventListener('pointermove', onMove);
       host.removeEventListener('pointerleave', away);
       host.removeEventListener('pointercancel', away);
+      visual.removeEventListener('pointerdown', onDown);
+      visual.removeEventListener('pointermove', onFingerMove);
+      visual.removeEventListener('pointerup', onLift);
+      visual.removeEventListener('pointercancel', onLift);
       visual.removeEventListener('click', onClick);
     });
     window.setTimeout(buildRest, BUILD_GAP_MS);   // the others, a slice at a time
@@ -843,6 +917,7 @@
       b = beats[i];
       if (!b || !names[b.pose]) return 'beat ' + i + ' names a pose that is not in the list';
       if (!(b.move >= 0) || !(b.hold >= 0) || !isFinite(b.move + b.hold)) return 'beat ' + i + ': move and hold must be numbers';
+      if (b.spin !== undefined && !isFinite(b.spin)) return 'beat ' + i + ': spin must be a number of turns';
       if (!EASE[b.ease] || LOGO_ACTS.indexOf(b.logo) < 0 || !PROP_TINT[b.prop] || PLACES.indexOf(b.propAt) < 0) return 'beat ' + i + ' has an ease, logo, prop or propAt word that is not known';
     }
     return '';
@@ -856,8 +931,15 @@
     return { j: j, f: new Float32Array(MOUTH[p.mouth].concat(EYES[p.eyes], [BROWS[p.brows]])) };
   }
 
-  function mascot(logo, host, cv, dance) {
-    var svg = document.getElementById('mascotSvg'), flat = host.querySelector('.mascot-logo');
+  // `parts`: where he stands (`svg`, a box 200 by 330 of his drawing's units)
+  // and the flat logo beside him (`flat`). On a card (`parts.card`) he never
+  // shifts left, and after his entrance he waits, holding his card's prop,
+  // until `parts.waiting()` says the card is selected; then he dances, once
+  // each time it is selected. Returns { play } (start the dance now), or nothing.
+  function mascot(logo, host, cv, dance, parts) {
+    parts = parts || {};
+    var svg = parts.svg || document.getElementById('mascotSvg'), flat = parts.flat || host.querySelector('.mascot-logo');
+    var waiting = parts.waiting || null;
     if (!svg || !flat) return;
     var fault = routineFault(dance);
     if (fault) { warn('the stickman animation is off: its routine has a mistake:', fault); return; }
@@ -1114,10 +1196,10 @@
       // against the canvas's own edge (old browsers, see the CSS), move the scene
       // left, so a prop in his outstretched hand is not cut off.
       var room = Math.min(document.documentElement.clientWidth, r.right) - (s.left + s.width / 2);
-      var shift = Math.max(0, Math.min(M_SHIFT_MAX_PX, M_ROOM_PX - room));
+      var shift = parts.card ? 0 : Math.max(0, Math.min(M_SHIFT_MAX_PX, M_ROOM_PX - room));
       midX -= shift;
       // The page is told, so that the reach of his box (`.mascot::before` and
-      // `::after` in index.html: where a click replays him and nothing can be
+      // `::after` in index.html: where a click moves him on and nothing can be
       // selected) moves left with him.
       host.style.setProperty('--fx-shift', Math.round(shift) + 'px');
       var midY = feetY - (M_FLOOR_Y - M_MID_Y) * perUnit;
@@ -1131,20 +1213,29 @@
     }
 
     // ── Pointer: the scene turns toward it, he looks at it, grins when it is
-    //    close; a click on him plays the routine again. ─────────────────────
+    //    close; a click moves him on to his next move. ──────────────────────
     var targetX = 0, targetY = 0, turnX = 0, turnY = 0, inside = false, near = false, swell = 0, aimX = 0, aimY = 0, poke = false;
+    // A finger cannot hover: it counts only while it is down on him (then he
+    // looks at it and grins, and the scene turns toward it as it moves), and
+    // he goes back to his own sway when it lifts.
+    var finger = null;
     function onMove(e) {
-      if (!F.awake || e.pointerType === 'touch') return;
+      if (!F.awake || (e.pointerType === 'touch' && e.pointerId !== finger)) return;
       var r = cv.getBoundingClientRect(), dx = e.clientX - r.left - headPxX, dy = e.clientY - r.top - headPxY;
       var d = Math.sqrt(dx * dx + dy * dy) || 1, shift = Math.min(M_EYE_SHIFT, d / 40);
       targetX = clamp1(dx / (window.innerWidth * 0.45)); targetY = clamp1(dy / (window.innerHeight * 0.6));
       aimX = dx / d * shift; aimY = -dy / d * shift;
       inside = true; near = d < M_NEAR_PX;
     }
-    function away() { inside = false; near = false; }
+    function away(e) { if (e && e.pointerType === 'touch' && finger !== null) return; inside = false; near = false; }
     function onPoke() { poke = true; }
+    function onTouch(e) { if (e.pointerType !== 'touch' || finger !== null) return; finger = e.pointerId; onMove(e); }
+    function onLift(e) { if (e.pointerId !== finger) return; finger = null; away(); }
     window.addEventListener('pointermove', onMove, { passive: true });
     document.documentElement.addEventListener('pointerleave', away);
+    host.addEventListener('pointerdown', onTouch, { passive: true });
+    window.addEventListener('pointerup', onLift);
+    window.addEventListener('pointercancel', onLift);
     host.addEventListener('click', onPoke);
 
     // ── The routine. ───────────────────────────────────────────────────────
@@ -1176,6 +1267,7 @@
     // Start beat `index`. `forced` makes it a burst (after a click).
     function begin(index, forced) {
       bi = index; bt = 0; beat = BEATS[bi]; resting = false;
+      if (index === 1) cue = false;   // a card's dance asked for is now playing
       copyPose(cur, fromPose);
       bursting = !!(beat.burst || forced);
       moveT = bursting ? Math.max(beat.move, 0.9) : Math.max(beat.move, 0.01);
@@ -1205,8 +1297,13 @@
       propFresh = propKind === 'none'; propKind = kind;   // a prop that comes from nothing appears in its place; one that changes kind glides
     }
     function advance(dt) {
-      if (poke) { poke = false; if (!bursting) begin(1, true); }   // not while he is in pieces
-      if (resting) { restT += dt; if (restT > M_IDLE_SECONDS) begin(1, false); }
+      // A click or a tap moves him straight on to his next move (founder, 28 Nov
+      // 2026: "the clicks or touches moves through movements too please"); after
+      // his last one, or while he rests, he starts the routine again. Not while
+      // he is in pieces.
+      if (poke) { poke = false; if (!bursting) begin(resting || bi + 1 >= BEATS.length ? 1 : bi + 1, false); }
+      if (resting && cue) { cue = false; begin(1, false); }
+      if (resting && !waiting) { restT += dt; if (restT > M_IDLE_SECONDS) begin(1, false); }
       bt += dt;
       var p = Math.min(1, bt / moveT);
       if (bursting) {
@@ -1216,8 +1313,12 @@
       } else if (!resting) {
         blend(fromPose, POSES[beat.pose], (EASE[beat.ease] || EASE.inOut)(p), cur);
       }
+      // A beat with `spin` turns him that many whole turns on the spot while he
+      // moves into its pose (whole turns, so he ends facing front again).
+      stickA.spin = beat.spin && !bursting && !resting && p < 1 ? TAU * beat.spin * (EASE[beat.ease] || EASE.inOut)(p) : 0;
       if (!resting && bt >= moveT + beat.hold && bi !== holdBeat) {   // (a beat held for testing is never left)
-        if (bi + 1 < BEATS.length) begin(bi + 1, false);
+        if (waiting && bi === 0 && !cue) { resting = true; restT = 0; }   // on a card: hold the entrance pose until selected
+        else if (bi + 1 < BEATS.length) begin(bi + 1, false);
         else { resting = true; restT = 0; }
       }
     }
@@ -1269,7 +1370,7 @@
       shadowA.gain = M_SHADOW_GAIN * (1 - 0.7 * high) * Math.min(1, stickA.gain / M_STICK_GAIN);
     }
 
-    var nextBlink = 2.5, clock = 0;
+    var nextBlink = 2.5, clock = 0, cue = false;
     function tick(time, dt) {
       // `step` is the time since the last frame on the scene's clock: the routine
       // runs on it, so it keeps its pace when frames are slow. `dt` only smooths.
@@ -1306,6 +1407,9 @@
     F.start(tick, layout, function () {
       window.removeEventListener('pointermove', onMove);
       document.documentElement.removeEventListener('pointerleave', away);
+      host.removeEventListener('pointerdown', onTouch);
+      window.removeEventListener('pointerup', onLift);
+      window.removeEventListener('pointercancel', onLift);
       host.removeEventListener('click', onPoke);
     });
     // The routine's props are drawn ahead of time, one at a time between frames,
@@ -1318,6 +1422,7 @@
       window.setTimeout(drawProps, BUILD_GAP_MS);
     }
     window.setTimeout(drawProps, BUILD_GAP_MS);
+    return { play: function () { cue = true; } };
   }
 
   // The routine. A pose is 11 target points and a face; bones keep their
@@ -1343,7 +1448,7 @@
   // - A prop that follows `none` appears at its own propAt; a prop that changes
   //   kind glides there from where the last one was. So a `none` beat between
   //   two props should keep the old propAt.
-  // The reach of his box (where a click replays him: two rules in index.html,
+  // The reach of his box (where a click moves him on: two rules in index.html,
   // `.mascot.fx-on::before` and `::after`) was measured for the places THIS
   // routine uses. `floorL`, a low `handL`, a higher jump or a bigger prop
   // stand outside it (floorL where he is drawn left of his box, on a window
@@ -1367,6 +1472,10 @@
       { name: 'rise', hip: [102, 250, 0], neck: [106, 152, 0], head: [112, 94, 0], elbowL: [80, 196, -14], handL: [54, 210, -30], elbowR: [140, 164, 4], handR: [171, 148, 13], kneeL: [84, 284, 4], footL: [66, 318, 0], kneeR: [120, 284, 4], footR: [134, 318, 0], mouth: 'grin', eyes: 'wide', brows: 'up' },
       { name: 'champ', hip: [100, 250, 0], neck: [100, 152, -8], head: [96, 95, -18], elbowL: [66, 160, 0], handL: [35, 143, 9], elbowR: [134, 160, 0], handR: [165, 143, 9], kneeL: [80, 284, 6], footL: [66, 318, 0], kneeR: [120, 284, 6], footR: [134, 318, 0], mouth: 'grin', eyes: 'blink', brows: 'up' },
       { name: 'guard', hip: [100, 256, 6], neck: [100, 160, 26], head: [100, 103, 36], elbowL: [70, 206, 34], handL: [90, 198, 66], elbowR: [134, 196, 6], handR: [156, 208, -17], kneeL: [76, 288, 18], footL: [66, 318, 0], kneeR: [124, 288, 18], footR: [134, 318, 0], mouth: 'smile', eyes: 'open', brows: 'rest' },
+      { name: 'glideA', hip: [114, 250, 0], neck: [112, 152, -4], head: [110, 95, -6], elbowL: [88, 196, 8], handL: [72, 222, 18], elbowR: [138, 198, 8], handR: [152, 224, 18], kneeL: [98, 284, 0], footL: [84, 318, 0], kneeR: [134, 276, 22], footR: [142, 311, 6], mouth: 'smile', eyes: 'open', brows: 'up' },
+      { name: 'glideB', hip: [128, 250, 0], neck: [126, 152, -4], head: [124, 95, -6], elbowL: [102, 196, 8], handL: [86, 222, 18], elbowR: [152, 198, 8], handR: [166, 224, 18], kneeL: [112, 276, 22], footL: [106, 311, 6], kneeR: [146, 284, 0], footR: [162, 318, 0], mouth: 'smile', eyes: 'open', brows: 'up' },
+      { name: 'glideC', hip: [142, 250, 0], neck: [140, 152, -4], head: [138, 95, -6], elbowL: [116, 196, 8], handL: [100, 222, 18], elbowR: [166, 198, 8], handR: [180, 224, 18], kneeL: [126, 284, 0], footL: [112, 318, 0], kneeR: [162, 276, 22], footR: [170, 311, 6], mouth: 'smile', eyes: 'open', brows: 'up' },
+      { name: 'toeStand', hip: [100, 248, 0], neck: [98, 150, 0], head: [95, 92, -6], elbowL: [74, 212, -12], handL: [90, 238, 4], elbowR: [132, 128, 0], handR: [150, 96, 6], kneeL: [86, 283, 0], footL: [70, 318, 0], kneeR: [116, 280, 12], footR: [114, 306, 10], mouth: 'open', eyes: 'wide', brows: 'up' },
       { name: 'wink', hip: [95, 251, 0], neck: [103, 153, -6], head: [110, 96, -8], elbowL: [58, 200, -10], handL: [80, 230, 4], elbowR: [136, 204, -10], handR: [110, 232, 4], kneeL: [79, 284, 4], footL: [66, 318, 0], kneeR: [116, 284, 2], footR: [134, 318, 0], mouth: 'grin', eyes: 'wink', brows: 'up' }
     ],
     beats: [
@@ -1414,10 +1523,188 @@
       { pose: 'reach', move: 0.55, hold: 0.3, ease: 'inOut', burst: false, logo: 'none', prop: 'shield', propAt: 'logo', propArc: 0 },
       // 21. The logo spins and swallows the shield; hands on hips, he winks.
       { pose: 'wink', move: 0.45, hold: 1.4, ease: 'back', burst: false, logo: 'spin', prop: 'none', propAt: 'logo', propArc: 0 },
-      // 22. The logo pulses, good as new; he eases back to his wave pose.
+      // 22. The moonwalk: he glides off to the side, one heel up, then the other...
+      { pose: 'glideA', move: 0.4, hold: 0.05, ease: 'inOut', burst: false, logo: 'none', prop: 'none', propAt: 'logo', propArc: 0 },
+      // 23. ...the other heel up, still gliding...
+      { pose: 'glideB', move: 0.4, hold: 0.05, ease: 'inOut', burst: false, logo: 'none', prop: 'none', propAt: 'logo', propArc: 0 },
+      // 24. ...and one more.
+      { pose: 'glideC', move: 0.4, hold: 0.1, ease: 'inOut', burst: false, logo: 'none', prop: 'none', propAt: 'logo', propArc: 0 },
+      // 25. A full spin as he slides back to the middle.
+      { pose: 'rest', move: 0.9, hold: 0, ease: 'out', burst: false, logo: 'none', prop: 'none', propAt: 'logo', propArc: 0, spin: 1 },
+      // 26. Up on his toes, one hand pointing high, mouth open: freeze.
+      { pose: 'toeStand', move: 0.22, hold: 0.9, ease: 'back', burst: false, logo: 'pulse', prop: 'none', propAt: 'logo', propArc: 0 },
+      // 27. The logo pulses, good as new; he eases back to his wave pose.
       { pose: 'rest', move: 0.6, hold: 0.4, ease: 'inOut', burst: false, logo: 'pulse', prop: 'none', propAt: 'logo', propArc: 0 }
     ]
   };
+
+  // ── The six cards' dancers (founder, 28 Nov 2026: "On the webiste in the
+  //    cards we need the same type of stick man too if the card is selected",
+  //    "each one moves differently and has a famous dance. Floss, Moonwalk,
+  //    Jump and spits...etc etc", "soo cool wow factors and reacting to the
+  //    mobile and mouse"). Each card's picture becomes a dot stickman holding
+  //    the card's prop; when the card is selected he does his own dance once.
+  //    His poses are built from the band stickman's, so they share one look. ──
+  var CARD_REST = { hip: [100, 248, 0], neck: [100, 150, 0], head: [100, 92, 0], elbowL: [73, 194, 0], handL: [46, 216, 0], elbowR: [127, 194, 0], handR: [154, 216, 0], kneeL: [83, 283, 0], footL: [66, 318, 0], kneeR: [117, 283, 0], footR: [134, 318, 0], mouth: 'smile', eyes: 'open', brows: 'rest' };
+  function bandPose(name) {
+    for (var i = 0; i < MASCOT_DANCE.poses.length; i++) if (MASCOT_DANCE.poses[i].name === name) return MASCOT_DANCE.poses[i];
+    return CARD_REST;
+  }
+  // A pose: `base` (a pose, or the name of one of the band stickman's) with `changes`.
+  function cardPose(name, base, changes) {
+    var p = { name: name }, from = typeof base === 'string' ? bandPose(base) : base, k;
+    for (k in from) if (k !== 'name') p[k] = from[k];
+    for (k in changes) p[k] = changes[k];
+    return p;
+  }
+  // The same pose seen in a mirror: left and right swap.
+  function mirrorPose(name, p) {
+    var q = { name: name }, k, v, side;
+    for (k in p) {
+      if (k === 'name') continue;
+      v = p[k]; side = k.charAt(k.length - 1);
+      if (v && v.length === 3) q[side === 'L' ? k.slice(0, -1) + 'R' : side === 'R' ? k.slice(0, -1) + 'L' : k] = [200 - v[0], v[1], v[2]];
+      else q[k] = v;
+    }
+    return q;
+  }
+  function cardBeat(pose, move, hold, ease, prop, propAt, more) {
+    var b = { pose: pose, move: move, hold: hold, ease: ease, burst: false, logo: 'none', prop: prop, propAt: propAt, propArc: 0 }, k;
+    for (k in more) b[k] = more[k];
+    return b;
+  }
+  // Beat 0 is his entrance: built in from a cloud of dots, holding his prop.
+  // It lasts 1.6 s, as the logo takes 1.5 s to build in beside him.
+  function cardEntrance(pose, prop, propAt) { return cardBeat(pose, 1.6, 0.3, 'out', prop, propAt, { burst: true }); }
+  // `count` beats that swap between two poses.
+  function swaps(a, b, count, move, hold, ease, prop, propAt) {
+    var out = [];
+    for (var i = 0; i < count; i++) out.push(cardBeat(i % 2 ? b : a, move, hold, ease, prop, propAt));
+    return out;
+  }
+
+  var REST_POSE = cardPose('rest', CARD_REST, {});
+  var FLOSS_A = cardPose('flossA', CARD_REST, { hip: [90, 248, 0], neck: [96, 150, 0], head: [96, 92, 0], elbowL: [104, 200, 22], handL: [118, 232, 26], elbowR: [146, 196, -18], handR: [164, 226, -20], kneeL: [76, 283, 4], kneeR: [112, 283, 4], mouth: 'grin' });
+  var ROBOT_A = cardPose('robotA', CARD_REST, { elbowL: [62, 172, 0], handL: [62, 136, 0], elbowR: [138, 172, 0], handR: [138, 208, 0], mouth: 'flat', eyes: 'wide' });
+  var ROBOT_C = cardPose('robotC', CARD_REST, { head: [110, 93, -8], elbowL: [68, 182, 0], handL: [68, 182, 37], elbowR: [132, 182, 0], handR: [132, 182, 37], mouth: 'flat', eyes: 'wide', brows: 'up' });
+  var DAB_R = cardPose('dabR', CARD_REST, { hip: [100, 250, 0], neck: [104, 152, 0], head: [116, 104, 18], elbowR: [128, 146, 0], handR: [154, 120, 0], elbowL: [122, 144, 28], handL: [146, 154, 30], kneeL: [82, 285, 6], kneeR: [118, 285, 6], mouth: 'grin', eyes: 'blink' });
+  // The victory groove (founder, 28 Nov 2026: "Add a fortnight dance too please"):
+  // the well-known victory dance, both arms swinging across his chest while he
+  // bounces from foot to foot. No game's name is used on the page.
+  var GROOVE_A = cardPose('grooveA', CARD_REST, { hip: [96, 256, 0], neck: [98, 158, 6], head: [96, 100, 8], elbowL: [70, 196, 20], handL: [62, 180, 44], elbowR: [120, 200, 24], handR: [88, 186, 46], kneeL: [80, 288, 14], kneeR: [118, 280, 8], footR: [134, 308, 8], mouth: 'grin' });
+  var RUN_A = cardPose('runA', CARD_REST, { hip: [100, 244, 0], neck: [100, 146, 0], head: [100, 88, 0], kneeL: [96, 226, 30], footL: [96, 256, 14], kneeR: [110, 282, -8], footR: [116, 316, -26], elbowL: [82, 190, -16], handL: [90, 172, -30], elbowR: [118, 190, 16], handR: [112, 170, 34], mouth: 'grin' });
+  var RUN_MID = cardPose('runMid', CARD_REST, { hip: [100, 256, 0], neck: [100, 158, 0], head: [100, 100, 0], kneeL: [86, 286, 10], footL: [80, 318, 0], kneeR: [114, 286, 10], footR: [120, 318, 0], elbowL: [78, 204, 0], handL: [70, 224, 10], elbowR: [122, 204, 0], handR: [130, 224, 10], mouth: 'grin' });
+
+  var CARD_DANCES = [
+    // 1. Virtual cash: the moonwalk and a spin, and a coin flipped and caught.
+    { name: 'moonwalk',
+      poses: [REST_POSE, bandPose('glideA'), bandPose('glideB'), bandPose('glideC'), bandPose('toeStand'),
+        cardPose('holdCoin', CARD_REST, { elbowR: [130, 192, 14], handR: [150, 178, 34], mouth: 'grin' }),
+        cardPose('flipCatch', CARD_REST, { head: [102, 92, -10], elbowR: [128, 170, 10], handR: [140, 140, 22], eyes: 'wide', brows: 'up', mouth: 'open' })],
+      beats: [cardEntrance('holdCoin', 'coin', 'handR'),
+        cardBeat('glideA', 0.4, 0.05, 'inOut', 'coin', 'handR'),
+        cardBeat('glideB', 0.4, 0.05, 'inOut', 'coin', 'handR'),
+        cardBeat('glideC', 0.4, 0.1, 'inOut', 'coin', 'handR'),
+        cardBeat('rest', 0.9, 0, 'out', 'coin', 'handR', { spin: 1 }),
+        cardBeat('toeStand', 0.22, 0.6, 'back', 'coin', 'handR', { logo: 'pulse' }),
+        cardBeat('flipCatch', 0.35, 0.5, 'out', 'coin', 'aboveHead', { propArc: 40 }),
+        cardBeat('holdCoin', 0.45, 0.4, 'back', 'coin', 'handR', { logo: 'spin' })] },
+    // 2. Lessons: the robot, then back to his book.
+    { name: 'robot',
+      poses: [REST_POSE, bandPose('read'), ROBOT_A, mirrorPose('robotB', ROBOT_A), ROBOT_C, mirrorPose('robotD', ROBOT_C),
+        cardPose('robotDip', ROBOT_A, { hip: [100, 262, 0], neck: [100, 164, 0], head: [100, 106, 0], elbowL: [62, 186, 0], handL: [62, 150, 0], elbowR: [138, 186, 0], handR: [138, 222, 0], kneeL: [80, 290, 14], kneeR: [120, 290, 14] })],
+      beats: [cardEntrance('read', 'book', 'chest'),
+        cardBeat('robotA', 0.12, 0.3, 'out', 'book', 'floorR'),
+        cardBeat('robotB', 0.12, 0.3, 'out', 'book', 'floorR'),
+        cardBeat('robotC', 0.12, 0.3, 'out', 'book', 'floorR'),
+        cardBeat('robotD', 0.12, 0.3, 'out', 'book', 'floorR'),
+        cardBeat('robotDip', 0.15, 0.25, 'out', 'book', 'floorR'),
+        cardBeat('robotA', 0.12, 0.25, 'out', 'book', 'floorR'),
+        cardBeat('read', 0.5, 0.6, 'back', 'book', 'chest', { logo: 'pulse' })] },
+    // 3. Level up: a jump into the splits, and the splits on the floor.
+    { name: 'splits',
+      poses: [REST_POSE, bandPose('levelUp'), bandPose('crouch'),
+        cardPose('splitJump', CARD_REST, { hip: [100, 196, 0], neck: [100, 98, 0], head: [100, 40, 0], elbowL: [70, 112, 0], handL: [44, 86, 0], elbowR: [130, 112, 0], handR: [156, 86, 0], kneeL: [64, 206, 0], footL: [28, 214, 0], kneeR: [136, 206, 0], footR: [172, 214, 0], mouth: 'grin', eyes: 'wide', brows: 'up' }),
+        cardPose('splitsFloor', CARD_REST, { hip: [100, 302, 0], neck: [100, 204, 0], head: [100, 146, 0], elbowL: [70, 186, 0], handL: [46, 156, 0], elbowR: [130, 186, 0], handR: [154, 156, 0], kneeL: [62, 308, 0], footL: [24, 318, 0], kneeR: [138, 308, 0], footR: [176, 318, 0], mouth: 'grin', eyes: 'blink', brows: 'up' })],
+      beats: [cardEntrance('levelUp', 'star', 'aboveHead'),
+        cardBeat('crouch', 0.25, 0.1, 'inOut', 'star', 'handR'),
+        cardBeat('splitJump', 0.24, 0.12, 'out', 'star', 'handR', { logo: 'hop' }),
+        cardBeat('splitsFloor', 0.3, 0.9, 'back', 'star', 'handR', { logo: 'pulse' }),
+        cardBeat('crouch', 0.35, 0.1, 'inOut', 'star', 'handR'),
+        cardBeat('levelUp', 0.35, 0.8, 'back', 'star', 'aboveHead', { logo: 'spin' })] },
+    // 4. Leaderboard: the floss, his chart beside him.
+    { name: 'floss',
+      poses: [REST_POSE, bandPose('rise'), FLOSS_A, mirrorPose('flossB', FLOSS_A)],
+      beats: [cardEntrance('rise', 'chart', 'floorR')].concat(
+        swaps('flossA', 'flossB', 8, 0.2, 0.02, 'inOut', 'chart', 'floorR'),
+        [cardBeat('rise', 0.4, 0.8, 'back', 'chart', 'floorR', { logo: 'pulse' })]) },
+    // 5. Competition: a spin into a dab, both ways, then the victory groove, trophy in hand.
+    { name: 'dab',
+      poses: [REST_POSE, bandPose('champ'), bandPose('windup'), DAB_R, mirrorPose('dabL', DAB_R), GROOVE_A, mirrorPose('grooveB', GROOVE_A)],
+      beats: [cardEntrance('champ', 'trophy', 'handR'),
+        cardBeat('windup', 0.35, 0.1, 'inOut', 'trophy', 'handR'),
+        cardBeat('rest', 0.8, 0, 'out', 'trophy', 'handR', { spin: 1 }),
+        cardBeat('dabR', 0.14, 0.9, 'back', 'trophy', 'handR', { logo: 'pulse' }),
+        cardBeat('rest', 0.5, 0, 'inOut', 'trophy', 'handR', { spin: -1 }),
+        cardBeat('dabL', 0.14, 0.9, 'back', 'trophy', 'handR')].concat(
+        swaps('grooveA', 'grooveB', 8, 0.22, 0.02, 'inOut', 'trophy', 'floorR'),
+        [cardBeat('champ', 0.45, 0.8, 'back', 'trophy', 'handR', { logo: 'spin' })]) },
+    // 6. Safe: the running man, then on guard with his shield.
+    { name: 'running man',
+      poses: [REST_POSE, bandPose('guard'), RUN_A, mirrorPose('runB', RUN_A), RUN_MID],
+      beats: [cardEntrance('guard', 'shield', 'chest')].concat(
+        swaps('runA', 'runMid', 2, 0.16, 0.02, 'out', 'shield', 'floorL'),
+        swaps('runB', 'runMid', 2, 0.16, 0.02, 'out', 'shield', 'floorL'),
+        swaps('runA', 'runMid', 2, 0.16, 0.02, 'out', 'shield', 'floorL'),
+        swaps('runB', 'runMid', 2, 0.16, 0.02, 'out', 'shield', 'floorL'),
+        [cardBeat('guard', 0.4, 0.8, 'back', 'shield', 'chest', { logo: 'pulse' })]) }
+  ];
+  var CARD_START_GAP_MS = 180;   // the six cards start one after another, not in one frame
+  var CARD_MIDDLE = '-40% 0px -40% 0px';   // on a touch screen: a card this near the window's middle is selected
+
+  // Each card's picture gets a stage: the picture stays underneath (shown again
+  // if the animation stops), with a canvas, the box he stands in and the place
+  // of his small logo laid over it. He dances when his card is selected: the
+  // mouse comes onto it, a finger taps it, or (on a touch screen) it is
+  // scrolled to the middle of the window.
+  function startCards(logo) {
+    var cards = document.querySelectorAll ? document.querySelectorAll('.sticker-card') : [];
+    if (!cards.length || !window.IntersectionObserver) return;
+    var stages = [], i;
+    for (i = 0; i < cards.length && i < CARD_DANCES.length; i++) {
+      var img = cards[i].querySelector('.sticker-img');
+      if (!img) continue;
+      var stage = document.createElement('div'); stage.className = 'card-stage';
+      img.parentNode.insertBefore(stage, img); stage.appendChild(img);
+      var cv = document.createElement('canvas'); cv.className = 'card-fx'; cv.setAttribute('aria-hidden', 'true');
+      var box = document.createElement('span'); box.className = 'card-box';
+      var flat = document.createElement('span'); flat.className = 'card-logo';
+      stage.appendChild(cv); stage.appendChild(box); stage.appendChild(flat);
+      stages.push({ card: cards[i], stage: stage, cv: cv, box: box, flat: flat, dance: CARD_DANCES[i] });
+    }
+    var touch = !!(window.matchMedia && window.matchMedia('(hover: none)').matches), started = false;
+    function startOne(s) {
+      var run = null;
+      try { run = mascot(logo, s.stage, s.cv, s.dance, { svg: s.box, flat: s.flat, card: true, waiting: true }); }
+      catch (err) { warn('a card\'s stickman animation is off:', err); }
+      if (!run) return;
+      s.card.addEventListener('pointerenter', function (e) { if (e.pointerType !== 'touch') run.play(); });
+      s.card.addEventListener('pointerdown', function (e) { if (e.pointerType === 'touch') run.play(); }, { passive: true });
+      if (touch) {
+        var middle = new window.IntersectionObserver(function (entries) {
+          if (entries[entries.length - 1].isIntersecting) run.play();
+        }, { rootMargin: CARD_MIDDLE });
+        middle.observe(s.stage);
+      }
+    }
+    var near = new window.IntersectionObserver(function (entries) {
+      for (var k = 0; k < entries.length; k++) if (entries[k].isIntersecting && !started) {
+        started = true; near.disconnect();
+        stages.forEach(function (s, n) { window.setTimeout(function () { startOne(s); }, n * CARD_START_GAP_MS); });
+      }
+    }, { rootMargin: '300px' });
+    stages.forEach(function (s) { near.observe(s.stage); });
+  }
 
   // Start only after the page itself has finished loading, so the words and
   // the Play button are never held up by the pictures. Then wait (briefly) for
@@ -1435,25 +1722,19 @@
       if (!top) doneWaiting();   // no top animation on this device: the card is the picture
       // The mascot is started only when its band is about to scroll into view.
       var host = document.querySelector('.mascot'), cv = document.getElementById('mascotFx');
-      if (!host || !cv || !window.IntersectionObserver) return;
+      if (!host || !cv || !window.IntersectionObserver) { run('card', function () { startCards(logo); }); return; }
       var wait = new window.IntersectionObserver(function (entries) {
         if (!entries[entries.length - 1].isIntersecting) return;
         wait.disconnect();
         run('mascot', function () { mascot(logo, host, cv, MASCOT_DANCE); });
       }, { rootMargin: '300px' });
       wait.observe(host);
+      run('card', function () { startCards(logo); });
     }
     var fonts = document.fonts && document.fonts.ready;
     function loadLogo() { logo.onload = go; logo.onerror = go; logo.src = './logo.png'; }
     if (fonts && fonts.then) fonts.then(loadLogo, loadLogo); else loadLogo();
     window.setTimeout(go, READY_TIMEOUT_MS);
   }
-  // While the loading dots (boot-fx.js) cover the page, wait for them to go:
-  // two dot animations at once would be the work of both on a phone.
-  function begin() {
-    var boot = window.__ntBoot;
-    if (boot && boot.active) window.addEventListener('nt-boot-done', prepare, { once: true });
-    else prepare();
-  }
-  if (document.readyState === 'complete') begin(); else window.addEventListener('load', begin);
+  if (document.readyState === 'complete') prepare(); else window.addEventListener('load', prepare);
 })();
