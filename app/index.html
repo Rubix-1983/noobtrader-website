@@ -73,7 +73,7 @@
     <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" /></noscript>
 
     <title>NoobTrader</title>
-    <script type="module" crossorigin src="./assets/index-DC3CdZDt.js"></script>
+    <script type="module" crossorigin src="./assets/index-BtXiUyci.js"></script>
     <link rel="modulepreload" crossorigin href="./assets/react-CRB3T2We.js">
     <link rel="modulepreload" crossorigin href="./assets/supabase-BiHzSKx7.js">
     <link rel="stylesheet" crossorigin href="./assets/index-OTriKTl0.css">
@@ -98,8 +98,14 @@
         -webkit-user-select: text; user-select: text; -webkit-touch-callout: default;
       }
     }
+    /* The entry animation (public/boot-fx.js): the NT logo and the name in
+       glowing dots over the app while it loads (founder, 28 Nov 2026). */
+    #nt-boot { position: fixed; inset: 0; z-index: 2147483000; background: #0a0f1a; opacity: 1; transition: opacity 380ms ease; pointer-events: none; }
+    #nt-boot canvas { display: block; width: 100%; height: 100%; }
   </style>
   <body>
+    <div id="nt-boot" aria-hidden="true"><canvas></canvas></div>
+    <script src="./boot-fx.js"></script>
     <div id="root"></div>
   </body>
 </html>
