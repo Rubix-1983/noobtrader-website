@@ -42,15 +42,17 @@
 // .mascot once a first frame has been drawn. Everything stays off when the
 // visitor asked for reduced motion, data saver is on, a contrast theme is in
 // use, the device reports under 2 GB of memory, or the browser will not let a
-// page read its own canvas. An animation also stays off when WebGL is missing
-// or only software-drawn, and switches itself off if its first frames come out
+// page read its own canvas. An animation also stays off when WebGL is missing.
+// Where the browser draws WebGL in software only (graphics acceleration off, or
+// a graphics driver the browser does not trust: common on laptops) it runs
+// lighter: half the dots, one pixel per page pixel, no glow. Each animation
+// switches itself off if its first frames come out
 // too slow, if anything goes wrong inside a frame, or if reduced motion is
 // switched on while the page is open. Whatever switches one off says so in
 // the console.
 //
 // Test switches: `?fx=off` keeps the fallbacks; `?fx=force` skips the checks
-// above (reduced motion, data saver, contrast theme, memory, software drawing,
-// too slow); `?fx-shape=7` opens the top animation on that shape; `?fx-beat=7`
+// above (reduced motion, data saver, contrast theme, memory, too slow); `?fx-shape=7` opens the top animation on that shape; `?fx-beat=7`
 // runs the stickman's routine straight to that beat and holds it.
 // scripts/website-fx.test.js runs this file without a browser.
 (function () {
@@ -90,6 +92,7 @@
   var SLAB_DEPTH = 0.2;           // half-thickness of a flat shape, so it is solid when turned
   var SLAB_FACE_SHARE = 0.7;      // part of its dots that sit on the front and back faces
   var MAX_PIXEL_RATIO = 3;        // draw at the screen's full sharpness
+  var SOFT_PIXEL_RATIO = 1;       // ...but only one pixel per page pixel where WebGL is drawn in software
   var SAMPLE_PX = 560;            // detail of the hidden canvas shapes are read from
   var HALO_SHARE = 0.2;           // part of the dots that also cast a soft glow
   var HALO_SIZE = 6;
@@ -126,7 +129,29 @@
   // less", which took in phones, tablets and laptops of up to about 6 GB.
   // Safari and Firefox report nothing: full dots there.
   var LOW_MEMORY_GB = 4;
-  function lowMemory() { return !!navigator.deviceMemory && navigator.deviceMemory < LOW_MEMORY_GB; }
+  // Fewer dots: a device short of memory, or a browser that draws in software.
+  function lowMemory() { return softwareOnly() || (!!navigator.deviceMemory && navigator.deviceMemory < LOW_MEMORY_GB); }
+  // Does this browser draw WebGL in software only? Up to 28 Nov 2026 the
+  // animations refused such a browser (failIfMajorPerformanceCaveat), and the
+  // founder's laptop showed none of them ("website animation on my latop is
+  // not running or showing?"). Measured that day: in Chrome with graphics
+  // acceleration off the top animation ran at 42 frames a second at full
+  // load. So it runs, lighter, and the too-slow rule still switches off a
+  // device that cannot keep up. Asked once, on a throwaway canvas: a context
+  // refused with the caveat but given without it is a software one.
+  var softOnly = null;
+  function dropContext(gl) { var lose = gl && gl.getExtension && gl.getExtension('WEBGL_lose_context'); if (lose) lose.loseContext(); }
+  function softwareOnly() {
+    if (softOnly !== null) return softOnly;
+    softOnly = false;
+    try {
+      var fast = document.createElement('canvas').getContext('webgl', { failIfMajorPerformanceCaveat: true });
+      if (fast) { dropContext(fast); return softOnly; }
+      var any = document.createElement('canvas').getContext('webgl');
+      if (any) { softOnly = true; dropContext(any); warn('WebGL is drawn in software here: the 3D animations run lighter'); }
+    } catch (err) { softOnly = false; }
+    return softOnly;
+  }
   // Nothing here fails silently: whatever switches an animation off, or leaves
   // a shape out, says so in the console.
   function warn(what, detail) {
@@ -368,8 +393,7 @@
     '}'
   ].join('\n');
 
-  // One canvas of N dots. Returns null where WebGL is missing or only
-  // software-drawn. `host` gets the class `fx-on` once a first frame is drawn.
+  // One canvas of N dots. Returns null where WebGL is missing. `host` gets the class `fx-on` once a first frame is drawn.
   // The dots are drawn as one or more ACTORS: runs of dots that each have their
   // own shapes, place, size and colours. `ink` is for a light background.
   function field(cv, host, N, ink) {
@@ -377,8 +401,7 @@
     try {
       gl = cv.getContext('webgl', {
         alpha: true, antialias: false, depth: false, stencil: false,
-        premultipliedAlpha: true, powerPreference: 'low-power',
-        failIfMajorPerformanceCaveat: !FORCE
+        premultipliedAlpha: true, powerPreference: 'low-power'
       });
     } catch (err) { gl = null; }
     if (!gl) return null;
@@ -448,7 +471,7 @@
     F.write = function (buf, data) { gl.bindBuffer(gl.ARRAY_BUFFER, buf); gl.bufferSubData(gl.ARRAY_BUFFER, 0, data); };
     // The canvas is `w` by `h` page pixels and the scene's middle is at (cx, cy) on it.
     F.lens = function (w, h, cx, cy) {
-      var ratio = Math.min(window.devicePixelRatio || 1, MAX_PIXEL_RATIO);
+      var ratio = Math.min(window.devicePixelRatio || 1, softwareOnly() ? SOFT_PIXEL_RATIO : MAX_PIXEL_RATIO);
       var pw = Math.round(w * ratio), ph = Math.round(h * ratio);
       if (cv.width !== pw || cv.height !== ph) { cv.width = pw; cv.height = ph; }
       gl.viewport(0, 0, pw, ph);
@@ -607,7 +630,7 @@
     // as its few fat ones were; with the glow on top it would be nine times
     // what that tablet blended before.
     var modest = !!navigator.deviceMemory && navigator.deviceMemory <= HALO_MODEST_GB;
-    var plain = modest || window.innerWidth < SMALL_SCREEN_PX || (window.devicePixelRatio || 1) > HALO_MAX_PIXEL_RATIO;
+    var plain = modest || softwareOnly() || window.innerWidth < SMALL_SCREEN_PX || (window.devicePixelRatio || 1) > HALO_MAX_PIXEL_RATIO;
     dots.halo = plain ? 0 : HALO_GAIN;
     dots.hot = 0.08; dots.burst = HERO_BURST;
 
