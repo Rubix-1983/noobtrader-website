@@ -1448,5 +1448,12 @@
     if (fonts && fonts.then) fonts.then(loadLogo, loadLogo); else loadLogo();
     window.setTimeout(go, READY_TIMEOUT_MS);
   }
-  if (document.readyState === 'complete') prepare(); else window.addEventListener('load', prepare);
+  // While the loading dots (boot-fx.js) cover the page, wait for them to go:
+  // two dot animations at once would be the work of both on a phone.
+  function begin() {
+    var boot = window.__ntBoot;
+    if (boot && boot.active) window.addEventListener('nt-boot-done', prepare, { once: true });
+    else prepare();
+  }
+  if (document.readyState === 'complete') begin(); else window.addEventListener('load', begin);
 })();
