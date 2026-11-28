@@ -400,9 +400,11 @@
         var ready = logoBuf && nameBuf;
         if (ready && builtAt < 0) builtAt = time;
         var progress = ready ? Math.min(1, (time - builtAt) / BUILD_SECONDS) : 0;
-        // A slow sway once built, so the dots read as solid 3D letters.
-        var sway = Math.max(0, Math.min(1, (progress - 0.6) / 0.4));
-        gl.uniform2f(U.uTurn, Math.sin(time * 0.7) * 0.26 * sway + (1 - progress) * time * 0.5, Math.sin(time * 0.45) * 0.08 * sway);
+        // The cloud turns while the dots fly in, and the turn runs out as the logo
+        // forms: once built it faces the viewer dead on, with no sway (founder,
+        // 28 Nov 2026: "The dot logo should be straight not angled in the app load").
+        var spin = 1 - progress;
+        gl.uniform2f(U.uTurn, spin * spin * time * 0.5, 0);
         gl.uniform1f(U.uTime, time);
         gl.uniform1f(U.uScale, fit);
         gl.clear(gl.COLOR_BUFFER_BIT);
