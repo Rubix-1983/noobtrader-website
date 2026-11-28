@@ -1222,6 +1222,43 @@
     .hero2.fx-on .hero2-fx { opacity: 1; }
     .hero2.fx-on .hero2-card { opacity: 0; visibility: hidden; transition: opacity 0.5s ease, visibility 0s 0.5s; }
     .hero2.fx-on .hero2-visual { cursor: pointer; }
+    /* A tap or a click on an animation must not light up a block (founder,
+       28 Nov 2026: "when clicking it highlights a block"). Three things did:
+       1. On an Android phone the browser flashes its own see-through blue over
+          the box a tap lands in, when that box shows a hand cursor. The top
+          animation's box does (a tap skips to the next shape), and so does the
+          3D stickman's (a tap replays him). Safari paints its grey flash only
+          on a small box: here that is the stickman's, on an iPad.
+       2. On a computer two or three quick clicks select text. Nothing in the
+          animation's box can be selected, so the browser picked the next text
+          it found: the "10,000" under it turned into a blue block.
+       3. Each picture is bigger than its box. Three clicks on a shape's top or
+          bottom edge still selected the "10,000", and skipped nothing.
+       So, while an animation runs, its box can be neither flashed nor
+       selected, two quick taps there are two taps, not a zoom of the page, and
+       the box's reach is stretched to its picture with the pseudo-elements
+       below, which carry the click, the hand cursor and those rules with them.
+       The top shape: fx.js measures how far it sticks out of its box, top and
+       bottom, with the bit it swells under a pointer (--fx-over). Below the
+       box that reach ends where the row of numbers begins (that row is drawn
+       over it), which is as far as a shape at rest ever comes.
+       The stickman: fixed amounts, measured for the routine he plays now (the
+       star over his head stands 78 to 90 px above his box, the logo 15 to 31
+       px to its left, the trophy and the chart 30 to 40 px to its right; the
+       larger figures are under a pointer, which makes him 5% bigger), plus
+       --fx-shift: on a narrow window fx.js draws him up to 70 px to the left
+       of his box, to keep a prop in his hand on the page. His reach is two
+       bands, ::before for his head, arms, the logo and what he holds up,
+       ::after for his legs and what stands on the floor: the lower band stays
+       clear of the last line of the heading beside him, which one box covered
+       at about 900 px wide. Change his size, the places his routine uses or a
+       prop, and these numbers have to be measured again. */
+    .hero2-visual, .mascot { -webkit-tap-highlight-color: transparent; }
+    .hero2.fx-on .hero2-visual, .mascot.fx-on { -webkit-user-select: none; user-select: none; touch-action: manipulation; }
+    .hero2.fx-on .hero2-visual::after { content: ''; position: absolute; left: 0; right: 0; top: calc(-1 * var(--fx-over, 0px)); bottom: calc(-1 * var(--fx-over, 0px)); }
+    .mascot.fx-on::before, .mascot.fx-on::after { content: ''; position: absolute; right: -80px; }
+    .mascot.fx-on::before { top: -96px; bottom: 83px; left: calc(-32px - var(--fx-shift, 0px)); }
+    .mascot.fx-on::after { top: 115px; bottom: -12px; left: calc(60px - var(--fx-shift, 0px)); }
     /* The card must never flash up before the animation that takes its place
        (founder, 28 Nov 2026: "check the animation does remove the 3 steps to
        sign up as it pops up and should not", "this should not show"). While
@@ -1294,9 +1331,13 @@
     /* That canvas reaches past the page's right edge on a narrow window. The band
        clips it there (sideways only: up and down it stays free), so the page
        never becomes wider than the window. Where a browser cannot clip one way
-       only (Safari before 16), the canvas simply stops at the mascot's own edge. */
+       only (Safari before 16), the canvas simply stops at the mascot's own edge,
+       and so does the reach of his box: nothing is drawn to his right there. */
     .band-light { overflow-x: clip; }
-    @supports not (overflow-x: clip) { .mascot-fx { width: calc(100% + 200px); } }
+    @supports not (overflow-x: clip) {
+      .mascot-fx { width: calc(100% + 200px); }
+      .mascot.fx-on::before, .mascot.fx-on::after { right: 0; }
+    }
     .mascot.fx-on { cursor: pointer; }
     .mascot.fx-on .mascot-fx { opacity: 1; }
     .mascot.fx-on .mascot-logo, .mascot.fx-on .mascot-svg { opacity: 0; visibility: hidden; transition: opacity 0.4s ease, visibility 0s 0.4s; }

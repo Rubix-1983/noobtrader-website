@@ -30,9 +30,11 @@
 //    wow factor", then "I think we have the animation on the logo and a
 //    animation of the stick man on the top similar to the main page too".
 //
-// Nothing here holds the page up: it starts after the page has loaded, shapes
-// are built one at a time, and the mascot is not started at all until its band
-// is about to scroll into view. Each animation pauses while it is off screen.
+// Nothing here holds the page up: it starts after the page has loaded, the top
+// shapes are built a slice at a time (about one shape a second), and the mascot
+// is not started at all until its band is about to scroll into view. Each
+// animation's drawing pauses while it is off screen; the building of the top
+// shapes carries on until all sixteen are made.
 //
 // Both are extras on top of a page that works without them. The stickman card
 // (top) and the drawn stickman with the logo picture (band) stay in the page
@@ -99,7 +101,10 @@
   var GAIN_MIN = 0.13;
   var GAIN_MAX = 0.26;
   var GAIN_OPEN = 0.42;           // the world and the cloud: dots spread through space
-  var BUILD_GAP_MS = 200;         // pause between building one shape and the next
+  var BUILD_GAP_MS = 200;         // pause before the top shapes after the first are built, and between two of the stickman's props
+  var SLICE_DOTS = 4000;          // a top shape is built this many dots at a time...
+  var SLICE_GAP_MS = 40;          // ...with this pause between two slices, so no frame waits long for one...
+  var SHAPE_GAP_MS = 500;         // ...and this pause before the next shape is begun: about one shape a second
   var READY_TIMEOUT_MS = 2500;    // do not wait longer than this for the logo or fonts
   var WATCH_FRAMES = 90;          // frames checked for speed after start
   var SLOW_FRAME_SECONDS = 0.066; // a slow frame: slower than 15 a second
@@ -114,6 +119,14 @@
 
   var rand = Math.random;
   function clamp1(x) { return x < -1 ? -1 : x > 1 ? 1 : x; }
+  // A device short of memory gets fewer dots. A browser that reports memory at
+  // all rounds it to a power of two (1, 2, 4 or 8 on an Android phone), so
+  // "under 4" is a phone with about 3 GB or less; one that reports under 2 gets
+  // no animation at all (see `unwanted`). Up to 28 Nov 2026 the line was "4 or
+  // less", which took in phones, tablets and laptops of up to about 6 GB.
+  // Safari and Firefox report nothing: full dots there.
+  var LOW_MEMORY_GB = 4;
+  function lowMemory() { return !!navigator.deviceMemory && navigator.deviceMemory < LOW_MEMORY_GB; }
   // Nothing here fails silently: whatever switches an animation off, or leaves
   // a shape out, says so in the console.
   function warn(what, detail) {
@@ -220,66 +233,88 @@
   };
 
   // ── Shapes: draw on a hidden canvas, then scatter `count` dots over the
-  //    pixels that were painted. Returns { data, gain }. `skipWhite` is for a
-  //    picture with a white ground. ─────────────────────────────────────────
-  function sample(draw, count, skipWhite) {
-    var SIZE = SAMPLE_PX, HALF = SIZE / 2;
+  //    pixels that were painted. A shape is made in two steps, so that a big
+  //    one can be built a slice at a time and no frame waits long for it
+  //    (with every dot placed in one go, a 48,000 dot shape took about twice
+  //    as long to build as a 12,000 dot one: measured on this computer with
+  //    its processor slowed down, not on a phone).
+  //    The call itself reads the drawing, which cannot be split, and returns
+  //    { data, gain, fill }; fill(from, to) then places the dots from..to-1.
+  //    `skipWhite` is for a picture with a white ground. ───────────────────
+  function sampler(draw, count, skipWhite) {
+    var SIZE = SAMPLE_PX, HALF = SIZE / 2, AREA = SIZE * SIZE;
     var pad = document.createElement('canvas'); pad.width = pad.height = SIZE;
     var c = pad.getContext('2d');
     c.fillStyle = c.strokeStyle = '#fff'; c.lineCap = c.lineJoin = 'round';
     c.scale(SIZE / 200, SIZE / 200);
     draw(c);
-    var px = c.getImageData(0, 0, SIZE, SIZE).data, pts = [], x, y, o;
-    for (y = 0; y < SIZE; y++) for (x = 0; x < SIZE; x++) {
-      o = (y * SIZE + x) * 4;
-      if (px[o + 3] > 120 && !(skipWhite && px[o] > 235 && px[o + 1] > 235 && px[o + 2] > 235)) pts.push(x, y);
+    // Every painted pixel, kept as one number: its row times the pad's width, plus its column.
+    var px = c.getImageData(0, 0, SIZE, SIZE).data, spots = new Int32Array(AREA), found = 0, p, o;
+    for (p = 0; p < AREA; p++) {
+      o = p * 4;
+      if (px[o + 3] > 120 && !(skipWhite && px[o] > 235 && px[o + 1] > 235 && px[o + 2] > 235)) spots[found++] = p;
     }
-    if (!pts.length) throw new Error('nothing was drawn');   // every dot would sit on one point
+    if (!found) throw new Error('nothing was drawn');   // every dot would sit on one point
     var out = new Float32Array(count * 3);
-    for (var i = 0; i < count; i++) {
-      var j = (rand() * pts.length / 2 | 0) * 2;
-      out[i * 3] = (pts[j] - HALF + rand() - 0.5) / HALF * SHAPE_HALF;
-      out[i * 3 + 1] = -(pts[j + 1] - HALF + rand() - 0.5) / HALF * SHAPE_HALF;
-      out[i * 3 + 2] = rand() < SLAB_FACE_SHARE ? (rand() < 0.5 ? SLAB_DEPTH : -SLAB_DEPTH) : (rand() - 0.5) * 2 * SLAB_DEPTH;
-    }
-    var cover = pts.length / 2 / (SIZE * SIZE);
-    var gain = GAIN_REFERENCE * Math.sqrt(cover / GAIN_REFERENCE_COVER);
-    return { data: out, gain: Math.max(GAIN_MIN, Math.min(GAIN_MAX, gain)) };
+    var gain = GAIN_REFERENCE * Math.sqrt(found / AREA / GAIN_REFERENCE_COVER);
+    return {
+      data: out, gain: Math.max(GAIN_MIN, Math.min(GAIN_MAX, gain)),
+      fill: function (from, to) {
+        for (var i = from; i < to; i++) {
+          var spot = spots[rand() * found | 0];
+          out[i * 3] = (spot % SIZE - HALF + rand() - 0.5) / HALF * SHAPE_HALF;
+          out[i * 3 + 1] = -((spot / SIZE | 0) - HALF + rand() - 0.5) / HALF * SHAPE_HALF;
+          out[i * 3 + 2] = rand() < SLAB_FACE_SHARE ? (rand() < 0.5 ? SLAB_DEPTH : -SLAB_DEPTH) : (rand() - 0.5) * 2 * SLAB_DEPTH;
+        }
+      }
+    };
   }
-  // A coin is a real disc: two faces with a rim of dots joining them.
+  // Every dot of a two-step shape placed in one go: for the few dots of the
+  // stickman's logo and props.
+  function whole(made) { made.fill(0, made.data.length / 3); return made; }
+  function sample(draw, count, skipWhite) { return whole(sampler(draw, count, skipWhite)); }
+  // A coin is a real disc: two faces with a rim of dots joining them. Two-step, like `sampler`.
   function coin(glyph, count) {
     var RIM_SHARE = 0.22, RIM_RADIUS = 0.9 * SHAPE_HALF;
-    var made = sample(function (c) {
+    var made = sampler(function (c) {
       c.lineWidth = 9; c.beginPath(); c.arc(100, 100, 88, 0, TAU); c.stroke();
       c.lineWidth = 3; c.beginPath(); c.arc(100, 100, 72, 0, TAU); c.stroke();
       glyph(c);
-    }, count), out = made.data;
-    for (var i = 0; i < count; i++) {
-      if (rand() < RIM_SHARE) { var a = rand() * TAU; out[i * 3] = Math.cos(a) * RIM_RADIUS; out[i * 3 + 1] = Math.sin(a) * RIM_RADIUS; out[i * 3 + 2] = (rand() - 0.5) * 2 * SLAB_DEPTH; }
-      else out[i * 3 + 2] = rand() < 0.5 ? SLAB_DEPTH : -SLAB_DEPTH;
-    }
+    }, count), out = made.data, flat = made.fill;
+    made.fill = function (from, to) {
+      flat(from, to);
+      for (var i = from; i < to; i++) {
+        if (rand() < RIM_SHARE) { var a = rand() * TAU; out[i * 3] = Math.cos(a) * RIM_RADIUS; out[i * 3 + 1] = Math.sin(a) * RIM_RADIUS; out[i * 3 + 2] = (rand() - 0.5) * 2 * SLAB_DEPTH; }
+        else out[i * 3 + 2] = rand() < 0.5 ? SLAB_DEPTH : -SLAB_DEPTH;
+      }
+    };
     return made;
   }
-  // The world: a surface of dots plus bright lines of longitude and latitude.
+  // The world: a surface of dots plus bright lines of longitude and latitude. Two-step, like `sampler`.
   function globe(count) {
     var out = new Float32Array(count * 3), golden = Math.PI * (3 - Math.sqrt(5)), R = 1.45;
-    var MERIDIANS = 12, PARALLELS = 7, SURFACE = 0.4, MERIDIAN_SHARE = 0.75, lat, lon;
+    var MERIDIANS = 12, PARALLELS = 7, SURFACE = 0.4, MERIDIAN_SHARE = 0.75;
     var SHUFFLE = 7919;   // a prime that divides none of the dot counts: it visits every place once, out of order
-    for (var i = 0; i < count; i++) {
-      var pick = rand(), place = (i * SHUFFLE) % count;
-      // The surface dots are spread evenly from pole to pole, but not in that
-      // order: the soft glow is drawn from the first fifth of the dots.
-      if (pick < SURFACE) { lat = Math.asin(1 - (place / (count - 1)) * 2); lon = golden * place; }
-      else if (pick < MERIDIAN_SHARE) { lon = Math.floor(rand() * MERIDIANS) / MERIDIANS * TAU; lat = (rand() - 0.5) * Math.PI; }
-      else { lat = (Math.floor(rand() * PARALLELS) + 1) / (PARALLELS + 1) * Math.PI - Math.PI / 2; lon = rand() * TAU; }
-      out[i * 3] = Math.cos(lat) * Math.cos(lon) * R; out[i * 3 + 1] = Math.sin(lat) * R; out[i * 3 + 2] = Math.cos(lat) * Math.sin(lon) * R;
-    }
-    return { data: out, gain: GAIN_OPEN };
+    return {
+      data: out, gain: GAIN_OPEN,
+      fill: function (from, to) {
+        var lat, lon;
+        for (var i = from; i < to; i++) {
+          var pick = rand(), place = (i * SHUFFLE) % count;
+          // The surface dots are spread evenly from pole to pole, but not in that
+          // order: the soft glow is drawn from the first fifth of the dots.
+          if (pick < SURFACE) { lat = Math.asin(1 - (place / (count - 1)) * 2); lon = golden * place; }
+          else if (pick < MERIDIAN_SHARE) { lon = Math.floor(rand() * MERIDIANS) / MERIDIANS * TAU; lat = (rand() - 0.5) * Math.PI; }
+          else { lat = (Math.floor(rand() * PARALLELS) + 1) / (PARALLELS + 1) * Math.PI - Math.PI / 2; lon = rand() * TAU; }
+          out[i * 3] = Math.cos(lat) * Math.cos(lon) * R; out[i * 3 + 1] = Math.sin(lat) * R; out[i * 3 + 2] = Math.cos(lat) * Math.sin(lon) * R;
+        }
+      }
+    };
   }
-  // The real mark, read from logo.png; the letters alone if the file did not load.
+  // The real mark, read from logo.png; the letters alone if the file did not load. Two-step, like `sampler`.
   function logoShape(logo, count) {
-    if (logo && logo.naturalWidth) return sample(function (c) { c.drawImage(logo, 6, 6, 188, 188); }, count, true);
-    return sample(function (c) { text(c, 'nt', 150, 100, 100, GROTESK); }, count);
+    if (logo && logo.naturalWidth) return sampler(function (c) { c.drawImage(logo, 6, 6, 188, 188); }, count, true);
+    return sampler(function (c) { text(c, 'nt', 150, 100, 100, GROTESK); }, count);
   }
 
   // ── The dot program. All the motion that every dot shares (the morph, the
@@ -511,18 +546,29 @@
   }
 
   // ══ 1. SHAPE SHIFTER (the top section) ═════════════════════════════════
-  var COUNT_SMALL = 12000;        // dots on a phone-width screen
-  var COUNT_LARGE = 48000;        // dots on a wider screen
-  var COUNT_LOW_MEMORY = 7000;    // dots when the device reports 4 GB or less
-  var SMALL_SCREEN_PX = 700;
+  // A phone gets the same dots as a desktop. A window under 700 px wide used to
+  // get a quarter of them (12,000), and any device that reported 4 GB of memory
+  // or less, at any width, a seventh (7,000; many Android phones report 4),
+  // each drawn twice as wide or more to fill the gaps, and the picture was
+  // coarse (founder, 28 Nov 2026: "On mobile the animation isn't high
+  // quality"; coarse dots is the reading acted on). A dot of half the width
+  // covers a quarter of the pixels, so four times the dots is the same amount
+  // of blending for the graphics chip. What does grow with the dots: the
+  // points sent to it each frame, the dot buffers (208 bytes a dot over the
+  // sixteen shapes, about 10 MB at 48,000) and the work of building a shape,
+  // which is why shapes are built a slice at a time (`sampler`, `buildStep`).
+  var COUNT_FULL = 48000;         // dots, on a phone as on a desktop
+  var COUNT_LOW_MEMORY = 24000;   // dots when the device reports under 4 GB
+  var SMALL_SCREEN_PX = 700;      // narrower than this is a phone held upright: no soft glow (below)
   var HOLD_SECONDS = 2.2;         // how long a finished shape stays
   var MORPH_SECONDS = 1.9;        // burst out and build in
   var MAX_HALF_PX = 210;          // biggest half-height on screen
-  var DOT_SIZE = 0.03;            // at COUNT_LARGE; fewer dots are drawn bigger
-  var DOT_SIZE_MAX = 0.075;
+  var DOT_SIZE = 0.03;            // at COUNT_FULL; fewer dots are drawn bigger, to cover the same area
   var HALO_GAIN = 0.05;
   var HALO_MAX_PIXEL_RATIO = 2;   // no glow pass on a denser screen than this
+  var HALO_MODEST_GB = 4;         // nor on a device that reports this much memory or less
   var HERO_BURST = 0.62;          // how far the dots fly between two shapes
+  var HERO_SWELL = 0.14;          // how much bigger the shape grows under a pointer
   var HERO_TURN_X = 1.15, HERO_TURN_Y = 0.6;   // furthest turn toward the pointer, in radians
 
   function hero(logo) {
@@ -530,56 +576,91 @@
     var visual = host && host.querySelector('.hero2-visual');
     if (!host || !cv || !visual) return false;
 
-    var N = window.innerWidth < SMALL_SCREEN_PX ? COUNT_SMALL : COUNT_LARGE;
-    if (navigator.deviceMemory && navigator.deviceMemory <= 4) N = Math.min(N, COUNT_LOW_MEMORY);
+    var N = lowMemory() ? COUNT_LOW_MEMORY : COUNT_FULL;
     var F = field(cv, host, N, false);
     if (!F) return false;
     var dots = F.actor(0, N);
-    dots.dot = Math.min(DOT_SIZE_MAX, DOT_SIZE * Math.sqrt(COUNT_LARGE / N));
+    dots.dot = DOT_SIZE * Math.sqrt(COUNT_FULL / N);
     // The soft glow is nearly nine tenths of the pixels the graphics chip has to
-    // blend, for a few per cent of the light. It is left out where the dot count
-    // was cut (a phone, a device short of memory) and on a screen with more than
-    // two device pixels to the page pixel (a phone on its side, a 4K laptop
-    // scaled to 250%), where it would cost the most. Other wide screens keep it.
-    dots.halo = (N < COUNT_LARGE || (window.devicePixelRatio || 1) > HALO_MAX_PIXEL_RATIO) ? 0 : HALO_GAIN;
+    // blend, for a few per cent of the light (at phone size it can hardly be
+    // seen). It is left out on a phone held upright, on a device that reports
+    // 4 GB of memory or less, and on a screen with more than two device pixels
+    // to the page pixel (a phone on its side, a 4K laptop scaled to 250%),
+    // where it would cost the most. Other wide screens keep it. These are the
+    // same screens as before the dots were evened out on 28 Nov 2026, on
+    // purpose: the full dots are about the same blending for a modest tablet
+    // as its few fat ones were; with the glow on top it would be nine times
+    // what that tablet blended before.
+    var modest = !!navigator.deviceMemory && navigator.deviceMemory <= HALO_MODEST_GB;
+    var plain = modest || window.innerWidth < SMALL_SCREEN_PX || (window.devicePixelRatio || 1) > HALO_MAX_PIXEL_RATIO;
+    dots.halo = plain ? 0 : HALO_GAIN;
     dots.hot = 0.08; dots.burst = HERO_BURST;
 
     // The list, in the order shown. `make` runs once, when its turn to be built
     // comes; `tint` is two colours blended from bottom-left to top-right.
     var SHAPES = [
       { name: 'NT logo', tint: [CYAN, VIOLET], make: function () { return logoShape(logo, N); } },
-      { name: 'dollar', tint: [GOLD, GREEN], make: function () { return sample(DRAW.dollar, N); } },
-      { name: 'rising chart', tint: [GREEN, CYAN], make: function () { return sample(DRAW.chart, N); } },
+      { name: 'dollar', tint: [GOLD, GREEN], make: function () { return sampler(DRAW.dollar, N); } },
+      { name: 'rising chart', tint: [GREEN, CYAN], make: function () { return sampler(DRAW.chart, N); } },
       { name: 'gold coin', tint: [ORANGE, GOLD], make: function () { return coin(DRAW.coinDollar, N); } },
-      { name: 'lessons (open book)', tint: [PINK, VIOLET], make: function () { return sample(DRAW.book, N); } },
+      { name: 'lessons (open book)', tint: [PINK, VIOLET], make: function () { return sampler(DRAW.book, N); } },
       { name: 'the world', tint: [VIOLET, CYAN], make: function () { return globe(N); } },
-      { name: 'rankings podium', tint: [BLUE, CYAN], make: function () { return sample(DRAW.podium, N); } },
-      { name: 'Arcade (game controller)', tint: [VIOLET, PINK], make: function () { return sample(DRAW.controller, N); } },
-      { name: 'noobtrader name', tint: [VIOLET, CYAN], make: function () { return sample(DRAW.name, N); } },
-      { name: 'trophy', tint: [ORANGE, GOLD], make: function () { return sample(DRAW.trophy, N); } },
-      { name: 'the app on a phone', tint: [VIOLET, BLUE], make: function () { return sample(DRAW.phone, N); } },
-      { name: 'Lounge (speech bubble)', tint: [CYAN, GREEN], make: function () { return sample(DRAW.bubble, N); } },
-      { name: 'level-up star', tint: [PINK, GOLD], make: function () { return sample(DRAW.star, N); } },
-      { name: 'Daily Spin (wheel)', tint: [GOLD, PINK], make: function () { return sample(DRAW.wheel, N); } },
+      { name: 'rankings podium', tint: [BLUE, CYAN], make: function () { return sampler(DRAW.podium, N); } },
+      { name: 'Arcade (game controller)', tint: [VIOLET, PINK], make: function () { return sampler(DRAW.controller, N); } },
+      { name: 'noobtrader name', tint: [VIOLET, CYAN], make: function () { return sampler(DRAW.name, N); } },
+      { name: 'trophy', tint: [ORANGE, GOLD], make: function () { return sampler(DRAW.trophy, N); } },
+      { name: 'the app on a phone', tint: [VIOLET, BLUE], make: function () { return sampler(DRAW.phone, N); } },
+      { name: 'Lounge (speech bubble)', tint: [CYAN, GREEN], make: function () { return sampler(DRAW.bubble, N); } },
+      { name: 'level-up star', tint: [PINK, GOLD], make: function () { return sampler(DRAW.star, N); } },
+      { name: 'Daily Spin (wheel)', tint: [GOLD, PINK], make: function () { return sampler(DRAW.wheel, N); } },
       { name: 'crypto coin', tint: [ORANGE, GOLD], make: function () { return coin(DRAW.coinB, N); } },
-      { name: 'streak flame', tint: [RED, GOLD], make: function () { return sample(DRAW.flame, N); } }
+      { name: 'streak flame', tint: [RED, GOLD], make: function () { return sampler(DRAW.flame, N); } }
     ];
     var LOOP = SHAPES.length, CLOUD = LOOP;   // the cloud is the opening shape, one past the list
 
     // One buffer per shape, filled in as each is built. The cloud is ready now.
     var posBuf = [], gains = [], tints = [], built = 0;
     posBuf[CLOUD] = F.cloud; gains[CLOUD] = GAIN_OPEN; tints[CLOUD] = [VIOLET, CYAN];
-    function buildNext() {
+    // One slice of building. The first slice of a shape reads its drawing,
+    // each one after it places SLICE_DOTS dots, and the slice that places
+    // the last of them hands the shape to the graphics chip. A shape that
+    // cannot be drawn on this device is shown as the cloud.
+    var making = null, placed = 0;
+    function buildStep() {
       if (F.dead || built >= LOOP) return;
-      var shape = SHAPES[built], made = null;
-      try { made = shape.make(); } catch (err) { made = null; warn('the shape "' + shape.name + '" could not be drawn and is shown as a cloud:', err); }
-      // A shape that cannot be drawn on this device is shown as the cloud.
-      posBuf[built] = made ? F.buffer(made.data) : F.cloud;
-      gains[built] = made ? made.gain : GAIN_OPEN;
-      tints[built] = shape.tint;
-      built++;
+      var shape = SHAPES[built];
+      try {
+        if (!making) {
+          making = shape.make(); placed = 0;
+          // A line of SHAPES whose `make` hands back nothing (a forgotten
+          // `return`) would otherwise be read again on every step, for ever.
+          if (!making) throw new Error('its make() returned nothing');
+          return;
+        }
+        var upTo = Math.min(N, placed + SLICE_DOTS);
+        making.fill(placed, upTo); placed = upTo;
+        if (placed < N) return;
+        posBuf[built] = F.buffer(making.data); gains[built] = making.gain;
+      } catch (err) {
+        warn('the shape "' + shape.name + '" could not be drawn and is shown as a cloud:', err);
+        posBuf[built] = F.cloud; gains[built] = GAIN_OPEN;
+      }
+      tints[built] = shape.tint; built++; making = null;
     }
-    function buildRest() { buildNext(); if (built < LOOP && !F.dead) window.setTimeout(buildRest, BUILD_GAP_MS); }
+    // The shapes after the first: about one a second. One read of a drawing a
+    // second is what keeps the building out of the frames' way (the read is
+    // the long piece, and the page's too-slow rule counts every long frame);
+    // the slices take the placing of the dots out of the read's own frame.
+    // tick() chooses the next shape as the one on screen finishes building in,
+    // so the second shape has to exist 1.9 s after the first frame (it is
+    // ready about 0.7 s after it where timers run on time), and after that a
+    // shape every four seconds, or every two when the visitor clicks on. One
+    // that is late is not waited for: the first shape is shown again.
+    function buildRest() {
+      var before = built;
+      buildStep();
+      if (built < LOOP && !F.dead) window.setTimeout(buildRest, built > before ? SHAPE_GAP_MS : SLICE_GAP_MS);
+    }
 
     // Layout: the canvas covers the whole top section; the shape is drawn
     // where the picture column is.
@@ -592,6 +673,14 @@
       halfPx = Math.min(v.width * 0.42, v.height * 0.62, MAX_HALF_PX);
       baseScale = halfPx * CAMERA_Z / (SHAPE_HALF * FOCAL * heroH / 2);
       F.lens(heroW, heroH, centreX, centreY);
+      // The shape is taller than the picture column it is drawn on (a quarter
+      // taller on a phone, more while it swells). The page is told by how much
+      // it sticks out, top and bottom, and stretches the column's reach to the
+      // whole shape (`.hero2-visual::after` in index.html): a click on the
+      // shape's top or bottom edge then skips on like one on its middle, and
+      // quick clicks there select nothing (they used to select the "10,000"
+      // under it: founder, 28 Nov 2026, "when clicking it highlights a block").
+      visual.style.setProperty('--fx-over', Math.max(0, Math.ceil(halfPx * (1 + HERO_SWELL) - v.height / 2)) + 'px');
     }
 
     // Pointer: turn toward it; swell when it is over the shape; a click on the
@@ -630,12 +719,12 @@
       dots.from = posBuf[from]; dots.to = posBuf[to]; dots.tintFrom = tints[from]; dots.tintTo = tints[to];
       dots.progress = progress;
       dots.gain = gains[from] + (gains[to] - gains[from]) * Math.min(1, progress * 1.3);
-      F.scale = baseScale * (1 + 0.14 * swell); F.turnX = turnX * HERO_TURN_X; F.turnY = turnY * HERO_TURN_Y;
+      F.scale = baseScale * (1 + HERO_SWELL * swell); F.turnX = turnX * HERO_TURN_X; F.turnY = turnY * HERO_TURN_Y;
     }
 
     // `?fx-shape=7` opens on that shape in the list (0 is the first): for testing.
     var first = parseInt((/[?&]fx-shape=(\d+)/.exec(query) || [])[1], 10) % LOOP || 0;
-    do { buildNext(); } while (built <= first);   // up to the opening shape, before the first frame
+    while (built <= first && !F.dead) buildStep();   // up to the opening shape, whole, before the first frame
     to = first;
     F.start(tick, layout, function () {
       doneWaiting();   // it gave up: the card is the picture again
@@ -644,7 +733,7 @@
       host.removeEventListener('pointercancel', away);
       visual.removeEventListener('click', onClick);
     });
-    window.setTimeout(buildRest, BUILD_GAP_MS);   // the others, one at a time
+    window.setTimeout(buildRest, BUILD_GAP_MS);   // the others, a slice at a time
     return true;
   }
 
@@ -665,7 +754,7 @@
   var M_ROOM_PX = 150;            // clear space he needs on his right, for a prop held at arm's length
   var M_SHIFT_MAX_PX = 70;        // the scene moves left by up to this much to get it
   var M_STICK = 7200, M_LOGO = 4600, M_PROP = 2400, M_SHADOW = 520;            // dots
-  var M_STICK_FEW = 4200, M_LOGO_FEW = 2800, M_PROP_FEW = 1500, M_SHADOW_FEW = 320; // dots when the device reports 4 GB or less
+  var M_STICK_FEW = 4200, M_LOGO_FEW = 2800, M_PROP_FEW = 1500, M_SHADOW_FEW = 320; // dots when the device reports under 4 GB
   var M_IDLE_SECONDS = 10;        // rest between two runs of the routine
   var M_BURST = 0.3;              // how far his dots fly when he bursts and rebuilds
   var M_CLOUD = 0.42;             // size of the cloud he first builds in from
@@ -772,7 +861,7 @@
     if (!svg || !flat) return;
     var fault = routineFault(dance);
     if (fault) { warn('the stickman animation is off: its routine has a mistake:', fault); return; }
-    var few = navigator.deviceMemory && navigator.deviceMemory <= 4;
+    var few = lowMemory();
     var nLogo = few ? M_LOGO_FEW : M_LOGO, nStick = few ? M_STICK_FEW : M_STICK, nProp = few ? M_PROP_FEW : M_PROP, nShadow = few ? M_SHADOW_FEW : M_SHADOW;
     var F = field(cv, host, nShadow + nLogo + nStick + nProp, true);
     if (!F) return;
@@ -993,7 +1082,7 @@
     shadowA.from = shadowA.to = F.buffer(patch); shadowA.dot = M_SHADOW_DOT; shadowA.edge = 0;
     shadowA.tintFrom = shadowA.tintTo = [INK, INK];
     var logoBuf = null;
-    try { logoBuf = F.buffer(logoShape(logo, nLogo).data); } catch (err) { logoBuf = null; warn('the logo beside the stickman could not be drawn and is left out:', err); }
+    try { logoBuf = F.buffer(whole(logoShape(logo, nLogo)).data); } catch (err) { logoBuf = null; warn('the logo beside the stickman could not be drawn and is left out:', err); }
     var logoCloud = cloudOf(nShadow, nLogo, M_LOGO_CLOUD);
     logoA.from = logoCloud; logoA.to = logoBuf || logoCloud; logoA.dot = M_LOGO_DOT; logoA.halo = M_LOGO_HALO; logoA.edge = 0.25;
     var stickBuf = F.buffer(stick, true), snapBuf = F.buffer(stick, true), stickCloud = cloudOf(nShadow + nLogo, nStick, M_CLOUD);
@@ -1003,7 +1092,7 @@
     function propBuf(kind) {
       if (!propBufs[kind]) {
         var made = null;
-        try { made = kind === 'coin' ? coin(DRAW.coinDollar, nProp) : sample(DRAW[kind], nProp); } catch (err) { made = null; warn('the prop "' + kind + '" could not be drawn and is left out:', err); }
+        try { made = kind === 'coin' ? whole(coin(DRAW.coinDollar, nProp)) : sample(DRAW[kind], nProp); } catch (err) { made = null; warn('the prop "' + kind + '" could not be drawn and is left out:', err); }
         propBufs[kind] = made ? F.buffer(made.data) : propBufs.none;
       }
       return propBufs[kind];
@@ -1025,7 +1114,12 @@
       // against the canvas's own edge (old browsers, see the CSS), move the scene
       // left, so a prop in his outstretched hand is not cut off.
       var room = Math.min(document.documentElement.clientWidth, r.right) - (s.left + s.width / 2);
-      midX -= Math.max(0, Math.min(M_SHIFT_MAX_PX, M_ROOM_PX - room));
+      var shift = Math.max(0, Math.min(M_SHIFT_MAX_PX, M_ROOM_PX - room));
+      midX -= shift;
+      // The page is told, so that the reach of his box (`.mascot::before` and
+      // `::after` in index.html: where a click replays him and nothing can be
+      // selected) moves left with him.
+      host.style.setProperty('--fx-shift', Math.round(shift) + 'px');
       var midY = feetY - (M_FLOOR_Y - M_MID_Y) * perUnit;
       F.lens(r.width, r.height, midX, midY);
       baseScale = perUnit / U * 2 * CAMERA_Z / (FOCAL * r.height);
@@ -1249,6 +1343,13 @@
   // - A prop that follows `none` appears at its own propAt; a prop that changes
   //   kind glides there from where the last one was. So a `none` beat between
   //   two props should keep the old propAt.
+  // The reach of his box (where a click replays him: two rules in index.html,
+  // `.mascot.fx-on::before` and `::after`) was measured for the places THIS
+  // routine uses. `floorL`, a low `handL`, a higher jump or a bigger prop
+  // stand outside it (floorL where he is drawn left of his box, on a window
+  // under about 1210 px wide), and between about 900 and 930 px wide a prop at
+  // floorL is drawn over the end of the heading: measure the reach again
+  // (`?fx=force&fx-beat=N` at 900, 1024 and 1280 px) before using them.
   // This routine was chosen on 28 Nov 2026 from three written for it: he waves,
   // pokes the logo, then shows the six ideas of the six cards below, in order.
   var MASCOT_DANCE = {
