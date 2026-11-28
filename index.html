@@ -1422,6 +1422,15 @@
     .card-stage.fx-on { background: #fff; background: radial-gradient(ellipse 70% 80% at 50% 90%, color-mix(in srgb, var(--sk, #20C4FB) 16%, #fff), #fff 72%); cursor: pointer; -webkit-user-select: none; user-select: none; }
     .card-stage.fx-on .card-fx { opacity: 1; }
     .card-stage.fx-on .sticker-img { visibility: hidden; }
+    /* No old picture before the dots (founder, 28 Nov 2026: "the website shows old cards then
+       the new dottt animations? this should only be the dot animations for stick men in
+       cards"). While the dots are going to run, <html> has fx-dancers from the first paint
+       (the script in <head>) and the stickmen's pictures stay hidden; one comes back only if
+       its animation gives up (fx-gave-up), all of them if the animations stay off. */
+    .fx-dancers .sticker-card .sticker-img { visibility: hidden; }
+    .fx-dancers .card-stage.fx-gave-up .sticker-img { visibility: visible; }
+    .fx-dancers .mascot:not(.fx-on):not(.fx-gave-up) .mascot-svg,
+    .fx-dancers .mascot:not(.fx-on):not(.fx-gave-up) .mascot-logo { visibility: hidden; }
     /* How-it-works steps as stickers (reuses .step-card + .step-num). */
     .band-light .step-card {
       background: #fff; border: 2px solid #111a3a; border-radius: 20px;
@@ -1478,8 +1487,13 @@
           if (navigator.deviceMemory && navigator.deviceMemory < 2) return;
         }
         root.classList.add('fx-wait');
+        // The stickmen's pictures stay out of sight too (fx.js: dancersOff, gaveUp).
+        root.classList.add('fx-dancers');
         window.addEventListener('load', function () {
-          window.setTimeout(function () { root.classList.remove('fx-wait'); }, 6000);
+          window.setTimeout(function () {
+            root.classList.remove('fx-wait');
+            if (!root.classList.contains('fx-dancers-on')) root.classList.remove('fx-dancers');   // fx.js never ran
+          }, 6000);
         });
       } catch (err) {
         // The card simply shows, as it did before there was an animation.

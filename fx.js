@@ -67,6 +67,16 @@
   // stays hidden under fx-on), or it will not start (the card fades in and is
   // the picture, as it always was).
   function doneWaiting() { document.documentElement.classList.remove('fx-wait'); }
+  // The stickmen's pictures (the six cards' and the drawn one in the band)
+  // are kept out of sight from the first paint while the dots are going to
+  // run: the page's <head> puts fx-dancers on <html> (founder, 28 Nov 2026:
+  // "the website shows old cards then the new dottt animations? this should
+  // only be the dot animations for stick men in cards"). A picture shows
+  // again only where its animation cannot run: all of them when the
+  // animations stay off here (dancersOff), one when its own gives up
+  // (fx-gave-up on its box).
+  function dancersOff() { document.documentElement.classList.remove('fx-dancers'); }
+  function gaveUp(box) { box.classList.add('fx-gave-up'); }
 
   var query = window.location.search;
   var FORCE = /[?&]fx=force\b/.test(query);
@@ -83,7 +93,7 @@
     // so the dots could vanish against them while their fallback was hidden.
     return window.matchMedia('(forced-colors: active)').matches;
   }
-  if (unwanted()) { doneWaiting(); return; }
+  if (unwanted()) { doneWaiting(); dancersOff(); return; }
 
   // ── Numbers both animations share ──────────────────────────────────────
   var CAMERA_Z = 5.4;
@@ -1428,6 +1438,7 @@
       held = true;
     }
     F.start(tick, layout, function () {
+      gaveUp(host);   // stopped (too slow, an error, reduced motion): his picture comes back
       window.removeEventListener('pointermove', onMove);
       document.documentElement.removeEventListener('pointerleave', away);
       host.removeEventListener('pointerdown', onTouch);
@@ -1710,7 +1721,7 @@
       var run = null;
       try { run = mascot(logo, s.stage, s.cv, s.dance, { svg: s.box, flat: s.flat, card: true, waiting: true }); }
       catch (err) { warn('a card\'s stickman animation is off:', err); }
-      if (!run) return;
+      if (!run) { gaveUp(s.stage); return; }
       s.card.addEventListener('pointerenter', function (e) { if (e.pointerType !== 'touch') run.play(); });
       s.card.addEventListener('pointerdown', function (e) { if (e.pointerType === 'touch') run.play(); }, { passive: true });
       if (touch) {
@@ -1739,17 +1750,21 @@
     }
     function go() {
       if (started) return; started = true;
-      if (!canReadCanvas()) { warn('the 3D animations are off: this browser does not let a page read its own canvas'); doneWaiting(); return; }
+      document.documentElement.classList.add('fx-dancers-on');   // fx.js is here: the page's safety timer stands down
+      if (!canReadCanvas()) { warn('the 3D animations are off: this browser does not let a page read its own canvas'); doneWaiting(); dancersOff(); return; }
       var top = false;
       run('top', function () { top = hero(logo); });
       if (!top) doneWaiting();   // no top animation on this device: the card is the picture
       // The mascot is started only when its band is about to scroll into view.
       var host = document.querySelector('.mascot'), cv = document.getElementById('mascotFx');
-      if (!host || !cv || !window.IntersectionObserver) { run('card', function () { startCards(logo); }); return; }
+      if (!window.IntersectionObserver) { dancersOff(); return; }   // nothing would ever start them
+      if (!host || !cv) { run('card', function () { startCards(logo); }); return; }
       var wait = new window.IntersectionObserver(function (entries) {
         if (!entries[entries.length - 1].isIntersecting) return;
         wait.disconnect();
-        run('mascot', function () { mascot(logo, host, cv, MASCOT_DANCE); });
+        var on = false;
+        run('mascot', function () { on = !!mascot(logo, host, cv, MASCOT_DANCE); });
+        if (!on) gaveUp(host);
       }, { rootMargin: '300px' });
       wait.observe(host);
       run('card', function () { startCards(logo); });
